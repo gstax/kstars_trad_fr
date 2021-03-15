@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_config\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-29 18:34+0100\n"
+"POT-Creation-Date: 2021-03-12 10:35+0100\n"
 "PO-Revision-Date: 2013-01-30 15:03+0100\n"
 "Last-Translator: Cyrille Bieuzent <bieuzent@gmail.com>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
@@ -182,9 +182,10 @@ msgstr "La fenêtre de configuration de &kstars;"
 #. Tag: primary
 #. +> trunk5
 #: config.docbook:122 config.docbook:152 config.docbook:160 config.docbook:168
-#: config.docbook:175 config.docbook:182 config.docbook:196 config.docbook:221
-#: config.docbook:229 config.docbook:795 config.docbook:823 config.docbook:874
-#: config.docbook:909 config.docbook:936 config.docbook:972 config.docbook:1051
+#: config.docbook:175 config.docbook:182 config.docbook:196 config.docbook:206
+#: config.docbook:231 config.docbook:239 config.docbook:805 config.docbook:833
+#: config.docbook:884 config.docbook:919 config.docbook:946 config.docbook:983
+#: config.docbook:1030 config.docbook:1129
 #, no-c-format
 msgid "Configure &kstars; window"
 msgstr "La fenêtre de configuration de &kstars;"
@@ -215,7 +216,7 @@ msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
 #: config.docbook:143
 #, fuzzy, no-c-format
 #| msgid "The <guilabel>Configure &kstars;</guilabel> window is divided into nine pages: <guilabel>Catalogs</guilabel>, <guilabel>Solar System</guilabel>, <guilabel>Satellites</guilabel>, <guilabel>Supernovae</guilabel>, <guilabel>Guides</guilabel>, <guilabel>Colors</guilabel>, <guilabel>INDI</guilabel>, <guilabel>Xplanet</guilabel>, and <guilabel>Advanced</guilabel>."
-msgid "The <guilabel>Configure &kstars;</guilabel> window is divided into eleven pages: <guilabel>Catalogs</guilabel>, <guilabel>Solar System</guilabel>, <guilabel>Satellites</guilabel>, <guilabel>Supernovae</guilabel>, <guilabel>Guides</guilabel>, <guilabel>Colors</guilabel>, <guilabel>FITS</guilabel>, <guilabel>INDI</guilabel>, <guilabel>Ekos</guilabel>, <guilabel>Xplanet</guilabel> and <guilabel>Advanced</guilabel>."
+msgid "The <guilabel>Configure &kstars;</guilabel> window is divided into twelve pages: <guilabel>Catalogs</guilabel>, <guilabel>Solar System</guilabel>, <guilabel>Satellites</guilabel>, <guilabel>Supernovae</guilabel>, <guilabel>Guides</guilabel>, <guilabel>Terrain</guilabel>, <guilabel>Colors</guilabel>, <guilabel>FITS</guilabel>, <guilabel>INDI</guilabel>, <guilabel>Ekos</guilabel>, <guilabel>Xplanet</guilabel> and <guilabel>Advanced</guilabel>."
 msgstr "La fenêtre <guilabel>Configuration de &kstars;</guilabel> est divisée en sept onglets : <guilabel>Catalogues</guilabel>, <guilabel>Système solaire</guilabel>, <guilabel>Satellites</guilabel>, <guilabel>Supernovae</guilabel>, <guilabel>Guides</guilabel>, <guilabel>Couleurs</guilabel>, <guilabel>INDI</guilabel>, <guilabel>Xplanet</guilabel> et <guilabel>Avancé</guilabel>."
 
 #. Tag: secondary
@@ -234,7 +235,7 @@ msgstr ""
 
 #. Tag: secondary
 #. +> trunk5
-#: config.docbook:161 config.docbook:796
+#: config.docbook:161 config.docbook:806
 #, no-c-format
 msgid "Solar System page"
 msgstr "Onglet Système solaire"
@@ -248,7 +249,7 @@ msgstr ""
 
 #. Tag: secondary
 #. +> trunk5
-#: config.docbook:169 config.docbook:824
+#: config.docbook:169 config.docbook:834
 #, fuzzy, no-c-format
 #| msgid "Catalogs page"
 msgid "Satellites page"
@@ -264,7 +265,7 @@ msgstr "L'onglet des <guilabel>couleurs</guilabel> vous permet de définir le th
 
 #. Tag: secondary
 #. +> trunk5
-#: config.docbook:176 config.docbook:875
+#: config.docbook:176 config.docbook:885
 #, no-c-format
 msgid "Supernovae page"
 msgstr ""
@@ -279,7 +280,7 @@ msgstr "L'onglet <guilabel>Avancé</guilabel> fournit un contrôle fin des compo
 
 #. Tag: secondary
 #. +> trunk5
-#: config.docbook:183 config.docbook:910
+#: config.docbook:183 config.docbook:920
 #, no-c-format
 msgid "Guides page"
 msgstr "Onglet Guides"
@@ -307,22 +308,22 @@ msgstr ""
 
 #. Tag: secondary
 #. +> trunk5
-#: config.docbook:197 config.docbook:937
+#: config.docbook:197 config.docbook:947
 #, no-c-format
-msgid "Colors page"
-msgstr "Onglet Couleurs"
+msgid "Terrain page"
+msgstr ""
 
 #. Tag: primary
 #. +> trunk5
-#: config.docbook:198 config.docbook:938 config.docbook:1112
+#: config.docbook:198
 #, no-c-format
-msgid "Color Schemes"
-msgstr "Chartes de couleurs"
+msgid "Terrain image"
+msgstr ""
 
 #. Tag: secondary
 #. +> trunk5
-#: config.docbook:199 config.docbook:939 config.docbook:1120
-#: config.docbook:1127 config.docbook:1151
+#: config.docbook:199 config.docbook:209 config.docbook:986
+#: config.docbook:1198 config.docbook:1205 config.docbook:1229
 #, no-c-format
 msgid "Customizing"
 msgstr "Personnalisation"
@@ -332,12 +333,34 @@ msgstr "Personnalisation"
 #: config.docbook:199
 #, fuzzy, no-c-format
 #| msgid "The <guilabel>Colors</guilabel> page allows you to set the color scheme, and to define custom color schemes. The tab is split into two panels:"
+msgid "The <guilabel>Terrain</guilabel> page allows you to set the terrain or landscape image and configure its speedup options."
+msgstr "L'onglet des <guilabel>couleurs</guilabel> vous permet de définir le thème de couleur, et de définir des thèmes de couleurs personnalisés. Cette section est séparée en deux :"
+
+#. Tag: secondary
+#. +> trunk5
+#: config.docbook:207 config.docbook:984
+#, no-c-format
+msgid "Colors page"
+msgstr "Onglet Couleurs"
+
+#. Tag: primary
+#. +> trunk5
+#: config.docbook:208 config.docbook:985 config.docbook:1190
+#, no-c-format
+msgid "Color Schemes"
+msgstr "Chartes de couleurs"
+
+#. Tag: para
+#. +> trunk5
+#: config.docbook:209
+#, fuzzy, no-c-format
+#| msgid "The <guilabel>Colors</guilabel> page allows you to set the color scheme, and to define custom color schemes. The tab is split into two panels:"
 msgid "The <guilabel>Colors</guilabel> page allows you to set the color scheme, and to define new custom color schemes."
 msgstr "L'onglet des <guilabel>couleurs</guilabel> vous permet de définir le thème de couleur, et de définir des thèmes de couleurs personnalisés. Cette section est séparée en deux :"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:205
+#: config.docbook:215
 #, fuzzy, no-c-format
 #| msgid "For detailed explanation of the options on the <guilabel>INDI</guilabel> page see the <link linkend=\"indi-configure\">Configure INDI</link> section."
 msgid "For detailed explanation of the options on the <guilabel>FITS</guilabel> page see the <link linkend=\"fits-configure\">Configure FITS</link> section."
@@ -345,14 +368,14 @@ msgstr "Pour une explication détaillée des options sur <guilabel>INDI</guilabe
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:210 config.docbook:1009
+#: config.docbook:220 config.docbook:1067
 #, no-c-format
 msgid "For detailed explanation of the options on the <guilabel>INDI</guilabel> page see the <link linkend=\"indi-configure\">Configure INDI</link> section."
 msgstr "Pour une explication détaillée des options sur <guilabel>INDI</guilabel>veuillez vous reporter à la section <link linkend=\"indi-configure\">Configurer INDI</link>."
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:215
+#: config.docbook:225
 #, fuzzy, no-c-format
 #| msgid "For detailed explanation of the options on the <guilabel>INDI</guilabel> page see the <link linkend=\"indi-configure\">Configure INDI</link> section."
 msgid "For detailed explanation of <guilabel>Ekos</guilabel> astrophotography suite, see the <link linkend=\"tool-ekos\">Ekos section of this manual</link>."
@@ -360,7 +383,7 @@ msgstr "Pour une explication détaillée des options sur <guilabel>INDI</guilabe
 
 #. Tag: secondary
 #. +> trunk5
-#: config.docbook:222
+#: config.docbook:232
 #, fuzzy, no-c-format
 #| msgid "Advanced page"
 msgid "Xplanet page"
@@ -368,35 +391,35 @@ msgstr "Onglet Avancé"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:222
+#: config.docbook:232
 #, no-c-format
 msgid "The <guilabel>Xplanet</guilabel> page provides fine-grained control over <ulink url=\"http://xplanet.sourceforge.net/\">Solar system planet surface renderer Xplanet</ulink> (should be installed separately)."
 msgstr ""
 
 #. Tag: secondary
 #. +> trunk5
-#: config.docbook:230 config.docbook:1052
+#: config.docbook:240 config.docbook:1130
 #, no-c-format
 msgid "Advanced page"
 msgstr "Onglet Avancé"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:230 config.docbook:1052
+#: config.docbook:240 config.docbook:1130
 #, no-c-format
 msgid "The <guilabel>Advanced</guilabel> page provides fine-grained control over the more subtle behaviors of &kstars;."
 msgstr "L'onglet <guilabel>Avancé</guilabel> fournit un contrôle fin des comportements les plus obscurs de &kstars;."
 
 #. Tag: title
 #. +> trunk5
-#: config.docbook:237
+#: config.docbook:247
 #, no-c-format
 msgid "<title>Catalogs</title>"
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk5
-#: config.docbook:240
+#: config.docbook:250
 #, fuzzy, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Catalogs Window</screeninfo>"
@@ -404,7 +427,7 @@ msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: config.docbook:246
+#: config.docbook:256
 #, fuzzy, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Catalogs Window</phrase>"
@@ -412,398 +435,398 @@ msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
 
 #. Tag: primary
 #. +> trunk5
-#: config.docbook:253
+#: config.docbook:263
 #, no-c-format
 msgid "<primary>Catalogs page</primary>"
 msgstr ""
 
 #. Tag: secondary
 #. +> trunk5
-#: config.docbook:254
+#: config.docbook:264
 #, no-c-format
 msgid "Short overview"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:254
+#: config.docbook:264
 #, no-c-format
 msgid "In the <guilabel>Catalogs</guilabel> page, you can configure which object catalogs are displayed by &kstars;, as well as how much information you would like to be included on the Sky Map. By default, &kstars; includes ~300,000 named and unnamed stars up to magnitude 8. For Deep Sky Objects, the included catalogs are New General Catalog (<quote>NGC</quote>), Index Catalog (<quote>IC</quote>), and Messier Catalog."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:261
+#: config.docbook:271
 #, no-c-format
 msgid "New General Catalogue of Nebulae and Clusters of Stars (abbreviated as NGC) is a catalogue of 7,840 deep-sky objects."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:266
+#: config.docbook:276
 #, no-c-format
 msgid "Index Catalogue of Nebulae and Clusters of Stars (abbreviated as IC) serves as a supplement to the NGC, and contains an additional 5,386 objects, collectively known as the IC objects."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:271
+#: config.docbook:281
 #, no-c-format
 msgid "Messier Catalogue is a catalogue of 110 deep-sky objects, including diffuse nebulae, planetary nebulae, open clusters, globular clusters and galaxies. Messier objects have names like M1, M2, up to M110. The maximum apparent visual magnitude of Messier Catalogue is represented by M91's value of 10.2."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:277
+#: config.docbook:287
 #, no-c-format
 msgid "You can install new catalogues using &kstars; <quote>Add-On Installer</quote>. You can open it by opening the <menuchoice><guimenu>Data</guimenu><guimenuitem>Download New Data...</guimenuitem></menuchoice> submenu. You can choose from a list of catalogues, including:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:283
+#: config.docbook:293
 #, no-c-format
 msgid "Steinicke NGC/IC Catalog: is a more complete NGC/IC catalog."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:287
+#: config.docbook:297
 #, no-c-format
 msgid "Abell Planetary Nebulae Catalog: is a catalog of 86 planetary nebulae. The maximum magnitude is represented by Abell 47's value of 19.5."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:292
+#: config.docbook:302
 #, no-c-format
 msgid "Sharpless HII region Catalog: is the Sharpless (Sh2) catalog of HII regions (diffuse nebulae)."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:296
+#: config.docbook:306
 #, no-c-format
 msgid "Hickson Compact Groups: is a catalog consisting of 99 compact groups of galaxies."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:300
+#: config.docbook:310
 #, no-c-format
 msgid "Tycho-2 Star Catalog: is a catalog of more than 2.5 million of the brightest stars. It contains stars with a magnitude value from 8.0 to 12.5."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:305
+#: config.docbook:315
 #, no-c-format
 msgid "USNO NOMAD Catalog: is a catalog of about 100 million stars with magnitude from 12.5 to 16.5. Note that is requires Tycho-2 to be installed."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:313
+#: config.docbook:323
 #, no-c-format
 msgid "The following is a summary of catalogs in KStars:"
 msgstr ""
 
 #. Tag: title
 #. +> trunk5
-#: config.docbook:316
+#: config.docbook:326
 #, no-c-format
 msgid "Stars Catalogues"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:320 config.docbook:361
+#: config.docbook:330 config.docbook:371
 #, no-c-format
 msgid "Name"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:321 config.docbook:362
+#: config.docbook:331 config.docbook:372
 #, no-c-format
 msgid "Abbreviation"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:322 config.docbook:363
+#: config.docbook:332 config.docbook:373
 #, no-c-format
 msgid "Number of objects"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:323 config.docbook:364
+#: config.docbook:333 config.docbook:374
 #, no-c-format
 msgid "Magnitude"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:324 config.docbook:365
+#: config.docbook:334 config.docbook:375
 #, no-c-format
 msgid "Add-On"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:325 config.docbook:331 config.docbook:366
+#: config.docbook:335 config.docbook:341 config.docbook:376
 #, no-c-format
 msgid "Default"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:330
+#: config.docbook:340
 #, no-c-format
 msgid "Default Catalog"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:332
+#: config.docbook:342
 #, no-c-format
 msgid "~300,000"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:333
+#: config.docbook:343
 #, no-c-format
 msgid "Up to 8 magnitude"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:334 config.docbook:343 config.docbook:351 config.docbook:375
-#: config.docbook:383 config.docbook:391 config.docbook:400 config.docbook:409
-#: config.docbook:418 config.docbook:427
+#: config.docbook:344 config.docbook:353 config.docbook:361 config.docbook:385
+#: config.docbook:393 config.docbook:401 config.docbook:410 config.docbook:419
+#: config.docbook:428 config.docbook:437
 #, no-c-format
 msgid "<entry>No</entry>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:335 config.docbook:342 config.docbook:350 config.docbook:376
-#: config.docbook:384 config.docbook:392 config.docbook:399 config.docbook:408
-#: config.docbook:417 config.docbook:426
+#: config.docbook:345 config.docbook:352 config.docbook:360 config.docbook:386
+#: config.docbook:394 config.docbook:402 config.docbook:409 config.docbook:418
+#: config.docbook:427 config.docbook:436
 #, no-c-format
 msgid "<entry>Yes</entry>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:338
+#: config.docbook:348
 #, no-c-format
 msgid "Tycho-2"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:339
+#: config.docbook:349
 #, no-c-format
 msgid "Tycho2"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:340
+#: config.docbook:350
 #, no-c-format
 msgid "more than 2.5 million"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:341
+#: config.docbook:351
 #, no-c-format
 msgid "8.0-12.5"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:346
+#: config.docbook:356
 #, no-c-format
 msgid "Naval Observatory Merged Astronomic Dataset"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:347
+#: config.docbook:357
 #, no-c-format
 msgid "USNO NOMAD"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:348
+#: config.docbook:358
 #, no-c-format
 msgid "100 million"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:349
+#: config.docbook:359
 #, no-c-format
 msgid "12.5-16.5"
 msgstr ""
 
 #. Tag: title
 #. +> trunk5
-#: config.docbook:357
+#: config.docbook:367
 #, no-c-format
 msgid "Deep-sky objects Catalogues"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:371
+#: config.docbook:381
 #, no-c-format
 msgid "Index Catalogue of Nebulae and Clusters of Stars"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:372
+#: config.docbook:382
 #, no-c-format
 msgid "<entry>IC</entry>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:373
+#: config.docbook:383
 #, no-c-format
 msgid "5,386"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:374
+#: config.docbook:384
 #, no-c-format
 msgid "Up to 18.3 magnitude"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:379
+#: config.docbook:389
 #, no-c-format
 msgid "New General Catalogue of Nebulae and Clusters of Stars"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:380
+#: config.docbook:390
 #, no-c-format
 msgid "<entry>NGC</entry>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:381
+#: config.docbook:391
 #, no-c-format
 msgid "7,840"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:382 config.docbook:388 config.docbook:396 config.docbook:397
-#: config.docbook:398 config.docbook:405 config.docbook:415 config.docbook:416
-#: config.docbook:423 config.docbook:425
+#: config.docbook:392 config.docbook:398 config.docbook:406 config.docbook:407
+#: config.docbook:408 config.docbook:415 config.docbook:425 config.docbook:426
+#: config.docbook:433 config.docbook:435
 #, no-c-format
 msgid "<entry>-</entry>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:387
+#: config.docbook:397
 #, no-c-format
 msgid "Messier Catalogue"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:389
+#: config.docbook:399
 #, no-c-format
 msgid "<entry>110</entry>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:390
+#: config.docbook:400
 #, no-c-format
 msgid "Up to 10.2 magnitude"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:395
+#: config.docbook:405
 #, no-c-format
 msgid "Steinicke NGC/IC"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:404
+#: config.docbook:414
 #, no-c-format
 msgid "Abell Planetary Nebulae Catalog"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:406
+#: config.docbook:416
 #, no-c-format
 msgid "<entry>86</entry>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:407
+#: config.docbook:417
 #, no-c-format
 msgid "Up to 19.5 magnitude"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:413
+#: config.docbook:423
 #, no-c-format
 msgid "Sharpless HII region Catalog"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:414
+#: config.docbook:424
 #, no-c-format
 msgid "<entry>Sh2</entry>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:422
+#: config.docbook:432
 #, no-c-format
 msgid "Hickson Compact Groups"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk5
-#: config.docbook:424
+#: config.docbook:434
 #, no-c-format
 msgid "<entry>99</entry>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk5
-#: config.docbook:436 config.docbook:449
+#: config.docbook:446 config.docbook:459
 #, no-c-format
 msgid "<primary>Catalogs</primary>"
 msgstr ""
 
 #. Tag: secondary
 #. +> trunk5
-#: config.docbook:437
+#: config.docbook:447
 #, fuzzy, no-c-format
 #| msgid "Catalogs page"
 msgid "Star Catalogs"
@@ -811,133 +834,133 @@ msgstr "Onglet Catalogues"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:437
+#: config.docbook:447
 #, no-c-format
 msgid "The <guilabel>Stars</guilabel> section allows you to manage how stars are displayed in &kstars;. You can choose to see the stars or not by checking the <guilabel>Star Catalogs</guilabel> checkbox. If you check it, then multiple options will be enabled. Thus, you can set how many stars are drawn on the map using the <guilabel>Star Density</guilabel> slider. You can also customize &kstars; to toggle star name and <link linkend=\"ai-magnitude\">magnitudes</link>. Star names are drawn next to bright stars. To display labels of fainter stars, increase the <guilabel>Label density</guilabel> slider."
 msgstr ""
 
 #. Tag: secondary
 #. +> trunk5
-#: config.docbook:450
+#: config.docbook:460
 #, no-c-format
 msgid "Deep-Sky Catalogs"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:450
+#: config.docbook:460
 #, no-c-format
 msgid "Below the stars section, the <guilabel>Deep-Sky Objects</guilabel> section controls the display of several non-stellar object catalogs. You can toggle the display of Deep Sky Objects and control the display of their names and magnitudes. By default, the list of deep-sky objects includes the Messier, NGC and IC catalogs. Addons catalogs are available via the <menuchoice><guimenu>Data</guimenu><guimenuitem>Download New Data...</guimenuitem></menuchoice> submenu where you can download catalogs provided by &kstars; team and the community. Furthermore, &kstars; supports import of custom catalogs. To import a raw ASCII catalog data file into &kstars;, press the <guibutton>Import Catalog</guibutton> and follow the instructions. To import a custom catalog already in &kstars; catalog format, press the <guilabel>Load Catalog</guilabel> button. Each line in the custom catalog file should contain the following space-separated fields:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:466
+#: config.docbook:476
 #, no-c-format
 msgid "For stars: type(0 for stars), RA, Dec, mag, SpType, name(optional)"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:467
+#: config.docbook:477
 #, no-c-format
 msgid "For other types: type(3-8), RA, Dec, mag (optional), flux(optional), name(optional)"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:469
+#: config.docbook:479
 #, no-c-format
 msgid "The types are:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:471
+#: config.docbook:481
 #, no-c-format
 msgid "0: star"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:472
+#: config.docbook:482
 #, no-c-format
 msgid "1: star (in object catalog...probably don't want to use this)"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:473
+#: config.docbook:483
 #, no-c-format
 msgid "2: planet (don't use this in custom catalog)"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:474
+#: config.docbook:484
 #, no-c-format
 msgid "3: open cluster"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:475
+#: config.docbook:485
 #, no-c-format
 msgid "4: globular cluster"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:476
+#: config.docbook:486
 #, no-c-format
 msgid "5: gaseous nebula"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:477
+#: config.docbook:487
 #, no-c-format
 msgid "6: planetary nebula"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:478
+#: config.docbook:488
 #, no-c-format
 msgid "7: supernova remnant"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:479
+#: config.docbook:489
 #, no-c-format
 msgid "8: galaxy"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:480
+#: config.docbook:490
 #, no-c-format
 msgid "18: radio source"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:483
+#: config.docbook:493
 #, no-c-format
 msgid "The SpType is a short string for the spectral type. For example, <quote>B5</quote> or <quote>G2</quote>. The coordinates should be given as floating-point values, in the J2000.0 epoch. The name can be anything you wish. If the name is more than one word, it must be enclosed in quotation marks."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:490
+#: config.docbook:500
 #, no-c-format
 msgid "Once you have constructed a custom data file, open the &kstars; configuration window to the <guilabel>Catalogs</guilabel> tab, and press the <guibutton>Import Catalog...</guibutton> button. A popup window appears in which you can specify a name for the catalog, and the name of the file (including the path):"
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk5
-#: config.docbook:497
+#: config.docbook:507
 #, fuzzy, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Import Catalog Window</screeninfo>"
@@ -945,7 +968,7 @@ msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: config.docbook:503
+#: config.docbook:513
 #, fuzzy, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Import Catalog Window</phrase>"
@@ -953,21 +976,21 @@ msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:508
+#: config.docbook:518
 #, no-c-format
 msgid "When you press <guibutton>Ok</guibutton> button, &kstars; will attempt to read the lines of your data file. It will report any problems, and if any lines at all were successfully parsed, you are given a choice to accept the data file (ignoring any unparsed lines), or to cancel the operation to attempt to resolve the problems first."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:515
+#: config.docbook:525
 #, no-c-format
 msgid "You can load a new catalog using the <guibutton>Load Catalog...</guibutton> button. A new window will appear, asking you to specify the file that contains the catalog."
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk5
-#: config.docbook:520
+#: config.docbook:530
 #, fuzzy, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Load Catalog Window</screeninfo>"
@@ -975,7 +998,7 @@ msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: config.docbook:526
+#: config.docbook:536
 #, fuzzy, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Load Catalog Window</phrase>"
@@ -983,14 +1006,14 @@ msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:531
+#: config.docbook:541
 #, no-c-format
 msgid "Once the data file has been accepted, your custom catalog will be loaded on startup along with the standard catalogs. In the <guilabel>Catalogs</guilabel> window is a checkbox for each catalog which toggles the display of catalog objects."
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk5
-#: config.docbook:537
+#: config.docbook:547
 #, fuzzy, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Add Catalog</screeninfo>"
@@ -998,7 +1021,7 @@ msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: config.docbook:543
+#: config.docbook:553
 #, fuzzy, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Add Catalog</phrase>"
@@ -1006,14 +1029,14 @@ msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:548
+#: config.docbook:558
 #, no-c-format
 msgid "Note that, if you want to load a catalog that is already loaded, a warning dialog will pop-up."
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk5
-#: config.docbook:552
+#: config.docbook:562
 #, fuzzy, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Overwrite Catalog</screeninfo>"
@@ -1021,7 +1044,7 @@ msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: config.docbook:558
+#: config.docbook:568
 #, fuzzy, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Overwrite Catalog</phrase>"
@@ -1029,14 +1052,14 @@ msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:563
+#: config.docbook:573
 #, no-c-format
 msgid "You can remove custom catalogs by highlighting its checkbox in the <guilabel>Catalogs</guilabel> window, and pressing the <guibutton>Remove Catalog...</guibutton> button (this button is active only if a custom catalog is highlighted in the list of checkboxes). Note that it can not be used for removing &kstars; default catalogs."
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk5
-#: config.docbook:571
+#: config.docbook:581
 #, fuzzy, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Delete Catalog</screeninfo>"
@@ -1044,7 +1067,7 @@ msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: config.docbook:577
+#: config.docbook:587
 #, fuzzy, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Delete Catalog</phrase>"
@@ -1052,14 +1075,14 @@ msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:582
+#: config.docbook:592
 #, no-c-format
 msgid "For radio sources catalogs, you must include the flux frequency and units. For example:"
 msgstr ""
 
 #. Tag: programlisting
 #. +> trunk5
-#: config.docbook:583
+#: config.docbook:593
 #, no-c-format
 msgid ""
 "# Flux Frequency: 1420 Mhz\n"
@@ -1068,14 +1091,14 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:585
+#: config.docbook:595
 #, no-c-format
 msgid "The following is a simple catalog file:"
 msgstr ""
 
 #. Tag: programlisting
 #. +> trunk5
-#: config.docbook:586
+#: config.docbook:596
 #, no-c-format
 msgid ""
 "# Name: my_catalog\n"
@@ -1090,119 +1113,119 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:587
+#: config.docbook:597
 #, no-c-format
 msgid "Using the <guilabel>Catalogs</guilabel> window, you can define faint limits for sky objects for zoomed in and zoomed out states of the rendering. When the <guilabel>Show objects of unknown magnitude</guilabel> item is enabled, objects whose magnitudes are unknown, or not available to &kstars;, are drawn irrespective of the faint limits set."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:594
+#: config.docbook:604
 #, no-c-format
 msgid "The following is a brief tutorial on adding new catalogues to &kstars;. To import a new catalog, download a raw catalog data file where the data columns are space delimited. Any lines starting with # shall be ignored. For this example, we shall use the <quote>Lynds Catalog of Dark Nebulae</quote>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:603
+#: config.docbook:613
 #, no-c-format
 msgid "Download / write the raw catalog data file (the raw file is the file containing catalog's objects described by a set of parameters, like: ID Number, Right Ascension, Declination and so on)."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:609
+#: config.docbook:619
 #, no-c-format
 msgid "In order to successfully load a custom catalog into &kstars;, you need to use the following syntax: (otherwise your catalog will be entirely ignored or maybe some objects from your catalog will be wrongly drawn)"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:613
+#: config.docbook:623
 #, no-c-format
 msgid "Every object should be written on a separate row."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:614
+#: config.docbook:624
 #, no-c-format
 msgid "The fields of each line should be separated by white space."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:615
+#: config.docbook:625
 #, no-c-format
 msgid "The catalog header may contain comment lines beginning with the # symbol."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:616
+#: config.docbook:626
 #, no-c-format
 msgid "ID number: integer value."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:617
+#: config.docbook:627
 #, no-c-format
 msgid "Right Ascension: colon-delimited hh:mm:ss.s or floating-point value."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:618
+#: config.docbook:628
 #, no-c-format
 msgid "Declination: colon-delimited dd:mm:ss.s or floating-point value."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:619
+#: config.docbook:629
 #, no-c-format
 msgid "Object type: integer value, one of [ 0,1,2,3,4,5,6,7,8 ]."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:620
+#: config.docbook:630
 #, no-c-format
 msgid "Common name: string value (if it contains a space, it *must* be enclosed in quotes!)."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:621
+#: config.docbook:631
 #, no-c-format
 msgid "Magnitude: floating-point value."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:622
+#: config.docbook:632
 #, no-c-format
 msgid "Major axis: floating-point value (length of major axis in arcmin)."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:623
+#: config.docbook:633
 #, no-c-format
 msgid "Minor axis: floating-point value (length of minor axis in arcmin)."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:624
+#: config.docbook:634
 #, no-c-format
 msgid "Position angle: floating-point value (position angle, in degrees)."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:628
+#: config.docbook:638
 #, no-c-format
 msgid ""
 "The following is a subset of the original raw data file: <programlisting>\n"
@@ -1216,28 +1239,28 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:642
+#: config.docbook:652
 #, no-c-format
 msgid "ID Number"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:643
+#: config.docbook:653
 #, no-c-format
 msgid "Object Type"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:644
+#: config.docbook:654
 #, no-c-format
 msgid "Right Ascension"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:645
+#: config.docbook:655
 #, fuzzy, no-c-format
 #| msgid "Description"
 msgid "Declination"
@@ -1245,29 +1268,29 @@ msgstr "Description"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:650
+#: config.docbook:660
 #, no-c-format
 msgid "The raw <quote>Dark Nebulae by Lynds</quote> contains only three usable fields for &kstars;: Right Ascension, Declination and Area (square degrees). Therefore, in order to properly import the catalog into &kstars;, the ID and Object Type fields need to be added. You can insert these values manually using your favorite text editor. However, it is recommended to use any spreadsheet application to import the raw data file and add the necessary columns. This is especially convenient for large data sets. Since the original raw data contains an area field which is not supported by &kstars;, we need to approximate it to a usable value which is the Major Axis. Therefore, we use the following formula in the spreadsheet to convert area to major axis in arcminutes: <constant>Major Axis = sqrt(Area) * 60</constant>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:663
+#: config.docbook:673
 #, no-c-format
 msgid "After importing the raw data file into &kstars; and selecting the appropriate columns, &kstars; shall generate the final catalog file suitable for loading directly into &kstars;. For example, this is a small subset of the content (header + first five objects) of the <quote>Dark Nebulae by Lynds</quote> catalog which was created by &kstars; after importing the raw data file which only contains the data columns:"
 msgstr ""
 
 #. Tag: programlisting
 #. +> trunk5
-#: config.docbook:670
+#: config.docbook:680
 #, no-c-format
 msgid ""
-"# Delimiter:  \n"
+"# Delimiter:\n"
 "# Name: LyndsCatalog\n"
 "# Prefix: Lynds\n"
 "# Color: #ff7600\n"
 "# Epoch: 2000\n"
-"# ID  RA  Dc  Mj  Tp  \n"
+"# ID  RA  Dc  Mj  Tp\n"
 "1 16:26:0 -16:0:0.1 13.943 5\n"
 "2 18:4:0 -31:30:0.1 66.813 5\n"
 "3 18:0:0 -31:0:0.1 141.986 5\n"
@@ -1277,77 +1300,77 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:671
+#: config.docbook:681
 #, no-c-format
 msgid "As seen above, each column was assigned a &kstars; designated header such as the ID, Right Ascension, Declination, Major axis and Object Type fields. Note that the Catalog Prefix (<quote>Lynds</quote>) and the ID field are used together for identifying objects in the Sky Map (&ie; objects from this catalog will have names like: Lynds 1, Lynds 2, Lynds 617 up to the last object, Lynds 1791)."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:679
+#: config.docbook:689
 #, no-c-format
 msgid "Open the <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure &kstars;...</guimenuitem></menuchoice> menu and choose <guilabel>Catalogs</guilabel> tab."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:684
+#: config.docbook:694
 #, no-c-format
 msgid "In the Deep-Sky objects section, press the <guibutton>Import Catalog...</guibutton> button. If the button is not available, check the <guibutton>Deep-Sky Catalogs</guibutton> checkbox. This will enable you to configure &kstars; deep-sky objects catalogs."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:690
+#: config.docbook:700
 #, no-c-format
 msgid "After you press the <guibutton>Import Catalog...</guibutton> button, <guilabel>Import Catalog</guilabel> window will pop up. At first, click on <guibutton>Open file dialog</guibutton> button in order to select the raw data file."
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk5
-#: config.docbook:695
+#: config.docbook:705
 #, no-c-format
 msgid "Import catalog"
 msgstr ""
 
 #. Tag: phrase
 #. +> trunk5
-#: config.docbook:701
+#: config.docbook:711
 #, no-c-format
 msgid "Import new catalog"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:707
+#: config.docbook:717
 #, no-c-format
 msgid "In the dialog window, find your raw file, select it and then press <guibutton>Open</guibutton> button."
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk5
-#: config.docbook:710
+#: config.docbook:720
 #, no-c-format
 msgid "Open catalog"
 msgstr ""
 
 #. Tag: phrase
 #. +> trunk5
-#: config.docbook:716
+#: config.docbook:726
 #, no-c-format
 msgid "Open Dark Nebulae catalog"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:722
+#: config.docbook:732
 #, no-c-format
 msgid "Now, you need to specify the correct order of the catalog fields within the raw data file. The fields must be added inside <guilabel>Catalog fields</guilabel> list. Note that you can drag fields in order to build the right order or you can use additional fields from <guilabel>Available fields</guilabel> fields. For example, if your raw data file contains a magnitude column, then you need to add Magnitude field to the <guilabel>Catalog fields</guilabel> list."
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk5
-#: config.docbook:730
+#: config.docbook:740
 #, fuzzy, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Complete info for new catalog</screeninfo>"
@@ -1355,7 +1378,7 @@ msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: config.docbook:736
+#: config.docbook:746
 #, fuzzy, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Complete info for new catalog</phrase>"
@@ -1363,49 +1386,49 @@ msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:742
+#: config.docbook:752
 #, no-c-format
 msgid "After you set the fields so that they match to your catalog raw file, you can move to the next step: completing the remaining input fields: <guilabel>Coordinate epoch</guilabel>, <guilabel>Catalog name prefix</guilabel>, <guilabel>Catalog name</guilabel> and <guilabel>Save catalog as</guilabel>. You can also choose the <guilabel>Symbol color</guilabel> used for your catalog. There you can specify how the fields are split within the raw data file: CSV (Comma-separated values) or Space Delimited."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:751
+#: config.docbook:761
 #, no-c-format
 msgid "You can preview the output by pressing the <guibutton>Preview Output</guibutton> button. Pay attention to the header fields to have the same order as your catalog fields (&ie; ID RA Dec Major Axis and Object Type)."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:757
+#: config.docbook:767
 #, no-c-format
 msgid "Press <guibutton>OK</guibutton> button to close the <guilabel>Catalog Preview</guilabel> window. Then press <guibutton>OK</guibutton> button again to create and save your catalog."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:762
+#: config.docbook:772
 #, no-c-format
 msgid "After you successfully imported your catalog, it will be displayed in the catalogs list. You can choose to be displayed or not, by pressing on its checkbox."
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk5
-#: config.docbook:766
+#: config.docbook:776
 #, no-c-format
 msgid "Added Dark Nebulae by Lynds catalog"
 msgstr ""
 
 #. Tag: phrase
 #. +> trunk5
-#: config.docbook:772
+#: config.docbook:782
 #, no-c-format
 msgid "Dark Nebulae by Lynds catalog"
 msgstr ""
 
 #. Tag: title
 #. +> trunk5
-#: config.docbook:782
+#: config.docbook:792
 #, fuzzy, no-c-format
 #| msgid "Solar System page"
 msgid "Solar System"
@@ -1413,7 +1436,7 @@ msgstr "Onglet Système solaire"
 
 #. Tag: screeninfo
 #. +> trunk5
-#: config.docbook:784
+#: config.docbook:794
 #, fuzzy, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Solar System Window</screeninfo>"
@@ -1421,7 +1444,7 @@ msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: config.docbook:790
+#: config.docbook:800
 #, fuzzy, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Solar System Window</phrase>"
@@ -1429,21 +1452,21 @@ msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:796
+#: config.docbook:806
 #, no-c-format
 msgid "In the <guilabel>Solar System</guilabel> page, you can specify whether the Sun, Moon, planets, comets and asteroids are displayed, and whether the major bodies are drawn as colored circles or actual images. You can also toggle whether solar system bodies have name labels attached, and control how many of the comets and asteroids get name labels. There is an option to automatically attach a temporary <quote>orbit trail</quote> whenever a solar system body is tracked, and another to toggle whether the color of the orbit trail fades into the background sky color."
 msgstr "Dans l'onglet <guilabel>Système solaire</guilabel>, vous pouvez spécifier si le Soleil, la Lune, les planètes et astéroïdes seront affichés, et si les corps principaux sont dessinés comme des cercles colorés ou comme de vraies images. Vous pouvez aussi choisir si les corps du système solaire ont leurs noms attachés ou non, et contrôler combien de comètes et astéroïdes ont leur nom en libellé. Il y a une option pour attacher automatiquement une <quote>trace orbitale</quote> temporaire si un corps du système solaire est suivi, et une autre pour choisir si la couleur des traces de l'orbite disparaît dans la couleur de fond du ciel."
 
 #. Tag: title
 #. +> trunk5
-#: config.docbook:810
+#: config.docbook:820
 #, no-c-format
 msgid "Satellites"
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk5
-#: config.docbook:812
+#: config.docbook:822
 #, fuzzy, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Satellites Window</screeninfo>"
@@ -1451,7 +1474,7 @@ msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: config.docbook:818
+#: config.docbook:828
 #, fuzzy, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Satellites Window</phrase>"
@@ -1459,42 +1482,42 @@ msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:824
+#: config.docbook:834
 #, no-c-format
 msgid "The <guilabel>Satellites</guilabel> page allows you to set the satellites view options. Firstly, you can see or hide the satellites on the skymap using <guilabel>Show satellites</guilabel> checkbox from the top <guilabel>View options</guilabel> section. By default, satellites are drawn as small light red filled circles with an optional dark red name label next to them. You can enable or disable these labels by checking or not the <guilabel>Show labels</guilabel> checkbox. It is located below the <guilabel>Show satellites</guilabel> checkbox, within the <guilabel>View options</guilabel> section."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:832
+#: config.docbook:842
 #, no-c-format
 msgid "The colors of the dots representing satellites and their name labels can be easily customized using the <guilabel>Colors</guilabel> page from the same <guilabel>Configure &kstars;</guilabel> window. In addition, satellites can be drawn just like regular stars by checking the <guilabel>Draw satellites like stars</guilabel> checkbox. To display only the visible satellites from your current geographic location and time, select <guilabel>Show only visible satellites</guilabel>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:839
+#: config.docbook:849
 #, no-c-format
 msgid "&kstars; can draw artificial satellites from many predefined groups. Thus, you can select to display a particular group, multiple groups or partially select subgroups. Under each group, a list of individual satellites is presented. To select all satellites from a group, you need to check the group checkbox. You can also select only the satellites of interest in each group. The satellites orbital elements can be updated via the internet by pressing the <guibutton>Update TLEs</guibutton> button. Another way for updating the satellites orbital elements is to use the <menuchoice> <guisubmenu>Updates</guisubmenu><guimenuitem>Update satellites orbital elements</guimenuitem></menuchoice> in the <guimenu>Data</guimenu> menu. If you know the name of a desired satellite then you can use the search satellites method that &kstars; provides. You need to enter the name of satellite in the <guilabel>Search satellites</guilabel> text box and the list will be reduced only to its best matches."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:851
+#: config.docbook:861
 #, no-c-format
 msgid "You can add new satellites to &kstars; default satellites set by editing the <filename>kstars/data/satellites.dat</filename> file. As each line of this file is a group of satellites, you need to add a new entry for your desired satellites group. An entry should have the following format: <userinput>Group Name;local_filename;url</userinput>. For example: <userinput>Iridium;iridium.tle;http://celestrak.com/NORAD/elements/iridium.txt</userinput>."
 msgstr ""
 
 #. Tag: title
 #. +> trunk5
-#: config.docbook:861
+#: config.docbook:871
 #, no-c-format
 msgid "Supernovae"
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk5
-#: config.docbook:863
+#: config.docbook:873
 #, fuzzy, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Supernovae Window</screeninfo>"
@@ -1502,7 +1525,7 @@ msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: config.docbook:869
+#: config.docbook:879
 #, fuzzy, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Supernovae Window</phrase>"
@@ -1510,28 +1533,28 @@ msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:875
+#: config.docbook:885
 #, no-c-format
 msgid "The <guilabel>Supernovae</guilabel> page allows you to decide if the supernovae are displayed or not by checking the <guilabel>Show supernovae</guilabel> checkbox. By default, supernovae are drawn as small light orange <quote>+</quote> mark. As for satellites, the color of supernovae can be easily customized using the <guilabel>Colors</guilabel> page."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:880
+#: config.docbook:890
 #, no-c-format
 msgid "You can configure &kstars; to check for newly discovered supernovae on startup by checking the <guilabel>Check for Recent Supernovae on Startup</guilabel> checkbox. This way, &kstars; will be always up-to-date with the most recent supernovae. You can enable supernova alerts using the <guilabel>Enable Supernova alerts</guilabel> checkbox. Thus, &kstars; will automatically alert you every time it learns of a new supernova in the sky. You can set the magnitude limit for showing a supernova as well as magnitude limit for supernova alerts using the spin boxes control. The limiting magnitude is the faintest apparent magnitude of an skyobject that is visible with the naked-eye or a telescope."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:888
+#: config.docbook:898
 #, no-c-format
 msgid "The list of recent supernovae can be updated via the internet by pressing the <guibutton>Update List of Recent Supernovae</guibutton> button. Another way for updating the supernovae list is to use the <menuchoice><guisubmenu>Updates</guisubmenu><guimenuitem>Update Recent Supernovae data</guimenuitem></menuchoice> item in the <guimenu>Data</guimenu> menu."
 msgstr ""
 
 #. Tag: title
 #. +> trunk5
-#: config.docbook:896
+#: config.docbook:906
 #, fuzzy, no-c-format
 #| msgid "Guides page"
 msgid "Guides"
@@ -1539,7 +1562,7 @@ msgstr "Onglet Guides"
 
 #. Tag: screeninfo
 #. +> trunk5
-#: config.docbook:898
+#: config.docbook:908
 #, fuzzy, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Guides Window</screeninfo>"
@@ -1547,7 +1570,7 @@ msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: config.docbook:904
+#: config.docbook:914
 #, fuzzy, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Guides Window</phrase>"
@@ -1555,7 +1578,7 @@ msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:910
+#: config.docbook:920
 #, fuzzy, no-c-format
 #| msgid "The <guilabel>Guides</guilabel> page lets you toggle whether non-objects are displayed (&ie;, constellation lines, constellation names, the Milky Way contour, the <link linkend=\"ai-cequator\">celestial equator</link>, <link linkend=\"ai-ecliptic\">the ecliptic</link>, <link linkend=\"ai-horizon\">the horizon line</link>, and the opaque ground). You can also choose whether you would like to see Latin constellation names, <acronym>IAU</acronym>-standard three-letter abbreviations, or constellation names using your local language."
 msgid "The <guilabel>Guides</guilabel> page lets you toggle whether non-objects are displayed (&ie;, constellation lines, constellation names, the Milky Way contour, the <link linkend=\"ai-cequator\">celestial equator</link>, <link linkend=\"ai-ecliptic\">the ecliptic</link>, <link linkend=\"ai-horizon\">the horizon line</link>, and the opaque ground). You can also choose a sky culture, whether you would like to see Latin constellation names, <acronym>IAU</acronym>-standard three-letter abbreviations, or constellation names using your local language."
@@ -1563,7 +1586,73 @@ msgstr "L'onglet <guilabel>Guides</guilabel> vous permet de (dés)activer l'affi
 
 #. Tag: title
 #. +> trunk5
-#: config.docbook:923
+#: config.docbook:933
+#, no-c-format
+msgid "Terrain"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5
+#: config.docbook:935
+#, fuzzy, no-c-format
+#| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
+msgid "<screeninfo>Terrain Window</screeninfo>"
+msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
+
+#. Tag: phrase
+#. +> trunk5
+#: config.docbook:941
+#, fuzzy, no-c-format
+#| msgid "<phrase>Configure &kstars; Window</phrase>"
+msgid "<phrase>Terrain Window</phrase>"
+msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
+
+#. Tag: para
+#. +> trunk5
+#: config.docbook:947
+#, fuzzy, no-c-format
+#| msgid "The <guilabel>Colors</guilabel> page allows you to set the color scheme, and to define custom color schemes. The tab is split into two panels:"
+msgid "The <guilabel>Terrain</guilabel> page lets you configure whether the terrain (landscape) image will be shown on the skymap."
+msgstr "L'onglet des <guilabel>couleurs</guilabel> vous permet de définir le thème de couleur, et de définir des thèmes de couleurs personnalisés. Cette section est séparée en deux :"
+
+#. Tag: para
+#. +> trunk5
+#: config.docbook:950
+#, no-c-format
+msgid "The user is responsible for creating a partially-transparent image, that is overlayed onto the sky map. This image should have transparent regions that the user creates to let the skymap show through, and opaque regions representing the trees, buildings, the landscape around the telescope. There is a particular format required, and this is a significant effort. There are many resources on the web that explain how this is done for <ulink url=\"http://stellarium.org/landscapes.html\">Stellarium</ulink>. The details of image creation are the same."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: config.docbook:953
+#, no-c-format
+msgid "Initially, the user captures a full sphere equirectangular projection image from approximately the same point-of-view as his/her telescope. This kind of image can be captured with the Google Camera App, or the Google YouTube App on iPhone, or likely many other camera apps. The user then needs to edit the resulting image so that the sky is erased/transparent, and save it as a PNG. Finally, the user needs to determine where North is in the image, so it can eventually be aligned with the skymap. Once all that is done, the sky map can simulate the local sky view including the local terrain."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: config.docbook:956
+#, no-c-format
+msgid "Once the image is created, it is possible to upload it via the <guilabel>Terrain</guilabel> page and configure the azimuth correction value (in degrees) that allows the user to rotate the view so north in the sky map is aligned with the north in the image."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: config.docbook:959
+#, no-c-format
+msgid "Moreover, some speedup options can be configured to achieve the best user experience when rendering the terrain on the sky map."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: config.docbook:963
+#, no-c-format
+msgid "You can toggle the terrain overlay on and off using a keyboard shortcut <keycombo>&Ctrl;&Shift;<keycap>T</keycap></keycombo> and the <menuchoice><guimenu>View</guimenu><guimenuitem>Show terrain</guimenuitem></menuchoice> menu item."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: config.docbook:970
 #, fuzzy, no-c-format
 #| msgid "Colors page"
 msgid "Colors"
@@ -1571,7 +1660,7 @@ msgstr "Onglet Couleurs"
 
 #. Tag: screeninfo
 #. +> trunk5
-#: config.docbook:925
+#: config.docbook:972
 #, fuzzy, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Colors Window</screeninfo>"
@@ -1579,7 +1668,7 @@ msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: config.docbook:931
+#: config.docbook:978
 #, fuzzy, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Colors Window</phrase>"
@@ -1587,84 +1676,100 @@ msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:939
+#: config.docbook:986
 #, no-c-format
 msgid "The <guilabel>Colors</guilabel> page allows you to set the color scheme, and to define custom color schemes. The tab is split into two panels:"
 msgstr "L'onglet des <guilabel>couleurs</guilabel> vous permet de définir le thème de couleur, et de définir des thèmes de couleurs personnalisés. Cette section est séparée en deux :"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:943
+#: config.docbook:990
 #, no-c-format
 msgid "The left panel shows a list of all display items with adjustable colors. Click on any item to bring up a color selection window to adjust its color. Below the list is the <guilabel>Star Color Mode</guilabel> selection box. By default, &kstars; draws stars with a <link linkend=\"ai-colorandtemp\">realistic color</link> tint according to the spectral type of the star. However, you may also choose to draw the stars as solid white, black or red circles. If you are using the realistic star colors, you can set the saturation level of the star colors with the <guilabel>Star Color Intensity</guilabel> spinbox."
 msgstr "Sur la gauche se trouve la liste de tous les éléments graphiques qui sont ajustables. Cliquez pour faire apparaître une fenêtre de sélection de couleurs. Après la liste, se trouve une boîte de sélection <guilabel>Mode de couleurs des étoiles</guilabel>. Par défaut &kstars; utilise des teintes de <link linkend=\"ai-colorandtemp\">couleurs réalistes</link> qui se basent sur le type spectral des étoiles. Cependant, vous pouvez dire à &kstars; de dessiner les étoiles comme des cercles en utilisant seulement le blanc, le noir et le rouge. En mode réaliste, vous indiquez aussi le niveau de saturation des couleurs (à l'aide de l'outil <guilabel>Intensité des couleurs des étoiles</guilabel>)."
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:954
+#: config.docbook:1001
 #, no-c-format
 msgid "The right panel lists the defined color schemes. There are four predefined schemes: the <guilabel>Default Colors</guilabel> scheme, <guilabel>Star Chart</guilabel>, which uses black stars on a white background, <guilabel>Night Vision</guilabel>, which uses only shades of red in order to protect dark-adapted vision, and <guilabel>Moonless Night</guilabel>, a more realistic, dark theme. Additionally, you can save the current color settings as a custom scheme by clicking the <guibutton>Save Current Colors</guibutton> button. It will prompt you for a name for the new scheme, and then your scheme will appear in the list in all future &kstars; sessions. To remove a custom scheme, simply highlight it in the list, and press the <guibutton>Remove Color Scheme</guibutton> button."
 msgstr "Sur la droite se trouvent des modèles de couleurs prédéfinis. Quatre modèles existent déjà : <guilabel>par défaut</guilabel>, <guilabel>Carte du ciel</guilabel> (étoiles noires sur fond blanc),<guilabel>Vision Nocturne</guilabel> (étoiles de teinte rouge pour protéger les yeux adaptés à l'obscurité) et <guilabel>Nuit sans Lune</guilabel>, un thème sombre plus réaliste. Vous pouvez ajouter votre propre modèles en cliquant sur <guibutton>Enregistrer les couleurs actuelles...</guibutton>. On vous demandera alors un nom descriptif, puis ce modèle apparaîtra dans la liste lors des sessions futures de &kstars;. Pour supprimer un modèle personnalisé, surlignez-le dans la liste et actionnez le bouton <guibutton>Enlever le modèle de couleurs</guibutton>."
 
 #. Tag: title
 #. +> trunk5
-#: config.docbook:971
+#: config.docbook:1018
 #, no-c-format
 msgid "FITS"
 msgstr ""
 
+#. Tag: screeninfo
+#. +> trunk5
+#: config.docbook:1020
+#, fuzzy, no-c-format
+#| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
+msgid "<screeninfo>FITS Window</screeninfo>"
+msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
+
+#. Tag: phrase
+#. +> trunk5
+#: config.docbook:1026
+#, fuzzy, no-c-format
+#| msgid "<phrase>Configure &kstars; Window</phrase>"
+msgid "<phrase>FITS Window</phrase>"
+msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
+
 #. Tag: secondary
 #. +> trunk5
-#: config.docbook:973
+#: config.docbook:1031
 #, no-c-format
 msgid "FITS page"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:974
+#: config.docbook:1032
 #, no-c-format
 msgid "<abbrev>FITS</abbrev> (Flexible Image Transport System) is a popular open standard for storage, transmission and processing of digital data. For the details, one is referred to the <ulink url=\"https://en.wikipedia.org/wiki/FITS\">corresponding Wikipedia article</ulink>. This page allows you to configure presentation and processing of FITS data in &kstars;."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:976
+#: config.docbook:1034
 #, no-c-format
 msgid "The left panel is for configuring FITS viewer itself."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:979
+#: config.docbook:1037
 #, no-c-format
 msgid "Check the <guilabel>Use FITS Viewer</guilabel> item if you want automatically display received images in the FITS Viewer."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:982
+#: config.docbook:1040
 #, no-c-format
 msgid "The <guilabel>Single Preview Tab</guilabel> item is to display all captured FITS images in a single tab instead of multiple tabs per image. The <guilabel>Single Window Capture</guilabel> item is to display captured FITS images from all cameras in a single FITS Viewer window instead of a dedicated window to each camera. The <guilabel>Single Window Open</guilabel> item is to display opened FITS images in a single FITS Viewer window instead of a dedicated window to each file and the <guilabel>Independent Window</guilabel> item is to make FITS Viewer window independent from &kstars;."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:987
+#: config.docbook:1045
 #, no-c-format
 msgid "The right panel lists processing options. The <guilabel>Auto Stretch</guilabel> item is to always apply auto stretch to images in FITS Viewer, <guilabel>Limited Resources Mode</guilabel> is to enable limited resource mode to turn off any resource-intensive operations, namely: <guilabel>Auto Debayer</guilabel> (bayered images will not be debayered; only grayscale images are shown), <guilabel>Auto WCS</guilabel> (World Coordinate System data will not be processed; WCS maps sky coordinates to image coordinates; equatorial grid lines, object identification, and telescope slew within an image are disabled), and <guilabel>3D Cube</guilabel> (RGB images will not be processed; only grayscale images are shown). You can switch off some of these resource-greedy operations separately as well."
 msgstr ""
 
 #. Tag: title
 #. +> trunk5
-#: config.docbook:997
+#: config.docbook:1055
 #, no-c-format
 msgid "INDI"
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk5
-#: config.docbook:999
+#: config.docbook:1057
 #, fuzzy, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>INDI Window</screeninfo>"
@@ -1672,7 +1777,7 @@ msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: config.docbook:1005
+#: config.docbook:1063
 #, fuzzy, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>INDI Window</phrase>"
@@ -1680,14 +1785,14 @@ msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
 
 #. Tag: title
 #. +> trunk5
-#: config.docbook:1015
+#: config.docbook:1073
 #, no-c-format
 msgid "Ekos"
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk5
-#: config.docbook:1017
+#: config.docbook:1075
 #, fuzzy, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Ekos Window</screeninfo>"
@@ -1695,7 +1800,7 @@ msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: config.docbook:1023
+#: config.docbook:1081
 #, fuzzy, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Ekos Window</phrase>"
@@ -1703,14 +1808,45 @@ msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:1027
+#: config.docbook:1085
 #, no-c-format
 msgid "Ekos is an astrophotography suite, a complete astrophotography solution that can control all INDI devices including numerous telescopes, CCDs, DSLRs, focusers, filters, and a lot more. Ekos supports highly accurate tracking using online and offline astrometry solver, autofocus and autoguiding capabilities, and capture of single or multiple images using the powerful built in sequence manager. For detailed explanation of <guilabel>Ekos</guilabel>, see the <link linkend=\"tool-ekos\">Ekos section of this manual</link>."
 msgstr ""
 
 #. Tag: title
 #. +> trunk5
-#: config.docbook:1038
+#: config.docbook:1096
+#, fuzzy, no-c-format
+#| msgid "Advanced page"
+msgid "Xplanet"
+msgstr "Onglet Avancé"
+
+#. Tag: screeninfo
+#. +> trunk5
+#: config.docbook:1098
+#, fuzzy, no-c-format
+#| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
+msgid "<screeninfo>Xplanet Window</screeninfo>"
+msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
+
+#. Tag: phrase
+#. +> trunk5
+#: config.docbook:1104
+#, fuzzy, no-c-format
+#| msgid "<phrase>Configure &kstars; Window</phrase>"
+msgid "<phrase>Xplanet Window</phrase>"
+msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
+
+#. Tag: para
+#. +> trunk5
+#: config.docbook:1108
+#, no-c-format
+msgid "<ulink url=\"http://xplanet.sourceforge.net/\">Xplanet</ulink> (should be installed separately) is a solar system planet surface renderer. This page allows you to configure presentation and processing of <application>Xplanet</application> data in &kstars;."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: config.docbook:1116
 #, fuzzy, no-c-format
 #| msgid "Advanced page"
 msgid "Advanced"
@@ -1718,7 +1854,7 @@ msgstr "Onglet Avancé"
 
 #. Tag: screeninfo
 #. +> trunk5
-#: config.docbook:1040
+#: config.docbook:1118
 #, fuzzy, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Advanced Window</screeninfo>"
@@ -1726,7 +1862,7 @@ msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: config.docbook:1046
+#: config.docbook:1124
 #, fuzzy, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Advanced Window</phrase>"
@@ -1734,28 +1870,28 @@ msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
 
 #. Tag: primary
 #. +> trunk5
-#: config.docbook:1056
+#: config.docbook:1134
 #, no-c-format
 msgid "Atmospheric Refraction"
 msgstr "Réfraction atmosphérique"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:1056
+#: config.docbook:1134
 #, no-c-format
 msgid "The <guilabel>Correct for atmospheric refraction</guilabel> checkbox controls whether the positions of objects are corrected for the effects of the atmosphere. Because the atmosphere is a spherical shell, light from outer space is <quote>bent</quote> as it passes through the atmosphere to our telescopes or eyes on the Earth's surface. The effect is largest for objects near the horizon, and actually changes the predicted rise or set times of objects by a few minutes. In fact, when you <quote>see</quote> a sunset, the Sun's actual position is already well below the horizon; atmospheric refraction makes it seem as if the Sun is still in the sky. Note that atmospheric refraction is never applied if you are using <guilabel>Equatorial coordinates</guilabel>."
 msgstr "La case à cocher <guilabel>Corriger la réfraction atmosphérique</guilabel> contrôle si la position des objets est corrigée pour les effets de l'atmosphère. Du fait que l'atmosphère est une coquille sphérique, la lumière provenant de l'espace extérieur est <quote>courbée</quote> lorsqu'elle passe à travers l'atmosphère vers nos télescopes ou nos yeux à la surface de la Terre. L'effet est plus grand pour les objets proches de l'horizon et change vraiment l'heure de lever ou de coucher de quelques minutes. En fait, quand vous <quote>voyez</quote> un coucher du Soleil, la vraie position du Soleil est déjà au-dessous de l'horizon ; la réfraction atmosphérique le fait apparaître comme s'il était encore dans le ciel. Notez que la réfraction atmosphérique n'est jamais prise en compte si vous utilisez les <guilabel>Coordonnées équatoriales</guilabel>."
 
 #. Tag: primary
 #. +> trunk5
-#: config.docbook:1069
+#: config.docbook:1147
 #, no-c-format
 msgid "Animated Slewing"
 msgstr "Rotation animé"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:1069
+#: config.docbook:1147
 #, fuzzy, no-c-format
 #| msgid "The <guilabel>Use animating slewing</guilabel> checkbox controls how the display changes when a new focus position is selected in the map. By default, you will see the sky drift or <quote>slew</quote> to the new position; if you uncheck this option, then the display will instead <quote>snap</quote> immediately to the new focus position."
 msgid "The <guilabel>Use animated slewing</guilabel> checkbox controls how the display changes when a new focus position is selected in the map. By default, you will see the sky drift or <quote>slew</quote> to the new position; if you uncheck this option, then the display will instead <quote>snap</quote> immediately to the new focus position."
@@ -1763,42 +1899,42 @@ msgstr "La case à cocher <guilabel>Utiliser la rotation animée</guilabel> cont
 
 #. Tag: primary
 #. +> trunk5
-#: config.docbook:1076 config.docbook:1087
+#: config.docbook:1154 config.docbook:1165
 #, no-c-format
 msgid "Objects in the Sky"
 msgstr "Objets dans le ciel"
 
 #. Tag: secondary
 #. +> trunk5
-#: config.docbook:1077
+#: config.docbook:1155
 #, no-c-format
 msgid "Labeling"
 msgstr "Étiquetage"
 
 #. Tag: tertiary
 #. +> trunk5
-#: config.docbook:1078
+#: config.docbook:1156
 #, no-c-format
 msgid "Automatic"
 msgstr "Automatique"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:1079
+#: config.docbook:1157
 #, no-c-format
 msgid "If the <guilabel>Attach label to centered object</guilabel> checkbox is selected, then a name label will automatically be attached to an object when it is being tracked by the program. The label will be removed when the object is no longer being tracked. Note that you can also manually attach a persistent name label to any object with its <link linkend=\"popup-menu\">popup menu</link>."
 msgstr "Si la case à cocher <guilabel>Attacher une étiquette à l'objet centré</guilabel> est cochée, une étiquette de nom sera automatiquement attachée à un objet lorsqu'il est suivi par le programme. L'étiquette sera supprimée lorsque l'objet n'est plus suivi. Notez que vous pouvez aussi attacher à la main un nom persistant à n'importe quel objet avec son <link linkend=\"popup-menu\">menu contextuel</link>."
 
 #. Tag: secondary
 #. +> trunk5
-#: config.docbook:1088
+#: config.docbook:1166
 #, no-c-format
 msgid "Hiding"
 msgstr "Masquage"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:1088
+#: config.docbook:1166
 #, fuzzy, no-c-format
 #| msgid "There are three situations when &kstars; must redraw the sky display very rapidly: when a new focus position is selected (and <guilabel>Use animated slewing</guilabel> is checked), when the sky is dragged with the mouse, and when the time step is large. In these situations, the positions of all objects must be recomputed as rapidly as possible, which can put a large load on the <abbrev>CPU</abbrev>. If the <abbrev>CPU</abbrev> cannot keep up with the demand, then the display will seem sluggish or jerky. To mitigate this, &kstars; will hide certain objects during these rapid-redraw situations, as long as the <guilabel>Hide objects while moving</guilabel> checkbox is selected. The timestep threshold above which objects will be hidden is determined by the <guilabel>Also hide if timescale greater than:</guilabel> timestep-spinbox. You can specify the objects that should be hidden in the <guilabel>Configure Hidden Objects</guilabel> group box."
 msgid "There are three situations when &kstars; must redraw the sky display very rapidly: when a new focus position is selected (and <guilabel>Use animated slewing</guilabel> is checked), when the sky is dragged with the mouse, and when the time step is large. In these situations, the positions of all objects must be recomputed as rapidly as possible, which can put a large load on the <abbrev>CPU</abbrev>. If the <abbrev>CPU</abbrev> cannot keep up with the demand, then the display will seem sluggish or jerky. To mitigate this, &kstars; will hide certain objects during these rapid-redraw situations, as long as the <guilabel>Hide objects while moving</guilabel> checkbox is selected. The timestep threshold above which objects will be hidden is determined by the <guilabel>Also hide if time step larger than:</guilabel> timestep-spinbox. You can specify the objects that should be hidden in the <guilabel>Configure Hidden Objects</guilabel> group box."
@@ -1806,140 +1942,140 @@ msgstr "Il y a trois situations dans lesquelles &kstars; doit re-dessiner le cie
 
 #. Tag: title
 #. +> trunk5
-#: config.docbook:1106
+#: config.docbook:1184
 #, no-c-format
 msgid "Customizing the Display"
 msgstr "Personnaliser l'affichage"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:1108
+#: config.docbook:1186
 #, no-c-format
 msgid "There are several ways to modify the display to your liking."
 msgstr "Il y a plusieurs manières de modifier l'affichage à votre convenance."
 
 #. Tag: secondary
 #. +> trunk5
-#: config.docbook:1112
+#: config.docbook:1190
 #, no-c-format
 msgid "Selecting"
 msgstr "Sélection"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:1112
+#: config.docbook:1190
 #, no-c-format
 msgid "Select a different color scheme in the <menuchoice><guimenu>Settings</guimenu><guimenuitem>Color Schemes</guimenuitem></menuchoice> menu. There are four predefined color schemes, and you can define your own in the <link linkend=\"config\"><guilabel>Configure &kstars;</guilabel></link> window."
 msgstr "Choisissez un modèle de couleurs différent dans le menu <menuchoice><guimenu>Configuration</guimenu><guimenuitem>Modèles de couleurs</guimenuitem></menuchoice>. Il y a quatre modèles de couleurs prédéfinis, et vous pouvez définir le vôtre dans la fenêtre <link linkend=\"config\"><guilabel>Configurer &kstars;</guilabel></link>."
 
 #. Tag: primary
 #. +> trunk5
-#: config.docbook:1119
+#: config.docbook:1197
 #, no-c-format
 msgid "Toolbars"
 msgstr "Barres d'outils"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:1120
+#: config.docbook:1198
 #, no-c-format
 msgid "Toggle whether the Toolbars are drawn in the <menuchoice><guimenu>Settings</guimenu><guimenuitem>Toolbars Shown</guimenuitem></menuchoice> menu. Like most KDE toolbars, they can also be dragged around and anchored on any window edge, or even detached from the window completely if they are unlocked."
 msgstr "Inverser la présence des barres d'outils dans le menu <menuchoice><guimenu>Configuration</guimenu><guimenuitem>Barres d'outils</guimenuitem></menuchoice>. Comme la plupart des barres d'outils de KDE, elles peuvent aussi être déplacées et ancrées à n'importe quel côté de la fenêtre, ou même complètement détachées de la fenêtre."
 
 #. Tag: primary
 #. +> trunk5
-#: config.docbook:1127 config.docbook:1128
+#: config.docbook:1205 config.docbook:1206
 #, no-c-format
 msgid "Info Boxes"
 msgstr "Zones d'information"
 
 #. Tag: secondary
 #. +> trunk5
-#: config.docbook:1128
+#: config.docbook:1206
 #, no-c-format
 msgid "Shading"
 msgstr "Masquage"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:1128
+#: config.docbook:1206
 #, no-c-format
 msgid "Toggle whether the Info Boxes are drawn in the <menuchoice><guimenu>Settings</guimenu><guimenuitem>Info Boxes</guimenuitem></menuchoice> menu. In addition, you can manipulate the three Info Boxes with the mouse. Each box has additional lines of data that are hidden by default. You can toggle whether these additional lines are visible by double-clicking a box to <quote>shade</quote> it. Also, you can reposition a box by dragging it with the mouse. When a box hits a window edge, it will <quote>stick</quote> to the edge when the window is resized."
 msgstr "Vous pouvez inverser l'affichage des boîtes d'informations dans le menu <menuchoice><guimenu>Configuration</guimenu><guimenuitem>Boîtes d'informations</guimenuitem></menuchoice>. De plus, vous pouvez manipuler les trois boîtes d'informations avec la souris. Chaque boîte possède des lignes additionnelles de données qui sont cachées par défaut. Vous pouvez basculer en mode d'affichage complet en double-cliquant sur la boîte pour l'<quote>enrouler</quote>. De plus, vous pouvez repositionner une boîte en la tirant avec la souris. Quand une boîte heurte un bord de fenêtre, elle s'y <quote>colle</quote> lorsque la fenêtre est redimensionnée."
 
 #. Tag: primary
 #. +> trunk5
-#: config.docbook:1140 config.docbook:1151 config.docbook:1191
+#: config.docbook:1218 config.docbook:1229 config.docbook:1269
 #, no-c-format
 msgid "Field-of-View Symbols"
 msgstr "Indicateurs de champ de vision"
 
 #. Tag: secondary
 #. +> trunk5
-#: config.docbook:1140
+#: config.docbook:1218
 #, no-c-format
 msgid "Description"
 msgstr "Description"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:1140
+#: config.docbook:1218
 #, no-c-format
 msgid "Choose an <quote>FOV Symbol</quote> using the <menuchoice><guimenu>Settings</guimenu><guimenuitem>FOV Symbols</guimenuitem></menuchoice> menu. <firstterm>FOV</firstterm> is an acronym for <quote>field-of-view</quote>. An FOV symbol is drawn at the center of the window to indicate where the display is pointing. Different symbols have different angular sizes; you can use a symbol to show what the view through a particular telescope would look like. For example, if you choose the <quote>7x35 Binoculars</quote> FOV symbol, then a circle is drawn on the display that is 9.2 degrees in diameter; this is the field-of-view for 7x35 binoculars."
 msgstr "Choisissez un <quote>Indicateur de champ de vision (FOV)</quote> en utilisant le menu <menuchoice><guimenu>configuration</guimenu><guimenuitem>Indicateurs de champs de vision</guimenuitem></menuchoice>. <firstterm>FOV</firstterm> est un acronyme pour <quote>field-of-view</quote> (champ de vision). Un indicateur de champ de vision est dessiné au centre de la fenêtre pour indiquer où l'affichage pointe. Les indicateurs correspondant à différentes tailles angulaires ; vous pouvez utiliser un indicateur pour voir à quoi la vue ressemblerait à travers un certain télescope. Par exemple, si vous choisissez l'indicateur <quote>Jumelles 7x35</quote>, un cercle de 9,2 degrés de diamètre sera dessiné sur l'écran ; c'est le champ de vision d'une paire de jumelles 7x35."
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:1151
+#: config.docbook:1229
 #, no-c-format
 msgid "You can define your own FOV symbols (or modify the existing symbols) using the <guimenuitem>Edit FOV Symbols...</guimenuitem> menu item, which launches the FOV Editor:"
 msgstr "Vous pouvez définir vos propres indicateurs de champ de vision (ou modifier les indicateurs existants) en utilisant l'élément de menu <guimenuitem>Modifier les indicateurs de champ de vision..</guimenuitem>, ce qui lance l'éditeur de champ de vision :"
 
 #. Tag: screeninfo
 #. +> trunk5
-#: config.docbook:1156
+#: config.docbook:1234
 #, no-c-format
 msgid "Field-of-View Symbols Editor"
 msgstr "Éditeur d'indicateurs de champ de vision"
 
 #. Tag: phrase
 #. +> trunk5
-#: config.docbook:1162
+#: config.docbook:1240
 #, no-c-format
 msgid "FOV Symbol Editor"
 msgstr "Éditeur d'indicateurs de champ de vision"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:1167
+#: config.docbook:1245
 #, no-c-format
 msgid "The list of defined FOV symbols is displayed on the left. On the right are buttons for adding a new symbol, editing the highlighted symbol's properties, and removing the highlighted symbol from the list. Note that you can even modify or remove the four predefined symbols (if you remove all symbols, the four defaults will be restored the next time you start &kstars;). Below these three buttons is a graphical preview display showing the highlighted symbol from the list. When the <guibutton>New...</guibutton> or <guibutton>Edit...</guibutton> button is pressed, the <guilabel>New FOV Indicator</guilabel> window is opened:"
 msgstr "La liste des indicateurs de champ de vision prédéfinis est affichée à gauche. Sur la droite se trouvent des boutons pour ajouter un nouvel indicateur, modifier les propriétés de l'indicateur surligné et supprimer l'indicateur surligné de la liste. Notez que vous pouvez même modifier ou supprimer les quatre indicateurs prédéfinis (si vous supprimez tous les indicateurs, les quatre indicateurs par défaut seront restaurés au prochain démarrage de &kstars;). Sous ces trois boutons se trouve un aperçu graphique montrant les indicateurs surlignés de la liste. Quand le bouton <guibutton>Nouveau...</guibutton> ou <guibutton>Modifier...</guibutton> est actionné, la fenêtre <guilabel>Nouvel indicateur de champ de vision</guilabel> s'ouvre :"
 
 #. Tag: screeninfo
 #. +> trunk5
-#: config.docbook:1179
+#: config.docbook:1257
 #, no-c-format
 msgid "New Field-of-View Symbol"
 msgstr "Nouvel indicateur de champ de vision"
 
 #. Tag: phrase
 #. +> trunk5
-#: config.docbook:1185
+#: config.docbook:1263
 #, no-c-format
 msgid "New FOV Symbol"
 msgstr "Nouvel indicateur de champ de vision"
 
 #. Tag: secondary
 #. +> trunk5
-#: config.docbook:1191
+#: config.docbook:1269
 #, no-c-format
 msgid "Defining New"
 msgstr "Définir un nouveau"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:1191
+#: config.docbook:1269
 #, fuzzy, no-c-format
 #| msgid "This window lets you modify the four properties that define a FOV symbol: name, size, shape, and color. The angular size for the symbol can either be entered directly in the <guilabel>Field of View</guilabel> edit box, or you can use the Eyepiece/Camera Tabs to calculate the field-of-view angle, given parameters of your telescope/eyepiece or telescope/camera setup. The four available shapes are: Circle, Square, Crosshairs, and Bullseye. Once you have specified all four parameters, press <guibutton>Ok</guibutton>, and the symbol will appear in the list of defined symbols. It will also be available from the <menuchoice><guimenu>Settings</guimenu><guisubmenu>FOV Symbols</guisubmenu></menuchoice> menu."
 msgid "This window lets you modify the four properties that define a FOV symbol: name, size, shape, and color. The angular size for the symbol can either be entered directly in the <guilabel>Field of View</guilabel> edit box, or you can use the Eyepiece/Camera Tabs to calculate the field-of-view angle, given parameters of your telescope/eyepiece or telescope/camera setup. The five available shapes are: Square, Circle, Crosshairs, Bullseye and Semitransparent circle. Once you have specified all four parameters, press <guibutton>Ok</guibutton>, and the symbol will appear in the list of defined symbols. It will also be available from the <menuchoice><guimenu>Settings</guimenu><guisubmenu>FOV Symbols</guisubmenu></menuchoice> menu."
@@ -1947,7 +2083,7 @@ msgstr "Cette fenêtre vous permet de modifier les quatre propriétés qui défi
 
 #. Tag: chapter
 #. +> trunk5
-#: config.docbook:1204
+#: config.docbook:1282
 #, no-c-format
 msgid "&hips;"
 msgstr ""
