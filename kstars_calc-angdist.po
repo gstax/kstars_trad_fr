@@ -1,10 +1,10 @@
 # translation of kstars_calc-angdist.po to french
 # traduction de kstars_calc-angdist.po en Français
 # Copyright (C) 2004 Free Software Foundation, Inc.
-#
 # Delafond <gerard@delafond.org>, 2004.
 # Ludovic Grossard <grossard@kde.org>, 2004, 2012.
 # Xavier Besnard <xavier.besnard@neuf.fr>, 2021.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_calc-angdist\n"
@@ -66,52 +66,20 @@ msgstr "Distance angulaire"
 #. +> trunk5
 #: calc-angdist.docbook:22
 #, no-c-format
-msgid ""
-"The Angular Distance tool is used to measure the angle between any two points"
-" on the sky. You simply specify the <link linkend=\"equatorial\">Equatorial"
-" coordinates</link> of the desired pair of points, and then obtain the angle"
-" between the two points."
-msgstr ""
-"L'outil de distance angulaire sert à mesurer l'angle entre deux points dans"
-" le ciel. Vous spécifiez simplement les <link linkend=\"equatorial\""
-">coordonnées équatoriales</link> des deux points désirés, et actionnez le"
-" bouton <guibutton>Calculer</guibutton> pour obtenir l'angle entre les deux"
-" points."
+msgid "The Angular Distance tool is used to measure the angle between any two points on the sky. You simply specify the <link linkend=\"equatorial\">Equatorial coordinates</link> of the desired pair of points, and then obtain the angle between the two points."
+msgstr "L'outil de distance angulaire sert à mesurer l'angle entre deux points dans le ciel. Vous spécifiez simplement les <link linkend=\"equatorial\">coordonnées équatoriales</link> des deux points désirés, et actionnez le bouton <guibutton>Calculer</guibutton> pour obtenir l'angle entre les deux points."
 
 #. Tag: para
 #. +> trunk5
 #: calc-angdist.docbook:29
 #, no-c-format
 #| msgid "There is also a Batch mode for this module. In batch mode, you specify an input filename which contains four numbers per line: the RA and Dec values for pairs of points. Alternatively, you can specify a single value for any of these four coordinates in the calculator panel (the corresponding values in the input file should be skipped if they are specified in the calculator)."
-msgid ""
-"There is also a Batch mode for this module. In batch mode, you specify an"
-" input filename which contains a number of parameters (up to four) on each"
-" line: the initial right ascension (RA), initial declination (Dec), final"
-" right ascension and final declination. By default, each line should contain"
-" four numbers signifying the RA and Dec values for pairs of points."
-" Alternatively, you can specify a single value for any of these four"
-" coordinates in the calculator panel (the corresponding values in the input"
-" file should be skipped if they are specified in the calculator)."
-msgstr ""
-"Il existe également un mode de traitement par lots pour ce module. Dans ce"
-" mode, vous spécifiez un nom de fichier d'entrée contenant un certain nombre"
-" de paramètres (jusqu'à quatre) sur chaque ligne : l'ascension droite"
-" initiale (RA), la déclinaison initiale (Dec), l'ascension droite finale et"
-" la déclinaison finale. Par défaut, chaque ligne doit contenir quatre nombres"
-" signifiant les valeurs « RA » et « Dec » pour des paires de points."
-" Alternativement, vous pouvez spécifier une seule valeur pour l'une de ces"
-" quatre coordonnées dans le panneau de la calculatrice (les valeurs"
-" correspondantes dans le fichier d'entrée doivent être ignorées si elles sont"
-" spécifiées dans la calculatrice)."
+msgid "There is also a Batch mode for this module. In batch mode, you specify an input filename which contains a number of parameters (up to four) on each line: the initial right ascension (RA), initial declination (Dec), final right ascension and final declination. By default, each line should contain four numbers signifying the RA and Dec values for pairs of points. Alternatively, you can specify a single value for any of these four coordinates in the calculator panel (the corresponding values in the input file should be skipped if they are specified in the calculator)."
+msgstr "Il existe également un mode de traitement par lots pour ce module. Dans ce mode, vous spécifiez un nom de fichier d'entrée contenant un certain nombre de paramètres (jusqu'à quatre) sur chaque ligne : l'ascension droite initiale (RA), la déclinaison initiale (Dec), l'ascension droite finale et la déclinaison finale. Par défaut, chaque ligne doit contenir quatre nombres signifiant les valeurs « RA » et « Dec » pour des paires de points. Alternativement, vous pouvez spécifier une seule valeur pour l'une de ces quatre coordonnées dans le panneau de la calculatrice (les valeurs correspondantes dans le fichier d'entrée doivent être ignorées si elles sont spécifiées dans la calculatrice)."
 
 #. Tag: para
 #. +> trunk5
 #: calc-angdist.docbook:39
 #, no-c-format
-msgid ""
-"Once you have specified the input filename and an output filename, simply"
-" press the <guibutton>Run</guibutton> button to generate the output file."
-msgstr ""
-"Une fois que vous avez spécifié le nom du fichier d'entrée et un nom de"
-" fichier de sortie, actionnez simplement le bouton <guibutton>Lancer<"
-"/guibutton> pour générer le fichier de sortie."
+msgid "Once you have specified the input filename and an output filename, simply press the <guibutton>Run</guibutton> button to generate the output file."
+msgstr "Une fois que vous avez spécifié le nom du fichier d'entrée et un nom de fichier de sortie, actionnez simplement le bouton <guibutton>Lancer</guibutton> pour générer le fichier de sortie."

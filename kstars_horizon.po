@@ -1,10 +1,10 @@
 # translation of kstars_horizon.po to french
 # traduction de kstars_horizon.po en Français
 # Copyright (C) 2002, 2003, 2004 Free Software Foundation, Inc.
-#
 # Gérard Delafond <gerard@delafond.org>, 2002, 2003.
 # Ludovic Grossard <grossard@kde.org>, 2004, 2013.
 # Xavier Besnard <xavier.besnard@neuf.fr>, 2021.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_horizon\n"
@@ -53,33 +53,12 @@ msgstr "Coordonnées horizontales"
 #: horizon.docbook:12
 #, no-c-format
 #| msgid "The <firstterm>Horizon</firstterm> is the line that separates Earth from Sky. More precisely, it is the line that divides all of the directions you can possibly look into two categories: those which intersect the Earth, and those which do not. At many locations, the Horizon is obscured by trees, buildings, mountains, &etc;. However, if you are on a ship at sea, the Horizon is strikingly apparent."
-msgid ""
-"The <firstterm>Horizon</firstterm> is the line that separates Earth from Sky."
-" More precisely, it is the line that divides all of the directions you can"
-" possibly look into two categories: those which intersect the Earth, and"
-" those which do not. At many locations, the Horizon is obscured by trees,"
-" buildings, mountains, &etc; However, if you are on a ship at sea, the"
-" Horizon is strikingly apparent."
-msgstr ""
-"L'<firstterm>horizon</firstterm> est la ligne séparant la Terre et le ciel."
-" Plus précisément, c'est une ligne divisant toutes les <quote>directions<"
-"/quote> que vous pouvez regrouper en deux catégories : les directions"
-" croisant la Terre et les autres directions. A de nombreux endroits,"
-" l'horizon est obstrué par les arbres, les édifices, les montagnes, &etc;"
-" Cependant, si vous être sur un bateau en mer, par exemple, l'horizon est"
-" parfaitement visible."
+msgid "The <firstterm>Horizon</firstterm> is the line that separates Earth from Sky. More precisely, it is the line that divides all of the directions you can possibly look into two categories: those which intersect the Earth, and those which do not. At many locations, the Horizon is obscured by trees, buildings, mountains, &etc; However, if you are on a ship at sea, the Horizon is strikingly apparent."
+msgstr "L'<firstterm>horizon</firstterm> est la ligne séparant la Terre et le ciel. Plus précisément, c'est une ligne divisant toutes les <quote>directions</quote> que vous pouvez regrouper en deux catégories : les directions croisant la Terre et les autres directions. A de nombreux endroits, l'horizon est obstrué par les arbres, les édifices, les montagnes, &etc; Cependant, si vous être sur un bateau en mer, par exemple, l'horizon est parfaitement visible."
 
 #. Tag: para
 #. +> trunk5
 #: horizon.docbook:19
 #, no-c-format
-msgid ""
-"The horizon is the <firstterm>Fundamental Plane</firstterm> of the <link"
-" linkend=\"horizontal\">Horizontal Coordinate System</link>. In other words,"
-" it is the locus of points which have an <firstterm>Altitude</firstterm> of"
-" zero degrees."
-msgstr ""
-"L'horizon est le <firstterm>plan fondamental</firstterm> du <link"
-" linkend=\"horizontal\">système de coordonnées horizontal</link>. En d'autres"
-" mots, c'est le <quote>locus</quote> des points qui ont une <firstterm"
-">altitude</firstterm> de zéro degrés."
+msgid "The horizon is the <firstterm>Fundamental Plane</firstterm> of the <link linkend=\"horizontal\">Horizontal Coordinate System</link>. In other words, it is the locus of points which have an <firstterm>Altitude</firstterm> of zero degrees."
+msgstr "L'horizon est le <firstterm>plan fondamental</firstterm> du <link linkend=\"horizontal\">système de coordonnées horizontal</link>. En d'autres mots, c'est le <quote>locus</quote> des points qui ont une <firstterm>altitude</firstterm> de zéro degrés."

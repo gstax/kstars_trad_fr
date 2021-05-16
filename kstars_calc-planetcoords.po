@@ -1,11 +1,11 @@
 # translation of kstars_calc-planetcoords.po to french
 # traduction de kstars_calc-planetcoords.po en Français
 # Copyright (C) 2004 Free Software Foundation, Inc.
-#
 # Delafond <gerard@delafond.org>, 2004.
 # Ludovic Grossard <grossard@kde.org>, 2004, 2012.
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2012.
 # Xavier Besnard <xavier.besnard@neuf.fr>, 2021.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_calc-planetcoords\n"
@@ -67,49 +67,13 @@ msgstr "Coordonnées des planètes"
 #. +> trunk5
 #: calc-planetcoords.docbook:22
 #, no-c-format
-msgid ""
-"The Planet Coordinates module computes positional data for any major solar"
-" system body, for any time and date and any geographic location. Simply"
-" select the <guilabel>Solar system body</guilabel> from the drop-down list,"
-" and specify the desired date, time, and geographic coordinates (these values"
-" are preset to the current &kstars; settings). Then the <link"
-" linkend=\"equatorial\">Equatorial</link>, <link linkend=\"horizontal\""
-">Horizontal</link>, and <link linkend=\"ecliptic\">Ecliptic</link>"
-" coordinates of the body are computed and displayed."
-msgstr ""
-"Le module de coordonnées des planètes calcule les données de position de"
-" n'importe quel corps majeur du système solaire, pour n'importe quelles heure"
-" et date, et pour tout emplacement géographique. Choisissez simplement le <"
-"guilabel>corps du système solaire</guilabel> dans la liste déroulante, et"
-" spécifiez les date, heure et coordonnées géographiques (ces valeurs sont"
-" prédéfinies avec les réglages courants de &kstars;). Les coordonnées <link"
-" linkend=\"equatorial\">équatoriales</link>, <link linkend=\"horizontal\""
-">azimutales</link> et <link linkend=\"ecliptic\">écliptiques</link> du corps"
-" sont calculées et affichées."
+msgid "The Planet Coordinates module computes positional data for any major solar system body, for any time and date and any geographic location. Simply select the <guilabel>Solar system body</guilabel> from the drop-down list, and specify the desired date, time, and geographic coordinates (these values are preset to the current &kstars; settings). Then the <link linkend=\"equatorial\">Equatorial</link>, <link linkend=\"horizontal\">Horizontal</link>, and <link linkend=\"ecliptic\">Ecliptic</link> coordinates of the body are computed and displayed."
+msgstr "Le module de coordonnées des planètes calcule les données de position de n'importe quel corps majeur du système solaire, pour n'importe quelles heure et date, et pour tout emplacement géographique. Choisissez simplement le <guilabel>corps du système solaire</guilabel> dans la liste déroulante, et spécifiez les date, heure et coordonnées géographiques (ces valeurs sont prédéfinies avec les réglages courants de &kstars;). Les coordonnées <link linkend=\"equatorial\">équatoriales</link>, <link linkend=\"horizontal\">azimutales</link> et <link linkend=\"ecliptic\">écliptiques</link> du corps sont calculées et affichées."
 
 #. Tag: para
 #. +> trunk5
 #: calc-planetcoords.docbook:33
 #, fuzzy, no-c-format
 #| msgid "There is a batch mode for this module. You must construct an input file in which each line specifies values for the input parameters (solar system body, date, time, longitude, and latitude). You may choose to specify a constant value for some of the parameters in the calculator window (these parameters should be skipped in the input file). You may also specify which of the output parameters (Equatorial, Horizontal, and Ecliptic coordinates) should be calculated. Finally, specify the input and output filenames, and press the <guibutton>Run</guibutton> button to generate the output file with the computed values."
-msgid ""
-"There is a batch mode for this module. You must construct an input file in"
-" which each line specifies values for the input parameters (solar system"
-" body, date, time, longitude, and latitude). You may choose to specify a"
-" constant value for some of the parameters in the calculator window (these"
-" parameters should be skipped in the input file). You may also specify which"
-" of the output parameters (Equatorial, Horizontal, Heliocentric ecliptic and"
-" Geocentric ecliptic coordinates) should be calculated. Finally, specify the"
-" input and output filenames, and press the <guibutton>Run</guibutton> button"
-" to generate the output file with the computed values."
-msgstr ""
-"Il y a un mode de traitement par lots pour ce module. Vous devez construire"
-" un fichier d'entrée dans lequel chaque ligne spécifie des valeurs pour les"
-" paramètres d'entrée (corps du système solaire, date, heure, longitude et"
-" latitude). Vous pouvez choisir de spécifier une valeur constante pour"
-" certains paramètres dans la fenêtre de calcul (ces paramètres doivent être"
-" ignorés dans le fichier d'entrée). Vous pouvez aussi spécifier lesquels des"
-" paramètres de sortie (coordonnées équatoriales, azimutales et écliptiques)"
-" doivent être calculés. Enfin, spécifiez les noms des fichiers d'entrée et de"
-" sortie, et actionnez le bouton <guibutton>Lancer</guibutton> pour générer le"
-" fichier de sortie avec les valeurs calculées."
+msgid "There is a batch mode for this module. You must construct an input file in which each line specifies values for the input parameters (solar system body, date, time, longitude, and latitude). You may choose to specify a constant value for some of the parameters in the calculator window (these parameters should be skipped in the input file). You may also specify which of the output parameters (Equatorial, Horizontal, Heliocentric ecliptic and Geocentric ecliptic coordinates) should be calculated. Finally, specify the input and output filenames, and press the <guibutton>Run</guibutton> button to generate the output file with the computed values."
+msgstr "Il y a un mode de traitement par lots pour ce module. Vous devez construire un fichier d'entrée dans lequel chaque ligne spécifie des valeurs pour les paramètres d'entrée (corps du système solaire, date, heure, longitude et latitude). Vous pouvez choisir de spécifier une valeur constante pour certains paramètres dans la fenêtre de calcul (ces paramètres doivent être ignorés dans le fichier d'entrée). Vous pouvez aussi spécifier lesquels des paramètres de sortie (coordonnées équatoriales, azimutales et écliptiques) doivent être calculés. Enfin, spécifiez les noms des fichiers d'entrée et de sortie, et actionnez le bouton <guibutton>Lancer</guibutton> pour générer le fichier de sortie avec les valeurs calculées."
