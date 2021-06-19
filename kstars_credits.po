@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_credits\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-29 11:17+0200\n"
+"POT-Creation-Date: 2021-06-18 08:39+0200\n"
 "PO-Revision-Date: 2012-12-07 23:22+0100\n"
 "Last-Translator: xavier <ktranslator31@yahoo.fr>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
@@ -184,56 +184,63 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: credits.docbook:51
+#: credits.docbook:48
+#, no-c-format
+msgid "Valentin Boettcher<email>hiro@protagon.space</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: credits.docbook:53
 #, no-c-format
 msgid "Data Sources:"
 msgstr "Sources de données :"
 
 #. Tag: para
 #. +> trunk5
-#: credits.docbook:55
+#: credits.docbook:57
 #, no-c-format
 msgid "Object catalogs and planet position tables: <ulink url=\"http://adc.gsfc.nasa.gov\">NASA Astronomical Data Center</ulink>"
 msgstr "Catalogues d'objets et tables de position des étoiles : <ulink url=\"http://adc.gsfc.nasa.gov\">NASA Astronomical Data Center</ulink>"
 
 #. Tag: para
 #. +> trunk5
-#: credits.docbook:60
+#: credits.docbook:62
 #, no-c-format
 msgid "Detailed credit information for all of the images used in the program is presented in the file README.images"
 msgstr "Les informations de remerciement pour toutes les images utilisées dans le programme sont présentées dans le fichier README.images"
 
 #. Tag: para
 #. +> trunk5
-#: credits.docbook:66
+#: credits.docbook:68
 #, no-c-format
 msgid "References:"
 msgstr "Références :"
 
 #. Tag: para
 #. +> trunk5
-#: credits.docbook:69
+#: credits.docbook:71
 #, no-c-format
 msgid "<quote>Practical Astronomy With Your Calculator</quote> by Peter Duffet-Smith"
 msgstr "<quote>Practical Astronomy With Your Calculator</quote> par Peter Duffet-Smith"
 
 #. Tag: para
 #. +> trunk5
-#: credits.docbook:71
+#: credits.docbook:73
 #, no-c-format
 msgid "<quote>Astronomical Algorithms</quote> by Jean Meeus"
 msgstr "<quote>Astronomical Algorithms</quote> par Jean Meeus"
 
 #. Tag: para
 #. +> trunk5
-#: credits.docbook:76
+#: credits.docbook:78
 #, no-c-format
 msgid "Special thanks: To the &kde; and &Qt; developers for providing the world with a peerless set of free <acronym>API</acronym> libraries. To the <application>KDevelop</application> team, for their excellent <acronym>IDE</acronym>, which made developing &kstars; so much easier and more fun. To everyone on the <application>KDevelop</application> message board, the &kde; mailing lists, and on irc.kde.org, for answering our frequent questions. Thank you to Anne-Marie Mahfouf, for inviting &kstars; to join the &kde;-Edu module. Finally, thanks to everyone who has submitted bug reports and other feedback. Thank you, everyone."
 msgstr "Remerciements spéciaux aux développeurs de &kde; et de &Qt; pour offrir au monde des bibliothèques <acronym>API</acronym> libres de qualité hors-pair. À l'équipe de <application>KDevelop</application> pour leur excellent <acronym>IDE</acronym> qui a rendu le développement de &kstars; plus facile et agréable. À tout le monde du forum de <application>KDevelop</application>, à la liste de diffusion de &kde; et sur irc.kde.org pour les réponses aux fréquentes questions. Merci à Anne-Marie Mahfouf pour avoir invité &kstars; à rejoindre le module &kde;-Edu. Enfin, à tous ceux qui ont fait part de bogues et autres retours. Merci à tous."
 
 #. Tag: para
 #. +> trunk5
-#: credits.docbook:88
+#: credits.docbook:90
 #, fuzzy, no-c-format
 #| msgid "Documentation copyright 2001-2003 Jason Harris and the KStars Team <email>kstars@30doradus.org</email>"
 msgid "Documentation copyright 2001-2015 Jason Harris and the KStars Team <email>kstars@30doradus.org</email>"
@@ -241,14 +248,14 @@ msgstr "Documentation copyright 2001-2003 Jason Harris et l'équipe de KStars <e
 
 #. Tag: trans_comment
 #. +> trunk5
-#: credits.docbook:93
+#: credits.docbook:95
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr "<para>Traduction française par &CharlesDemartigny;, &GerardDelafond;, et &CyrilleBieuzent;, relecture par &LudovicGrossard;.</para>"
 
 #. Tag: chapter
 #. +> trunk5
-#: credits.docbook:93
+#: credits.docbook:95
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr "&underFDL;&underGPL;"

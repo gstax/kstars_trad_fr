@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_quicktour\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-29 11:17+0200\n"
+"POT-Creation-Date: 2021-06-18 08:39+0200\n"
 "PO-Revision-Date: 2013-02-02 07:47+0100\n"
 "Last-Translator: Ludovic Grossard <grossard@kde.org>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -217,7 +217,7 @@ msgstr "<title>Objets célestes</title>"
 #. Tag: primary
 #. +> trunk5
 #: quicktour.docbook:168 quicktour.docbook:228 quicktour.docbook:244
-#: quicktour.docbook:332 quicktour.docbook:360
+#: quicktour.docbook:333 quicktour.docbook:361
 #, no-c-format
 msgid "<primary>Objects in the Sky</primary>"
 msgstr "<primary>Objets célestes</primary>"
@@ -375,76 +375,77 @@ msgstr "<phrase>Fenêtre de recherche d'objets</phrase>"
 #. Tag: para
 #. +> trunk5
 #: quicktour.docbook:268
-#, no-c-format
-msgid "The window contains a list of all the named objects that &kstars; is aware of. Many of the objects only have a numeric catalog name (for example, NGC 3077), but some objects have a common name as well (for example, Whirlpool Galaxy). You can filter the list by name and by object type. To filter by name, enter a string in the edit box at the top of the window; the list will then only contain names which start with that string. To filter by type, select a type from the combo box at the bottom of the window."
+#, fuzzy, no-c-format
+#| msgid "The window contains a list of all the named objects that &kstars; is aware of. Many of the objects only have a numeric catalog name (for example, NGC 3077), but some objects have a common name as well (for example, Whirlpool Galaxy). You can filter the list by name and by object type. To filter by name, enter a string in the edit box at the top of the window; the list will then only contain names which start with that string. To filter by type, select a type from the combo box at the bottom of the window."
+msgid "The window contains a list of (almost, see <xref linkend=\"catalogs\"/>) all the named objects that &kstars; is aware of. Many of the objects only have a numeric catalog name (for example, NGC 3077), but some objects have a common name as well (for example, Whirlpool Galaxy). You can filter the list by name and by object type. To filter by name, enter a string in the edit box at the top of the window; the list will then only contain names which start with that string. To filter by type, select a type from the combo box at the bottom of the window."
 msgstr "La fenêtre contient la liste de tous les objets dans &kstars; qui ont un nom. Beaucoup d'entre eux possèdent seulement un nom de catalogue comme NGC 3077, et certains possèdent aussi un nom propre comme Whirlpool Galaxy. Vous pouvez filtrer la liste selon le nom ou le type d'objet. Pour filtrer par nom, donnez une chaîne dans la zone d'édition en haut de la fenêtre ; la liste ne contiendra alors que les noms qui commencent par cette chaîne. Pour filtrer par type, sélectionnez un type dans la liste déroulante combinée en bas de la fenêtre."
 
 #. Tag: para
 #. +> trunk5
-#: quicktour.docbook:278
+#: quicktour.docbook:279
 #, no-c-format
 msgid "&kstars; provides another method for resolving the objects that are missing from any of its predefined catalogues, by using an internet connection. Thus, if you want to find an object that &kstars; is not aware of, you can easily do this by querying several professional astronomical databases as: SIMBAD, NED or VizieR. This can be done by entering the object's name and then press the <guibutton>or search the internet for ObjectName</guibutton> button. After your object is found, you can use it exactly as any object that is already loaded into &kstars; (&ie; adding it to the Observing WishList). If the object was not found in the online databases, then a warning dialogue will pop-up. Once you resolve an object by using this method, it is stored in &kstars; database, so if you close &kstars; and open it again, your object will still be there."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: quicktour.docbook:293
+#: quicktour.docbook:294
 #, no-c-format
 msgid "You can choose to enable or disable this feature by checking or unchecking the <guibutton>Resolve names not known to &kstars; using online services</guibutton> check box from <guilabel>Catalogs</guilabel> tab, inside of <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure KStars</guimenuitem></menuchoice> window. If this checkbox is checked, when an object name unknown to &kstars; is entered in the <guilabel>Find Dialog</guilabel>, &kstars; will contact online services to learn about the desired object and then add it directly to &kstars; database. The objects acquired in this manner are stored in a fake catalog, called <quote>_Internet_Resolved</quote>. Thus, you can enable or disable the display of these objects by checking or unchecking the <quote>_Internet_Resolved</quote> catalog from the catalogues list. Note that you can not delete this fake catalogue, as you can do with a custom catalogue. If this checkbox is unchecked, then the <guilabel>Find Dialog</guilabel> window will be exactly the same, excepting a minor change: the online searching button will no longer be visible."
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk5
-#: quicktour.docbook:310
+#: quicktour.docbook:311
 #, no-c-format
 msgid "<screeninfo>Find Object Window</screeninfo>"
 msgstr "<screeninfo>Fenêtre de recherche d'objets</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: quicktour.docbook:316
+#: quicktour.docbook:317
 #, no-c-format
 msgid "<phrase>Find Object Window</phrase>"
 msgstr "<phrase>Fenêtre de recherche d'objets</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: quicktour.docbook:320
+#: quicktour.docbook:321
 #, no-c-format
 msgid "To center the display on an object, highlight the desired object in the list, and press <guibutton>Ok</guibutton>. Note that if the object is below the horizon, the program will warn you that you may not see anything except the ground (you can make the ground invisible in the <guilabel>Guides</guilabel> settings page, or by pressing the <guiicon>Ground</guiicon> button in the View toolbar)."
 msgstr "Pour centrer l'affichage sur un objet, choisissez l'objet souhaité dans la liste et cliquez sur le bouton <guibutton>Ok</guibutton>. Notez que si l'objet est situé sous l'horizon, le programme vous avertira que vous risquez de ne rien voir excepté le sol terrestre (vous pouvez rendre le sol invisible dans la page de paramètres <guilabel>Guides</guilabel> ou en cliquant sur le bouton <guiicon>Sol opaque</guiicon> dans la barre d'affichage)."
 
 #. Tag: title
 #. +> trunk5
-#: quicktour.docbook:331
+#: quicktour.docbook:332
 #, no-c-format
 msgid "Centering and Tracking"
 msgstr "Centrage et suivi"
 
 #. Tag: secondary
 #. +> trunk5
-#: quicktour.docbook:333
+#: quicktour.docbook:334
 #, no-c-format
 msgid "Tracking"
 msgstr "Suivi"
 
 #. Tag: para
 #. +> trunk5
-#: quicktour.docbook:334
+#: quicktour.docbook:335
 #, no-c-format
 msgid "&kstars; will automatically begin tracking on an object whenever one is centered in the display, either by using the <guilabel>Find Object</guilabel> window, by double-clicking on it, or by selecting <guimenuitem>Center &amp; Track</guimenuitem> from its <mousebutton>right</mousebutton>-click popup menu. You can disengage tracking by panning the display, pressing the <guiicon>Stop Tracking</guiicon> icon in the Main toolbar, or selecting <guimenuitem>Stop Tracking</guimenuitem> from the <guimenu>Pointing</guimenu> menu."
 msgstr "&kstars; commencera automatiquement à suivre un objet à chaque fois qu'il est centré dans l'affichage, soit à l'aide de la fenêtre <guilabel>Chercher un objet</guilabel>, en double-cliquant sur l'objet, soit en choisissant <guimenuitem>Centrer et Suivre</guimenuitem> depuis son menu contextuel obtenu par un clic <mousebutton>droit</mousebutton>. On peut cesser la poursuite de l'objet en faisant un panoramique de l'affichage, en cliquant sur l'icône <guimenuitem>Arrêter la poursuite</guimenuitem> dans la barre principale ou en choisissant <guimenuitem>Arrêter la poursuite</guimenuitem> depuis le menu <guimenu>Pointage</guimenu>."
 
 #. Tag: primary
 #. +> trunk5
-#: quicktour.docbook:347
+#: quicktour.docbook:348
 #, no-c-format
 msgid "Orbit Trails"
 msgstr "Traces orbitales"
 
 #. Tag: secondary
 #. +> trunk5
-#: quicktour.docbook:348
+#: quicktour.docbook:349
 #, no-c-format
 msgid "Attached to centered object"
 msgstr "Attachées à l'objet centré"
@@ -452,119 +453,119 @@ msgstr "Attachées à l'objet centré"
 # unreviewed-context
 #. Tag: para
 #. +> trunk5
-#: quicktour.docbook:349
+#: quicktour.docbook:350
 #, no-c-format
 msgid "When tracking on a Solar System body, &kstars; will automatically attach an <quote>orbit trail</quote>, showing the path of the body across the sky. You will likely need to change the clock's timestep to a large value (such as <quote>1 day</quote>) to see the trail."
 msgstr "En suivant un objet du système solaire, &kstars; attachera automatiquement une <quote>trace orbitale</quote>, montrant l'emplacement du corps à travers le ciel. Vous aurez vraisemblablement besoin de changer le pas de l'horloge pour une valeur plus grande (comme <quote>1 jour</quote>) pour voir la trace."
 
 #. Tag: title
 #. +> trunk5
-#: quicktour.docbook:359
+#: quicktour.docbook:360
 #, no-c-format
 msgid "<title>Keyboard Actions</title>"
 msgstr "<title>Actions du clavier</title>"
 
 #. Tag: secondary
 #. +> trunk5
-#: quicktour.docbook:361
+#: quicktour.docbook:362
 #, no-c-format
 msgid "<secondary>Keyboard Actions</secondary>"
 msgstr "<secondary>Actions du clavier</secondary>"
 
 #. Tag: para
 #. +> trunk5
-#: quicktour.docbook:362
+#: quicktour.docbook:363
 #, no-c-format
 msgid "When you click on an object in the map, it becomes the <firstterm>selected object</firstterm>, and its name is identified in the statusbar. There are a number of quick key commands available which act on the selected object:"
 msgstr "Quand vous cliquez sur un objet dans la carte, il devient <firstterm>l'objet sélectionné</firstterm>, et son nom est identifié dans la barre d'état. Il y a de nombreuses commandes rapides au clavier qui agissent sur l'objet sélectionné."
 
 #. Tag: keycap
 #. +> trunk5
-#: quicktour.docbook:371
+#: quicktour.docbook:372
 #, no-c-format
 msgid "<keycap>C</keycap>"
 msgstr "<keycap>C</keycap>"
 
 #. Tag: para
 #. +> trunk5
-#: quicktour.docbook:373
+#: quicktour.docbook:374
 #, no-c-format
 msgid "Center and Track on the selected object"
 msgstr "Centrer et suivre l'objet sélectionné"
 
 #. Tag: keycap
 #. +> trunk5
-#: quicktour.docbook:378
+#: quicktour.docbook:379
 #, no-c-format
 msgid "<keycap>D</keycap>"
 msgstr "<keycap>D</keycap>"
 
 #. Tag: para
 #. +> trunk5
-#: quicktour.docbook:380
+#: quicktour.docbook:381
 #, no-c-format
 msgid "Show the <link linkend=\"tool-details\">Details window</link> for the selected object"
 msgstr "Afficher la <link linkend=\"tool-details\">Fenêtre des détails</link> pour l'objet sélectionné."
 
 #. Tag: keycap
 #. +> trunk5
-#: quicktour.docbook:386
+#: quicktour.docbook:387
 #, no-c-format
 msgid "<keycap>L</keycap>"
 msgstr "<keycap>L</keycap>"
 
 #. Tag: para
 #. +> trunk5
-#: quicktour.docbook:388
+#: quicktour.docbook:389
 #, no-c-format
 msgid "Toggle a visible name label on the selected object"
 msgstr "Inverser la visibilité du nom de l'objet sélectionné"
 
 #. Tag: keycap
 #. +> trunk5
-#: quicktour.docbook:393
+#: quicktour.docbook:394
 #, no-c-format
 msgid "<keycap>O</keycap>"
 msgstr "<keycap>O</keycap>"
 
 #. Tag: para
 #. +> trunk5
-#: quicktour.docbook:395
+#: quicktour.docbook:396
 #, no-c-format
 msgid "Add the selected object to the <link linkend=\"tool-obsplanner\">Observing wish-list</link>"
 msgstr "Ajouter l'objet sélectionné à la <link linkend=\"tool-obsplanner\">liste des observations</link>"
 
 #. Tag: keycap
 #. +> trunk5
-#: quicktour.docbook:401
+#: quicktour.docbook:402
 #, no-c-format
 msgid "<keycap>T</keycap>"
 msgstr "<keycap>T</keycap>"
 
 #. Tag: para
 #. +> trunk5
-#: quicktour.docbook:403
+#: quicktour.docbook:404
 #, no-c-format
 msgid "Toggle a visible curve on the sky, showing the path of the object across the sky (only applicable to Solar System bodies)"
 msgstr "Inverser la visibilité d'une courbe dans le ciel, montrant l'emplacement de l'objet à travers du ciel (applicable seulement aux objets du système solaire)"
 
 #. Tag: para
 #. +> trunk5
-#: quicktour.docbook:413
+#: quicktour.docbook:414
 #, no-c-format
 msgid "By holding down the &Shift; key, you can perform these actions on the centered object, rather than the selected object."
 msgstr "En maintenant enfoncée la touche &Maj;, on peut effectuer ces actions sur l'objet centré, plutôt que sur l'objet sélectionné."
 
 #. Tag: title
 #. +> trunk5
-#: quicktour.docbook:423
+#: quicktour.docbook:424
 #, no-c-format
 msgid "End of the Tour"
 msgstr "Fin de la visite"
 
 #. Tag: para
 #. +> trunk5
-#: quicktour.docbook:424
+#: quicktour.docbook:425
 #, no-c-format
 msgid "This concludes the tour of &kstars;, although we have only scratched the surface of the available features. &kstars; includes many useful <link linkend=\"tools\">astronomy tools</link>, it can directly <link linkend=\"indi\">control your telescope</link>, and it offers a wide variety of <link linkend=\"config\">configuration and customization options</link>. In addition, this Handbook includes the <link linkend=\"astroinfo\">AstroInfo Project</link>, a series of short, interlinked articles explaining some of the celestial and astrophysical concepts behind &kstars;."
 msgstr "Ceci conclut la visite de &kstars;, bien que nous ayons à peine égratigné la surface des fonctionnalités disponibles. &kstars; inclut beaucoup d'<link linkend=\"tools\">outils astronomiques</link>, il peut contrôler directement <link linkend=\"indi\">votre télescope</link>, et il offre une grande variété d'options de <link linkend=\"config\">configuration et personnalisation</link>. De plus, ce manuel inclut le <link linkend=\"astroinfo\">Projet AstroInfo</link>, une série de petits articles liés entre eux, expliquant certains des concepts célestes et astrophysiques qui sous-tendent &kstars;."
