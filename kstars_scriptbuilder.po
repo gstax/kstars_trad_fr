@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_scriptbuilder\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-29 11:17+0200\n"
+"POT-Creation-Date: 2021-07-22 10:31+0200\n"
 "PO-Revision-Date: 2012-12-07 23:52+0100\n"
 "Last-Translator: xavier <ktranslator31@yahoo.fr>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
@@ -44,8 +44,9 @@ msgstr "Construction de scripts"
 #. Tag: para
 #. +> trunk5
 #: scriptbuilder.docbook:7
-#, no-c-format
-msgid "KDE applications can be controlled externally from another program, from a console prompt, or from a shell script using the Inter-process communication protocol (&DBus;). &kstars; takes advantage of this feature to allow rather complex behaviors to be scripted and played back at any time. This can be used, for example, to create a classroom demo to illustrate an astronomical concept."
+#, fuzzy, no-c-format
+#| msgid "KDE applications can be controlled externally from another program, from a console prompt, or from a shell script using the Inter-process communication protocol (&DBus;). &kstars; takes advantage of this feature to allow rather complex behaviors to be scripted and played back at any time. This can be used, for example, to create a classroom demo to illustrate an astronomical concept."
+msgid "&kde; applications can be controlled externally from another program, from a console prompt, or from a shell script using the Inter-process communication protocol (&DBus;). &kstars; takes advantage of this feature to allow rather complex behaviors to be scripted and played back at any time. This can be used, for example, to create a classroom demo to illustrate an astronomical concept."
 msgstr "Les applications KDE peuvent être pilotées de l'extérieur par un autre programme, depuis une invite de console ou depuis un script shell en utilisant protocole de communication inter-processus (&DBus;). &kstars; utilise cette fonction pour permettre à des comportements plutôt complexes d'être traités par scripts et rejoués à n'importe quel moment. Ceci peut être utilisé par exemple pour créer une démonstration de salle en classe pour illustrer un concept astronomique."
 
 #. Tag: para

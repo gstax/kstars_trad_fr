@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_darkmatter\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-29 11:17+0200\n"
+"POT-Creation-Date: 2021-07-22 10:31+0200\n"
 "PO-Revision-Date: 2021-05-24 21:37+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -68,7 +68,6 @@ msgstr "Le terme donné à cette <quote>masse manquante</quote> est de la <first
 #. +> trunk5
 #: darkmatter.docbook:41
 #, no-c-format
-#| msgid "The story began in 1933 when Astronomer Fritz Zwicky was studying the motions of distant and massive clusters of galaxies, specifically the Coma cluster and the Virgo cluster. Zwicky estimated the mass of each galaxy in the cluster based on their luminosity, and added up all of the galaxy masses to get a total cluster mass. He then made a second, independent estimate of the cluster mass, based on measuring the spread in velocities of the individual galaxies in the cluster. To his suprise, this second <firstterm>dynamical mass</firstterm> estimate was <emphasis>400 times</emphasis> larger than the estimate based on the galaxy light."
 msgid "The story began in 1933 when Astronomer Fritz Zwicky was studying the motions of distant and massive clusters of galaxies, specifically the Coma cluster and the Virgo cluster. Zwicky estimated the mass of each galaxy in the cluster based on their luminosity, and added up all of the galaxy masses to get a total cluster mass. He then made a second, independent estimate of the cluster mass, based on measuring the spread in velocities of the individual galaxies in the cluster. To his surprise, this second <firstterm>dynamical mass</firstterm> estimate was <emphasis>400 times</emphasis> larger than the estimate based on the galaxy light."
 msgstr "L'histoire commença en 1933, quand l'astronome Fritz Zwicky étudia les mouvements d'amas de galaxies lointains et massifs, spécialement l'amas de la Chevelure et l'amas de la Vierge. Zwicky a estimé la masse de chaque galaxie dans l'amas selon leur luminosité et les a ajoutées pour obtenir la masse totale de l'amas. Il a fait ensuite une seconde estimation indépendante de la masse de l'amas, en fonction de la mesure de l'étalement des vitesses des galaxies individuelles dans l'amas. À sa surprise, cette deuxième <firstterm>masse dynamique</firstterm> estimée était <emphasis>400 fois</emphasis> plus importante que la masse estimée à partir de la luminosité des galaxies."
 
@@ -110,6 +109,7 @@ msgstr "Plusieurs théories ont émergé dans la littérature pour comptabiliser
 #. Tag: para
 #. +> trunk5
 #: darkmatter.docbook:108
-#, no-c-format
-msgid "You can see the galaxy clusters that Professor Zwicky studied to discover Dark Matter. Use the &kstars; Find Object Window (<keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></keycombo>) to center on <quote>M 87</quote> to find the Virgo Cluster, and on <quote>NGC 4884</quote> to find the Coma Cluster. You may have to zoom in to see the galaxies. Note that the Virgo Cluster appears to be much larger on the sky. In reality, Coma is the larger cluster; it only appears smaller because it is further away."
+#, fuzzy, no-c-format
+#| msgid "You can see the galaxy clusters that Professor Zwicky studied to discover Dark Matter. Use the &kstars; Find Object Window (<keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></keycombo>) to center on <quote>M 87</quote> to find the Virgo Cluster, and on <quote>NGC 4884</quote> to find the Coma Cluster. You may have to zoom in to see the galaxies. Note that the Virgo Cluster appears to be much larger on the sky. In reality, Coma is the larger cluster; it only appears smaller because it is further away."
+msgid "You can see the galaxy clusters that Professor Zwicky studied to discover Dark Matter. Use the &kstars; <guilabel>Find Object</guilabel> window (<keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></keycombo>) to center on <quote>M 87</quote> to find the Virgo Cluster, and on <quote>NGC 4884</quote> to find the Coma Cluster. You may have to zoom in to see the galaxies. Note that the Virgo Cluster appears to be much larger on the sky. In reality, Coma is the larger cluster; it only appears smaller because it is further away."
 msgstr "Vous pouvez voir les amas de galaxies que le Professeur Zwicky a étudiés pour découvrir la matière sombre. Utilisez la fenêtre de &kstars; Trouvez un objet (<keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></keycombo>) pour centrer sur <quote>M 87</quote> pour trouver l'amas de la Vierge et sur <quote>NGC 4884</quote> pour trouver l'amas de la Chevelure. Vous pouvez avoir à zoomer pour voir les galaxies. Notez que l'amas de la Vierge apparaît être bien plus grand dans le ciel. En réalité, la Chevelure est plus grande. Elle n'apparaît plus petite que parce qu'elle est plus loin."

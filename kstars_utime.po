@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_utime\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-29 11:17+0200\n"
+"POT-Creation-Date: 2021-07-22 10:31+0200\n"
 "PO-Revision-Date: 2012-12-08 00:20+0100\n"
 "Last-Translator: xavier <ktranslator31@yahoo.fr>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
@@ -78,8 +78,9 @@ msgstr "Exercice : "
 #. Tag: para
 #. +> trunk5
 #: utime.docbook:36
-#, no-c-format
-msgid "Set the geographic location to <quote>Greenwich, England</quote> using the <guilabel>Set Location</guilabel> window (<keycombo action=\"simul\">&Ctrl;<keycap>G</keycap></keycombo>). Note that the Local Time (<abbrev>LT</abbrev>)and the Universal Time (<abbrev>UT</abbrev>) are now the same."
+#, fuzzy, no-c-format
+#| msgid "Set the geographic location to <quote>Greenwich, England</quote> using the <guilabel>Set Location</guilabel> window (<keycombo action=\"simul\">&Ctrl;<keycap>G</keycap></keycombo>). Note that the Local Time (<abbrev>LT</abbrev>)and the Universal Time (<abbrev>UT</abbrev>) are now the same."
+msgid "Set the geographic location to <quote>Greenwich, England</quote> using the <guilabel>Set Location</guilabel> window (<keycombo action=\"simul\">&Ctrl;<keycap>G</keycap></keycombo>). Note that the Local Time (<abbrev>LT</abbrev>) and the Universal Time (<abbrev>UT</abbrev>) are now the same."
 msgstr "Indiquez <quote>Greenwich, Angleterre</quote> comme endroit géographique dans la fenêtre <guilabel>Fixer le lieu géographique</guilabel> (<keycombo action=\"simul\">&Ctrl;<keycap>G</keycap></keycombo>). Notez que l'heure locale (<abbrev>LT</abbrev>) et l'heure universelle (<abbrev>UT</abbrev>) sont maintenant les mêmes."
 
 #. Tag: para

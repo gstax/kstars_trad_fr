@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_lightcurves\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-29 11:17+0200\n"
+"POT-Creation-Date: 2021-07-22 10:31+0200\n"
 "PO-Revision-Date: 2021-05-24 21:35+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -81,8 +81,9 @@ msgstr "Introduction"
 #. Tag: para
 #. +> trunk5
 #: lightcurves.docbook:34
-#, no-c-format
-msgid "&kstars; can display light curves for variable stars from the observing program of the <ulink url=\"http://www.aavso.org\">American Association of Variable Star Observers</ulink> (<abbrev>AAVSO</abbrev>). This program monitors over 6,000 variable stars and consists of 10 million observations going back almost a century. &kstars; downloads the very latest data directly from the <abbrev>AAVSO</abbrev> database via the Internet, so a network connection is required to use this tool."
+#, fuzzy, no-c-format
+#| msgid "&kstars; can display light curves for variable stars from the observing program of the <ulink url=\"http://www.aavso.org\">American Association of Variable Star Observers</ulink> (<abbrev>AAVSO</abbrev>). This program monitors over 6,000 variable stars and consists of 10 million observations going back almost a century. &kstars; downloads the very latest data directly from the <abbrev>AAVSO</abbrev> database via the Internet, so a network connection is required to use this tool."
+msgid "&kstars; can display light curves for variable stars from the observing program of the <ulink url=\"https://www.aavso.org\">American Association of Variable Star Observers</ulink> (<abbrev>AAVSO</abbrev>). This program monitors over 6,000 variable stars and consists of 10 million observations going back almost a century. &kstars; downloads the very latest data directly from the <abbrev>AAVSO</abbrev> database via the Internet, so a network connection is required to use this tool."
 msgstr "&kstars; peut afficher les courbes de luminosité des étoiles variables du programme d'observations de l'<ulink url=\"http://www.aavso.org\">American Association of Variable Star Observers</ulink> (<abbrev>AAVSO</abbrev>). Ce programme surveille plus de 6 000 étoiles variables et consiste en 10 millions d'observations qui remontent à presque un siècle. &kstars; télécharge les toutes dernières données directement depuis la base de données de l'<abbrev>AAVSO</abbrev> par l'Internet, une connexion au réseau est donc nécessaire."
 
 #. Tag: para
@@ -110,7 +111,6 @@ msgstr "Exemple de courbe de luminosité"
 #. +> trunk5
 #: lightcurves.docbook:68
 #, no-c-format
-#| msgid "Please not these light curves should <emphasis>NEVER</emphasis> be used in research, papers, presentations, publications, &etc;. They are only meant to be used as a source of info for &kstars;. They have not been validated and passed the <abbrev>AAVSO</abbrev>'s strict quality control measures. We will be glad to give you good raw data simply by requesting it at <ulink url=\"http://www.aavso.org/adata/onlinedata/\">http://www.aavso.org/adata/onlinedata/</ulink>."
 msgid "Please not these light curves should <emphasis>NEVER</emphasis> be used in research, papers, presentations, publications, &etc; They are only meant to be used as a source of info for &kstars;. They have not been validated and passed the <abbrev>AAVSO</abbrev>'s strict quality control measures. We will be glad to give you good raw data simply by requesting it at <ulink url=\"http://www.aavso.org/adata/onlinedata/\">http://www.aavso.org/adata/onlinedata/</ulink>."
 msgstr "Veuillez noter que ces courbes ne doivent <emphasis>JAMAIS</emphasis> être utilisées pour la recherche, les articles, les présentations, les publications, &etc; Elles ne sont supposées qu'être une source d'informations pour &kstars;. Elles n'ont pas été validées et passées au contrôle de qualité des mesures de l'<abbrev>AAVSO</abbrev>. Nous serons heureux de vous donner de bonnes données brutes simplement en interrogeant <ulink url=\"http://www.aavso.org/adata/onlinedata/\">http://www.aavso.org/adata/onlinedata/</ulink>."
 

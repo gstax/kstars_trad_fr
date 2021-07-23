@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_sidereal\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-29 11:17+0200\n"
+"POT-Creation-Date: 2021-07-22 10:31+0200\n"
 "PO-Revision-Date: 2012-12-10 13:38+0100\n"
 "Last-Translator: xavier <ktranslator31@yahoo.fr>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
@@ -106,6 +106,7 @@ msgstr "L'heure locale sidérale dans &kstars; se trouve dans le <guilabel>Panne
 #. Tag: para
 #. +> trunk5
 #: sidereal.docbook:69
-#, no-c-format
-msgid "Point to the <link linkend=\"ai-zenith\">Zenith</link> (press <keycap>Z</keycap> or select <guimenuitem>Zenith</guimenuitem> from the <guimenu>Location</guimenu> menu). The Zenith is the point on the sky where you are looking <quote>straight up</quote> from the ground, and it is a point on your <link linkend=\"ai-meridian\">Local Meridian</link>. Note the Right Ascension of the Zenith: it is exactly the same as your Local Sidereal Time."
+#, fuzzy, no-c-format
+#| msgid "Point to the <link linkend=\"ai-zenith\">Zenith</link> (press <keycap>Z</keycap> or select <guimenuitem>Zenith</guimenuitem> from the <guimenu>Location</guimenu> menu). The Zenith is the point on the sky where you are looking <quote>straight up</quote> from the ground, and it is a point on your <link linkend=\"ai-meridian\">Local Meridian</link>. Note the Right Ascension of the Zenith: it is exactly the same as your Local Sidereal Time."
+msgid "Point to the <link linkend=\"ai-zenith\">Zenith</link> (press <keycap>Z</keycap> or select the <menuchoice><guimenu>Pointing</guimenu> <guimenuitem>Zenith</guimenuitem></menuchoice> menu item). The Zenith is the point on the sky where you are looking <quote>straight up</quote> from the ground, and it is a point on your <link linkend=\"ai-meridian\">Local Meridian</link>. Note the Right Ascension of the Zenith: it is exactly the same as your Local Sidereal Time."
 msgstr "Pointez sur le <link linkend=\"ai-zenith\">zénith</link> en appuyant sur la touche <keycap>Z</keycap> ou en cliquant <guimenuitem>zénith</guimenuitem> dans le menu <guimenu>Localisation</guimenu>. Le zénith est le point qui se trouve directement au-dessus de votre tête, et est un point qui se trouve sur votre <link linkend=\"ai-meridian\">méridien local</link>. Notez l'ascension droite du zénith : elle est égale à votre heure locale sidérale."

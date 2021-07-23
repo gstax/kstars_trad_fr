@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_altvstime\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-29 11:17+0200\n"
+"POT-Creation-Date: 2021-07-22 10:31+0200\n"
 "PO-Revision-Date: 2021-05-12 18:37+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -87,8 +87,9 @@ msgstr "Ces courbes montrent la hauteur des objets (angle au-dessus de l'<link l
 #. Tag: para
 #. +> trunk5
 #: altvstime.docbook:62
-#, no-c-format
-msgid "The plot can be easily zoomed and panned using the mouse. The zooming level can be adjusted using the mouse scroll wheel. When the plot is zoomed out, the zooming level will be automatically limited to a default minimum value, such as the axes’ ranges are able to cover the entire plot (i.e. on vertical axis, the maximum altitude value should touch the top edge of the plot frame). The same principle is applied when the plot is panned using the mouse movement. For panning the plot, all you need to do is to click on the point of the plot you want to pan and then drag the mouse on your desired direction: left, right, up or down."
+#, fuzzy, no-c-format
+#| msgid "The plot can be easily zoomed and panned using the mouse. The zooming level can be adjusted using the mouse scroll wheel. When the plot is zoomed out, the zooming level will be automatically limited to a default minimum value, such as the axes’ ranges are able to cover the entire plot (i.e. on vertical axis, the maximum altitude value should touch the top edge of the plot frame). The same principle is applied when the plot is panned using the mouse movement. For panning the plot, all you need to do is to click on the point of the plot you want to pan and then drag the mouse on your desired direction: left, right, up or down."
+msgid "The plot can be easily zoomed and panned using the mouse. The zooming level can be adjusted using the mouse scroll <mousebutton>wheel</mousebutton>. When the plot is zoomed out, the zooming level will be automatically limited to a default minimum value, such as the axes’ ranges are able to cover the entire plot (i.e. on vertical axis, the maximum altitude value should touch the top edge of the plot frame). The same principle is applied when the plot is panned using the mouse movement. For panning the plot, all you need to do is to click on the point of the plot you want to pan and then drag the mouse on your desired direction: left, right, up or down."
 msgstr "Le tracé peut être facilement agrandi et déplacé à l'aide de la souris. Le niveau de zoom peut être ajusté à l'aide de la molette de défilement de la souris. Lorsque le tracé est dézoomé, le niveau de zoom est automatiquement limité à une valeur minimale par défaut, afin que les plages des axes puissent couvrir l'ensemble du tracé (par exemple, sur l'axe vertical, la valeur d'altitude maximale doit toucher le bord supérieur du cadre du tracé). Le même principe s'applique lorsque le graphe est déplacé à l'aide de la souris. Pour faire un panoramique du tracé, il suffit de cliquer sur le point du tracé que vous souhaitez déplacer, puis de faire glisser la souris dans la direction souhaitée : gauche, droite, haut ou bas."
 
 #. Tag: para
