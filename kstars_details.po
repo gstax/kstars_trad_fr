@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_details\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-29 11:17+0200\n"
+"POT-Creation-Date: 2021-07-28 09:15+0200\n"
 "PO-Revision-Date: 2013-01-30 15:11+0100\n"
 "Last-Translator: Cyrille Bieuzent <bieuzent@gmail.com>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
@@ -79,8 +79,9 @@ msgstr "La fenêtre des informations détaillées présente les données avancé
 #. Tag: para
 #. +> trunk5
 #: details.docbook:28
-#, no-c-format
-msgid "The window is divided into a number of Tabs. In the <guilabel>General</guilabel> Tab, we present basic data about the current object. This includes names and catalog designations, object type, and <link linkend=\"ai-magnitude\">magnitude</link> (brightness). On the <guilabel>Position</guilabel> tab are the object's Equatorial and Horizontal coordinates, as well as its rise, set and transit times."
+#, fuzzy, no-c-format
+#| msgid "The window is divided into a number of Tabs. In the <guilabel>General</guilabel> Tab, we present basic data about the current object. This includes names and catalog designations, object type, and <link linkend=\"ai-magnitude\">magnitude</link> (brightness). On the <guilabel>Position</guilabel> tab are the object's Equatorial and Horizontal coordinates, as well as its rise, set and transit times."
+msgid "The window is divided into a number of tabs. In the <guilabel>General</guilabel> tab, we present basic data about the current object. This includes names and catalog designations, object type, and <link linkend=\"ai-magnitude\">magnitude</link> (brightness). On the <guilabel>Position</guilabel> tab are the object's Equatorial and Horizontal coordinates, as well as its rise, set and transit times."
 msgstr "La fenêtre est divisée en plusieurs onglets. Dans l'onglet <guilabel>Général</guilabel> se trouve un résumé des données sur l'objet courant. Ceci inclut les noms et désignations dans les catalogues, le type d'objet et la <link linkend=\"ai-magnitude\">magnitude</link> (luminosité). Sont également affichées les coordonnées équatoriales et azimutales de l'objet et ses heures de lever, de transit et de coucher."
 
 #. Tag: secondary
@@ -102,69 +103,76 @@ msgstr "Personnalisation"
 #: details.docbook:40
 #, fuzzy, no-c-format
 #| msgid "In the <guilabel>Links</guilabel> tab, you can manage the internet links associated with this object. The Image and Information links associated with the object are listed. These are the links that appear in the popup menu when the object is <mousebutton>right</mousebutton>-clicked. You can add custom links to the object with the <guibutton>Add Link...</guibutton> button. This will open a window in which you fill in the &URL; and link text for the new link (you can also test the &URL; in the web browser from this window). Keep in mind that the custom link can easily point to a file on your local disk, so you can use this feature to index your personal astronomical images or observing logs."
-msgid "In the <guilabel>Links</guilabel> tab, you can manage the internet links associated with this object. The Image and Information links associated with the object are listed. These are the links that appear in the popup menu when the object is <mousebutton>right</mousebutton>-clicked. You can add custom links to the object with the <guibutton>Add Link...</guibutton> button. This will open a window in which you fill in the &URL; and link text for the new link (you can also test the &URL; in the web browser from this window). Every time you add a custom &URL; to a certain object, you are able to choose the resource type using the <guibutton>Resource Type</guibutton> radio button. It has two predefined values: <quote>Image</quote> or <quote>Information</quote>. Keep in mind that the custom link can easily point to a file on your local disk, so you can use this feature to index your personal astronomical images or observing logs."
+msgid "In the <guilabel>Links</guilabel> tab, you can manage the internet links associated with this object. The Image and Information links associated with the object are listed. These are the links that appear in the popup menu when the object is <mousebutton>right</mousebutton>-clicked. You can add custom links to the object with the <guibutton>Add Link...</guibutton> button. This will open a window in which you fill in the &URL; and link text for the new link (you can also test the &URL; in the web browser from this window). Every time you add a custom &URL; to a certain object, you are able to choose the resource type using the <guibutton>Resource Type</guibutton> button. Keep in mind that the custom link can easily point to a file on your local disk, so you can use this feature to index your personal astronomical images or observing logs."
 msgstr "Dans l'onglet <guilabel>Liens</guilabel>, vous pouvez gérer les liens internet associés à cet objet. Les liens d'informations et d'image associés à l'objet sont listés. Ce sont les liens qui apparaissent dans le menu contextuel lorsqu'on clique avec le bouton <mousebutton>droit</mousebutton> sur l'objet. Vous pouvez ajouter des liens personnalisés à l'objet avec le bouton <guibutton>Ajouter un lien...</guibutton>. Cela ouvrira une fenêtre dans laquelle vous remplirez l'&URL; et lierez le texte au nouveau lien (vous pouvez aussi tester l'&URL; dans le navigateur web depuis cette fenêtre). Gardez à l'esprit que le lien personnalisé peut facilement pointer vers un fichier de votre disque local, de telle manière que vous puissiez utiliser cette fonction pour indexer vos images astronomiques ou vos carnets d'observations."
 
 #. Tag: para
 #. +> trunk5
-#: details.docbook:56
+#: details.docbook:55
 #, no-c-format
 msgid "You can also modify or remove any link using the <guibutton>Edit Link...</guibutton> and <guibutton>Remove Link...</guibutton> buttons."
 msgstr "Vous pouvez aussi modifier ou supprimer n'importe quel lien en utilisant le bouton <guibutton>Modifier le lien...</guibutton> et <guibutton>Supprimer le lien</guibutton>."
 
 #. Tag: para
 #. +> trunk5
-#: details.docbook:65
-#, no-c-format
-msgid "The <guilabel>Advanced</guilabel> Tab (not available for all objects) allows you to query professional astronomical databases on the internet for information regarding the current object. To use these databases, double click on the desired database in the list to see the results of your query in a web browser window. The query is made using the primary name of the object you clicked on to open the Details Dialog. The following databases are available for querying:"
+#: details.docbook:64
+#, fuzzy, no-c-format
+#| msgid "The <guilabel>Advanced</guilabel> Tab (not available for all objects) allows you to query professional astronomical databases on the internet for information regarding the current object. To use these databases, double click on the desired database in the list to see the results of your query in a web browser window. The query is made using the primary name of the object you clicked on to open the Details Dialog. The following databases are available for querying:"
+msgid "The <guilabel>Advanced</guilabel> tab (not available for all objects) allows you to query professional astronomical databases on the internet for information regarding the current object. To use these databases, double click on the desired database in the list to see the results of your query in a web browser window. The query is made using the primary name of the object you clicked on to open the Details Dialog. The following databases are available for querying:"
 msgstr "L'onglet <guilabel>Avancé</guilabel> (Disponible pour certains objets) vous permet d'interroger des bases de données astronomiques professionnelles sur internet pour les informations concernant l'objet courant. Pour utiliser ces bases de données, double cliquez sur la base de données désirée dans la liste pour voir les résultats de votre recherche dans une fenêtre de navigation web. La requête se fait en utilisant le nom primaire de l'objet sur lequel vous avez cliqué pour ouvrir la boîte de dialogue des détails. Les bases de données suivantes sont disponibles pour interrogation."
 
 #. Tag: para
 #. +> trunk5
-#: details.docbook:75
-#, no-c-format
-msgid "High Energy Astrophysical Archive (HEASARC). Here you can retrieve data about the current object from a number of <quote>High-energy</quote> observatories, which covers the Ultraviolet, X-ray and Gamma Ray portions of the electromagnetic spectrum."
-msgstr "High Energy Astrophysical Archive (HEASARC). Vous pouvez trouver ici des données concernant l'objet courant depuis des observatoires de <quote>Haute énergie</quote>, qui couvrent les portions ultra-violet, rayons X et Gamma du spectre électromagnétique."
-
-#. Tag: para
-#. +> trunk5
-#: details.docbook:80
-#, no-c-format
-msgid "Multimission Archive at Space Telescope (MAST). The Space Telescope Science Institute provides access to the entire collection of images and spectra taken with the Hubble Space Telescope, as well as several other space-based observatories."
-msgstr "Multi-mission Archive at Space Telescope (MAST). Le Space Telescope Science Institute fournit un accès à la collection entière d'images et de spectres pris par le télescope spatial Hubble ainsi qu'avec plusieurs observatoires dans l'espace."
-
-#. Tag: para
-#. +> trunk5
-#: details.docbook:85
-#, no-c-format
-msgid "NASA Astrophysical Data System (ADS). This incredible bibliographic database encompass the entire body of literature published in international peer-review Journals about astronomy and astrophysics. The database is divided into four general subject areas (Astronomy and Astrophysics, Astrophysics Preprints, Instrumentation, and Physics and Geophysics). Each of these has three sub-nodes that query the database in different ways. <quote>Keyword search</quote> will return articles which listed the object's name as a keyword. <quote>Title word search</quote> will return articles which included the object name in their Title, and the <quote>Title &amp; Keyword search</quote> uses both options together."
-msgstr "NASA Astrophysics Data System (ADS). Cette base de données bibliographique incroyable recouvre toute la littérature publiée dans des revues d'astronomie et d'astrophysique avec comité de lecture. La base de données est divisée en quatre sujets principaux (astronomie et astrophysique, essais d'astrophysique, instrumentation et physique et géophysique). Chacun a trois sous-parties qui interrogent la base de données de différentes manières. <quote>Keyword search</quote> retournera des articles qui ont listé les noms des objets comme mots clés. <quote>Title word search</quote> retournera des articles qui incluent le nom de l'objet dans leur titre et <quote>Title &amp; Keyword search</quote> utilise les deux options ensemble."
-
-#. Tag: para
-#. +> trunk5
-#: details.docbook:98
-#, no-c-format
-msgid "NASA/IPAC Extragalactic Database (NED). NED provides encapsulated data and bibliographic links about extragalactic objects. You should only use NED if your target is extragalactic; &ie; if it is itself a galaxy."
-msgstr "NASA Extragalactic Database (NED). NED fournit des liens de données et bibliographie encapsulés sur les objets extragalactiques. Vous ne devez utiliser NED que si votre cible est extragalactique, &cad; si c'est elle-même une galaxie."
-
-#. Tag: para
-#. +> trunk5
-#: details.docbook:103
-#, no-c-format
-msgid "Set of Identifications, Measurements, and Bibliography for Astronomical Data (SIMBAD). SIMBAD is similar to NED, except it provides data about all kinds of objects, not just galaxies."
+#: details.docbook:74
+#, fuzzy, no-c-format
+#| msgid "Set of Identifications, Measurements, and Bibliography for Astronomical Data (SIMBAD). SIMBAD is similar to NED, except it provides data about all kinds of objects, not just galaxies."
+msgid "<guimenuitem>Set of Identifications, Measurements, and Bibliography for Astronomical Data (SIMBAD)</guimenuitem>: SIMBAD is similar to NED, except it provides data about all kinds of objects, not just galaxies."
 msgstr "Set of Identifications, Measurements, and Bibliography for Astronomical Data (SIMBAD). SIMBAD est semblable à NED, sauf qu'elle fournit des données sur toutes sortes d'objets, pas seulement des galaxies."
 
 #. Tag: para
 #. +> trunk5
-#: details.docbook:107
-#, no-c-format
-msgid "SkyView provides images from All-Sky surveys that have been performed in dozens of different parts of the spectrum, from Gamma Rays to the Radio. The &kstars; interface will retrieve an image from any of these surveys, centered on the selected object."
+#: details.docbook:78
+#, fuzzy, no-c-format
+#| msgid "SkyView provides images from All-Sky surveys that have been performed in dozens of different parts of the spectrum, from Gamma Rays to the Radio. The &kstars; interface will retrieve an image from any of these surveys, centered on the selected object."
+msgid "<guimenuitem>SkyView</guimenuitem>: Provides images from All-Sky surveys that have been performed in dozens of different parts of the spectrum, from Gamma Rays to the Radio. The &kstars; interface will retrieve an image from any of these surveys, centered on the selected object."
 msgstr "SkyView fournit des images issues des observations de All-Sky qui ont été réalisées dans des douzaines de zones différentes du spectre, depuis les rayons Gamma, jusqu'aux ondes radio. L'interface &kstars; retrouvera une image de n'importe laquelle de ces études, centrée sur l'objet sélectionné."
 
 #. Tag: para
 #. +> trunk5
-#: details.docbook:115
+#: details.docbook:83
+#, fuzzy, no-c-format
+#| msgid "High Energy Astrophysical Archive (HEASARC). Here you can retrieve data about the current object from a number of <quote>High-energy</quote> observatories, which covers the Ultraviolet, X-ray and Gamma Ray portions of the electromagnetic spectrum."
+msgid "<guimenuitem>High Energy Astrophysical Archive (HEASARC)</guimenuitem>: Here you can retrieve data about the current object from a number of <quote>High-energy</quote> observatories, which covers the Ultraviolet, X-ray and Gamma Ray portions of the electromagnetic spectrum."
+msgstr "High Energy Astrophysical Archive (HEASARC). Vous pouvez trouver ici des données concernant l'objet courant depuis des observatoires de <quote>Haute énergie</quote>, qui couvrent les portions ultra-violet, rayons X et Gamma du spectre électromagnétique."
+
+#. Tag: para
+#. +> trunk5
+#: details.docbook:88
+#, fuzzy, no-c-format
+#| msgid "NASA/IPAC Extragalactic Database (NED). NED provides encapsulated data and bibliographic links about extragalactic objects. You should only use NED if your target is extragalactic; &ie; if it is itself a galaxy."
+msgid "<guimenuitem>NASA/IPAC Extragalactic Database (NED)</guimenuitem>: NED provides encapsulated data and bibliographic links about extragalactic objects. You should only use NED if your target is extragalactic; &ie; if it is itself a galaxy."
+msgstr "NASA Extragalactic Database (NED). NED fournit des liens de données et bibliographie encapsulés sur les objets extragalactiques. Vous ne devez utiliser NED que si votre cible est extragalactique, &cad; si c'est elle-même une galaxie."
+
+#. Tag: para
+#. +> trunk5
+#: details.docbook:93
+#, fuzzy, no-c-format
+#| msgid "NASA Astrophysical Data System (ADS). This incredible bibliographic database encompass the entire body of literature published in international peer-review Journals about astronomy and astrophysics. The database is divided into four general subject areas (Astronomy and Astrophysics, Astrophysics Preprints, Instrumentation, and Physics and Geophysics). Each of these has three sub-nodes that query the database in different ways. <quote>Keyword search</quote> will return articles which listed the object's name as a keyword. <quote>Title word search</quote> will return articles which included the object name in their Title, and the <quote>Title &amp; Keyword search</quote> uses both options together."
+msgid "<guimenuitem>NASA Astrophysical Data System (ADS)</guimenuitem>: This incredible bibliographic database encompass the entire body of literature published in international peer-review Journals about astronomy and astrophysics. The database is divided into four general subject areas (Astronomy and Astrophysics, Astrophysics Preprints, Instrumentation, and Physics and Geophysics). Each of these has three sub-nodes that query the database in different ways. <quote>Keyword search</quote> will return articles which listed the object's name as a keyword. <quote>Title word search</quote> will return articles which included the object name in their Title, and the <quote>Title &amp; Keyword search</quote> uses both options together."
+msgstr "NASA Astrophysics Data System (ADS). Cette base de données bibliographique incroyable recouvre toute la littérature publiée dans des revues d'astronomie et d'astrophysique avec comité de lecture. La base de données est divisée en quatre sujets principaux (astronomie et astrophysique, essais d'astrophysique, instrumentation et physique et géophysique). Chacun a trois sous-parties qui interrogent la base de données de différentes manières. <quote>Keyword search</quote> retournera des articles qui ont listé les noms des objets comme mots clés. <quote>Title word search</quote> retournera des articles qui incluent le nom de l'objet dans leur titre et <quote>Title &amp; Keyword search</quote> utilise les deux options ensemble."
+
+#. Tag: para
+#. +> trunk5
+#: details.docbook:106
+#, fuzzy, no-c-format
+#| msgid "Multimission Archive at Space Telescope (MAST). The Space Telescope Science Institute provides access to the entire collection of images and spectra taken with the Hubble Space Telescope, as well as several other space-based observatories."
+msgid "<guimenuitem>Multimission Archive at Space Telescope (MAST)</guimenuitem>: The <ulink url=\"https://www.stsci.edu/\">Space Telescope Science Institute</ulink> provides access to the entire collection of images and spectra taken with the Hubble Space Telescope, as well as several other space-based observatories."
+msgstr "Multi-mission Archive at Space Telescope (MAST). Le Space Telescope Science Institute fournit un accès à la collection entière d'images et de spectres pris par le télescope spatial Hubble ainsi qu'avec plusieurs observatoires dans l'espace."
+
+#. Tag: para
+#. +> trunk5
+#: details.docbook:114
 #, fuzzy, no-c-format
 #| msgid "Finally, in the <guilabel>Log</guilabel> Tab, you can type in some text that will remain associated with this object's Details window. You could use this to attach personal observing notes, for example."
-msgid "Finally, in the <guilabel>Log</guilabel> Tab, you can type in some text that will remain associated with this object's Details window. You could use this to attach personal observing notes, for example. Your notes will be saved, such that you can easily read or use them next time when you will use &kstars;."
+msgid "Finally, in the <guilabel>Log</guilabel> tab, you can type in some text that will remain associated with this object's <guilabel>Details</guilabel> window. You could use this to attach personal observing notes, for example. Your notes will be saved, such that you can easily read or use them next time when you will use &kstars;."
 msgstr "Enfin, dans l'onglet <guilabel>Journal</guilabel>, vous pouvez écrire du texte qui restera associé à la fenêtre des détails de l'objet. Vous pouvez utiliser ceci pour attacher des notes d'observations personnelles par exemple."

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_calculator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-29 11:17+0200\n"
+"POT-Creation-Date: 2021-07-28 09:15+0200\n"
 "PO-Revision-Date: 2012-07-18 01:27+0200\n"
 "Last-Translator: Ludovic Grossard <grossard@kde.org>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -51,103 +51,104 @@ msgstr "La calculatrice astronomique de &kstars; fournit plusieurs modules qui v
 #. +> trunk5
 #: calculator.docbook:12
 #, no-c-format
-msgid "Coordinate Converters"
-msgstr "Convertisseurs de coordonnées"
-
-#. Tag: link
-#. +> trunk5
-#: calculator.docbook:13
-#, no-c-format
-msgid "Angular Distance"
-msgstr "Distance angulaire"
-
-#. Tag: link
-#. +> trunk5
-#: calculator.docbook:14
-#, no-c-format
-msgid "Apparent Coordinates"
-msgstr "Coordonnées apparentes"
-
-#. Tag: link
-#. +> trunk5
-#: calculator.docbook:15
-#, no-c-format
-msgid "Ecliptic Coordinates"
-msgstr "Coordonnées écliptiques"
-
-#. Tag: link
-#. +> trunk5
-#: calculator.docbook:16
-#, no-c-format
-msgid "Equatorial/Galactic Coordinates"
-msgstr "Équatoriales / Galactiques"
-
-#. Tag: link
-#. +> trunk5
-#: calculator.docbook:17
-#, no-c-format
-msgid "Horizontal Coordinates"
-msgstr "Coordonnées azimutales"
-
-#. Tag: link
-#. +> trunk5
-#: calculator.docbook:18
-#, no-c-format
-msgid "Geodetic Coordinates"
-msgstr "Coordonnées géodésiques"
-
-#. Tag: title
-#. +> trunk5
-#: calculator.docbook:23
-#, no-c-format
-msgid "Solar System"
-msgstr "Système solaire"
-
-#. Tag: link
-#. +> trunk5
-#: calculator.docbook:24
-#, no-c-format
-msgid "Planets Coordinates"
-msgstr "Coordonnées des planètes"
-
-#. Tag: title
-#. +> trunk5
-#: calculator.docbook:30
-#, no-c-format
 msgid "Time Calculators"
 msgstr "Calculatrice de temps"
 
 #. Tag: link
 #. +> trunk5
-#: calculator.docbook:31
-#, no-c-format
-msgid "Almanac"
-msgstr "Almanach"
-
-#. Tag: link
-#. +> trunk5
-#: calculator.docbook:32
-#, no-c-format
-msgid "Equinoxes and Solstices"
-msgstr "Équinoxes et solstices"
-
-#. Tag: link
-#. +> trunk5
-#: calculator.docbook:33
+#: calculator.docbook:13
 #, no-c-format
 msgid "Julian Day"
 msgstr "Jour julien"
 
 #. Tag: link
 #. +> trunk5
-#: calculator.docbook:34
+#: calculator.docbook:14
 #, no-c-format
 msgid "Sidereal Time"
 msgstr "Temps sidéral"
 
+#. Tag: link
+#. +> trunk5
+#: calculator.docbook:15
+#, no-c-format
+msgid "Almanac"
+msgstr "Almanach"
+
+#. Tag: link
+#. +> trunk5
+#: calculator.docbook:16
+#, no-c-format
+msgid "Equinoxes and Solstices"
+msgstr "Équinoxes et solstices"
+
+#. Tag: title
+#. +> trunk5
+#: calculator.docbook:19
+#, no-c-format
+msgid "Coordinate Converters"
+msgstr "Convertisseurs de coordonnées"
+
+#. Tag: link
+#. +> trunk5
+#: calculator.docbook:20
+#, no-c-format
+msgid "Equatorial/Galactic Coordinates"
+msgstr "Équatoriales / Galactiques"
+
+#. Tag: link
+#. +> trunk5
+#: calculator.docbook:21
+#, no-c-format
+msgid "Apparent Coordinates"
+msgstr "Coordonnées apparentes"
+
+#. Tag: link
+#. +> trunk5
+#: calculator.docbook:22
+#, no-c-format
+msgid "Horizontal Coordinates"
+msgstr "Coordonnées azimutales"
+
+#. Tag: link
+#. +> trunk5
+#: calculator.docbook:23
+#, no-c-format
+msgid "Ecliptic Coordinates"
+msgstr "Coordonnées écliptiques"
+
+#. Tag: link
+#. +> trunk5
+#: calculator.docbook:24
+#, no-c-format
+msgid "Angular Distance"
+msgstr "Distance angulaire"
+
+#. Tag: link
+#. +> trunk5
+#: calculator.docbook:25
+#, no-c-format
+msgid "Geodetic Coordinates"
+msgstr "Coordonnées géodésiques"
+
+#. Tag: title
+#. +> trunk5
+#: calculator.docbook:30
+#, no-c-format
+msgid "Solar System"
+msgstr "Système solaire"
+
+#. Tag: link
+#. +> trunk5
+#: calculator.docbook:31
+#, no-c-format
+msgid "Planets Coordinates"
+msgstr "Coordonnées des planètes"
+
 #. Tag: sect1
 #. +> trunk5
-#: calculator.docbook:36
-#, no-c-format
-msgid "&calc-angdist; &calc-apcoords; &calc-ecliptic; &calc-eqgal; &calc-horiz; &calc-geodetic; &calc-planetcoords; &calc-dayduration; &calc-equinox; &calc-julian; &calc-sidereal;"
+#: calculator.docbook:38
+#, fuzzy, no-c-format
+#| msgid "&calc-angdist; &calc-apcoords; &calc-ecliptic; &calc-eqgal; &calc-horiz; &calc-geodetic; &calc-planetcoords; &calc-dayduration; &calc-equinox; &calc-julian; &calc-sidereal;"
+msgid "&calc-julian; &calc-sidereal; &calc-dayduration; &calc-equinox; &calc-eqgal; &calc-apcoords; &calc-horiz; &calc-ecliptic; &calc-angdist; &calc-geodetic; &calc-planetcoords;"
 msgstr "&calc-angdist; &calc-apcoords; &calc-ecliptic; &calc-eqgal; &calc-horiz; &calc-geodetic; &calc-planetcoords; &calc-dayduration; &calc-equinox; &calc-julian; &calc-sidereal;"

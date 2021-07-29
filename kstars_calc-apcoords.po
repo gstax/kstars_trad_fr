@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_calc-apcoords\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-29 11:17+0200\n"
+"POT-Creation-Date: 2021-07-28 09:15+0200\n"
 "PO-Revision-Date: 2021-05-15 17:56+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -73,7 +73,7 @@ msgstr "Le module des coordonnées apparentes convertit les <firstterm>coordonn�
 #. Tag: para
 #. +> trunk5
 #: calc-apcoords.docbook:30
-#, no-c-format
-#| msgid "To use the module, first enter the desired target date and time in the <guilabel>Target Time &amp; Date</guilabel> section. Then, enter the catalog coordinates in the <guilabel>Catalog Coordinates</guilabel> section. You can also specify the catalog's epoch here (usually 2000.0 for modern object catalogs). Then the object's coordinates for the target date will be displayed in the <guilabel>Apparent Coordinates</guilabel> section."
-msgid "To use the module, first enter the desired target date and time in the <guilabel>Target Time &amp; Date</guilabel> section. Then, enter the catalog coordinates in the <guilabel>Catalog Coordinates</guilabel> section. Alternatively you can set the catalog coordinates by selecting an object using the <guilabel>Find Object</guilabel> dialog. You can also specify the catalog's epoch here (usually 2000.0 for modern object catalogs). Then the object's coordinates for the target date will be displayed in the <guilabel>Apparent Coordinates</guilabel> section."
+#, fuzzy, no-c-format
+#| msgid "To use the module, first enter the desired target date and time in the <guilabel>Target Time &amp; Date</guilabel> section. Then, enter the catalog coordinates in the <guilabel>Catalog Coordinates</guilabel> section. Alternatively you can set the catalog coordinates by selecting an object using the <guilabel>Find Object</guilabel> dialog. You can also specify the catalog's epoch here (usually 2000.0 for modern object catalogs). Then the object's coordinates for the target date will be displayed in the <guilabel>Apparent Coordinates</guilabel> section."
+msgid "To use the module, first enter the desired target date and time in the <guilabel>Target Time &amp; Date</guilabel> section. Then, enter the catalog coordinates in the <guilabel>Catalog Coordinates</guilabel> section. Alternatively you can set the catalog coordinates by selecting an object using the <guilabel>Find Object</guilabel> dialog. You can also specify the catalog's epoch here (usually 2000.0 for modern object catalogs). Then the object's coordinates for the target date will be displayed in the <guilabel>Apparent coordinates:</guilabel> section."
 msgstr "Pour utiliser le module, veuillez d'abord saisir les dates et heures cibles désirées dans la section <guilabel>Dates et heures cibles</guilabel>. Puis, saisissez les coordonnées de catalogue dans la section <guilabel>Coordonnées de catalogue</guilabel>. De façon alternative, vous pouvez également spécifier les coordonnées de catalogue par la sélection d'un objet utilisant la boîte de dialogue <guilabel>Trouver l'Objet</guilabel>. Vous pouvez aussi spécifier l'époque du catalogue ici (habituellement 2 000,0 pour les catalogues modernes d'objets). Ainsi, les coordonnées de l'objet pour la date cible seront alors affichées dans la section <guilabel>Coordonnées apparentes</guilabel>."

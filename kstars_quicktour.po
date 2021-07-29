@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_quicktour\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-22 10:31+0200\n"
+"POT-Creation-Date: 2021-07-28 09:15+0200\n"
 "PO-Revision-Date: 2013-02-02 07:47+0100\n"
 "Last-Translator: Ludovic Grossard <grossard@kde.org>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -81,14 +81,15 @@ msgstr "La première fois que vous lancez &kstars;, il vous sera présenté un a
 #: quicktour.docbook:53
 #, fuzzy, no-c-format
 #| msgid "The second page of the Setup Wizard allows you to choose the starting geographic location, by selecting from the list of the 2500+ known locations on the right side of the window. The list of locations can be filtered to match the text you enter in the <guilabel>City</guilabel>, <guilabel>Province</guilabel>, and <guilabel>Country</guilabel> edit boxes. If your desired location is not present in the list, you can select a nearby city instead for now. Later on, you can add your precise location manually using the <link linkend=\"setgeo\">Set Geographic Location tool</link>. Once you have selected a starting location, press the <guilabel>Next</guilabel> button."
-msgid "The second page of the Setup Wizard allows you to choose the starting geographic location, by selecting from the list of the 3400+ known locations on the right side of the window. The list of locations can be filtered to match the text you enter in the <guilabel>City</guilabel>, <guilabel>Province</guilabel>, and <guilabel>Country</guilabel> edit boxes. If your desired location is not present in the list, you can select a nearby city instead for now. Later on, you can add your precise location manually using the <link linkend=\"setgeo\">Set Geographic Location tool</link>. Once you have selected a starting location, press the <guilabel>Next</guilabel> button."
+msgid "The second page of the Setup Wizard allows you to choose the starting geographic location, by selecting from the list of the 3400+ known locations on the right side of the window. The list of locations can be filtered to match the text you enter in the <guilabel>City filter:</guilabel>, <guilabel>Province filter:</guilabel>, and <guilabel>Country filter:</guilabel> edit boxes. If your desired location is not present in the list, you can select a nearby city instead for now. Later on, you can add your precise location manually using the <link linkend=\"setgeo\">Set Geographic Location tool</link>. Once you have selected a starting location, press the <guilabel>Next</guilabel> button."
 msgstr "La deuxième page de l'assistant de configuration vous permet de choisir l'emplacement géographique de départ, en le sélectionnant dans une liste de plus de 2 500 emplacements, sur le côté droit de la fenêtre. La liste des emplacements peut être filtrée pour correspondre au texte que vous avez saisi dans les zones d'édition <guilabel>Ville</guilabel>, <guilabel>Province</guilabel> et <guilabel>Pays</guilabel>. Si votre emplacement n'est pas présent dans la liste, vous pouvez sélectionner une ville voisine à la place pour le moment. Plus tard, vous pouvez ajouter votre emplacement précis à la main, en utilisant l'outil <link linkend=\"setgeo\">Déterminer l'emplacement géographique</link>. Une fois que vous avez sélectionné un emplacement de démarrage, actionnez le bouton <guilabel>Suivant</guilabel>."
 
 #. Tag: para
 #. +> trunk5
 #: quicktour.docbook:66
-#, no-c-format
-msgid "The last page of the Setup Wizard allows you to download extra data that are not included with the standard distribution of &kstars;. Simply press the <guilabel>Download Extra Data</guilabel> button to open the <guilabel>Get New Stuff</guilabel> tool. When you are all done, press the <guilabel>OK</guilabel> button in the Setup Wizard to start exploring &kstars;."
+#, fuzzy, no-c-format
+#| msgid "The last page of the Setup Wizard allows you to download extra data that are not included with the standard distribution of &kstars;. Simply press the <guilabel>Download Extra Data</guilabel> button to open the <guilabel>Get New Stuff</guilabel> tool. When you are all done, press the <guilabel>OK</guilabel> button in the Setup Wizard to start exploring &kstars;."
+msgid "The last page of the Setup Wizard allows you to download extra data that are not included with the standard distribution of &kstars;. Simply press the <guilabel>Download Extra Data...</guilabel> button to open the <guilabel>Get New Stuff</guilabel> tool. When you are all done, press the <guilabel>OK</guilabel> button in the Setup Wizard to start exploring &kstars;."
 msgstr "La dernière page de l'assistant de configuration vous permet de télécharger des données supplémentaires qui ne sont pas incluses dans la distribution standard de &kstars;. Actionnez simplement le bouton <guilabel>Téléchargement de données supplémentaires</guilabel> pour ouvrir l'outil <guilabel>Obtenir des nouvelles données</guilabel>. Quand vous aurez fini, actionnez le bouton <guilabel>Ok</guilabel> dans l'assistant de configuration pour commencer à explorer &kstars;."
 
 #. Tag: title
@@ -329,8 +330,9 @@ msgstr "<seealso>Menu contextuel</seealso>"
 #. Tag: para
 #. +> trunk5
 #: quicktour.docbook:229
-#, no-c-format
-msgid "The bottom section contains links to images and/or informative webpages about the selected object. If you know of an additional &URL; with information or an image of the object, you can add a custom link to the object's popup menu. Use the <guimenuitem>Details</guimenuitem> item in the popup menu to open the <guilabel>Object Details</guilabel> dialog. On the <guilabel>Link</guilabel> tab use the <guimenuitem>Add Link...</guimenuitem> item."
+#, fuzzy, no-c-format
+#| msgid "The bottom section contains links to images and/or informative webpages about the selected object. If you know of an additional &URL; with information or an image of the object, you can add a custom link to the object's popup menu. Use the <guimenuitem>Details</guimenuitem> item in the popup menu to open the <guilabel>Object Details</guilabel> dialog. On the <guilabel>Link</guilabel> tab use the <guimenuitem>Add Link...</guimenuitem> item."
+msgid "The bottom section contains links to images and/or informative webpages about the selected object. If you know of an additional &URL; with information or an image of the object, you can add a custom link to the object's popup menu. Use the <guimenuitem>Details</guimenuitem> item in the popup menu to open the <guilabel>Object Details</guilabel> dialog. On the <guilabel>Links</guilabel> tab use the <guibutton>Add Link...</guibutton> button."
 msgstr "La section inférieure contient des liens vers des images et / ou des pages web d'information sur l'objet sélectionné. Si vous avez connaissance d'une &URL; supplémentaire présentant des informations ou une image de l'objet, vous pouvez ajouter un lien personnalisé au menu contextuel de l'objet. Utilisez l'élément <guimenuitem>Détails</guimenuitem> dans le menu contextuel pour ouvrir la boîte de dialogue <guilabel>Détails de l'objet</guilabel>. Sur l'onglet <guilabel>Lien</guilabel>, choisissez l'élément <guimenuitem>Ajouter un lien...</guimenuitem>."
 
 #. Tag: title
@@ -391,7 +393,7 @@ msgstr "La fenêtre contient la liste de tous les objets dans &kstars; qui ont u
 #. +> trunk5
 #: quicktour.docbook:278
 #, no-c-format
-msgid "&kstars; provides another method for resolving the objects that are missing from any of its predefined catalogues, by using an internet connection. Thus, if you want to find an object that &kstars; is not aware of, you can easily do this by querying several professional astronomical databases as: SIMBAD, NED or VizieR. This can be done by entering the object's name and then press the <guibutton>or search the internet for ObjectName</guibutton> button. After your object is found, you can use it exactly as any object that is already loaded into &kstars; (&ie; adding it to the Observing WishList). If the object was not found in the online databases, then a warning dialogue will pop-up. Once you resolve an object by using this method, it is stored in &kstars; database, so if you close &kstars; and open it again, your object will still be there."
+msgid "&kstars; provides another method for resolving the objects that are missing from any of its predefined catalogues, by using an internet connection. Thus, if you want to find an object that &kstars; is not aware of, you can easily do this by querying several professional astronomical databases as: SIMBAD, NED or VizieR. This can be done by entering the object's name and then press the <guibutton>or search the internet for <replaceable>ObjectName</replaceable></guibutton> button. After your object is found, you can use it exactly as any object that is already loaded into &kstars; (&ie; adding it to the Observing WishList). If the object was not found in the online databases, then a warning dialogue will pop-up. Once you resolve an object by using this method, it is stored in &kstars; database, so if you close &kstars; and open it again, your object will still be there."
 msgstr ""
 
 #. Tag: para

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_indi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-22 10:31+0200\n"
+"POT-Creation-Date: 2021-07-28 09:15+0200\n"
 "PO-Revision-Date: 2012-12-10 14:13+0100\n"
 "Last-Translator: xavier <ktranslator31@yahoo.fr>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
@@ -473,7 +473,7 @@ msgstr "<secondary>INDI</secondary>"
 msgid "The <guilabel>INDI</guilabel> page allows you to modify <emphasis>Client side</emphasis> INDI specific options. To access it, select the <guilabel>INDI</guilabel> page from <menuchoice><guimenu>Settings</guimenu> <guimenuitem>Configure &kstars;...</guimenuitem></menuchoice> menu item. The window is divided into several main categories: General, Device Updates, Display and Server Port:"
 msgstr "La page d'INDI vous permet de modifier les options spécifiques du <emphasis>Côté client</emphasis> d'INDI. La fenêtre est divisée en plusieurs catégories principales : général, mises à jour des périphériques automatique, affichage, source de mise à jour, roue à filtres  et port du serveur : "
 
-#. Tag: para
+#. Tag: guilabel
 #. +> trunk5
 #: indi.docbook:334
 #, no-c-format
@@ -489,71 +489,71 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:339
+#: indi.docbook:337
 #, no-c-format
-msgid "<guilabel>INDI drivers directory:</guilabel> Specify the directory where INDI drivers are located in your system. By default, &kstars; uses <quote>/usr/share/indi</quote> directory."
+msgid "<guilabel>INDI drivers XML directory:</guilabel> Specify the &XML; directory where INDI drivers are located in your system. By default, &kstars; uses <quote>/usr/share/indi</quote> directory."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:342
+#: indi.docbook:338
 #, fuzzy, no-c-format
 #| msgid "<option>Default FITS directory:</option> Specify the directory where all captured FITS images will be saved to. If no directory is specified, images will be stored in $HOME."
-msgid "<guilabel>Default FITS directory:</guilabel> Specify the directory where all captured FITS images will be saved to. If no directory is specified, images will be stored in $HOME."
+msgid "<guilabel>Default FITS directory:</guilabel> Specify the directory where all captured FITS images will be saved to. If no directory is specified, images will be stored in <varname>$HOME</varname>."
 msgstr "<option>Dossier FITS par défaut : </option> spécifie le dossier où toutes les images capturées par FITS seront enregistrées. S'il n'y a pas de dossier spécifié, les images seront enregistrées dans $HOME."
 
-#. Tag: para
+#. Tag: guilabel
 #. +> trunk5
-#: indi.docbook:351
+#: indi.docbook:345
 #, no-c-format
 msgid "Time &amp; Location Updates"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:353
+#: indi.docbook:347
 #, no-c-format
 msgid "<guilabel>KStars updates all devices</guilabel>: KStars is the master source for time and location settings. All INDI devices time and locations settings are synchronized to KStars settings."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:354
+#: indi.docbook:348
 #, no-c-format
 msgid "<guilabel>Mount updates KStars</guilabel>: Mount handset is the master source of time and location settings. KStars time and location settings are synchronized with controller settings."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:355
+#: indi.docbook:349
 #, no-c-format
 msgid "<guilabel>GPS updates KStars</guilabel>: GPS driver is the master source of time and location settings. KStars time and location settings are synchronized with GPS settings."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:356
+#: indi.docbook:350
 #, no-c-format
 msgid "<guilabel>Time</guilabel>: Synchronize KStars date and time automatically from the update source."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:357
+#: indi.docbook:351
 #, no-c-format
 msgid "<guilabel>Location</guilabel>: Synchronize KStars location settings from the update source."
 msgstr ""
 
-#. Tag: para
+#. Tag: guilabel
 #. +> trunk5
-#: indi.docbook:360
+#: indi.docbook:354
 #, no-c-format
 msgid "Display"
 msgstr "Affichage"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:362
+#: indi.docbook:356
 #, fuzzy, no-c-format
 #| msgid "<option>Device target crosshair:</option> When checked, &kstars; displays the telescope's target crosshair on the sky map. The crosshair is displayed upon a successful connection to the telescope and its location is updated periodically. The telescope's name is displayed next to the crosshair. &kstars; displays one crosshair per each connected telescope. To change the color of the telescope's crosshair, open the <link linkend=\"viewops\">Configure &kstars;</link> window. Select the <guilabel>Colors</guilabel> tab, and then change the color of the <emphasis>Target Indicator</emphasis> item to the desired color."
 msgid "<guilabel>Telescope crosshair</guilabel>: When checked, &kstars; displays the telescope's target crosshair on the sky map. The crosshair is displayed upon a successful connection to the telescope and its location is updated periodically. The telescope's name is displayed next to the crosshair. &kstars; displays one crosshair per each connected telescope. To change the color of the telescope's crosshair, open the <link linkend=\"viewops\">Configure - &kstars;</link> window. Select the <guilabel>Colors</guilabel> page, and then change the color of the <guimenuitem>Target Indicator</guimenuitem> item to the desired color."
@@ -561,57 +561,57 @@ msgstr "<option>Croix de visée du périphérique : </option>lorsque cela est c
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:363
-#, fuzzy, no-c-format
-#| msgid "<option>INDI messages in status bar:</option> When checked, &kstars; displays INDI status messages in the &kstars; status bar."
-msgid "<guilabel>INDI messages in status bar</guilabel>: When checked, &kstars; displays INDI status messages in the &kstars; status bar."
-msgstr "<option>Messages INDI dans la barre d'état : </option>lorsque cela est coché, &kstars; affiche les messages d'état INDI dans la barre d'état de &kstars;."
-
-#. Tag: para
-#. +> trunk5
-#: indi.docbook:364
+#: indi.docbook:357
 #, no-c-format
 msgid "<guilabel>Independent window</guilabel>: Make <guilabel>FITS Viewer</guilabel> window independent."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:365
+#: indi.docbook:358
 #, no-c-format
 msgid "<guilabel>Message notifications</guilabel>: Show INDI messages as desktop notifications instead of dialogs."
 msgstr ""
 
+#. Tag: guilabel
+#. +> trunk5
+#: indi.docbook:368
+#, no-c-format
+msgid "Server Port"
+msgstr ""
+
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:375
-#, no-c-format
-msgid "Server Port: Specify range of ports that INDI Server will bind to when starting new drivers."
+#: indi.docbook:370
+#, fuzzy, no-c-format
+#| msgid "Server Port: Specify range of ports that INDI Server will bind to when starting new drivers."
+msgid "Specify range of ports that INDI Server will bind to when starting new drivers."
 msgstr "Port du serveur : spécifiez une plage de ports que le serveur INDI puisse utiliser lors du démarrage de nouveaux pilotes."
 
 #. Tag: title
 #. +> trunk5
-#: indi.docbook:383
+#: indi.docbook:378
 #, no-c-format
 msgid "INDI Concepts"
 msgstr "Concepts INDI"
 
 #. Tag: primary
 #. +> trunk5
-#: indi.docbook:384 indi.docbook:497 indi.docbook:603
+#: indi.docbook:379 indi.docbook:492 indi.docbook:598
 #, no-c-format
 msgid "Telescope Control"
 msgstr "Contrôle de télescope"
 
 #. Tag: secondary
 #. +> trunk5
-#: indi.docbook:385
+#: indi.docbook:380
 #, no-c-format
 msgid "Concepts"
 msgstr "Concepts"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:388
+#: indi.docbook:383
 #, fuzzy, no-c-format
 #| msgid "The main key concept in INDI is that devices have the ability to describe themselves. This is accomplished by using XML to describe a generic hierarchy that can represent both canonical and non-canonical devices. In INDI, all <emphasis>devices</emphasis> may contain one or more <emphasis>properties</emphasis>. Any <emphasis>property</emphasis> may contain one or more <emphasis>elements</emphasis>. There are four types of INDI properties:"
 msgid "The main key concept in INDI is that devices have the ability to describe themselves. This is accomplished by using &XML; to describe a generic hierarchy that can represent both canonical and non-canonical devices. In INDI, all <emphasis>devices</emphasis> may contain one or more <emphasis>properties</emphasis>. Any <emphasis>property</emphasis> may contain one or more <emphasis>elements</emphasis>. There are four types of INDI properties:"
@@ -619,21 +619,21 @@ msgstr "Le concept clé principal dans INDI est que les périphériques ont la p
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:397
+#: indi.docbook:392
 #, no-c-format
 msgid "Text property."
 msgstr "Propriétés de texte."
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:398
+#: indi.docbook:393
 #, no-c-format
 msgid "Number property."
 msgstr "Propriété de nombre."
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:399
+#: indi.docbook:394
 #, fuzzy, no-c-format
 #| msgid "Switch property (Represented in GUI by buttons and checkboxes)."
 msgid "Switch property (Represented in &GUI; by buttons and checkboxes)."
@@ -641,7 +641,7 @@ msgstr "Propriété d'activation (représenté dans l'interface graphique par de
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:400
+#: indi.docbook:395
 #, fuzzy, no-c-format
 #| msgid "Light property (Represented in GUI by colored LEDs)."
 msgid "Light property (Represented in &GUI; by colored LEDs)."
@@ -649,7 +649,7 @@ msgstr "Propriétés de lumière (représenté dans l'interface graphique par de
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:403
+#: indi.docbook:398
 #, fuzzy, no-c-format
 #| msgid "For example, all INDI devices share the CONNECTION standard switch <emphasis>property</emphasis>. The CONNECTION property has two elements: CONNECT and DISCONNECT switches. &kstars; parses the generic XML description of properties and builds a GUI representation suitable for direct human interaction."
 msgid "For example, all INDI devices share the CONNECTION standard switch <emphasis>property</emphasis>. The CONNECTION property has two elements: CONNECT and DISCONNECT switches. &kstars; parses the generic &XML; description of properties and builds a &GUI; representation suitable for direct human interaction."
@@ -657,175 +657,175 @@ msgstr "Par exemple, tous les périphériques INDI partagent la <emphasis>propri
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:408
+#: indi.docbook:403
 #, no-c-format
 msgid "The INDI control panel offers many device properties not accessible from the sky map. The properties offered differ from one device to another. Nevertheless, all properties share common features that constrains how they are displayed and used:"
 msgstr "Le tableau de bord INDI offre beaucoup de propriétés de périphériques inaccessibles de la carte du ciel. Les propriétés offertes diffèrent d'un périphérique à l'autre. Néanmoins, toutes les propriétés partagent des fonctionnalités communes qui déterminent comment elles sont affichées et utilisées."
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:415
+#: indi.docbook:410
 #, no-c-format
 msgid "Permission: All properties can either be read-only, write-only, or read and write enabled. An example of a read-write property is the telescope's Right Ascension. You can enter a new Right Ascension and the telescope, based on current settings, will either slew or sync to the new input. Furthermore, when the telescope slews, its Right Ascension gets updated and sent back to the client."
 msgstr "Permissions : toutes les propriétés peuvent être soit en lecture seule, écriture seule ou les deux. Un exemple de propriété en écriture seule est l'ascension droite du télescope. Vous pouvez donner une nouvelle ascension droite et le télescope, selon sur les réglages courants, se déplacera obliquement ou se synchronisera à la nouvelle entrée. De plus, lorsque le télescope se déplace obliquement, son ascension droite se met à jour et est renvoyée au client."
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:425
+#: indi.docbook:420
 #, no-c-format
 msgid "State: Prefixed to each property is a state indicator (round LED). Each property has a state and an associated color code:"
 msgstr "État : avant pour chaque propriété se trouve un état d'indicateur (LED ronde). Chaque propriété a un état et un code de couleur associé :"
 
 #. Tag: title
 #. +> trunk5
-#: indi.docbook:428
+#: indi.docbook:423
 #, no-c-format
 msgid "INDI State color code"
 msgstr "Code de couleur d'état INDI"
 
 #. Tag: entry
 #. +> trunk5
-#: indi.docbook:432
+#: indi.docbook:427
 #, no-c-format
 msgid "State"
 msgstr "État"
 
 #. Tag: entry
 #. +> trunk5
-#: indi.docbook:433
+#: indi.docbook:428
 #, no-c-format
 msgid "Color"
 msgstr "Couleur"
 
 #. Tag: entry
 #. +> trunk5
-#: indi.docbook:434
+#: indi.docbook:429
 #, no-c-format
 msgid "Description"
 msgstr "Description"
 
 #. Tag: entry
 #. +> trunk5
-#: indi.docbook:439
+#: indi.docbook:434
 #, no-c-format
 msgid "Idle"
 msgstr "En attente"
 
 #. Tag: entry
 #. +> trunk5
-#: indi.docbook:440
+#: indi.docbook:435
 #, no-c-format
 msgid "Gray"
 msgstr "Gris"
 
 #. Tag: entry
 #. +> trunk5
-#: indi.docbook:441
+#: indi.docbook:436
 #, no-c-format
 msgid "Device is performing no action with respect to this property"
 msgstr "Le périphérique ne réalise pas d'action respectant cette propriété"
 
 #. Tag: entry
 #. +> trunk5
-#: indi.docbook:444
+#: indi.docbook:439
 #, no-c-format
 msgid "<entry>Ok</entry>"
 msgstr "<entry>Ok</entry>"
 
 #. Tag: entry
 #. +> trunk5
-#: indi.docbook:445
+#: indi.docbook:440
 #, no-c-format
 msgid "Green"
 msgstr "Vert"
 
 #. Tag: entry
 #. +> trunk5
-#: indi.docbook:446
+#: indi.docbook:441
 #, no-c-format
 msgid "Last operation performed on this property was successful and active"
 msgstr "La dernière opération effectuée sur cette propriété a réussi et est active."
 
 #. Tag: entry
 #. +> trunk5
-#: indi.docbook:450
+#: indi.docbook:445
 #, no-c-format
 msgid "Busy"
 msgstr "Occupé"
 
 #. Tag: entry
 #. +> trunk5
-#: indi.docbook:451
+#: indi.docbook:446
 #, no-c-format
 msgid "Yellow"
 msgstr "Jaune"
 
 #. Tag: entry
 #. +> trunk5
-#: indi.docbook:452
+#: indi.docbook:447
 #, no-c-format
 msgid "The property is performing an action"
 msgstr "La propriété effectue une action"
 
 #. Tag: entry
 #. +> trunk5
-#: indi.docbook:455
+#: indi.docbook:450
 #, no-c-format
 msgid "Alert"
 msgstr "Alerte"
 
 #. Tag: entry
 #. +> trunk5
-#: indi.docbook:456
+#: indi.docbook:451
 #, no-c-format
 msgid "<entry>Red</entry>"
 msgstr "<entry>Rouge</entry>"
 
 #. Tag: entry
 #. +> trunk5
-#: indi.docbook:457
+#: indi.docbook:452
 #, no-c-format
 msgid "The property is in critical condition and needs immediate attention"
 msgstr "La propriété est dans un état critique et a besoin d'une attention immédiate"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:464
+#: indi.docbook:459
 #, no-c-format
 msgid "The device driver updates the property state in real-time when necessary. For example, if the telescope is in the process of slewing to a target, then the RA/DEC properties will be signaled as <guilabel>Busy</guilabel>. When the slew process is completed successfully, the properties will be signaled as <guilabel>Ok</guilabel>."
 msgstr "Le pilote de périphérique met à jour l'état de propriété en temps réel lorsque nécessaire. Par exemple, si le télescope est dans le processus de mouvement oblique vers une cible, alors les propriétés d'AD et de Déc seront signalées comme <guilabel>Occupé</guilabel>. Quand le processus de déplacement oblique est terminé avec succès, les propriétés seront signalées comme <guilabel>Ok</guilabel>."
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:472
+#: indi.docbook:467
 #, no-c-format
 msgid "Context: Numerical properties can accept and process numbers in two formats: decimal and sexagesimal. The sexagesimal format is convenient when expressing time or equatorial/geographical coordinates. You can use any format at your convenience. For example, all the following numbers are equal:"
 msgstr "Contexte : les propriétés numériques peuvent accepter et traiter des nombres en deux formats : décimal et sexagésimal. Le format sexagésimal est pratique lors de l'expression d'heures ou coordonnées équatoriales / galactiques. Vous pouvez utiliser n'importe quel format selon vos besoins. Par exemple, tous les nombres suivants sont égaux :"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:479
+#: indi.docbook:474
 #, no-c-format
 msgid "-156.40"
 msgstr "-156,40"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:480
+#: indi.docbook:475
 #, no-c-format
 msgid "-156:24:00"
 msgstr "-156:24:00"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:481
+#: indi.docbook:476
 #, no-c-format
 msgid "-156:24"
 msgstr "-156:24"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:485
+#: indi.docbook:480
 #, fuzzy, no-c-format
 #| msgid "Time: The standard time for all INDI-related communications is Universal Time UTC specified as YYYY-MM-DDTHH:MM:SS in accord with ISO 8601. &kstars; communicates the correct UTC time with device drivers automatically. You can enable/disable automatic time updates from the <guimenuitem>INDI</guimenuitem> page in the settings dialog."
 msgid "Time: The standard time for all INDI-related communications is Universal Time UTC specified as YYYY-MM-DDTHH:MM:SS in accord with ISO 8601. &kstars; communicates the correct UTC time with device drivers automatically. You can enable/disable automatic time updates from the <guilabel>INDI</guilabel> page in the settings dialog."
@@ -833,21 +833,21 @@ msgstr "Heure : l'heure standard pour toutes les communications en relation ave
 
 #. Tag: title
 #. +> trunk5
-#: indi.docbook:496
+#: indi.docbook:491
 #, no-c-format
 msgid "Remote Device Control"
 msgstr "Contrôle de périphériques à distance"
 
 #. Tag: secondary
 #. +> trunk5
-#: indi.docbook:498
+#: indi.docbook:493
 #, no-c-format
 msgid "Remote Devices"
 msgstr "Périphériques distants"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:501
+#: indi.docbook:496
 #, fuzzy, no-c-format
 #| msgid "&kstars; provides a simple yet powerful layer for remote device control. A detailed description of the layer is described in the INDI <ulink url=\"http://www.clearskyinstitute.com/INDI/INDI.pdf\">white paper</ulink>."
 msgid "&kstars; provides a simple yet powerful layer for remote device control. A detailed description of the layer is described in the INDI <ulink url=\"https://www.clearskyinstitute.com/INDI/INDI.pdf\">white paper</ulink>."
@@ -855,14 +855,14 @@ msgstr "&kstars; fournit une couche de contrôle de périphérique à distance s
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:506
+#: indi.docbook:501
 #, no-c-format
 msgid "You need to configure both the server and client machines for remote control:"
 msgstr "Vous avez besoin de configurer à la fois les machines serveur et client pour le contrôle à distance :"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:511
+#: indi.docbook:506
 #, fuzzy, no-c-format
 #| msgid "Server: To prepare a device for remote control, follow the same steps in the <link linkend=\"indi-kstars-setup\">local/server</link> setup. When you start a device service in the <guimenu>Device Manager</guimenu>, a port number is displayed under the <guilabel>Listening port</guilabel> column. In addition to the port number, you also need the hostname or IP address of your server."
 msgid "<guilabel>Server</guilabel>: To prepare a device for remote control, follow the same steps in the <link linkend=\"indi-kstars-setup\">local/server</link> setup. When you start a device service in the <guilabel>Device Manager</guilabel>, a port number is displayed under the <guilabel>Port</guilabel> column. In addition to the port number, you also need the hostname or IP address of your server."
@@ -870,7 +870,7 @@ msgstr "Serveur : pour préparer un matériel pour le contrôle distant, suivez
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:520
+#: indi.docbook:515
 #, fuzzy, no-c-format
 #| msgid "Client: Select the <guimenuitem>Device Manager</guimenuitem> from the <guimenu>Device</guimenu> menu and click on the <guilabel>Client</guilabel> tab. You can add, modify, or delete hosts under the <guilabel>Client</guilabel> tab. Add a host by clicking on the <guibutton>Add</guibutton> button. Enter the hostname/IP address of the server in the <guilabel>Host</guilabel> field, and enter the port number obtained from the <emphasis>server</emphasis> machine in step 1."
 msgid "<guilabel>Client</guilabel>: Select the <menuchoice><guimenu>Tools</guimenu> <guisubmenu>Devices</guisubmenu> <guimenuitem>Device Manager...</guimenuitem></menuchoice> menu item and you can add, modify, or delete hosts into <guilabel>Client</guilabel> tab. Add a host by clicking on the <guibutton>Add</guibutton> button. Enter the hostname/IP address of the server in the <guilabel>Host:</guilabel> field, and enter the port number obtained from the <emphasis>server</emphasis> machine in step 1."
@@ -878,42 +878,42 @@ msgstr "Client : sélectionnez le <guimenuitem>gestionnaire de périphériques<
 
 #. Tag: screeninfo
 #. +> trunk5
-#: indi.docbook:531
+#: indi.docbook:526
 #, no-c-format
 msgid "INDI Client"
 msgstr "Client INDI"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:539
+#: indi.docbook:534
 #, no-c-format
 msgid "After you add a host, right click on the host to <guimenuitem>Connect</guimenuitem> or <guimenuitem>Disconnect</guimenuitem>. If a connection is established, you can control the telescope from the <guilabel>Sky map</guilabel> or <guilabel>INDI Control Panel</guilabel> exactly as described in the <link linkend=\"indi-kstars-setup\">local/server</link> section. It is as easy at that."
 msgstr "Après que vous aurez ajouté un hôte, cliquez avec le bouton droit sur l'hôte à <guimenuitem>connecter</guimenuitem> ou <guimenuitem>déconnecter</guimenuitem>. Si une connexion est établie, vous pouvez contrôler le télescope depuis la <guilabel>Carte du ciel</guilabel> ou le <guilabel>tableau de bord INDI</guilabel> exactement comme décrit dans la section <link linkend=\"indi-kstars-setup\">local / serveur</link>. c'est aussi facile que ça."
 
 #. Tag: title
 #. +> trunk5
-#: indi.docbook:547
+#: indi.docbook:542
 #, no-c-format
 msgid "Running an INDI server from the command line"
 msgstr "Lancement d'un serveur INDI depuis la ligne de commande"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:548
+#: indi.docbook:543
 #, no-c-format
 msgid "While &kstars; allows you to easily deploy an INDI server; you can launch an INDI server from the command line."
 msgstr "Comme &kstars; vous permet de déployer un serveur INDI, vous pouvez lancer un serveur INDI depuis la ligne de commande."
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:552
+#: indi.docbook:547
 #, no-c-format
 msgid "Since INDI is an independent backend component, you can run an INDI server on a host without &kstars;. INDI can be compiled separately to run on remote hosts. Furthermore, device drivers log messages to <constant>stderr</constant> and that can be helpful in a debugging situation. The syntax for INDI server is as following:"
 msgstr "Comme INDI est indépendant du composant d'arrière-plan, vous pouvez lancer un serveur INDI sur un hôte sans &kstars;. INDI peut être compilé séparément pour fonctionner sur des hôtes distants. De plus, les pilotes de périphériques écrivent dans un journal les messages dans <constant>stderr</constant>. Cela peut être utile pour les situations de recherche d'erreur. La syntaxe pour le serveur INDI est la suivante :"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:559
+#: indi.docbook:554
 #, fuzzy, no-c-format
 #| msgid "$ <command>indiserver</command> [options] [<filename>driver</filename> ...]"
 msgid "$ <command>indiserver</command> [options] driver [<filename>driver</filename> ...]"
@@ -921,7 +921,7 @@ msgstr "$ <command>indiserver</command> [options] [<filename>driver</filename>..
 
 #. Tag: screen
 #. +> trunk5
-#: indi.docbook:562
+#: indi.docbook:557
 #, no-c-format
 msgid ""
 "Options:\n"
@@ -939,91 +939,91 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:564
+#: indi.docbook:559
 #, no-c-format
 msgid "For example, if you want to start an INDI server running an LX200 GPS driver and listening to connections on port 8000, you would run the following command:"
 msgstr "Par exemple, si vous voulez démarrer un serveur INDI gérant un pilote LX200 GPS et écouter les connexions sur le port 8000, vous devez lancer la commande suivante :"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:569
+#: indi.docbook:564
 #, no-c-format
 msgid "$ <command>indiserver</command> -p 8000 <filename>lx200gps</filename>"
 msgstr "$ <command>indiserver</command> -p 8000 <filename>LX200GPS</filename>"
 
 #. Tag: title
 #. +> trunk5
-#: indi.docbook:573
+#: indi.docbook:568
 #, no-c-format
 msgid "Secure Remote Operation"
 msgstr "Sécurisation des opérations distantes"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:575
+#: indi.docbook:570
 #, no-c-format
 msgid "Suppose we want to run an indiserver with INDI drivers on a remote host, <constant>remote_host</constant>, and connect them to &kstars; running on the local machine."
 msgstr "Supposons que nous voulions lancer un indiserver avec les pilotes INDI sur une machine distante, <constant>machine-distante</constant>, et les connecter à &kstars; qui fonctionne sur la machine locale."
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:579
+#: indi.docbook:574
 #, no-c-format
 msgid "From the local machine log onto the remote host, <constant>remote_host</constant>, by typing:"
 msgstr "Depuis la machine locale, connectez-vous sur la machine distante <constant>machine-distante</constant> en saisissant :"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:583
+#: indi.docbook:578
 #, no-c-format
 msgid "$ <command>ssh</command> -L <varname>local_port</varname>:<constant>remote_host</constant>:<varname>remote_port</varname>"
 msgstr "$ <command>ssh</command> -L <varname>local-port</varname> : <constant>remote-host</constant> : <varname>remote-port</varname>"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:585
+#: indi.docbook:580
 #, no-c-format
 msgid "This binds the <varname>local_port</varname> on the local machine to the <varname>remote_port</varname> on the <constant>remote_host</constant>. After logging in, run indiserver on the remote host:"
 msgstr "Ceci lie le <varname>local-port</varname> de la machine locale au <varname>remote-port</varname> du <constant>remote-host</constant>. Après connexion, exécutez indiserver sur la machine distante :"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:590
+#: indi.docbook:585
 #, no-c-format
 msgid "$ <command>indiserver</command> -p <varname>remote_port</varname> [<filename>driver</filename>...]"
 msgstr "$ <command>indiserver</command> -p <varname>remote-port</varname> [<filename>driver</filename>...]"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:592
+#: indi.docbook:587
 #, no-c-format
 msgid "Back on the local machine, start &kstars; then open the <guimenuitem>Device Manager</guimenuitem> and add a host under the <guilabel>Client</guilabel> tab. The host should be the local host (usually 127.0.0.1) and the port number should be the <varname>local_port</varname> used in the steps above. <mousebutton>Right</mousebutton>-click on the host and select <guimenuitem>Connect</guimenuitem> from the popup menu. &kstars; will connect to the remote INDI server securely. The host information will be saved for future sessions."
 msgstr "De retour sur la machine locale, lancez &kstars;, puis ouvrez le <guimenuitem>Gestionnaire de périphériques</guimenuitem> et ajoutez un hôte sous l'onglet <guilabel>Client</guilabel>. L'hôte doit être localhost (habituellement 127.0.0.1) et le numéro de port doit être le <varname>local-port</varname> utilisé dans les étapes ci-dessus. Cliquez avec le bouton <mousebutton>droit</mousebutton> sur l'hôte et sélectionnez <guimenuitem>Connecter</guimenuitem> dans le menu contextuel. &kstars; se connectera au serveur INDI distant en sécurité. Les informations d'hôte seront enregistrées pour les sessions futures."
 
 #. Tag: title
 #. +> trunk5
-#: indi.docbook:602
+#: indi.docbook:597
 #, no-c-format
 msgid "INDI Frequently Asked Questions"
 msgstr "Foire aux questions d'INDI"
 
 #. Tag: secondary
 #. +> trunk5
-#: indi.docbook:604
+#: indi.docbook:599
 #, no-c-format
 msgid "&FAQ;"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:610
+#: indi.docbook:605
 #, no-c-format
 msgid "What is INDI?"
 msgstr "Qu'est INDI ?"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:613
+#: indi.docbook:608
 #, fuzzy, no-c-format
 #| msgid "<acronym>INDI</acronym> is the <ulink url=\"http://indi.sourceforge.net\"> Instrument-Neutral-Distributed-Interface</ulink> control protocol developed by <author><firstname>Elwood</firstname><surname>C. Downey</surname></author> of <ulink url=\"http://www.clearskyinstitute.com/\">ClearSky Institute</ulink>. &kstars; employs device drivers that are compatible with the INDI protocol. INDI has many advantages including loose coupling between hardware devices and software drivers. Clients that use the device drivers (like &kstars;) are completely unaware of the device capabilities. In run time, &kstars; communicates with the device drivers and builds a completely dynamical GUI based on services provided by the device. Therefore, new device drivers can be written or updated and &kstars; can take full advantage of them without any changes on the client side."
 msgid "<acronym>INDI</acronym> is the <ulink url=\"https://indilib.org\"> Instrument-Neutral-Distributed-Interface</ulink> control protocol developed by <author><firstname>Elwood</firstname><surname>C. Downey</surname></author> of <ulink url=\"https://www.clearskyinstitute.com/\">ClearSky Institute</ulink>. &kstars; employs device drivers that are compatible with the INDI protocol. INDI has many advantages including loose coupling between hardware devices and software drivers. Clients that use the device drivers (like &kstars;) are completely unaware of the device capabilities. In run time, &kstars; communicates with the device drivers and builds a completely dynamical &GUI; based on services provided by the device. Therefore, new device drivers can be written or updated and &kstars; can take full advantage of them without any changes on the client side."
@@ -1031,28 +1031,28 @@ msgstr "<acronym>INDI</acronym> est le protocole de contrôle <ulink url=\"http:
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:629
+#: indi.docbook:624
 #, no-c-format
 msgid "Do you plan to support more devices?"
 msgstr "Comptez-vous gérer plus de périphériques ?"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:634
+#: indi.docbook:629
 #, no-c-format
 msgid "Yes. We plan to support major CCD cameras and focusers and extend support for more telescopes. If you would like INDI to support a particular device, please send an email to <email>indi-devel@lists.sourceforge.net</email>"
 msgstr "Oui. Nous comptons gérer la plupart des caméras CCD et viseurs et étendre la gestion pour les télescopes. Si vous vouliez gérer un matériel particulier, veuillez envoyer un courrier électronique à <email>indi-devel@lists.sourceforge.net</email>"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:644
+#: indi.docbook:639
 #, no-c-format
 msgid "What operations does &kstars; provide to control the telescope?"
 msgstr "Quelles opérations &kstars; fournit-il pour contrôler le télescope ?"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:649
+#: indi.docbook:644
 #, fuzzy, no-c-format
 #| msgid "It depends on the particular telescope you're running, but the minimum three operations are <command>Slew</command>, <command>Track</command>, and <command>Sync</command>, which you can issue directly from the sky map. Your telescope must be aligned for those operations to perform correctly. Some telescopes offer you more operations like site management, slew modes, focusing, parking, and more. You can access the telescopes extended features from the INDI Control Panel in the Devices Menu."
 msgid "It depends on the particular telescope you're running, but the minimum three operations are <command>Slew</command>, <command>Track</command>, and <command>Sync</command>, which you can issue directly from the sky map. Your telescope must be aligned for those operations to perform correctly. Some telescopes offer you more operations like site management, slew modes, focusing, parking, and more. You can access the telescopes extended features from the <menuchoice><guimenu>Tools</guimenu> <guisubmenu>Devices</guisubmenu> <guimenuitem>INDI Control Panel...</guimenuitem></menuchoice> menu item."
@@ -1060,14 +1060,14 @@ msgstr "Cela dépend du télescope que vous utilisez, mais les trois opérations
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:663
+#: indi.docbook:658
 #, no-c-format
 msgid "What's the difference between <command>Slew</command>, <command>Track</command>, and <command>Sync</command> exactly?"
 msgstr "Quelle est exactement la différence entre <command>Slew</command>, <command>Suivre</command> et <command>Sync</command> ?"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:668
+#: indi.docbook:663
 #, fuzzy, no-c-format
 #| msgid "The command <command>Slew</command> orders the telescope to move to a particular target, and once the telescope reaches its target, the telescope keeps tracking that target at a <emphasis>sidereal</emphasis> rate (i.e. the rate at which stars move across the sky). This works well for stars, Messier objects, and about everything outside our solar system. But solar system objects travel differently across the sky and so the telescope must <command>Track</command> the objects as they move."
 msgid "The command <command>Slew</command> orders the telescope to move to a particular target, and once the telescope reaches its target, the telescope keeps tracking that target at a <emphasis>sidereal</emphasis> rate (&ie;, the rate at which stars move across the sky). This works well for stars, Messier objects, and about everything outside our solar system. But solar system objects travel differently across the sky and so the telescope must <command>Track</command> the objects as they move."
@@ -1075,28 +1075,28 @@ msgstr "La commande <command>Slew</command> ordonne au télescope de se déplace
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:675
+#: indi.docbook:670
 #, no-c-format
 msgid "Therefore, you need to issue a track command if you want to track an object with non-sidereal motion. On the other hand, <command>Sync</command> is used to synchronize the telescope's internal coordinates with that of an object you select."
 msgstr "Pour cela, vous avez besoin d'effectuer une commande de suivi, si vous voulez suivre un objet avec un mouvement non sidéral. D'une autre manière, <command>sync</command> sert à synchroniser les coordonnées internes du télescope avec un objet que vous sélectionnez."
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:685
+#: indi.docbook:680
 #, no-c-format
 msgid "Can I control my telescope remotely?"
 msgstr "Puis-je contrôler mon télescope à distance ?"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:690
+#: indi.docbook:685
 #, no-c-format
 msgid "Yes. You can start an INDI server on the machine connected to your telescope and the server will listen to requests from &kstars; clients. Once you're connected, you can control your telescope directly from the sky map. This procedure is described in detail in the <link linkend=\"indi-remote-control\">Remote device control</link> section."
 msgstr "Oui. Vous pouvez démarrer un serveur INDI sur la machine connectée à votre télescope, et le serveur écoutera les requêtes des clients &kstars;. Une fois que vous aurez connecté, vous pouvez contrôler votre télescope directement depuis la carte du ciel. Cette procédure est décrite en détail dans la section <link linkend=\"indi-remote-control\">Contrôle de périphérique distant</link>."
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:701
+#: indi.docbook:696
 #, fuzzy, no-c-format
 #| msgid "When I try to <guibutton>Connect</guibutton>, &kstars; reports that the telescope is not connected to the serial/USB port. What can I do?"
 msgid "When I try to <guibutton>Connect</guibutton>, &kstars; reports that the telescope is not connected to the serial/&USB; port. What can I do?"
@@ -1104,137 +1104,142 @@ msgstr "Lorsque j'essaye de <guibutton>connecter</guibutton>, &kstars; rapporte 
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:707
+#: indi.docbook:702
 #, no-c-format
 msgid "This message is triggered when &kstars; cannot communicate with the telescope. Here are few things you can do:"
 msgstr "Ce message est déclenché lorsque &kstars; ne peut pas communiquer avec le télescope. Voici quelques manipulations que vous pouvez effectuer :"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:711
+#: indi.docbook:706
 #, no-c-format
 msgid "Check that you have both reading and writing permission for the port you are trying to connect to."
 msgstr "vérifiez que vous avez à la fois les droits en lecture et en écriture pour le port auquel vous essayez de vous connecter, "
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:714
+#: indi.docbook:709
 #, no-c-format
 msgid "Check the connection cable, make sure it is in good condition and test it with other applications."
 msgstr "vérifiez la connexion du câble, assurez-vous qu'il est en bon état et testez-le avec d'autres applications, "
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:717
+#: indi.docbook:712
 #, no-c-format
 msgid "Check your telescope power, make sure the power is on and that the telescope is getting enough power."
 msgstr "vérifiez l'alimentation de votre télescope, assurez-vous que le contact est mis et que le télescope reçoit assez d'énergie, "
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:720
+#: indi.docbook:715
 #, no-c-format
 msgid "Select the <menuchoice><guimenu>Tools</guimenu> <guisubmenu>Devices</guisubmenu> <guimenuitem>INDI Control Panel...</guimenuitem></menuchoice> menu item and set the correct port in the <guilabel>INDI Control Panel</guilabel> dialog. The default device is <constant>/dev/ttyS0</constant>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:726
+#: indi.docbook:721
 #, no-c-format
 msgid "Restart &kstars; and retry again."
 msgstr "redémarrez &kstars; et réessayez."
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:734
+#: indi.docbook:729
 #, no-c-format
 msgid "&kstars; reports that the telescope is online and ready, but I cannot find the telescope's crosshair, where is it?"
 msgstr "&kstars; rapporte que le télescope est en ligne et prêt, mais je ne peux pas trouver la croix du télescope. Où est-elle ?"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:737
+#: indi.docbook:732
 #, no-c-format
 msgid "&kstars; retrieves the telescopes RA and DEC coordinates upon connection. If your alignment was performed correctly, then you should see the crosshair around your target in the Sky Map. However, the RA and DEC coordinates provided by the telescope may be incorrect (even below the horizon) and you need to <link linkend=\"indi-sync\">Sync</link> your telescope to your current target. You can use the right-click menu to center and track the telescope crosshair in the sky map."
 msgstr "&kstars; trouve les coordonnées AD et Déc du télescope en connexion. Si votre alignement a été effectué correctement, vous pouvez voir la croix près de votre cible dans la carte du ciel. Cependant, les coordonnées AD et Déc fournies par le télescope peuvent être incorrectes (même sous l'horizon) et vous avez besoin de <link linkend=\"indi-sync\">synchroniser</link> votre télescope vers votre cible courante. Vous pouvez utiliser le menu contextuel pour centrer et suivre la croix du télescope dans la carte du ciel."
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:749
+#: indi.docbook:744
 #, no-c-format
 msgid "The telescope is moving erratically or not moving at all. What can I do?"
 msgstr "Le télescope se déplace d'une manière erratique ou pas du tout. Que puis-je faire ?"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:752
+#: indi.docbook:747
 #, no-c-format
 msgid "This behavior is mostly due to incorrect settings, please verify the following check list:"
 msgstr "Ce comportement est la plupart du temps dû à des réglages incorrects. Veuillez vérifier la liste suivante :"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:755
+#: indi.docbook:750
 #, no-c-format
 msgid "Is the telescope aligned?"
 msgstr "Le télescope est-il aligné ?"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:758
+#: indi.docbook:753
 #, no-c-format
 msgid "Is the telescope alignment mode correct? Use <guilabel>INDI Control Panel</guilabel> to check and change these settings (<constant>Alt/Az,Polar, Land</constant>)."
 msgstr "Le mode d'alignement du télescope est-il correct ? Utilisez le <guilabel>tableau de bord INDI</guilabel> pour le vérifier et changez ces réglages (<constant>Alt / Az, Polar, Land</constant>)."
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:763
+#: indi.docbook:758
 #, no-c-format
 msgid "Are the telescope's time and date settings correct?"
 msgstr "Les réglages d'heure et date du télescope sont-ils corrects ?"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:766
+#: indi.docbook:761
 #, no-c-format
 msgid "Are the telescope's longitude and latitude settings correct?"
 msgstr "Les réglages de latitude et de longitude du télescope sont-ils corrects ?"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:769
+#: indi.docbook:764
 #, no-c-format
 msgid "Is the telescope's UTC offset correct?"
 msgstr "Le calage UTC du télescope est-il correct ?"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:772
+#: indi.docbook:767
 #, no-c-format
 msgid "Are the telescope's RA and DEC axis locked firmly?"
 msgstr "Les axes d'AD et de Déc du télescope sont-ils bien verrouillés ?"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:775
+#: indi.docbook:770
 #, no-c-format
 msgid "Is the telescope's N/S switch (when applicable) setup correctly for your hemisphere?"
 msgstr "Le réglage d'inverseur N / S de télescope (lorsque applicable) est-il correctement effectué pour votre hémisphère ?"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:778
+#: indi.docbook:773
 #, no-c-format
 msgid "Is the cable between the telescope and computer in good condition?"
 msgstr "Le câble entre le télescope et l'ordinateur est-il en bon état ?"
 
 #. Tag: para
 #. +> trunk5
-#: indi.docbook:782
+#: indi.docbook:777
 #, fuzzy, no-c-format
 #| msgid "If you think all settings are correct but the telescope still moves erratically or not at all, then please send a report to <email>indi-devel@lists.sourceforge.net</email>"
 msgid "If you think all settings are correct but the telescope still moves erratically or not at all, then please send a report to <email>indi-devel@lists.sourceforge.net</email>."
 msgstr "Si vous pensez que tous les réglages sont corrects, mais que le télescope continue à bouger n'importe comment ou pas du tout, veuillez envoyer un rapport de bogue à <email>indi-devel@lists.sourceforge.net</email>"
+
+#, fuzzy
+#~| msgid "<option>INDI messages in status bar:</option> When checked, &kstars; displays INDI status messages in the &kstars; status bar."
+#~ msgid "<guilabel>INDI messages in status bar</guilabel>: When checked, &kstars; displays INDI status messages in the &kstars; status bar."
+#~ msgstr "<option>Messages INDI dans la barre d'état : </option>lorsque cela est coché, &kstars; affiche les messages d'état INDI dans la barre d'état de &kstars;."
 
 #, fuzzy
 #~| msgid "Automatic device updates"
