@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-22 10:31+0200\n"
+"POT-Creation-Date: 2021-07-29 08:59+0200\n"
 "PO-Revision-Date: 2012-12-19 20:01+0100\n"
 "Last-Translator: xavier <ktranslator31@yahoo.fr>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
@@ -192,33 +192,40 @@ msgstr "Vous pouvez aussi accéder au <guilabel>WUT</guilabel> (What&apos;s up t
 #. +> trunk5
 #: obsplanner.docbook:174
 #, no-c-format
+msgid "Another way of adding objects to your observation plan is using the newly introduced <guibutton>Batch Add</guibutton> will open up a text box where you can type many objects to add in one shot to the observation planner. Any objects not in the &kstars; database already will be resolved using SIMBAD Astronomical Database (provided this has been enabled in the Settings) and added to the database. The entire process of adding objects is slow and may take a while, and you can watch the progress in the Status Bar. Any objects that could not be found are then listed in an error message, so you can identify and fix the errors. Usually this may be because SIMBAD expects a different way of specifying the object (&eg; Sim 147 instead of Simeis 147). This new feature allows you to easily scrape data from observing lists on the web &etc; and add them to your workflow in &kstars;."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: obsplanner.docbook:176
+#, no-c-format
 msgid "This is how the <guilabel>Execution Session</guilabel> Window look. It can be opened by pressing <keycombo action=\"simul\">&Ctrl;<keycap>2</keycap></keycombo>. In it you can also see some information about the selected object and you are able to add observing notes."
 msgstr "Voici à quoi ressemble la fenêtre <guilabel>Session d'exécution</guilabel>. Elle peut être ouverte pas un appui sur <keycombo action=\"simul\">&Ctrl;<keycap>2</keycap></keycombo>. A l'intérieur, vous pouvez aussi voir quelques informations sur l'objet sélectionné et vous avez la possibilité d'ajouter des notes d'observation."
 
 #. Tag: phrase
 #. +> trunk5
-#: obsplanner.docbook:181
+#: obsplanner.docbook:183
 #, no-c-format
 msgid "First Execute Session window"
 msgstr "Première fenêtre pour la session d'exécution"
 
 #. Tag: para
 #. +> trunk5
-#: obsplanner.docbook:185
+#: obsplanner.docbook:187
 #, no-c-format
 msgid "By pressing the <guibutton>Next Page</guibutton> button you will access the second page of Session Plan. Here you are able to see information not about your object, but about your equipment."
 msgstr "Un appui sur le bouton <guibutton>Page suivante</guibutton> vous permettra d'accéder à la seconde page du planificateur de session. Vous avez la possibilité de voir ici, les informations, non pas relatif à votre objet mais relatif à votre équipement."
 
 #. Tag: phrase
 #. +> trunk5
-#: obsplanner.docbook:192
+#: obsplanner.docbook:194
 #, no-c-format
 msgid "Second Execute Session window"
 msgstr "Seconde fenêtre pour la session d'exécution"
 
 #. Tag: para
 #. +> trunk5
-#: obsplanner.docbook:196
+#: obsplanner.docbook:198
 #, no-c-format
 msgid "Pressing the <guibutton>Next Target</guibutton> button will cause the Execute Session to open the first window about the next object."
 msgstr "Un appui sur le bouton <guibutton>Nouvelle cible</guibutton> permettra à la session d'exécution d'ouvrir la première fenêtre relatif au prochain objet."
