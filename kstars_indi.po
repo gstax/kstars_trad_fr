@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_indi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-28 09:15+0200\n"
+"POT-Creation-Date: 2021-11-17 09:39+0100\n"
 "PO-Revision-Date: 2012-12-10 14:13+0100\n"
 "Last-Translator: xavier <ktranslator31@yahoo.fr>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
@@ -164,7 +164,7 @@ msgstr "Réglage du télescope"
 #: indi.docbook:85
 #, fuzzy, no-c-format
 #| msgid "Most telescopes are equipped with <hardware>RS232</hardware> interface for remote control. Connect the RS232 jack in your telescope to your computer's <hardware>Serial/USB</hardware> port. Traditionally, the RS232 connects to the serial port of your computer, but since many new laptops abandoned the serial port in favor of <hardware>USB/FireWire</hardware> ports, you might need to obtain a Serial to USB adaptor to use with new laptops."
-msgid "Most telescopes are equipped with <hardware>RS232</hardware> interface for remote control. Connect the RS232 jack in your telescope to your computer's <hardware>Serial/&USB;</hardware> port. Traditionally, the RS232 connects to the serial port of your computer, but since many new laptops abandoned the serial port in favor of <hardware>&USB;/FireWire</hardware> ports, you might need to obtain a Serial to &USB; adaptor to use with new laptops."
+msgid "Most telescopes are equipped with <hardware>RS232</hardware> interface for remote control. Connect the RS232 jack in your telescope to your computer's <hardware>Serial/USB</hardware> port. Traditionally, the RS232 connects to the serial port of your computer, but since many new laptops abandoned the serial port in favor of <hardware>USB/FireWire</hardware> ports, you might need to obtain a Serial to USB adaptor to use with new laptops."
 msgstr "La plupart des télescopes sont équipés d'une interface <hardware>RS232</hardware> pour la télécommande. Connectez la prise RS232 de votre télescope dans la prise <hardware>série / USB</hardware> de votre ordinateur. Habituellement, le RS232 se connecte au port série de votre ordinateur, mais, comme beaucoup de nouveaux portables ont abandonné le port série en faveur de ports <hardware>USB / Firewire</hardware>, vous pouvez avoir besoin de vous procurer un adaptateur USB pour utilisation avec les nouveaux portables."
 
 #. Tag: para
@@ -172,7 +172,7 @@ msgstr "La plupart des télescopes sont équipés d'une interface <hardware>RS23
 #: indi.docbook:94
 #, fuzzy, no-c-format
 #| msgid "After connecting your telescope to the Serial/USB port, turn your telescope on. It is <emphasis>highly</emphasis> recommended that you download and install the latest firmware for your telescope controller."
-msgid "After connecting your telescope to the Serial/&USB; port, turn your telescope on. It is <emphasis>highly</emphasis> recommended that you download and install the latest firmware for your telescope controller."
+msgid "After connecting your telescope to the Serial/USB port, turn your telescope on. It is <emphasis>highly</emphasis> recommended that you download and install the latest firmware for your telescope controller."
 msgstr "Après avoir connecté votre télescope au port Série / USB, allumez votre télescope. Il est <emphasis>hautement</emphasis> recommandé de télécharger et installer le firmware (logiciel embarqué) le plus récent pour votre contrôleur de télescope."
 
 #. Tag: para
@@ -1099,7 +1099,7 @@ msgstr "Oui. Vous pouvez démarrer un serveur INDI sur la machine connectée à 
 #: indi.docbook:696
 #, fuzzy, no-c-format
 #| msgid "When I try to <guibutton>Connect</guibutton>, &kstars; reports that the telescope is not connected to the serial/USB port. What can I do?"
-msgid "When I try to <guibutton>Connect</guibutton>, &kstars; reports that the telescope is not connected to the serial/&USB; port. What can I do?"
+msgid "When I try to <guibutton>Connect</guibutton>, &kstars; reports that the telescope is not connected to the serial/USB port. What can I do?"
 msgstr "Lorsque j'essaye de <guibutton>connecter</guibutton>, &kstars; rapporte que le télescope n'est pas connecté au port série / USB. Que puis-je faire ?"
 
 #. Tag: para
