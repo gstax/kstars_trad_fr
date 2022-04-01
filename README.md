@@ -12,7 +12,7 @@ Le fichier source se trouve à l'adresse http://websvn.kde.org/*checkout*/trunk/
 
 ## Compilation du fichier
 
-Le fichier source kstars.po est compilé en kstars.moi avec la commande:
+Le fichier source kstars.po est compilé en kstars.mo avec la commande:
 
 <code>msgfmt -o kstars.mo kstars.po</code>
 
