@@ -2,7 +2,7 @@
 
 Traduction du fichier kstars.po en français.
 
-But: une interface professionel, françisée et épurée.
+But: une interface professionnelle, françisée et épurée.
 
 
 ## Source
