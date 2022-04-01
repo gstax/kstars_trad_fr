@@ -1,4 +1,4 @@
-# Kstars en français
+# KStars en français
 
 Traduction du fichier kstars.po en français.
 
