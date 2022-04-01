@@ -1,14 +1,25 @@
 # kstars_trad_fr
 
-Traduction du fichier kstars.po en français
+Traduction du fichier kstars.po en français.
 
-# Source
-
-
-# Compilation du fichier
+But: une interface professionel, françisée et épurée.
 
 
-# Glossaire
+## Source
+
+Le fichier source se trouve à l'adresse http://websvn.kde.org/*checkout*/trunk/l10n-kf5/fr/messages/kstars/kstars.po
+
+
+## Compilation du fichier
+
+Le fichier source kstars.po est compilé en kstars.moi avec la commande:
+
+<code>msgfmt -o kstars.mo kstars.po</code>
+
+Il faut que le paquet "gettext" (apt install gettext) soit installé.
+
+
+## Glossaire
 
 * Capture -> Acquisition
 * Meridian flip -> Retournement au méridien
