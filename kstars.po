@@ -6749,7 +6749,7 @@ msgstr "Méthode intégrée pour le résolveur"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, kcfg_SolverType)
 #: ekos/align/opsalign.ui:94
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Selects the method of plate solving with the StellarSolver Library.  The StellarSolver option uses StellarSolver's internal build "
 #| "of Astrometry.net and requires no external programs.  Local Astrometry uses a local installation of command line astrometry.net on "
@@ -6763,7 +6763,7 @@ msgid ""
 msgstr ""
 "Sélectionne la méthode de résolution par plaque avec la bibliothèque « StellarSolver ». L'option « StellarSolver » utilise la "
 "compilation interne de « StellarSolver » d'Astrometry.net et ne nécessite aucun programme externe. L'astrométrie locale utilise une "
-"installation locale en ligne de commandes pour « astrometry.net » sous Linux et Mac ou avec « ANSVR » sous Windows. La bibliothèque "
+"installation locale en ligne de commandes pour « astrometry.net » sous Linux et Mac ou avec « ANSVR » sous Windows. « Watney local » utilise une installation local du programme de résolveur d'astrométrie Watney. La bibliothèque "
 "« ASTAP » utilise une installation locale du programme « ASTAP ». Enfin, la version en ligne utilise soit « astrometry.net » sur "
 "Internet, soit « ANSVR » sur un ordinateur voisin."
 
@@ -6787,10 +6787,10 @@ msgstr "ASTAP local"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SolverType)
 #: ekos/align/opsalign.ui:113
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Local time"
 msgid "Local Watney"
-msgstr "Heure locale"
+msgstr "Watney local"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SolverType)
 #: ekos/align/opsalign.ui:118
@@ -8167,26 +8167,26 @@ msgstr "Binaires WCSinfo  d'astrometry.net"
 #: ekos/align/opsprograms.ui:115
 #, kde-format
 msgid "wcsinfo:"
-msgstr "wcsinfo:"
+msgstr "wcsinfo"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AstrometrySolverBinary)
 #: ekos/align/opsprograms.ui:122
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Astrometry.net solve-field binary"
 msgid "Astrometry.net solve-field binary path"
-msgstr "Astrometry.net solveur de champ binaire"
+msgstr "Chemin de l'exécutable du solveur Astrometry.net"
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
 #: ekos/align/opsprograms.ui:132
 #, kde-format
 msgid "solver binary:"
-msgstr "Binaire du solveur:"
+msgstr "Exécutable du solveur"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #: ekos/align/opsprograms.ui:139
 #, kde-format
 msgid "config:"
-msgstr "Configuration:"
+msgstr "Configuration"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #: ekos/align/opsprograms.ui:149
@@ -8198,35 +8198,35 @@ msgstr "ASTAP"
 #: ekos/align/opsprograms.ui:155
 #, kde-format
 msgid "ASTAP binary:"
-msgstr "Binaire ASTAP:"
+msgstr "Exécutable ASTAP"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_ASTAPExecutable)
 #: ekos/align/opsprograms.ui:162
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "ASTAP binary:"
 msgid "ASTAP Program binary path"
-msgstr "Binaire ASTAP:"
+msgstr "Chemin de l'exécutable ASTAP"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
 #: ekos/align/opsprograms.ui:175
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Internal Solver"
 msgid "Watney Solver"
-msgstr "Résolveur interne"
+msgstr "Résolveur Watney"
 
 #. i18n: ectx: property (text), widget (QLabel, label_21)
 #: ekos/align/opsprograms.ui:181
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "solver binary:"
 msgid "Watney binary:"
-msgstr "Binaire du résolveur :"
+msgstr "Exécutable du résolveur Watnex"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_WatneyBinary)
 #: ekos/align/opsprograms.ui:188
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Xplanet binary path"
 msgid "Watney Program binary path"
-msgstr "Emplacement du binaire « Xplanet »"
+msgstr "Chemin de l'exécutable Xplanet"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: ekos/align/opsprograms.ui:201
@@ -8238,19 +8238,19 @@ msgstr "Astrometry.net en ligne ou ANSVR distant"
 #: ekos/align/opsprograms.ui:207
 #, kde-format
 msgid "API URL"
-msgstr "API URL:"
+msgstr "API URL"
 
 #. i18n: ectx: property (text), widget (QLabel, label_18)
 #: ekos/align/opsprograms.ui:217
 #, kde-format
 msgid "API URL:"
-msgstr "API URL:"
+msgstr "API URL"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ekos/align/opsprograms.ui:224
 #, kde-format
 msgid "Time out:"
-msgstr "Délai limite:"
+msgstr "Délai limite"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_AstrometryTimeout)
 #: ekos/align/opsprograms.ui:231
@@ -8262,13 +8262,13 @@ msgstr "Délai limite en secondes pour que le résolveur d'astrométrie termine.
 #: ekos/align/opsprograms.ui:244
 #, kde-format
 msgid "API Key"
-msgstr "Clé API:"
+msgstr "Clé API"
 
 #. i18n: ectx: property (text), widget (QLabel, label_17)
 #: ekos/align/opsprograms.ui:254
 #, kde-format
 msgid "API Key:"
-msgstr "Touche API:"
+msgstr "Touche API"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AstrometryUseJPEG)
 #: ekos/align/opsprograms.ui:261
@@ -8285,7 +8285,7 @@ msgstr "Envoyer JPG"
 #: ekos/align/polaralignmentassistant.cpp:33
 #, kde-format
 msgid "First Capture"
-msgstr "Première capture"
+msgstr "Première acquisition"
 
 #: ekos/align/polaralignmentassistant.cpp:34
 #, kde-format
@@ -11025,7 +11025,7 @@ msgid ""
 "object detection.  The Mexican Hat filter is good in crowded star fields or in the vicinity of nebulae.  The Top Hat filter is good "
 "for extended, low brightness objects.  Note: The \"Custom\" filter selection is meant for testing purposes and should only be used by "
 "developers"
-msgstr ""
+msgstr "Le type de filtre de convolution que SEP va appliquer à l'image avant l'extraction de l'image. Ces filtres sont comparables aux filtres inclus dans un installation de SExtractor, mais ici vous avez la flexibilité de modifier le FWHM. Le filtre par défaut est le plus rapide mais ne modifie PAS le réglage de FWHM et est par conséquent le meilleur pour les petites étoiles. Le filtre gaussien est très performant pour détecter des objets très faibles. Le filtre Mexican Hat est bon pour les champs d'étoiles très chargés ou à proximité de nébuleuses. Le filtre Top Hat est bon pour les objets étendus et de faible luminosité. Note : le filtre personnalisé n'est utilisé que pour des tests et ne devrait être utilisé que par des développeurs."
 
 #. i18n: ectx: property (text), item, widget (QComboBox, convFilter)
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:446
@@ -11035,25 +11035,25 @@ msgstr "Personnalisé"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, convFilter)
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:451
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Gaussian blur"
 msgid "Gaussian"
-msgstr "Flou gaussien"
+msgstr "Gaussien"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, convFilter)
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:456
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "City in Alberta Canada"
 #| msgid "Medicine Hat"
 msgid "Mexican Hat"
-msgstr "Medicine Hat"
+msgstr "Mexican Hat"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, convFilter)
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:461
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Top left"
 msgid "Top Hat"
-msgstr "En haut à gauche"
+msgstr "Top Hat"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, deblend_thresh)
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:469
@@ -11124,10 +11124,10 @@ msgstr "<a href=\"https://sep.readthedocs.io/en/v1.0.x/api/sep.sum_ellipse.html\
 
 #. i18n: ectx: property (text), widget (QLabel, label_26)
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:560
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Confirm Filter"
 msgid "Conv Filter"
-msgstr "Confirmer le filtre"
+msgstr "Filtre de convolution"
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:567
@@ -11145,7 +11145,7 @@ msgstr "Tentatives de nettoyer l'image pour supprimer les artefacts causés par 
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:577
 #, kde-format
 msgid "Clean?"
-msgstr "Nettoyer?"
+msgstr "Nettoyer ?"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, clean_param)
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:587
@@ -11179,30 +11179,30 @@ msgstr "Zone minimale en pixels pour la détection d'une étoile. Les étoiles p
 
 #. i18n: ectx: property (text), widget (QLabel, label_22)
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:631
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "UTC Offset"
 msgid "Thresh Offset"
-msgstr "Décalage « UTC »"
+msgstr "Décalage du seuil"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, threshOffset)
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:638
 #, kde-format
 msgid "Add this offset to the detection threshold"
-msgstr ""
+msgstr "Ajouter ce décalage au seuil de détection"
 
 #. i18n: ectx: property (text), widget (QLabel, label_30)
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:648
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "the star is a multiple star"
 #| msgid "multiple"
 msgid "Thresh Multiple"
-msgstr "multiple"
+msgstr "Multiple de seuil"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, threshMultiple)
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:655
 #, kde-format
 msgid "Add the multiple times the rms background level to the detection threshold."
-msgstr ""
+msgstr "Ajouter ce multiple au niveau de background rms pour le seuil de  détection."
 
 #. i18n: ectx: property (text), widget (QLineEdit, threshMultiple)
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:658
@@ -11215,7 +11215,7 @@ msgstr "2.0"
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:668
 #, kde-format
 msgid "Star Filtering Parameters (Make these settings 0 to disable them)"
-msgstr "Paramètres de filtrage des étoiles (Saisir la valeur 0 pour ces paramètres pour les désactiver)"
+msgstr "Paramètres de filtrage des étoiles (saisir la valeur 0 pour ces paramètres pour les désactiver)"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, maxEllipse)
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:689
@@ -13024,10 +13024,10 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, avgDownloadLabel)
 #: ekos/capture/capture.ui:2341
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Download"
 msgid "Avg. Download:"
-msgstr "Télécharger"
+msgstr "Téléchargement moyen"
 
 #. i18n: ectx: property (text), widget (QLabel, sequenceLeftLabel)
 #. i18n: ectx: property (text), widget (QLabel, timeLeftLabel)
@@ -13335,10 +13335,10 @@ msgstr "Filtre sélectionné."
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, CaptureStatusWidget)
 #: ekos/capture/capturestatuswidget.ui:14
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Date format:"
 msgid "Form"
-msgstr "Format de date :"
+msgstr "Format"
 
 #. i18n: ectx: property (text), widget (QLabel, statusText)
 #: ekos/capture/capturestatuswidget.ui:32
@@ -14089,7 +14089,7 @@ msgstr[0] "Procédure de mise au point terminée après %1 itération."
 msgstr[1] "Procédure de mise au point terminée après %1 itérations."
 
 #: ekos/focus/focus.cpp:1754
-#, fuzzy, kde-format
+#, kde-format
 msgid "Settling for %1s..."
 msgstr "Stabilisation pour %1 s…"
 
@@ -20874,10 +20874,10 @@ msgid "Only aborted jobs left in the scheduler queue after evaluating, reschedul
 msgstr "Il ne reste que les tâches annulées dans la queue de l'ordonnanceur. Après évaluation, ré-ordonnancement de celles-ci."
 
 #: ekos/scheduler/scheduler.cpp:2726
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "No jobs left in the scheduler queue."
 msgid "No jobs scheduled."
-msgstr "Aucune tâche restante dans la file d'attente de l'ordonnanceur."
+msgstr "Aucune tâche programmée."
 
 #: ekos/scheduler/scheduler.cpp:2749
 #, kde-format
@@ -29706,25 +29706,25 @@ msgstr "Mise à jour automatiquement des coordonnées de position quand la montu
 #: kstars.kcfg:2124
 #, kde-format
 msgid "Detect parity and reuse it to speed up solver."
-msgstr "Détecter la parité et la ré-utiliser pour améliorer la résolution."
+msgstr "Détecter la parité et la réutiliser pour améliorer la résolution."
 
 #. i18n: ectx: label, entry (AstrometryCustomOptions), group (Align)
 #: kstars.kcfg:2128
 #, kde-format
 msgid "Additional optional astrometry.net options"
-msgstr "Options additionnelles pour le programme « astrometry.net »"
+msgstr "Options additionnelles pour le programme astrometry.net"
 
 #. i18n: ectx: label, entry (AstrometrySolverBinary), group (Align)
 #: kstars.kcfg:2131
 #, kde-format
 msgid "astrometry.net solve-field binary"
-msgstr "Champ de résolution binaire de « astrometry.net »"
+msgstr "Exécutable du résolveur de astrometry.net"
 
 #. i18n: ectx: whatsthis, entry (AstrometrySolverBinary), group (Align)
 #: kstars.kcfg:2132
 #, kde-format
 msgid "Path to astrometry.net solver location."
-msgstr "Emplacement du fichier de résolution « astrometry.net »."
+msgstr "Chemin du fichier de résolution astrometry.net."
 
 #. i18n: ectx: label, entry (AstrometryWCSInfo), group (Align)
 #: kstars.kcfg:2136
@@ -29736,7 +29736,7 @@ msgstr "Informations WCS binaires"
 #: kstars.kcfg:2137
 #, kde-format
 msgid "Path to astrometry.net wcsinfo location."
-msgstr "Emplacement du fichier des Informations WCS « Astronomy.net »."
+msgstr "Chemin du fichier des informations WCS Astronomy.net."
 
 #. i18n: ectx: label, entry (AstrometryConfFile), group (Align)
 #: kstars.kcfg:2141
@@ -29748,46 +29748,46 @@ msgstr "Fichier de configuration Astronomy.net"
 #: kstars.kcfg:2142
 #, kde-format
 msgid "Path to astrometry.net file location."
-msgstr "Emplacement du fichier astrometry.net."
+msgstr "Chemin du fichier astrometry.net."
 
 #. i18n: ectx: whatsthis, entry (SextractorBinary), group (Align)
 #: kstars.kcfg:2147
 #, kde-format
 msgid "Path to the Sextractor executable."
-msgstr "Emplacement vers l'exécutable « SExtractor »."
+msgstr "Chemin vers l'exécutable SExtractor."
 
 #. i18n: ectx: whatsthis, entry (WatneyBinary), group (Align)
 #: kstars.kcfg:2152
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Path to the Sextractor executable."
 msgid "Path to the Watney Solver executable."
-msgstr "Emplacement vers l'exécutable « SExtractor »."
+msgstr "Chemin vers l'exécutable du résolveur Watney."
 
 #. i18n: ectx: label, entry (AstrometryAPIKey), group (Align)
 #: kstars.kcfg:2157
 #, kde-format
 msgid "astrometry.net API Key"
-msgstr "Clé API pour « Astrometry.net »"
+msgstr "Clé API pour Astrometry.net"
 
 #. i18n: ectx: whatsthis, entry (AstrometryAPIKey), group (Align)
 #: kstars.kcfg:2158
 #, kde-format
 msgid "Key to access astrometry.net online web services. You must register with astrometry.net to obtain a key."
 msgstr ""
-"Clé pour accéder aux services Internet en ligne de « astrometry.net ». Vous devez créer un compte sur « astrometry.net » pour obtenir "
-"un clé."
+"Clé pour accéder aux services Internet en ligne de astrometry.net. Vous devez créer un compte sur astrometry.net pour obtenir "
+"une clé."
 
 #. i18n: ectx: label, entry (AstrometryAPIURL), group (Align)
 #: kstars.kcfg:2162
 #, kde-format
 msgid "astrometry.net API URL"
-msgstr "URL de l'API pour « Astrometry.net »"
+msgstr "URL de l'API pour Astrometry.net"
 
 #. i18n: ectx: label, entry (AstrometryUseJPEG), group (Align)
 #: kstars.kcfg:2166
 #, kde-format
 msgid "Use JPEG format, instead of FITS, to upload images to the astrometry.net online service."
-msgstr "Utiliser le format « JPEG », plutôt que « FITS », pour envoyer des images vers le service en ligne « astrometry.net »."
+msgstr "Utiliser le format JPEG, plutôt que FITS, pour envoyer des images vers le service en ligne astrometry.net."
 
 #. i18n: ectx: label, entry (AstrometryTimeout), group (Align)
 #: kstars.kcfg:2170
@@ -65592,17 +65592,17 @@ msgstr "Si cette case est cochée, des images en ligne seront dessinés sur la c
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowInlineImages)
 #: options/opsadvanced.ui:529
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show inline images on the sky?"
 msgid "Show inline images"
-msgstr "Afficher des images en ligne du ciel ?"
+msgstr "Afficher les images en ligne"
 
 #. i18n: ectx: property (title), widget (QGroupBox, hideObjectsWhileSlewing)
 #: options/opsadvanced.ui:605
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Hide objects while moving"
 msgid "Configure hidden objects while moving"
-msgstr "Cacher les objets pendant le déplacement"
+msgstr "Configurer les objets cachés pendant le déplacement"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HideOnSlew)
 #: options/opsadvanced.ui:626
@@ -65628,16 +65628,16 @@ msgstr "Cacher les objets pendant le déplacement"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabelHideTimeStep)
 #: options/opsadvanced.ui:644
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Also hide if time step larger than:"
 msgid "Hide objects only if time step is larger than threshold"
-msgstr "Cacher également si le pas de temps est supérieur à :"
+msgstr "Cacher les objects que si le pas de temps est supérieur au seuil"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabelHideTimeStep)
 #: options/opsadvanced.ui:647
 #, kde-format
 msgid "Also hide if time step larger than:"
-msgstr "Cacher également si le pas de temps est supérieur à :"
+msgstr "Cacher également si le pas de temps est supérieur à"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_HideStars)
 #: options/opsadvanced.ui:657
@@ -65647,10 +65647,10 @@ msgstr "Si cette case est cochée, les étoiles plus faibles sont cachées lorsq
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_HideStars)
 #: options/opsadvanced.ui:660
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Stars fainter than:"
 msgid "Stars fainter than magnitude:"
-msgstr "Étoiles plus faibles que :"
+msgstr "Étoiles plus faibles que la magnitude"
 
 #. i18n: ectx: property (whatsThis), widget (MagnitudeSpinBox, kcfg_MagLimitHideStar)
 #: options/opsadvanced.ui:679
@@ -65679,10 +65679,10 @@ msgstr "Système solaire"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HideLabels)
 #: options/opsadvanced.ui:701
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Hide object name labels while moving?"
 msgid "Hide object labels while moving?"
-msgstr "Cacher les noms d'objets pendant le déplacement ?"
+msgstr "Cacher les étiquettes des objets pendant le déplacement ?"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_HideLabels)
 #: options/opsadvanced.ui:704
@@ -71725,10 +71725,10 @@ msgid "In hole"
 msgstr "Dans le trou"
 
 #: tools/observinglist.cpp:262
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Unnamed stars are not supported in the observing lists"
 msgid "Stars and objects whose names KStars does not know are not supported in the observing lists"
-msgstr "Les étoiles sans nom ne sont pas prises en charge dans les listes d'observation"
+msgstr "Les étoiles et objects que KStars ne connait pas ne sont pas prises en charge dans les listes d'observation"
 
 #: tools/observinglist.cpp:274
 #, kde-format
@@ -71743,12 +71743,12 @@ msgstr "%1 se trouve déjà dans le plan de session."
 #: tools/observinglist.cpp:352
 #, kde-format
 msgid "Added %1 to observing list."
-msgstr "« %1 » ajouté à la liste d'observation."
+msgstr "%1 ajouté à la liste d'observation."
 
 #: tools/observinglist.cpp:390
 #, kde-format
 msgid "Added %1 to session list."
-msgstr "« %1 » ajouté à la liste de session."
+msgstr "%1 ajouté à la liste de session."
 
 #: tools/observinglist.cpp:597
 #, kde-format
@@ -71758,7 +71758,7 @@ msgid ""
 " Photometric band: %3 \n"
 " Version: %4"
 msgstr ""
-"Métadonnées « DSS »DSS de l'image : \n"
+"Métadonnées DSS de l'image : \n"
 " Taille : %1 x %2 \n"
 " Bande photométrique : %3 \n"
 " Version : %4"
@@ -71880,10 +71880,10 @@ msgid "Observing List Wizard"
 msgstr "Assistant de liste d'observations"
 
 #: tools/observinglist.cpp:1084
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Please wait while loading objects..."
 msgid "Please wait while loading observing wishlist..."
-msgstr "Veuillez patienter pendant le chargement des objets..."
+msgstr "Veuillez patienter pendant le chargement de la liste d'observation souhaitée…"
 
 #: tools/observinglist.cpp:1121
 #, kde-format
@@ -71905,7 +71905,7 @@ msgstr[0] "Observation de la liste tronquée de souhaits : impossible de trouve
 msgstr[1] "Observation de la liste tronquée de souhaits : impossible de trouver %1 objets"
 
 #: tools/observinglist.cpp:1148
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "%1 object could not be found in the database, and will be removed from the observing wish list. We recommend that you copy the "
 #| "detailed list as a backup."
@@ -71920,11 +71920,11 @@ msgid_plural ""
 "detailed list as a backup, whereby you can later use the Batch Add feature in the Observation Planner to add them back using internet "
 "search."
 msgstr[0] ""
-"L'objet %1 ne peut être trouvé dans la base de données et sera retiré de laliste d'observation. Nous vous recommandons d'enregistrer "
-"une copie de la listedétaillée."
+"L'objet %1 ne peut être trouvé dans la base de données et sera retiré de la liste d'observation souhaitée. Nous vous recommandons d'enregistrer "
+"une copie de son nom comme sauvegarde afin de la réintégrer plus tard." 
 msgstr[1] ""
-"Les %1 objets ne peuvent être trouvés dans la base de données et seront retirés de laliste d'observation. Nous vous recommandons "
-"d'enregistrer une copie de la listedétaillée."
+"Les %1 objets ne peuvent être trouvés dans la base de données et seront retirés de la liste d'observation souhaitée. Nous vous recommandons "
+"d'enregistrer une copie de cette liste détaillée comme sauvegarde. Vous pourrez ensuite utiliser la fonctionnalité d'ajout par lot dans l'outil de planification d'observation pour les réintégrer en utilisant une recherche par Internet."
 
 #: tools/observinglist.cpp:1161
 #, kde-format
