@@ -8155,13 +8155,13 @@ msgstr "Astrometry.net local ou ANSVR local"
 #: ekos/align/opsprograms.ui:95
 #, kde-format
 msgid "Astrometry.net configuration file"
-msgstr "Fichier de configuration astrometry.net"
+msgstr "Fichier de configuration de astrometry.net"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AstrometryWCSInfo)
 #: ekos/align/opsprograms.ui:105
 #, kde-format
 msgid "Astrometry.net wcsinfo binary"
-msgstr "Binaires WCSinfo  d'astrometry.net"
+msgstr "Exécutable de WCSinfo d'astrometry.net"
 
 #. i18n: ectx: property (text), widget (QLabel, label_16)
 #: ekos/align/opsprograms.ui:115
@@ -8174,13 +8174,13 @@ msgstr "wcsinfo"
 #, kde-format
 #| msgid "Astrometry.net solve-field binary"
 msgid "Astrometry.net solve-field binary path"
-msgstr "Chemin de l'exécutable du solveur Astrometry.net"
+msgstr "Chemin de l'exécutable du résolveur Astrometry.net"
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
 #: ekos/align/opsprograms.ui:132
 #, kde-format
 msgid "solver binary:"
-msgstr "Exécutable du solveur"
+msgstr "Exécutable du résolveur"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #: ekos/align/opsprograms.ui:139
@@ -8198,14 +8198,14 @@ msgstr "ASTAP"
 #: ekos/align/opsprograms.ui:155
 #, kde-format
 msgid "ASTAP binary:"
-msgstr "Exécutable ASTAP"
+msgstr "Exécutable de ASTAP"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_ASTAPExecutable)
 #: ekos/align/opsprograms.ui:162
 #, kde-format
 #| msgid "ASTAP binary:"
 msgid "ASTAP Program binary path"
-msgstr "Chemin de l'exécutable ASTAP"
+msgstr "Chemin de l'exécutable de ASTAP"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
 #: ekos/align/opsprograms.ui:175
@@ -8219,7 +8219,7 @@ msgstr "Résolveur Watney"
 #, kde-format
 #| msgid "solver binary:"
 msgid "Watney binary:"
-msgstr "Exécutable du résolveur Watnex"
+msgstr "Exécutable du résolveur Watney"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_WatneyBinary)
 #: ekos/align/opsprograms.ui:188
@@ -29454,7 +29454,7 @@ msgstr "Résolveur local (0) ou distant (1)."
 #, kde-format
 msgid "Local solving method. 0 for Internal Solver. 1 for Local Astrometry. 2 for Local ASTAP. 3 for Online Astrometry."
 msgstr ""
-"Méthode de résolution locale. 0 pour le solveur interne. 1 pour l'astrométrie locale. 2 pour « ASTAP » local. 3 pour l'astrométrie en "
+"Méthode de résolution locale. 0 pour le résolveur interne. 1 pour l'astrométrie locale. 2 pour « ASTAP » local. 3 pour l'astrométrie en "
 "ligne."
 
 #. i18n: ectx: label, entry (SolveOptionsProfile), group (StellarSolver)
@@ -29555,8 +29555,8 @@ msgstr "Utiliser le rotateur lors de la réalisation du chargement et du balayag
 #, kde-format
 msgid "Threshold between measured and FITS position angles in arcminutes to consider the load and slew operation successful."
 msgstr ""
-"Seuil entre les angles de position mesurés et « FITS » en minutes d’arc pour considérer comme réussie le chargement et l’opération de "
-"déplacement ."
+"Seuil entre les angles de position mesurés et FITS en minutes d’arc pour considérer comme réussie le chargement et l’opération de "
+"déplacement."
 
 #. i18n: ectx: label, entry (SolverScopeType), group (Align)
 #: kstars.kcfg:2028
@@ -29568,7 +29568,7 @@ msgstr "Indice du type de télescope à utiliser lors de la résolution d'une im
 #: kstars.kcfg:2032
 #, kde-format
 msgid "Action to take if solver if successful (Sync, Slew to Target, or None)"
-msgstr "Action à réaliser sur le solveur a terminé avec succès (Sync, Pivoter jusqu'à une cible ou rien)."
+msgstr "Action à réaliser si le résolveur a terminé avec succès (Sync, Pivoter vers la cible ou Rien)."
 
 #. i18n: ectx: label, entry (AstrometrySolverWCS), group (Align)
 #: kstars.kcfg:2036
