@@ -304,12 +304,12 @@ msgstr "Téléchargement"
 #: auxiliary/filedownloader.cpp:158
 #, kde-format
 msgid "Downloading Data..."
-msgstr "Téléchargement des données..."
+msgstr "Téléchargement des données…"
 
 #: auxiliary/filedownloader.cpp:197
 #, kde-format
 msgid "Awaiting response from server..."
-msgstr "En attente de la réponse du serveur..."
+msgstr "En attente de la réponse du serveur…"
 
 #: auxiliary/fov.cpp:39 kstarslite/skyitems/fovitem.cpp:13
 #, kde-format
@@ -421,7 +421,7 @@ msgstr "Télécharger"
 #: auxiliary/imageviewer.cpp:196
 #, kde-format
 msgid "Please wait while image is being downloaded..."
-msgstr "Veuillez patienter pendant le téléchargement de l'image..."
+msgstr "Veuillez patienter pendant le téléchargement de l'image…"
 
 #: auxiliary/imageviewer.cpp:224
 #, kde-format
@@ -431,7 +431,7 @@ msgstr "Afficheur d'images"
 #: auxiliary/imageviewer.cpp:257
 #, kde-format
 msgid "Loading of the image %1 failed."
-msgstr "Echec du chargement de l'image « %1 »."
+msgstr "Échec du chargement de l'image « %1 »."
 
 #: auxiliary/imageviewer.cpp:312 auxiliary/xplanetimageviewer.cpp:1218 indi/clientmanagerlite.cpp:795 printing/foveditordialog.cpp:119
 #, kde-format
@@ -443,18 +443,18 @@ msgstr "Enregistrer une image"
 #: printing/pwizprint.cpp:77 tools/scriptbuilder.cpp:881
 #, kde-format
 msgid "A file named \"%1\" already exists. Overwrite it?"
-msgstr "Un fichier nommé \"%1\" existe déjà. L'écraser?"
+msgstr "Un fichier nommé « %1 » existe déjà. L'écraser ?"
 
 #: auxiliary/imageviewer.cpp:323 ekos/align/align.cpp:3870 ekos/guide/guidedriftgraph.cpp:464 kstarsactions.cpp:1272
 #: printing/pwizprint.cpp:78 tools/scriptbuilder.cpp:884
 #, kde-format
 msgid "Overwrite File?"
-msgstr "Écraser le fichier?"
+msgstr "Écraser le fichier ?"
 
 #: auxiliary/imageviewer.cpp:347
 #, kde-format
 msgid "Saving of the image %1 failed."
-msgstr "Echec enregistrement de l'image %1."
+msgstr "Échec enregistrement de l'image %1."
 
 #: auxiliary/ksdssdownloader.cpp:200 auxiliary/ksdssdownloader.cpp:228
 #, kde-format
@@ -464,12 +464,12 @@ msgstr "Téléchargement DSS"
 #: auxiliary/ksdssdownloader.cpp:201 auxiliary/ksdssdownloader.cpp:229
 #, kde-format
 msgid "Please wait while DSS image is being downloaded..."
-msgstr "Veuillez patienter pendant le téléchargement de l'image DSS..."
+msgstr "Veuillez patienter pendant le téléchargement de l'image DSS…"
 
 #: auxiliary/ksmessagebox.cpp:132
 #, kde-format
 msgid "Auto close in ..."
-msgstr "Fermeture automatique..."
+msgstr "Fermeture automatique…"
 
 #: auxiliary/ksmessagebox.cpp:254 kstarslite/qml/modules/TimePage.qml:535 kstarslite/qml/modules/TimePage.qml:553
 #, kde-format, kde-kuit-format
@@ -765,7 +765,7 @@ msgstr "Modifier la vignette"
 #: auxiliary/thumbnaileditor.cpp:72
 #, kde-format
 msgid "Crop region: [%1,%2  %3x%4]"
-msgstr "Rogner la région: [%1, %2 %3x%4]"
+msgstr "Rogner la région : [%1, %2 %3x%4]"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ThumbnailEditor)
 #: auxiliary/thumbnaileditor.ui:13
@@ -777,7 +777,7 @@ msgstr "Éditeur de vignettes"
 #: auxiliary/thumbnaileditor.ui:43
 #, kde-format
 msgid "Crop region: [0,0  200 x 200]"
-msgstr "Rogner la région: [0,0 200 x 200]"
+msgstr "Rogner la région : [0,0 200 x 200]"
 
 #. i18n: ectx: property (text), widget (QLabel, MessageLabel)
 #: auxiliary/thumbnaileditor.ui:59
@@ -788,13 +788,13 @@ msgstr "(la région rognée sera redimensionnée à 200x200)"
 #: auxiliary/thumbnailpicker.cpp:135
 #, kde-format
 msgid "Loading images..."
-msgstr "Chargement des images..."
+msgstr "Chargement des images…"
 
 #. i18n: ectx: property (text), widget (QLabel, SearchLabel)
 #: auxiliary/thumbnailpicker.cpp:169 auxiliary/thumbnailpicker.ui:24
 #, kde-format
 msgid "Search results:"
-msgstr "Résultats de la recherche:"
+msgstr "Résultats de la recherche"
 
 #: auxiliary/thumbnailpicker.cpp:353
 #, kde-format
@@ -821,19 +821,19 @@ msgstr "Sélecteur de vignettes"
 #: auxiliary/thumbnailpicker.ui:69
 #, kde-format
 msgid "Specify image location:"
-msgstr "Spécifiez l'emplacement de l'image:"
+msgstr "Spécifiez l'emplacement de l'image"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: auxiliary/thumbnailpicker.ui:103
 #, kde-format
 msgid "Current thumbnail:"
-msgstr "Vignette courante:"
+msgstr "Vignette courante"
 
 #. i18n: ectx: property (text), widget (QPushButton, EditButton)
 #: auxiliary/thumbnailpicker.ui:178
 #, kde-format
 msgid "Edit Ima&ge..."
-msgstr "Modifier une ima&ge..."
+msgstr "Modifier une ima&ge…"
 
 #. i18n: ectx: property (text), widget (QPushButton, UnsetButton)
 #: auxiliary/thumbnailpicker.ui:185
@@ -845,7 +845,7 @@ msgstr "Image désactivée"
 #, kde-format
 msgctxt "@title:window"
 msgid "XPlanet Solar System Simulator: %1"
-msgstr "Simulateur XPlanet pour le système solaire: %1"
+msgstr "Simulateur XPlanet pour le système solaire : %1"
 
 #. i18n?
 #. i18nc("Asteroid name (optional)", "Pluto");
@@ -1926,7 +1926,7 @@ msgstr "Précédent"
 #: data/qml/whatisinteresting/wiview.qml:1513
 #, kde-kuit-format
 msgid "Loading..."
-msgstr "Téléchargement en cours..."
+msgstr "Téléchargement en cours…"
 
 #: data/qml/whatisinteresting/wiview.qml:1543
 #, kde-kuit-format
@@ -1945,10 +1945,10 @@ msgid ""
 "details on what the buttons at the bottom do."
 msgstr ""
 "Le panneau Digne d'intérêt permet d'explorer de différentes façons, les objects observables cette nuit. Il inclut les objets visibles "
-"à l'oeil nu aussi bien que ceux nécessitant un instrument. Il s'adresse à la fois aux astronomes débutants ou expérimentés.En "
+"à l'œil nu aussi bien que ceux nécessitant un instrument. Il s'adresse à la fois aux astronomes débutants ou expérimentés.En "
 "cliquant sur une catégorie ou un catalogue, une liste d'objets apparaît. Cliquez sur un objet dans la liste, les détails le "
 "concernant s'afficheront. Si on dispose de miniatures ou d'informations Wikipedia, elles s'afficheront  également. Sinon, vous pouvez "
-"les télécharger. En élargissant la fenêtre  Qu'y-a-t-il d'intéressant, l'affichage se modifiera dynamiquement.Voir ci-dessous pour le "
+"les télécharger. En élargissant la fenêtre  Qu'y-a-t-il d'intéressant, l'affichage se modifiera dynamiquement. Voir ci-dessous pour le "
 "descriptif de chaque bouton."
 
 #: data/qml/whatisinteresting/wiview.qml:1579
@@ -1957,7 +1957,7 @@ msgid ""
 "This button will bring up the What's Interesting Settings. It will let you configure what is displayed in What's Interesting based "
 "upon which equipment you are using and the observing conditions."
 msgstr ""
-"Ce bouton vous permettra d'accéder aux paramètres de la section Digned'intérêt!. Il vous permettra de configurer ce qu'il sera "
+"Ce bouton vous permettra d'accéder aux paramètres de la section « Digne d'intérêt ! ». Il vous permettra de configurer ce qu'il sera "
 "affiché dans cette section, selon l'équipement que vous utilisez et les conditions d'informations."
 
 #: data/qml/whatisinteresting/wiview.qml:1600
@@ -1967,7 +1967,7 @@ msgid ""
 "display the information about it."
 msgstr ""
 "Ce bouton activera ou non le mode Inspecteur. Dans ce mode, vous pouvez cliquer sur n'importe quel objet de la carte et la section "
-"Digne d'intérêt! vous affichera les informations le concernant."
+"« Digne d'intérêt ! » vous affichera les informations le concernant."
 
 #: data/qml/whatisinteresting/wiview.qml:1621
 #, kde-kuit-format
@@ -1987,7 +1987,7 @@ msgid ""
 msgstr ""
 "Ce bouton permettra de choisir de filtrer la liste à afficher des seuls objets visibles dans une liste ou d'afficher tous les objets "
 "dans une liste. La visibilité est calculée selon les informations courantes de KStars de date et d'heure, l'équipement courant "
-"d'observation et les conditions actuelles météo selon les paramètres Digne d'intérêt!."
+"d'observation et les conditions actuelles météo selon les paramètres « Digne d'intérêt ! »."
 
 #: data/qml/whatisinteresting/wiview.qml:1663
 #, kde-kuit-format
@@ -2407,7 +2407,7 @@ msgstr "_"
 #: dialogs/catalogcoloreditor.ui:36
 #, kde-format
 msgid "Click on a color to change it..."
-msgstr "Cliquez sur une couleur pour la modifier..."
+msgstr "Cliquez sur une couleur pour la modifier…"
 
 #. i18n: ectx: property (text), widget (QRadioButton, meridianFlipDegreesR)
 #: dialogs/catalogcsvimport.cpp:89 ekos/mount/mount.ui:377
@@ -2519,13 +2519,13 @@ msgstr ","
 #: dialogs/catalogcsvimport.ui:151
 #, kde-format
 msgid "Select/Read..."
-msgstr "Sélectionner/Lire..."
+msgstr "Sélectionner/Lire…"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: dialogs/catalogcsvimport.ui:158
 #, kde-format
 msgid "Comment prefix:"
-msgstr "Préfixe de commentaire:"
+msgstr "Préfixe de commentaire"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: dialogs/catalogcsvimport.ui:168
@@ -2543,7 +2543,7 @@ msgstr "Unités des coordonnées"
 #: tools/modcalcplanets.ui:244 tools/modcalcvlsr.ui:485
 #, kde-format
 msgid "Dec:"
-msgstr "Déc:"
+msgstr "DEC"
 
 #. i18n: ectx: property (title), widget (QGroupBox, column_mapping)
 #: dialogs/catalogcsvimport.ui:222
@@ -2712,7 +2712,7 @@ msgstr "Objet"
 #: dialogs/catalogdetails.ui:178 dialogs/fovdialog.ui:89
 #, kde-format
 msgid "Edit..."
-msgstr "Modifier..."
+msgstr "Modifier…"
 
 #. i18n: ectx: property (text), widget (QPushButton, remove_object)
 #. i18n: ectx: property (text), widget (QPushButton, removeButton)
@@ -2946,26 +2946,26 @@ msgstr "Catalogues des objets du CP"
 #: dialogs/catalogsdbui.ui:43
 #, kde-format
 msgid "Import Catalog..."
-msgstr "Importer un catalogue..."
+msgstr "Importer un catalogue…"
 
 #. i18n: ectx: property (text), widget (QPushButton, createButton)
 #: dialogs/catalogsdbui.ui:50
 #, kde-format
 msgid "Create Catalog..."
-msgstr "Créer un catalogue..."
+msgstr "Créer un catalogue…"
 
 #. i18n: ectx: property (text), widget (QPushButton, exportButton)
 #. i18n: ectx: property (text), widget (QPushButton, ExportButton)
 #: dialogs/catalogsdbui.ui:93 tools/conjunctions.ui:198 tools/eclipsetool.ui:160
 #, kde-format
 msgid "Export..."
-msgstr "Exporter..."
+msgstr "Exporter…"
 
 #. i18n: ectx: property (text), widget (QPushButton, dublicateButton)
 #: dialogs/catalogsdbui.ui:103
 #, kde-format
 msgid "Clone..."
-msgstr "Cloner..."
+msgstr "Cloner…"
 
 #. i18n: ectx: property (text), widget (QPushButton, colorButton)
 #: dialogs/catalogsdbui.ui:113 kstarsactions.cpp:1072
@@ -2977,7 +2977,7 @@ msgstr "Couleurs"
 #: dialogs/catalogsdbui.ui:123
 #, kde-format
 msgid "More..."
-msgstr "Plus..."
+msgstr "Plus…"
 
 #: dialogs/detaildialog.cpp:59
 #, kde-format
@@ -2997,7 +2997,7 @@ msgstr "Général"
 #: dialogs/detaildialog.cpp:121
 #, kde-format
 msgid "%1 star"
-msgstr "Etoile %1"
+msgstr "Étoile %1"
 
 #. i18nc("number in magnitudes", "%1 mag",
 #. QLocale().toString( ((KSComet *)selectedObject)->getTotalMagnitudeParameter(), 'f', 2)));  //show to hundredth place
@@ -3045,7 +3045,7 @@ msgstr "variable"
 #, kde-format
 msgctxt "Proper motion of a star"
 msgid "Proper Motion:"
-msgstr "Mouvement propre:"
+msgstr "Mouvement propre"
 
 #: dialogs/detaildialog.cpp:190
 #, kde-format
@@ -3557,13 +3557,13 @@ msgstr "Voir la ressource"
 #: dialogs/details_links.ui:150
 #, kde-format
 msgid "Add Link..."
-msgstr "Ajouter un lien..."
+msgstr "Ajouter un lien…"
 
 #. i18n: ectx: property (text), widget (QPushButton, EditLinkButton)
 #: dialogs/details_links.ui:157
 #, kde-format
 msgid "Edit Link..."
-msgstr "Modifier un lien..."
+msgstr "Modifier un lien…"
 
 #. i18n: ectx: property (text), widget (QPushButton, RemoveLinkButton)
 #: dialogs/details_links.ui:164
@@ -4202,7 +4202,7 @@ msgstr "Nombre Focal:"
 #: dialogs/fovdialog.ui:13
 #, kde-format
 msgid "Edit FOV Symbols"
-msgstr "Editer les indicateurs de champ de vision"
+msgstr "Modifier les indicateurs de champ de vision"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, NewButton)
 #: dialogs/fovdialog.ui:54
@@ -4222,7 +4222,7 @@ msgstr ""
 #: dialogs/fovdialog.ui:60
 #, kde-format
 msgid "New..."
-msgstr "Nouveau..."
+msgstr "Nouveau…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, EditButton)
 #: dialogs/fovdialog.ui:83
@@ -5228,7 +5228,7 @@ msgstr ""
 #: dialogs/wizdownload.ui:128
 #, kde-format
 msgid "Download Extra Data..."
-msgstr "Télécharger des données supplémentaires..."
+msgstr "Télécharger des données supplémentaires…"
 
 #. i18n: ectx: property (text), widget (QLabel, GeoTitle)
 #: dialogs/wizlocation.ui:61
@@ -5288,13 +5288,13 @@ msgstr ""
 
 #: ekos/align/align.cpp:177
 #, kde-format
-msgid "Capture timed out.STEVE ALIGNE"
+msgid "Capture timed out."
 msgstr "Délai d'exécution de la capture dépassé."
 
 #: ekos/align/align.cpp:186
 #, kde-format
 msgid "Capturing still running, Retrying in %1 seconds..."
-msgstr "Capture encore en cours. Nouvel essai dans %1 secondes..."
+msgstr "Acquisition encore en cours. Nouvel essai dans %1 secondes…"
 
 #: ekos/align/align.cpp:213
 #, kde-format
@@ -5438,12 +5438,12 @@ msgstr "Le transfert d'image est désactivé pour cette caméra. Voulez-vous l'a
 #: ekos/align/align.cpp:1622
 #, kde-format
 msgid "Cannot capture while focus module is busy. Retrying in %1 seconds..."
-msgstr "Impossible de faire une capture pendant une mise au point. Nouvel essai dans %1 secondes..."
+msgstr "Impossible de faire une acquisition pendant une mise au point. Nouvel essai dans %1 secondes…"
 
 #: ekos/align/align.cpp:1629
 #, kde-format
 msgid "Cannot capture while CCD exposure is in progress. Retrying in %1 seconds..."
-msgstr "Impossible de faire une capture pendant qu'une capture est en cours. Nouvel essai dans %1 secondes..."
+msgstr "Impossible de faire une acquisition pendant qu'une capture est en cours. Nouvel essai dans %1 secondes…"
 
 #: ekos/align/align.cpp:1647 ekos/align/align.cpp:2970
 #, kde-format
@@ -5477,7 +5477,7 @@ msgstr "Résolution à l'aveugle (échelle inconnue)…"
 #: ekos/align/align.cpp:1957
 #, kde-format
 msgid "Solving with blind image position..."
-msgstr "Résolution avec une position d'image en aveugle..."
+msgstr "Résolution avec une position d'image en aveugle…"
 
 #: ekos/align/align.cpp:2062
 #, kde-format
@@ -9589,7 +9589,7 @@ msgstr "Voulez-vous vraiment supprimer toutes les darks et données ?"
 #: ekos/auxiliary/darklibrary.cpp:1192
 #, kde-format
 msgid "In progress..."
-msgstr "En cours..."
+msgstr "En cours…"
 
 #: ekos/auxiliary/darklibrary.cpp:1349
 #, kde-format
@@ -9604,7 +9604,7 @@ msgstr "Dark maître enregistré dans %1"
 #: ekos/auxiliary/darklibrary.cpp:1390
 #, kde-format
 msgid "Capture completed."
-msgstr "Capture terminée."
+msgstr "Acquisition terminée."
 
 #: ekos/auxiliary/darklibrary.cpp:1417
 #, kde-format
@@ -10626,7 +10626,7 @@ msgstr ""
 #: ekos/auxiliary/serialportassistant.cpp:167
 #, kde-format
 msgid "Standby, Scanning..."
-msgstr "En attente, balayage en cours..."
+msgstr "En attente, balayage en cours…"
 
 #: ekos/auxiliary/serialportassistant.cpp:205
 #, kde-format
@@ -12156,7 +12156,7 @@ msgstr "Erreur de calibration après le retournement au méridien. Redémarrage 
 #: ekos/capture/capture.cpp:5347
 #, kde-format
 msgid "Performing post flip re-alignment..."
-msgstr "Réalisation d'un réalignement après retournement au méridien..."
+msgstr "Réalisation d'un réalignement après retournement au méridien…"
 
 #: ekos/capture/capture.cpp:5366
 #, kde-format
@@ -18684,7 +18684,7 @@ msgstr "fermeture"
 #, kde-format
 msgctxt "%2 dome or rolloff roof motion %1..."
 msgid "%2 rolloff roof %1..."
-msgstr "Plafond d'affaiblissement %2 %1..."
+msgstr "Plafond d'affaiblissement %2 %1…"
 
 #: ekos/observatory/observatorydomemodel.cpp:125
 #, kde-format
@@ -21196,37 +21196,37 @@ msgstr[1] "Tâche « %1 » terminée. #%2 lots avant le temps d’achèvement,
 #: ekos/scheduler/scheduler.cpp:5192
 #, kde-format
 msgid "Job '%1' is plate solving %2."
-msgstr "La tâche « %1 » est en cours de la résolution d'assiette %2."
+msgstr "La tâche %1 est en cours de la résolution %2."
 
 #: ekos/scheduler/scheduler.cpp:5235
 #, kde-format
 msgid "Job '%1' is capturing and plate solving."
-msgstr "La tâche « %1 » est en cours de capture et de résolution d'assiette."
+msgstr "La tâche %1 est en cours d'acquisition et de résolution."
 
 #: ekos/scheduler/scheduler.cpp:5250
 #, kde-format
 msgid "Guiding already running for %1 ..."
-msgstr "Le guidage est déjà lancé pour %1..."
+msgstr "Le guidage est déjà lancé pour %1…"
 
 #: ekos/scheduler/scheduler.cpp:5278
 #, kde-format
 msgid "Starting guiding procedure for %1 ..."
-msgstr "Démarrage de la procédure de guidage pour %1..."
+msgstr "Démarrage de la procédure de guidage pour %1…"
 
 #: ekos/scheduler/scheduler.cpp:5365
 #, kde-format
 msgid "Ekos job (%1) - Capture started"
-msgstr "Tâche « Ekos » (%1) - Capture débutée"
+msgstr "Tâche Ekos (%1) - Acquisition débutée"
 
 #: ekos/scheduler/scheduler.cpp:5368
 #, kde-format
 msgid "Job '%1' capture is in progress (batch #%2)..."
-msgstr "La tâche « %1 » de capture est en cours (itération #%2)..."
+msgstr "La tâche d'acquisition « %1 » est en cours (itération #%2)…"
 
 #: ekos/scheduler/scheduler.cpp:5370
 #, kde-format
 msgid "Job '%1' capture is in progress..."
-msgstr "La tâche « %1 » de capture est en cours..."
+msgstr "La tâche d'acquisition « %1 » est en cours…"
 
 #: ekos/scheduler/scheduler.cpp:5576
 #, kde-format
@@ -21237,7 +21237,7 @@ msgstr "Attention : la tâche « %1 » possède une séquence inaccessible «
 #, kde-format
 msgid "Warning: Job '%1' has its focus step disabled, periodic and/or HFR procedures currently set in its sequence will not occur."
 msgstr ""
-"Attention : la tâche « %1 » a son étape de mise au point désactivée. Les procédures périodiques et / ou « HFR » actuellement définies "
+"Attention : la tâche « %1 » a son étape de mise au point désactivée. Les procédures périodiques et/ou « HFR » actuellement définies "
 "dans sa séquence ne se produiront pas."
 
 #: ekos/scheduler/scheduler.cpp:5675
@@ -21248,7 +21248,7 @@ msgstr "Tâche « %1 » %2 x %3\" %4"
 #: ekos/scheduler/scheduler.cpp:5969
 #, kde-format
 msgid "Parking mount in progress..."
-msgstr "Parcage monture en cours..."
+msgstr "Parcage de la monture en cours…"
 
 #: ekos/scheduler/scheduler.cpp:6005
 #, kde-format
@@ -21269,25 +21269,25 @@ msgstr "Monture déparquée."
 #, kde-format
 msgid "Warning: mount unpark operation timed out on attempt %1/%2. Restarting operation..."
 msgstr ""
-"Avertissement: le temps imparti pour l'opération de déverrouillage de la sécurité de la monture a été atteint lors de la tentative %1/"
-"%2. Redémarrage de l'opération..."
+"Avertissement : le temps imparti pour l'opération de déverrouillage de la sécurité de la monture a été atteint lors de la tentative %1/"
+"%2. Redémarrage de l'opération…"
 
 #: ekos/scheduler/scheduler.cpp:6115
 #, kde-format
 msgid "Warning: mount unpark operation timed out on last attempt."
-msgstr "Alarme: dépassement du délai pour l'opération de déblocage de la monture lors de la dernière tentative."
+msgstr "Avertissement : dépassement du délai pour l'opération de déblocage de la monture lors de la dernière tentative."
 
 #: ekos/scheduler/scheduler.cpp:6129
 #, kde-format
 msgid "Warning: mount park operation timed out on attempt %1/%2. Restarting operation..."
 msgstr ""
-"Avertissement: le temps imparti pour l'opération de mise en sécurité de la monture a été atteint lors de la tentative %1/%2. "
-"Redémarrage de l'opération..."
+"Avertissement : le temps imparti pour l'opération de mise en sécurité de la monture a été atteint lors de la tentative %1/%2. "
+"Redémarrage de l'opération…"
 
 #: ekos/scheduler/scheduler.cpp:6135
 #, kde-format
 msgid "Warning: mount park operation timed out on last attempt."
-msgstr "Alarme: dépassement du délai pour l'opération de mise en sécurité de la monture lors de la dernière tentative."
+msgstr "Avertissement : dépassement du délai pour l'opération de mise en sécurité de la monture lors de la dernière tentative."
 
 #: ekos/scheduler/scheduler.cpp:6147 ekos/scheduler/scheduler.cpp:6175
 #, kde-format
@@ -21297,7 +21297,7 @@ msgstr "Erreur lors du déblocage de la monture."
 #: ekos/scheduler/scheduler.cpp:6155
 #, kde-format
 msgid "Warning: mount park operation failed on attempt %1/%2. Restarting operation..."
-msgstr "Avertissement: l'opération de parcage de la monture a échoué lors de la tentative %1/%2. Redémarrage de l'opération…"
+msgstr "Avertissement : l'opération de parcage de la monture a échoué lors de la tentative %1/%2. Redémarrage de l'opération…"
 
 #: ekos/scheduler/scheduler.cpp:6161 ekos/scheduler/scheduler.cpp:6169
 #, kde-format
@@ -21678,7 +21678,7 @@ msgstr "Échec du résolveur : %1 s"
 #: ekos/scheduler/scheduler.cpp:8154
 #, kde-format
 msgid "Captured frame is %1 arcminutes away from target, re-aligning..."
-msgstr "Image capturée est à %1 minutes d’arc de la cible, réalignement en cours..."
+msgstr "Trame acquise est à %1 minutes d’arc de la cible, réalignement en cours…"
 
 #. i18n: ectx: property (title), widget (QGroupBox, jobSequenceGroup)
 #: ekos/scheduler/scheduler.ui:38
@@ -22617,7 +22617,7 @@ msgstr "Échec du Debayer (%1)"
 #: fitsviewer/fitsdebayer.cpp:53
 #, kde-format
 msgid "Processing..."
-msgstr "Traitement en cours..."
+msgstr "Traitement en cours…"
 
 #: fitsviewer/fitsdebayer.cpp:59
 #, kde-format
@@ -22878,7 +22878,7 @@ msgstr "Impossible de poursuivre le zoom avant à cause d'un mode actif avec res
 #: fitsviewer/fitsview.cpp:1861
 #, kde-format
 msgid "Finding stars..."
-msgstr "Recherche d'étoiles en cours..."
+msgstr "Recherche d'étoiles en cours…"
 
 #: fitsviewer/fitsview.cpp:2095
 #, kde-format
@@ -22994,7 +22994,7 @@ msgstr "Retourner verticalement"
 #: fitsviewer/fitsviewer.cpp:140
 #, kde-format
 msgid "Debayer..."
-msgstr "Filtre de Bayer..."
+msgstr "Filtre de Bayer…"
 
 #: fitsviewer/fitsviewer.cpp:181
 #, kde-format
@@ -23008,7 +23008,7 @@ msgid ""
 "*No Telescopes Detected*"
 msgstr ""
 "Centrer le télescope.\n"
-"* Aucun télescope détecté.*"
+"* Aucun télescope détecté *"
 
 #: fitsviewer/fitsviewer.cpp:214
 #, kde-format
@@ -24210,12 +24210,12 @@ msgstr "Dome débloqué"
 #: indi/indidome.cpp:278
 #, kde-format
 msgid "Shutter closing is in progress"
-msgstr "La fermeture de l'obturateur est en cours..."
+msgstr "La fermeture de l'obturateur est en cours…"
 
 #: indi/indidome.cpp:286
 #, kde-format
 msgid "Shutter opening is in progress"
-msgstr "L'ouverture de l'obturateur est en cours..."
+msgstr "L'ouverture de l'obturateur est en cours…"
 
 #: indi/indidome.cpp:294
 #, kde-format
@@ -24610,7 +24610,7 @@ msgstr "Réticule du &télescope"
 #: indi/opsindi.ui:520 kstars.kcfg:202
 #, kde-format
 msgid "Show INDI messages as desktop notifications instead of dialogs."
-msgstr "Afficher les messages « INDI » comme des notifications de bureau plutôt que dans des boîtes de dialogue."
+msgstr "Afficher les messages INDI comme des notifications de bureau plutôt que dans des boîtes de dialogue."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_messageNotificationINDI)
 #: indi/opsindi.ui:523
@@ -24622,7 +24622,7 @@ msgstr "Notifications de messages"
 #: indi/opsindi.ui:546
 #, kde-format
 msgid "Show INDI Logs..."
-msgstr "Afficher les journaux « INDI »..."
+msgstr "Afficher les journaux INDI…"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, recordingOptions)
 #: indi/recordingoptions.ui:14
@@ -24641,7 +24641,7 @@ msgstr "Enregistrer le flux durant la durée spécifiée en secondes."
 #: indi/recordingoptions.ui:65
 #, kde-format
 msgid "Record:"
-msgstr "Enregistrement :"
+msgstr "Enregistrement"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_2)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, recordDirectoryEdit)
@@ -24985,13 +24985,13 @@ msgstr "<b>Date</b>"
 #: indi/telescopewizard.ui:477
 #, kde-format
 msgid "Set Time..."
-msgstr "Régler l'heure..."
+msgstr "Régler l'heure…"
 
 #. i18n: ectx: property (text), widget (QPushButton, setLocationB)
 #: indi/telescopewizard.ui:484
 #, kde-format
 msgid "Set Location..."
-msgstr "Définir le lieu..."
+msgstr "Définir le lieu…"
 
 #. i18n: ectx: property (text), widget (QLabel, portPageLabel)
 #: indi/telescopewizard.ui:538
@@ -25015,7 +25015,7 @@ msgstr ""
 #: indi/telescopewizard.ui:575
 #, kde-format
 msgid "<b>Port:</b>"
-msgstr "<b>Port :</b>"
+msgstr "<b>Port</b>"
 
 #: indi/telescopewizardprocess.cpp:103
 #, kde-format
@@ -25034,7 +25034,7 @@ msgstr ""
 #: indi/telescopewizardprocess.cpp:225
 #, kde-format
 msgid "Please wait while KStars tries to connect to your telescope..."
-msgstr "Veuillez patienter pendant que KStars tente de se connecter à votre télescope..."
+msgstr "Veuillez patienter pendant que KStars tente de se connecter à votre télescope…"
 
 #: indi/telescopewizardprocess.cpp:340
 #, kde-format
@@ -25123,7 +25123,7 @@ msgstr "satellite"
 #: kspopupmenu.cpp:283
 #, kde-format
 msgid "Velocity: %1 km/s"
-msgstr "Vélocité : %1 km / s"
+msgstr "Vélocité : %1 km/s"
 
 #: kspopupmenu.cpp:284
 #, kde-format
@@ -25133,7 +25133,7 @@ msgstr "Élévation : %1 km"
 #: kspopupmenu.cpp:285
 #, kde-format
 msgid "Range: %1 km"
-msgstr "Distance : %1 kms"
+msgstr "Distance : %1 km"
 
 #: kspopupmenu.cpp:290 kspopupmenu.cpp:371
 #, kde-format
@@ -25143,12 +25143,12 @@ msgstr "Centrer et Suivre"
 #: kspopupmenu.cpp:295 kspopupmenu.cpp:383
 #, kde-format
 msgid "Angular Distance To...            ["
-msgstr "Distance angulaire à...\t ["
+msgstr "Distance angulaire à … \t ["
 
 #: kspopupmenu.cpp:298 kspopupmenu.cpp:386
 #, kde-format
 msgid "Starhop from here to...            "
-msgstr "Saut d'étoile d'ici à...\t "
+msgstr "Saut d'étoile d'ici à … \t "
 
 #: kspopupmenu.cpp:300
 #, kde-format
@@ -25224,7 +25224,7 @@ msgstr "Affichage de « Quoi de neuf ! » "
 #: kspopupmenu.cpp:459
 #, kde-format
 msgid "Add Flag..."
-msgstr "Ajouter une étiquette..."
+msgstr "Ajouter une étiquette…"
 
 #: kspopupmenu.cpp:466
 #, kde-format
@@ -25239,12 +25239,12 @@ msgstr "Supprimer une étiquette"
 #: kspopupmenu.cpp:477
 #, kde-format
 msgid "Edit Flag..."
-msgstr "Modifier une étiquette..."
+msgstr "Modifier une étiquette…"
 
 #: kspopupmenu.cpp:479
 #, kde-format
 msgid "Delete Flag..."
-msgstr "Supprimer une étiquette..."
+msgstr "Supprimer une étiquette…"
 
 #: kspopupmenu.cpp:538
 #, kde-format
@@ -59428,7 +59428,7 @@ msgstr "Imprimer le ciel"
 #: kstarsinit.cpp:146
 #, kde-format
 msgid "Download New Data..."
-msgstr "Télécharger de nouvelles données..."
+msgstr "Télécharger de nouvelles données…"
 
 #: kstarsinit.cpp:149
 #, kde-format
@@ -59438,23 +59438,23 @@ msgstr "Télécharge de nouvelles données"
 #: kstarsinit.cpp:156
 #, kde-format
 msgid "Open Image..."
-msgstr "Ouvrir une image..."
+msgstr "Ouvrir une image…"
 
 #: kstarsinit.cpp:160
 #, kde-format
 msgid "&Save Sky Image..."
-msgstr "&Enregistrer l'image du ciel..."
+msgstr "&Enregistrer l'image du ciel…"
 
 #: kstarsinit.cpp:167
 #, kde-format
 msgid "&Run Script..."
-msgstr "Exécute&r un script..."
+msgstr "Exécute&r un script…"
 
 #: kstarsinit.cpp:171
 #, kde-format
 msgctxt "start Printing Wizard"
 msgid "Printing &Wizard..."
-msgstr "&Assistant d'impression..."
+msgstr "&Assistant d'impression…"
 
 #: kstarsinit.cpp:180
 #, kde-format
@@ -59465,7 +59465,7 @@ msgstr "Régler l'heure à &maintenant"
 #, kde-format
 msgctxt "set Clock to New Time"
 msgid "&Set Time..."
-msgstr "R&égler l'heure..."
+msgstr "R&égler l'heure…"
 
 #: kstarsinit.cpp:188
 #, kde-format
@@ -59520,12 +59520,12 @@ msgstr "&Ouest"
 #: kstarsinit.cpp:233
 #, kde-format
 msgid "&Find Object..."
-msgstr "&Chercher un objet..."
+msgstr "&Chercher un objet…"
 
 #: kstarsinit.cpp:240
 #, kde-format
 msgid "Set Coordinates &Manually..."
-msgstr "Définir les coordonnées &manuellement..."
+msgstr "Définir les coordonnées &manuellement…"
 
 #: kstarsinit.cpp:252
 #, kde-format
@@ -59535,7 +59535,7 @@ msgstr "Zoom par &défaut"
 #: kstarsinit.cpp:255
 #, kde-format
 msgid "&Zoom to Angular Size..."
-msgstr "Zoomer &à la dimension angulaire..."
+msgstr "&Zoomer à la dimension angulaire…"
 
 #: kstarsinit.cpp:273
 #, kde-format
@@ -59609,7 +59609,7 @@ msgstr "Afficher la barre d'état"
 #: kstarsinit.cpp:327
 #, kde-format
 msgid "Show Az/Alt Field"
-msgstr "Afficher le champ Az / Alt"
+msgstr "Afficher le champ Az/Alt"
 
 #: kstarsinit.cpp:328
 #, kde-format
@@ -59660,12 +59660,12 @@ msgstr "Superposition « HiPS » de tout le ciel"
 #, kde-format
 msgctxt "Location on Earth"
 msgid "&Geographic..."
-msgstr "Emplacement &géographique..."
+msgstr "Emplacement &géographique…"
 
 #: kstarsinit.cpp:393
 #, kde-format
 msgid "Startup Wizard..."
-msgstr "Démarrer l'assistant..."
+msgstr "Démarrer l'assistant…"
 
 #: kstarsinit.cpp:398
 #, kde-format
@@ -60358,7 +60358,7 @@ msgstr "Ajouter"
 #: kstarslite/qml/dialogs/helpers/DetailsAddLink.qml:91
 #, kde-kuit-format
 msgid "Please, fill in URL and Description"
-msgstr "Veuillez remplir l'« URL » et la description."
+msgstr "Veuillez remplir l'URL et la description."
 
 #: kstarslite/qml/dialogs/helpers/LocationEdit.qml:13
 #, kde-kuit-format
@@ -60378,7 +60378,7 @@ msgstr "Ajouter un emplacement"
 #: kstarslite/qml/dialogs/helpers/LocationEdit.qml:20
 #, kde-kuit-format
 msgid "Please, wait while we are fetching coordinates"
-msgstr "Veuillez patienter pendant la recherche de coordonnées..."
+msgstr "Veuillez patienter pendant la recherche de coordonnées…"
 
 #: kstarslite/qml/dialogs/helpers/LocationEdit.qml:58
 #, kde-kuit-format
@@ -60602,7 +60602,7 @@ msgstr "Aperçu d'image - %1"
 #: kstarslite/qml/indi/ImagePreview.qml:36
 #, kde-kuit-format
 msgid "Save As"
-msgstr "Enregistrer sous..."
+msgstr "Enregistrer sous…"
 
 #: kstarslite/qml/indi/INDIControlPanel.qml:58
 #, kde-kuit-format
@@ -60627,7 +60627,7 @@ msgstr "Obtenir un état"
 #: kstarslite/qml/indi/INDIControlPanel.qml:132
 #, kde-kuit-format
 msgid "Active Profile:"
-msgstr "Activer un profil :"
+msgstr "Profil actif"
 
 #: kstarslite/qml/indi/INDIControlPanel.qml:160
 #, kde-kuit-format
@@ -61238,7 +61238,7 @@ msgstr "NO"
 #: kstarssplash.cpp:18
 #, kde-format
 msgid "Welcome to KStars. Please stand by while loading..."
-msgstr "Bienvenue dans KStars. Veuillez patienter pendant le chargement..."
+msgstr "Bienvenue dans KStars. Veuillez patienter pendant le chargement…"
 
 #: libindi_strings.cpp:1
 #, kde-kuit-format
@@ -65857,7 +65857,7 @@ msgstr "Afficher la magni&tude"
 #: options/opscatalog.ui:593
 #, kde-format
 msgid "Manage Deep Sky Catalogs..."
-msgstr "Gérer les catalogues du ciel profond..."
+msgstr "Gérer les catalogues du ciel profond…"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ResolveNamesOnline)
 #: options/opscatalog.ui:607
@@ -65867,9 +65867,9 @@ msgid ""
 "(such as CDS Sesame) to learn about the object and then add it to the database.\n"
 "                The objects acquired in this manner are stored under a catalog that is called _Internet_Resolved as of this writing."
 msgstr ""
-"Si la case est cochée, lorsqu'un nom d'objet inconnu de Kstars est saisi dans la fenêtre de Recherche, ce dernier contactera des "
+"Si la case est cochée, lorsqu'un nom d'objet inconnu de KStars est saisi dans la fenêtre de Recherche, ce dernier contactera des "
 "services en ligne (comme CDS Sesame) pour une recherche de cet objet et l'ajoutera à la base de données.\n"
-"                L'objet trouvé ainsi est stocké dans un catalogue nommé _Internet_Resolved au moment d'écrier ces lignes."
+"                L'objet trouvé ainsi est stocké dans un catalogue nommé _Internet_Resolved au moment d'écrire ces lignes."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ResolveNamesOnline)
 #: options/opscatalog.ui:610
@@ -66128,7 +66128,7 @@ msgstr ""
 #: options/opscolors.ui:217
 #, kde-format
 msgid "Save As..."
-msgstr "Enregistrer sous..."
+msgstr "Enregistrer sous…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, RemovePreset)
 #: options/opscolors.ui:224
@@ -67153,7 +67153,7 @@ msgstr "CDV (%1/%2) : %3 (%4' x %5')"
 #: printing/foveditordialog.ui:154
 #, kde-format
 msgid "Capture again..."
-msgstr "Capturer à nouveau..."
+msgstr "Nouvelle acquisition…"
 
 #. i18n: ectx: property (text), widget (QPushButton, deleteButton)
 #: printing/foveditordialog.ui:174
@@ -67165,7 +67165,7 @@ msgstr "Supprimer l'instantané"
 #: printing/foveditordialog.ui:194
 #, kde-format
 msgid "Save to file..."
-msgstr "Enregistrer dans un fichier..."
+msgstr "Enregistrer dans un fichier…"
 
 #: printing/legend.cpp:346 printing/legend.cpp:381 skyobjects/skyobject.cpp:354
 #, kde-format
@@ -67549,19 +67549,19 @@ msgstr "Pointer un objet sur la carte céleste"
 #: printing/pwizfovsh.ui:205 printing/pwizobjectselection.ui:232
 #, kde-format
 msgid "Show details..."
-msgstr "Afficher les détails..."
+msgstr "Afficher les détails…"
 
 #. i18n: ectx: property (text), widget (QLabel, label2)
 #: printing/pwizfovsh.ui:242
 #, kde-format
 msgid "Hopping FOV:"
-msgstr "Champ de vision du saut :"
+msgstr "Champ de vision du saut"
 
 #. i18n: ectx: property (text), widget (QLabel, label3)
 #: printing/pwizfovsh.ui:252
 #, kde-format
 msgid "Hop magnitude limit:"
-msgstr "Limite de magnitude du saut :"
+msgstr "Limite de magnitude du saut"
 
 #. i18n: ectx: property (text), widget (QLabel, stepTitle)
 #: printing/pwizfovtypeselection.ui:71
@@ -67579,7 +67579,7 @@ msgid ""
 "<p><b>Star hopping-based method</b> automatically captures FOV snapshots using star hopping. This is experimental feature.</p>\n"
 "<p>Once you have selected field of view capture method, press <b>Next</b>.</p>"
 msgstr ""
-"<p>Sélectionnez la méthode de capture de champ de vision. Ilexiste 2 méthodes: manuelle et basée sur le cheminement d'étoiles.</p>\n"
+"<p>Sélectionnez la méthode de capture de champ de vision. Il existe 2 méthodes : manuelle et basée sur le cheminement d'étoiles.</p>\n"
 "<p>Par la <b>méthode manuelle</b> vous naviguez sur la carte du ciel pour trouver des objets intéressants, puis capturez plusieurs "
 "champs de vision.</p>\n"
 "<p><b>La méthode par cheminement d'étoiles</b> capture automatiquement des images du champ de vision. C'est une fonction "
@@ -67590,7 +67590,7 @@ msgstr ""
 #: printing/pwizfovtypeselection.ui:129
 #, kde-format
 msgid "Field of view definition method:"
-msgstr "Méthode de définition de champ de vision :"
+msgstr "Méthode de définition de champ de vision"
 
 #. i18n: ectx: property (text), widget (QRadioButton, manualRadio)
 #: printing/pwizfovtypeselection.ui:136
@@ -67675,7 +67675,7 @@ msgstr "Imprimer"
 #: printing/pwizprint.ui:216
 #, kde-format
 msgid "Export to File..."
-msgstr "Exporter dans un fichier..."
+msgstr "Exporter dans un fichier…"
 
 #. i18n: ectx: property (text), widget (QLabel, stepTitle)
 #: printing/pwizwelcome.ui:83
@@ -67730,7 +67730,7 @@ msgstr "Mise à jour des astéroïdes"
 #: skycomponents/asteroidscomponent.cpp:243
 #, kde-format
 msgid "Downloading asteroids updates..."
-msgstr "Téléchargement en cours des mises à jour des astéroïdes..."
+msgstr "Téléchargement en cours des mises à jour des astéroïdes…"
 
 #: skycomponents/asteroidscomponent.cpp:316 skycomponents/asteroidscomponent.cpp:317 skycomponents/cometscomponent.cpp:435
 #, kde-format
@@ -67774,7 +67774,7 @@ msgstr "Mise à jour des comètes"
 #: skycomponents/cometscomponent.cpp:316
 #, kde-format
 msgid "Downloading comets updates..."
-msgstr "Téléchargement en cours des mises à jour des comètes..."
+msgstr "Téléchargement en cours des mises à jour des comètes…"
 
 #: skycomponents/constellationboundarylines.cpp:26
 #, kde-format
@@ -67887,7 +67887,7 @@ msgstr "Chargement des satellites"
 #: skycomponents/satellitescomponent.cpp:143
 #, kde-format
 msgid "Update TLEs..."
-msgstr "Actualiser les TLE..."
+msgstr "Actualiser les TLE…"
 
 #: skycomponents/satellitescomponent.cpp:155
 #, kde-format
@@ -67929,7 +67929,7 @@ msgstr "Chargement des étoiles"
 #: skycomponents/starcomponent.cpp:163
 #, kde-format
 msgid "Please wait while re-indexing stars..."
-msgstr "Veuillez patienter pendant la réindexation des étoiles..."
+msgstr "Veuillez patienter pendant la réindexation des étoiles…"
 
 #: skycomponents/supernovaecomponent.cpp:240
 #, kde-format
@@ -67939,7 +67939,7 @@ msgstr "Mise à jour des supernovas"
 #: skycomponents/supernovaecomponent.cpp:240
 #, kde-format
 msgid "Downloading Supernovae updates..."
-msgstr "Téléchargement en cours des mises à jour des supernovas..."
+msgstr "Téléchargement en cours des mises à jour des supernovas…"
 
 #: skycomponents/supernovaecomponent.cpp:266
 #, kde-format
@@ -69534,7 +69534,7 @@ msgstr "Heure locale"
 #: tools/altvstime.cpp:158 tools/skycalendar.cpp:51
 #, kde-format
 msgid "&Print..."
-msgstr "Im&primer..."
+msgstr "Im&primer…"
 
 #: tools/altvstime.cpp:159
 #, kde-format
@@ -69593,7 +69593,7 @@ msgstr ""
 #: tools/altvstime.ui:84 tools/conjunctions.ui:52 tools/observinglist.ui:329
 #, kde-format
 msgid "Find Object..."
-msgstr "Chercher un objet..."
+msgstr "Chercher un objet…"
 
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
 #: tools/altvstime.ui:129
@@ -69618,32 +69618,32 @@ msgstr "Effacer la liste"
 #: tools/altvstime.ui:197
 #, kde-format
 msgid "Equinox:     "
-msgstr "Équinoxe :"
+msgstr "Équinoxe     "
 
 #. i18n: ectx: property (text), widget (QLabel, timeLabel)
 #. i18n: ectx: property (text), widget (QLabel, LocalTimeLabel)
 #: tools/altvstime.ui:237 tools/modcalcsidtime.ui:97
 #, kde-format
 msgid "Local time:"
-msgstr "Heure locale :"
+msgstr "Heure locale"
 
 #. i18n: ectx: property (displayFormat), widget (QDateTimeEdit, timeSpin)
 #: tools/altvstime.ui:254
 #, kde-format
 msgid "HH:mm"
-msgstr "HH : mm"
+msgstr "HH:mm"
 
 #. i18n: ectx: property (text), widget (QPushButton, computeButton)
 #: tools/altvstime.ui:267
 #, kde-format
 msgid "    Compute    "
-msgstr "Calculer"
+msgstr "    Calculer   "
 
 #. i18n: ectx: property (text), widget (QLabel, altitudeLabel)
 #: tools/altvstime.ui:293
 #, kde-format
 msgid "Altitude: "
-msgstr "Altitude : "
+msgstr "Altitude "
 
 #. i18n: ectx: property (text), widget (QPushButton, riseButton)
 #: tools/altvstime.ui:338
@@ -69673,19 +69673,19 @@ msgstr "Date et Lieu"
 #: tools/altvstime.ui:445
 #, kde-format
 msgid "Choose City..."
-msgstr "Choisir une ville..."
+msgstr "Choisir une ville…"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel7)
 #: tools/altvstime.ui:458
 #, kde-format
 msgid "Long.:"
-msgstr "Long. :"
+msgstr "Long."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel6)
 #: tools/altvstime.ui:474
 #, kde-format
 msgid "Lat.:"
-msgstr "Lat. :"
+msgstr "Lat."
 
 #. i18n: ectx: property (text), widget (QPushButton, updateButton)
 #. i18n: ectx: property (text), widget (QPushButton, Update)
@@ -69714,7 +69714,7 @@ msgstr ""
 #: tools/argchangeviewoption.ui:56
 #, kde-format
 msgid "Value:"
-msgstr "Valeur :"
+msgstr "Valeur"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, TreeButton)
 #: tools/argchangeviewoption.ui:63
@@ -69737,7 +69737,7 @@ msgstr ""
 #: tools/argchangeviewoption.ui:69
 #, kde-format
 msgid "Browse Tree..."
-msgstr "Naviguer dans l'arborescence..."
+msgstr "Naviguer dans l'arborescence…"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, OptionValue)
 #: tools/argchangeviewoption.ui:76
@@ -69756,31 +69756,31 @@ msgstr ""
 "Définissez ici la valeur pour l'option d'affichage sélectionné. Veuillez vous assurer que la valeur que vous saisissez correspond au "
 "type de données attendu par l'option. Par exemple, comme l'option « UseAltAz » attend une valeur booléenne, vous devrez indiquer "
 "« Vrai », « Faux », « 1 » ou « 0 ». Si vous n'êtes pas sûr du type attendu de données, veuillez parcourir la vue en arborescence à "
-"l'aide du bouton « Naviguer dans l'arborescence... »."
+"l'aide du bouton « Naviguer dans l'arborescence… »."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: tools/argchangeviewoption.ui:102
 #, kde-format
 msgid "Option:"
-msgstr "Option :"
+msgstr "Option"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: tools/argexportimage.ui:30
 #, kde-format
 msgid "File name:"
-msgstr "Nom du fichier :"
+msgstr "Nom du fichier"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: tools/argexportimage.ui:107
 #, kde-format
 msgid "Image width:"
-msgstr "Largeur d'image :"
+msgstr "Largeur d'image"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
 #: tools/argexportimage.ui:114
 #, kde-format
 msgid "Image height:"
-msgstr "Hauteur d'image :"
+msgstr "Hauteur d'image"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, FindButton)
 #: tools/argfindobject.ui:41 tools/arglooktoward.ui:110
@@ -69802,13 +69802,13 @@ msgstr ""
 #: tools/argfindobject.ui:47 tools/arglooktoward.ui:116
 #, kde-format
 msgid "Object..."
-msgstr "Objet..."
+msgstr "Objet…"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: tools/arglooktoward.ui:30
 #, kde-format
 msgid "Dir:"
-msgstr "Dir. :"
+msgstr "Dir."
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, FocusEdit)
 #: tools/arglooktoward.ui:37
@@ -69844,13 +69844,13 @@ msgstr "Utiliser les couleurs de la carte du ciel"
 #: tools/argsetcolor.ui:30
 #, kde-format
 msgid "Color name:"
-msgstr "Nom de la couleur :"
+msgstr "Nom de la couleur"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: tools/argsetcolor.ui:37
 #, kde-format
 msgid "Color value:"
-msgstr "Valeur de la couleur :"
+msgstr "Valeur de la couleur"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, CountryName)
 #: tools/argsetgeolocation.ui:53
@@ -69921,7 +69921,7 @@ msgstr ""
 #: tools/argsetgeolocation.ui:129
 #, kde-format
 msgid "Find City..."
-msgstr "Chercher une ville..."
+msgstr "Chercher une ville…"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, CheckTrack)
 #: tools/argsettrack.ui:30
@@ -70245,7 +70245,7 @@ msgstr "Veuillez sélectionner deux objets différents avec lesquels vérifier l
 #: tools/conjunctions.cpp:350
 #, kde-format
 msgid "Compute conjunction..."
-msgstr "Calculer la conjonction..."
+msgstr "Calculer la conjonction…"
 
 #: tools/conjunctions.cpp:351
 #, kde-format
@@ -70774,7 +70774,7 @@ msgstr "Coordonnées équatoriales (J2000)"
 #: tools/modcalceclipticcoords.ui:134 tools/modcalcgalcoord.ui:86 tools/modcalcvlsr.ui:160
 #, kde-format
 msgid "Select Object..."
-msgstr "Sélectionner un objet..."
+msgstr "Sélectionner un objet…"
 
 #: tools/modcalcangdist.cpp:98
 #, kde-format
@@ -71111,19 +71111,19 @@ msgstr "Spécifier les dates pour le calcul dans le fichier d’entrée"
 #: tools/modcalcdaylength.ui:852 tools/modcalcjd.ui:171
 #, kde-format
 msgid "Input file: "
-msgstr "Fichier d'entrée : "
+msgstr "Fichier d'entrée "
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: tools/modcalcdaylength.ui:862 tools/modcalcjd.ui:181
 #, kde-format
 msgid "Output file: "
-msgstr "Fichier de sortie : "
+msgstr "Fichier de sortie "
 
 #. i18n: ectx: property (text), widget (QPushButton, ViewButtonBatch)
 #: tools/modcalcdaylength.ui:914 tools/modcalcjd.ui:233 tools/modcalcsidtime.ui:326 tools/modcalcvizequinox.ui:319
 #, kde-format
 msgid "View Output..."
-msgstr "Afficher la sortie..."
+msgstr "Afficher la sortie…"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
@@ -71949,7 +71949,7 @@ msgstr "Ne pas essayer"
 #: tools/observinglist.cpp:1196
 #, kde-format
 msgid "Please wait while adding objects..."
-msgstr "Veuillez patienter pendant la l'ajout des objets..."
+msgstr "Veuillez patienter pendant l'ajout des objets…"
 
 #: tools/observinglist.cpp:1338 tools/observinglist.cpp:1340 tools/observinglist.cpp:1350
 #, kde-format
@@ -71959,17 +71959,17 @@ msgstr "Téléchargement personnalisé « DSS »"
 #: tools/observinglist.cpp:1338
 #, kde-format
 msgid "Specify image width (arcminutes): "
-msgstr "Spécifiez la largeur de l'image (en minutes d'arc) :"
+msgstr "Spécifiez la largeur de l'image (en minutes d'arc)"
 
 #: tools/observinglist.cpp:1341
 #, kde-format
 msgid "Specify image height (arcminutes): "
-msgstr "Spécifiez la hauteur de l'image (en minutes d'arc) :"
+msgstr "Spécifiez la hauteur de l'image (en minutes d'arc)"
 
 #: tools/observinglist.cpp:1350
 #, kde-format
 msgid "Specify version: "
-msgstr "Spécifiez la version :"
+msgstr "Spécifiez la version"
 
 #: tools/observinglist.cpp:1522
 #, kde-format
@@ -72014,7 +72014,7 @@ msgstr "Enregistrer la liste d'observation actuelle sur le disque"
 #: tools/observinglist.ui:139
 #, kde-format
 msgid "Save observing session as..."
-msgstr "Enregistrer la session d'observation sous..."
+msgstr "Enregistrer la session d'observation sous…"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, SaveAsButton)
 #: tools/observinglist.ui:142
@@ -72026,7 +72026,7 @@ msgstr "Enregistrer la liste d'observation actuelle sur le disque, en indiquant 
 #: tools/observinglist.ui:152
 #, kde-format
 msgid "Export to OAL..."
-msgstr "Exporter vers « OAL »..."
+msgstr "Exporter vers OAL…"
 
 #. i18n: ectx: property (text), widget (QPushButton, SetLocation)
 #: tools/observinglist.ui:192
@@ -72039,7 +72039,7 @@ msgstr "Choisir"
 #: tools/observinglist.ui:209 tools/planetviewer.ui:103
 #, kde-format
 msgid "dd/MM/yyyy"
-msgstr "dd / MM / yyyy"
+msgstr "dd/MM/yyyy"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, Update)
 #: tools/observinglist.ui:219
@@ -72051,13 +72051,13 @@ msgstr "Mettez à jour la table et le tracé pour la nouvelle date et le nouvel 
 #: tools/observinglist.ui:242
 #, kde-format
 msgid "Reference images:"
-msgstr "Images de référence :"
+msgstr "Images de référence"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, saveImages)
 #: tools/observinglist.ui:249
 #, kde-format
 msgid "Download the SDSS/DSS images of all the objects in the current list."
-msgstr "Télécharger les images SDSS / DSS de tous les objets de la liste actuelle."
+msgstr "Télécharger les images SDSS/DSS de tous les objets de la liste actuelle."
 
 #. i18n: ectx: property (text), widget (QPushButton, saveImages)
 #: tools/observinglist.ui:252
@@ -72069,7 +72069,7 @@ msgstr "Télécharger toutes les images"
 #: tools/observinglist.ui:259
 #, kde-format
 msgid "Deletes all the stored DSS/SDSS images"
-msgstr "Supprime toutes les images DSS / SDSS mémorisées"
+msgstr "Supprime toutes les images DSS/SDSS mémorisées"
 
 #. i18n: ectx: property (text), widget (QPushButton, DeleteAllImages)
 #: tools/observinglist.ui:262
@@ -72081,7 +72081,7 @@ msgstr "Supprimer toutes les images"
 #: tools/observinglist.ui:279
 #, kde-format
 msgid "Adding objects:"
-msgstr "Ajout d'objets :"
+msgstr "Ajout d'objets"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, WizardButton)
 #. i18n: ectx: property (windowTitle), widget (QWidget, ObsListWizard)
@@ -72102,7 +72102,7 @@ msgstr ""
 #: tools/observinglist.ui:310
 #, kde-format
 msgid "Wizard..."
-msgstr "Assistant..."
+msgstr "Assistant…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, FindButton)
 #: tools/observinglist.ui:323
@@ -72133,7 +72133,7 @@ msgstr ""
 #: tools/observinglist.ui:348
 #, kde-format
 msgid "What's up Tonight..."
-msgstr "Quoi dans le ciel cette nuit..."
+msgstr "Quoi dans le ciel cette nuit…"
 
 #. i18n: ectx: property (text), widget (QPushButton, batchAddButton)
 #: tools/observinglist.ui:355
@@ -73301,7 +73301,7 @@ msgstr ""
 #: tools/scriptbuilder.ui:101
 #, kde-format
 msgid "Open Script..."
-msgstr "Ouvrir un script..."
+msgstr "Ouvrir un script…"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, OpenButton)
 #: tools/scriptbuilder.ui:104
@@ -73326,7 +73326,7 @@ msgstr ""
 #: tools/scriptbuilder.ui:169
 #, kde-format
 msgid "Save Script As..."
-msgstr "Enregistrer le script sous..."
+msgstr "Enregistrer le script sous…"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, SaveAsButton)
 #: tools/scriptbuilder.ui:172
@@ -73347,7 +73347,7 @@ msgid ""
 "Executes the script in the KStars main window.  You may want to reposition the Script Builder tool so that the Sky map is visible.  "
 msgstr ""
 "Exécute le script dans la fenêtre principale de KStars. Vous pouvez être amené à repositionner l'outil « Constructeur de scripts » "
-"pour que la carte du ciel soit visible. "
+"pour que la carte du ciel soit visible."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: tools/scriptbuilder.ui:235
@@ -73364,7 +73364,7 @@ msgid ""
 msgstr ""
 "Cet élément affiche la liste des commandes présentes dans le script en cours d'exécution. Le surlignage de n'importe quelle commande "
 "présentera un composant graphique où vous pourrez spécifier ses arguments en dessous. Utilisez les boutons d'action à droite pour "
-"copier, supprimer ou changer la position de la commande sélectionnée. "
+"copier, supprimer ou changer la position de la commande sélectionnée."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, AddButton)
 #: tools/scriptbuilder.ui:315
@@ -73864,7 +73864,7 @@ msgstr ""
 #: tools/wutdialog.ui:49
 #, kde-format
 msgid "Change Date..."
-msgstr "Changer de date..."
+msgstr "Changer de date…"
 
 #. i18n: ectx: property (text), widget (QLabel, LocationLabel)
 #: tools/wutdialog.ui:79
@@ -73892,13 +73892,13 @@ msgstr ""
 #: tools/wutdialog.ui:92
 #, kde-format
 msgid "Change Location..."
-msgstr "Changer d'emplacement..."
+msgstr "Changer d'emplacement…"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel14)
 #: tools/wutdialog.ui:105
 #, kde-format
 msgid "Show objects which are up:"
-msgstr "Afficher les objets présents :"
+msgstr "Afficher les objets présents"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, EveningMorningBox)
 #: tools/wutdialog.ui:121
@@ -74142,7 +74142,7 @@ msgstr "Ouvre la fenêtre Détails  de l'objet surligné."
 #: tools/wutdialog.ui:480
 #, kde-format
 msgid "Object Details..."
-msgstr "Détails de l'objet..."
+msgstr "Détails de l'objet…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, ObslistButton)
 #: tools/wutdialog.ui:487
