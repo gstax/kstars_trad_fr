@@ -21,8 +21,7 @@ Il faut que le paquet "gettext" (apt install gettext) soit installé.
 
 ## Bonnes pratiques
 
-### règle pour anti-
-* https://fr.wiktionary.org/wiki/anti-#fr
+* règle pour anti- (voir https://fr.wiktionary.org/wiki/anti-#fr)
 
 
 * Enlever tous les :
