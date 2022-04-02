@@ -3639,7 +3639,7 @@ msgstr "AD (2000.0)"
 #: dialogs/details_position.ui:287
 #, kde-format
 msgid "DE (J2000.0):"
-msgstr "DE (J2000.0)"
+msgstr "DEC (J2000.0)"
 
 #. i18n: ectx: property (text), widget (QLabel, AzLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_23)
@@ -61784,19 +61784,19 @@ msgstr "Personnalisé"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "DE (arcsecs/s)"
-msgstr "DE (secondes d'arc par sec)"
+msgstr "DEC (secondes d'arc par sec)"
 
 #: libindi_strings.cpp:93
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "DEC (dd:mm:ss)"
-msgstr "DÉC (jj:mm:ss)"
+msgstr "DEC (jj:mm:ss)"
 
 #: libindi_strings.cpp:94
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "DOME"
-msgstr "DOME"
+msgstr "DÔME"
 
 #: libindi_strings.cpp:95
 #, kde-kuit-format
@@ -61814,13 +61814,13 @@ msgstr "Date"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Date/Time"
-msgstr "Date / Heure"
+msgstr "Date/Heure"
 
 #: libindi_strings.cpp:98
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Date/Time/Location"
-msgstr "Date / Heure / Lieu"
+msgstr "Date/Heure/Lieu"
 
 #: libindi_strings.cpp:99
 #, kde-kuit-format
@@ -61832,19 +61832,19 @@ msgstr "Déboguer"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Dec (arcmin)"
-msgstr "Déc (minutes d'arc)"
+msgstr "DEC (minutes d'arc)"
 
 #: libindi_strings.cpp:101
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Dec (dd:mm:ss)"
-msgstr "Déc (jj:mm:ss)"
+msgstr "DEC (jj:mm:ss)"
 
 #: libindi_strings.cpp:102
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Dec D:M:S"
-msgstr "Déc J:M:S"
+msgstr "DEC J:M:S"
 
 #: libindi_strings.cpp:103
 #, kde-kuit-format
@@ -61880,7 +61880,7 @@ msgstr "Diff. éq."
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Dir"
-msgstr "Dir. :"
+msgstr "Dir."
 
 #: libindi_strings.cpp:109
 #, kde-kuit-format
@@ -61970,7 +61970,7 @@ msgstr "Durée (sec)"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Dust Cover"
-msgstr "Couvercle antipoussière"
+msgstr "Capuchon antipoussière"
 
 #: libindi_strings.cpp:125
 #, kde-kuit-format
@@ -62024,7 +62024,7 @@ msgstr "Est"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "East/West"
-msgstr "Est / Ouest"
+msgstr "Est/Ouest"
 
 #: libindi_strings.cpp:134
 #, kde-kuit-format
@@ -62102,7 +62102,7 @@ msgstr "Exposition"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Extended GPS Features"
-msgstr "Fonctionnalités GPS étendues"
+msgstr "Fonctionnalités GPS étendues"
 
 #: libindi_strings.cpp:147
 #, kde-kuit-format
@@ -62114,7 +62114,7 @@ msgstr "Extrême"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "FITS Header"
-msgstr "En-tête « FITS »"
+msgstr "En-tête FITS"
 
 #: libindi_strings.cpp:149
 #, kde-kuit-format
@@ -62282,25 +62282,25 @@ msgstr "Chercher"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Firmware Info"
-msgstr "Informations sur le firmware"
+msgstr "Informations sur le micrologiciel"
 
 #: libindi_strings.cpp:177
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Firmware data"
-msgstr "Données de firmware"
+msgstr "Données de micrologiciel"
 
 #: libindi_strings.cpp:178
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Firmware version"
-msgstr "Version de firmware"
+msgstr "Version de micrologiciel"
 
 #: libindi_strings.cpp:179
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Firmware"
-msgstr "Firmware"
+msgstr "Micrologiciel"
 
 #: libindi_strings.cpp:180
 #, kde-kuit-format
@@ -62384,7 +62384,7 @@ msgstr "Viseurs"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "FPS"
-msgstr "Images / s :"
+msgstr "Images/s"
 
 #: libindi_strings.cpp:195
 #, kde-kuit-format
@@ -62480,7 +62480,7 @@ msgstr "GPS"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "GPS/16 inch Features"
-msgstr "Fonctionnalités du GPS / 16 pouces"
+msgstr "Fonctionnalités du GPS/16 pouces"
 
 #: libindi_strings.cpp:211
 #, kde-kuit-format
@@ -62534,13 +62534,13 @@ msgstr "Interrompre un guide"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Guide E/W"
-msgstr "Guide Est / Ouest"
+msgstr "Guide Est/Ouest"
 
 #: libindi_strings.cpp:221
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Guide East/West"
-msgstr "Guide Est / Ouest"
+msgstr "Guide Est/Ouest"
 
 #: libindi_strings.cpp:222
 #, kde-kuit-format
@@ -62558,19 +62558,19 @@ msgstr "Informations de guidage"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Guide N/S"
-msgstr "Guide N / S"
+msgstr "Guide N/S"
 
 #: libindi_strings.cpp:225
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Guide North/South"
-msgstr "Guide Nord / Sud"
+msgstr "Guide Nord/Sud"
 
 #: libindi_strings.cpp:226
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Guide West/East"
-msgstr "Guide Ouest / Est"
+msgstr "Guide Ouest/Est"
 
 #: libindi_strings.cpp:227
 #, kde-kuit-format
@@ -62588,7 +62588,7 @@ msgstr "Guide"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Guider Aperture (mm)"
-msgstr "Ouverture focale du guide (mm)"
+msgstr "Ouverture du guide (mm)"
 
 #: libindi_strings.cpp:230
 #, kde-kuit-format
@@ -62774,7 +62774,7 @@ msgstr "Informations"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Instant."
-msgstr "Immédiat."
+msgstr "Immédiat"
 
 #: libindi_strings.cpp:261
 #, kde-kuit-format
@@ -63032,13 +63032,13 @@ msgstr "Contrôle du mouvement"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Motion N/S"
-msgstr "Mouvement N / S"
+msgstr "Mouvement N/S"
 
 #: libindi_strings.cpp:304
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Motion W/E"
-msgstr "Mouvement O / E"
+msgstr "Mouvement O/E"
 
 #: libindi_strings.cpp:305
 #, kde-kuit-format
@@ -63092,7 +63092,7 @@ msgstr "Contrôle du mouvement"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "N/S Rate"
-msgstr "Taux N / S"
+msgstr "Taux N/S"
 
 #: libindi_strings.cpp:314
 #, kde-kuit-format
@@ -63152,7 +63152,7 @@ msgstr "Nord"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "North/South"
-msgstr "Nord / Sud"
+msgstr "Nord/Sud"
 
 #: libindi_strings.cpp:324
 #, kde-kuit-format
@@ -63188,7 +63188,7 @@ msgstr "CONNECTÉ"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "OTA Temperature (C)"
-msgstr "Température ambiante (C)"
+msgstr "Température ambiante (°C)"
 
 #: libindi_strings.cpp:330
 #, kde-kuit-format
@@ -63272,19 +63272,19 @@ msgstr "PAE (minutes d'arc)"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "PAE Drift (minutes)"
-msgstr "Dérive « PAE » (minutes)"
+msgstr "Dérive PAE (minutes)"
 
 #: libindi_strings.cpp:344
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "PE N/S"
-msgstr "PE N / S"
+msgstr "PE N/S"
 
 #: libindi_strings.cpp:345
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "PE W/E"
-msgstr "PE O / E"
+msgstr "PE O/E"
 
 #: libindi_strings.cpp:346
 #, kde-kuit-format
@@ -63314,7 +63314,7 @@ msgstr "Bloquer"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Parking"
-msgstr "Mise en sécurité"
+msgstr "Parcage"
 
 #: libindi_strings.cpp:351
 #, kde-kuit-format
@@ -63350,13 +63350,13 @@ msgstr "Taille en pixels (um)"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Pixel size X"
-msgstr "Taille des pixels X"
+msgstr "Taille des pixels X"
 
 #: libindi_strings.cpp:357
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Pixel size Y"
-msgstr "Taille des pixels Y"
+msgstr "Taille des pixels Y"
 
 #: libindi_strings.cpp:358
 #, kde-kuit-format
@@ -63410,7 +63410,7 @@ msgstr "Préfixe"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Pressure hPa"
-msgstr "Pression hPa"
+msgstr "Pression hPa"
 
 #: libindi_strings.cpp:367
 #, kde-kuit-format
@@ -63464,7 +63464,7 @@ msgstr "Purger"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "RA  H:M:S"
-msgstr "AD H:M:S"
+msgstr "AD  H:M:S"
 
 #: libindi_strings.cpp:376
 #, kde-kuit-format
@@ -63524,13 +63524,13 @@ msgstr "Brut"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Record (Duration)"
-msgstr "Enregistrement (Durée)"
+msgstr "Enregistrement (durée)"
 
 #: libindi_strings.cpp:386
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Record (Frames)"
-msgstr "Enregistrement (Trames)"
+msgstr "Enregistrement (trames)"
 
 #: libindi_strings.cpp:387
 #, kde-kuit-format
@@ -63596,13 +63596,13 @@ msgstr "Réinitialiser"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Resolution x"
-msgstr "Résolution x"
+msgstr "Résolution x"
 
 #: libindi_strings.cpp:398
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Resolution y"
-msgstr "Résolution y"
+msgstr "Résolution y"
 
 #: libindi_strings.cpp:399
 #, kde-kuit-format
@@ -63620,7 +63620,7 @@ msgstr "Restaurer"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Rotation CW (degrees)"
-msgstr "Rotation « CW »(degrés)"
+msgstr "Rotation CW (degrés)"
 
 #: libindi_strings.cpp:402
 #, kde-kuit-format
@@ -63716,7 +63716,7 @@ msgstr "En cours d'observation"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Select item..."
-msgstr "Sélectionner un élément..."
+msgstr "Sélectionner un élément…"
 
 #: libindi_strings.cpp:418
 #, kde-kuit-format
@@ -63812,25 +63812,25 @@ msgstr "Paramètres du simulateur"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Site 1"
-msgstr "Site 1"
+msgstr "Site 1"
 
 #: libindi_strings.cpp:434
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Site 2"
-msgstr "Site 2"
+msgstr "Site 2"
 
 #: libindi_strings.cpp:435
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Site 3"
-msgstr "Site 3"
+msgstr "Site 3"
 
 #: libindi_strings.cpp:436
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Site 4"
-msgstr "Site 4"
+msgstr "Site 4"
 
 #: libindi_strings.cpp:437
 #, kde-kuit-format
