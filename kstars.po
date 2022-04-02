@@ -8344,7 +8344,7 @@ msgstr ""
 #: ekos/align/polaralignmentassistant.cpp:370
 #, kde-format
 msgid "PAA: Stopping, solver failed too many times."
-msgstr "PAA: arrêt car le résolveur a échoué trop de fois."
+msgstr "PAA : arrêt car le résolveur a échoué trop de fois."
 
 #: ekos/align/polaralignmentassistant.cpp:399
 #, kde-format
@@ -8364,12 +8364,12 @@ msgstr "La seconde rotation de la monture est terminée."
 #: ekos/align/polaralignmentassistant.cpp:519
 #, kde-format
 msgid "Warning: Equatorial Grid Lines will not be drawn due to limited resources mode."
-msgstr "Attention: les lignes de quadrillage équatoriale n'ont pu être tracées à cause d'un mode limité de ressources."
+msgstr "Attention : les lignes de quadrillage équatoriale n'ont pu être tracées à cause d'un mode limité de ressources."
 
 #: ekos/align/polaralignmentassistant.cpp:523
 #, kde-format
 msgid "Clearing mount Alignment Model..."
-msgstr "Effacement du modèle d'alignement de la monture..."
+msgstr "Effacement du modèle d'alignement de la monture…"
 
 #: ekos/align/polaralignmentassistant.cpp:562
 #, kde-format
@@ -8389,7 +8389,7 @@ msgstr "Assistant d'alignement polaire"
 #: ekos/align/polaralignmentassistant.cpp:605
 #, kde-format
 msgid "Parking the mount..."
-msgstr "Parquer la monture."
+msgstr "Parcage de la monture…"
 
 #: ekos/align/polaralignmentassistant.cpp:645
 #, kde-format
@@ -8399,12 +8399,12 @@ msgstr "Veuillez attendre que la monture ait terminé sa rotation vers AD (%1) D
 #: ekos/align/polaralignmentassistant.cpp:659 ekos/align/polaralignmentassistant.cpp:665
 #, kde-format
 msgid "PAA: Failed to findCorrectedPixel."
-msgstr "PAA: échec de findCorrectedPixel."
+msgstr "PAA : échec de findCorrectedPixel."
 
 #: ekos/align/polaralignmentassistant.cpp:686
 #, kde-format
 msgid "PAA: Failed to find RA Axis center."
-msgstr "PAA: impossible de trouver le centre de l'axe AD"
+msgstr "PAA : impossible de trouver le centre de l'axe AD."
 
 #: ekos/align/polaralignmentassistant.cpp:752
 #, kde-format
@@ -8592,7 +8592,7 @@ msgid ""
 "correction vector. <span style=\" font-weight:600;\">Click Next </span> when done.</p>"
 msgstr ""
 "<p>Le triangle de correction est tracé ci-dessus. <span style=\" font-weight:600;\">Effectuez un zoom avant et sélectionnez une "
-"étoile brillante </span> pour repositionner le vecteur de correction. <span style=\" font-weight:600;\">Cliquez sur « Suivant » </span> "
+"étoile brillante </span> pour repositionner le vecteur de correction. Cliquez sur <span style=\" font-weight:600;\">« Suivant » </span> "
 "une fois fait.</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, refreshText)
@@ -8632,7 +8632,7 @@ msgstr "Durée de l'exposition en secondes durant la phase de rafraîchissement.
 #: ekos/align/polaralignmentassistant.ui:590
 #, kde-format
 msgid "Image#:"
-msgstr "Nombre d'image "
+msgstr "Image # "
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, PAHIteration)
 #: ekos/align/polaralignmentassistant.ui:609
@@ -8663,7 +8663,7 @@ msgstr "Mettre à jour l'erreur en PA."
 #: ekos/align/polaralignmentassistant.ui:700 ekos/align/polaralignmentassistant.ui:722
 #, kde-format
 msgid "Polar Alignment total error measured by the 3 exposures at the start of the polar-alignment procedure."
-msgstr "Erreur totale d'alignement polaire, mesurée par les 3 images au démarrage de la procédure d'alignement polaire."
+msgstr "Erreur totale d'alignement polaire, mesurée par 3 images au démarrage de la procédure d'alignement polaire."
 
 #. i18n: ectx: property (text), widget (QLabel, label_PAHOrigErrorTotal)
 #: ekos/align/polaralignmentassistant.ui:703
@@ -8676,7 +8676,7 @@ msgstr "Erreur mesurée"
 #: ekos/align/polaralignmentassistant.ui:744 ekos/align/polaralignmentassistant.ui:769
 #, kde-format
 msgid "Polar Alignment altitude error measured by the 3 exposures at the start of the polar-alignment procedure."
-msgstr "Erreur d'altitude pour l'alignement polaire, mesurée par 3 captures au démarrage de la procédure."
+msgstr "Erreur d'altitude pour l'alignement polaire, mesurée par 3 images au démarrage de la procédure."
 
 #. i18n: ectx: property (text), widget (QLabel, label_PAHOrigErrorAlt)
 #. i18n: ectx: property (text), widget (QLabel, label_PAHUpdatedErrorAlt)
@@ -8687,14 +8687,14 @@ msgstr "Erreur d'altitude pour l'alignement polaire, mesurée par 3 captures au 
 #: tools/argsetaltaz.ui:37 tools/modcalcplanets.ui:296
 #, kde-format
 msgid "Alt:"
-msgstr "Élévation:"
+msgstr "Élévation"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_PAHOrigErrorAz)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, PAHOrigErrorAz)
 #: ekos/align/polaralignmentassistant.ui:791 ekos/align/polaralignmentassistant.ui:816
 #, kde-format
 msgid "Polar Alignment azimuth error measured by the 3 exposures at the start of the polar-alignment procedure."
-msgstr "Erreur d'azimut pour l'alignement polaire, mesurée par 3 captures au démarrage de la procédure ."
+msgstr "Erreur d'azimut pour l'alignement polaire, mesurée par 3 images au démarrage de la procédure."
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_PAHUpdatedErrorTotal)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, PAHUpdatedErrorTotal)
@@ -8707,7 +8707,7 @@ msgstr "Erreur totale estimée sur l'alignement polaire après les derniers ajus
 #: ekos/align/polaralignmentassistant.ui:862
 #, kde-format
 msgid "Updated Err:"
-msgstr "Erreur mise à jour:"
+msgstr "Erreur MaJ"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_PAHUpdatedErrorAlt)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, PAHUpdatedErrorAlt)
