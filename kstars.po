@@ -1177,7 +1177,7 @@ msgstr "Champ de vision optimal pour la cible, Le paramètre FOV étant non spé
 #: tools/eyepiecefield.cpp:99
 #, kde-format
 msgid "Rotation:"
-msgstr "Rotation:"
+msgstr "Rotation"
 
 #: auxiliary/xplanetimageviewer.cpp:352
 #, kde-format
@@ -1192,17 +1192,17 @@ msgstr "Pivoter l'affichage de 180° degrés"
 #: auxiliary/xplanetimageviewer.cpp:370
 #, kde-format
 msgid "Reset view rotation to 0"
-msgstr "Ré-initialiser la rotation à 0"
+msgstr "Réinitialiser la rotation à 0"
 
 #: auxiliary/xplanetimageviewer.cpp:379
 #, kde-format
 msgid "Bring up XPlanet Options"
-msgstr "Faire apparaître les options XPlanet"
+msgstr "Faire apparaître les options de XPlanet"
 
 #: auxiliary/xplanetimageviewer.cpp:405
 #, kde-format
 msgid "Allows you to set the XPlanet time to a different date/time from KStars"
-msgstr "Vous permets de définir une heure XPlanet, différente de l'heure et de la date de KStars."
+msgstr "Cette option permet de définir une heure pour XPlanet différente de l'heure et de la date de KStars."
 
 #: auxiliary/xplanetimageviewer.cpp:414
 #, kde-format
@@ -14314,7 +14314,7 @@ msgstr "Position courante et absolue du focuseur"
 #: ekos/focus/focus.ui:213 ekos/scheduler/scheduler.ui:350
 #, kde-format
 msgid "Steps:"
-msgstr "Pas"
+msgstr "Étapes"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, stopGotoB)
 #: ekos/focus/focus.ui:229
@@ -18817,7 +18817,7 @@ msgstr ""
 #: ekos/opsekos.ui:214
 #, kde-format
 msgid "Lead time:"
-msgstr "Délai de réalisation"
+msgstr "Durée totale"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, preDawnLabel)
 #: ekos/opsekos.ui:224
@@ -20579,7 +20579,7 @@ msgstr ""
 #: ekos/scheduler/scheduler.cpp:476
 #, kde-format
 msgid "Reset state and force reevaluation of all observation jobs."
-msgstr "Ré-initialiser l'état et forcer la ré-évaluation de toutes les tâches d'observation."
+msgstr "Réinitialiser l'état et forcer la réévaluation de toutes les tâches d'observation."
 
 #: ekos/scheduler/scheduler.cpp:480
 #, kde-format
@@ -20589,11 +20589,11 @@ msgid ""
 "Option \"Sort Jobs by Altitude and Priority\" keeps the job list sorted this way, but with current time as reference.\n"
 "Note the algorithm first calculates all altitudes using the same time, then evaluates jobs."
 msgstr ""
-"Reset state and sort observation jobs per altitude and movement in sky, using the start time of the first job\n"
+"Réinitialiser l'état et trier les tâches d'observations par altitude et mouvement dans le ciel en utilisant l'heure de début de la première tâche.\n"
 "Cette action trie les cibles en fonction de leur lever et peut aider à planifier le démarrage de l'observation.\n"
 "L'option \"Trier les tâches par Altitude et Priorité\" garde la liste de tâches triées ainsi mais avec l'heure courante comme "
 "référence.\n"
-"Notez que l'algorithme calcule d'abord toutes les altitudes à la même heure, puissance évalue les tâches."
+"Notez que l'algorithme calcule d'abord toutes les altitudes à la même heure, puis évalue les tâches."
 
 #: ekos/scheduler/scheduler.cpp:817
 #, kde-format
@@ -21700,7 +21700,7 @@ msgstr ""
 #: ekos/scheduler/scheduler.ui:75
 #, kde-format
 msgid "FITS File:"
-msgstr "Fichier « FITS » :"
+msgstr "Fichier FITS"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, sequenceLabel)
 #: ekos/scheduler/scheduler.ui:124
@@ -21712,19 +21712,19 @@ msgstr "Fichier de séquences « Ekos »"
 #: ekos/scheduler/scheduler.ui:127
 #, kde-format
 msgid "Sequence:"
-msgstr "Séquence :"
+msgstr "Séquence"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, loadSequenceB)
 #: ekos/scheduler/scheduler.ui:140
 #, kde-format
 msgid "Load the image sequence queue."
-msgstr "Charger la file de séquences d'images."
+msgstr "Fichier de séquence d'acquisition préalablement créé et enregistré dans l'onglet « Acquisition »"
 
 #. i18n: ectx: property (text), widget (QLabel, priorityLabel)
 #: ekos/scheduler/scheduler.ui:154
 #, kde-format
 msgid "Priority:"
-msgstr "Priorité :"
+msgstr "Priorité"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, trackStepCheck)
 #: ekos/scheduler/scheduler.ui:204
@@ -21761,7 +21761,7 @@ msgstr "Réaliser la mise au point avant de démarrer la prochaine étape."
 #: ekos/scheduler/scheduler.ui:300
 #, kde-format
 msgid "Assigned priority to each job with 1 being the highest priority and 20 being the lowest priority"
-msgstr "Assigner une priorité à chaque tâche avec 1 comme plus haute priorité et 20 pour la priorité la plus basse."
+msgstr "Assigner une priorité à chaque tâche. La valeur 1 étant la plus haute priorité et la valeur 20 la plus basse."
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_4)
 #: ekos/scheduler/scheduler.ui:347
@@ -21813,8 +21813,8 @@ msgid ""
 "coordinates in the left panel, and a valid sequence file.</p><p align=\"justify\">The target will be used as center for the mosaic "
 "and the sequence will be assigned to all tiles of the mosaic.</p></body></html>"
 msgstr ""
-"<html><head/><body><p align=\"justify\">Ouvrir l'outil Mosaïque</p><p align=\"justify\">Cet outil requière une cible avec des "
-"coordonnées valides dans le panneau de auche et un fichier de séquence valide.</p><p align=\"justify\">La cible sera utilisé comme "
+"<html><head/><body><p align=\"justify\">Ouvrir l'outil Mosaïque</p><p align=\"justify\">Cet outil requiert une cible avec des "
+"coordonnées valides dans le panneau de gauche et un fichier de séquence valide.</p><p align=\"justify\">La cible sera utilisée comme "
 "centre pour la mosaïque et la séquence sera appliquée à toutes les tuiles.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, queueAppendB)
@@ -21850,7 +21850,7 @@ msgstr "Enregistrer le planning comme..."
 #: ekos/scheduler/scheduler.ui:1056
 #, kde-format
 msgid "Captures"
-msgstr "Captures"
+msgstr "Acquisitions"
 
 #. i18n: ectx: property (text), widget (QTableWidget, queueTable)
 #: ekos/scheduler/scheduler.ui:1066
@@ -21880,7 +21880,7 @@ msgstr "Durée estimée"
 #: ekos/scheduler/scheduler.ui:1086
 #, kde-format
 msgid "Lead time"
-msgstr "Délai de réalisation"
+msgstr "Durée totale"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, pauseB)
 #: ekos/scheduler/scheduler.ui:1159
@@ -21905,17 +21905,17 @@ msgstr "Classique"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, schedulerAlgorithmCombo)
 #: ekos/scheduler/scheduler.ui:1208
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "City in Colorado USA"
 #| msgid "Greeley"
 msgid "Greedy"
-msgstr "Greeley"
+msgstr "Greedy"
 
 #. i18n: ectx: property (title), widget (QGroupBox, completionGroup)
 #: ekos/scheduler/scheduler.ui:1266
 #, kde-format
 msgid "Job Completion Conditions"
-msgstr "Conditions de terminaison des tâches."
+msgstr "Conditions de fin des tâches"
 
 #. i18n: ectx: property (text), widget (QRadioButton, repeatCompletionR)
 #: ekos/scheduler/scheduler.ui:1301
@@ -22009,7 +22009,7 @@ msgstr "Décalage du point cul&minant"
 #: ekos/scheduler/scheduler.ui:1493
 #, kde-format
 msgid "start the job on the specified date and time"
-msgstr "démarre la tâche à l'heure et à la date spécifiée"
+msgstr "Démarre la tâche à l'heure et à la date spécifiée"
 
 #. i18n: ectx: property (text), widget (QRadioButton, startupTimeConditionR)
 #: ekos/scheduler/scheduler.ui:1496
@@ -22167,7 +22167,7 @@ msgstr "Arrêter le refroidissement du capteur « CCD »."
 #: ekos/scheduler/scheduler.ui:1817
 #, kde-format
 msgid "Warm CCD"
-msgstr "Réchauffer le capteur « CCD »"
+msgstr "Chauffer CCD"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, capCheck)
 #: ekos/scheduler/scheduler.ui:1833
@@ -22200,7 +22200,7 @@ msgstr "Mettre en sécurité le dôme dans sa position par défaut"
 #: ekos/scheduler/scheduler.ui:1923 ekos/scheduler/scheduler.ui:2225
 #, kde-format
 msgid "Script:"
-msgstr "Script :"
+msgstr "Script "
 
 # unreviewed-context
 #. i18n: ectx: property (toolTip), widget (QGroupBox, errorHandlingGroup)
@@ -22283,7 +22283,7 @@ msgstr "Traiter les erreurs comme des annulations."
 #: ekos/scheduler/scheduler.ui:2066
 #, kde-format
 msgid "Re-schedule errors"
-msgstr "Erreurs de re-planification"
+msgstr "Erreurs de replanification"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, errorHandlingDelaySB)
 #: ekos/scheduler/scheduler.ui:2079
@@ -22306,8 +22306,8 @@ msgid ""
 "body></html>"
 msgstr ""
 "<html><head/><body><p>Procédure de démarrage unique à exécuter avant de démarrer Ekos. Le script est lancé <span style=\" font-"
-"weight:600; text-decoration : underline;\">avant</span> les procédures de démarrage (Par exemple, le déblocage du télescope), si "
-"elles sont sélectionnées, alors, elles sont lancées. </p></body></html>"
+"weight:600; text-decoration : underline;\">avant</span> les procédures de démarrage (par exemple, le déblocage du télescope), si "
+"elles sont sélectionnées, alors elles sont lancées. </p></body></html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, startupGroupBox)
 #: ekos/scheduler/scheduler.ui:2103
@@ -22319,7 +22319,7 @@ msgstr "Procédure de démarrage de l'observation"
 #: ekos/scheduler/scheduler.ui:2141
 #, kde-format
 msgid "UnPark Dome"
-msgstr "Débloquer le dôme"
+msgstr "Déparquer le dôme"
 
 #. i18n: ectx: property (text), widget (QCheckBox, unparkMountCheck)
 #: ekos/scheduler/scheduler.ui:2163
@@ -60086,7 +60086,7 @@ msgstr "Mettre en sécurité le dôme"
 #: kstarsinit.cpp:680
 #, kde-format
 msgid "Unpark dome"
-msgstr "Débloquer le dôme"
+msgstr "Déparquer le dôme"
 
 #: kstarsinit.cpp:711
 #, kde-format
