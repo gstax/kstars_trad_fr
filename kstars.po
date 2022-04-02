@@ -5325,7 +5325,7 @@ msgstr "Fichiers d'index"
 #: ekos/align/align.cpp:246 ekos/focus/focus.cpp:92
 #, kde-format
 msgid "Idle."
-msgstr "Inactif"
+msgstr "Inactif."
 
 #: ekos/align/align.cpp:327 ekos/guide/guidetargetplot.cpp:55
 #, kde-format
@@ -8431,22 +8431,22 @@ msgstr "La monture est synchronisé sur le pôle céleste. Vous pouvez maintenan
 #: ekos/align/polaralignmentassistant.cpp:845
 #, kde-format
 msgid "Please wait while WCS data is processed..."
-msgstr "Veuillez patienter pendant traitement des données WCS..."
+msgstr "Veuillez patienter pendant le traitement des données WCS…"
 
 #: ekos/align/polaralignmentassistant.cpp:883
 #, kde-format
 msgid "WCS data processing is complete."
-msgstr "Le traitement des données WCS est terminée."
+msgstr "Le traitement des données WCS est terminé."
 
 #: ekos/align/polaralignmentassistant.cpp:892
 #, kde-format
 msgid "WCS info is now valid. Capturing next frame..."
-msgstr "Les informations WCS sont maintenant valides. Capture en cours de la prochaine trame..."
+msgstr "Les informations WCS sont maintenant valides. Acquisition de la prochaine trame…"
 
 #: ekos/align/polaralignmentassistant.cpp:949
 #, kde-format
 msgid "Failed to process World Coordinate System: %1. Try again."
-msgstr "Échec du traitement du système de coordonnées mondiales: %1. Veuillez ré-essayez."
+msgstr "Échec du traitement du système de coordonnées mondiales WCS : %1. Veuillez réessayez."
 
 #. i18n: ectx: property (toolTip), widget (QStackedWidget, PAHWidgets)
 #: ekos/align/polaralignmentassistant.ui:44
@@ -8455,7 +8455,7 @@ msgid ""
 "<p>Polar Alignment Helper tool requires the following:</p><p>1. German Equatorial Mount</p><p>2. Wide FOV &gt; 1 degrees</p><p>For "
 "small FOVs, use the Legacy Polar Alignment Tool.</p>"
 msgstr ""
-"<p>L'outil d'aide à l'alignement polaire nécessite les éléments suivants:</p><p>1. Monture équatoriale allemande</p><p>2. Champ de "
+"<p>L'outil d'aide à l'alignement polaire nécessite les éléments suivants :</p><p>1. Monture équatoriale allemande</p><p>2. Champ de "
 "vision FOV &gt; 1 degré</p><p>Pour des champs de vision plus réduits, veuillez utiliser l'ancien outil d'alignement polaire.</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, introText)
@@ -8606,12 +8606,12 @@ msgid ""
 "crosshair. Click <span style=\" font-weight:600;\">Done</span> when the star is centered.</p><p>Use <span style=\" font-weight:600;"
 "\">Update PA Error</span> to estimate the remaining error as you adjust the star position.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Cliquez sur <span style=\" font-weight:600;\">« Rafraîchir »</span> pour démarrer des acquisitions en boucle avec le "
-"temps d'exposition spécifié. Ajustez avec  <span style=\" font-weight:600;\">les réglages d'altitude de la monture</span> pour "
+"<html><head/><body><p>Cliquez sur <span style=\" font-weight:600;\">« Rafraîchir »</span> pour démarrer des acquisitions en boucle avec la "
+"durée d'exposition spécifiée. Ajustez avec  <span style=\" font-weight:600;\">les réglages d'altitude de la monture</span> pour "
 "déplacer l'étoile le long  de la ligne <span style=\" font-weight:600; color:#ffff50;\">Jaune</span>, puis ajustez les <span style="
 "\" font-weight:600;\">réglages d'azimut</span> pour la déplacer le long de la ligne <span style=\" font-weight:600; color:#00ff00;"
-"\">Verte</span> jusqu'à ce que l'étoile choisie soit centrée sur le pointeur en croix. Cliquez sur<span style=\" font-weight:600;"
-"\">« Terminé »</span> lorsque l'étoile est centrée.</p><p>Utilisez <span style=\" font-weight:600;\">MAj erreur PA </span> pour estimer "
+"\">Verte</span> jusqu'à ce que l'étoile choisie soit centrée sur le pointeur en croix. Cliquez sur <span style=\" font-weight:600;"
+"\">« Fait »</span> lorsque l'étoile est centrée.</p><p>Utilisez <span style=\" font-weight:600;\">Mettre à jour l'erreur en PA </span> pour estimer "
 "l'erreur restante pendant le déplacement de l'étoile.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, PAHRefreshB)
@@ -8632,7 +8632,7 @@ msgstr "Durée de l'exposition en secondes durant la phase de rafraîchissement.
 #: ekos/align/polaralignmentassistant.ui:590
 #, kde-format
 msgid "Image#:"
-msgstr "Image# :"
+msgstr "Nombre d'image "
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, PAHIteration)
 #: ekos/align/polaralignmentassistant.ui:609
@@ -8648,8 +8648,8 @@ msgid ""
 "Re-estimates the new polar-alignment error after refresh exposures. Will help you see what your new polar alignment error is, but "
 "takes compute resources and can slow down the exposure rate."
 msgstr ""
-"Réévalue la nouvelle erreur d’alignement polaire après rafraîchissement des captures. Ceci vous aidera à voir quelle est votre "
-"nouvelle erreur d’alignement polaire. Cependant, cette action consomme des ressources de calcul et peut ralentir la vitesse "
+"Réévalue la nouvelle erreur d’alignement polaire après rafraîchissement des acquisitions. Ceci vous permettra d'évaluer votre "
+"nouvelle erreur d’alignement polaire. Cependant, cette action consomme des ressources de calcul et peut ralentir le taux "
 "d’exposition."
 
 #. i18n: ectx: property (text), widget (QCheckBox, PAHRefreshUpdateError)
@@ -8663,13 +8663,13 @@ msgstr "Mettre à jour l'erreur en PA."
 #: ekos/align/polaralignmentassistant.ui:700 ekos/align/polaralignmentassistant.ui:722
 #, kde-format
 msgid "Polar Alignment total error measured by the 3 exposures at the start of the polar-alignment procedure."
-msgstr "Erreur totale d'alignement polaire, mesurée par 3 captures au démarrage de la procédure d'alignement polaire."
+msgstr "Erreur totale d'alignement polaire, mesurée par les 3 images au démarrage de la procédure d'alignement polaire."
 
 #. i18n: ectx: property (text), widget (QLabel, label_PAHOrigErrorTotal)
 #: ekos/align/polaralignmentassistant.ui:703
 #, kde-format
 msgid "Measured Err:"
-msgstr "Erreur mesurée:"
+msgstr "Erreur mesurée"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_PAHOrigErrorAlt)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, PAHOrigErrorAlt)
@@ -8701,7 +8701,7 @@ msgstr "Erreur d'azimut pour l'alignement polaire, mesurée par 3 captures au d�
 #: ekos/align/polaralignmentassistant.ui:859 ekos/align/polaralignmentassistant.ui:881
 #, kde-format
 msgid "Polar Alignment total error estimated after recent adjustments."
-msgstr "Erreur totale estimée sur l'alignement polaire après les derniers ajustements "
+msgstr "Erreur totale estimée sur l'alignement polaire après les derniers ajustements."
 
 #. i18n: ectx: property (text), widget (QLabel, label_PAHUpdatedErrorTotal)
 #: ekos/align/polaralignmentassistant.ui:862
@@ -8714,62 +8714,62 @@ msgstr "Erreur mise à jour:"
 #: ekos/align/polaralignmentassistant.ui:903 ekos/align/polaralignmentassistant.ui:928
 #, kde-format
 msgid "Polar Alignment altitude error estimated after recent adjustments."
-msgstr "Erreur estimée d'alignement d'altitude polaire après les derniers ajustements "
+msgstr "Erreur estimée d'alignement d'altitude polaire après les derniers ajustements."
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_PAHUpdatedErrorAz)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, PAHUpdatedErrorAz)
 #: ekos/align/polaralignmentassistant.ui:950 ekos/align/polaralignmentassistant.ui:975
 #, kde-format
 msgid "Polar Alignment azimuth error estimated after recent adjustments."
-msgstr "Erreur estimée d'alignement d'azimut polaire après les derniers ajustements "
+msgstr "Erreur estimée d'alignement d'azimut polaire après les derniers ajustements."
 
 #. i18n: ectx: property (text), widget (QLabel, firstSolverText)
 #: ekos/align/polaralignmentassistant.ui:1020
 #, kde-format
 msgid "<p>Solving the first image...</p>"
-msgstr "<p>Résolution de la première image...</p>"
+msgstr "<p>Résolution de la première image…</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, secondSolverText)
 #: ekos/align/polaralignmentassistant.ui:1049
 #, kde-format
 msgid "<p>Solving the second image...</p>"
-msgstr "<p>Résolution de la seconde image...</p>"
+msgstr "<p>Résolution de la deuxième image…</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, thirdSolverText)
 #: ekos/align/polaralignmentassistant.ui:1078
 #, kde-format
 msgid "<p>Solving the third image...</p>"
-msgstr "<p>Résolution de la troisième image...</p>"
+msgstr "<p>Résolution de la troisième image…</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, firstWcsText)
 #: ekos/align/polaralignmentassistant.ui:1107
 #, kde-format
 msgid "<p>Calculating WCS for the first image...</p>"
-msgstr "<p>Calcul de WCS pour la première image...</p>"
+msgstr "<p>Calcul de WCS pour la première image…</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, secondWcsText)
 #: ekos/align/polaralignmentassistant.ui:1136
 #, kde-format
 msgid "<p>Calculating WCS for the second image...</p>"
-msgstr "<p>Calcul du WCS pour la seconde image...</p>"
+msgstr "<p>Calcul du WCS pour la deuxième image…</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, thirdWcsText)
 #: ekos/align/polaralignmentassistant.ui:1165
 #, kde-format
 msgid "<p>Calculating WCS for the third image...</p>"
-msgstr "<p>Calcul de WCS pour la troisième image...</p>"
+msgstr "<p>Calcul de WCS pour la troisième image…</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, firstSettleText)
 #: ekos/align/polaralignmentassistant.ui:1194
 #, kde-format
 msgid "<p>Settling after the <span style=\" font-style:italic;\">first</span> mount rotation.</p>"
-msgstr "<p>Lancement de la<span style=\" font-style:italic;\">première</span> rotation de la monture...</p>"
+msgstr "<p>Lancement de la <span style=\" font-style:italic;\">première</span> rotation de la monture…</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, secondSettleText)
 #: ekos/align/polaralignmentassistant.ui:1223
 #, kde-format
 msgid "<p>Settling after the <span style=\" font-style:italic;\">second</span> mount rotation.</p>"
-msgstr "<p>Stabilisation après la<span style=\" font-style:italic;\">seconde</span> rotation de la monture...</p>"
+msgstr "<p>Stabilisation après la <span style=\" font-style:italic;\">deuxième</span> rotation de la monture…</p>"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, PAHStartB)
 #. i18n: ectx: property (text), widget (QPushButton, PAHStartB)
@@ -8790,7 +8790,7 @@ msgstr ""
 #: ekos/align/remoteastrometryparser.cpp:50
 #, kde-format
 msgid "Cannot open file %1 for reading."
-msgstr "Il est impossible d'ouvrir le fichier %1 en lecture."
+msgstr "Impossible d'ouvrir le fichier %1 en lecture."
 
 #: ekos/align/remoteastrometryparser.cpp:60
 #, kde-format
@@ -8805,7 +8805,7 @@ msgstr "Mémoire insuffisante pour le fichier %1."
 #: ekos/align/remoteastrometryparser.cpp:104
 #, kde-format
 msgid "Starting remote solver..."
-msgstr "Démarrage du résolveur distant..."
+msgstr "Démarrage du résolveur distant…"
 
 #: ekos/align/remoteastrometryparser.cpp:116
 #, kde-format
@@ -8815,7 +8815,7 @@ msgstr "Impossible de trouver les paramètres du résolveur."
 #: ekos/analyze/analyze.cpp:119 ekos/analyze/analyze.cpp:138 ekos/observatory/observatory.cpp:340 indi/indicap.cpp:226
 #: indi/indidome.cpp:529 indi/inditelescope.cpp:1366
 #, kde-format
-msgid "Parked ANALYZE STEVE"
+msgid "Parked"
 msgstr "Parquée"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -17480,7 +17480,7 @@ msgstr "Désactivation du débogage pour la connexion de %1…"
 #: ekos/manager.cpp:3213
 #, kde-format
 msgid "Re-enabling debug logging for %1..."
-msgstr "Réactivation en cours du débogage de connexion pour %1…"
+msgstr "Réactivation du débogage de connexion pour %1…"
 
 #: ekos/manager.cpp:3225
 #, kde-format
@@ -59981,7 +59981,7 @@ msgstr "Ekos"
 #: kstarsinit.cpp:607
 #, kde-format
 msgid "Toggle Ekos"
-msgstr "Basculer « Ekos »"
+msgstr "Panneau de contrôle Ekos"
 
 #: kstarsinit.cpp:609
 #, kde-format
