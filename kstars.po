@@ -1662,7 +1662,7 @@ msgstr "AL"
 #: data/qml/mount/mountbox.qml:600 data/qml/mount/mountbox.qml:837
 #, kde-kuit-format
 msgid "HA:"
-msgstr "HA"
+msgstr "AH"
 
 #: data/qml/mount/mountbox.qml:617
 #, kde-kuit-format
@@ -1698,7 +1698,7 @@ msgstr "AZ/AL"
 #: data/qml/mount/mountbox.qml:830
 #, kde-kuit-format
 msgid "HA/DE"
-msgstr "HA/DE"
+msgstr "AH/DE"
 
 #. i18n: ectx: property (text), widget (QLabel, epochLabel)
 #. i18n: ectx: property (text), widget (QLabel, EpochLabel)
@@ -9411,7 +9411,7 @@ msgstr ""
 #: ekos/analyze/analyze.ui:919
 #, kde-format
 msgid "side"
-msgstr "Côté"
+msgstr "côté"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, pierSideOut)
 #: ekos/analyze/analyze.ui:932
@@ -9429,7 +9429,7 @@ msgstr "<html><head/><body><p>Tracer la valeur de l'angle horaire de ma monture.
 #: ekos/analyze/analyze.ui:966
 #, kde-format
 msgid "ha"
-msgstr "ha"
+msgstr "ah"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, mountHaOut)
 #: ekos/analyze/analyze.ui:985
@@ -10158,8 +10158,8 @@ msgid ""
 "<html><head/><body><p>Enable Logs to diagnose issues with Ekos and INDI. Only enable the necessary logs to help in diagnosing "
 "specific problems. Logs consume resources and may slow the system down. Turn off logs when no longer used.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Active les journaux pour caractériser les problèmes avec Ekos et INDI. N'activer que les journaux nécessaires . "
-"Les journaux consomment des ressources et peuvent ralentir le système. Supprimer les journaux quand vous n'en n'avez plus besoin.</"
+"<html><head/><body><p>Active les journaux pour caractériser les problèmes avec Ekos et INDI. N'activer que les journaux nécessaires. "
+"Les journaux consomment des ressources et peuvent ralentir le système. Supprimer les fichiers journaux quand vous n'en n'avez plus besoin.</"
 "p></body></html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -10318,7 +10318,7 @@ msgstr "CCD"
 #: ekos/auxiliary/opslogs.ui:265 options/opsadvanced.ui:297
 #, kde-format
 msgid "Verbosity:"
-msgstr "Niveau de détails:"
+msgstr "Niveau de détails"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_CaptureLogging)
 #: ekos/auxiliary/opslogs.ui:282
@@ -10480,7 +10480,7 @@ msgstr ""
 #: ekos/auxiliary/opslogs.ui:468
 #, kde-format
 msgid " Separate Log File:"
-msgstr "Fichier de journalisation séparé:"
+msgstr "Fichier de journalisation séparé"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AstrometryLogFilepath)
 #: ekos/auxiliary/opslogs.ui:475
@@ -17392,7 +17392,7 @@ msgstr "Déconnexion des périphériques INDI…"
 #: ekos/manager.cpp:1221
 #, kde-format
 msgid "INDI services stopped."
-msgstr "Services INDI arrêtés."
+msgstr "Services INDI arrêtés."
 
 #: ekos/manager.cpp:1271
 #, kde-format
@@ -17536,13 +17536,13 @@ msgstr "Lancer l'assistant de profil Ekos"
 #: ekos/manager.ui:335
 #, kde-format
 msgid "2. Start && Stop Ekos"
-msgstr "3. Démarrer et/ou Arrêter Ekos"
+msgstr "2. Démarrer et/ou Arrêter Ekos"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, indiControlPanelB)
 #: ekos/manager.ui:421 kstarslite/qml/indi/INDIControlPanel.qml:15
 #, kde-format, kde-kuit-format
 msgid "INDI Control Panel"
-msgstr "Panneau de contrôle de INDI"
+msgstr "Panneau de contrôle INDI"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, portSelectorB)
 #: ekos/manager.ui:450
@@ -17560,7 +17560,7 @@ msgstr "Options Ekos"
 #: ekos/manager.ui:532
 #, kde-format
 msgid "3. Connect && Disconnect Devices"
-msgstr "4. Connecter et/ou Déconnecter des périphériques"
+msgstr "3. Connecter et/ou Déconnecter des périphériques"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ekos/manager.ui:659
@@ -17974,13 +17974,13 @@ msgstr "ALT"
 #: ekos/mount/mount.ui:314
 #, kde-format
 msgid "Hour Angle"
-msgstr "Angle horaire :"
+msgstr "Angle horaire"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: ekos/mount/mount.ui:317
 #, kde-format
 msgid "HA"
-msgstr "HA"
+msgstr "AH"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_10)
 #: ekos/mount/mount.ui:331
@@ -17992,7 +17992,7 @@ msgstr "Heure sidérale locale"
 #: ekos/mount/mount.ui:334
 #, kde-format
 msgid "LST"
-msgstr "LST"
+msgstr "HSL"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, meridianFlipDegreesR)
 #: ekos/mount/mount.ui:374
@@ -18024,7 +18024,7 @@ msgstr ""
 #: ekos/mount/mount.ui:410
 #, kde-format
 msgid "Flip if HA >"
-msgstr "Basculer si le paramètre « HA » >"
+msgstr "Basculer si AH >"
 
 #. i18n: ectx: property (text), widget (QLabel, pierSideLabel)
 #: ekos/mount/mount.ui:424
@@ -18060,13 +18060,13 @@ msgstr "Purger toutes les configurations"
 #: ekos/mount/mount.ui:535
 #, kde-format
 msgid "Park At:"
-msgstr "Parquer à"
+msgstr "Parquer à "
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, everyDayCheck)
 #: ekos/mount/mount.ui:553
 #, kde-format
 msgid "Automatically start the park timer on startup"
-msgstr "Démarrer automatiquement la temporisation de parcage au démarrage"
+msgstr "Démarrer automatiquement le minuteur de parcage au démarrage"
 
 #. i18n: ectx: property (text), widget (QCheckBox, everyDayCheck)
 #: ekos/mount/mount.ui:556
@@ -18186,7 +18186,7 @@ msgstr "Alt min"
 #: ekos/mount/mount.ui:973
 #, kde-format
 msgid "Max. HA (hours):"
-msgstr "Max. HA (heures)"
+msgstr "Max. AH (heures)"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableHaLimitCheck)
 #: ekos/mount/mount.ui:980
@@ -18198,14 +18198,14 @@ msgid ""
 msgstr ""
 "<html><head/><body><p>Active ou désactive la limite de l'angle horaire de la monture. Une fois activé, Ekos surveille l'angle "
 "horaire de la monture pendant sa rotation ou son suivi. Si celui-ci tourne/suit au delà de la limite et que l' état courant du côté "
-"de la butée ne le permet pas, alors, il recevra une commande d'arrêt et le suivi sera désactivé. Ceci nécessite une monture "
+"de la butée ne le permet pas, alors il recevra une commande d'arrêt et le suivi sera désactivé. Ceci nécessite une monture "
 "fournissant correctement le côté de pied.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableHaLimitCheck)
 #: ekos/mount/mount.ui:983
 #, kde-format
 msgid "Enable HA Limits"
-msgstr "Activer les limites HA"
+msgstr "Activer les limites AH"
 
 #. i18n: ectx: property (text), widget (QLabel, maxAltLabel)
 #: ekos/mount/mount.ui:996
@@ -23029,7 +23029,7 @@ msgstr "Marquer des étoiles"
 #, kde-format
 msgctxt "@title:window"
 msgid "KStars FITS Viewer"
-msgstr "Afficheur « FITS » de KStars"
+msgstr "Afficheur FITS de KStars"
 
 #: fitsviewer/fitsviewer.cpp:336
 #, kde-format
@@ -23102,7 +23102,7 @@ msgid ""
 "*No WCS Info*"
 msgstr ""
 "Afficher les lignes de grille équatoriale\n"
-"*Aucune informations « WCS » *"
+"* Aucune informations WCS *"
 
 #: fitsviewer/fitsviewer.cpp:917
 #, kde-format
@@ -23111,7 +23111,7 @@ msgid ""
 "*No WCS Info*"
 msgstr ""
 "Centrer le télescope\n"
-"* Aucune information « WCS » *"
+"* Aucune information WCS *"
 
 #: fitsviewer/fitsviewer.cpp:919
 #, kde-format
@@ -23120,7 +23120,7 @@ msgid ""
 "*No WCS Info*"
 msgstr ""
 "Afficher les objets dans l'image\n"
-"*Aucune information « WCS » *"
+"* Aucune information WCS *"
 
 #: fitsviewer/fitsviewer.cpp:976
 #, kde-format
@@ -23135,12 +23135,12 @@ msgstr "Décocher des étoiles"
 #: fitsviewer/fitsviewer.cpp:1029
 #, kde-format
 msgid "Processing %1..."
-msgstr "Traitement en cours de %1..."
+msgstr "Traitement de %1 en cours…"
 
 #: fitsviewer/opsfits.cpp:85
 #, kde-format
 msgid "HFR Options Profile Editor"
-msgstr "Éditeur de profils pour les options « HFR »"
+msgstr "Modificateur de profils pour les options HFR"
 
 #. i18n: ectx: property (title), widget (QGroupBox, FITSViewerGroup)
 #: fitsviewer/opsfits.ui:45
@@ -23152,20 +23152,20 @@ msgstr "Apparence"
 #: fitsviewer/opsfits.ui:51
 #, kde-format
 msgid "Automatically display received images in the FITS Viewer"
-msgstr "Afficher automatiquement les images reçues dans l'afficheur « FITS »"
+msgstr "Afficher automatiquement les images reçues dans l'afficheur FITS"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useFITSViewer)
 #: fitsviewer/opsfits.ui:54
 #, kde-format
 msgid "Use FITS viewer"
-msgstr "Utiliser un afficheur « FITS »"
+msgstr "Utiliser un afficheur FITS"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_singlePreviewFITS)
 #. i18n: ectx: whatsthis, entry (singlePreviewFITS), group (FITSViewer)
 #: fitsviewer/opsfits.ui:61 kstars.kcfg:1399
 #, kde-format
 msgid "Display all captured FITS images in a single tab instead of multiple tabs per image."
-msgstr "Afficher toutes les images « FITS » capturées dans un unique onglet plutôt que dans un onglet par image."
+msgstr "Afficher toutes les images FITS dans un unique onglet plutôt que dans un onglet par image."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_singlePreviewFITS)
 #: fitsviewer/opsfits.ui:70
@@ -23178,21 +23178,21 @@ msgstr "Onglet d'aperçu simple"
 #, kde-format
 msgid "Display captured FITS images from all cameras in a single FITS Viewer window instead of a dedicated window to each camera."
 msgstr ""
-"Affichez les images « FITS » capturées de toutes les caméras dans une seule fenêtre d'afficheur « FITS » au lieu d'une fenêtre dédiée "
+"Affichez les images FITS de toutes les caméras dans une seule fenêtre d'afficheur FITS au lieu d'une fenêtre dédiée "
 "à chaque caméra."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_singleWindowCapturedFITS)
 #: fitsviewer/opsfits.ui:86
 #, kde-format
 msgid "Single window capture"
-msgstr "Capture unique de fenêtre"
+msgstr "Fenêtre d'acquisition unique"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_singleWindowOpenedFITS)
 #: fitsviewer/opsfits.ui:96
 #, kde-format
 msgid "Display opened FITS images in a single FITS Viewer window instead of a dedicated window to each file."
 msgstr ""
-"Afficher les images ouvertes « FITS » avec une fenêtre simple d'afficheur « FITS », plutôt qu'une fenêtre dédiée pour chaque fichier."
+"Afficher les images ouvertes FITS avec une fenêtre simple d'afficheur FITS, plutôt qu'une fenêtre dédiée pour chaque fichier."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_singleWindowOpenedFITS)
 #: fitsviewer/opsfits.ui:102
@@ -23204,7 +23204,7 @@ msgstr "Ouverture simple d'une fenêtre"
 #: fitsviewer/opsfits.ui:112
 #, kde-format
 msgid "Bring the FITSViewer window to the foreground when receiving a new image"
-msgstr "Mettre la fenêtre d'affichage « FITS » au premier plan lors de la réception d'une nouvelle image."
+msgstr "Mettre la fenêtre d'affichage FITS au premier plan lors de la réception d'une nouvelle image."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_focusFITSOnNewImage)
 #: fitsviewer/opsfits.ui:115
@@ -23216,7 +23216,7 @@ msgstr "Focus sur la réception d'une image"
 #: fitsviewer/opsfits.ui:122
 #, kde-format
 msgid "Make FITS Viewer window independent from KStars"
-msgstr "Rend la fenêtre d'affichage « FITS » indépendante de la fenêtre principale KStars."
+msgstr "Rend la fenêtre d'affichage FITS indépendante de la fenêtre principale KStars."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: fitsviewer/opsfits.ui:135
@@ -23861,26 +23861,26 @@ msgstr "Impossible d'ajouter un nouveau pilote. Est que le label est unique ?"
 #: indi/customdrivers.ui:55 oal/equipmentwriter.ui:206
 #, kde-format
 msgid "Driver:"
-msgstr "Pilote :"
+msgstr "Pilote"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: indi/customdrivers.ui:75
 #, kde-format
 msgid "Family:"
-msgstr "Famille :"
+msgstr "Famille"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: indi/customdrivers.ui:85
 #, kde-format
 msgid "Executable:"
-msgstr "Exécutable :"
+msgstr "Exécutable"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: indi/customdrivers.ui:110 tools/flagmanager.ui:84
 #, kde-format
 msgid "Label:"
-msgstr "Étiquette :"
+msgstr "Étiquette"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: indi/customdrivers.ui:120
@@ -23892,7 +23892,7 @@ msgstr "*"
 #: indi/customdrivers.ui:132
 #, kde-format
 msgid "Manufacturer:"
-msgstr "Fabricant :"
+msgstr "Fabricant"
 
 #. i18n: ectx: property (text), widget (QPushButton, addDriverB)
 #. i18n: ectx: property (text), widget (QPushButton, NewEyepiece)
@@ -23901,7 +23901,7 @@ msgstr "Fabricant :"
 #: indi/customdrivers.ui:177 oal/equipmentwriter.ui:463 oal/equipmentwriter.ui:589 oal/equipmentwriter.ui:798
 #, kde-format
 msgid "Add New"
-msgstr "Ajouter un nouveau"
+msgstr "Ajouter"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: indi/customdrivers.ui:210
@@ -23919,7 +23919,7 @@ msgstr ""
 #: indi/customdrivers.ui:246
 #, kde-format
 msgid "<html><head/><body><p>KStars must be restarted for new drivers to take effect.</p></body></html>"
-msgstr "<html><head/><body><p>KStars doit être re-démarré pour la prise en compte des nouveaux pilotes.</p></body></html>"
+msgstr "<html><head/><body><p>KStars doit être redémarré pour la prise en compte des nouveaux pilotes.</p></body></html>"
 
 #: indi/drivermanager.cpp:95
 #, kde-format
@@ -23935,7 +23935,7 @@ msgstr "Le pilote %1 est déjà en cours d'exécution. Voulez-vous le redémarr
 #: indi/drivermanager.cpp:349 indi/indidriver.cpp:309
 #, kde-format, kde-kuit-format
 msgid "Cannot start INDI server: port error."
-msgstr "Il est impossible de démarrer le serveur INDI : erreur de port."
+msgstr "Impossible de démarrer le serveur INDI : erreur de port."
 
 #: indi/drivermanager.cpp:440 indi/drivermanager.cpp:770
 #, kde-format
@@ -23956,12 +23956,12 @@ msgstr "Élément de port non valable : %1"
 #: indi/drivermanager.cpp:651
 #, kde-format
 msgid "Connection to INDI host at %1 on port %2 lost. Server disconnected."
-msgstr "Connexion à l'hôte INDI à %1 sur le port %2 perdue. Serveur déconnecté."
+msgstr "Connexion à l'hôte INDI à %1 sur le port %2 perdue. Serveur déconnecté."
 
 #: indi/drivermanager.cpp:676
 #, kde-format
 msgid "Connection to INDI host at %1 on port %2 encountered an error: %3."
-msgstr "La connexion à l'hôte INDI à %1 sur le port %2 a rencontré une erreur : %3."
+msgstr "La connexion à l'hôte INDI à %1 sur le port %2 a rencontré une erreur : %3."
 
 #: indi/drivermanager.cpp:728
 #, kde-format
@@ -23971,12 +23971,12 @@ msgstr "Port %1 pour l'hôte non valable "
 #: indi/drivermanager.cpp:761
 #, kde-format
 msgid "Connected to INDI server"
-msgstr "Connecté au serveur « INDI »"
+msgstr "Connecté au serveur INDI"
 
 #: indi/drivermanager.cpp:769
 #, kde-format
 msgid "Connection to INDI server at host %1 with port %2 failed."
-msgstr "La connexion au serveur INDI à l'hôte %1 avec le port %2 a échoué."
+msgstr "La connexion au serveur INDI à l'hôte %1 avec le port %2 a échoué."
 
 #: indi/drivermanager.cpp:970 indi/indidriver.cpp:487
 #, kde-format, kde-kuit-format
@@ -23984,7 +23984,7 @@ msgid ""
 "Unable to find INDI drivers directory: %1\n"
 "Please make sure to set the correct path in KStars configuration"
 msgstr ""
-"Il est impossible de trouver le dossier des pilotes du serveur « INDI » : %1\n"
+"Il est impossible de trouver le dossier des pilotes du serveur INDI : %1\n"
 "Veillez vous assurer d'avoir défini l'emplacement correct dans la configuration de KStars."
 
 #: indi/drivermanager.cpp:1012 indi/indidriver.cpp:528
@@ -24043,7 +24043,7 @@ msgstr "Gestionnaire de périphériques"
 #: indi/drivermanager.ui:39
 #, kde-format
 msgid "Local/Server"
-msgstr "Local / Serveur"
+msgstr "Local/Serveur"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, localTreeWidget)
 #: indi/drivermanager.ui:61
@@ -28811,7 +28811,7 @@ msgstr "Inverser la direction des boutons vers le haut et vers le bas pour le co
 #: kstars.kcfg:1601
 #, kde-format
 msgid "Automatically start parking timer on startup."
-msgstr "Démarrer automatiquement la temporisation de parcage au démarrage."
+msgstr "Démarrer automatiquement le minuteur de parcage au démarrage."
 
 #. i18n: ectx: label, entry (ParkTime), group (Mount)
 #: kstars.kcfg:1605
@@ -28823,13 +28823,13 @@ msgstr "Parcage monture à l'heure saisie, dans un format de 12 heures."
 #: kstars.kcfg:1611
 #, kde-format
 msgid "Default capture module CCD."
-msgstr "Module « CCD » de capture par défaut."
+msgstr "Module « CCD » d'acquisition par défaut."
 
 #. i18n: ectx: label, entry (DefaultCaptureFilterWheel), group (Capture)
 #: kstars.kcfg:1614
 #, kde-format
 msgid "Default capture module filter wheel."
-msgstr "Roue de filtrage pour le module de capture par défaut."
+msgstr "Roue de filtrage pour le module d'acquisition par défaut."
 
 #. i18n: ectx: label, entry (DefaultObserver), group (Capture)
 #: kstars.kcfg:1617
@@ -62642,7 +62642,7 @@ msgstr "H:M:S"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "HA H:M:S"
-msgstr "HA H:M:S"
+msgstr "AH H:M:S"
 
 #: libindi_strings.cpp:239
 #, kde-kuit-format
@@ -64514,7 +64514,7 @@ msgstr "connecté"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "rel. to HA"
-msgstr "rel. à HA"
+msgstr "rel. à AH"
 
 #: libindi_strings.cpp:551
 #, kde-kuit-format
@@ -64923,7 +64923,7 @@ msgstr "Télescope"
 #: oal/equipmentwriter.ui:61 oal/equipmentwriter.ui:323 oal/equipmentwriter.ui:518 oal/equipmentwriter.ui:628
 #, kde-format
 msgid "Id:"
-msgstr "Id :"
+msgstr "Id"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label_8)
@@ -64932,7 +64932,7 @@ msgstr "Id :"
 #: oal/equipmentwriter.ui:78 oal/equipmentwriter.ui:340 oal/equipmentwriter.ui:535 oal/equipmentwriter.ui:645
 #, kde-format
 msgid "Vendor:"
-msgstr "Fabricant :"
+msgstr "Fabricant"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, label_7)
@@ -64943,7 +64943,7 @@ msgstr "Fabricant :"
 #: tools/whatsinteresting/wiequipsettings.ui:107
 #, kde-format
 msgid "Model:"
-msgstr "Modèle :"
+msgstr "Modèle"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, Type)
 #: oal/equipmentwriter.ui:109 tools/eyepiecefield.cpp:105
@@ -64992,7 +64992,7 @@ msgstr "Ritchey-Chretien"
 #: oal/equipmentwriter.ui:147 tools/whatsinteresting/wiequipsettings.ui:121
 #, kde-format
 msgid "Aperture:"
-msgstr "Ouverture :"
+msgstr "Ouverture"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, AddScope)
 #: oal/equipmentwriter.ui:229
@@ -65016,13 +65016,13 @@ msgstr "Supprimer le télescope actuel"
 #: oal/equipmentwriter.ui:392
 #, kde-format
 msgid "Apparent FOV:"
-msgstr "Champ de vision apparent :"
+msgstr "Champ de vision apparent"
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #: oal/equipmentwriter.ui:412
 #, kde-format
 msgid "Unit:"
-msgstr "Unité :"
+msgstr "Unité"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, FovUnit)
 #: oal/equipmentwriter.ui:420
@@ -65040,7 +65040,7 @@ msgstr "rad"
 #: oal/equipmentwriter.ui:470
 #, kde-format
 msgid "Save Eyepiece"
-msgstr "Enregistrer un oculaire"
+msgstr "Enregistrer"
 
 #. i18n: ectx: attribute (title), widget (QWidget, Lens)
 #: oal/equipmentwriter.ui:489
@@ -65052,25 +65052,25 @@ msgstr "Objectif"
 #: oal/equipmentwriter.ui:506
 #, kde-format
 msgid "Enter Details of Barlow/Shapley Lenses"
-msgstr "Saisissez les détails des objectifs de Barlow / Shapley"
+msgstr "Saisissez les détails des objectifs de Barlow/Shapley"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label51)
 #: oal/equipmentwriter.ui:545
 #, kde-format
 msgid "Magnification factor of the Barlow/Shapley lens"
-msgstr "Facteur d'agrandissement de l'objectif de Barlow / Shapley"
+msgstr "Facteur d'agrandissement de l'objectif de Barlow/Shapley"
 
 #. i18n: ectx: property (text), widget (QLabel, label51)
 #: oal/equipmentwriter.ui:548
 #, kde-format
 msgid "Factor:"
-msgstr "Facteur :"
+msgstr "Facteur"
 
 #. i18n: ectx: property (text), widget (QPushButton, AddLens)
 #: oal/equipmentwriter.ui:596
 #, kde-format
 msgid "Save Lens"
-msgstr "Enregistrer un objectif"
+msgstr "Enregistrer"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_18)
 #: oal/equipmentwriter.ui:711
@@ -65082,25 +65082,25 @@ msgstr "Filtrer le décalage de focus"
 #: oal/equipmentwriter.ui:740
 #, kde-format
 msgid "Auto focus:"
-msgstr "Auto focus :"
+msgstr "Mise au point automatique"
 
 #. i18n: ectx: property (text), widget (QLabel, label_20)
 #: oal/equipmentwriter.ui:754
 #, kde-format
 msgid "Locked filter:"
-msgstr "Filtre verrouillé :"
+msgstr "Filtre verrouillé"
 
 #. i18n: ectx: property (text), widget (QLabel, label_22)
 #: oal/equipmentwriter.ui:764
 #, kde-format
 msgid "Abs. position:"
-msgstr "Abs. Position :"
+msgstr "Position absolue"
 
 #. i18n: ectx: property (text), widget (QPushButton, AddFilter)
 #: oal/equipmentwriter.ui:805
 #, kde-format
 msgid "Save Filter"
-msgstr "Enregistrer un filtre"
+msgstr "Enregistrer"
 
 #: oal/execute.cpp:37
 #, kde-format
@@ -65159,7 +65159,7 @@ msgstr "Exécuter une session"
 #: oal/execute.ui:29
 #, kde-format
 msgid "Enter Session Details:"
-msgstr "Saisissez les détails de la session :"
+msgstr "Saisissez les détails de la session"
 
 #. i18n: ectx: property (text), widget (QPushButton, Location)
 #: oal/execute.ui:48
@@ -65171,37 +65171,37 @@ msgstr "définir un emplacement"
 #: oal/execute.ui:55
 #, kde-format
 msgid "Begin:"
-msgstr "Début :"
+msgstr "Début"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: oal/execute.ui:79
 #, kde-format
 msgid "Equipment:"
-msgstr "Équipement :"
+msgstr "Équipement"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: oal/execute.ui:93
 #, kde-format
 msgid "Comments:"
-msgstr "Commentaires :"
+msgstr "Commentaires"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: oal/execute.ui:107
 #, kde-format
 msgid "Language:"
-msgstr "Langue :"
+msgstr "Langue"
 
 #. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget_2)
 #: oal/execute.ui:123
 #, kde-format
 msgid "View Object Details:"
-msgstr "Affichez les détails de l'objet :"
+msgstr "Affichez les détails de l'objet"
 
 #. i18n: ectx: property (text), widget (QLabel, label_24)
 #: oal/execute.ui:160
 #, kde-format
 msgid "Scheduled time:"
-msgstr "Heure planifiée :"
+msgstr "Heure planifiée"
 
 #. i18n: ectx: property (text), widget (QLabel, label_26)
 #. i18n: ectx: property (text), widget (QLabel, raLabel)
@@ -65216,13 +65216,13 @@ msgstr "Heure planifiée :"
 #: tools/modcalcgalcoord.ui:73 tools/modcalcvlsr.ui:193
 #, kde-format
 msgid "Right ascension:"
-msgstr "Ascension droite :"
+msgstr "Ascension droite"
 
 #. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget_4)
 #: oal/execute.ui:232
 #, kde-format
 msgid "Set Observing Notes for the Object:"
-msgstr "Définir des notes d’observation pour l’objet :"
+msgstr "Définir des notes d’observation pour l’objet"
 
 #. i18n: ectx: property (text), widget (QPushButton, Slew)
 #: oal/execute.ui:265
@@ -65235,7 +65235,7 @@ msgstr "Faire pivoter le télescope"
 #: oal/execute.ui:278
 #, kde-format
 msgid "Enter the Observation Details:"
-msgstr "Saisissez les détails d'observation :"
+msgstr "Saisissez les détails d'observation"
 
 #. i18n: ectx: property (text), widget (QLabel, label_19)
 #: oal/execute.ui:290
@@ -65247,25 +65247,25 @@ msgstr "Observateur"
 #: oal/execute.ui:307 printing/loggingform.cpp:49
 #, kde-format
 msgid "Telescope:"
-msgstr "Télescope :"
+msgstr "Télescope"
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
 #: oal/execute.ui:324 printing/loggingform.cpp:52
 #, kde-format
 msgid "Eyepiece:"
-msgstr "Oculaire :"
+msgstr "Oculaire"
 
 #. i18n: ectx: property (text), widget (QLabel, label_17)
 #: oal/execute.ui:341
 #, kde-format
 msgid "Lens:"
-msgstr "Objectif :"
+msgstr "Objectif"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #: oal/execute.ui:375 printing/loggingform.cpp:45
 #, kde-format
 msgid "Seeing:"
-msgstr "En cours d'observation :"
+msgstr "En cours d'observation"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: oal/execute.ui:387
@@ -65277,7 +65277,7 @@ msgstr "secondes d'arc"
 #: oal/execute.ui:396
 #, kde-format
 msgid "Faintest Star:"
-msgstr "Étoile la plus faible :"
+msgstr "Étoile la plus faible"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: oal/execute.ui:408
@@ -65292,7 +65292,7 @@ msgid ""
 "Looks like you have not listed out your observers / equipment. Please hit Ctrl + 0 and Ctrl + 1 to fix this situation and come back "
 "here."
 msgstr ""
-"On dirait que vous n’avez pas listé vos observateurs / équipement. Veuillez appuyer sur « CTRL » + « 0 » et « CTRL » + « 1 » pour "
+"On dirait que vous n’avez pas dressé la liste de vos observateurs/équipement. Veuillez appuyer sur « CTRL » + « 0 » et « CTRL » + « 1 » pour "
 "corriger cette situation et revenir ici."
 
 #. i18n: ectx: property (text), widget (QPushButton, NextButton)
@@ -65305,7 +65305,7 @@ msgstr "Suivant >"
 #: oal/execute.ui:485
 #, kde-format
 msgid "Step 1: Session Details"
-msgstr "Étape 1 : détails de la session"
+msgstr "Étape 1 : détails de la session"
 
 #. i18n: ectx: property (text), widget (KUrlLabel, AddObject)
 #: oal/execute.ui:503
@@ -65323,7 +65323,7 @@ msgstr "Supprimer un objet de la liste"
 #: oal/execute.ui:538
 #, kde-format
 msgid "Step 2: Observations"
-msgstr "Étape 2 : observations"
+msgstr "Étape 2 : observations"
 
 #: oal/oal.h:43
 #, kde-kuit-format
@@ -65345,13 +65345,13 @@ msgstr "Un autre observateur portant ces nom et prénom existe déjà. Écraser�
 #: oal/observeradd.ui:63
 #, kde-format
 msgid "Surname:"
-msgstr "Nom de famille :"
+msgstr "Nom de famille"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: oal/observeradd.ui:73
 #, kde-format
 msgid "Contact:"
-msgstr "Contact :"
+msgstr "Contact"
 
 #: options/opsadvanced.cpp:127
 #, kde-format
@@ -65440,13 +65440,13 @@ msgstr "Imagerie DSS"
 #: options/opsadvanced.ui:122
 #, kde-format
 msgid "Default DSS image size:"
-msgstr "Taille d'image « DSS » par défaut :"
+msgstr "Taille d'image « DSS » par défaut"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: options/opsadvanced.ui:170
 #, kde-format
 msgid "Padding around deep sky objects:"
-msgstr "Remplissage autour des objets du ciel profond :"
+msgstr "Remplissage autour des objets du ciel profond"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: options/opsadvanced.ui:217
@@ -65458,7 +65458,7 @@ msgstr "Journalisation de la sortie"
 #: options/opsadvanced.ui:283
 #, kde-format
 msgid "Show Logs..."
-msgstr "Afficher les journaux..."
+msgstr "Afficher les journaux…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, purgeAllConfigB)
 #: options/opsadvanced.ui:384
@@ -65512,7 +65512,7 @@ msgstr "Ajuster la vitesse de zoom lors de l'usage de la roulette de souris en a
 #: options/opsadvanced.ui:447
 #, kde-format
 msgid "Zoom scroll speed:"
-msgstr "Vitesse de déroulement du zoom :"
+msgstr "Vitesse de déroulement du zoom"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_UseAntialias)
 #: options/opsadvanced.ui:454
@@ -68281,7 +68281,7 @@ msgstr "Afficher"
 #: skyobjects/skypoint.cpp:622
 #, kde-format
 msgid "lat and LST parameters should only be used in KSPlanetBase objects."
-msgstr "Les paramètres lat et LST ne doivent être utilisés que dans les objets KSPlanetBase."
+msgstr "Les paramètres lat et HSL ne doivent être utilisés que dans les objets KSPlanetBase."
 
 #: skyobjects/starobject.cpp:579
 #, kde-format
@@ -69547,7 +69547,7 @@ msgid ""
 "<table><tr><th colspan=\"2\">%1</th></tr><tr><td>LST:   </td><td>%3</td></tr><tr><td>LT:   </td><td>%2</td></tr><tr><td>Altitude:   </"
 "td><td>%4</td></tr></table>"
 msgstr ""
-"<table><tr><th colspan=\"2\">%1</th></tr><tr><td>LST : </td><td>%3</td></tr><tr><td>LT : </td><td>%2</td></tr><tr><td>Altitude : </"
+"<table><tr><th colspan=\"2\">%1</th></tr><tr><td>HSL : </td><td>%3</td></tr><tr><td>HL : </td><td>%2</td></tr><tr><td>Altitude : </"
 "td><td>%4</td></tr></table>"
 
 #: tools/altvstime.cpp:1393
@@ -74228,7 +74228,7 @@ msgstr "%1 x %2 min. d'arc"
 #: widgets/genericcalendarwidget.ui:177
 #, kde-format
 msgid "..."
-msgstr "..."
+msgstr "…"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, nextYear)
 #: widgets/genericcalendarwidget.ui:174
@@ -74240,25 +74240,25 @@ msgstr "Année précédente"
 #, kde-format
 msgctxt "Local Time"
 msgid "LT: "
-msgstr "HL :"
+msgstr "HL"
 
 #: widgets/infoboxwidget.cpp:78
 #, kde-format
 msgctxt "Universal Time"
 msgid "UT: "
-msgstr "HU :"
+msgstr "HU"
 
 #: widgets/infoboxwidget.cpp:87
 #, kde-format
 msgctxt "Sidereal Time"
 msgid "ST: "
-msgstr "HS :"
+msgstr "HS"
 
 #: widgets/infoboxwidget.cpp:87
 #, kde-format
 msgctxt "Julian Day"
 msgid "JD: "
-msgstr "JJ :"
+msgstr "JJ"
 
 #. i18nc("Longitude", "Long:") + ' ' + QLocale().toString(geo->lng()->Degrees(), 3) + "   " +
 #. i18nc("Latitude", "Lat:") + ' ' + QLocale().toString(geo->lat()->Degrees(), 3);
@@ -74266,19 +74266,19 @@ msgstr "JJ :"
 #, kde-format
 msgctxt "Longitude"
 msgid "Long:"
-msgstr "Long. :"
+msgstr "Longitude"
 
 #: widgets/infoboxwidget.cpp:103
 #, kde-format
 msgctxt "Latitude"
 msgid "Lat:"
-msgstr "Lat. :"
+msgstr "Latitude:"
 
 #: widgets/infoboxwidget.cpp:135
 #, kde-format
 msgctxt "Hour Angle"
 msgid "HA"
-msgstr "HA"
+msgstr "AH"
 
 #: widgets/infoboxwidget.cpp:135
 #, kde-format
