@@ -21,6 +21,10 @@ Il faut que le paquet "gettext" (apt install gettext) soit installé.
 
 ## Bonnes pratiques
 
+### règle pour anti-
+* https://fr.wiktionary.org/wiki/anti-#fr
+
+
 * Enlever tous les :
 * Pas de guillemets autour de Ekos et INDI 
 
