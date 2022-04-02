@@ -20750,7 +20750,7 @@ msgstr "Attention : l'URL du script d'arrêt %1 est non valable."
 #: ekos/scheduler/scheduler.cpp:1901
 #, kde-format
 msgid "Scheduler started."
-msgstr "ordonnanceur démarré."
+msgstr "Ordonnanceur démarré."
 
 #: ekos/scheduler/scheduler.cpp:1921
 #, kde-format
@@ -20800,18 +20800,18 @@ msgstr "Il ne reste que %1 tâches dans la file d'attente de l'ordonnanceur. Rep
 #: ekos/scheduler/scheduler.cpp:2324
 #, kde-format
 msgid "Warning: job '%1' has fixed startup time %2 set in the past, marking invalid."
-msgstr "Attention : la tâche « %1 » est définie à une heure de début fixe dans le passé %2. Marquage comme non valable."
+msgstr "Attention : la tâche « %1 » est définie à une heure de début fixe dans le passé %2. Signalée comme non valable."
 
 #: ekos/scheduler/scheduler.cpp:2335
 #, kde-format
 msgid "Warning: job '%1' has a fixed start time incompatible with its twilight restriction, marking invalid."
 msgstr ""
-"Attention : la tâche « %1 » débute à une heure fixe incompatible avec sa restriction crépusculaire. Marquage comme non valable."
+"Attention : la tâche « %1 » débute à une heure fixe incompatible avec sa restriction crépusculaire. Signalée comme non valable."
 
 #: ekos/scheduler/scheduler.cpp:2346
 #, kde-format
 msgid "Warning: job '%1' has a fixed start time incompatible with its altitude restriction, marking invalid."
-msgstr "Attention : la tâche « %1 » a une heure de début fixe incompatible avec sa restriction d'élévation. Marquage comme non valable."
+msgstr "Attention : la tâche « %1 » a une heure de début fixe incompatible avec sa restriction d'élévation. Signalée comme non valable."
 
 #: ekos/scheduler/scheduler.cpp:2357
 #, kde-format
@@ -20831,7 +20831,7 @@ msgstr ""
 #, kde-format
 msgid "Warning: Job '%1' cannot start because its previous sibling has no completion time, marking invalid."
 msgstr ""
-"Attention : la tâche « %1 » ne peut démarrer car sa tâche précédente n'a pas aucun temps d'achèvement. Marquage comme non valable."
+"Attention : la tâche « %1 » ne peut démarrer car sa tâche précédente n'a aucun temps d'achèvement. Signalée comme non valable."
 
 #: ekos/scheduler/scheduler.cpp:2482
 #, kde-format
@@ -20842,21 +20842,21 @@ msgstr ""
 #: ekos/scheduler/scheduler.cpp:2519
 #, kde-format
 msgid "Warning: job '%1' requires culmination offset of %2 minutes, not achievable, marking invalid."
-msgstr "Attention : la tâche « %1 » nécessite un décalage de culmination de %2 minutes, non réalisable. Marquage comme non valable."
+msgstr "Attention : la tâche « %1 » nécessite un décalage de culmination de %2 minutes, non réalisable. Signalée comme non valable."
 
 #: ekos/scheduler/scheduler.cpp:2562
 #, kde-format
 msgid "Warning: job '%1' requires minimum altitude %2 and Moon separation %3, not achievable, marking invalid."
 msgstr ""
-"Attention : la tâche « %1 » nécessite une altitude minimale de %2 et une séparation avec la Lune de %3. Non réalisable et marqué "
+"Attention : la tâche « %1 » nécessite une altitude minimale de %2 et une séparation avec la Lune de %3. Non réalisable et signalée "
 "comme non valable."
 
 #: ekos/scheduler/scheduler.cpp:2596
 #, kde-format
 msgid "Warning: job '%1' is constrained by the start time of the next job, and cannot finish in time, marking aborted."
 msgstr ""
-"Attention : la tâche « %1 » est contrainte par l'heure de démarrage de la prochaine tâche. Elle ne peut finir à l'heure donnée et son "
-"marquage est annulée."
+"Attention : la tâche « %1 » est contrainte par l'heure de démarrage de la prochaine tâche. Elle ne peut finir à l'heure donnée. "
+"Signalée comme annulée."
 
 #: ekos/scheduler/scheduler.cpp:2617
 #, kde-format
@@ -21651,7 +21651,7 @@ msgstr "La tâche planifiée « %1 » pour être réalisée à %2. Parcage de 
 #: ekos/scheduler/scheduler.cpp:7984
 #, kde-format
 msgid "Sleeping until observation job %1 is ready at %2..."
-msgstr "En attente que la tâche d'observations %1 soit prête à %2…"
+msgstr "En attente que la tâche d'observation « %1 » soit prête à %2…"
 
 #: ekos/scheduler/scheduler.cpp:7986
 #, kde-format
