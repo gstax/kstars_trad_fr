@@ -37,3 +37,4 @@ Reformater le fichier po :
 * Meridian flip -> Retournement au méridien
 * Focusor -> Focuseur (mieux à trouver)
 * Plate solver -> Résolveur
+* Autofocus -> Mise au point automatique
