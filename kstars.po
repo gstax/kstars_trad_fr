@@ -40,7 +40,7 @@ msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 "Xavier Claude, Joëlle Cornavin, Gérard Delafond, Ludovic Grossard, Vincent Jagot, Anne-Marie Mahfouf, Nicolas Ternisien, Simon "
-"Depiets, Xavier Besnard, Robert Morelli "
+"Depiets, Xavier Besnard, Robert Morelli"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
@@ -9341,19 +9341,19 @@ msgstr "<html><head/><body><p>Le rapport Signal/Bruit (SNR) de l'étoile de guid
 #: ekos/analyze/analyze.ui:725
 #, kde-format
 msgid "<html><head/><body><p>Plot the Right Ascension (RA) where the telescope is pointing.</p></body></html>"
-msgstr "<html><head/><body><p>Tracer l’erreur de dérive d’ascension droite (RA) là ou le telescope est pointe.</p></body></html>"
+msgstr "<html><head/><body><p>Tracer l’erreur de dérive d’ascension droite (RA) là où le telescope est pointe.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, mountRaOut)
 #: ekos/analyze/analyze.ui:750
 #, kde-format
 msgid "<html><head/><body><p>The Right Ascension (RA) in HMS where the telescope is pointing.</p></body></html>"
-msgstr "<html><head/><body><p>L’ascension droite (RA) au format H:M:S , où le télescope pointe.</p></body></html>"
+msgstr "<html><head/><body><p>L’ascension droite (RA) au format H:M:S où le télescope pointe.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, mountDecCB)
 #: ekos/analyze/analyze.ui:772
 #, kde-format
 msgid "<html><head/><body><p>Plot the Declination (DEC) in where the telescope is pointing.</p></body></html>"
-msgstr "<html><head/><body><p>Tracer la déclinaison (DEC) ou le télescope  pointelà .</p></body></html>"
+msgstr "<html><head/><body><p>Tracer la déclinaison (DEC) là où le télescope pointe.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, mountDecOut)
 #: ekos/analyze/analyze.ui:797
@@ -9361,7 +9361,7 @@ msgstr "<html><head/><body><p>Tracer la déclinaison (DEC) ou le télescope  poi
 msgid ""
 "<html><head/><body><p>The Declination (DEC) in degrees:arc-minutes:arc-seconds where the telescope is pointing.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>La déclinaison (DEC) au format degrés: minutes-arc: secondes-arc là ou DEC dans le télescope pointe.</p></"
+"<html><head/><body><p>La déclinaison (DEC) au format degrés: minutes-arc: secondes-arc là où DEC dans le télescope pointe.</p></"
 "body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, azCB)
@@ -12013,7 +12013,7 @@ msgstr "La déviation de guidage %1 est maintenant inférieure à la valeur limi
 #, kde-format
 msgid "Guiding deviation %1 is now lower than limit value of %2 arcsecs, resuming exposure in %3 seconds."
 msgstr ""
-"La déviation de guidage %1 est maintenant inférieure à la valeur limite de %2 secondes d'arc, reprise de l'exposition dans %3 "
+"La déviation de guidage %1 est maintenant inférieure à la valeur limite de %2 secondes d'arc, reprise de l'exposition dans %3"
 "secondes."
 
 #: ekos/capture/capture.cpp:3795
@@ -19519,7 +19519,7 @@ msgid ""
 "<html><body><p>Store profile on remote INDI Web Manager. Use INDI Web Manager on the remote device to start/stop INDI server.</p></"
 "body></html>"
 msgstr ""
-"<html><body><p>Enregistrer le profil dans le gestionnaire INDI sur Internet . Utiliser ce dernier sur un périphérique distant "
+"<html><body><p>Enregistrer le profil dans le gestionnaire INDI sur Internet. Utiliser ce dernier sur un périphérique distant "
 "pour démarrer/arrêter le server INDI.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, INDIWebManagerCheck)
@@ -67524,14 +67524,14 @@ msgstr "Définir les options de capture de champ de vision pour les sauts d'éto
 #, kde-format
 msgid "Configure star hopper FOV capture: select object at which star hopping will begin, select FOV symbol and magnitude limit."
 msgstr ""
-"Configurer la capture du champ de vision pour étoiles filantes : sélectionnez l’objet ) partir duquel commencera l'étoile filante, "
+"Configurer la capture du champ de vision pour étoiles filantes : sélectionnez l’objet) partir duquel commencera l'étoile filante, "
 "puis sélectionnez le symbole du champ de vision(FOV) et la limite de magnitude."
 
 #. i18n: ectx: property (text), widget (QLabel, label1)
 #: printing/pwizfovsh.ui:116
 #, kde-format
 msgid "Select begin star:"
-msgstr "Sélectionnez une étoile de départ :"
+msgstr "Sélectionnez une étoile de départ"
 
 #. i18n: ectx: property (text), widget (QPushButton, selectFromListButton)
 #. i18n: ectx: property (text), widget (QPushButton, fromListButton)
@@ -67623,13 +67623,13 @@ msgstr ""
 "<p>Sélectionnez l'objet à observer. Vous pouvez le choisir depuis une liste d'objets, en cliquant sur le bouton<b>Choisir objet "
 "depuis une liste</b>  ou pointez le sur la carte du ciel en appuyant sur <b>Pointer objet sur la carter</b>. Après la localisation de "
 "l'objet, appuyez avec le bouton droit de la souris et choisir <b>Choisir cet objet</b> depuis le menu contextuel.</p>\n"
-"<p>Une fois fait, appuyez sur <b>Suivant</b> .</p>"
+"<p>Une fois fait, appuyez sur <b>Suivant</b>.</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, selectedObjLabel)
 #: printing/pwizobjectselection.ui:200
 #, kde-format
 msgid "Selected object:"
-msgstr "Objet sélectionné :"
+msgstr "Objet sélectionné"
 
 #: printing/pwizprint.cpp:65
 #, kde-format
@@ -68938,7 +68938,7 @@ msgid ""
 "\t\t</p>\n"
 "\t\n"
 msgstr ""
-"\t\t<p>Avec l'outil « Quoi de neuf cette nuit... » ( « CTRL » + « U » ), vous pouvez indiquer d'un coup\n"
+"\t\t<p>Avec l'outil « Quoi de neuf cette nuit… » (« CTRL » + « U »), vous pouvez indiquer d'un coup\n"
 "\t\t\td'œil, quels objets seront visibles à partir de votre emplacement pour une nuit donnée.\n"
 "\t\t</p>\n"
 "\t\n"
@@ -68960,11 +68960,11 @@ msgid ""
 "\t\n"
 msgstr ""
 "\t\t<p>KStars est un puissant outil de ordonnanceur d'observations \n"
-"\t\t\t (Ctrl + L). Le ordonnanceur vous aide à définir \n"
+"\t\t\t (Ctrl + L). L'ordonnanceur vous aide à définir \n"
 "\t\t\t une liste d'objets que vous aimeriez\n"
 "\t\t\t observer. Il vous permet ensuite d'en sélectionner certains\n"
 "\t\t\t pour planifier une session d'observations.\n"
-"\t\t\t Le ordonnanceur peut alors associer des\n"
+"\t\t\t L'ordonnanceur peut alors associer des\n"
 "\t\t\t périodes d'observation et vous présenter les objets\n"
 "\t\t\t dans un ordre chronologique pour avoir une séquence facile\n"
 "\t\t\t dans votre champ de vision.\n"
@@ -68980,9 +68980,9 @@ msgid ""
 "\t\t</p>\n"
 "\t\n"
 msgstr ""
-"\t\t<p>KStars intègre une suite très puissante d'astrophotographie nommée « Ekos ». Ce dernière vous permet de contrôler un "
-"équipement d'astrophotographie grâce à « INDI », de réaliser un autofocus, etc. et de mettre en place des séquences automatiques de "
-"capture.\n"
+"\t\t<p>KStars intègre une suite très puissante d'astrophotographie nommée Ekos. Ce dernière vous permet de contrôler un "
+"équipement d'astrophotographie grâce à INDI, de réaliser la mise au point automatique, etc. et de mettre en place des séquences automatiques "
+"d'acquisition.\n"
 "\t\t</p>\n"
 "\t\n"
 
@@ -68998,7 +68998,7 @@ msgid ""
 msgstr ""
 "\t\t<p>L'outil « Constructeur de scripts » permet de construire des scripts\n"
 "\t\t\tD-Bus complexes à l'aide d'une interface graphique simple. Les scripts\n"
-"\t\t\tpeuvent être ré-exécutés ultérieurement depuis la ligne de commande ou\n"
+"\t\t\tpeuvent être réexécutés ultérieurement depuis la ligne de commande ou\n"
 "\t\tdepuis KStars.\n"
 "\t\t</p>\n"
 "\t\n"
@@ -69084,7 +69084,7 @@ msgid ""
 msgstr ""
 "\t\t<p>Par défaut, KStars est livré avec les catalogues d'objets du ciel profond NGC et IC.  Vous pouvez télécharger beaucoup plus de "
 "catalogues à partir de l'option Fichier->Télécharger de nouvelles données. Vous pouvez aussi créer vos propres catalogues "
-"personnalisés et les ajouter..\n"
+"personnalisés et les ajouter.\n"
 "\t\t</p>\n"
 "\t\n"
 
@@ -69113,7 +69113,7 @@ msgid ""
 "\t\n"
 msgstr ""
 "\t\t<p>Pour ajouter vos propres URL personnalisées d'images / d'informations\n"
-"\t\t\tà n'importe quel objet, cliquez sur « Ajouter un lien... » depuis le menu contextuel de l'objet.\n"
+"\t\t\tà n'importe quel objet, cliquez sur « Ajouter un lien… » depuis le menu contextuel de l'objet.\n"
 "\t\t</p>\n"
 "\t\n"
 
@@ -69128,7 +69128,7 @@ msgid ""
 "\t\n"
 msgstr ""
 "\t\t<p>Vous pouvez ajuster quantités d'options d'affichage en cliquant sur\n"
-"\t\t\tle bouton de barre d'outils « Configurer » ou choisissez l'élément de menu \t\t\t« Configuration / Configurer KStars... ».\n"
+"\t\t\tle bouton de barre d'outils « Configurer » ou choisissez l'élément de menu \t\t\t« Configuration / Configurer KStars… ».\n"
 "\t\t</p>\n"
 "\t\n"
 
@@ -69249,9 +69249,9 @@ msgid ""
 "\t\t</p>\n"
 "\t\n"
 msgstr ""
-"\t\t<p> Si vous utilisé une caméra pour capturer des images, vous pouvez créer un symbole de champ de vision (FOV) qui représentera "
+"\t\t<p>Si vous utilisé une caméra pour capturer des images, vous pouvez créer un symbole de champ de vision (FOV) qui représentera "
 "le capteur à l'échelle. Vous pouvez ensuite ajuster l'orientation du symbole de FOV pour correspondre à l'orientation de votre "
-"caméra.  Vous voyez ainsi ce que celle-ci  enregistrera. L'éditeur de FOV est accessible à partir du menu Configuration-> Symbole "
+"caméra. Vous voyez ainsi ce que celle-ci  enregistrera. L'éditeur de FOV est accessible à partir du menu Configuration-> Symbole "
 "FOV.\n"
 "\t\t</p>\n"
 "\t\n"
@@ -69314,7 +69314,7 @@ msgid ""
 "\t\n"
 msgstr ""
 "\t\t<p>Les positions des objets dans KStars comprennent les effets de la précession, nutation,\n"
-"\t\t\tde l'aberration, de la réfraction atmosphérique et du temps de trajet de la lumière (pour les planètes)\n"
+"\t\t\tde l'aberration, de la réfraction atmosphérique et du temps de trajet de la lumière (pour les planètes).\n"
 "\t\t</p>\n"
 "\t\n"
 
@@ -69404,7 +69404,7 @@ msgid ""
 msgstr ""
 "\t\t<p> De temps en temps, les planètes semblent s'arrêter, et changer temporairement leur direction de mouvement dans le ciel "
 "nocturne. Ceci est appelé mouvement rétrograde. Vous pouvez le simuler dans KStars en attachant une trace à une planète extérieure et "
-"en laissant l'horloge de simulation avancer rapidement (à un jour sid ou plus). .\n"
+"en laissant l'horloge de simulation avancer rapidement (à un jour sid ou plus).\n"
 "\t\t</p>\n"
 "\t\n"
 
@@ -69419,7 +69419,7 @@ msgid ""
 msgstr ""
 "\t\t<p>Depuis un endroit sombre, à la campagne, la galaxie d'Andromède (M 31) est visible à l'œil nu ! La galaxie se trouve à environ "
 "2,2 millions d'années-lumière de nous. Et pourtant, elle a une taille apparente de 3 degrés, soit 6 fois la taille apparente de la "
-"pleine lune ! \n"
+"pleine lune !\n"
 "\t\t</p>\n"
 "\t\n"
 
@@ -69432,8 +69432,8 @@ msgid ""
 "\t\t</p>\n"
 "\t\n"
 msgstr ""
-"\t\t<p> La taille apparente des objets du ciel profond et les planètes sont mesurés en arcminutes. Une minute d'arc est 1/60 de "
-"degré. Les étoiles souvent sont plus petites et mesurées en milli-arc-secondes (1/3600000 de degré)!\n"
+"\t\t<p>La taille apparente des objets du ciel profond et les planètes sont mesurés en minutes d'arc. Une minute d'arc est 1/60 de "
+"degré. Les étoiles souvent sont plus petites et mesurées en milli-arc-secondes (1/3600000 de degré) !\n"
 "\t\t</p>\n"
 "\t\n"
 
@@ -69449,7 +69449,7 @@ msgid ""
 msgstr ""
 "\t\t<p> La distance des étoiles les plus proches peuvent être mesurées par la méthode de la parallaxe. L'idée est exposée dans le "
 "projet Astro Info. Kstars affiche les distances de beaucoup d'étoiles dans la fenêtre de Détails. Pour y accéder, cliquez simplement "
-"droit sur l'étoile et choisissez \"Détails\" dans le menu pop-up\n"
+"droit sur l'étoile et choisissez \"Détails\" dans le menu pop-up.\n"
 "\t\t</p>\n"
 "\t\n"
 
@@ -69478,7 +69478,7 @@ msgid ""
 "\t\n"
 msgstr ""
 "\t\t<p>Le Digitized Sky Survey (DSS) a numérisé des images à partir de photographies de chaque région du ciel, prises avec le "
-"télescope Oschin Schmidt au Mt. Palomar, et le télescope Schmidt du Royaume-Uni. L'image DSS de presque toutes les régions du du ciel "
+"télescope Oschin Schmidt au Mt. Palomar, et le télescope Schmidt du Royaume-Uni. L'image DSS de presque toutes les régions du ciel "
 "est accessible depuis KStars en cliquant avec le bouton droit de la souris sur la carte du ciel et en sélectionnant \"Show DSS Image"
 "\". sélectionnant \"Show DSS Image\".\n"
 "\t\t</p>\n"
@@ -70721,10 +70721,10 @@ msgstr ""
 "<span style=\" font-style:italic;\">Select Points</span>bouton.  </li></ul><li style=\" margin-top:0px; margin-bottom:0px; margin-"
 "left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Libérez une région <span style=\" font-style:italic;\">en cochant "
 "ses cases</span>. </li><li style= \" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\">Choisisssant ces point sur la carte du ciel. </li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
+"indent:0px;\">Choisissant ces point sur la carte du ciel. </li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
 "margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Une fois fait, cliquez sur <span style=\" font-style:italic;\">Appliquer</"
 "span>.</li><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
-"\">Définir des régions est plus facile avec la fonction Terrain d'arrière-plan .</li></ul></body></html>"
+"\">Définir des régions est plus facile avec la fonction Terrain d'arrière-plan.</li></ul></body></html>"
 
 #: tools/jmoontool.cpp:30
 #, kde-format
