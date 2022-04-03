@@ -24287,7 +24287,7 @@ msgstr "Envoyer"
 #: indi/indistd.cpp:286
 #, kde-format
 msgid "GPS Location"
-msgstr "Emplacement « GPS »"
+msgstr "Emplacement GPS"
 
 #: indi/indistd.cpp:288
 #, kde-format
@@ -73771,13 +73771,13 @@ msgstr "ne se lève pas"
 #, kde-format
 msgctxt "Sunset at time %1 on date %2"
 msgid "Sunset: %1 on %2"
-msgstr "Coucher du Soleil à : %1 le %2"
+msgstr "Coucher du Soleil à %1 le %2"
 
 #: tools/wutdialog.cpp:181
 #, kde-format
 msgctxt "Sunrise at time %1 on date %2"
 msgid "Sunrise: %1 on %2"
-msgstr "Lever du Soleil à : %1 le %2"
+msgstr "Lever du Soleil à %1 le %2"
 
 #: tools/wutdialog.cpp:184
 #, kde-format
@@ -73807,12 +73807,12 @@ msgstr "Durée de la nuit : %1 minute"
 #: tools/wutdialog.cpp:222
 #, kde-format
 msgid "Moon rises at: %1 on %2"
-msgstr "Lever de la Lune à : %1 le %2"
+msgstr "Lever de la Lune à %1 le %2"
 
 #: tools/wutdialog.cpp:230 tools/wutdialog.cpp:234
 #, kde-format
 msgid "Moon sets at: %1 on %2"
-msgstr "Coucher de la Lune à : %1 le %2"
+msgstr "Coucher de la Lune à %1 le %2"
 
 #: tools/wutdialog.cpp:497
 #, kde-format
@@ -73827,17 +73827,17 @@ msgstr "Objet introuvable"
 #: tools/wutdialog.cpp:541
 #, kde-format
 msgid "Rises at: %1"
-msgstr "Se lève à : %1"
+msgstr "Se lève à %1"
 
 #: tools/wutdialog.cpp:542
 #, kde-format
 msgid "Transits at: %1"
-msgstr "Transite à : %1"
+msgstr "Transite à %1"
 
 #: tools/wutdialog.cpp:543
 #, kde-format
 msgid "Sets at: %1"
-msgstr "Se couche à : %1"
+msgstr "Se couche à %1"
 
 #. i18n: ectx: property (text), widget (QLabel, DateLabel)
 #: tools/wutdialog.ui:36
@@ -73941,7 +73941,7 @@ msgstr "N'importe quand dans la nuit"
 #: tools/wutdialog.ui:146
 #, kde-format
 msgid "Show objects brighter than magnitude:"
-msgstr "Afficher les objets plus lumineux que cette magnitude :"
+msgstr "Afficher les objets plus lumineux que cette magnitude"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, MoonRiseLabel)
 #: tools/wutdialog.ui:202
