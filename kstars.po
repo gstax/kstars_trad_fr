@@ -7452,13 +7452,13 @@ msgstr "Ouvrir"
 #: ekos/align/opsastrometryindexfiles.ui:295
 #, kde-format
 msgid "Current CCD FOV: "
-msgstr "Champ de vision actuel CCD: "
+msgstr "Champ de vision actuel CCD "
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_24)
 #: ekos/align/opsastrometryindexfiles.ui:302
 #, kde-format
 msgid "The URL of the server where index files live"
-msgstr ""
+msgstr "L'URL du serveur où se trouve les fichiers index"
 
 #. i18n: ectx: property (text), widget (QLabel, label_24)
 #: ekos/align/opsastrometryindexfiles.ui:305
@@ -21895,7 +21895,8 @@ msgid ""
 "<html><head/><body><p><span style=\" font-weight:600;\">Classic</span>: Start jobs that meet the constraints by priority and score.</"
 "p><p><span style=\" font-weight:600;\">Greedy</span>: Always attempt to run a job. It picks the highest priority job that can run "
 "according to its constraints. It will interrupt running jobs if a higher priority job can run.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Classique</span> : Démarre les tâches qui remplissent les contraintes de priorité et de score.</ "
+"p><p><span style=\" font-weight:600;\">Greedy</span> : Tente toujours de démarrer une tâche en choisissant celle de plus haute priorité qui peut être démarrée en tenant compte de ses contraintes. Cela interrompra les tâches actives si une tâche de plus haute priorité peut être lancée.</p></body></html>"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, schedulerAlgorithmCombo)
 #: ekos/scheduler/scheduler.ui:1203 kstarslite/qml/modules/popups/ColorSchemePopup.qml:55
@@ -71888,14 +71889,14 @@ msgstr "Veuillez patienter pendant le chargement de la liste d'observation souha
 #: tools/observinglist.cpp:1121
 #, kde-format
 msgid "Canceling this will truncate your wishlist"
-msgstr ""
+msgstr "L'annulation tronquera votre liste de souhaits"
 
 #: tools/observinglist.cpp:1122
 #, kde-format
 msgid ""
 "If you cancel this operation, your wishlist will be truncated and the following objects will be removed from the wishlist when you "
 "exit KStars. Are you sure this is okay?"
-msgstr ""
+msgstr "En annulant cette opération, votre liste de souhaits sera tronquée et les objets suivants seront supprimés de cette liste à la fermeture de KStars. Êtes-vous d'accord avec cela ?"
 
 #: tools/observinglist.cpp:1147
 #, kde-format
