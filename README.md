@@ -31,4 +31,5 @@ Il faut que le paquet "gettext" (apt install gettext) soit installé.
 
 * Capture -> Acquisition
 * Meridian flip -> Retournement au méridien
-* Focusor - > Focuseur (mieux à trouver)
+* Focusor -> Focuseur (mieux à trouver)
+* Plate solver -> Résolveur
