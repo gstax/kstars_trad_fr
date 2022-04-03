@@ -18,6 +18,10 @@ Le fichier source kstars.po est compilé en kstars.mo avec la commande:
 
 Il faut que le paquet "gettext" (apt install gettext) soit installé.
 
+Reformater le fichier po :
+
+<code>msgcat kstars.po > kstars_cat.po</code>
+
 
 ## Bonnes pratiques
 
