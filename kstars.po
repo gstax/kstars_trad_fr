@@ -7376,7 +7376,7 @@ msgstr ""
 #: ekos/align/opsastrometryindexfiles.ui:231
 #, kde-format
 msgid "Index Files Location: "
-msgstr "Emplacement des fichiers d'index :"
+msgstr "Emplacement des fichiers d'index"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_31)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_28)
@@ -7393,7 +7393,7 @@ msgstr ""
 #: ekos/align/opsastrometryindexfiles.ui:241
 #, kde-format
 msgid "Folder Details:"
-msgstr "Détails du dossier: "
+msgstr "Détails du dossier"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, addIndexFileDirectory)
 #: ekos/align/opsastrometryindexfiles.ui:253
@@ -19206,7 +19206,7 @@ msgstr "Exécuter une vérification HFR en suivant après ce certain nombre de t
 #: ekos/opsekos.ui:840
 #, kde-format
 msgid "In-sequence HFR check:"
-msgstr "Vérification HFR à la suite"
+msgstr "Vérification HFR après "
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_InSequenceCheckFrames)
 #. i18n: ectx: label, entry (InSequenceCheckFrames), group (Capture)
@@ -23254,7 +23254,7 @@ msgstr ""
 #: fitsviewer/opsfits.ui:169
 #, kde-format
 msgid "Stretch preview:"
-msgstr "Aperçu de l'étirement :"
+msgstr "Aperçu de l'étirement"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: fitsviewer/opsfits.ui:197
@@ -23266,7 +23266,7 @@ msgstr "Traitement en cours"
 #: fitsviewer/opsfits.ui:203
 #, kde-format
 msgid "Always apply auto stretch to images in FITS Viewer"
-msgstr "Toujours appliquer un étirement automatique aux images dans l'afficheur « FITS »"
+msgstr "Toujours appliquer un étirement automatique aux images dans l'afficheur FITS"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoStretch)
 #: fitsviewer/opsfits.ui:206
@@ -23296,7 +23296,7 @@ msgstr ""
 "weight:600;\">Auto WCS</span>: Les données du système de coordonnées mondiales ne seront pas traitées. Le WCS fait correspondre les "
 "coordonnées du ciel aux coordonnées de l'image. Les lignes de la grille équatoriale, l'identification des objets et la rotation du "
 "télescope dans une image sont désactivées..</li><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -"
-"qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">3D Cube</span>: Les images RVB ne seront pas traitées. Seules "
+"qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">3D Cube</span> : Les images RVB ne seront pas traitées. Seules "
 "les images en niveaux de gris sont affichées.</li></ul></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_LimitedResourcesMode)
@@ -23363,13 +23363,13 @@ msgstr "Histogramme non linéaire"
 #: fitsviewer/opsfits.ui:269
 #, kde-format
 msgid "Compute the HFR of images loaded into fitsviewer."
-msgstr "Calculer le « HFR » des images chargées dans « fitsviewer »."
+msgstr "Calculer le HFR des images chargées dans « fitsviewer »."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoHFR)
 #: fitsviewer/opsfits.ui:272
 #, kde-format
 msgid "Auto compute HFR"
-msgstr "Calculer automatiquement « HFR »"
+msgstr "Calculer automatiquement HFR"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_QuickHFR)
 #: fitsviewer/opsfits.ui:282
@@ -23381,25 +23381,25 @@ msgstr "Lors du calcul du HFR, exécutez le rapidement en ne regardant que 25 %
 #: fitsviewer/opsfits.ui:285
 #, kde-format
 msgid "Quick HFR"
-msgstr "« HFR » rapide"
+msgstr "HFR rapide"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, hfrSepLabel)
 #: fitsviewer/opsfits.ui:300
 #, kde-format
 msgid "Set the StellarSolver SEP profile for Capture-image HFR calculations."
-msgstr "Définir le profil « SEP » pour le « Stellarsolver » pour les calculs « HFR »de calcul / images."
+msgstr "Définir le profil SEP pour le « Stellarsolver » pour les calculs HFR de calcul / images."
 
 #. i18n: ectx: property (text), widget (QLabel, hfrSepLabel)
 #: fitsviewer/opsfits.ui:303
 #, kde-format
 msgid "HFR SEP profile:"
-msgstr "Profil « HFR » « SEP » :"
+msgstr "Profil HFR SEP"
 
 #. i18n: ectx: property (text), widget (QTableWidget, solutionTable)
 #: fitsviewer/solveInfo.ui:71
 #, kde-format
 msgid "DE"
-msgstr "DE"
+msgstr "DEC"
 
 #. i18n: ectx: property (text), widget (QTableWidget, solutionTable)
 #: fitsviewer/solveInfo.ui:76
@@ -24410,13 +24410,13 @@ msgstr "Sélectionner l'agent « INDIHub »"
 #: indi/opsindi.cpp:134
 #, kde-format
 msgid "%1 is not a valid INDI server binary."
-msgstr "%1 n'est pas un serveur binaire « INDI » valable."
+msgstr "%1 n'est pas un exécutable du serveur INDI valable."
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_indiServerIsInternal)
 #: indi/opsindi.ui:55
 #, kde-format
 msgid "INDI Server binary is internal to the application bundle"
-msgstr "Le binaire du serveur « INDI » est interne au paquet de l'application."
+msgstr "L'exécutable du serveur INDI est interne au paquet de l'application."
 
 #. i18n: ectx: property (toolTip), widget (QLabel, videoLabel_2)
 #. i18n: ectx: property (toolTip), widget (QLabel, videoLabel_3)
@@ -24429,37 +24429,37 @@ msgstr "Port vidéo INDI par défaut"
 #: indi/opsindi.ui:68
 #, kde-format
 msgid "INDI server:"
-msgstr "Serveur « INDI » :"
+msgstr "Serveur INDI"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_indiServer)
 #: indi/opsindi.ui:75
 #, kde-format
 msgid "Path to the indiserver binary"
-msgstr "Emplacement du binaire « indiserver »"
+msgstr "Chemin de l'exécutable « indiserver »"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_indiDriversAreInternal)
 #: indi/opsindi.ui:92
 #, kde-format
 msgid "INDI Drivers are internal to the application bundle"
-msgstr "Les pilotes « INDI » sont internes au paquet de l'application."
+msgstr "Les pilotes INDI sont internes au paquet de l'application."
 
 #. i18n: ectx: property (text), widget (QLabel, videoLabel_3)
 #: indi/opsindi.ui:105
 #, kde-format
 msgid "INDI drivers XML directory:"
-msgstr "Dossier « XML » des pilotes « INDI » :"
+msgstr "Dossier XML des pilotes INDI"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_indiDriversDir)
 #: indi/opsindi.ui:112
 #, kde-format
 msgid "Path to the INDI drivers XML directory"
-msgstr "Emplacement vers le dossier « XML » des pilotes « INDI »"
+msgstr "Emplacement vers le dossier XML des pilotes INDI"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: indi/opsindi.ui:154
 #, kde-format
 msgid "INDIHub agent:"
-msgstr "Agent « INDIHub » :"
+msgstr "Agent « INDIHub »"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, fitsLabel)
 #: indi/opsindi.ui:193
@@ -24471,13 +24471,13 @@ msgstr "Indiquer où sont enregistrées les nouvelles images FITS une fois captu
 #: indi/opsindi.ui:196
 #, kde-format
 msgid "Default FITS directory:"
-msgstr "Dossier FITS par défaut :"
+msgstr "Dossier FITS par défaut"
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, autoGroup)
 #: indi/opsindi.ui:240
 #, kde-format
 msgid "Select time and location synchronization settings between KStars and INDI Devices"
-msgstr "Sélectionner des paramètres de synchronisation pour l'heure et l'emplacement entre KStars et les périphériques « INDI »."
+msgstr "Sélectionner des paramètres de synchronisation pour l'heure et l'emplacement entre KStars et les périphériques INDI."
 
 #. i18n: ectx: property (title), widget (QGroupBox, autoGroup)
 #: indi/opsindi.ui:243
@@ -24492,8 +24492,8 @@ msgid ""
 "<html><head/><body><p>KStars is the master source for time and location settings. All INDI devices time and locations settings are "
 "synchronized to KStars settings.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>KStars est la source principale pour les tres d’heure et d’emplacement. Tous les paramètres d’heure et "
-"d’emplacement des périphériques « INDI » sont synchronisés avec les paramètres de KStars. </p></body></html>"
+"<html><head/><body><p>KStars est la source principale pour les réglages d’heure et d’emplacement. Tous les paramètres d’heure et "
+"d’emplacement des périphériques INDI sont synchronisés avec les paramètres de KStars. </p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_useKStarsSource)
 #: indi/opsindi.ui:254
@@ -24505,7 +24505,7 @@ msgstr "KStars met à jour tous les périphériques."
 #: indi/opsindi.ui:274
 #, kde-format
 msgid "Enable time synchronization upon connection between KStars and INDI"
-msgstr "Autoriser la synchronisation du temps à la connexion entre KStars et « INDI »"
+msgstr "Autoriser la synchronisation du temps à la connexion entre KStars et INDI"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_useTimeUpdate)
 #: indi/opsindi.ui:277
@@ -24533,7 +24533,7 @@ msgstr "La monture met à jour KStars."
 #: indi/opsindi.ui:300
 #, kde-format
 msgid "Enable geographic location synchronization upon connection between KStars and INDI"
-msgstr "Activer la synchronisation de l'emplacement géographique grâce à une connexion entre KStars et « INDI »."
+msgstr "Activer la synchronisation de l'emplacement géographique grâce à une connexion entre KStars et INDI"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_useGeographicUpdate)
 #: indi/opsindi.ui:303
@@ -24554,14 +24554,14 @@ msgid ""
 "<html><head/><body><p>GPS driver is the master source of time and location settings. KStars time and location settings are "
 "synchronized with GPS settings.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Le pilote GPS est la principale souramètres de temps et de localisation. L'heure et les paramètres de "
+"<html><head/><body><p>Le pilote GPS est la principale paramètres de temps et de localisation. L'heure et les paramètres de "
 "localisation de KStars sont synchronisés avec les paramètres GPS. </p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_useGPSSource)
 #: indi/opsindi.ui:319
 #, kde-format
 msgid "GPS updates KStars"
-msgstr "Le « GPS » permet la mise à jour de KStars."
+msgstr "Le GPS permet la mise à jour de KStars."
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox)
 #: indi/opsindi.ui:344
@@ -24573,19 +24573,19 @@ msgstr "Indiquez la plage de ports auquel le serveur INDI se liera lors du déma
 #: indi/opsindi.ui:370
 #, kde-format
 msgid "Transfer buffer (MB):"
-msgstr "Transférer le tampon (Mo) :"
+msgstr "Transférer le tampon (Mo)"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: indi/opsindi.ui:377
 #, kde-format
 msgid "Port from:"
-msgstr "Portage vers :"
+msgstr "Portage vers"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: indi/opsindi.ui:384
 #, kde-format
 msgid "Port to:"
-msgstr "Portage vers :"
+msgstr "Portage vers"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_showTargetCrosshair)
 #: indi/opsindi.ui:475
@@ -65555,7 +65555,7 @@ msgstr "Un clic gauche sélectionne un objet"
 #: options/opsadvanced.ui:503
 #, kde-format
 msgid "Default cursor:"
-msgstr "Pointeur par défaut :"
+msgstr "Pointeur par défaut"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_UseAnimatedSlewing)
 #: options/opsadvanced.ui:510
@@ -65785,7 +65785,7 @@ msgstr "Durant le tri par pourcentage d'élévation, dégrader les objets prése
 #: options/opsadvanced.ui:953
 #, kde-format
 msgid "Hole size in degrees:"
-msgstr "Taille du trou en degrés :"
+msgstr "Taille du trou en degrés"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowStars)
 #: options/opscatalog.ui:25
@@ -65797,7 +65797,7 @@ msgstr "Catalogues d'étoile&s"
 #: options/opscatalog.ui:52
 #, kde-format
 msgid "Star density:"
-msgstr "Densité des étoiles :"
+msgstr "Densité des étoiles"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowStarNames)
 #: options/opscatalog.ui:129
@@ -65816,7 +65816,7 @@ msgstr "Afficher la ma&gnitude"
 #: options/opscatalog.ui:201 options/opscatalog.ui:540 options/opssolarsystem.ui:497
 #, kde-format
 msgid "Label density:"
-msgstr "Densité des étiquettes :"
+msgstr "Densité des étiquettes"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowDeepSky)
 #: options/opscatalog.ui:267
@@ -65828,13 +65828,13 @@ msgstr "Catalogues du ciel profond"
 #: options/opscatalog.ui:301
 #, kde-format
 msgid "DSO minimal zoom:"
-msgstr "Zoom minimal « DSO » :"
+msgstr "Zoom minimal DSO"
 
 #. i18n: ectx: property (text), widget (QLabel, DSOCacheLabel)
 #: options/opscatalog.ui:366
 #, kde-format
 msgid "DSO cache percentage:"
-msgstr "Pourcentage de cache « DSO » :"
+msgstr "Pourcentage de cache DSO"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowDeepSkyNames)
 #: options/opscatalog.ui:428
@@ -65898,7 +65898,7 @@ msgstr ""
 #: options/opscatalog.ui:668
 #, kde-format
 msgid "Faint limit zoomed out:"
-msgstr "Limite de pâleur quand on réduit le zoom au minimum :"
+msgstr "Limite de pâleur quand on réduit le zoom au minimum"
 
 #. i18n: ectx: property (text), widget (QLabel, LabelMag4)
 #. i18n: ectx: property (text), widget (QLabel, LabelMag3)
@@ -65915,7 +65915,7 @@ msgstr "mag"
 #: options/opscatalog.ui:690
 #, kde-format
 msgid "Faint limit zoomed in:"
-msgstr "Limite de pâleur quand on augmente le zoom au maximum :"
+msgstr "Limite de pâleur quand on augmente le zoom au maximum"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowUnknownMagObjects)
 #: options/opscatalog.ui:737
@@ -66024,7 +66024,7 @@ msgstr ""
 #: options/opscolors.ui:80
 #, kde-format
 msgid "InfoBox BG mode:"
-msgstr "Mode d'arrière-plan des boîtes d'informations :"
+msgstr "Mode d'arrière-plan des boîtes d'informations"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_BoxBGMode)
 #: options/opscolors.ui:88
@@ -66048,7 +66048,7 @@ msgstr "Opaque"
 #: options/opscolors.ui:125
 #, kde-format
 msgid "Star color mode:"
-msgstr "Mode de couleurs des étoiles :"
+msgstr "Mode de couleurs des étoiles"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, kcfg_StarColorMode)
 #: options/opscolors.ui:135
@@ -66072,7 +66072,7 @@ msgstr ""
 #: options/opscolors.ui:164
 #, kde-format
 msgid "Star color intensity:"
-msgstr "Intensité de couleur des étoiles :"
+msgstr "Intensité de couleur des étoiles"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_StarColorIntensity)
 #: options/opscolors.ui:171
@@ -66211,7 +66211,7 @@ msgstr "Lignes des &constellations"
 #: options/opsguides.ui:39
 #, kde-format
 msgid "Sky culture:"
-msgstr "Culture céleste :"
+msgstr "Culture céleste"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, SkyCultureComboBox)
 #: options/opsguides.ui:49
@@ -66808,7 +66808,7 @@ msgstr "Cette valeur peut conduire comme résultat, à un fichier de données vo
 #: options/opssolarsystem.ui:359
 #, kde-format
 msgid "Show asteroids brighter than:"
-msgstr "Afficher les astéroïdes plus lumineux que :"
+msgstr "Afficher les astéroïdes plus lumineux que"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowCometNames)
 #: options/opssolarsystem.ui:366
@@ -66830,7 +66830,7 @@ msgstr ""
 #: options/opssolarsystem.ui:372
 #, kde-format
 msgid "Show names of comets within:"
-msgstr "Afficher les noms des comètes comprises dans un intervalle de :"
+msgstr "Afficher les noms des comètes comprises dans un intervalle de"
 
 #. i18n: ectx: property (whatsThis), widget (MagnitudeSpinBox, kcfg_MagLimitAsteroid)
 #: options/opssolarsystem.ui:390
@@ -66980,13 +66980,13 @@ msgstr "Afficher les supernovae"
 #: options/opssupernovae.ui:53
 #, kde-format
 msgid "Set the magnitude limit for supernova to show:"
-msgstr "Définir la limite de magnitude des supernovas à afficher :"
+msgstr "Définir la limite de magnitude des supernovas à afficher"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: options/opssupernovae.ui:60
 #, kde-format
 msgid "Set the magnitude limit for supernova alerts:"
-msgstr "Définir la limite de magnitude concernant les alertes des supernovas :"
+msgstr "Définir la limite de magnitude concernant les alertes des supernovas"
 
 #: options/opsterrain.cpp:53
 #, kde-format
@@ -67021,7 +67021,7 @@ msgstr "Spécifier le fichier de terrain à utiliser."
 #: options/opsterrain.ui:49
 #, kde-format
 msgid "Terrain file:"
-msgstr "Fichier de terrain :"
+msgstr "Fichier de terrain"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, terrainSourceCorrectAzLabel)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_TerrainSourceCorrectAz)
@@ -67034,7 +67034,7 @@ msgstr "Faire pivoter le terrain selon les degrés d'azimut. Ainsi, le Nord est 
 #: options/opsterrain.ui:104
 #, kde-format
 msgid "Terrain image azimuth correction degrees:"
-msgstr "Degrés de correction d'élévation pour l'image du terrain :"
+msgstr "Degrés de correction d'élévation pour l'image du terrain"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, terrainSourceCorrectAltLabel)
 #: options/opsterrain.ui:159
@@ -67046,7 +67046,7 @@ msgstr "Faire pivoter le terrain selon les degrés d'élévation. Ainsi, l'horiz
 #: options/opsterrain.ui:162
 #, kde-format
 msgid "Terrain image altitude correction degrees:"
-msgstr "Degrés de correction d'élévation pour l'image du terrain :"
+msgstr "Degrés de correction d'élévation pour l'image du terrain"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_TerrainSourceCorrectAlt)
 #: options/opsterrain.ui:175
@@ -67075,7 +67075,7 @@ msgstr ""
 #: options/opsterrain.ui:231
 #, kde-format
 msgid "Terrain downsampling:"
-msgstr "Sous-échantillonnage du terrain :"
+msgstr "Sous-échantillonnage du terrain"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_TerrainPanning)
 #: options/opsterrain.ui:272
@@ -67117,7 +67117,7 @@ msgstr "Accélération de la transparence"
 #: printing/detailstable.cpp:314
 #, kde-format
 msgid "Names:"
-msgstr "Noms :"
+msgstr "Noms"
 
 #: printing/detailstable.cpp:334
 #, kde-format
@@ -67132,7 +67132,7 @@ msgstr "Détails sur un astéroïde / une comète"
 #: printing/finderchart.cpp:82
 #, kde-format
 msgid "Date, time and location: "
-msgstr "Date, heure et lieu :"
+msgstr "Date, heure et lieu"
 
 #: printing/foveditordialog.cpp:28
 #, kde-format
@@ -67148,7 +67148,7 @@ msgstr "Il est impossible d'envoyer le fichier"
 #: printing/foveditordialog.cpp:247
 #, kde-format
 msgid "FOV (%1/%2): %3 (%4' x %5')"
-msgstr "CDV (%1/%2) : %3 (%4' x %5')"
+msgstr "FOV (%1/%2) : %3 (%4' x %5')"
 
 #. i18n: ectx: property (text), widget (QPushButton, recaptureButton)
 #: printing/foveditordialog.ui:154
@@ -70910,7 +70910,7 @@ msgstr "Fichiers"
 #: tools/modcalcplanets.ui:888 tools/modcalcsidtime.ui:280 tools/modcalcvizequinox.ui:273 tools/modcalcvlsr.ui:713
 #, kde-format
 msgid "Input file:"
-msgstr "Fichier d'entrée :"
+msgstr "Fichier d'entrée"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -70920,7 +70920,7 @@ msgstr "Fichier d'entrée :"
 #: tools/modcalcplanets.ui:898 tools/modcalcsidtime.ui:290 tools/modcalcvizequinox.ui:283 tools/modcalcvlsr.ui:706
 #, kde-format
 msgid "Output file:"
-msgstr "Fichier de sortie :"
+msgstr "Fichier de sortie"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: tools/modcalcapcoord.ui:80
@@ -70952,7 +70952,7 @@ msgstr "TU :"
 #: tools/modcalcapcoord.ui:281
 #, kde-format
 msgid "Apparent coordinates:"
-msgstr "Coordonnées apparentes :"
+msgstr "Coordonnées apparentes"
 
 #. i18n: ectx: property (text), widget (QLabel, Dec)
 #: tools/modcalcapcoord.ui:346
@@ -74537,13 +74537,13 @@ msgstr "Le binaire de « Xplanet » est interne au groupe d'applications."
 #: xplanet/opsxplanet.ui:55
 #, kde-format
 msgid "Xplanet path:"
-msgstr "Emplacement de « Xplanet » :"
+msgstr "Emplacement de « Xplanet »"
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_XplanetPath)
 #: xplanet/opsxplanet.ui:73
 #, kde-format
 msgid "Enter here the path of xplanet binary."
-msgstr "Saisissez ici l'emplacement du binaire « xplanet »."
+msgstr "Saisissez ici le chemin de l'exécutable « Xplanet »."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabelXplanetGeometryX)
 #: xplanet/opsxplanet.ui:80
@@ -74585,13 +74585,13 @@ msgstr "KStars attendra ce temps avant de finir pour que « XPlanet » se term
 #: xplanet/opsxplanet.ui:169
 #, kde-format
 msgid "XPlanet timeout:"
-msgstr "Attente maximale pour « XPlanet » :"
+msgstr "Attente maximale pour « XPlanet »"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: xplanet/opsxplanet.ui:176
 #, kde-format
 msgid "Animation delay:"
-msgstr "Retard d'animation :"
+msgstr "Retard d'animation"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_XplanetAnimationDelay)
 #: xplanet/opsxplanet.ui:183
@@ -74647,7 +74647,7 @@ msgstr "Utiliser le champ de vision de KStars"
 #: xplanet/opsxplanet.ui:249
 #, kde-format
 msgid "Base magnitude:"
-msgstr "Magnitude de base :"
+msgstr "Magnitude de base"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_XplanetMagnitude)
 #: xplanet/opsxplanet.ui:262
@@ -74659,7 +74659,7 @@ msgstr "Une étoile de la magnitude spécifiée aura une luminosité de pixel de
 #: xplanet/opsxplanet.ui:275
 #, kde-format
 msgid "Config file:"
-msgstr "Fichier de configuration :"
+msgstr "Fichier de configuration"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_XplanetConfigFilePath)
 #: xplanet/opsxplanet.ui:299
@@ -74683,13 +74683,13 @@ msgstr "Utiliser une carte des étoiles personnalisée ?"
 #: xplanet/opsxplanet.ui:336
 #, kde-format
 msgid "Star map:"
-msgstr "Carte des étoiles :"
+msgstr "Carte des étoiles"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_XplanetArcFile)
 #: xplanet/opsxplanet.ui:391
 #, kde-format
 msgid "Arc file:"
-msgstr "Fichier « arc » :"
+msgstr "Fichier « arc »"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_XplanetArcFilePath)
 #: xplanet/opsxplanet.ui:415
@@ -74714,13 +74714,13 @@ msgstr ""
 #: xplanet/opsxplanet.ui:462
 #, kde-format
 msgid "Glare of sun:"
-msgstr "Éclat du Soleil :"
+msgstr "Éclat du Soleil"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabelXplanetQuality)
 #: xplanet/opsxplanet.ui:489
 #, kde-format
 msgid "Output file quality:"
-msgstr "Qualité du fichier de sortie :"
+msgstr "Qualité du fichier de sortie"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_XplanetQuality)
 #: xplanet/opsxplanet.ui:502
@@ -74736,9 +74736,9 @@ msgid ""
 "order to get the full benefits of XPlanet.  This is a good place to start: <a href=\"http://xplanet.sourceforge.net/maps.php\">http://"
 "xplanet.sourceforge.net/maps.php</a> "
 msgstr ""
-"XPlanet nécessite des cartes pour fonctionner correctement.  Il n'est pas livré a vec beaucoup de cartes planétaires.  Vous devez en "
-"télécharger quelques-unes afin de profiter pleinement des avantages de XPlanet.  Voici un bon point de départ : <a href=\"http://"
-"xplanet.sourceforge.net/maps.php\"> http://xplanet.sourceforge.net/maps.php</a> "
+"XPlanet nécessite des cartes pour fonctionner correctement. Il n'est pas livré avec beaucoup de cartes planétaires. Vous devez en "
+"télécharger quelques-unes afin de profiter pleinement des avantages de XPlanet. Voici un bon point de départ : <a href=\"http://"
+"xplanet.sourceforge.net/maps.php\">http://xplanet.sourceforge.net/maps.php</a>."
 
 #. i18n: ectx: property (text), widget (QPushButton, openXPlanetMaps)
 #: xplanet/opsxplanet.ui:543
