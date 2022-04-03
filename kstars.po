@@ -24266,7 +24266,7 @@ msgstr "Mémoire insuffisante pour le fichier %1"
 #: indi/indilistener.cpp:475
 #, kde-format
 msgid "INDI Server Message"
-msgstr "Message du serveur « INDI »"
+msgstr "Message du serveur INDI"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useTimeUpdate)
 #: indi/indiproperty.cpp:221 indi/opsindi.ui:280 tools/observinglist.cpp:98
@@ -24302,7 +24302,7 @@ msgstr "Fichier de données enregistré dans %1"
 #: indi/inditelescope.cpp:268
 #, kde-format
 msgid "Mount is slewing to target location"
-msgstr "La monture se déplace vers la position cible."
+msgstr "La monture se déplace vers la position cible"
 
 #: indi/inditelescope.cpp:273
 #, kde-format
@@ -60543,22 +60543,22 @@ msgstr "Définir une géolocalisation"
 #: kstarslite/qml/dialogs/LocationDialog.qml:39
 #, kde-kuit-format
 msgid "Current Location: "
-msgstr "Emplacement actuel : "
+msgstr "Emplacement actuel "
 
 #: kstarslite/qml/dialogs/LocationDialog.qml:63
 #, kde-kuit-format
 msgid "City filter: "
-msgstr "Filtre par ville :"
+msgstr "Filtre par ville"
 
 #: kstarslite/qml/dialogs/LocationDialog.qml:78
 #, kde-kuit-format
 msgid "Province filter: "
-msgstr "Filtre par région :"
+msgstr "Filtre par région "
 
 #: kstarslite/qml/dialogs/LocationDialog.qml:94
 #, kde-kuit-format
 msgid "Country filter: "
-msgstr "Filtre par pays :"
+msgstr "Filtre par pays "
 
 #: kstarslite/qml/dialogs/LocationDialog.qml:127
 #, kde-kuit-format
@@ -60648,7 +60648,7 @@ msgstr "Port du serveur"
 #: kstarslite/qml/indi/INDIControlPanel.qml:197
 #, kde-kuit-format
 msgid "INDI Server Port"
-msgstr "Port du serveur « INDI »"
+msgstr "Port du serveur INDI"
 
 #: kstarslite/qml/indi/INDIControlPanel.qml:217
 #, kde-kuit-format
@@ -60673,7 +60673,7 @@ msgstr "Périphériques disponibles"
 #: kstarslite/qml/indi/INDIControlPanel.qml:298
 #, kde-kuit-format
 msgid "Disconnect INDI"
-msgstr "Se déconnecter du serveur « INDI »"
+msgstr "Se déconnecter du serveur INDI"
 
 #: kstarslite/qml/indi/modules/MotionControl.qml:62
 #, kde-kuit-format
@@ -60713,7 +60713,7 @@ msgstr "SE"
 #: kstarslite/qml/indi/modules/MotionControl.qml:271
 #, kde-kuit-format
 msgid "Slew rate: "
-msgstr "Taux de rotation :"
+msgstr "Taux de rotation"
 
 #: kstarslite/qml/main.qml:162
 #, kde-kuit-format
@@ -60973,7 +60973,7 @@ msgstr "%1 sont activés"
 #: kstarslite/qml/modules/helpers/TopMenuButton.qml:30
 #, kde-kuit-format
 msgid "%1 is toggled on"
-msgstr "%1 est activé."
+msgstr "%1 est activé"
 
 #: kstarslite/qml/modules/helpers/TopMenuButton.qml:34
 #, kde-kuit-format
@@ -60983,7 +60983,7 @@ msgstr "%1 sont désactivés"
 #: kstarslite/qml/modules/helpers/TopMenuButton.qml:36
 #, kde-kuit-format
 msgid "%1 is toggled off"
-msgstr "%1 est désactivé."
+msgstr "%1 est désactivé"
 
 #: kstarslite/qml/modules/menus/ContextMenu.qml:40
 #, kde-kuit-format
@@ -61144,7 +61144,7 @@ msgstr "KStars Lite est un logiciel gratuit, libre et multi plate-forme pour l'a
 #: kstarslite/qml/modules/tutorial/TutorialPopup.qml:51
 #, kde-kuit-format
 msgid "A quick tutorial will introduce you to main functions of KStars Lite"
-msgstr "Un tutoriel rapide vous présentera les fonctions principales de « KStars Lite »."
+msgstr "Un tutoriel rapide vous présentera les fonctions principales de KStars Lite."
 
 #: kstarslite/qml/modules/tutorial/TutorialPopup.qml:66
 #, kde-kuit-format
@@ -68456,7 +68456,7 @@ msgid ""
 "\t\n"
 msgstr ""
 "\t\t<p>Pour changer votre emplacement géographique,\n"
-"\t\t\tutilisez Ctrl+G, l'élément de menu « Configuration / Emplacement géographique... »\n"
+"\t\t\tutilisez Ctrl+G, l'élément de menu « Configuration / Emplacement géographique… »\n"
 "\t\t\tou le bouton de barre d'outils « Globe ».\n"
 "\t\t</p>\n"
 "\t\n"
@@ -72460,13 +72460,13 @@ msgstr "à"
 #: tools/obslistwizard.ui:478
 #, kde-format
 msgid "Dec limits:"
-msgstr "Limites de déc :"
+msgstr "Limites de DEC"
 
 #. i18n: ectx: property (text), widget (QLabel, RALabel)
 #: tools/obslistwizard.ui:485
 #, kde-format
 msgid "RA limits:"
-msgstr "Limites de l'AD :"
+msgstr "Limites de l'AD"
 
 #. i18n: ectx: property (text), widget (QLabel, CircularRegionText)
 #: tools/obslistwizard.ui:529
@@ -73738,7 +73738,7 @@ msgstr "Taille : %1"
 #, kde-format
 msgctxt "@title:window"
 msgid "What's up Tonight"
-msgstr "Quoi dans le ciel cette nuit"
+msgstr "Dans le ciel cette nuit"
 
 #: tools/wutdialog.cpp:68 tools/wutdialog.cpp:649
 #, kde-format
@@ -73771,13 +73771,13 @@ msgstr "ne se lève pas"
 #, kde-format
 msgctxt "Sunset at time %1 on date %2"
 msgid "Sunset: %1 on %2"
-msgstr "Coucher du Soleil à %1 le %2"
+msgstr "Coucher du Soleil le %2 à %1"
 
 #: tools/wutdialog.cpp:181
 #, kde-format
 msgctxt "Sunrise at time %1 on date %2"
 msgid "Sunrise: %1 on %2"
-msgstr "Lever du Soleil à %1 le %2"
+msgstr "Lever du Soleil le %2 à %1"
 
 #: tools/wutdialog.cpp:184
 #, kde-format
@@ -73807,12 +73807,12 @@ msgstr "Durée de la nuit : %1 minute"
 #: tools/wutdialog.cpp:222
 #, kde-format
 msgid "Moon rises at: %1 on %2"
-msgstr "Lever de la Lune à %1 le %2"
+msgstr "Lever de la Lune le %2 à %1"
 
 #: tools/wutdialog.cpp:230 tools/wutdialog.cpp:234
 #, kde-format
 msgid "Moon sets at: %1 on %2"
-msgstr "Coucher de la Lune à %1 le %2"
+msgstr "Coucher de la Lune le %2 à %1"
 
 #: tools/wutdialog.cpp:497
 #, kde-format
