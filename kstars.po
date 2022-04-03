@@ -20642,7 +20642,7 @@ msgstr "Sélectionner le script d'arrêt"
 #: ekos/scheduler/scheduler.cpp:1072
 #, kde-format
 msgid "Warning: You cannot add or modify a job while the scheduler is running."
-msgstr "Attention : vous ne pouvez ajouter ou modifier une tâche quand le ordonnanceur est lancé."
+msgstr "Attention : vous ne pouvez ajouter ou modifier une tâche quand l'ordonnanceur est lancé."
 
 #: ekos/scheduler/scheduler.cpp:1078
 #, kde-format
@@ -20681,7 +20681,7 @@ msgstr ""
 msgid "Warning: job '%1' at row %2 has a duplicate target at row %3, the scheduler may consider the same storage for captures."
 msgstr ""
 "Attention : la tâche « %1 » à la ligne %2 possède une cible dupliquée à la ligne %3. L'ordonnanceur pourrait prendre en compte le "
-"même emplacement de stockage pour les captures."
+"même emplacement de stockage pour les acquisitions."
 
 #: ekos/scheduler/scheduler.cpp:1226
 #, kde-format
@@ -20709,7 +20709,7 @@ msgstr "%1 %2 %3"
 #: ekos/scheduler/scheduler.cpp:1427
 #, kde-format
 msgid "Warning: you cannot add or modify a job while the scheduler is running."
-msgstr "Attention : vous ne pouvez ajouter ou modifier une tâche quand le ordonnanceur est lancé."
+msgstr "Attention : vous ne pouvez ajouter ou modifier une tâche quand l'ordonnanceur est lancé."
 
 #: ekos/scheduler/scheduler.cpp:1490
 #, kde-format
@@ -20724,7 +20724,7 @@ msgstr "La tâche « %1 » n'a pas été traitée lors de l'arrêt de l'ordonn
 #: ekos/scheduler/scheduler.cpp:1759
 #, kde-format
 msgid "Scheduler aborted."
-msgstr "Annulation du ordonnanceur."
+msgstr "Annulation de l'ordonnanceur."
 
 #: ekos/scheduler/scheduler.cpp:1817
 #, kde-format
@@ -21886,7 +21886,7 @@ msgstr "Durée totale"
 #: ekos/scheduler/scheduler.ui:1159
 #, kde-format
 msgid "Pause Scheduler"
-msgstr "Mettre le ordonnanceur en pause"
+msgstr "Mettre l'ordonnanceur en pause"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, schedulerAlgorithmCombo)
 #: ekos/scheduler/scheduler.ui:1199
@@ -64632,7 +64632,7 @@ msgstr "Eric Dejouhanet"
 #: main.cpp:130
 #, kde-format
 msgid "Ekos Scheduler Improvements"
-msgstr "Améliorations du ordonnanceur « Ekos »"
+msgstr "Améliorations de l'ordonnanceur Ekos"
 
 #: main.cpp:131
 #, kde-format
@@ -64642,7 +64642,7 @@ msgstr "Wolfgang Reissenberger"
 #: main.cpp:133
 #, kde-format
 msgid "Ekos Scheduler & Observatory Improvements"
-msgstr "Améliorations du ordonnanceur et de l'observatoire « Ekos »"
+msgstr "Améliorations de l'ordonnanceur et de l'observatoire Ekos"
 
 #: main.cpp:134
 #, kde-format
@@ -64652,12 +64652,12 @@ msgstr "Hy Murveit"
 #: main.cpp:135
 #, kde-format
 msgid "FITS, Focus, Guide Improvements"
-msgstr "« FITS », Focus, améliorations de guidage"
+msgstr "FITS, Mise au point, améliorations de guidage"
 
 #: main.cpp:137
 #, kde-format
 msgid "Binary Asteroid List, DSO Database & Catalogs"
-msgstr "Liste binaire d'astéroïdes, base de données et catalogues « DSO »"
+msgstr "Liste d'astéroïdes binaire, base de données et catalogues DSO"
 
 #: main.cpp:140
 #, kde-format
@@ -64812,7 +64812,7 @@ msgstr "Stephane Lucas"
 #: main.cpp:178
 #, kde-format
 msgid "Extensive testing and suggestions for Ekos Scheduler. KStars OSX Port"
-msgstr "Tests renforcés et suggestions pour le ordonnanceur « Ekos ». Port « OSX » de KStars."
+msgstr "Tests renforcés et suggestions pour l'ordonnanceur Ekos. Portage sur OSX de KStars."
 
 #: main.cpp:179
 #, kde-format
@@ -64832,7 +64832,7 @@ msgstr "Jamie Smith"
 #: main.cpp:181
 #, kde-format
 msgid "KStars OSX Port."
-msgstr "Port « OSX » de KStars."
+msgstr "Portage OSX de KStars."
 
 #: main.cpp:182
 #, kde-format
@@ -72208,7 +72208,7 @@ msgstr "Ajouter les objets visibles ce soir au plan de session"
 #: tools/obslistpopupmenu.cpp:31
 #, kde-format
 msgid "Add to Ekos Scheduler"
-msgstr "Ajouter au ordonnanceur « Ekos »"
+msgstr "Ajouter à l'ordonnanceur Ekos"
 
 #. i18n: ectx: property (text), widget (QPushButton, GotoButton)
 #: tools/obslistpopupmenu.cpp:38 tools/starhopperdialog.ui:46
