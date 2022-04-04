@@ -70593,13 +70593,13 @@ msgstr "Région"
 #, kde-format
 msgctxt "Azimuth"
 msgid "Az"
-msgstr "Az"
+msgstr "Azimuth"
 
 #: tools/horizonmanager.cpp:74 tools/horizonmanager.cpp:465 tools/observinglist.cpp:98 widgets/infoboxwidget.cpp:124
 #, kde-format
 msgctxt "Altitude"
 msgid "Alt"
-msgstr "Élév"
+msgstr "Élévation"
 
 #: tools/horizonmanager.cpp:188
 #, kde-format
@@ -70679,7 +70679,7 @@ msgstr "Effacer tous les points"
 #: tools/horizonmanager.ui:284
 #, kde-format
 msgid "Select points from the sky map"
-msgstr "Sélectionner les points à partir de la carte du ciel"
+msgstr "Placer les points sur la carte du ciel"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: tools/horizonmanager.ui:331
@@ -70705,25 +70705,25 @@ msgid ""
 "qt-block-indent:0; text-indent:0px;\">Defining regions is easier when used in conjunction with the Terrain background feature.</li></"
 "ul></body></html>"
 msgstr ""
-"<html><head/><body><p>L'horizon artificiel est utilisé pour définir  les<span style=\" font-weight:600;\">Régions</span> sur la carte "
+"<html><head/><body><p>L'horizon artificiel est utilisé pour définir les <span style=\" font-weight:600;\">régions</span> sur la carte "
 "du ciel qui sont <span style=\" font-style:italic;\">inaccessibles</span> depuis votre point d'observation (i.e. à cause d'arbres ou "
-"de bâtiments). Ces zones peuvent être au dessus ou en dessous de segments de ligne que vous saisissez.</p><ul style=\"margin-top: "
+"de bâtiments). Ces zones peuvent être au-dessus ou en dessous de segments de ligne que vous saisissez. Ces contraintes d'horizon artificiel sont tenues en compte par l'ordonnanceur pour démarrer ou arrêter une tâche.</p><ul style=\"margin-top: "
 "0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; "
 "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Pour dessiner <span style=\" font-weight:600;\">une région</"
-"span>, saisissez une liste <span style=\" font-weight:600;\">Points</span> (<span style=\" font-style:italic;\">minimum</span> 2) qui "
-"délimitent le haut de la zone (le <span style=\" font-weight:600;\">blocage est dessous</span> les lignes).</li><ul style=\"margin-"
+"span>, il faut placer une série de <span style=\" font-weight:600;\">points</span> (<span style=\" font-style:italic;\">au minimum</span> 2) qui "
+"délimite la zone.</li><ul style=\"margin-"
 "top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Paramétrez <span style=\" font-style:italic;"
-"\">le mode plafond/fenêtre</span> pour une liste de points plutôt que de paramétrer <span style=\" font-weight:600;\">les lignes de "
-"blocage supérieur </span></li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
-"text-indent:0px;\">Ajoutez les points manuellement, ou de préférence en les sélectionner dans la carte du ciel après avoir cliqué sur "
-"<span style=\" font-style:italic;\">Select Points</span>bouton.  </li></ul><li style=\" margin-top:0px; margin-bottom:0px; margin-"
-"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Libérez une région <span style=\" font-style:italic;\">en cochant "
-"ses cases</span>. </li><li style= \" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\">Choisissant ces point sur la carte du ciel. </li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Une fois fait, cliquez sur <span style=\" font-style:italic;\">Appliquer</"
+"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Le mode <span style=\" font-style:italic;"
+"\">plafond/fenêtre</span> permet de bloquer la zone au-dessus de la ligne (plafond) ou en dessous (fenêtre)."
+"</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
+"text-indent:0px;\">Le bouton « + » ajoute une ligne dans le tableau de points et permet de saisir manuellement les coordonnée d'un point.</li> "
+" <li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> Vous pouvez également placer les points <span style=\" font-style:italic;\">directement sur la carte du ciel</span> en utilisant le bouton <span style=\" font-weight:600;\">Placer les points sur la carte du ciel</span>, en haut à droite.</li></ul><li style=\" margin-top:0px; margin-bottom:0px; margin-"
+"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Activez une région <span style=\" font-style:italic;\">en cochant "
+"sa case</span>. </li><li style= \" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
+"indent:0px;\">La sélection d'une région affiche ses points sur la carte du ciel. </li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
+"margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Confirmez en cliquant sur <span style=\" font-style:italic;\">Appliquer</"
 "span>.</li><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
-"\">Définir des régions est plus facile avec la fonction Terrain d'arrière-plan.</li></ul></body></html>"
+"\">Définir des régions est plus facile avec la fonction « Terrain d'arrière-plan ».</li></ul></body></html>"
 
 #: tools/jmoontool.cpp:30
 #, kde-format
@@ -74240,7 +74240,7 @@ msgstr "Année précédente"
 #, kde-format
 msgctxt "Local Time"
 msgid "LT: "
-msgstr "HL "
+msgstr "Heure locale "
 
 #: widgets/infoboxwidget.cpp:78
 #, kde-format
