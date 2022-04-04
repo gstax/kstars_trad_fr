@@ -1127,7 +1127,7 @@ msgstr "Lieu"
 #, kde-format
 msgid "XPlanet Latitude, Longitude, and object radius in %. This is only valid when viewing the object from the same object"
 msgstr ""
-"Le latitude, la longitude et le rayon de l'objet en % pour XPlanet. Cela n'est valable que pour la vision de l'objet depuis lui-même."
+"La latitude, la longitude et le rayon de l'objet en % pour XPlanet. Cela n'est valable que pour la vision de l'objet depuis lui-même."
 
 #: auxiliary/xplanetimageviewer.cpp:259
 #, kde-format
@@ -59655,7 +59655,7 @@ msgstr "Indicateurs de c&hamp de vision"
 #: kstarsinit.cpp:369
 #, kde-format
 msgid "HiPS All Sky Overlay"
-msgstr "Superposition « HiPS » de tout le ciel"
+msgstr "Superposition HiPS de tout le ciel"
 
 #: kstarsinit.cpp:376
 #, kde-format
@@ -67913,7 +67913,7 @@ msgid ""
 "This will move the current DSO database \"%1\"\n"
 "to \"%2\""
 msgstr ""
-"Voulez-vous recommencer avec une base de données vide ?Cela déplacera la base de données des objets du ciel profond (DSO) actuelle "
+"Voulez-vous recommencer avec une base de données vide ? Cela déplacera la base de données des objets du ciel profond (DSO) actuelle "
 "« %1 »\n"
 "vers « %2 »."
 
@@ -67974,7 +67974,7 @@ msgstr "Conserver la position"
 #: skymap.cpp:472
 #, kde-format
 msgid "Digitized Sky Survey image provided by the Space Telescope Science Institute [free for non-commercial use]."
-msgstr "Image « DSS » (Digitized Sky Survey) fournie par le Space Telescope Science Institute [domaine public]."
+msgstr "Image DSS (Digitized Sky Survey) fournie par le Space Telescope Science Institute [libre pour une utilisation non commerciale]."
 
 #: skymap.cpp:511
 #, kde-format
@@ -67992,7 +67992,7 @@ msgstr ""
 #, kde-format
 msgid "Sloan Digital Sky Survey image provided by the Astrophysical Research Consortium [free for non-commercial use]."
 msgstr ""
-"Image « SDSS » (Sloan Digital Sky Survey) fournie par le Astrophysical Research Consortium [gratuite pour un usage non commercial]."
+"Image SDSS (Sloan Digital Sky Survey) fournie par le Astrophysical Research Consortium [libre pour une utilisation non commerciale]."
 
 #: skymap.cpp:652
 #, kde-format
@@ -68131,7 +68131,7 @@ msgstr "Succès"
 #: skyobjects/satellite.cpp:1241
 #, kde-format
 msgid "Eccentricity >= 1.0 or < -0.001"
-msgstr "Excentricité >= 1.0 or < -0.001"
+msgstr "Excentricité >= 1,0 ou < -0,001"
 
 #: skyobjects/satellite.cpp:1244
 #, kde-format
@@ -68241,7 +68241,7 @@ msgstr "Afficher une image du SEDS"
 #: skyobjects/skyobject.cpp:418
 #, kde-format
 msgid "%1: SEDS, http://www.seds.org [free for non-commercial use]"
-msgstr "%1 : SEDS, http://www.seds.org [gratuit pour un usage non commercial]"
+msgstr "%1 : SEDS, http://www.seds.org [libre pour une utilisation non commerciale]"
 
 #: skyobjects/skyobject.cpp:422
 #, kde-format
@@ -68253,7 +68253,7 @@ msgstr "Afficher l'image AOP du KPNO"
 msgid "%1: Advanced Observing Program at Kitt Peak National Observatory [free for non-commercial use; no physical reproductions]"
 msgstr ""
 "%1 : programme d'observation avancée à l'Observatoire national de Kitt Peak (Advanced Observing Program at Kitt Peak National "
-"Observatory) [gratuit pour une utilisation non commerciale, pas de reproduction physique]"
+"Observatory) [libre pour une utilisation non commerciale, pas de reproduction physique]"
 
 #: skyobjects/skyobject.cpp:430
 #, kde-format
@@ -68271,7 +68271,7 @@ msgstr ""
 #, kde-format
 msgid "%1: Very Large Telescope, operated by the European Southern Observatory [free for non-commercial use; no reproductions]"
 msgstr ""
-"%1 : très grand télescope, géré par l'Observatoire européen austral (ESO, European Southern Observatory) [gratuit pour une "
+"%1 : très grand télescope, géré par l'Observatoire européen austral (ESO, European Southern Observatory) [libre pour une "
 "utilisation non commerciale, pas de reproductions]"
 
 #: skyobjects/skyobject.cpp:445
@@ -68661,7 +68661,7 @@ msgid ""
 "\t\n"
 msgstr ""
 "\t\t<p>Vous pouvez définir manuellement les coordonnées du point de focus central.\n"
-"\t\t\tAppuyez sur Ctrl+M ou utilisez l'élément de menu « Pointage / Définir les coordonnées manuellement... »\n"
+"\t\t\tAppuyez sur Ctrl+M ou utilisez l'élément de menu « Pointage / Définir les coordonnées manuellement… »\n"
 "\t\t\tet saisissez les coordonnées souhaitées dans la fenêtre qui apparaît.\n"
 "\t\t</p>\n"
 "\t\n"
