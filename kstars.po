@@ -1121,7 +1121,7 @@ msgstr "Ceci vous permet de sélectionner un emplacement pour affichage."
 #: tools/observinglist.ui:185
 #, kde-format
 msgid "Location:"
-msgstr "Lieu:"
+msgstr "Lieu"
 
 #: auxiliary/xplanetimageviewer.cpp:249
 #, kde-format
@@ -4427,13 +4427,13 @@ msgstr "<html><head/><body><p>Latitude en degrés. Au Nord de l'équateur elle e
 #: tools/modcalcvlsr.ui:528
 #, kde-format
 msgid "Longitude:"
-msgstr "Longitude:"
+msgstr "Longitude"
 
 #. i18n: ectx: property (toolTip), widget (dmsBox, NewLong)
 #: dialogs/locationdialog.ui:367
 #, kde-format
 msgid "<html><head/><body><p>Longitude in degrees. East of Greenwich is positive and West is negative.</p></body></html>"
-msgstr "<html><head/><body><p>Longitude en degrés. L'Est de Greenwich est positif et l'Ouest négatif. </p></body></html>"
+msgstr "<html><head/><body><p>Longitude en degrés. L'est de Greenwich est positif et l'ouest négatif. </p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, LatLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -4447,7 +4447,7 @@ msgstr "<html><head/><body><p>Longitude en degrés. L'Est de Greenwich est posit
 #: tools/modcalcvlsr.ui:541
 #, kde-format
 msgid "Latitude:"
-msgstr "Latitude:"
+msgstr "Latitude"
 
 #. i18n: ectx: property (text), widget (QLabel, ElevationLabel)
 #: dialogs/locationdialog.ui:381
@@ -4459,7 +4459,7 @@ msgstr "Élévation"
 #: dialogs/locationdialog.ui:463
 #, kde-format
 msgid "UT offset:"
-msgstr "Décalage avec le TU:"
+msgstr "Décalage avec le TU"
 
 #. i18n: ectx: property (text), widget (QPushButton, GetLocationButton)
 #: dialogs/locationdialog.ui:501
@@ -6522,7 +6522,7 @@ msgstr "Points d'alignement"
 #: tools/modcalceclipticcoords.ui:121 tools/modcalcgalcoord.ui:66 tools/modcalcvlsr.ui:236
 #, kde-format
 msgid "Declination:"
-msgstr "Déclinaison:"
+msgstr "Déclinaison"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, alignPtNum)
 #: ekos/align/mountmodel.ui:193
@@ -6545,7 +6545,7 @@ msgstr "Ajouter les étoiles actuellement visibles"
 #: ekos/align/mountmodel.ui:237
 #, kde-format
 msgid "Common Names:"
-msgstr "Noms communs:"
+msgstr "Noms communs"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, starListBox)
 #: ekos/align/mountmodel.ui:250
@@ -13227,7 +13227,7 @@ msgstr "<gain>"
 #: ekos/capture/captureprocessoverlay.ui:227
 #, kde-format
 msgid "dd.mm.yyyy hh:mm"
-msgstr "dd.mm.yyyy hh:mm"
+msgstr "dd.mm.yyyy  hh:mm"
 
 #. i18n: ectx: property (text), widget (QLabel, historyCountsLabel)
 #: ekos/capture/captureprocessoverlay.ui:242
@@ -25124,7 +25124,7 @@ msgstr "satellite"
 #: kspopupmenu.cpp:283
 #, kde-format
 msgid "Velocity: %1 km/s"
-msgstr "Vélocité : %1 km/s"
+msgstr "Vitesse : %1 km/s"
 
 #: kspopupmenu.cpp:284
 #, kde-format
@@ -60453,37 +60453,37 @@ msgstr "Veuillez patienter pendant la recherche du nom de votre emplacement."
 #: kstarslite/qml/dialogs/helpers/LocationEdit.qml:247
 #, kde-kuit-format
 msgid "City: "
-msgstr "Ville :"
+msgstr "Ville"
 
 #: kstarslite/qml/dialogs/helpers/LocationEdit.qml:260
 #, kde-kuit-format
 msgid "Province: "
-msgstr "Région :"
+msgstr "Région"
 
 #: kstarslite/qml/dialogs/helpers/LocationEdit.qml:273
 #, kde-kuit-format
 msgid "Country: "
-msgstr "Pays :"
+msgstr "Pays"
 
 #: kstarslite/qml/dialogs/helpers/LocationEdit.qml:294
 #, kde-kuit-format
 msgid "Latitude: "
-msgstr "Latitude :"
+msgstr "Latitude"
 
 #: kstarslite/qml/dialogs/helpers/LocationEdit.qml:307
 #, kde-kuit-format
 msgid "Longitude: "
-msgstr "Longitude :"
+msgstr "Longitude"
 
 #: kstarslite/qml/dialogs/helpers/LocationEdit.qml:323
 #, kde-kuit-format
 msgid "UT offset: "
-msgstr "Décalage « UT » :"
+msgstr "Décalage UT"
 
 #: kstarslite/qml/dialogs/helpers/LocationEdit.qml:334
 #, kde-kuit-format
 msgid "DST rule: "
-msgstr "Règles « DTS » :"
+msgstr "Règles DTS"
 
 #: kstarslite/qml/dialogs/helpers/LocationEdit.qml:352 kstarslite/qml/dialogs/LocationDialog.qml:139
 #, kde-kuit-format
@@ -67221,17 +67221,17 @@ msgstr "Amas galactique"
 #: printing/legend.cpp:437
 #, kde-format
 msgid "Star Magnitudes:"
-msgstr "Magnitudes des étoiles :"
+msgstr "Magnitudes des étoiles"
 
 #: printing/legend.cpp:505 printing/legend.cpp:522
 #, kde-format
 msgid "Chart Scale:"
-msgstr "Échelle de graduation :"
+msgstr "Échelle de graduation"
 
 #: printing/loggingform.cpp:36
 #, kde-format
 msgid "Observer:"
-msgstr "Observateur :"
+msgstr "Observateur"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
 #. i18n: ectx: property (text), widget (QLabel, dateLabel)
@@ -67244,22 +67244,22 @@ msgstr "Observateur :"
 #: tools/modcalcvlsr.ui:581 tools/observinglist.ui:199
 #, kde-format
 msgid "Date:"
-msgstr "Date :"
+msgstr "Date"
 
 #: printing/loggingform.cpp:44
 #, kde-format
 msgid "Site:"
-msgstr "Site :"
+msgstr "Site"
 
 #: printing/loggingform.cpp:46
 #, kde-format
 msgid "Trans:"
-msgstr "Transit :"
+msgstr "Transit"
 
 #: printing/loggingform.cpp:53
 #, kde-format
 msgid "Power:"
-msgstr "Puissance :"
+msgstr "Puissance"
 
 #: printing/printingwizard.cpp:220
 #, kde-format
@@ -70054,13 +70054,13 @@ msgid ""
 "LI><LI><B>LSR Velocity:</B> Computation of the heliocentric, geocentric and topocentric radial velocity of a source from its LSR "
 "velocity</LI></UL></QT>"
 msgstr ""
-"<QT>Section comprenant des algorithmes pour la conversion de différents systèmes astronomiques de coordonnées<UL><LI><B>Galactiques :"
+"<QT>Section comprenant des algorithmes pour la conversion de différents systèmes de coordonnées astronomiques<UL><LI><B>Galactiques :"
 "</B> conversion de coordonnées galactiques / équatoriales</LI><LI><B>Apparentes :</B> calcul des coordonnées équatoriales actuelles à "
 "partir d'une date de référence (epoch) donnée</LI><LI><B>Écliptiques :</B> conversion de coordonnées écliptiques / équatoriales</LI> "
 "<LI><B>Horizontales :</B> calcul de l'azimut et de l'élévation pour une source, un moment et un emplacement sur la Terre donnés</"
 "LI><LI><B>Distance angulaire :</B> calcul de la distance angulaire entre deux objets dont les positions sont indiquées en coordonnées "
-"équatoriales</LI><LI><B>Coordonnées géodésiques :</B> conversion de coordonnées géodésiques / XYZ</LI><LI><B>Vélocité « LRS » :</B> "
-"calcul de la vélocité radiale héliocentrique, géocentrique et topocentrique d'une source à partir de sa vélocité LRS</LI></UL></QT>"
+"équatoriales</LI><LI><B>Coordonnées géodésiques :</B> conversion de coordonnées géodésiques / XYZ</LI><LI><B>Vitesse « LRS » :</B> "
+"calcul de la vitesse radiale héliocentrique, géocentrique et topocentrique d'une source à partir de sa vitesse LRS</LI></UL></QT>"
 
 #: tools/astrocalc.cpp:90
 #, kde-format
@@ -70156,7 +70156,7 @@ msgstr "Coordonnées géodésiques"
 #: tools/astrocalc.cpp:159
 #, kde-format
 msgid "LSR Velocity"
-msgstr "Vélocité LRS"
+msgstr "Vitesse LRS"
 
 #: tools/astrocalc.cpp:164
 #, kde-format
@@ -70285,7 +70285,7 @@ msgstr "Greenwich, Royaume-Uni"
 #: tools/conjunctions.ui:33 tools/eclipsetool.ui:22
 #, kde-format
 msgid "Ending on:"
-msgstr "Se termine le :"
+msgstr "Se termine le"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: tools/conjunctions.ui:59 tools/eclipsetool.ui:54
@@ -70297,25 +70297,25 @@ msgstr "et"
 #: tools/conjunctions.ui:81 tools/eclipsetool.ui:96
 #, kde-format
 msgid "Starting on:"
-msgstr "Démarre le :"
+msgstr "Démarre le"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: tools/conjunctions.ui:88
 #, kde-format
 msgid "Show conjunctions/oppositions for:"
-msgstr "Afficher les conjonctions / oppositions pour :"
+msgstr "Afficher les conjonctions / oppositions pour"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: tools/conjunctions.ui:101 tools/eclipsetool.ui:35
 #, kde-format
 msgid "Between objects:"
-msgstr "Entre les objets :"
+msgstr "Entre les objets"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: tools/conjunctions.ui:108
 #, kde-format
 msgid "Maximum allowed separation:"
-msgstr "Séparation maximale autorisée :"
+msgstr "Séparation maximale autorisée"
 
 #. i18n: ectx: property (text), widget (QPushButton, ComputeButton)
 #. i18n: ectx: property (text), widget (QPushButton, RunButtonBatch)
@@ -70371,7 +70371,7 @@ msgstr "Exportation impossible."
 #: tools/eclipsetool.ui:89
 #, kde-format
 msgid "Show eclipses for:"
-msgstr "Afficher les éclipses pour :"
+msgstr "Afficher les éclipses pour"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: tools/eclipsetool.ui:191
@@ -70383,25 +70383,25 @@ msgstr "Résultats"
 #: tools/eqplotwidget.cpp:45 tools/modcalcvizequinox.ui:118
 #, kde-format
 msgid "Vernal equinox:"
-msgstr "Équinoxe de printemps :"
+msgstr "Équinoxe de printemps"
 
 #. i18n: ectx: property (text), widget (QLabel, SSolsticeText)
 #: tools/eqplotwidget.cpp:52 tools/modcalcvizequinox.ui:146
 #, kde-format
 msgid "Summer solstice:"
-msgstr "Solstice d'été :"
+msgstr "Solstice d'été"
 
 #. i18n: ectx: property (text), widget (QLabel, AEquinoxText)
 #: tools/eqplotwidget.cpp:59 tools/modcalcvizequinox.ui:174
 #, kde-format
 msgid "Autumnal equinox:"
-msgstr "Équinoxe d'automne :"
+msgstr "Équinoxe d'automne"
 
 #. i18n: ectx: property (text), widget (QLabel, WSolsticeText)
 #: tools/eqplotwidget.cpp:66 tools/modcalcvizequinox.ui:202
 #, kde-format
 msgid "Winter solstice:"
-msgstr "Solstice d'hiver :"
+msgstr "Solstice d'hiver"
 
 #: tools/exporteyepieceview.cpp:40
 #, kde-format
@@ -70412,7 +70412,7 @@ msgstr "Exporter la vue de l'oculaire"
 #: tools/exporteyepieceview.cpp:55
 #, kde-format
 msgid "Overlay orientation vs. time ticks: "
-msgstr "Recouvrir l'orientation par rapport aux messages d'horodatage :"
+msgstr "Recouvrir l'orientation par rapport aux messages d'horodatage"
 
 #: tools/exporteyepieceview.cpp:58
 #, kde-format
@@ -70758,7 +70758,7 @@ msgstr "Mode interactif"
 #: tools/modcalcaltaz.ui:123 tools/modcalceclipticcoords.ui:44 tools/modcalcjd.ui:36 tools/modcalcplanets.ui:95 tools/modcalcvlsr.ui:54
 #, kde-format
 msgid "Date and time:"
-msgstr "Date et heure :"
+msgstr "Date et heure"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
@@ -70858,25 +70858,25 @@ msgstr "Sélectionner des champs dans le fichier d'entrée"
 #: tools/modcalcangdist.ui:466
 #, kde-format
 msgid "Initial right ascension:"
-msgstr "Ascension droite initiale :"
+msgstr "Ascension droite initiale"
 
 #. i18n: ectx: property (text), widget (QCheckBox, dec0CheckBatch)
 #: tools/modcalcangdist.ui:476
 #, kde-format
 msgid "Initial declination:"
-msgstr "Déclinaison initiale :"
+msgstr "Déclinaison initiale"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ra1CheckBatch)
 #: tools/modcalcangdist.ui:486
 #, kde-format
 msgid "Final right ascension:"
-msgstr "Ascension droite finale :"
+msgstr "Ascension droite finale"
 
 #. i18n: ectx: property (text), widget (QCheckBox, dec1CheckBatch)
 #: tools/modcalcangdist.ui:496
 #, kde-format
 msgid "Final declination:"
-msgstr "Déclinaison finale :"
+msgstr "Déclinaison finale"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: tools/modcalcangdist.ui:542
@@ -70946,7 +70946,7 @@ msgstr "Réinitialiser à maintenant"
 #: tools/modcalcapcoord.ui:244 tools/modcalcapcoord.ui:487 tools/modcalcplanets.ui:671 tools/modcalcvlsr.ui:568
 #, kde-format
 msgid "UT:"
-msgstr "TU :"
+msgstr "TU"
 
 #. i18n: ectx: property (text), widget (QLabel, ApCoordLabel)
 #: tools/modcalcapcoord.ui:281
@@ -71018,7 +71018,7 @@ msgstr "Résultats du calcul de l'almanach"
 #: tools/modcalcdaylength.ui:129
 #, kde-format
 msgid "Altitude at noon:"
-msgstr "Élévation à midi :"
+msgstr "Élévation à midi"
 
 #. i18n: ectx: property (text), widget (QLabel, SunSetLabel)
 #. i18n: ectx: property (text), widget (QLabel, MoonSetLabel)
@@ -71026,68 +71026,68 @@ msgstr "Élévation à midi :"
 #, kde-format
 msgctxt "Sky object passing below the horizon"
 msgid "Set:"
-msgstr "Coucher :"
+msgstr "Coucher"
 
 #. i18n: ectx: property (text), widget (QLabel, DayLengthLabel)
 #: tools/modcalcdaylength.ui:261
 #, kde-format
 msgid "Day length:"
-msgstr "Durée du jour :"
+msgstr "Durée du jour"
 
 #. i18n: ectx: property (text), widget (QLabel, SunRiseAzLabel)
 #: tools/modcalcdaylength.ui:289
 #, kde-format
 msgid "Sunrise azimuth:"
-msgstr "Azimut du lever du soleil :"
+msgstr "Azimut du lever du soleil"
 
 #. i18n: ectx: property (text), widget (QLabel, SunRiseLabel)
 #. i18n: ectx: property (text), widget (QLabel, MoonRiseLabel)
 #: tools/modcalcdaylength.ui:302 tools/modcalcdaylength.ui:481
 #, kde-format
 msgid "Rise:"
-msgstr "Lever :"
+msgstr "Lever"
 
 #. i18n: ectx: property (text), widget (QLabel, SunTransitLabel)
 #: tools/modcalcdaylength.ui:315
 #, kde-format
 msgid "Noon:"
-msgstr "Midi :"
+msgstr "Midi"
 
 #. i18n: ectx: property (text), widget (QLabel, SunSetAzLabel)
 #: tools/modcalcdaylength.ui:386
 #, kde-format
 msgid "Sunset azimuth:"
-msgstr "Azimut du coucher du soleil :"
+msgstr "Azimut du coucher du soleil"
 
 #. i18n: ectx: property (text), widget (QLabel, MoonTransitAltLabel)
 #: tools/modcalcdaylength.ui:541
 #, kde-format
 msgid "Transit altitude:"
-msgstr "Altitude de transit :"
+msgstr "Altitude de transit"
 
 #. i18n: ectx: property (text), widget (QLabel, MoonRiseAzLabel)
 #: tools/modcalcdaylength.ui:591
 #, kde-format
 msgid "Moon rise azimuth:"
-msgstr "Azimut du lever de la lune :"
+msgstr "Azimut du lever de la lune"
 
 #. i18n: ectx: property (text), widget (QLabel, MoonTransitLabel)
 #: tools/modcalcdaylength.ui:667
 #, kde-format
 msgid "Transit:"
-msgstr "Transit :"
+msgstr "Transit"
 
 #. i18n: ectx: property (text), widget (QLabel, MoonSetAzLabel)
 #: tools/modcalcdaylength.ui:681
 #, kde-format
 msgid "Moon set azimuth:"
-msgstr "Azimut du coucher de la lune :"
+msgstr "Azimut du coucher de la lune"
 
 #. i18n: ectx: property (text), widget (QLabel, LunarPhaseLabel)
 #: tools/modcalcdaylength.ui:721
 #, kde-format
 msgid "Phase:"
-msgstr "Phase :"
+msgstr "Phase"
 
 #. i18n: ectx: property (text), widget (QLabel, LunarPhase)
 #: tools/modcalcdaylength.ui:736
@@ -71167,13 +71167,13 @@ msgstr "1950,0"
 #: tools/modcalcgalcoord.ui:246
 #, kde-format
 msgid "Gal. long.:"
-msgstr "Long. gal. :"
+msgstr "Long. gal."
 
 #. i18n: ectx: property (text), widget (QCheckBox, galLatCheckBatch)
 #: tools/modcalcgalcoord.ui:262
 #, kde-format
 msgid "Gal. lat.:"
-msgstr "Lat. gal. :"
+msgstr "Lat. gal."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
@@ -71231,21 +71231,21 @@ msgstr "Coordonnées cartésiennes"
 #: tools/modcalcgeod.ui:205 tools/modcalcgeod.ui:408
 #, kde-format
 msgid "X (km):"
-msgstr "X (km) :"
+msgstr "X (km)"
 
 #. i18n: ectx: property (text), widget (QLabel, YCartLabel)
 #. i18n: ectx: property (text), widget (QCheckBox, YGeoCheckBatch)
 #: tools/modcalcgeod.ui:212 tools/modcalcgeod.ui:358
 #, kde-format
 msgid "Y (km):"
-msgstr "Y (km) :"
+msgstr "Y (km)"
 
 #. i18n: ectx: property (text), widget (QLabel, ZCartLabel)
 #. i18n: ectx: property (text), widget (QCheckBox, ZGeoCheckBatch)
 #: tools/modcalcgeod.ui:219 tools/modcalcgeod.ui:371
 #, kde-format
 msgid "Z (km):"
-msgstr "Z (km) :"
+msgstr "Z (km)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #: tools/modcalcgeod.ui:238
@@ -71257,13 +71257,13 @@ msgstr "Coordonnées géographiques"
 #: tools/modcalcgeod.ui:250
 #, kde-format
 msgid "Elevation (meters):"
-msgstr "Élévation (mètres) :"
+msgstr "Élévation (mètres)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, AltGeoCheckBatch)
 #: tools/modcalcgeod.ui:395
 #, kde-format
 msgid "Elev. (m):"
-msgstr "Élév. (m) :"
+msgstr "Élév. (m)"
 
 #: tools/modcalcjd.cpp:241
 #, kde-format
@@ -71274,19 +71274,19 @@ msgstr "Résultats du calcul du jour julien"
 #: tools/modcalcjd.ui:57
 #, kde-format
 msgid "Julian day:"
-msgstr "Jour du calendrier julien :"
+msgstr "Jour du calendrier julien"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: tools/modcalcjd.ui:67
 #, kde-format
 msgid "Modified Julian day:"
-msgstr "Jour du calendrier julien modifié :"
+msgstr "Jour du calendrier julien modifié"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: tools/modcalcjd.ui:109
 #, kde-format
 msgid "Input parameter: "
-msgstr "Paramètre d'entrée : "
+msgstr "Paramètre d'entrée "
 
 #. i18n: ectx: property (text), item, widget (QComboBox, InputComboBatch)
 #: tools/modcalcjd.ui:120
@@ -71339,7 +71339,7 @@ msgstr "La ligne %1 contient une heure non valable"
 #: tools/modcalcplanets.cpp:335
 #, kde-format
 msgid "Line %1 contains an invalid date: "
-msgstr "La ligne %1 contient une date non valable : "
+msgstr "La ligne %1 contient une date non valable"
 
 #: tools/modcalcplanets.cpp:438
 #, kde-format
@@ -71362,7 +71362,7 @@ msgstr "Paramètres d'entrée"
 #: tools/modcalcplanets.ui:115 tools/modcalcplanets.ui:553
 #, kde-format
 msgid "Solar system body:"
-msgstr "Corps du Système solaire :"
+msgstr "Corps du Système solaire"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #: tools/modcalcplanets.ui:346
@@ -71375,7 +71375,7 @@ msgstr "Coordonnées écliptiques héliocentriques"
 #: tools/modcalcplanets.ui:374 tools/modcalcplanets.ui:461
 #, kde-format
 msgid "Distance (AU):"
-msgstr "Distance (UA) :"
+msgstr "Distance (UA)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
 #: tools/modcalcplanets.ui:412
@@ -71477,7 +71477,7 @@ msgstr "Résultat du calcul du temps sidéral"
 #: tools/modcalcsidtime.ui:90
 #, kde-format
 msgid "Sidereal time:"
-msgstr "Heure sidérale :"
+msgstr "Heure sidérale"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, ComputeComboBatch)
 #: tools/modcalcsidtime.ui:162
@@ -71542,7 +71542,7 @@ msgstr "Équinoxes et Solstices"
 #: tools/modcalcvizequinox.ui:66
 #, kde-format
 msgid "Equinoxes and solstices for the year:"
-msgstr "Équinoxes et solstices pour l'année :"
+msgstr "Équinoxes et solstices pour l'année"
 
 #. i18n: ectx: property (text), widget (QLabel, VEquinox)
 #. i18n: ectx: property (text), widget (QLabel, SSolstice)
@@ -71551,7 +71551,7 @@ msgstr "Équinoxes et solstices pour l'année :"
 #: tools/modcalcvizequinox.ui:133 tools/modcalcvizequinox.ui:161 tools/modcalcvizequinox.ui:189 tools/modcalcvizequinox.ui:217
 #, kde-format
 msgid "1 Jan 2007  00:00"
-msgstr "1 Jan 2007 00:00"
+msgstr "1 Jan 2007  00:00"
 
 #. i18n: ectx: property (text), widget (QLabel, HelpLabel)
 #: tools/modcalcvizequinox.ui:264
@@ -71563,49 +71563,49 @@ msgstr "Spécifier les années pour le calcul dans le fichier d’entrée"
 #: tools/modcalcvlsr.ui:116
 #, kde-format
 msgid "Target position:"
-msgstr "Position de la cible :"
+msgstr "Position de la cible"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: tools/modcalcvlsr.ui:278
 #, kde-format
 msgid "Radial velocities:"
-msgstr "Vélocités radiales :"
+msgstr "Vitesses radiales"
 
 #. i18n: ectx: property (text), widget (QLabel, azLabel)
 #: tools/modcalcvlsr.ui:298
 #, kde-format
 msgid "V<sub>LSR</sub>:"
-msgstr "V<sub>LRS</sub> :"
+msgstr "V<sub>LRS</sub>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: tools/modcalcvlsr.ui:334
 #, kde-format
 msgid "Heliocentric:"
-msgstr "Héliocentrique :"
+msgstr "Héliocentrique"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: tools/modcalcvlsr.ui:370
 #, kde-format
 msgid "Geocentric:"
-msgstr "Géocentrique :"
+msgstr "Géocentrique"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: tools/modcalcvlsr.ui:406
 #, kde-format
 msgid "Topocentric:"
-msgstr "Topocentrique :"
+msgstr "Topocentrique"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ElevationCheckBatch)
 #: tools/modcalcvlsr.ui:498
 #, kde-format
 msgid "Elevation (m):"
-msgstr "Élévation (m) :"
+msgstr "Élévation (m)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, InputVelocityCheckBatch)
 #: tools/modcalcvlsr.ui:604
 #, kde-format
 msgid "Input velocity:"
-msgstr "Vélocité d'entrée :"
+msgstr "Vitesse d'entrée"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, InputVelocityComboBatch)
 #: tools/modcalcvlsr.ui:612
@@ -74272,7 +74272,7 @@ msgstr "Longitude"
 #, kde-format
 msgctxt "Latitude"
 msgid "Lat:"
-msgstr "Latitude:"
+msgstr "Latitude"
 
 #: widgets/infoboxwidget.cpp:135
 #, kde-format
