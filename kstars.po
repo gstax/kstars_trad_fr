@@ -3103,13 +3103,13 @@ msgstr "%1 UA"
 #, kde-format
 msgctxt "angular size in arcminutes"
 msgid "%1 arcmin"
-msgstr "%1min. d'arc"
+msgstr "%1 min d'arc"
 
 #: dialogs/detaildialog.cpp:282 kstarslite/dialogs/detaildialoglite.cpp:193 printing/detailstable.cpp:195
 #, kde-format
 msgctxt "angular size in arcseconds"
 msgid "%1 arcsec"
-msgstr "%1sec d'arc"
+msgstr "%1 sec d'arc"
 
 #: dialogs/detaildialog.cpp:297 kstarslite/dialogs/detaildialoglite.cpp:208 skyobjects/skyobject.cpp:378
 #, kde-format
@@ -3119,23 +3119,23 @@ msgstr "Supernova"
 #: dialogs/detaildialog.cpp:311
 #, kde-format
 msgid "Discovery Date:"
-msgstr "Date de découverte:"
+msgstr "Date de découverte"
 
 #: dialogs/detaildialog.cpp:321
 #, kde-format
 msgid "Host Galaxy:"
-msgstr "Galaxie hôte:"
+msgstr "Galaxie hôte"
 
 #: dialogs/detaildialog.cpp:327
 #, kde-format
 msgid "Red Shift:"
-msgstr "Décalage vers le rouge:"
+msgstr "Décalage vers le rouge"
 
 #: dialogs/detaildialog.cpp:365 printing/detailstable.cpp:249
 #, kde-format
 msgctxt "integrated flux at a frequency"
 msgid "Flux(%1):"
-msgstr "Flux(%1):"
+msgstr "Flux(%1)"
 
 #: dialogs/detaildialog.cpp:366 printing/detailstable.cpp:250
 #, kde-format
@@ -3147,19 +3147,19 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "Distance in astronomical units"
 msgid "%1 AU"
-msgstr "%1UA"
+msgstr "%1 UA"
 
 #: dialogs/detaildialog.cpp:446 dialogs/detaildialog.cpp:504
 #, kde-format
 msgctxt "Diameter in kilometers"
 msgid "%1 km"
-msgstr "%1km"
+msgstr "%1 km"
 
 #: dialogs/detaildialog.cpp:453 dialogs/detaildialog.cpp:511
 #, kde-format
 msgctxt "Dimension in kilometers"
 msgid "%1 km"
-msgstr "%1km"
+msgstr "%1 km"
 
 #: dialogs/detaildialog.cpp:459 dialogs/detaildialog.cpp:517
 #, kde-format
@@ -3247,17 +3247,17 @@ msgstr "Enregistrez ici les journaux d'observation et/ou les données sur %1."
 #, kde-format
 msgctxt "@title:window"
 msgid "Edit Link"
-msgstr "Editer un lien"
+msgstr "Modifier un lien"
 
 #: dialogs/detaildialog.cpp:919
 #, kde-format
 msgid "Could not edit the entry."
-msgstr "Il est impossible d'éditer l'entrée."
+msgstr "Il est impossible de modifier l'entrée."
 
 #: dialogs/detaildialog.cpp:954
 #, kde-format
 msgid "Are you sure you want to remove the %1 link?"
-msgstr "Confirmez-vous la suppression du lien %1?"
+msgstr "Confirmez-vous la suppression du lien %1 :"
 
 #: dialogs/detaildialog.cpp:955 indi/drivermanager.cpp:1501 indi/indidriver.cpp:897
 #, kde-format, kde-kuit-format
@@ -3291,13 +3291,13 @@ msgstr "Le télescope %1 est désactivé. Veuillez le connecter et essayer à no
 #, kde-format
 msgid "Danger! Viewing the Sun without adequate solar filters is dangerous and will result in permanent eye damage!"
 msgstr ""
-"Danger! L'observation du Soleil sans filtres adéquats est dangereux et pourrait conduire à des séquelles permanentes au niveau des "
+"Danger ! L'observation du Soleil sans filtres adéquats est dangereux et pourrait conduire à des séquelles permanentes au niveau des "
 "yeux."
 
 #: dialogs/detaildialog.cpp:1200
 #, kde-format
 msgid "Unable to save image to %1"
-msgstr "Impossible d'enregistrer l'image vers %1 "
+msgstr "Impossible d'enregistrer l'image vers %1"
 
 #: dialogs/detaildialog.cpp:1201
 #, kde-format
@@ -3691,7 +3691,7 @@ msgstr "Heure du transit"
 #: dialogs/details_position.ui:669 printing/detailstable.cpp:651
 #, kde-format
 msgid "Rise time:"
-msgstr "Heure du lever"
+msgstr "Heure de lever"
 
 #. i18n: ectx: property (text), widget (QLabel, TimeRise)
 #. i18n: ectx: property (text), widget (QLabel, TimeTransit)
