@@ -4260,7 +4260,7 @@ msgstr "Définir l'emplacement géographique"
 #: dialogs/locationdialog.cpp:103 dialogs/locationdialog.ui:453
 #, kde-format
 msgid "DST rule:"
-msgstr "Règles de l'heure d'été:"
+msgstr "Règle de l'heure d'été"
 
 #: dialogs/locationdialog.cpp:148 dialogs/locationdialog.cpp:208 dialogs/locationdialog.cpp:514
 #, kde-format
@@ -4272,12 +4272,12 @@ msgstr[1] "%1 villes correspondent aux critères de recherche"
 #: dialogs/locationdialog.cpp:296
 #, kde-format
 msgid "Are you sure you want to remove %1?"
-msgstr "Voulez-vous vraiment supprimer %1?"
+msgstr "Voulez-vous vraiment supprimer %1 ?"
 
 #: dialogs/locationdialog.cpp:297
 #, kde-format
 msgid "Remove City?"
-msgstr "Supprimer la ville?"
+msgstr "Supprimer la ville ?"
 
 #: dialogs/locationdialog.cpp:302
 #, kde-format
@@ -4359,19 +4359,19 @@ msgstr "Choisissez une ville"
 #: dialogs/locationdialog.ui:134
 #, kde-format
 msgid "Country filter:"
-msgstr "Filtrer par pays:"
+msgstr "Filtrer par pays"
 
 #. i18n: ectx: property (text), widget (QLabel, CityFiltLabel)
 #: dialogs/locationdialog.ui:144
 #, kde-format
 msgid "City filter:"
-msgstr "Filtrer par ville:"
+msgstr "Filtrer par ville"
 
 #. i18n: ectx: property (text), widget (QLabel, ProvinceFiltLabel)
 #: dialogs/locationdialog.ui:157
 #, kde-format
 msgid "Province filter:"
-msgstr "Filtrer par région:"
+msgstr "Filtrer par région"
 
 #. i18n: ectx: property (text), widget (QLabel, CountLabel)
 #: dialogs/locationdialog.ui:166
@@ -4383,7 +4383,7 @@ msgstr "Aucune ville ne correspond aux critères"
 #: dialogs/locationdialog.ui:187
 #, kde-format
 msgid "View/Edit Location Data"
-msgstr "Affichez/Modifiez les données de lieu"
+msgstr "Affichez/Modifiez les données d'emplacement"
 
 #. i18n: ectx: property (text), widget (QLabel, NewCityLabel)
 #. i18n: ectx: property (text), widget (QLabel, CityLabel)
@@ -71655,17 +71655,17 @@ msgstr "Tentative de recherche de l'objet %1 en utilisant « Sesame CDS »."
 #: tools/nameresolver.cpp:71
 #, kde-kuit-format
 msgid "Error trying to get XML response from CDS Sesame server: %1"
-msgstr "Erreur en essayant d'avoir une réponse « XML » du serveur « Sesame CDS » : %1"
+msgstr "Erreur en essayant d'avoir une réponse XML du serveur « Sesame CDS » : %1"
 
 #: tools/nameresolver.cpp:86
 #, kde-kuit-format
 msgid "Empty result instead of expected XML from CDS Sesame. Maybe bad Internet connection?"
-msgstr "Résultat vide au lieu d'une donnée « XML » du serveur « Sesame CDS ». Il s'agit peut-être d'un problème de connexion Internet ?"
+msgstr "Résultat vide au lieu d'une donnée XML du serveur « Sesame CDS ». Il s'agit peut-être d'un problème de connexion Internet ?"
 
 #: tools/nameresolver.cpp:219
 #, kde-kuit-format
 msgid "Error parsing XML from CDS Sesame: %1 on line %2 @ col = %3"
-msgstr "Erreur de traitement des données « XML » du serveur « Sesame CDS » : %1 en ligne %2 @ col = %3"
+msgstr "Erreur de traitement des données XML du serveur « Sesame CDS » : %1 à la ligne %2 @ col = %3"
 
 #: tools/nameresolver.cpp:232
 #, kde-kuit-format
@@ -71681,7 +71681,7 @@ msgstr "Ordonnanceur d'observation"
 #: tools/observinglist.cpp:92 tools/observinglist.cpp:96
 #, kde-format
 msgid "Alternate Name"
-msgstr "Nom secondaire"
+msgstr "Nom(s) alternatif(s)"
 
 #: tools/observinglist.cpp:92 tools/observinglist.cpp:96
 #, kde-format
@@ -71758,7 +71758,7 @@ msgid ""
 " Photometric band: %3 \n"
 " Version: %4"
 msgstr ""
-"Métadonnées DSS de l'image : \n"
+"Métadonnées DSS de l'image\n"
 " Taille : %1 x %2 \n"
 " Bande photométrique : %3 \n"
 " Version : %4"
@@ -71795,8 +71795,8 @@ msgid ""
 "Specify a list of objects with one object on each line to add. The names must be understood to KStars, or if the internet resolver is "
 "enabled in settings, to the CDS Sesame resolver. Objects that are internet resolved will be added to the database."
 msgstr ""
-"Spécifiez une liste d'objets, avec un objet par ligne à ajouter. Les noms doivent être compris par KStars, ou si le résolveur "
-"internet est activé dans les paramètres, au résolveur CDS Sesame. Les objets qui sont résolus par Internet seront ajoutés à la base "
+"Spécifiez une liste d'objets, avec un objet par ligne.\nLes noms doivent être compris par KStars, ou si le résolveur "
+"internet est activé dans les paramètres, au résolveur CDS Sesame.\nLes objets qui sont résolus par Internet seront ajoutés à la base "
 "de données."
 
 #: tools/observinglist.cpp:809
@@ -71811,10 +71811,10 @@ msgstr[1] "Ajout d'un lot : impossible de trouver les %1 objets"
 msgid "%1 object could not be found in the database or resolved, and hence could not be added. See the details for more."
 msgid_plural "%1 objects could not be found in the database or resolved, and hence could not be added. See the details for more."
 msgstr[0] ""
-"L'objet %1 n’a pas pu être trouvé dans la base de données ou résolu. Par conséquent, il n'a pu être ajouté. Veuillez consulter les "
+"L'objet %1 n’a pas pu être trouvé dans la base de données ou n'as pas pu être résolu. Par conséquent, il n'a pu être ajouté. Veuillez consulter les "
 "informations détaillées."
 msgstr[1] ""
-"Les %1 objets n’ont pas pu être trouvés dans la base de données ou résolus. Par conséquent, il n'ont pu être ajoutés. Veuillez "
+"Les %1 objets n’ont pas pu être trouvés dans la base de données ou n'ont pas pu être résolus. Par conséquent, il n'ont pas pu être ajoutés. Veuillez "
 "consulter les informations détaillées."
 
 #: tools/observinglist.cpp:884
@@ -72163,7 +72163,7 @@ msgstr "Heure planifiée"
 #: tools/observinglist.ui:545
 #, kde-format
 msgid "Select an Object to View Information here"
-msgstr "Sélectionnez un objet pour afficher des informations ici :"
+msgstr "Sélectionnez un objet pour afficher des informations ici"
 
 #. i18n: ectx: property (text), widget (QLabel, ImagePreview)
 #: tools/observinglist.ui:597
@@ -72181,7 +72181,7 @@ msgstr "Informations sur les métadonnées des images"
 #: tools/observinglist.ui:648
 #, kde-format
 msgid "Replace from Internet..."
-msgstr "Remplacer à partir de Internet :"
+msgstr "Remplacer à partir d'Internet"
 
 #. i18n: ectx: property (text), widget (QPushButton, DeleteImage)
 #: tools/observinglist.ui:661
