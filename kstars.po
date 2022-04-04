@@ -25714,13 +25714,13 @@ msgstr "Bascule l'affichage des messages INDI dans la barre d'état."
 #: kstars.kcfg:197
 #, kde-format
 msgid "Save autofocus images on disk?"
-msgstr "Enregistrer les images d'auto-focus sur le disque ?"
+msgstr "Enregistrer les images de mise au point automatique sur le disque ?"
 
 #. i18n: ectx: label, entry (messageNotificationINDI), group (indi)
 #: kstars.kcfg:201
 #, kde-format
 msgid "INDI message notifications"
-msgstr "Notifications de messages « INDI »"
+msgstr "Notifications de messages INDI"
 
 #. i18n: ectx: label, entry (useKStarsSource), group (indi)
 #: kstars.kcfg:206
@@ -25732,13 +25732,13 @@ msgstr "Utiliser la date et l'emplacement fournis par KStars pour la synchronisa
 #: kstars.kcfg:210
 #, kde-format
 msgid "Use mount time and location for synchronization?"
-msgstr "Utiliser l'heure/date et l'emplacement de la monture pour la synchronisation?"
+msgstr "Utiliser l'heure/date et l'emplacement de la monture pour la synchronisation ?"
 
 #. i18n: ectx: label, entry (useGPSSource), group (indi)
 #: kstars.kcfg:214
 #, kde-format
 msgid "Use GPS time and location for synchronization?"
-msgstr "Utiliser une datation et un emplacement « GPS » pour la synchronisation ?"
+msgstr "Utiliser une date et un emplacement GPS pour la synchronisation ?"
 
 #. i18n: ectx: label, entry (fitsDir), group (indi)
 #: kstars.kcfg:218
@@ -25756,7 +25756,7 @@ msgstr "L'endroit par défaut où sont enregistrés les fichiers FITS"
 #: kstars.kcfg:223
 #, kde-format
 msgid "INDI Server Transfer Buffer"
-msgstr "Tampon de transfert du serveur « INDI »"
+msgstr "Tampon de transfert du serveur INDI"
 
 #. i18n: ectx: whatsthis, entry (serverTransferBufferSize), group (indi)
 #: kstars.kcfg:224
@@ -25849,67 +25849,67 @@ msgstr "Hauteur de la fenêtre pour les flux vidéo."
 #: kstars.kcfg:273
 #, kde-format
 msgid "Enable INDI Mount logging"
-msgstr "Activer enregistrement monture Indi"
+msgstr "Activer l'enregistrement de la monture INDI"
 
 #. i18n: ectx: label, entry (INDIFocuserLogging), group (indi)
 #: kstars.kcfg:277
 #, kde-format
 msgid "Enable INDI Focuser logging"
-msgstr "Activer la connexion « INDI » au gestionnaire de focus."
+msgstr "Activer la connexion INDI au gestionnaire de mise au point."
 
 #. i18n: ectx: label, entry (INDICCDLogging), group (indi)
 #: kstars.kcfg:281
 #, kde-format
 msgid "Enable INDI CCD logging"
-msgstr "Activer la connexion « INDI » au capteur « CCD »"
+msgstr "Activer la connexion INDI au capteur CCD"
 
 #. i18n: ectx: label, entry (INDIFilterWheelLogging), group (indi)
 #: kstars.kcfg:285
 #, kde-format
 msgid "Enable INDI Filter Wheel logging"
-msgstr "Activer la journalisation de la roue de filtre « INDI »"
+msgstr "Activer la journalisation de la roue à filtre INDI"
 
 #. i18n: ectx: label, entry (INDIDomeLogging), group (indi)
 #: kstars.kcfg:289
 #, kde-format
 msgid "Enable INDI Dome logging"
-msgstr "Activer la connexion « INDI » au dôme"
+msgstr "Activer la connexion INDI au dôme"
 
 #. i18n: ectx: label, entry (INDIDetectorLogging), group (indi)
 #: kstars.kcfg:293
 #, kde-format
 msgid "Enable INDI Detector logging"
-msgstr "Activer la connexion « INDI » au détecteur"
+msgstr "Activer la connexion INDI au détecteur"
 
 #. i18n: ectx: label, entry (INDIWeatherLogging), group (indi)
 #: kstars.kcfg:297
 #, kde-format
 msgid "Enable INDI Weather logging"
-msgstr "Activer la connexion « INDI » à la météo"
+msgstr "Activer la connexion INDI à la météo"
 
 #. i18n: ectx: label, entry (INDIAuxiliaryLogging), group (indi)
 #: kstars.kcfg:301
 #, kde-format
 msgid "Enable INDI Auxiliary logging"
-msgstr "Activer la connexion auxiliaire « INDI »"
+msgstr "Activer la connexion auxiliaire INDI"
 
 #. i18n: ectx: label, entry (INDIRotatorLogging), group (indi)
 #: kstars.kcfg:305
 #, kde-format
 msgid "Enable INDI Rotator logging"
-msgstr "Activer la connexion « INDI » au rotateur."
+msgstr "Activer la connexion INDI au rotateur"
 
 #. i18n: ectx: label, entry (INDIGPSLogging), group (indi)
 #: kstars.kcfg:309
 #, kde-format
 msgid "Enable INDI GPS logging"
-msgstr "Activer la connexion « INDI » au « GPS »"
+msgstr "Activer la connexion INDI au GPS"
 
 #. i18n: ectx: label, entry (INDIAOLogging), group (indi)
 #: kstars.kcfg:313
 #, kde-format
 msgid "Enable INDI Adaptive Optics logging"
-msgstr "Activer la journalisation pour l'optique adaptative « INDI »"
+msgstr "Activer la journalisation pour l'optique adaptative INDI"
 
 #. i18n: ectx: label, entry (CityName), group (Location)
 #: kstars.kcfg:320
@@ -29071,33 +29071,33 @@ msgstr "Sous-échantillonner automatiquement les images selon les ressources dis
 #: kstars.kcfg:1758
 #, kde-format
 msgid "Display every image captured sequence image in the Ekos summary screen preview window."
-msgstr "Afficher chaque image capturée de la séquence dans la fenêtre d'aperçu de l'écran de résumé d'Ekos."
+msgstr "Afficher chaque image de la séquence dans la fenêtre d'aperçu de l'écran de résumé d'Ekos."
 
 #. i18n: ectx: label, entry (useDSLRImageViewer), group (Capture)
 #: kstars.kcfg:1762
 #, kde-format
 msgid "Display every captured DSLR image in the Image Viewer window."
-msgstr "Afficher chaque image « DSLR » capturée dans la fenêtre d'affichage des images."
+msgstr "Afficher chaque image de l'APN dans la fenêtre d'affichage des images."
 
 #. i18n: ectx: label, entry (ForceDSLRPresets), group (Capture)
 #: kstars.kcfg:1766
 #, kde-format
 msgid "Force exposure times to align with DSLR exposure presets. This insures accurate exposure times for sub-second exposures."
 msgstr ""
-"Forcer les durées d’exposition à s’aligner sur les préréglages d’exposition DSLR. Ceci garantit des durées d’exposition précises pour "
+"Forcer les durées d’exposition à s’aligner sur les préréglages d’exposition APN. Ceci garantit des durées d’exposition précises pour "
 "les expositions inférieures à la seconde."
 
 #. i18n: ectx: label, entry (CaptureDirectory), group (Capture)
 #: kstars.kcfg:1770
 #, kde-format
 msgid "Path to capture directory to save images."
-msgstr "Emplacement vers le dossier de capture pour l'enregistrement des images."
+msgstr "Emplacement du dossier pour l'enregistrement des images."
 
 #. i18n: ectx: label, entry (RemoteCaptureDirectory), group (Capture)
 #: kstars.kcfg:1774
 #, kde-format
 msgid "Path to remote capture directory to save images."
-msgstr "Emplacement vers le dossier distant de capture pour l'enregistrement des images."
+msgstr "Emplacement du dossier distant pour l'enregistrement des images."
 
 #. i18n: ectx: label, entry (ManualCoverTimeout), group (Capture)
 #: kstars.kcfg:1777
@@ -29109,43 +29109,43 @@ msgstr "Couvrir ou découvrir le temps maximum pour les échanges avec le téles
 #: kstars.kcfg:1781
 #, kde-format
 msgid "Add the filter name to the capture file name."
-msgstr "Ajouter un nom de filtre au nom du fichier de capture."
+msgstr "Ajouter un nom de filtre au nom du fichier d'image."
 
 #. i18n: ectx: label, entry (fileSettingsUseDuration), group (Capture)
 #: kstars.kcfg:1785
 #, kde-format
 msgid "Add the capture duration to the capture file name."
-msgstr "Ajouter une durée de capture au nom du fichier de capture."
+msgstr "Ajouter une durée au nom du fichier d'image."
 
 #. i18n: ectx: label, entry (fileSettingsUseTimestamp), group (Capture)
 #: kstars.kcfg:1789
 #, kde-format
 msgid "Add the capture timestamp to the capture file name."
-msgstr "Ajouter un horodatage de capture au nom du fichier de capture."
+msgstr "Ajouter un horodatage au nom du fichier d'image."
 
 #. i18n: ectx: label, entry (CapturePosition), group (Capture)
 #: kstars.kcfg:1793
 #, kde-format
 msgid "Calculate position after captures."
-msgstr "Calculer une position après les captures."
+msgstr "Calculer une position après les acquisitions."
 
 #. i18n: ectx: label, entry (DefaultFocusCCD), group (Focus)
 #: kstars.kcfg:1799
 #, kde-format
 msgid "Default focus module CCD."
-msgstr "Module « CCD » de focus par défaut."
+msgstr "Module CCD de mise au point par défaut."
 
 #. i18n: ectx: label, entry (DefaultFocusFocuser), group (Focus)
 #: kstars.kcfg:1802
 #, kde-format
 msgid "Default focus module focuser."
-msgstr "Mise au point par défaut du module de focus."
+msgstr "Focuseur par défaut du module de mise au point."
 
 #. i18n: ectx: label, entry (DefaultFocusFilterWheel), group (Focus)
 #: kstars.kcfg:1805
 #, kde-format
 msgid "Default focus module filter wheel."
-msgstr "Roue de filtrage pour le module de focus par défaut."
+msgstr "Roue de filtrage par défaut du module de mise au point."
 
 #. i18n: ectx: label, entry (DefaultFocusTemperatureSource), group (Focus)
 #: kstars.kcfg:1808
@@ -29167,14 +29167,14 @@ msgid ""
 "in HFR is more than 0.1 pixels. Lower the value when you are close to optimal focus."
 msgstr ""
 "Taille de pas du viseur absolu. La taille de pas « TICKS » doit être ajustée pour que, lorsque le viseur déplace des pas « TICKS », "
-"la différence de HFR soit supérieure à 0,1 pixels. Abaissez la valeur lorsque vous êtes proche du focus optimal."
+"la différence de HFR soit supérieure à 0,1 pixels. Abaissez la valeur lorsque vous êtes proche de la mise au point optimale."
 
 #. i18n: ectx: whatsthis, entry (FocusSettleTime), group (Focus)
 #: kstars.kcfg:1816
 #, kde-format
 msgid "Wait for this many seconds after moving the focuser before capturing the next image during AutoFocus."
 msgstr ""
-"Attendez ce nombre de secondes après avoir déplacé le metteur au point avant de capturer l'image suivante pendant la mise au point "
+"Attendez ce nombre de secondes après avoir déplacé le focuseur avant l'acquisition de l'image suivante pendant la mise au point "
 "automatique."
 
 #. i18n: ectx: whatsthis, entry (GuideSettleTime), group (Focus)
