@@ -1099,7 +1099,7 @@ msgstr "Triton"
 #: auxiliary/xplanetimageviewer.cpp:226
 #, kde-format
 msgid "This allows you to select a new object/target for XPlanet to view"
-msgstr "Ceci vous permet de sélectionner un nouvel objet/cible pour un affichage avec XPlanet."
+msgstr "Permet de sélectionner un nouvel objet/cible pour un affichage avec XPlanet."
 
 #: auxiliary/xplanetimageviewer.cpp:234
 #, kde-format
@@ -1127,7 +1127,7 @@ msgstr "Lieu"
 #, kde-format
 msgid "XPlanet Latitude, Longitude, and object radius in %. This is only valid when viewing the object from the same object"
 msgstr ""
-"Les latitude, longitude et le rayon de l'objet en % pour XPlanet. Ceci n'est valable que pour la vision de l'objet depuis de lui-même."
+"Le latitude, la longitude et le rayon de l'objet en % pour XPlanet. Cela n'est valable que pour la vision de l'objet depuis lui-même."
 
 #: auxiliary/xplanetimageviewer.cpp:259
 #, kde-format
@@ -5200,8 +5200,8 @@ msgid ""
 "sequences, plate solving, and learning to use KStars. Just click the button to install or unzip the zip file and place the gsc folder "
 "in the data directory."
 msgstr ""
-"Son installation dans votre répertoire de données permettra au simulateur CCD de KStars de prendre des images réalistes. Ceci est "
-"utile tester les séquences, la résolution astrométrique des clichés et l'apprentissage de l'utilisation de KStars. Cliquez juste sur "
+"Son installation dans votre répertoire de données permettra au simulateur CCD de KStars de prendre des images réalistes. Cela est "
+"utile pour tester les séquences, la résolution astrométrique des clichés et l'apprentissage de l'utilisation de KStars. Cliquez juste sur "
 "le bouton pour l'installer ou décompresser le fichier zip et installer le dossier gsc dans le dossier de données."
 
 #. i18n: ectx: property (text), widget (QLabel, DownloadTitle)
@@ -5852,7 +5852,7 @@ msgstr ""
 #, kde-format
 msgid "After telescope completes slewing, wait until it settles for this many milliseconds before capturing the next image."
 msgstr ""
-"Une fois que le télescope a terminé son pointage, attendre jusqu'à ce qu'il se stabilise. Ceci peut prendre quelques millisecondes "
+"Une fois que le télescope a terminé son pointage, attendre jusqu'à ce qu'il se stabilise. Cela peut prendre quelques millisecondes "
 "avant l'acquisition de la prochaine image."
 
 #. i18n: ectx: property (text), widget (QLabel, label_22)
@@ -6167,7 +6167,7 @@ msgid ""
 "Remove the selected row from the solutions table.  This can be useful for getting rid of results that did not actually solve from the "
 "table and/or results that you do not need any more.  It can clean up clutter on both the graph and table."
 msgstr ""
-"Supprimer la ligne sélectionnée de la table des solutions. Ceci peut être utile pour se débarrasser de résultats ne proposant pas de "
+"Supprimer la ligne sélectionnée de la table des solutions. Cela peut être utile pour se débarrasser de résultats ne proposant pas de "
 "solution de la table et/ou de résultats dont vous n'avez pas plus besoin. Cela peut nettoyer les données inutiles à la fois pour le "
 "graphique et la table."
 
@@ -6393,7 +6393,7 @@ msgid ""
 "pointing model after each <b>Sync</b>  commanded by Ekos. If this is not the case, then this tool is not suitable for your mount.</p>"
 msgstr ""
 "<p>Cet outil peut vous à définir un meilleur pointage pour votre monture en déplaçant celle-ci en différents points du ciel et en "
-"résolvant les images capturées. Ceci peut accroître la précision de vos pointages. Pour être applicable,  votre monture doit être "
+"résolvant les images capturées. Cela peut accroître la précision de vos pointages. Pour être applicable, votre monture doit être "
 "capable d'améliorer son modèle de pointage interne, après chaque <b>Synchronisation</b> demandée par Ekos. Si ceci n'est pas le cas, "
 "alors, cet outil n'est pas adapté à votre monture.</p>"
 
@@ -6425,16 +6425,16 @@ msgid ""
 "</ul>\n"
 "</body></html>"
 msgstr ""
-"<html><head/><body><p>Sélectionner les objets/points ajoutés par l'assistant.</p><p><span style=\" font-weight:600;\">Remarque:</"
-"span>Toutes les options sauf DEC fixe, commencent par un quadrillage de points RA/DEC.</p>\n"
+"<html><head/><body><p>Sélectionner les objets/points ajoutés par l'assistant.</p><p><span style=\" font-weight:600;\">Remarque :</"
+"span>Toutes les options sauf DEC fixe, commencent par un quadrillage de points AD/DEC.</p>\n"
 "<ul>\n"
-"<li><b>Toute étoile:</b> L'assistant recherche l'étoile la plus proche.</li>\n"
-"<li><b>Tout objet:</b>L'assistant recherche tout objet de tout type le plus proche.</li>\n"
+"<li><b>Toute étoile :</b> L'assistant recherche l'étoile la plus proche.</li>\n"
+"<li><b>Tout objet :</b>L'assistant recherche tout objet de tout type le plus proche.</li>\n"
 "<li><b>Étoiles nommées</b> L'assistant recherche l'étoile la plus proche dans la liste des étoiles actuellement visibles. Veuillez "
 "notez que la première étoile nommée peut être plutôt loin du point attendu et la même étoile pourrait être aussi la plus proche de "
 "points multiples.</li>\n"
-"<li><b>DEC fixe:</b> L'assistant génère tous les points pour le DEC choisi.</li>\n"
-"<li><b>Quadrillage fixe:</b>L'assistant utilise seulement le quadrillage original sans essayer de l'associer avec les objets.</li>\n"
+"<li><b>DEC fixe :</b> L'assistant génère tous les points pour le DEC choisi.</li>\n"
+"<li><b>Quadrillage fixe :</b>L'assistant utilise seulement le quadrillage original sans essayer de l'associer avec les objets.</li>\n"
 "</ul>\n"
 "</body></html>"
 
@@ -6642,12 +6642,12 @@ msgid ""
 "format hh:mm:ss. The object name is just provided for convenience and is not used.  If you want to change the order of the alignment "
 "points, you can drag the row up or down using the vertical header for that row on the left."
 msgstr ""
-"Ceci est une table de points d'alignement que vous aimeriez utiliser durant la routine d'Alignement n étoiles, pour l'alignement du "
+"Ceci est une table de points d'alignement que vous aimeriez utiliser durant la procédure d'alignement n étoiles, pour l'alignement du "
 "télescope. Si vous voulez ajouter ou supprimer des points, vous devriez utiliser les boutons ci-dessus. Si vous voulez lancer "
-"l'exécution ou la mise en pause ou l'arrêt de la routine d'Alignement n étoiles, vous devrez utiliser les boutons ci-dessous. Vous "
-"pouvez directement modifier un RA ou un DE pour un point particulier directement dans les cellules. Veuillez vous assurer de saisir "
-"un format hh: mm: ss. Le nom de l'objet n'est fourni que pour le confort et n'est pas utilisé. Si vous voulez modifier l'ordre des "
-"point d'alignements, vous pouvez faire glisser la colonne vers le haut ou le base en utilisant l'en-tête verticale de cette colonne "
+"l'exécution ou la mise en pause ou l'arrêt de la procédure d'alignement n étoiles, vous devrez utiliser les boutons ci-dessous. Vous "
+"pouvez modifier une AD ou une DE pour un point particulier directement dans les cellules. Veuillez vous assurer de saisir "
+"un format hh:mm:ss. Le nom de l'objet n'est fourni que pour le confort et n'est pas utilisé. Si vous voulez modifier l'ordre des "
+"point d'alignements, vous pouvez faire glisser la colonne vers le haut ou le bas en utilisant l'en-tête verticale de cette colonne "
 "sur la gauche."
 
 #. i18n: ectx: property (text), widget (QTableWidget, alignTable)
@@ -7229,8 +7229,8 @@ msgid ""
 "Do not use Sync when Slew to Target is selected. Use differential slewing to correct for discrepancies. This is useful on some mounts "
 "(e.g. Paramount)."
 msgstr ""
-"Ne pas utiliser Sync quand Charger && Pointer est sélectionné. Veuillez utiliser la correction d'orientation pour traiter les écarts. "
-"Ceci est utile pour certaines montures (par exemple, Paramount)."
+"Ne pas utiliser la synchronisation quand Charger && Pointer est sélectionné. Veuillez utiliser la correction d'orientation pour traiter les écarts. "
+"Cela est utile pour certaines montures (par exemple, Paramount)."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AstrometryDifferentialSlewing)
 #: ekos/align/opsastrometry.ui:560
@@ -7241,7 +7241,7 @@ msgstr "Utiliser un pointage différentielle plutôt qu'une synchronisation"
 #: ekos/align/opsastrometryindexfiles.cpp:192
 #, kde-format
 msgid "Downloads Disabled, this is not a directory, it is a list of all index files."
-msgstr "Téléchargements désactivés. Ceci n'est pas un répertoire mais une liste de tous les fichiers d'index."
+msgstr "Téléchargements désactivés. Cela n'est pas un répertoire mais une liste de tous les fichiers d'index."
 
 #: ekos/align/opsastrometryindexfiles.cpp:202
 #, kde-format
@@ -8379,7 +8379,7 @@ msgstr "Ceci pourrait conduire le télescope à traverser le méridien."
 #: ekos/align/polaralignmentassistant.cpp:578
 #, kde-format
 msgid "Are you sure you want to stop the polar alignment process?"
-msgstr "Voulez-vous vraiment arrêter le processus d'alignement polaire?"
+msgstr "Voulez-vous vraiment arrêter le processus d'alignement polaire ?"
 
 #: ekos/align/polaralignmentassistant.cpp:579
 #, kde-format
@@ -8648,7 +8648,7 @@ msgid ""
 "Re-estimates the new polar-alignment error after refresh exposures. Will help you see what your new polar alignment error is, but "
 "takes compute resources and can slow down the exposure rate."
 msgstr ""
-"Réévalue la nouvelle erreur d’alignement polaire après rafraîchissement des acquisitions. Ceci vous permettra d'évaluer votre "
+"Réévalue la nouvelle erreur d’alignement polaire après rafraîchissement des acquisitions. Cela vous permettra d'évaluer votre "
 "nouvelle erreur d’alignement polaire. Cependant, cette action consomme des ressources de calcul et peut ralentir le taux "
 "d’exposition."
 
@@ -9072,7 +9072,7 @@ msgid ""
 "<html><head/><body><p>Select the input for the plots. This can be the current Ekos session, or it can be read from a file.</p></"
 "body></html>"
 msgstr ""
-"<html><head/><body><p>Sélectionner l'entrée pour les tracés. Ceci peut être la session courante Ekos ou être lu à partir d'un fichier."
+"<html><head/><body><p>Sélectionner l'entrée pour les tracés. Cela peut être la session courante Ekos ou être lu à partir d'un fichier."
 "</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, fullWidthCB)
@@ -9125,7 +9125,7 @@ msgid ""
 "<html><head/><body><p>Zoom in to the x-axis on the Timeline and Statistics plots. That is, show a shorter time period.</p></body></"
 "html>"
 msgstr ""
-"<html><head/><body><p>Faire un zoom avant sur l'axe des X sur les tracés de chronologique et des statistiques. Ceci affichera une "
+"<html><head/><body><p>Faire un zoom avant sur l'axe des X sur les tracés de chronologique et des statistiques. Cela affichera une "
 "période de temps réduite.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, cursorTimeOut)
@@ -9145,7 +9145,7 @@ msgid ""
 "<html><head/><body><p>The clock-time for the statistics plot cursor. If there is no cursor and latest is checked, then it is the "
 "clock time at the right-side of the plot.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Heure de l'horloge pour le curseur de tracé des statistiques. S’il n’y a aucun curseur et que Dernier est "
+"<html><head/><body><p>Heure de l'horloge pour le curseur de tracé des statistiques. S’il n’y a aucun curseur et que le dernier est "
 "cochée, alors, c’est l’heure de l’horloge à droite du tracé.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, zoomOutB)
@@ -10619,7 +10619,7 @@ msgid ""
 "Assign the permanent name based on which physical port the device is plugged to in StellarMate. This is useful to distinguish between "
 "two identical USB adapters. The device must <b>always</b> be plugged into the same port for this to work."
 msgstr ""
-"Assigner un nom permanent selon le port physique du périphérique sur lequel il est connecté à StellarMate. Ceci est utile pour faire "
+"Assigner un nom permanent selon le port physique du périphérique sur lequel il est connecté à StellarMate. Cela est utile pour faire "
 "la distinction entre deux adaptateurs USB identiques. Le périphérique doit <b>toujours</b> être connecté dans le même port pour que "
 "cela fonctionne."
 
@@ -11224,7 +11224,7 @@ msgid ""
 "The maximum ratio between the semi-major and semi-minor axes for stars to include (a/b), this will allow you to exclude elliptical "
 "sources like galaxies or badly distorted stars."
 msgstr ""
-"Le rapport maximal entre demi-grand axe et demi-petit axe, pour les étoiles à inclure (a/b). Ceci vous permettra d’exclure les "
+"Le rapport maximal entre demi-grand axe et demi-petit axe, pour les étoiles à inclure (a/b). Cela vous permettra d’exclure les "
 "sources elliptiques comme les galaxies ou les étoiles fortement déformées."
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, brightestPercent)
@@ -16491,7 +16491,7 @@ msgid ""
 "<html><head/><body><p>If checked,  always re-calibrate when guiding is started. This is often not necessary when a good quality "
 "calibration has previously been done and the guide camera has not been rotated or re-installed.</p></body></html>"
 msgstr ""
-"<html><head/><body><p> Si coché, relance toujours la calibration lorsque le guidage est lancé. Ceci est souvent inutile quand une "
+"<html><head/><body><p>Si coché, relance toujours la calibration lorsque le guidage est lancé. Cela est souvent inutile quand une "
 "bonne calibration a été effectuée et que la caméra n'a pas subi une rotation ou un déplacement.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ResetGuideCalibration)
@@ -16508,7 +16508,7 @@ msgid ""
 "be automatically determined from your mount. The \"Reset Guide on Slew\" option above must be unchecked for this to be attempted.</"
 "p></body></html>"
 msgstr ""
-"<html><head/><body><p> Stocke et essaye de réutiliser les calibrations. Ceci ne ne fonctionne que sur le côté opposé du méridien, si "
+"<html><head/><body><p> Stocke et essaye de réutiliser les calibrations. Cela ne ne fonctionne que sur le côté opposé du méridien, si "
 "la position par rapport au pied peut être déterminée automatiquement à partir de votre monture. L'option « Réinitialiser la "
 "calibration du guide après chaque pointage » ci-dessus doit être décochée pour que cette opération puisse être tentée.</p></body></"
 "html>"
@@ -16528,7 +16528,7 @@ msgid ""
 "</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Lors de la réutilisation d’une calibration, inverse l’angle DEC si le côté du pied actuel diffère de celui "
-"de la calibration. Ceci ne s’applique que lors de la réutilisation des calibrations. La valeur dont vous avez besoin est une "
+"de la calibration. Cela ne s’applique que lors de la réutilisation des calibrations. La valeur dont vous avez besoin est une "
 "propriété de votre monture qui devrait être étudiée.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ReverseDecOnPierSideChange)
@@ -16939,9 +16939,9 @@ msgid ""
 "is consistently negative, this will attempt to compensate. Best to start with 0.0 (no effect) and only use this if necessary.</p></"
 "body></html>"
 msgstr ""
-"<html><head/><body><p> Ceci ajoute un terme de correction basé sur la moyenne des 50 écarts de guidage passés. Ainsi, si la déviation "
-"est toujours négative, ceci déclenchera une compensation. Il vaut mieux démarrer avec les valeurs 0,0 (pas d'effet) et mettre en "
-"œuvre seulement si nécessaire.</p></body></html>"
+"<html><head/><body><p>Ceci ajoute un terme de correction basé sur la moyenne des 50 écarts de guidage passés. Ainsi, si la déviation "
+"est toujours négative, ceci déclenchera une compensation. Il vaut mieux démarrer avec les valeurs 0,0 (pas d'effet) et "
+"utiliser seulement si nécessaire.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, l_12)
 #: ekos/guide/opsguide.ui:73
@@ -18198,7 +18198,7 @@ msgid ""
 msgstr ""
 "<html><head/><body><p>Active ou désactive la limite de l'angle horaire de la monture. Une fois activé, Ekos surveille l'angle "
 "horaire de la monture pendant sa rotation ou son suivi. Si celui-ci tourne/suit au delà de la limite et que l' état courant du côté "
-"de la butée ne le permet pas, alors il recevra une commande d'arrêt et le suivi sera désactivé. Ceci nécessite une monture "
+"de la butée ne le permet pas, alors il recevra une commande d'arrêt et le suivi sera désactivé. Cela nécessite une monture "
 "fournissant correctement le côté de pied.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableHaLimitCheck)
@@ -18785,7 +18785,7 @@ msgstr "&Gauche"
 #: ekos/opsekos.ui:142
 #, kde-format
 msgid "Make Ekos window independent from KStars main window. Requires restart to take effect."
-msgstr "Rend la fenêtre Ekos indépendante de la fenêtre principale KStars. Ceci nécessite un redémarrage pour prendre effet."
+msgstr "Rend la fenêtre Ekos indépendante de la fenêtre principale KStars. Cela nécessite un redémarrage pour prendre effet."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_independentWindowEkos)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_independentWindowFITS)
@@ -19006,7 +19006,7 @@ msgstr "Lors du calcul de position après des acquisitions, la calculez toutes l
 #: ekos/opsekos.ui:440
 #, kde-format
 msgid "Verify captured image position every"
-msgstr "Vérifier la position de l'image capturée chaque"
+msgstr "Vérifier la position de l'image chaque"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ResetMountModelBeforeJob)
 #: ekos/opsekos.ui:447
@@ -19027,8 +19027,8 @@ msgid ""
 "<html><head/><body><p>If guiding calibration fails then restart alignment process before proceeding to guiding recalibration process "
 "again. This can help recenter the target object in the field of view if the calibration process strayed too far off.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Si la calibration du guidage échoue, alors relancez le processus d'alignement avant de relancer le processus "
-"de recalibration du guidage. Ceci peut aider à recentrer l'objet cible dans le champs de vision si le processus de calibration "
+"<html><head/><body><p>Si la calibration du guidage échoue, redémarrez le processus d'alignement avant de relancer le processus "
+"de recalibration du guidage. Cela peut aider à recentrer l'objet cible dans le champs de vision si le processus de calibration "
 "s'éloigne de trop. </p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_RealignAfterCalibrationFailure)
@@ -19087,7 +19087,7 @@ msgstr "Couvrir ou découvrir le délai imparti pour les échanges avec le téle
 #: ekos/opsekos.ui:617
 #, kde-format
 msgid "Dialog timeout:"
-msgstr "Délai imparti échu pour le dialogue"
+msgstr "Délai imparti pour le dialogue"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AlwaysResetSequenceWhenStarting)
 #: ekos/opsekos.ui:646
@@ -24499,7 +24499,7 @@ msgstr ""
 #: indi/opsindi.ui:254
 #, kde-format
 msgid "KStars updates all devices"
-msgstr "KStars met à jour tous les périphériques."
+msgstr "KStars synchronise tous les périphériques"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_useTimeUpdate)
 #: indi/opsindi.ui:274
@@ -24527,7 +24527,7 @@ msgstr ""
 #: indi/opsindi.ui:293
 #, kde-format
 msgid "Mount updates KStars"
-msgstr "La monture met à jour KStars."
+msgstr "La monture synchronise KStars"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_useGeographicUpdate)
 #: indi/opsindi.ui:300
@@ -24561,7 +24561,7 @@ msgstr ""
 #: indi/opsindi.ui:319
 #, kde-format
 msgid "GPS updates KStars"
-msgstr "Le GPS permet la mise à jour de KStars."
+msgstr "KStars synchronisé par GPS"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox)
 #: indi/opsindi.ui:344
@@ -24579,13 +24579,13 @@ msgstr "Transférer le tampon (Mo)"
 #: indi/opsindi.ui:377
 #, kde-format
 msgid "Port from:"
-msgstr "Portage vers"
+msgstr "Port de"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: indi/opsindi.ui:384
 #, kde-format
 msgid "Port to:"
-msgstr "Portage vers"
+msgstr "Port vers"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_showTargetCrosshair)
 #: indi/opsindi.ui:475
@@ -28374,7 +28374,7 @@ msgstr "Activer la connexion avec traces"
 msgid ""
 "Checking this option causes KStars to generate verbose debug information for diagnostic purposes. This may cause slowdown of KStars."
 msgstr ""
-"En cochant cette option, KStars génère des informations de débogage verbeuses à des fins de diagnostic. Ceci peut provoquer un "
+"En cochant cette option, KStars génère des informations de débogage verbeuses à des fins de diagnostic. Cela peut provoquer un "
 "ralentissement de KStars."
 
 #. i18n: ectx: label, entry (RegularLogging), group (General)
@@ -29084,7 +29084,7 @@ msgstr "Afficher chaque image de l'APN dans la fenêtre d'affichage des images."
 #, kde-format
 msgid "Force exposure times to align with DSLR exposure presets. This insures accurate exposure times for sub-second exposures."
 msgstr ""
-"Forcer les durées d’exposition à s’aligner sur les préréglages d’exposition APN. Ceci garantit des durées d’exposition précises pour "
+"Forcer les durées d’exposition à s’aligner sur les préréglages d’exposition APN. Cela garantit des durées d’exposition précises pour "
 "les expositions inférieures à la seconde."
 
 #. i18n: ectx: label, entry (CaptureDirectory), group (Capture)
@@ -29830,7 +29830,7 @@ msgstr "Durée d'exposition du guidage en secondes."
 #: kstars.kcfg:2198
 #, kde-format
 msgid "Which guider process to utilize for guiding (0 Internal Guider, 1 PHD2, 2 lin_guider)"
-msgstr "Quel processus de guidage utilisé (0 : guidage interne, 1 : « PHD2 », 2 : lin_guider)"
+msgstr "Quel processus de guidage utilisé (0 : guidage interne, 1 : PHD2, 2 : lin_guider)"
 
 #. i18n: ectx: label, entry (GuideAlgorithm), group (Guide)
 #: kstars.kcfg:2202
@@ -29844,13 +29844,13 @@ msgstr ""
 #: kstars.kcfg:2206
 #, kde-format
 msgid "Host name of external PHD2 service"
-msgstr "Nom d'hôte pour le service externe « PHD2 »"
+msgstr "Nom d'hôte pour le service externe PHD2"
 
 #. i18n: ectx: label, entry (PHD2Port), group (Guide)
 #: kstars.kcfg:2210
 #, kde-format
 msgid "PHD2 Event Monitoring Port"
-msgstr "Portage de la surveillance des évènements « PHD2 »"
+msgstr "Port de surveillance des évènements PHD2"
 
 #. i18n: ectx: label, entry (LinGuiderHost), group (Guide)
 #: kstars.kcfg:2214
@@ -29862,7 +29862,7 @@ msgstr "Nom d'hôte pour le service externe « lin_guider »."
 #: kstars.kcfg:2218
 #, kde-format
 msgid "Lin_guider Event Monitoring Port"
-msgstr "Portage de la surveillance des évènements « Lin_guider »"
+msgstr "Port de la surveillance des évènements « lin_guider »"
 
 #. i18n: ectx: label, entry (GuideScopeType), group (Guide)
 #: kstars.kcfg:2222
@@ -66165,7 +66165,7 @@ msgid ""
 "storage space.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Enregistrer les trames de mise au point automatique. Activer uniquement pour dépanner la mise au point "
-"automatique par examen des trames. Ceci peut consommer un grand volume d'enregistrement.</p></body></html>"
+"automatique par examen des trames. Cela peut consommer un grand volume d'enregistrement.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SaveFocusImages)
 #: options/opsdeveloper.ui:43
@@ -66181,7 +66181,7 @@ msgid ""
 "storage space.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Enregistrer les trames internes de l'assistant de guidage. Activer uniquement pour dépanner l'assistant de "
-"guidage par examen des trames. Ceci peut consommer un grand volume d'enregistrement.</p></body></html>"
+"guidage par examen des trames. Cela peut consommer un grand volume d'enregistrement.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SaveGuideImages)
 #: options/opsdeveloper.ui:53
@@ -69403,7 +69403,7 @@ msgid ""
 "\t\n"
 msgstr ""
 "\t\t<p> De temps en temps, les planètes semblent s'arrêter, et changer temporairement leur direction de mouvement dans le ciel "
-"nocturne. Ceci est appelé mouvement rétrograde. Vous pouvez le simuler dans KStars en attachant une trace à une planète extérieure et "
+"nocturne. Cela est appelé mouvement rétrograde. Vous pouvez le simuler dans KStars en attachant une trace à une planète extérieure et "
 "en laissant l'horloge de simulation avancer rapidement (à un jour sidéral ou plus).\n"
 "\t\t</p>\n"
 "\t\n"
