@@ -1335,7 +1335,7 @@ msgstr "Choisissez un champ de vision"
 #: auxiliary/xplanetimageviewer.cpp:1120
 #, kde-format
 msgid "FOV to render in XPlanet:"
-msgstr "FOV à restituer avec XPlanet:"
+msgstr "FOV à restituer avec XPlanet"
 
 #: auxiliary/xplanetimageviewer.cpp:1244
 #, kde-format
@@ -1345,12 +1345,12 @@ msgstr "Impossible d'enregistrer l'image %1."
 #: catalogsdb/catalogsdb.cpp:318
 #, kde-format
 msgid "Catalog with that ID already exists."
-msgstr "Le catalogue avec cet ID existe déjà:"
+msgstr "Le catalogue avec cet ID existe déjà."
 
 #: catalogsdb/catalogsdb.cpp:594 catalogsdb/catalogsdb.cpp:730
 #, kde-format
 msgid "Catalog could not be found."
-msgstr "Il est impossible de trouver le catalogue"
+msgstr "Il est impossible de trouver le catalogue."
 
 #: catalogsdb/catalogsdb.cpp:683 catalogsdb/catalogsdb.cpp:1036
 #, kde-format
@@ -1360,17 +1360,17 @@ msgstr "Impossible de trouver le catalogue avec l'ID %1."
 #: catalogsdb/catalogsdb.cpp:686 catalogsdb/catalogsdb.cpp:1039
 #, kde-format
 msgid "Catalog is immutable!"
-msgstr "Le catalogue est non modifiable!"
+msgstr "Le catalogue est non modifiable !"
 
 #: catalogsdb/catalogsdb.cpp:702 catalogsdb/catalogsdb.cpp:1055
 #, kde-format
 msgid "The object is already in the catalog!"
-msgstr "Cet objet existe déjà dans le catalogue."
+msgstr "Cet objet existe déjà dans le catalogue !"
 
 #: catalogsdb/catalogsdb.cpp:704 catalogsdb/catalogsdb.cpp:1057
 #, kde-format
 msgid "Could not insert object! %1"
-msgstr "Impossible d'insérer l'objet %1"
+msgstr "Impossible d'insérer l'objet %1 !"
 
 #: catalogsdb/catalogsdb.cpp:734
 #, kde-format
@@ -1435,7 +1435,7 @@ msgstr "Impossible de lire l'id du catalogue.<br>%1"
 #: catalogsdb/catalogsdb.cpp:839
 #, kde-format
 msgid "Catalog already exists in the database!"
-msgstr "Le catalogue existe déjà dans la base de données!"
+msgstr "Le catalogue existe déjà dans la base de données !"
 
 #: catalogsdb/catalogsdb.cpp:856 dialogs/catalogsdbui.cpp:211
 #, kde-format
@@ -1465,7 +1465,7 @@ msgstr "Les deux catalogues doivent exister!"
 #: catalogsdb/catalogsdb.cpp:907
 #, kde-format
 msgid "Destination catalog has to be mutable!"
-msgstr "Le catalogue de destination doit être modifiable!"
+msgstr "Le catalogue de destination doit être modifiable !"
 
 #: catalogsdb/catalogsdb.cpp:923
 #, kde-format
@@ -2566,7 +2566,7 @@ msgstr "Aperçu"
 #: dialogs/catalogdetails.cpp:29
 #, kde-format
 msgid "Showing <= %1 entries. Enter a name (case sensitive) to narrow down the search."
-msgstr "Affichage  au plus de %1 entrées. Saisissez un nom (sensible à la casse) pour affiner la recherche."
+msgstr "Affichage au plus de %1 entrées. Saisissez un nom (sensible à la casse) pour affiner la recherche."
 
 #: dialogs/catalogdetails.cpp:80
 #, kde-format
@@ -2603,7 +2603,7 @@ msgstr "Détails du catalogue"
 #: dialogs/catalogdetails.ui:39 dialogs/catalogeditform.ui:22
 #, kde-format
 msgid "ID:"
-msgstr "ID:"
+msgstr "ID"
 
 #. i18n: ectx: property (text), widget (QLabel, id)
 #: dialogs/catalogdetails.ui:46
@@ -2615,7 +2615,7 @@ msgstr "_id"
 #: dialogs/catalogdetails.ui:53
 #, kde-format
 msgid "Prec:"
-msgstr "Préc:"
+msgstr "Priorité"
 
 #. i18n: ectx: property (text), widget (QLabel, precedence)
 #: dialogs/catalogdetails.ui:60
@@ -2629,7 +2629,7 @@ msgstr "_prec"
 #: dialogs/catalogdetails.ui:67 dialogs/catalogeditform.ui:46 tools/scriptnamedialog.ui:22
 #, kde-format
 msgid "Author:"
-msgstr "Auteur:"
+msgstr "Auteur"
 
 #. i18n: ectx: property (text), widget (QLabel, author)
 #: dialogs/catalogdetails.ui:74
@@ -2642,7 +2642,7 @@ msgstr "_auth"
 #: dialogs/catalogdetails.ui:81 dialogs/catalogeditform.ui:53
 #, kde-format
 msgid "Source:"
-msgstr "Source:"
+msgstr "Source"
 
 #. i18n: ectx: property (text), widget (QLabel, source)
 #: dialogs/catalogdetails.ui:88
@@ -2654,7 +2654,7 @@ msgstr "_src"
 #: dialogs/catalogdetails.ui:95
 #, kde-format
 msgid "Desc:"
-msgstr "Desc:"
+msgstr "Description"
 
 #. i18n: ectx: property (text), widget (QLabel, description)
 #: dialogs/catalogdetails.ui:108
@@ -2666,7 +2666,7 @@ msgstr "_desc"
 #: dialogs/catalogdetails.ui:121
 #, kde-format
 msgid "Version:"
-msgstr "Version:"
+msgstr "Version"
 
 #. i18n: ectx: property (text), widget (QLabel, version)
 #: dialogs/catalogdetails.ui:128
@@ -2679,7 +2679,7 @@ msgstr "_vers"
 #: dialogs/catalogdetails.ui:135 dialogs/catalogeditform.ui:93
 #, kde-format
 msgid "Maintainer:"
-msgstr "Mainteneur:"
+msgstr "Mainteneur"
 
 #. i18n: ectx: property (text), widget (QLabel, maintainer)
 #: dialogs/catalogdetails.ui:142
@@ -2692,7 +2692,7 @@ msgstr "_maint"
 #: dialogs/catalogdetails.ui:149 dialogs/catalogeditform.ui:103
 #, kde-format
 msgid "License:"
-msgstr "Licence:"
+msgstr "Licence"
 
 #. i18n: ectx: property (text), widget (QLabel, license)
 #: dialogs/catalogdetails.ui:156
@@ -2852,7 +2852,7 @@ msgstr "ID"
 #: dialogs/catalogsdbui.cpp:26
 #, kde-format
 msgid "Precedence"
-msgstr "Préséance"
+msgstr "Priorité"
 
 #: dialogs/catalogsdbui.cpp:26
 #, kde-format
@@ -2887,13 +2887,13 @@ msgstr "Mainteneur"
 #: oal/equipmentwriter.ui:747
 #, kde-format
 msgid "Enable"
-msgstr "Activé"
+msgstr "Activer"
 
 #. i18n: ectx: property (text), widget (QPushButton, slavingDisableButton)
 #: dialogs/catalogsdbui.cpp:121 ekos/observatory/observatory.ui:385
 #, kde-format
 msgid "Disable"
-msgstr "Désactivé"
+msgstr "Désactiver"
 
 #: dialogs/catalogsdbui.cpp:154
 #, kde-format
@@ -59717,7 +59717,7 @@ msgstr "Dans le ciel cette nuit"
 #: kstarsinit.cpp:437
 #, kde-format
 msgid "XPlanet Solar System Simulator"
-msgstr "Simulateur du Système solaire « XPlanet »"
+msgstr "Simulateur de Système solaire « XPlanet »"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, SkyCalendar)
 #: kstarsinit.cpp:439 tools/skycalendar.cpp:434 tools/skycalendar.ui:20
@@ -60232,7 +60232,7 @@ msgstr "Période de rotation"
 #: kstarslite/qml/dialogs/DetailsDialog.qml:188
 #, kde-kuit-format
 msgid "EarthMOID"
-msgstr "MOID avec la Terre :"
+msgstr "MOID avec la Terre"
 
 #: kstarslite/qml/dialogs/DetailsDialog.qml:193
 #, kde-kuit-format
@@ -74240,25 +74240,25 @@ msgstr "Année précédente"
 #, kde-format
 msgctxt "Local Time"
 msgid "LT: "
-msgstr "HL"
+msgstr "HL "
 
 #: widgets/infoboxwidget.cpp:78
 #, kde-format
 msgctxt "Universal Time"
 msgid "UT: "
-msgstr "HU"
+msgstr "HU "
 
 #: widgets/infoboxwidget.cpp:87
 #, kde-format
 msgctxt "Sidereal Time"
 msgid "ST: "
-msgstr "HS"
+msgstr "HS "
 
 #: widgets/infoboxwidget.cpp:87
 #, kde-format
 msgctxt "Julian Day"
 msgid "JD: "
-msgstr "JJ"
+msgstr "JJ "
 
 #. i18nc("Longitude", "Long:") + ' ' + QLocale().toString(geo->lng()->Degrees(), 3) + "   " +
 #. i18nc("Latitude", "Lat:") + ' ' + QLocale().toString(geo->lat()->Degrees(), 3);
@@ -74322,13 +74322,13 @@ msgstr "heure"
 #, kde-format
 msgctxt "hours"
 msgid "hrs"
-msgstr "hrs"
+msgstr "h"
 
 #: widgets/timespinbox.cpp:146
 #, kde-format
 msgctxt "sidereal day"
 msgid "sid day"
-msgstr "jour sid"
+msgstr "jour sidéral"
 
 #: widgets/timespinbox.cpp:147
 #, kde-format
@@ -74368,7 +74368,7 @@ msgstr "année"
 #, kde-format
 msgctxt "years"
 msgid "yrs"
-msgstr "ann."
+msgstr "années"
 
 #: widgets/timestepbox.cpp:22
 #, kde-format
