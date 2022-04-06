@@ -4504,8 +4504,8 @@ msgid ""
 "<html><head/><body><p><span style=\" font-weight:600;\">Name </span><span style=\" font-weight:600; color:#ff0000;\">*</span><span "
 "style=\" font-weight:600;\">:</span></p></body></html>"
 msgstr ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Nom </span><span style=\" font-weight:600; color:#ff0000;\">*</span><span "
-"style=\" font-weight:600;\">:</span></p></body></html>"
+"<html><head/><body><p><span style=\" font-weight:600;\">Nom </span><span style=\" font-weight:600; color:#ff0000;\">*</span> "
+"</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, FOVName)
 #: dialogs/newfov.ui:65
@@ -4532,7 +4532,7 @@ msgstr "Oculaire"
 #: dialogs/newfov.ui:91
 #, kde-format
 msgid "Telescope focal length:"
-msgstr "Longueur focale du télescope:"
+msgstr "Longueur focale du télescope"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, TLength1)
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, TLength2)
@@ -4541,7 +4541,7 @@ msgstr "Longueur focale du télescope:"
 #: dialogs/newfov.ui:103 dialogs/newfov.ui:453 dialogs/newfov.ui:698 dialogs/newfov.ui:839
 #, kde-format
 msgid "Telescope focal length, in millimeters"
-msgstr "Longueur focale du télescope, en millimètres"
+msgstr "Longueur focale du télescope en millimètres"
 
 #. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, TLength1)
 #: dialogs/newfov.ui:108
@@ -4554,7 +4554,7 @@ msgid ""
 msgstr ""
 "Saisissez la longueur focale du télescope, en millimètres.\n"
 "\n"
-"Il s'agit d'un des champs de données requis pour définir le champ de vision (FOV)  correspondant à celui  d'un oculaire detélescope."
+"Il s'agit d'un des champs de données requis pour définir le champ de vision (FOV) correspondant à celui d'un oculaire d'un télescope."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel6_2)
 #. i18n: ectx: property (text), widget (QLabel, textLabel6_2_2)
@@ -4573,13 +4573,13 @@ msgstr "mm"
 #: dialogs/newfov.ui:159
 #, kde-format
 msgid "Eyepiece focal length:"
-msgstr "Longueur focale de l'oculaire:"
+msgstr "Longueur focale de l'oculaire"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, EyeLength)
 #: dialogs/newfov.ui:171
 #, kde-format
 msgid "Eyepiece focal length, in millimeters"
-msgstr "Longueur focale de l'oculaire, en millimètres"
+msgstr "Longueur focale de l'oculaire en millimètres"
 
 #. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, EyeLength)
 #: dialogs/newfov.ui:176
@@ -4592,7 +4592,7 @@ msgid ""
 msgstr ""
 "Saisissez la longueur focale de l'oculaire, en millimètres.\n"
 "\n"
-"Il s'agit d'un des champs de données requis pour définir un  champ de vision (FOV) qui correspond à celui d'un oculaire detélescope."
+"Il s'agit d'un des champs de données requis pour définir un champ de vision (FOV) qui correspond à celui d'un oculaire de télescope."
 
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel8_2)
 #: dialogs/newfov.ui:224
@@ -4604,7 +4604,7 @@ msgstr "Saisissez le champ de vision apparent de l'oculaire"
 #: dialogs/newfov.ui:227
 #, kde-format
 msgid "Eyepiece AFOV:"
-msgstr "Champ de vision apparent de l'oculaire:"
+msgstr "Champ de vision apparent de l'oculaire"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, EyeFOV)
 #: dialogs/newfov.ui:272
@@ -4623,7 +4623,7 @@ msgid ""
 msgstr ""
 "Saisissez l'angle de champ de vision de l'objectif, en minutes d'arc.\n"
 "\n"
-"Il s'agit d'un des champs de données requis pour définir un  champ de vision (FOV) qui correspond à celui d'un oculaire detélescope."
+"Il s'agit d'un des champs de données requis pour définir un champ de vision (FOV) qui correspond à celui d'un oculaire de télescope."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel6_2_2_2)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -4643,7 +4643,7 @@ msgstr "ou calculer à partir du rapport F/D"
 #: dialogs/newfov.ui:359
 #, kde-format
 msgid "Note: Panoptic, Nagler, Radian, Delos and Ethos are trademarks of Tele Vue Optics, Inc."
-msgstr "Remarque: Panoptic, Nagler, Radian, Delos et Ethos sont des marques déposées de Tele Vue Optics, Inc."
+msgstr "Remarque : Panoptic, Nagler, Radian, Delos et Ethos sont des marques déposées de Tele Vue Optics, Inc."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, ComputeEyeFOV)
 #. i18n: ectx: property (toolTip), widget (QPushButton, ComputeCameraFOV)
@@ -4687,7 +4687,7 @@ msgstr "Caméra"
 #: dialogs/newfov.ui:443
 #, kde-format
 msgid "Telescope Focal length:"
-msgstr "Longueur focale du télescope:"
+msgstr "Longueur focale du télescope"
 
 #. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, TLength2)
 #. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, LinearFOV)
@@ -4703,13 +4703,13 @@ msgstr ""
 "Saisissez la longueur focale du télescope, en millimètres.\n"
 "\n"
 "Il s'agit d'un des champs de données requis pour définir un indicateur de champ de vision (FOV) qui corresponde au champ de vision "
-"d'un caméra monté sur un télescope."
+"d'une caméra montée sur un télescope."
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: dialogs/newfov.ui:484
 #, kde-format
 msgid "Camera W:"
-msgstr "Caméra W:"
+msgstr "Caméra L"
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #. i18n: ectx: property (text), widget (QLabel, label_11)
@@ -4736,7 +4736,7 @@ msgstr "pixels"
 #: dialogs/newfov.ui:528
 #, kde-format
 msgid "Pixel W:"
-msgstr "Pixel L:"
+msgstr "Pixel L"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, cameraPixelSizeW)
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, cameraPixelSizeH)
@@ -4744,7 +4744,7 @@ msgstr "Pixel L:"
 #: dialogs/newfov.ui:538 dialogs/newfov.ui:569 dialogs/newfov.ui:894
 #, kde-format
 msgid "Size of chip or film, in millimeters"
-msgstr "Taille du capteur ou du film, en millimètres"
+msgstr "Taille du capteur ou du film en millimètres"
 
 #. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, cameraPixelSizeW)
 #. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, cameraPixelSizeH)
@@ -4830,7 +4830,7 @@ msgstr "Radiotélescope"
 #: dialogs/newfov.ui:827
 #, kde-format
 msgid "Radio Telescope diameter:"
-msgstr "Diamètre du radio télescope"
+msgstr "Diamètre du radiotélescope"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel6_2_3_4)
 #: dialogs/newfov.ui:873
