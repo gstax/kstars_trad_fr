@@ -25622,7 +25622,7 @@ msgstr ""
 #: kstars.kcfg:141
 #, kde-format
 msgid "Percentage of the sky to cache DSOs for."
-msgstr "Pourcentage du ciel pour mettre en cache les « DSO »."
+msgstr "Pourcentage du ciel pour mettre en cache les CP."
 
 #. i18n: ectx: whatsthis, entry (DSOCachePercentage), group (Catalogs)
 #: kstars.kcfg:145
@@ -25633,10 +25633,10 @@ msgid ""
 "         will be cached. Turning this value up yields better\n"
 "         performance at the cost of memory."
 msgstr ""
-"Les objet du ciel profond (DSO) sont chargés à partir d’une base de données « sqlite » et \n"
+"Les objet du ciel profond (CP) sont chargés à partir d’une base de données « sqlite » et \n"
 "\t\tmis en cache dans la mémoire. Ce paramètre régule la quantité d'objets qui seront \n"
 "\t\tmis en cache. Le réglage de cette valeur conduit à de meilleures\n"
-"\t\tperformances au détriment plus de consommation mémoire."
+"\t\tperformances au détriment de la consommation mémoire."
 
 #. i18n: ectx: label, entry (DSOMinZoomFactor), group (Catalogs)
 #: kstars.kcfg:151
@@ -25648,13 +25648,13 @@ msgstr "Niveau minimal de zoom pour le rendu des objets du ciel profond."
 #: kstars.kcfg:157
 #, kde-format
 msgid "The filename of the DSO catalog."
-msgstr "Le nom de fichier du catalogue des objets du ciel profond (DSO)."
+msgstr "Le nom de fichier du catalogue des objets du ciel profond (CP)."
 
 #. i18n: ectx: label, entry (DSODefaultCatalogFilename), group (Catalogs)
 #: kstars.kcfg:161
 #, kde-format
 msgid "The filename of the default DSO catalog (OpenNGC)."
-msgstr "Le nom de fichier du catalogue par défaut des objets du ciel profond (DSO) (OpenNGC)."
+msgstr "Le nom de fichier du catalogue par défaut des objets du ciel profond (CP) (OpenNGC)."
 
 #. i18n: ectx: label, entry (INDIWindowWidth), group (indi)
 #: kstars.kcfg:167
@@ -59671,7 +59671,7 @@ msgstr "Démarrer l'assistant…"
 #: kstarsinit.cpp:398
 #, kde-format
 msgid "Manage DSO Catalogs"
-msgstr "Gérer les catalogues du ciel profond (DSO)"
+msgstr "Gérer les catalogues du ciel profond (CP)"
 
 #: kstarsinit.cpp:402
 #, kde-format
@@ -64657,7 +64657,7 @@ msgstr "FITS, Mise au point, améliorations de guidage"
 #: main.cpp:137
 #, kde-format
 msgid "Binary Asteroid List, DSO Database & Catalogs"
-msgstr "Liste d'astéroïdes binaire, base de données et catalogues DSO"
+msgstr "Liste d'astéroïdes binaire, base de données et catalogues CP"
 
 #: main.cpp:140
 #, kde-format
@@ -65828,13 +65828,13 @@ msgstr "Catalogues du ciel profond"
 #: options/opscatalog.ui:301
 #, kde-format
 msgid "DSO minimal zoom:"
-msgstr "Zoom minimal DSO"
+msgstr "Zoom minimal CP"
 
 #. i18n: ectx: property (text), widget (QLabel, DSOCacheLabel)
 #: options/opscatalog.ui:366
 #, kde-format
 msgid "DSO cache percentage:"
-msgstr "Pourcentage de cache DSO"
+msgstr "Pourcentage de cache CP"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowDeepSkyNames)
 #: options/opscatalog.ui:428
