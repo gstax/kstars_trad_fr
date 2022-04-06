@@ -1099,17 +1099,17 @@ msgstr "Triton"
 #: auxiliary/xplanetimageviewer.cpp:226
 #, kde-format
 msgid "This allows you to select a new object/target for XPlanet to view"
-msgstr "Permet de sélectionner un nouvel objet/cible pour un affichage avec Xplanet."
+msgstr "Permet de sélectionner un nouvel objet/cible pour un affichage avec Xplanet"
 
 #: auxiliary/xplanetimageviewer.cpp:234
 #, kde-format
 msgid "from"
-msgstr "à partir de"
+msgstr "vu de"
 
 #: auxiliary/xplanetimageviewer.cpp:237
 #, kde-format
 msgid "This allows you to select a viewing location"
-msgstr "Ceci vous permet de sélectionner un emplacement pour affichage."
+msgstr "Ceci vous permet de sélectionner un emplacement pour affichage"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, LocationLabel)
@@ -1300,12 +1300,12 @@ msgstr "L'exécutable xplanet configuré n'existe pas ou est non exécutable."
 #: auxiliary/xplanetimageviewer.cpp:750
 #, kde-format
 msgid "XPlanet View: %1 from %2 on %3"
-msgstr "Affichage Xplanet : %1 de %2 sur %3"
+msgstr "Affichage Xplanet : %1 vu de %2 le %3"
 
 #: auxiliary/xplanetimageviewer.cpp:752
 #, kde-format
 msgid "XPlanet View: %1 from %2 on %3 at FOV: %4 deg"
-msgstr "Affichage Xplanet : %1 de %2 sur %3 à FOV : %4 deg"
+msgstr "Affichage Xplanet : %1 vu de %2 le %3 de FOV %4 deg"
 
 #: auxiliary/xplanetimageviewer.cpp:766
 #, kde-format
@@ -74507,7 +74507,7 @@ msgstr "TSC"
 #: xplanet/opsxplanet.cpp:104
 #, kde-format
 msgid "FIFO files are not supported on Windows"
-msgstr "Les fichiers « FIFO » ne sont pas pris en charge par Windows."
+msgstr "Les fichiers FIFO ne sont pas pris en charge par Windows"
 
 #: xplanet/opsxplanet.cpp:219
 #, kde-format
@@ -74597,7 +74597,7 @@ msgstr "Retard d'animation"
 #: xplanet/opsxplanet.ui:183
 #, kde-format
 msgid "The delay between frames for the animation"
-msgstr "La durée entre deux trames d'animations."
+msgstr "La durée entre deux trames d'animation"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_XplanetUseFIFO)
 #: xplanet/opsxplanet.ui:216
@@ -74623,7 +74623,7 @@ msgstr ""
 #: xplanet/opsxplanet.ui:222
 #, kde-format
 msgid "Use FIFO File"
-msgstr "Utiliser un fichier « FIFO »"
+msgstr "Utiliser un fichier FIFO"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: xplanet/opsxplanet.ui:229
