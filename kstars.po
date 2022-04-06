@@ -233,17 +233,17 @@ msgstr "Erreur du guidage en DEC"
 #: auxiliary/colorscheme.cpp:65 ekos/align/align.cpp:87
 #, kde-format
 msgid "Solver FOV"
-msgstr "Résolveur « FOV »"
+msgstr "Résolveur FOV"
 
 #: auxiliary/colorscheme.cpp:66
 #, kde-format
 msgid "Sensor FOV"
-msgstr "Capteur « FOV »"
+msgstr "Capteur FOV"
 
 #: auxiliary/colorscheme.cpp:67
 #, kde-format
 msgid "HiPS Grid"
-msgstr "Grille « HiPS »"
+msgstr "Grille HiPS"
 
 #: auxiliary/colorscheme.cpp:68
 #, kde-format
@@ -23744,30 +23744,30 @@ msgstr "Sources"
 #: hips/opships.cpp:62
 #, kde-format
 msgid "HiPS Update"
-msgstr "Mise à jour de « HiPS »"
+msgstr "Mise à jour de HiPS"
 
 #: hips/opships.cpp:62
 #, kde-format
 msgid "Downloading HiPS sources..."
-msgstr "Téléchargement de sources « HiPS »…"
+msgstr "Téléchargement de sources HiPS…"
 
 #: hips/opships.cpp:135
 #, kde-format
 msgid "Error downloading HiPS sources: %1"
-msgstr "Erreur durant le téléchargement des sources « HiPS » : %1"
+msgstr "Erreur durant le téléchargement des sources HiPS : %1"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_4)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_HIPSNetCache)
 #: hips/opshipscache.ui:17 hips/opshipscache.ui:27
 #, kde-format
 msgid "Cache space on hard disk used to store HiPS images."
-msgstr "Espace de cache sur le disque dur utiliser pour stocker des images « HiPS »."
+msgstr "Taille du cache sur le disque dur utiliser pour enregistrer des images HiPS."
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: hips/opshipscache.ui:20
 #, kde-format
 msgid "Disk:"
-msgstr "Disque :"
+msgstr "Disque"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -23781,25 +23781,25 @@ msgstr "MB"
 #: hips/opshipscache.ui:63 hips/opshipscache.ui:73
 #, kde-format
 msgid "Cache space in RAM used to store HiPS images."
-msgstr "Espace de cache en RAM utilisé pour le stockage des images « HiPS »."
+msgstr "Taille du cache en RAM utilisé pour l'enregistrement des images HiPS."
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: hips/opshipscache.ui:66
 #, kde-format
 msgid "Memory:"
-msgstr "Mémoire :"
+msgstr "Mémoire"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_HIPSShowGrid)
 #: hips/opshipsdisplay.ui:17
 #, kde-format
 msgid "Show HiPS grid"
-msgstr "Afficher la grille « HiPS »"
+msgstr "Afficher la grille HiPS"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_HIPSPanning)
 #: hips/opshipsdisplay.ui:24
 #, kde-format
 msgid "Show HiPS While Panning"
-msgstr "Afficher « HiPS » pendant le panorama"
+msgstr "Afficher HiPS pendant le panorama"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_HIPSBiLinearInterpolation)
 #: hips/opshipsdisplay.ui:31
@@ -25313,7 +25313,7 @@ msgstr "&Arrêter le suivi"
 #: kstars.cpp:340 kstarsactions.cpp:1657 kstarsinit.cpp:263
 #, kde-format
 msgid "Switch to Star Globe View (Equatorial &Coordinates)"
-msgstr "Passer à la vue du globe céleste universel (&Coordonnées équatoriales)"
+msgstr "Passer à la vue du globe céleste (&Coordonnées équatoriales)"
 
 #: kstars.cpp:341 kstarsactions.cpp:1645 kstarsinit.cpp:264
 #, kde-format
@@ -28344,7 +28344,7 @@ msgstr "Taille par défaut des images DSS"
 #: kstars.kcfg:1322
 #, kde-format
 msgid "The default size for DSS images downloaded from the Internet."
-msgstr "La taille par défaut des images « DSS » téléchargées depuis Internet."
+msgstr "La taille par défaut des images DSS téléchargées depuis Internet."
 
 #. i18n: ectx: label, entry (DSSPadding), group (General)
 #: kstars.kcfg:1326
@@ -30438,49 +30438,49 @@ msgstr "Le portage du dernier gestionnaire Internet utilisé"
 #: kstars.kcfg:2693
 #, kde-format
 msgid "RAM cache size in MB used to store cached HIPS images."
-msgstr "Taille du cache mémoire en Mo, utilisé pour enregistrer les images « HIPS » en cache."
+msgstr "Taille du cache mémoire en Mo, utilisé pour enregistrer les images HIPS en cache."
 
 #. i18n: ectx: label, entry (HIPSNetCache), group (HIPS)
 #: kstars.kcfg:2697
 #, kde-format
 msgid "Hard disk cache size in MB used to store cached HIPS images."
-msgstr "Taille du cache disque en Mo, utilisé pour enregistrer les images « HIPS » en cache."
+msgstr "Taille du cache disque en Mo, utilisé pour enregistrer les images HIPS en cache."
 
 #. i18n: ectx: label, entry (HIPSSource), group (HIPS)
 #: kstars.kcfg:2701
 #, kde-format
 msgid "HIPS source catalog title."
-msgstr "Titre du catalogue de sources « HIPS »."
+msgstr "Titre du catalogue de sources HIPS."
 
 #. i18n: ectx: label, entry (HIPSBiLinearInterpolation), group (HIPS)
 #: kstars.kcfg:2705
 #, kde-format
 msgid "Use Bilinear interpolation when rendering HiPS images?"
-msgstr "Utiliser une interpolation bilinéaire lors du rendu des images « HiPS » ?"
+msgstr "Utiliser une interpolation bilinéaire lors du rendu des images HiPS ?"
 
 #. i18n: ectx: label, entry (HIPSShowGrid), group (HIPS)
 #: kstars.kcfg:2709
 #, kde-format
 msgid "Show HiPS grid on the sky map."
-msgstr "Afficher la grille « HiPS » sur la carte du ciel"
+msgstr "Afficher la grille HiPS sur la carte du ciel"
 
 #. i18n: ectx: label, entry (HIPSPanning), group (HIPS)
 #: kstars.kcfg:2713
 #, kde-format
 msgid "Redraw HiPS while panning."
-msgstr "Re-dessiner « HIPS » durant le panoramique."
+msgstr "Redessiner HiPS durant le panoramique."
 
 #. i18n: ectx: label, entry (ShowHIPS), group (HIPS)
 #: kstars.kcfg:2717
 #, kde-format
 msgid "Draw HiPS sources in the sky map?"
-msgstr "Dessiner les sources « HiPS » sur la carte du ciel ?"
+msgstr "Dessiner les sources HiPS sur la carte du ciel ?"
 
 #. i18n: ectx: whatsthis, entry (ShowHIPS), group (HIPS)
 #: kstars.kcfg:2718
 #, kde-format
 msgid "Toggle whether the HIPS sources are drawn in the sky map."
-msgstr "Indique si les sources « HIPS » doivent être dessinées ou non sur la carte du ciel."
+msgstr "Indique si les sources HIPS doivent être dessinées ou non sur la carte du ciel."
 
 #. i18n: ectx: label, entry (TerrainSource), group (Terrain)
 #: kstars.kcfg:2724
@@ -30498,7 +30498,7 @@ msgstr "Nom du fichier de la source de terrain."
 #: kstars.kcfg:2729
 #, kde-format
 msgid "Terrain Azimuth Correction."
-msgstr "Correction d'azimut du terrain"
+msgstr "Correction d'azimut du terrain."
 
 #. i18n: ectx: whatsthis, entry (TerrainSourceCorrectAz), group (Terrain)
 #: kstars.kcfg:2730
@@ -65441,7 +65441,7 @@ msgstr "Imagerie DSS"
 #: options/opsadvanced.ui:122
 #, kde-format
 msgid "Default DSS image size:"
-msgstr "Taille d'image « DSS » par défaut"
+msgstr "Taille d'image DSS par défaut"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: options/opsadvanced.ui:170
@@ -70474,7 +70474,7 @@ msgstr "Affichage renversé"
 #: tools/eyepiecefield.cpp:79
 #, kde-format
 msgid "Fetch DSS image"
-msgstr "Retrouver une image « DSS »"
+msgstr "Chercher une image DSS"
 
 #: tools/eyepiecefield.cpp:103
 #, kde-format
@@ -71954,7 +71954,7 @@ msgstr "Veuillez patienter pendant l'ajout des objets…"
 #: tools/observinglist.cpp:1338 tools/observinglist.cpp:1340 tools/observinglist.cpp:1350
 #, kde-format
 msgid "Customized DSS Download"
-msgstr "Téléchargement personnalisé « DSS »"
+msgstr "Téléchargement personnalisé DSS"
 
 #: tools/observinglist.cpp:1338
 #, kde-format
@@ -72240,7 +72240,7 @@ msgstr "Afficher l'image DSS"
 #: tools/obslistpopupmenu.cpp:68
 #, kde-format
 msgid "Customized DSS download"
-msgstr "Téléchargement personnalisé « DSS »"
+msgstr "Téléchargement personnalisé DSS"
 
 #: tools/obslistpopupmenu.cpp:70
 #, kde-format
