@@ -845,7 +845,7 @@ msgstr "Image désactivée"
 #, kde-format
 msgctxt "@title:window"
 msgid "XPlanet Solar System Simulator: %1"
-msgstr "Simulateur XPlanet pour le système solaire : %1"
+msgstr "Simulateur Xplanet pour le système solaire : %1"
 
 #. i18n?
 #. i18nc("Asteroid name (optional)", "Pluto");
@@ -1099,7 +1099,7 @@ msgstr "Triton"
 #: auxiliary/xplanetimageviewer.cpp:226
 #, kde-format
 msgid "This allows you to select a new object/target for XPlanet to view"
-msgstr "Permet de sélectionner un nouvel objet/cible pour un affichage avec XPlanet."
+msgstr "Permet de sélectionner un nouvel objet/cible pour un affichage avec Xplanet."
 
 #: auxiliary/xplanetimageviewer.cpp:234
 #, kde-format
@@ -1127,22 +1127,22 @@ msgstr "Lieu"
 #, kde-format
 msgid "XPlanet Latitude, Longitude, and object radius in %. This is only valid when viewing the object from the same object"
 msgstr ""
-"La latitude, la longitude et le rayon de l'objet en % pour XPlanet. Cela n'est valable que pour la vision de l'objet depuis lui-même."
+"La latitude, la longitude et le rayon de l'objet en % pour Xplanet. Cela n'est valable que pour la vision de l'objet depuis lui-même."
 
 #: auxiliary/xplanetimageviewer.cpp:259
 #, kde-format
 msgid "Reset XPlanet Location to the location specified in the XPlanet Options"
-msgstr "Réinitialiser l'emplacement XPlanet à l'emplacement spécifié dans les options de XPlanet."
+msgstr "Réinitialiser l'emplacement Xplanet à l'emplacement spécifié dans les options de Xplanet"
 
 #: auxiliary/xplanetimageviewer.cpp:269
 #, kde-format
 msgid "Hover over target and freely rotate view with mouse in XPlanet Viewer"
-msgstr "Survoler la cible et faire tourner l'affichage avec la souris dans l'afficheur XPlanet."
+msgstr "Survoler la cible et faire tourner l'affichage avec la souris dans l'afficheur Xplanet"
 
 #: auxiliary/xplanetimageviewer.cpp:278
 #, kde-format
 msgid "Recenters the XPlanet image once it has been moved"
-msgstr "Recentre une image XPlanet après mouvement."
+msgstr "Recentre une image Xplanet après mouvement"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: auxiliary/xplanetimageviewer.cpp:296 ekos/align/align.ui:323
@@ -1197,22 +1197,22 @@ msgstr "Réinitialiser la rotation à 0"
 #: auxiliary/xplanetimageviewer.cpp:379
 #, kde-format
 msgid "Bring up XPlanet Options"
-msgstr "Faire apparaître les options de XPlanet"
+msgstr "Faire apparaître les options de Xplanet"
 
 #: auxiliary/xplanetimageviewer.cpp:405
 #, kde-format
 msgid "Allows you to set the XPlanet time to a different date/time from KStars"
-msgstr "Cette option permet de définir une heure pour XPlanet différente de l'heure et de la date de KStars."
+msgstr "Cette option permet de définir une heure pour Xplanet différente de l'heure et de la date de KStars."
 
 #: auxiliary/xplanetimageviewer.cpp:414
 #, kde-format
 msgid "Sets the XPlanet time to the current KStars time"
-msgstr "Définit le temps XPlanet comme le temps courant de KStars"
+msgstr "Définit le temps Xplanet comme le temps courant de KStars"
 
 #: auxiliary/xplanetimageviewer.cpp:419
 #, kde-format
 msgid "Current XPlanet Time"
-msgstr "Temps courant XPlanet"
+msgstr "Heure Xplanet actuelle"
 
 #: auxiliary/xplanetimageviewer.cpp:422 auxiliary/xplanetimageviewer.cpp:878 auxiliary/xplanetimageviewer.cpp:1039
 #: auxiliary/xplanetimageviewer.cpp:1052
@@ -1223,12 +1223,12 @@ msgstr "%1, %2"
 #: auxiliary/xplanetimageviewer.cpp:429
 #, kde-format
 msgid "This sets the time step from the current XPlanet time, good for viewing events"
-msgstr "Ceci définit le pas de temps à partir de l'heure courante de XPlanet, adapté pour suivre des évènements."
+msgstr "Ceci définit le pas de temps à partir de l'heure courante de Xplanet, adapté pour suivre des évènements"
 
 #: auxiliary/xplanetimageviewer.cpp:435
 #, kde-format
 msgid "This sets the time step from the current XPlanet time"
-msgstr "Ceci définit un pas de temps pour le temps courant XPlanet."
+msgstr "Ceci définit un pas de temps pour l'heure actuelle de Xplanet"
 
 #: auxiliary/xplanetimageviewer.cpp:442
 #, kde-format
@@ -1285,7 +1285,7 @@ msgstr "Vous permet de lancer l'animation"
 #: auxiliary/xplanetimageviewer.cpp:471
 #, kde-format
 msgid "Resets the animation to 0 timesteps from the current XPlanet Time"
-msgstr "Ré-initialise l'animation à des pas de temps de 0, à partir de l'heure courante de XPlanet."
+msgstr "Réinitialise l'animation à des pas de temps de 0, à partir de l'heure actuelle de Xplanet"
 
 #: auxiliary/xplanetimageviewer.cpp:542
 #, kde-format
@@ -1295,17 +1295,17 @@ msgstr "Le répertoire de l'exécutable Xplanet est vide dans le panneau de conf
 #: auxiliary/xplanetimageviewer.cpp:550
 #, kde-format
 msgid "The configured Xplanet binary does not exist or is not executable."
-msgstr "L'exécutable XPlanet configuré n'existe pas ou est non exécutable."
+msgstr "L'exécutable Xplanet configuré n'existe pas ou est non exécutable."
 
 #: auxiliary/xplanetimageviewer.cpp:750
 #, kde-format
 msgid "XPlanet View: %1 from %2 on %3"
-msgstr "Affichage XPlanet: %1 de %2 sur %3"
+msgstr "Affichage Xplanet : %1 de %2 sur %3"
 
 #: auxiliary/xplanetimageviewer.cpp:752
 #, kde-format
 msgid "XPlanet View: %1 from %2 on %3 at FOV: %4 deg"
-msgstr "Affichage XPlanet: %1 de %2 sur %3 à FOV: %4 deg"
+msgstr "Affichage Xplanet : %1 de %2 sur %3 à FOV : %4 deg"
 
 #: auxiliary/xplanetimageviewer.cpp:766
 #, kde-format
@@ -1315,7 +1315,7 @@ msgstr "Impossible de charger l'image de l'objet %1."
 #: auxiliary/xplanetimageviewer.cpp:771
 #, kde-format
 msgid "XPlanet failed to generate the image for object %1 before the timeout expired."
-msgstr "Échec de XPlanet pour la génération de l'image de l'objet %1 avant la fin du délai imparti."
+msgstr "Échec de Xplanet pour la génération de l'image de l'objet %1 avant la fin du délai imparti."
 
 #: auxiliary/xplanetimageviewer.cpp:792 indi/servermanager.cpp:89
 #, kde-format
@@ -1335,7 +1335,7 @@ msgstr "Choisissez un champ de vision"
 #: auxiliary/xplanetimageviewer.cpp:1120
 #, kde-format
 msgid "FOV to render in XPlanet:"
-msgstr "FOV à restituer avec XPlanet"
+msgstr "FOV à restituer avec Xplanet"
 
 #: auxiliary/xplanetimageviewer.cpp:1244
 #, kde-format
@@ -24723,7 +24723,7 @@ msgstr "Trames"
 #: indi/recordingoptions.ui:191
 #, kde-format
 msgid "Record stream until manually stopped"
-msgstr "Enregistrer le flux jusqu'à son arrêt manuel."
+msgstr "Enregistrer le flux jusqu'à son arrêt manuel"
 
 #. i18n: ectx: property (text), widget (QRadioButton, recordUntilStoppedR)
 #: indi/recordingoptions.ui:194
@@ -24740,17 +24740,17 @@ msgstr "Nom du fichier"
 #: indi/servermanager.cpp:128
 #, kde-format
 msgid "INDI server failed to start: %1"
-msgstr "Impossible de démarrer le serveur « INDI » : %1"
+msgstr "Impossible de démarrer le serveur INDI : %1"
 
 #: indi/servermanager.cpp:204
 #, kde-format
 msgid "Driver %1 was not found on the system. Please make sure the package that provides the '%1' binary is installed."
-msgstr "Le pilote %1 est introuvable sur le système. Veuillez vous assurer que le paquet fournissant le binaire « %1 » est installé."
+msgstr "Le pilote %1 est introuvable sur le système. Veuillez vous assurer que le paquet fournissant l'exécutable de « %1 » est installé."
 
 #: indi/servermanager.cpp:427
 #, kde-format
 msgid "INDI Driver <b>%1</b> crashed. Restart it?"
-msgstr "Le pilote « INDI » <b>%1</b> s'est planté. Le re-démarrer ?"
+msgstr "Le pilote INDI <b>%1</b> s'est planté. Faut-il le redémarrer ?"
 
 #: indi/servermanager.cpp:428
 #, kde-format
@@ -25215,7 +25215,7 @@ msgstr "Simuler un affichage de l'oculaire"
 #: kspopupmenu.cpp:441
 #, kde-format
 msgid "View in XPlanet"
-msgstr "Affichage dans « XPlanet »"
+msgstr "Affichage dans Xplanet"
 
 #: kspopupmenu.cpp:446
 #, kde-format
@@ -27746,7 +27746,7 @@ msgstr "La couleur pour la boîte du résolveur FOV dans le module d'alignement 
 #: kstars.kcfg:1078 xplanet/opsxplanet.cpp:21
 #, kde-format
 msgid "Internal or External XPlanet?"
-msgstr "XPlanet interne ou externe ?"
+msgstr "Xplanet interne ou externe ?"
 
 #. i18n: ectx: label, entry (XplanetPath), group (Xplanet)
 #: kstars.kcfg:1082
@@ -27771,45 +27771,45 @@ msgstr "Utiliser un fichier FIFO"
 #: kstars.kcfg:1088
 #, kde-format
 msgid "Option to use a FIFO file instead of saving to the hard disk"
-msgstr "Option pour l'utilisation d'un fichier « FIFO » à la place d'un enregistrement sur le disque dur."
+msgstr "Option pour l'utilisation d'un fichier FIFO à la place d'un enregistrement sur le disque dur"
 
 #. i18n: ectx: label, entry (XplanetTimeout), group (Xplanet)
 #: kstars.kcfg:1092
 #, kde-format
 msgid "XPlanet timeout"
-msgstr "Attente maximale pour « XPlanet »"
+msgstr "Attente maximale pour Xplanet"
 
 #. i18n: ectx: whatsthis, entry (XplanetTimeout), group (Xplanet)
 #: kstars.kcfg:1093
 #, kde-format
 msgid "How long to wait for XPlanet before giving up in milliseconds"
-msgstr "Fixe la durée d'attente pour « XPlanet » en millisecondes avant d'abandonner."
+msgstr "Définit la durée d'attente pour Xplanet en millisecondes avant d'abandonner"
 
 #. i18n: ectx: label, entry (XplanetAnimationDelay), group (Xplanet)
 #: kstars.kcfg:1097
 #, kde-format
 msgid "XPlanet animation delay"
-msgstr "Retard de l'animation pour « XPlanet »"
+msgstr "Retard de l'animation pour Xplanet"
 
 #. i18n: ectx: whatsthis, entry (XplanetAnimationDelay), group (Xplanet)
 #: kstars.kcfg:1098
 #, kde-format
 msgid "How long to pause between frames in the XPlanet Animation"
-msgstr "Durée de pause entre les trames dans l'animation « XPlanet »."
+msgstr "Durée de pause entre les trames dans l'animation Xplanet"
 
 #. i18n: ectx: label, entry (XplanetWidth), group (Xplanet)
 #. i18n: ectx: whatsthis, entry (XplanetWidth), group (Xplanet)
 #: kstars.kcfg:1102 kstars.kcfg:1103
 #, kde-format
 msgid "Width of xplanet window"
-msgstr "Largeur de la fenêtre « xplanet »"
+msgstr "Largeur de la fenêtre Xplanet »"
 
 #. i18n: ectx: label, entry (XplanetHeight), group (Xplanet)
 #. i18n: ectx: whatsthis, entry (XplanetHeight), group (Xplanet)
 #: kstars.kcfg:1107 kstars.kcfg:1108
 #, kde-format
 msgid "Height of xplanet window"
-msgstr "Hauteur de la fenêtre « xplanet »"
+msgstr "Hauteur de la fenêtre Xplanet"
 
 #. i18n: ectx: label, entry (XplanetLabel), group (Xplanet)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_XplanetLabel)
@@ -59717,7 +59717,7 @@ msgstr "Dans le ciel cette nuit"
 #: kstarsinit.cpp:437
 #, kde-format
 msgid "XPlanet Solar System Simulator"
-msgstr "Simulateur de Système solaire « XPlanet »"
+msgstr "Simulateur de système solaire Xplanet"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, SkyCalendar)
 #: kstarsinit.cpp:439 tools/skycalendar.cpp:434 tools/skycalendar.ui:20
@@ -74513,19 +74513,19 @@ msgstr "Les fichiers « FIFO » ne sont pas pris en charge par Windows."
 #, kde-format
 msgctxt "@title:window"
 msgid "Select XPlanet Config File"
-msgstr "Sélectionner le fichier de configuration pour « XPlanet »"
+msgstr "Sélectionner le fichier de configuration de Xplanet"
 
 #: xplanet/opsxplanet.cpp:231
 #, kde-format
 msgctxt "@title:window"
 msgid "Select XPlanet Star Map File"
-msgstr "Sélectionnez un fichier de correspondance d'étoiles pour « XPlanet »"
+msgstr "Sélectionnez un fichier de correspondance d'étoiles pour Xplanet"
 
 #: xplanet/opsxplanet.cpp:244
 #, kde-format
 msgctxt "@title:window"
 msgid "Select XPlanet Arc File"
-msgstr "Sélectionner un fichier d'arc pour « XPlanet »"
+msgstr "Sélectionner un fichier d'arc pour Xplanet"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_xplanetIsInternal)
 #: xplanet/opsxplanet.ui:45
@@ -74543,7 +74543,7 @@ msgstr "Chemin de Xplanet"
 #: xplanet/opsxplanet.ui:73
 #, kde-format
 msgid "Enter here the path of xplanet binary."
-msgstr "Saisissez ici le chemin de l'exécutable « Xplanet »."
+msgstr "Saisissez ici le chemin de l'exécutable Xplanet."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabelXplanetGeometryX)
 #: xplanet/opsxplanet.ui:80
@@ -74561,7 +74561,7 @@ msgstr "Définit la largeur de la fenêtre"
 #: xplanet/opsxplanet.ui:107
 #, kde-format
 msgid "Set the width of the xplanet image"
-msgstr "Définir la largeur d'image de « XPlanet »."
+msgstr "Définir la largeur d'image de Xplanet"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_XplanetHeight)
 #: xplanet/opsxplanet.ui:130
@@ -74573,19 +74573,19 @@ msgstr "Définit la hauteur de la fenêtre"
 #: xplanet/opsxplanet.ui:133
 #, kde-format
 msgid "Set the height of the xplanet image"
-msgstr "Définir la hauteur d'image de « XPlanet »."
+msgstr "Définir la hauteur d'image de Xplanet"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_XplanetTimeout)
 #: xplanet/opsxplanet.ui:162
 #, kde-format
 msgid "The time KStars will wait for XPlanet to complete before giving up."
-msgstr "KStars attendra ce temps avant de finir pour que « XPlanet » se termine."
+msgstr "KStars attendra cette durée que Xplanet se termine avant d'abandonner."
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: xplanet/opsxplanet.ui:169
 #, kde-format
 msgid "XPlanet timeout:"
-msgstr "Attente maximale pour « XPlanet »"
+msgstr "Délai imparti pour Xplanet"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: xplanet/opsxplanet.ui:176
@@ -74614,10 +74614,10 @@ msgid ""
 "directory.  Using a FIFO file should save the hard disk from excessive reads/writes and may offer a performance enhancement.</p></"
 "body></html>"
 msgstr ""
-"<html><head/><body><p>Si cette case est cochée, XPlanet utilisera un fichier FIFO dans le répertoire /tmp pour sauvegarder "
-"temporairement les images XPlanet afin que KStars les charge et mette à jour la vue. Si cette option n'est pas cochée, XPlanet "
-"enregistrera les fichiers dans le dossier XPlanet du répertoire de données de KStars. L'utilisation d'un fichier FIFO devrait éviter "
-"au disque dur des lectures/écritures excessives et peut offrir une amélioration des performances..</p></body></html>"
+"<html><head/><body><p>Si cette case est cochée, Xplanet utilisera un fichier FIFO dans le répertoire /tmp pour sauvegarder "
+"temporairement les images Xplanet afin que KStars les charge et mette à jour la vue. Si cette option n'est pas cochée, Xplanet "
+"enregistrera les fichiers dans le dossier Xplanet du répertoire de données de KStars. L'utilisation d'un fichier FIFO devrait éviter "
+"au disque dur des lectures/écritures excessives et peut offrir une amélioration des performances.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_XplanetUseFIFO)
 #: xplanet/opsxplanet.ui:222
@@ -74736,15 +74736,15 @@ msgid ""
 "order to get the full benefits of XPlanet.  This is a good place to start: <a href=\"http://xplanet.sourceforge.net/maps.php\">http://"
 "xplanet.sourceforge.net/maps.php</a> "
 msgstr ""
-"XPlanet nécessite des cartes pour fonctionner correctement. Il n'est pas livré avec beaucoup de cartes planétaires. Vous devez en "
-"télécharger quelques-unes afin de profiter pleinement des avantages de XPlanet. Voici un bon point de départ : <a href=\"http://"
+"Xplanet nécessite des cartes pour fonctionner correctement. Il n'est pas livré avec beaucoup de cartes planétaires. Vous devez en "
+"télécharger quelques-unes afin de profiter pleinement des avantages de Xplanet. Voici un bon point de départ : <a href=\"http://"
 "xplanet.sourceforge.net/maps.php\">http://xplanet.sourceforge.net/maps.php</a>."
 
 #. i18n: ectx: property (text), widget (QPushButton, openXPlanetMaps)
 #: xplanet/opsxplanet.ui:543
 #, kde-format
 msgid "XPlanet Planet Maps"
-msgstr "Cartes des planètes de « XPlanet »"
+msgstr "Cartes des planètes de Xplanet"
 
 #. i18n: ectx: attribute (title), widget (QWidget, XplanetTabLabel)
 #: xplanet/opsxplanet.ui:566
