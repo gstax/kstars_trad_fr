@@ -1290,12 +1290,12 @@ msgstr "Réinitialise l'animation à des pas de temps de 0, à partir de l'heure
 #: auxiliary/xplanetimageviewer.cpp:542
 #, kde-format
 msgid "Xplanet binary path is empty in config panel."
-msgstr "Le répertoire de l'exécutable Xplanet est vide dans le panneau de configuration."
+msgstr "Le répertoire de l'exécutable xplanet est vide dans le panneau de configuration."
 
 #: auxiliary/xplanetimageviewer.cpp:550
 #, kde-format
 msgid "The configured Xplanet binary does not exist or is not executable."
-msgstr "L'exécutable Xplanet configuré n'existe pas ou est non exécutable."
+msgstr "L'exécutable xplanet configuré n'existe pas ou est non exécutable."
 
 #: auxiliary/xplanetimageviewer.cpp:750
 #, kde-format
@@ -8226,7 +8226,7 @@ msgstr "Exécutable du résolveur Watney"
 #, kde-format
 #| msgid "Xplanet binary path"
 msgid "Watney Program binary path"
-msgstr "Chemin de l'exécutable Xplanet"
+msgstr "Chemin de l'exécutable xplanet"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: ekos/align/opsprograms.ui:201
@@ -27752,14 +27752,14 @@ msgstr "Xplanet interne ou externe ?"
 #: kstars.kcfg:1082
 #, kde-format
 msgid "Path to xplanet binary"
-msgstr "Emplacement de l'exécutable de Xplanet"
+msgstr "Emplacement de l'exécutable xplanet"
 
 #. i18n: ectx: whatsthis, entry (XplanetPath), group (Xplanet)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_XplanetPath)
 #: kstars.kcfg:1083 xplanet/opsxplanet.ui:70
 #, kde-format
 msgid "Xplanet binary path"
-msgstr "Emplacement de l'exécutable de Xplanet"
+msgstr "Emplacement de l'exécutable xplanet"
 
 #. i18n: ectx: label, entry (XplanetUseFIFO), group (Xplanet)
 #: kstars.kcfg:1087
@@ -74543,7 +74543,7 @@ msgstr "Chemin de Xplanet"
 #: xplanet/opsxplanet.ui:73
 #, kde-format
 msgid "Enter here the path of xplanet binary."
-msgstr "Saisissez ici le chemin de l'exécutable Xplanet."
+msgstr "Saisissez ici le chemin de l'exécutable xplanet."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabelXplanetGeometryX)
 #: xplanet/opsxplanet.ui:80
