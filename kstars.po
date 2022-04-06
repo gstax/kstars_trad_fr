@@ -1290,12 +1290,12 @@ msgstr "Ré-initialise l'animation à des pas de temps de 0, à partir de l'heur
 #: auxiliary/xplanetimageviewer.cpp:542
 #, kde-format
 msgid "Xplanet binary path is empty in config panel."
-msgstr "Répertoire du binaire Xplanet est vide dans le panneau de configuration."
+msgstr "Le répertoire de l'exécutable Xplanet est vide dans le panneau de configuration."
 
 #: auxiliary/xplanetimageviewer.cpp:550
 #, kde-format
 msgid "The configured Xplanet binary does not exist or is not executable."
-msgstr "Le fichier binaire configuré de XPlanet n'existe pas ou est non exécutable."
+msgstr "L'exécutable XPlanet configuré n'existe pas ou est non exécutable."
 
 #: auxiliary/xplanetimageviewer.cpp:750
 #, kde-format
@@ -8143,7 +8143,7 @@ msgstr "Binaire de sextractor:"
 #: ekos/align/opsprograms.ui:76
 #, kde-format
 msgid "Path to Sextractor binary file"
-msgstr "Chemin vers le fichier binaire Sextractor"
+msgstr "Chemin vers le fichier exécutable Sextractor"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: ekos/align/opsprograms.ui:89
@@ -25805,27 +25805,27 @@ msgstr "Liste des alias pour les emplacements de roues à filtres."
 #: kstars.kcfg:242 kstars.kcfg:243
 #, kde-format
 msgid "PATH to indiserver binary"
-msgstr "Emplacement du binaire « indiserver »"
+msgstr "Emplacement de l'exécutable de indiserver"
 
 #. i18n: ectx: label, entry (INDIHubAgent), group (indi)
 #. i18n: ectx: whatsthis, entry (INDIHubAgent), group (indi)
 #: kstars.kcfg:247 kstars.kcfg:248
 #, kde-format
 msgid "PATH to indihub-agent binary"
-msgstr "Emplacement du binaire « indihub-agent »"
+msgstr "Emplacement de l'exécutable de indihub-agent"
 
 #. i18n: ectx: label, entry (indiServerIsInternal), group (indi)
 #: kstars.kcfg:252
 #, kde-format
 msgid "Internal or External INDI Server?"
-msgstr "Serveur « INDI » interne ou externe ?"
+msgstr "Serveur INDI interne ou externe ?"
 
 #. i18n: ectx: label, entry (indiDriversDir), group (indi)
 #. i18n: ectx: whatsthis, entry (indiDriversDir), group (indi)
 #: kstars.kcfg:256 kstars.kcfg:257
 #, kde-format
 msgid "PATH to indi drivers directory"
-msgstr "Emplacement du dossier des pilotes « indi »"
+msgstr "Emplacement du dossier des pilotes INDI"
 
 #. i18n: ectx: label, entry (indiDriversAreInternal), group (indi)
 #: kstars.kcfg:261
@@ -27746,20 +27746,20 @@ msgstr "La couleur pour la boîte du résolveur FOV dans le module d'alignement 
 #: kstars.kcfg:1078 xplanet/opsxplanet.cpp:21
 #, kde-format
 msgid "Internal or External XPlanet?"
-msgstr "« XPlanet » interne ou externe ?"
+msgstr "XPlanet interne ou externe ?"
 
 #. i18n: ectx: label, entry (XplanetPath), group (Xplanet)
 #: kstars.kcfg:1082
 #, kde-format
 msgid "Path to xplanet binary"
-msgstr "Emplacement du binaire « xplanet »"
+msgstr "Emplacement de l'exécutable de Xplanet"
 
 #. i18n: ectx: whatsthis, entry (XplanetPath), group (Xplanet)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_XplanetPath)
 #: kstars.kcfg:1083 xplanet/opsxplanet.ui:70
 #, kde-format
 msgid "Xplanet binary path"
-msgstr "Emplacement du binaire « Xplanet »"
+msgstr "Emplacement de l'exécutable de Xplanet"
 
 #. i18n: ectx: label, entry (XplanetUseFIFO), group (Xplanet)
 #: kstars.kcfg:1087
@@ -29731,13 +29731,13 @@ msgstr "Chemin du fichier de résolution astrometry.net."
 #: kstars.kcfg:2136
 #, kde-format
 msgid "astrometry.net wcsinfo binary"
-msgstr "Informations WCS binaires"
+msgstr "Exécutable wcsinfo de astrometry.net"
 
 #. i18n: ectx: whatsthis, entry (AstrometryWCSInfo), group (Align)
 #: kstars.kcfg:2137
 #, kde-format
 msgid "Path to astrometry.net wcsinfo location."
-msgstr "Chemin du fichier des informations WCS Astronomy.net."
+msgstr "Chemin du fichier des informations wcsinfo  astronomy.net."
 
 #. i18n: ectx: label, entry (AstrometryConfFile), group (Align)
 #: kstars.kcfg:2141
@@ -59049,7 +59049,7 @@ msgstr "Paramètres de l'équipement - Type et paramètres de l'équipement"
 #, kde-format
 msgid "Unable to find INDI server. Please make sure the package that provides the 'indiserver' binary is installed."
 msgstr ""
-"Il est impossible de trouver le serveur INDI. Veuillez vous assurer que le paquet fournissant le binaire « indiserver » est installé."
+"Il est impossible de trouver le serveur INDI. Veuillez vous assurer que le paquet fournissant l'exécutable pour indiserver est installé."
 
 #: kstarsactions.cpp:693
 #, kde-format
@@ -59057,13 +59057,13 @@ msgid ""
 "INDI Device Manager should only be used by advanced technical users. It cannot be used with Ekos. Do you still want to open INDI "
 "device manager?"
 msgstr ""
-"Le gestionnaire de périphériques « INDI » ne doit être utilisé que par les utilisateurs techniques avancés. Il ne peut pas être "
-"utilisé avec Ekos. Voulez-vous vraiment ouvrir le gestionnaire de périphériques « INDI » ?"
+"Le gestionnaire de périphériques INDI ne devrait être utilisé que par les utilisateurs techniques avancés. Il ne peut pas être "
+"utilisé avec Ekos. Voulez-vous vraiment ouvrir le gestionnaire de périphériques INDI ?"
 
 #: kstarsactions.cpp:696
 #, kde-format
 msgid "INDI Device Manager"
-msgstr "Gestionnaire de périphériques « INDI »"
+msgstr "Gestionnaire de périphériques INDI"
 
 #: kstarsactions.cpp:1053
 #, kde-format
@@ -74531,13 +74531,13 @@ msgstr "Sélectionner un fichier d'arc pour « XPlanet »"
 #: xplanet/opsxplanet.ui:45
 #, kde-format
 msgid "Xplanet binary is internal to the application bundle"
-msgstr "Le binaire de « Xplanet » est interne au groupe d'applications."
+msgstr "L'exécutable de Xplanet est interne au groupe d'applications."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabelXplanetPath)
 #: xplanet/opsxplanet.ui:55
 #, kde-format
 msgid "Xplanet path:"
-msgstr "Emplacement de « Xplanet »"
+msgstr "Chemin de Xplanet"
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_XplanetPath)
 #: xplanet/opsxplanet.ui:73
