@@ -2335,13 +2335,13 @@ msgstr "Texte décrivant la ressource liée"
 #: printing/pwizchartconfig.ui:161
 #, kde-format
 msgid "Description:"
-msgstr "Description:"
+msgstr "Description"
 
 #. i18n: ectx: property (text), widget (QLabel, URLLabel)
 #: dialogs/addlinkdialog.ui:73 dialogs/detaildialog.cpp:888
 #, kde-format
 msgid "URL:"
-msgstr "URL:"
+msgstr "URL"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, URLBox)
 #: dialogs/addlinkdialog.ui:94
@@ -3011,7 +3011,7 @@ msgstr "Étoile %1"
 #, kde-format
 msgctxt "number in magnitudes"
 msgid "%1 mag"
-msgstr "mag %1"
+msgstr "%1 mag"
 
 #: dialogs/detaildialog.cpp:142 kstarslite/dialogs/detaildialoglite.cpp:81 printing/detailstable.cpp:88
 #, kde-format
@@ -3460,7 +3460,7 @@ msgstr "0,0 km"
 #: dialogs/details_data_comet.ui:117 printing/detailstable.cpp:466
 #, kde-format
 msgid "Rotation period:"
-msgstr "Période de rotation:"
+msgstr "Période de rotation"
 
 #. i18n: ectx: property (text), widget (QLabel, Rotation)
 #: dialogs/details_data_comet.ui:132
@@ -3472,13 +3472,13 @@ msgstr "0,0 h"
 #: dialogs/details_data_comet.ui:159 printing/detailstable.cpp:470
 #, kde-format
 msgid "Earth MOID:"
-msgstr "DMI avec la Terre :"
+msgstr "DMI avec la Terre"
 
 #. i18n: ectx: property (text), widget (QLabel, OrbitClassLabel)
 #: dialogs/details_data_comet.ui:181 printing/detailstable.cpp:474
 #, kde-format
 msgid "Orbit class:"
-msgstr "Classe orbitale:"
+msgstr "Classe orbitale"
 
 #. i18n: ectx: property (text), widget (QLabel, OrbitClass)
 #: dialogs/details_data_comet.ui:196
@@ -3490,7 +3490,7 @@ msgstr "Classe"
 #: dialogs/details_data_comet.ui:203 printing/detailstable.cpp:478
 #, kde-format
 msgid "Albedo:"
-msgstr "Albédo:"
+msgstr "Albédo"
 
 #. i18n: ectx: property (text), widget (QLabel, Albedo)
 #. i18n: ectx: property (text), widget (QLineEdit, AltGeoBox)
@@ -3545,7 +3545,7 @@ msgstr "Liens d'informations"
 #: dialogs/details_links.ui:110 kstarslite/qml/dialogs/DetailsDialog.qml:393
 #, kde-format, kde-kuit-format
 msgid "Image Links"
-msgstr "Liens d'images"
+msgstr "Liens d'image"
 
 #. i18n: ectx: property (text), widget (QPushButton, ViewButton)
 #: dialogs/details_links.ui:143
@@ -3862,12 +3862,12 @@ msgstr "Amas globulaires"
 #: dialogs/finddialog.cpp:40 kstarslite/dialogs/finddialoglite.cpp:30 tools/conjunctions.cpp:102
 #, kde-format
 msgid "Gaseous Nebulae"
-msgstr "Nébuleuse gazeuse"
+msgstr "Nébuleuses gazeuses"
 
 #: dialogs/finddialog.cpp:41 kstarslite/dialogs/finddialoglite.cpp:31 tools/conjunctions.cpp:103
 #, kde-format
 msgid "Planetary Nebulae"
-msgstr "Nébuleuse planétaire"
+msgstr "Nébuleuses planétaires"
 
 #: dialogs/finddialog.cpp:71
 #, kde-format
@@ -3927,7 +3927,7 @@ msgstr "Nom d'objet incorrect"
 #: dialogs/finddialog.ui:49
 #, kde-format
 msgid "Filter by name:"
-msgstr "Filtrer par nom "
+msgstr "Filtrer par nom"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, showHistoryB)
 #: dialogs/finddialog.ui:75
@@ -3945,7 +3945,7 @@ msgstr "Effacer l'historique"
 #: dialogs/finddialog.ui:148
 #, kde-format
 msgid "Filter by type:"
-msgstr "Filtrer par type "
+msgstr "Filtrer par type"
 
 #. i18n: ectx: property (text), widget (QPushButton, InternetSearchButton)
 #: dialogs/finddialog.ui:170
@@ -59584,7 +59584,7 @@ msgstr "Afficher la boîte d'&heure"
 #, kde-format
 msgctxt "Show focus-related info box"
 msgid "Show &Focus Box"
-msgstr "Afficher la boîte de &focus"
+msgstr "Af&ficher la boîte de mise au point"
 
 #: kstarsinit.cpp:313
 #, kde-format
