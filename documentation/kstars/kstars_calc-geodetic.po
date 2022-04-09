@@ -57,7 +57,7 @@ msgstr "Coordonnées géodésiques"
 
 #. Tag: para
 #: calc-geodetic.docbook:22
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "The normal <link linkend=\"ai-geocoords\">geographic coordinate system</"
 #| "link> assumes that the Earth is a perfect sphere. This is nearly true, so "
@@ -93,7 +93,7 @@ msgstr ""
 
 #. Tag: para
 #: calc-geodetic.docbook:36
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "To use the module, first select which coordinates you will use as input "
 #| "in the <guilabel>Select Input Coordinates</guilabel> section. Then select "
@@ -113,12 +113,12 @@ msgid ""
 "filled in."
 msgstr ""
 "Pour utiliser le module, choisissez d'abord le système de coordonnées que "
-"vous utiliserez dans la section <guilabel>Coordonnées d'entrée</guilabel>. "
-"Sélectionnez ensuite un modèle ellipsoïdal et remplissez les coordonnées "
-"d'entrée soit dans <guilabel>Coordonnées cartésiennes</guilabel>, soit "
-"dans<guilabel>Coordonnées géographiques</guilabel>. Lorsque vous actionnez "
-"le bouton <guibutton>Convertir</guibutton>, les coordonnées correspondantes "
-"seront remplies."
+"vous utiliserez dans la section <guilabel>Sélection des coordonnées "
+"d'entrée</guilabel>. Sélectionnez ensuite un modèle ellipsoïdal et "
+"remplissez les coordonnées d'entrée soit dans <guilabel>Coordonnées "
+"cartésiennes</guilabel>, soit dans <guilabel>Coordonnées géographiques</"
+"guilabel>. Lorsque vous actionnez le bouton <guibutton>Convertir</"
+"guibutton>, les coordonnées correspondantes seront remplies."
 
 #. Tag: para
 #: calc-geodetic.docbook:48
@@ -133,3 +133,12 @@ msgid ""
 "coordinates (Cartesian or Geographic; the complement of what you chose as "
 "the input values)."
 msgstr ""
+"Le module contient un mode de traitement par lots pour convertir d'un coup "
+"plusieurs valeurs de coordonnées. Vous devrez construire un fichier d'entrée "
+"dans lequel chaque ligne contient jusqu'à trois nombres : les valeurs des "
+"coordonnées d'entrée (cartésiennes ou géodésiques). Ensuite vous devez "
+"spécifier les coordonnées utilisées en entrée et indiquer les noms des "
+"fichiers d'entrée et de sortie. Finalement, appuyez sur le bouton "
+"<guibutton>Exécuter</guibutton> pour générer le fichier de sortie qui "
+"contiendra les coordonnées converties (cartésiennes ou géodésiques ; le "
+"complément de ce que vous avez choisi pour les valeurs en entrée)."
