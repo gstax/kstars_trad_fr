@@ -14146,12 +14146,12 @@ msgstr "Échec à détecter une étoile. Réinitialiser la trame et essayer à n
 #: ekos/focus/focus.cpp:2384
 #, kde-format
 msgid "FITS received. HFR %1 @ %2. Delta (%3%)"
-msgstr "Image FITS reçue. HFR : %1 @ %2. Delta (%3%)"
+msgstr "Image FITS reçue. HFR = %1 @ %2. Delta (%3%)"
 
 #: ekos/focus/focus.cpp:2386
 #, kde-format
 msgid "FITS received. HFR %1 @ %2."
-msgstr "Image FITS reçue. HFR : %1 @ %2"
+msgstr "Image FITS reçue. HFR = %1 @ %2"
 
 #: ekos/focus/focus.cpp:2446
 #, kde-format
@@ -14191,7 +14191,7 @@ msgstr "Limite maximale de course atteinte. Mise au point interrompue."
 #: ekos/focus/focus.cpp:2720
 #, kde-format
 msgid "FITS received. HFR %1. Delta (%2%) Min HFR (%3)"
-msgstr "Image FITS reçue. HFR  : %1. Delta (%2 %) Min HFR (%3)"
+msgstr "Image FITS reçue. HFR = %1. Delta (%2 %) Min HFR (%3)"
 
 #: ekos/focus/focus.cpp:2724
 #, kde-format
@@ -17429,7 +17429,7 @@ msgstr "Le filtre %1 est connecté."
 #: ekos/manager.cpp:1593
 #, kde-format
 msgid "%1 focuser is online."
-msgstr "Le focuseur  %1 est connecté."
+msgstr "Le focuseur %1 est connecté."
 
 #: ekos/manager.cpp:1704
 #, kde-format
@@ -17445,7 +17445,7 @@ msgstr "CCD"
 #: ekos/manager.cpp:2649
 #, kde-format
 msgid "Guider port from %1 is ready."
-msgstr "Le port du guide depuis %1 est prêt."
+msgstr "Le port d'écoute du guide depuis %1 est prêt."
 
 #: ekos/manager.cpp:2847
 #, kde-format
@@ -17470,7 +17470,7 @@ msgstr "Impossible de mettre à jour l'emplacement à %1. Impossible de trouver 
 #: ekos/manager.cpp:3179
 #, kde-format
 msgid "Enabling debug logging for %1..."
-msgstr "Activation du journal débogage pour %1…"
+msgstr "Activation du journal de débogage pour %1…"
 
 #: ekos/manager.cpp:3187
 #, kde-format
