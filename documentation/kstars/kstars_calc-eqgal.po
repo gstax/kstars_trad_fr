@@ -59,7 +59,7 @@ msgstr "Coordonnées équatoriales / galactiques"
 
 #. Tag: para
 #: calc-eqgal.docbook:22
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "This module converts from <link linkend=\"equatorial\">Equatorial "
 #| "coordinates</link> to <link linkend=\"galactic\">Galactic coordinates</"
@@ -80,7 +80,7 @@ msgstr ""
 "Ce module convertit de <link linkend=\"equatorial\">Coordonnées "
 "équatoriales</link> en <link linkend=\"galactic\">Coordonnées galactiques</"
 "link> et vice versa. Remplissez les valeurs des coordonnées dans <guilabel> "
-"Coordonnées galactiques</guilabel> ou <guilabel>Coordonnées équatoriales</"
+"Coordonnées galactiques</guilabel> ou <guilabel>Coordonnées équatoriales (J2000)</"
 "guilabel>. Sinon remplissez les coordonnées équatoriales en sélectionnant un "
 "objet en utilisant la boîte de dialogue <guilabel>Chercher un objet</"
 "guilabel>. Les coordonnées complémentaires seront ensuite remplies."
