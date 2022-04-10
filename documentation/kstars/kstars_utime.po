@@ -5,19 +5,21 @@
 # Gérard Delafond <gerard@delafond.org>, 2002,2003.
 # Ludovic Grossard <grossard@kde.org>, 2003, 2004.
 # xavier <ktranslator31@yahoo.fr>, 2012.
+# steve <steve@petruzzello.ch>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_utime\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-22 00:30+0000\n"
-"PO-Revision-Date: 2012-12-08 00:20+0100\n"
-"Last-Translator: xavier <ktranslator31@yahoo.fr>\n"
+"PO-Revision-Date: 2022-04-10 08:19+0200\n"
+"Last-Translator: steve <steve@petruzzello.ch>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 20.12.0\n"
 
 #. Tag: author
 #: utime.docbook:3
@@ -54,7 +56,8 @@ msgid ""
 msgstr ""
 "L'heure affichée sur nos horloges est une mesure de la position que possède "
 "le Soleil dans le ciel. Cette heure n'est pas la même si l'observation est "
-"faite à différents endroits, puisque la Terre est ronde (voir <link linkend="
+"faite à différentes longitudes, puisque la Terre est ronde (voir <link"
+" linkend="
 "\"ai-timezones\">Fuseaux horaires</link>)."
 
 #. Tag: para
@@ -69,7 +72,7 @@ msgid ""
 "perhaps be better to think of it as <emphasis>global time</emphasis>)."
 msgstr ""
 "Cependant, il est parfois nécessaire de définir une heure globale, une heure "
-"qui est la même peu importe l'endroit où l'on se trouve sur la Terre. Un "
+"qui est la même peu importe l'endroit où l'on se trouve sur la Terre. Une "
 "façon de réaliser ce but est de choisir un endroit sur Terre et d'adopter "
 "l'heure locale de cet endroit comme l'<firstterm>heure universelle</"
 "firstterm>, abréviation <abbrev>UT</abbrev>. (notez que le terme heure "
@@ -97,8 +100,8 @@ msgstr ""
 "déterminer la longitude du vaisseau en comparant l'heure locale (qu'il "
 "mesurait à l'aide de la position du Soleil) et l'heure à la ville du port "
 "(en utilisant une horloge à bord du navire). Greenwich était l'endroit où se "
-"trouvait l'Observatoire Royal d'Angleterre, qui avait pour fonction de tenir "
-"le compte précis de l'heure afin de permettre aux navires de re-calibrer "
+"trouvait l'observatoire Royal d'Angleterre, qui avait pour fonction de tenir "
+"le compte précis de l'heure afin de permettre aux navires de recalibrer "
 "leurs horloges avant de prendre le large."
 
 #. Tag: para
@@ -109,7 +112,7 @@ msgstr "Exercice : "
 
 #. Tag: para
 #: utime.docbook:36
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Set the geographic location to <quote>Greenwich, England</quote> using "
 #| "the <guilabel>Set Location</guilabel> window (<keycombo action=\"simul"
@@ -124,7 +127,8 @@ msgid ""
 msgstr ""
 "Indiquez <quote>Greenwich, Angleterre</quote> comme endroit géographique "
 "dans la fenêtre <guilabel>Fixer le lieu géographique</guilabel> (<keycombo "
-"action=\"simul\">&Ctrl;<keycap>G</keycap></keycombo>). Notez que l'heure "
+"action=\"simul\">&Ctrl;<keycap>G</keycap></keycombo>). Veuillez noter que"
+" l'heure "
 "locale (<abbrev>LT</abbrev>) et l'heure universelle (<abbrev>UT</abbrev>) "
 "sont maintenant les mêmes."
 
@@ -141,4 +145,4 @@ msgstr ""
 "première horloge assez précise et stable pour être utilisée à bord de "
 "navires pour conserver l'heure universelle est une histoire fascinante, et "
 "racontée d'excellente façon dans le livre <quote>Longitude</quote>, par Dava "
-"Sobel. "
+"Sobel."
