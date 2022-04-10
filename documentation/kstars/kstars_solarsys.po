@@ -5,20 +5,21 @@
 # Delafond <gerard@delafond.org>, 2003, 2005.
 # xavier <ktranslator31@yahoo.fr>, 2012.
 # Xavier Besnard <xavier.besnard@neuf.fr>, 2021.
+# steve <steve@petruzzello.ch>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_solarsys\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-28 00:32+0000\n"
-"PO-Revision-Date: 2021-05-15 17:50+0200\n"
-"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
-"Language-Team: French <kde-francophone@kde.org>\n"
+"PO-Revision-Date: 2022-04-10 08:43+0200\n"
+"Last-Translator: steve <steve@petruzzello.ch>\n"
+"Language-Team: French <kde-i18n-doc@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 21.04.1\n"
+"X-Generator: Lokalize 20.12.0\n"
 
 #. Tag: title
 #: solarsys.docbook:2
@@ -52,7 +53,7 @@ msgstr "<phrase>Afficheur du système solaire</phrase>"
 
 #. Tag: para
 #: solarsys.docbook:21
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "This tool displays a model of our solar system as seen from above. The "
 #| "Sun is drawn as a yellow dot in the center of the plot, and the orbits of "
@@ -87,7 +88,8 @@ msgstr ""
 "<keycap>-</keycap>, et l'affichage peut être recentré avec les touches "
 "fléchées, ou en double-cliquant n'importe où dans la fenêtre avec la souris. "
 "Vous pouvez aussi centrer sur une planète avec les touches "
-"<keycap>0&ndash;9</keycap> (<keycap>0</keycap> est le Soleil ; <keycap>9</"
+"<keycap>&ndash;</keycap><keycap>9</keycap> (<keycap>0</keycap> est le"
+" Soleil ; <keycap>9</"
 "keycap> est Pluton). Si vous centrez sur une planète, elle sera suivie au "
 "fur et à mesure que le temps s'écoule dans l'outil."
 
@@ -103,7 +105,7 @@ msgid ""
 "date to now by pressing the <guibutton>Today</guibutton> button."
 msgstr ""
 "L'afficheur du système solaire possède sa propre horloge, indépendante de "
-"l'horloge de la fenêtre principale de &kstars;. Il y a ici, un composant "
+"l'horloge de la fenêtre principale de &kstars;. Il y a ici un composant "
 "graphique de contrôle de vitesse du temps, semblable à celui de la fenêtre "
 "principale. Cependant, sa valeur par défaut est de 1 jour (ainsi, le "
 "mouvement des planètes est visible) et il commence lorsque l'horloge est en "
