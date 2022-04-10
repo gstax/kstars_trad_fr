@@ -140,7 +140,7 @@ msgstr ""
 
 #. Tag: para
 #: skycoords.docbook:45
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "However, there is an important difference between the equatorial and "
 #| "geographic coordinate systems: the geographic system is fixed to the "
@@ -171,8 +171,8 @@ msgstr ""
 "fait, les coordonnées équatoriales ne sont pas tout à fait fixées aux "
 "étoiles. Voir <link linkend=\"ai-precession\">précession</link>. De plus, si "
 "l'on utilise l'<link linkend=\"ai-hourangle\">angle horaire</link> au lieu "
-"de l'ascension droite, le système équatorial devient fixé à la Terre, non "
-"pas aux étoiles.</para></footnote>, donc il semble se déplacer avec les "
+"de l'ascension droite, le système équatorial devient fixé à la Terre et non "
+"aux étoiles.</para></footnote>, donc il semble se déplacer avec les "
 "étoiles alors qu'en réalité c'est la Terre qui tourne et le ciel est "
 "immobile."
 
@@ -236,7 +236,7 @@ msgstr ""
 "solaire). Les coordonnées sont adaptées pour la créations des catalogues "
 "d'étoiles et les objets du ciel profond (à noter que les "
 "<firstterm>coordonnées galactique</firstterm> fonctionneront également, mais "
-"sontdifficile à utiliser à partir d'un point de vue depuis la Terre. "
+"sont difficile à utiliser à partir d'un point de vue depuis la Terre. "
 "Cependant, il y a des effets qui font varier la RA et Dec des objets au fil "
 "du temps, à savoir la <link linkend=\"ai-precession\">précession</link> et "
 "la <firstterm>nutation</firstterm>, et le <firstterm> mouvement propre </"
@@ -280,7 +280,7 @@ msgstr "<see>Coordonnées horizontales</see>"
 #: skycoords.docbook:101
 #, no-c-format
 msgid "Altitude"
-msgstr "cd Élévation"
+msgstr "Élévation"
 
 #. Tag: para
 #: skycoords.docbook:102
