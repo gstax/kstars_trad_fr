@@ -156,7 +156,7 @@ msgstr ""
 "la différence entre l'<acronym>AD</acronym> d'un objet et le temps LST "
 "indique à quelle distance du méridien l'objet se trouve. Par exemple, ce "
 "même objet au temps LST = 06:32:24 (une heure sidérale plus tard), se trouve "
-"à une heure d'ascension droite à l'Ouest de votre méridien, c'est-à-dire "
+"à une heure d'ascension droite à l'ouest de votre méridien, c'est-à-dire "
 "15 degrés. Cette distance angulaire entre l'objet et le méridien s'appelle "
 "l'<link linkend=\"ai-hourangle\">angle horaire</link> de l'objet."
 
@@ -182,7 +182,7 @@ msgstr ""
 
 #. Tag: para
 #: sidereal.docbook:69
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Point to the <link linkend=\"ai-zenith\">Zenith</link> (press <keycap>Z</"
 #| "keycap> or select <guimenuitem>Zenith</guimenuitem> from the "
@@ -201,8 +201,8 @@ msgid ""
 "same as your Local Sidereal Time."
 msgstr ""
 "Pointez sur le <link linkend=\"ai-zenith\">zénith</link> en appuyant sur la "
-"touche <keycap>Z</keycap> ou en cliquant <guimenuitem>zénith</guimenuitem> "
-"dans le menu <guimenu>Localisation</guimenu>. Le zénith est le point qui se "
+"touche <keycap>Z</keycap> ou sélectionnez <menuchoice><guimenu>Pointage</guimenu> "
+"<guimenuitem>Zénith</guimenuitem></menuchoice>. Le zénith est le point qui se "
 "trouve directement au-dessus de votre tête, et est un point qui se trouve "
 "sur votre <link linkend=\"ai-meridian\">méridien local</link>. Notez "
 "l'ascension droite du zénith : elle est égale à votre heure locale sidérale."
