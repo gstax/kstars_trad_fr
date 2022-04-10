@@ -5,19 +5,21 @@
 # Bieuzent Cyrille <bieuzent@gmail.com>, 2009.
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2012, 2013.
 # xavier <ktranslator31@yahoo.fr>, 2012.
+# steve <steve@petruzzello.ch>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_commands\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-14 00:59+0000\n"
-"PO-Revision-Date: 2013-02-03 15:23+0100\n"
-"Last-Translator: Ludovic Grossard <grossard@kde.org>\n"
+"PO-Revision-Date: 2022-04-10 06:58+0200\n"
+"Last-Translator: steve <steve@petruzzello.ch>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 20.12.0\n"
 
 #. Tag: title
 #: commands.docbook:2
@@ -46,14 +48,14 @@ msgstr "Menu"
 
 #. Tag: title
 #: commands.docbook:9
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Menu"
 msgid "File Menu"
-msgstr "Menu"
+msgstr "Menu du fichier"
 
 #. Tag: menuchoice
 #: commands.docbook:13
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo> "
 #| "</shortcut> <guimenu>File</guimenu> <guimenuitem>Open FITS...</"
@@ -63,29 +65,31 @@ msgid ""
 "shortcut> <guimenu>File</guimenu> <guimenuitem>Open Image...</guimenuitem>"
 msgstr ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo> </"
-"shortcut> <guimenu>Fichier</guimenu> <guimenuitem>Ouvrir FITS...</"
+"shortcut> <guimenu>Fichier</guimenu> <guimenuitem>Ouvrir Image…</"
 "guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:20
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Open a FITS image in the FITS Viewer tool"
 msgid "Open a image in the FITS Viewer tool."
-msgstr "Ouvre une image FITS dans l'outil d'affichage FITS"
+msgstr "Ouvre une image dans l'outil d'affichage FITS."
 
 #. Tag: menuchoice
 #: commands.docbook:25
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guimenu>Time</guimenu> <guimenuitem>Stop Clock</guimenuitem>"
 msgid "<guimenu>File</guimenu> <guimenuitem>Save Sky Image...</guimenuitem>"
-msgstr "<guimenu>Heure</guimenu> <guimenuitem>Arrêter l'horloge</guimenuitem>"
+msgstr ""
+"<guimenu>Fichier</guimenu> <guimenuitem>Enregistrer l'image du ciel…<"
+"/guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:29
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Create image on disk from current display"
 msgid "Create image on disk from current display."
-msgstr "Crée une image de l'affichage courant sur le disque"
+msgstr "Crée une image de l'affichage courant sur le disque."
 
 #. Tag: menuchoice
 #: commands.docbook:34
@@ -95,25 +99,25 @@ msgid ""
 "shortcut> <guimenu>File</guimenu> <guimenuitem>Run Script...</guimenuitem>"
 msgstr ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo> </"
-"shortcut> <guimenu>Fichier</guimenu> <guimenuitem>Exécuter un script...</"
+"shortcut> <guimenu>Fichier</guimenu> <guimenuitem>Exécuter un script…</"
 "guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:41
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Run the specified &kstars; script"
 msgid "Run the specified &kstars; script."
-msgstr "Exécute le script de &kstars; spécifié"
+msgstr "Exécute le script de &kstars; spécifié."
 
 #. Tag: menuchoice
 #: commands.docbook:46
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<guimenu>Devices</guimenu> <guimenuitem>Telescope Wizard...</guimenuitem>"
 msgid "<guimenu>File</guimenu> <guimenuitem>Printing Wizard...</guimenuitem>"
 msgstr ""
-"<guimenu>Périphériques</guimenu> <guimenuitem>Assistant de configuration de "
-"télescope...</guimenuitem>"
+"<guimenu>Fichier</guimenu> <guimenuitem>Assistant de configuration de"
+" l'impression…</guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:50
@@ -123,6 +127,10 @@ msgid ""
 "and printing the results as a good looking printout for further use or "
 "catalogization."
 msgstr ""
+"Démarre l'assistant de configuration pour l'acquisition d'images d'objets du"
+" ciel en utilisant un télescope et pour l'impression des résultats comme"
+" tirage de bonne qualité pour une utilisation ultérieure ou la constitution"
+" d'un catalogue."
 
 #. Tag: menuchoice
 #: commands.docbook:55
@@ -132,18 +140,18 @@ msgid ""
 "shortcut> <guimenu>File</guimenu> <guimenuitem>Print...</guimenuitem>"
 msgstr ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>P</keycap></keycombo> </"
-"shortcut> <guimenu>Fichier</guimenu> <guimenuitem>Imprimer...</guimenuitem>"
+"shortcut> <guimenu>Fichier</guimenu> <guimenuitem>Imprimer…</guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:62
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Send the current sky map to the printer (or to a PostScript/PDF file)"
 msgid ""
 "Send the current sky map to the printer (or to a &PostScript;/&PDF; file)."
 msgstr ""
 "Envoie la carte actuelle du ciel à l'imprimante (ou dans un fichier "
-"PostScript/PDF)"
+"&PostScript;/&PDF;)"
 
 #. Tag: menuchoice
 #: commands.docbook:68
@@ -157,17 +165,17 @@ msgstr ""
 
 #. Tag: para
 #: commands.docbook:75 commands.docbook:1327
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Quit &kstars;"
 msgid "Quit &kstars;."
-msgstr "Quitte &kstars;"
+msgstr "Quitter &kstars;"
 
 #. Tag: title
 #: commands.docbook:83
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Menu"
 msgid "Time Menu"
-msgstr "Menu"
+msgstr "Menu de l'heure"
 
 #. Tag: menuchoice
 #: commands.docbook:87
@@ -182,10 +190,10 @@ msgstr ""
 
 #. Tag: para
 #: commands.docbook:94
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Sync time to system clock"
 msgid "Sync time to system clock."
-msgstr "Synchronise avec l'horloge du PC"
+msgstr "Synchronise l'heure avec l'horloge du système"
 
 #. Tag: menuchoice
 #: commands.docbook:98
@@ -195,19 +203,19 @@ msgid ""
 "shortcut> <guimenu>Time</guimenu> <guimenuitem>Set Time...</guimenuitem>"
 msgstr ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>S</keycap></keycombo> </"
-"shortcut> <guimenu>Heure</guimenu> <guimenuitem>Régler l'heure...</"
+"shortcut> <guimenu>Heure</guimenu> <guimenuitem>Régler l'heure…</"
 "guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:105
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Set time and date"
 msgid "Set time and date."
-msgstr "Choisit l'heure et la date"
+msgstr "Régler l'heure et la date."
 
 #. Tag: menuchoice
 #: commands.docbook:108
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycap>+</keycap> </shortcut> <guimenu>View</guimenu> "
 #| "<guimenuitem>Zoom in</guimenuitem>"
@@ -215,8 +223,8 @@ msgid ""
 "<shortcut> <keycap>&lt;</keycap> </shortcut> <guimenu>Time</guimenu> "
 "<guimenuitem>Advance One Step Backward in Time</guimenuitem>"
 msgstr ""
-"<shortcut> <keycap>+</keycap> </shortcut> <guimenu>Affichage</guimenu> "
-"<guimenuitem>Zoom avant</guimenuitem>"
+"<shortcut> <keycap>&lt;</keycap> </shortcut> <guimenu>Heure</guimenu> "
+"<guimenuitem>Recule d'un pas dans le temps</guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:115
@@ -226,6 +234,9 @@ msgid ""
 "chart. The duration of the time step can be configured after pressing the "
 "little <guilabel>&gt;</guilabel> button on the &kstars; toolbar."
 msgstr ""
+"Recule d'un pas dans le temps dans la simulation de la carte du ciel de"
+" &kstars;. La durée d'un pas temporel peut être réglée en appuyant sur le"
+" petit bouton <guilabel>&lt;</guilabel> dans la barre d'outils de &kstars;."
 
 #. Tag: menuchoice
 #: commands.docbook:119
@@ -235,14 +246,14 @@ msgstr "<guimenu>Heure</guimenu> <guimenuitem>Arrêter l'horloge</guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:123
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Toggle whether time passes"
 msgid "Toggle whether time passes."
-msgstr "(dés)active le défilement du temps"
+msgstr "(dés)active le défilement du temps."
 
 #. Tag: menuchoice
 #: commands.docbook:126
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycap>+</keycap> </shortcut> <guimenu>View</guimenu> "
 #| "<guimenuitem>Zoom in</guimenuitem>"
@@ -250,8 +261,8 @@ msgid ""
 "<shortcut> <keycap>&gt;</keycap> </shortcut> <guimenu>Time</guimenu> "
 "<guimenuitem>Advance One Step Forward in Time</guimenuitem>"
 msgstr ""
-"<shortcut> <keycap>+</keycap> </shortcut> <guimenu>Affichage</guimenu> "
-"<guimenuitem>Zoom avant</guimenuitem>"
+"<shortcut> <keycap>&gt;</keycap> </shortcut> <guimenu>Heure</guimenu> "
+"<guimenuitem>Avance d'un pas dans le temps</guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:133
@@ -261,12 +272,15 @@ msgid ""
 "chart. The duration of the time step can be configured after pressing the "
 "little <guilabel>&gt;</guilabel> button on the &kstars; toolbar."
 msgstr ""
+"Avance d'un pas dans le temps dans la simulation de la carte du ciel de"
+" &kstars; La durée d'un pas temporel peut être réglée en appuyant sur le"
+" petit bouton <guilabel>&gt;</guilabel> dans la barre d'outils de &kstars;."
 
 #. Tag: title
 #: commands.docbook:141
 #, no-c-format
 msgid "Pointing Menu"
-msgstr ""
+msgstr "Menu du pointage"
 
 #. Tag: menuchoice
 #: commands.docbook:145
@@ -280,7 +294,7 @@ msgstr ""
 
 #. Tag: para
 #: commands.docbook:152
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Center the display at the <link linkend=\"ai-zenith\">Zenith</link> point "
 #| "(straight up)"
@@ -289,7 +303,7 @@ msgid ""
 "(straight up)."
 msgstr ""
 "Centre l'affichage au <link linkend=\"ai-zenith\">Zénith</link> (juste à la "
-"verticale)"
+"verticale)."
 
 #. Tag: menuchoice
 #: commands.docbook:158
@@ -303,10 +317,10 @@ msgstr ""
 
 #. Tag: para
 #: commands.docbook:165 commands.docbook:1247
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Center the display above the North point on the horizon"
 msgid "Center the display above the North point on the horizon."
-msgstr "Centre l'affichage au-dessus de l'horizon nord"
+msgstr "Centre l'affichage au-dessus de l'horizon nord."
 
 #. Tag: menuchoice
 #: commands.docbook:170
@@ -320,10 +334,10 @@ msgstr ""
 
 #. Tag: para
 #: commands.docbook:177 commands.docbook:1252
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Center the display above the East point on the horizon"
 msgid "Center the display above the East point on the horizon."
-msgstr "Centre l'affichage au-dessus de l'horizon est"
+msgstr "Centre l'affichage au-dessus de l'horizon est."
 
 #. Tag: menuchoice
 #: commands.docbook:182
@@ -337,7 +351,7 @@ msgstr ""
 
 #. Tag: para
 #: commands.docbook:189 commands.docbook:1257
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Center the display above the South point on the horizon"
 msgid "Center the display above the South point on the horizon."
 msgstr "Centre l'affichage au-dessus de l'horizon sud."
@@ -354,7 +368,7 @@ msgstr ""
 
 #. Tag: para
 #: commands.docbook:201 commands.docbook:1263
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Center the display above the West point on the horizon"
 msgid "Center the display above the West point on the horizon."
 msgstr "Centre l'affichage au-dessus de l'horizon ouest."
@@ -369,11 +383,11 @@ msgid ""
 msgstr ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>M</keycap></keycombo> </"
 "shortcut> <guimenu>Pointage</guimenu> <guimenuitem>Définir les coordonnées "
-"manuellement...</guimenuitem>"
+"manuellement…</guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:213
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Center the display on specific <link linkend=\"ai-skycoords\">sky "
 #| "coordinates</link>"
@@ -382,11 +396,11 @@ msgid ""
 "coordinates</link>."
 msgstr ""
 "Centre l'affichage sur des <link linkend=\"ai-skycoords\">coordonnées "
-"célestes</link> spécifiques"
+"célestes</link> spécifiques."
 
 #. Tag: menuchoice
 #: commands.docbook:219
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></keycombo> "
 #| "</shortcut> <guimenu>Pointing</guimenu> <guimenuitem>Find Object</"
@@ -397,12 +411,12 @@ msgid ""
 "guimenuitem>"
 msgstr ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></keycombo> </"
-"shortcut> <guimenu>Pointage</guimenu> <guimenuitem>Chercher un objet...</"
+"shortcut> <guimenu>Pointage</guimenu> <guimenuitem>Chercher un objet…</"
 "guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:226
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Locate an object by name using the <link linkend=\"findobjects\">Find "
 #| "Object Window</link>"
@@ -411,11 +425,11 @@ msgid ""
 "Window</link>."
 msgstr ""
 "Localise un objet par son nom en utilisant la <link linkend=\"findobjects"
-"\">fenêtre de recherche d'objet</link>"
+"\">fenêtre de recherche d'objet</link>."
 
 #. Tag: menuchoice
 #: commands.docbook:231
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>T</keycap></keycombo> "
 #| "</shortcut> <guimenu>Pointing</guimenu> <guimenuitem>Stop Tracking</"
@@ -426,7 +440,7 @@ msgid ""
 "guimenuitem>"
 msgstr ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>T</keycap></keycombo> </"
-"shortcut> <guimenu>Pointage</guimenu> <guimenuitem>Arrêter le suivi</"
+"shortcut> <guimenu>Pointage</guimenu> <guimenuitem>Démarrer/Arrêter le suivi</"
 "guimenuitem>"
 
 #. Tag: para
@@ -441,14 +455,14 @@ msgstr ""
 
 #. Tag: title
 #: commands.docbook:247
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Menu"
 msgid "View Menu"
-msgstr "Menu"
+msgstr "Menu affichage"
 
 #. Tag: menuchoice
 #: commands.docbook:251
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>+</keycap></keycombo></"
 #| "shortcut> <guimenu>View</guimenu> <guimenuitem>Zoom in</guimenuitem>"
@@ -461,14 +475,14 @@ msgstr ""
 
 #. Tag: para
 #: commands.docbook:256
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Zooms view in"
 msgid "Zooms view in."
-msgstr "Se rapproche"
+msgstr "Zoom avant de l'affichage."
 
 #. Tag: menuchoice
 #: commands.docbook:260
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>-</keycap></keycombo></"
 #| "shortcut> <guimenu>View</guimenu> <guimenuitem>Zoom out</guimenuitem>"
@@ -482,10 +496,10 @@ msgstr ""
 
 #. Tag: para
 #: commands.docbook:265
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Zooms view out"
 msgid "Zooms view out."
-msgstr "S'éloigne"
+msgstr "Zoom arrière de l'affichage."
 
 #. Tag: menuchoice
 #: commands.docbook:269
@@ -500,10 +514,10 @@ msgstr ""
 
 #. Tag: para
 #: commands.docbook:276 commands.docbook:1213
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Restore the default Zoom setting"
 msgid "Restore the default Zoom setting."
-msgstr "Restaure le réglage par défaut du zoom"
+msgstr "Restaure le réglage par défaut du zoom."
 
 #. Tag: menuchoice
 #: commands.docbook:280
@@ -515,14 +529,14 @@ msgid ""
 msgstr ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;&Maj;<keycap>Z</keycap></"
 "keycombo> </shortcut> <guimenu>Affichage</guimenu> <guimenuitem>Zoomer à la "
-"dimension angulaire...</guimenuitem>"
+"dimension angulaire…</guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:287 commands.docbook:1218
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Zoom to specified field-of-view angle"
 msgid "Zoom to specified field-of-view angle."
-msgstr "Fait un zoom à l'angle de champ de vision spécifié"
+msgstr "Fait un zoom à l'angle de champ de vision spécifié."
 
 #. Tag: menuchoice
 #: commands.docbook:291
@@ -538,14 +552,14 @@ msgstr ""
 
 #. Tag: para
 #: commands.docbook:298 commands.docbook:1342
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Toggle full-screen mode"
 msgid "Toggle full-screen mode."
-msgstr "(Dés)active le mode plein écran"
+msgstr "(Dés)active le mode plein écran."
 
 #. Tag: menuchoice
 #: commands.docbook:302
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycap>Space</keycap> </shortcut> <guimenu>View</guimenu> "
 #| "<guimenuitem>Switch to star globe view / Switch to horizontal view</"
@@ -554,12 +568,13 @@ msgid ""
 "<shortcut> &Space; </shortcut> <guimenu>View</guimenu> <guimenuitem>Switch "
 "to Star Globe View / Switch to Horizontal View</guimenuitem>"
 msgstr ""
-"<shortcut> <keycap>Espace</keycap> </shortcut> <guimenu>Affichage</guimenu> "
-"<guimenuitem>Coordonnées azimutales / coordonnées équatoriales</guimenuitem>"
+"<shortcut> &Space; </shortcut> <guimenu>Affichage</guimenu> "
+"<guimenuitem>Basculer vers affichage Coordonnées azimutales / Affichage"
+" Coordonnées équatoriales</guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:309 commands.docbook:1358
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Toggle between the <link linkend=\"horizontal\">Horizontal</link> and "
 #| "<link linkend=\"equatorial\">Equatorial</link> <link linkend=\"ai-"
@@ -571,11 +586,11 @@ msgid ""
 msgstr ""
 "Bascule entre les <link linkend=\"ai-skycoords\">systèmes de coordonnées</"
 "link> <link linkend=\"horizontal\">azimutales</link> et <link linkend="
-"\"equatorial\">équatoriales</link>"
+"\"equatorial\">équatoriales</link>."
 
 #. Tag: menuchoice
 #: commands.docbook:316
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>+</keycap></keycombo></"
 #| "shortcut> <guimenu>View</guimenu> <guimenuitem>Zoom in</guimenuitem>"
@@ -584,36 +599,38 @@ msgid ""
 "keycombo> </shortcut> <guimenu>View</guimenu> <guimenuitem>Show Terrain</"
 "guimenuitem>"
 msgstr ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>+</keycap></keycombo> </"
-"shortcut> <guimenu>Affichage</guimenu> <guimenuitem>Zoom avant</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>T</keycap><"
+"/keycombo> </"
+"shortcut> <guimenu>Affichage</guimenu> <guimenuitem>Montrer Terrain<"
+"/guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:323
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Open the <link linkend=\"tool-obsplanner\">Observation Planner</link> tool"
 msgid "Toggle the <link linkend=\"terrain\">terrain image</link> visibility."
 msgstr ""
-"Ouvre l'outil de <link linkend=\"tool-obsplanner\">liste d'observations</"
-"link>"
+"Bascule la visibilité de <link linkend=\"tool-obsplanner\">l'image du"
+" terrain</"
+"link>."
 
 #. Tag: menuchoice
 #: commands.docbook:329
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guimenu>Settings</guimenu> <guisubmenu>Color Schemes</guisubmenu>"
 msgid "<guimenu>View</guimenu> <guisubmenu>Projection</guisubmenu>"
-msgstr ""
-"<guimenu>Configuration</guimenu> <guisubmenu>Modèles de couleurs</guisubmenu>"
+msgstr "<guimenu>Affichage</guimenu> <guisubmenu>de la projection</guisubmenu>"
 
 #. Tag: para
 #: commands.docbook:330
 #, no-c-format
 msgid "A submenu that lists all projections."
-msgstr ""
+msgstr "Un sous-menu qui liste toutes les projections."
 
 #. Tag: menuchoice
 #: commands.docbook:333
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycap>Z</keycap> </shortcut> <guimenu>Pointing</guimenu> "
 #| "<guimenuitem>Zenith</guimenuitem>"
@@ -621,8 +638,8 @@ msgid ""
 "<shortcut><keycap>F5</keycap></shortcut><guimenuitem>Lambert Azimuthal Equal-"
 "area</guimenuitem>"
 msgstr ""
-"<shortcut> <keycap>Z</keycap></shortcut> <guimenu>Pointage</guimenu> "
-"<guimenuitem>Zénith</guimenuitem>"
+"<shortcut> <keycap>F5</keycap></shortcut> <guimenuitem>Azimutale équivalente"
+" de Lambert</guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:334 commands.docbook:1371
@@ -632,10 +649,13 @@ msgid ""
 "Lambert_azimuthal_equal-area_projection\">Lambert azimuthal equal-area</"
 "ulink> projection."
 msgstr ""
+"Passer l'affichage de la carte du ciel à la projection <ulink"
+" url=\"https://fr.wikipedia.org/wiki/Projection_azimutale_%C3"
+"%A9quivalente_de_Lambert\">azimutale équivalente de Lambert</ulink>."
 
 #. Tag: menuchoice
 #: commands.docbook:338
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycap>E</keycap> </shortcut> <guimenu>Pointing</guimenu> "
 #| "<guimenuitem>East</guimenuitem>"
@@ -643,8 +663,8 @@ msgid ""
 "<shortcut><keycap>F6</keycap></shortcut><guimenuitem>Azimuthal Equidistant</"
 "guimenuitem>"
 msgstr ""
-"<shortcut> <keycap>E</keycap> </shortcut> <guimenu>Pointage</guimenu> "
-"<guimenuitem>Est</guimenuitem>"
+"<shortcut> <keycap>F6</keycap> </shortcut> <guimenuitem>Azimutale"
+" équidistante</guimenuitem> "
 
 #. Tag: para
 #: commands.docbook:339 commands.docbook:1378
@@ -653,10 +673,13 @@ msgid ""
 "Switch sky chart view to the <ulink url=\"https://en.wikipedia.org/wiki/"
 "Azimuthal_equidistant_projection\">azimuthal equidistant</ulink> projection."
 msgstr ""
+"Passer l'affichage de la carte du ciel à la projection <ulink"
+" url=\"https://en.wikipedia.org/wiki/Azimuthal_equidistant_projection\""
+">azimutale équidistante</ulink>."
 
 #. Tag: menuchoice
 #: commands.docbook:343
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycap>N</keycap> </shortcut> <guimenu>Pointing</guimenu> "
 #| "<guimenuitem>North</guimenuitem>"
@@ -664,8 +687,8 @@ msgid ""
 "<shortcut><keycap>F7</keycap></shortcut><guimenuitem>Orthographic</"
 "guimenuitem>"
 msgstr ""
-"<shortcut> <keycap>N</keycap></shortcut> <guimenu>Pointage</guimenu> "
-"<guimenuitem>Nord</guimenuitem>"
+"<shortcut> <keycap>F7</keycap></shortcut> <guimenuitem>Orthographique<"
+"/guimenuitem> "
 
 #. Tag: para
 #: commands.docbook:344 commands.docbook:1385
@@ -674,10 +697,13 @@ msgid ""
 "Switch sky chart view to the <ulink url=\"https://en.wikipedia.org/wiki/"
 "Orthographic_projection_(cartography)\">orthographic</ulink> projection."
 msgstr ""
+"Passer l'affichage de la carte du ciel à la projection <ulink"
+" url=\"https://fr.wikipedia.org/wiki/Projection_orthographique\""
+">orthographique</ulink>."
 
 #. Tag: menuchoice
 #: commands.docbook:348
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycap>E</keycap> </shortcut> <guimenu>Pointing</guimenu> "
 #| "<guimenuitem>East</guimenuitem>"
@@ -685,8 +711,8 @@ msgid ""
 "<shortcut><keycap>F8</keycap></shortcut><guimenuitem>Equirectangular</"
 "guimenuitem>"
 msgstr ""
-"<shortcut> <keycap>E</keycap> </shortcut> <guimenu>Pointage</guimenu> "
-"<guimenuitem>Est</guimenuitem>"
+"<shortcut> <keycap>F8</keycap> </shortcut> <guimenuitem>Cylindrique"
+" équidistante</guimenuitem> "
 
 #. Tag: para
 #: commands.docbook:349 commands.docbook:1390
@@ -695,10 +721,13 @@ msgid ""
 "Switch sky chart view to the <ulink url=\"https://en.wikipedia.org/wiki/"
 "Equirectangular_projection\">equirectangular</ulink> projection."
 msgstr ""
+"Passer l'affichage de la carte du ciel à la projection <ulink"
+" url=\"https://fr.wikipedia.org/wiki/Projection_cylindrique_%C3"
+"%A9quidistante\">cylindrique équidistante</ulink>."
 
 #. Tag: menuchoice
 #: commands.docbook:353
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycap>N</keycap> </shortcut> <guimenu>Pointing</guimenu> "
 #| "<guimenuitem>North</guimenuitem>"
@@ -706,8 +735,8 @@ msgid ""
 "<shortcut><keycap>F9</keycap></shortcut><guimenuitem>Stereographic</"
 "guimenuitem>"
 msgstr ""
-"<shortcut> <keycap>N</keycap></shortcut> <guimenu>Pointage</guimenu> "
-"<guimenuitem>Nord</guimenuitem>"
+"<shortcut> <keycap>F9</keycap></shortcut> <guimenuitem>Stéréographique<"
+"/guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:354 commands.docbook:1397
@@ -716,18 +745,21 @@ msgid ""
 "Switch sky chart view to the <ulink url=\"https://en.wikipedia.org/wiki/"
 "Stereographic_projection\">stereographic</ulink> projection."
 msgstr ""
+"Passer l'affichage de la carte du ciel à la projection <ulink"
+" url=\"https://fr.wikipedia.org/wiki/Projection_st%C3%A9r%C3%A9ographique\""
+">stéréographique</ulink>."
 
 #. Tag: menuchoice
 #: commands.docbook:358
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycap>-</keycap> </shortcut> <guimenu>View</guimenu> "
 #| "<guimenuitem>Zoom out</guimenuitem>"
 msgid ""
 "<shortcut><keycap>F10</keycap></shortcut><guimenuitem>Gnomonic</guimenuitem>"
 msgstr ""
-"<shortcut> <keycap>-</keycap> </shortcut> <guimenu>Affichage</guimenu> "
-"<guimenuitem>Zoom arrière</guimenuitem>"
+"<shortcut> <keycap>F10</keycap> </shortcut> <guimenuitem>Gnomonique<"
+"/guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:359 commands.docbook:1404
@@ -736,13 +768,17 @@ msgid ""
 "Switch sky chart view to the <ulink url=\"https://en.wikipedia.org/wiki/"
 "Gnomonic_projection\">gnomonic</ulink> projection."
 msgstr ""
+"Passer l'affichage de la carte du ciel à la projection <ulink"
+" url=\"https://fr.wikipedia.org/wiki/Projection_gnomonique\"></ulink>"
 
 #. Tag: menuchoice
 #: commands.docbook:365
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guimenu>Time</guimenu> <guimenuitem>Stop Clock</guimenuitem>"
 msgid "<guimenu>View</guimenu> <guisubmenu>HiPS All Sky Overlay</guisubmenu>"
-msgstr "<guimenu>Heure</guimenu> <guimenuitem>Arrêter l'horloge</guimenuitem>"
+msgstr ""
+"<guimenu>Afficher</guimenu> <guisubmenu>Superposition HiPS du ciel entier<"
+"/guisubmenu>"
 
 #. Tag: para
 #: commands.docbook:369
@@ -752,16 +788,19 @@ msgid ""
 "Settings...</guimenuitem> menu item for configure the <link linkend=\"hips"
 "\">HiPS</link> sky overlays."
 msgstr ""
+"Un sous-menu qui liste les superpositions activées. Sélectionner le menu <"
+"guimenuitem>Réglages HiPS…</guimenuitem> pour configurer les superpositions"
+" du ciel <link linkend=\"hips\">HiPS</link>."
 
 #. Tag: title
 #: commands.docbook:376
 #, no-c-format
 msgid "Tools Menu"
-msgstr ""
+msgstr "Menu Outils"
 
 #. Tag: menuchoice
 #: commands.docbook:380
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo> "
 #| "</shortcut> <guimenu>Tools</guimenu> <guimenuitem>Calculator...</"
@@ -771,8 +810,9 @@ msgid ""
 "keycombo> </shortcut> <guimenu>Tools</guimenu> <guimenuitem>Calculator</"
 "guimenuitem>"
 msgstr ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo> </"
-"shortcut> <guimenu>Outils</guimenu> <guimenuitem>Calculatrice...</"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>C</keycap><"
+"/keycombo> </"
+"shortcut> <guimenu>Outils</guimenu> <guimenuitem>Calculatrice…</"
 "guimenuitem>"
 
 #. Tag: para
@@ -789,21 +829,20 @@ msgstr ""
 
 #. Tag: menuchoice
 #: commands.docbook:399
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guimenu>Settings</guimenu> <guisubmenu>Color Schemes</guisubmenu>"
 msgid "<guimenu>Tools</guimenu> <guisubmenu>Devices</guisubmenu>"
-msgstr ""
-"<guimenu>Configuration</guimenu> <guisubmenu>Modèles de couleurs</guisubmenu>"
+msgstr "<guimenu>Outil</guimenu> <guisubmenu>Périphériques</guisubmenu>"
 
 #. Tag: para
 #: commands.docbook:400
 #, no-c-format
 msgid "A submenu for control supported devices."
-msgstr ""
+msgstr "Un sous-menu pour contrôler les périphériques gérés."
 
 #. Tag: menuchoice
 #: commands.docbook:404
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>P</keycap></keycombo> "
 #| "</shortcut> <guimenu>File</guimenu> <guimenuitem>Print...</guimenuitem>"
@@ -811,8 +850,8 @@ msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>0</keycap></keycombo></"
 "shortcut> <guimenuitem>List your Equipment...</guimenuitem>"
 msgstr ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>P</keycap></keycombo> </"
-"shortcut> <guimenu>Fichier</guimenu> <guimenuitem>Imprimer...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>0</keycap></keycombo> </"
+"shortcut> <guimenuitem>Liste de votre équipement…</guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:405
@@ -826,10 +865,17 @@ msgid ""
 "New...</guibutton> button. You can also save or remove an equipment from the "
 "list."
 msgstr ""
+"Permet de définir les caractéristiques de votre équipement pour les fichiers"
+" journaux d'observations. La fenêtre Configurer équipement est divisée en"
+" quatre onglets : <guilabel>Télescope</guilabel>, <guilabel>Oculaire<"
+"/guilabel>, <guilabel>Objectif</guilabel> et <guilabel>Filtre</guilabel>."
+" Vous pouvez ajouter un nouvel équipement en complétant ses caractéristiques"
+" et en appuyant sur le bouton <guibutton>Ajouter nouveau…</guibutton>. Vous"
+" pouvez également enregistrer ou supprimer un équipement depuis la liste."
 
 #. Tag: menuchoice
 #: commands.docbook:415
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>P</keycap></keycombo> "
 #| "</shortcut> <guimenu>File</guimenu> <guimenuitem>Print...</guimenuitem>"
@@ -837,8 +883,8 @@ msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>D</keycap></keycombo></"
 "shortcut> <guimenuitem>Device Manager...</guimenuitem>"
 msgstr ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>P</keycap></keycombo> </"
-"shortcut> <guimenu>Fichier</guimenu> <guimenuitem>Imprimer...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>D</keycap></keycombo> </"
+"shortcut> <guimenuitem>Gestionnaire de périphériques…</guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:416
@@ -855,19 +901,19 @@ msgstr ""
 #: commands.docbook:420
 #, no-c-format
 msgid "Custom Drivers..."
-msgstr ""
+msgstr "Pilotes personnalisés…"
 
 #. Tag: para
 #: commands.docbook:421
 #, no-c-format
 msgid "A dialog to customize the drivers."
-msgstr ""
+msgstr "Une boîte de dialogues pour personnaliser les pilotes…"
 
 #. Tag: guimenuitem
 #: commands.docbook:425
 #, no-c-format
 msgid "INDI Control Panel..."
-msgstr ""
+msgstr "Panneau de contrôle INDI…"
 
 #. Tag: para
 #: commands.docbook:426
@@ -876,15 +922,15 @@ msgid ""
 "Opens up INDI Control Panel, which allows you to control all the features "
 "supported by a device."
 msgstr ""
-"Ouvre le Tableau de bord INDI, qui vous permet de contrôler toutes les "
+"Ouvre le panneau de contrôle INDI, qui vous permet de contrôler toutes les "
 "fonctions gérées par un matériel."
 
 #. Tag: menuchoice
 #: commands.docbook:432
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guimenu>Time</guimenu> <guimenuitem>Stop Clock</guimenuitem>"
 msgid "<guimenu>Tools</guimenu> <guimenuitem>Sky Calendar</guimenuitem>"
-msgstr "<guimenu>Heure</guimenu> <guimenuitem>Arrêter l'horloge</guimenuitem>"
+msgstr "<guimenu>Outils</guimenu> <guimenuitem>Agenda du ciel</guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:437
@@ -894,10 +940,13 @@ msgid ""
 "observations of Solar System planets by giving graphical data on sets and "
 "rises of these objects."
 msgstr ""
+"Ouvre l'outil de <guilabel>Agenda du ciel</guilabel> qui vous permet de"
+" planifier les observations des planètes du système solaire en donnant des"
+" données graphiques sur le lever et le coucher de ces objets."
 
 #. Tag: menuchoice
 #: commands.docbook:445
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>A</keycap></keycombo> "
 #| "</shortcut> <guimenu>Tools</guimenu> <guimenuitem>Altitude vs. Time...</"
@@ -908,7 +957,7 @@ msgid ""
 "guimenuitem>"
 msgstr ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>A</keycap></keycombo> </"
-"shortcut> <guimenu>Outils</guimenu> <guimenuitem>Élévation selon l'heure...</"
+"shortcut> <guimenu>Outils</guimenu> <guimenuitem>Élévation selon l'heure</"
 "guimenuitem>"
 
 #. Tag: para
@@ -926,7 +975,7 @@ msgstr ""
 
 #. Tag: menuchoice
 #: commands.docbook:462
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>U</keycap></keycombo> "
 #| "</shortcut> <guimenu>Tools</guimenu> <guimenuitem>What's Up Tonight...</"
@@ -937,12 +986,12 @@ msgid ""
 "guimenuitem>"
 msgstr ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>U</keycap></keycombo> </"
-"shortcut> <guimenu>Outils</guimenu> <guimenuitem>Dans le ciel cette nuit...</"
+"shortcut> <guimenu>Outils</guimenu> <guimenuitem>Dans le ciel cette nuit</"
 "guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:470
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Opens the <link linkend=\"tool-whatsup\">What's Up Tonight</link> Tool, "
 #| "which presents a summary of the objects which are observable from your "
@@ -958,7 +1007,7 @@ msgstr ""
 
 #. Tag: menuchoice
 #: commands.docbook:479
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>U</keycap></keycombo> "
 #| "</shortcut> <guimenu>Tools</guimenu> <guimenuitem>What's Up Tonight...</"
@@ -968,8 +1017,8 @@ msgid ""
 "shortcut> <guimenu>Tools</guimenu> <guimenuitem>What's Interesting...</"
 "guimenuitem>"
 msgstr ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>U</keycap></keycombo> </"
-"shortcut> <guimenu>Outils</guimenu> <guimenuitem>Dans le ciel cette nuit...</"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>W</keycap></keycombo> </"
+"shortcut> <guimenu>Outils</guimenu> <guimenuitem>Digne d'intérêt…</"
 "guimenuitem>"
 
 #. Tag: para
@@ -980,10 +1029,13 @@ msgid ""
 "be informed about the most interesting observations that can be made from "
 "your current location using the given equipment."
 msgstr ""
+"Ouvre l'outil <guilabel>Digne d'intérêt</guilabel> qui vous informe sur les"
+" observations les plus intéressantes que vous pouvez faire depuis votre"
+" emplacement et avec un équipement donné."
 
 #. Tag: menuchoice
 #: commands.docbook:496
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Y</keycap></keycombo> "
 #| "</shortcut> <guimenu>Tools</guimenu> <guimenuitem>Solar System...</"
@@ -993,8 +1045,9 @@ msgid ""
 "shortcut> <guimenu>Tools</guimenu> <guimenuitem>XPlanet Solar System "
 "Simulator</guimenuitem>"
 msgstr ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Y</keycap></keycombo> </"
-"shortcut> <guimenu>Outils</guimenu> <guimenuitem>Système solaire...</"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>X</keycap></keycombo> </"
+"shortcut> <guimenu>Outils</guimenu> <guimenuitem>Simulateur de système"
+" solaire XPlanet</"
 "guimenuitem>"
 
 #. Tag: para
@@ -1004,10 +1057,12 @@ msgid ""
 "This menu item will appear only if you have installed the "
 "<application>XPlanet</application> optional package."
 msgstr ""
+"Ce menu n'apparaît que si le programme optionnel <application>XPlanet<"
+"/application> est installé."
 
 #. Tag: menuchoice
 #: commands.docbook:511
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>B</keycap></keycombo> "
 #| "</shortcut> <guimenu>Tools</guimenu> <guimenuitem>Script Builder...</"
@@ -1017,7 +1072,7 @@ msgid ""
 "shortcut> <guimenu>Tools</guimenu> <guimenuitem>Script Builder</guimenuitem>"
 msgstr ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>B</keycap></keycombo> </"
-"shortcut> <guimenu>Outils</guimenu> <guimenuitem>Constructeur de scripts...</"
+"shortcut> <guimenu>Outils</guimenu> <guimenuitem>Constructeur de scripts…</"
 "guimenuitem>"
 
 #. Tag: para
@@ -1033,7 +1088,7 @@ msgstr ""
 
 #. Tag: menuchoice
 #: commands.docbook:527
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Y</keycap></keycombo> "
 #| "</shortcut> <guimenu>Tools</guimenu> <guimenuitem>Solar System...</"
@@ -1043,7 +1098,7 @@ msgid ""
 "shortcut> <guimenu>Tools</guimenu> <guimenuitem>Solar System</guimenuitem>"
 msgstr ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Y</keycap></keycombo> </"
-"shortcut> <guimenu>Outils</guimenu> <guimenuitem>Système solaire...</"
+"shortcut> <guimenu>Outils</guimenu> <guimenuitem>Système solaire</"
 "guimenuitem>"
 
 #. Tag: para
@@ -1054,12 +1109,12 @@ msgid ""
 "displays an overhead view of the solar system on the current simulation date."
 msgstr ""
 "Ouvre l'<link linkend=\"tool-solarsys\">afficheur du système solaire</link>, "
-"qui affiche une vue d'en haut du système solaire à la date de simulation "
+"qui affiche une vue aérienne du système solaire à la date de simulation "
 "courante."
 
 #. Tag: menuchoice
 #: commands.docbook:544
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Y</keycap></keycombo> "
 #| "</shortcut> <guimenu>Tools</guimenu> <guimenuitem>Solar System...</"
@@ -1068,8 +1123,8 @@ msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>K</keycap></keycombo> </"
 "shortcut> <guimenu>Tools</guimenu> <guimenuitem>Ekos</guimenuitem>"
 msgstr ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Y</keycap></keycombo> </"
-"shortcut> <guimenu>Outils</guimenu> <guimenuitem>Système solaire...</"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>K</keycap></keycombo> </"
+"shortcut> <guimenu>Outils</guimenu> <guimenuitem>Ekos</"
 "guimenuitem>"
 
 #. Tag: para
@@ -1080,10 +1135,14 @@ msgid ""
 "for astrophotography. With Ekos, you can align and guide your telescope, "
 "focus your CCD, and capture images using an easy intuitive interface."
 msgstr ""
+"Ouvre Ekos, un outil complet et puissant pour l'astrophotographie. Avec Ekos"
+" vous pouvez aligner et guider votre télescope, faire la mise au point de"
+" votre CCD et procéder à l'acquisition d'images en utilisant une interface"
+" facile et intuitive."
 
 #. Tag: menuchoice
 #: commands.docbook:561
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>J</keycap></keycombo> "
 #| "</shortcut> <guimenu>Tools</guimenu> <guimenuitem>Jupiter's Moons...</"
@@ -1093,7 +1152,7 @@ msgid ""
 "shortcut> <guimenu>Tools</guimenu> <guimenuitem>Jupiter's Moons</guimenuitem>"
 msgstr ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>J</keycap></keycombo> </"
-"shortcut> <guimenu>Outils</guimenu> <guimenuitem>Lunes de Jupiter...</"
+"shortcut> <guimenu>Outils</guimenu> <guimenuitem>Lunes de Jupiter…</"
 "guimenuitem>"
 
 #. Tag: para
@@ -1104,16 +1163,16 @@ msgid ""
 "displays the positions of Jupiter's four brightest moons as a function of "
 "time."
 msgstr ""
-"Ouvre l'<link linkend=\"tool-jmoons\">Outil des Lunes de Jupiter</link>, qui "
+"Ouvre l'outil <link linkend=\"tool-jmoons\">Lunes de Jupiter</link>, qui "
 "affiche la position des quatre Lunes de Jupiter les plus brillantes en "
 "fonction du temps."
 
 #. Tag: menuchoice
 #: commands.docbook:578
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guimenu>Time</guimenu> <guimenuitem>Stop Clock</guimenuitem>"
 msgid "<guimenu>Tools</guimenu> <guimenuitem>Flags</guimenuitem>"
-msgstr "<guimenu>Heure</guimenu> <guimenuitem>Arrêter l'horloge</guimenuitem>"
+msgstr "<guimenu>Outils</guimenu> <guimenuitem>Drapeaux</guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:583
@@ -1122,17 +1181,20 @@ msgid ""
 "Opens the <guilabel>Flag manager</guilabel> Tool, which can be used to "
 "assign color labels and icons to the given positions on the sky chart."
 msgstr ""
+"Ouvre l'outil de <guilabel>gestionnaires de drapeaux</guilabel> qui permet"
+" d'assigner des étiquettes de couleurs et des icônes à des positions données"
+" sur la carte du ciel."
 
 #. Tag: title
 #: commands.docbook:594
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Menu"
 msgid "Data Menu"
-msgstr "Menu"
+msgstr "Menu Données"
 
 #. Tag: menuchoice
 #: commands.docbook:598
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>D</keycap></keycombo> "
 #| "</shortcut> <guimenu>File</guimenu> <guimenuitem>Download New Data...</"
@@ -1142,9 +1204,9 @@ msgid ""
 "shortcut> <guimenu>Data</guimenu> <guimenuitem>Download New Data...</"
 "guimenuitem>"
 msgstr ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>D</keycap></keycombo> </"
-"shortcut> <guimenu>Fichier</guimenu> <guimenuitem>Télécharger de nouvelles "
-"données...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo> </"
+"shortcut> <guimenu>Données</guimenu> <guimenuitem>Télécharger de nouvelles "
+"données…</guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:600
@@ -1158,14 +1220,16 @@ msgstr ""
 
 #. Tag: menuchoice
 #: commands.docbook:605
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guimenu>Time</guimenu> <guimenuitem>Stop Clock</guimenuitem>"
 msgid "<guimenu>Data</guimenu> <guimenuitem>Manage DSO Catalogs</guimenuitem>"
-msgstr "<guimenu>Heure</guimenu> <guimenuitem>Arrêter l'horloge</guimenuitem>"
+msgstr ""
+"<guimenu>Données</guimenu> <guimenuitem>Gérer les catalogues du ciel profond"
+" (CP)</guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:607
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Open the <guilabel>Get Hot New Stuff</guilabel> dialog to download "
 #| "additional data for &kstars;."
@@ -1173,16 +1237,15 @@ msgid ""
 "Open the <guilabel>DSO Catalogs</guilabel> dialog for manage the catalog "
 "database of &kstars;."
 msgstr ""
-"Ouvre la boîte de dialogue <guilabel>Obtenir les nouveautés</guilabel> pour "
-"télécharger de nouvelles données pour &kstars;."
+"Ouvre la boîte de dialogue <guilabel>Catalogue CP</guilabel> pour "
+"gérer la base de données des catalogues de &kstars;."
 
 #. Tag: menuchoice
 #: commands.docbook:612
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guimenu>Settings</guimenu> <guisubmenu>Color Schemes</guisubmenu>"
 msgid "<guimenu>Data</guimenu> <guisubmenu>Updates</guisubmenu>"
-msgstr ""
-"<guimenu>Configuration</guimenu> <guisubmenu>Modèles de couleurs</guisubmenu>"
+msgstr "<guimenu>Données</guimenu> <guisubmenu>Mises à jour</guisubmenu>"
 
 #. Tag: para
 #: commands.docbook:613
@@ -1194,6 +1257,12 @@ msgid ""
 "only. If you use &kstars; from different account you should download them "
 "for every account separately."
 msgstr ""
+"Ce sous-menu permet de mettre à jour à partir d'Internet les données d'objets"
+" divers, nommément les astéroïdes, les comètes, les éléments orbitaux de"
+" satellites ainsi que les données des supernovae récentes. Les données seront"
+" téléchargées uniquement pour le compte de l'utilisateur courant. Si vous"
+" utilisez &kstars; sur plusieurs comptes, vous devrez télécharger ces données"
+" pour chaque compte séparément."
 
 #. Tag: para
 #: commands.docbook:618
@@ -1203,16 +1272,18 @@ msgid ""
 "You can switch the download off using <guilabel>Supernovae</guilabel> page "
 "of &kstars; Settings window."
 msgstr ""
+"Vous pouvez désactiver le téléchargement en utilisant la page <guilabel"
+">Supernovae</guilabel> de &kstars;."
 
 #. Tag: title
 #: commands.docbook:626
 #, no-c-format
 msgid "Observation Menu"
-msgstr ""
+msgstr "Menu Observation"
 
 #. Tag: menuchoice
 #: commands.docbook:630
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>T</keycap></keycombo> "
 #| "</shortcut> <guimenu>Pointing</guimenu> <guimenuitem>Stop Tracking</"
@@ -1222,24 +1293,26 @@ msgid ""
 "shortcut> <guimenu>Observation</guimenu> <guimenuitem>Observation Planner</"
 "guimenuitem>"
 msgstr ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>T</keycap></keycombo> </"
-"shortcut> <guimenu>Pointage</guimenu> <guimenuitem>Arrêter le suivi</"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>L</keycap></keycombo> </"
+"shortcut> <guimenu>Observation</guimenu> <guimenuitem>Ordonnanceur"
+" d'observation </"
 "guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:635
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Open the <link linkend=\"tool-obsplanner\">Observation Planner</link> tool"
 msgid ""
 "Open the <link linkend=\"tool-obsplanner\">Observation Planner</link> tool."
 msgstr ""
-"Ouvre l'outil de <link linkend=\"tool-obsplanner\">liste d'observations</"
+"Ouvre l'outil d'<link linkend=\"tool-obsplanner\">ordonnanceur"
+" d'observations</"
 "link>"
 
 #. Tag: menuchoice
 #: commands.docbook:639
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo> "
 #| "</shortcut> <guimenu>Time</guimenu> <guimenuitem>Set Time to Now</"
@@ -1249,25 +1322,27 @@ msgid ""
 "shortcut> <guimenu>Observation</guimenu> <guimenuitem>Execute the Session "
 "Plan...</guimenuitem>"
 msgstr ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo> </"
-"shortcut> <guimenu>Heure</guimenu> <guimenuitem>Régler l'heure à maintenant</"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>2</keycap></keycombo> </"
+"shortcut> <guimenu>Observation</guimenu> <guimenuitem>Exécuter le plan de"
+" session…</"
 "guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:644
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Open the <link linkend=\"tool-obsplanner\">Observation Planner</link> tool"
 msgid ""
 "Opens <link linkend=\"tool-obsplanner\">session plan wizard</link> or "
 "execute the planned session."
 msgstr ""
-"Ouvre l'outil de <link linkend=\"tool-obsplanner\">liste d'observations</"
-"link>"
+"Ouvre l'outil d'<link linkend=\"tool-obsplanner\">assistant de plan de"
+" session</"
+"link> ou exécute la session planifiée."
 
 #. Tag: menuchoice
 #: commands.docbook:649
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<guimenu>Settings</guimenu> <guimenuitem>Configure &kstars;...</"
 #| "guimenuitem>"
@@ -1275,73 +1350,73 @@ msgid ""
 "<guimenu>Observation</guimenu> <guimenuitem>Polaris Hour Angle...</"
 "guimenuitem>"
 msgstr ""
-"<guimenu>Configuration</guimenu> <guimenuitem>Configurer &kstars;...</"
+"<guimenu>Observation</guimenu> <guimenuitem>Angle horaire polaire…</"
 "guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:653
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Open the <guilabel>Download Extra Data</guilabel> tool"
 msgid "Opens the <guilabel>Polaris Hour Angle</guilabel> tool."
-msgstr ""
-"Ouvre l'outil <guilabel>Téléchargement de données supplémentaires</guilabel>"
+msgstr "Ouvre l'outil <guilabel>Angle horaire polaire</guilabel>."
 
 #. Tag: title
 #: commands.docbook:659
 #, no-c-format
 msgid "Settings Menu"
-msgstr ""
+msgstr "Menu Configurations"
 
 #. Tag: menuchoice
 #: commands.docbook:663
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guimenu>Settings</guimenu> <guisubmenu>Color Schemes</guisubmenu>"
 msgid "<guimenu>Settings</guimenu> <guisubmenu>Info Boxes</guisubmenu>"
 msgstr ""
-"<guimenu>Configuration</guimenu> <guisubmenu>Modèles de couleurs</guisubmenu>"
+"<guimenu>Configurations</guimenu> <guisubmenu>Boîtes d'informations<"
+"/guisubmenu>"
 
 #. Tag: para
 #: commands.docbook:667
 #, no-c-format
 msgid "A submenu that lists the different info boxes."
-msgstr ""
+msgstr "Un sous-menu qui liste les différentes boîtes d'informations."
 
 #. Tag: guimenuitem
 #: commands.docbook:671
 #, no-c-format
 msgid "Show Info Boxes"
-msgstr ""
+msgstr "Affiche les boîtes d'informations"
 
 #. Tag: para
 #: commands.docbook:672
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Toggle display of all three Info Boxes"
 msgid "Toggle display of all three Info Boxes:"
-msgstr "Inverse l'affichage des trois boîtes d'information"
+msgstr "Inverse l'affichage des trois boîtes d'informations :"
 
 #. Tag: guiicon
 #: commands.docbook:674
 #, no-c-format
 msgid "Time Box"
-msgstr ""
+msgstr "Boîte Heure"
 
 #. Tag: guiicon
 #: commands.docbook:675
 #, no-c-format
 msgid "Focus Box"
-msgstr ""
+msgstr "Boîte Mise au point"
 
 #. Tag: guiicon
 #: commands.docbook:676
 #, no-c-format
 msgid "Location Box"
-msgstr ""
+msgstr "Boîte Emplacement"
 
 #. Tag: guimenuitem
 #: commands.docbook:682
 #, no-c-format
 msgid "Show Time Box"
-msgstr ""
+msgstr "Boîte Afficher l'heure"
 
 #. Tag: para
 #: commands.docbook:683
@@ -1352,12 +1427,16 @@ msgid ""
 "Time Info Box by holding the left-click mouse button and dragging it to the "
 "new position."
 msgstr ""
+"Bascule l'affichage de la boîte d'informations de l'heure. Par défaut, cette"
+" boîte est placée en haut à gauche de l'écran. Vous pouvez modifier sa"
+" position en gardant le bouton gauche de la souris appuyé et en la déplaçant"
+" à sa nouvelle position."
 
 #. Tag: guimenuitem
 #: commands.docbook:690
 #, no-c-format
 msgid "Show Focus Box"
-msgstr ""
+msgstr "Affiche la boîte de mise au point"
 
 #. Tag: para
 #: commands.docbook:691
@@ -1368,12 +1447,16 @@ msgid ""
 "Focus Info Box by holding the left-click mouse button and dragging it to the "
 "new position."
 msgstr ""
+"Bascule l'affichage de la boîte d'information de la mise au point. Par"
+" défaut, cette boîte est placée en haut à droite de l'écran. Vous pouvez"
+" modifier sa position en gardant le bouton gauche de la souris appuyé et en"
+" la déplaçant vers sa nouvelle position."
 
 #. Tag: guimenuitem
 #: commands.docbook:698
 #, no-c-format
 msgid "Show Location Box"
-msgstr ""
+msgstr "Affiche la boîte d'emplacement"
 
 #. Tag: para
 #: commands.docbook:699
@@ -1384,26 +1467,31 @@ msgid ""
 "position of Location Info Box by holding the left-click mouse button and "
 "dragging it to the new position."
 msgstr ""
+"Bascule la boîte d'information de l'emplacement. Par défaut, cette boîte est"
+" placée en haut à droite de l'écran. Vous pouvez modifier sa position en"
+" gardant le bouton gauche de la souris appuyé et en la déplaçant vers sa"
+" nouvelle position."
 
 #. Tag: menuchoice
 #: commands.docbook:708
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guimenu>Settings</guimenu> <guisubmenu>Color Schemes</guisubmenu>"
 msgid "<guimenu>Settings</guimenu> <guisubmenu>Toolbars Shown</guisubmenu>"
 msgstr ""
-"<guimenu>Configuration</guimenu> <guisubmenu>Modèles de couleurs</guisubmenu>"
+"<guimenu>Configurations</guimenu> <guisubmenu>Barre d'outils affichées<"
+"/guisubmenu>"
 
 #. Tag: para
 #: commands.docbook:712
 #, no-c-format
 msgid "A submenu that lists the different toolbars."
-msgstr ""
+msgstr "Un sous-menu qui liste les différentes barres d'outils."
 
 #. Tag: guimenuitem
 #: commands.docbook:716
 #, no-c-format
 msgid "Main Toolbar"
-msgstr ""
+msgstr "Barre d'outils principale"
 
 #. Tag: para
 #: commands.docbook:717
@@ -1422,12 +1510,26 @@ msgid ""
 "Toolbar can be configured using the <menuchoice><guimenu>Settings</guimenu> "
 "<guimenuitem>Configure Toolbars...</guimenuitem></menuchoice> menu item."
 msgstr ""
+"Bascule l'affichage de la barre d'outils principale. Par défaut, la barre"
+" d'outils principale fournit des raccourcis utiles pour contrôler la vue de"
+" la carte du ciel (&ie; Zoom avant et Zoom arrière) et aussi pour contrôler"
+" l'horloge de &kstars;. Vous pouvez Démarrer/Arrêter l'horloge, avancer ou"
+" reculer d'un pas temporel et aussi facilement régler l'heure utilisée par"
+" &kstars;. Le pas temporel correspond au taux de temps dans la simulation."
+" Pour régler le pas de temps, vous pouvez utiliser la boîte des unités de"
+" temps et celle des valeurs d'un pas temporel. La barre d'outils principales"
+" permet également de rapidement ouvrir les fenêtres <guilabel>Trouver un"
+" objet</guilabel>, <guilabel>Régler l'horloge</guilabel> ou encore <guilabel"
+">Régler l'emplacement géographique</guilabel>. Cette barre d'outils"
+" principales peut être configurée en utilisant l'élément de menu <menuchoice"
+"><guimenuitem>Barres d'outils affichées</guimenuitem> de <guimenu"
+">Configurations</guimenu></menuchoice>."
 
 #. Tag: guimenuitem
 #: commands.docbook:731
 #, no-c-format
 msgid "View Toolbar"
-msgstr ""
+msgstr "Barre d'outils Affichage"
 
 #. Tag: para
 #: commands.docbook:732
@@ -1444,12 +1546,24 @@ msgid ""
 "Toolbar can be configured using the <menuchoice><guimenu>Settings</guimenu> "
 "<guimenuitem>Configure Toolbars...</guimenuitem></menuchoice> menu item."
 msgstr ""
+"Bascule l'affichage de la barre d'outils Affichage. Elle contrôle quels"
+" objects sont dessinés sur la carte du ciel de &kstars; (étoiles, objets du"
+" ciel profond, objets du système solaire, supernovae ou satellites) ainsi que"
+" l'information au sujet des constellations à inclure (les lignes de"
+" constellations et leur limite, leur nom et leur type de culture céleste)."
+" Elle fournit également des raccourcis d'icône pour afficher la Voie Lactée"
+" (de couleur grise foncée), pour afficher les grilles équatoriales et"
+" azimutales et aussi pour afficher un terrain opaque vert. Veuillez noter que"
+" lorsque l'horizon est désactivé, les effets de réfaction sont temporairement"
+" désactivés. Cette barre d'outil peut être configurée en utilisant l'élément"
+" de menu <menuchoice><guimenuitem>Barres d'outils affichées</guimenuitem> de"
+" <guimenu>Configurations</guimenu></menuchoice>."
 
 #. Tag: guimenuitem
 #: commands.docbook:744
 #, no-c-format
 msgid "INDI Toolbar"
-msgstr ""
+msgstr "Barre d'outil INDI"
 
 #. Tag: para
 #: commands.docbook:745
@@ -1458,40 +1572,42 @@ msgid ""
 "Toggle display of the INDI Toolbar. By default, INDI Toolbar contains five "
 "shortcut icons:"
 msgstr ""
+"Bascule l'affichage de la barre d'outil INDI. Par défaut, la barre d'outil"
+" INDI contient cinq icônes de raccourci :"
 
 #. Tag: guiicon
 #: commands.docbook:748
 #, no-c-format
 msgid "Toggle Ekos"
-msgstr ""
+msgstr "Bascule la barre d'outil Ekos"
 
 #. Tag: guiicon
 #: commands.docbook:749
 #, no-c-format
 msgid "Toggle INDI Control Panel"
-msgstr ""
+msgstr "Bascule le panneau de contrôle INDI"
 
 #. Tag: guiicon
 #: commands.docbook:750
 #, no-c-format
 msgid "Toggle FITS Viewer"
-msgstr ""
+msgstr "Bascule l'afficheur FITS"
 
 #. Tag: guiicon
 #: commands.docbook:751
 #, no-c-format
 msgid "Toggle Sensor FOV"
-msgstr ""
+msgstr "Bascule le capteur FOV"
 
 #. Tag: guiicon
 #: commands.docbook:752
 #, no-c-format
 msgid "Toggle Lock Telescope Center"
-msgstr ""
+msgstr "Bascule le verrouillage du centre du télescope"
 
 #. Tag: para
 #: commands.docbook:754
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<guimenu>Settings</guimenu> <guimenuitem>Configure &kstars;...</"
 #| "guimenuitem>"
@@ -1500,6 +1616,9 @@ msgid ""
 "guimenu> <guimenuitem>Configure Toolbars...</guimenuitem></menuchoice> menu "
 "item."
 msgstr ""
+"La barre d'outil INDI peut être configurée en utilisant <menuchoise><guimenu"
+">Configurations</guimenu> <guimenuitem>Barres d'outils affichées</guimenuitem"
+"></menuchoice>."
 "<guimenu>Configuration</guimenu> <guimenuitem>Configurer &kstars;...</"
 "guimenuitem>"
 
@@ -1507,7 +1626,7 @@ msgstr ""
 #: commands.docbook:759
 #, no-c-format
 msgid "Telescope Toolbar"
-msgstr ""
+msgstr "Barre d'outil Télescope"
 
 #. Tag: para
 #: commands.docbook:760
@@ -1516,53 +1635,55 @@ msgid ""
 "Toggle display of the Telescope Toolbar. By default, Telescope Toolbar "
 "contains seven shortcut icons:"
 msgstr ""
+"Bascule l'affichage de la barre d'outil Télescope. Par défaut cette barre"
+" d'outil contient sept icônes de raccourci :"
 
 #. Tag: guiicon
 #: commands.docbook:763
 #, no-c-format
 msgid "Toggle Mount Control Panel"
-msgstr ""
+msgstr "Bascule le panneau de contrôle de la monture"
 
 #. Tag: guiicon
 #: commands.docbook:764
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Toggle tracking mode"
 msgid "Toggle Telescope Tracking"
-msgstr "Inverser le mode de suivi."
+msgstr "Bascule le suivi du télescope"
 
 #. Tag: guiicon
 #: commands.docbook:765
 #, no-c-format
 msgid "Slew telescope to the focused object"
-msgstr ""
+msgstr "Pivote le télescope vers l'objet centré"
 
 #. Tag: guiicon
 #: commands.docbook:766
 #, no-c-format
 msgid "Sync telescope to the focused object"
-msgstr ""
+msgstr "Synchronise le télescope vers l'objet centré"
 
 #. Tag: guiicon
 #: commands.docbook:767
 #, no-c-format
 msgid "Park telescope"
-msgstr ""
+msgstr "Parquer le télescope"
 
 #. Tag: guiicon
 #: commands.docbook:768
 #, no-c-format
 msgid "Unpark telescope"
-msgstr ""
+msgstr "Déparquer le télescope"
 
 #. Tag: guiicon
 #: commands.docbook:769
 #, no-c-format
 msgid "Abort telescope motions"
-msgstr ""
+msgstr "Annuler le mouvement du télescope"
 
 #. Tag: para
 #: commands.docbook:771
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<guimenu>Settings</guimenu> <guimenuitem>Configure &kstars;...</"
 #| "guimenuitem>"
@@ -1571,14 +1692,16 @@ msgid ""
 "guimenu> <guimenuitem>Configure Toolbars...</guimenuitem></menuchoice> menu "
 "item."
 msgstr ""
-"<guimenu>Configuration</guimenu> <guimenuitem>Configurer &kstars;...</"
-"guimenuitem>"
+"La barre d'outil du télescope peut être configurée en utilisant <menuchoice><"
+"guimenu>Configurations</guimenu> <guimenuitem>Affichage des barres d'outils…<"
+"/guimenutiem></"
+"menuchoice>"
 
 #. Tag: guimenuitem
 #: commands.docbook:776
 #, no-c-format
 msgid "Dome Toolbar"
-msgstr ""
+msgstr "Barre d'outil du dôme"
 
 #. Tag: para
 #: commands.docbook:777
@@ -1587,22 +1710,24 @@ msgid ""
 "Toggle display of the Dome Toolbar. By default, Dome Toolbar contains two "
 "shortcut icons:"
 msgstr ""
+"Bascule l'affichage de la barre d'outil du dôme. Par défaut cette barre"
+" d'outil contient deux icônes de raccourci :"
 
 #. Tag: guiicon
 #: commands.docbook:780
 #, no-c-format
 msgid "Park dome"
-msgstr ""
+msgstr "Parquer le dôme"
 
 #. Tag: guiicon
 #: commands.docbook:781
 #, no-c-format
 msgid "Unpark dome"
-msgstr ""
+msgstr "Déparquer le dôme"
 
 #. Tag: para
 #: commands.docbook:783
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<guimenu>Settings</guimenu> <guimenuitem>Configure &kstars;...</"
 #| "guimenuitem>"
@@ -1611,29 +1736,30 @@ msgid ""
 "guimenu> <guimenuitem>Configure Toolbars...</guimenuitem></menuchoice> menu "
 "item."
 msgstr ""
-"<guimenu>Configuration</guimenu> <guimenuitem>Configurer &kstars;...</"
-"guimenuitem>"
+"La barre d'outils du dôme peut être configurée en utilisant <menuchoice><"
+"guimenu>Configuration</guimenu> <guimenuitem>Affichage des barres d'outils…</"
+"guimenuitem></menuchoice>."
 
 #. Tag: menuchoice
 #: commands.docbook:791
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guimenu>Settings</guimenu> <guisubmenu>FOV Symbols</guisubmenu>"
 msgid "<guimenu>Settings</guimenu> <guisubmenu>Statusbar</guisubmenu>"
 msgstr ""
-"<guimenu>Configuration</guimenu> <guisubmenu>Indicateurs de champ de vision</"
+"<guimenu>Configuration</guimenu> <guisubmenu>Barre d'état</"
 "guisubmenu>"
 
 #. Tag: para
 #: commands.docbook:795
 #, no-c-format
 msgid "A submenu that lists the different statusbars."
-msgstr ""
+msgstr "Un sous-menu qui liste the différentes barres d'état."
 
 #. Tag: guimenuitem
 #: commands.docbook:799
 #, no-c-format
 msgid "Show Statusbar"
-msgstr ""
+msgstr "Affiche la barre d'état"
 
 #. Tag: para
 #: commands.docbook:800
@@ -1642,52 +1768,54 @@ msgid ""
 "Toggle display of the Statusbar. It is located in the bottom of &kstars; "
 "window."
 msgstr ""
+"Bascule l'affichage de la barre d'état. Elle est placée en bas de la fenêtre"
+" de &kstars;."
 
 #. Tag: guimenuitem
 #: commands.docbook:804
 #, no-c-format
 msgid "Show Az/Alt Field"
-msgstr ""
+msgstr "Affiche le champ Az/Alt"
 
 #. Tag: para
 #: commands.docbook:805
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Toggle display of the mouse cursor's horizontal coordinates in the "
 #| "statusbar"
 msgid ""
 "Toggle display of the mouse cursor's horizontal coordinates in the statusbar."
 msgstr ""
-"(Dés)active l'affichage des coordonnées azimutales du pointeur de la souris "
-"dans la barre d'état"
+"Bascule l'affichage des coordonnées azimutales du pointeur de la souris "
+"dans la barre d'état."
 
 #. Tag: guimenuitem
 #: commands.docbook:809
 #, no-c-format
 msgid "Show RA/Dec Field"
-msgstr ""
+msgstr "Affiche le champ AD/DEC"
 
 #. Tag: para
 #: commands.docbook:810
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Toggle display of the mouse cursor's horizontal coordinates in the "
 #| "statusbar"
 msgid ""
 "Toggle display of the mouse cursor's equatorial coordinates in the statusbar."
 msgstr ""
-"(Dés)active l'affichage des coordonnées azimutales du pointeur de la souris "
-"dans la barre d'état"
+"Bascule l'affichage des coordonnées équatoriales du pointeur de la souris "
+"dans la barre d'état."
 
 #. Tag: guimenuitem
 #: commands.docbook:814
 #, no-c-format
 msgid "Show J2000.0 RA/Dec Field"
-msgstr ""
+msgstr "Affiche le champ J2000.0 AD/DEC"
 
 #. Tag: para
 #: commands.docbook:815
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Toggle display of the mouse cursor's horizontal coordinates in the "
 #| "statusbar"
@@ -1695,22 +1823,22 @@ msgid ""
 "Toggle display of the mouse cursor's equatorial J2000 coordinates in the "
 "statusbar."
 msgstr ""
-"(Dés)active l'affichage des coordonnées azimutales du pointeur de la souris "
-"dans la barre d'état"
+"Bascule l'affichage des coordonnées équatoriales J2000 du pointeur de la"
+" souris "
+"dans la barre d'état."
 
 #. Tag: menuchoice
 #: commands.docbook:821
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guimenu>Settings</guimenu> <guisubmenu>Color Schemes</guisubmenu>"
 msgid "<guimenu>Settings</guimenu> <guisubmenu>Themes</guisubmenu>"
-msgstr ""
-"<guimenu>Configuration</guimenu> <guisubmenu>Modèles de couleurs</guisubmenu>"
+msgstr "<guimenu>Configuration</guimenu> <guisubmenu>Thèmes</guisubmenu>"
 
 #. Tag: para
 #: commands.docbook:825
 #, no-c-format
 msgid "Lists the available Theme items."
-msgstr ""
+msgstr "Liste les différents thèmes disponibles."
 
 #. Tag: menuchoice
 #: commands.docbook:829
@@ -1721,7 +1849,7 @@ msgstr ""
 
 #. Tag: para
 #: commands.docbook:833
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "This submenu contains all of the defined color schemes, including your "
 #| "custom schemes. Select any item to set that color scheme."
@@ -1730,8 +1858,10 @@ msgid ""
 "Night Vision and Moonless Night. It can also include your custom color "
 "schemes. Select any item to set that color scheme."
 msgstr ""
-"Ce sous-menu contient tous les modèles de couleurs, y compris vos modèles de "
-"couleurs personnalisés. En sélectionnant un élément, le modèle de couleur se "
+"Ce sous-menu contient tous les modèles de couleurs : Classique, Carte"
+" d'étoiles, Vision nocturne et Nuit sans Lune. Elle peut aussi inclure vos"
+" propres modèles de "
+"couleurs. En sélectionnant un élément, le modèle de couleur se "
 "met en place."
 
 #. Tag: menuchoice
@@ -1744,7 +1874,7 @@ msgstr ""
 
 #. Tag: para
 #: commands.docbook:843
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "This submenu lists the available field-of-view (FOV) Symbols. The FOV "
 #| "Symbol is drawn at the center of the display. You may choose from the "
@@ -1763,19 +1893,21 @@ msgstr ""
 "Cette liste de sous-menu répertorie les indicateurs de champ de vision (FOV) "
 "disponibles. L'indicateur de champ de vision est dessiné au centre de "
 "l'affichage. Vous pouvez choisir depuis la liste des indicateurs prédéfinis "
-"(Pas d'indicateur, jumelles 7x35, Un degré, ou LST WFPC2), ou vous pouvez "
+"(Jumelles 7x35, Telrad, Un degré, HST WFPC2 ou 30m à 1,3cm) en cochant leur"
+" case ou vous pouvez n'en utiliser aucun en décochant toutes les cases. Vous"
+" pouvez "
 "définir vos propres indicateurs (ou modifier les indicateurs existants) en "
 "utilisant l'élément <guimenuitem>Modifier les indicateurs de champ de "
-"vision...</guimenuitem>."
+"vision…</guimenuitem>."
 
 #. Tag: menuchoice
 #: commands.docbook:852
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guimenu>Settings</guimenu> <guisubmenu>Toolbars Shown</guisubmenu>"
 msgid ""
 "<guimenu>Settings</guimenu> <guisubmenu>Artificial Horizon...</guisubmenu>"
 msgstr ""
-"<guimenu>Configuration</guimenu> <guisubmenu>Barres d'outils affichées</"
+"<guimenu>Configuration</guimenu> <guisubmenu>Horizon artificiel…</"
 "guisubmenu>"
 
 #. Tag: para
@@ -1813,10 +1945,43 @@ msgid ""
 "them such that next time when you will open &kstars; they will be "
 "automatically marked on the skymap."
 msgstr ""
+"Si vous sélectionnez ce sous-menu, alors la fenêtre du gestionnaire d'horizon"
+" artificiel s'ouvrira. Il permet de définir une ou plusieurs zones sur la"
+" carte du ciel qui sont masquées depuis votre emplacement actuel (&ie; par"
+" des grands arbres ou des immeubles). La fenêtre est séparée en deux"
+" parties : sur la partie gauche se trouve la sections Régions et sur la"
+" partie droite la sections Points. Vous pouvez ajouter une zone en appuyant"
+" sur le bouton <guibutton>+</guibutton> (ajouter Région) ou vous pouvez en"
+" supprimer une en la choisissant dans la liste et appuyer sur le bouton <"
+"guibutton>-</guibutton> (Supprimer Région). Afin de dessiner une région, il"
+" faut définir une liste de points qui l'entoure. Vous pouvez ajouter un"
+" nouveau point en cliquant sur le bouton <guibutton>+</guibutton> (Ajouter"
+" Point) de la section de droite. Vous pouvez également supprimer un point"
+" sélectionné de la liste de points ou effacer tous les points. Il y a deux"
+" manières d'ajouter un point à une région sélectionnée : en indiquant"
+" manuellement les coordonnées du point ou en sélectionnant le point de la"
+" carte du ciel après avoir cliqué  sur le bouton <guibutton>Sélectionner"
+" Point</guibuttton>. Veuillez noter que chaque point est décrit par des"
+" coordonnées horizontales : Az (Azimuth) et Alt (Altitude). Si vous souhaitez"
+" modifier les coordonnées d'un point, il suffit de double-cliquer sur sa"
+" valeur Az/Alt dans la boîte et indiquer de nouvelles valeurs. Le premier et"
+" le dernier point doivent se trouver sur l'horizon. Les polygones doivent"
+" être fermés pour être considérer comme des régions valides. Le gestionnaire"
+" d'horizon artificiel fournit un moyen simple pour renommer vos régions. Par"
+" défaut, les régions sont nommées : <quote>Région </quote> plus un index"
+" (&ie; <quote>Région 1</quote> ou <quote>Région 2</quote>). Pour renommer une"
+" région, il suffit de double-cliquer sur son nom et vous serez invité à"
+" entrer un nouveau nom. Vous pouvez aussi contrôler l'affichage de ces"
+" régions sur la carte du ciel par un simple clic sur la case à cocher en face"
+" de chaque région. Après avoir défini vos régions, vous pouvez les appliquer"
+" en cliquant sur le bouton <guibutton>Appliquer</guibutton>. Si vous"
+" souhaitez réutiliser ces régions dans une session ultérieure, vous pouvez"
+" les sauver afin qu'au prochain lancement de &kstars; elles seront"
+" automatiquement affichées sur la carte du ciel."
 
 #. Tag: menuchoice
 #: commands.docbook:880
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>G</keycap></keycombo> "
 #| "</shortcut> <guimenu>Settings</guimenu> <guimenuitem>Geographic...</"
@@ -1826,9 +1991,9 @@ msgid ""
 "shortcut> <guimenu>Settings</guimenu> <guimenuitem>Manage Observer...</"
 "guimenuitem>"
 msgstr ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>G</keycap></keycombo> </"
-"shortcut> <guimenu>Configuration</guimenu> <guimenuitem> Emplacement "
-"géographique...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>1</keycap></keycombo> </"
+"shortcut> <guimenu>Configurations</guimenu> <guimenuitem> Gérer"
+" l'observateur…</guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:885
@@ -1844,10 +2009,18 @@ msgid ""
 "empty. You can also remove an observer from the list using <guibutton>-</"
 "guibutton> (Remove observer) button."
 msgstr ""
+"En sélectionnant ceci vous ouvrirez la fenêtre de gestion d'observateur qui"
+" permet de répertorier les observateurs qui utilisent &kstars; sur cette"
+" ordinateur. Vous pouvez entrer un nouvel observateur en complétant les"
+" champs requis : <guilabel>Nom</guilabel> et <guilabele>Prénom</guilabel> et"
+" valider en cliquant sur le bouton <guibutton>+</guibutton> (Ajouter"
+" Observateur). Veuillez noter que le champ <guilabel>Contact</guilabel> est"
+" facultatif. Vous pouvez supprimer un observateur en cliquant sur le bouton <"
+"guibutton>-</guibutton> (Supprimer Observateur)."
 
 #. Tag: menuchoice
 #: commands.docbook:895
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>G</keycap></keycombo> "
 #| "</shortcut> <guimenu>Settings</guimenu> <guimenuitem>Geographic...</"
@@ -1859,11 +2032,11 @@ msgid ""
 msgstr ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>G</keycap></keycombo> </"
 "shortcut> <guimenu>Configuration</guimenu> <guimenuitem> Emplacement "
-"géographique...</guimenuitem>"
+"géographique…</guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:900
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Select a new <link linkend=\"setgeo\">geographic location</link>"
 msgid "Select a new <link linkend=\"setgeo\">geographic location</link>."
 msgstr ""
@@ -1872,7 +2045,7 @@ msgstr ""
 
 #. Tag: menuchoice
 #: commands.docbook:904
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<guimenu>Settings</guimenu> <guimenuitem>Configure &kstars;...</"
 #| "guimenuitem>"
@@ -1880,7 +2053,8 @@ msgid ""
 "<guimenu>Settings</guimenu> <guimenuitem>Configure Keyboard Shortcuts...</"
 "guimenuitem>"
 msgstr ""
-"<guimenu>Configuration</guimenu> <guimenuitem>Configurer &kstars;...</"
+"<guimenu>Configurations</guimenu> <guimenuitem>Configurer les raccourcis"
+" clavier…</"
 "guimenuitem>"
 
 #. Tag: para
@@ -1900,6 +2074,20 @@ msgid ""
 "will give you a brief example on how to use &kstars; Configure Shortcuts "
 "feature:"
 msgstr ""
+"Ouvrir la fenêtre de configuration des raccourcis clavier pour modifier les"
+" raccourcis dans &kstars;. Vous pouvez utiliser le schéma de raccourci par"
+" défaut de &kstars; ou définir votre propre schéma de raccourcis. Afin"
+" d'ajouter un nouveau raccourci personnalisé à une action, vous devez cliquer"
+" sur le nom d'une action et ensuite cliquer sur la case à cocher <guibutton"
+">Personnaliser</guibutton>. Ensuite cliquez sur le bouton à côté de <"
+"guibutton>Personnaliser</guibutton> et entrez le raccourci que vous souhaitez"
+" utiliser dans &kstars;. Vous pouvez supprimer un raccourci en cliquant the"
+" bouton <guibutton>Supprimer</guibutton> après avoir choisi une action dans"
+" la liste. &kstars; vous aide à trouver une action en fournissant une méthode"
+" de recherche ; il suffit d'indiquer le nom de l'action pour réduire la liste"
+" aux meilleures correspondances. Par exemple, je vais vous donner un bref"
+" exemple sur la manière d'utiliser la fonctionnalité de configuration des"
+" raccourcis de &kstars;."
 
 #. Tag: para
 #: commands.docbook:918
@@ -1908,6 +2096,8 @@ msgid ""
 "Firstly, open the Configure Shortcuts window from the <guimenu>Settings</"
 "guimenu> menu."
 msgstr ""
+"Veuillez d'abord ouvrir la fenêtre de configuration des raccourcis depuis le"
+" menu de <guimenu>Configurations</guimenu>."
 
 #. Tag: para
 #: commands.docbook:919
@@ -1918,6 +2108,11 @@ msgid ""
 "<quote>art</quote> in the search text box and the list will be reduced to "
 "only four actions. The Artificial Horizon is the first action in the list."
 msgstr ""
+"Ensuite, sélectionnez l'action à laquelle vous souhaiter rattacher un"
+" raccourci (&ie; horizon artificiel). Vous pouvez utiliser la méthode de"
+" recherche fournie par &kstars;. Veuillez simplement entrer <quote>art</quote"
+"> et la liste sera réduite à seulement trois actions. L'horizon artificiel"
+" est la dernière des trois dans la liste."
 
 #. Tag: para
 #: commands.docbook:923
@@ -1933,6 +2128,17 @@ msgid ""
 "shortcut. Hold the &Ctrl; key and press H. Your shortcut be automatically "
 "saved, thus you can use it next time when you open &kstars;."
 msgstr ""
+"Maintenant que vous avez trouvé l'action souhaitée, vous pouvez ajouter un"
+" nouveau raccourci en cliquant sur son nom. Après avoir cliqué sur le nom de"
+" l'action, choisissez <guibutton>Personnaliser</guibutton>. Il y a un bouton"
+" juste à côté de ce bouton <guibutton>Personnaliser</guibutton> utilisé pour"
+" ajouter de nouveaux raccourcis. Par défaut, si une action n'a aucun"
+" raccourci personnalisé, le choix <quote>Aucun</quote> sera assigné à ce"
+" bouton. Cliquez sur ce bouton et ensuite ajouter votre raccourci"
+" personnalisé. Dans notre exemple pour l'horizon artificiel, vous pouvez"
+" utiliser le raccourci &Ctrl;+H. Gardé enfoncé la touche &Ctrl; et appuyez"
+" sur H. Ce raccourci sera automatiquement enregistré et vous pourrez ainsi"
+" l'utiliser la prochaine fois que vous lancerez &kstars;."
 
 #. Tag: menuchoice
 #: commands.docbook:935
@@ -1940,28 +2146,28 @@ msgstr ""
 msgid ""
 "<guimenu>Settings</guimenu> <guimenuitem>Configure &kstars;...</guimenuitem>"
 msgstr ""
-"<guimenu>Configuration</guimenu> <guimenuitem>Configurer &kstars;...</"
+"<guimenu>Configurations</guimenu> <guimenuitem>Configurer &kstars;…</"
 "guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:939
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Modify <link linkend=\"config\">configuration options</link>"
 msgid "Modify <link linkend=\"config\">configuration options</link>."
 msgstr ""
 "Permet de modifier les <link linkend=\"config\">options de configuration</"
-"link>"
+"link>."
 
 #. Tag: menuchoice
 #: commands.docbook:943
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<guimenu>Settings</guimenu> <guimenuitem>Configure &kstars;...</"
 #| "guimenuitem>"
 msgid ""
 "<guimenu>Settings</guimenu> <guimenuitem>Startup Wizard...</guimenuitem>"
 msgstr ""
-"<guimenu>Configuration</guimenu> <guimenuitem>Configurer &kstars;...</"
+"<guimenu>Configurations</guimenu> <guimenuitem>Démarrer l'assistant…</"
 "guimenuitem>"
 
 #. Tag: para
@@ -2010,6 +2216,52 @@ msgid ""
 "<menuchoice><guimenu>Data</guimenu> <guimenuitem>Download New Data...</"
 "guimenuitem></menuchoice> menu item."
 msgstr ""
+"Affiche l'<guilabel>Assistants de configuration</guilabel>. C'est la même"
+" fenêtre que vous avez vu lorsque vous avez lancé &kstars; pour la première"
+" fois. Cet assistant vous aidera à régler les options de base telles que"
+" votre emplacement sur Terre. La première page de cet assistant est une page"
+" de bienvenue et si vous cliquez sur <guibutton>Suivant</guibutton> vous"
+" tomberez sur la page <guilabel>Choisissez votre emplacement actuel</guilabel"
+">. Vous pouvez choisir ici votre emplacement actuel exact ou une ville proche"
+" si votre emplacement précis ne se trouve pas dans la base de données de"
+" villes de &kstars;. Parcourir la liste entière n'est pas très efficace et"
+" donc &kstars; fournit une méthode facile à utiliser pour choisir une ville"
+" rapidement. Vous pouvez ainsi filtrer la liste de villes par ville,"
+" département et pays. En donnant davantage de détails, la liste sera réduite"
+" aux meilleures correspondances. Quand vous surlignez une ville dans cette"
+" liste, les boîtes de <guilabel>Latitude</guilabel> et <guilabel>Longitude<"
+"/guilabel> seront mises à jour avec les coordonnées exacte de votre"
+" emplacement sélectionné. En cliquant sur le bouton <guibutton>Suivant<"
+"/guibutton>, vous irez sur la dernière page de l'assistant de configuration"
+" de &kstars; : <quote>Télécharger des données supplémentaires</quote>. Ici"
+" vous pourrez télécharger via Internet des fichiers de données optionnels"
+" afin d'améliorer &kstars;, telles que des images des objets Messier ou"
+" encore un catalogue NGC/IC plus complet. Cliquez sur le bouton <guibutton"
+">Télécharger des données supplémentaires</guibutton> pour commencer. Après"
+" avoir cliqué sur ce bouton, la fenêtre <guilabel>Obtenir Hot New Stuff><"
+"/guilabel> apparaîtra. C'est l'installateur d'extensions de &kstars; qui vous"
+" aidera à gérer l'information supplémentaire que vous avez ajouter à"
+" &kstars;. Vous pouvez d'abord choisir le type d'affichage de la liste"
+" d'extensions en cliquant sur le bouton <guibutton>Mode d'affichage détaillé<"
+"/guibutton> ou <guibutton>Mode d'affichage des icônes</guibutton>. Vous"
+" pouvez aussi trier la liste selon différents critères comme le plus récent,"
+" la notation, le plus téléchargé ou installé. Cela peut être réalisé"
+" facilement en sélectionnant une option avec le bouton radio. Vous pouvez"
+" aussi effectuer des recherches en utilisant le champ texte <guilabel"
+">Recherche</guilabel>. En ce qui concerne la liste des extensions, vous"
+" pouvez agir de différentes manières en sélectionnant une extension de la"
+" liste. Vous pouvez installer ou désinstaller une extension en utilisant le"
+" bouton <guibutton>Installer/Désinstaller</guibutton>, vous pouvez ouvrir une"
+" fenêtre détaillées en utilisant le bouton <guibutton>Détails</guibutton> ou"
+" vous pouvez évaluer cette extension en donnant un nombre d'étoiles dorées,"
+" jusqu'à cinq. Si vous souhaitez envoyer un courriel à l'auteur d'une"
+" extension, vous pouvez le faire en cliquant sur son adresse email. Ensuite"
+" votre client de messagerie par défaut vous guidera dans le processus"
+" d'envoi. Après avoir gérer vos extensions de &kstars, vous pouvez fermer la"
+" fenêtre en cliquant sur le bouton <guibutton>Fermer</guibutton>. Vous pouvez"
+" aussi utiliser l'outil de téléchargement de données supplémentaires plus"
+" tard en choisissant <menuchoice><guimenu>Données</guimenu> <guimenuitem"
+">Télécharger de nouvelles données...</guimenuitem></menuchoice>."
 
 #. Tag: para
 #: commands.docbook:979
@@ -2020,13 +2272,18 @@ msgid ""
 "fundamentals/menus.html#menus-settings\">Settings Menu</ulink> of the &kde; "
 "Fundamentals."
 msgstr ""
+"&kstars; possède additionnellement les menus courants de <guimenu"
+">Configurations</guimenu> de &kde. Pour davantage d'informations, veuillez"
+" lire les sections concernant les <ulink"
+" url=\"help:/fundamentals/menus.html#menus-settings\">Menus de configuration<"
+"/ulink> dans les indispensables de &kde;."
 
 #. Tag: title
 #: commands.docbook:988
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Menu"
 msgid "Help Menu"
-msgstr "Menu"
+msgstr "Menu Aide"
 
 #. Tag: para
 #: commands.docbook:989
@@ -2036,6 +2293,10 @@ msgid ""
 "information read the section about the <ulink url=\"help:/fundamentals/menus."
 "html#menus-help\">Help Menu</ulink> of the &kde; Fundamentals."
 msgstr ""
+"&kstars; possède le menu <guilabel>Aide</guilabel> courant de &kde;. Pour"
+" davantage d'informations, veuillez lire la section concernant le menu <ulink"
+" url=\"help:/fundamentals/menus.html#menus-help\">Aide</ulink> des"
+" Indispensables de &kde;."
 
 #. Tag: title
 #: commands.docbook:997
@@ -2089,6 +2350,12 @@ msgid ""
 "if known, are shown in arcminutes (eg: 6'×3') and the source catalog is also "
 "shown."
 msgstr ""
+"Identification et info rapide : les premières lignes sont dévolues au(x)"
+" nom(s) de l'objet, son type et la constellation dans il se trouve. La"
+" magnitude est indiquée avec l'exposant « m » si disponible. Pour les"
+" étoiles, le type spectral est aussi montré ici. Pour les objets du ciel"
+" profond, la dimension, si connue, est indiquée en minutes d'arc (&ie; 6'x3')"
+" et le catalogue de la source est aussi montré."
 
 #. Tag: para
 #: commands.docbook:1020
@@ -2098,7 +2365,7 @@ msgid ""
 "are shown on the next three lines."
 msgstr ""
 "Les heures du lever / coucher pour l'objet à la date de simulation courante "
-"sont affichées les trois lignes suivantes."
+"sont affichées sur les trois lignes suivantes."
 
 #. Tag: para
 #: commands.docbook:1028
@@ -2137,6 +2404,33 @@ msgid ""
 "Your flags are saved after you close current session and thus you will be "
 "able to see them everytime you will use &kstars; again."
 msgstr ""
+"Fenêtre <guimenuitem>Ajouter drapeau</guimenuitem> : Ouvrir le <quote"
+">Gestionnaire de drapeaux</quote>. Vous pouvez gérer ici vos drapeaux et"
+" utilisez quelques fonctionnalités de &kstars;. Quand la fenêtre de <quote"
+">Gestionnaire de drapeaux</quote> est ouverte pour un objet sélectionné, les"
+" boîtes pour l'<guilabel>ascension droite</guilabel> et la <guilabel"
+">déclinaison</guilabel> seront automatiquement remplies avec les coordonnées"
+" de l'objet sélectionné dans la carte du ciel. Outre ces deux boîtes, vous"
+" pouvez régler l<guilabel>Epoch</guilabel>, ajouter une <guilabel>étiquette<"
+"/guilabel>, ajuster la <guilabel>couleur de l'étiquette</guilabel> et même"
+" ajouter une <guilabel>icône</guilabel>. Pour ajouter des icônes"
+" personnalisées, il suffit d'ajouter des images dans le dossier <filename"
+" class=\"directory\">`qtpaths --paths GenericDataLocation`/kstars</filename>."
+" Les noms de fichier doivent commencer par le mot-clé <quote>flag</quote>."
+" Par exemple, le fichier <quote>flagSmall_red_cross.gif</quote> sera affichée"
+" comme Small red cross dans la boîte. Après avoir spécifié l'information du"
+" nouveau drapeau, vous pouvez l'ajouter à la liste de drapeaux en utilisant"
+" le bouton <guibutton>Ajouter</guibutton>. Vous pouvez aussi modifier les"
+" détails du drapeau (&ie; AD/DEC, l'étiquette ou l'icône) et ensuite les"
+" enregistrer avec le bouton <guibutton>Enregistrer les changements</guibutton"
+">. Avec le gestionnaire de drapeaux, vous pouvez facilement centrer un objet"
+" dans la carte ou dans le télescope en cliquant sut le bouton <guibutton"
+">Centrer sur la carte</guibutton> ou <guibutton>Centrer dans le télescope<"
+"/guibutton>. Pour supprimer une entrée dans la liste, sélectionner le"
+" simplement dans la liste et cliquez sur le bouton <guibutton>Supprimer<"
+"/guibutton>. Vos drapeaux sont enregistrés après la fermeture de la session"
+" et vous pourrez ainsi les voir chaque fois que vous ouvrirez &kstars; à"
+" nouveau."
 
 #. Tag: para
 #: commands.docbook:1059
@@ -2149,9 +2443,9 @@ msgid ""
 "the second object. You can press the &Esc; key to exit angular distance mode "
 "without measuring an angle."
 msgstr ""
-"<guimenuitem>Distance angulaire à...</guimenuitem> : entre en « mode "
+"<guimenuitem>Distance angulaire à…</guimenuitem> : entre en « mode "
 "distance angulaire ». Dans ce mode, une ligne pointillée est dessinée depuis "
-"le premier objet-cible vers la position courante de la souris. Quand vous "
+"le premier objet ciblé vers la position courante de la souris. Quand vous "
 "invoquez le menu contextuel avec le &BDS; sur un second objet, cela "
 "affichera la distance angulaire entre deux objets à proximité du second "
 "objet. Vous pouvez actionner la touche <keycap>&Echap;</keycap> pour quitter "
@@ -2188,6 +2482,34 @@ msgid ""
 "Also, Star-Hopper tool provides directions to star hop for every object of "
 "the list."
 msgstr ""
+"<guimenuitem>Saute-mouton astronomique depuis ici vers</guimenuitem> : vous"
+" permet de trouver un chemin entre deux points du ciel. Le saute-mouton"
+" astronomique est une technique qui utilise des étoiles brillantes comme"
+" guide pour trouver des étoiles plus faibles. Ainsi, si vous avez une étoile"
+" brillante, vous pouvez l'utiliser comme référence pour en trouver une plus"
+" faible. En commençant de cette étoile de référence, &kstars; trouvera un"
+" chemin vers la destination en passant par une séquence d'étoiles ou"
+" d'astérisme d'étoiles. L'objet à partir duquel vous avez lancé cet outil"
+" sera l'étoile de départ. Quand le premier point est établi, une ligne"
+" pointillé va apparaître vous permettant de décider quel sera le point"
+" d'arrivée. Vous devez déplacer le curseur de la souris vers ce point"
+" d'arriver et faire un clic droit sur lui. Ensuite, une boîte de dialogue"
+" apparaîtra où il faudra spécifier le champ de vue (FOV) à utiliser pour le"
+" saute-mouton. La sélection de champ de vue se fait parmi une liste de"
+" valeurs préétablie (jumelles 7x35, Telrad, Un degrés, HST WFPC2, 30m à"
+" 1,3cm, ainsi que vos propres champs de vue). Cette sélection faite, &kstars;"
+" trouvera une route pour vous et vous affichera une liste d'objets utilisée"
+" pour le saute-mouton. Si &kstars ne parvient pas à trouver une route, une"
+" boîte de dialogue affichera une erreur qui vous aidera à corriger le"
+" problème. Quand l'algorithme de saute-mouton se termine, une boîte de"
+" dialogue contiendra une liste des objets utilisés pour la route. Pour chaque"
+" objet de cette liste, vous pouvez effectuer une série d'actions. Vous pouvez"
+" afficher des détails avec le bouton <guibutton>Détails</guibutton>, centrer"
+" l'objet sélectionner avec le bouton <guibutton>Centrer sur la carte<"
+"/guibutton> ou aller à la prochaine étoile en cliquant sur le bouton <"
+"guibutton>Suivant</guibutton>. Veuillez noter que la prochaine étoile sera"
+" automatiquement centrée sur la carte. Cet outil fournit également des"
+" directions pour chaque objet de la liste."
 
 #. Tag: para
 #: commands.docbook:1096
@@ -2222,16 +2544,22 @@ msgid ""
 "the object is already in the Observing WishList, then this item will become "
 "<guilabel>Remove Label</guilabel>."
 msgstr ""
+"<guimenuitem>Ajouter à la liste de souhaits</guimenuitem> : ajouter l'objet"
+" sélectionné à l'<guimenu>ordonnanceur d'observation</guimenu> souhaité. Vous"
+" pouvez voir la liste de souhaits dans le menu <menuchoice><guimenu"
+">Observations</guimenu> <guimenuitem>Ordonnanceur d'observation</guimenuitem"
+"></menuchoice>. Si cet objet est déjà dans la liste de souhait, alors cet"
+" élément deviendra <guilabel>Supprimer étiquette</guilabel>."
 
 #. Tag: term
 #: commands.docbook:1124 commands.docbook:1152 commands.docbook:1161
 #, no-c-format
 msgid "[Solar system objects]"
-msgstr ""
+msgstr "[Objets du système solaire]"
 
 #. Tag: para
 #: commands.docbook:1125
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<guimenuitem>Attach Label</guimenuitem>: Attach a permanent name label to "
 #| "the object. If the object already has a label attached, this item will "
@@ -2242,9 +2570,11 @@ msgid ""
 "sky due to the rotation of the Earth. If the object already has a trail, "
 "this item will become <guilabel>Remove Trail</guilabel>."
 msgstr ""
-"<guimenuitem>Attacher une étiquette</guimenuitem> : attache une étiquette "
-"permanente à l'objet. Si l'objet a déjà une étiquette, cet élément sera "
-"<guilabel>Supprimer l'étiquette</guilabel>."
+"<guimenuitem>Ajouter une trace</guimenuitem> : ajoute une trace à l'objet"
+" courant du système solaire. Une trace d'étoile est le chemin continu créé"
+" par l'étoile dans le ciel de la nuit dû à la rotation de la Terre. Si un"
+" objet a déjà une trace, cet élément deviendra <guilabel>Supprimer Trace<"
+"/guilabel>."
 
 #. Tag: para
 #: commands.docbook:1134
@@ -2264,8 +2594,7 @@ msgid ""
 "you are star hopping. Note that for getting best results, time must be "
 "synced with current time in &kstars;, and &kstars; must be in horizontal "
 "coordinates mode."
-msgstr ""
-
+msgstr "<guimenuitem>Simuler un affichage à l'oculaire</guimenuitem> : cette fonctionnalité présente une vue à travers un oculaire de différents types de télescope. Une première fenêtre de dialogue vous demande de choisir un champ de vue à utiliser comme oculaire. L'utilisateur a l'option de le déterminer à partir de l'image (précis si l'image possède des métadonnées, sinon ce sera aléatoire). Après avoir choisi ce champ de vue, la fenêtre « Affichage du champ de vue de l'oculaire » apparaîtra. Vous pouvez facilement faire une rotation de l'affichage en utilisant le curseur « Rotation ». Vous pouvez également retourner et inverser l'affichage afin de le faire correspondre à l'affichage du télescope ou de la caméra. L'outil « Affichage oculaire » vous aide grandement à localiser les objets, plutôt que de travailler avec des positions et des orientations relatives. Cela est d'un grand avantage surtout quand vous faites du saute-mouton astronomique. Veuillez noter que pour obtenir les meilleurs résultats, l'heure doit être synchronisées avec l'heure courante de &kstars; et &kstars; doit se trouver dans le mode de coordonnées horizontales."
 #. Tag: para
 #: commands.docbook:1153
 #, no-c-format
@@ -2275,6 +2604,10 @@ msgid ""
 "Viewer tool. Image Viewer tool allows you to invert the colors and save the "
 "image in your computer."
 msgstr ""
+"<guimenuitem>Ressources de l'image</guimenuitem> : donne une liste de liens"
+" d'image pour l'objet courant du système solaire. Les images sont affichées"
+" dans l'outil d'affichage d'images de &kstars;. Cet outil vous permet"
+" d'inverser les couleurs et d'enregistrer les images sur votre ordinateur."
 
 #. Tag: para
 #: commands.docbook:1162
@@ -2284,12 +2617,15 @@ msgid ""
 "documentation links for current Solar system object. The links are opened in "
 "your default browser."
 msgstr ""
+"<guimenuitem>Ressources Informations</guimenuitem> : donne une liste de liens"
+" d'informations pour l'objet courant du système solaire. Les liens sont"
+" ouverts dans votre navigateur par défaut."
 
 #. Tag: term
 #: commands.docbook:1169 commands.docbook:1177
 #, no-c-format
 msgid "[All objects without Solar system objects]"
-msgstr ""
+msgstr "[Tous les objets sauf ceux du système solaire]"
 
 #. Tag: para
 #: commands.docbook:1170
@@ -2299,6 +2635,9 @@ msgid ""
 "Sky Survey) image of the object from the Internet, and display it in the "
 "Image Viewer tool."
 msgstr ""
+"<guimenuitem>Affiche Image SDSS</guimenuitem> : télécharge de l'Internet une"
+" image SDSS (Sloan Digital Sky Survey) de l'objet et l'affiche dans l'outil"
+" d'afficheur d'images."
 
 #. Tag: para
 #: commands.docbook:1178
@@ -2308,6 +2647,9 @@ msgid ""
 "Survey) image of the object from the Internet, and display it in the Image "
 "Viewer tool."
 msgstr ""
+"<guimenuitem>Affiche Image DSS</guimenuitem> : télécharge de l'Internet une"
+" image DSS (Digitized Sky Survey) de l'objet et l'affiche dans l'outil"
+" d'afficheur d'images."
 
 #. Tag: title
 #: commands.docbook:1190
@@ -2358,7 +2700,7 @@ msgstr "<keycap>+</keycap> / <keycap>-</keycap>"
 
 #. Tag: para
 #: commands.docbook:1208
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Zoom In/Out"
 msgid "Zoom In/Out."
 msgstr "Zoom avant et zoom arrière"
@@ -2377,10 +2719,10 @@ msgstr "&Ctrl;&Maj;<keycap>Z</keycap>"
 
 #. Tag: term
 #: commands.docbook:1222
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<keycap>+</keycap> / <keycap>-</keycap>"
 msgid "<keycap>0</keycap>&ndash;<keycap>9</keycap>"
-msgstr "<keycap>+</keycap> / <keycap>-</keycap>"
+msgstr "<keycap>0</keycap>&ndash;<keycap>0</keycap>"
 
 #. Tag: para
 #: commands.docbook:1223
@@ -2390,73 +2732,73 @@ msgstr "Centrer l'image sur un objet majeur du système solaire."
 
 #. Tag: para
 #: commands.docbook:1225
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<keycap>F1</keycap>"
 msgid "<keycap>0</keycap>: Sun"
-msgstr "<keycap>F1</keycap>"
+msgstr "<keycap>0</keycap> : Soleil"
 
 #. Tag: para
 #: commands.docbook:1226
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<keycap>F1</keycap>"
 msgid "<keycap>1</keycap>: Mercury"
-msgstr "<keycap>F1</keycap>"
+msgstr "<keycap>1</keycap> : Mercure"
 
 #. Tag: para
 #: commands.docbook:1227
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<keycap>Z</keycap>"
 msgid "<keycap>2</keycap>: Venus"
-msgstr "<keycap>Z</keycap>"
+msgstr "<keycap>2</keycap> : Venus"
 
 #. Tag: para
 #: commands.docbook:1228
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<keycap>Z</keycap>"
 msgid "<keycap>3</keycap>: Moon"
-msgstr "<keycap>Z</keycap>"
+msgstr "<keycap>3</keycap> : Lune"
 
 #. Tag: para
 #: commands.docbook:1229
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<keycap>Z</keycap>"
 msgid "<keycap>4</keycap>: Mars"
-msgstr "<keycap>Z</keycap>"
+msgstr "<keycap>4</keycap> : Mars"
 
 #. Tag: para
 #: commands.docbook:1230
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<keycap>F1</keycap>"
 msgid "<keycap>5</keycap>: Jupiter"
-msgstr "<keycap>F1</keycap>"
+msgstr "<keycap>5</keycap> : Jupiter"
 
 #. Tag: para
 #: commands.docbook:1231
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<keycap>F1</keycap>"
 msgid "<keycap>6</keycap>: Saturn"
-msgstr "<keycap>F1</keycap>"
+msgstr "<keycap>6</keycap> : Saturne"
 
 #. Tag: para
 #: commands.docbook:1232
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<keycap>F1</keycap>"
 msgid "<keycap>7</keycap>: Uranus"
-msgstr "<keycap>F1</keycap>"
+msgstr "<keycap>7</keycap> : Uranus"
 
 #. Tag: para
 #: commands.docbook:1233
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<keycap>F1</keycap>"
 msgid "<keycap>8</keycap>: Neptune"
-msgstr "<keycap>F1</keycap>"
+msgstr "<keycap>8</keycap> : Neptune"
 
 #. Tag: para
 #: commands.docbook:1234
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<keycap>F1</keycap>"
 msgid "<keycap>9</keycap>: Pluto"
-msgstr "<keycap>F1</keycap>"
+msgstr "<keycap>9</keycap> : Pluton"
 
 #. Tag: keycap
 #: commands.docbook:1240
@@ -2466,7 +2808,7 @@ msgstr "<keycap>Z</keycap>"
 
 #. Tag: para
 #: commands.docbook:1241
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Center the display at the <link linkend=\"ai-zenith\">Zenith</link> Point "
 #| "(straight up)"
@@ -2509,10 +2851,10 @@ msgstr "&Ctrl;<keycap>T</keycap>"
 
 #. Tag: para
 #: commands.docbook:1268
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Toggle tracking mode"
 msgid "Toggle tracking mode."
-msgstr "Inverser le mode de suivi."
+msgstr "Bascule le mode de suivi."
 
 #. Tag: keycap
 #: commands.docbook:1272
@@ -2522,10 +2864,10 @@ msgstr "&lt;"
 
 #. Tag: para
 #: commands.docbook:1273
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Advance the simulation clock backwards by one time step"
 msgid "Advance the simulation clock backwards by one time step."
-msgstr "Reculer l'horloge de simulation d'un pas de temps"
+msgstr "Reculer l'horloge de simulation d'un pas de temps."
 
 #. Tag: keycap
 #: commands.docbook:1278
@@ -2535,10 +2877,10 @@ msgstr "&gt;"
 
 #. Tag: para
 #: commands.docbook:1279
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Advance the simulation clock forwards by one time step"
 msgid "Advance the simulation clock forwards by one time step."
-msgstr "Avancer l'horloge de simulation d'un pas de temps"
+msgstr "Avancer l'horloge de simulation d'un pas de temps."
 
 #. Tag: title
 #: commands.docbook:1287
@@ -2554,16 +2896,16 @@ msgstr "Raccourcis clavier"
 
 #. Tag: keycombo
 #: commands.docbook:1295
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "&Ctrl;<keycap>N</keycap>"
 msgstr "&Ctrl;<keycap>N</keycap>"
 
 #. Tag: para
 #: commands.docbook:1296
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Download extra data"
 msgid "Download extra data."
-msgstr "Télécharge des données supplémentaires"
+msgstr "Télécharge des données supplémentaires."
 
 #. Tag: keycombo
 #: commands.docbook:1300
@@ -2573,7 +2915,7 @@ msgstr "&Ctrl;<keycap>O</keycap>"
 
 #. Tag: para
 #: commands.docbook:1301
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Open a FITS image in the FITS Editor"
 msgid "Open a FITS image in the FITS Editor."
 msgstr "Ouvre une image FITS dans l'éditeur FITS"
@@ -2586,10 +2928,10 @@ msgstr "&Ctrl;<keycap>I</keycap>"
 
 #. Tag: para
 #: commands.docbook:1306
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Export sky image to a file"
 msgid "Export sky image to a file."
-msgstr "Exporte une image du ciel dans un fichier"
+msgstr "Exporte une image du ciel dans un fichier."
 
 #. Tag: keycombo
 #: commands.docbook:1310
@@ -2599,13 +2941,13 @@ msgstr "&Ctrl;<keycap>L</keycap>"
 
 #. Tag: para
 #: commands.docbook:1311
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Open the <link linkend=\"tool-obsplanner\">Observation Planner</link> tool"
 msgid ""
 "Run a &kstars; <link linkend=\"tool-obsplanner\">Observation Planner</link>."
 msgstr ""
-"Ouvre l'outil de <link linkend=\"tool-obsplanner\">liste d'observations</"
+"Exécute l'outil de <link linkend=\"tool-obsplanner\">liste d'observations</"
 "link>"
 
 #. Tag: keycombo
@@ -2616,10 +2958,10 @@ msgstr "&Ctrl;<keycap>R</keycap>"
 
 #. Tag: para
 #: commands.docbook:1317
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Run a &kstars; &DBus; script"
 msgid "Run a &kstars; &DBus; script."
-msgstr "Exécute un script &DBus; de &kstars;"
+msgstr "Exécute un script &DBus; de &kstars;."
 
 #. Tag: keycombo
 #: commands.docbook:1321
@@ -2629,7 +2971,7 @@ msgstr "&Ctrl;<keycap>P</keycap>"
 
 #. Tag: para
 #: commands.docbook:1322
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Print the current sky map"
 msgid "Print the current sky map."
 msgstr "Imprime la carte actuelle du ciel."
@@ -2648,10 +2990,10 @@ msgstr "&Ctrl;<keycap>E</keycap>"
 
 #. Tag: para
 #: commands.docbook:1332
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Sync the simulation clock with the current system time"
 msgid "Sync the simulation clock with the current system time."
-msgstr "Synchronise l'horloge de simulation avec l'heure courante du système"
+msgstr "Synchronise l'horloge de simulation avec l'heure courante du système."
 
 #. Tag: keycombo
 #: commands.docbook:1336
@@ -2661,10 +3003,10 @@ msgstr "&Ctrl;<keycap>S</keycap>"
 
 #. Tag: para
 #: commands.docbook:1337
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Set the simulation clock to a specified Time and Date"
 msgid "Set the simulation clock to a specified Time and Date."
-msgstr "Règle l'horloge de simulation sur des date et heure spécifiées"
+msgstr "Règle l'horloge de simulation sur des date et heure spécifiées."
 
 #. Tag: keycombo
 #: commands.docbook:1341
@@ -2674,10 +3016,10 @@ msgstr "&Ctrl;&Maj;<keycap>F</keycap>"
 
 #. Tag: keycombo
 #: commands.docbook:1346
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "&Ctrl;<keycap>Z</keycap>"
 msgid "&Ctrl;<keycap>0</keycap>"
-msgstr "&Ctrl;<keycap>Z</keycap>"
+msgstr "&Ctrl;<keycap>0</keycap>"
 
 #. Tag: para
 #: commands.docbook:1347
@@ -2686,26 +3028,30 @@ msgid ""
 "Define equipment (telescope, eyepiece, lens and filter) characteristics for "
 "observation logs."
 msgstr ""
+"Définir les caractéristiques de équipement (télescope, oculaire, objectif et"
+" filtre) pour les fichiers journaux des observations."
 
 #. Tag: keycombo
 #: commands.docbook:1353
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "&Ctrl;<keycap>Z</keycap>"
 msgid "&Ctrl;<keycap>1</keycap>"
-msgstr "&Ctrl;<keycap>Z</keycap>"
+msgstr "&Ctrl;<keycap>1</keycap>"
 
 #. Tag: para
 #: commands.docbook:1354
 #, no-c-format
 msgid "Add a new observer item for your observation logs."
 msgstr ""
+"Ajouter un nouvel élément d'observateur pour vos fichiers journaux"
+" d'observations."
 
 #. Tag: term
 #: commands.docbook:1357
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Space"
 msgid "&Space;"
-msgstr "Espace"
+msgstr "&Space;"
 
 #. Tag: keycap
 #: commands.docbook:1365
@@ -2715,52 +3061,52 @@ msgstr "<keycap>F1</keycap>"
 
 #. Tag: para
 #: commands.docbook:1366
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Open the &kstars; Handbook"
 msgid "Open the &kstars; Handbook."
 msgstr "Ouvre le manuel de &kstars;."
 
 #. Tag: keycap
 #: commands.docbook:1370
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<keycap>F1</keycap>"
 msgid "<keycap>F5</keycap>"
-msgstr "<keycap>F1</keycap>"
+msgstr "<keycap>F5</keycap>"
 
 #. Tag: keycap
 #: commands.docbook:1377
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<keycap>F1</keycap>"
 msgid "<keycap>F6</keycap>"
-msgstr "<keycap>F1</keycap>"
+msgstr "<keycap>F6</keycap>"
 
 #. Tag: keycap
 #: commands.docbook:1384
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<keycap>F1</keycap>"
 msgid "<keycap>F7</keycap>"
-msgstr "<keycap>F1</keycap>"
+msgstr "<keycap>F7</keycap>"
 
 #. Tag: keycap
 #: commands.docbook:1389
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<keycap>F1</keycap>"
 msgid "<keycap>F8</keycap>"
-msgstr "<keycap>F1</keycap>"
+msgstr "<keycap>F8</keycap>"
 
 #. Tag: keycap
 #: commands.docbook:1396
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<keycap>F1</keycap>"
 msgid "<keycap>F9</keycap>"
-msgstr "<keycap>F1</keycap>"
+msgstr "<keycap>F9</keycap>"
 
 #. Tag: keycap
 #: commands.docbook:1403
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<keycap>F1</keycap>"
 msgid "<keycap>F10</keycap>"
-msgstr "<keycap>F1</keycap>"
+msgstr "<keycap>F10</keycap>"
 
 #. Tag: title
 #: commands.docbook:1413
@@ -2805,10 +3151,10 @@ msgstr "<keycap>C</keycap>"
 
 #. Tag: para
 #: commands.docbook:1426
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Center and Track on the selected object"
 msgid "Center and Track on the selected object."
-msgstr "Centre et suit l'objet sélectionné"
+msgstr "Centre et suit l'objet sélectionné."
 
 #. Tag: keycap
 #: commands.docbook:1430
@@ -2818,10 +3164,10 @@ msgstr "<keycap>D</keycap>"
 
 #. Tag: para
 #: commands.docbook:1431
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Open the Details window for the selected object"
 msgid "Open the Details window for the selected object."
-msgstr "Ouvre la fenêtre des détails pour l'objet sélectionné"
+msgstr "Ouvre la fenêtre des détails pour l'objet sélectionné."
 
 #. Tag: keycap
 #: commands.docbook:1435
@@ -2831,10 +3177,10 @@ msgstr "<keycap>L</keycap>"
 
 #. Tag: para
 #: commands.docbook:1436
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Toggle a name label for the selected object"
 msgid "Toggle a name label for the selected object."
-msgstr "(Dés)active l'étiquette pour l'objet sélectionné"
+msgstr "Bascule l'étiquette pour l'objet sélectionné."
 
 #. Tag: keycap
 #: commands.docbook:1440
@@ -2844,10 +3190,10 @@ msgstr "<keycap>O</keycap>"
 
 #. Tag: para
 #: commands.docbook:1441
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Add the selected object to the observing list"
 msgid "Add the selected object to the observing list."
-msgstr "Ajoute l'objet sélectionné à la liste d'observations"
+msgstr "Ajoute l'objet sélectionné à la liste d'observations."
 
 #. Tag: keycap
 #: commands.docbook:1445
@@ -2857,10 +3203,10 @@ msgstr "<keycap>P</keycap>"
 
 #. Tag: para
 #: commands.docbook:1446
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Open the selected object's popup menu"
 msgid "Open the selected object's popup menu."
-msgstr "Ouvre le menu contextuel pour l'objet sélectionné"
+msgstr "Ouvre le menu contextuel pour l'objet sélectionné."
 
 #. Tag: keycap
 #: commands.docbook:1450
@@ -2870,12 +3216,12 @@ msgstr "<keycap>T</keycap>"
 
 #. Tag: para
 #: commands.docbook:1451
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Toggle a trail on the selected object (solar system bodies only)"
 msgid "Toggle a trail on the selected object (solar system bodies only)."
 msgstr ""
 "Inverser une trace sur l'objet sélectionné (objets du système solaire "
-"seulement)"
+"seulement)."
 
 #. Tag: title
 #: commands.docbook:1458
@@ -2891,7 +3237,7 @@ msgstr "&Ctrl;<keycap>F</keycap>"
 
 #. Tag: para
 #: commands.docbook:1463
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Open the <link linkend=\"findobjects\">Find Object window</link>, for "
 #| "specifying a sky object on which to center"
@@ -2900,7 +3246,7 @@ msgid ""
 "specifying a sky object on which to center."
 msgstr ""
 "Ouvre la <link linkend=\"findobjects\">fenêtre de recherche d'objet</link> "
-"pour spécifier un objet du ciel sur lequel centrer"
+"pour spécifier un objet du ciel sur lequel centrer."
 
 #. Tag: keycombo
 #: commands.docbook:1467
@@ -2910,7 +3256,7 @@ msgstr "&Ctrl;<keycap>M</keycap>"
 
 #. Tag: para
 #: commands.docbook:1469
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Open the <guilabel>Set Coordinates Manually</guilabel> tool, for "
 #| "specifying RA/Dec or Az/Alt coordinates on which to center"
@@ -2919,7 +3265,7 @@ msgid ""
 "RA/Dec or Az/Alt coordinates on which to center."
 msgstr ""
 "Ouvre l'outil <guilabel>Définir les coordonnées</guilabel> pour spécifier "
-"les coordonnées AD/Déc ou Az/Alt sur lesquelles centrer"
+"les coordonnées AD/Déc ou Az/Alt sur lesquelles centrer."
 
 #. Tag: keycap
 #: commands.docbook:1474
@@ -2937,7 +3283,7 @@ msgid ""
 msgstr ""
 "Commence une mesure de distance angulaire à la position actuelle du pointeur "
 "de la souris. La distance angulaire entre les points de départ et d'arrivée "
-"est affichée au point d'arrivée"
+"est affichée au point d'arrivée."
 
 #. Tag: keycombo
 #: commands.docbook:1481
@@ -2947,13 +3293,13 @@ msgstr "&Ctrl;<keycap>G</keycap>"
 
 #. Tag: para
 #: commands.docbook:1482
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Open the <link linkend=\"setgeo\">Set Geographic Location</link> window"
 msgid ""
 "Open the <link linkend=\"setgeo\">Set Geographic Location</link> window."
 msgstr ""
-"Ouvre la fenêtre d'<link linkend=\"setgeo\">emplacement géographique</link>"
+"Ouvre la fenêtre d'<link linkend=\"setgeo\">emplacement géographique</link>."
 
 #. Tag: keycombo
 #: commands.docbook:1487
@@ -2963,11 +3309,11 @@ msgstr "&Ctrl;<keycap>C</keycap>"
 
 #. Tag: para
 #: commands.docbook:1488
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Open the <link linkend=\"tool-calculator\">AstroCalculator</link>"
 msgid "Open the <link linkend=\"tool-calculator\">AstroCalculator</link>."
 msgstr ""
-"Ouvre la <link linkend=\"tool-calculator\">Calculatrice astronomique</link>"
+"Ouvre la <link linkend=\"tool-calculator\">Calculatrice astronomique</link>."
 
 #. Tag: keycombo
 #: commands.docbook:1493
@@ -2977,13 +3323,13 @@ msgstr "&Ctrl;<keycap>A</keycap>"
 
 #. Tag: para
 #: commands.docbook:1494
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Open the <link linkend=\"tool-altvstime\">Altitude vs. Time</link> tool"
 msgid ""
 "Open the <link linkend=\"tool-altvstime\">Altitude vs. Time</link> tool."
 msgstr ""
-"Ouvre l'outil <link linkend=\"tool-altvstime\">Élévation selon l'heure</link>"
+"Ouvre l'outil <link linkend=\"tool-altvstime\">Élévation selon l'heure</link>."
 
 #. Tag: keycombo
 #: commands.docbook:1499
@@ -2993,12 +3339,12 @@ msgstr "&Ctrl;<keycap>U</keycap>"
 
 #. Tag: para
 #: commands.docbook:1500
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Open the <link linkend=\"tool-whatsup\">What's Up Tonight?</link> tool"
 msgid "Open the <link linkend=\"tool-whatsup\">What's up Tonight?</link> tool."
 msgstr ""
-"Ouvre l'outil <link linkend=\"tool-whatsup\">Dans le ciel cette nuit</link>"
+"Ouvre l'outil <link linkend=\"tool-whatsup\">Dans le ciel cette nuit</link>."
 
 #. Tag: keycombo
 #: commands.docbook:1505
@@ -3010,7 +3356,7 @@ msgstr "&Ctrl;<keycap>W</keycap>"
 #: commands.docbook:1506
 #, no-c-format
 msgid "Open the <quote>What's Interesting</quote> tool."
-msgstr ""
+msgstr "Ouvrir l'outil <quote>Digne d'intérêt</quote>."
 
 #. Tag: keycombo
 #: commands.docbook:1511
@@ -3020,14 +3366,14 @@ msgstr "&Ctrl;<keycap>B</keycap>"
 
 #. Tag: para
 #: commands.docbook:1512
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Open the <link linkend=\"tool-scriptbuilder\">Script Builder</link> tool"
 msgid ""
 "Open the <link linkend=\"tool-scriptbuilder\">Script Builder</link> tool."
 msgstr ""
 "Ouvre l'outil <link linkend=\"tool-scriptbuilder\">Constructeur de scripts</"
-"link>"
+"link>."
 
 #. Tag: keycombo
 #: commands.docbook:1517
@@ -3037,11 +3383,11 @@ msgstr "&Ctrl;<keycap>Y</keycap>"
 
 #. Tag: para
 #: commands.docbook:1518
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Open the <link linkend=\"tool-solarsys\">Solar System Viewer</link>"
 msgid "Open the <link linkend=\"tool-solarsys\">Solar System Viewer</link>."
 msgstr ""
-"Ouvre l'<link linkend=\"tool-solarsys\">Afficheur du système solaire</link>"
+"Ouvre l'<link linkend=\"tool-solarsys\">Afficheur du système solaire</link>."
 
 #. Tag: keycombo
 #: commands.docbook:1523
@@ -3051,11 +3397,11 @@ msgstr "&Ctrl;<keycap>J</keycap>"
 
 #. Tag: para
 #: commands.docbook:1524
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Open the <link linkend=\"tool-jmoons\">Jupiter Moons</link> tool"
 msgid "Open the <link linkend=\"tool-jmoons\">Jupiter Moons</link> tool."
 msgstr ""
-"Ouvre l'<link linkend=\"tool-jmoons\">outil des lunes de Jupiter</link>"
+"Ouvre l'outil <link linkend=\"tool-jmoons\">des lunes de Jupiter</link>."
 
 #. Tag: title
 #: commands.docbook:1533
@@ -3087,7 +3433,7 @@ msgid ""
 "systems &kstars; will display in the status bar. Furthermore, you can hide "
 "the status bar by unchecking the <guilabel>Show Statusbar</guilabel> "
 "checkbox."
-msgstr ""
+msgstr "Les coordonnées du ciel (Az/Alt, AD/DEC et J2000.0 AD/DEC) sous le curseur de la souris sont mises à jour dans la barre d'état dans le coin du bas à droite de l'écran. La barre d'état peut être personnalisée dans le sous-menu <menuchoice><guimenu>Configurations</guimenu> <guimenuitem>Barre d'état</guimenuitem></menuchoice>. Vous pourrez ainsi choisir le système de coordonnées que &kstars; affichera dans la barre d'état. De plus, vous pouvez la cacher en décochant <guilabel>Afficher la barre d'état</guilabel>. "
 
 #. Tag: term
 #: commands.docbook:1551
@@ -3178,7 +3524,7 @@ msgstr "Actions sur la roulette de la souris"
 
 #. Tag: para
 #: commands.docbook:1589
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Zoom the display in or out. If you do not have a mouse wheel, you can "
 #| "hold the middle mouse button and drag vertically."
@@ -3186,8 +3532,10 @@ msgid ""
 "Zoom the display in or out. If you do not have a mouse <mousebutton>wheel</"
 "mousebutton>, you can hold the middle mouse button and drag vertically."
 msgstr ""
-"Fait zoom vers l'avant ou l'arrière. Si vous n'avez pas de souris à "
-"roulette, vous pouvez maintenir le bouton central de la souris et la "
+"Zoom l'affichage vers l'avant ou l'arrière. Si vous n'avez pas de souris <"
+"mousebutton>à "
+"roulette</mousebutton>, vous pouvez maintenir le bouton central de la souris"
+" et la "
 "déplacer verticalement."
 
 #. Tag: term
