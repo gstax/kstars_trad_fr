@@ -40,7 +40,7 @@ msgstr "Construction de scripts"
 
 #. Tag: para
 #: scriptbuilder.docbook:7
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "KDE applications can be controlled externally from another program, from "
 #| "a console prompt, or from a shell script using the Inter-process "
@@ -56,9 +56,9 @@ msgid ""
 "used, for example, to create a classroom demo to illustrate an astronomical "
 "concept."
 msgstr ""
-"Les applications KDE peuvent être pilotées de l'extérieur par un autre "
+"Les applications &kstars; peuvent être pilotées de l'extérieur par un autre "
 "programme, depuis une invite de console ou depuis un script shell en "
-"utilisant protocole de communication inter-processus (&DBus;). &kstars; "
+"utilisant protocole de communication interprocessus (&DBus;). &kstars; "
 "utilise cette fonction pour permettre à des comportements plutôt complexes "
 "d'être traités par scripts et rejoués à n'importe quel moment. Ceci peut "
 "être utilisé par exemple pour créer une démonstration de salle en classe "
@@ -140,7 +140,7 @@ msgstr ""
 
 #. Tag: para
 #: scriptbuilder.docbook:58
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Along the top of the window, there is a row of buttons which operate on "
 #| "the script as a whole. From left to right, they are: <guibutton>New "
@@ -164,9 +164,9 @@ msgid ""
 msgstr ""
 "Le long du haut de la fenêtre, il y a une rangée de boutons qui opèrent sur "
 "le script comme un tout. De la gauche vers la droite, il y a : "
-"<guibutton>Nouveau script</guibutton>, <guibutton>Ouvrir un script</"
+"<guibutton>Nouveau script</guibutton>, <guibutton>Ouvrir un script…</"
 "guibutton>, <guibutton>Enregistrer le script</guibutton>, "
-"<guibutton>Enregistrer le script sous...</guibutton> et <guibutton>Tester le "
+"<guibutton>Enregistrer le script sous…</guibutton> et <guibutton>Tester le "
 "script</guibutton>. La fonction de ces boutons devrait être évidente, sauf "
 "peut-être le dernier bouton. En actionnant <guibutton>Tester le script</"
 "guibutton>, vous tenterez de lancer le script courant dans la fenêtre "
@@ -222,7 +222,7 @@ msgstr ""
 # unreviewed-context
 #. Tag: para
 #: scriptbuilder.docbook:90
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "If we are going to track the Moon, we will need to point the display at "
 #| "it first. The <firstterm>lookToward</firstterm> function is used to do "
@@ -261,11 +261,11 @@ msgstr ""
 "notez la documentation affichée dans le panneau au-dessous. Actionnez le "
 "bouton <guibutton>Ajouter une fonction</guibutton> pour ajouter cette "
 "fonction à la zone de script courante. Le panneau des arguments de fonction "
-"comportera maintenant une liste combinée libellée <quote>dir</quote>, "
+"comportera maintenant une liste combinée libellée <quote>Dir</quote>, "
 "abréviation de direction. C'est la direction dans laquelle l'affichage doit "
 "être pointé. La liste combinée ne contient que les points cardinaux, pas la "
 "Lune ni d'autres objets. Vous pouvez soit écrire <quote>Lune</quote> dans la "
-"zone à la main, soit actionner le bouton <guibutton>Objet</guibutton> pour "
+"zone à la main, soit actionner le bouton <guibutton>Objet…</guibutton> pour "
 "utiliser la fenêtre de <guilabel>recherche d'objet</guilabel> pour "
 "sélectionner la Lune dans la liste des objets nommés. Notez que, comme "
 "d'habitude, un centrage sur un objet engage automatiquement le mode de "
@@ -321,7 +321,7 @@ msgstr ""
 
 #. Tag: para
 #: scriptbuilder.docbook:125
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Actually, we are not quite done yet. We should probably make sure that "
 #| "the display is using Equatorial coordinates before the script tracks the "
@@ -380,7 +380,7 @@ msgstr ""
 "l'option UseAltAz, nous pouvons simplement la sélectionner dans la liste "
 "combinée. Cependant, la liste est assez longue, et il n'y a pas "
 "d'explication sur l'utilisation de chaque élément. Pour cela, il peut être "
-"plus facile d'actionner le bouton <guibutton>Parcourir l'arborescence</"
+"plus facile d'actionner le bouton <guibutton>Parcourir l'arborescence…</"
 "guibutton>, qui ouvrira une fenêtre contenant une vue arborescente des "
 "options disponibles, organisées par sujet. De plus, chaque élément dispose "
 "d'une courte explication sur ce que fait l'option, et le type de donnée de "
@@ -434,7 +434,7 @@ msgstr ""
 
 #. Tag: para
 #: scriptbuilder.docbook:166
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Now that we have a completed script, we can run it in a couple of ways. "
 #| "From a console prompt, you can simply execute the script as long as an "
@@ -452,5 +452,5 @@ msgstr ""
 "plusieurs manières. De l'invite d'une console, vous pouvez simplement "
 "exécuter le script tant qu'une instance de &kstars; est en fonctionnement. "
 "Vous pouvez également exécuter le script depuis &kstars; en utilisant "
-"l'élément <guimenuitem>Exécuter un script</guimenuitem> du menu "
-"<guimenu>Fichier</guimenu>."
+"l'élément <menuchoice><guimenuitem>Exécuter un script…</guimenuitem> du menu "
+"<guimenu>Fichier</guimenu></menuchoice>."
