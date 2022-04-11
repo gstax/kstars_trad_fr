@@ -1,5 +1,4 @@
 # translation of kstars_faq.po to french
-# translation of kstars_faq.po to
 # traduction de kstars_faq.po en Français
 #
 # Copyright (C) 2002,2003, 2004, 2005 Free Software Foundation, Inc.
@@ -7,19 +6,21 @@
 # Ludovic Grossard <grossard@kde.org>, 2002, 2003, 2004, 2005, 2012.
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2012, 2013.
 # xavier <ktranslator31@yahoo.fr>, 2012.
+# steve <stax@ik.ch>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_faq\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-22 00:30+0000\n"
-"PO-Revision-Date: 2013-01-30 15:41+0100\n"
-"Last-Translator: Cyrille Bieuzent <bieuzent@gmail.com>\n"
+"PO-Revision-Date: 2022-04-11 12:12+0200\n"
+"Last-Translator: steve <stax@ik.me.>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 20.12.0\n"
 
 #. Tag: title
 #: faq.docbook:2
@@ -138,6 +139,13 @@ msgid ""
 "values for an existing city, by simply changing the values in the window, "
 "and adding it to the list."
 msgstr ""
+"Si vous souhaitez utiliser un emplacement qui n'est pas sur la liste,"
+" veuillez entrer l'information pertinente (longitude, latitude, nom de ville,"
+" nom de province et nom du pays), puis appuyez sur le bouton <guibutton"
+">Ajouter ville</guibutton>. Tous les champs doivent être remplis, sauf celui"
+" de la province qui est optionnel. Vous pouvez également modifier les valeurs"
+" d'une ville existante, en les modifiant simplement dans la fenêtre puis en"
+" l'ajoutant à la liste."
 
 #. Tag: para
 #: faq.docbook:78
@@ -422,7 +430,7 @@ msgstr ""
 
 #. Tag: para
 #: faq.docbook:217
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "The author of the downloadable NGC/IC catalog has released it with the "
 #| "restriction that it may not be used commercially. For most &kstars; "
