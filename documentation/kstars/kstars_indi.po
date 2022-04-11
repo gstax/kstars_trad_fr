@@ -6,19 +6,21 @@
 # Ludovic Grossard <grossard@kde.org>, 2003, 2004, 2009, 2012.
 # Bieuzent Cyrille <bieuzent@gmail.com>, 2009.
 # xavier <ktranslator31@yahoo.fr>, 2012.
+# steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_indi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-11-17 00:42+0000\n"
-"PO-Revision-Date: 2012-12-10 14:13+0100\n"
-"Last-Translator: xavier <ktranslator31@yahoo.fr>\n"
-"Language-Team: French <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2022-04-11 16:20+0200\n"
+"Last-Translator: steve <stax@ik.me>\n"
+"Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 20.12.0\n"
 
 #. Tag: title
 #: indi.docbook:2
@@ -52,7 +54,7 @@ msgstr ""
 
 #. Tag: para
 #: indi.docbook:12
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "The <acronym>INDI</acronym> protocol supports a variety of astronomical "
 #| "instruments such as CCD cameras and focusers. For an up to date list of "
@@ -68,7 +70,7 @@ msgstr ""
 "Le protocole <acronym>INDI</acronym> gère une grande variété d'instruments "
 "astronomiques, comme les caméra CCD et les viseurs. Pour une liste à jour "
 "des matériels pris en charge, veuillez consulter la page <acronym>INDI</"
-"acronym> <ulink url=\"http://indilib.org/index.php?title=Devices\"> des "
+"acronym> <ulink url=\"https://indilib.org/index.php?title=Devices\"> des "
 "matériels gérés</ulink>. "
 
 #. Tag: title
@@ -99,11 +101,11 @@ msgid ""
 msgstr ""
 "&kstars; peut contrôler des périphériques locaux et distants sans peine par "
 "l'architecture client/serveur <link linkend=\"what-is-indi\">INDI</link>. "
-"Les périphériques INDI peuvent fonctionner dans trois modes différents : "
+"Les périphériques INDI peuvent fonctionner dans trois modes différents :"
 
 #. Tag: para
 #: indi.docbook:30
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Local: The local mode is the most common and is used to control local "
 #| "device (&ie; a device attached to your machine)."
@@ -111,12 +113,13 @@ msgid ""
 "<guilabel>Local</guilabel>: The local mode is the most common and is used to "
 "control local device (&ie; a device attached to your machine)."
 msgstr ""
-"local : le mode local est le plus commun et sert à contrôler le matériel "
-"local (&cad; attaché à votre machine) ;"
+"<guilabel>local</guilabel> : le mode local est le plus commun et sert à"
+" contrôler le matériel "
+"local (&cad; attaché à votre machine)."
 
 #. Tag: para
 #: indi.docbook:34
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Server: The server mode establishes an INDI server for a particular "
 #| "device and waits for connections from remote clients. You cannot operate "
@@ -126,14 +129,15 @@ msgid ""
 "a particular device and waits for connections from remote clients. You "
 "cannot operate server devices, you can only start and shut them down."
 msgstr ""
-"serveur : le mode serveur établit un serveur INDI pour un matériel "
+"<guilabel>serveur</guilabel> : le mode serveur établit un serveur INDI pour"
+" un matériel "
 "particulier et attend les connexions des clients distants. Vous ne pouvez "
 "pas manipuler les périphériques serveurs, vous ne pouvez que les démarrer et "
-"les arrêter ;"
+"les arrêter."
 
 #. Tag: para
 #: indi.docbook:39
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Client: The client mode is used to connect to remote INDI servers running "
 #| "INDI devices. You can control remote devices seamlessly like local "
@@ -143,13 +147,14 @@ msgid ""
 "INDI servers running INDI devices. You can control remote devices seamlessly "
 "like local devices."
 msgstr ""
-"client : le mode client sert à se connecter à des serveurs INDI faisant "
+"<guilabel>client</guilabel> : le mode client sert à se connecter à des"
+" serveurs INDI faisant "
 "fonctionner des périphériques INDI. Vous pouvez contrôler des périphériques "
 "sans peine comme des périphériques locaux."
 
 #. Tag: para
 #: indi.docbook:44
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "You can run local device, establish INDI servers, and connect to remote "
 #| "clients from the <guimenuitem>Device Manager</guimenuitem> in the "
@@ -161,8 +166,10 @@ msgid ""
 "item."
 msgstr ""
 "Vous pouvez lancer un périphérique local, établir des serveurs INDI et "
-"connecter à des clients distants depuis le <guimenuitem>Gestionnaire de "
-"périphériques</guimenuitem> dans le menu <guimenu>Périphériques</guimenu>."
+"connecter à des clients distants depuis le <menuchoice><guimenuitem"
+">Gestionnaire de "
+"périphériques</guimenuitem> dans le menu <guimenu>Périphériques</guimenu><"
+"/menuchoice>."
 
 #. Tag: para
 #: indi.docbook:49
@@ -206,11 +213,11 @@ msgstr ""
 "périphériques désiré. &kstars; permet aux pilotes de périphériques de faire "
 "fonctionner plusieurs pilotes sous un même serveur INDI, et donc un seul "
 "port. Sélectionnez plusieurs pilotes puis appuyez sur le bouton "
-"<guibutton>Démarrer le service</guibutton>. "
+"<guibutton>Démarrer le service</guibutton>."
 
 #. Tag: para
 #: indi.docbook:74
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "To control remove devices, refer to the <link linkend=\"indi-remote-"
 #| "control\">remote device control</link> section."
@@ -229,7 +236,7 @@ msgstr "Réglage du télescope"
 
 #. Tag: para
 #: indi.docbook:85
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Most telescopes are equipped with <hardware>RS232</hardware> interface "
 #| "for remote control. Connect the RS232 jack in your telescope to your "
@@ -257,7 +264,7 @@ msgstr ""
 
 #. Tag: para
 #: indi.docbook:94
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "After connecting your telescope to the Serial/USB port, turn your "
 #| "telescope on. It is <emphasis>highly</emphasis> recommended that you "
@@ -305,7 +312,7 @@ msgstr ""
 
 #. Tag: para
 #: indi.docbook:113
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "You can use the Telescope Setup Wizard and it will verify all the "
 #| "required information in the process. It can automatically scan ports for "
@@ -322,9 +329,10 @@ msgstr ""
 "Vous pouvez utiliser l'assistant de configuration du télescope, et il "
 "vérifiera toutes les informations nécessaires au processus. Il peut balayer "
 "automatiquement les ports pour les télescopes attachés. Vous pouvez lancer "
-"l'assistant de configuration en sélectionnant <guimenuitem>Assistant de "
+"l'assistant de configuration en sélectionnant <menuchoice><guimenuitem"
+">Assistant de "
 "configuration de télescope</guimenuitem> dans le menu "
-"<guimenu>Périphériques</guimenu>."
+"<guimenu>Périphériques</guimenu></menuchoice>."
 
 #. Tag: para
 #: indi.docbook:119
@@ -338,7 +346,7 @@ msgstr ""
 
 #. Tag: para
 #: indi.docbook:124
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Set your geographical location. Open the <guilabel>Set Geographic "
 #| "Location</guilabel> window by selecting <guimenuitem>Geographic...</"
@@ -352,15 +360,17 @@ msgid ""
 "pressing the <guiicon>Globe</guiicon> icon in the toolbar, or by pressing "
 "<keycombo action=\"simul\">&Ctrl;<keycap>G</keycap></keycombo>."
 msgstr ""
-"déterminez votre emplacement géographique. Ouvrez la fenêtre "
-"<guilabel>Emplacement géographique...</guilabel>depuis le menu "
-"<guimenu>Configuration</guimenu> ou en actionnant l'icône représentant un "
+"Déterminez votre emplacement géographique. Ouvrez la fenêtre "
+"<menuchoice><guimenuitem>Emplacement géographique…</guimenuitem>depuis le"
+" menu "
+"<guimenu>Configuration</guimenu></menuchoice> ou en actionnant l'icône"
+" représentant un "
 "<guiicon>Globe</guiicon> dans la barre d'outils, ou en saisissant <keycombo "
 "action=\"simul\">&Ctrl;<keycap>G</keycap></keycombo>."
 
 #. Tag: para
 #: indi.docbook:133
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Set your local time and date. You can change to any time or date by "
 #| "selecting <guimenuitem>Set Time...</guimenuitem> from the <guimenu>Time</"
@@ -379,17 +389,20 @@ msgid ""
 "guimenu> <guimenuitem>Set Time to Now</guimenuitem></menuchoice> menu item."
 msgstr ""
 "Déterminez vos heure et date locales. Vous pouvez changer en n'importe "
-"quelle heure ou date en sélectionnant <guimenuitem>Définir l'heure...</"
-"guimenuitem> dans le menu <guimenu>Heure</guimenu> ou en actionnant l'icône "
+"quelle heure ou date en sélectionnant <menuchoice><guimenuitem>Définir"
+" l'heure…</"
+"guimenuitem> dans le menu <guimenu>Heure</guimenu></menuchoice> ou en"
+" actionnant l'icône "
 "<guiicon>Heure</guiicon> dans la barre d'outils. La fenêtre <guilabel>Régler "
 "l'heure</guilabel> utilise un composant graphique de choix de date standard "
 "dans &kde;. Si vous avez besoin de remettre l'horloge à l'heure actuelle, "
-"actionnez simplement <guimenuitem>Régler l'heure à maintenant</guimenuitem> "
-"dans le menu <guimenu>Heure</guimenu>. "
+"actionnez simplement <menuchoice><guimenuitem>Régler l'heure à maintenant<"
+"/guimenuitem> "
+"dans le menu <guimenu>Heure</guimenu></menuchoice>."
 
 #. Tag: para
 #: indi.docbook:144
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Click on the <guimenu>Devices</guimenu> menu and select the "
 #| "<guimenuitem>Device Manager</guimenuitem>."
@@ -398,8 +411,9 @@ msgid ""
 "guisubmenu> <guimenuitem>Device Manager...</guimenuitem></menuchoice> menu "
 "item."
 msgstr ""
-"cliquez sur le menu <guimenu>Périphériques</guimenu> et sélectionnez "
-"<guimenuitem>Gestionnaire de périphériques...</guimenuitem>"
+"cliquez sur le menu <menuchoice><guimenu>Périphériques</guimenu> et"
+" sélectionnez "
+"<guimenuitem>Gestionnaire de périphériques…</guimenuitem></menuchoice>"
 
 #. Tag: para
 #: indi.docbook:150
@@ -442,7 +456,7 @@ msgstr ""
 
 #. Tag: para
 #: indi.docbook:172
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "You are now ready to use the device features, &kstars; conveniently "
 #| "provides two interchangeable GUI interfaces for controlling telescopes:"
@@ -462,7 +476,7 @@ msgstr "Contrôler votre télescope"
 
 #. Tag: para
 #: indi.docbook:179
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<guilabel>Sky map Control</guilabel>: For each device you run in the "
 #| "<guilabel>Device Manager</guilabel>, a corresponding entry will show up "
@@ -480,7 +494,8 @@ msgstr ""
 "que vous lancez dans le <guilabel>gestionnaire de périphériques</guilabel>, "
 "une entrée correspondants s'affichera dans un menu contextuel qui vous "
 "permet de contrôler les propriétés du périphérique. Vous pouvez exécuter des "
-"commandes comme <command>Slew, Sync</command> et <command>Track</command> "
+"commandes comme <command>Pivoter</command>, <command>Synchroniser</command>"
+" et <command>Suivre</command> "
 "directement depuis la carte du ciel."
 
 #. Tag: para
@@ -597,7 +612,7 @@ msgstr ""
 
 #. Tag: para
 #: indi.docbook:258
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "By default, &kstars; will try to connect to the <constant>/dev/ttyS0</"
 #| "constant> port. To change the connection port, select <guilabel>INDI "
@@ -611,8 +626,10 @@ msgid ""
 "change the port under your device tab."
 msgstr ""
 "Par défaut, &kstars; essayera de se connecter au port <constant>/dev/ttyS0</"
-"constant>. Pour changer le port de connexion, sélectionnez <guilabel>Tableau "
-"de bord INDI</guilabel> dans le menu <guimenu>Périphériques</guimenu> et "
+"constant>. Pour changer le port de connexion, sélectionnez <menuchoice><"
+"guilabel>Tableau "
+"de bord INDI</guilabel> dans le menu <guimenu>Périphériques</guimenu><"
+"/menuchoice> et "
 "changez le port sous l'onglet de votre périphérique."
 
 #. Tag: para
@@ -630,10 +647,20 @@ msgid ""
 "<guilabel>To:</guilabel> text boxes from the <guilabel>Server Port</"
 "guilabel> section."
 msgstr ""
+"&kstars; met à jour automatiquement la longitude, la latitude et l'heure"
+" basés sur les réglages actuels de &kstars;. Vous pouvez les"
+" activer/désactiver en utilisant la page <guilabel>INDI</guilabel> dans le"
+" menu <menuchoice><guimenu>Configurations</guimenu> <guimenuitem>Configurer"
+" &kstars;</guimenuitem></menuchoice>. Dans la page <guilabel>INDI</guilabel>,"
+" vous pouvez indiquez à &kstars; d'afficher ou non les messages d'INDI dans"
+" la barre d'état. Par défaut, les numéros de port du serveur INDI se trouve"
+" dans la plage 7624 à 9000, mais vous pouvez facilement modifier cette plage"
+" en utilisant les boîtes de texte <guilabel>De</guilabel> et <guilabel>À<"
+"/guilabel> de la section <guilabel>Port du serveur</guilabel>."
 
 #. Tag: para
 #: indi.docbook:274
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "If &kstars; communicates successfully with the telescope, it will "
 #| "retrieve the current <abbrev>RA</abbrev> and <abbrev>DEC</abbrev> from "
@@ -650,8 +677,10 @@ msgid ""
 msgstr ""
 "Si &kstars; réussit à communiquer avec le télescope, il retrouvera "
 "l'<abbrev>AD</abbrev> et la <abbrev>Déc</abbrev> courantes depuis le "
-"télescope et affichera un croix sur la carte du ciel, indiquant la position "
-"du télescope."
+"télescope et affichera une croix sur la carte du ciel, indiquant la position "
+"du télescope. Vous pouvez masquer la croix qui indique la position depuis le"
+" menu <menuchoice><guimenu>Configurations</guimenu> <guimenuitem>Configurer"
+" &kstars;</guimenuitem></menuchoice>."
 
 #. Tag: title
 #: indi.docbook:282
@@ -675,7 +704,8 @@ msgstr ""
 "été, par exemple, Vega, la croix doit être centrée autour de Vega. Si la "
 "croix était hors cible, vous pouvez cliquer avec le bouton "
 "<mousebutton>droit</mousebutton> sur la carte du ciel et sélectionner "
-"<command>Sync</command> du menu du télescope. Cette action demandera au "
+"<command>Synchroniser</command> du menu du télescope. Cette action demandera"
+" au "
 "télescope de synchroniser ses coordonnées internes pour qu'elles "
 "correspondent à celles de Vega et la croix du télescope doit maintenant être "
 "centrée autour de Vega."
@@ -717,7 +747,7 @@ msgstr "Contrôle des CCD Vidéo"
 
 #. Tag: para
 #: indi.docbook:309
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "You can run CCD and Video Capture devices from the <guimenuitem>Device "
 #| "Manager</guimenuitem> in the <guimenu>Devices</guimenu> menu. Like all "
@@ -733,15 +763,17 @@ msgid ""
 "Control Panel...</guimenuitem> item."
 msgstr ""
 "Vous pouvez lancer des périphériques CCD et de capture vidéo depuis le "
-"<guimenuitem>Gestionnaire de périphériques</guimenuitem> dans le menu "
-"<guimenu>Périphériques</guimenu>. Comme tous les périphériques INDI, "
+"menu <menuchoice><guimenuitem>Gestionnaire de périphériques</guimenuitem>"
+" dans le menu "
+"<guimenu>Périphériques</guimenu></menuchoice>. Comme tous les périphériques"
+" INDI, "
 "certains des contrôles seront accessibles depuis la carte du ciel. Le "
 "périphérique peut être contrôlé pleinement depuis le <guimenuitem>Tableau de "
-"bord INDI</guimenuitem>."
+"bord INDI…</guimenuitem>."
 
 #. Tag: para
 #: indi.docbook:315
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "The standard format for image capture is FITS. Once an image is captured "
 #| "and downloaded, it will be automatically displayed in the &kstars; <link "
@@ -756,10 +788,7 @@ msgid ""
 msgstr ""
 "Le format standard pour la capture d'images est FITS. Une fois qu'une image "
 "est capturée et téléchargée, elle sera affichée dans <link linkend=\"tool-"
-"fitsviewer\">l'afficheur FITS</link> de &kstars;. Pour capturer une séquence "
-"d'images, utilisez l'outil <guimenuitem>Capturer une séquence d'images...</"
-"guimenuitem> du menu <guimenu>Périphériques</guimenu>. Cet outil est inactif "
-"jusqu'à ce que vous établissiez une connexion à un périphérique d'imagerie."
+"fitsviewer\">l'afficheur FITS</link> de &kstars;."
 
 #. Tag: title
 #: indi.docbook:321
@@ -781,7 +810,7 @@ msgstr "<secondary>INDI</secondary>"
 
 #. Tag: para
 #: indi.docbook:326
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "The INDI page allows you to modify <emphasis>Client side</emphasis> INDI "
 #| "specific options. The window is divided into several main categories: "
@@ -795,8 +824,12 @@ msgid ""
 "window is divided into several main categories: General, Device Updates, "
 "Display and Server Port:"
 msgstr ""
-"La page d'INDI vous permet de modifier les options spécifiques du "
-"<emphasis>Côté client</emphasis> d'INDI. La fenêtre est divisée en plusieurs "
+"La page d'<guilabel>INDI</guilabel> vous permet de modifier les options"
+" spécifiques du "
+"<emphasis>Côté client</emphasis> d'INDI. Pour y accéder, sélectionnez <"
+"menuchoice><guimenu>Configurations</guimenu> <guimenuitem>Configurer &kstars<"
+"/guimenuitem></menuchoice> de cette page. ;La fenêtre est divisée en"
+" plusieurs "
 "catégories principales : général, mises à jour des périphériques "
 "automatique, affichage, source de mise à jour, roue à filtres  et port du "
 "serveur : "
@@ -815,6 +848,9 @@ msgid ""
 "server in your system. By default, &kstars; uses <quote>/usr/bin/indiserver</"
 "quote> binary."
 msgstr ""
+"<guilabel>Serveur INDI</guilabel> : indiquez l'exécutable du serveur INDI"
+" installé sur votre système. Par défaut, &kstars; utilise <quote"
+">/usr/bin/indiserver</quote>."
 
 #. Tag: para
 #: indi.docbook:337
@@ -824,10 +860,13 @@ msgid ""
 "where INDI drivers are located in your system. By default, &kstars; uses "
 "<quote>/usr/share/indi</quote> directory."
 msgstr ""
+"<guilabel>Répertoire XML des pilotes INDI</guilabel> : spécifie le répertoire"
+" &XML; sur votre système contenant les pilotes INDI. Par défaut &kstars;"
+" utilise le répertoire <quote>/usr/share/indi</quote>. "
 
 #. Tag: para
 #: indi.docbook:338
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<option>Default FITS directory:</option> Specify the directory where all "
 #| "captured FITS images will be saved to. If no directory is specified, "
@@ -837,15 +876,16 @@ msgid ""
 "captured FITS images will be saved to. If no directory is specified, images "
 "will be stored in <varname>$HOME</varname>."
 msgstr ""
-"<option>Dossier FITS par défaut : </option> spécifie le dossier où toutes "
-"les images capturées par FITS seront enregistrées. S'il n'y a pas de dossier "
-"spécifié, les images seront enregistrées dans $HOME."
+"<guilabel>Répertoire FITS par défaut : </guilabel> spécifie le dossier où"
+" toutes "
+"les images FITS seront enregistrées. S'il n'y a pas de répertoire "
+"spécifié, les images seront enregistrées dans <varname>$HOME</varname>."
 
 #. Tag: guilabel
 #: indi.docbook:345
 #, no-c-format
 msgid "Time &amp; Location Updates"
-msgstr ""
+msgstr "Synchronisation heure &amp; et emplacement"
 
 #. Tag: para
 #: indi.docbook:347
@@ -855,6 +895,10 @@ msgid ""
 "for time and location settings. All INDI devices time and locations settings "
 "are synchronized to KStars settings."
 msgstr ""
+"<guilabel>&kstars; synchronise tous les périphériques</guilabel> : &kstars;"
+" est la source des réglages de l'heure et de l'emplacement. Tous les réglages"
+" d'heure et d'emplacement des périphériques INDI sont synchronisés avec les"
+" réglages de &kstars;."
 
 #. Tag: para
 #: indi.docbook:348
@@ -864,6 +908,10 @@ msgid ""
 "source of time and location settings. KStars time and location settings are "
 "synchronized with controller settings."
 msgstr ""
+"<guilabel>La monture synchronise &kstars;</guilabel> : la télécommande de la"
+" monture est la source des réglages de l'heure et de l'emplacement. Les"
+" réglages de l'heure et de l'emplacement de &kstars; sont synchronisés avec"
+" les réglages de la télécommande de la monture."
 
 #. Tag: para
 #: indi.docbook:349
@@ -873,6 +921,9 @@ msgid ""
 "time and location settings. KStars time and location settings are "
 "synchronized with GPS settings."
 msgstr ""
+"<guilabel>Le GPS synchronise &kstars;</guilabel> : le pilote du GPS est la"
+" source des réglages d'heure et d'emplacement. Les réglages de l'heure et de"
+" l'emplacement de &kstars; sont synchronisés avec les réglages du GPS."
 
 #. Tag: para
 #: indi.docbook:350
@@ -881,6 +932,8 @@ msgid ""
 "<guilabel>Time</guilabel>: Synchronize KStars date and time automatically "
 "from the update source."
 msgstr ""
+"<guilabel>Heure</guilabel> : la date et l'heure de &kstars; est synchronisé"
+" automatiquement à partir de la source de synchronisation."
 
 #. Tag: para
 #: indi.docbook:351
@@ -889,6 +942,8 @@ msgid ""
 "<guilabel>Location</guilabel>: Synchronize KStars location settings from the "
 "update source."
 msgstr ""
+"<guilabel>Emplacement</guilabel> : l'emplacement de &kstars; est synchronisé"
+" automatiquement à partir de la source de synchronisation."
 
 #. Tag: guilabel
 #: indi.docbook:354
@@ -898,7 +953,7 @@ msgstr "Affichage"
 
 #. Tag: para
 #: indi.docbook:356
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<option>Device target crosshair:</option> When checked, &kstars; displays "
 #| "the telescope's target crosshair on the sky map. The crosshair is "
@@ -920,15 +975,16 @@ msgid ""
 "guilabel> page, and then change the color of the <guimenuitem>Target "
 "Indicator</guimenuitem> item to the desired color."
 msgstr ""
-"<option>Croix de visée du périphérique : </option>lorsque cela est coché, "
-"&kstars; affiche la croix de visée du télescope sur la carte du ciel. La "
+"<guilabel>Réticule du télescope</guilabel> : lorsque cela est coché, "
+"&kstars; affiche le réticule du télescope sur la carte du ciel. La "
 "croix est affichée lors d'une connexion réussie au télescope, et son "
 "emplacement est actualisé périodiquement. Le nom du télescope est affiché à "
-"côté de la croix. &kstars; affiche une croix pour chaque télescope connecté. "
-"Pour changer la couleur de la croix du télescope, ouvrez la fenêtre <link "
+"côté du réticule. &kstars; affiche un réticule pour chaque télescope"
+" connecté. "
+"Pour changer la couleur du réticule du télescope, ouvrez la fenêtre <link "
 "linkend=\"viewops\">Configuration de &kstars;</link>. Sélectionnez l'onglet "
 "<guilabel>Couleurs</guilabel>, et changez la couleur de l'élément "
-"<emphasis>Indicateur de cible</emphasis> dans la couleur désirée."
+"<guimenuitem>Indicateur de cible</guimenuitem> dans la couleur désirée."
 
 #. Tag: para
 #: indi.docbook:357
@@ -937,6 +993,8 @@ msgid ""
 "<guilabel>Independent window</guilabel>: Make <guilabel>FITS Viewer</"
 "guilabel> window independent."
 msgstr ""
+"<guilabel>Fenêtre indépendante</guilabel> : rendre la fenêtre de l'<guilabel"
+">afficheur FITS</guilabel> indépendante."
 
 #. Tag: para
 #: indi.docbook:358
@@ -945,16 +1003,18 @@ msgid ""
 "<guilabel>Message notifications</guilabel>: Show INDI messages as desktop "
 "notifications instead of dialogs."
 msgstr ""
+"<guilabel>Notifications des messages</guilabel> : montrer les messages d'INDI"
+" comme des notifications du bureau plutôt que dans des boîtes de dialogue."
 
 #. Tag: guilabel
 #: indi.docbook:368
 #, no-c-format
 msgid "Server Port"
-msgstr ""
+msgstr "Port du serveur"
 
 #. Tag: para
 #: indi.docbook:370
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Server Port: Specify range of ports that INDI Server will bind to when "
 #| "starting new drivers."
@@ -962,7 +1022,7 @@ msgid ""
 "Specify range of ports that INDI Server will bind to when starting new "
 "drivers."
 msgstr ""
-"Port du serveur : spécifiez une plage de ports que le serveur INDI puisse "
+"Spécifiez une plage de ports que le serveur INDI puisse "
 "utiliser lors du démarrage de nouveaux pilotes."
 
 #. Tag: title
@@ -985,7 +1045,7 @@ msgstr "Concepts"
 
 #. Tag: para
 #: indi.docbook:383
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "The main key concept in INDI is that devices have the ability to describe "
 #| "themselves. This is accomplished by using XML to describe a generic "
@@ -1004,13 +1064,13 @@ msgid ""
 "INDI properties:"
 msgstr ""
 "Le concept clé principal dans INDI est que les périphériques ont la "
-"possibilité de se décrire eux-mêmes. Ceci s'accomplit en utilisant le XML "
+"possibilité de se décrire eux-mêmes. Ceci s'accomplit en utilisant le &XML; "
 "pour décrire une hiérarchie générique qui peut représenter à la fois les "
 "périphériques canoniques et non canoniques. Dans INDI, tous les "
 "<emphasis>périphériques</emphasis> peuvent contenir une ou plusieurs "
 "<emphasis>propriétés</emphasis>. Toute <emphasis>propriété</emphasis> peut "
 "contenir un ou plusieurs <emphasis>éléments</emphasis>. Il y a quatre types "
-"de propriétés INDI."
+"de propriétés INDI :"
 
 #. Tag: para
 #: indi.docbook:392
@@ -1026,7 +1086,7 @@ msgstr "Propriété de nombre."
 
 #. Tag: para
 #: indi.docbook:394
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Switch property (Represented in GUI by buttons and checkboxes)."
 msgid "Switch property (Represented in &GUI; by buttons and checkboxes)."
 msgstr ""
@@ -1035,7 +1095,7 @@ msgstr ""
 
 #. Tag: para
 #: indi.docbook:395
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Light property (Represented in GUI by colored LEDs)."
 msgid "Light property (Represented in &GUI; by colored LEDs)."
 msgstr ""
@@ -1044,7 +1104,7 @@ msgstr ""
 
 #. Tag: para
 #: indi.docbook:398
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "For example, all INDI devices share the CONNECTION standard switch "
 #| "<emphasis>property</emphasis>. The CONNECTION property has two elements: "
@@ -1061,7 +1121,7 @@ msgstr ""
 "Par exemple, tous les périphériques INDI partagent la <emphasis>propriété</"
 "emphasis> interrupteur standard CONNECTION. La propriété CONNECTION possède "
 "deux éléments : les interrupteurs CONNECT et DISCONNECT. &kstars; analyse la "
-"description générique XML des propriétés et construit une représentation "
+"description générique &XML; des propriétés et construit une représentation "
 "graphique adaptée à l'interaction humaine directe."
 
 #. Tag: para
@@ -1258,7 +1318,7 @@ msgstr "-156:24"
 
 #. Tag: para
 #: indi.docbook:480
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Time: The standard time for all INDI-related communications is Universal "
 #| "Time UTC specified as YYYY-MM-DDTHH:MM:SS in accord with ISO 8601. "
@@ -1273,10 +1333,11 @@ msgid ""
 "page in the settings dialog."
 msgstr ""
 "Heure : l'heure standard pour toutes les communications en relation avec "
-"INDI est l'heure UTC, spécifié en AAAA-MM-JJTHH:MM:SS selon ISO 8601. "
+"INDI est l'heure UTC, spécifié en AAAA-MM-JJTHH:MM:SS selon la norme ISO"
+" 8601. "
 "&kstars; communique l'heure UTC correcte avec les pilotes de périphériques "
 "automatiquement. Vous pouvez activer / désactiver la mise à jour automatique "
-"de l'heure depuis la page <guimenuitem>INDI</guimenuitem> de la boîte de "
+"de l'heure depuis la page <guilabel>INDI</guilabel> de la boîte de "
 "dialogue de configuration."
 
 #. Tag: title
@@ -1293,7 +1354,7 @@ msgstr "Périphériques distants"
 
 #. Tag: para
 #: indi.docbook:496
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "&kstars; provides a simple yet powerful layer for remote device control. "
 #| "A detailed description of the layer is described in the INDI <ulink url="
@@ -1305,7 +1366,7 @@ msgid ""
 msgstr ""
 "&kstars; fournit une couche de contrôle de périphérique à distance simple, "
 "mais puissante. Une description détaillée de la couche est décrite dans "
-"<ulink url=\"http://www.clearskyinstitute.com/INDI/INDI.pdf\">l'article</"
+"<ulink url=\"https://www.clearskyinstitute.com/INDI/INDI.pdf\">l'article</"
 "ulink> sur INDI."
 
 #. Tag: para
@@ -1319,7 +1380,7 @@ msgstr ""
 
 #. Tag: para
 #: indi.docbook:506
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Server: To prepare a device for remote control, follow the same steps in "
 #| "the <link linkend=\"indi-kstars-setup\">local/server</link> setup. When "
@@ -1335,17 +1396,18 @@ msgid ""
 "guilabel> column. In addition to the port number, you also need the hostname "
 "or IP address of your server."
 msgstr ""
-"Serveur : pour préparer un matériel pour le contrôle distant, suivez les "
+"<guilabel>Serveur</guilabel> : pour préparer un matériel pour le contrôle"
+" distant, suivez les "
 "mêmes étapes que dans le réglage <link linkend=\"indi-kstars-setup\">local / "
 "serveur</link>. Lorsque vous lancez un service de matériel dans le "
-"<guimenu>gestionnaire de périphériques</guimenu>, un numéro de port "
+"<guilabel>gestionnaire de périphériques</guilabel>, un numéro de port "
 "s'affiche sous la colonne <guilabel>Port pour écouter</guilabel>. En plus du "
 "numéro de port, vous avez aussi besoin du nom d'hôte ou adresse IP de votre "
 "serveur."
 
 #. Tag: para
 #: indi.docbook:515
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Client: Select the <guimenuitem>Device Manager</guimenuitem> from the "
 #| "<guimenu>Device</guimenu> menu and click on the <guilabel>Client</"
@@ -1363,8 +1425,10 @@ msgid ""
 "server in the <guilabel>Host:</guilabel> field, and enter the port number "
 "obtained from the <emphasis>server</emphasis> machine in step 1."
 msgstr ""
-"Client : sélectionnez le <guimenuitem>gestionnaire de périphériques</"
-"guimenuitem> dans le menu <guimenu>Périphériques</guimenu> et cliquez sur "
+"<guilabel>Client</guilabel> : sélectionnez le <menuchoice><guimenuitem"
+">gestionnaire de périphériques</"
+"guimenuitem> dans le menu <guimenu>Périphériques</guimenu></menuchoice> et"
+" cliquez sur "
 "l'onglet <guilabel>Client</guilabel>. Vous pouvez ajouter, modifier ou "
 "supprimer des hôtes sous l'onglet <guilabel>Client</guilabel>. Ajoutez un "
 "hôte en cliquant sur le bouton <guibutton>Ajouter</guibutton>. Donnez un nom "
@@ -1432,7 +1496,7 @@ msgstr ""
 
 #. Tag: para
 #: indi.docbook:554
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "$ <command>indiserver</command> [options] [<filename>driver</"
 #| "filename> ...]"
@@ -1440,7 +1504,8 @@ msgid ""
 "$ <command>indiserver</command> [options] driver [<filename>driver</"
 "filename> ...]"
 msgstr ""
-"$ <command>indiserver</command> [options] [<filename>driver</filename>...]"
+"$ <command>indiserver</command> [options] driver [<filename>driver</filename"
+">…]"
 
 #. Tag: screen
 #: indi.docbook:557
@@ -1459,6 +1524,18 @@ msgid ""
 " -vvv     : -vv + complete xml.\n"
 " driver   : Executable or [device]@host[:port]"
 msgstr ""
+"Options:\n"
+" -l d     : Log driver messages to &lt;d&gt;/YYYY-MM-DD.islog\n"
+" -m m     : Kill client if gets more than this many MB behind, default 128.\n"
+" -d m     : Drop streaming blobs if client gets more than this many MB "
+"behind, default 5. 0 to disable.\n"
+" -p p     : Alternate IP port, default 7624.\n"
+" -r r     : Maximum driver restarts on error, default 10.\n"
+" -f path  : Path to fifo for dynamic startup and shutdown of drivers.\n"
+" -v       : Show key events, no traffic.\n"
+" -vv      : -v + key message content.\n"
+" -vvv     : -vv + complete xml.\n"
+" driver   : Executable or [device]@host[:port]"
 
 #. Tag: para
 #: indi.docbook:559
@@ -1571,7 +1648,7 @@ msgstr "Foire aux questions d'INDI"
 #: indi.docbook:599
 #, no-c-format
 msgid "&FAQ;"
-msgstr ""
+msgstr "&FAQ;"
 
 #. Tag: para
 #: indi.docbook:605
@@ -1581,7 +1658,7 @@ msgstr "Qu'est INDI ?"
 
 #. Tag: para
 #: indi.docbook:608
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "<acronym>INDI</acronym> is the <ulink url=\"http://indi.sourceforge.net"
 #| "\"> Instrument-Neutral-Distributed-Interface</ulink> control protocol "
@@ -1611,7 +1688,7 @@ msgid ""
 "advantage of them without any changes on the client side."
 msgstr ""
 "<acronym>INDI</acronym> est le protocole de contrôle <ulink url=\"http://"
-"indi.sourceforge.net\"> Instrument-Neutral-Distributed-Interface</ulink> "
+"indi.sourceforge.net\">Instrument-Neutral-Distributed-Interface</ulink> "
 "développé par <author><firstname>Elwood</firstname><surname>C. Downey</"
 "surname></author> du <ulink url=\"http://www.clearskyinstitute.com/"
 "\">ClearSky Institute</ulink>. &kstars; emploie des pilotes de périphériques "
@@ -1652,7 +1729,7 @@ msgstr "Quelles opérations &kstars; fournit-il pour contrôler le télescope ?
 
 #. Tag: para
 #: indi.docbook:644
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "It depends on the particular telescope you're running, but the minimum "
 #| "three operations are <command>Slew</command>, <command>Track</command>, "
@@ -1674,14 +1751,16 @@ msgid ""
 "menu item."
 msgstr ""
 "Cela dépend du télescope que vous utilisez, mais les trois opérations "
-"minimales sont : <command>Slew</command>, <command>Suivre</command> et "
-"<command>Sync</command>, que vous pouvez utiliser directement depuis la "
+"minimales sont : <command>Pivoter</command>, <command>Suivre</command> et "
+"<command>Synchroniser</command>, que vous pouvez utiliser directement depuis"
+" la "
 "carte du ciel. Votre télescope doit être mis en station pour que ces "
 "opérations fonctionnent correctement. Certains télescopes fournissent "
-"davantage d'opérations comme la gestion des sites, les modes de Slew, la "
+"davantage d'opérations comme la gestion des sites, les modes de pivotage, la "
 "mise au point, le stationnement, et plus encore. Vous pouvez accéder aux "
-"caractéristiques étendues des télescopes depuis le tableau de bord INDI dans "
-"le menu Périphériques."
+"caractéristiques étendues des télescopes depuis le menu <menuchoice><guimenu"
+">Outils</guimenu> <guisubmenu>Périphériques</guisubmenu> <guimenuitem>Panneau"
+" de contrôle INDI…</guimenuitem></menuchoice>."
 
 #. Tag: para
 #: indi.docbook:658
@@ -1690,12 +1769,12 @@ msgid ""
 "What's the difference between <command>Slew</command>, <command>Track</"
 "command>, and <command>Sync</command> exactly?"
 msgstr ""
-"Quelle est exactement la différence entre <command>Slew</command>, "
-"<command>Suivre</command> et <command>Sync</command> ?"
+"Quelle est exactement la différence entre <command>Pivoter</command>, "
+"<command>Suivre</command> et <command>Synchroniser</command> ?"
 
 #. Tag: para
 #: indi.docbook:663
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "The command <command>Slew</command> orders the telescope to move to a "
 #| "particular target, and once the telescope reaches its target, the "
@@ -1713,13 +1792,14 @@ msgid ""
 "system objects travel differently across the sky and so the telescope must "
 "<command>Track</command> the objects as they move."
 msgstr ""
-"La commande <command>Slew</command> ordonne au télescope de se déplacer vers "
+"La commande <command>Pivoter</command> ordonne au télescope de se déplacer"
+" vers "
 "une cible particulière, et, une fois que le télescope a atteint sa cible, le "
 "télescope continue à suivre la cible à une vitesse <emphasis>sidérale</"
 "emphasis> (&cad; la vitesse à laquelle l'objet se déplace dans le ciel). "
 "Ceci fonctionne bien pour les étoiles, les objets Messier, et à peu près "
 "tout hors du système solaire. Mais les objets du système solaire voyagent "
-"différemment à travers le ciel, et le télescope doit <command>suivre</"
+"différemment à travers le ciel, et le télescope doit <command>Suivre</"
 "command> les objets comme ils bougent."
 
 #. Tag: para
@@ -1733,7 +1813,8 @@ msgid ""
 msgstr ""
 "Pour cela, vous avez besoin d'effectuer une commande de suivi, si vous "
 "voulez suivre un objet avec un mouvement non sidéral. D'une autre manière, "
-"<command>sync</command> sert à synchroniser les coordonnées internes du "
+"<command>Synchroniser</command> sert à synchroniser les coordonnées internes"
+" du "
 "télescope avec un objet que vous sélectionnez."
 
 #. Tag: para
@@ -1761,7 +1842,7 @@ msgstr ""
 
 #. Tag: para
 #: indi.docbook:696
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "When I try to <guibutton>Connect</guibutton>, &kstars; reports that the "
 #| "telescope is not connected to the serial/USB port. What can I do?"
@@ -1790,7 +1871,7 @@ msgid ""
 "trying to connect to."
 msgstr ""
 "vérifiez que vous avez à la fois les droits en lecture et en écriture pour "
-"le port auquel vous essayez de vous connecter, "
+"le port auquel vous essayez de vous connecter."
 
 #. Tag: para
 #: indi.docbook:709
@@ -1800,7 +1881,7 @@ msgid ""
 "with other applications."
 msgstr ""
 "vérifiez la connexion du câble, assurez-vous qu'il est en bon état et testez-"
-"le avec d'autres applications, "
+"le avec d'autres applications."
 
 #. Tag: para
 #: indi.docbook:712
@@ -1810,7 +1891,7 @@ msgid ""
 "is getting enough power."
 msgstr ""
 "vérifiez l'alimentation de votre télescope, assurez-vous que le contact est "
-"mis et que le télescope reçoit assez d'énergie, "
+"mis et que le télescope reçoit assez d'énergie."
 
 #. Tag: para
 #: indi.docbook:715
@@ -1821,6 +1902,10 @@ msgid ""
 "menu item and set the correct port in the <guilabel>INDI Control Panel</"
 "guilabel> dialog. The default device is <constant>/dev/ttyS0</constant>"
 msgstr ""
+"Sélectionner le menu <menuchoice><guimenu>Outils</guimenu> <guisubmenu"
+">Périphériques</guisubmenu> <guimenuitem>Panneau de contrôle INDI…<"
+"/guimenuitem></menuchoice>. Le périphérique par défaut est <constant"
+">/dev/ttyS0</constant>."
 
 #. Tag: para
 #: indi.docbook:721
@@ -1938,7 +2023,7 @@ msgstr "Le câble entre le télescope et l'ordinateur est-il en bon état ?"
 
 #. Tag: para
 #: indi.docbook:777
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "If you think all settings are correct but the telescope still moves "
 #| "erratically or not at all, then please send a report to <email>indi-"
@@ -1950,7 +2035,7 @@ msgid ""
 msgstr ""
 "Si vous pensez que tous les réglages sont corrects, mais que le télescope "
 "continue à bouger n'importe comment ou pas du tout, veuillez envoyer un "
-"rapport de bogue à <email>indi-devel@lists.sourceforge.net</email>"
+"rapport de bogue à <email>indi-devel@lists.sourceforge.net</email>."
 
 #, fuzzy
 #~| msgid ""
