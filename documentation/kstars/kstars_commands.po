@@ -5,15 +5,15 @@
 # Bieuzent Cyrille <bieuzent@gmail.com>, 2009.
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2012, 2013.
 # xavier <ktranslator31@yahoo.fr>, 2012.
-# steve <steve@petruzzello.ch>, 2022.
+# steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_commands\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-14 00:59+0000\n"
-"PO-Revision-Date: 2022-04-10 06:58+0200\n"
-"Last-Translator: steve <steve@petruzzello.ch>\n"
-"Language-Team: French <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2022-04-11 12:15+0200\n"
+"Last-Translator: steve <stax@ik.me>\n"
+"Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2594,7 +2594,24 @@ msgid ""
 "you are star hopping. Note that for getting best results, time must be "
 "synced with current time in &kstars;, and &kstars; must be in horizontal "
 "coordinates mode."
-msgstr "<guimenuitem>Simuler un affichage à l'oculaire</guimenuitem> : cette fonctionnalité présente une vue à travers un oculaire de différents types de télescope. Une première fenêtre de dialogue vous demande de choisir un champ de vue à utiliser comme oculaire. L'utilisateur a l'option de le déterminer à partir de l'image (précis si l'image possède des métadonnées, sinon ce sera aléatoire). Après avoir choisi ce champ de vue, la fenêtre « Affichage du champ de vue de l'oculaire » apparaîtra. Vous pouvez facilement faire une rotation de l'affichage en utilisant le curseur « Rotation ». Vous pouvez également retourner et inverser l'affichage afin de le faire correspondre à l'affichage du télescope ou de la caméra. L'outil « Affichage oculaire » vous aide grandement à localiser les objets, plutôt que de travailler avec des positions et des orientations relatives. Cela est d'un grand avantage surtout quand vous faites du saute-mouton astronomique. Veuillez noter que pour obtenir les meilleurs résultats, l'heure doit être synchronisées avec l'heure courante de &kstars; et &kstars; doit se trouver dans le mode de coordonnées horizontales."
+msgstr ""
+"<guimenuitem>Simuler un affichage à l'oculaire</guimenuitem> : cette"
+" fonctionnalité présente une vue à travers un oculaire de différents types de"
+" télescope. Une première fenêtre de dialogue vous demande de choisir un champ"
+" de vue à utiliser comme oculaire. L'utilisateur a l'option de le déterminer"
+" à partir de l'image (précis si l'image possède des métadonnées, sinon ce"
+" sera aléatoire). Après avoir choisi ce champ de vue, la fenêtre « Affichage"
+" du champ de vue de l'oculaire » apparaîtra. Vous pouvez facilement faire une"
+" rotation de l'affichage en utilisant le curseur « Rotation ». Vous pouvez"
+" également retourner et inverser l'affichage afin de le faire correspondre à"
+" l'affichage du télescope ou de la caméra. L'outil « Affichage oculaire »"
+" vous aide grandement à localiser les objets, plutôt que de travailler avec"
+" des positions et des orientations relatives. Cela est d'un grand avantage"
+" surtout quand vous faites du saute-mouton astronomique. Veuillez noter que"
+" pour obtenir les meilleurs résultats, l'heure doit être synchronisées avec"
+" l'heure courante de &kstars; et &kstars; doit se trouver dans le mode de"
+" coordonnées horizontales."
+
 #. Tag: para
 #: commands.docbook:1153
 #, no-c-format
@@ -3433,7 +3450,14 @@ msgid ""
 "systems &kstars; will display in the status bar. Furthermore, you can hide "
 "the status bar by unchecking the <guilabel>Show Statusbar</guilabel> "
 "checkbox."
-msgstr "Les coordonnées du ciel (Az/Alt, AD/DEC et J2000.0 AD/DEC) sous le curseur de la souris sont mises à jour dans la barre d'état dans le coin du bas à droite de l'écran. La barre d'état peut être personnalisée dans le sous-menu <menuchoice><guimenu>Configurations</guimenu> <guimenuitem>Barre d'état</guimenuitem></menuchoice>. Vous pourrez ainsi choisir le système de coordonnées que &kstars; affichera dans la barre d'état. De plus, vous pouvez la cacher en décochant <guilabel>Afficher la barre d'état</guilabel>. "
+msgstr ""
+"Les coordonnées du ciel (Az/Alt, AD/DEC et J2000.0 AD/DEC) sous le curseur de"
+" la souris sont mises à jour dans la barre d'état dans le coin du bas à"
+" droite de l'écran. La barre d'état peut être personnalisée dans le sous-menu"
+" <menuchoice><guimenu>Configurations</guimenu> <guimenuitem>Barre d'état<"
+"/guimenuitem></menuchoice>. Vous pourrez ainsi choisir le système de"
+" coordonnées que &kstars; affichera dans la barre d'état. De plus, vous"
+" pouvez la cacher en décochant <guilabel>Afficher la barre d'état</guilabel>. "
 
 #. Tag: term
 #: commands.docbook:1551
