@@ -72,7 +72,7 @@ msgstr "Introduction"
 
 #. Tag: para
 #: lightcurves.docbook:34
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "&kstars; can display light curves for variable stars from the observing "
 #| "program of the <ulink url=\"http://www.aavso.org\">American Association "
@@ -95,7 +95,7 @@ msgstr ""
 "Association of Variable Star Observers</ulink> (<abbrev>AAVSO</abbrev>). Ce "
 "programme surveille plus de 6 000 étoiles variables et consiste en "
 "10 millions d'observations qui remontent à presque un siècle. &kstars; "
-"télécharge les toutes dernières données directement depuis la base de "
+"télécharge les toutes dernières données directement de la base de "
 "données de l'<abbrev>AAVSO</abbrev> par l'Internet, une connexion au réseau "
 "est donc nécessaire."
 
@@ -114,7 +114,7 @@ msgid ""
 msgstr ""
 "Pour utiliser l'outil, sélectionnez une étoile variable, soit par sa "
 "<firstterm>désignation</firstterm>, soit par son nom dans le panneau de "
-"gauche, et déterminez les dates de début et de fin à mettre en courbes. Dans "
+"gauche, et déterminez les dates de début et de fin à tracer. Dans "
 "le panneau de droite, sélectionnez le type de données qui doit être tracé "
 "(voir ci-dessous). Quand vous avez fait vos sélections, actionnez le bouton "
 "<guibutton>Extraire la courbe</guibutton>. &kstars; se connectera "
@@ -258,7 +258,7 @@ msgid ""
 "abbrev> observations tend to be more accurate than visual (but not always)."
 msgstr ""
 "<firstterm>CCDV</firstterm> : ce sont les observations rapportées en "
-"utilisant un <abbrev>CCD</abbrev> avec un filtre <abbrev></abbrev> Jonhson. "
+"utilisant un <abbrev>CCD</abbrev> avec un filtre <abbrev>V</abbrev> Jonhson. "
 "Les observations <abbrev>CCDV</abbrev> tendent à être plus précises que les "
 "visuelles (mais pas toujours)."
 
@@ -270,7 +270,7 @@ msgid ""
 "Johnson <abbrev>B</abbrev> filter."
 msgstr ""
 "<firstterm>CCDB</firstterm> : observations <abbrev>CCD</abbrev> avec un "
-"filtre <abbrev>B</abbrev> Cousins."
+"filtre <abbrev>B</abbrev> Johnson."
 
 #. Tag: para
 #: lightcurves.docbook:132
