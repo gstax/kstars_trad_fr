@@ -6,19 +6,21 @@
 # Ludovic Grossard <grossard@kde.org>, 2003, 2004, 2012.
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2012, 2013.
 # xavier <ktranslator31@yahoo.fr>, 2012.
+# steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_details\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-28 00:32+0000\n"
-"PO-Revision-Date: 2013-01-30 15:11+0100\n"
-"Last-Translator: Cyrille Bieuzent <bieuzent@gmail.com>\n"
-"Language-Team: French <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2022-04-11 12:23+0200\n"
+"Last-Translator: steve <stax@ik.me>\n"
+"Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 20.12.0\n"
 
 #. Tag: title
 #: details.docbook:2
@@ -79,7 +81,7 @@ msgstr ""
 
 #. Tag: para
 #: details.docbook:28
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "The window is divided into a number of Tabs. In the <guilabel>General</"
 #| "guilabel> Tab, we present basic data about the current object. This "
@@ -97,10 +99,11 @@ msgid ""
 msgstr ""
 "La fenêtre est divisée en plusieurs onglets. Dans l'onglet "
 "<guilabel>Général</guilabel> se trouve un résumé des données sur l'objet "
-"courant. Ceci inclut les noms et désignations dans les catalogues, le type "
+"courant. Cela inclut les noms et désignations dans les catalogues, le type "
 "d'objet et la <link linkend=\"ai-magnitude\">magnitude</link> (luminosité). "
-"Sont également affichées les coordonnées équatoriales et azimutales de "
-"l'objet et ses heures de lever, de transit et de coucher."
+"Sont également affichées dans l'<guilabel>Position></guilabel> les "
+"coordonnées équatoriales et azimutales de l'objet et ses heures de lever, de "
+"transit et de coucher."
 
 #. Tag: secondary
 #: details.docbook:39
@@ -116,7 +119,7 @@ msgstr "Personnalisation"
 
 #. Tag: para
 #: details.docbook:40
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "In the <guilabel>Links</guilabel> tab, you can manage the internet links "
 #| "associated with this object. The Image and Information links associated "
@@ -147,13 +150,15 @@ msgstr ""
 "à l'objet sont listés. Ce sont les liens qui apparaissent dans le menu "
 "contextuel lorsqu'on clique avec le bouton <mousebutton>droit</mousebutton> "
 "sur l'objet. Vous pouvez ajouter des liens personnalisés à l'objet avec le "
-"bouton <guibutton>Ajouter un lien...</guibutton>. Cela ouvrira une fenêtre "
+"bouton <guibutton>Ajouter un lien…</guibutton>. Cela ouvrira une fenêtre "
 "dans laquelle vous remplirez l'&URL; et lierez le texte au nouveau lien "
 "(vous pouvez aussi tester l'&URL; dans le navigateur web depuis cette "
-"fenêtre). Gardez à l'esprit que le lien personnalisé peut facilement pointer "
-"vers un fichier de votre disque local, de telle manière que vous puissiez "
-"utiliser cette fonction pour indexer vos images astronomiques ou vos carnets "
-"d'observations."
+"fenêtre). Chaque fois que vous ajoutez un lien &URL; personnalisé à un "
+"certain objet, vous pouvez le lier à une resource avec le bouton "
+"<guibutton>Type de resource</guibutton>.Gardez à l'esprit que le lien "
+"personnalisé peut facilement pointer vers un fichier de votre disque local, "
+"de telle manière que vous puissiez utiliser cette fonction pour indexer vos "
+"images astronomiques ou vos carnets d'observations."
 
 #. Tag: para
 #: details.docbook:55
@@ -163,12 +168,12 @@ msgid ""
 "guibutton> and <guibutton>Remove Link...</guibutton> buttons."
 msgstr ""
 "Vous pouvez aussi modifier ou supprimer n'importe quel lien en utilisant le "
-"bouton <guibutton>Modifier le lien...</guibutton> et <guibutton>Supprimer le "
+"bouton <guibutton>Modifier le lien…</guibutton> et <guibutton>Supprimer le "
 "lien</guibutton>."
 
 #. Tag: para
 #: details.docbook:64
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "The <guilabel>Advanced</guilabel> Tab (not available for all objects) "
 #| "allows you to query professional astronomical databases on the internet "
@@ -186,10 +191,10 @@ msgid ""
 "object you clicked on to open the Details Dialog. The following databases "
 "are available for querying:"
 msgstr ""
-"L'onglet <guilabel>Avancé</guilabel> (Disponible pour certains objets) vous "
-"permet d'interroger des bases de données astronomiques professionnelles sur "
-"internet pour les informations concernant l'objet courant. Pour utiliser ces "
-"bases de données, double cliquez sur la base de données désirée dans la "
+"L'onglet <guilabel>Avancé</guilabel> (indisponible pour certains objets) "
+"vous permet d'interroger des bases de données astronomiques professionnelles "
+"sur internet pour les informations concernant l'objet courant. Pour utiliser "
+"ces bases de données, double cliquez sur la base de données désirée dans la "
 "liste pour voir les résultats de votre recherche dans une fenêtre de "
 "navigation web. La requête se fait en utilisant le nom primaire de l'objet "
 "sur lequel vous avez cliqué pour ouvrir la boîte de dialogue des détails. "
@@ -197,7 +202,7 @@ msgstr ""
 
 #. Tag: para
 #: details.docbook:74
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Set of Identifications, Measurements, and Bibliography for Astronomical "
 #| "Data (SIMBAD). SIMBAD is similar to NED, except it provides data about "
@@ -207,13 +212,14 @@ msgid ""
 "Astronomical Data (SIMBAD)</guimenuitem>: SIMBAD is similar to NED, except "
 "it provides data about all kinds of objects, not just galaxies."
 msgstr ""
-"Set of Identifications, Measurements, and Bibliography for Astronomical Data "
-"(SIMBAD). SIMBAD est semblable à NED, sauf qu'elle fournit des données sur "
-"toutes sortes d'objets, pas seulement des galaxies."
+"<guimenuitem>Set of Identifications, Measurements, and Bibliography for "
+"Astronomical Data (SIMBAD)</guimenuitem>.SIMBAD est semblable à NED, sauf "
+"qu'elle fournit des données sur toutes sortes d'objets, pas seulement des "
+"galaxies."
 
 #. Tag: para
 #: details.docbook:78
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "SkyView provides images from All-Sky surveys that have been performed in "
 #| "dozens of different parts of the spectrum, from Gamma Rays to the Radio. "
@@ -225,14 +231,15 @@ msgid ""
 "Gamma Rays to the Radio. The &kstars; interface will retrieve an image from "
 "any of these surveys, centered on the selected object."
 msgstr ""
-"SkyView fournit des images issues des observations de All-Sky qui ont été "
-"réalisées dans des douzaines de zones différentes du spectre, depuis les "
-"rayons Gamma, jusqu'aux ondes radio. L'interface &kstars; retrouvera une "
-"image de n'importe laquelle de ces études, centrée sur l'objet sélectionné."
+"<guimenuitem>SkyView</guimenuitem> fournit des images issues des "
+"observations de All-Sky qui ont été réalisées dans des douzaines de zones "
+"différentes du spectre, depuis les rayons Gamma jusqu'aux ondes radio. "
+"L'interface &kstars; retrouvera une image de n'importe laquelle de ces "
+"études, centrée sur l'objet sélectionné."
 
 #. Tag: para
 #: details.docbook:83
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "High Energy Astrophysical Archive (HEASARC). Here you can retrieve data "
 #| "about the current object from a number of <quote>High-energy</quote> "
@@ -244,14 +251,14 @@ msgid ""
 "energy</quote> observatories, which covers the Ultraviolet, X-ray and Gamma "
 "Ray portions of the electromagnetic spectrum."
 msgstr ""
-"High Energy Astrophysical Archive (HEASARC). Vous pouvez trouver ici des "
-"données concernant l'objet courant depuis des observatoires de <quote>Haute "
-"énergie</quote>, qui couvrent les portions ultra-violet, rayons X et Gamma "
-"du spectre électromagnétique."
+"<guimenuitem>High Energy Astrophysical Archive (HEASARC)</guimenuitem>. Vous "
+"pouvez trouver ici des données concernant l'objet courant depuis des "
+"observatoires de <quote>Haute énergie</quote>, qui couvrent les portions "
+"ultra-violet, rayons X et Gamma du spectre électromagnétique."
 
 #. Tag: para
 #: details.docbook:88
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "NASA/IPAC Extragalactic Database (NED). NED provides encapsulated data "
 #| "and bibliographic links about extragalactic objects. You should only use "
@@ -262,14 +269,14 @@ msgid ""
 "objects. You should only use NED if your target is extragalactic; &ie; if it "
 "is itself a galaxy."
 msgstr ""
-"NASA Extragalactic Database (NED). NED fournit des liens de données et "
-"bibliographie encapsulés sur les objets extragalactiques. Vous ne devez "
-"utiliser NED que si votre cible est extragalactique, &cad; si c'est elle-"
-"même une galaxie."
+"<guimenuitem>NASA Extragalactic Database (NED)</guimenuitem>. NED fournit "
+"des liens de données et bibliographie encapsulés sur les objets "
+"extragalactiques. Vous ne devez utiliser NED que si votre cible est "
+"extragalactique, &cad; si c'est elle-même une galaxie."
 
 #. Tag: para
 #: details.docbook:93
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "NASA Astrophysical Data System (ADS). This incredible bibliographic "
 #| "database encompass the entire body of literature published in "
@@ -294,20 +301,21 @@ msgid ""
 "Title, and the <quote>Title &amp; Keyword search</quote> uses both options "
 "together."
 msgstr ""
-"NASA Astrophysics Data System (ADS). Cette base de données bibliographique "
-"incroyable recouvre toute la littérature publiée dans des revues "
-"d'astronomie et d'astrophysique avec comité de lecture. La base de données "
-"est divisée en quatre sujets principaux (astronomie et astrophysique, essais "
-"d'astrophysique, instrumentation et physique et géophysique). Chacun a trois "
-"sous-parties qui interrogent la base de données de différentes manières. "
-"<quote>Keyword search</quote> retournera des articles qui ont listé les noms "
-"des objets comme mots clés. <quote>Title word search</quote> retournera des "
-"articles qui incluent le nom de l'objet dans leur titre et <quote>Title "
-"&amp; Keyword search</quote> utilise les deux options ensemble."
+"<guimenuitem>NASA Astrophysics Data System (ADS)</guimenuitem>. Cette base "
+"de données bibliographique incroyable recouvre toute la littérature publiée "
+"dans des revues d'astronomie et d'astrophysique avec comité de lecture. La "
+"base de données est divisée en quatre sujets principaux (astronomie et "
+"astrophysique, essais d'astrophysique, instrumentation et physique et "
+"géophysique). Chacun a trois sous-parties qui interrogent la base de données "
+"de différentes manières. <quote>Keyword search</quote> retournera des "
+"articles qui ont listé les noms des objets comme mots clés. <quote>Title "
+"word search</quote> retournera des articles qui incluent le nom de l'objet "
+"dans leur titre et <quote>Title &amp; Keyword search</quote> utilise les "
+"deux options ensemble."
 
 #. Tag: para
 #: details.docbook:106
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Multimission Archive at Space Telescope (MAST). The Space Telescope "
 #| "Science Institute provides access to the entire collection of images and "
@@ -320,14 +328,14 @@ msgid ""
 "with the Hubble Space Telescope, as well as several other space-based "
 "observatories."
 msgstr ""
-"Multi-mission Archive at Space Telescope (MAST). Le Space Telescope Science "
-"Institute fournit un accès à la collection entière d'images et de spectres "
-"pris par le télescope spatial Hubble ainsi qu'avec plusieurs observatoires "
-"dans l'espace."
+"<guimenuitem>Multimission Archive at Space Telescope (MAST)</guimenuitem>. "
+"Le Space Telescope Science Institute fournit un accès à la collection "
+"entière d'images et de spectres pris par le télescope spatial Hubble ainsi "
+"qu'avec plusieurs observatoires dans l'espace."
 
 #. Tag: para
 #: details.docbook:114
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Finally, in the <guilabel>Log</guilabel> Tab, you can type in some text "
 #| "that will remain associated with this object's Details window. You could "
@@ -340,6 +348,6 @@ msgid ""
 "time when you will use &kstars;."
 msgstr ""
 "Enfin, dans l'onglet <guilabel>Journal</guilabel>, vous pouvez écrire du "
-"texte qui restera associé à la fenêtre des détails de l'objet. Vous pouvez "
-"utiliser ceci pour attacher des notes d'observations personnelles par "
-"exemple."
+"texte qui restera associé à la fenêtre des <guilabel>détails</guilabel> de "
+"l'objet. Vous pouvez utiliser ceci pour attacher des notes d'observations "
+"personnelles par exemple."
