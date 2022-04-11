@@ -125,7 +125,7 @@ msgstr ""
 #: faq.docbook:60
 #, no-c-format
 msgid "How can I add a new custom location to &kstars;?"
-msgstr ""
+msgstr "Comment ajouter un emplacement personnalisé à &kstars; ?"
 
 #. Tag: para
 #: faq.docbook:65
@@ -157,6 +157,10 @@ msgid ""
 "cities list and pressing the <guibutton>Remove City</guibutton> button. Note "
 "that you can not remove a &kstars; default city."
 msgstr ""
+"Vous pouvez facilement supprimer un emplacement personnalisé de &kstars; en "
+"le sélectionnant la liste de villes et en cliquant sur le bouton "
+"<guibutton>Supprimer ville</guibutton>. Veuillez noter que vous ne pouvez "
+"pas supprimer la ville par défaut."
 
 #. Tag: para
 #: faq.docbook:94
@@ -168,7 +172,7 @@ msgstr ""
 
 #. Tag: para
 #: faq.docbook:98
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "When the display is in motion, &kstars; must recompute the screen "
 #| "coordinates of every object in its database, which involves some pretty "
@@ -212,7 +216,7 @@ msgstr ""
 
 #. Tag: para
 #: faq.docbook:118
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "The &kstars; Handbook includes the <link linkend=\"astroinfo\">AstroInfo "
 #| "Project</link>; a series of short, hyperlinked articles about "
@@ -229,11 +233,11 @@ msgid ""
 "email>."
 msgstr ""
 "Le manuel de &kstars; inclut le <link linkend=\"astroinfo\">projet "
-"AstroInfo</link> ; une série de petits articles avec des hyper-liens sur les "
+"AstroInfo</link> ; une série de petits articles avec des hyperliens sur les "
 "sujets astronomiques qui peuvent être explorés et illustrés avec &kstars;. "
 "AstroInfo est un effort communautaire, comme GNUpedia ou Everything2. Si "
 "vous voulez contribuer à AstroInfo, veuillez rejoindre notre liste de "
-"diffusion : <email>kstars-devl@kde.org</email>."
+"diffusion : <email>kstars-devel AT kde.org</email>."
 
 #. Tag: para
 #: faq.docbook:131
@@ -247,7 +251,7 @@ msgstr ""
 
 #. Tag: para
 #: faq.docbook:135
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Yes; to start kstars with a different time/date, use the <quote>--date</"
 #| "quote> argument, followed by a date string like <quote>4 July 1976 "
@@ -257,8 +261,8 @@ msgid ""
 "option> argument, followed by a date string like <quote>4 July 1976 "
 "12:30:00</quote>"
 msgstr ""
-"Oui. Pour démarrer &kstars; avec un horodatage différent, utilisez "
-"l'argument <quote>--date</quote>, suivi par une chaîne comme <quote>4 "
+"Oui. Pour démarrer &kstars; avec une heure et une date différentes, utilisez "
+"l'argument <option>--date</option>, suivi par une chaîne comme <quote>4 "
 "Juillet 1976 12:30:00</quote>"
 
 #. Tag: para
@@ -273,7 +277,7 @@ msgstr ""
 
 #. Tag: para
 #: faq.docbook:149
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Yes; to start kstars with the clock paused, simply add the <quote>--"
 #| "paused</quote> argument to the command line."
@@ -282,7 +286,7 @@ msgid ""
 "paused</option> argument to the command line."
 msgstr ""
 "Oui. Pour démarrer &kstars; avec l'horloge arrêtée, utilisez l'argument "
-"<quote>--paused</quote> en ligne de commande."
+"<option>--paused</option> en ligne de commande."
 
 #. Tag: para
 #: faq.docbook:158
@@ -316,7 +320,7 @@ msgstr "Voici une liste de facteurs qui limitent la précision du programme : "
 
 #. Tag: para
 #: faq.docbook:173
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Planet positions are only accurate for dates within 4000 years or so of "
 #| "the current epoch. The planet positions are predicted using a Fourier-"
@@ -459,12 +463,12 @@ msgstr ""
 "pour réduire la taille de &kstars; et du fait de problèmes de licence "
 "similaires sur certaines images. Les images en ligne sont plutôt compressées "
 "en basse qualité par rapport à l'original, et je doute donc qu'il y ait "
-"véritablement un problème de droits, mais je n'ai pas obtenu l'autorisation "
+"véritablement un problème de droits, mais je ai obtenu l'autorisation "
 "explicite des auteurs d'utiliser quelques images pour lesquelles se posaient "
 "des questions (voir <filename>README.images</filename>). Pour être "
 "absolument tranquille, je les ai retirées de la distribution standard et "
-"marqué l'archive à télécharger comme « gratuite pour un usage non "
-"commercial »."
+"marqué l'archive à télécharger <quote>gratuite pour un usage non commercial</"
+"quote>."
 
 #. Tag: para
 #: faq.docbook:225
@@ -508,7 +512,7 @@ msgstr "Puis-je contribuer aux versions prochaines de &kstars; ?"
 
 #. Tag: para
 #: faq.docbook:239
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Yes, definitely! Introduce yourself on our mailing list: <email>kstars-"
 #| "devel@kde.org</email>. If you want to help with the coding, download the "
@@ -530,13 +534,14 @@ msgid ""
 "there as well."
 msgstr ""
 "Oui, certainement ! Faites-vous connaître sur notre liste de diffusion : "
-"<email>kstars-devel@kde.org</email>. Si vous désirez aider la programmation, "
-"téléchargez le dernier code <ulink url=\"http://techbase.kde.org/Projects/"
-"Edu/KStars/Building_KStars\">Git &kstars;</ulink> et plongez. Il y a "
-"plusieurs fichiers README dans la distribution expliquant certains sous-"
-"systèmes du code. Si vous avez besoin d'idées sur quoi travailler, voyez le "
-"fichier TODO. Vous pouvez soumettre là des modificatifs à kstars-devel et "
-"vous sentir libre de poster toute question que vous avez sur le code."
+"<email>kstars-devel AT kde.org</email>. Si vous désirez aider la "
+"programmation, téléchargez le dernier code <ulink url=\"http://invent.kde."
+"org/education/kstars\">Git &kstars;</ulink> et plongez dedans. Il y a "
+"plusieurs fichiers <filename>README</filename> dans la distribution "
+"expliquant certains sous-systèmes du code. Si vous avez besoin d'idées sur "
+"quoi travailler, voyez le fichier <filename>TODO</filename>. Vous pouvez "
+"soumettre y des modificatifs à kstars-devel et vous sentir libre de poster "
+"toute question que vous avez sur le code."
 
 #. Tag: para
 #: faq.docbook:249
