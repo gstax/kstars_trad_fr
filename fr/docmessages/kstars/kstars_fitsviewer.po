@@ -51,7 +51,7 @@ msgstr ""
 
 #. Tag: para
 #: fitsviewer.docbook:9
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "The &kstars; FITS Viewer tool is integrated with the <link linkend=\"indi"
 #| "\">INDI</link> framework for seamless display and manipulation of "
@@ -68,9 +68,9 @@ msgid ""
 msgstr ""
 "L'outil d'affichage FITS de &kstars; est intégré avec l'infrastructure <link "
 "linkend=\"indi\">INDI</link> permettant un affichage fluide et la "
-"manipulation des images FITS capturées. Pour ouvrir un fichier FITS, "
-"sélectionnez <guimenuitem>Ouvrir FITS...</guimenuitem> depuis le menu "
-"<guimenu>Fichier</guimenu> ou appuyez sur <keycombo action=\"simul\">&Ctrl;"
+"manipulation des images FITS. Pour ouvrir un fichier FITS, "
+"sélectionnez depuis le menu "
+"<menuchoice><guimenu>Fichier</guimenu> <guimenuitem>Ouvrir FITS…</guimenuitem></menuchoice> ou appuyez sur <keycombo action=\"simul\">&Ctrl;"
 "<keycap>O</keycap></keycombo>."
 
 #. Tag: screeninfo
@@ -110,11 +110,11 @@ msgstr ""
 
 #. Tag: para
 #: fitsviewer.docbook:30
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Support for only 2D data. 1D and 3D data are discarded."
 msgid "Support for only 2D and 3D data. 1D data are discarded."
 msgstr ""
-"Prise en charge pour seulement les données 2D. Les données 1D et la 3D sont "
+"Prise en charge pour les données 2D et 3D seulement. Les données 1D sont "
 "ignorées."
 
 #. Tag: para
@@ -127,23 +127,23 @@ msgstr "La fenêtre de l'afficheur FITS est divisée en plusieurs partie:"
 #: fitsviewer.docbook:34
 #, no-c-format
 msgid "Main Menu"
-msgstr ""
+msgstr "Menu principal"
 
 #. Tag: para
 #: fitsviewer.docbook:36
 #, no-c-format
 msgid "File"
-msgstr ""
+msgstr "Fichier"
 
 #. Tag: para
 #: fitsviewer.docbook:38
 #, no-c-format
 msgid "Standard Open, Save, and Save As actions."
-msgstr ""
+msgstr "Actions standards Ouvrir, Enregistrer et Enregistrer sous."
 
 #. Tag: para
 #: fitsviewer.docbook:39
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "FITS header: Displays FITS header information."
 msgid "FITS Header: Display FITS header table data."
 msgstr "En-tête FITS : affiche les informations d'en-tête FITS."
@@ -152,80 +152,80 @@ msgstr "En-tête FITS : affiche les informations d'en-tête FITS."
 #: fitsviewer.docbook:40
 #, no-c-format
 msgid "Debayer: Covert RAW image to RGB."
-msgstr ""
+msgstr "Debayerisation : convertit les images brutes en RGB."
 
 #. Tag: para
 #: fitsviewer.docbook:43
 #, no-c-format
 msgid "Edit"
-msgstr ""
+msgstr "Modifier"
 
 #. Tag: para
 #: fitsviewer.docbook:45
 #, no-c-format
 msgid "Undo: Undo last action."
-msgstr ""
+msgstr "Défaire : défait la dernière action."
 
 #. Tag: para
 #: fitsviewer.docbook:46
 #, no-c-format
 msgid "Redo: Redo last action."
-msgstr ""
+msgstr "Refaire : refait la dernière action."
 
 #. Tag: para
 #: fitsviewer.docbook:47
 #, no-c-format
 msgid "Copy: Copy image to clipboard."
-msgstr ""
+msgstr "Copier : copier l'image dans le presse-papier."
 
 #. Tag: para
 #: fitsviewer.docbook:50
 #, no-c-format
 msgid "View"
-msgstr ""
+msgstr "Afficher"
 
 #. Tag: para
 #: fitsviewer.docbook:52
 #, no-c-format
 msgid "Zoom Controls: Zoom in, Zoom out, standard Zoom."
-msgstr ""
+msgstr "Commandes Zoom : zoom avant, zoom arrière, zoom standard."
 
 #. Tag: para
 #: fitsviewer.docbook:53
 #, no-c-format
 msgid "Filters: Auto Stretch, Contrast, High Pass, Rotate, Flip."
-msgstr ""
+msgstr "Filtres : auto-étirement, contraste, passe haut, rotation, inversion"
 
 #. Tag: para
 #: fitsviewer.docbook:54
 #, no-c-format
 msgid "Mark Stars: Detect and mark stars in the image."
-msgstr ""
+msgstr "Marquage d'étoiles : détecter et marquer les étoiles dans l'image."
 
 #. Tag: para
 #: fitsviewer.docbook:59
 #, no-c-format
 msgid "Main Toolbar"
-msgstr ""
+msgstr "Barre d'outils principales"
 
 #. Tag: para
 #: fitsviewer.docbook:61
 #, no-c-format
 msgid "Open File."
-msgstr ""
+msgstr "Ouvrir un fichier."
 
 #. Tag: para
 #: fitsviewer.docbook:62
 #, no-c-format
 msgid ""
 "Save File: Save FITS data. Any filters applied to the image will be saved."
-msgstr ""
+msgstr "Enregistrer un fichier : enregistre les données FITS. Tout filtre appliqué à l'image sera enregistré."
 
 #. Tag: para
 #: fitsviewer.docbook:63
 #, no-c-format
 msgid "Save File As."
-msgstr ""
+msgstr "Enregistrer le fichier sous."
 
 #. Tag: para
 #: fitsviewer.docbook:64
