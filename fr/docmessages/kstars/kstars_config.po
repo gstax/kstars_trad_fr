@@ -6,19 +6,21 @@
 # Ludovic Grossard <grossard@kde.org>, 2002, 2003, 2004, 2012.
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2012, 2013.
 # xavier <ktranslator31@yahoo.fr>, 2012.
+# steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_config\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-01 00:37+0000\n"
-"PO-Revision-Date: 2013-01-30 15:03+0100\n"
-"Last-Translator: Cyrille Bieuzent <bieuzent@gmail.com>\n"
-"Language-Team: French <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2022-04-12 16:24+0200\n"
+"Last-Translator: steve <stax@ik.me>\n"
+"Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 20.12.0\n"
 
 #. Tag: title
 #: config.docbook:2
@@ -56,7 +58,7 @@ msgstr "Régler la fenêtre d'emplacement"
 
 #. Tag: para
 #: config.docbook:23
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "There is a list of over 2500 predefined cities available to choose from. "
 #| "You set your location by highlighting a city from this list. Each city is "
@@ -69,7 +71,7 @@ msgid ""
 "represented in the world map as a small dot, and when a city is highlighted "
 "in the list, a red crosshairs appears on its location in the map."
 msgstr ""
-"Il y a une liste de plus de 2 500 villes prédéfinies. Indiquez votre lieu en "
+"Il y a une liste de plus de 3 400 villes prédéfinies. Indiquez votre lieu en "
 "choisissant une ville dans cette liste. Chaque point sur la carte "
 "géographique représente une ville, et quand une ville est sélectionnée dans "
 "la liste, une croix rouge apparaît sur la carte."
@@ -88,7 +90,7 @@ msgstr "Filtrage"
 
 #. Tag: para
 #: config.docbook:33
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "It is not practical to scroll through the full list of 2500 locations, "
 #| "looking for a specific city. To make searches easier, the list can be "
@@ -117,10 +119,10 @@ msgid ""
 "white, while the unmatched cities remain gray."
 msgstr ""
 "Il n'est pas pratique de faire défiler la liste au complet lorsque vous "
-"cherchez une ville parmi 2 500. Pour faciliter la recherche, la liste peut "
+"cherchez une ville parmi 3 400. Pour faciliter la recherche, la liste peut "
 "être filtrée en saisissant du texte dans les boîtes sous la carte. Par "
-"exemple, dans la capture d'écran, le texte <quote>P</quote> apparaît dans la "
-"boîte <guilabel>Filtre des villes</guilabel>, et <quote>USA</quote> dans la "
+"exemple, dans la capture d'écran, le texte <userinput>A</userinput> apparaît dans la "
+"boîte <guilabel>Filtre des villes</guilabel>, tandis que le texte <userinput>Te</userinput> apparaît dans la boîte <guilabel>Filtre par provinces</guilabel> et <userinput>USA</userinput> dans la "
 "boîte <guilabel>Filtre des pays</guilabel>. Ainsi, notez que les villes qui "
 "apparaissent maintenant dans la liste possèdent des noms de ville, "
 "département et pays qui commencent par les lettres utilisées dans le filtre, "
@@ -153,7 +155,7 @@ msgstr "Emplacements personnalisés"
 
 #. Tag: para
 #: config.docbook:55
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "The <link linkend=\"ai-geocoords\">longitude, latitude</link> and <link "
 #| "linkend=\"ai-timezones\">time zone</link> information for the currently-"
@@ -190,17 +192,16 @@ msgstr ""
 "latitude</link> et le <link linkend=\"ai-timezones\">fuseau horaire</link> "
 "pour l'emplacement actuel sélectionné sont affichées dans les boîtes en bas "
 "de la fenêtre. Si vous trouvez que l'une de ces données est inadaptée, vous "
-"pouvez la modifier et actionner le bouton <guibutton>Ajouter la ville à la "
-"liste</guibutton> pour enregistrer votre version personnalisée de "
+"pouvez la modifier et actionner le bouton <guibutton>+</guibutton> (Ajouter la ville à la "
+"liste) pour enregistrer votre version personnalisée de "
 "l'emplacement. Vous pouvez également définir un emplacement complètement "
 "nouveau en actionnant le bouton <guibutton>Effacer les champs</guibutton>, "
 "et en écrivant les données pour le nouvel emplacement. Notez que tous les "
-"champs sauf <guilabel>Région</guilabel> doivent être remplis avant que le "
+"champs sauf <guilabel>Province</guilabel> et <guilabel>Pays</guilabel> doivent être remplis avant que le "
 "nouvel emplacement ne puisse être ajouté à la liste. Lors des prochaines "
 "sessions, &kstars; chargera vos emplacements en même temps que les autres. "
 "Notez qu'à ce stade, la seule façon de supprimer un emplacement personnalisé "
-"est de supprimer la ligne appropriée à partir du fichier <filename>~/.kde/"
-"share/apps/kstars/mycities.dat</filename>."
+"est de supprimer la ligne appropriée à partir du fichier <filename>ikstars/mycities.dat</filename> dans votre répertoire <userinput><command>qtpaths</command> <option>--paths GenericDataLocation</option></userinput>/nbsp;."
 
 #. Tag: para
 #: config.docbook:71
@@ -212,7 +213,7 @@ msgid ""
 msgstr ""
 "Si vous ajoutez des emplacements (ou modifiez ceux existants), veuillez nous "
 "envoyer votre fichier <filename>mycities.dat</filename> de sorte que nous "
-"puissions l'ajouter à la liste-maîtresse."
+"puissions l'ajouter à la liste principale."
 
 #. Tag: title
 #: config.docbook:79
@@ -316,7 +317,7 @@ msgstr "Plages de dates élargies"
 
 #. Tag: para
 #: config.docbook:109
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "&kstars; can accept very remote dates beyond the usual limits imposed by "
 #| "QDate. Currently, you can set the date between the years -50000 and "
@@ -334,7 +335,7 @@ msgid ""
 msgstr ""
 "&kstars; peut accepter des dates très lointaines, au-delà des limites "
 "habituelles imposées par QDate. Actuellement, vous pouvez fixer une date "
-"entre les années - 50 000 et + 50 000. Nous pouvons étendre cette plage lors "
+"entre les années - 100 000 et + 100 000. Nous pouvons étendre cette plage lors "
 "des versions futures. Cependant, soyez averti que l'exactitude de la "
 "simulation devient de plus en plus dégradée pour les dates les plus "
 "lointaines. C'est particulièrement vrai pour les positions des corps du "
@@ -358,7 +359,7 @@ msgstr "La fenêtre de configuration de &kstars;"
 
 #. Tag: para
 #: config.docbook:122
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "The <guilabel>Configure &kstars;</guilabel> window allows you to modify a "
 #| "wide range of display options. You can access the window with the "
@@ -375,26 +376,26 @@ msgstr ""
 "La fenêtre <guilabel>Configuration de &kstars;</guilabel> vous permet de "
 "modifier une grande variété d'options d'affichage. Vous pouvez accéder à la "
 "fenêtre avec l'icône de barre d'outils <guiicon>Configurer</guiicon> ou en "
-"sélectionnant <guimenuitem>Configurer &kstars;...</guimenuitem> dans le menu "
-"<guimenu>Configuration</guimenu>. Cette fenêtre est décrite ici :"
+"sélectionnant le menu <menuchoice><guimenu>Configuration</guimenu> "
+"<guimenuitem>Configurer &kstars;…</guimenuitem></mennuchoice>. Cette fenêtre est décrite ci-après :"
 
 #. Tag: screeninfo
 #: config.docbook:131
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Configure - &kstars; Window</screeninfo>"
-msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
+msgstr "<screeninfo>Fenêtre de configuration de &kstars;</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:137
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Configure - &kstars; Window</phrase>"
-msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
+msgstr "<phrase>Fenêtre de configuration de &kstars;</phrase>"
 
 #. Tag: para
 #: config.docbook:143
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "The <guilabel>Configure &kstars;</guilabel> window is divided into nine "
 #| "pages: <guilabel>Catalogs</guilabel>, <guilabel>Solar System</guilabel>, "
@@ -412,16 +413,16 @@ msgid ""
 "<guilabel>Advanced</guilabel>."
 msgstr ""
 "La fenêtre <guilabel>Configuration de &kstars;</guilabel> est divisée en "
-"sept onglets : <guilabel>Catalogues</guilabel>, <guilabel>Système solaire</"
+"douze onglets : <guilabel>Catalogues</guilabel>, <guilabel>Système solaire</"
 "guilabel>, <guilabel>Satellites</guilabel>, <guilabel>Supernovae</guilabel>, "
-"<guilabel>Guides</guilabel>, <guilabel>Couleurs</guilabel>, <guilabel>INDI</"
-"guilabel>, <guilabel>Xplanet</guilabel> et <guilabel>Avancé</guilabel>."
+"<guilabel>Guides</guilabel>, <guilabel>Terrain</guilabel>, <guilabel>Couleurs</guilabel>, <guilabel>FITS</guilabel>, <guilabel>INDI</"
+"guilabel>, <guilabel>Ekos</guilabel>, <guilabel>Xplanet</guilabel> et <guilabel>Avancé</guilabel>."
 
 #. Tag: secondary
 #: config.docbook:153
 #, no-c-format
 msgid "<secondary>Catalogs page</secondary>"
-msgstr ""
+msgstr "<secondary>Page de catalogues</secondary>"
 
 #. Tag: para
 #: config.docbook:153
@@ -429,7 +430,7 @@ msgstr ""
 msgid ""
 "In the <guilabel>Catalogs</guilabel> page, you determine several properties "
 "concerning the display of the star and deep sky object catalogs."
-msgstr ""
+msgstr "Sur la page des <guilabel>Catalogues</guilabel>, Vous pouvez choisir plusieurs propriétés concernant l'affichage des catalogues des étoiles et des objets du ciel profond."
 
 #. Tag: secondary
 #: config.docbook:161 config.docbook:983
@@ -443,14 +444,14 @@ msgstr "Onglet Système solaire"
 msgid ""
 "In the <guilabel>Solar System</guilabel> page, you can specify whether the "
 "Sun, Moon, planets, comets and asteroids are displayed."
-msgstr ""
+msgstr "Sur la page du <guilabel>Système solaire</guilabel>, vous pouvez spécifier si le Soleil, la Lune, les planètes, les comètes et les astéroïdes sont affichés."
 
 #. Tag: secondary
 #: config.docbook:169 config.docbook:1011
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Catalogs page"
 msgid "Satellites page"
-msgstr "Onglet Catalogues"
+msgstr "Page des satellites"
 
 #. Tag: para
 #: config.docbook:169
@@ -470,7 +471,7 @@ msgstr ""
 #: config.docbook:176 config.docbook:1062
 #, no-c-format
 msgid "Supernovae page"
-msgstr ""
+msgstr "Page des supernovae"
 
 #. Tag: para
 #: config.docbook:176
@@ -504,7 +505,7 @@ msgstr ""
 #: config.docbook:191
 #, no-c-format
 msgid "Sky culture"
-msgstr ""
+msgstr "Culture du ciel"
 
 #. Tag: para
 #: config.docbook:191
@@ -519,13 +520,13 @@ msgstr ""
 #: config.docbook:200 config.docbook:1120
 #, no-c-format
 msgid "Terrain page"
-msgstr ""
+msgstr "Page du terrain"
 
 #. Tag: primary
 #: config.docbook:201
 #, no-c-format
 msgid "Terrain image"
-msgstr ""
+msgstr "Image du terrain"
 
 #. Tag: secondary
 #: config.docbook:202 config.docbook:212 config.docbook:1159
@@ -576,7 +577,7 @@ msgstr ""
 
 #. Tag: para
 #: config.docbook:218
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "For detailed explanation of the options on the <guilabel>INDI</guilabel> "
 #| "page see the <link linkend=\"indi-configure\">Configure INDI</link> "
@@ -585,9 +586,9 @@ msgid ""
 "For detailed explanation of the options on the <guilabel>FITS</guilabel> "
 "page see the <link linkend=\"fits-configure\">Configure FITS</link> section."
 msgstr ""
-"Pour une explication détaillée des options sur <guilabel>INDI</"
-"guilabel>veuillez vous reporter à la section <link linkend=\"indi-configure"
-"\">Configurer INDI</link>."
+"Pour une explication détaillée des options sur <guilabel>FITS</"
+"guilabel>veuillez vous reporter à la section <link linkend=\"fits-configure"
+"\">Configurer FITS</link>."
 
 #. Tag: para
 #: config.docbook:223 config.docbook:1239
@@ -618,10 +619,10 @@ msgstr ""
 
 #. Tag: secondary
 #: config.docbook:235
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Advanced page"
 msgid "Xplanet page"
-msgstr "Onglet Avancé"
+msgstr "Page Xplanet"
 
 #. Tag: para
 #: config.docbook:235
@@ -652,39 +653,39 @@ msgstr ""
 #: config.docbook:250
 #, no-c-format
 msgid "<title>Catalogs</title>"
-msgstr ""
+msgstr "<title>Catalogues</title>"
 
 #. Tag: primary
 #: config.docbook:252 config.docbook:439 config.docbook:452
 #, no-c-format
 msgid "<primary>Catalogs</primary>"
-msgstr ""
+msgstr "<primary>Catalogues</primary>"
 
 #. Tag: screeninfo
 #: config.docbook:254
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Catalogs Window</screeninfo>"
-msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
+msgstr "<screeninfo>Fenêtre des catalogues</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:260
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Catalogs Window</phrase>"
-msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
+msgstr "<phrase>Fenêtre des catalogues</phrase>"
 
 #. Tag: primary
 #: config.docbook:267
 #, no-c-format
 msgid "<primary>Catalogs page</primary>"
-msgstr ""
+msgstr "<primary>Page des catalogues</primary>"
 
 #. Tag: secondary
 #: config.docbook:268
 #, no-c-format
 msgid "Short overview"
-msgstr ""
+msgstr "Aperçu court"
 
 #. Tag: para
 #: config.docbook:268
@@ -779,151 +780,151 @@ msgstr ""
 
 #. Tag: title
 #: config.docbook:328
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Catalogs page"
 msgid "Stars Catalogs"
-msgstr "Onglet Catalogues"
+msgstr "Catalogues des étoiles"
 
 #. Tag: entry
 #: config.docbook:332 config.docbook:373
 #, no-c-format
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #. Tag: entry
 #: config.docbook:333 config.docbook:374
 #, no-c-format
 msgid "Abbreviation"
-msgstr ""
+msgstr "Abréviation"
 
 #. Tag: entry
 #: config.docbook:334 config.docbook:375
 #, no-c-format
 msgid "Number of objects"
-msgstr ""
+msgstr "Nombre d'objets"
 
 #. Tag: entry
 #: config.docbook:335 config.docbook:376
 #, no-c-format
 msgid "Magnitude"
-msgstr ""
+msgstr "Magnitude"
 
 #. Tag: entry
 #: config.docbook:336 config.docbook:377
 #, no-c-format
 msgid "Add-On"
-msgstr ""
+msgstr "Extension"
 
 #. Tag: entry
 #: config.docbook:337 config.docbook:343 config.docbook:378
 #, no-c-format
 msgid "Default"
-msgstr ""
+msgstr "Défaut"
 
 #. Tag: entry
 #: config.docbook:342
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Catalogs page"
 msgid "Default Catalog"
-msgstr "Onglet Catalogues"
+msgstr "Catalogue par défaut"
 
 #. Tag: entry
 #: config.docbook:344
 #, no-c-format
 msgid "~300,000"
-msgstr ""
+msgstr "~300,000"
 
 #. Tag: entry
 #: config.docbook:345
 #, no-c-format
 msgid "Up to 8 magnitude"
-msgstr ""
+msgstr "Jusqu'à la magnitude 8"
 
 #. Tag: entry
 #: config.docbook:346 config.docbook:355 config.docbook:363 config.docbook:387
 #: config.docbook:397 config.docbook:406 config.docbook:415 config.docbook:424
 #, no-c-format
 msgid "<entry>No</entry>"
-msgstr ""
+msgstr "<entry>Non</entry>"
 
 #. Tag: entry
 #: config.docbook:347 config.docbook:354 config.docbook:362 config.docbook:388
 #: config.docbook:396 config.docbook:405 config.docbook:414 config.docbook:423
 #, no-c-format
 msgid "<entry>Yes</entry>"
-msgstr ""
+msgstr "<entr>Oui</entry>"
 
 #. Tag: entry
 #: config.docbook:350
 #, no-c-format
 msgid "Tycho-2"
-msgstr ""
+msgstr "Tycho-2"
 
 #. Tag: entry
 #: config.docbook:351
 #, no-c-format
 msgid "Tycho2"
-msgstr ""
+msgstr "Tycho2"
 
 #. Tag: entry
 #: config.docbook:352
 #, no-c-format
 msgid "more than 2.5 million"
-msgstr ""
+msgstr "plus de 2,5 millions"
 
 #. Tag: entry
 #: config.docbook:353
 #, no-c-format
 msgid "8.0-12.5"
-msgstr ""
+msgstr "8,0 - 12,5"
 
 #. Tag: entry
 #: config.docbook:358
 #, no-c-format
 msgid "Naval Observatory Merged Astronomic Dataset"
-msgstr ""
+msgstr "Ensemble de données NOMAD"
 
 #. Tag: entry
 #: config.docbook:359
 #, no-c-format
 msgid "USNO NOMAD"
-msgstr ""
+msgstr "USNO NOMAD"
 
 #. Tag: entry
 #: config.docbook:360
 #, no-c-format
 msgid "100 million"
-msgstr ""
+msgstr "100 millions"
 
 #. Tag: entry
 #: config.docbook:361
 #, no-c-format
 msgid "12.5-16.5"
-msgstr ""
+msgstr "12,5 - 16,5"
 
 #. Tag: title
 #: config.docbook:369
 #, no-c-format
 msgid "Deep-sky objects Catalogs"
-msgstr ""
+msgstr "Catalogues des objets profonds"
 
 #. Tag: entry
 #: config.docbook:383
 #, no-c-format
 msgid "New General Catalog of Nebulae and Clusters of Stars (OpenNGC)"
-msgstr ""
+msgstr "New General Catalog des nébuleuses et des amas d'étoiles (OpenNGC)"
 
 #. Tag: entry
 #: config.docbook:384
 #, no-c-format
 msgid "<entry>NGC</entry>"
-msgstr ""
+msgstr "<entry>NGC</entry>"
 
 #. Tag: entry
 #: config.docbook:385
 #, no-c-format
 msgid "7,840"
-msgstr ""
+msgstr "7,840"
 
 #. Tag: entry
 #: config.docbook:386 config.docbook:393 config.docbook:394 config.docbook:395
@@ -931,55 +932,55 @@ msgstr ""
 #: config.docbook:422
 #, no-c-format
 msgid "<entry>-</entry>"
-msgstr ""
+msgstr "<entry>-</entry>"
 
 #. Tag: entry
 #: config.docbook:392
 #, no-c-format
 msgid "Steinicke NGC/IC"
-msgstr ""
+msgstr "Steinicke NGC/IC"
 
 #. Tag: entry
 #: config.docbook:401
 #, no-c-format
 msgid "Abell Planetary Nebulae Catalog"
-msgstr ""
+msgstr "Catalogue des nébuleuses planétaires d'Abell"
 
 #. Tag: entry
 #: config.docbook:403
 #, no-c-format
 msgid "<entry>86</entry>"
-msgstr ""
+msgstr "<entry>86</entry>"
 
 #. Tag: entry
 #: config.docbook:404
 #, no-c-format
 msgid "Up to 19.5 magnitude"
-msgstr ""
+msgstr "Jusqu'à la magnitude 19,5"
 
 #. Tag: entry
 #: config.docbook:410
 #, no-c-format
 msgid "Sharpless HII region Catalog"
-msgstr ""
+msgstr "Catalogue des régions HII de Sharpless"
 
 #. Tag: entry
 #: config.docbook:411
 #, no-c-format
 msgid "<entry>Sh2</entry>"
-msgstr ""
+msgstr "<entry>Sh2</entry>"
 
 #. Tag: entry
 #: config.docbook:419
 #, no-c-format
 msgid "Hickson Compact Groups"
-msgstr ""
+msgstr "Groupes compacts de Hickson"
 
 #. Tag: entry
 #: config.docbook:421
 #, no-c-format
 msgid "<entry>99</entry>"
-msgstr ""
+msgstr "<entry>99</entry>"
 
 #. Tag: para
 #: config.docbook:431
@@ -992,10 +993,10 @@ msgstr ""
 
 #. Tag: secondary
 #: config.docbook:440
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Catalogs page"
 msgid "Star catalogs"
-msgstr "Onglet Catalogues"
+msgstr "Catalogues des étoiles"
 
 #. Tag: para
 #: config.docbook:440
@@ -1016,7 +1017,7 @@ msgstr ""
 #: config.docbook:453
 #, no-c-format
 msgid "<secondary>Deep-Sky Catalogs</secondary>"
-msgstr ""
+msgstr "<secondary>Catalogues du ciel profond</secondary>"
 
 #. Tag: para
 #: config.docbook:453
@@ -1052,32 +1053,34 @@ msgid ""
 "The following sections will detail how DSO catalogs work in &kstars; and how "
 "they're managed."
 msgstr ""
+"La prochaine section expliquera en détail comment les catalogues du ciel"
+" profond (DSO ou CP) fonctionne dans &kstars; et comment ils sont gérés."
 
 #. Tag: title
 #: config.docbook:481
 #, no-c-format
 msgid "The DSO Catalog Database"
-msgstr ""
+msgstr "La base de données du catalogue du CP"
 
 #. Tag: primary
 #: config.docbook:482 config.docbook:484 config.docbook:546 config.docbook:711
 #: config.docbook:738 config.docbook:821
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<primary>Deep-Sky Catalogs</primary>"
-msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
+msgstr "<primary>Catalogues du ciel profond</primary>"
 
 #. Tag: secondary
 #: config.docbook:483
 #, no-c-format
 msgid "Database"
-msgstr ""
+msgstr "Base de données"
 
 #. Tag: secondary
 #: config.docbook:485
 #, no-c-format
 msgid "Database System"
-msgstr ""
+msgstr "Système de base de données"
 
 #. Tag: para
 #: config.docbook:487
@@ -1156,7 +1159,7 @@ msgstr ""
 #: config.docbook:547
 #, no-c-format
 msgid "<secondary>GUI</secondary>"
-msgstr ""
+msgstr "<secondary>GUI</secondary>"
 
 #. Tag: para
 #: config.docbook:548
@@ -1182,20 +1185,22 @@ msgstr ""
 #: config.docbook:554
 #, no-c-format
 msgid "DSO Manager"
-msgstr ""
+msgstr "Gestionnaire des objets du ciel profond"
 
 #. Tag: phrase
 #: config.docbook:560
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>The DSO catalog management interface.</phrase>"
-msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
+msgstr "<phrase>L'interface de gestion du catalogue du ciel profond.</phrase>"
 
 #. Tag: caption
 #: config.docbook:562
 #, no-c-format
 msgid "<caption>The DSO catalog management interface.</caption>"
 msgstr ""
+"<caption>L'interface de gestion du catalogue des objets du ciel profond.<"
+"/caption>"
 
 #. Tag: para
 #: config.docbook:566
@@ -1221,10 +1226,10 @@ msgstr ""
 
 #. Tag: guibutton
 #: config.docbook:583
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Catalogs page"
 msgid "Import Catalog..."
-msgstr "Onglet Catalogues"
+msgstr "Importer un catalogue..."
 
 #. Tag: para
 #: config.docbook:585
@@ -1253,28 +1258,29 @@ msgstr ""
 
 #. Tag: guibutton
 #: config.docbook:599
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Catalogs page"
 msgid "Create Catalog..."
-msgstr "Onglet Catalogues"
+msgstr "Créer un catalogue..."
 
 #. Tag: para
 #: config.docbook:601
 #, no-c-format
 msgid "Create a new catalog. See <xref linkend=\"create_catalog\"/>."
 msgstr ""
+"Création d'un nouveau catalogue. Voir <xref linkend=\"create_catalog\"/>"
 
 #. Tag: guibutton
 #: config.docbook:607
 #, no-c-format
 msgid "Enable / Disable"
-msgstr ""
+msgstr "Activer / Désactiver"
 
 #. Tag: para
 #: config.docbook:609
 #, no-c-format
 msgid "Enable or disable a catalog."
-msgstr ""
+msgstr "Activer ou désactiver un catalogue."
 
 #. Tag: para
 #: config.docbook:610 config.docbook:619
@@ -1287,19 +1293,19 @@ msgstr ""
 #: config.docbook:616 config.docbook:776
 #, no-c-format
 msgid "Remove"
-msgstr ""
+msgstr "Supprimer"
 
 #. Tag: para
 #: config.docbook:618
 #, no-c-format
 msgid "Remove a catalog from the catalog database."
-msgstr ""
+msgstr "Supprimer un catalogue de la base de données des catalogues."
 
 #. Tag: guibutton
 #: config.docbook:625
 #, no-c-format
 msgid "Export..."
-msgstr ""
+msgstr "Exporte..."
 
 #. Tag: para
 #: config.docbook:627
@@ -1307,6 +1313,8 @@ msgstr ""
 msgid ""
 "Export a catalog into a <literal role=\"extension\">.kscat</literal> file."
 msgstr ""
+"Exporter un catalogue dans un fichier <literal role=\"extension\">.kscat<"
+"/literal>."
 
 #. Tag: para
 #: config.docbook:628
@@ -1320,13 +1328,14 @@ msgstr ""
 #: config.docbook:635
 #, no-c-format
 msgid "Clone..."
-msgstr ""
+msgstr "Cloner..."
 
 #. Tag: para
 #: config.docbook:637
 #, no-c-format
 msgid "Make an exact copy of the catalog and insert it into the database."
 msgstr ""
+"Faire une exacte copie du catalogue et l'insérer dans la base de données."
 
 #. Tag: para
 #: config.docbook:638
@@ -1334,6 +1343,8 @@ msgstr ""
 msgid ""
 "This is useful if you wish to make modifications to an immutable catalog."
 msgstr ""
+"Cela est utile si vous souhaitez apporter des modifications à un catalogue"
+" immuable."
 
 #. Tag: para
 #: config.docbook:640
@@ -1350,7 +1361,7 @@ msgstr ""
 #: config.docbook:653
 #, no-c-format
 msgid "<guibutton>Colors</guibutton>"
-msgstr ""
+msgstr "<guibutton>Couleurs</guibutton>"
 
 #. Tag: para
 #: config.docbook:655
@@ -1358,6 +1369,8 @@ msgstr ""
 msgid ""
 "Open the catalog color editor (See <xref linkend=\"catalog_colors\"/>.)."
 msgstr ""
+"Ouvrir le modificateur de couleur de catalogue (voir <xref"
+" linkend=\"catalog_colors\"/>)."
 
 #. Tag: para
 #: config.docbook:657
@@ -1371,7 +1384,7 @@ msgstr ""
 #: config.docbook:665
 #, no-c-format
 msgid "More..."
-msgstr ""
+msgstr "Davantage..."
 
 #. Tag: para
 #: config.docbook:667
@@ -1379,6 +1392,8 @@ msgstr ""
 msgid ""
 "Open the catalog details dialog. (See <xref linkend=\"catalog_details\"/>.)"
 msgstr ""
+"Ouvrir la boîte de dialogue de détails de catalogue. (voir <xref"
+" linkend=\"catalog_details\"/>)."
 
 #. Tag: para
 #: config.docbook:669
@@ -1393,19 +1408,19 @@ msgstr ""
 #: config.docbook:680
 #, no-c-format
 msgid "Creating a new Catalog"
-msgstr ""
+msgstr "Créer un nouveau catalogue"
 
 #. Tag: screeninfo
 #: config.docbook:682
 #, no-c-format
 msgid "Catalog creation dialog"
-msgstr ""
+msgstr "Boîte de dialogue de création d'un catalogue"
 
 #. Tag: phrase
 #: config.docbook:688
 #, no-c-format
 msgid "Catalog creation dialog."
-msgstr ""
+msgstr "Boîte de dialogue de création de catalogue."
 
 #. Tag: para
 #: config.docbook:692
@@ -1433,25 +1448,25 @@ msgstr ""
 #: config.docbook:710
 #, no-c-format
 msgid "<title>Catalog Color Editor</title>"
-msgstr ""
+msgstr "<title>Modificateur de couleur de catalogue</title>"
 
 #. Tag: secondary
 #: config.docbook:712
 #, no-c-format
 msgid "<secondary>Catalog Color Editor</secondary>"
-msgstr ""
+msgstr "<secondary>Modificateur de couleurs de catalogue</secondary"
 
 #. Tag: screeninfo
 #: config.docbook:715
 #, no-c-format
 msgid "Catalog color editor"
-msgstr ""
+msgstr "Modificateur de couleurs de catalogue"
 
 #. Tag: phrase
 #: config.docbook:721
 #, no-c-format
 msgid "The catalog color editor."
-msgstr ""
+msgstr "Le modificateur de couleurs de catalogue."
 
 #. Tag: para
 #: config.docbook:725
@@ -1470,25 +1485,25 @@ msgstr ""
 #: config.docbook:737
 #, no-c-format
 msgid "<title>Catalog Details Dialog</title>"
-msgstr ""
+msgstr "<title>Boîte de dialogue des détails de catalogue</title>"
 
 #. Tag: secondary
 #: config.docbook:739
 #, no-c-format
 msgid "<secondary>Catalog Details Dialog</secondary>"
-msgstr ""
+msgstr "<secondaryBoîte de dialogue des détails de catalogue</secondary"
 
 #. Tag: screeninfo
 #: config.docbook:742
 #, no-c-format
 msgid "Catalog details dialog"
-msgstr ""
+msgstr "Boîte de dialogue des détails de catalogue"
 
 #. Tag: phrase
 #: config.docbook:748
 #, no-c-format
 msgid "The catalog details dialog."
-msgstr ""
+msgstr "La boîte de dialogue de détails de catalogue."
 
 #. Tag: para
 #: config.docbook:752
@@ -1515,19 +1530,19 @@ msgstr ""
 #: config.docbook:768
 #, no-c-format
 msgid "Edit..."
-msgstr ""
+msgstr "Modifier..."
 
 #. Tag: para
 #: config.docbook:770
 #, no-c-format
 msgid "Edit the catalog object. (See <xref linkend=\"add_object\"/>)."
-msgstr ""
+msgstr "Modifier l'objet catalogue. (Voir <xref linkend=\"add_object\"/>)."
 
 #. Tag: para
 #: config.docbook:778
 #, no-c-format
 msgid "Removes the object from the catalog."
-msgstr ""
+msgstr "Supprimer l'objet du catalogue."
 
 #. Tag: para
 #: config.docbook:785
@@ -1536,13 +1551,15 @@ msgid ""
 "Below the <guilabel>Object</guilabel> section, the general catalog options "
 "are situated."
 msgstr ""
+"Les options générales des catalogues sont situés sous la section <guilabel"
+">Objets</guilabel>"
 
 #. Tag: guimenu
 #: config.docbook:792
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Catalogs page"
 msgid "Edit Catalog Meta..."
-msgstr "Onglet Catalogues"
+msgstr "Modifier les métadonnées d'un catalogue..."
 
 #. Tag: para
 #: config.docbook:795
@@ -1556,19 +1573,19 @@ msgstr ""
 #: config.docbook:802
 #, no-c-format
 msgid "Add Object..."
-msgstr ""
+msgstr "Ajouter un objet..."
 
 #. Tag: para
 #: config.docbook:804
 #, no-c-format
 msgid "Add an object to the catalog. (See <xref linkend=\"add_object\"/>.)"
-msgstr ""
+msgstr "Ajouter un objet au catalogue. (Voir <xref linkend=\"add_object\"/>"
 
 #. Tag: guibutton
 #: config.docbook:810
 #, no-c-format
 msgid "Import CSV..."
-msgstr ""
+msgstr "Importer CVS..."
 
 #. Tag: para
 #: config.docbook:812
@@ -1582,27 +1599,31 @@ msgstr ""
 #: config.docbook:820
 #, no-c-format
 msgid "<title>Adding/Editing Objects</title>"
-msgstr ""
+msgstr "<title>Ajout/Modification des objets</title>"
 
 #. Tag: secondary
 #: config.docbook:822
 #, no-c-format
 msgid "<secondary>Adding/Editing Objects</secondary>"
-msgstr ""
+msgstr "<secondary>Ajout/Modification d'objets</secondary>"
 
 #. Tag: screeninfo
 #: config.docbook:825
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Add/Edit DSO Dialog</screeninfo>"
-msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
+msgstr ""
+"<screeninfo>Fenêtre de dialogue d'ajout/modification d'objets du ciel"
+" profond</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:831
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Add/Edit DSO Dialog</phrase>"
-msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
+msgstr ""
+"<phrase>Boîte de dialogue d'ajout/modification d'objets du ciel profond<"
+"/phrase>"
 
 #. Tag: para
 #: config.docbook:835
@@ -1617,50 +1638,50 @@ msgstr ""
 #: config.docbook:843
 #, no-c-format
 msgid "Name:"
-msgstr ""
+msgstr "Nom:"
 
 #. Tag: para
 #: config.docbook:844
 #, no-c-format
 msgid "The name of the object which will be displayed in the sky."
-msgstr ""
+msgstr "Le nom de l'objet qui sera affiché dans le ciel."
 
 #. Tag: guilabel
 #: config.docbook:848
 #, no-c-format
 msgid "Type:"
-msgstr ""
+msgstr "Type:"
 
 #. Tag: para
 #: config.docbook:849
 #, no-c-format
 msgid "The type of the object."
-msgstr ""
+msgstr "Le type de l'objet."
 
 #. Tag: guilabel
 #: config.docbook:853
 #, no-c-format
 msgid "RA / Dec (°, J2000):"
-msgstr ""
+msgstr "AD/DEC (°, J2000):"
 
 #. Tag: para
 #: config.docbook:854
 #, no-c-format
 msgid ""
 "The coordinates of the object in degrees and with respect to the J2000 epoch."
-msgstr ""
+msgstr "Les coordonnées de l'objet en degrés et par rapport à l'époque J2000."
 
 #. Tag: guilabel
 #: config.docbook:858
 #, no-c-format
 msgid "Apparent magnitude:"
-msgstr ""
+msgstr "Magnitude apparente:"
 
 #. Tag: para
 #: config.docbook:859
 #, no-c-format
 msgid "The apparent magnitude of the object."
-msgstr ""
+msgstr "La magnitude apparente de l'objet."
 
 #. Tag: para
 #: config.docbook:863
@@ -1683,19 +1704,19 @@ msgstr ""
 #: config.docbook:872
 #, no-c-format
 msgid "The <guilabel>Misc</guilabel> subsection."
-msgstr ""
+msgstr "La sous-section <guilabel>Divers</guilabel>"
 
 #. Tag: guilabel
 #: config.docbook:878
 #, no-c-format
 msgid "Long name:"
-msgstr ""
+msgstr "Nom long:"
 
 #. Tag: para
 #: config.docbook:879
 #, no-c-format
 msgid "A longer, more descriptive name."
-msgstr ""
+msgstr "Un nom plus long, plus descriptif."
 
 #. Tag: para
 #: config.docbook:880
@@ -1710,13 +1731,13 @@ msgstr ""
 #: config.docbook:884
 #, no-c-format
 msgid "Catalog identifier:"
-msgstr ""
+msgstr "Identifiant du catalogue:"
 
 #. Tag: para
 #: config.docbook:885
 #, no-c-format
 msgid "A catalog internal identifier."
-msgstr ""
+msgstr "Un identifiant interne du catalogue."
 
 #. Tag: para
 #: config.docbook:886
@@ -1730,19 +1751,19 @@ msgstr ""
 #: config.docbook:890
 #, no-c-format
 msgid "Flux:"
-msgstr ""
+msgstr "Flux:"
 
 #. Tag: para
 #: config.docbook:891
 #, no-c-format
 msgid "The flux of the object. Only applies for radio sources."
-msgstr ""
+msgstr "Le flux de l'objet. Ne s'applique qu'aux sources radio."
 
 #. Tag: guilabel
 #: config.docbook:895
 #, no-c-format
 msgid "Position angle (°):"
-msgstr ""
+msgstr "Angle de position (°):"
 
 #. Tag: para
 #: config.docbook:896
@@ -1757,21 +1778,23 @@ msgstr ""
 #: config.docbook:902
 #, no-c-format
 msgid "Importing CSV (and similar formats)"
-msgstr ""
+msgstr "Importation CVS (et formats similaires)"
 
 #. Tag: screeninfo
 #: config.docbook:904
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Importing CSV Catalogs</screeninfo>"
-msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
+msgstr "<screeninfo>Importation de catalogues du ciel profond</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:910 config.docbook:932 config.docbook:960
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Importing CSV Catalogs</phrase>"
-msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
+msgstr ""
+"<phrase>Importation de catalogues d'objets du ciel profond au format CSV<"
+"/phrase>"
 
 #. Tag: para
 #: config.docbook:914
@@ -1792,7 +1815,7 @@ msgstr ""
 #: config.docbook:926
 #, no-c-format
 msgid "Importing CSV Catalogs, Populated"
-msgstr ""
+msgstr "Importation de catalogues au format CSV, alimentés"
 
 #. Tag: para
 #: config.docbook:936
@@ -1817,28 +1840,28 @@ msgstr ""
 #: config.docbook:954
 #, no-c-format
 msgid "Importing CSV Catalogs, OpenNGC"
-msgstr ""
+msgstr "Importation de catalogues au format CSV, OpenNGC"
 
 #. Tag: title
 #: config.docbook:969
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Solar System page"
 msgid "Solar System"
-msgstr "Onglet Système solaire"
+msgstr "Système solaire"
 
 #. Tag: screeninfo
 #: config.docbook:971
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Solar System Window</screeninfo>"
-msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
+msgstr "<screeninfo>Fenêtre du système solaire</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:977
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Solar System Window</phrase>"
-msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
+msgstr "<phrase>Fenêtre du système solaire</phrase>"
 
 #. Tag: para
 #: config.docbook:983
@@ -1865,24 +1888,24 @@ msgstr ""
 
 #. Tag: title
 #: config.docbook:997
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Catalogs page"
 msgid "Satellites"
-msgstr "Onglet Catalogues"
+msgstr "Satellites"
 
 #. Tag: screeninfo
 #: config.docbook:999
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Satellites Window</screeninfo>"
-msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
+msgstr "<screeninfo>Fenêtre des satellites</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:1005
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Satellites Window</phrase>"
-msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
+msgstr "<phrase>Fenêtre des satellites</phrase>"
 
 #. Tag: para
 #: config.docbook:1011
@@ -1949,21 +1972,21 @@ msgstr ""
 #: config.docbook:1048
 #, no-c-format
 msgid "Supernovae"
-msgstr ""
+msgstr "Supernovae"
 
 #. Tag: screeninfo
 #: config.docbook:1050
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Supernovae Window</screeninfo>"
-msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
+msgstr "<screeninfo>Fenêtre des supernovae</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:1056
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Supernovae Window</phrase>"
-msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
+msgstr "<phrase>Fenêtre des supernovae</phrase>"
 
 #. Tag: para
 #: config.docbook:1062
@@ -1998,24 +2021,24 @@ msgstr ""
 
 #. Tag: title
 #: config.docbook:1079
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Guides page"
 msgid "Guides"
-msgstr "Onglet Guides"
+msgstr "Guides"
 
 #. Tag: screeninfo
 #: config.docbook:1081
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Guides Window</screeninfo>"
-msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
+msgstr "<screeninfo>Fenêtre des guides</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:1087
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Guides Window</phrase>"
-msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
+msgstr "<phrase>Fenêtre des guides</phrase>"
 
 #. Tag: para
 #: config.docbook:1093
@@ -2052,21 +2075,21 @@ msgstr ""
 #: config.docbook:1106
 #, no-c-format
 msgid "Terrain"
-msgstr ""
+msgstr "Terrain"
 
 #. Tag: screeninfo
 #: config.docbook:1108
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Terrain Window</screeninfo>"
-msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
+msgstr "<screeninfo>Fenêtre du terrain</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:1114
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Terrain Window</phrase>"
-msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
+msgstr "<phrase>Fenêtre du terrain</phrase>"
 
 #. Tag: para
 #: config.docbook:1120
@@ -2142,21 +2165,21 @@ msgstr ""
 #: config.docbook:1143
 #, no-c-format
 msgid "<title>Colors</title>"
-msgstr ""
+msgstr "<title>Couleurs</title>"
 
 #. Tag: screeninfo
 #: config.docbook:1145
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Colors Window</screeninfo>"
-msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
+msgstr "<screeninfo>Fenêtre des couleurs</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:1151
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Colors Window</phrase>"
-msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
+msgstr "<phrase>Fenêtre des couleurs</phrase>"
 
 #. Tag: para
 #: config.docbook:1159
@@ -2249,27 +2272,27 @@ msgstr ""
 #: config.docbook:1190
 #, no-c-format
 msgid "FITS"
-msgstr ""
+msgstr "FITS"
 
 #. Tag: screeninfo
 #: config.docbook:1192
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>FITS Window</screeninfo>"
-msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
+msgstr "<screeninfo>Fenêtre FITS</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:1198
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>FITS Window</phrase>"
-msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
+msgstr "<phrase>Fenêtre FITS</phrase>"
 
 #. Tag: secondary
 #: config.docbook:1203
 #, no-c-format
 msgid "FITS page"
-msgstr ""
+msgstr "Page FITS"
 
 #. Tag: para
 #: config.docbook:1204
@@ -2287,6 +2310,7 @@ msgstr ""
 #, no-c-format
 msgid "The left panel is for configuring FITS viewer itself."
 msgstr ""
+"Le panneau de gauche est pour la configuration propre de l'afficheur FITS."
 
 #. Tag: para
 #: config.docbook:1209
@@ -2295,6 +2319,9 @@ msgid ""
 "Check the <guilabel>Use FITS viewer</guilabel> item if you want "
 "automatically display received images in the FITS Viewer."
 msgstr ""
+"Veuillez vérifier l'élément <guilabel>Utiliser l'afficheur FITS</guilabel> si"
+" vous souhaitez afficher automatiquement les images FITS reçues dans"
+" l'afficheur FITS."
 
 #. Tag: para
 #: config.docbook:1212
@@ -2331,41 +2358,41 @@ msgstr ""
 #: config.docbook:1227
 #, no-c-format
 msgid "INDI"
-msgstr ""
+msgstr "INDI"
 
 #. Tag: screeninfo
 #: config.docbook:1229
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>INDI Window</screeninfo>"
-msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
+msgstr "<screeninfo>Fenêtre INDI</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:1235
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>INDI Window</phrase>"
-msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
+msgstr "<phrase>Fenêtre INDI</phrase>"
 
 #. Tag: title
 #: config.docbook:1245
 #, no-c-format
 msgid "Ekos"
-msgstr ""
+msgstr "Ekos"
 
 #. Tag: screeninfo
 #: config.docbook:1247
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Ekos Window</screeninfo>"
-msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
+msgstr "<screeninfo>Fenêtre Ekos</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:1253
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Ekos Window</phrase>"
-msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
+msgstr "<phrase>Fenêtre Ekos</phrase>"
 
 #. Tag: para
 #: config.docbook:1257
@@ -2383,24 +2410,24 @@ msgstr ""
 
 #. Tag: title
 #: config.docbook:1268
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Advanced page"
 msgid "Xplanet"
-msgstr "Onglet Avancé"
+msgstr "Xplanet"
 
 #. Tag: screeninfo
 #: config.docbook:1270
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Xplanet Window</screeninfo>"
-msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
+msgstr "<screeninfo>Fenêtre Xplanet</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:1276
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Xplanet Window</phrase>"
-msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
+msgstr "<phrase>Fenêtre Xplanet</phrase>"
 
 #. Tag: para
 #: config.docbook:1280
@@ -2414,24 +2441,24 @@ msgstr ""
 
 #. Tag: title
 #: config.docbook:1288
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Advanced page"
 msgid "Advanced"
-msgstr "Onglet Avancé"
+msgstr "Avancé"
 
 #. Tag: screeninfo
 #: config.docbook:1290
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Advanced Window</screeninfo>"
-msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
+msgstr "<screeninfo>Fenêtre Avancé</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:1296
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Advanced Window</phrase>"
-msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
+msgstr "<phrase>Fenêtre Avancé</phrase>"
 
 #. Tag: primary
 #: config.docbook:1306
@@ -2861,7 +2888,7 @@ msgstr ""
 #: config.docbook:1452
 #, no-c-format
 msgid "&hips;"
-msgstr ""
+msgstr "&hips;"
 
 #, fuzzy
 #~| msgid "Colors page"
