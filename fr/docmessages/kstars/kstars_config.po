@@ -455,7 +455,7 @@ msgstr "Page des satellites"
 
 #. Tag: para
 #: config.docbook:169
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "The <guilabel>Colors</guilabel> page allows you to set the color scheme, "
 #| "and to define custom color schemes. The tab is split into two panels:"
@@ -463,9 +463,7 @@ msgid ""
 "The <guilabel>Satellites</guilabel> page allows you to set the satellites "
 "view options."
 msgstr ""
-"L'onglet des <guilabel>couleurs</guilabel> vous permet de définir le thème "
-"de couleur, et de définir des thèmes de couleurs personnalisés. Cette "
-"section est séparée en deux :"
+"L'onglet des <guilabel>satellites</guilabel> vous permet de définir les options d'affichage des satellites."
 
 #. Tag: secondary
 #: config.docbook:176 config.docbook:1062
@@ -475,7 +473,7 @@ msgstr "Page des supernovae"
 
 #. Tag: para
 #: config.docbook:176
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "The <guilabel>Advanced</guilabel> page provides fine-grained control over "
 #| "the more subtle behaviors of &kstars;."
@@ -483,8 +481,7 @@ msgid ""
 "The <guilabel>Supernovae</guilabel> page allows you to manage how supernovae "
 "are displayed by &kstars;."
 msgstr ""
-"L'onglet <guilabel>Avancé</guilabel> fournit un contrôle fin des "
-"comportements les plus obscurs de &kstars;."
+"L'onglet <guilabel>Supernovae</guilabel> permet de gérer la manière dont les supernovae sont affichées dans &kstras;."
 
 #. Tag: secondary
 #: config.docbook:183 config.docbook:1093
@@ -499,7 +496,7 @@ msgid ""
 "The <guilabel>Guides</guilabel> page lets you toggle whether non-objects are "
 "displayed (&ie;, constellation lines, constellation names, the Milky Way "
 "contour)."
-msgstr ""
+msgstr "La page des <guilabel>Guides</guilabel> vous permet d'afficher ou non les non-objets (&ie; les lignes de constellations, leurs noms ou encore le contour de la Voie Lactée). "
 
 #. Tag: primary
 #: config.docbook:191
@@ -514,7 +511,7 @@ msgid ""
 "It is possible to choose a <guilabel>Sky culture:</guilabel> for the "
 "constellation lines and names on this page. The current version of &kstars; "
 "includes data for more than a dozen sky cultures."
-msgstr ""
+msgstr "Il est possible de choisir une <guilabel>culture du ciel</guilabel> pour les lignes de constellations et les noms sur cette page. La version actuelle de &kstars; inclut des données pour plus d'une dizaine de culture du ciel."
 
 #. Tag: secondary
 #: config.docbook:200 config.docbook:1120
@@ -537,7 +534,7 @@ msgstr "Personnalisation"
 
 #. Tag: para
 #: config.docbook:202
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "The <guilabel>Colors</guilabel> page allows you to set the color scheme, "
 #| "and to define custom color schemes. The tab is split into two panels:"
@@ -545,9 +542,8 @@ msgid ""
 "The <guilabel>Terrain</guilabel> page allows you to set the terrain or "
 "landscape image and configure its speedup options."
 msgstr ""
-"L'onglet des <guilabel>couleurs</guilabel> vous permet de définir le thème "
-"de couleur, et de définir des thèmes de couleurs personnalisés. Cette "
-"section est séparée en deux :"
+"L'onglet des <guilabel>terrains</guilabel> vous permet de définir les terrains ou les images de paysage et de configurer leurs options d'accélération."
+
 
 #. Tag: secondary
 #: config.docbook:210 config.docbook:1157
@@ -563,7 +559,7 @@ msgstr "Chartes de couleurs"
 
 #. Tag: para
 #: config.docbook:212
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "The <guilabel>Colors</guilabel> page allows you to set the color scheme, "
 #| "and to define custom color schemes. The tab is split into two panels:"
@@ -572,8 +568,7 @@ msgid ""
 "to define new custom color schemes."
 msgstr ""
 "L'onglet des <guilabel>couleurs</guilabel> vous permet de définir le thème "
-"de couleur, et de définir des thèmes de couleurs personnalisés. Cette "
-"section est séparée en deux :"
+"de couleur, et de définir des thèmes de couleurs personnalisés."
 
 #. Tag: para
 #: config.docbook:218
@@ -603,7 +598,7 @@ msgstr ""
 
 #. Tag: para
 #: config.docbook:228
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "For detailed explanation of the options on the <guilabel>INDI</guilabel> "
 #| "page see the <link linkend=\"indi-configure\">Configure INDI</link> "
@@ -613,9 +608,9 @@ msgid ""
 "suite, see the <link linkend=\"tool-ekos\">Ekos section of this manual</"
 "link>."
 msgstr ""
-"Pour une explication détaillée des options sur <guilabel>INDI</"
-"guilabel>veuillez vous reporter à la section <link linkend=\"indi-configure"
-"\">Configurer INDI</link>."
+"Pour une explication détaillée des options sur <guilabel>Ekos</"
+"guilabel>veuillez vous reporter à la section <link linkend=\"tool-ekos"
+"\">Section Ekos de ce manuel</link>."
 
 #. Tag: secondary
 #: config.docbook:235
@@ -631,7 +626,7 @@ msgid ""
 "The <guilabel>Xplanet</guilabel> page provides fine-grained control over "
 "<ulink url=\"http://xplanet.sourceforge.net/\">Solar system planet surface "
 "renderer Xplanet</ulink> (should be installed separately)."
-msgstr ""
+msgstr "La page <guilabel>Xplanet</guilabel> fournit un contrôle détaillé du <ulink url=\"http ://xplanet.sourceforge.net\">rendu des surfaces des planètes du système solaire par Xplanet</ulink> (à installer séparément)."
 
 #. Tag: secondary
 #: config.docbook:243 config.docbook:1302
@@ -697,7 +692,7 @@ msgid ""
 "~300,000 named and unnamed stars up to magnitude 8. For Deep Sky Objects, "
 "the included catalog is the New General Catalog (<quote>NGC</quote>) "
 "including the Index Catalog (<quote>IC</quote>) and the Messier Catalog."
-msgstr ""
+msgstr "Sur la page <guilabel>Catalogues</guilabel>, vous pouvez configurer les catalogues que &kstars; affichera, ainsi que la quantité d'information qu'affichera &kstars;. Par défaut, &kstars; inclut plus de 300 000 noms d'étoiles connues et inconnues jusqu'à la magnitude 8. Pour les objets du ciel profond, sont inclus les catalogues <quote>NGC</quote>, <quote>IC/quote> et <quote>Messier</quote>."
 
 #. Tag: para
 #: config.docbook:278
@@ -705,7 +700,7 @@ msgstr ""
 msgid ""
 "The New General Catalog of Nebulae and Clusters of Stars (abbreviated as "
 "NGC) is a catalog of ca 7,840 deep-sky objects."
-msgstr ""
+msgstr "Le catalogue NGC inclut environ 7 840 objets du ciel profond."
 
 #. Tag: para
 #: config.docbook:283
@@ -714,7 +709,7 @@ msgid ""
 "The Index Catalog of Nebulae and Clusters of Stars (abbreviated as IC) "
 "serves as a supplement to the NGC, and contains an additional 5,386 objects, "
 "collectively known as the IC objects."
-msgstr ""
+msgstr "Le catalogue IC complète le catalogue NGC avec quelques 5 386 objets suplémenatires."
 
 #. Tag: para
 #: config.docbook:289
@@ -724,13 +719,13 @@ msgid ""
 "You can open it via the <menuchoice><guimenu>Data</guimenu> "
 "<guimenuitem>Download New Data...</guimenuitem></menuchoice> menu item. You "
 "can choose from a list of catalogs, including (but not limited to):"
-msgstr ""
+msgstr "Vous pouvez installer de nouveau catalogues avec l'<quote>installateur d'extension</quote>. Vous pouvez l'ouvrir en allant dans le menu <menuchoice><guimenu>Données</guimenu> <guimenuitem>Télécharger de nouvelles données…</guimenuitem></menuchoice>. Vous pouvez choisir à partir d'une liste de catalogues qui inclut (mais n'est pas limité à) :"
 
 #. Tag: para
 #: config.docbook:295
 #, no-c-format
 msgid "Steinicke NGC/IC Catalog: is a more complete NGC/IC catalog."
-msgstr ""
+msgstr "Le catalogue NGC/IC de Steinicke qui est un catalogue plus complet que le NGC/IC."
 
 #. Tag: para
 #: config.docbook:299
@@ -738,7 +733,7 @@ msgstr ""
 msgid ""
 "Abell Planetary Nebulae Catalog: is a catalog of 86 planetary nebulae. The "
 "maximum magnitude is represented by Abell 47's value of 19.5."
-msgstr ""
+msgstr "Le catalogue des nébuleuses planétaire d'Abell qui contient 86 nébuleuses planétaire. La magnitude maximale est représentée oar la valeur 47 de 19,5 d'Abell ( ? ? ? ?)"
 
 #. Tag: para
 #: config.docbook:304
@@ -746,7 +741,7 @@ msgstr ""
 msgid ""
 "Sharpless HII region Catalog: is the Sharpless (Sh2) catalog of HII regions "
 "(diffuse nebulae)."
-msgstr ""
+msgstr "Le catalogue Sharpless de la région HII (Sh2) contient les régions des nébuleuses diffuses."
 
 #. Tag: para
 #: config.docbook:308
@@ -754,7 +749,7 @@ msgstr ""
 msgid ""
 "Hickson Compact Groups: is a catalog consisting of 99 compact groups of "
 "galaxies."
-msgstr ""
+msgstr "Les groupes compacts d'Hickson est un catalogue contenant un groupe compacts de 99 galaxies."
 
 #. Tag: para
 #: config.docbook:312
@@ -762,7 +757,7 @@ msgstr ""
 msgid ""
 "Tycho-2 Star Catalog: is a catalog of more than 2.5 million of the brightest "
 "stars. It contains stars with a magnitude value from 8.0 to 12.5."
-msgstr ""
+msgstr "Le catalogue Tycho-2 Star contient plus de 2,5 millions d'étoiles les plus brillantes. Il contient des étoiles de magnitude allant de 8,0 à 12,5."
 
 #. Tag: para
 #: config.docbook:317
@@ -770,13 +765,13 @@ msgstr ""
 msgid ""
 "USNO NOMAD Catalog: is a catalog of about 100 million stars with magnitude "
 "from 12.5 to 16.5. Note that is requires Tycho-2 to be installed."
-msgstr ""
+msgstr "Le catalogue NOMAD USNO contient plus de 100 millions d'étoiles de magnitude 12,5 à 16.5. Veuillez noter que le catalogue Tycho-2 doit être préalablement installé."
 
 #. Tag: para
 #: config.docbook:325
 #, no-c-format
 msgid "The following is a summary of catalogs in &kstars;:"
-msgstr ""
+msgstr "Ce qui suit est un résumé des catalogues de &kstars;."
 
 #. Tag: title
 #: config.docbook:328
@@ -989,7 +984,7 @@ msgid ""
 "A potentially more up-to-date listing can be found in the <ulink url="
 "\"https://protagon.space/catalogs/pages/catalogs.html\">catalog repository "
 "documentation</ulink>."
-msgstr ""
+msgstr "Une liste probablement plus à jour peut être trouvée dans la documentation du <ulink url=\"https://protagon.space/catalogs/pages/catalogs.html\">dépôt de catalogue</ulink>."
 
 #. Tag: secondary
 #: config.docbook:440
@@ -1011,7 +1006,7 @@ msgid ""
 "\">magnitudes</link>. Star names are drawn next to bright stars. To display "
 "labels of fainter stars, increase the <guilabel>Label density:</guilabel> "
 "slider."
-msgstr ""
+msgstr "La section <guilabel>Étoiles</guilabel> vous permet de gérer la manière dont les étoiles sont affichées dans &kstars;. Vous pouvez choisir d'afficher ou non les étoiles en cochant </guilabel>Catalogues d'étoiles<guilabel>. En cochant, vous ferez apparaître plusieurs options. Par exemple le nombre d'étoiles peut être configuré avec le curseur <guilabel>Densité d'étoiles</guilabel>. Vous pouvez aussi configure &kstars; pour afficher le nom des étoiles et leur <link linkend=\"ai-magnitude\">magnitude</link>. Le nom des étoiles est affiché à côté des étoiles brillantes. Pour afficher le nom des étoiles plus pâles, augmenter le curseur de la <guilabel>densité d'étoiles</guilabel>."
 
 #. Tag: secondary
 #: config.docbook:453
