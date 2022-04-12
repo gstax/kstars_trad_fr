@@ -1,0 +1,679 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-07-22 00:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: ekos-guide.docbook:2
+#, no-c-format
+msgid "<title>Guide</title>"
+msgstr ""
+
+#. Tag: primary
+#: ekos-guide.docbook:4
+#, no-c-format
+msgid "Tools"
+msgstr ""
+
+#. Tag: secondary
+#: ekos-guide.docbook:5
+#, no-c-format
+msgid "Ekos"
+msgstr ""
+
+#. Tag: tertiary
+#: ekos-guide.docbook:6
+#, no-c-format
+msgid "<tertiary>Guide</tertiary>"
+msgstr ""
+
+#. Tag: screeninfo
+#: ekos-guide.docbook:9
+#, no-c-format
+msgid "<screeninfo>Ekos Guide Module</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: ekos-guide.docbook:17
+#, no-c-format
+msgid "<phrase>Ekos Guide Module</phrase>"
+msgstr ""
+
+#. Tag: title
+#: ekos-guide.docbook:22
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:23
+#, no-c-format
+msgid ""
+"Ekos Guide Module enables autoguiding capability using either the powerful "
+"built-in guider, or at your option, external guiding via <ulink url="
+"\"https://openphdguiding.org/\">PHD2</ulink> or <ulink url=\"https://"
+"sourceforge.net/projects/linguider/\">lin_guider</ulink>. Using the internal "
+"guiding, guider CCD frames are captured and sent to Ekos for analysis. "
+"Depending on the deviations of the guide star from its lock position, "
+"guiding pulses corrections are sent to your mount <guilabel>Via</guilabel> "
+"any device that supports ST4 ports. Alternatively, you may send the "
+"corrections to your mount <emphasis>directly</emphasis>, if supported by the "
+"mount driver. Most of the &GUI; options in the Guide Module are well "
+"documented so just hover your mouse over an item and a tooltip will popup "
+"with helpful information."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:26
+#, no-c-format
+msgid ""
+"To perform guiding, you need to select a Guider CCD in <link linkend=\"ekos-"
+"profile-wizard\">Ekos Profile Setup</link>. The telescope aperture and focal "
+"length must be set in the telescope driver. If the Guider CCD is attached to "
+"a separate Guide Scope, you must also set the Guide Scope's <guilabel>Focal "
+"Length</guilabel> and <guilabel>Aperture</guilabel>. You can set these "
+"values under the <guilabel>Options</guilabel> tab of the <link linkend="
+"\"indi-telescope-setup\">telescope driver</link> or from the Mount module. "
+"Autoguiding is a two-step process: Calibration &amp; Guiding."
+msgstr ""
+
+#. Tag: phrase
+#: ekos-guide.docbook:35
+#, no-c-format
+msgid "Guiding introduction"
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:39
+#, no-c-format
+msgid "During the two processes, you must set the following:"
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:44
+#, no-c-format
+msgid "<guilabel>Guider</guilabel>: Select the Guider CCD."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:49
+#, no-c-format
+msgid ""
+"<guilabel>Via</guilabel>: Selects which device receives the autoguiding "
+"correction pulses from Ekos. Usually, guider CCDs have an ST4 port. If you "
+"are using the guider's ST4 to autoguide your telescope, set the guider "
+"driver in the <guilabel>Via</guilabel> combo box. The guider CCD will "
+"receive the correction pulses from Ekos and will relay them to the mount via "
+"the ST4 port. Alternatively, some telescopes support pulse commands and you "
+"can select the telescope to be a receiver of the Ekos correction pulses."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:54
+#, no-c-format
+msgid "<guilabel>Exposure</guilabel>: CCD Exposure in seconds."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:59
+#, no-c-format
+msgid "<guilabel>Binning</guilabel>: CCD Binning."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:64
+#, no-c-format
+msgid ""
+"<guilabel>Box</guilabel>: Size of the box enclosing the guide star. Select a "
+"suitable size that is neither too large or too small for the selected star."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:69
+#, no-c-format
+msgid ""
+"<guilabel>Effects</guilabel>: Specify filter to be applied to the image to "
+"enhance it."
+msgstr ""
+
+#. Tag: title
+#: ekos-guide.docbook:77
+#, no-c-format
+msgid "Dark Frames"
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:78
+#, no-c-format
+msgid ""
+"Dark frames are <emphasis>immensely</emphasis> helpful in reducing noises in "
+"your guide frames. It is highly recommended to take dark frames before you "
+"begin and calibration or guiding procedure. To take a dark frame, check the "
+"<guilabel>Dark</guilabel> checkbox and then click <guibutton>Capture</"
+"guibutton>. For the first time this is performed, Ekos will ask you about "
+"your camera shutter. If your camera does not have a shutter, then Ekos will "
+"warn you anytime you take a dark frame to cover your camera/telescope before "
+"proceeding with the capture. On the other hand, if the camera already "
+"includes a shutter, then Ekos will directly proceed with taking the dark "
+"frame. All dark frames are automatically saved to Ekos Dark Frame Library. "
+"By default, the Dark Library keeps reusing dark frames for 30 days after "
+"which it will capture new dark frames. This value is configurable and can be "
+"adjusted in <link linkend=\"ekos\">Ekos settings</link> in the &kstars; "
+"settings dialog."
+msgstr ""
+
+#. Tag: screeninfo
+#: ekos-guide.docbook:82
+#, no-c-format
+msgid "<screeninfo>Ekos Dark frames library</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: ekos-guide.docbook:90
+#, no-c-format
+msgid "<phrase>Ekos Dark frames library</phrase>"
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:94
+#, no-c-format
+msgid ""
+"It is recommended to take dark frames covering several binning and exposure "
+"values so that they may be reused transparently by Ekos whenever needed."
+msgstr ""
+
+#. Tag: title
+#: ekos-guide.docbook:100
+#, no-c-format
+msgid "Calibration"
+msgstr ""
+
+#. Tag: screeninfo
+#: ekos-guide.docbook:103
+#, no-c-format
+msgid "<screeninfo>Calibration Settings</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: ekos-guide.docbook:111
+#, no-c-format
+msgid "<phrase>Calibration Settings</phrase>"
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:115
+#, no-c-format
+msgid ""
+"In the calibration phase, you need to capture an image, select a guide star, "
+"and click <guibutton>Guide</guibutton> to begin the calibration process. If "
+"calibration was already completed successfully before, then the autoguiding "
+"process shall begin immediately, otherwise, it would start the calibration "
+"process. If <guilabel>Auto Star</guilabel> is checked, then you are only "
+"required to click <guibutton>Capture</guibutton> and Ekos will automatically "
+"select the best-fit guide star in the image and continues the calibration "
+"process automatically. If <guilabel>Auto Star</guilabel> is disabled, Ekos "
+"will try to automatically highlight the best guide star in the field. You "
+"need to confirm or change the selection before you can start the calibration "
+"process. The calibration options are:"
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:120
+#, no-c-format
+msgid ""
+"<guilabel>Pulse</guilabel>: The duration of pulses in milliseconds to be "
+"sent to the mount. This value should be large enough to cause a noticeable "
+"movement in the guide star. If you increase the value and you do not notice "
+"any movement of the guide star, then this suggests possible mount issues "
+"such as jamming or connection issues via the ST4 cable."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:125
+#, no-c-format
+msgid ""
+"<guilabel>Two axis</guilabel>: Check if you want the calibration process "
+"makes calibration in both RA &amp; DEC. If unchecked, the calibration is "
+"only performed in RA."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:130
+#, no-c-format
+msgid ""
+"<guilabel>Auto Star</guilabel>: If checked, Ekos will attempt to select the "
+"best guide star in the frame and begins the calibration process "
+"automatically."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:135
+#, no-c-format
+msgid ""
+"The reticle position is the guide star position selected by you (or by the "
+"auto selection) in the captured guider image. You should select a star that "
+"is not close to the edge. If the image is not clear, you may select "
+"different <guilabel>Effects</guilabel> to enhance it."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:138
+#, no-c-format
+msgid ""
+"Ekos begins the calibration process by sending pulses to move the mount in "
+"RA and DEC. If the calibration process fails due to short drift, try "
+"increasing the pulse duration. To clear calibration, click the trash bin "
+"icon next to the <guibutton>Guide</guibutton> button."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:142
+#, no-c-format
+msgid ""
+"Calibration can fail for a variety of reasons. To improve the chances of "
+"success, try the tips below."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:148
+#, no-c-format
+msgid ""
+"<guilabel>Better Polar Alignment</guilabel>: This is critical to the success "
+"of any astrophotography session. Perform a quick polar alignment with a "
+"polar scope (if available) or by using Ekos <link linkend=\"ekos-align-"
+"polaralignment\">Polar Alignment procedure</link> in the <guilabel>Align</"
+"guilabel> module."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:153
+#, no-c-format
+msgid ""
+"<guilabel>Set binning to 2x2</guilabel>: Binning improves SNR and is often "
+"very important to the success of the calibration and guiding procedures."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:158
+#, no-c-format
+msgid ""
+"Prefer to use ST4 cable between guide-camera and mount over using mount "
+"pulse commands."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:163
+#, no-c-format
+msgid ""
+"Select different filter (&eg; High contrast) and see if that makes a "
+"difference to bring down the noise."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:168
+#, no-c-format
+msgid "Smaller Square Size."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:173
+#, no-c-format
+msgid "Take dark frames to reduce noise."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:178
+#, no-c-format
+msgid ""
+"Play with DEC Proportional Gain or disable DEC control completely and see "
+"the difference."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:183
+#, no-c-format
+msgid ""
+"Leave algorithm to the default value (<guimenuitem>Smart</guimenuitem>)."
+msgstr ""
+
+#. Tag: title
+#: ekos-guide.docbook:191
+#, no-c-format
+msgid "Guiding"
+msgstr ""
+
+#. Tag: screeninfo
+#: ekos-guide.docbook:194
+#, no-c-format
+msgid "<screeninfo>Guide Settings</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: ekos-guide.docbook:202
+#, no-c-format
+msgid "<phrase>Guide Settings</phrase>"
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:206
+#, no-c-format
+msgid ""
+"Once the calibration process is completed successfully, the guiding shall "
+"begin automatically hereafter. The guiding performance is displayed in the "
+"<guilabel>Drift Graphics</guilabel> region where <guilabel>Green</guilabel> "
+"reflects deviations in RA and <guilabel>Blue</guilabel> deviations in DEC. "
+"The colors of the RA/DE lines can be changed in <link linkend=\"colors"
+"\">&kstars; color scheme</link> in &kstars; settings dialog. The vertical "
+"axis denotes the deviation in arcsecs from the guide star central position "
+"and the horizontal axis denotes time. You can hover over the line to get the "
+"exact deviation at this particular point in time. Furthermore, you can also "
+"zoom and drag/pan the graph to inspect a specific region of the graph."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:209
+#, no-c-format
+msgid ""
+"Ekos can utilize multiple algorithms to determine the center of mass of the "
+"guide star. By default, the <emphasis>smart</emphasis> algorithm is suited "
+"best for most situation. The <emphasis>fast</emphasis> algorithm is based on "
+"HFR calculations. You can try switching guiding algorithms if Ekos cannot "
+"keep of the guide star within the guiding square properly."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:212
+#, no-c-format
+msgid ""
+"The info region displays information on the telescope &amp; FOV, in addition "
+"to the deviations from the guide star along with the correction pulses sent "
+"to the mount. The RMS value for each axis is displayed along with the total "
+"RMS value in arcsecs. The internal guider employs <ulink url=\"https://en."
+"wikipedia.org/wiki/PID_controller\">PID controller</ulink> to correct the "
+"mount tracking. Currently, the <emphasis>only</emphasis> the proportional "
+"and integral gains are utilized within the algorithm, so adjusting it should "
+"affect the length of the generated pulses sent to the mount in milliseconds."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:215
+#, no-c-format
+msgid ""
+"To enable automatic dithering between frames, make sure to check the "
+"<guilabel>Dither</guilabel> checkbox. By default, Ekos should dither (&ie; "
+"move) the guiding box by up to 3 pixels after each frame captured in <link "
+"linkend=\"ekos-capture\">Ekos Capture Module</link>. The motion duration and "
+"direction are randomized. Since the guiding performance can oscillate "
+"immediately after dithering, you can set the appropriate <guilabel>Settle</"
+"guilabel> duration to wait after dither is complete before resuming the "
+"capture process. In rare cases where the dithering process can get stuck in "
+"an endless loop, set the appropriate <guilabel>Timeout</guilabel> to abort "
+"the process. But even if dithering fails, you can select whether this "
+"failure should terminate the autoguiding process or not. Toggle "
+"<guilabel>Abort Autoguide on failure</guilabel> to select the desired "
+"behavior."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:218
+#, no-c-format
+msgid ""
+"Non-guide dithering is also supported. This is useful when no guide camera "
+"is available or when performing short exposures. In this case, the mount can "
+"be commanded to dither in a random direction for up to the pulse specified "
+"in the <guilabel>Non-Guide Dither Pulse</guilabel> option."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:221
+#, no-c-format
+msgid ""
+"Ekos supports multiple guiding methods: Internal, PHD2, and LinGuider. You "
+"need to select the desired guider in your Ekos equipment profile:"
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:226
+#, no-c-format
+msgid ""
+"<guilabel>Internal Guider</guilabel>: Use Ekos internal guider. This is the "
+"default and recommended option."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:231
+#, no-c-format
+msgid ""
+"<guilabel>PHD2</guilabel>: Use PHD2 as the external guider. If selected, "
+"specify the host and port of the PHD2. Leave to default values if Ekos and "
+"PHD2 are running on the same machine."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:236
+#, no-c-format
+msgid ""
+"<guilabel>LinGuider</guilabel>: Use LinGuider as the external guider. If "
+"selected, specify the host and port of the LinGuider. Leave to default "
+"values if Ekos and LinGuider are running on the same machine."
+msgstr ""
+
+#. Tag: screeninfo
+#: ekos-guide.docbook:242
+#, no-c-format
+msgid "<screeninfo>Guiding Direction Control</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: ekos-guide.docbook:250
+#, no-c-format
+msgid "<phrase>Guiding Direction Control</phrase>"
+msgstr ""
+
+#. Tag: title
+#: ekos-guide.docbook:257
+#, no-c-format
+msgid "<title>Guiding Direction Control</title>"
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:258
+#, no-c-format
+msgid ""
+"You can fine-tune the guiding performance in the Control Section. The "
+"autoguide process works like a <ulink url=\"https://en.wikipedia.org/wiki/"
+"PID_controller\">PID controller</ulink> when sending correction commands to "
+"the mount. You can alter the Proportional and Integral gains to improve the "
+"guiding performance if necessary. By default, guiding corrective pulses are "
+"sent to both mount axis in all directions: positive and negative. You can "
+"fine-tune control by selecting which axis shall receive corrective guiding "
+"pulses and within each axis, you can indicate which direction "
+"<guilabel>(Positive) +</guilabel> or <guilabel>Negative (-)</guilabel> "
+"receives the guiding pulses. For example, for the Declination axis, the "
+"<guilabel>+</guilabel> direction is North and <guilabel>-</guilabel> is "
+"South."
+msgstr ""
+
+#. Tag: title
+#: ekos-guide.docbook:264
+#, no-c-format
+msgid "Guiding Rate"
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:265
+#, no-c-format
+msgid ""
+"Each mount has a particular guiding rate in (x15\"/sec) and usually ranges "
+"from 0.1x, to 1.0x with 0.5x being a common value used by many mounts. The "
+"default guiding rate is 0.5x sidereal, which is equivalent to a proportional "
+"gain of 133.33. Therefore, set the guiding rate value to whatever value used "
+"by your mount, and Ekos shall display the <emphasis>recommended</emphasis> "
+"proportional gain value that you may set in the proportional gain field "
+"under the <guilabel>Control Parameters</guilabel>. Setting this value "
+"<emphasis>does not</emphasis> change your mount guiding rate! You must "
+"change your mount guiding rate either via the <link linkend=\"indi-telescope-"
+"setup\">INDI driver</link>, if supported, or via the hand controller."
+msgstr ""
+
+#. Tag: title
+#: ekos-guide.docbook:271
+#, no-c-format
+msgid "<title>Drift Graphics</title>"
+msgstr ""
+
+#. Tag: screeninfo
+#: ekos-guide.docbook:274
+#, no-c-format
+msgid "<screeninfo>Drift Graphics</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: ekos-guide.docbook:282
+#, no-c-format
+msgid "<phrase>Drift Graphics</phrase>"
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:286
+#, no-c-format
+msgid ""
+"The drift graphics is a very useful tool to monitor the guiding performance. "
+"It is a 2D plot of guiding <emphasis>deviations</emphasis> and "
+"<emphasis>corrections</emphasis>. By default, only the guiding deviations in "
+"RA and DE are displayed. The horizontal axis is the time in seconds since "
+"the autoguiding process was started while the vertical axis plots the "
+"guiding drift/deviation in arcsecs for each axis. Guiding corrections "
+"(pulses) can also be plotted in the same graph and you can enable them by "
+"checking the <guilabel>Corr</guilabel> checkbox below each Axis. The "
+"corrections are plotted as shaded areas in the background with the same "
+"color as that of the axis."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:289
+#, no-c-format
+msgid ""
+"You can pan and zoom the plot, and when hovering the mouse over the graph, a "
+"tooltip is displayed containing information about this specific point in "
+"time. It contains the guiding drift and any corrections made, in addition to "
+"the local time, this event was recorded. A vertical slider to the right of "
+"the image can be used to adjust the height of the secondary Y-axis for "
+"pulses corrections."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:291
+#, no-c-format
+msgid ""
+"The <guilabel>Trace</guilabel> horizontal slider at the bottom can be used "
+"to scroll through the guide history. Alternatively, you can click the "
+"<guilabel>Max</guilabel> checkbox to lock the graph onto the latest point so "
+"that the drift graphics autoscrolls. The buttons to the right of the slider "
+"are used for autoscaling the graphs, exporting the guide data to a CSV file, "
+"clearing all the guide data, and for scaling the target in the "
+"<guilabel>Drift Plot</guilabel>. Furthermore, the guide graph includes a "
+"label to indicate when a dither occurred so the user knows guiding was not "
+"bad at those points."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:294
+#, no-c-format
+msgid ""
+"The colors of each axis can be customized in <link linkend=\"colors"
+"\">&kstars; Settings color scheme</link>."
+msgstr ""
+
+#. Tag: title
+#: ekos-guide.docbook:300
+#, no-c-format
+msgid "Drift Plot"
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:301
+#, no-c-format
+msgid ""
+"A bulls-eye scatter plot can be used to gauge the <emphasis>accuracy</"
+"emphasis> of the overall guiding performance. It is composed of three "
+"concentric rings of varying radii with the central green ring having a "
+"default radius of 2 arcsecs. The last RMS value is plotted as "
+"<inlinemediaobject><imageobject><imagedata fileref=\"add-circle.png\" format="
+"\"PNG\"/></imageobject></inlinemediaobject> with its color reflecting which "
+"concentric ring it falls within. You can change the radius of the innermost "
+"green circle by adjusting the drift plot accuracy."
+msgstr ""
+
+#. Tag: title
+#: ekos-guide.docbook:307
+#, no-c-format
+msgid "PHD2 Support"
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:308
+#, no-c-format
+msgid ""
+"You can opt to select external PHD2 application to perform guiding instead "
+"of the built-in guider."
+msgstr ""
+
+#. Tag: screeninfo
+#: ekos-guide.docbook:312
+#, no-c-format
+msgid "<screeninfo>Ekos Guide PHD2 settings</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: ekos-guide.docbook:320
+#, no-c-format
+msgid "<phrase>Ekos Guide PHD2 settings</phrase>"
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:325
+#, no-c-format
+msgid ""
+"If PHD2 is selected, the <guibutton>Connect</guibutton> and "
+"<guibutton>Disconnect</guibutton> buttons are enabled to allow you to "
+"establish a connection with the PHD2 server. You can control PHD2 exposure "
+"and DEC guide settings. When clicking <guibutton>Guide</guibutton>, PHD2 "
+"should perform all the required actions to start the guiding process. PHD2 "
+"<emphasis role=\"bold\">must</emphasis> be started and configured "
+"<emphasis>before</emphasis> Ekos."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:328
+#, no-c-format
+msgid ""
+"After launching PHD2, select your INDI equipment and set their options. From "
+"Ekos, connect to PHD2 by clicking the <guibutton>Connect</guibutton> button. "
+"On startup, Ekos will attempt to automatically connect to PHD2. Once the "
+"connection is established, you may begin the guiding immediately by click on "
+"the <guibutton>Guide</guibutton> button. PHD2 shall perform calibration if "
+"necessary. If dithering is selected, PHD2 shall be commanded to dither given "
+"the offset pixels indicated and once guiding is settled and stable, the "
+"capture process in Ekos shall resume."
+msgstr ""
+
+#. Tag: para
+#: ekos-guide.docbook:332
+#, no-c-format
+msgid ""
+"Ekos saves a CSV guide log data that can be useful for analysis of the "
+"mount's performance under <filename>~/.local/share/kstars/guide_log.txt</"
+"filename>. This log is only available when using the built-in guider."
+msgstr ""
