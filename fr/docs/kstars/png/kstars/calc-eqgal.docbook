@@ -1,0 +1,40 @@
+<sect2 id="calc-eqgal">
+<title
+>Module des coordonnées équatoriales / galactiques</title>
+<indexterm
+><primary
+>Outils</primary>
+<secondary
+>Calculatrice astronomique</secondary>
+<tertiary
+>Module des coordonnées équatoriales / galactiques</tertiary>
+</indexterm>
+
+<screenshot>
+<screeninfo
+>Le module de calcul des coordonnées équatoriales / galactiques </screeninfo>
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="calc-eqgal.png" format="PNG"/>
+  </imageobject>
+  <textobject>
+    <phrase
+>Coordonnées équatoriales / galactiques</phrase>
+  </textobject>
+</mediaobject>
+</screenshot>
+
+<para
+>Ce module convertit de <link linkend="equatorial"
+>Coordonnées équatoriales</link
+> en <link linkend="galactic"
+>Coordonnées galactiques</link
+> et vice versa. Remplissez les valeurs des coordonnées dans <guilabel
+> Coordonnées galactiques</guilabel
+> ou <guilabel
+>Coordonnées équatoriales</guilabel
+>. Sinon remplissez les coordonnées équatoriales en sélectionnant un objet en utilisant la boîte de dialogue <guilabel
+>Chercher un objet</guilabel
+>. Les coordonnées complémentaires seront ensuite remplies. </para>
+</sect2>
+

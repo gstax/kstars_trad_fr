@@ -1,0 +1,121 @@
+<sect1 id="tool-fitsviewer">
+<title
+>Outil d'affichage <acronym
+>FITS</acronym
+></title>
+<indexterm
+><primary
+>Outils</primary>
+<secondary
+>Afficheur FITS</secondary>
+</indexterm>
+
+<para
+>Le FITS (Flexible Image Transport System) est le format standard pour représenter les images et les données en astronomie.</para>
+
+<para
+>L'outil d'affichage FITS de &kstars; est intégré avec l'infrastructure <link linkend="indi"
+>INDI</link
+> permettant un affichage fluide et la manipulation des images FITS capturées. Pour ouvrir un fichier FITS, sélectionnez <guimenuitem
+>Ouvrir FITS...</guimenuitem
+> depuis le menu <guimenu
+>Fichier</guimenu
+> ou appuyez sur <keycombo action="simul"
+>&Ctrl;<keycap
+>O</keycap
+></keycombo
+>.</para>
+
+<para
+>Fonctionnalités de l'afficheur FITS :</para>
+<itemizedlist>
+  <listitem
+><para
+>Gestion des formats sur 8, 16, 32, IEEE -32 et IEEE -64 bits</para
+></listitem>
+  <listitem
+><para
+>Histogramme avec les échelles linéaire, logarithmique et racine carrée.</para
+></listitem>
+  <listitem
+><para
+>Contrôles de luminosité / contraste</para
+></listitem>
+  <listitem
+><para
+>panoramique et zoom,</para
+></listitem>
+  <listitem
+><para
+>niveaux automatiques,</para
+></listitem>
+  <listitem
+><para
+>statistiques,</para
+></listitem>
+  <listitem
+><para
+>requête d'en-tête FITS,</para
+></listitem>
+  <listitem
+><para
+>annuler / refaire.</para
+></listitem>
+</itemizedlist>
+
+<screenshot>
+  <screeninfo
+>L'outil d'affichage FITS</screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="fitsarea.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Outil d'affichage FITS</phrase>
+    </textobject>
+  </mediaobject>
+</screenshot>
+
+<para
+>Le diagramme ci-dessus illustre la zone de travail et la fenêtre de l'afficheur FITS. L'outil fournit les fonctions de base pour l'affichage des images. La profondeur des données FITS est préservée durant tout le processus, ainsi que les fonctions d'ouverture et d'enregistrement. Bien que l'outil adhère au standard FITS, il ne prend pas en charge touttes les fonctionnalités possibles de FITS :</para>
+<itemizedlist>
+  <listitem
+><para
+>prise en charge pour seulement <emphasis
+>une</emphasis
+> image par fichier,</para
+></listitem>
+  <listitem
+><para
+>Prise en charge pour seulement les données 2D. Les données 1D et la 3D sont ignorées.</para
+></listitem>
+  <listitem
+><para
+>Pas de prise en charge pour WCS (World Coordinate System).</para
+></listitem>
+</itemizedlist>
+
+<para
+>Ce qui suit est une brève description des unités fonctionnelles de l'outil :</para>
+<itemizedlist>
+  <!-- not in 4.10
+  <listitem
+><para
+>Brightness/Contrast: Adjusts brightness and contrast. The function can be CPU and memory intensive for very large FITS.</para
+></listitem>
+  -->
+  <listitem
+><para
+>Histogramme : affiche un histogramme FITS à un canal. L'utilisateur peut changer l'échelle de l'image en définissant optionnellement une limite supérieure et inférieure pour la région coupée. L'opération de changement de l'échelle (linéaire, logarithmique ou racine carrée) peut ensuite être appliquée à la région entourée par les limites supérieure et inférieure.</para
+></listitem>
+  <listitem
+><para
+>Statistiques : fournit des statistiques simples pour les valeurs minimales et maximales de pixel et leurs emplacements respectifs. La profondeur, la dimension, la moyenne et l'écart-type FITS.</para
+></listitem>
+  <listitem
+><para
+>En-tête FITS : affiche les informations d'en-tête FITS.</para
+></listitem>
+</itemizedlist>
+</sect1>

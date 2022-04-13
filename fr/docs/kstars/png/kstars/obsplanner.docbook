@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><sect1 id="tool-obsplanner">
+  <sect1info>
+    <author
+><firstname
+>Kristian</firstname
+> <surname
+>Ivanov</surname
+> </author>
+  </sect1info>
+  <title
+>Planificateur d'observation</title>
+  <indexterm>
+    <primary
+>Planificateur</primary>
+  </indexterm>
+  <para
+>Depuis &kde; SC 4.4, le travail de Prakash Mohan&apos;durant les « Google Summer Of Code » a été intégré dans &kstars;. &kstars; possède maintenant un incroyable planificateur d'observation pour planifier les sessions d'observations. L'option de session à réaliser vous permet d'enregistrer des informations à propose des objets pendant que vous les observez. Alternativement, vous pouvez aussi écrit un court journal dans le planificateur de session lui même. Nous vous souhaitons beaucoup de plaisir à planifier vos observations avec &kstars; !</para>
+  <para
+>Vous pouvez même ajouter des images aux objets. La liste d'images est une liste de rechercher d'image de Google. Pour ajouter une image à un objet, tout ce dont vous avez besoin est d'appuyer sur le bouton <guibutton
+>Trouver une image</guibutton
+> sur votre droite et ensuite de trouver l'image que vous souhaitez. Si vous n'avez pas de connexion Internet, vous pouvez ouvrir une image enregistrée sur votre disque dur. Veuillez noter que les images que vous allez utiliser seront rognées à 600 x 600 pixels.</para>
+  <para
+>La première méthode pour faire ceci est un appui sur <keycombo action="simul"
+>&Ctrl; <keycap
+>2</keycap
+></keycombo
+> ou <keycombo action="simul"
+>&Ctrl;<keycap
+>L</keycap
+></keycombo
+> pour ouvrir la liste d'observation et ensuite un appui sur le bouton <guibutton
+>Ajouter un Objet</guibutton
+>.</para>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="KStars_Neptune.png" format="PNG"/>
+    </imageobject>
+    <caption>
+      <para>
+        <phrase/>
+      </para>
+    </caption>
+  </mediaobject>
+  <para
+>Le bouton <guibutton
+>Enregistrer toutes les images</guibutton
+> exécute une recherche d'images SDSS et affiche l'image DSS si la RA/Dec est en dehors de l'empreinte SDSS.</para>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="sds.png" format="PNG"/>
+    </imageobject>
+    <caption>
+      <para>
+        <phrase
+>Ceci est une image SDSS de la galaxie</phrase>
+      </para>
+    </caption>
+  </mediaobject>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="dss.png" format="PNG"/>
+    </imageobject>
+    <caption>
+      <para>
+        <phrase
+>Ceci est une image DSS de la même galaxie</phrase>
+      </para>
+    </caption>
+  </mediaobject>
+  <para
+>Le bouton <guibutton
+>Supprimer toutes les images</guibutton
+> réalise exactement le contraire. Il permet de supprimer toutes les images téléchargées.</para>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="Delete_all_images.png" format="PNG"/>
+    </imageobject>
+    <caption>
+      <para>
+        <phrase
+>L'image de la galaxie est maintenant supprimée </phrase>
+      </para>
+    </caption>
+  </mediaobject>
+  <para
+>Vous pouvez ajouter plus d'objets en appuyant sur le bouton <guibutton
+>Ajouter un objet</guibutton
+>. Cela est tout à fait une méthode appropriée pour trier les éléments selon les options que vous leur avez donnés. Il y a : tout, étoiles, système solaire, groupes (globulaires ou ouverts), nébuleuses (gazeuses et planétaires), galaxies, comètes, astéroïdes et constellations, plus le filtre de nom.</para>
+  <para
+>Vous pouvez voir ici la visibilité des objets, à partir de la date et de l'heure. La ligne de temps montre l'instant présent.</para>
+  <para
+>Et, en dessous de ceci, vous pouvez ajouter des notes d'observations sur cet objet.</para>
+  <para
+>Veuillez noter que la liste de souhaits n'est pas le plan de session. Dans la liste des souhaits, vous pouvez ajouter des objets que vous souhaitez observer à un certain endroit. A partir de là, vous pouvez les ajouter dans le plan de session.</para>
+  <para
+>Vous pouvez voir la fenêtre contextuelle apparaissant en faisant un clic droit sur un objet.</para>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="Add_Object_to_Session_plan.png" format="PNG"/>
+    </imageobject>
+    <caption>
+      <para>
+        <phrase
+>Ajouter des objets à la fenêtre de planification de session</phrase>
+      </para>
+    </caption>
+  </mediaobject>
+  <para
+>Voici la deuxième méthode pour ajouter des objets dans votre planificateur d'observation et pour utiliser le planificateur d'observation. Pour utiliser cette méthode, vous avez juste besoin d'appuyer sur la quatrième icône dans le coin supérieur gauche de l'assistant de planificateur d'observation (qui est surligné en jaune).</para>
+  <para
+>Bien que semblant différent, cette méthode est fondamentalement identique à la première. Cependant, elle peut être un peu plus précise. Vous pouvez voir ici les mêmes catégories d'objets.</para>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="Another_way_to_add.png" format="PNG"/>
+    </imageobject>
+    <caption>
+      <para>
+        <phrase/>
+      </para>
+    </caption>
+  </mediaobject>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="Another_way_to_add_part3.png" format="PNG"/>
+    </imageobject>
+    <caption>
+      <para>
+        <phrase/>
+      </para>
+    </caption>
+  </mediaobject>
+  <para
+>Vous pouvez choisir où les objets doivent être dans le ciel. Il y a quatre options disponibles pour vous : le ciel en entier (le mode par défaut), par constellation et dans une région (rectangulaire ou circulaire).</para>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="Another_way4.png" format="PNG"/>
+    </imageobject>
+    <caption>
+      <para>
+        <phrase/>
+      </para>
+    </caption>
+  </mediaobject>
+  <para
+>Vous pouvez choisir la date de l'observation et l'endroit où vous allez faire vos observations.</para>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="Another_way5.png" format="PNG"/>
+    </imageobject>
+    <caption>
+      <para>
+        <phrase/>
+      </para>
+    </caption>
+  </mediaobject>
+  <para
+>Vous pouvez choisir le seuil de magnitude pour les objets qui doivent être affichés. En astronomie, la magnitude absolue (connue aussi comme magnitude visuelle absolue quand elle est mesurée dans la bande photo-métrique standard V) mesure la luminosité intrinsèque d'un objet céleste.</para>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="Another_way6.png" format="PNG"/>
+    </imageobject>
+    <caption>
+      <para>
+        <phrase/>
+      </para>
+    </caption>
+  </mediaobject>
+  <para
+>Vous pouvez enregistrer vos planifications d'observations. Et, cela l'enregistrera avec une extension <filename class="extension"
+>.obslist</filename
+>.</para>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="Savin_session.png" format="PNG"/>
+    </imageobject>
+    <caption>
+      <para>
+        <phrase/>
+      </para>
+    </caption>
+  </mediaobject>
+  <para
+>Vous pouvez aussi accéder au <guilabel
+>WUT</guilabel
+> (What&apos;s up tonight), qui peut être d'une grande aide pour vous. Il vous donne des idées sur quoi observer à une date, une heure et un emplacement que vous spécifiez en utilisant les boutons de configuration dans le coin supérieur droit de la fenêtre <guilabel
+>What&apos;s up tonight</guilabel
+>.</para>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="wut.png" format="PNG"/>
+    </imageobject>
+    <caption>
+      <para>
+        <phrase/>
+      </para>
+    </caption>
+  </mediaobject>
+  <para
+>Voici à quoi ressemble la fenêtre <guilabel
+>Session d'exécution</guilabel
+>. Elle peut être ouverte pas un appui sur <keycombo action="simul"
+>&Ctrl;<keycap
+>2</keycap
+></keycombo
+>. A l'intérieur, vous pouvez aussi voir quelques informations sur l'objet sélectionné et vous avez la possibilité d'ajouter des notes d'observation. </para>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="execute_session_nt.png" format="PNG"/>
+    </imageobject>
+    <caption>
+      <para>
+        <phrase
+>Première fenêtre pour la session d'exécution</phrase>
+      </para>
+    </caption>
+  </mediaobject>
+  <para
+>Un appui sur le bouton <guibutton
+>Page suivante</guibutton
+> vous permettra d'accéder à la seconde page du planificateur de session. Vous avez la possibilité de voir ici, les informations, non pas relatif à votre objet mais relatif à votre équipement.</para>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="execute_session_the_nt.png" format="PNG"/>
+    </imageobject>
+    <caption>
+      <para>
+        <phrase
+>Seconde fenêtre pour la session d'exécution</phrase>
+      </para>
+    </caption>
+  </mediaobject>
+  <para
+>Un appui sur le bouton <guibutton
+>Nouvelle cible</guibutton
+> permettra à la session d'exécution d'ouvrir la première fenêtre relatif au prochain objet.</para>
+</sect1>

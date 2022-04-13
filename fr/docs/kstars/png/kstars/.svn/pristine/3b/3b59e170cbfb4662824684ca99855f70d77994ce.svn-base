@@ -1,0 +1,33 @@
+<sect2 id="calc-sidereal">
+<title
+>Module du temps sidéral</title>
+<indexterm
+><primary
+>Outils</primary>
+<secondary
+>Calculatrice astronomique</secondary>
+<tertiary
+>Module d'heure sidérale</tertiary>
+</indexterm>
+
+<screenshot>
+<screeninfo
+>Le module de calcul d'heure sidérale </screeninfo>
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="calc-sidereal.png" format="PNG"/>
+  </imageobject>
+  <textobject>
+    <phrase
+>Temps sidéral</phrase>
+  </textobject>
+</mediaobject>
+</screenshot>
+
+<para
+>Ce module réalise des conversions entre <link linkend="ai-utime"
+>le temps universel</link
+> et le <link linkend="ai-sidereal"
+>temps sidéral</link
+> local. Sélectionnez tout d'abord un emplacement géographique et une date pour le calcul. La valeur correspondante s'affichera ensuite. </para>
+</sect2>
