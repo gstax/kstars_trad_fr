@@ -1,60 +1,60 @@
-# SOME DESCRIPTIVE TITLE.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# steve <stax@ik.me>, 2022.
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+msgstr "XXX"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-22 00:30+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2022-04-13 15:11+0200\n"
+"Last-Translator: steve <stax@ik.me>\n"
+"Language-Team: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr_CH\n"
+"X-Generator: Lokalize 20.12.0\n"
 
 #. Tag: title
 #: ekos-analyze.docbook:2
 #, no-c-format
 msgid "<title>Analyze</title>"
-msgstr ""
+msgstr "<title>Analyser</title>"
 
 #. Tag: primary
 #: ekos-analyze.docbook:4
 #, no-c-format
 msgid "Tools"
-msgstr ""
+msgstr "Outils"
 
 #. Tag: secondary
 #: ekos-analyze.docbook:5
 #, no-c-format
 msgid "Ekos"
-msgstr ""
+msgstr "Ekos"
 
 #. Tag: tertiary
 #: ekos-analyze.docbook:6
 #, no-c-format
 msgid "<tertiary>Analyze</tertiary>"
-msgstr ""
+msgstr "<tertiary>Analyse</tertiary>"
 
 #. Tag: screeninfo
 #: ekos-analyze.docbook:9
 #, no-c-format
 msgid "<screeninfo>Ekos Analyze Module</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Module analyse Ekos</screeninfo>"
 
 #. Tag: phrase
 #: ekos-analyze.docbook:17
 #, no-c-format
 msgid "<phrase>Ekos Analyze Module</phrase>"
-msgstr ""
+msgstr "<phrase>Module analyse Ekos</phrase>"
 
 #. Tag: title
 #: ekos-analyze.docbook:22
 #, no-c-format
 msgid "Introduction"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-analyze.docbook:23
@@ -67,7 +67,7 @@ msgid ""
 "role=\"extension\">.analyze</literal> files written there can be loaded into "
 "the <guilabel>Analyze</guilabel> tab to be viewed. <guilabel>Analyze</"
 "guilabel> also can display data from the current imaging session."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-analyze.docbook:26
@@ -87,13 +87,13 @@ msgid ""
 "using the <guilabel>Input</guilabel> dropdown. Checking <guilabel>Full "
 "Width</guilabel> displays all the data, and <guilabel>Latest</guilabel> "
 "displays the most recent data (you can control the width by zooming)."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: title
 #: ekos-analyze.docbook:31
 #, no-c-format
 msgid "Timeline"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-analyze.docbook:32
@@ -104,7 +104,7 @@ msgid ""
 "(green sections) and when imaging was aborted (red sections). Clicking on a "
 "green section gives information about that image, and double clicking on one "
 "brings up the image taken then in a fitsviewer, if it is available."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-analyze.docbook:36
@@ -113,7 +113,7 @@ msgid ""
 "If you have moved your captured images, you can set <guilabel>alternate "
 "directory</guilabel> in the input menu to a directory which is the base of "
 "part of the original file path."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-analyze.docbook:40
@@ -124,13 +124,13 @@ msgid ""
 "session. Clicking on a <guilabel>Guider</guilabel> segment shows a drift "
 "plot from that session, (if it's guiding) and the session's RMS statistics. "
 "Other timelines show status information when clicked."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: title
 #: ekos-analyze.docbook:45
 #, no-c-format
 msgid "Statistics"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-analyze.docbook:46
@@ -148,4 +148,4 @@ msgid ""
 "zooming, right-click on the Stats plot. Clicking on the graph fills in the "
 "values of the displayed statistics. This graph is zoomed and panned "
 "horizontally in coordination with the timeline."
-msgstr ""
+msgstr "XXX"

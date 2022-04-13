@@ -1,60 +1,60 @@
-# SOME DESCRIPTIVE TITLE.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# steve <stax@ik.me>, 2022.
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+msgstr "XXX"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-01-05 01:02+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2022-04-13 15:12+0200\n"
+"Last-Translator: steve <stax@ik.me>\n"
+"Language-Team: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr_CH\n"
+"X-Generator: Lokalize 20.12.0\n"
 
 #. Tag: title
 #: ekos-scheduler.docbook:2
 #, no-c-format
 msgid "<title>Scheduler</title>"
-msgstr ""
+msgstr "<title>Ordonnanceur</title>"
 
 #. Tag: primary
 #: ekos-scheduler.docbook:4
 #, no-c-format
 msgid "Tools"
-msgstr ""
+msgstr "Outils"
 
 #. Tag: secondary
 #: ekos-scheduler.docbook:5
 #, no-c-format
 msgid "Ekos"
-msgstr ""
+msgstr "Ekos"
 
 #. Tag: tertiary
 #: ekos-scheduler.docbook:6
 #, no-c-format
 msgid "<tertiary>Scheduler</tertiary>"
-msgstr ""
+msgstr "<tertiary>Ordonnanceur</tertiary>"
 
 #. Tag: screeninfo
 #: ekos-scheduler.docbook:9
 #, no-c-format
 msgid "<screeninfo>Ekos Scheduler Module</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Module Ordonnanceur Ekos</screeninfo>"
 
 #. Tag: phrase
 #: ekos-scheduler.docbook:17
 #, no-c-format
 msgid "<phrase>Ekos Scheduler Module</phrase>"
-msgstr ""
+msgstr "<phrase>Module Ordonnanceur Ekos</phrase>"
 
 #. Tag: title
 #: ekos-scheduler.docbook:22
 #, no-c-format
 msgid "Introduction"
-msgstr ""
+msgstr "Introduction"
 
 #. Tag: para
 #: ekos-scheduler.docbook:23
@@ -71,7 +71,7 @@ msgid ""
 "the complete process is automated, including focus, guiding, and meridian "
 "flip, all equipment should be thoroughly used with Ekos and all their "
 "parameters and settings adjusted to achieve the best result."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:26
@@ -90,13 +90,13 @@ msgid ""
 "imaging. After selecting the desired candidates, the user can add them to "
 "the Ekos Scheduler list for evaluation. The user may also add the targets "
 "directly in Ekos scheduler or select a FITS file of a previous image."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: title
 #: ekos-scheduler.docbook:32
 #, no-c-format
 msgid "Settings"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:33
@@ -105,7 +105,7 @@ msgid ""
 "Ekos Scheduler provides a simple interface to aid the user in setting the "
 "conditions and constraints required for an observation job. Each observation "
 "job is composed of the following:"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:38
@@ -115,7 +115,7 @@ msgid ""
 "<link linkend=\"findobjects\">Find Dialog</link> or <guibutton>Add</"
 "guibutton> it from <link linkend=\"tool-obsplanner\">Observation Planner</"
 "link>. You can also enter a custom name."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:43
@@ -124,7 +124,7 @@ msgid ""
 "Optional <guilabel>FITS File</guilabel>: If a FITS file is specified, the "
 "astrometry solver shall solve the file and use the central RA/DEC as the "
 "target coordinates."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:48
@@ -134,7 +134,7 @@ msgid ""
 "Ekos <link linkend=\"ekos-capture\">Capture Module</link>. It contains the "
 "number of images to capture, filters, temperature settings, prefixes, "
 "download directory, &etc;"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:53
@@ -143,7 +143,7 @@ msgid ""
 "<guilabel>Priority</guilabel>: Set job priority in the range of 1 to 20 "
 "where 1 designates the highest priority and 20 the lowest priority. Priority "
 "is applied in calculating the weight used to select the next target to image."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:58
@@ -152,7 +152,7 @@ msgid ""
 "<guilabel>Profile</guilabel>: Select which equipment profile to utilize when "
 "starting Ekos. If Ekos &amp; INDI are already started and online, this "
 "selection is ignored."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:63
@@ -160,7 +160,7 @@ msgstr ""
 msgid ""
 "<guilabel>Steps</guilabel>: The user selects which Ekos modules should be "
 "utilized in the observation job execution workflow."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:68
@@ -171,7 +171,7 @@ msgid ""
 "Currently, the user may select to start as soon as possible, "
 "<guimenuitem>ASAP</guimenuitem>, or when the target is near or past "
 "culmination, or at a specific time."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:73
@@ -182,7 +182,7 @@ msgid ""
 "job execution process. These include minimum target altitude, minimum moon "
 "separation, twilight observation, artificial horizon altitude constraints, "
 "and weather monitoring."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:78
@@ -193,7 +193,7 @@ msgid ""
 "the observation job as complete once the sequence process is complete. "
 "Additional conditions enable the user to repeat the sequence process "
 "indefinitely or up until a specific time."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:83
@@ -209,19 +209,19 @@ msgid ""
 "priority target followed by higher altitude target is selected for "
 "execution. If no candidates are available at the current time, the scheduler "
 "goes into sleep mode and wakes up when the next job is ready for execution."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: screeninfo
 #: ekos-scheduler.docbook:87
 #, no-c-format
 msgid "<screeninfo>Scheduler + Planner</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Planificateur + Ordonnanceur</screeninfo>"
 
 #. Tag: phrase
 #: ekos-scheduler.docbook:95
 #, no-c-format
 msgid "<phrase>Scheduler + Planner</phrase>"
-msgstr ""
+msgstr "<phrase>Planificateur + Ordonnanceur</screeninfo>"
 
 #. Tag: para
 #: ekos-scheduler.docbook:99
@@ -231,85 +231,85 @@ msgid ""
 "Acquisition</emphasis> stage of the observatory workflow. The overall "
 "procedure typically utilized in an observatory can be summarized in three "
 "primary stages:"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:104
 #, no-c-format
 msgid "Startup"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:109
 #, no-c-format
 msgid "Data Acquisition (including preprocessing and storage)"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:114
 #, no-c-format
 msgid "<para>Shutdown</para>"
-msgstr ""
+msgstr "<para>Éteindre</para>"
 
 #. Tag: title
 #: ekos-scheduler.docbook:122
 #, no-c-format
 msgid "Startup Procedure"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:123
 #, no-c-format
 msgid "Startup procedure is unique to each observatory but may include:"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:128
 #, no-c-format
 msgid "Turning on power to equipment"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:133
 #, no-c-format
 msgid "Running safety/sanity checks"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:138
 #, no-c-format
 msgid "Checking weather conditions"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:143
 #, no-c-format
 msgid "Turning off light"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:148
 #, no-c-format
 msgid "Fan/Light control"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:153
 #, no-c-format
 msgid "Unparking dome"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:158
 #, no-c-format
 msgid "Unparking mount"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:163
 #, no-c-format
 msgid "&etc;"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:168
@@ -321,13 +321,13 @@ msgid ""
 "startup procedure is completed successfully, the scheduler picks the "
 "observation job target and starts the sequence process. If a startup script "
 "is specified, it shall be executed first."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: title
 #: ekos-scheduler.docbook:174
 #, no-c-format
 msgid "Data Acquisition"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:175
@@ -335,7 +335,7 @@ msgstr ""
 msgid ""
 "Depending the on the user selection, the typical workflow proceeds as "
 "follows:"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:180
@@ -343,7 +343,7 @@ msgstr ""
 msgid ""
 "Slew mount to target. If a FITS file was specified, it first solves the "
 "files and slew to the file coordinates."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:185
@@ -351,13 +351,13 @@ msgstr ""
 msgid ""
 "Auto-focus target. The autofocus process automatically selects the best star "
 "in the frame and runs the autofocus algorithm against it."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:190
 #, no-c-format
 msgid "Perform plate solving, sync mount, and slew to target coordinates."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:195
@@ -365,7 +365,7 @@ msgstr ""
 msgid ""
 "Perform post-alignment focusing since the frame might have moved during the "
 "plate solving process."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:200
@@ -374,7 +374,7 @@ msgid ""
 "Perform calibration and start auto-guiding: The calibration process "
 "automatically selects the best guide star, performs calibration, and starts "
 "the autoguide process."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:205
@@ -382,13 +382,13 @@ msgstr ""
 msgid ""
 "Load the sequence file in the <link linkend=\"ekos-capture\">Capture module</"
 "link> and start the imaging process."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: title
 #: ekos-scheduler.docbook:213
 #, no-c-format
 msgid "<title>Shutdown</title>"
-msgstr ""
+msgstr "<title>Éteindre</title>"
 
 #. Tag: para
 #: ekos-scheduler.docbook:214
@@ -400,7 +400,7 @@ msgid ""
 "target is not due for a user-configurable time limit, the scheduler performs "
 "a <emphasis>preemptive</emphasis> shutdown to preserve resources and "
 "performs the startup procedure again when the target is due."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:217
@@ -408,7 +408,7 @@ msgstr ""
 msgid ""
 "If an unrecoverable error occurs, the observatory initiates shutdown "
 "procedure. If there is a shutdown script, it will be executed last."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:220
@@ -416,19 +416,19 @@ msgstr ""
 msgid ""
 "The following video demonstrates an earlier version of the scheduler, but "
 "the basic principles still apply today:"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: phrase
 #: ekos-scheduler.docbook:229
 #, no-c-format
 msgid "Ekos Scheduler"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: title
 #: ekos-scheduler.docbook:236
 #, no-c-format
 msgid "Weather Monitoring"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:237
@@ -438,7 +438,7 @@ msgid ""
 "weather monitoring. For weather updates, Ekos relies on the selected INDI "
 "weather driver to continuously monitor the weather conditions. For "
 "simplicity sake, the weather conditions can be summed in three states:"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:242
@@ -446,7 +446,7 @@ msgstr ""
 msgid ""
 "<emphasis role=\"bold\">Ok</emphasis>: Weather conditions are clear and "
 "optimal for imaging."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:247
@@ -458,7 +458,7 @@ msgid ""
 "improves. Warning weather status does not pose any danger to the observatory "
 "equipment so the observatory is kept operational. The exact behavior to take "
 "under Warning status can be configured."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:252
@@ -466,13 +466,13 @@ msgstr ""
 msgid ""
 "<emphasis role=\"bold\">Alert</emphasis>: Weather conditions are detrimental "
 "to the observatory safety and shutdown must be initiated as soon as possible."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: title
 #: ekos-scheduler.docbook:260
 #, no-c-format
 msgid "Startup &amp; Shutdown Scripts"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:261
@@ -485,7 +485,7 @@ msgid ""
 "startup procedure (unpark dome/unpark mount) if the script completes "
 "successfully. Conversely, the shutdown procedure begins with parking the "
 "mount &amp; dome before executing the shutdown script as the final procedure."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:264
@@ -496,7 +496,7 @@ msgid ""
 "exist value is considered an error indicator. The script's standard output "
 "is also directed to Ekos logger window. The following is an sample demo "
 "startup script in Python:"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: programlisting
 #: ekos-scheduler.docbook:267
@@ -523,7 +523,7 @@ msgid ""
 "sys.stdout.flush()\n"
 "\n"
 "exit(0)"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:268
@@ -537,25 +537,25 @@ msgid ""
 "critical to gracefully recover from failures in any stage of the observation "
 "run. Using &plasma; notifications, the user can configure audible alarms and "
 "email notifications for the various events in the scheduler."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: title
 #: ekos-scheduler.docbook:274
 #, no-c-format
 msgid "<title>Mosaic Wizard</title>"
-msgstr ""
+msgstr "<title>Assistant de mosaïque</title>"
 
 #. Tag: screeninfo
 #: ekos-scheduler.docbook:276
 #, no-c-format
 msgid "<screeninfo>Mosaic Wizard</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Assistant de mosaïque</screeninfo>"
 
 #. Tag: phrase
 #: ekos-scheduler.docbook:284
 #, no-c-format
 msgid "<phrase>Mosaic Wizard</phrase>"
-msgstr ""
+msgstr "<phrase>Assistant de mosaïque</phrase>"
 
 #. Tag: para
 #: ekos-scheduler.docbook:288
@@ -570,7 +570,7 @@ msgid ""
 "and dedicated observatories worth tens of the thousands of dollars. "
 "Nevertheless, many amateurs can obtain stellar wide-field images by "
 "combining smaller images into a single grand mosaic."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:291
@@ -583,7 +583,7 @@ msgid ""
 "Without any changes to your astrophotography gear, it is possible to create "
 "a super mosaic image <emphasis>stitched</emphasis> together from several "
 "smaller images. There are two major steps to accomplish a super mosaic image:"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:296
@@ -592,7 +592,7 @@ msgid ""
 "Capture multiple images spanning the target with some overlap between "
 "images. The overlap is necessary to enable the processing software from "
 "aligning and joining the sub-images."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:301
@@ -600,7 +600,7 @@ msgstr ""
 msgid ""
 "Process the images and <emphasis>stitch</emphasis> them into a super mosaic "
 "image."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:306
@@ -615,7 +615,7 @@ msgid ""
 "jobs required to capture all the images. This greatly facilitates the "
 "logistics of capturing many images with different filters and calibration "
 "frames across a wide area of the sky."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:309
@@ -633,7 +633,7 @@ msgid ""
 "the Scheduler form. If you added jobs to the observation list previously, "
 "Ekos will ask you if you would want to keep or remove them before inserting "
 "the mosaic jobs in the list."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:312
@@ -646,7 +646,7 @@ msgid ""
 "help icon on the top left part of the sky chart. Move your mouse over it to "
 "display the latest documentation of the tool. Each gadget also has its own "
 "tooltip."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:315
@@ -663,19 +663,19 @@ msgid ""
 "close to the celestial equator, in order to determine it precisely. The "
 "rotation angle is an important parameter of your mosaic, as the Tool will "
 "create a grid using this orientation."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: screeninfo
 #: ekos-scheduler.docbook:319
 #, no-c-format
 msgid "<screeninfo>Scheduler Mosaic Tool</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Outil mosaïque de l'ordonnanceur</screeninfo>"
 
 #. Tag: phrase
 #: ekos-scheduler.docbook:327
 #, no-c-format
 msgid "<phrase>Scheduler Mosaic Tool</phrase>"
-msgstr ""
+msgstr "<phrase>Outil de mosaïque de l'ordonnanceur</phrase>"
 
 #. Tag: para
 #: ekos-scheduler.docbook:331
@@ -692,19 +692,19 @@ msgid ""
 "shrink the mosaic area. To reset the extents of the mosaic field of view to "
 "the area expectedly covered by the grid, click <guibutton>Cover FOV</"
 "guibutton>."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: screeninfo
 #: ekos-scheduler.docbook:335
 #, no-c-format
 msgid "<screeninfo>Scheduler Mosaic Tool - Field of view</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Outil de mosaïque de l'ordonnanceur - champ de vision</screeninfo>"
 
 #. Tag: phrase
 #: ekos-scheduler.docbook:343
 #, no-c-format
 msgid "<phrase>Scheduler Mosaic Tool - Field of view</phrase>"
-msgstr ""
+msgstr "<phrase>Outil de mosaïque de l'ordonnanceur - champ de vision</phrase>"
 
 #. Tag: para
 #: ekos-scheduler.docbook:347
@@ -720,19 +720,19 @@ msgid ""
 "does not have the same height on all parts of the final frame, this method "
 "gives you control on signal-to-noise ratio and allows you to provide context "
 "to your target while exposing a relatively low number of captures."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: screeninfo
 #: ekos-scheduler.docbook:351
 #, no-c-format
 msgid "<screeninfo>Scheduler Mosaic Tool - 75% overlap</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Outil de mosaïque de l'ordonnanceur - recouvrement à 75 %</screeninfo>"
 
 #. Tag: phrase
 #: ekos-scheduler.docbook:359
 #, no-c-format
 msgid "<phrase>Scheduler Mosaic Tool - 75% overlap</phrase>"
-msgstr ""
+msgstr "<phrase>Outil de mosaïque de l'ordonnanceur - recouvrement à 75 %</phrase>"
 
 #. Tag: para
 #: ekos-scheduler.docbook:363
@@ -750,19 +750,19 @@ msgid ""
 "due their horizontal position or high declination. Use the "
 "<guilabel>overlap</guilabel> to ensure panes cover the desired frame extents "
 "properly."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: screeninfo
 #: ekos-scheduler.docbook:367
 #, no-c-format
 msgid "<screeninfo>Scheduler Mosaic Tool - Large rotation</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Outil de mosaïque de l'ordonnanceur - grande rotation</screeninfo>"
 
 #. Tag: phrase
 #: ekos-scheduler.docbook:375
 #, no-c-format
 msgid "<phrase>Scheduler Mosaic Tool - Large rotation</phrase>"
-msgstr ""
+msgstr "<phrase>Outil de mosaïque de l'ordonnanceur - grande rotation</phrase>"
 
 #. Tag: para
 #: ekos-scheduler.docbook:379
@@ -777,7 +777,7 @@ msgid ""
 "the <guibutton>Save as...</guibutton> button, so that you may load it on any "
 "suitable observing night and, with the <guilabel>Remember Job Progress</"
 "guilabel> option, it will pick off where you left."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-scheduler.docbook:382
@@ -785,4 +785,4 @@ msgstr ""
 msgid ""
 "With Ekos Scheduler, multi-night imaging is greatly facilitated and creating "
 "super mosaics has never been so easy."
-msgstr ""
+msgstr "XXX"

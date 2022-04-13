@@ -1,60 +1,60 @@
-# SOME DESCRIPTIVE TITLE.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# steve <stax@ik.me>, 2022.
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+msgstr "XXX"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-22 00:30+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2022-04-13 14:52+0200\n"
+"Last-Translator: steve <stax@ik.me>\n"
+"Language-Team: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr_CH\n"
+"X-Generator: Lokalize 20.12.0\n"
 
 #. Tag: title
 #: ekos-focus.docbook:2
 #, no-c-format
 msgid "<title>Focus</title>"
-msgstr ""
+msgstr "<title>Mise au point<title>"
 
 #. Tag: primary
 #: ekos-focus.docbook:4
 #, no-c-format
 msgid "Tools"
-msgstr ""
+msgstr "Outils"
 
 #. Tag: secondary
 #: ekos-focus.docbook:5
 #, no-c-format
 msgid "Ekos"
-msgstr ""
+msgstr "Ekos"
 
 #. Tag: tertiary
 #: ekos-focus.docbook:6
 #, no-c-format
 msgid "<tertiary>Focus</tertiary>"
-msgstr ""
+msgstr "<tertiary>Mise au point</tertiary>"
 
 #. Tag: title
 #: ekos-focus.docbook:9
 #, no-c-format
 msgid "Theory Of Operation"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: screeninfo
 #: ekos-focus.docbook:12
 #, no-c-format
 msgid "<screeninfo>Ekos Focus</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Mise au point Ekos</screeninfo>"
 
 #. Tag: phrase
 #: ekos-focus.docbook:20
 #, no-c-format
 msgid "<phrase>Ekos Focus</phrase>"
-msgstr ""
+msgstr "<phrase>Mise au point Ekos</phrase>"
 
 #. Tag: para
 #: ekos-focus.docbook:25
@@ -65,7 +65,7 @@ msgid ""
 "at an image and can see it as <emphasis>unfocused</emphasis>, as the human "
 "is very good at detecting that, but <emphasis>how</emphasis> can Ekos "
 "possibly know that?"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:28
@@ -82,7 +82,7 @@ msgid ""
 "stable in conditions where you might have unfavorable sky conditions, when "
 "the brightness profile of the stars is low, and when the starting position "
 "of the focus is far from the optimal focus."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:31
@@ -93,7 +93,7 @@ msgid ""
 "the star manually. It is usually recommended to select stars that are not "
 "too bright as they might get saturated during the focusing process. A "
 "magnitude 3 or 4 star is often sufficient."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:34
@@ -106,7 +106,7 @@ msgid ""
 "camera in use. In Ekos, a full V-curve is never constructed as the focusing "
 "process works iteratively, so under most circumstances, a half V-curve shape "
 "as illustrated in the Focus Module image is measured."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:37
@@ -131,7 +131,7 @@ msgid ""
 "the step size to a more reasonable range (&lt; 50). It takes trial and error "
 "to find the best starting tick, but Ekos only uses that for the first focus "
 "motion, as all subsequent motions depend on the V-Curve slope calculations."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:40
@@ -143,7 +143,7 @@ msgid ""
 "decreasing for a while), the Ekos performs polynomial fitting to find a "
 "solution that predicts the minimum possible HFR position. If a valid "
 "solution is found, the autofocus process is considered successful."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:43
@@ -151,25 +151,25 @@ msgstr ""
 msgid ""
 "While Ekos Focus Module supports relative focusers, it is <emphasis role="
 "\"bold\">highly recommended</emphasis> to use absolute focusers."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: title
 #: ekos-focus.docbook:49
 #, no-c-format
 msgid "Focuser Group"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: screeninfo
 #: ekos-focus.docbook:52
 #, no-c-format
 msgid "<screeninfo>Focuser Settings</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Réglages du focuseur</screeninfo>"
 
 #. Tag: phrase
 #: ekos-focus.docbook:60
 #, no-c-format
 msgid "<phrase>Focuser Settings</phrase>"
-msgstr ""
+msgstr "<phrase>Réglages du focuser</phrase>"
 
 #. Tag: para
 #: ekos-focus.docbook:65
@@ -182,7 +182,7 @@ msgid ""
 "When focusing <emphasis>outwards</emphasis>, the focuser position increases, "
 "while it decreases when focusing <emphasis>inwards</emphasis>. The following "
 "focuser types are supported:"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:70
@@ -190,14 +190,14 @@ msgstr ""
 msgid ""
 "<emphasis role=\"bold\">Absolute</emphasis>: Absolute Position Focusers such "
 "as RoboFocus, MoonLite, &etc;"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:75
 #, no-c-format
 msgid ""
 "<emphasis role=\"bold\">Relative</emphasis>: Relative Position Focusers."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:80
@@ -205,7 +205,7 @@ msgstr ""
 msgid ""
 "<emphasis role=\"bold\">Simple Focusers</emphasis>: DC/PWM focusers with no "
 "position feedback."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:85
@@ -219,7 +219,7 @@ msgid ""
 "indicated in the focus settings. For absolute and relative focusers, the "
 "step size is in units of <emphasis>ticks</emphasis> and for simple DC "
 "focusers, the step size is in <emphasis>milliseconds</emphasis>."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:88
@@ -227,25 +227,25 @@ msgstr ""
 msgid ""
 "To begin the autofocus process, simply click the <guibutton>Auto Focus</"
 "guibutton> button."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: title
 #: ekos-focus.docbook:94
 #, no-c-format
 msgid "CCD &amp; Filter Wheel Group"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: screeninfo
 #: ekos-focus.docbook:97
 #, no-c-format
 msgid "<screeninfo>Focus CCD &amp; Filter Wheel Group</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Mise au point CCD &amp; groupe de roue à filtres</screeninfo>"
 
 #. Tag: phrase
 #: ekos-focus.docbook:105
 #, no-c-format
 msgid "<phrase>Focus CCD &amp; Filter Wheel Group</phrase>"
-msgstr ""
+msgstr "<phrase>Mise au point CCD &amp; et groupe de roue à filtres</phrase>"
 
 #. Tag: para
 #: ekos-focus.docbook:110
@@ -259,7 +259,7 @@ msgid ""
 "autofocus process. This locked filter is also used in the <link linkend="
 "\"ekos-align\">Alignment Module</link> whenever it performs any astrometry "
 "capture."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:113
@@ -271,25 +271,25 @@ msgid ""
 "DSLRs cameras, you can change the ISO settings. You may reset the focusing "
 "subframe to full frame capture if you click the <guibutton>Reset</guibutton> "
 "button."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: title
 #: ekos-focus.docbook:119
 #, no-c-format
 msgid "Settings"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: screeninfo
 #: ekos-focus.docbook:122
 #, no-c-format
 msgid "<screeninfo>Focus Settings</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Réglages de la mise au point</screeninfo>"
 
 #. Tag: phrase
 #: ekos-focus.docbook:130
 #, no-c-format
 msgid "<phrase>Focus Settings</phrase>"
-msgstr ""
+msgstr "<phrase>Réglages de la mise au point</phrase>"
 
 #. Tag: para
 #: ekos-focus.docbook:135
@@ -297,7 +297,7 @@ msgstr ""
 msgid ""
 "You may need to adjust focus settings in order to achieve a successful and "
 "reliable autofocus process. The settings are retained between sessions."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:140
@@ -305,7 +305,7 @@ msgstr ""
 msgid ""
 "<emphasis role=\"bold\">Auto Star Select</emphasis>: Automatically select "
 "the best focus star from the image."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:144
@@ -314,7 +314,7 @@ msgid ""
 "<emphasis role=\"bold\">Subframe</emphasis>: Subframe around the focus star "
 "during the autofocus procedure. Enabling subframing can significantly speed "
 "up the focus process."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:148
@@ -323,7 +323,7 @@ msgid ""
 "<emphasis role=\"bold\">Dark Frame</emphasis>: Check this option to capture "
 "a dark frame if necessary and perform dark-frame subtraction. This option "
 "can be useful in noisy images."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:152
@@ -334,7 +334,7 @@ msgid ""
 "when using Integrated Guide Port IGP whereas the guider is physically "
 "attached to the primary CCD), then it is recommended to enable this option. "
 "When using Off-Axis guider, then this option is not necessary."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:156
@@ -344,7 +344,7 @@ msgid ""
 "enclose the focus star. Increase if you have very large stars. For Bahtinov "
 "focus the box size can be increased even more to better enclose the Bahtinov "
 "diffraction pattern."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:160
@@ -352,7 +352,7 @@ msgstr ""
 msgid ""
 "<emphasis role=\"bold\">Max Travel</emphasis>: Maximum travel in ticks "
 "before the autofocus process aborts."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:164
@@ -362,7 +362,7 @@ msgid ""
 "size in ticks to cause a noticeable change in HFR value. For timer-based "
 "focuser, it is the initial time in milliseconds to move the focuser inward "
 "or outward."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:168
@@ -376,7 +376,7 @@ msgid ""
 "measured HFR value is within % difference of the minimum recorded HFR. "
 "Decrease value to narrow optimal focus point solution radius. Increase to "
 "expand solution radius."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:172
@@ -384,7 +384,7 @@ msgstr ""
 msgid ""
 "Setting the value too low might result in a repetitive loop and would most "
 "likely result in a failed autofocus process."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:178
@@ -394,7 +394,7 @@ msgid ""
 "used for star detection using the <emphasis>Threshold</emphasis> detection "
 "algorithm. Increase to restrict the centroid to bright cores. Decrease to "
 "enclose fuzzy stars."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:182
@@ -402,7 +402,7 @@ msgstr ""
 msgid ""
 "<emphasis role=\"bold\">Algorithm</emphasis>: Select the autofocus process "
 "algorithm:"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:186
@@ -413,7 +413,7 @@ msgid ""
 "further step sizes are calculated to reach an optimal solution. The "
 "algorithm stops when the measured HFR is within percentage tolerance of the "
 "minimum HFR recorded in the procedure."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:190
@@ -424,7 +424,7 @@ msgid ""
 "coefficients along with possible minimum solution are calculated. This "
 "algorithm can be faster than a purely iterative approach given a good data "
 "set."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:197
@@ -434,7 +434,7 @@ msgid ""
 "capture. During each capture, an HFR is recorded. If the instantaneous HFR "
 "value is unreliable, you can average a number of frames to increase the "
 "signal to noise ratio."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:201
@@ -444,7 +444,7 @@ msgid ""
 "algorithm. Each algorithm has its strengths and weaknesses. It is "
 "recommended to keep the default value unless it fails to properly detect "
 "stars."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:205
@@ -459,25 +459,25 @@ msgid ""
 "parameter can be adjusted to improve recognition. The line with the circles "
 "at each end is a magnified indicator for the focus. The shorter the line, "
 "the better the image is in focus."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: title
 #: ekos-focus.docbook:214
 #, no-c-format
 msgid "V-Curve"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: screeninfo
 #: ekos-focus.docbook:217
 #, no-c-format
 msgid "<screeninfo>Focus V-Curve</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Courbe en V de la mise au point</screeninfo>"
 
 #. Tag: phrase
 #: ekos-focus.docbook:225
 #, no-c-format
 msgid "<phrase>Focus V-Curve</phrase>"
-msgstr ""
+msgstr "<phrase>Courbe en V de la mise au point</phrase>"
 
 #. Tag: para
 #: ekos-focus.docbook:230
@@ -488,7 +488,7 @@ msgid ""
 "crosses from one side of the V-curve to the other, it backtracks and tries "
 "to find the optimal focus position. The final focus position is decided by "
 "which algorithm is selected."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-focus.docbook:233
@@ -496,25 +496,25 @@ msgstr ""
 msgid ""
 "When framing, the horizontal axis denotes the frame number. This is to aid "
 "you in the framing process as you can see how HFR changes between frames."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: title
 #: ekos-focus.docbook:239
 #, no-c-format
 msgid "Relative Profile"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: screeninfo
 #: ekos-focus.docbook:242
 #, no-c-format
 msgid "<screeninfo>Focus Relative Profile</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Profil relatif de la mise au point</screeninfo>"
 
 #. Tag: phrase
 #: ekos-focus.docbook:250
 #, no-c-format
 msgid "<phrase>Focus Relative Profile</phrase>"
-msgstr ""
+msgstr "<phrase>Profil relatif de la mise au point</phrase>"
 
 #. Tag: para
 #: ekos-focus.docbook:255
@@ -527,4 +527,4 @@ msgid ""
 "magenta curve denotes the first measured HFR and is displayed when the "
 "autofocus process concludes. This enables you to judge how well the "
 "autofocus process improved the relative focus quality."
-msgstr ""
+msgstr "XXX"

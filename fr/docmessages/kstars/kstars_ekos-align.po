@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-22 00:30+0000\n"
-"PO-Revision-Date: 2022-04-11 17:21+0200\n"
+"PO-Revision-Date: 2022-04-13 15:02+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -68,12 +68,12 @@ msgid ""
 "(RA, DEC) of the image. The solver essentially performs a pattern "
 "recognition against a catalog of millions of stars. Once the coordinates are "
 "determined, the true pointing of the telescope is known."
-msgstr ""
+msgstr "XXX"
 "Le module d'alignement d'Ekos permet des GOTO hautement précis avec une"
 " précision inférieure à la seconde d'arc et peut mesurer et corriger les"
 " erreurs d'alignement polaire. Cela est possible grâce au résolveur"
 " astrometry.net. Ekos commence par acquérir une image d'un champ d'étoile qui"
-" est ensuite donnée à <ulink= url=\"https ://astrometry.net\"astrometry.net</u"
+" est ensuite donnée à <ulink url=\"https://astrometry.net\">astrometry.net</u"
 "link> qui calculera ses coordonnées centrales (AD et DEC). Le résolveur"
 " réalise essentiellement une reconnaissance de motifs à l'aide d'un catalogue"
 " de million d'étoiles. Une fois que ces coordonnées sont déterminées, le vrai"
@@ -88,7 +88,7 @@ msgid ""
 "can range from a few arcminutes to a couple of degrees. Ekos can then "
 "correct the discrepancy by either syncing to the new coordinates, or by "
 "slewing the mount to the desired target originally requested."
-msgstr ""
+msgstr "XXX"
 "Il y a souvent une différence entre l'endroit où le télescope croit pointer"
 " et où il pointe vraiment. L'importance de cette différence peut varier de"
 " quelques minutes d'arc à quelques degrés. Ekos peut ensuite corriger cette"
@@ -101,7 +101,7 @@ msgstr ""
 msgid ""
 "Furthermore, Ekos provides two tools to measure and correct polar alignment "
 "errors:"
-msgstr ""
+msgstr "XXX"
 "De plus Ekos fournit deux outils pour mesurer et corriger l'alignement"
 " polaire :"
 
@@ -113,7 +113,7 @@ msgid ""
 "measure and correct polar errors. It takes three images near the celestial "
 "pole (Close to Polaris for Northern Hemisphere) and then calculates the "
 "offset between the mount axis and polar axis."
-msgstr ""
+msgstr "XXX"
 "<guilabel>Outil d'assistance à l'alignement polaire</guilabel> : un outil"
 " très simple d'utilisation pour mesurer et corriger les erreurs polaires. Il"
 " prend trois images près du pôle céleste (proche de Polaris dans l'hémisphère"
@@ -129,7 +129,7 @@ msgid ""
 "captures a couple of images near the meridian and east/west of the meridian. "
 "This will enable the user to adjust the mount until the misalignment is "
 "minimized."
-msgstr ""
+msgstr "XXX"
 "<guilabel>Ancien outil d'alignement polaire</guilabel> : si Polaris n'est pas"
 " visible, cet outil peut être utilisé pour mesurer et corriger les erreurs"
 " d'alignement polaire. Il prend quelques images près du méridien et quelques"
@@ -143,7 +143,7 @@ msgid ""
 "At a minimum, you need a CCD/Webcam and a telescope that supports Slew &amp; "
 "Sync commands. Most popular commercial telescope nowadays support such "
 "commands."
-msgstr ""
+msgstr "XXX"
 "Vous avez besoin au minimum d'une caméra CCD ou d'une webcam et d'un"
 " télescope qui gère les commandes de pointage et de synchronisation. La"
 " plupart de télescopes trouvés dans le commerce aujourd'hui gère ces"
@@ -156,7 +156,7 @@ msgid ""
 "For the Ekos Alignment Module to work, you have an option of either "
 "utilizing the <emphasis>online</emphasis> astrometry.net solver, "
 "<emphasis>offline</emphasis>, or <emphasis>remote</emphasis> solver:"
-msgstr ""
+msgstr "XXX"
 "Pour utiliser ce module, vous pouvez soit utiliser le résolveur"
 " astrometry.net <emphasis>en ligne</emphasis>, soit l'utiliser <emphasis>hors"
 " ligne</emphasis> ou encore <emphasis>à distance</emphasis> :"
@@ -168,7 +168,7 @@ msgid ""
 "<guilabel>Online Solver</guilabel>: The online solver requires no "
 "configuration, and depending on your Internet bandwidth, it might take a "
 "while to upload and solve the image."
-msgstr ""
+msgstr "XXX"
 "<guilabel>Résolveur en ligne</guilabel> : il ne nécessite aucune"
 " configuration, mais dépendant de votre bande passante, risque de prendre du"
 " temps pour téléverser les images et les résoudre."
@@ -180,7 +180,7 @@ msgid ""
 "<guilabel>Offline Solver</guilabel>: The offline solver can be faster and "
 "requires no Internet connection. In order to use the offline solver, you "
 "must install astrometry.net in addition to the necessary index files."
-msgstr ""
+msgstr "XXX"
 "<guilabel>Résolveur hors ligne</guilabel> : il est rapide et ne nécessite"
 " aucune connexion internet. Pour l'utiliser, vous devez installer"
 " astrometry.net ainsi que les fichiers index nécessaires."
@@ -192,7 +192,7 @@ msgid ""
 "<guilabel>Remote Solver</guilabel>: The remote solver is an offline solver "
 "the resides on a different machine (for example, you can use Astrometry "
 "solver on StellarMate). Captured images are solved on the remote machine."
-msgstr ""
+msgstr "XXX"
 "<guilabel>Résolveur à distance</guilabel> : c'est un résolveur hors ligne qui"
 " est installé sur une autre machine (par exemple, vous pouvez le résolveur"
 " astrometry.net sur Stellarmate). Les images sont résolues sur cette autre"
@@ -210,7 +210,7 @@ msgstr "Obtenir astrometry.net"
 msgid ""
 "If you are planning to use <emphasis>Offline</emphasis> astrometry then you "
 "need to download astrometry.net application."
-msgstr ""
+msgstr "XXX"
 "Si votre idée est d'utiliser astrometry <emphasis>hors ligne</emphasis>,"
 " alors il vous faudra télécharger l'application astrometry.net."
 
@@ -226,7 +226,7 @@ msgid ""
 "guimenuitem> option in Ekos Alignment Module. Furthermore, make sure that "
 "the <guimenuitem>Astrometry</guimenuitem> driver is selected in your "
 "equipment profile."
-msgstr ""
+msgstr "XXX"
 "Astrometry.net est déjà libré avec StellarMate, donc il n'est pas nécessaire"
 " de l'installer. Les fichiers d'index dès 16 minutes d'arc et au-dessus (4206"
 " - 4019) sont inclus dans StellarMate. Tout fichier index additionnel"
@@ -242,13 +242,13 @@ msgstr "<screeninfo>Astrométrie à distance Ekos</screeninfo>"
 #: ekos-align.docbook:89
 #, no-c-format
 msgid "<phrase>Ekos Remote Astrometry</phrase>"
-msgstr ""
+msgstr "<phrase>Astrométrie à distance Ekos</phrase>"
 
 #. Tag: term
 #: ekos-align.docbook:95
 #, no-c-format
 msgid "&Windows;"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:97
@@ -258,7 +258,7 @@ msgid ""
 "<ulink url=\"https://adgsoftware.com/ansvr/\">ANSVR Local Astrometry.net "
 "solver</ulink>. The ANSVR mimics the astrometry.net online server on your "
 "local computer; thus the internet not required for any astrometry queries."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:100
@@ -268,19 +268,19 @@ msgid ""
 "files for your setup, make sure ANSVR server is up and running and then go "
 "to Ekos Alignment options where you can simply change the <guilabel>API URL</"
 "guilabel> to use the ANSVR server as illustrated below:"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: screeninfo
 #: ekos-align.docbook:104
 #, no-c-format
 msgid "<screeninfo>ANSVR Parameters</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Paramètres ANSVR</screeninfo>"
 
 #. Tag: phrase
 #: ekos-align.docbook:112
 #, no-c-format
 msgid "<phrase>ANSVR Parameters</phrase>"
-msgstr ""
+msgstr "<phrase>Paramètres ANSRV</phrase>"
 
 #. Tag: para
 #: ekos-align.docbook:116
@@ -289,7 +289,7 @@ msgid ""
 "In Ekos Align module, you must set the solver type to <guimenuitem>Online</"
 "guimenuitem> so that it uses the local ANSVR server for all astrometry "
 "queries. Then you can use the align module as you would normally do."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:119
@@ -302,13 +302,13 @@ msgid ""
 "includes <emphasis role=\"bold\">Astrometry</emphasis> driver which can be "
 "selected under the <guilabel>Auxiliary</guilabel> dropdown. This is "
 "applicable to all operating systems and not just &Windows;."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: term
 #: ekos-align.docbook:125
 #, no-c-format
 msgid "&MacOS;"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:127
@@ -316,13 +316,13 @@ msgstr ""
 msgid ""
 "Astrometry.net is already included with &kstars; for &MacOS;, so no need to "
 "install it."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: term
 #: ekos-align.docbook:133
 #, no-c-format
 msgid "&Linux;"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:135
@@ -331,19 +331,19 @@ msgid ""
 "Astrometry.net is already included with &kstars; bleeding version. But if "
 "astrometry is not installed, then you can install it by running the "
 "following command under &ubuntu;:"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: command
 #: ekos-align.docbook:139
 #, no-c-format
 msgid "sudo apt-get install astrometry.net"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: title
 #: ekos-align.docbook:147
 #, no-c-format
 msgid "Download Index Files"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:148
@@ -355,25 +355,25 @@ msgid ""
 "files are sorted by the Field-Of-View (FOV) range they cover. There are two "
 "methods to fetch the necessary index files: The new download support in "
 "Align module, and the old manual way."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: title
 #: ekos-align.docbook:152
 #, no-c-format
 msgid "Automatic Download"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: screeninfo
 #: ekos-align.docbook:154
 #, no-c-format
 msgid "<screeninfo>Astrometry.net Indexes Download</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Téléchargement des index astrometry.net</screeninfo>"
 
 #. Tag: phrase
 #: ekos-align.docbook:162
 #, no-c-format
 msgid "<phrase>Astrometry.net Indexes Download</phrase>"
-msgstr ""
+msgstr "<phrase>Téléchargement des index astrometry.net</phrase>"
 
 #. Tag: para
 #: ekos-align.docbook:166
@@ -381,7 +381,7 @@ msgstr ""
 msgid ""
 "Automatic download is only available for Ekos users on &Linux; &amp; "
 "&MacOS;. For &Windows; users, please download ANSVR solver."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:169
@@ -393,25 +393,25 @@ msgid ""
 "current FOV of your current setup and below it a list of available and "
 "installed index files. Three icons are used to designate the importance of "
 "index files given your current setup as follows:"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: guilabel
 #: ekos-align.docbook:175
 #, no-c-format
 msgid "Required"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: guilabel
 #: ekos-align.docbook:180
 #, no-c-format
 msgid "Recommended"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: guilabel
 #: ekos-align.docbook:185
 #, no-c-format
 msgid "Optional"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:189
@@ -425,13 +425,13 @@ msgid ""
 "administrator password (default in StellarMate is <userinput>smate</"
 "userinput>) to install the files. Once you installed all the required files, "
 "you can begin using the offline astrometry.net solver immediately."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: title
 #: ekos-align.docbook:194
 #, no-c-format
 msgid "Manual Download"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:195
@@ -445,301 +445,301 @@ msgid ""
 "There are many online tools to calculate FOVs, such as <ulink url=\"http://"
 "starizona.com/acb/ccd/calc_pixel.aspx\">Starizona Field of View Calculator</"
 "ulink>."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: title
 #: ekos-align.docbook:199
 #, no-c-format
 msgid "Index Files"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:203
 #, no-c-format
 msgid "Index Filename"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:204
 #, no-c-format
 msgid "FOV (arcminutes)"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:205
 #, no-c-format
 msgid "Debian Package"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:210
 #, no-c-format
 msgid "index-4219.fits"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:211
 #, no-c-format
 msgid "1400 - 2000"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: ulink
 #: ekos-align.docbook:212
 #, no-c-format
 msgid "astrometry-data-4208-4219"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:215
 #, no-c-format
 msgid "index-4218.fits"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:216
 #, no-c-format
 msgid "1000 - 1400"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:219
 #, no-c-format
 msgid "index-4217.fits"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:220
 #, no-c-format
 msgid "680 - 1000"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:223
 #, no-c-format
 msgid "index-4216.fits"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:224
 #, no-c-format
 msgid "480 - 680"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:227
 #, no-c-format
 msgid "index-4215.fits"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:228
 #, no-c-format
 msgid "340 - 480"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:231
 #, no-c-format
 msgid "index-4214.fits"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:232
 #, no-c-format
 msgid "240 - 340"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:235
 #, no-c-format
 msgid "index-4213.fits"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:236
 #, no-c-format
 msgid "170 - 240"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:239
 #, no-c-format
 msgid "index-4212.fits"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:240
 #, no-c-format
 msgid "120 - 170"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:243
 #, no-c-format
 msgid "index-4211.fits"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:244
 #, no-c-format
 msgid "85 - 120"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:247
 #, no-c-format
 msgid "index-4210.fits"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:248
 #, no-c-format
 msgid "60 - 85"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:251
 #, no-c-format
 msgid "index-4209.fits"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:252
 #, no-c-format
 msgid "42 - 60"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:255
 #, no-c-format
 msgid "index-4208.fits"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:256
 #, no-c-format
 msgid "30 - 42"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:259
 #, no-c-format
 msgid "index-4207-*.fits"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:260
 #, no-c-format
 msgid "22 - 30"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: ulink
 #: ekos-align.docbook:261
 #, no-c-format
 msgid "astrometry-data-4207"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:264
 #, no-c-format
 msgid "index-4206-*.fits"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:265
 #, no-c-format
 msgid "16 - 22"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: ulink
 #: ekos-align.docbook:266
 #, no-c-format
 msgid "astrometry-data-4206"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:269
 #, no-c-format
 msgid "index-4205-*.fits"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:270
 #, no-c-format
 msgid "11 - 16"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: ulink
 #: ekos-align.docbook:271
 #, no-c-format
 msgid "astrometry-data-4205"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:274
 #, no-c-format
 msgid "index-4204-*.fits"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:275
 #, no-c-format
 msgid "8 - 11"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: ulink
 #: ekos-align.docbook:276
 #, no-c-format
 msgid "astrometry-data-4204"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:279
 #, no-c-format
 msgid "index-4203-*.fits"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:280
 #, no-c-format
 msgid "5.6 - 8.0"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: ulink
 #: ekos-align.docbook:281
 #, no-c-format
 msgid "astrometry-data-4203"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:284
 #, no-c-format
 msgid "index-4202-*.fits"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:285
 #, no-c-format
 msgid "4.0 - 5.6"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: ulink
 #: ekos-align.docbook:286
 #, no-c-format
 msgid "astrometry-data-4202"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:289
 #, no-c-format
 msgid "index-4201-*.fits"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:290
 #, no-c-format
 msgid "2.8 - 4.0"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:291
@@ -752,19 +752,19 @@ msgid ""
 "debian/astrometry-data-4201-3_0.45_all.deb\">astrometry-data-4201-3</ulink> "
 "<ulink url=\"http://data.astrometry.net/debian/astrometry-"
 "data-4201-4_0.45_all.deb\">astrometry-data-4201-4</ulink>"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:294
 #, no-c-format
 msgid "index-4200-*.fits"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:295
 #, no-c-format
 msgid "2.0 - 2.8"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: entry
 #: ekos-align.docbook:296
@@ -777,7 +777,7 @@ msgid ""
 "debian/astrometry-data-4200-3_0.45_all.deb\">astrometry-data-4200-3</ulink> "
 "<ulink url=\"http://data.astrometry.net/debian/astrometry-"
 "data-4200-4_0.45_all.deb\">astrometry-data-4200-4</ulink>"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:301
@@ -787,13 +787,13 @@ msgid ""
 "Mint, &etc;). If you downloaded the Debian Packages above for your FOV "
 "range, you can install them from your favorite package manager, or via the "
 "following command:"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: command
 #: ekos-align.docbook:305
 #, no-c-format
 msgid "sudo dpkg -i astrometry-data-*.deb"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:307
@@ -802,7 +802,7 @@ msgid ""
 "On the other hand, if you downloaded the FITS index files directly, copy "
 "them to <filename role=\"directory\">/usr/share/astrometry</filename> "
 "directory."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:311
@@ -812,13 +812,13 @@ msgid ""
 "addons.mozilla.org/en-US/firefox/addon/downthemall/\">DownThemAll!</ulink> "
 "for &firefox; to download the Debian packages as browsers' built-in download "
 "manager may have problems with download large packages."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: title
 #: ekos-align.docbook:319
 #, no-c-format
 msgid "How to Use?"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:320
@@ -830,7 +830,7 @@ msgid ""
 "point the telescope as close as possible to Polaris. It is not necessary to "
 "perform 2 or 3 star alignments, but it can be useful for some mount types. "
 "Make sure your camera is focused and stars are resolved."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:325
@@ -848,7 +848,7 @@ msgid ""
 "After slew is complete, the Alignment module will repeat Capture &amp; Solve "
 "process again until the error between reported and actual position falls "
 "below the accuracy thresholds (30 arcseconds by default)."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:330
@@ -856,7 +856,7 @@ msgstr ""
 msgid ""
 "<guilabel>Load &amp; Slew</guilabel>: Load a FITS or JPEG file, solve it, "
 "and then slew to it."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:335
@@ -864,7 +864,7 @@ msgstr ""
 msgid ""
 "<guilabel>Polar Alignment Assistant</guilabel>: A simple tool to aid in "
 "polar alignment of German Equatorial Mounts."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:340
@@ -873,7 +873,7 @@ msgid ""
 "<guilabel>Legacy Polar Alignment Tool</guilabel>: Measure polar alignment "
 "error when a view of the celestial pole (&eg; Polaris for Northern "
 "Hemisphere) is not available."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:346
@@ -884,25 +884,25 @@ msgid ""
 "least 20 degrees away from the celestial pole before solving the first "
 "image. Solving very close to the poles will make your mount pointing worse "
 "so avoid it."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: title
 #: ekos-align.docbook:353
 #, no-c-format
 msgid "Alignment Settings"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: screeninfo
 #: ekos-align.docbook:355
 #, no-c-format
 msgid "<screeninfo>Astrometry.net Settings</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Réglages astrometry.net</screeninfo>"
 
 #. Tag: phrase
 #: ekos-align.docbook:363
 #, no-c-format
 msgid "<phrase>Astrometry.net Settings</phrase>"
-msgstr ""
+msgstr "<phrase>Réglages astrometry.net</phrase>"
 
 #. Tag: para
 #: ekos-align.docbook:367
@@ -911,19 +911,19 @@ msgid ""
 "Before you begin the alignment process, select the desired CCD &amp; "
 "Telescope. You can explore astrometry.net options that are passed to the "
 "astrometry.net solver each time an image is captured:"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:372
 #, no-c-format
 msgid "<guilabel>CCD</guilabel>: Select CCD to capture from."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:377
 #, no-c-format
 msgid "<guilabel>Exposure</guilabel>: Exposure duration in seconds."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:382
@@ -931,19 +931,19 @@ msgstr ""
 msgid ""
 "<guilabel>Accuracy</guilabel>: Acceptable difference between reported "
 "telescope coordinate and actually solved coordinate."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:387
 #, no-c-format
 msgid "<guilabel>Bin X</guilabel>: Set horizontal binning of the CCD."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:392
 #, no-c-format
 msgid "<guilabel>Bin Y</guilabel>: Set vertical binning of the CCD."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:397
@@ -952,7 +952,7 @@ msgid ""
 "<guilabel>Scope</guilabel>: Set the active telescope in case you have "
 "different Primary and Guide scopes. FOV is re-calculated when selecting a "
 "different telescope."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:402
@@ -962,7 +962,7 @@ msgid ""
 "solver. Click the edit button <inlinemediaobject><imageobject><imagedata "
 "fileref=\"document-edit.png\" format=\"PNG\"/></imageobject></"
 "inlinemediaobject> to explore the options in detail."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:407
@@ -970,7 +970,7 @@ msgstr ""
 msgid ""
 "<guilabel>Solver</guilabel>: Select solver type (Online, Offline, Remote). "
 "The remote solver is only available when connecting to a remote device."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:412
@@ -982,31 +982,31 @@ msgid ""
 "to only search within a specified area in the sky designated by the "
 "<guilabel>RA</guilabel>, <guilabel>DEC</guilabel>, and <guilabel>Radius</"
 "guilabel> options above."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: title
 #: ekos-align.docbook:418
 #, no-c-format
 msgid "<title>Astrometry.net Options</title>"
-msgstr ""
+msgstr "<title>Options astrometry.net</title>"
 
 #. Tag: para
 #: ekos-align.docbook:419
 #, no-c-format
 msgid "Options for offline and online solvers."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: screeninfo
 #: ekos-align.docbook:423
 #, no-c-format
 msgid "<screeninfo>Astrometry.net Options</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Options astrometry.net</screeninfo>"
 
 #. Tag: phrase
 #: ekos-align.docbook:431
 #, no-c-format
 msgid "<phrase>Astrometry.net Options</phrase>"
-msgstr ""
+msgstr "<phrase>Options astrometry.net</phrase>"
 
 #. Tag: para
 #: ekos-align.docbook:435
@@ -1014,7 +1014,7 @@ msgstr ""
 msgid ""
 "Most of the options are sufficient by default. If you have astrometry.net "
 "installed in a non-standard location, you can change the paths as necessary."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:440
@@ -1025,7 +1025,7 @@ msgid ""
 "the image, you can hover it and view the coordinate for each pixel. You can "
 "also click anywhere in the image and command to the telescope to slew there. "
 "It is highly recommended to keep this option on."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:445
@@ -1034,7 +1034,7 @@ msgid ""
 "<guilabel>Verbose</guilabel>: If the solver repeatedly fails to solve, check "
 "this option to enable <emphasis>verbose</emphasis> output of the solver to "
 "help you identify any problems."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:450
@@ -1042,7 +1042,7 @@ msgstr ""
 msgid ""
 "<guilabel>Overlay</guilabel>: Overlay captured images unto the sky map of "
 "&kstars;."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:455
@@ -1050,13 +1050,13 @@ msgstr ""
 msgid ""
 "<guilabel>Upload JPG</guilabel>: When using online astrometry.net, upload "
 "all images are JPEGs to save bandwidth as FITS images can be large."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: title
 #: ekos-align.docbook:463
 #, no-c-format
 msgid "Solver Options"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:464
@@ -1065,25 +1065,25 @@ msgid ""
 "Ekos selects and updates the optimal options by default to accelerate the "
 "performance of the solver. You may opt to change the options that are passed "
 "to the solver in case the default options are not sufficient."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: screeninfo
 #: ekos-align.docbook:468
 #, no-c-format
 msgid "<screeninfo>Solver Settings</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Réglages du résolveur</screeninfo>"
 
 #. Tag: phrase
 #: ekos-align.docbook:476
 #, no-c-format
 msgid "<phrase>Solver Settings</phrase>"
-msgstr ""
+msgstr "<phrase>Réglages du résolveur</phrase>"
 
 #. Tag: title
 #: ekos-align.docbook:483
 #, no-c-format
 msgid "Capture &amp; Solve"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:484
@@ -1095,14 +1095,14 @@ msgid ""
 "alignment before using Ekos alignment module. If you are using EQMod, you "
 "can start using Ekos alignment module right away. A typical workflow for "
 "GOTO alignment involves the following steps:"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:489
 #, no-c-format
 msgid ""
 "Set your mount to its home position (usually the NCP for equatorial mounts)."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:494
@@ -1110,20 +1110,20 @@ msgstr ""
 msgid ""
 "Select <guilabel>Slew to Target</guilabel> in the <guilabel>Solver Action</"
 "guilabel>."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:499
 #, no-c-format
 msgid "Slew to a nearby bright star."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:504
 #, no-c-format
 msgid ""
 "After slew is complete, click <guibutton>Capture &amp; Solve</guibutton>."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:509
@@ -1134,7 +1134,7 @@ msgid ""
 "with a bullseye diagram that shows the offset the reported telescope "
 "coordinates (&ie; where the telescope <emphasis>thinks</emphasis> it is "
 "looking at) vs. its actual position in the sky as determined by the solver."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:512
@@ -1142,7 +1142,7 @@ msgstr ""
 msgid ""
 "Each time the solver is executed and returns successful results, Ekos can "
 "run on the following actions:"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:517
@@ -1150,7 +1150,7 @@ msgstr ""
 msgid ""
 "<guilabel>Sync</guilabel>: Syncs the telescope coordinates to the solution "
 "coordinates."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:522
@@ -1158,7 +1158,7 @@ msgstr ""
 msgid ""
 "<guilabel>Slew to Target</guilabel>: Syncs the telescope coordinates to the "
 "solution coordinates and then slew to the target."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:527
@@ -1166,19 +1166,19 @@ msgstr ""
 msgid ""
 "<guilabel>Nothing</guilabel>: Just solve the image and display the solution "
 "coordinates."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: title
 #: ekos-align.docbook:535
 #, no-c-format
 msgid "<title>Polar Alignment</title>"
-msgstr ""
+msgstr "<title>Alignement polaire</title>"
 
 #. Tag: title
 #: ekos-align.docbook:537
 #, no-c-format
 msgid "<title>Polar Alignment Assistant</title>"
-msgstr ""
+msgstr "<title>Assistant d'alignement polaire</title>"
 
 #. Tag: para
 #: ekos-align.docbook:538
@@ -1191,13 +1191,13 @@ msgid ""
 "celestial sphere polar axis. A mount's job is to track the star's motion "
 "around the sky, from the moment they rise at the eastern horizon, all the "
 "way up across the median, and westward until they set."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: phrase
 #: ekos-align.docbook:548 ekos-align.docbook:590
 #, no-c-format
 msgid "<phrase>Polar Alignment Assistant</phrase>"
-msgstr ""
+msgstr "<phrase>Assistant d'alignement polaire</phrase>"
 
 #. Tag: para
 #: ekos-align.docbook:553
@@ -1215,19 +1215,19 @@ msgid ""
 "emphasis> idea we want to keep the source photons hitting the same pixels. "
 "Otherwise, we might end up with an image plagued with various trail "
 "artifacts."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: screeninfo
 #: ekos-align.docbook:557
 #, no-c-format
 msgid "<screeninfo>Polar Alignment</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Alignement polaire</screeninfo>"
 
 #. Tag: phrase
 #: ekos-align.docbook:565 ekos-align.docbook:622
 #, no-c-format
 msgid "<phrase>Polar Alignment</phrase>"
-msgstr ""
+msgstr "<phrase>Alignement polaire</phrase>"
 
 #. Tag: para
 #: ekos-align.docbook:569
@@ -1240,7 +1240,7 @@ msgid ""
 "tracking errors in the mount, but other sources of error still play a "
 "factor. If properly aligned, some mounts can track an object for a few "
 "minutes with the only deviation of 1-2 arcsec RMS."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:572
@@ -1254,7 +1254,7 @@ msgid ""
 "misalignment. It is therefore very important for long exposure imaging to "
 "get the mount polar aligned to reduce any residual errors as it spans across "
 "the sky."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:575
@@ -1263,7 +1263,7 @@ msgid ""
 "Before starting the process, point the mount as close as possible to the "
 "celestial pole. If you are living in the Northern Hemisphere, point it as "
 "close as possible to Polaris."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:578
@@ -1271,13 +1271,13 @@ msgstr ""
 msgid ""
 "The tool works by capturing and solving three images. After capturing each, "
 "the mount rotates by a fixed amount and another image is captured and solved."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: screeninfo
 #: ekos-align.docbook:582
 #, no-c-format
 msgid "<screeninfo>Polar Alignment Assistant</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Assistant d'alignement polaire</screeninfo>"
 
 #. Tag: para
 #: ekos-align.docbook:594
@@ -1290,7 +1290,7 @@ msgid ""
 "capture, unless you have checked <guilabel>Auto Mode</guilabel>. In "
 "Automated mode, the rest of the process will continue with the same settings "
 "and direction until a total of three images are captured."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:597
@@ -1307,19 +1307,19 @@ msgid ""
 "make corrections, expand the view by clicking on the Fullscreen button "
 "<inlinemediaobject><imageobject><imagedata fileref=\"view-fullscreen.png\" "
 "format=\"PNG\"/></imageobject></inlinemediaobject>."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: screeninfo
 #: ekos-align.docbook:601
 #, no-c-format
 msgid "<screeninfo>Polar Alignment Result</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Résultat de l'alignement polaire</screeninfo>"
 
 #. Tag: phrase
 #: ekos-align.docbook:609
 #, no-c-format
 msgid "<phrase>Polar Alignment Result</phrase>"
-msgstr ""
+msgstr "<phrase>Résultat d'alignement polaire</phrase>"
 
 #. Tag: para
 #: ekos-align.docbook:613
@@ -1332,13 +1332,13 @@ msgid ""
 "you can use applications like TeamViewer to achieve the same results. The "
 "following is a video demonstrating how to utilize the Polar Alignment "
 "Assistant tool."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: title
 #: ekos-align.docbook:628
 #, no-c-format
 msgid "Legacy Polar Alignment Workflow"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:629
@@ -1355,7 +1355,7 @@ msgid ""
 "azimuth knobs until the star is in the center of the Field of View. You can "
 "use the Focus Module's <link linkend=\"focus-focuser-group\">Framing "
 "feature</link> to take a look at the image as you make your adjustments."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:632
@@ -1369,7 +1369,7 @@ msgid ""
 "guibutton> button. As with Azimuth correction, Ekos will slew to a new "
 "location and asks you to adjust the mount's altitude knobs until the star is "
 "in the center of the FOV."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:635
@@ -1378,7 +1378,7 @@ msgid ""
 "After making a correction, it is recommended to measure the Azimuth and "
 "Altitude errors again and gauge the difference. You may need to perform the "
 "correction more than once to obtain optimal results."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:638
@@ -1388,7 +1388,7 @@ msgid ""
 "Workflow above for at least one point in the sky. Once your mount is "
 "aligned, proceed with the following (assuming you live in the northern "
 "hemisphere):"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:643
@@ -1398,7 +1398,7 @@ msgid ""
 "below) near the southern meridian (Azimuth 180). Make sure <guilabel>Slew to "
 "Target</guilabel> is selected. Capture and solve. The star should be exactly "
 "centered in your CCD field of view."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:648
@@ -1408,7 +1408,7 @@ msgid ""
 "<guibutton>Measure Az Error</guibutton>. It will ask you to slew to a star "
 "at the southern meridian which we already done. Click <guibutton>Continue</"
 "guibutton>. Ekos will now perform the error calculation."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:653
@@ -1424,7 +1424,7 @@ msgid ""
 "star might not be visible in the CCD field of view, and therefore you have "
 "to make <emphasis>blind</emphasis> adjustments (or simply look through the "
 "finderscope) until the star enters the CCD FOV."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:658
@@ -1432,7 +1432,7 @@ msgstr ""
 msgid ""
 "Begin your azimuth adjustments until the bright star you slewed to initially "
 "is as close to center as you can get it."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:663
@@ -1440,7 +1440,7 @@ msgstr ""
 msgid ""
 "<guibutton>Stop Framing</guibutton> in the <link linkend=\"focus-focuser-"
 "group\">Focus module</link>."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:668
@@ -1449,13 +1449,13 @@ msgid ""
 "Repeat the <guibutton>Measure Az Error</guibutton> to ensure we indeed "
 "corrected the error. You might have to run it more than once to ensure the "
 "results are valid."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:673
 #, no-c-format
 msgid "Switch mode to <guilabel>GOTO</guilabel>."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:678
@@ -1465,7 +1465,7 @@ msgid ""
 "eastern or western horizon, preferably above 20 degrees of altitude. It has "
 "to be as close as possible to the eastern (90 azimuth) or western (270) "
 "cardinal points."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:683
@@ -1473,13 +1473,13 @@ msgstr ""
 msgid ""
 "After slew is complete, capture and solve. The star should be dead center in "
 "the CCD FOV now."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:688
 #, no-c-format
 msgid "Switch mode to <guilabel>Polar Alignment</guilabel>."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:693
@@ -1489,7 +1489,7 @@ msgid ""
 "star at either the eastern (Azimuth 90) or western (Azimuth 270) horizon "
 "which we already done. Click <guibutton>Continue</guibutton>. Ekos will now "
 "perform the error calculation."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:698
@@ -1501,13 +1501,13 @@ msgid ""
 "to center the star in the field of view. Start framing as done before in the "
 "<link linkend=\"focus-focuser-group\">focus module</link> to help you with "
 "the centering."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:703
 #, no-c-format
 msgid "After centering is complete, stop framing."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:708
@@ -1516,13 +1516,13 @@ msgid ""
 "Repeat the <guibutton>Measure Alt Error</guibutton> to ensure we indeed "
 "corrected the error. You might have to run it more than once to ensure the "
 "results are valid."
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:713
 #, no-c-format
 msgid "Polar alignment is now complete!"
-msgstr ""
+msgstr "XXX"
 
 #. Tag: para
 #: ekos-align.docbook:718
@@ -1531,4 +1531,4 @@ msgid ""
 "The mount may slew to a dangerous position and you might risk hitting the "
 "tripod and/or other equipment. Carefully monitor the mount's motion. Use at "
 "your own risk."
-msgstr ""
+msgstr "XXX"

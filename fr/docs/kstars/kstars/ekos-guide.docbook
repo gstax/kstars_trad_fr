@@ -1,0 +1,307 @@
+<sect2 id="ekos-guide">
+    <title
+>Guidage</title>
+    <indexterm>
+        <primary
+>Outils</primary>
+        <secondary
+>Ekos</secondary>
+        <tertiary
+>Guidage</tertiary>
+    </indexterm>
+    <screenshot>
+        <screeninfo
+>Module de guidage Ekos </screeninfo>
+        <mediaobject>
+            <imageobject>
+                <imagedata fileref="ekos_guide.png" format="PNG"/>
+            </imageobject>
+            <textobject>
+                <phrase
+>Module de guidage Ekos</phrase>
+            </textobject>
+        </mediaobject>
+    </screenshot>
+    <sect3 id="guide-Introduction">
+        <title
+>Introduction</title>
+        <para
+>XXX </para>
+        <para
+>XXX </para>
+        <mediaobject>
+            <videoobject>
+                <videodata contentdepth="315" contentwidth="560" fileref="https://www.youtube.com/embed/aza2fGIF7YE"
+></videodata>
+            </videoobject>
+            <caption>
+                <para>
+                    <phrase
+>XXX</phrase>
+                </para>
+            </caption>
+        </mediaobject>
+        <para
+>XXX </para>
+        <itemizedlist>
+            <listitem>
+                <para
+>XXX </para>
+            </listitem>
+            <listitem>
+                <para
+>XXX </para>
+            </listitem>
+            <listitem>
+                <para
+>XXX </para>
+            </listitem>
+            <listitem>
+                <para
+>XXX </para>
+            </listitem>
+            <listitem>
+                <para
+>XXX </para>
+            </listitem>
+            <listitem>
+                <para
+>XXX </para>
+            </listitem>
+        </itemizedlist>
+    </sect3>
+
+    <sect3 id="guide-dark-frames">
+        <title
+>XXX</title>
+        <para
+>XXX </para>
+        <screenshot>
+            <screeninfo
+>Bibliothèque de trames sombres Ekos </screeninfo>
+            <mediaobject>
+                <imageobject>
+                    <imagedata fileref="dark_library.png" format="PNG"/>
+                </imageobject>
+                <textobject>
+                    <phrase
+>Bibliothèque de trames sombres Ekos</phrase>
+                </textobject>
+            </mediaobject>
+        </screenshot>
+        <para
+>XXX </para>
+    </sect3>
+
+    <sect3 id="guide-calibration">
+        <title
+>XXX</title>
+
+        <screenshot>
+            <screeninfo
+>Réglages de la calibration </screeninfo>
+            <mediaobject>
+                <imageobject>
+                    <imagedata fileref="guide_calibration_settings.png" format="PNG"/>
+                </imageobject>
+                <textobject>
+                    <phrase
+>Réglages de la calibration</phrase>
+                </textobject>
+            </mediaobject>
+        </screenshot>
+        <para
+>XXX </para>
+        <itemizedlist>
+            <listitem>
+                <para
+>XXX </para>
+            </listitem>
+            <listitem>
+                <para
+>XXX </para>
+            </listitem>
+            <listitem>
+                <para
+>XXX </para>
+            </listitem>
+        </itemizedlist>
+        <para
+>XXX </para>
+        <para
+>XXX </para>
+        <warning>
+            <para
+>XXX </para>
+        </warning>
+        <itemizedlist>
+            <listitem>
+                <para
+>XXX </para>
+            </listitem>
+            <listitem>
+                <para
+>XXX </para>
+            </listitem>
+            <listitem>
+                <para
+>XXX </para>
+            </listitem>
+            <listitem>
+                <para
+>XXX </para>
+            </listitem>
+            <listitem>
+                <para
+>XXX </para>
+            </listitem>
+            <listitem>
+                <para
+>XXX </para>
+            </listitem>
+            <listitem>
+                <para
+>XXX </para>
+            </listitem>
+            <listitem>
+                <para
+>XXX </para>
+            </listitem>
+        </itemizedlist>
+    </sect3>
+
+    <sect3 id="guide-guiding">
+        <title
+>XXX</title>
+
+        <screenshot>
+            <screeninfo
+>Réglages du guigage </screeninfo>
+            <mediaobject>
+                <imageobject>
+                    <imagedata fileref="guide_guide_settings.png" format="PNG"/>
+                </imageobject>
+                <textobject>
+                    <phrase
+>Réglages du guidage</phrase>
+                </textobject>
+            </mediaobject>
+        </screenshot>
+        <para
+>XXX </para>
+        <para
+>XXX </para>
+        <para
+>XXX </para>
+        <para
+>XXX </para>
+        <para
+>XXX </para>
+        <para
+>XXX </para>
+        <itemizedlist>
+            <listitem>
+                <para
+>XXX </para>
+            </listitem>
+            <listitem>
+                <para
+>XXX </para>
+            </listitem>
+            <listitem>
+                <para
+>XXX </para>
+            </listitem>
+        </itemizedlist>
+        <screenshot>
+            <screeninfo
+>Contrôle de direction du guidage </screeninfo>
+            <mediaobject>
+                <imageobject>
+                    <imagedata fileref="ekos_profile_guider_select.png" format="PNG"/>
+                </imageobject>
+                <textobject>
+                    <phrase
+>Contrôle de direction du guidage</phrase>
+                </textobject>
+            </mediaobject>
+        </screenshot>
+    </sect3>
+
+    <sect3 id="guide-direction-control">
+        <title
+>Contrôle de direction du guidage</title>
+        <para
+>XXX </para>
+    </sect3>
+
+    <sect3 id="guide-guiding-rate">
+        <title
+>XXX</title>
+        <para
+>XXX </para>
+    </sect3>
+
+    <sect3 id="guide-drift-graphics">
+        <title
+>Graphe de la dérive</title>
+
+        <screenshot>
+            <screeninfo
+>Graphe de la dérive </screeninfo>
+            <mediaobject>
+                <imageobject>
+                    <imagedata fileref="guide_drift_graphics.png" format="PNG"/>
+                </imageobject>
+                <textobject>
+                    <phrase
+>Graphe de la dérive</phrase>
+                </textobject>
+            </mediaobject>
+        </screenshot>
+        <para
+>XXX </para>
+        <para
+>XXX</para>
+        <para
+>XXX </para>
+        <para
+>XXX </para>
+    </sect3>
+
+    <sect3 id="guide-drift-plot">
+        <title
+>XXX</title>
+        <para
+>XXX </para>
+    </sect3>
+
+    <sect3 id="guide-phd2-support">
+        <title
+>XXX</title>
+        <para
+>XXX </para>
+        <screenshot>
+            <screeninfo
+>Réglages du guidage PHD2 Ekos </screeninfo>
+            <mediaobject>
+                <imageobject>
+                    <imagedata fileref="ekos_guide_phd2.png" format="PNG"/>
+                </imageobject>
+                <textobject>
+                    <phrase
+>Réglages du guidage PHD2 Ekos</phrase>
+                </textobject>
+            </mediaobject>
+        </screenshot>
+
+        <para
+>XXX </para>
+        <para
+>XXX </para>
+        <note>
+            <para
+>XXX </para>
+        </note>
+    </sect3>
+</sect2>

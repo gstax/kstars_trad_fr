@@ -1,0 +1,765 @@
+<sect2 id="ekos-align">
+    <title
+>Aligner</title>
+    <indexterm>
+        <primary
+>Outils</primary>
+        <secondary
+>Ekos</secondary>
+        <tertiary
+>Aligner</tertiary>
+    </indexterm>
+    <sect3 id="ekos-align-introduction">
+        <title
+>Introduction</title>
+        <screenshot>
+            <screeninfo
+>Module d'alignement d'Ekos </screeninfo>
+            <mediaobject>
+                <imageobject>
+                    <imagedata fileref="ekos_astrometry.png" format="PNG"/>
+                </imageobject>
+                <textobject>
+                    <phrase
+>Module d'alignement d'Ekos</phrase>
+                </textobject>
+            </mediaobject>
+        </screenshot>
+        <para
+>XXXLe module d'alignement d'Ekos permet des GOTO hautement précis avec une précision inférieure à la seconde d'arc et peut mesurer et corriger les erreurs d'alignement polaire. Cela est possible grâce au résolveur astrometry.net. Ekos commence par acquérir une image d'un champ d'étoile qui est ensuite donnée à <ulink url="https://astrometry.net"
+>astrometry.net</ulink
+> qui calculera ses coordonnées centrales (AD et DEC). Le résolveur réalise essentiellement une reconnaissance de motifs à l'aide d'un catalogue de million d'étoiles. Une fois que ces coordonnées sont déterminées, le vrai pointage du télescope est connu. </para>
+        <para
+>XXXIl y a souvent une différence entre l'endroit où le télescope croit pointer et où il pointe vraiment. L'importance de cette différence peut varier de quelques minutes d'arc à quelques degrés. Ekos peut ensuite corriger cette différence soit en synchronisant aux nouvelles coordonnées ou en pivotant vers la cible demandée à l'origine. </para>
+        <para
+>XXXDe plus Ekos fournit deux outils pour mesurer et corriger l'alignement polaire : </para>
+        <itemizedlist>
+            <listitem>
+                <para
+>XXX<guilabel
+>Outil d'assistance à l'alignement polaire</guilabel
+> : un outil très simple d'utilisation pour mesurer et corriger les erreurs polaires. Il prend trois images près du pôle céleste (proche de Polaris dans l'hémisphère nord) et calcule ensuite le décalage entre l'axe de la monture et l'axe polaire.  </para>
+            </listitem>
+            <listitem>
+                <para
+>XXX<guilabel
+>Ancien outil d'alignement polaire</guilabel
+> : si Polaris n'est pas visible, cet outil peut être utilisé pour mesurer et corriger les erreurs d'alignement polaire. Il prend quelques images près du méridien et quelques autres à l'est et à l'ouest du méridien. Cela permet à l'utilisateur d'ajuster la monture jusqu'à ce que le mauvais alignement soit minimisé. </para>
+            </listitem>
+        </itemizedlist>
+        <para
+>XXXVous avez besoin au minimum d'une caméra CCD ou d'une webcam et d'un télescope qui gère les commandes de pointage et de synchronisation. La plupart de télescopes trouvés dans le commerce aujourd'hui gère ces commandes. </para>
+        <para
+>XXXPour utiliser ce module, vous pouvez soit utiliser le résolveur astrometry.net <emphasis
+>en ligne</emphasis
+>, soit l'utiliser <emphasis
+>hors ligne</emphasis
+> ou encore <emphasis
+>à distance</emphasis
+> : </para>
+        <itemizedlist>
+            <listitem>
+                <para
+>XXX<guilabel
+>Résolveur en ligne</guilabel
+> : il ne nécessite aucune configuration, mais dépendant de votre bande passante, risque de prendre du temps pour téléverser les images et les résoudre. </para>
+            </listitem>
+            <listitem>
+                <para
+>XXX<guilabel
+>Résolveur hors ligne</guilabel
+> : il est rapide et ne nécessite aucune connexion internet. Pour l'utiliser, vous devez installer astrometry.net ainsi que les fichiers index nécessaires. </para>
+            </listitem>
+            <listitem>
+                <para
+>XXX<guilabel
+>Résolveur à distance</guilabel
+> : c'est un résolveur hors ligne qui est installé sur une autre machine (par exemple, vous pouvez le résolveur astrometry.net sur Stellarmate). Les images sont résolues sur cette autre machine. </para>
+            </listitem>
+        </itemizedlist>
+    </sect3>
+
+    <sect3 id="ekos-align-get-astrometry">
+        <title
+>Obtenir astrometry.net</title>
+
+        <para
+>XXXSi votre idée est d'utiliser astrometry <emphasis
+>hors ligne</emphasis
+>, alors il vous faudra télécharger l'application astrometry.net. </para>
+        <note>
+            <para
+>XXXAstrometry.net est déjà libré avec StellarMate, donc il n'est pas nécessaire de l'installer. Les fichiers d'index dès 16 minutes d'arc et au-dessus (4206 - 4019) sont inclus dans StellarMate. Tout fichier index additionnel nécessaire devra être installé séparément.  </para>
+        </note>
+        <screenshot>
+            <screeninfo
+>Astrométrie à distance Ekos </screeninfo>
+            <mediaobject>
+                <imageobject>
+                    <imagedata fileref="ekos_remote_astrometry.png" format="PNG"/>
+                </imageobject>
+                <textobject>
+                    <phrase
+>Astrométrie à distance Ekos</phrase>
+                </textobject>
+            </mediaobject>
+        </screenshot>
+        <variablelist>
+            <varlistentry>
+                <term
+>XXX</term>
+                <listitem>
+                    <para
+>XXX </para>
+                    <para
+>XXX </para>
+                    <screenshot>
+                        <screeninfo
+>Paramètres ANSVR </screeninfo>
+                        <mediaobject>
+                            <imageobject>
+                                <imagedata fileref="astrometry_windows_ansvr.png" format="PNG"/>
+                            </imageobject>
+                            <textobject>
+                                <phrase
+>Paramètres ANSRV</phrase>
+                            </textobject>
+                        </mediaobject>
+                    </screenshot>
+                    <para
+>XXX </para>
+                    <para
+>XXX </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term
+>XXX</term>
+                <listitem>
+                    <para
+>XXX </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term
+>XXX</term>
+                <listitem>
+                    <para
+>XXX </para>
+                    <para>
+                        <command
+>XXX</command>
+                    </para>
+                </listitem>
+            </varlistentry>
+        </variablelist>
+    </sect3>
+
+    <sect3 id="ekos-align-download-index-files">
+        <title
+>XXX</title>
+        <para
+>XXX </para>
+        <sect4 id="ekos-align-automatic-download">
+            <title
+>XXX</title>
+            <screenshot>
+                <screeninfo
+>Téléchargement des index astrometry.net </screeninfo>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="astrometry_indexes_settings.png" format="PNG"/>
+                    </imageobject>
+                    <textobject>
+                        <phrase
+>Téléchargement des index astrometry.net</phrase>
+                    </textobject>
+                </mediaobject>
+            </screenshot>
+            <para
+>XXX </para>
+            <para
+>XXX </para>
+            <itemizedlist>
+                <listitem>
+                    <para>
+                        <inlinemediaobject
+><imageobject
+><imagedata fileref="security-high.png" format="PNG"/></imageobject
+></inlinemediaobject
+> <guilabel
+>XXX</guilabel>
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        <inlinemediaobject
+><imageobject
+><imagedata fileref="security-medium.png" format="PNG"/></imageobject
+></inlinemediaobject
+> <guilabel
+>XXX</guilabel>
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        <inlinemediaobject
+><imageobject
+><imagedata fileref="security-low.png" format="PNG"/></imageobject
+></inlinemediaobject
+> <guilabel
+>XXX</guilabel>
+                    </para>
+                </listitem>
+            </itemizedlist>
+            <para
+>XXX </para>
+        </sect4>
+        <sect4 id="ekos-align-manual-download">
+                <title
+>XXX</title>
+                <para
+>XXX </para>
+                <table frame="all">
+                    <title
+>XXX</title>
+                    <tgroup cols='3' align='left' colsep='1' rowsep='1'>
+                        <thead>
+                            <row>
+                                <entry
+>XXX</entry>
+                                <entry
+>XXX</entry>
+                                <entry
+>XXX</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry
+>XXX</entry>
+                                <entry
+>XXX</entry>
+                                <entry morerows="11" valign="middle"
+><ulink url="http://data.astrometry.net/debian/astrometry-data-4208-4219_0.45_all.deb"
+>XXX</ulink
+></entry>
+                            </row>
+                            <row>
+                                <entry
+>XXX</entry>
+                                <entry
+>XXX</entry>
+                            </row>
+                            <row>
+                                <entry
+>XXX</entry>
+                                <entry
+>XXX</entry>
+                            </row>
+                            <row>
+                                <entry
+>XXX</entry>
+                                <entry
+>XXX</entry>
+                            </row>
+                            <row>
+                                <entry
+>XXX</entry>
+                                <entry
+>XXX</entry>
+                            </row>
+                            <row>
+                                <entry
+>XXX</entry>
+                                <entry
+>XXX</entry>
+                            </row>
+                            <row>
+                                <entry
+>XXX</entry>
+                                <entry
+>XXX</entry>
+                            </row>
+                            <row>
+                                <entry
+>XXX</entry>
+                                <entry
+>XXX</entry>
+                            </row>
+                            <row>
+                                <entry
+>XXX</entry>
+                                <entry
+>XXX</entry>
+                            </row>
+                            <row>
+                                <entry
+>XXX</entry>
+                                <entry
+>XXX</entry>
+                            </row>
+                            <row>
+                                <entry
+>XXX</entry>
+                                <entry
+>XXX</entry>
+                            </row>
+                            <row>
+                                <entry
+>XXX</entry>
+                                <entry
+>XXX</entry>
+                            </row>
+                            <row>
+                                <entry
+>XXX</entry>
+                                <entry
+>XXX</entry>
+                                <entry
+><ulink url="http://data.astrometry.net/debian/astrometry-data-4207_0.45_all.deb"
+>XXX</ulink
+></entry>
+                            </row>
+                            <row>
+                                <entry
+>XXX</entry>
+                                <entry
+>XXX</entry>
+                                <entry
+><ulink url="http://data.astrometry.net/debian/astrometry-data-4206_0.45_all.deb"
+>XXX</ulink
+></entry>
+                            </row>
+                            <row>
+                                <entry
+>XXX</entry>
+                                <entry
+>XXX</entry>
+                                <entry
+><ulink url="http://data.astrometry.net/debian/astrometry-data-4205_0.45_all.deb"
+>XXX</ulink
+></entry>
+                            </row>
+                            <row>
+                                <entry
+>XXX</entry>
+                                <entry
+>XXX</entry>
+                                <entry
+><ulink url="http://data.astrometry.net/debian/astrometry-data-4204_0.45_all.deb"
+>XXX</ulink
+></entry>
+                            </row>
+                            <row>
+                                <entry
+>XXX</entry>
+                                <entry
+>XXX</entry>
+                                <entry
+><ulink url="http://data.astrometry.net/debian/astrometry-data-4203_0.45_all.deb"
+>XXX</ulink
+></entry>
+                            </row>
+                            <row>
+                                <entry
+>XXX</entry>
+                                <entry
+>XXX</entry>
+                                <entry
+><ulink url="http://data.astrometry.net/debian/astrometry-data-4202_0.45_all.deb"
+>XXX</ulink
+></entry>
+                            </row>
+                            <row>
+                                <entry
+>XXX</entry>
+                                <entry
+>XXX</entry>
+                                <entry
+>XXX</entry>
+                            </row>
+                            <row>
+                                <entry
+>XXX</entry>
+                                <entry
+>XXX</entry>
+                                <entry
+>XXX</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+                <para
+>XXX </para>
+                <para>
+                    <command
+>XXX</command>
+                </para>
+                <para
+>XXX </para>
+                <note>
+                    <para
+>XXX </para>
+                </note>
+            </sect4>
+        </sect3>
+
+        <sect3 id="ekos-align-how-to-use">
+            <title
+>XXX</title>
+            <para
+>XXX </para>
+            <itemizedlist>
+                <listitem>
+                    <para
+>XXX </para>
+                </listitem>
+                <listitem>
+                    <para
+>XXX </para>
+                </listitem>
+                <listitem>
+                    <para
+>XXX </para>
+                </listitem>
+                <listitem>
+                    <para
+>XXX </para>
+                </listitem>
+            </itemizedlist>
+            <warning>
+                <para
+>XXX </para>
+            </warning>
+        </sect3>
+
+        <sect3 id="ekos-align-alignment-settings">
+            <title
+>XXX</title>
+            <screenshot>
+                <screeninfo
+>Réglages astrometry.net </screeninfo>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="astrometry_settings.png" format="PNG"/>
+                    </imageobject>
+                    <textobject>
+                        <phrase
+>Réglages astrometry.net</phrase>
+                    </textobject>
+                </mediaobject>
+            </screenshot>
+            <para
+>XXX </para>
+            <itemizedlist>
+                <listitem>
+                    <para
+>XXX </para>
+                </listitem>
+                <listitem>
+                    <para
+>XXX </para>
+                </listitem>
+                <listitem>
+                    <para
+>XXX </para>
+                </listitem>
+                <listitem>
+                    <para
+>XXX </para>
+                </listitem>
+                <listitem>
+                    <para
+>XXX </para>
+                </listitem>
+                <listitem>
+                    <para
+>XXX </para>
+                </listitem>
+                <listitem>
+                    <para
+>XXX </para>
+                </listitem>
+                <listitem>
+                    <para
+>XXX </para>
+                </listitem>
+            </itemizedlist>
+            <para
+>XXX </para>
+        </sect3>
+
+        <sect3 id="ekos-align-astrometry-net-settings">
+            <title
+>Options astrometry.net</title>
+            <para
+>XXX </para>
+            <screenshot>
+                <screeninfo
+>Options astrometry.net </screeninfo>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="astrometry_settings.png" format="PNG"/>
+                    </imageobject>
+                    <textobject>
+                        <phrase
+>Options astrometry.net</phrase>
+                    </textobject>
+                </mediaobject>
+            </screenshot>
+            <para
+>XXX </para>
+            <itemizedlist>
+                <listitem>
+                    <para
+>XXX </para>
+                </listitem>
+                <listitem>
+                    <para
+>XXX </para>
+                </listitem>
+                <listitem>
+                    <para
+>XXX </para>
+                </listitem>
+                <listitem>
+                    <para
+>XXX </para>
+                </listitem>
+            </itemizedlist>
+        </sect3>
+
+        <sect3 id="ekos-align-solver-options">
+            <title
+>XXX</title>
+            <para
+>XXX </para>
+            <screenshot>
+                <screeninfo
+>Réglages du résolveur </screeninfo>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="solver_settings.png" format="PNG"/>
+                    </imageobject>
+                    <textobject>
+                        <phrase
+>Réglages du résolveur</phrase>
+                    </textobject>
+                </mediaobject>
+            </screenshot>
+        </sect3>
+
+        <sect3 id="ekos-align-capture-and-solve">
+            <title
+>XXX</title>
+            <para
+>XXX </para>
+            <orderedlist>
+                <listitem>
+                    <para
+>XXX </para>
+                </listitem>
+                <listitem>
+                    <para
+>XXX </para>
+                </listitem>
+                <listitem>
+                    <para
+>XXX </para>
+                </listitem>
+                <listitem>
+                    <para
+>XXX </para>
+                </listitem>
+            </orderedlist>
+            <para
+>XXX </para>
+            <para
+>XXX </para>
+            <itemizedlist>
+                <listitem>
+                    <para
+>XXX </para>
+                </listitem>
+                <listitem>
+                    <para
+>XXX </para>
+                </listitem>
+                <listitem>
+                    <para
+>XXX </para>
+                </listitem>
+            </itemizedlist>
+        </sect3>
+
+        <sect3 id="ekos-align-polaralignment">
+            <title
+>Alignement polaire</title>
+            <sect4 id="ekos-align-plar-alignment-assistant">
+                <title
+>Assistant d'alignement polaire</title>
+                <para
+>XXX </para>
+
+                <mediaobject>
+                    <videoobject>
+                        <videodata contentdepth="595" contentwidth="800" fileref="https://www.stellarmate.com/images/videos/polar_align.webm"
+></videodata>
+                    </videoobject>
+                    <caption>
+                        <para>
+                            <phrase
+>Assistant d'alignement polaire</phrase>
+                        </para>
+                    </caption>
+                </mediaobject>
+
+                <para
+>XXX </para>
+                <screenshot>
+                    <screeninfo
+>Alignement polaire </screeninfo>
+                    <mediaobject>
+                        <imageobject>
+                            <imagedata fileref="alignment_polaris.png" format="PNG"/>
+                        </imageobject>
+                        <textobject>
+                            <phrase
+>Alignement polaire</phrase>
+                        </textobject>
+                    </mediaobject>
+                </screenshot>
+                <para
+>XXX </para>
+                <para
+>XXX </para>
+                <para
+>XXX </para>
+                <para
+>XXX </para>
+                <screenshot>
+                    <screeninfo
+>Assistant d'alignement polaire </screeninfo>
+                    <mediaobject>
+                        <imageobject>
+                            <imagedata fileref="polar_assistant_main.png" format="PNG"/>
+                        </imageobject>
+                        <textobject>
+                            <phrase
+>Assistant d'alignement polaire</phrase>
+                        </textobject>
+                    </mediaobject>
+                </screenshot>
+                <para
+>XXX </para>
+                <para
+>XXX </para>
+                <screenshot>
+                    <screeninfo
+>Résultat de l'alignement polaire </screeninfo>
+                    <mediaobject>
+                        <imageobject>
+                            <imagedata fileref="polar_alignment_result.png" format="PNG"/>
+                        </imageobject>
+                        <textobject>
+                            <phrase
+>Résultat d'alignement polaire</phrase>
+                        </textobject>
+                    </mediaobject>
+                </screenshot>
+                <para
+>XXX </para>
+                <mediaobject>
+                    <videoobject>
+                        <videodata contentdepth="315" contentwidth="560" fileref="https://www.youtube.com/embed/sx6Zz9lNd5Q"
+></videodata>
+                    </videoobject>
+                    <caption>
+                        <para>
+                            <phrase
+>Alignement polaire</phrase>
+                        </para>
+                    </caption>
+                </mediaobject>
+            </sect4>
+            <sect4 id="ekos-align-legacy-polar-alignment-workflow">
+                <title
+>XXX</title>
+                <para
+>XXX </para>
+                <para
+>XXX </para>
+                <para
+>XXX </para>
+                <para
+>XXX </para>
+                <orderedlist>
+                    <listitem>
+                        <para
+>XXX </para>
+                    </listitem>
+                    <listitem>
+                        <para
+>XXX </para>
+                    </listitem>
+                    <listitem>
+                        <para
+>XXX </para>
+                    </listitem>
+                    <listitem>
+                        <para
+>XXX </para>
+                    </listitem>
+                    <listitem>
+                        <para
+>XXX </para>
+                    </listitem>
+                    <listitem>
+                        <para
+>XXX </para>
+                    </listitem>
+                    <listitem>
+                        <para
+>XXX </para>
+                    </listitem>
+                    <listitem>
+                        <para
+>XXX </para>
+                    </listitem>
+                    <listitem>
+                        <para
+>XXX </para>
+                    </listitem>
+                    <listitem>
+                        <para
+>XXX </para>
+                    </listitem>
+                    <listitem>
+                        <para
+>XXX </para>
+                    </listitem>
+                    <listitem>
+                        <para
+>XXX </para>
+                    </listitem>
+                    <listitem>
+                        <para
+>XXX </para>
+                    </listitem>
+                    <listitem>
+                        <para
+>XXX </para>
+                    </listitem>
+                    <listitem>
+                        <para
+>XXX</para>
+                    </listitem>
+                </orderedlist>
+                <warning>
+                    <para
+>XXX </para>
+                </warning>
+            </sect4>
+        </sect3>
+    </sect2>
