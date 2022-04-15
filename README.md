@@ -38,3 +38,4 @@ Reformater le fichier po :
 * Focusor -> Focuseur (mieux à trouver)
 * Plate solver -> Résolveur
 * Autofocus -> Mise au point automatique
+* focuser -> moteur de mise au point
