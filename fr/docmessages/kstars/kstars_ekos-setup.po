@@ -1,7 +1,7 @@
 #
 # steve <stax@ik.me>, 2022.
 msgid ""
-msgstr "XXX"
+msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-22 00:30+0000\n"
@@ -67,7 +67,20 @@ msgid ""
 "keycombo>). In addition to the Ekos window, &kstars; provides a more "
 "detailed INDI Control Panel where you can directly set and control the "
 "device parameters."
-msgstr "XXX"
+msgstr ""
+"<emphasis role=\"bold\">Ekos</emphasis> fait partie de <ulink url=\"https://"
+"edu.kde.org/kstars\">&kstars;</ulink>. &kstars;/Ekos font déjà partie de "
+"votre appareil StellarMate et sont également disponibles pour <ulink url="
+"\"https://www.stellarmate.com/component/jdownloads/category/2-ekos.html?"
+"Itemid=507\">&Linux;, &MacOS; et &Windows;</ulink> si vous souhaitez les "
+"installer sur votre machine principale. Après avoir lancé &kstars; sur votre "
+"PC ou sur StellarMate (soit directement via HDMI ou via <link linkend=\"ekos-"
+"tutorial-viewer\">VNC</link>), Ekos peut être trouvé dans le menu "
+"<guimenu>Outils</guimenu> ou via l'icône <guiicon>Ekos</guiicon> de la barre "
+"d'outils principale ou encore avec le raccourci clavier (<keycombo>&Ctrl; "
+"<keycap>K</keycap></keycombo>). En plus de la fenêtre Ekos, &kstars; fournit "
+"un panneau de contrôle plus détaillé où vous pouvez directement régler et "
+"contrôler les paramètres des périphériques INDI."
 
 #. Tag: para
 #: ekos-setup.docbook:24
@@ -75,7 +88,10 @@ msgstr "XXX"
 msgid ""
 "When running Ekos, it is <emphasis>not</emphasis> necessary to start INDI "
 "Server via StellarMate Web Manager as Ekos manages that transparently."
-msgstr "XXX"
+msgstr ""
+"Quand vous exécutez Ekos, il n'est <emphasis>pas</emphasis> nécessaire de "
+"démarrer le serveur INDI via le gestionnaire Web de StellarMate car Ekos "
+"gère cela de manière transparente."
 
 #. Tag: screeninfo
 #: ekos-setup.docbook:28
