@@ -11,7 +11,7 @@
     </indexterm>
     <sect3 id="focus-theory">
         <title
->XXX</title>
+>Théorie de la procédure</title>
 
         <screenshot>
             <screeninfo
@@ -28,24 +28,42 @@
         </screenshot>
 
         <para
->XXX </para>
+>Afin de faire la mise au point d'une image, Ekos a besoin d'établir une méthode numérique pour juger la <emphasis
+>valeur</emphasis
+> de votre mise au point. Il est très facile pour un humain d'estimer si une image n'est pas <emphasis
+>nette</emphasis
+>, mais <emphasis
+>comment</emphasis
+> est-ce qu'Ekos peut le savoir ? </para>
         <para
->XXX </para>
+>Il existe plusieurs méthodes. L'une d'entre elles est de calculer la largeur complète à la moitié de la hauteur (FWHM ou Full Width at Half Maximum) du profil d'une étoile de l'image et ensuite ajuster la mise au point jusqu'à minimiser cette valeur. Le problème avec cette méthode c'est qu'elle suppose que la position de mise au point initiale est proche de la mise au point optimale. De plus, elle ne se comporte pas très bien pour des flux très faibles. Une méthode alternative est le HFR (Half-Flux-Radius) qui mesure la largeur en pixels en comptant du centre de l'étoile jusqu'à ce que la valeur accumulée de l'intensité vaut la moitié du flux total de l'étoile. Cette méthode est bien plus stable dans des conditions de ciel défavorables et quand le profil de luminosité des étoiles est faibles ou encore quand la position de départ de la mise au point est éloignée de la position optimale. </para>
         <para
->XXX </para>
+>Après qu'Ekos ait traité une image, il sélectionne l'étoile la plus brillante et commence à mesurer son HFR. Il peut sélectionner une étoile automatiquement ou vous pouvez lui indiquer quelle étoile utiliser. Il est en général recommandé de sélectionner des étoiles pas trop brillantes car elles risqueraient d'être saturées durant la procédure de mise au point. Une magnitude d'étoile de 3 ou 4 est souvent suffisant. </para>
         <para
->XXX </para>
+>Ekos comment ensuite la procédure de mise en point en indiquant au focuser de faire la mise au point vers l'intérieur et vers l'extérieur et de mesurer à nouveau le HFR. Ce processus itératif produit une courbe en V dont le centre correspond à la position de mise au point optimale et dont la pente dépend des propriétés du télescope et de la caméra. Dans Ekos, une courbe en V complète n'est jamais construite puisque la procédure de mise au point fonctionne de manière itérative et que la plupart du temps, une demi courbe en V est mesurée, comme illustrée dans l'image du module de mise au point. </para>
         <para
->XXX </para>
+>La valeur variant linéairement avec la distance de mise au point, il est possible de calculer la valeur optimale de la position de mise au point. Dans la pratique, Ekos fonctionne de manière itérative en déplaçant le focuseur par pas discrets dont la valeur a été décidée initialement par l'utilisateur et ensuite par la valeur de la pente de la courbe en V, afin de s'approcher de plus en plus de la position optimale et enfin en réduisant le nombre de pas lorsque la solution optimale est proche. Avec l'algorithme <guilabel
+>Itératif</guilabel
+> par défaut, la procédure s'arrête quand la valeur HFR mesurée se trouve dans une plage de tolérance prédéfinie. En d'autres termes, quand la procédure commence à chercher une solution dans cette plage de tolérance, elle vérifie si la valeur courante du HFR est % de différence comparée à la valeur HFR minimale mesurée et si c'est le cas, la procédure est réputée réussie. La valeur par défaut est 1% et est suffisante dans la plupart des situations. L'option <guilabel
+>Pas</guilabel
+> spécifie le nombre <guilabel
+>initial</guilabel
+> de pas pour le mouvement du focuseur. Si l'image est très loin de la mise au point optimale, on règle la taille des pas à une grande valeur (&ie; &gt; 250). Sinon, on peut réduire cette valeur (&lt; 50). Il faut procéder par tâtonnement pour trouver la meilleure valeur de départ, mais Ekos ne l'utilise que pour le premier mouvement de mise au point, les mouvements des suivantes dépendant des calculs de la pente de la courbe en V. </para>
         <para
->XXX </para>
+>Quand l'algorithme <guilabel
+>Polynomial</guilabel
+> est utilisé, la procédure débute en mode <guilabel
+>Itératif</guilabel
+> mais une fois que l'on franchit l'autre côté de la courbe en V (&ie; quand les valeurs HFR recommencent d'augmenter après avoir diminuer pour un moment), Ekos commence un calcul d'interpolation polynomial afin de trouver une solution qui prédit la position HFR minimale. Si une solution valide est trouvée, la procédure de mise au point est réputée réussie. </para>
         <para
->XXX </para>
+>Bien que le module de mise au point d'Ekos gère les focuseurs à position relative, il est <emphasis role="bold"
+>hautement recommandé</emphasis
+> d'utiliser des focuseurs à position absolue. </para>
     </sect3>
 
     <sect3 id="focus-focuser-group">
         <title
->XXX</title>
+>Groupe de focuseur</title>
 
         <screenshot>
             <screeninfo
@@ -62,54 +80,84 @@
         </screenshot>
 
         <para
->XXX </para>
+>Tout focuseur compatible INDI est géré. Il est recommandé d'utiliser des focuseurs à position <emphasis role="bold"
+>absolue</emphasis
+> puisque leur position absolue est connue à l'allumage. Dans INDI, la position <emphasis
+>zéro</emphasis
+> du focuseur correspond à un tube <emphasis role="bold"
+>complètement rentré</emphasis
+>. Quand la mise au point se fait vers l'extérieur, la position du focuseur augmente et inversement. Les types suivants de focuseurs sont gérés : </para>
         <itemizedlist>
             <listitem>
                 <para
->XXX </para>
+><emphasis role="bold"
+>Position absolue</emphasis
+> : focuseurs à position absolue tels que RoboFocus, Moonlite, &etc; </para>
             </listitem>
             <listitem>
                 <para
->XXX </para>
+><emphasis role="bold"
+>Position relative</emphasis
+> : focuserus à position relative. </para>
             </listitem>
             <listitem>
                 <para
->XXX </para>
+><emphasis role="bold"
+>Simple</emphasis
+> : focuseurs DC/PWM avec aucun retour de position. </para>
             </listitem>
         </itemizedlist>
         <para
->XXX </para>
+>Pour les focuseurs à position absolue, vous pouvez régler le comptage des pas. Pour avoir une visualisation en continu de la caméra, cliquez sur le bouton <guibutton
+>En boucle</guibutton
+>. Une image sera prise régulièrement selon les réglages du groupe <guilabel
+>CCD et roue à filtres</guilabel
+>. Vous pouvez mettre au point en avant ou en arrière en utilisant les boutons respectifs et chacun fera bouger d'un certain nombre de pas en fonction de ce qui a été configuré dans les réglages de la mise au point. Pour les focuseurs à position relative et absolue, la taille du pas est mesurée en <emphasis
+>coche</emphasis
+> et pour les focuseurs DC simple, il est mesuré en <emphasis
+>millisecondes</emphasis
+>.  </para>
         <para
->XXX </para>
+>Pour débuter la procédure de mise au point automatique, cliquez simplement sur le bouton <guibutton
+>Démarrer</guibutton
+>. </para>
     </sect3>
 
     <sect3 id="focus-ccd-filter-wheel">
         <title
->XXX</title>
+>CCD &amp; roue à filtres</title>
 
         <screenshot>
             <screeninfo
->Mise au point CCD &amp; groupe de roue à filtres </screeninfo>
+>Mise au point CCD &amp; roue à filtres </screeninfo>
             <mediaobject>
                 <imageobject>
                     <imagedata fileref="focus_ccdfw_group.png" format="PNG"/>
                 </imageobject>
                 <textobject>
                     <phrase
->Mise au point CCD &amp; et groupe de roue à filtres</phrase>
+>Mise au point CCD &amp; roue à filtres</phrase>
                 </textobject>
             </mediaobject>
         </screenshot>
 
         <para
->XXX </para>
+>Vous devez spécifier le CCD et la roue à filtre (si vous en avez une) à utiliser pour la procédure de mise au point automatique. Vous pouvez <emphasis role="bold"
+>verrouiller</emphasis
+> un filtre spécifique de la roue à filtre chaque fois que la procédure de mise au point automatique est invoquée. Généralement, l'utilisateur devrait choisir le filtre Clair/Luminance pour cet usage pour qu'Ekos puisse toujours utiliser le même filtre pour cette procédure. Ce filtre verrouillé est également utilisé pour le module <link linkend="ekos-align"
+>Alignement</link
+> pour les acquisitions d'astrométrie. </para>
         <para
->XXX </para>
+>Vous pouvez aussi choisir un filtre <guilabel
+>Effets</guilabel
+> pour améliorer l'image pour les aperçus. Il est grandement conseillé d'éteindre tout effet durant la procédure de mise au point automatique puisqu'il risque d'interférer avec les calculs de HFR. Pour les APN, vous pouvez modifier les réglages d'ISO. Vous pouvez réinitialiser les sous-trames de mise au point à des acquisitions plein format en cliquant sur le bouton <guibutton
+>Réinitialiser</guibutton
+>. </para>
     </sect3>
 
     <sect3 id="focus-settings">
         <title
->XXX</title>
+>Réglages</title>
 
         <screenshot>
             <screeninfo
@@ -126,39 +174,57 @@
         </screenshot>
 
         <para
->XXX </para>
+>Il peut être nécessaire d'ajuster les réglages de mise au point pour réaliser une procédure de mise au point automatique réussie et fiable. Les réglages sont conservés entre les sessions. </para>
         <itemizedlist>
             <listitem>
                 <para
->XXX</para>
+><emphasis role="bold"
+>Sélection automatique d'étoile</emphasis
+> : sélectionner automatiquement la meilleure étoile de mise au point de l'image.</para>
             </listitem>
             <listitem>
                 <para
->XXX</para>
+><emphasis role="bold"
+>Sous-trame</emphasis
+> : sous-trame autour de l'étoile à mettre au point durant la procédure de mise au point automatique. L'activation de cette option peut accélérer de manière significative la procédure.</para>
             </listitem>
             <listitem>
                 <para
->XXX</para>
+><emphasis role="bold"
+>Image Dark</emphasis
+> : cochez cette option pour l'acquisition d'image Dark si nécessaire et réaliser une soustraction de cette image Dark.</para>
             </listitem>
             <listitem>
                 <para
->XXX</para>
+><emphasis role="bold"
+>Suspendre le guidage</emphasis
+> : suspendre le guidage pendant que la mise au point automatique est en cours. Si la procédure de mise au point peut perturber l'étoile guide (&ie; lors de l'utilisation du port guide intégré IGP où le guide est physiquement attaché au CCD primaire), alors il est recommandé d'activer cette option. Elle n'est cependant pas nécessaire pour les guides hors axe (OAG).</para>
             </listitem>
             <listitem>
                 <para
->XXX</para>
+><emphasis role="bold"
+>Taille de la boîte</emphasis
+> : règle la taille de la boîte qui délimite l'étoile de mise au point. Augmentez si vous avez de très grosses étoiles, Pour la mise au point avec un masque de Bathinov, vous pouvez encore plus l'augmenter pour inclure les motifs de diffraction.</para>
             </listitem>
             <listitem>
                 <para
->XXX</para>
+><emphasis role="bold"
+>Déplacement maximum</emphasis
+> : déplacement maximum en cran avant que la procédure de mise au point automatique ne s'arrête.</para>
             </listitem>
             <listitem>
                 <para
->XXX</para>
+><emphasis role="bold"
+>Pas</emphasis
+> : taille <emphasis
+>initiale</emphasis
+> de pas en cran pour causer un changement notable de la valeur HFR. Pour les focuseurs simple basé sur le temps, cela correspond au temps en millisecondes pour déplacer le focuseur vers l'avant ou vers l'arrière.</para>
             </listitem>
             <listitem>
                 <para
->XXX </para>
+><emphasis role="bold"
+>Tolérance</emphasis
+> : </para>
                 <warning>
                     <para
 >XXX </para>

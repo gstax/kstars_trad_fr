@@ -16,7 +16,7 @@
     <itemizedlist>
         <listitem>
             <para
->Mise en place et module Analyse </para>
+>Module Configuration </para>
         </listitem>
 
         <listitem>
@@ -68,7 +68,7 @@
     <variablelist>
         <varlistentry>
             <term
->Module Analyse et mise en place</term>
+>Module Configuration</term>
             <listitem>
                 <para
 >Ainsi que suggéré par son nom, c'est ici que allez créer et gérer le profil de votre matériel et vous connecter aux périphériques. Il fournit aussi une vue résumant la procédure d'acquisition, de mise au point et de guidage dans un format compact afin de transmettre les informations plus importantes à l'utilisateur.  </para>
@@ -100,7 +100,7 @@
         </varlistentry>
         <varlistentry>
             <term
->Module de guidage</term>
+>Module Guidage</term>
             <listitem>
                 <para
 >Pour réaliser de l'imagerie longues poses, il est nécessaire d'utiliser du guidage pour s'assurer que l'image est verrouillée et stabilisée pour toute la durée de l'exposition. Les déviations avec le temps débouchent sur des images floues et des traînées d'étoile. Le module de guidage permet de sélectionner automatiquement une étoile guide et de verrouiller la monture pour garder cette étoile toujours à la même position. Si le module détecte une déviation de cette position verrouillée, il envoie des impulsions de correction à la monture pour la ramener à sa position initiale. </para>
@@ -108,7 +108,7 @@
         </varlistentry>
         <varlistentry>
             <term
->Module de monture</term>
+>Module Monture</term>
             <listitem>
                 <para
 >La monture peut être contrôlée soit de manière interactive dans la carte du ciel soit avec le panneau de contrôle de la monture dans le module Monture. Configurez les propriétés du télescope (longueur de la focale &amp; ouverture) pour le télescope imageur et le télescope faisant office de guide. Il est cependant recommandé de configurer les télescopes dans le profil de votre matériel plutôt que de modifier les valeurs directement dans le module Monture. </para>
