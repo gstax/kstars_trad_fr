@@ -224,41 +224,59 @@
                 <para
 ><emphasis role="bold"
 >Tolérance</emphasis
-> : </para>
+> : le pourcentage de tolérance est le critère d'arrêt de la procédure de mise au point automatique pour l'algorithme <guilabel
+>Itératif</guilabel
+>. Durant cette procédure, les valeurs HFR sont enregistrées et une fois que le focuseur est proche de la position optimale, il compare les HFR aux valeurs de HFR minimales et s'arrête dès qu'une valeur HFR est dans cette plage de tolérance. Diminuez cette valeur pour restreindre le rayon de la solution et inversement. </para>
                 <warning>
                     <para
->XXX </para>
+>Veuillez noter que si cette valeur est trop faible, il est possible que l'algorithme entre dans une boucle qui fera échouer la procédure de mise au point automatique. </para>
                 </warning>
             </listitem>
             <listitem>
                 <para
->XXX</para>
+><emphasis role="bold"
+>Seuil</emphasis
+> : la valeur en pourcentage du seuil est utilisée pour détecter les étoiles pour l'algorithme de détection <emphasis
+>Seuil</emphasis
+>. Augmenter cette valeur pour restreindre le centroïde au cœurs brillants. Diminuez-là pour inclure les étoiles floues.</para>
             </listitem>
             <listitem>
                 <para
->XXX <itemizedlist>
+><emphasis role="bold"
+>Algorithme</emphasis
+> : choisissez l'algorithme pour la procédure de mise au point automatique : <itemizedlist>
                         <listitem>
                             <para
->XXX</para>
+><emphasis role="bold"
+>Itératif</emphasis
+> : déplace le focuseur par pas discret de taille initiale fixée. Une fois que la pente de la courbe est calculée, les tailles de pas suivants sont calculés pour atteindre une solution optimale. L'algorithme s'arrête dès que la valeur HFR mesurée se trouve dans la plage de tolérance définie. </para>
                         </listitem>
                         <listitem>
                             <para
->XXX</para>
+><emphasis role="bold"
+>Polynomial</emphasis
+> : débute avec la méthode itérative. Quand la position passe de l'autre côté de la courbe en V, une interpolation polynomiale est calculée pour déterminer la position de la solution minimale. Cet algorithme peut être plus rapide que la méthode itérative avec un bon ensemble de données.</para>
                         </listitem>
                     </itemizedlist>
                 </para>
             </listitem>
             <listitem>
                 <para
->XXX</para>
+><emphasis role="bold"
+>Trames</emphasis
+> : nombre moyen de trames à acquérir. Un HFR est enregistré pour chaque acquisition. Si une valeur instantanée de HFR n'est pas fiable, vous pouvez faire la moyenne sur ce nombre de trames pour augmenter le rapport signal sur bruit.</para>
             </listitem>
             <listitem>
                 <para
->XXX</para>
+><emphasis role="bold"
+>Détection</emphasis
+> : choix de l'algorithme de détection d'étoile. Chaque algorithme a ses forces et ses faiblesses. Il est recommandé de garder les valeurs par défaut sauf s'il échoue à détecter correctement les étoiles.</para>
                     <itemizedlist>
                         <listitem>
                             <para
->XXX</para>
+><emphasis role="bold"
+>Bathinov</emphasis
+> : cette méthode détection peut être utilisée quand un masque de Bathinov est utilisé pour la mise au point. Prenez d'abord une image, puis sélectionner l'étoile sur laquelle faire la mise au point. Une nouvelle image sera prise et le motif de diffraction sera analysé. Trois lignes seront affichées sur le motif de diffraction montrant la qualité de la détection et de la mise au point. Quand le motif n'est pas bien détecté, le paramètre « nombre de lignes » peut être ajusté pour améliorer la détection. La ligne avec les cercles aux deux bouts est un indicateur grossi pour la mise au point. Plus cette ligne est courte et meilleure sera la mise au point.</para>
                         </listitem>
                     </itemizedlist>
             </listitem>
@@ -267,7 +285,7 @@
 
     <sect3 id="focus-v-curve">
         <title
->XXX</title>
+>Courbe en V</title>
 
         <screenshot>
             <screeninfo
@@ -284,14 +302,14 @@
         </screenshot>
 
         <para
->XXX </para>
+>Le graphique de la courbe en V affiche le HFR selon la position absolue. Le centre de cette courbe représente la position optimale de la mise au point. Une fois qu'Ekos passe de l'autre côté de la courbe, il recule pour trouver la position optimale. La position finale de la mise au point dépend de l'algorithme choisi. </para>
         <para
->XXX </para>
+>Lors d'acquisition en boucle, l'axe horizontal représente le numéro de la trame. Cela pour vous aider dans ce processus puisque vous pouvez voir comment le HFR change au cours du processus. </para>
     </sect3>
 
     <sect3 id="focus-relative-profile">
         <title
->XXX</title>
+>Profil relatif</title>
 
         <screenshot>
             <screeninfo
@@ -308,6 +326,6 @@
         </screenshot>
 
         <para
->XXX </para>
+>Le profil relatif est un graphique qui représente les valeurs HFR affichées les unes contre les autres. Les valeurs basses de HFR correspondent à des formes plus étroites et inversement. La courbe en rouge plein représente le profil de la valeur HFR courante, alors que la courbe en vert pointillé représente la valeur précédente. Enfin, la courbe en magenta montre la première valeur HFR mesurée et est affichée quand la procédure de mise au point automatique est terminée. Ce graphique vous permet de juger de la qualité de la mise au point relative. </para>
     </sect3>
 </sect2>
