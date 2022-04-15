@@ -1,7 +1,7 @@
 #
 # steve <stax@ik.me>, 2022.
 msgid ""
-msgstr "XXX"
+msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-22 00:30+0000\n"
@@ -51,7 +51,11 @@ msgid ""
 "StellarMate is shipped with a VNC Server. This enables you to access the "
 "whole StellarMate desktop remotely. To connect to VNC, you can either use a "
 "Desktop/Mobile VNC Client, or simply via any browser."
-msgstr "XXX"
+msgstr ""
+"StellaMate est distribué avec un serveur VNC. Cela vous permet d'accéder à "
+"distance au bureau StellarMate. La connexion à VNC se fait soit via un "
+"client VNC depuis votre bureau ou votre mobile soit simplement via un "
+"navigateur."
 
 #. Tag: para
 #: ekos-tutorials.docbook:13
@@ -59,7 +63,9 @@ msgstr "XXX"
 msgid ""
 "The VNC address is: <userinput>https://<replaceable>stellarmate_hostname</"
 "replaceable>:6080/vnc.html</userinput>"
-msgstr "XXX"
+msgstr ""
+"L'adresse VNC est : <userinput>https://<replaceable>stellarmate_hostname</"
+"replaceable>:6080/vnc.html</userinput>."
 
 #. Tag: para
 #: ekos-tutorials.docbook:16
@@ -68,7 +74,11 @@ msgid ""
 "Where <replaceable>stellarmate_hostname</replaceable> is the actual hostname "
 "(or IP address) of your unit and 6080 is the port. If you do not know the "
 "unit hostname, you can find the hostname in your StellarMate App."
-msgstr "XXX"
+msgstr ""
+"Où <replaceable>stellarmate_hostname</replaceable> est le nom d'hôte (ou "
+"l'adresse IP) de votre appareil et 6080 le numéro du port. Si vous ne "
+"connaissez pas le nom d'hôte de votre appareil, vous pouvez le trouvez dans "
+"l'application StellarMate."
 
 #. Tag: para
 #: ekos-tutorials.docbook:19
@@ -76,7 +86,10 @@ msgstr "XXX"
 msgid ""
 "You can use <ulink url=\"https://www.realvnc.com/download/viewer/\">Real "
 "VNC</ulink> which is available on all platforms to access stellarmate."
-msgstr "XXX"
+msgstr ""
+"Vous pouvez utiliser l'application <ulink url=\"https://www.realvnc.com/"
+"download/viewer/\">Real VNC</ulink> qui est disponible pour toutes les "
+"plateformes pour accéder à StellarMate."
 
 #. Tag: para
 #: ekos-tutorials.docbook:22
@@ -85,4 +98,8 @@ msgid ""
 "Once you access StellarMate, you can use it like any full-fledged computer. "
 "The default username is <userinput>stellarmate</userinput> and the default "
 "password is <userinput>smate</userinput>."
-msgstr "XXX"
+msgstr ""
+"Une fois que vous êtes sur StellarMate, vous pouvez l'utiliser comme "
+"n'importe quel véritable ordinateur. L'identifiant par défaut est "
+"<userinput>stellarmate</userinput> et le mot de passe par défaut est "
+"<userinput>smate</userinput>."
