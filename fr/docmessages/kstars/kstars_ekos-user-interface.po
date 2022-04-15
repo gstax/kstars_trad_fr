@@ -1,7 +1,7 @@
-#
+# Traduction de kstars_ekos-user-interface.po en français
 # steve <stax@ik.me>, 2022.
 msgid ""
-msgstr "XXX"
+msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-03-28 16:23+0000\n"
@@ -46,13 +46,18 @@ msgid ""
 "emphasis>. A module is a set of functions and tasks for a particular step in "
 "astrophotography and/or data acquisition. Currently, the following modules "
 "are included with Ekos:"
-msgstr "XXX"
+msgstr ""
+"L'outil d'astrophotographie Ekos est organisé en plusieurs "
+"<emphasis>Modules</emphasis>. Un module est un ensemble de fonctions et de "
+"tâches pour une étape particulière en astrophotographie et/ou dans "
+"l'acquisition de données. Actuellement les modules suivants sont inclus dans "
+"Ekos :"
 
 #. Tag: para
 #: ekos-user-interface.docbook:13
 #, no-c-format
 msgid "Setup &amp; Summary Module"
-msgstr "XXX"
+msgstr "Module Configuration"
 
 #. Tag: para
 #: ekos-user-interface.docbook:19
@@ -96,7 +101,9 @@ msgstr "<para>Module Monture</para>"
 msgid ""
 "Each module has its own tab and icon in the graphical user interface as "
 "illustrated in the screenshot below:"
-msgstr "XXX"
+msgstr ""
+"Chaque module possède son propre onglet et icône dans l'interface graphique "
+"utilisateur comme illustré dans la capture d'écran ci-dessous :"
 
 #. Tag: screeninfo
 #: ekos-user-interface.docbook:57
@@ -114,7 +121,7 @@ msgstr "<phrase>Aide-mémoire du résumé Ekos</phrase>"
 #: ekos-user-interface.docbook:71
 #, no-c-format
 msgid "Summary &amp; Setup Module"
-msgstr "XXX"
+msgstr "Module Configuration"
 
 #. Tag: para
 #: ekos-user-interface.docbook:73
@@ -125,7 +132,12 @@ msgid ""
 "view where the capture progress along with the focus &amp; guide operations "
 "is displayed in a compact format to convey the most important information "
 "relevant to the user."
-msgstr "XXX"
+msgstr ""
+"Ainsi que suggéré par son nom, c'est ici que allez créer et gérer le profil "
+"de votre matériel et vous connecter aux périphériques. Il fournit aussi une "
+"vue résumant la procédure d'acquisition, de mise au point et de guidage dans "
+"un format compact afin de transmettre les informations plus importantes à "
+"l'utilisateur. "
 
 #. Tag: term
 #: ekos-user-interface.docbook:79
@@ -144,7 +156,14 @@ msgid ""
 "the scheduler intelligently calculates the best observation time for each "
 "object and then proceed to control the complete observatory from startup to "
 "shutdown."
-msgstr "XXX"
+msgstr ""
+"Après la prise en main d'Ekos, les utilisateurs sont encouragés d'utiliser "
+"le module Ordonnanceur puisqu'il facilite grandement tout le processus "
+"d'observation. Il vous permet de choisir plusieurs cibles, de spécifier les "
+"conditions à respecter et les trames nécessaire à l'acquisition. Cela fait, "
+"l'ordonnanceur calcule le meilleur horaire d'observation pour chaque objet "
+"et ensuite engage le contrôle total de la session d'observation, du début "
+"jusqu'à la fin."
 
 #. Tag: term
 #: ekos-user-interface.docbook:87
@@ -160,7 +179,12 @@ msgid ""
 "imaging sequences, capture previews, and watch video streams. It supports "
 "rotator control and can automatically capture flat frames in a number of "
 "scenarios."
-msgstr "XXX"
+msgstr ""
+"Ceci est le module principale pour le contrôle de la caméra et de la roue à "
+"filtre. Il permet de créer des séquences d'images, d'afficher des aperçus "
+"des acquisitions et de visionner des vidéos. Il gère le contrôle du rotateur "
+"et peut automatiquement procéder à l'acquisition de « flats » pour de "
+"multiples scénarios."
 
 #. Tag: term
 #: ekos-user-interface.docbook:95
@@ -177,13 +201,19 @@ msgid ""
 "the focus module with or without a focuser. With an electronic focuser, you "
 "can run an autofocus operation where Ekos iterates and calculates the "
 "optical focus position."
-msgstr "XXX"
+msgstr ""
+"Mesurez la netteté de vos images avec le module de mise au point en "
+"calculant le HFR (Half-Flux-Radius). Plus cette valeur est basse et "
+"meilleure sera la netteté. Vous pouvez exécuter le module de mise au point "
+"avec ou sans un focuser. Avec un focuser électronique, vous pouvez exécuter "
+"la procédure de mise au point automatique et Ekos procédera par itérations "
+"en calculant la position de mise au point optique."
 
 #. Tag: term
 #: ekos-user-interface.docbook:103
 #, no-c-format
 msgid "<term>Guide Module</term>"
-msgstr "<term>Module de guidage</term>"
+msgstr "<term>Module Guidage</term>"
 
 #. Tag: para
 #: ekos-user-interface.docbook:105
@@ -197,13 +227,21 @@ msgid ""
 "If the guide module detects any deviation from this locked position, it "
 "sends correction pulses to the mount to bring it back to the original "
 "position."
-msgstr "XXX"
+msgstr ""
+"Pour réaliser de l'imagerie longues poses, il est nécessaire d'utiliser du "
+"guidage pour s'assurer que l'image est verrouillée et stabilisée pour toute "
+"la durée de l'exposition. Les déviations avec le temps débouchent sur des "
+"images floues et des traînées d'étoile. Le module de guidage permet de "
+"sélectionner automatiquement une étoile guide et de verrouiller la monture "
+"pour garder cette étoile toujours à la même position. Si le module détecte "
+"une déviation de cette position verrouillée, il envoie des impulsions de "
+"correction à la monture pour la ramener à sa position initiale."
 
 #. Tag: term
 #: ekos-user-interface.docbook:111
 #, no-c-format
 msgid "<term>Mount Module</term>"
-msgstr "<term>Module de monture</term>"
+msgstr "<term>Module Monture</term>"
 
 #. Tag: para
 #: ekos-user-interface.docbook:113
@@ -214,4 +252,11 @@ msgid ""
 "(focal length &amp; aperture) for both your primary imaging telescope and "
 "guide scope. However, it is recommended to select the telescopes in the "
 "equipment profile and not change the values directly in the mount module."
-msgstr "XXX"
+msgstr ""
+"La monture peut être contrôlée soit de manière interactive dans la carte du "
+"ciel soit avec le panneau de contrôle de la monture dans le module Monture. "
+"Configurez les propriétés du télescope (longueur de la focale &amp; "
+"ouverture) pour le télescope imageur et le télescope faisant office de "
+"guide. Il est cependant recommandé de configurer les télescopes dans le "
+"profil de votre matériel plutôt que de modifier les valeurs directement dans "
+"le module Monture."
