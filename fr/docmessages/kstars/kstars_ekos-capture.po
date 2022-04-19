@@ -662,8 +662,8 @@ msgstr ""
 "réinitialiser l'état de toutes les tâches, cliquez simplement sur le bouton "
 "de réinitialisation <inlinemediaobject><imageobject><imagedata fileref="
 "\"view-refresh.png\" format=\"PNG\"/></imageobject></inlinemediaobject>. "
-"Veuillez noter que cela réinitialise également le compteur de progression "
-"de toutes les images. Pour afficher un aperçu d'une image dans l'afficheur FITS "
+"Veuillez noter que cela réinitialise également le compteur de progression de "
+"toutes les images. Pour afficher un aperçu d'une image dans l'afficheur FITS "
 "de &kstars;, cliquez sur le bouton <guibutton>Aperçu</guibutton>."
 
 #. Tag: para
@@ -933,10 +933,11 @@ msgid ""
 "applicable when using <guilabel>Preview</guilabel>, you cannot use it in "
 "batch mode sequence queue."
 msgstr ""
-"<guilabel>Dark automatique</guilabel> : vous pouvez soustraire automatiquement un Dark d'une "
-"image en cochant cette option. Veuillez noter que cette "
-"option n'est disponible que lors de l'utilisation de l'<guilabel>aperçu</"
-"guilabel>. Il n'est pas possible de l'utiliser en mode traitements par lots."
+"<guilabel>Dark automatique</guilabel> : vous pouvez soustraire "
+"automatiquement un Dark d'une image en cochant cette option. Veuillez noter "
+"que cette option n'est disponible que lors de l'utilisation de "
+"l'<guilabel>aperçu</guilabel>. Il n'est pas possible de l'utiliser en mode "
+"traitements par lots."
 
 #. Tag: para
 #: ekos-capture.docbook:418
