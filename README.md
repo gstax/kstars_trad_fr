@@ -22,6 +22,41 @@ Reformater le fichier po :
 
 <code>msgcat kstars.po > kstars_cat.po</code>
 
+## Traduction de la documentation
+
+### Création des docbook
+
+<code>cd /home/steve/sources/l10n-scripty></code>
+<code>./update_xml ../trad_kstars/fr kstars</code>
+
+Si tout se passe bien les *.docbook seront créés dans le répertoire suivant.
+Sinon, il faut corriger les erreurs dans les *.po. sans quoi le fichier
+index.docbook ne sera pas créé.
+
+
+### Génération des fichers html
+
+<code> cd /home/steve/sources/trad_kstars/fr/docs/kstars/kstars</code>
+<code>meinproc5 --check index.docbook</code>
+
+Là aussi, il faut corriger les erreurs en partant du haut mes messages d'erreurs.
+
+### Génération du pdf
+
+Il faut exécuter le script <code>buildpdf.sh</code> dans ce même répertoire.
+
+<code>./buildpdf.sh index.docbook</code>
+
+Cela créera le fichier kstars.pdf.
+
+#### Remarques
+
+* \usepackage[latin1]{inputenc} plutôt que \usepackage[utf8]{inputenc}, ce qui
+  pose problème pour certains symboles comme les points de suspension …
+  (&hellip;) qui ne sont pas affichés dans le pdf.
+* \def\DBKlocale{en}. Le nom des tables, sections etc… sont en anglais. 
+* pas de Babel ?
+
 
 ## Bonnes pratiques
 
