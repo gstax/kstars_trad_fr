@@ -26,8 +26,8 @@ Reformater le fichier po :
 
 ### Création des docbook
 
-<code>cd /home/steve/sources/l10n-scripty></code>
-<code>./update_xml ../trad_kstars/fr kstars</code>
+<code>cd /home/steve/sources/l10n-scripty></code> <br/>
+<code>./update_xml ../trad_kstars/fr kstars</code><br/>
 
 Si tout se passe bien les *.docbook seront créés dans le répertoire suivant.
 Sinon, il faut corriger les erreurs dans les *.po. sans quoi le fichier
@@ -36,8 +36,8 @@ index.docbook ne sera pas créé.
 
 ### Génération des fichers html
 
-<code> cd /home/steve/sources/trad_kstars/fr/docs/kstars/kstars</code>
-<code>meinproc5 --check index.docbook</code>
+<code> cd /home/steve/sources/trad_kstars/fr/docs/kstars/kstars</code><br/>
+<code>meinproc5 --check index.docbook</code><br/>
 
 Là aussi, il faut corriger les erreurs en partant du haut mes messages d'erreurs.
 
@@ -45,7 +45,7 @@ Là aussi, il faut corriger les erreurs en partant du haut mes messages d'erreur
 
 Il faut exécuter le script <code>buildpdf.sh</code> dans ce même répertoire.
 
-<code>./buildpdf.sh index.docbook</code>
+<code>./buildpdf.sh index.docbook</code><br/>
 
 Cela créera le fichier kstars.pdf.
 
