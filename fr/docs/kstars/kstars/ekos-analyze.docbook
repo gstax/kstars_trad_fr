@@ -28,7 +28,7 @@
         <para
 >Le module Analyse enregistre et affiche ce qui s'est passé durant une session d'acquisition. C'est à dire qu'il ne contrôle pas la session mais plutôt analyse ce qui s'y est passé. Les sessions sont enregistrées dans le répertoire <filename class="directory"
 >analyze</filename
-> qui se trouve dans le même répertoire que le répertoire contenant le fichiers journaux. Les fichiers <literal role="extension"
+> qui se trouve dans le même répertoire que le répertoire contenant les fichiers journaux. Les fichiers <literal role="extension"
 >.analyze</literal
 > enregistrés peuvent être chargés dans l'onglet <guilabel
 >Analyse</guilabel
@@ -47,12 +47,12 @@
 > montre le temps de l'horloge. Un zoom avant ou arrière est possible sur cet axe avec le bouton <guibutton
 >+/-</guibutton
 > ou la <mousebutton
->roulette</mousebutton
+>molette</mousebutton
 > de la souris ou encore le raccourci clavier standard (&eg; zoom avant == <keycombo
 >&Ctrl;<keycap
 >+</keycap
 ></keycombo
->). L'axe temporel peut être déplacer avec la barre de défilement ou avec les touches flèches du clavier. Vous pouvez visualiser votre session courante ou revoir d'anciennes sessions en ouvrant les fichiers <literal role="extension"
+>). L'axe temporel peut être déplacé avec la barre de défilement ou avec les touches flèches du clavier. Vous pouvez visualiser votre session courante ou revoir d'anciennes sessions en ouvrant les fichiers <literal role="extension"
 >.analyze</literal
 > avec la liste déroulante <guilabel
 >Entrée</guilabel
@@ -86,7 +86,7 @@
         <title
 >Statistiques</title>
         <para
->Toute une série de statistiques peuvent être affichées sur le graphique <guilabel
+>Toute une série de statistiques peut être affichée sur le graphique <guilabel
 >Statistiques</guilabel
 >. Elles sont trop nombreuses pour être toutes affichées de manière lisible, donc il vaut mieux en choisir un nombre réduit. Un bon choix est de commencer avec <guilabel
 >rms</guilabel
@@ -95,7 +95,7 @@
 > (en utilisant le guidage interne avec le SEP mutlistars) et <guilabel
 >hfr</guilabel
 > (si vous avez sélectionné l'option de calcul automatique du HFR dans les options FITS). Vous pouvez tester les autres également. L'axe affiché (0-5) n'est approprié que pour les erreurs ad/dec, la dérive, le rms, les pulsations et le hfr. Vous pouvez redéfinir l'échelle de l'axe y (bizarrement) en utilisant la <guibutton
->roulette</guibutton
-> de la souris mais il n'est pas possible de modifier l'échelle pour les autres graphiques. Pour réinitialiser le niveau de zoom de l'axe y, il faut faire un clic droit sur le graphiques des statistiques. En cliquant sur le graphique, les valeurs des statistiques affichées seront insérées. Le niveau de zoom de ce graphique et sa position sont coordonnés avec la ligne chronologique. </para>
+>molette</guibutton
+> de la souris mais il n'est pas possible de modifier l'échelle pour les autres graphiques. Pour réinitialiser le niveau de zoom de l'axe y, il faut faire un clic droit sur le graphique des statistiques. En cliquant sur le graphique, les valeurs des statistiques affichées seront insérées. Le niveau de zoom de ce graphique et sa position sont coordonnés avec la ligne chronologique. </para>
     </sect3>
 </sect2>

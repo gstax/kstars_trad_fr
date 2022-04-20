@@ -36,11 +36,11 @@
 >comment</emphasis
 > est-ce qu'Ekos peut le savoir ? </para>
         <para
->Il existe plusieurs méthodes. L'une d'entre elles est de calculer la largeur complète à la moitié de la hauteur (FWHM ou Full Width at Half Maximum) du profil d'une étoile de l'image et ensuite ajuster la mise au point jusqu'à minimiser cette valeur. Le problème avec cette méthode c'est qu'elle suppose que la position de mise au point initiale est proche de la mise au point optimale. De plus, elle ne se comporte pas très bien pour des flux très faibles. Une méthode alternative est le HFR (Half-Flux-Radius) qui mesure la largeur en pixels en comptant du centre de l'étoile jusqu'à ce que la valeur accumulée de l'intensité vaut la moitié du flux total de l'étoile. Cette méthode est bien plus stable dans des conditions de ciel défavorables et quand le profil de luminosité des étoiles est faibles ou encore quand la position de départ de la mise au point est éloignée de la position optimale. </para>
+>Il existe plusieurs méthodes. L'une d'entre elles est de calculer la largeur complète à la moitié de la hauteur (FWHM ou Full Width at Half Maximum) du profil d'une étoile de l'image et ensuite ajuster la mise au point jusqu'à minimiser cette valeur. Le problème avec cette méthode est qu'elle suppose que la position de mise au point initiale est proche de la mise au point optimale. De plus, elle ne se comporte pas très bien pour des flux très faibles. Une méthode alternative est le HFR (Half-Flux-Radius) qui mesure la largeur en pixels en comptant du centre de l'étoile jusqu'à ce que la valeur accumulée de l'intensité vaut la moitié du flux total de l'étoile. Cette méthode est bien plus stable dans des conditions de ciel défavorables et quand le profil de luminosité des étoiles est faible ou encore quand la position de départ de la mise au point est éloignée de la position optimale. </para>
         <para
->Après qu'Ekos ait traité une image, il sélectionne l'étoile la plus brillante et commence à mesurer son HFR. Il peut sélectionner une étoile automatiquement ou vous pouvez lui indiquer quelle étoile utiliser. Il est en général recommandé de sélectionner des étoiles pas trop brillantes car elles risqueraient d'être saturées durant la procédure de mise au point. Une magnitude d'étoile de 3 ou 4 est souvent suffisant. </para>
+>Après qu'Ekos ait traité une image, il sélectionne l'étoile la plus brillante et commence à mesurer son HFR. Il peut sélectionner une étoile automatiquement ou vous pouvez lui indiquer quelle étoile utiliser. Il est en général recommandé de sélectionner des étoiles pas trop brillantes car elles risqueraient d'être saturées durant la procédure de mise au point. Une magnitude d'étoile de 3 ou 4 est souvent suffisante. </para>
         <para
->Ekos comment ensuite la procédure de mise en point en indiquant au focuser de faire la mise au point vers l'intérieur et vers l'extérieur et de mesurer à nouveau le HFR. Ce processus itératif produit une courbe en V dont le centre correspond à la position de mise au point optimale et dont la pente dépend des propriétés du télescope et de la caméra. Dans Ekos, une courbe en V complète n'est jamais construite puisque la procédure de mise au point fonctionne de manière itérative et que la plupart du temps, une demi courbe en V est mesurée, comme illustrée dans l'image du module de mise au point. </para>
+>Ekos comment ensuite la procédure de mise en point en indiquant au focuseur de faire la mise au point vers l'intérieur et vers l'extérieur et de mesurer à nouveau le HFR. Ce processus itératif produit une courbe en V dont le centre correspond à la position de mise au point optimale et dont la pente dépend des propriétés du télescope et de la caméra. Dans Ekos, une courbe en V complète n'est jamais construite puisque la procédure de mise au point fonctionne de manière itérative et que la plupart du temps, une demi courbe en V est mesurée, comme illustrée dans l'image du module de mise au point. </para>
         <para
 >La valeur variant linéairement avec la distance de mise au point, il est possible de calculer la valeur optimale de la position de mise au point. Dans la pratique, Ekos fonctionne de manière itérative en déplaçant le focuseur par pas discrets dont la valeur a été décidée initialement par l'utilisateur et ensuite par la valeur de la pente de la courbe en V, afin de s'approcher de plus en plus de la position optimale et enfin en réduisant le nombre de pas lorsque la solution optimale est proche. Avec l'algorithme <guilabel
 >Itératif</guilabel
@@ -98,7 +98,7 @@
                 <para
 ><emphasis role="bold"
 >Position relative</emphasis
-> : focuserus à position relative. </para>
+> : focuseur à position relative. </para>
             </listitem>
             <listitem>
                 <para
@@ -238,7 +238,7 @@
 >Seuil</emphasis
 > : la valeur en pourcentage du seuil est utilisée pour détecter les étoiles pour l'algorithme de détection <emphasis
 >Seuil</emphasis
->. Augmenter cette valeur pour restreindre le centroïde au cœurs brillants. Diminuez-là pour inclure les étoiles floues.</para>
+>. Augmentez cette valeur pour restreindre le centroïde au cœurs brillants. Diminuez-là pour inclure les étoiles floues.</para>
             </listitem>
             <listitem>
                 <para
@@ -276,7 +276,7 @@
                             <para
 ><emphasis role="bold"
 >Bathinov</emphasis
-> : cette méthode détection peut être utilisée quand un masque de Bathinov est utilisé pour la mise au point. Prenez d'abord une image, puis sélectionner l'étoile sur laquelle faire la mise au point. Une nouvelle image sera prise et le motif de diffraction sera analysé. Trois lignes seront affichées sur le motif de diffraction montrant la qualité de la détection et de la mise au point. Quand le motif n'est pas bien détecté, le paramètre « nombre de lignes » peut être ajusté pour améliorer la détection. La ligne avec les cercles aux deux bouts est un indicateur grossi pour la mise au point. Plus cette ligne est courte et meilleure sera la mise au point.</para>
+> : cette méthode de détection peut être utilisée quand un masque de Bathinov est utilisé pour la mise au point. Prenez d'abord une image, puis sélectionnez l'étoile sur laquelle faire la mise au point. Une nouvelle image sera prise et le motif de diffraction sera analysé. Trois lignes seront affichées sur le motif de diffraction montrant la qualité de la détection et de la mise au point. Quand le motif n'est pas bien détecté, le paramètre « nombre de lignes » peut être ajusté pour améliorer la détection. La ligne avec les cercles aux deux bouts est un indicateur grossi pour la mise au point. Plus cette ligne est courte et meilleure sera la mise au point.</para>
                         </listitem>
                     </itemizedlist>
             </listitem>
