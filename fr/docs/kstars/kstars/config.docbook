@@ -318,7 +318,7 @@
 <para
 >Pour une explication détaillée des options sur <guilabel
 >FITS</guilabel
->veuillez vous reporter à la section <link linkend="fits-configure"
+>, veuillez vous reporter à la section <link linkend="fits-configure"
 >Configurer FITS</link
 >. </para>
 
@@ -326,7 +326,7 @@
 <para
 >Pour une explication détaillée des options sur <guilabel
 >INDI</guilabel
->veuillez vous reporter à la section <link linkend="indi-configure"
+>, veuillez vous reporter à la section <link linkend="indi-configure"
 >Configurer INDI</link
 >. </para>
 
@@ -334,7 +334,7 @@
 <para
 >Pour une explication détaillée des options sur <guilabel
 >Ekos</guilabel
->veuillez vous reporter à la section <link linkend="tool-ekos"
+>, veuillez vous reporter à la section <link linkend="tool-ekos"
 >Section Ekos de ce manuel</link
 >. </para>
 
@@ -362,7 +362,7 @@
 ></indexterm
 >L'onglet <guilabel
 >Avancé</guilabel
-> fournit un contrôle fin des comportements les plus obscurs de &kstars;. </para>
+> fournit un contrôle fin des comportements les plus subtils de &kstars;. </para>
 </sect1>
 
 <sect1 id="catalogs">
@@ -409,7 +409,7 @@
 >Le catalogue NGC inclut environ 7 840 objets du ciel profond. </para>
 
 <para
->Le catalogue IC complète le catalogue NGC avec quelques 5 386 objets suplémenatires. </para>
+>Le catalogue IC complète le catalogue NGC avec quelques 5 386 objets supplémentaires. </para>
 
 <para
 >Vous pouvez installer de nouveau catalogues avec l'<quote
@@ -429,7 +429,7 @@
 
 <listitem
 ><para
->Le catalogue des nébuleuses planétaire d'Abell qui contient 86 nébuleuses planétaire. La magnitude maximale est représentée oar la valeur 47 de 19,5 d'Abell ( ? ? ? ?) </para
+>Le catalogue des nébuleuses planétaire d'Abell qui contient 86 nébuleuses planétaire. La magnitude maximale est atteinte par le 47e objet dont la valeur est 19,5. </para
 ></listitem>
 
 <listitem
@@ -776,8 +776,7 @@
 <listitem>
   <para
 >Importer un catalogue au format <literal role="extension"
->.kscat
-></literal
+>.kscat</literal
 > depuis un fichier.</para>
   <para
 >Cela est généralement utilisé pour essayer des nouvelles versions de catalogues qui ne sont pas encore sur les serveurs de téléchargement.</para>
@@ -1029,7 +1028,7 @@
 ></term>
     <listitem>
       <para
->Ajouter un objet au catalogue. (Voir <xref linkend="add_object"/> </para>
+>Ajouter un objet au catalogue. (Voir <xref linkend="add_object"/>) </para>
     </listitem>
   </varlistentry>
 
@@ -1628,7 +1627,7 @@
 <para
 >Pour une explication détaillée des options sur <guilabel
 >INDI</guilabel
->veuillez vous reporter à la section <link linkend="indi-configure"
+>, veuillez vous reporter à la section <link linkend="indi-configure"
 >Configurer INDI</link
 >. </para>
 </sect1>
@@ -1706,7 +1705,7 @@
 ></indexterm
 >L'onglet <guilabel
 >Avancé</guilabel
-> fournit un contrôle fin des comportements les plus obscurs de &kstars;. </para
+> fournit un contrôle fin des comportements les plus subtils de &kstars;. </para
 ><para>
 <indexterm
 ><primary
