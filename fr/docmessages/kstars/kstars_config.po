@@ -605,8 +605,8 @@ msgid ""
 "For detailed explanation of the options on the <guilabel>FITS</guilabel> "
 "page see the <link linkend=\"fits-configure\">Configure FITS</link> section."
 msgstr ""
-"Pour une explication détaillée des options sur <guilabel>FITS</"
-"guilabel>, veuillez vous reporter à la section <link linkend=\"fits-configure"
+"Pour une explication détaillée des options sur <guilabel>FITS</guilabel>, "
+"veuillez vous reporter à la section <link linkend=\"fits-configure"
 "\">Configurer FITS</link>."
 
 #. Tag: para
@@ -616,8 +616,8 @@ msgid ""
 "For detailed explanation of the options on the <guilabel>INDI</guilabel> "
 "page see the <link linkend=\"indi-configure\">Configure INDI</link> section."
 msgstr ""
-"Pour une explication détaillée des options sur <guilabel>INDI</"
-"guilabel>, veuillez vous reporter à la section <link linkend=\"indi-configure"
+"Pour une explication détaillée des options sur <guilabel>INDI</guilabel>, "
+"veuillez vous reporter à la section <link linkend=\"indi-configure"
 "\">Configurer INDI</link>."
 
 #. Tag: para
@@ -632,9 +632,9 @@ msgid ""
 "suite, see the <link linkend=\"tool-ekos\">Ekos section of this manual</"
 "link>."
 msgstr ""
-"Pour une explication détaillée des options sur <guilabel>Ekos</"
-"guilabel>, veuillez vous reporter à la section <link linkend=\"tool-ekos"
-"\">Section Ekos de ce manuel</link>."
+"Pour une explication détaillée des options sur <guilabel>Ekos</guilabel>, "
+"veuillez vous reporter à la section <link linkend=\"tool-ekos\">Section Ekos "
+"de ce manuel</link>."
 
 #. Tag: secondary
 #: config.docbook:235
@@ -777,7 +777,8 @@ msgid ""
 "maximum magnitude is represented by Abell 47's value of 19.5."
 msgstr ""
 "Le catalogue des nébuleuses planétaire d'Abell qui contient 86 nébuleuses "
-"planétaire. La magnitude maximale est atteinte par le 47e objet dont la valeur est 19,5."
+"planétaire. La magnitude maximale est atteinte par le 47e objet dont la "
+"valeur est 19,5."
 
 #. Tag: para
 #: config.docbook:304
@@ -1375,8 +1376,8 @@ msgid ""
 "Import a catalog in the <literal role=\"extension\">.kscat</literal> format "
 "from a file."
 msgstr ""
-"Importer un catalogue au format <literal role=\"extension\">.kscat</"
-"literal> depuis un fichier."
+"Importer un catalogue au format <literal role=\"extension\">.kscat</literal> "
+"depuis un fichier."
 
 #. Tag: para
 #: config.docbook:587
@@ -2746,13 +2747,13 @@ msgid ""
 "link>."
 msgstr ""
 "Ekos est une suite d'astrophotographie complète qui permet de contrôle tout "
-"périphérique INDI tels que des montures, des CCD, des APN, des focuseurs, "
-"des roues à filtres et bien plus encore. Ekos gère le suivi de haute "
-"précision en utilisant des résolveurs en ligne et hors ligne, la mise au "
-"point automatique et l'autoguidage ainsi que l'acquisition d'images unique "
-"ou multiple en utilisant le puissant gestionnaire de séquences. Pour des "
-"explications détaillées d'<guilabel>Ekos</guilabel>, veuillez lire la <link "
-"linkend=\"tool-ekos\">section Ekos de ce manuel</link>."
+"périphérique INDI tels que des montures, des CCD, des APN, des moteurs de "
+"mise au point, des roues à filtres et bien plus encore. Ekos gère le suivi "
+"de haute précision en utilisant des résolveurs en ligne et hors ligne, la "
+"mise au point automatique et l'autoguidage ainsi que l'acquisition d'images "
+"unique ou multiple en utilisant le puissant gestionnaire de séquences. Pour "
+"des explications détaillées d'<guilabel>Ekos</guilabel>, veuillez lire la "
+"<link linkend=\"tool-ekos\">section Ekos de ce manuel</link>."
 
 #. Tag: title
 #: config.docbook:1268
