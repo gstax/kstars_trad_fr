@@ -1943,7 +1943,7 @@ msgstr "Statut"
 #: indi/indicap.cpp:223 indi/indidome.cpp:526 indi/inditelescope.cpp:1363
 #, kde-format, kde-kuit-format
 msgid "Idle"
-msgstr "à l'arrêt"
+msgstr "À l'arrêt"
 
 #: data/qml/whatisinteresting/wiview.qml:34 kstarsinit.cpp:433
 #, kde-format, kde-kuit-format
@@ -10731,13 +10731,13 @@ msgstr "Bibliothèque de darks"
 #: ekos/auxiliary/darklibrary.ui:49 ekos/scheduler/mosaic.ui:301
 #, kde-format
 msgid "Camera:"
-msgstr "Caméra:"
+msgstr "Caméra "
 
 #. i18n: ectx: property (text), widget (QLabel, label_27)
 #: ekos/auxiliary/darklibrary.ui:56
 #, kde-format
 msgid "Prefer:"
-msgstr "Préférer.:"
+msgstr "Préférer "
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, preferDarksRadio)
 #: ekos/auxiliary/darklibrary.ui:83
@@ -11122,7 +11122,7 @@ msgstr ""
 #: ekos/auxiliary/darklibrary.ui:1054
 #, kde-format
 msgid "Dark validity:"
-msgstr "Validité du dark:"
+msgstr "Validité du dark "
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, openDarksFolderB)
 #: ekos/auxiliary/darklibrary.ui:1090
@@ -11169,7 +11169,7 @@ msgstr "Filtre"
 #: ekos/auxiliary/filtermanager.cpp:153
 #, kde-format
 msgid "Filter exposure time during focus"
-msgstr "Temps d'exposition du filtre durant le focus"
+msgstr "Temps d'exposition du filtre durant la mise au point"
 
 #: ekos/auxiliary/filtermanager.cpp:154
 #: ekos/capture/capturecountswidget.cpp:131
@@ -11202,7 +11202,8 @@ msgstr "Démarrer"
 #: ekos/auxiliary/filtermanager.cpp:162
 #, kde-format
 msgid "Lock specific filter when running Auto Focus"
-msgstr "Verrouillez le filtre durant l'exécution de l'auto focus."
+msgstr ""
+"Verrouillez le filtre durant l'exécution de la mise au point automatique."
 
 #: ekos/auxiliary/filtermanager.cpp:163
 #, kde-format
@@ -11215,13 +11216,13 @@ msgid ""
 "Flat frames are captured at this focus position. It is updated automatically "
 "by focus process if enabled."
 msgstr ""
-"Les flats sont capturées à cette position de focus. Elle est ajustée "
+"Les flats sont acquis à cette position de mise au point. Elle est ajustée "
 "automatiquement par le processus de focalisation, si activé."
 
 #: ekos/auxiliary/filtermanager.cpp:168
 #, kde-format
 msgid "Flat Focus Position"
-msgstr "Focus Flat"
+msgstr "Position de mise au point du flat"
 
 #: ekos/auxiliary/filtermanager.cpp:519
 #, kde-format
@@ -11274,16 +11275,16 @@ msgid ""
 "for light frames in each filter. Before a flat frame is captured, the "
 "focuser is moved to the same focus point as light frames.</p></body></html>"
 msgstr ""
-"<html><head/><body><p> Si une roue à filtre est utilisée ainsi qu'un "
-"focuseur à position absolue, alors il faut mémoriser la position de mise au "
-"point pour chaque filtre. Avant de capturer un flat, le focuseur doit être "
+"<html><head/><body><p> Si une roue à filtre est utilisée ainsi qu'un moteur "
+"de mise au point à position absolue, il faut mémoriser la position de mise "
+"au point pour chaque filtre. Avant l'acquisition d'un flat, il doit être "
 "déplacé à la même position que pour les brutes.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FlatSyncFocus)
 #: ekos/auxiliary/filtersettings.ui:98
 #, kde-format
 msgid "Capture flat frames at the same focus as light frames"
-msgstr "Capturer les flat avec le même focus que les brutes."
+msgstr "Acquisition des flats avec la même mise au point que les brutes"
 
 #: ekos/auxiliary/opslogs.cpp:55
 #, kde-format
@@ -11573,7 +11574,7 @@ msgstr "Enregistrer l'activité du module de mise au point d'Ekos"
 #: ekos/auxiliary/opslogs.ui:387 ekos/focus/focus.ui:51
 #, kde-format
 msgid "Focuser"
-msgstr "Focuseur"
+msgstr "Moteur de mise au point"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_INDIRotatorLogging)
 #: ekos/auxiliary/opslogs.ui:397
@@ -11967,7 +11968,7 @@ msgstr "Fermer"
 #: ekos/auxiliary/stellarsolverprofile.cpp:22
 #, kde-format
 msgid "Default focus star-extraction."
-msgstr "Extraction d'étoiles par défaut par focus."
+msgstr "Extraction d'étoiles par défaut par mise au point."
 
 #: ekos/auxiliary/stellarsolverprofile.cpp:38
 #: ekos/auxiliary/stellarsolverprofile.cpp:106
@@ -12064,7 +12065,7 @@ msgstr "Profils d'alignement"
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:76
 #, kde-format
 msgid "Focus SEP Profiles"
-msgstr "Profils de focus SEP"
+msgstr "Profils de mise au point SEP"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, optionsProfileGroup)
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:81
@@ -12076,7 +12077,7 @@ msgstr "Profils de guidage SEP"
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:86
 #, kde-format
 msgid "HFR SEP Profiles"
-msgstr "Profils HFR SEP:"
+msgstr "Profils HFR SEP"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, reloadProfiles)
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:106
@@ -15592,12 +15593,12 @@ msgstr "Erreur : perte de connexion à la roue à filtres."
 #: ekos/focus/focus.cpp:1384 ekos/focus/focus.cpp:3444
 #, kde-format
 msgid "Error: No Focuser detected."
-msgstr "Erreur : aucun focuseur détecté."
+msgstr "Erreur : aucun moteur de mise au point détecté."
 
 #: ekos/focus/focus.cpp:1391 ekos/focus/focus.cpp:3451
 #, kde-format
 msgid "Error: Lost connection to Focuser."
-msgstr "Erreur : connexion au focuseur perdue."
+msgstr "Erreur : connexion au moteur de mise au point perdue."
 
 #: ekos/focus/focus.cpp:1397 ekos/focus/focus.cpp:1442
 #, kde-format
@@ -15629,7 +15630,8 @@ msgstr "Mise au point %2 de %1 ms…"
 #: ekos/focus/focus.cpp:1438
 #, kde-format
 msgid "Focuser is not responding to commands. Aborting..."
-msgstr "Le focuseur ne répond pas aux commandes. Annulation en cours…"
+msgstr ""
+"Le moteur de mise au point ne répond pas aux commandes. Annulation en cours…"
 
 #: ekos/focus/focus.cpp:1446
 #, kde-format
@@ -15779,8 +15781,8 @@ msgstr "Solution polynomiale trouvée @ %1"
 #, kde-format
 msgid "Focuser cannot move further, device limits reached. Autofocus aborted."
 msgstr ""
-"Le focuseur ne peut aller plus loin. Les limites du périphérique sont "
-"atteintes. La mise au point automatique est abandonnée."
+"Le moteur de mise au point ne peut aller plus loin. Les limites du "
+"périphérique sont atteintes. La mise au point automatique est abandonnée."
 
 #: ekos/focus/focus.cpp:2633
 #, kde-format
@@ -15818,7 +15820,7 @@ msgstr ""
 #: ekos/focus/focus.cpp:2985 ekos/focus/focus.cpp:3019
 #, kde-format
 msgid "Focuser error, check INDI panel."
-msgstr "Erreur de focuser, vérifiez le panneau INDI."
+msgstr "Erreur de mise au point, vérifiez le panneau INDI."
 
 #: ekos/focus/focus.cpp:2892 ekos/focus/focus.cpp:2934
 #: ekos/focus/focus.cpp:2976 ekos/focus/focus.cpp:3001
@@ -15866,7 +15868,7 @@ msgstr "Aucune étoile sélectionnée. Annulation…"
 #, kde-format
 msgctxt "@title:window"
 msgid "Focus Frame"
-msgstr "Trame de focus"
+msgstr "Trame de mise au point"
 
 #: ekos/focus/focus.cpp:3866
 #, kde-format
@@ -15917,7 +15919,7 @@ msgstr "Position absolue désirée de la mise au point"
 #: ekos/focus/focus.ui:155 ekos/profileeditor.ui:463
 #, kde-format
 msgid "Focuser:"
-msgstr "Focuseur"
+msgstr "Moteur de mise au point"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, startGotoB)
 #: ekos/focus/focus.ui:171
@@ -15929,7 +15931,7 @@ msgstr "Aller à une position absolue"
 #: ekos/focus/focus.ui:200
 #, kde-format
 msgid "Current absolute focuser position"
-msgstr "Position courante et absolue du focuseur"
+msgstr "Position courante et absolue du moteur de mise au point"
 
 #. i18n: ectx: property (text), widget (QLabel, label_16)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -15942,7 +15944,7 @@ msgstr "Étapes"
 #: ekos/focus/focus.ui:229
 #, kde-format
 msgid "Stop focuser motion"
-msgstr "Arrêter le déplacement du focuseur"
+msgstr "Arrêter le déplacement du moteur de mise au point"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, startFocusB)
 #: ekos/focus/focus.ui:258
@@ -15990,13 +15992,13 @@ msgstr "Basculer en plein écran"
 #: ekos/focus/focus.ui:517
 #, kde-format
 msgid "Select focuser temperature source"
-msgstr "Sélectionner une source de température pour le focuseur"
+msgstr "Sélectionner une source de température pour le moteur de mise au point"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, temperatureSourceLabel)
 #: ekos/focus/focus.ui:524
 #, kde-format
 msgid "Focuser temperature source"
-msgstr "Source de température pour le focuseur"
+msgstr "Source de température pour le moteur de mise au point"
 
 #. i18n: ectx: property (text), widget (QLabel, temperatureSourceLabel)
 #: ekos/focus/focus.ui:527
@@ -16347,27 +16349,27 @@ msgstr ""
 "margin-left : 0px ; margin-right : 0px ; -qt-list-indent : 1 ;\"><li style="
 "\" margin-top:12px ; margin-bottom:0px ; margin-left:0px ; margin-"
 "right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-"
-"weight:600 ;\">Itératif</span> : Déplace le focuseur par pas discrets, selon "
-"un pas préalablement défini. Une fois qu'une pente de courbe est calculée, "
-"d'autres tailles de pas sont calculées pour atteindre la solution optimale. "
-"L'algorithme s'arrête lorsque le HFR mesuré se situe dans la tolérance en "
-"pourcentage du HFR minimum enregistré dans la procédure.</li><li style=\" "
-"margin-top:0px ; margin-bottom:0px ; margin-left:0px ; margin-right:0px ; -"
-"qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;"
-"\">Polynomial</span> : commence par une méthode itérative. En passant de "
-"l'autre côté de la courbe en V, les coefficients d'ajustement polynomiaux "
-"ainsi que la solution minimale possible sont calculés. Cet algorithme peut "
-"être plus rapide que l'approche purement itérative, moyennant un bon "
-"ensemble de données.</li><li style=\" margin-top:0px ; margin-bottom:12px ; "
-"margin-left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;"
-"\"><span style=\" font-weight:600 ;\">Linéaire</span> : Les échantillons se "
-"concentrent vers l'intérieur de façon régulière, en utilisant 2 passes. "
-"L'algorithme peut être lent, mais il est plus résistant aux contrecoups. "
-"Commencez avec le focuser positionné près de la bonne mise au point. "
-"Définissez la taille du pas initial et le déplacement maximal pour "
-"l'intervalle d'échantillonnage souhaité et la plage autour de la position de "
-"départ de la mise au point. La tolérance devrait être d'environ 5 %.</li></"
-"ul></body></html>"
+"weight:600 ;\">Itératif</span> : Déplace le moteur de mise au point par pas "
+"discrets, selon un pas préalablement défini. Une fois qu'une pente de courbe "
+"est calculée, d'autres tailles de pas sont calculées pour atteindre la "
+"solution optimale. L'algorithme s'arrête lorsque le HFR mesuré se situe dans "
+"la tolérance en pourcentage du HFR minimum enregistré dans la procédure.</"
+"li><li style=\" margin-top:0px ; margin-bottom:0px ; margin-left:0px ; "
+"margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span style=\" "
+"font-weight:600 ;\">Polynomial</span> : commence par une méthode itérative. "
+"En passant de l'autre côté de la courbe en V, les coefficients d'ajustement "
+"polynomiaux ainsi que la solution minimale possible sont calculés. Cet "
+"algorithme peut être plus rapide que l'approche purement itérative, "
+"moyennant un bon ensemble de données.</li><li style=\" margin-top:0px ; "
+"margin-bottom:12px ; margin-left:0px ; margin-right:0px ; -qt-block-"
+"indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">Linéaire</"
+"span> : Les échantillons se concentrent vers l'intérieur de façon régulière, "
+"en utilisant 2 passes. L'algorithme peut être lent, mais il est plus "
+"résistant aux contrecoups. Commencez avec le moteur de mise au point "
+"positionné près de la bonne mise au point. Définissez la taille du pas "
+"initial et le déplacement maximal pour l'intervalle d'échantillonnage "
+"souhaité et la plage autour de la position de départ de la mise au point. La "
+"tolérance devrait être d'environ 5 %.</li></ul></body></html>"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, focusAlgorithmCombo)
 #: ekos/focus/focus.ui:1342
@@ -16581,9 +16583,9 @@ msgid ""
 "<html><body><p>For backlash-aware focuser, the amount of backlash to apply "
 "when reversing movement direction.</p></body></html>"
 msgstr ""
-"<html><body><p>Pour des focuseurs gérant le backlash, la quantité de "
-"réactions à appliquer lors du renversement de la direction de mouvement.</"
-"p></body></html>"
+"<html><body><p>Pour des moteurs de mise au point gérant le backlash, la "
+"quantité de réactions à appliquer lors du renversement de la direction de "
+"mouvement.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, FocusSettleTime)
 #: ekos/focus/focus.ui:1654
@@ -16593,8 +16595,8 @@ msgid ""
 "before capturing the next image during Auto Focus.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Attendre ce nombre de secondes après le déplacement du "
-"focuseur, avant d'acquérir la prochaine image durant la phase de mise au "
-"point automatique.</p></body></html>"
+"moteur de mise au point, avant d'acquérir la prochaine image durant la phase "
+"de mise au point automatique.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, maxSingleStepIN)
 #: ekos/focus/focus.ui:1670
@@ -16646,8 +16648,8 @@ msgid ""
 "Maximum time in seconds to wait for a focuser to move to desired position "
 "before declaring a timeout."
 msgstr ""
-"Durée maximale en secondes d'attente pour que le focuseur se déplace à la "
-"position désirée avant de déclarer un dépassement de délai."
+"Durée maximale en secondes d'attente pour que le moteur de mise au point se "
+"déplace à la position désirée avant de déclarer un dépassement de délai."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #: ekos/focus/focus.ui:1795
@@ -16669,7 +16671,7 @@ msgid ""
 "position.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Valeur « HFR » (half-flux radius) en pixels consolidée "
-"par la position actuelle du focuseur.</p></body></html>"
+"par la position actuelle du moteur de mise au point.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: ekos/focus/focus.ui:1888
@@ -16685,7 +16687,7 @@ msgid ""
 "focuser position.</p></body></html>"
 msgstr ""
 "<html><body><p>Nombre d'étoiles à utiliser pour le calcul « HFR » (half-flux "
-"radius) à la position courante du focuseur.</p></body></html>"
+"radius) à la position courante du moteur de mise au point.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_28)
 #: ekos/focus/focus.ui:1927
@@ -16697,13 +16699,15 @@ msgstr "Itération "
 #: ekos/focus/focus.ui:1940
 #, kde-format
 msgid "<html><body><p>Focuser iteration.</p></body></html>"
-msgstr "<html><body><p>Nombre actuel d'itération du focuseur</p></body></html>"
+msgstr ""
+"<html><body><p>Nombre actuel d'itération du moteur de mise au point</p></"
+"body></html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, relativeProfileB)
 #: ekos/focus/focus.ui:1969
 #, kde-format
 msgid "Relative Profile..."
-msgstr "Profil relatif"
+msgstr "Profil relatif…"
 
 #. i18n: ectx: property (text), widget (QPushButton, clearDataB)
 #: ekos/focus/focus.ui:1976
@@ -19457,7 +19461,7 @@ msgstr "Le filtre %1 est connecté."
 #: ekos/manager.cpp:1593
 #, kde-format
 msgid "%1 focuser is online."
-msgstr "Le focuseur %1 est connecté."
+msgstr "Le moteur de mise au point %1 est connecté."
 
 #: ekos/manager.cpp:1704
 #, kde-format
@@ -19655,19 +19659,6 @@ msgstr "HFR"
 #, kde-format
 msgid "<"
 msgstr "<"
-
-#. i18n: ectx: property (toolTip), widget (FocusProfilePlot, profilePlot)
-#: ekos/manager/focusmanager.ui:281
-#, kde-format
-msgid "Focus HFR profile"
-msgstr "Profil de focus « HFR »"
-
-#. i18n: ectx: property (toolTip), widget (QLabel, focusStarView)
-#. i18n: ectx: property (text), widget (QLabel, focusStarView)
-#: ekos/manager/focusmanager.ui:299 ekos/manager/focusmanager.ui:306
-#, kde-format
-msgid "Focus star"
-msgstr "Pointer une étoile"
 
 #. i18n: ectx: property (text), widget (QPushButton, focusDetailNextButton)
 #. i18n: ectx: property (text), widget (QPushButton, guideDetailNextButton)
@@ -23181,7 +23172,7 @@ msgstr ""
 #: ekos/scheduler/scheduler.cpp:1843 ekos/scheduler/scheduler.ui:1120
 #, kde-format
 msgid "Start Scheduler"
-msgstr "Démarrer l'ordonnanceur."
+msgstr "Démarrer l'ordonnanceur"
 
 #: ekos/scheduler/scheduler.cpp:1864
 #, kde-format
@@ -23211,7 +23202,7 @@ msgstr "Pause planifiée de l'ordonnanceur…"
 #: ekos/scheduler/scheduler.cpp:1938
 #, kde-format
 msgid "Resume Scheduler"
-msgstr "Relancer l'ordonnanceur."
+msgstr "Relancer l'ordonnanceur"
 
 #: ekos/scheduler/scheduler.cpp:1947
 #, kde-format
@@ -28251,13 +28242,14 @@ msgstr "Les coordonnées à l'écran de la boîte d'informations de temps."
 #: kstars.kcfg:15
 #, kde-format
 msgid "Position of the focus InfoBox."
-msgstr "Position de la boîte d'informations de focus."
+msgstr "Position de la boîte d'informations de la mise au point."
 
 #. i18n: ectx: whatsthis, entry (PositionFocusBox), group (GUI)
 #: kstars.kcfg:16
 #, kde-format
 msgid "The screen coordinates of the Focus InfoBox."
-msgstr "Les coordonnées à l'écran de la boîte d'informations de focus."
+msgstr ""
+"Les coordonnées à l'écran de la boîte d'informations de la mise au point."
 
 #. i18n: ectx: label, entry (PositionGeoBox), group (GUI)
 #: kstars.kcfg:20
@@ -28291,7 +28283,8 @@ msgstr ""
 #: kstars.kcfg:30
 #, kde-format
 msgid "Is the focus InfoBox in the \"shaded\" state?"
-msgstr "La boîte d'informations de focus est-elle dans l'état « ombragé » ?"
+msgstr ""
+"La boîte d'informations de mise au point est-elle dans l'état « ombragé » ?"
 
 #. i18n: ectx: whatsthis, entry (ShadeFocusBox), group (GUI)
 #: kstars.kcfg:31
@@ -28346,13 +28339,13 @@ msgstr "Bascule l'affichage de la boîte d'informations de temps."
 #: kstars.kcfg:50
 #, kde-format
 msgid "Display the focus InfoBox?"
-msgstr "Afficher la boîte d'informations de focus ?"
+msgstr "Afficher la boîte d'informations de la mise au point ?"
 
 #. i18n: ectx: whatsthis, entry (ShowFocusBox), group (GUI)
 #: kstars.kcfg:51
 #, kde-format
 msgid "Toggles display of the Focus InfoBox."
-msgstr "Bascule l'affichage de la boîte d'informations de focus."
+msgstr "Bascule l'affichage de la boîte d'informations de la mise au point."
 
 #. i18n: ectx: label, entry (ShowGeoBox), group (GUI)
 #: kstars.kcfg:55
@@ -29061,7 +29054,7 @@ msgstr ""
 #: kstars.kcfg:386
 #, kde-format
 msgid "Right Ascension of focus position"
-msgstr "Ascension droite de la position du focus"
+msgstr "Ascension droite de la position de la mise au point"
 
 #. i18n: ectx: whatsthis, entry (FocusRA), group (View)
 #: kstars.kcfg:387
@@ -29078,7 +29071,7 @@ msgstr ""
 #: kstars.kcfg:391
 #, kde-format
 msgid "Declination of focus position"
-msgstr "Déclinaison de la position du focus"
+msgstr "Déclinaison de la position de la mise au point"
 
 #. i18n: ectx: whatsthis, entry (FocusDec), group (View)
 #: kstars.kcfg:392
@@ -29095,7 +29088,7 @@ msgstr ""
 #: kstars.kcfg:396
 #, kde-format
 msgid "Name of focused object"
-msgstr "Nom de l'objet portant le focus"
+msgstr "Nom de l'objet focalisé"
 
 #. i18n: ectx: whatsthis, entry (FocusObject), group (View)
 #: kstars.kcfg:397
@@ -30047,7 +30040,7 @@ msgstr ""
 #: kstars.kcfg:730
 #, kde-format
 msgid "Automatically label focused object?"
-msgstr "Étiqueter automatiquement l'objet qui porte le focus ?"
+msgstr "Étiqueter automatiquement l'objet focalisé ?"
 
 #. i18n: ectx: whatsthis, entry (UseAutoLabel), group (View)
 #: kstars.kcfg:731
@@ -32298,19 +32291,20 @@ msgstr "Renforcer la limite de déviation pour le guidage."
 #: kstars.kcfg:1655
 #, kde-format
 msgid "Enforce Autofocus HFR limit."
-msgstr "Renforcer la limite « HFR » pour l'autofocus."
+msgstr "Renforcer la limite HFR pour la mise au point automatique."
 
 #. i18n: ectx: label, entry (EnforceAutofocusOnTemperature), group (Capture)
 #: kstars.kcfg:1659
 #, kde-format
 msgid "Enforce Autofocus on temperature change."
-msgstr "Effectuer un autofocus lors d'un changement de température."
+msgstr ""
+"Effectuer une mise au point automatique lors d'un changement de température."
 
 #. i18n: ectx: label, entry (EnforceRefocusEveryN), group (Capture)
 #: kstars.kcfg:1663
 #, kde-format
 msgid "Enforce Refocus Every N Minutes."
-msgstr "Imposer un nouveau focus toutes les N minutes."
+msgstr "Imposer une nouvelle mise au point toutes les N minutes."
 
 #. i18n: ectx: label, entry (RefocusEveryN), group (Capture)
 #: kstars.kcfg:1667
@@ -32574,7 +32568,7 @@ msgstr "Module CCD de mise au point par défaut."
 #: kstars.kcfg:1802
 #, kde-format
 msgid "Default focus module focuser."
-msgstr "Focuseur par défaut du module de mise au point."
+msgstr "Moteur de mise au point par défaut du module de mise au point."
 
 #. i18n: ectx: label, entry (DefaultFocusFilterWheel), group (Focus)
 #: kstars.kcfg:1805
@@ -32614,8 +32608,9 @@ msgid ""
 "Wait for this many seconds after moving the focuser before capturing the "
 "next image during AutoFocus."
 msgstr ""
-"Attendez ce nombre de secondes après avoir déplacé le focuseur avant "
-"l'acquisition de l'image suivante pendant la mise au point automatique."
+"Attendez ce nombre de secondes après avoir déplacé le moteur de mise au "
+"point avant l'acquisition de l'image suivante pendant la mise au point "
+"automatique."
 
 #. i18n: ectx: whatsthis, entry (GuideSettleTime), group (Focus)
 #: kstars.kcfg:1820
@@ -32647,19 +32642,21 @@ msgstr ""
 #: kstars.kcfg:1837
 #, kde-format
 msgid "Maximum Focus Travel Distance"
-msgstr "Distance maximale de déplacement du focus"
+msgstr "Distance maximale de déplacement de la mise au point"
 
 #. i18n: ectx: whatsthis, entry (FocusMaxTravel), group (Focus)
 #: kstars.kcfg:1838
 #, kde-format
 msgid "Set the maximum travel distance of an absolute focuser."
-msgstr "Définir la distance maximale de déplacement d’un focuseur absolu."
+msgstr ""
+"Définir la distance maximale de déplacement d’un moteur de mise au point "
+"absolu."
 
 #. i18n: ectx: label, entry (InitialFocusOutSteps), group (Focus)
 #: kstars.kcfg:1842
 #, kde-format
 msgid "Initial Focus Out Steps"
-msgstr "Étapes initiales d'une perte de focus"
+msgstr "Étapes initiales d'une mise au point vers l'extérieure"
 
 #. i18n: ectx: whatsthis, entry (InitialFocusOutSteps), group (Focus)
 #: kstars.kcfg:1843
@@ -32677,7 +32674,7 @@ msgstr ""
 #: kstars.kcfg:1847
 #, kde-format
 msgid "Default Focuser gain value"
-msgstr "Valeur de gain par défaut pour le focus"
+msgstr "Valeur de gain par défaut pour la mise au point"
 
 #. i18n: ectx: whatsthis, entry (FocusGain), group (Focus)
 #: kstars.kcfg:1848
@@ -32686,7 +32683,7 @@ msgid ""
 "Specifies gain value of CCD when performing focusing if supported by camera."
 msgstr ""
 "Spécifie la valeur du gain pour le capteur « CCD » lors de la réalisation "
-"d'un focus, si pris en charge par la caméra. "
+"d'une mise au point, si pris en charge par la caméra. "
 
 #. i18n: ectx: label, entry (FocusBoxSize), group (Focus)
 #: kstars.kcfg:1852
@@ -32698,39 +32695,46 @@ msgstr "Taille par défaut de la boîte de sélection d'étoile à cibler"
 #: kstars.kcfg:1853
 #, kde-format
 msgid "Set box size to select a focus star."
-msgstr "Définissez la taille de la boîte pour choisir un focus d'étoile."
+msgstr "Définissez la taille de la boîte pour choisir une étoile à focaliser."
 
 #. i18n: ectx: label, entry (FocusXBin), group (Focus)
 #: kstars.kcfg:1857
 #, kde-format
 msgid "Default CCD X binning in focus mode"
-msgstr "La catégorisation X du « DTC » par défaut en mode « Focus »"
+msgstr ""
+"Taille en x du groupement de pixels du CCD par défaut en mode « mise au "
+"point »"
 
 #. i18n: ectx: whatsthis, entry (FocusXBin), group (Focus)
 #: kstars.kcfg:1858
 #, kde-format
 msgid "Set horizontal binning of CCD camera while in focus mode."
-msgstr "Positionnez le binning horizontal de la caméra DTC en mode focus."
+msgstr ""
+"Positionnez le binning horizontal de la caméra CCD en mode mise au point."
 
 #. i18n: ectx: label, entry (FocusYBin), group (Focus)
 #: kstars.kcfg:1862
 #, kde-format
 msgid "Default CCD Y binning in focus mode"
-msgstr "Le binning Y du DTC par défaut en mode focus"
+msgstr ""
+"Taille en y du groupement de pixels du CCD par défaut en mode « mise au "
+"point »"
 
 #. i18n: ectx: whatsthis, entry (FocusYBin), group (Focus)
 #: kstars.kcfg:1863
 #, kde-format
 msgid "Set vertical binning of CCD camera while in focus mode."
 msgstr ""
-"Positionner le binning vertical de la caméra DTC quand elle est en mode "
-"focus."
+"Positionner le binning vertical de la caméra CCD quand elle est en mode mise "
+"au point."
 
 #. i18n: ectx: label, entry (FocusSubFrame), group (Focus)
 #: kstars.kcfg:1867
 #, kde-format
 msgid "Subframe the focus star during the autofocus procedure."
-msgstr "Sous-tramer l'étoile de focus durant la procédure d'autofocus."
+msgstr ""
+"Sous-tramer l'étoile de mise au point durant la procédure de mise au point "
+"automatique."
 
 #. i18n: ectx: label, entry (FocusUseFullField), group (Focus)
 #: kstars.kcfg:1871
@@ -32793,15 +32797,16 @@ msgstr "Sélectionne automatiquement l'étoile à cibler"
 #: kstars.kcfg:1889
 #, kde-format
 msgid "Suspend guiding while autofocus in progress."
-msgstr "Suspendre le guidage pendant que l'auto-focus est en cours."
+msgstr ""
+"Suspendre le guidage pendant que la mise au point automatique est en cours."
 
 #. i18n: ectx: label, entry (UseFocusDarkFrame), group (Focus)
 #: kstars.kcfg:1893
 #, kde-format
 msgid "Take a dark frame and subtract it before running autofocus operation."
 msgstr ""
-"Prendre une trame sombre et la soustraire avant de lancer l'opération "
-"d'autofocus."
+"Prendre une trame sombre et la soustraire avant de lancer l'opération de "
+"mise au point automatique."
 
 #. i18n: ectx: label, entry (FocusEffect), group (Focus)
 #: kstars.kcfg:1897
@@ -32831,34 +32836,35 @@ msgstr "Algorithme de détection d'étoiles"
 #: kstars.kcfg:1909
 #, kde-format
 msgid "Focus process algorithm"
-msgstr "Algorithme pour traitement du focus "
+msgstr "Algorithme pour traitement de la mise au point automatique"
 
 #. i18n: ectx: label, entry (FocusFramesCount), group (Focus)
 #: kstars.kcfg:1913
 #, kde-format
 msgid "Number of focus frames to average for HFR calculations."
-msgstr "Nombre de trames de focus pour moyenner les calculs « HFR »."
+msgstr "Nombre de trames de mise au point pour moyenner les calculs HFR."
 
 #. i18n: ectx: label, entry (FocusMaxSingleStep), group (Focus)
 #: kstars.kcfg:1917
 #, kde-format
 msgid "Maximum single step the focus algorithm is permitted to command."
 msgstr ""
-"Étape unitaire maximale que l'algorithme de focus est autorisé à commander."
+"Étape unitaire maximale que l'algorithme de mise au point est autorisé à "
+"commander."
 
 #. i18n: ectx: label, entry (FocusExposure), group (Focus)
 #: kstars.kcfg:1921
 #, kde-format
 msgid "Default focus exposure time when no filters are used."
 msgstr ""
-"Temps d'exposition par défaut pour le focus lorsque aucun filtre n'est "
-"utilisé."
+"Temps d'exposition par défaut pour la mise au point lorsque aucun filtre "
+"n'est utilisé."
 
 #. i18n: ectx: label, entry (FocusGaussianSigma), group (Focus)
 #: kstars.kcfg:1925
 #, kde-format
 msgid "Gaussian blur sigma value."
-msgstr "Valeur en « sigma » pour le flou gaussien."
+msgstr "Valeur en sigma pour le flou gaussien."
 
 #. i18n: ectx: label, entry (FocusGaussianKernelSize), group (Focus)
 #: kstars.kcfg:1929
@@ -32870,20 +32876,21 @@ msgstr "Taille du noyau pour le flou gaussien."
 #: kstars.kcfg:1933
 #, kde-format
 msgid "Number of rows to combine in the Bahtinov average calculation."
-msgstr ""
-"Nombre de lignes à combiner pour le calcul de la moyenne de « Bahtinov »."
+msgstr "Nombre de lignes à combiner pour le calcul de la moyenne de Bahtinov."
 
 #. i18n: ectx: label, entry (FocusSextractorType), group (StellarSolver)
 #: kstars.kcfg:1939
 #, kde-format
 msgid "Internal or External Sextractor for Focusing."
-msgstr "« Sextractor » interne ou externe pour le focus."
+msgstr "Sextractor interne ou externe pour la mise au point."
 
 #. i18n: ectx: label, entry (FocusOptionsProfile), group (StellarSolver)
 #: kstars.kcfg:1943
 #, kde-format
 msgid "Options Profile for Sextraction when Focusing."
-msgstr "Options du profil pour le programme « SExtractor » lors du focus."
+msgstr ""
+"Options du profil pour le programme d'extraction d'étoiles « SExtractor » "
+"lors de la mise au point."
 
 #. i18n: ectx: label, entry (HFRSextractorType), group (StellarSolver)
 #: kstars.kcfg:1947
@@ -66087,7 +66094,7 @@ msgstr "Longueur focale (mm)"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Focus Control"
-msgstr "Contrôle de focus"
+msgstr "Contrôle de la mise au point"
 
 #: libindi_strings.cpp:185
 #, kde-kuit-format
@@ -66105,13 +66112,13 @@ msgstr "Mettre au point vers l'extérieur"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Focus Speed"
-msgstr "Vitesse de focus"
+msgstr "Vitesse de mise au point"
 
 #: libindi_strings.cpp:188
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Focus Timer"
-msgstr "Temporisation de focus"
+msgstr "Minuterie de mise au point"
 
 #: libindi_strings.cpp:189
 #, kde-kuit-format
@@ -66123,25 +66130,25 @@ msgstr "Mettre au point à l'intérieur"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Focus out"
-msgstr "Mettre au point à l'extérieur"
+msgstr "Mettre au point vers l'extérieur"
 
 #: libindi_strings.cpp:191
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Focuser Simulator"
-msgstr "Simulateur de focus"
+msgstr "Simulateur de mise au point"
 
 #: libindi_strings.cpp:192
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Focuser"
-msgstr "Viseur"
+msgstr "Moteur de mise au point"
 
 #: libindi_strings.cpp:193
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Focusers"
-msgstr "Viseurs"
+msgstr "Moteurs de mise au point"
 
 #: libindi_strings.cpp:194
 #, kde-kuit-format
@@ -68859,7 +68866,7 @@ msgstr "Enregistrer"
 #: oal/equipmentwriter.ui:711
 #, kde-format
 msgid "Filter focus offset"
-msgstr "Filtrer le décalage de focus"
+msgstr "Filtrer le décalage de mise au point"
 
 #. i18n: ectx: property (text), widget (QLabel, label_21)
 #: oal/equipmentwriter.ui:740
@@ -69373,7 +69380,8 @@ msgstr "Pointeur par défaut"
 #: options/opsadvanced.ui:510
 #, kde-format
 msgid "Show slewing motion when focus changes?"
-msgstr "Afficher le mouvement de réorientation lorsque le focus change ?"
+msgstr ""
+"Afficher le mouvement de réorientation lorsque la mise au point change ?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_UseAnimatedSlewing)
 #: options/opsadvanced.ui:513
@@ -69383,9 +69391,10 @@ msgid ""
 "\"slew\" to the new position.  Otherwise, the display will center on the new "
 "position instantaneously."
 msgstr ""
-"Si cette case est cochée, le changement de la position du focus aura pour "
-"résultat un « pivotement » animé visible vers la nouvelle position. Sinon, "
-"l'affichage se centrera sur la nouvelle position instantanément."
+"Si cette case est cochée, le changement de la position de la mise au point "
+"aura pour résultat un « pivotement » animé visible vers la nouvelle "
+"position. Sinon, l'affichage se centrera sur la nouvelle position "
+"instantanément."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseAnimatedSlewing)
 #: options/opsadvanced.ui:516
@@ -70050,7 +70059,7 @@ msgstr ""
 #: options/opsdeveloper.ui:43
 #, kde-format
 msgid "Save Focus Images"
-msgstr "Enregistrer les images en focus"
+msgstr "Enregistrer les images de mise au point"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SaveGuideImages)
 #: options/opsdeveloper.ui:50
@@ -77473,7 +77482,7 @@ msgstr "Bascule l'affichage de la boîte d'informations géographiques"
 #: tools/scriptbuilder.cpp:418
 #, kde-format
 msgid "Toggle display of Focus InfoBox"
-msgstr "Bascule l'affichage de la boîte d'informations de focus"
+msgstr "Bascule l'affichage de la boîte d'informations de la mise au point"
 
 #: tools/scriptbuilder.cpp:421
 #, kde-format
@@ -77488,7 +77497,7 @@ msgstr "(Dés)Enrouler la boîte d'informations géographiques"
 #: tools/scriptbuilder.cpp:427
 #, kde-format
 msgid "(un)Shade Focus InfoBox"
-msgstr "(Dés)Enrouler la boîte d'informations de focus"
+msgstr "(Dés)Enrouler la boîte d'informations de la mise au point"
 
 #: tools/scriptbuilder.cpp:440
 #, kde-format
