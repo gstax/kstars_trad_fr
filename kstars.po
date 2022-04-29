@@ -2280,7 +2280,7 @@ msgstr "Nom "
 #: dialogs/addcatalogobject.ui:46
 #, kde-format
 msgid "RA / Dec (°, J2000):"
-msgstr "AD / DEC (°, J2000)"
+msgstr "AD/DEC (°, J2000)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: dialogs/addcatalogobject.ui:71
@@ -3339,7 +3339,7 @@ msgctxt ""
 "The first arg is proper motion in right ascension and the second in the "
 "declination. The unit stands for milliarcsecond per year"
 msgid "%1 %2 mas/yr"
-msgstr "%1 %2 mas/yr"
+msgstr "%1 %2 mas/année"
 
 #: dialogs/detaildialog.cpp:215 kstarslite/dialogs/detaildialoglite.cpp:129
 #: printing/detailstable.cpp:142 printing/pwizobjectselection.cpp:121
@@ -4753,7 +4753,7 @@ msgstr "Affichez/Modifiez les données d'emplacement"
 #: tools/argsetgeolocation.ui:63
 #, kde-format
 msgid "City:"
-msgstr "Ville:"
+msgstr "Ville"
 
 #. i18n: ectx: property (text), widget (QLabel, NewProvinceLabel)
 #. i18n: ectx: property (text), widget (QLabel, ProvinceLabel)
@@ -4762,7 +4762,7 @@ msgstr "Ville:"
 #: tools/argsetgeolocation.ui:46
 #, kde-format
 msgid "Province:"
-msgstr "Région:"
+msgstr "Région"
 
 #. i18n: ectx: property (text), widget (QLabel, NewCountryLabel)
 #. i18n: ectx: property (text), widget (QLabel, CountryLabel)
@@ -4771,7 +4771,7 @@ msgstr "Région:"
 #: tools/argsetgeolocation.ui:70
 #, kde-format
 msgid "Country:"
-msgstr "Pays:"
+msgstr "Pays"
 
 #. i18n: ectx: property (toolTip), widget (dmsBox, NewLat)
 #: dialogs/locationdialog.ui:341
@@ -4780,8 +4780,8 @@ msgid ""
 "<html><head/><body><p>Latitude in degrees. North of equator is positive and "
 "South is negative.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Latitude en degrés. Au Nord de l'équateur elle est "
-"positive, négative au Sud.</p></body></html>"
+"<html><head/><body><p>Latitude en degrés. Au nord de l'équateur elle est "
+"positive, négative au sud.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, LongLabel)
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -5756,7 +5756,7 @@ msgid ""
 "location on Earth.</p><p>To get started, press the <b>Next</b> button.</p>"
 msgstr ""
 "<p>L'assistant vous aidera à définir certains options basiques, comme "
-"l'emplacement sur Terre.</p><p>Pour démarrer, veuillez appuyer sur le bouton "
+"votre emplacement sur Terre.</p><p>Pour démarrer, veuillez appuyer sur le bouton "
 "<b>Suivant</b>.</p>"
 
 #: ekos/align/align.cpp:177
@@ -11300,7 +11300,7 @@ msgstr "Voulez-vous vraiment supprimer tous les journaux?"
 #: ekos/auxiliary/opslogs.cpp:159 ekos/auxiliary/opslogs.ui:548
 #, kde-format
 msgid "Clear all logs"
-msgstr "Effacer toutes les journaux"
+msgstr "Effacer tous les journaux"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ekos/auxiliary/opslogs.ui:59
@@ -11312,8 +11312,8 @@ msgid ""
 "used.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Active les journaux pour caractériser les problèmes "
-"avec Ekos et INDI. N'activer que les journaux nécessaires. Les journaux "
-"consomment des ressources et peuvent ralentir le système. Supprimer les "
+"avec Ekos et INDI. N'activez que les journaux nécessaires. Les journaux "
+"consomment des ressources et peuvent ralentir le système. Supprimez les "
 "fichiers journaux quand vous n'en n'avez plus besoin.</p></body></html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -11359,7 +11359,7 @@ msgstr "Journaliser l'activité du module Ekos de guidage"
 msgid ""
 "Have problem with Ekos? Turn on logging for Ekos modules that exhibit issues."
 msgstr ""
-"Avez-vous des problèmes avec Ekos? Veuillez activer la journalisation pour "
+"Avez-vous des problèmes avec Ekos ? Veuillez activer la journalisation pour "
 "les modules Ekos posant des problèmes."
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
@@ -11392,7 +11392,7 @@ msgstr "Nor&mal"
 #: ekos/auxiliary/opslogs.ui:156 options/opsadvanced.ui:290
 #, kde-format
 msgid "Output:"
-msgstr "Sortie:"
+msgstr "Sortie"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_DisableLogging)
 #: ekos/auxiliary/opslogs.ui:170 options/opsadvanced.ui:267
@@ -15769,7 +15769,7 @@ msgstr ""
 #, kde-format
 msgid "Failed to detect focus star in frame. Capture and select a focus star."
 msgstr ""
-"Impossible de détecter une étoile focalisée dans l'image. Capturer et "
+"Impossible de détecter une étoile focalisée dans l'image. Acquérir une image et "
 "sélectionner une étoile à focaliser."
 
 #: ekos/focus/focus.cpp:2558
@@ -16107,7 +16107,7 @@ msgstr "s"
 #, kde-format
 msgid "Automatically select the best focus star from the image"
 msgstr ""
-"Sélectionne automatiquement la meilleure étoile à mettre focaliser dans "
+"Sélectionne automatiquement la meilleure étoile à focaliser dans "
 "l'image."
 
 #. i18n: ectx: property (text), widget (QCheckBox, useAutoStar)
@@ -16520,7 +16520,7 @@ msgstr "Mécanique"
 #: ekos/focus/focus.ui:1519
 #, kde-format
 msgid "Initial Step size:"
-msgstr "Taille initiale de pas"
+msgstr "Taille de pas initiale"
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
 #: ekos/focus/focus.ui:1529
@@ -16615,13 +16615,13 @@ msgstr ""
 #: ekos/focus/focus.ui:1686
 #, kde-format
 msgid "Max Step size:"
-msgstr "Taille maximale du pas"
+msgstr "Taille de pas maximale"
 
 #. i18n: ectx: property (text), widget (QLabel, label_26)
 #: ekos/focus/focus.ui:1693
 #, kde-format
 msgid "Capture Timeout:"
-msgstr "Délai maximal d'acquisition"
+msgstr "Délai d'acquisition maximal"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, captureTimeoutSpin)
 #. i18n: ectx: whatsthis, entry (FocusCaptureTimeout), group (Focus)
@@ -19477,7 +19477,7 @@ msgstr "CCD"
 #: ekos/manager.cpp:2649
 #, kde-format
 msgid "Guider port from %1 is ready."
-msgstr "Le port d'écoute du guide depuis %1 est prêt."
+msgstr "Le port du guide depuis %1 est prêt."
 
 #: ekos/manager.cpp:2847
 #, kde-format
@@ -27553,7 +27553,7 @@ msgstr ""
 #: indi/recordingoptions.ui:134
 #, kde-format
 msgid "Play/Pause"
-msgstr "Lecture / Pause"
+msgstr "Lecture/Pause"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, recordFilenameEdit)
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
@@ -28424,7 +28424,7 @@ msgstr "Bascule l'affichage de la barre d'état."
 #: kstars.kcfg:86
 #, kde-format
 msgid "Display Alt/Az coordinates in the statusbar?"
-msgstr "Afficher les coordonnées Alt / Az dans la barre d'état ?"
+msgstr "Afficher les coordonnées Alt/Az dans la barre d'état ?"
 
 #. i18n: ectx: whatsthis, entry (ShowAltAzField), group (GUI)
 #: kstars.kcfg:87
@@ -28440,7 +28440,7 @@ msgstr ""
 #: kstars.kcfg:91
 #, kde-format
 msgid "Display RA/Dec coordinates in the statusbar?"
-msgstr "Afficher les coordonnées AD / Déc dans la barre d'état ?"
+msgstr "Afficher les coordonnées AD/DEC dans la barre d'état ?"
 
 #. i18n: ectx: whatsthis, entry (ShowRADecField), group (GUI)
 #: kstars.kcfg:92
@@ -29417,7 +29417,7 @@ msgstr "Afficher les alertes des supernovas ?"
 #: kstars.kcfg:506
 #, kde-format
 msgid "Toggle supernova alerts."
-msgstr "Affiche / Cache les alertes concernant les supernovas."
+msgstr "Affiche/Cache les alertes concernant les supernovas."
 
 #. i18n: ectx: label, entry (MagnitudeLimitAlertSupernovae), group (View)
 #: kstars.kcfg:510
@@ -30341,7 +30341,7 @@ msgstr ""
 #, kde-format
 msgid "Relative density for deep-sky object name labels and/or magnitudes"
 msgstr ""
-"Densité relative des étiquettes de noms et / ou des magnitudes des objets du "
+"Densité relative des étiquettes de noms et/ou des magnitudes des objets du "
 "ciel profond"
 
 #. i18n: ectx: whatsthis, entry (DeepSkyLabelDensity), group (View)
@@ -44679,7 +44679,7 @@ msgstr "Grand Falls-Windsor"
 #, kde-kuit-format
 msgctxt "City in New Brunswick Canada"
 msgid "Grand Falls/Grand-Sault"
-msgstr "Grand Falls / Grand-Sault"
+msgstr "Grand Falls/Grand-Sault"
 
 #: kstars_i18n.cpp:1838
 #, kde-kuit-format
@@ -60831,7 +60831,7 @@ msgstr "Page de la NASA pour l'exploitation du système solaire"
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "NASA Sun-Earth Days page"
-msgstr "Page de la NASA pour les jours Soleil /Terre"
+msgstr "Page de la NASA pour les jours Soleil/Terre"
 
 #: kstars_i18n.cpp:4530
 #, kde-kuit-format
@@ -62914,7 +62914,7 @@ msgstr "Saisissez l'angle de champ de vision souhaité"
 #: kstarsactions.cpp:1617
 #, kde-format
 msgid "Enter a field-of-view angle in degrees: "
-msgstr "Saisissez un angle de champ de vision en degrés : "
+msgstr "Saisissez un angle de champ de vision en degrés "
 
 #: kstarsactions.cpp:1792
 #, kde-format
@@ -62929,7 +62929,7 @@ msgstr "Affichage de l'oculaire : choisissez un champ de vision"
 #: kstarsactions.cpp:1795
 #, kde-format
 msgid "FOV to render eyepiece view for:"
-msgstr "FOV pour le rendu de la vue de l'oculaire pour :"
+msgstr "FOV pour le rendu de la vue de l'oculaire pour"
 
 #: kstarsdata.cpp:44
 #, kde-format
@@ -64040,12 +64040,12 @@ msgstr "Chercher un objet"
 #: kstarslite/qml/dialogs/FindDialog.qml:37
 #, kde-kuit-format
 msgid "Filter by name: "
-msgstr "Filtrer par nom :"
+msgstr "Filtrer par nom"
 
 #: kstarslite/qml/dialogs/FindDialog.qml:54
 #, kde-kuit-format
 msgid "Filter by type: "
-msgstr "Filtrer par type :"
+msgstr "Filtrer par type"
 
 #: kstarslite/qml/dialogs/FindDialog.qml:100
 #, kde-kuit-format
@@ -68128,7 +68128,7 @@ msgstr "Ouest (msec)"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "West (pointing east)"
-msgstr "Ouest (pointage vers l'Est)"
+msgstr "Ouest (pointage vers l'est)"
 
 #: libindi_strings.cpp:525
 #, kde-kuit-format
@@ -68146,7 +68146,7 @@ msgstr "Ouest"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "West/East"
-msgstr "Ouest / Est"
+msgstr "Ouest/Est"
 
 #: libindi_strings.cpp:528
 #, kde-kuit-format
@@ -74869,7 +74869,7 @@ msgid ""
 "<b>Small red cross</b> in the combo box."
 msgstr ""
 "Pour ajouter des icônes personnalisées, il suffit d'ajouter des images dans "
-"%1. Les noms de fichiers doivent commencer par une étiquette. Par exemple, "
+"%1. Les noms de fichiers doivent commencer par « flag ». Par exemple, "
 "le fichier « _flagPetite_croix_rouge.gif » sera affiché sous la forme "
 "« Petite croix rouge » dans la zone de liste modifiable."
 
@@ -74909,13 +74909,13 @@ msgstr "Coordonnées erronées."
 #: tools/flagmanager.ui:101
 #, kde-format
 msgid "Label color:"
-msgstr "Couleur de l'étiquette :"
+msgstr "Couleur de l'étiquette"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: tools/flagmanager.ui:108
 #, kde-format
 msgid "Icon:"
-msgstr "Icône :"
+msgstr "Icône"
 
 #. i18n: ectx: property (text), widget (QPushButton, saveButton)
 #: tools/flagmanager.ui:140
@@ -76114,7 +76114,7 @@ msgstr "Résolution terminée avec succès pour %1."
 #, kde-format
 msgctxt "@title:window"
 msgid "Observation Planner"
-msgstr "Ordonnanceur d'observation"
+msgstr "Planificateur d'observation"
 
 #: tools/observinglist.cpp:92 tools/observinglist.cpp:96
 #, kde-format
@@ -76852,11 +76852,11 @@ msgstr ""
 "listes d'observation</p> <p></p><p>Avec cet outil, vous pouvez élaborer une "
 "liste d'observation en filtrant la liste de tous les objets de différentes "
 "façons. Tout d'abord, vous sélectionnerez des objets par <span style=\"font-"
-"weight:600;\">type</span>, puis seulement ces objets qui occupent une <span "
+"weight:600;\">type</span>, puis seulement les objets qui occupent une <span "
 "style=\"font-weight:600;\">région spécifique dans le ciel</span>. En outre, "
 "vous pouvez réduire la liste d'observation en sélectionnant des objets dans "
 "un <span style=\"font-weight:600;\">intervalle de magnitude</span> spécifié. "
-"Enfin, vous pouvez choisir de ne conserver que ces objets qui sont <span "
+"Enfin, vous pouvez choisir de ne conserver que les objets qui sont <span "
 "style=\"font-weight:600;\">observables à une date particulière</span>.</"
 "p><p></p><p>Cliquez sur le bouton <span style=\"font-weight:600;\">Suivant</"
 "span> pour commencer par sélectionner les types d'objets que vous voulez "
@@ -76934,7 +76934,7 @@ msgid ""
 "p></body></html>"
 msgstr ""
 "<html><head></head><body><p>Sélectionnez par région</p><p></p><p>Ensuite, "
-"vous pouvez limiter votre liste d'objets à ces seuls objets qui occupent une "
+"vous pouvez limiter votre liste d'objets aux seuls objets qui occupent une "
 "région spécifique dans le ciel. Il existe trois façons de préciser la région "
 "pour votre liste : par <span style=\"font-weight:600;\">constellation</"
 "span>, en indiquant une <span style=\"font-weight:600;\">région "
@@ -77062,8 +77062,8 @@ msgid ""
 "body></html>"
 msgstr ""
 "<html><head></head><body><p>Sélectionnez des objets observables à une "
-"certaine date :</p><p></p><p>sur cette page, vous pouvez limiter votre liste "
-"d'observation à ces seuls objets pouvant être observés à une certaine date "
+"certaine date</p><p></p><p>sur cette page, vous pouvez limiter votre liste "
+"d'observation aux seuls objets pouvant être observés à une certaine date "
 "(et depuis un emplacement géographique particulier sur la Terre). Pour "
 "filtrer votre liste de cette façon, cochez la case ci-dessous puis "
 "sélectionnez la date souhaitée. Si vous laissez cette case non cochée, alors "
@@ -77077,37 +77077,37 @@ msgstr ""
 #: tools/obslistwizard.ui:728
 #, kde-format
 msgid "From:"
-msgstr "De :"
+msgstr "De"
 
 #. i18n: ectx: property (text), widget (QLabel, LocationText)
 #: tools/obslistwizard.ui:735
 #, kde-format
 msgid "From: "
-msgstr "De : "
+msgstr "De "
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: tools/obslistwizard.ui:742
 #, kde-format
 msgid "Min. Altitude:"
-msgstr "Altitude minimale :"
+msgstr "Altitude minimale"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: tools/obslistwizard.ui:759
 #, kde-format
 msgid "Coverage:"
-msgstr "Couverture :"
+msgstr "Couverture"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: tools/obslistwizard.ui:786
 #, kde-format
 msgid "Max. Altitude:"
-msgstr "Altitude maximale :"
+msgstr "Altitude maximale"
 
 #. i18n: ectx: property (text), widget (QCheckBox, SelectByDate)
 #: tools/obslistwizard.ui:813
 #, kde-format
 msgid "Select objects which are observable on:"
-msgstr "Sélectionnez des objets observables le :"
+msgstr "Sélectionnez des objets observables le "
 
 #. i18n: ectx: property (text), widget (QLabel, MagnitudeText)
 #: tools/obslistwizard.ui:892
@@ -77127,7 +77127,7 @@ msgid ""
 "here.</p><p><br/></p></body></html>"
 msgstr ""
 "<html><head></head><body><p>Sélectionnez des objets brillants</p> <p></"
-"p><p>Sur cette page, vous pouvez limiter votre liste d'observation à ces "
+"p><p>Sur cette page, vous pouvez limiter votre liste d'observation aux "
 "seuls objets plus brillant qu'une magnitude donnée. Soyez prudent avec cette "
 "sélection, car KStars ne dispose pas d'une magnitude pour chaque objet dans "
 "sa base de données. Il faut indiquer si vous voulez ou non inclure des "
@@ -77145,7 +77145,7 @@ msgstr ""
 #: tools/obslistwizard.ui:919
 #, kde-format
 msgid "Select objects brighter than:"
-msgstr "Sélectionnez les objets plus lumineux que :"
+msgstr "Sélectionnez les objets plus lumineux que"
 
 #. i18n: ectx: property (text), widget (QCheckBox, IncludeNoMag)
 #: tools/obslistwizard.ui:991
@@ -77209,7 +77209,7 @@ msgstr "Angle polaire des heures :"
 #: tools/polarishourangle.ui:44
 #, kde-format
 msgid "Date / Time"
-msgstr "Date / Heure"
+msgstr "Date/Heure"
 
 #. i18n: ectx: property (text), widget (QLabel, labelDate)
 #. i18n: ectx: property (text), widget (QLabel, labelTime)
@@ -78649,7 +78649,7 @@ msgstr "N'importe quand dans la nuit"
 #: tools/wutdialog.ui:146
 #, kde-format
 msgid "Show objects brighter than magnitude:"
-msgstr "Afficher les objets plus lumineux que cette magnitude"
+msgstr "Afficher les objets plus lumineux que la magnitude"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, MoonRiseLabel)
 #: tools/wutdialog.ui:202
@@ -79283,7 +79283,7 @@ msgstr "Sélectionnez un fichier de correspondance d'étoiles pour Xplanet"
 #, kde-format
 msgctxt "@title:window"
 msgid "Select XPlanet Arc File"
-msgstr "Sélectionner un fichier d'arc pour Xplanet"
+msgstr "Sélectionner un fichier arc pour Xplanet"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_xplanetIsInternal)
 #: xplanet/opsxplanet.ui:45
@@ -79570,7 +79570,7 @@ msgstr "Format de date"
 #: xplanet/opsxplanet.ui:636
 #, kde-format
 msgid "Specify the format for the date/time label."
-msgstr "Indiquez le format de l'étiquette de date / d'heure."
+msgstr "Indiquez le format pour l'étiquette date/heure."
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_XplanetDateFormat)
 #: xplanet/opsxplanet.ui:639
@@ -79580,7 +79580,7 @@ msgid ""
 "strftime(3).  The default is \"%c %Z\", which shows the date, time, and time "
 "zone in the  locale’s  appropriate date and time representation."
 msgstr ""
-"Spécifiez le format pour l'étiquette de date / d'heure. Cette chaîne de "
+"Spécifiez le format pour l'étiquette date/heure. Cette chaîne de "
 "format est passée en paramètre à strftime(3). La valeur par défaut est « %c "
 "%Z », qui affiche la date, l'heure et le fuseau horaire dans la "
 "représentation de date et d'heure des paramètres régionaux."
