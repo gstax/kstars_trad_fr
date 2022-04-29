@@ -5,13 +5,14 @@
 # Gérard Delafond <gerard@delafond.org>, 2002,2003, 2004, 2005.
 # Ludovic Grossard <grossard@kde.org>, 2002, 2003, 2004, 2007, 2012, 2013.
 # Stanislas Zeller <uncensored.assault@gmail.com>, 2008.
+# steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_quicktour\n"
+"Project-Id-Version: kstars_quicktour_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-28 00:32+0000\n"
 "PO-Revision-Date: 2013-02-02 07:47+0100\n"
-"Last-Translator: Ludovic Grossard <grossard@kde.org>\n"
+"Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -51,25 +52,6 @@ msgstr "Fenêtre principale"
 #. Tag: para
 #: quicktour.docbook:23
 #, no-c-format
-#| msgid ""
-#| "The above screenshot shows a typical view of the &kstars; program. You "
-#| "can see the sky display centered on Betelgeuse, the brightest star in the "
-#| "constellation Orion. Orion has just risen above the eastern horizon. "
-#| "Stars are displayed with <link linkend=\"ai-colorandtemp\">realistic "
-#| "colors</link> and relative brightnesses. In three corners of the sky "
-#| "display, there are on-screen text labels displaying data on the current "
-#| "time (<quote>LT: 20:16:09 Tuesday 23 November 2010</quote>), the current "
-#| "Geographic Location (<quote>Fremont, California, USA</quote>), and the "
-#| "current object in the center of the display (<quote>Focused on: "
-#| "Betelgeuse (alpha Orionis)</quote>). Above the sky display, there are two "
-#| "toolbars. The main toolbar contains shortcuts for <link linkend=\"kstars-"
-#| "menus\">menu functions</link>, as well as a time-step widget which "
-#| "controls how fast the simulation clock runs. The view toolbar contains "
-#| "buttons that toggle the display of different kinds of objects in the sky. "
-#| "At the bottom of the window, there is a status bar which displays the "
-#| "name of any object you click on, and the <link linkend=\"ai-skycoords"
-#| "\">sky coordinates</link> (both Right Ascension/Declination and Azimuth/"
-#| "Altitude) of the mouse cursor."
 msgid ""
 "The above screenshot shows a typical view of the &kstars; program. You can "
 "see the sky display centered on Betelgeuse, the brightest star in the "
@@ -138,17 +120,6 @@ msgstr ""
 #. Tag: para
 #: quicktour.docbook:53
 #, no-c-format
-#| msgid ""
-#| "The second page of the Setup Wizard allows you to choose the starting "
-#| "geographic location, by selecting from the list of the 2500+ known "
-#| "locations on the right side of the window. The list of locations can be "
-#| "filtered to match the text you enter in the <guilabel>City</guilabel>, "
-#| "<guilabel>Province</guilabel>, and <guilabel>Country</guilabel> edit "
-#| "boxes. If your desired location is not present in the list, you can "
-#| "select a nearby city instead for now. Later on, you can add your precise "
-#| "location manually using the <link linkend=\"setgeo\">Set Geographic "
-#| "Location tool</link>. Once you have selected a starting location, press "
-#| "the <guilabel>Next</guilabel> button."
 msgid ""
 "The second page of the Setup Wizard allows you to choose the starting "
 "geographic location, by selecting from the list of the 3400+ known locations "
@@ -177,13 +148,6 @@ msgstr ""
 #. Tag: para
 #: quicktour.docbook:66
 #, no-c-format
-#| msgid ""
-#| "The last page of the Setup Wizard allows you to download extra data that "
-#| "are not included with the standard distribution of &kstars;. Simply press "
-#| "the <guilabel>Download Extra Data</guilabel> button to open the "
-#| "<guilabel>Get New Stuff</guilabel> tool. When you are all done, press the "
-#| "<guilabel>OK</guilabel> button in the Setup Wizard to start exploring "
-#| "&kstars;."
 msgid ""
 "The last page of the Setup Wizard allows you to download extra data that are "
 "not included with the standard distribution of &kstars;. Simply press the "
@@ -220,17 +184,6 @@ msgstr "Bases"
 #. Tag: para
 #: quicktour.docbook:80
 #, no-c-format
-#| msgid ""
-#| "Now that we have the time and location set, let us have a look around. "
-#| "You can pan the display using the arrow keys. If you hold down the "
-#| "&Shift; key before panning, the scrolling speed is increased. The display "
-#| "can also be panned by clicking and dragging with the mouse. Note that "
-#| "while the display is scrolling, not all objects are displayed. This is "
-#| "done to cut down on the <acronym>CPU</acronym> load of recomputing object "
-#| "positions, which makes the scrolling smoother (you can configure what "
-#| "gets hidden while scrolling in the <link linkend=\"config\">Configure "
-#| "&kstars;</link> window). There are several ways to change the "
-#| "magnification (or <firstterm>Zoom level</firstterm>) of the display:"
 msgid ""
 "Now that we have the time and location set, let us have a look around. You "
 "can pan the display using the arrow keys. If you hold down the &Shift; key "
@@ -258,7 +211,6 @@ msgstr ""
 #. Tag: para
 #: quicktour.docbook:96
 #, no-c-format
-#| msgid "Use the <keycap>+</keycap> and <keycap>-</keycap> keys"
 msgid "Use the <keycap>+</keycap> and <keycap>-</keycap> keys."
 msgstr "Utilisez les touches <keycap>+</keycap> et <keycap>-</keycap>"
 
@@ -266,7 +218,6 @@ msgstr "Utilisez les touches <keycap>+</keycap> et <keycap>-</keycap>"
 #. Tag: para
 #: quicktour.docbook:100
 #, no-c-format
-#| msgid "Press the Zoom In/Zoom Out buttons in the toolbar"
 msgid ""
 "Press the <guibutton>Zoom In</guibutton>/<guibutton>Zoom Out</guibutton> "
 "buttons in the toolbar."
@@ -278,9 +229,6 @@ msgstr ""
 #. Tag: para
 #: quicktour.docbook:103
 #, no-c-format
-#| msgid ""
-#| "Select <guimenuitem>Zoom In</guimenuitem>/<guimenuitem>Zoom Out</"
-#| "guimenuitem> from the <guimenu>View</guimenu> menu"
 msgid ""
 "Select the <menuchoice><guimenu>View</guimenu> <guimenuitem>Zoom In / Zoom "
 "Out</guimenuitem></menuchoice> menu item."
@@ -291,10 +239,6 @@ msgstr ""
 #. Tag: para
 #: quicktour.docbook:107
 #, no-c-format
-#| msgid ""
-#| "Select <guimenuitem>Zoom to Angular Size...</guimenuitem> from the "
-#| "<guimenu>View</guimenu> menu. This allows you to specify the field-of-"
-#| "view angle for the display, in degrees."
 msgid ""
 "Select the <menuchoice><guimenu>View</guimenu> <guimenuitem>Zoom to Angular "
 "Size...</guimenuitem></menuchoice> menu item. This allows you to specify the "
@@ -308,7 +252,6 @@ msgstr ""
 #. Tag: para
 #: quicktour.docbook:112
 #, no-c-format
-#| msgid "Use the scroll wheel on your mouse"
 msgid "Use the scroll <mousebutton>wheel</mousebutton> on your mouse."
 msgstr "Utilisez la <mousebutton>molette</mousebutton> de votre souris"
 
@@ -389,7 +332,6 @@ msgstr ""
 #. Tag: screeninfo
 #: quicktour.docbook:149
 #, no-c-format
-#| msgid "Here is a screenshot of the &kstars; main window:"
 msgid ""
 "Here is a screenshot of the &kstars; main window, focusing on horizon, "
 "celestial equator and Ecliptic curves:"
@@ -401,7 +343,6 @@ msgstr ""
 #. Tag: phrase
 #: quicktour.docbook:158
 #, no-c-format
-#| msgid "Main Window"
 msgid "&kstars; Window"
 msgstr "Fenêtre de &kstars;"
 
@@ -470,9 +411,6 @@ msgstr "Exemple"
 #. Tag: para
 #: quicktour.docbook:184
 #, no-c-format
-#| msgid ""
-#| "Here is an example of the <mousebutton>right</mousebutton> click popup "
-#| "menu, for the Orion Nebula:"
 msgid ""
 "Here is an example of the <mousebutton>right</mousebutton> click popup menu, "
 "for the Uranus:"
@@ -483,14 +421,12 @@ msgstr ""
 #. Tag: screeninfo
 #: quicktour.docbook:190
 #, no-c-format
-#| msgid "<screeninfo>Popup Menu for M 42</screeninfo>"
 msgid "<screeninfo>Popup Menu for Uranus</screeninfo>"
 msgstr "<screeninfo>Menu contextuel pour Uranus</screeninfo>"
 
 #. Tag: phrase
 #: quicktour.docbook:196
 #, no-c-format
-#| msgid "<phrase>Popup Menu for M 42</phrase>"
 msgid "<phrase>Popup Menu for Uranus</phrase>"
 msgstr "<phrase>Menu contextuel pour Uranus</phrase>"
 
@@ -512,13 +448,6 @@ msgstr ""
 #. Tag: para
 #: quicktour.docbook:209
 #, no-c-format
-#| msgid ""
-#| "The top section contains some lines of information which are not "
-#| "selectable: the object's names (\"M 42\"; \"Orion Nebula\"), object type "
-#| "(\"gaseous nebula\"), and the constellation which contains the object "
-#| "(\"Orion\"). The next three lines show the object's rise, set, and "
-#| "transit times. If the rise and set times say \"circumpolar\", it means "
-#| "that the object is always above the horizon for the present location."
 msgid ""
 "The top section contains some lines of information which are not selectable: "
 "the object's names (\"Uranus\"), object type (\"Solar system object\"), and "
@@ -538,12 +467,6 @@ msgstr ""
 #. Tag: para
 #: quicktour.docbook:218
 #, no-c-format
-#| msgid ""
-#| "The middle section contains actions which can be performed on the "
-#| "selected object, such as <guimenuitem>Center &amp; Track</guimenuitem>, "
-#| "<guimenuitem>Details...</guimenuitem>, and <guimenuitem>Attach Label</"
-#| "guimenuitem>. See the <link linkend=\"popup-menu\">popup menu "
-#| "description</link> for a full list and description of each action."
 msgid ""
 "The middle section contains actions which can be performed on the selected "
 "object, such as <guimenuitem>Center &amp; Track</guimenuitem>, "
@@ -574,14 +497,6 @@ msgstr "<seealso>Menu contextuel</seealso>"
 #. Tag: para
 #: quicktour.docbook:229
 #, no-c-format
-#| msgid ""
-#| "The bottom section contains links to images and/or informative webpages "
-#| "about the selected object. If you know of an additional &URL; with "
-#| "information or an image of the object, you can add a custom link to the "
-#| "object's popup menu. Use the <guimenuitem>Details</guimenuitem> item in "
-#| "the popup menu to open the <guilabel>Object Details</guilabel> dialog. On "
-#| "the <guilabel>Link</guilabel> tab use the <guimenuitem>Add Link...</"
-#| "guimenuitem> item."
 msgid ""
 "The bottom section contains links to images and/or informative webpages "
 "about the selected object. If you know of an additional &URL; with "
@@ -621,13 +536,6 @@ msgstr "Recherche par nom"
 #. Tag: para
 #: quicktour.docbook:245
 #, no-c-format
-#| msgid ""
-#| "You can search for named objects using the <guilabel>Find Object</"
-#| "guilabel> tool, which can be opened by clicking on the <guiicon>search</"
-#| "guiicon> icon in the toolbar, by selecting <guimenuitem>Find Object...</"
-#| "guimenuitem> from the <guimenu>Pointing</guimenu> menu, or by pressing "
-#| "<keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></keycombo>. The "
-#| "<guilabel>Find Object</guilabel> window is shown below:"
 msgid ""
 "You can search for named objects using the <guilabel>Find Object</guilabel> "
 "tool, which can be opened by clicking on the <guiicon>search</guiicon> icon "
@@ -647,7 +555,6 @@ msgstr ""
 #. Tag: screeninfo
 #: quicktour.docbook:255
 #, no-c-format
-#| msgid "<screeninfo>Find Object Window</screeninfo>"
 msgid "<screeninfo>Find Object Window with search online feature</screeninfo>"
 msgstr ""
 "<screeninfo>Fenêtre de recherche d'objets avec fonctionnalité de recherche "
@@ -656,7 +563,6 @@ msgstr ""
 #. Tag: phrase
 #: quicktour.docbook:261
 #, no-c-format
-#| msgid "<phrase>Find Object Window</phrase>"
 msgid "<phrase>Find Object Window with search online feature</phrase>"
 msgstr ""
 "<phrase>Fenêtre de recherche d'objets avec fonctionnalité de recherche en "
@@ -666,15 +572,6 @@ msgstr ""
 #. Tag: para
 #: quicktour.docbook:267
 #, no-c-format
-#| msgid ""
-#| "The window contains a list of all the named objects that &kstars; is "
-#| "aware of. Many of the objects only have a numeric catalog name (for "
-#| "example, NGC 3077), but some objects have a common name as well (for "
-#| "example, Whirlpool Galaxy). You can filter the list by name and by object "
-#| "type. To filter by name, enter a string in the edit box at the top of the "
-#| "window; the list will then only contain names which start with that "
-#| "string. To filter by type, select a type from the combo box at the bottom "
-#| "of the window."
 msgid ""
 "The window contains a list of (almost, see <xref linkend=\"catalogs\"/>) all "
 "the named objects that &kstars; is aware of. Many of the objects only have a "
@@ -811,15 +708,6 @@ msgstr "Suivi"
 #. Tag: para
 #: quicktour.docbook:335
 #, no-c-format
-#| msgid ""
-#| "&kstars; will automatically begin tracking on an object whenever one is "
-#| "centered in the display, either by using the <guilabel>Find Object</"
-#| "guilabel> window, by double-clicking on it, or by selecting "
-#| "<guimenuitem>Center &amp; Track</guimenuitem> from its "
-#| "<mousebutton>right</mousebutton>-click popup menu. You can disengage "
-#| "tracking by panning the display, pressing the <guiicon>Stop Tracking</"
-#| "guiicon> icon in the Main toolbar, or selecting <guimenuitem>Stop "
-#| "Tracking</guimenuitem> from the <guimenu>Pointing</guimenu> menu."
 msgid ""
 "&kstars; will automatically begin tracking on an object whenever one is "
 "centered in the display, either by using the <guilabel>Find Object</"
@@ -901,7 +789,6 @@ msgstr "<keycap>C</keycap>"
 #. Tag: para
 #: quicktour.docbook:374
 #, no-c-format
-#| msgid "Center and Track on the selected object"
 msgid "Center and Track on the selected object."
 msgstr "Centrer et suivre l'objet sélectionné"
 
@@ -914,9 +801,6 @@ msgstr "<keycap>D</keycap>"
 #. Tag: para
 #: quicktour.docbook:381
 #, no-c-format
-#| msgid ""
-#| "Show the <link linkend=\"tool-details\">Details window</link> for the "
-#| "selected object"
 msgid ""
 "Show the <link linkend=\"tool-details\">Details window</link> for the "
 "selected object."
@@ -933,7 +817,6 @@ msgstr "<keycap>L</keycap>"
 #. Tag: para
 #: quicktour.docbook:389
 #, no-c-format
-#| msgid "Toggle a visible name label on the selected object"
 msgid "Toggle a visible name label on the selected object."
 msgstr "Basculer la visibilité de l'étiquette du nom de l'objet sélectionné"
 
@@ -946,9 +829,6 @@ msgstr "<keycap>O</keycap>"
 #. Tag: para
 #: quicktour.docbook:396
 #, no-c-format
-#| msgid ""
-#| "Add the selected object to the <link linkend=\"tool-obsplanner"
-#| "\">Observing wish-list</link>"
 msgid ""
 "Add the selected object to the <link linkend=\"tool-obsplanner\">Observing "
 "wish-list</link>."
@@ -965,9 +845,6 @@ msgstr "<keycap>T</keycap>"
 #. Tag: para
 #: quicktour.docbook:404
 #, no-c-format
-#| msgid ""
-#| "Toggle a visible curve on the sky, showing the path of the object across "
-#| "the sky (only applicable to Solar System bodies)"
 msgid ""
 "Toggle a visible curve on the sky, showing the path of the object across the "
 "sky (only applicable to Solar System bodies)."
