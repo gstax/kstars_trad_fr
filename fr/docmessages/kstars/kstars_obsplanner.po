@@ -1,12 +1,13 @@
-#
+# Translation to French
 # xavier <ktranslator31@yahoo.fr>, 2012.
+# steve <stax@ik.me>, 2022 
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: kstars_obsplanner_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-29 00:30+0000\n"
 "PO-Revision-Date: 2012-12-19 20:01+0100\n"
-"Last-Translator: xavier <ktranslator31@yahoo.fr>\n"
+"Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -55,13 +56,6 @@ msgstr ""
 #. Tag: para
 #: obsplanner.docbook:18
 #, no-c-format
-#| msgid ""
-#| "You can even add some pictures to the objects. The image list is a Google "
-#| "image search list. To add image to an object all you need to do is press "
-#| "<guibutton>Find Image</guibutton> button on the right and then find an "
-#| "image that you like. If you do not have an Internet connection you can "
-#| "open an image from your hard drive. Note that images that will be used "
-#| "are going to be cropped to 600x600 pixels."
 msgid ""
 "You can even add some pictures to the objects. The image list is a Google "
 "image search list. To add image to an object just press <guibutton>Find "
@@ -95,10 +89,6 @@ msgstr ""
 #. Tag: para
 #: obsplanner.docbook:34
 #, no-c-format
-#| msgid ""
-#| "The <guibutton>Save all Images</guibutton> button does a search for the "
-#| "SDSS images and displays the DSS image if the requested RA/Dec is out of "
-#| "the SDSS footprint."
 msgid ""
 "The <guibutton>Download all Images</guibutton> button does a search for the "
 "SDSS images and displays the DSS image if the requested RA/Dec is out of the "
@@ -140,13 +130,6 @@ msgstr "L'image de la galaxie est maintenant supprimée"
 #. Tag: para
 #: obsplanner.docbook:66
 #, no-c-format
-#| msgid ""
-#| "You can add more objects by pressing the <guibutton>Add Object</"
-#| "guibutton> button. It has quite accurate method for sorting out items, "
-#| "depending on what options you have given to him. They are: Any, Stars, "
-#| "Solar System, Clusters (Globular and Open), Nebula (Gaseous and "
-#| "Planetary), Galaxies, Comets, Asteroids and Constellations + the name "
-#| "filter."
 msgid ""
 "You can add more objects by pressing the <guibutton>Find Object</guibutton> "
 "button. It will open the <guilabel>Find Object</guilabel> tool which "
@@ -192,10 +175,6 @@ msgstr ""
 #. Tag: para
 #: obsplanner.docbook:80
 #, no-c-format
-#| msgid ""
-#| "Do note that the Wish List is not the Session Plan. In the Wish List you "
-#| "can add objects that you wish to observer at some point. From there you "
-#| "can add them to the Session Plan."
 msgid ""
 "Note that the Wish List is not the Session Plan. In the Wish List you can "
 "add objects that you wish to observe at some point. From there you can add "
@@ -224,11 +203,6 @@ msgstr "Ajouter des objets à la fenêtre de planification de session"
 #. Tag: para
 #: obsplanner.docbook:94
 #, no-c-format
-#| msgid ""
-#| "Here is the second way of adding objects in your Observation Plan and "
-#| "using you Observation Plan. To use this way you just need to press the 4-"
-#| "th icon on the top-left corner of the Observation Planner Wizard (which "
-#| "is highlighted with yellow)."
 msgid ""
 "Here is the second way of adding objects in your Observation Plan, using the "
 "Observing List Wizard. You just need to press the fourth button on the top-"
@@ -290,9 +264,6 @@ msgstr ""
 #. Tag: para
 #: obsplanner.docbook:152
 #, no-c-format
-#| msgid ""
-#| "You can save your observation plan. And it will save it with a <filename "
-#| "class=\"extension\">.obslist</filename> extension."
 msgid ""
 "You can save your observation plan. And it will save it with a <literal role="
 "\"extension\">.obslist</literal> extension."
@@ -398,15 +369,3 @@ msgid ""
 msgstr ""
 "Un appui sur le bouton <guibutton>Nouvelle cible</guibutton> permettra à la "
 "session d'exécution d'ouvrir la première fenêtre relatif au prochain objet."
-
-#~ msgid ""
-#~ "Here you can see the object visibility based on the time and date. The "
-#~ "leader line shows the time right now."
-#~ msgstr ""
-#~ "Vous pouvez voir ici la visibilité des objets, à partir de la date et de "
-#~ "l'heure. La ligne de temps montre l'instant présent."
-
-#~ msgid "And below this you can add notes about observing this object."
-#~ msgstr ""
-#~ "Et, en dessous de ceci, vous pouvez ajouter des notes d'observations sur "
-#~ "cet objet."
