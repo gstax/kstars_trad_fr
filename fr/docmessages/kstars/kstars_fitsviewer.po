@@ -1,5 +1,4 @@
 # translation of kstars_fitsviewer.po to Français
-# traduction de kstars_fitsviewer.po en Français
 #
 # Delafond <gerard@delafond.org>, 2005.
 # Ludovic Grossard <grossard@kde.org>, 2005, 2007, 2012.
@@ -8,7 +7,7 @@
 # steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_fitsviewer\n"
+"Project-Id-Version: kstars_fitsviewer_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-28 00:32+0000\n"
 "PO-Revision-Date: 2022-04-12 15:11+0200\n"
@@ -52,12 +51,6 @@ msgstr ""
 #. Tag: para
 #: fitsviewer.docbook:9
 #, no-c-format
-#| msgid ""
-#| "The &kstars; FITS Viewer tool is integrated with the <link linkend=\"indi"
-#| "\">INDI</link> framework for seamless display and manipulation of "
-#| "captured FITS images. To open a FITS file, select <guimenuitem>Open "
-#| "FITS...</guimenuitem> from the <guimenu>File</guimenu> menu, or press "
-#| "<keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo>."
 msgid ""
 "The &kstars; FITS Viewer tool is automatically invoked when new images are "
 "received from the camera. It is primarily used to view and examine FITS "
@@ -111,7 +104,6 @@ msgstr ""
 #. Tag: para
 #: fitsviewer.docbook:30
 #, no-c-format
-#| msgid "Support for only 2D data. 1D and 3D data are discarded."
 msgid "Support for only 2D and 3D data. 1D data are discarded."
 msgstr ""
 "Prise en charge pour les données 2D et 3D seulement. Les données 1D sont "
@@ -144,7 +136,6 @@ msgstr "Actions standards Ouvrir, Enregistrer et Enregistrer sous."
 #. Tag: para
 #: fitsviewer.docbook:39
 #, no-c-format
-#| msgid "FITS header: Displays FITS header information."
 msgid "FITS Header: Display FITS header table data."
 msgstr "En-tête FITS : affiche les informations d'en-tête FITS."
 
@@ -397,7 +388,6 @@ msgstr ""
 #. Tag: para
 #: fitsviewer.docbook:88
 #, no-c-format
-#| msgid "FITS header: Displays FITS header information."
 msgid ""
 "FITS Header: Displays a table for FITS header keywords, values, and comments."
 msgstr ""
@@ -568,7 +558,6 @@ msgstr "Fonctionnalités"
 #. Tag: para
 #: fitsviewer.docbook:135
 #, no-c-format
-#| msgid "Support for 8, 16, 32, IEEE -32, and IEEE -64 bits formats."
 msgid "Support for 8, 16, 32, IEEE-32, and IEEE-64 bits formats."
 msgstr "Gestion des formats sur 8, 16, 32, IEEE-32 et IEEE-64 octets"
 
@@ -654,11 +643,6 @@ msgstr "<phrase>Histogramme</phrase>"
 #. Tag: para
 #: fitsviewer.docbook:207
 #, no-c-format
-#| msgid ""
-#| "Histogram: Displays one-channel FITS histogram. The user can rescale the "
-#| "image by optionally defining an upper and lower limit for the cutoff "
-#| "region. The rescaling operation (linear, logarithmic, or square-root) may "
-#| "then be applied to the region enclosed by the upper and lower limits."
 msgid ""
 "Displays multi-channel FITS histogram. The user can rescale the image by "
 "optionally defining an upper and lower limit for the cutoff region. The "
@@ -674,7 +658,6 @@ msgstr ""
 #. Tag: term
 #: fitsviewer.docbook:213
 #, no-c-format
-#| msgid "FITS Viewer"
 msgid "FITS Header"
 msgstr "En-tête FITS"
 
@@ -688,17 +671,12 @@ msgstr ""
 #. Tag: term
 #: fitsviewer.docbook:221
 #, no-c-format
-#| msgid "Statistics."
 msgid "Statistics"
 msgstr "statistiques"
 
 #. Tag: para
 #: fitsviewer.docbook:223
 #, no-c-format
-#| msgid ""
-#| "Statistics: Provides simple statistics for minimum and maximum pixel "
-#| "values and their respective locations. FITS depth, dimension, mean, and "
-#| "standard deviation."
 msgid ""
 "Provides simple statistics for minimum and maximum pixel values and their "
 "respective locations. FITS depth, dimension, mean, and standard deviation."
@@ -710,7 +688,6 @@ msgstr ""
 #. Tag: title
 #: fitsviewer.docbook:232
 #, no-c-format
-#| msgid "FITS Viewer"
 msgid "Embedded FITS Viewer"
 msgstr "Afficheur FITS intégré"
 
