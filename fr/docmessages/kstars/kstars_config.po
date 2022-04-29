@@ -9,7 +9,7 @@
 # steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_config\n"
+"Project-Id-Version: kstars_config_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-01 00:37+0000\n"
 "PO-Revision-Date: 2022-04-13 11:28+0200\n"
@@ -59,12 +59,6 @@ msgstr "Régler la fenêtre d'emplacement"
 #. Tag: para
 #: config.docbook:23
 #, no-c-format
-#| msgid ""
-#| "There is a list of over 2500 predefined cities available to choose from. "
-#| "You set your location by highlighting a city from this list. Each city is "
-#| "represented in the world map as a small dot, and when a city is "
-#| "highlighted in the list, a red crosshairs appears on its location in the "
-#| "map."
 msgid ""
 "There is a list of over 3400 predefined cities available to choose from. You "
 "set your location by highlighting a city from this list. Each city is "
@@ -91,19 +85,6 @@ msgstr "Filtrage"
 #. Tag: para
 #: config.docbook:33
 #, no-c-format
-#| msgid ""
-#| "It is not practical to scroll through the full list of 2500 locations, "
-#| "looking for a specific city. To make searches easier, the list can be "
-#| "filtered by entering text in the boxes below the map. For example, in the "
-#| "screenshot, the text <quote>Ba</quote> appears in the <guilabel>City "
-#| "Filter</guilabel> box, while <quote>M</quote> has been entered in the "
-#| "<guilabel>Province Filter</guilabel> box, and <quote>USA</quote> is in "
-#| "the <guilabel>Country Filter</guilabel> box. Note that all of the cities "
-#| "displayed in the list have city, province, and country names that begin "
-#| "with the entered filter strings, and that the message below the filter "
-#| "boxes indicates that 7 cities are matched by the filters. Also notice "
-#| "that the dots representing these seven cities in the map have been "
-#| "colored white, while the unmatched cities remain gray."
 msgid ""
 "It is not practical to scroll through the full list of 3400 locations, "
 "looking for a specific city. To make searches easier, the list can be "
@@ -158,21 +139,6 @@ msgstr "Emplacements personnalisés"
 #. Tag: para
 #: config.docbook:55
 #, no-c-format
-#| msgid ""
-#| "The <link linkend=\"ai-geocoords\">longitude, latitude</link> and <link "
-#| "linkend=\"ai-timezones\">time zone</link> information for the currently-"
-#| "selected location are displayed in the boxes at the bottom of the window. "
-#| "If you feel that any of these values are inaccurate, you can modify them "
-#| "and press the <guibutton>Add City to List</guibutton> button to record "
-#| "your custom version of the location. You can also define a completely new "
-#| "location by pressing the <guibutton>Clear Fields</guibutton> button, and "
-#| "entering the data for the new location. Note that all fields except the "
-#| "optional <guilabel>State/Province</guilabel> must be filled before the "
-#| "new location can be added to the list. &kstars; will automatically load "
-#| "your custom locations for all future sessions. Please note, at this "
-#| "point, the only way to remove a custom location is to remove the "
-#| "appropriate line from the file <filename>~/.kde/share/apps/kstars/"
-#| "mycities.dat</filename>."
 msgid ""
 "The <link linkend=\"ai-geocoords\">longitude, latitude</link> and <link "
 "linkend=\"ai-timezones\">time zone</link> information for the currently-"
@@ -241,17 +207,6 @@ msgstr "L'horloge de simulation"
 #. Tag: para
 #: config.docbook:82
 #, no-c-format
-#| msgid ""
-#| "When &kstars; starts up, the time is set to your computer's system clock, "
-#| "and the &kstars; clock is running to keep up with the real time. If you "
-#| "want to stop the clock, select <guimenuitem>Stop Clock</guimenuitem> from "
-#| "the <guimenu>Time</guimenu> menu, or simply click on the <guiicon>Stop "
-#| "Clock</guiicon> icon in the toolbar. You can make the clock run slower or "
-#| "faster than normal, or even make it run backward, using the time-step "
-#| "spinbox in the toolbar. This spinbox has two sets of up/down buttons. The "
-#| "first one will step through all 83 available time steps, one by one. The "
-#| "second one will skip to the next higher (or lower) unit of time, which "
-#| "allows you to make large timestep changes more quickly."
 msgid ""
 "When &kstars; starts up, the time is set to your computer's system clock, "
 "and the &kstars; clock is running to keep up with the real time. If you want "
@@ -286,15 +241,6 @@ msgstr "Paramètres"
 #. Tag: para
 #: config.docbook:97
 #, no-c-format
-#| msgid ""
-#| "You can set the time and date by selecting <guimenuitem>Set Time...</"
-#| "guimenuitem> from the <guimenu>Time</guimenu> menu, or by pressing the "
-#| "<guiicon>time</guiicon> icon in the toolbar. The <guilabel>Set Time</"
-#| "guilabel> window uses a standard &kde; Date Picker widget, coupled with "
-#| "two spinboxes for setting the hours and minutes. If you want to re-"
-#| "synchronize the simulation clock back to the current CPU time, just "
-#| "select <guimenuitem>Set Time to Now</guimenuitem> from the <guimenu>Time</"
-#| "guimenu> menu."
 msgid ""
 "You can set the time and date by selecting the <menuchoice><guimenu>Time</"
 "guimenu> <guimenuitem>Set Time...</guimenuitem></menuchoice> menu item, or "
@@ -324,13 +270,6 @@ msgstr "Plages de dates élargies"
 #. Tag: para
 #: config.docbook:109
 #, no-c-format
-#| msgid ""
-#| "&kstars; can accept very remote dates beyond the usual limits imposed by "
-#| "QDate. Currently, you can set the date between the years -50000 and "
-#| "+50000. We may extend this range even further in future releases. "
-#| "However, please be aware that the accuracy of the simulation becomes more "
-#| "and more degraded as more remote dates are examined. This is especially "
-#| "true for the positions of solar system bodies."
 msgid ""
 "&kstars; can accept very remote dates beyond the usual limits imposed by "
 "QDate. Currently, you can set the date between the years -100000 and "
@@ -366,12 +305,6 @@ msgstr "La fenêtre de configuration de &kstars;"
 #. Tag: para
 #: config.docbook:122
 #, no-c-format
-#| msgid ""
-#| "The <guilabel>Configure &kstars;</guilabel> window allows you to modify a "
-#| "wide range of display options. You can access the window with the "
-#| "<guiicon>configure</guiicon> toolbar icon, or by selecting "
-#| "<guimenuitem>Configure &kstars;...</guimenuitem> from the "
-#| "<guimenu>Settings</guimenu> menu. The window is depicted below:"
 msgid ""
 "The <guilabel>Configure - &kstars;</guilabel> window allows you to modify a "
 "wide range of display options. You can access the window with the "
@@ -389,27 +322,18 @@ msgstr ""
 #. Tag: screeninfo
 #: config.docbook:131
 #, no-c-format
-#| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Configure - &kstars; Window</screeninfo>"
 msgstr "<screeninfo>Fenêtre de configuration de &kstars;</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:137
 #, no-c-format
-#| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Configure - &kstars; Window</phrase>"
 msgstr "<phrase>Fenêtre de configuration de &kstars;</phrase>"
 
 #. Tag: para
 #: config.docbook:143
 #, no-c-format
-#| msgid ""
-#| "The <guilabel>Configure &kstars;</guilabel> window is divided into nine "
-#| "pages: <guilabel>Catalogs</guilabel>, <guilabel>Solar System</guilabel>, "
-#| "<guilabel>Satellites</guilabel>, <guilabel>Supernovae</guilabel>, "
-#| "<guilabel>Guides</guilabel>, <guilabel>Colors</guilabel>, <guilabel>INDI</"
-#| "guilabel>, <guilabel>Xplanet</guilabel>, and <guilabel>Advanced</"
-#| "guilabel>."
 msgid ""
 "The <guilabel>Configure - &kstars;</guilabel> window is divided into twelve "
 "pages: <guilabel>Catalogs</guilabel>, <guilabel>Solar System</guilabel>, "
@@ -464,16 +388,12 @@ msgstr ""
 #. Tag: secondary
 #: config.docbook:169 config.docbook:1011
 #, no-c-format
-#| msgid "Catalogs page"
 msgid "Satellites page"
 msgstr "Page des satellites"
 
 #. Tag: para
 #: config.docbook:169
 #, no-c-format
-#| msgid ""
-#| "The <guilabel>Colors</guilabel> page allows you to set the color scheme, "
-#| "and to define custom color schemes. The tab is split into two panels:"
 msgid ""
 "The <guilabel>Satellites</guilabel> page allows you to set the satellites "
 "view options."
@@ -490,9 +410,6 @@ msgstr "Page des supernovae"
 #. Tag: para
 #: config.docbook:176
 #, no-c-format
-#| msgid ""
-#| "The <guilabel>Advanced</guilabel> page provides fine-grained control over "
-#| "the more subtle behaviors of &kstars;."
 msgid ""
 "The <guilabel>Supernovae</guilabel> page allows you to manage how supernovae "
 "are displayed by &kstars;."
@@ -558,9 +475,6 @@ msgstr "Personnalisation"
 #. Tag: para
 #: config.docbook:202
 #, no-c-format
-#| msgid ""
-#| "The <guilabel>Colors</guilabel> page allows you to set the color scheme, "
-#| "and to define custom color schemes. The tab is split into two panels:"
 msgid ""
 "The <guilabel>Terrain</guilabel> page allows you to set the terrain or "
 "landscape image and configure its speedup options."
@@ -584,9 +498,6 @@ msgstr "Chartes de couleurs"
 #. Tag: para
 #: config.docbook:212
 #, no-c-format
-#| msgid ""
-#| "The <guilabel>Colors</guilabel> page allows you to set the color scheme, "
-#| "and to define custom color schemes. The tab is split into two panels:"
 msgid ""
 "The <guilabel>Colors</guilabel> page allows you to set the color scheme, and "
 "to define new custom color schemes."
@@ -597,10 +508,6 @@ msgstr ""
 #. Tag: para
 #: config.docbook:218
 #, no-c-format
-#| msgid ""
-#| "For detailed explanation of the options on the <guilabel>INDI</guilabel> "
-#| "page see the <link linkend=\"indi-configure\">Configure INDI</link> "
-#| "section."
 msgid ""
 "For detailed explanation of the options on the <guilabel>FITS</guilabel> "
 "page see the <link linkend=\"fits-configure\">Configure FITS</link> section."
@@ -623,10 +530,6 @@ msgstr ""
 #. Tag: para
 #: config.docbook:228
 #, no-c-format
-#| msgid ""
-#| "For detailed explanation of the options on the <guilabel>INDI</guilabel> "
-#| "page see the <link linkend=\"indi-configure\">Configure INDI</link> "
-#| "section."
 msgid ""
 "For detailed explanation of <guilabel>Ekos</guilabel> astrophotography "
 "suite, see the <link linkend=\"tool-ekos\">Ekos section of this manual</"
@@ -639,7 +542,6 @@ msgstr ""
 #. Tag: secondary
 #: config.docbook:235
 #, no-c-format
-#| msgid "Advanced page"
 msgid "Xplanet page"
 msgstr "Page Xplanet"
 
@@ -686,14 +588,12 @@ msgstr "<primary>Catalogues</primary>"
 #. Tag: screeninfo
 #: config.docbook:254
 #, no-c-format
-#| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Catalogs Window</screeninfo>"
 msgstr "<screeninfo>Fenêtre des catalogues</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:260
 #, no-c-format
-#| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Catalogs Window</phrase>"
 msgstr "<phrase>Fenêtre des catalogues</phrase>"
 
@@ -830,7 +730,6 @@ msgstr "Ce qui suit est un résumé des catalogues de &kstars;."
 #. Tag: title
 #: config.docbook:328
 #, no-c-format
-#| msgid "Catalogs page"
 msgid "Stars Catalogs"
 msgstr "Catalogues des étoiles"
 
@@ -873,7 +772,6 @@ msgstr "Défaut"
 #. Tag: entry
 #: config.docbook:342
 #, no-c-format
-#| msgid "Catalogs page"
 msgid "Default Catalog"
 msgstr "Catalogue par défaut"
 
@@ -1046,7 +944,6 @@ msgstr ""
 #. Tag: secondary
 #: config.docbook:440
 #, no-c-format
-#| msgid "Catalogs page"
 msgid "Star catalogs"
 msgstr "Catalogues des étoiles"
 
@@ -1151,7 +1048,6 @@ msgstr "La base de données du catalogue du CP"
 #: config.docbook:482 config.docbook:484 config.docbook:546 config.docbook:711
 #: config.docbook:738 config.docbook:821
 #, no-c-format
-#| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<primary>Deep-Sky Catalogs</primary>"
 msgstr "<primary>Catalogues du ciel profond</primary>"
 
@@ -1292,12 +1188,6 @@ msgstr "<secondary>GUI</secondary>"
 #. Tag: para
 #: config.docbook:548
 #, no-c-format
-#| msgid ""
-#| "Select a different color scheme in the <menuchoice><guimenu>Settings</"
-#| "guimenu><guimenuitem>Color Schemes</guimenuitem></menuchoice> menu. There "
-#| "are four predefined color schemes, and you can define your own in the "
-#| "<link linkend=\"config\"><guilabel>Configure &kstars;</guilabel></link> "
-#| "window."
 msgid ""
 "The catalog management &GUI; is reached via the <menuchoice><guimenu>Data</"
 "guimenu> <guimenuitem>Manage DSO Catalogs...</guimenuitem></menuchoice> menu "
@@ -1317,7 +1207,6 @@ msgstr "Gestionnaire des objets du ciel profond"
 #. Tag: phrase
 #: config.docbook:560
 #, no-c-format
-#| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>The DSO catalog management interface.</phrase>"
 msgstr "<phrase>L'interface de gestion du catalogue du ciel profond.</phrase>"
 
@@ -1365,7 +1254,6 @@ msgstr ""
 #. Tag: guibutton
 #: config.docbook:583
 #, no-c-format
-#| msgid "Catalogs page"
 msgid "Import Catalog..."
 msgstr "Importer un catalogue…"
 
@@ -1404,7 +1292,6 @@ msgstr ""
 #. Tag: guibutton
 #: config.docbook:599
 #, no-c-format
-#| msgid "Catalogs page"
 msgid "Create Catalog..."
 msgstr "Créer un catalogue…"
 
@@ -1743,7 +1630,6 @@ msgstr ""
 #. Tag: guimenu
 #: config.docbook:792
 #, no-c-format
-#| msgid "Catalogs page"
 msgid "Edit Catalog Meta..."
 msgstr "Modifier les métadonnées d'un catalogue…"
 
@@ -1800,7 +1686,6 @@ msgstr "<secondary>Ajout/Modification d'objets</secondary>"
 #. Tag: screeninfo
 #: config.docbook:825
 #, no-c-format
-#| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Add/Edit DSO Dialog</screeninfo>"
 msgstr ""
 "<screeninfo>Fenêtre de dialogue d'ajout/modification d'objets du ciel "
@@ -1809,7 +1694,6 @@ msgstr ""
 #. Tag: phrase
 #: config.docbook:831
 #, no-c-format
-#| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Add/Edit DSO Dialog</phrase>"
 msgstr ""
 "<phrase>Boîte de dialogue d'ajout/modification d'objets du ciel profond</"
@@ -1990,14 +1874,12 @@ msgstr "Importation CVS (et formats similaires)"
 #. Tag: screeninfo
 #: config.docbook:904
 #, no-c-format
-#| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Importing CSV Catalogs</screeninfo>"
 msgstr "<screeninfo>Importation de catalogues du ciel profond</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:910 config.docbook:932 config.docbook:960
 #, no-c-format
-#| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Importing CSV Catalogs</phrase>"
 msgstr ""
 "<phrase>Importation de catalogues d'objets du ciel profond au format CSV</"
@@ -2079,21 +1961,18 @@ msgstr "Importation de catalogues au format CSV, OpenNGC"
 #. Tag: title
 #: config.docbook:969
 #, no-c-format
-#| msgid "Solar System page"
 msgid "Solar System"
 msgstr "Système solaire"
 
 #. Tag: screeninfo
 #: config.docbook:971
 #, no-c-format
-#| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Solar System Window</screeninfo>"
 msgstr "<screeninfo>Fenêtre du système solaire</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:977
 #, no-c-format
-#| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Solar System Window</phrase>"
 msgstr "<phrase>Fenêtre du système solaire</phrase>"
 
@@ -2123,21 +2002,18 @@ msgstr ""
 #. Tag: title
 #: config.docbook:997
 #, no-c-format
-#| msgid "Catalogs page"
 msgid "Satellites"
 msgstr "Satellites"
 
 #. Tag: screeninfo
 #: config.docbook:999
 #, no-c-format
-#| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Satellites Window</screeninfo>"
 msgstr "<screeninfo>Fenêtre des satellites</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:1005
 #, no-c-format
-#| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Satellites Window</phrase>"
 msgstr "<phrase>Fenêtre des satellites</phrase>"
 
@@ -2249,14 +2125,12 @@ msgstr "Supernovae"
 #. Tag: screeninfo
 #: config.docbook:1050
 #, no-c-format
-#| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Supernovae Window</screeninfo>"
 msgstr "<screeninfo>Fenêtre des supernovae</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:1056
 #, no-c-format
-#| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Supernovae Window</phrase>"
 msgstr "<phrase>Fenêtre des supernovae</phrase>"
 
@@ -2306,36 +2180,24 @@ msgstr ""
 #. Tag: title
 #: config.docbook:1079
 #, no-c-format
-#| msgid "Guides page"
 msgid "Guides"
 msgstr "Guides"
 
 #. Tag: screeninfo
 #: config.docbook:1081
 #, no-c-format
-#| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Guides Window</screeninfo>"
 msgstr "<screeninfo>Fenêtre des guides</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:1087
 #, no-c-format
-#| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Guides Window</phrase>"
 msgstr "<phrase>Fenêtre des guides</phrase>"
 
 #. Tag: para
 #: config.docbook:1093
 #, no-c-format
-#| msgid ""
-#| "The <guilabel>Guides</guilabel> page lets you toggle whether non-objects "
-#| "are displayed (&ie;, constellation lines, constellation names, the Milky "
-#| "Way contour, the <link linkend=\"ai-cequator\">celestial equator</link>, "
-#| "<link linkend=\"ai-ecliptic\">the ecliptic</link>, <link linkend=\"ai-"
-#| "horizon\">the horizon line</link>, and the opaque ground). You can also "
-#| "choose whether you would like to see Latin constellation names, "
-#| "<acronym>IAU</acronym>-standard three-letter abbreviations, or "
-#| "constellation names using your local language."
 msgid ""
 "The <guilabel>Guides</guilabel> page lets you toggle whether non-objects are "
 "displayed (&ie;, constellation lines, constellation names, the Milky Way "
@@ -2364,23 +2226,18 @@ msgstr "Terrain"
 #. Tag: screeninfo
 #: config.docbook:1108
 #, no-c-format
-#| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Terrain Window</screeninfo>"
 msgstr "<screeninfo>Fenêtre du terrain</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:1114
 #, no-c-format
-#| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Terrain Window</phrase>"
 msgstr "<phrase>Fenêtre du terrain</phrase>"
 
 #. Tag: para
 #: config.docbook:1120
 #, no-c-format
-#| msgid ""
-#| "The <guilabel>Colors</guilabel> page allows you to set the color scheme, "
-#| "and to define custom color schemes. The tab is split into two panels:"
 msgid ""
 "The <guilabel>Terrain</guilabel> page lets you configure whether the terrain "
 "(landscape) image will be shown on the skymap."
@@ -2482,14 +2339,12 @@ msgstr "<title>Couleurs</title>"
 #. Tag: screeninfo
 #: config.docbook:1145
 #, no-c-format
-#| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Colors Window</screeninfo>"
 msgstr "<screeninfo>Fenêtre des couleurs</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:1151
 #, no-c-format
-#| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Colors Window</phrase>"
 msgstr "<phrase>Fenêtre des couleurs</phrase>"
 
@@ -2507,16 +2362,6 @@ msgstr ""
 #. Tag: para
 #: config.docbook:1163
 #, no-c-format
-#| msgid ""
-#| "The left panel shows a list of all display items with adjustable colors. "
-#| "Click on any item to bring up a color selection window to adjust its "
-#| "color. Below the list is the <guilabel>Star Color Mode</guilabel> "
-#| "selection box. By default, &kstars; draws stars with a <link linkend=\"ai-"
-#| "colorandtemp\">realistic color</link> tint according to the spectral type "
-#| "of the star. However, you may also choose to draw the stars as solid "
-#| "white, black or red circles. If you are using the realistic star colors, "
-#| "you can set the saturation level of the star colors with the "
-#| "<guilabel>Star Color Intensity</guilabel> spinbox."
 msgid ""
 "The left panel shows a list of all display items with adjustable colors. "
 "Click on any item to bring up a color selection window to adjust its color. "
@@ -2542,19 +2387,6 @@ msgstr ""
 #. Tag: para
 #: config.docbook:1174
 #, no-c-format
-#| msgid ""
-#| "The right panel lists the defined color schemes. There are four "
-#| "predefined schemes: the <guilabel>Default Colors</guilabel> scheme, "
-#| "<guilabel>Star Chart</guilabel>, which uses black stars on a white "
-#| "background, <guilabel>Night Vision</guilabel>, which uses only shades of "
-#| "red in order to protect dark-adapted vision, and <guilabel>Moonless "
-#| "Night</guilabel>, a more realistic, dark theme. Additionally, you can "
-#| "save the current color settings as a custom scheme by clicking the "
-#| "<guibutton>Save Current Colors</guibutton> button. It will prompt you for "
-#| "a name for the new scheme, and then your scheme will appear in the list "
-#| "in all future &kstars; sessions. To remove a custom scheme, simply "
-#| "highlight it in the list, and press the <guibutton>Remove Color Scheme</"
-#| "guibutton> button."
 msgid ""
 "The right panel lists the defined color schemes. There are four predefined "
 "schemes: the <guilabel>Default Colors</guilabel> scheme, <guilabel>Star "
@@ -2588,14 +2420,12 @@ msgstr "FITS"
 #. Tag: screeninfo
 #: config.docbook:1192
 #, no-c-format
-#| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>FITS Window</screeninfo>"
 msgstr "<screeninfo>Fenêtre FITS</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:1198
 #, no-c-format
-#| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>FITS Window</phrase>"
 msgstr "<phrase>Fenêtre FITS</phrase>"
 
@@ -2702,14 +2532,12 @@ msgstr "INDI"
 #. Tag: screeninfo
 #: config.docbook:1229
 #, no-c-format
-#| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>INDI Window</screeninfo>"
 msgstr "<screeninfo>Fenêtre INDI</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:1235
 #, no-c-format
-#| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>INDI Window</phrase>"
 msgstr "<phrase>Fenêtre INDI</phrase>"
 
@@ -2722,14 +2550,12 @@ msgstr "Ekos"
 #. Tag: screeninfo
 #: config.docbook:1247
 #, no-c-format
-#| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Ekos Window</screeninfo>"
 msgstr "<screeninfo>Fenêtre Ekos</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:1253
 #, no-c-format
-#| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Ekos Window</phrase>"
 msgstr "<phrase>Fenêtre Ekos</phrase>"
 
@@ -2758,21 +2584,18 @@ msgstr ""
 #. Tag: title
 #: config.docbook:1268
 #, no-c-format
-#| msgid "Advanced page"
 msgid "Xplanet"
 msgstr "Xplanet"
 
 #. Tag: screeninfo
 #: config.docbook:1270
 #, no-c-format
-#| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Xplanet Window</screeninfo>"
 msgstr "<screeninfo>Fenêtre Xplanet</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:1276
 #, no-c-format
-#| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Xplanet Window</phrase>"
 msgstr "<phrase>Fenêtre Xplanet</phrase>"
 
@@ -2793,21 +2616,18 @@ msgstr ""
 #. Tag: title
 #: config.docbook:1288
 #, no-c-format
-#| msgid "Advanced page"
 msgid "Advanced"
 msgstr "Avancé"
 
 #. Tag: screeninfo
 #: config.docbook:1290
 #, no-c-format
-#| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
 msgid "<screeninfo>Advanced Window</screeninfo>"
 msgstr "<screeninfo>Fenêtre Avancé</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:1296
 #, no-c-format
-#| msgid "<phrase>Configure &kstars; Window</phrase>"
 msgid "<phrase>Advanced Window</phrase>"
 msgstr "<phrase>Fenêtre Avancé</phrase>"
 
@@ -2855,12 +2675,6 @@ msgstr "Rotation animé"
 #. Tag: para
 #: config.docbook:1319
 #, no-c-format
-#| msgid ""
-#| "The <guilabel>Use animating slewing</guilabel> checkbox controls how the "
-#| "display changes when a new focus position is selected in the map. By "
-#| "default, you will see the sky drift or <quote>slew</quote> to the new "
-#| "position; if you uncheck this option, then the display will instead "
-#| "<quote>snap</quote> immediately to the new focus position."
 msgid ""
 "The <guilabel>Use animated slewing</guilabel> checkbox controls how the "
 "display changes when a new focus position is selected in the map. By "
@@ -2920,21 +2734,6 @@ msgstr "Masquage"
 #. Tag: para
 #: config.docbook:1338
 #, no-c-format
-#| msgid ""
-#| "There are three situations when &kstars; must redraw the sky display very "
-#| "rapidly: when a new focus position is selected (and <guilabel>Use "
-#| "animated slewing</guilabel> is checked), when the sky is dragged with the "
-#| "mouse, and when the time step is large. In these situations, the "
-#| "positions of all objects must be recomputed as rapidly as possible, which "
-#| "can put a large load on the <abbrev>CPU</abbrev>. If the <abbrev>CPU</"
-#| "abbrev> cannot keep up with the demand, then the display will seem "
-#| "sluggish or jerky. To mitigate this, &kstars; will hide certain objects "
-#| "during these rapid-redraw situations, as long as the <guilabel>Hide "
-#| "objects while moving</guilabel> checkbox is selected. The timestep "
-#| "threshold above which objects will be hidden is determined by the "
-#| "<guilabel>Also hide if timescale greater than:</guilabel> timestep-"
-#| "spinbox. You can specify the objects that should be hidden in the "
-#| "<guilabel>Configure Hidden Objects</guilabel> group box."
 msgid ""
 "There are three situations when &kstars; must redraw the sky display very "
 "rapidly: when a new focus position is selected (and <guilabel>Use animated "
@@ -2992,16 +2791,6 @@ msgstr "Masquage"
 #. Tag: para
 #: config.docbook:1363
 #, no-c-format
-#| msgid ""
-#| "Toggle whether the Info Boxes are drawn in the "
-#| "<menuchoice><guimenu>Settings</guimenu><guimenuitem>Info Boxes</"
-#| "guimenuitem></menuchoice> menu. In addition, you can manipulate the three "
-#| "Info Boxes with the mouse. Each box has additional lines of data that are "
-#| "hidden by default. You can toggle whether these additional lines are "
-#| "visible by double-clicking a box to <quote>shade</quote> it. Also, you "
-#| "can reposition a box by dragging it with the mouse. When a box hits a "
-#| "window edge, it will <quote>stick</quote> to the edge when the window is "
-#| "resized."
 msgid ""
 "Toggle whether the Info Boxes are drawn in the "
 "<menuchoice><guimenu>Settings</guimenu> <guisubmenu>Info Boxes</guisubmenu></"
@@ -3031,12 +2820,6 @@ msgstr "Barres d'outils"
 #. Tag: para
 #: config.docbook:1373
 #, no-c-format
-#| msgid ""
-#| "Toggle whether the Toolbars are drawn in the "
-#| "<menuchoice><guimenu>Settings</guimenu><guimenuitem>Toolbars Shown</"
-#| "guimenuitem></menuchoice> menu. Like most KDE toolbars, they can also be "
-#| "dragged around and anchored on any window edge, or even detached from the "
-#| "window completely if they are unlocked."
 msgid ""
 "Toggle whether the Toolbars are drawn in the <menuchoice><guimenu>Settings</"
 "guimenu> <guisubmenu>Toolbars Shown</guisubmenu></menuchoice> submenu. Like "
@@ -3059,12 +2842,6 @@ msgstr "Sélection"
 #. Tag: para
 #: config.docbook:1380
 #, no-c-format
-#| msgid ""
-#| "Select a different color scheme in the <menuchoice><guimenu>Settings</"
-#| "guimenu><guimenuitem>Color Schemes</guimenuitem></menuchoice> menu. There "
-#| "are four predefined color schemes, and you can define your own in the "
-#| "<link linkend=\"config\"><guilabel>Configure &kstars;</guilabel></link> "
-#| "window."
 msgid ""
 "Select a different color scheme in the <menuchoice><guimenu>Settings</"
 "guimenu> <guisubmenu>Color Schemes</guisubmenu></menuchoice> submenu. There "
@@ -3092,17 +2869,6 @@ msgstr "Description"
 #. Tag: para
 #: config.docbook:1388
 #, no-c-format
-#| msgid ""
-#| "Choose an <quote>FOV Symbol</quote> using the "
-#| "<menuchoice><guimenu>Settings</guimenu><guimenuitem>FOV Symbols</"
-#| "guimenuitem></menuchoice> menu. <firstterm>FOV</firstterm> is an acronym "
-#| "for <quote>field-of-view</quote>. An FOV symbol is drawn at the center of "
-#| "the window to indicate where the display is pointing. Different symbols "
-#| "have different angular sizes; you can use a symbol to show what the view "
-#| "through a particular telescope would look like. For example, if you "
-#| "choose the <quote>7x35 Binoculars</quote> FOV symbol, then a circle is "
-#| "drawn on the display that is 9.2 degrees in diameter; this is the field-"
-#| "of-view for 7x35 binoculars."
 msgid ""
 "Choose an <quote>FOV Symbol</quote> using the <menuchoice><guimenu>Settings</"
 "guimenu><guisubmenu>FOV Symbols</guisubmenu></menuchoice> submenu. "
@@ -3198,18 +2964,6 @@ msgstr "Définir un nouveau"
 #. Tag: para
 #: config.docbook:1439
 #, no-c-format
-#| msgid ""
-#| "This window lets you modify the four properties that define a FOV symbol: "
-#| "name, size, shape, and color. The angular size for the symbol can either "
-#| "be entered directly in the <guilabel>Field of View</guilabel> edit box, "
-#| "or you can use the Eyepiece/Camera Tabs to calculate the field-of-view "
-#| "angle, given parameters of your telescope/eyepiece or telescope/camera "
-#| "setup. The four available shapes are: Circle, Square, Crosshairs, and "
-#| "Bullseye. Once you have specified all four parameters, press "
-#| "<guibutton>Ok</guibutton>, and the symbol will appear in the list of "
-#| "defined symbols. It will also be available from the "
-#| "<menuchoice><guimenu>Settings</guimenu><guisubmenu>FOV Symbols</"
-#| "guisubmenu></menuchoice> menu."
 msgid ""
 "This window lets you modify the four properties that define a FOV symbol: "
 "name, size, shape, and color. The angular size for the symbol can either be "
