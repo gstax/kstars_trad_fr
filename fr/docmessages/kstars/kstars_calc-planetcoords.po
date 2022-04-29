@@ -5,10 +5,10 @@
 # Ludovic Grossard <grossard@kde.org>, 2004, 2012.
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2012.
 # Xavier Besnard <xavier.besnard@neuf.fr>, 2021.
-#
+# steve <stax@ik.me>, 2022. 
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_calc-planetcoords\n"
+"Project-Id-Version: kstars_calc-planetcoords_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-28 00:32+0000\n"
 "PO-Revision-Date: 2021-05-24 21:34+0200\n"
@@ -60,15 +60,6 @@ msgstr "Coordonnées des planètes"
 #. Tag: para
 #: calc-planetcoords.docbook:22
 #, no-c-format
-#| msgid ""
-#| "The Planet Coordinates module computes positional data for any major "
-#| "solar system body, for any time and date and any geographic location. "
-#| "Simply select the <guilabel>Solar system body</guilabel> from the drop-"
-#| "down list, and specify the desired date, time, and geographic coordinates "
-#| "(these values are preset to the current &kstars; settings). Then the "
-#| "<link linkend=\"equatorial\">Equatorial</link>, <link linkend=\"horizontal"
-#| "\">Horizontal</link>, and <link linkend=\"ecliptic\">Ecliptic</link> "
-#| "coordinates of the body are computed and displayed."
 msgid ""
 "The Planet Coordinates module computes positional data for any major solar "
 "system body, for any time and date and any geographic location. Simply "
