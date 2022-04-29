@@ -7,13 +7,14 @@
 # Ludovic Grossard <grossard@kde.org>, 2003, 2004, 2012.
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2012.
 # xavier <ktranslator31@yahoo.fr>, 2012.
+# steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_dumpmode\n"
+"Project-Id-Version: kstars_dumpmode_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-22 00:30+0000\n"
 "PO-Revision-Date: 2012-12-08 00:05+0100\n"
-"Last-Translator: xavier <ktranslator31@yahoo.fr>\n"
+"Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -36,11 +37,6 @@ msgstr "Mode Image-dump"
 #. Tag: para
 #: dumpmode.docbook:5
 #, no-c-format
-#| msgid ""
-#| "You can use &kstars; to generate an image of the sky without actually "
-#| "launching the <acronym>GUI</acronym> portion of the program. To use this "
-#| "feature, start &kstars; from a command prompt using arguments to specify "
-#| "the filename for the image, as well as the desired image dimensions:"
 msgid ""
 "You can use &kstars; to generate an image of the sky without actually "
 "launching the &GUI; portion of the program. To use this feature, start "
@@ -101,22 +97,6 @@ msgstr ""
 #. Tag: para
 #: dumpmode.docbook:38
 #, no-c-format
-#| msgid ""
-#| "By default, &kstars; will read in the options values stored in your "
-#| "<filename>$KDEHOME/share/config/kstarsrc</filename> file to determine "
-#| "where the image will be centered, and how it is rendered. This means you "
-#| "need to run &kstars; in normal GUI mode, and exit the program when it is "
-#| "set up with the desired options for the generated images. This is not "
-#| "very flexible, so we also provide the ability to execute a &kstars; "
-#| "&DBus; script to set the scene before generating the image. The filename "
-#| "you specify as the script argument should be a valid &kstars; &DBus; "
-#| "script, such as one created with the <link linkend=\"tool-scriptbuilder"
-#| "\">Script Builder Tool</link>. The script can be used to set where the "
-#| "image is pointing, set the geographic location, set the time and date, "
-#| "change the Zoom level, and adjust other view options. Some of the &DBus; "
-#| "functions make no sense in non-GUI mode (such as <function>waitForKey()</"
-#| "function>); if these functions are encountered while parsing the script, "
-#| "they are simply ignored."
 msgid ""
 "By default, &kstars; will read in the options values stored in your "
 "<filename>$KDEHOME/share/config/kstarsrc</filename> file to determine where "
@@ -153,11 +133,6 @@ msgstr ""
 #. Tag: para
 #: dumpmode.docbook:59
 #, no-c-format
-#| msgid ""
-#| "By default, &kstars; will use the system CPU time and date for generating "
-#| "the image. Alternatively, you may specify a time and date with the "
-#| "<quote>--date</quote> argument. You can also use this argument for "
-#| "specifying the startup date in normal GUI mode."
 msgid ""
 "By default, &kstars; will use the system CPU time and date for generating "
 "the image. Alternatively, you may specify a time and date with the <quote>--"
