@@ -6,13 +6,14 @@
 # Ludovic Grossard <grossard@kde.org>, 2003, 2004, 2013.
 # xavier <ktranslator31@yahoo.fr>, 2012.
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2013.
+# steve <stax@ik.me>, 2022 
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_skycoords\n"
+"Project-Id-Version: kstars_skycoords_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-22 00:30+0000\n"
 "PO-Revision-Date: 2013-02-03 15:09+0100\n"
-"Last-Translator: Ludovic Grossard <grossard@kde.org>\n"
+"Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -141,17 +142,6 @@ msgstr ""
 #. Tag: para
 #: skycoords.docbook:45
 #, no-c-format
-#| msgid ""
-#| "However, there is an important difference between the equatorial and "
-#| "geographic coordinate systems: the geographic system is fixed to the "
-#| "Earth; it rotates as the Earth does. The Equatorial system is fixed to "
-#| "the stars<footnote id=\"fn-precess\"><para>actually, the equatorial "
-#| "coordinates are not quite fixed to the stars. See <link linkend=\"ai-"
-#| "precession\">precession</link>. Also, if <link linkend=\"ai-hourangle"
-#| "\">Hour Angle</link> is used in place of Right Ascension, then the "
-#| "Equatorial system is fixed to the Earth, not to the stars.</para></"
-#| "footnote>, so it appears to rotate across the sky with the stars, but of "
-#| "course it is really the Earth rotating under the fixed sky."
 msgid ""
 "However, there is an important difference between the equatorial and "
 "geographic coordinate systems: the geographic system is fixed to the Earth; "
