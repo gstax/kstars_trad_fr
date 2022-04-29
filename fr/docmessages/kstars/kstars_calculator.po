@@ -5,13 +5,14 @@
 # Delafond <gerard@delafond.org>, 2003, 2004.
 # Ludovic Grossard <grossard@kde.org>, 2004, 2012.
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2012.
+# steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_calculator\n"
+"Project-Id-Version: kstars_calculator_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-28 00:32+0000\n"
 "PO-Revision-Date: 2012-07-18 01:27+0200\n"
-"Last-Translator: Ludovic Grossard <grossard@kde.org>\n"
+"Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -136,10 +137,6 @@ msgstr "Coordonnées des planètes"
 #. Tag: sect1
 #: calculator.docbook:38
 #, no-c-format
-#| msgid ""
-#| "&calc-angdist; &calc-apcoords; &calc-ecliptic; &calc-eqgal; &calc-horiz; "
-#| "&calc-geodetic; &calc-planetcoords; &calc-dayduration; &calc-equinox; "
-#| "&calc-julian; &calc-sidereal;"
 msgid ""
 "&calc-julian; &calc-sidereal; &calc-dayduration; &calc-equinox; &calc-eqgal; "
 "&calc-apcoords; &calc-horiz; &calc-ecliptic; &calc-angdist; &calc-geodetic; "
@@ -148,12 +145,3 @@ msgstr ""
 "&calc-julian; &calc-sidereal; &calc-dayduration; &calc-equinox; &calc-eqgal; "
 "&calc-apcoords; &calc-horiz; &calc-ecliptic; &calc-angdist; &calc-geodetic; "
 "&calc-planetcoords;"
-
-#~ msgid "Earth Coordinates"
-#~ msgstr "Coordonnées terrestres"
-
-#~ msgid "Day Duration"
-#~ msgstr "Durée du jour"
-
-#~ msgid "Precession"
-#~ msgstr "Précession"
