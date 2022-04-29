@@ -9,7 +9,7 @@
 # steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_credits\n"
+"Project-Id-Version: kstars_credits_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-22 00:30+0000\n"
 "PO-Revision-Date: 2022-04-12 15:18+0200\n"
@@ -37,9 +37,6 @@ msgstr "&kstars;"
 #. Tag: para
 #: credits.docbook:5
 #, no-c-format
-#| msgid ""
-#| "Program copyright 2001-2009 The &kstars; Team <email>kstars@30doradus."
-#| "org</email>"
 msgid ""
 "Program copyright 2001-2021 The &kstars; Team <email>mutlaqja@ikarustech."
 "com</email>"
@@ -74,7 +71,6 @@ msgstr "&Pablo.de.Vicente; &Pablo.de.Vicente.mail;"
 #. Tag: para
 #: credits.docbook:18
 #, no-c-format
-#| msgid "Heiko Evermann <email>heiko@evermann.de</email>"
 msgid "&Heiko.Evermann; &Heiko.Evermann.mail;"
 msgstr "&Heiko.Evermann; &Heiko.Evermann.mail;"
 
@@ -93,14 +89,12 @@ msgstr "Mark Hollomon <email>mhh@mindspring.com</email>"
 #. Tag: para
 #: credits.docbook:24
 #, no-c-format
-#| msgid "Carsten Niehaus <email>cniehaus@gmx.de</email>"
 msgid "&Carsten.Niehaus; &Carsten.Niehaus.mail;"
 msgstr "&Carsten.Niehaus; &Carsten.Niehaus.mail;"
 
 #. Tag: para
 #: credits.docbook:26
 #, no-c-format
-#| msgid "Mark Hollomon <email>mhh@mindspring.com</email>"
 msgid "James Bowlin <email>bowlin@mindspring.com</email>"
 msgstr "James Bowlin <email>bowlin@mindspring.com</email>"
 
@@ -125,7 +119,6 @@ msgstr "Akarsh Simha <email>akarsh.simha@kdemail.net</email>"
 #. Tag: para
 #: credits.docbook:34
 #, no-c-format
-#| msgid "Jason Harris <email>kstars@30doradus.org</email>"
 msgid "Jérôme Sonrier <email>jsid@emor3j.fr.eu.org</email>"
 msgstr "Jérôme Sonrier <email>jsid@emor3j.fr.eu.org</email>"
 
@@ -156,7 +149,6 @@ msgstr "Samikshan Bairagya <email>samikshan.bairagya@kdemail.net</email>"
 #. Tag: para
 #: credits.docbook:44
 #, no-c-format
-#| msgid "Jasem Mutlaq <email>mutlaqja@ku.edu</email>"
 msgid "Rafal Kulaga <email>rl.kulaga@gmail.com</email>"
 msgstr "Rafal Kulaga <email>rl.kulaga@gmail.com</email>"
 
@@ -222,16 +214,6 @@ msgstr "<quote>Astronomical Algorithms</quote> par Jean Meeus"
 #. Tag: para
 #: credits.docbook:78
 #, no-c-format
-#| msgid ""
-#| "Special thanks: To the &kde; and &Qt; developers for providing the world "
-#| "with a peerless set of free <acronym>API</acronym> libraries. To the "
-#| "<application>KDevelop</application> team, for their excellent "
-#| "<acronym>IDE</acronym>, which made developing &kstars; so much easier and "
-#| "more fun. To everyone on the <application>KDevelop</application> message "
-#| "board, the &kde; mailing lists, and on irc.kde.org, for answering our "
-#| "frequent questions. Thank you to Anne-Marie Mahfouf, for inviting "
-#| "&kstars; to join the &kde;-Edu module. Finally, thanks to everyone who "
-#| "has submitted bug reports and other feedback. Thank you, everyone."
 msgid ""
 "Special thanks: To the &kde; and &Qt; developers for providing the world "
 "with a peerless set of free <acronym>API</acronym> libraries. To the "
@@ -255,9 +237,6 @@ msgstr ""
 #. Tag: para
 #: credits.docbook:89
 #, no-c-format
-#| msgid ""
-#| "Documentation copyright 2001-2003 Jason Harris and the KStars Team "
-#| "<email>kstars@30doradus.org</email>"
 msgid ""
 "Documentation copyright 2001-2021 &Jason.Harris; and the &kstars; Team "
 "<email>kstars-devel AT kde.org</email>"
@@ -270,7 +249,8 @@ msgstr ""
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
-"<para>Traduction: l'équipe de traduction francophone de kde <email>kde-francophone@kde.org</email></para>"
+"<para>Traduction: l'équipe de traduction francophone de kde <email>kde-"
+"francophone@kde.org</email></para>"
 
 #. Tag: chapter
 #: credits.docbook:94
