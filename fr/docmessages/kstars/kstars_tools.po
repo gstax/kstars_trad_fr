@@ -8,7 +8,7 @@
 # steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_tools\n"
+"Project-Id-Version: kstars_tools_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-22 00:30+0000\n"
 "PO-Revision-Date: 2022-04-10 08:24+0200\n"
@@ -24,7 +24,6 @@ msgstr ""
 #. Tag: title
 #: tools.docbook:2
 #, no-c-format
-#| msgid "KStars Tools"
 msgid "&kstars; Tools"
 msgstr "Outils de &kstars;"
 
@@ -65,7 +64,6 @@ msgstr "Élévation selon l'heure"
 #. Tag: link
 #: tools.docbook:13
 #, no-c-format
-#| msgid "What's Up Tonight?"
 msgid "What's up Tonight?"
 msgstr "Dans le ciel cette nuit"
 
@@ -114,10 +112,6 @@ msgstr "Afficheur FITS"
 #. Tag: chapter
 #: tools.docbook:21
 #, no-c-format
-#| msgid ""
-#| "&tool-details; &tool-calculator; &tool-altvstime; &tool-whatsup; &tool-"
-#| "scriptbuilder; &tool-solarsys; &tool-jmoons; &tool-obsplanner; &tool-"
-#| "fitsviewer;"
 msgid ""
 "&tool-details; &tool-calculator; &tool-altvstime; &tool-eyepieceview; &tool-"
 "whatsup; &tool-scriptbuilder; &tool-solarsys; &tool-ekos; &tool-jmoons; "
@@ -126,9 +120,3 @@ msgstr ""
 "&tool-details; &tool-calculator; &tool-altvstime; &tool-eyepieceview; &tool-"
 "whatsup; &tool-scriptbuilder; &tool-solarsys; &tool-ekos; &tool-jmoons; "
 "&tool-obsplanner; &tool-fitsviewer;"
-
-#~ msgid "AAVSO Lightcurves"
-#~ msgstr "Courbes de luminosité de l'AAVSO"
-
-#~ msgid "Observing List Tool"
-#~ msgstr "Outil de liste d'observations"
