@@ -6,14 +6,14 @@
 # Ludovic Grossard <grossard@kde.org>, 2003, 2004, 2012.
 # xavier <ktranslator31@yahoo.fr>, 2012.
 # Xavier Besnard <xavier.besnard@neuf.fr>, 2021.
-#
+# steve <stax@ik.me>, 2022 
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_lightcurves\n"
+"Project-Id-Version: kstars_lightcurves_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-22 00:30+0000\n"
 "PO-Revision-Date: 2021-05-24 21:35+0200\n"
-"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
+"Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -73,14 +73,6 @@ msgstr "Introduction"
 #. Tag: para
 #: lightcurves.docbook:34
 #, no-c-format
-#| msgid ""
-#| "&kstars; can display light curves for variable stars from the observing "
-#| "program of the <ulink url=\"http://www.aavso.org\">American Association "
-#| "of Variable Star Observers</ulink> (<abbrev>AAVSO</abbrev>). This program "
-#| "monitors over 6,000 variable stars and consists of 10 million "
-#| "observations going back almost a century. &kstars; downloads the very "
-#| "latest data directly from the <abbrev>AAVSO</abbrev> database via the "
-#| "Internet, so a network connection is required to use this tool."
 msgid ""
 "&kstars; can display light curves for variable stars from the observing "
 "program of the <ulink url=\"https://www.aavso.org\">American Association of "
