@@ -6,14 +6,14 @@
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2012.
 # xavier <ktranslator31@yahoo.fr>, 2012.
 # Xavier Besnard <xavier.besnard@neuf.fr>, 2021.
-#
+# steve <stax@ik.me>, 2022
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_calc-equinox\n"
+"Project-Id-Version: kstars_calc-equinox_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-28 00:32+0000\n"
 "PO-Revision-Date: 2021-05-15 17:47+0200\n"
-"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
+"Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -75,14 +75,6 @@ msgstr ""
 #. Tag: para
 #: calc-equinox.docbook:29
 #, no-c-format
-#| msgid ""
-#| "There is a batch mode for this module. To use it, simply generate an "
-#| "input file whose lines each contain a year for which the Equinox and "
-#| "Solstice data will be computed. Then specify the input and output "
-#| "filenames, and press the <guibutton>Compute</guibutton> button to "
-#| "generate the output file. Each line in the output file contains the input "
-#| "year and the date of each event. You can also read the output directly in "
-#| "&kstars; by pressing the <guibutton>View output</guibutton> button."
 msgid ""
 "There is a batch mode for this module. To use it, simply generate an input "
 "file whose lines each contain a year for which the Equinox and Solstice data "

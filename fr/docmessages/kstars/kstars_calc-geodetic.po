@@ -5,13 +5,14 @@
 # Delafond <gerard@delafond.org>, 2003.
 # Ludovic Grossard <grossard@kde.org>, 2004, 2012.
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2012.
+# steve <stax@ik.me>, 2022
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_calc-geodetic\n"
+"Project-Id-Version: kstars_calc-geodetic_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-28 00:32+0000\n"
 "PO-Revision-Date: 2012-07-18 01:47+0200\n"
-"Last-Translator: Ludovic Grossard <grossard@kde.org>\n"
+"Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -58,16 +59,6 @@ msgstr "Coordonnées géodésiques"
 #. Tag: para
 #: calc-geodetic.docbook:22
 #, no-c-format
-#| msgid ""
-#| "The normal <link linkend=\"ai-geocoords\">geographic coordinate system</"
-#| "link> assumes that the Earth is a perfect sphere. This is nearly true, so "
-#| "for most purposes geographic coordinates are fine. If very high precision "
-#| "is required, then we must take the true shape of the Earth into account. "
-#| "The Earth is an ellipsoid; the distance around the equator is about 0.3% "
-#| "longer than a <link linkend=\"ai-greatcircle\">Great Circle</link> that "
-#| "passes through the poles. The <firstterm>Geodetic Coordinate system</"
-#| "firstterm> takes this ellipsoidal shape into account, and expresses the "
-#| "position on the Earth's surface in Cartesian coordinates (X, Y, and Z)."
 msgid ""
 "The normal <link linkend=\"ai-geocoords\">geographic coordinate system</"
 "link> assumes that the Earth is a perfect sphere. This is nearly true, so "
@@ -94,14 +85,6 @@ msgstr ""
 #. Tag: para
 #: calc-geodetic.docbook:36
 #, no-c-format
-#| msgid ""
-#| "To use the module, first select which coordinates you will use as input "
-#| "in the <guilabel>Select Input Coordinates</guilabel> section. Then select "
-#| "an ellipsoid model and fill in the input coordinates in either the "
-#| "<guilabel>Cartesian Coordinates</guilabel> section or the "
-#| "<guilabel>Geographic Coordinates</guilabel> section. When you press the "
-#| "<guibutton>Convert</guibutton> button, the corresponding coordinates will "
-#| "be filled in."
 msgid ""
 "To use the module, first select which coordinates you will use as input in "
 "the <guilabel>Select Input Coordinates</guilabel> section: "

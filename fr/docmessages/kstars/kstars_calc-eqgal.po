@@ -5,14 +5,14 @@
 # Ludovic Grossard <grossard@kde.org>, 2004, 2012.
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2012.
 # Xavier Besnard <xavier.besnard@neuf.fr>, 2021.
-#
+# steve <stax@ik.me>, 2022
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_calc-eqgal\n"
+"Project-Id-Version: kstars_calc-eqgal_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-28 00:32+0000\n"
 "PO-Revision-Date: 2021-05-24 21:43+0200\n"
-"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
+"Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -60,14 +60,6 @@ msgstr "Coordonnées équatoriales / galactiques"
 #. Tag: para
 #: calc-eqgal.docbook:22
 #, no-c-format
-#| msgid ""
-#| "This module converts from <link linkend=\"equatorial\">Equatorial "
-#| "coordinates</link> to <link linkend=\"galactic\">Galactic coordinates</"
-#| "link>, and vice versa. Fill in the coordinate values in either the "
-#| "<guilabel>Galactic coordinates</guilabel> or <guilabel>Equatorial "
-#| "coordinates</guilabel> section. Alternatively set the equatorial "
-#| "coordinates by selecting an object using the <guilabel>Find Object</"
-#| "guilabel> dialog. Then the complementary coordinates will be filled in."
 msgid ""
 "This module converts from <link linkend=\"equatorial\">Equatorial "
 "coordinates</link> to <link linkend=\"galactic\">Galactic coordinates</"
