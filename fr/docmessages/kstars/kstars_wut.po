@@ -7,7 +7,7 @@
 # steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_wut\n"
+"Project-Id-Version: kstars_wut_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-28 00:32+0000\n"
 "PO-Revision-Date: 2022-04-10 08:15+0200\n"
@@ -23,7 +23,6 @@ msgstr ""
 #. Tag: title
 #: wut.docbook:2
 #, no-c-format
-#| msgid "<title>What's Up Tonight? Tool</title>"
 msgid "<title>What's up Tonight? Tool</title>"
 msgstr "<title>Dans le ciel cette nuit</title>"
 
@@ -36,34 +35,24 @@ msgstr "Outils"
 #. Tag: secondary
 #: wut.docbook:4
 #, no-c-format
-#| msgid "<secondary>What's Up Tonight? Tool</secondary>"
 msgid "<secondary>What's up Tonight? Tool</secondary>"
 msgstr "<secondary>Outil « Dans le ciel cette nuit »</secondary>"
 
 #. Tag: screeninfo
 #: wut.docbook:8
 #, no-c-format
-#| msgid "The What's Up Tonight Tool"
 msgid "The What's up Tonight Tool"
 msgstr "L'outil « Dans le ciel cette nuit »"
 
 #. Tag: phrase
 #: wut.docbook:16
 #, no-c-format
-#| msgid "What's Up Tonight?"
 msgid "What's up Tonight?"
 msgstr "Dans le ciel cette nuit"
 
 #. Tag: para
 #: wut.docbook:21
 #, no-c-format
-#| msgid ""
-#| "The <quote>What's Up Tonight?</quote> (WUT) tool displays a list of "
-#| "objects that will be visible at night from any location, on any date. By "
-#| "default, the Date and Location are taken from the current settings in the "
-#| "main window, but you can change either value using the <guibutton>Change "
-#| "Date</guibutton> and <guibutton>Change Location</guibutton> buttons at "
-#| "the top of the WUT window."
 msgid ""
 "The <quote>What's up Tonight?</quote> (WUT) tool displays a list of objects "
 "that will be visible at night from any location, on any date. By default, "
@@ -76,9 +65,9 @@ msgstr ""
 "d'objets qui seront visibles la nuit à n'importe quel endroit et n'importe "
 "quelle date. Par défaut, les date et emplacement sont pris dans les réglages "
 "courants de la fenêtre principale, mais vous pouvez changer leur valeur, en "
-"utilisant les boutons <guibutton>Changer la date…</guibutton> et "
-"<guibutton>Changer d'emplacement…</guibutton> en haut de la fenêtre « Dans "
-"le ciel cette nuit »."
+"utilisant les boutons <guibutton>Changer la date&hellip;</guibutton> et "
+"<guibutton>Changer d'emplacement&hellip;</guibutton> en haut de la fenêtre "
+"« Dans le ciel cette nuit »."
 
 #. Tag: para
 #: wut.docbook:29
@@ -95,19 +84,6 @@ msgstr ""
 #. Tag: para
 #: wut.docbook:34
 #, no-c-format
-#| msgid ""
-#| "Below the almanac is where the object information is displayed. The "
-#| "objects are organized into type categories. Select an object type in the "
-#| "box labeled <guilabel>Select a Category</guilabel>, and all objects of "
-#| "that type which are above the horizon on the selected night will be "
-#| "displayed in the box labeled <guilabel>Matching Objects</guilabel>. For "
-#| "example, in the screenshot, the <guilabel>Planets</guilabel> category has "
-#| "been selected, and four planets which are up on the selected night are "
-#| "displayed (Mars, Neptune, Pluto, and Uranus). When an object in the list "
-#| "is selected, its rise, set and transit times are displayed in the lower-"
-#| "right panel. In addition, you can press the <guibutton>Object Details...</"
-#| "guibutton> button to open the <link linkend=\"tool-details\">Object "
-#| "Details window</link> for that object."
 msgid ""
 "Below the almanac is where the object information is displayed. The objects "
 "are organized into type categories. Select an object type in the box labeled "
@@ -133,18 +109,12 @@ msgstr ""
 "liste est sélectionné, ses lever, transit et coucher sont affichés dans le "
 "panneau en bas à droite (&ie; Mars se lève à 17:13, transite à 21:46 et se "
 "couche à 02:16). De plus, vous pouvez actionner le bouton <guibutton>Détail "
-"de l'objet…</guibutton> pour ouvrir la <link linkend=\"tool-details"
+"de l'objet&hellip;</guibutton> pour ouvrir la <link linkend=\"tool-details"
 "\">fenêtre des informations détaillées</link> pour cet objet."
 
 #. Tag: para
 #: wut.docbook:50
 #, no-c-format
-#| msgid ""
-#| "By default, the WUT will display objects which are above the horizon "
-#| "between sunset and midnight (i.e., <quote>in the evening</quote>). You "
-#| "can choose to show objects which are up between midnight and dawn "
-#| "(<quote>in the morning</quote>), or between dusk and dawn (<quote>any "
-#| "time tonight</quote>) using the combobox near the top of the window."
 msgid ""
 "By default, the WUT will display objects which are above the horizon between "
 "sunset and midnight (&ie; <quote>in the evening</quote>). You can choose to "
