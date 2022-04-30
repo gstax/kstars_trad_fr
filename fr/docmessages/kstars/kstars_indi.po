@@ -104,7 +104,7 @@ msgid ""
 "<guilabel>Local</guilabel>: The local mode is the most common and is used to "
 "control local device (&ie; a device attached to your machine)."
 msgstr ""
-"<guilabel>local</guilabel> : le mode local est le plus commun et sert à "
+"<guilabel>Local</guilabel> : le mode local est le plus commun et sert à "
 "contrôler le matériel local (&ie; attaché à votre machine)."
 
 #. Tag: para
@@ -115,7 +115,7 @@ msgid ""
 "a particular device and waits for connections from remote clients. You "
 "cannot operate server devices, you can only start and shut them down."
 msgstr ""
-"<guilabel>serveur</guilabel> : le mode serveur établit un serveur INDI pour "
+"<guilabel>Serveur</guilabel> : le mode serveur établit un serveur INDI pour "
 "un matériel particulier et attend les connexions des clients distants. Vous "
 "ne pouvez pas manipuler les périphériques serveurs, vous ne pouvez que les "
 "démarrer et les arrêter."
@@ -128,7 +128,7 @@ msgid ""
 "INDI servers running INDI devices. You can control remote devices seamlessly "
 "like local devices."
 msgstr ""
-"<guilabel>client</guilabel> : le mode client sert à se connecter à des "
+"<guilabel>Client</guilabel> : le mode client sert à se connecter à des "
 "serveurs INDI faisant fonctionner des périphériques INDI. Vous pouvez "
 "contrôler des périphériques sans peine comme des périphériques locaux."
 
@@ -197,7 +197,7 @@ msgid ""
 "To control remote devices, refer to the <link linkend=\"indi-remote-control"
 "\">remote device control</link> section."
 msgstr ""
-"Pour contrôler les périphériques distants, référez-vous à la section <link "
+"Pour contrôler les périphériques distants, veuillez vous référer à la section <link "
 "linkend=\"indi-remote-control\">contrôle de périphérique distant</link>."
 
 #. Tag: title
@@ -219,10 +219,10 @@ msgid ""
 msgstr ""
 "La plupart des télescopes sont équipés d'une interface <hardware>RS232</"
 "hardware> pour la télécommande. Connectez la prise RS232 de votre télescope "
-"dans la prise <hardware>série / USB</hardware> de votre ordinateur. "
+"dans la prise <hardware>série</hardware> ou <hardware>USB</hardware> de votre ordinateur. "
 "Habituellement, le RS232 se connecte au port série de votre ordinateur, "
 "mais, comme beaucoup de nouveaux portables ont abandonné le port série en "
-"faveur de ports <hardware>USB / Firewire</hardware>, vous pouvez avoir "
+"faveur de ports de type <hardware>USB</hardware> et <hardware>Firewire</hardware>, vous pouvez avoir "
 "besoin de vous procurer un adaptateur USB pour utilisation avec les nouveaux "
 "portables."
 
@@ -234,7 +234,7 @@ msgid ""
 "on. It is <emphasis>highly</emphasis> recommended that you download and "
 "install the latest firmware for your telescope controller."
 msgstr ""
-"Après avoir connecté votre télescope au port Série / USB, allumez votre "
+"Après avoir connecté votre télescope au port <hardware>Série</hardware> ou <hardware>USB</hardware>, allumez votre "
 "télescope. Il est <emphasis>hautement</emphasis> recommandé de télécharger "
 "et installer le firmware (logiciel embarqué) le plus récent pour votre "
 "contrôleur de télescope."
@@ -425,7 +425,7 @@ msgid ""
 "Here is a screenshot of the popup menu with an active LX200 Classic device:"
 msgstr ""
 "Voici une capture d'écran du menu contextuel avec un périphérique actif "
-"LX200 Classic :"
+"LX200 Classic :"
 
 #. Tag: screeninfo
 #: indi.docbook:191
@@ -440,7 +440,7 @@ msgid ""
 "<guilabel>INDI Control Panel</guilabel>: The panel offers the user with all "
 "the features supported by a device."
 msgstr ""
-"<guilabel>Tableau de bord INDI</guilabel> : le tableau de bord offre à "
+"<guilabel>Panneau de contrôle INDI</guilabel> : ce panneau de contrôle offre à "
 "l'utilisateur toutes les fonctions gérées par un périphérique."
 
 #. Tag: para
@@ -500,7 +500,7 @@ msgstr ""
 #: indi.docbook:238
 #, no-c-format
 msgid "INDI Control Panel"
-msgstr "Tableau de bord INDI"
+msgstr "Panneau de contrôle INDI"
 
 #. Tag: para
 #: indi.docbook:248
@@ -514,7 +514,7 @@ msgstr ""
 "Vous n'êtes pas limité à l'utilisation d'une interface par le chevauchement, "
 "car les deux peuvent être utilisées simultanément. Les actions de "
 "<guilabel>Carte du ciel</guilabel> sont reflétés automatiquement dans le "
-"<guilabel>Tableau de bord INDI</guilabel> et vice versa."
+"<guilabel>Panneau de contrôle INDI</guilabel> et vice versa."
 
 #. Tag: para
 #: indi.docbook:253
@@ -528,7 +528,7 @@ msgstr ""
 "Pour connecter votre télescope, vous pouvez soit sélectionner "
 "<guimenuitem>Connecter</guimenuitem> du menu contextuel des périphériques, "
 "soit actionner <guibutton>Connecter</guibutton> sous votre onglet de "
-"périphérique dans le <guilabel>Tableau de bord INDI</guilabel>."
+"périphérique dans le <guilabel>Panneau de contrôle INDI</guilabel>."
 
 #. Tag: para
 #: indi.docbook:258
@@ -585,7 +585,7 @@ msgid ""
 "item."
 msgstr ""
 "Si &kstars; réussit à communiquer avec le télescope, il retrouvera "
-"l'<abbrev>AD</abbrev> et la <abbrev>Déc</abbrev> courantes depuis le "
+"l'<abbrev>AD</abbrev> et la <abbrev>DEC</abbrev> courantes depuis le "
 "télescope et affichera une croix sur la carte du ciel, indiquant la position "
 "du télescope. Vous pouvez masquer la croix qui indique la position depuis le "
 "menu <menuchoice><guimenu>Configurations</guimenu> <guimenuitem>Configurer "
@@ -664,12 +664,12 @@ msgid ""
 "skymap. The device can be controlled fully from the <guimenuitem>INDI "
 "Control Panel...</guimenuitem> item."
 msgstr ""
-"Vous pouvez lancer des périphériques CCD et de capture vidéo depuis le menu "
+"Vous pouvez lancer les périphériques d'acquisition CCD et vidéo depuis le menu "
 "<menuchoice><guimenu>Périphériques</guimenu> <guimenuitem>Gestionnaire de "
 "périphériques</guimenuitem></menuchoice>. Comme tous les périphériques INDI, "
 "certains des contrôles seront accessibles depuis la carte du ciel. Le "
-"périphérique peut être contrôlé pleinement depuis le <guimenuitem>Tableau de "
-"bord INDI…</guimenuitem>."
+"périphérique peut être contrôlé pleinement depuis le <guimenuitem>Panneau de contrôle "
+"INDI…</guimenuitem>."
 
 #. Tag: para
 #: indi.docbook:315
@@ -679,8 +679,8 @@ msgid ""
 "downloaded, it will be automatically displayed in the &kstars; <link linkend="
 "\"tool-fitsviewer\">FITS Viewer</link>."
 msgstr ""
-"Le format standard pour la capture d'images est FITS. Une fois qu'une image "
-"est capturée et téléchargée, elle sera affichée dans <link linkend=\"tool-"
+"Le format standard pour la capture d'images est FITS. Une fois l'une image "
+"acquise et téléchargée, elle sera affichée dans <link linkend=\"tool-"
 "fitsviewer\">l'afficheur FITS</link> de &kstars;."
 
 #. Tag: title
@@ -718,7 +718,7 @@ msgstr ""
 "<guimenuitem>Configurer &kstars;</guimenuitem></menuchoice> de cette page. "
 "La fenêtre est divisée en plusieurs catégories principales : général, mises "
 "à jour des périphériques automatique, affichage, source de mise à jour, roue "
-"à filtres  et port du serveur : "
+"à filtres et port du serveur : "
 
 #. Tag: guilabel
 #: indi.docbook:334
@@ -985,7 +985,7 @@ msgid ""
 "Nevertheless, all properties share common features that constrains how they "
 "are displayed and used:"
 msgstr ""
-"Le tableau de bord INDI offre beaucoup de propriétés de périphériques "
+"Le panneau de contrôle INDI offre beaucoup de propriétés de périphériques "
 "inaccessibles de la carte du ciel. Les propriétés offertes diffèrent d'un "
 "périphérique à l'autre. Néanmoins, toutes les propriétés partagent des "
 "fonctionnalités communes qui déterminent comment elles sont affichées et "
@@ -1130,7 +1130,7 @@ msgid ""
 msgstr ""
 "Le pilote de périphérique met à jour l'état de propriété en temps réel "
 "lorsque nécessaire. Par exemple, si le télescope est dans le processus de "
-"mouvement oblique vers une cible, alors les propriétés d'AD et de Déc seront "
+"mouvement oblique vers une cible, alors les propriétés d'AD et de DEC seront "
 "signalées comme <guilabel>Occupé</guilabel>. Quand le processus de "
 "déplacement oblique est terminé avec succès, les propriétés seront signalées "
 "comme <guilabel>Ok</guilabel>."
@@ -1146,7 +1146,7 @@ msgid ""
 msgstr ""
 "Contexte : les propriétés numériques peuvent accepter et traiter des nombres "
 "en deux formats : décimal et sexagésimal. Le format sexagésimal est pratique "
-"lors de l'expression d'heures ou coordonnées équatoriales / galactiques. "
+"lors de l'expression d'heures ou coordonnées équatoriales/galactiques. "
 "Vous pouvez utiliser n'importe quel format selon vos besoins. Par exemple, "
 "tous les nombres suivants sont égaux :"
 
@@ -1181,7 +1181,7 @@ msgstr ""
 "Heure : l'heure standard pour toutes les communications en relation avec "
 "INDI est l'heure UTC, spécifié en AAAA-MM-JJTHH:MM:SS selon la norme ISO "
 "8601. &kstars; communique l'heure UTC correcte avec les pilotes de "
-"périphériques automatiquement. Vous pouvez activer / désactiver la mise à "
+"périphériques automatiquement. Vous pouvez activer/désactiver la mise à "
 "jour automatique de l'heure depuis la page <guilabel>INDI</guilabel> de la "
 "boîte de dialogue de configuration."
 
@@ -1232,9 +1232,9 @@ msgid ""
 msgstr ""
 "<guilabel>Serveur</guilabel> : pour préparer un matériel pour le contrôle "
 "distant, suivez les mêmes étapes que dans le réglage <link linkend=\"indi-"
-"kstars-setup\">local / serveur</link>. Lorsque vous lancez un service de "
+"kstars-setup\">local/serveur</link>. Lorsque vous lancez un service de "
 "matériel dans le <guilabel>gestionnaire de périphériques</guilabel>, un "
-"numéro de port s'affiche sous la colonne <guilabel>Port pour écouter</"
+"numéro de port s'affiche sous la colonne <guilabel>Port d'écoute</"
 "guilabel>. En plus du numéro de port, vous avez aussi besoin du nom d'hôte "
 "ou adresse IP de votre serveur."
 
@@ -1255,7 +1255,7 @@ msgstr ""
 "périphériques</guimenuitem></menuchoice> et cliquez sur l'onglet "
 "<guilabel>Client</guilabel>. Vous pouvez ajouter, modifier ou supprimer des "
 "hôtes sous l'onglet <guilabel>Client</guilabel>. Ajoutez un hôte en cliquant "
-"sur le bouton <guibutton>Ajouter</guibutton>. Donnez un nom d'hôte / adresse "
+"sur le bouton <guibutton>Ajouter</guibutton>. Donnez un nom d'hôte ou une adresse "
 "IP sur le serveur dans le champ <guilabel>Hôte</guilabel> et donnez le "
 "numéro de port obtenu de la machine <emphasis>serveur</emphasis> dans "
 "l'étape 1."
@@ -1281,8 +1281,8 @@ msgstr ""
 "à <guimenuitem>connecter</guimenuitem> ou <guimenuitem>déconnecter</"
 "guimenuitem>. Si une connexion est établie, vous pouvez contrôler le "
 "télescope depuis la <guilabel>Carte du ciel</guilabel> ou le "
-"<guilabel>tableau de bord INDI</guilabel> exactement comme décrit dans la "
-"section <link linkend=\"indi-kstars-setup\">local / serveur</link>. c'est "
+"<guilabel>panneau de contrôle INDI</guilabel> exactement comme décrit dans la "
+"section <link linkend=\"indi-kstars-setup\">local/serveur</link>. C'est "
 "aussi facile que ça."
 
 #. Tag: title
@@ -1434,7 +1434,7 @@ msgid ""
 "[<filename>driver</filename>...]"
 msgstr ""
 "$ <command>indiserver</command> -p <varname>remote-port</varname> "
-"[<filename>driver</filename>...]"
+"[<filename>driver</filename>…]"
 
 #. Tag: para
 #: indi.docbook:587
@@ -1475,7 +1475,7 @@ msgstr "&FAQ;"
 #: indi.docbook:605
 #, no-c-format
 msgid "What is INDI?"
-msgstr "Qu'est INDI ?"
+msgstr "Qu'est qu'INDI ?"
 
 #. Tag: para
 #: indi.docbook:608
@@ -1635,7 +1635,7 @@ msgid ""
 "telescope is not connected to the serial/USB port. What can I do?"
 msgstr ""
 "Lorsque j'essaye de <guibutton>connecter</guibutton>, &kstars; rapporte que "
-"le télescope n'est pas connecté au port série / USB. Que puis-je faire ?"
+"le télescope n'est pas connecté au port série/USB. Que puis-je faire ?"
 
 #. Tag: para
 #: indi.docbook:702
@@ -1664,7 +1664,7 @@ msgid ""
 "Check the connection cable, make sure it is in good condition and test it "
 "with other applications."
 msgstr ""
-"vérifiez la connexion du câble, assurez-vous qu'il est en bon état et testez-"
+"vérifiez la connexion du câble et assurez-vous qu'il est en bon état et testez-"
 "le avec d'autres applications."
 
 #. Tag: para
@@ -1674,7 +1674,7 @@ msgid ""
 "Check your telescope power, make sure the power is on and that the telescope "
 "is getting enough power."
 msgstr ""
-"vérifiez l'alimentation de votre télescope, assurez-vous que le contact est "
+"vérifiez l'alimentation de votre télescope et assurez-vous que le contact est "
 "mis et que le télescope reçoit assez d'énergie."
 
 #. Tag: para
@@ -1695,7 +1695,7 @@ msgstr ""
 #: indi.docbook:721
 #, no-c-format
 msgid "Restart &kstars; and retry again."
-msgstr "redémarrez &kstars; et réessayez."
+msgstr "Redémarrez &kstars; et réessayez."
 
 #. Tag: para
 #: indi.docbook:729
@@ -1719,9 +1719,9 @@ msgid ""
 "current target. You can use the right-click menu to center and track the "
 "telescope crosshair in the sky map."
 msgstr ""
-"&kstars; trouve les coordonnées AD et Déc du télescope en connexion. Si "
+"&kstars; trouve les coordonnées AD et DEC du télescope en connexion. Si "
 "votre alignement a été effectué correctement, vous pouvez voir la croix près "
-"de votre cible dans la carte du ciel. Cependant, les coordonnées AD et Déc "
+"de votre cible dans la carte du ciel. Cependant, les coordonnées AD et DEC "
 "fournies par le télescope peuvent être incorrectes (même sous l'horizon) et "
 "vous avez besoin de <link linkend=\"indi-sync\">synchroniser</link> votre "
 "télescope vers votre cible courante. Vous pouvez utiliser le menu contextuel "
@@ -1761,8 +1761,8 @@ msgid ""
 "constant>)."
 msgstr ""
 "Le mode d'alignement du télescope est-il correct ? Utilisez le "
-"<guilabel>tableau de bord INDI</guilabel> pour le vérifier et changez ces "
-"réglages (<constant>Alt / Az, Polar, Land</constant>)."
+"<guilabel>panneau de contrôle INDI</guilabel> pour le vérifier et changez ces "
+"réglages (<constant>Alt/Az, Polar, Land</constant>)."
 
 #. Tag: para
 #: indi.docbook:758
@@ -1787,7 +1787,7 @@ msgstr "Le calage UTC du télescope est-il correct ?"
 #: indi.docbook:767
 #, no-c-format
 msgid "Are the telescope's RA and DEC axis locked firmly?"
-msgstr "Les axes d'AD et de Déc du télescope sont-ils bien verrouillés ?"
+msgstr "Les axes d'AD et de DEC du télescope sont-ils bien verrouillés ?"
 
 #. Tag: para
 #: indi.docbook:770
@@ -1796,7 +1796,7 @@ msgid ""
 "Is the telescope's N/S switch (when applicable) setup correctly for your "
 "hemisphere?"
 msgstr ""
-"Le réglage d'inverseur N / S de télescope (lorsque applicable) est-il "
+"Le réglage d'inverseur N/S de télescope (lorsque applicable) est-il "
 "correctement effectué pour votre hémisphère ?"
 
 #. Tag: para
