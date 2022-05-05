@@ -102,10 +102,10 @@ msgstr ""
 "Il n'est pas pratique de faire défiler la liste au complet lorsque vous "
 "cherchez une ville parmi 3 400. Pour faciliter la recherche, la liste peut "
 "être filtrée en saisissant du texte dans les boîtes sous la carte. Par "
-"exemple, dans la capture d'écran, le texte <userinput>A</userinput> apparaît "
+"exemple, dans la capture d'écran, le texte <userinput>P</userinput> apparaît "
 "dans la boîte <guilabel>Filtre des villes</guilabel>, tandis que le texte "
-"<userinput>Te</userinput> apparaît dans la boîte <guilabel>Filtre par "
-"provinces</guilabel> et <userinput>USA</userinput> dans la boîte "
+"<userinput>Py</userinput> apparaît dans la boîte <guilabel>Filtre par "
+"provinces</guilabel> et <userinput>France</userinput> dans la boîte "
 "<guilabel>Filtre des pays</guilabel>. Ainsi, notez que les villes qui "
 "apparaissent maintenant dans la liste possèdent des noms de ville, "
 "département et pays qui commencent par les lettres utilisées dans le filtre, "
@@ -170,9 +170,9 @@ msgstr ""
 "la liste. Lors des prochaines sessions, &kstars; chargera vos emplacements "
 "en même temps que les autres. Notez qu'à ce stade, la seule façon de "
 "supprimer un emplacement personnalisé est de supprimer la ligne appropriée à "
-"partir du fichier <filename>ikstars/mycities.dat</filename> dans votre "
+"partir du fichier <filename>kstars/mycities.dat</filename> dans votre "
 "répertoire <userinput><command>qtpaths</command> <option>--paths "
-"GenericDataLocation</option></userinput>/nbsp;."
+"GenericDataLocation</option></userinput>&nbsp;."
 
 #. Tag: para
 #: config.docbook:71
@@ -227,7 +227,7 @@ msgstr ""
 "d'outils <guiicon>Arrêter l'horloge</guiicon>. Vous pouvez faire avancer "
 "l'horloge plus vite ou moins vite que la normale, ou même la faire reculer, "
 "en utilisant le compteur de pas de temps dans la barre d'outils. Ce compteur "
-"dispose de deux jeux de boutons haut / bas. Le premier circule parmi les 83 "
+"dispose de deux jeux de boutons haut/bas. Le premier circule parmi les 83 "
 "pas disponibles, un par un. Le deuxième sautera vers l'unité de temps "
 "suivante plus haute (ou plus basse), ce qui permet de faire de grands "
 "changements plus rapidement."
@@ -536,8 +536,7 @@ msgid ""
 "link>."
 msgstr ""
 "Pour une explication détaillée des options sur <guilabel>Ekos</guilabel>, "
-"veuillez vous reporter à la section <link linkend=\"tool-ekos\">Section Ekos "
-"de ce manuel</link>."
+"veuillez vous reporter à la section <link linkend=\"tool-ekos\">Section Ekos</link> de ce manuel."
 
 #. Tag: secondary
 #: config.docbook:235
@@ -554,7 +553,7 @@ msgid ""
 "renderer Xplanet</ulink> (should be installed separately)."
 msgstr ""
 "La page <guilabel>Xplanet</guilabel> fournit un contrôle détaillé du <ulink "
-"url=\"http ://xplanet.sourceforge.net\">rendu des surfaces des planètes du "
+"url=\"http ://xplanet.sourceforge.net\">rendu de la surface des planètes du "
 "système solaire par Xplanet</ulink> (à installer séparément)."
 
 #. Tag: secondary
@@ -853,7 +852,7 @@ msgstr "12,5 - 16,5"
 #: config.docbook:369
 #, no-c-format
 msgid "Deep-sky objects Catalogs"
-msgstr "Catalogues des objets profonds"
+msgstr "Catalogues des objets du ciel profond"
 
 #. Tag: entry
 #: config.docbook:383
@@ -1042,7 +1041,7 @@ msgstr ""
 #: config.docbook:481
 #, no-c-format
 msgid "The DSO Catalog Database"
-msgstr "La base de données du catalogue du CP"
+msgstr "La base de données du catalogue du ciel profond (CP)"
 
 #. Tag: primary
 #: config.docbook:482 config.docbook:484 config.docbook:546 config.docbook:711
@@ -1177,7 +1176,7 @@ msgstr ""
 #: config.docbook:545
 #, no-c-format
 msgid "The Catalog Management &GUI;"
-msgstr "L'interface graphique de gestion des catalogues (&GUI;)"
+msgstr "L'interface graphique de gestion des catalogues"
 
 #. Tag: secondary
 #: config.docbook:547
@@ -1504,7 +1503,7 @@ msgstr ""
 #: config.docbook:710
 #, no-c-format
 msgid "<title>Catalog Color Editor</title>"
-msgstr "<title>Modificateur de couleur de catalogue</title>"
+msgstr "<title>Modifier la couleur d'un catalogue</title>"
 
 #. Tag: secondary
 #: config.docbook:712
@@ -1561,7 +1560,7 @@ msgstr "<secondary>Boîte de dialogue des détails de catalogue</secondary>"
 #: config.docbook:742
 #, no-c-format
 msgid "Catalog details dialog"
-msgstr "Boîte de dialogue des détails de catalogue"
+msgstr "Les détails d'un catalogue"
 
 #. Tag: phrase
 #: config.docbook:748
@@ -1675,7 +1674,7 @@ msgstr ""
 #: config.docbook:820
 #, no-c-format
 msgid "<title>Adding/Editing Objects</title>"
-msgstr "<title>Ajout/Modification des objets</title>"
+msgstr "<title>Ajout et modification des objets</title>"
 
 #. Tag: secondary
 #: config.docbook:822
@@ -1708,14 +1707,14 @@ msgid ""
 "in."
 msgstr ""
 "Cette boîte de dialogue permet de créer ou de modifier un objet du ciel "
-"profond (CP). La section <guilabel>Rudiments</guilabel> contient les champs "
+"profond (CP). La section <guilabel>Essentiel</guilabel> contient les champs "
 "qui doivent être remplis."
 
 #. Tag: guilabel
 #: config.docbook:843
 #, no-c-format
 msgid "Name:"
-msgstr "Nom :"
+msgstr "Nom"
 
 #. Tag: para
 #: config.docbook:844
@@ -1727,7 +1726,7 @@ msgstr "Le nom de l'objet qui sera affiché dans le ciel."
 #: config.docbook:848
 #, no-c-format
 msgid "Type:"
-msgstr "Type :"
+msgstr "Type"
 
 #. Tag: para
 #: config.docbook:849
@@ -1739,7 +1738,7 @@ msgstr "Le type de l'objet."
 #: config.docbook:853
 #, no-c-format
 msgid "RA / Dec (°, J2000):"
-msgstr "AD/DEC (°, J2000) :"
+msgstr "AD/DEC (°, J2000)"
 
 #. Tag: para
 #: config.docbook:854
@@ -1752,7 +1751,7 @@ msgstr "Les coordonnées de l'objet en degrés et par rapport à l'époque J2000
 #: config.docbook:858
 #, no-c-format
 msgid "Apparent magnitude:"
-msgstr "Magnitude apparente :"
+msgstr "Magnitude apparente"
 
 #. Tag: para
 #: config.docbook:859
@@ -1793,7 +1792,7 @@ msgstr "La sous-section <guilabel>Divers</guilabel>"
 #: config.docbook:878
 #, no-c-format
 msgid "Long name:"
-msgstr "Nom long :"
+msgstr "Nom long"
 
 #. Tag: para
 #: config.docbook:879
@@ -1817,7 +1816,7 @@ msgstr ""
 #: config.docbook:884
 #, no-c-format
 msgid "Catalog identifier:"
-msgstr "Identifiant du catalogue :"
+msgstr "Identifiant du catalogue"
 
 #. Tag: para
 #: config.docbook:885
@@ -1839,7 +1838,7 @@ msgstr ""
 #: config.docbook:890
 #, no-c-format
 msgid "Flux:"
-msgstr "Flux :"
+msgstr "Flux"
 
 #. Tag: para
 #: config.docbook:891
@@ -1851,7 +1850,7 @@ msgstr "Le flux de l'objet. Ne s'applique qu'aux sources radio."
 #: config.docbook:895
 #, no-c-format
 msgid "Position angle (°):"
-msgstr "Angle de position (°) :"
+msgstr "Angle de position (°)"
 
 #. Tag: para
 #: config.docbook:896
@@ -1937,11 +1936,11 @@ msgid ""
 msgstr ""
 "Dans la partie du haut à droite vous pouvez choisir si les coordonnées sont "
 "exprimées en degrés ou en heure/minute/seconde. La section "
-"<guilabel>Cartographie</guilabel> vous permet de faire correspondre les "
+"<guilabel>Correspondance</guilabel> vous permet de faire correspondre les "
 "colonnes du fichier CSV avec les champs de données dans &kstars;. Choisir "
 "<guilabel>Par défaut</guilabel> assignera la valeur par défaut pour ce "
 "champ. Si vous indiquez votre propre texte, celui-ci sera utilisé comme "
-"valeur pour chaque objet lu. La section <guilabel>Cartographie par type</"
+"valeur pour chaque objet lu. La section <guilabel>Type de correspondance</"
 "guilabel> fait correspondre des chaînes au type de l'objet. Vous pouvez "
 "ajouter ou retirer des correspondances en cliquant sur <guilabel>+</"
 "guilabel> ou <guilabel>-</guilabel>. Lorsque vous avez terminé, vous pouvez "
@@ -2087,7 +2086,7 @@ msgstr ""
 "satellites, vous devez cocher la case du groupe. Vous pouvez aussi "
 "sélectionner les satellites d'intérêt dans chaque groupe. Les orbites des "
 "satellites peuvent être mises à jour par internet en cliquant sur le bouton "
-"<guibutton>Mise à jour TLEs</guibutton>. Une autre manière de mettre à jour "
+"<guibutton>Mise à jour TLE</guibutton> (Two-Line elements ou paramètres orbitaux à deux lignes). Une autre manière de mettre à jour "
 "les orbites est d'utiliser le menu <menuchoice><guimenu>Données</guimenu> "
 "<guimenuitem>Mise à jour des orbites des satellites</guimenuitem></"
 "menuchoice>. Si vous connaissez le nom d'un satellite, vous pouvez utiliser "
@@ -2146,7 +2145,7 @@ msgid ""
 msgstr ""
 "La page <guilabel>Supernovae</guilabel> vous permet de choisir si les "
 "supernovae sont affichées ou non en cochant la case <guilabel>Afficher "
-"supernovae</guilabel>. Par défaut les supernovae sont dessinées comme de "
+"les supernovae</guilabel>. Par défaut les supernovae sont dessinées comme de "
 "petit <quote>+</quote> de couleur orange clair. Comme pour les satellites, "
 "la couleur des supernovae peut facilement être modifiée sur la page des "
 "<guilabel>Couleurs</guilabel>."
@@ -2210,12 +2209,12 @@ msgid ""
 msgstr ""
 "L'onglet <guilabel>Guides</guilabel> vous permet de (dés)activer l'affichage "
 "des éléments qui ne sont pas des objets célestes (&ie; les lignes des "
-"constellations, noms des constellations, contour de la Voie Lactée, <link "
-"linkend=\"ai-cequator\">équateur céleste</link>, <link linkend=\"ai-ecliptic"
-"\">écliptique</link>, <link linkend=\"ai-horizon\">ligne d'horizon</link> et "
+"constellations, les noms des constellations, le contour de la Voie Lactée, l'<link "
+"linkend=\"ai-cequator\">équateur céleste</link>, l'<link linkend=\"ai-ecliptic"
+"\">écliptique</link>, la <link linkend=\"ai-horizon\">ligne d'horizon</link> et "
 "le sol opaque). Vous pouvez aussi choisir si vous préférez voir les noms "
 "latins des constellations, les abréviations standard <acronym>IAU</acronym> "
-"à trois lettres ou les noms des constellations dans votre langue locale."
+"à trois lettres ou les noms des constellations dans votre langue."
 
 #. Tag: title
 #: config.docbook:1106
@@ -2242,7 +2241,7 @@ msgid ""
 "The <guilabel>Terrain</guilabel> page lets you configure whether the terrain "
 "(landscape) image will be shown on the skymap."
 msgstr ""
-"L'onglet des <guilabel>Terrain</guilabel> vous permet de choisir si l'image "
+"La page <guilabel>Terrain</guilabel> vous permet de choisir si l'image "
 "du terrain sera affichée sur la carte du ciel."
 
 #. Tag: para
@@ -2263,7 +2262,7 @@ msgstr ""
 "régions transparentes qui laissera passer la carte du ciel et d'autres "
 "opaques qui représentent les arbres, les bâtiments et le paysage autour du "
 "télescope. Un format particulier est requis pour cette image qui demande "
-"d'ailleurs un effort significatif à créer. Il existe beaucoup de resources "
+"d'ailleurs un effort significatif à créer. Il existe beaucoup d'informations "
 "sur le web expliquant la manière de faire pour <ulink url=\"https://"
 "stellarium.org/landscapes.html\">Stellarium</ulink>. Les détails de la "
 "création d'image sont les mêmes que pour &kstars;."
@@ -2355,7 +2354,7 @@ msgid ""
 "The <guilabel>Colors</guilabel> page allows you to set the color scheme, and "
 "to define custom color schemes. The tab is split into two panels:"
 msgstr ""
-"L'onglet des <guilabel>couleurs</guilabel> vous permet de définir le thème "
+"La page <guilabel>couleurs</guilabel> vous permet de définir le thème "
 "de couleur, et de définir des thèmes de couleurs personnalisés. Cette "
 "section est séparée en deux :"
 
@@ -2402,10 +2401,10 @@ msgid ""
 msgstr ""
 "Sur la droite se trouvent des modèles de couleurs prédéfinis. Quatre modèles "
 "existent déjà : <guilabel>par défaut</guilabel>, <guilabel>Carte du ciel</"
-"guilabel> (étoiles noires sur fond blanc),<guilabel>Vision Nocturne</"
+"guilabel> (étoiles noires sur fond blanc), <guilabel>Vision Nocturne</"
 "guilabel> (étoiles de teinte rouge pour protéger les yeux adaptés à "
 "l'obscurité) et <guilabel>Nuit sans Lune</guilabel>, un thème sombre plus "
-"réaliste. Vous pouvez ajouter votre propre modèles en cliquant sur "
+"réaliste. Vous pouvez ajouter votre propre modèle en cliquant sur "
 "<guibutton>Enregistrer sous…</guibutton>. On vous demandera alors un nom "
 "descriptif, puis ce modèle apparaîtra dans la liste lors des sessions "
 "futures de &kstars;. Pour supprimer un modèle personnalisé, surlignez-le "
@@ -2447,8 +2446,8 @@ msgid ""
 msgstr ""
 "<abbrev>FITS</abbrev> (Flexible Image Transport System) est un standard "
 "ouvert pour l'enregistrement, la transmission et le traitement de données "
-"digitales. Pour les détails on peut se référer à la page <ulink url="
-"\"https://fr.wikipedia.org/wiki/FITS\">correspondante sur Wikipedia</ulink>. "
+"digitales. Pour les détails on peut se référer à la page correspondante sur <ulink url="
+"\"https://fr.wikipedia.org/wiki/FITS\">Wikipedia</ulink>. "
 "Cette section vous permet de configurer la présentation et le traitement de "
 "données FITS dans &kstars;."
 
@@ -2457,7 +2456,7 @@ msgstr ""
 #, no-c-format
 msgid "The left panel is for configuring FITS viewer itself."
 msgstr ""
-"Le panneau de gauche est pour la configuration de l'afficheur FITS lui-même."
+"Le panneau de gauche permet la configuration de l'afficheur FITS lui-même."
 
 #. Tag: para
 #: config.docbook:1209
@@ -2466,7 +2465,7 @@ msgid ""
 "Check the <guilabel>Use FITS viewer</guilabel> item if you want "
 "automatically display received images in the FITS Viewer."
 msgstr ""
-"Veuillez vérifier l'élément <guilabel>Utiliser l'afficheur FITS</guilabel> "
+"Veuillez cocher la case <guilabel>Utiliser l'afficheur FITS</guilabel> "
 "si vous souhaitez afficher automatiquement les images FITS reçues dans "
 "l'afficheur FITS."
 
@@ -2483,11 +2482,11 @@ msgid ""
 "of a dedicated window to each file and the <guilabel>Independent window</"
 "guilabel> item is to make FITS Viewer window independent from &kstars;."
 msgstr ""
-"L'onglet <guilabel>Affichage unique</guilabel> permet d'afficher toutes les "
-"images FITS dans un seul onglet plutôt que de multiples onglet par image. "
-"L'élément <guilabel>Fenêtre unique</guilabel> permet d'afficher toutes les "
+"La case <guilabel>Onglet d'affichage simple</guilabel> permet d'afficher toutes les "
+"images FITS dans un seul onglet plutôt que de multiples onglets par image. "
+"La case <guilabel>Fenêtre d'acquisition unique</guilabel> permet d'afficher toutes les "
 "images FITS de toutes les caméras dans une seule fenêtre plutôt que dans une "
-"fenêtre dédiée pour chaque caméra. L'élément <guilabel>Ouvrir fenêtre "
+"fenêtre dédiée pour chaque caméra. La case <guilabel>Ouverture d'une fenêtre "
 "unique</guilabel> permet d'afficher les images FITS ouvertes dans une "
 "fenêtre d'affichage FITS unique plutôt que dans une fenêtre dédiée à chaque "
 "fichier et enfin <guilabel>Fenêtre indépendante</guilabel> permet de "
@@ -2509,19 +2508,19 @@ msgid ""
 "be processed; only grayscale images are shown). You can switch off some of "
 "these resource-greedy operations separately as well."
 msgstr ""
-"Le panneau de droite liste les options de traitement. <guilabel>Auto-"
-"étirement</guilabel> permet de toujours appliquer un auto-étirement sur les "
-"images FITS dans l'afficheur FITS, <guilabel>Mode de resources limitées</"
-"guilabel> active le mode de resources limitées qui éteint toute opération de "
-"resources intensives : <guilabel>Auto débayérisation</guilabel> (les images "
+"Le panneau de droite liste les options de traitement. <guilabel> "
+"Étirement automatique</guilabel> permet de toujours appliquer un étirement automatique sur les "
+"images dans l'afficheur FITS, <guilabel>Mode avec resources limitées</"
+"guilabel> active le mode de resources limitées qui désactive toute opération demandant "
+"des ressources intensives : <guilabel>Filtre de Bayer automatique</guilabel> (les images "
 "brutes ne seront pas dématricées, seulement les images grises seront "
-"affichées), <guilabel>Auto WCS</guilabel> (les données WCS ne seront pas "
+"affichées), <guilabel>WCS automatique</guilabel> (les données WCS ne seront pas "
 "traitées) ; les coordonnées du ciel de la carte WCS vers les coordonnées de "
 "l'image ; les lignes de la grille équatoriale, les identifiants d'objet et "
 "la fonction de pivotage du télescope seront désactivées), et <guilabel>Cube "
 "3D</guilabel> (les images RGB ne seront pas traitées, seules les images "
-"grises seront affichées). Vous pouvez éteindre certaines de ces opérations "
-"gourmandes en resources également."
+"grises seront affichées). Vous pouvez également désactiver certaines de ces opérations "
+"gourmandes en puissance de calcul."
 
 #. Tag: title
 #: config.docbook:1227
