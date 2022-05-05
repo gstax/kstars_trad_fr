@@ -285,8 +285,8 @@ msgid ""
 "Local color scheme file could not be opened.\n"
 "Scheme cannot be recorded."
 msgstr ""
-"Le fichier de schéma de couleurs local est introuvable.\n"
-"Il est impossible d'enregistrer le schéma."
+"Le fichier de modèle de couleurs local est introuvable.\n"
+"Il est impossible d'enregistrer le modèle."
 
 #: auxiliary/colorscheme.cpp:286
 #, kde-format
@@ -294,8 +294,8 @@ msgid ""
 "Local color scheme index file could not be opened.\n"
 "Scheme cannot be recorded."
 msgstr ""
-"Il est impossible d'ouvrir le fichier d'index de schémas de couleurs local.\n"
-"Il n'est pas possible d'enregistrer le schéma."
+"Il est impossible d'ouvrir le fichier d'index de modèle de couleurs local.\n"
+"Il n'est pas possible d'enregistrer le modèle."
 
 #: auxiliary/filedownloader.cpp:94
 #, kde-format
@@ -2255,7 +2255,7 @@ msgstr "Précédent"
 #: dialogs/addcatalogobject.ui:14
 #, kde-format
 msgid "Add/Edit DSO"
-msgstr "Ajouter/ Modifier un objet du CP"
+msgstr "Ajouter/Modifier un objet du CP"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: dialogs/addcatalogobject.ui:20
@@ -2649,7 +2649,7 @@ msgstr "Il est impossible d'insérer de nouvelles couleurs.<br>"
 #: dialogs/catalogcoloreditor.ui:14
 #, kde-format
 msgid "Catalog Colors"
-msgstr "Catalogue de couleurs"
+msgstr "Couleurs de catalogue"
 
 #. i18n: ectx: property (text), widget (QLabel, catalogName)
 #: dialogs/catalogcoloreditor.ui:23
@@ -2746,19 +2746,19 @@ msgstr "Entrée"
 #: dialogs/catalogcsvimport.ui:50
 #, kde-format
 msgid "lines"
-msgstr "lignes"
+msgstr " premières lignes"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: dialogs/catalogcsvimport.ui:77
 #, kde-format
 msgid "Skip first:"
-msgstr "Ignorer d'abord:"
+msgstr "Ignorer les "
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: dialogs/catalogcsvimport.ui:84
 #, kde-format
 msgid "Separator:"
-msgstr "Séparateur:"
+msgstr "Séparateur "
 
 #. i18n: ectx: property (text), widget (QLineEdit, comment_prefix)
 #: dialogs/catalogcsvimport.ui:109
@@ -2776,7 +2776,7 @@ msgstr ","
 #: dialogs/catalogcsvimport.ui:151
 #, kde-format
 msgid "Select/Read..."
-msgstr "Sélectionner/Lire…"
+msgstr "Sélectionner"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: dialogs/catalogcsvimport.ui:158
@@ -3041,7 +3041,7 @@ msgstr "Couleur"
 #: kstarslite/qml/dialogs/menus/LocationsGeoMenu.qml:70
 #, kde-format, kde-kuit-format
 msgid "Edit"
-msgstr "&Édition"
+msgstr "&Choisir"
 
 #. i18n: ectx: property (text), widget (QTableWidget, solutionTable)
 #. i18n: ectx: property (text), widget (QLabel, label_14)
@@ -25897,7 +25897,7 @@ msgstr "Afficher automatiquement les images reçues dans l'afficheur FITS"
 #: fitsviewer/opsfits.ui:54
 #, kde-format
 msgid "Use FITS viewer"
-msgstr "Utiliser un afficheur FITS"
+msgstr "Utiliser l'afficheur FITS"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_singlePreviewFITS)
 #. i18n: ectx: whatsthis, entry (singlePreviewFITS), group (FITSViewer)
@@ -25914,7 +25914,7 @@ msgstr ""
 #: fitsviewer/opsfits.ui:70
 #, kde-format
 msgid "Single preview tab"
-msgstr "Onglet d'aperçu simple"
+msgstr "Onglet d'aperçu unique"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_singleWindowCapturedFITS)
 #: fitsviewer/opsfits.ui:80
@@ -25946,7 +25946,7 @@ msgstr ""
 #: fitsviewer/opsfits.ui:102
 #, kde-format
 msgid "Single window open"
-msgstr "Ouverture simple d'une fenêtre"
+msgstr "Ouverture d'une fenêtre unique"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_focusFITSOnNewImage)
 #: fitsviewer/opsfits.ui:112
@@ -26018,7 +26018,7 @@ msgstr "Aperçu de l'étirement"
 #: fitsviewer/opsfits.ui:197
 #, kde-format
 msgid "Processing"
-msgstr "Traitement en cours"
+msgstr "Traitement"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoStretch)
 #: fitsviewer/opsfits.ui:203
@@ -26090,7 +26090,7 @@ msgstr ""
 #: fitsviewer/opsfits.ui:226
 #, kde-format
 msgid "Auto debayer"
-msgstr "Filtre automatique de Bayer"
+msgstr "Filtre de Bayer automatique"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoWCS)
 #: fitsviewer/opsfits.ui:236
@@ -26436,7 +26436,7 @@ msgstr "Zoom automatique suivant déplacement des curseurs."
 #: fitsviewer/starprofileviewer.cpp:250
 #, kde-format
 msgid "Changes the color scheme"
-msgstr "Modifie le schéma de couleurs."
+msgstr "Modifie le modèle de couleurs."
 
 #: fitsviewer/starprofileviewer.cpp:504 fitsviewer/starprofileviewer.cpp:704
 #, kde-format
@@ -27267,7 +27267,7 @@ msgstr "Port vidéo INDI par défaut"
 #: indi/opsindi.ui:68
 #, kde-format
 msgid "INDI server:"
-msgstr "Serveur INDI"
+msgstr "Serveur INDI "
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_indiServer)
 #: indi/opsindi.ui:75
@@ -27285,33 +27285,33 @@ msgstr "Les pilotes INDI sont internes au paquet de l'application."
 #: indi/opsindi.ui:105
 #, kde-format
 msgid "INDI drivers XML directory:"
-msgstr "Dossier XML des pilotes INDI"
+msgstr "Répertoire XML des pilotes INDI "
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_indiDriversDir)
 #: indi/opsindi.ui:112
 #, kde-format
 msgid "Path to the INDI drivers XML directory"
-msgstr "Emplacement vers le dossier XML des pilotes INDI"
+msgstr "Chemin vers le répertoire des fichiers de configuration XML des pilotes INDI"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: indi/opsindi.ui:154
 #, kde-format
 msgid "INDIHub agent:"
-msgstr "Agent « INDIHub »"
+msgstr "Agent INDIHub "
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, fitsLabel)
 #: indi/opsindi.ui:193
 #, kde-format
 msgid "Specify where new FITS images are saved once captured and downloaded"
 msgstr ""
-"Indiquer où sont enregistrées les nouvelles images FITS une fois capturées "
+"Indiquer où sont enregistrées les nouvelles images FITS une fois acquises "
 "et téléchargées"
 
 #. i18n: ectx: property (text), widget (QLabel, fitsLabel)
 #: indi/opsindi.ui:196
 #, kde-format
 msgid "Default FITS directory:"
-msgstr "Dossier FITS par défaut"
+msgstr "Répertoire FITS par défaut "
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, autoGroup)
 #: indi/opsindi.ui:240
@@ -27327,7 +27327,7 @@ msgstr ""
 #: indi/opsindi.ui:243
 #, kde-format
 msgid "Time && Location Updates"
-msgstr "Mises à jour du temps et de l'emplacement"
+msgstr "Mises à jour de l'heure et de l'emplacement"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_useKStarsSource)
 #: indi/opsindi.ui:251
@@ -27421,7 +27421,7 @@ msgstr ""
 #: indi/opsindi.ui:319
 #, kde-format
 msgid "GPS updates KStars"
-msgstr "KStars synchronisé par GPS"
+msgstr "KStars est synchronisé par le GPS"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox)
 #: indi/opsindi.ui:344
@@ -27437,7 +27437,7 @@ msgstr ""
 #: indi/opsindi.ui:370
 #, kde-format
 msgid "Transfer buffer (MB):"
-msgstr "Transférer le tampon (Mo)"
+msgstr "Tampon de transfert (Mo)"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: indi/opsindi.ui:377
@@ -28126,7 +28126,7 @@ msgstr "Affichage dans Xplanet"
 #: kspopupmenu.cpp:446
 #, kde-format
 msgid "View in What's Interesting"
-msgstr "Affichage de « Quoi de neuf ! » "
+msgstr "Digne d'intérêt"
 
 #: kspopupmenu.cpp:459
 #, kde-format
@@ -30540,7 +30540,7 @@ msgstr ""
 #: kstars.kcfg:899 kstars.kcfg:900
 #, kde-format
 msgid "The name of the color scheme"
-msgstr "Le nom du schéma de couleurs"
+msgstr "Le nom du modèle de couleurs"
 
 #. i18n: ectx: label, entry (StarColorMode), group (Colors)
 #: kstars.kcfg:904
@@ -62863,19 +62863,19 @@ msgid ""
 "uses a white background. Would you like to temporarily switch to the Star "
 "Chart color scheme for printing?"
 msgstr ""
-"Vous pouvez économiser l'encre de votre imprimante grâce au schéma de "
+"Vous pouvez économiser l'encre de votre imprimante grâce au modèle de "
 "couleurs « Carte du ciel », qui utilise un fond blanc. Voulez-vous passer "
-"temporairement au schéma de couleurs « Carte du ciel » pour imprimer ?"
+"temporairement au modèle de couleurs « Carte du ciel » pour imprimer ?"
 
 #: kstarsactions.cpp:1390
 #, kde-format
 msgid "Switch to Star Chart Colors?"
-msgstr "Passer en carte du ciel en couleurs ?"
+msgstr "Passer en couleurs carte du ciel ?"
 
 #: kstarsactions.cpp:1391
 #, kde-format
 msgid "Switch Color Scheme"
-msgstr "Changer de carte de couleurs"
+msgstr "Changer de modèle de couleurs"
 
 #: kstarsactions.cpp:1391
 #, kde-format
@@ -63341,7 +63341,7 @@ msgstr "Afficher le champ J2000.0 AD/DEC"
 #: kstarsinit.cpp:337
 #, kde-format
 msgid "C&olor Schemes"
-msgstr "&Schémas de couleurs"
+msgstr "&Modèles de couleurs"
 
 #: kstarsinit.cpp:338
 #, kde-format
@@ -63687,12 +63687,12 @@ msgstr "Afficher / Cacher les supernovae"
 #, kde-format
 msgctxt "Toggle What's Interesting"
 msgid "What's Interesting"
-msgstr "Quoi de neuf !"
+msgstr "Digne d'intérêt"
 
 #: kstarsinit.cpp:600
 #, kde-format
 msgid "Toggle What's Interesting"
-msgstr "Basculer vers « Quoi de neuf ! »"
+msgstr "Basculer vers « Digne d'intérêt »"
 
 #: kstarsinit.cpp:605
 #, kde-format
@@ -64471,7 +64471,7 @@ msgstr "Systèmes de projection"
 #: kstarslite/qml/main.qml:431
 #, kde-kuit-format
 msgid "Color Schemes"
-msgstr "Schémas de couleurs"
+msgstr "Modèles de couleurs"
 
 #: kstarslite/qml/main.qml:432
 #, kde-kuit-format
@@ -69799,7 +69799,7 @@ msgstr "Nuit sans Lune"
 #, kde-format
 msgctxt "use realistic star colors"
 msgid "Real Colors"
-msgstr "Couleurs naturelles"
+msgstr "Couleurs réalistes"
 
 #: options/opscolors.cpp:88
 #, kde-format
@@ -69828,12 +69828,12 @@ msgstr "Couleurs naturelles"
 #: options/opscolors.cpp:209
 #, kde-format
 msgid "New Color Scheme"
-msgstr "Nouveau schéma de couleurs"
+msgstr "Nouveau modèle de couleurs"
 
 #: options/opscolors.cpp:209
 #, kde-format
 msgid "Enter a name for the new color scheme:"
-msgstr "Saisissez un nom pour le nouveau schéma de couleurs :"
+msgstr "Saisissez un nom pour le nouveau modèle de couleurs :"
 
 #: options/opscolors.cpp:253
 #, kde-format
@@ -69841,8 +69841,8 @@ msgid ""
 "Local color scheme index file could not be opened.\n"
 "Scheme cannot be removed."
 msgstr ""
-"Il est impossible d'ouvrir le fichier local d'index de schémas de couleurs.\n"
-"Il n'est pas possible de supprimer le schéma."
+"Il est impossible d'ouvrir le fichier local d'index de modèle de couleurs.\n"
+"Il n'est pas possible de supprimer le modèle."
 
 #: options/opscolors.cpp:287
 #, kde-format
@@ -69862,13 +69862,13 @@ msgstr "Il est impossible de trouver un élément nommé « %1 » dans colors.
 #: options/opscolors.cpp:301
 #, kde-format
 msgid "Scheme Not Found"
-msgstr "Schéma de couleurs introuvable"
+msgstr "Modèle de couleurs introuvable"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: options/opscolors.ui:32
 #, kde-format
 msgid "Current Scheme Colors"
-msgstr "Couleurs actuelles du schéma"
+msgstr "Couleurs du modèle actuel"
 
 #. i18n: ectx: property (toolTip), widget (QListWidget, ColorPalette)
 #: options/opscolors.ui:53
@@ -69938,7 +69938,7 @@ msgstr ""
 "les étoiles sont des cercles dotés d'un cœur blanc et d'un bord teinté pour "
 "refléter la couleur réelle de l'étoile. Vous pouvez aussi choisir de "
 "dessiner les étoiles sous la forme de cercles blancs, rouges ou noirs "
-"opaques, pour correspondre aux besoins de l'ensemble de votre schéma de "
+"opaques, pour correspondre aux besoins de l'ensemble de votre modèle de "
 "couleurs."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
@@ -69969,13 +69969,13 @@ msgstr ""
 #: options/opscolors.ui:186
 #, kde-format
 msgid "Preset Color Schemes"
-msgstr "Schémas de couleurs prédéfinis"
+msgstr "Modèles de couleurs prédéfinis"
 
 #. i18n: ectx: property (toolTip), widget (QListWidget, PresetBox)
 #: options/opscolors.ui:192
 #, kde-format
 msgid "List of preset color schemes"
-msgstr "Liste des schémas de couleurs prédéfinis"
+msgstr "Liste des modèles de couleurs prédéfinis"
 
 #. i18n: ectx: property (whatsThis), widget (QListWidget, PresetBox)
 #: options/opscolors.ui:195
@@ -69984,7 +69984,7 @@ msgid ""
 "List of all known color schemes.  Several are provided by default, and you "
 "may also define your own."
 msgstr ""
-"Liste de tous les schémas de couleurs connus. Plusieurs sont fournis par "
+"Liste de tous les modèles de couleurs connus. Plusieurs sont fournis par "
 "défaut, et vous pouvez aussi définir les vôtres."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, AddPreset)
@@ -69992,7 +69992,7 @@ msgstr ""
 #, kde-format
 msgid "Create a new preset color scheme using current settings"
 msgstr ""
-"Créer un nouveau schéma de couleurs prédéfini utilisant les réglages actuels"
+"Créer un nouveau modèle de couleurs prédéfini utilisant les réglages actuels"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, AddPreset)
 #: options/opscolors.ui:214
@@ -70003,8 +70003,8 @@ msgid ""
 "list of presets, and will also be available in the \"Settings\" menu of the "
 "main window."
 msgstr ""
-"Après avoir changé les couleurs en un schéma qui vous convient, cliquez sur "
-"ce bouton pour créer un nouveau schéma utilisant ces couleurs. Votre schéma "
+"Après avoir changé les couleurs en un modèle qui vous convient, cliquez sur "
+"ce bouton pour créer un nouveau modèle utilisant ces couleurs. Votre modèle "
 "apparaîtra ici dans la liste des présélections et sera également disponible "
 "dans le menu « Configuration » de la fenêtre principale."
 
@@ -70018,7 +70018,7 @@ msgstr "Enregistrer sous…"
 #: options/opscolors.ui:224
 #, kde-format
 msgid "Remove a preset color scheme"
-msgstr "Supprimer un schéma de couleurs prédéfini"
+msgstr "Supprimer un modèle de couleurs prédéfini"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, RemovePreset)
 #: options/opscolors.ui:227
@@ -70027,8 +70027,8 @@ msgid ""
 "Press this button to remove the highlighted color scheme.  This will only "
 "work on your custom color schemes."
 msgstr ""
-"Cliquez sur ce bouton pour supprimer le schéma de couleurs surligné. Ce "
-"réglage ne fonctionnera que sur vos schémas de couleurs personnalisés."
+"Cliquez sur ce bouton pour supprimer le modèle de couleurs surligné. Ce "
+"réglage ne fonctionnera que sur vos modèles de couleurs personnalisés."
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: options/opscolors.ui:239
@@ -70500,7 +70500,7 @@ msgstr "Afficher les objets du Système solaire"
 #: options/opssolarsystem.ui:42
 #, kde-format
 msgid "Sun, Moon && Planets"
-msgstr "Soleil, Lune et Planètes"
+msgstr "Soleil, Lune et planètes"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowSaturn)
 #: options/opssolarsystem.ui:50
@@ -70611,7 +70611,7 @@ msgstr ""
 #: options/opssolarsystem.ui:127
 #, kde-format
 msgid "Select None"
-msgstr "Ne rien sélectionner"
+msgstr "Tout désélectionner"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowVenus)
 #: options/opssolarsystem.ui:134
@@ -70850,7 +70850,7 @@ msgstr ""
 #: options/opssolarsystem.ui:516
 #, kde-format
 msgid "Auto online update"
-msgstr "Mise-à-jour automatique en ligne"
+msgstr "Mise à jour en ligne automatique"
 
 #. i18n: ectx: property (title), widget (QGroupBox, TrailsBox)
 #: options/opssolarsystem.ui:541
@@ -71434,7 +71434,7 @@ msgstr ""
 #: printing/pwizfovconfig.ui:126
 #, kde-format
 msgid "Use \"Sky Chart\" color scheme"
-msgstr "Utiliser le schéma de couleurs de la « Carte du Ciel »"
+msgstr "Utiliser le modèle de couleurs de la « Carte du Ciel »"
 
 #. i18n: ectx: property (text), widget (QCheckBox, overrideShapeBox)
 #: printing/pwizfovconfig.ui:136
@@ -71531,7 +71531,7 @@ msgid ""
 msgstr ""
 "Configurer la capture du champ de vision pour étoiles filantes : "
 "sélectionnez l’objet) partir duquel commencera l'étoile filante, puis "
-"sélectionnez le symbole du champ de vision(FOV) et la limite de magnitude."
+"sélectionnez le symbole du champ de vision (FOV) et la limite de magnitude."
 
 #. i18n: ectx: property (text), widget (QLabel, label1)
 #: printing/pwizfovsh.ui:116
@@ -73116,8 +73116,8 @@ msgid ""
 "\t\t</p>\n"
 "\t\n"
 msgstr ""
-"\t\t<p>KStars est un puissant outil d'ordonnanceur d'observations \n"
-"\t\t\t (Ctrl + L). L'ordonnanceur vous aide à définir \n"
+"\t\t<p>KStars est un puissant outil de planification d'observations \n"
+"\t\t\t (Ctrl + L). Le planificateur vous aide à définir \n"
 "\t\t\t une liste d'objets que vous aimeriez\n"
 "\t\t\t observer. Il vous permet ensuite d'en sélectionner certains\n"
 "\t\t\t pour planifier une session d'observations.\n"
@@ -73373,9 +73373,9 @@ msgid ""
 "\t\t</p>\n"
 "\t\n"
 msgstr ""
-"\t\t<p>Vous pouvez facilement basculer entre les schémas de couleurs "
+"\t\t<p>Vous pouvez facilement basculer entre les modèles de couleurs "
 "prédéfinis en sélectionnant\n"
-"\t\t\tle schéma de couleurs depuis le menu « Configuration / Schémas de "
+"\t\t\tle Modèle de couleurs depuis le menu « Configuration/Modèles de "
 "couleurs ».\n"
 "\t\t</p>\n"
 "\t\n"
@@ -73414,11 +73414,11 @@ msgid ""
 "\t\t</p>\n"
 "\t\n"
 msgstr ""
-"\t\t<p>Vous pouvez définir vos propres schémas de couleurs. Ajustez les "
+"\t\t<p>Vous pouvez définir vos propres modèles de couleurs. Ajustez les "
 "couleurs\n"
 "\t\t\tdans l'onglet « Couleurs » de la fenêtre de configuration, puis "
 "cliquez sur le\n"
-"\t\t\tle bouton « Enregistrer les couleurs actuelles ». Votre schéma de "
+"\t\t\tle bouton « Enregistrer les couleurs actuelles ». Votre modèle de "
 "couleurs apparaîtra sur\n"
 "\t\t\tla liste lors de toutes les sessions futures.\n"
 "\t\t</p>\n"
@@ -77383,7 +77383,7 @@ msgstr "Associe la couleur nommée %1 à la valeur %2."
 #: tools/scriptbuilder.cpp:225
 #, kde-format
 msgid "Load the color scheme specified by name."
-msgstr "Charge le schéma de couleurs spécifié par nom."
+msgstr "Charge le modèle de couleurs spécifié par nom."
 
 #: tools/scriptbuilder.cpp:228
 #, kde-format
