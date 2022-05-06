@@ -5382,7 +5382,7 @@ msgid ""
 "Tabs to compute an angular size for specific eyepieces or cameras."
 msgstr ""
 "Saisissez la taille angulaire souhaitée pour l'indicateur de champ de vision "
-"(FOV).\n"
+"(CdV).\n"
 "\n"
 "Vous pouvez soit indiquer une valeur directement, soit utiliser les onglets "
 "Oculaire ou Caméra pour calculer une taille angulaire pour des oculaires ou "
@@ -5445,7 +5445,7 @@ msgid ""
 "\n"
 "Circle, Square, Crosshairs, Bullseye."
 msgstr ""
-"Sélectionnez une forme pour l'indicateur de champ de vision (FOV). Les "
+"Sélectionnez une forme pour l'indicateur de champ de vision (CdV). Les "
 "formes possibles sont:\n"
 "\n"
 "cercle, carré, croix, œil-de-bœuf."
@@ -5487,7 +5487,7 @@ msgstr "Cercle semi-transparent"
 #: dialogs/newfov.ui:1290
 #, kde-format
 msgid "Shape:"
-msgstr "Forme:"
+msgstr "Forme"
 
 #: dialogs/timedialog.cpp:39
 #, kde-format
@@ -5525,7 +5525,7 @@ msgstr "Répertoire de données de KStars"
 #: dialogs/wizdata.ui:68
 #, kde-format
 msgid "The KStars Data Directory called kstars should be located at:"
-msgstr "Le dossier de données de KStars nommé kstars devrait se trouver à:"
+msgstr "Le répertoire de données de KStars nommé kstars devrait se trouver à :"
 
 #. i18n: ectx: property (text), widget (QLabel, dataPath)
 #: dialogs/wizdata.ui:83
@@ -6614,7 +6614,7 @@ msgstr "ISO de l'APN"
 #: ekos/align/align.ui:606
 #, kde-format
 msgid "Toggle full screen"
-msgstr "Basculer en mode plein écran"
+msgstr "(Dés)active le mode plein écran"
 
 #. i18n: ectx: property (text), widget (QLabel, FilterPosLabel)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2_3)
@@ -7589,7 +7589,7 @@ msgstr "Parcage auto"
 #, kde-format
 msgid "<html><head/><body><p>Toggle Rotator control</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Basculer le contrôle du rotateur.</p></body></html>"
+"<html><head/><body><p>(Dés)active le contrôle du rotateur.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AstrometryUseRotator)
 #: ekos/align/opsalign.ui:257
@@ -9392,7 +9392,7 @@ msgstr "Vitesse "
 #, kde-format
 msgid "Toggle for manual slewing with non-GOTO mounts"
 msgstr ""
-"Basculer en pointage manuelle pour les montures n'ayant pas de fonction GOTO"
+"(Dés)activer le pointage manuelle pour les montures n'ayant pas de fonction GOTO"
 
 #. i18n: ectx: property (text), widget (QCheckBox, PAHManual)
 #: ekos/align/polaralignmentassistant.ui:171
@@ -11482,7 +11482,7 @@ msgstr "CCD"
 #: ekos/auxiliary/opslogs.ui:265 options/opsadvanced.ui:297
 #, kde-format
 msgid "Verbosity:"
-msgstr "Niveau de détails"
+msgstr "Niveau de détails   "
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_CaptureLogging)
 #: ekos/auxiliary/opslogs.ui:282
@@ -15986,7 +15986,7 @@ msgstr "CCD et roue à filtres"
 #: ekos/focus/focus.ui:455
 #, kde-format
 msgid "Toggle Full Screen"
-msgstr "Basculer en plein écran"
+msgstr "(Dés)activer le plein écran"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, temperatureSourceCombo)
 #: ekos/focus/focus.ui:517
@@ -25639,7 +25639,7 @@ msgstr "Zoomer pour ajuster"
 #: fitsviewer/fitsview.cpp:2107
 #, kde-format
 msgid "Toggle Stretch"
-msgstr "Basculer le mode d'étirement"
+msgstr "(Dés)activer le mode d'étirement"
 
 #: fitsviewer/fitsview.cpp:2115 fitsviewer/fitsviewer.cpp:174
 #, kde-format
@@ -26265,7 +26265,7 @@ msgstr "Activer ou désactiver le seuil de valeur maximale"
 #: fitsviewer/starprofileviewer.cpp:83
 #, kde-format
 msgid "Toggle Cutoff"
-msgstr "Basculer la coupure"
+msgstr "(Dés)activer la coupure"
 
 #: fitsviewer/starprofileviewer.cpp:87
 #, kde-format
@@ -26340,7 +26340,7 @@ msgstr "Élément"
 #, kde-format
 msgid "Toggles the slice view when horizontal or vertical items are selected"
 msgstr ""
-"Bascule la vue en tranche quand les éléments horizontaux et verticaux sont "
+"(Dés)activer la vue en tranche quand les éléments horizontaux et verticaux sont "
 "sélectionnés."
 
 #: fitsviewer/starprofileviewer.cpp:148
@@ -27666,7 +27666,7 @@ msgstr "Réinitialiser la trame"
 #: indi/streamform.ui:143
 #, kde-format
 msgid "Toggle debayer"
-msgstr "Basculer en filtre de Bayer"
+msgstr "(Dés)activer le filtre de Bayer"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, zoomLevelCombo)
 #: indi/streamform.ui:165
@@ -28315,13 +28315,13 @@ msgstr ""
 #, kde-format
 msgid "Meta-option to toggle display of all InfoBoxes"
 msgstr ""
-"Méta-option pour basculer l'affichage de toutes les boîtes d'informations"
+"Méta-option pour (dés)activer l'affichage de toutes les boîtes d'informations"
 
 #. i18n: ectx: whatsthis, entry (ShowInfoBoxes), group (GUI)
 #: kstars.kcfg:41
 #, kde-format
 msgid "Toggles display of all three InfoBoxes."
-msgstr "Bascule l'affichage des trois boîtes d'informations."
+msgstr "(Dés)active l'affichage des trois boîtes d'informations."
 
 #. i18n: ectx: label, entry (ShowTimeBox), group (GUI)
 #: kstars.kcfg:45
@@ -28333,7 +28333,7 @@ msgstr "Afficher la boîte d'informations de temps ?"
 #: kstars.kcfg:46
 #, kde-format
 msgid "Toggles display of the Time InfoBox."
-msgstr "Bascule l'affichage de la boîte d'informations de temps."
+msgstr "(Dés)active l'affichage de la boîte d'informations de temps."
 
 #. i18n: ectx: label, entry (ShowFocusBox), group (GUI)
 #: kstars.kcfg:50
@@ -28345,7 +28345,7 @@ msgstr "Afficher la boîte d'informations de la mise au point ?"
 #: kstars.kcfg:51
 #, kde-format
 msgid "Toggles display of the Focus InfoBox."
-msgstr "Bascule l'affichage de la boîte d'informations de la mise au point."
+msgstr "(Dés)active l'affichage de la boîte d'informations de la mise au point."
 
 #. i18n: ectx: label, entry (ShowGeoBox), group (GUI)
 #: kstars.kcfg:55
@@ -28357,7 +28357,7 @@ msgstr "Afficher la boîte d'informations géographiques ?"
 #: kstars.kcfg:56
 #, kde-format
 msgid "Toggles display of the Geographic Location InfoBox."
-msgstr "Bascule l'affichage de la boîte d'informations géographiques."
+msgstr "/Dés)active l'affichage de la boîte d'informations géographiques."
 
 #. i18n: ectx: label, entry (StickyTimeBox), group (GUI)
 #. i18n: ectx: label, entry (StickyFocusBox), group (GUI)
@@ -28418,7 +28418,7 @@ msgstr "Afficher la barre d'état ?"
 #: kstars.kcfg:82
 #, kde-format
 msgid "Toggle display of the status bar."
-msgstr "Bascule l'affichage de la barre d'état."
+msgstr "(Dés)ative l'affichage de la barre d'état."
 
 #. i18n: ectx: label, entry (ShowAltAzField), group (GUI)
 #: kstars.kcfg:86
@@ -28433,7 +28433,7 @@ msgid ""
 "Toggle display of the Horizontal coordinates of the mouse cursor in the "
 "status bar."
 msgstr ""
-"Bascule l'affichage des coordonnées horizontales du pointeur de la souris "
+"(Dés)active l'affichage des coordonnées horizontales du pointeur de la souris "
 "dans la barre d'état."
 
 #. i18n: ectx: label, entry (ShowRADecField), group (GUI)
@@ -28449,7 +28449,7 @@ msgid ""
 "Toggle display of the Equatorial coordinates of the mouse cursor at the "
 "current epoch in the status bar."
 msgstr ""
-"Basculer l'affichage des coordonnées équatoriales du pointeur de la souris "
+"(Dés)active l'affichage des coordonnées équatoriales du pointeur de la souris "
 "vers l'époque actuelle dans la barre d'état."
 
 #. i18n: ectx: label, entry (ShowJ2000RADecField), group (GUI)
@@ -28465,7 +28465,7 @@ msgid ""
 "Toggle display of the Equatorial coordinates of the mouse cursor at the "
 "standard epoch in the status bar."
 msgstr ""
-"Basculer l'affichage des coordonnées équatoriales du pointeur de la souris "
+"(Dés)active l'affichage des coordonnées équatoriales du pointeur de la souris "
 "vers l'époque standard dans la barre d'état."
 
 #. i18n: ectx: label, entry (ShowSensorFOV), group (GUI)
@@ -28558,7 +28558,7 @@ msgid ""
 msgstr ""
 "Les noms des objets saisis dans la boîte de dialogue de recherche sont "
 "résolus à l'aide de services en ligne et enregistrés dans la base de "
-"données. Cette option permet également de basculer l'affichage de ces objets "
+"données. Cette option permet également de (dés)activer l'affichage de ces objets "
 "résolus sur la carte du ciel."
 
 #. i18n: ectx: label, entry (DSOCachePercentage), group (Catalogs)
@@ -28648,7 +28648,7 @@ msgid ""
 "Toggle display of crosshairs centered at telescope's pointed position in the "
 "KStars sky map."
 msgstr ""
-"Bascule l'affichage de croix centrées à l'endroit où pointe le télescope sur "
+"(Dés)active l'affichage de croix centrées à l'endroit où pointe le télescope sur "
 "la carte du ciel de KStars."
 
 #. i18n: ectx: label, entry (showINDIMessages), group (indi)
@@ -28661,7 +28661,7 @@ msgstr "Afficher les messages INDI dans la barre d'état ?"
 #: kstars.kcfg:193
 #, kde-format
 msgid "Toggle display of INDI messages in the KStars statusbar."
-msgstr "Bascule l'affichage des messages INDI dans la barre d'état."
+msgstr "(Dés)active l'affichage des messages INDI dans la barre d'état."
 
 #. i18n: ectx: label, entry (SaveFocusImages), group (indi)
 #: kstars.kcfg:197
@@ -29417,7 +29417,7 @@ msgstr "Afficher les alertes des supernovas ?"
 #: kstars.kcfg:506
 #, kde-format
 msgid "Toggle supernova alerts."
-msgstr "Affiche/Cache les alertes concernant les supernovas."
+msgstr "(Dés)active les alertes concernant les supernovas."
 
 #. i18n: ectx: label, entry (MagnitudeLimitAlertSupernovae), group (View)
 #: kstars.kcfg:510
@@ -31036,7 +31036,7 @@ msgstr "Durée de pause entre les trames dans l'animation Xplanet"
 #: kstars.kcfg:1102 kstars.kcfg:1103
 #, kde-format
 msgid "Width of xplanet window"
-msgstr "Largeur de la fenêtre Xplanet »"
+msgstr "Largeur de la fenêtre Xplanet"
 
 #. i18n: ectx: label, entry (XplanetHeight), group (Xplanet)
 #. i18n: ectx: whatsthis, entry (XplanetHeight), group (Xplanet)
@@ -31360,21 +31360,21 @@ msgstr ""
 #: kstars.kcfg:1223
 #, kde-format
 msgid "Arc file"
-msgstr "Fichier « arc »"
+msgstr "Fichier Arc"
 
 #. i18n: ectx: whatsthis, entry (XplanetArcFile), group (Xplanet)
 #: kstars.kcfg:1224
 #, kde-format
 msgid "If checked, use an arc file to be plotted against the background stars."
 msgstr ""
-"Si cette option est cochée, un fichier « arc » sera tracé par rapport aux "
+"Si cette option est cochée, un fichier Arc sera tracé par rapport aux "
 "étoiles d'arrière-plan."
 
 #. i18n: ectx: label, entry (XplanetArcFilePath), group (Xplanet)
 #: kstars.kcfg:1228
 #, kde-format
 msgid "Path to arc file"
-msgstr "Emplacement du fichier « arc »"
+msgstr "Emplacement du fichier Arc"
 
 #. i18n: ectx: whatsthis, entry (XplanetArcFilePath), group (Xplanet)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_XplanetArcFilePath)
@@ -31382,7 +31382,7 @@ msgstr "Emplacement du fichier « arc »"
 #, kde-format
 msgid "Specify an arc file to be plotted against the background stars."
 msgstr ""
-"Spécifiez un fichier « arc » à dessiner par rapport aux étoiles d'arrière-"
+"Spécifiez un fichier Arc à dessiner par rapport aux étoiles d'arrière-"
 "plan."
 
 #. i18n: ectx: label, entry (XplanetConfigFile), group (Xplanet)
@@ -63538,7 +63538,7 @@ msgstr "Étoiles"
 #: kstarsinit.cpp:544
 #, kde-format
 msgid "Toggle stars"
-msgstr "Afficher / Cacher les étoiles"
+msgstr "(Dés)active les étoiles"
 
 #: kstarsinit.cpp:546
 #, kde-format
@@ -63549,7 +63549,7 @@ msgstr "Ciel profond"
 #: kstarsinit.cpp:548
 #, kde-format
 msgid "Toggle deep sky objects"
-msgstr "Afficher / Cacher les objets du ciel profond"
+msgstr "(Dés)active les objets du ciel profond"
 
 #: kstarsinit.cpp:550
 #, kde-format
@@ -63560,7 +63560,7 @@ msgstr "Système solaire"
 #: kstarsinit.cpp:552
 #, kde-format
 msgid "Toggle Solar system objects"
-msgstr "Afficher / Cacher les objets du Système solaire"
+msgstr "(Dés)active les objets du Système solaire"
 
 #: kstarsinit.cpp:554
 #, kde-format
@@ -63571,7 +63571,7 @@ msgstr "Lignes des constellations"
 #: kstarsinit.cpp:556
 #, kde-format
 msgid "Toggle constellation lines"
-msgstr "Afficher / Cacher les lignes des constellations"
+msgstr "(Dés)active les lignes des constellations"
 
 #: kstarsinit.cpp:558
 #, kde-format
@@ -63582,7 +63582,7 @@ msgstr "Noms des constellations"
 #: kstarsinit.cpp:560
 #, kde-format
 msgid "Toggle constellation names"
-msgstr "Afficher / Cacher les noms des constellations"
+msgstr "(Dés)active les noms des constellations"
 
 #: kstarsinit.cpp:562
 #, kde-format
@@ -63593,7 +63593,7 @@ msgstr "Limites des constellations"
 #: kstarsinit.cpp:564
 #, kde-format
 msgid "Toggle constellation boundaries"
-msgstr "Afficher / Cacher les limites des constellations"
+msgstr "(Dés)active les limites des constellations"
 
 #: kstarsinit.cpp:566
 #, kde-kuit-format
@@ -63604,7 +63604,7 @@ msgstr "C. Art (Bêta)"
 #: kstarsinit.cpp:568
 #, kde-kuit-format
 msgid "Toggle constellation art (BETA)"
-msgstr "Afficher / Cacher les graphiques des constellations (Bêta)"
+msgstr "(Dés)active les graphiques des constellations (Bêta)"
 
 #: kstarsinit.cpp:570
 #, kde-format
@@ -63615,7 +63615,7 @@ msgstr "Voie Lactée"
 #: kstarsinit.cpp:572
 #, kde-format
 msgid "Toggle milky way"
-msgstr "Afficher / Cacher la Voie Lactée"
+msgstr "(Dés)active la Voie Lactée"
 
 #: kstarsinit.cpp:574
 #, kde-format
@@ -63626,7 +63626,7 @@ msgstr "Grille des coord. équatoriales"
 #: kstarsinit.cpp:576
 #, kde-format
 msgid "Toggle equatorial coordinate grid"
-msgstr "Afficher / Cacher la grille des coordonnées équatoriales"
+msgstr "(Dés)active la grille des coordonnées équatoriales"
 
 #: kstarsinit.cpp:578
 #, kde-format
@@ -63637,7 +63637,7 @@ msgstr "Grille des coord. horizontales"
 #: kstarsinit.cpp:580
 #, kde-format
 msgid "Toggle horizontal coordinate grid"
-msgstr "Afficher / Cacher la grille des coordonnées horizontales"
+msgstr "(Dés)active la grille des coordonnées horizontales"
 
 #: kstarsinit.cpp:582
 #, kde-format
@@ -63648,7 +63648,7 @@ msgstr "Sol"
 #: kstarsinit.cpp:584
 #, kde-format
 msgid "Toggle opaque ground"
-msgstr "Afficher / Cacher le sol opaque"
+msgstr "(Dés)active le sol opaque"
 
 #: kstarsinit.cpp:586
 #, kde-format
@@ -63659,7 +63659,7 @@ msgstr "Drapeaux"
 #: kstarsinit.cpp:588
 #, kde-format
 msgid "Toggle flags"
-msgstr "Afficher / Cacher les drapeaux"
+msgstr "(Dés)active les drapeaux"
 
 #: kstarsinit.cpp:590
 #, kde-format
@@ -63670,7 +63670,7 @@ msgstr "Satellites"
 #: kstarsinit.cpp:592
 #, kde-format
 msgid "Toggle satellites"
-msgstr "Afficher / Cacher les satellites"
+msgstr "(Dés)active les satellites"
 
 #: kstarsinit.cpp:594
 #, kde-format
@@ -63681,7 +63681,7 @@ msgstr "Supernovae"
 #: kstarsinit.cpp:596
 #, kde-format
 msgid "Toggle supernovae"
-msgstr "Afficher / Cacher les supernovae"
+msgstr "(Dés)active les supernovae"
 
 #: kstarsinit.cpp:598
 #, kde-format
@@ -63692,7 +63692,7 @@ msgstr "Digne d'intérêt"
 #: kstarsinit.cpp:600
 #, kde-format
 msgid "Toggle What's Interesting"
-msgstr "Basculer vers « Digne d'intérêt »"
+msgstr "(Dés)active « Digne d'intérêt »"
 
 #: kstarsinit.cpp:605
 #, kde-format
@@ -63725,7 +63725,7 @@ msgstr "Afficheur FITS"
 #: kstarsinit.cpp:616
 #, kde-format
 msgid "Toggle FITS Viewer"
-msgstr "Basculer l'afficheur FITS"
+msgstr "(Dés)active l'afficheur FITS"
 
 #: kstarsinit.cpp:620
 #, kde-format
@@ -63736,7 +63736,7 @@ msgstr "Capteur FOV"
 #: kstarsinit.cpp:622
 #, kde-format
 msgid "Toggle Sensor FOV"
-msgstr "Basculer le capteur FOV"
+msgstr "(Dés)active le capteur FOV"
 
 #: kstarsinit.cpp:627
 #, kde-format
@@ -63747,7 +63747,7 @@ msgstr "Contrôle Monture"
 #: kstarsinit.cpp:629
 #, kde-format
 msgid "Toggle Mount Control Panel"
-msgstr "Panneau de contrôle Monture"
+msgstr "(Dés)active le panneau de contrôle de la monture"
 
 #: kstarsinit.cpp:633
 #, kde-format
@@ -63758,12 +63758,12 @@ msgstr "Centrer le télescope"
 #: kstarsinit.cpp:635
 #, kde-format
 msgid "Toggle Lock Telescope Center"
-msgstr "Basculer le verrou pour le centre du télescope"
+msgstr "(Dés)active le verrou pour le centre du télescope"
 
 #: kstarsinit.cpp:639
 #, kde-format
 msgid "Toggle Telescope Tracking"
-msgstr "Basculer le suivi du télescope"
+msgstr "(Dés)active le suivi du télescope"
 
 #: kstarsinit.cpp:643
 #, kde-format
@@ -73556,7 +73556,7 @@ msgstr ""
 "\t\t<p>Vous pouvez simuler le célèbre test expérimental de la relativité "
 "générale dans KStars -- KStars peut calculer la courbure de la lumière des "
 "étoiles autour du soleil. Il suffit de se centrer sur le soleil, de zoomer "
-"dans la carte du ciel et de basculer les corrections en appuyant sur la "
+"dans la carte du ciel et de (dés)activer les corrections en appuyant sur la "
 "touche « r » sur le clavier.\t\t</p>\n"
 "\t\n"
 
@@ -74217,7 +74217,7 @@ msgstr "Chercher une ville…"
 #: tools/argsettrack.ui:30
 #, kde-format
 msgid "Toggle Tracking on/off"
-msgstr "(Dés)Activer le suivi"
+msgstr "(Dés)activer le suivi"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, CheckTrack)
 #: tools/argsettrack.ui:35
@@ -75001,7 +75001,7 @@ msgstr "Supprimer une région"
 #: tools/horizonmanager.ui:92
 #, kde-format
 msgid "Toggle Ceiling"
-msgstr "Afficher / Cacher le plafond"
+msgstr "(Dés)activer le plafond"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, saveB)
 #: tools/horizonmanager.ui:130
@@ -77435,7 +77435,7 @@ msgstr "Boîtes d'informations"
 #: tools/scriptbuilder.cpp:409
 #, kde-format
 msgid "Toggle display of all InfoBoxes"
-msgstr "Bascule l'affichage de toutes les boîtes d'informations"
+msgstr "(Dés)active l'affichage de toutes les boîtes d'informations"
 
 #: tools/scriptbuilder.cpp:409 tools/scriptbuilder.cpp:412
 #: tools/scriptbuilder.cpp:415 tools/scriptbuilder.cpp:418
@@ -77472,32 +77472,32 @@ msgstr "booléen"
 #: tools/scriptbuilder.cpp:412
 #, kde-format
 msgid "Toggle display of Time InfoBox"
-msgstr "Bascule l'affichage de la boîte d'informations de temps"
+msgstr "(Dés)active l'affichage de la boîte d'informations de temps"
 
 #: tools/scriptbuilder.cpp:415
 #, kde-format
 msgid "Toggle display of Geographic InfoBox"
-msgstr "Bascule l'affichage de la boîte d'informations géographiques"
+msgstr "(Dés)active l'affichage de la boîte d'informations géographiques"
 
 #: tools/scriptbuilder.cpp:418
 #, kde-format
 msgid "Toggle display of Focus InfoBox"
-msgstr "Bascule l'affichage de la boîte d'informations de la mise au point"
+msgstr "(Dés)active l'affichage de la boîte d'informations de la mise au point"
 
 #: tools/scriptbuilder.cpp:421
 #, kde-format
 msgid "(un)Shade Time InfoBox"
-msgstr "(Dés)Enrouler la boîte d'informations de temps"
+msgstr "(Dés)Enroule la boîte d'informations de temps"
 
 #: tools/scriptbuilder.cpp:424
 #, kde-format
 msgid "(un)Shade Geographic InfoBox"
-msgstr "(Dés)Enrouler la boîte d'informations géographiques"
+msgstr "(Dés)enroule la boîte d'informations géographiques"
 
 #: tools/scriptbuilder.cpp:427
 #, kde-format
 msgid "(un)Shade Focus InfoBox"
-msgstr "(Dés)Enrouler la boîte d'informations de la mise au point"
+msgstr "(Dés)enroule la boîte d'informations de la mise au point"
 
 #: tools/scriptbuilder.cpp:440
 #, kde-format
@@ -77507,12 +77507,12 @@ msgstr "Barres d'outils"
 #: tools/scriptbuilder.cpp:441
 #, kde-format
 msgid "Toggle display of main toolbar"
-msgstr "Bascule l'affichage de la barre principale"
+msgstr "(Dés)active l'affichage de la barre principale"
 
 #: tools/scriptbuilder.cpp:444
 #, kde-format
 msgid "Toggle display of view toolbar"
-msgstr "Bascule l'affichage de la barre d'affichage"
+msgstr "(Dés)active l'affichage de la barre d'affichage"
 
 #: tools/scriptbuilder.cpp:452
 #, kde-format
@@ -77522,72 +77522,72 @@ msgstr "Afficher des objets"
 #: tools/scriptbuilder.cpp:453
 #, kde-format
 msgid "Toggle display of Stars"
-msgstr "(Dés)Activer l'affichage des étoiles"
+msgstr "(Dés)active l'affichage des étoiles"
 
 #: tools/scriptbuilder.cpp:456
 #, kde-format
 msgid "Toggle display of all deep-sky objects"
-msgstr "(Dés)Activer l'affichage des objets du ciel profond"
+msgstr "(Dés)active l'affichage des objets du ciel profond"
 
 #: tools/scriptbuilder.cpp:463
 #, kde-format
 msgid "Toggle display of all solar system bodies"
-msgstr "(Dés)Activer l'affichage de tous les corps du Système solaire"
+msgstr "(Dés)active l'affichage de tous les corps du Système solaire"
 
 #: tools/scriptbuilder.cpp:466
 #, kde-format
 msgid "Toggle display of Sun"
-msgstr "(Dés)Activer l'affichage du Soleil"
+msgstr "(Dés)active l'affichage du Soleil"
 
 #: tools/scriptbuilder.cpp:469
 #, kde-format
 msgid "Toggle display of Moon"
-msgstr "(Dés)Activer l'affichage de la Lune"
+msgstr "(Dés)active l'affichage de la Lune"
 
 #: tools/scriptbuilder.cpp:472
 #, kde-format
 msgid "Toggle display of Mercury"
-msgstr "(Dés)Activer l'affichage de Mercure"
+msgstr "(Dés)active l'affichage de Mercure"
 
 #: tools/scriptbuilder.cpp:475
 #, kde-format
 msgid "Toggle display of Venus"
-msgstr "(Dés)Activer l'affichage de Vénus"
+msgstr "(Dés)active l'affichage de Vénus"
 
 #: tools/scriptbuilder.cpp:478
 #, kde-format
 msgid "Toggle display of Mars"
-msgstr "(Dés)Activer l'affichage de Mars"
+msgstr "(Dés)active l'affichage de Mars"
 
 #: tools/scriptbuilder.cpp:481
 #, kde-format
 msgid "Toggle display of Jupiter"
-msgstr "(Dés)Activer l'affichage de Jupiter"
+msgstr "(Dés)active l'affichage de Jupiter"
 
 #: tools/scriptbuilder.cpp:484
 #, kde-format
 msgid "Toggle display of Saturn"
-msgstr "(Dés)Activer l'affichage de Saturne"
+msgstr "(Dés)active l'affichage de Saturne"
 
 #: tools/scriptbuilder.cpp:487
 #, kde-format
 msgid "Toggle display of Uranus"
-msgstr "(Dés)Activer l'affichage d'Uranus"
+msgstr "(Dés)active l'affichage d'Uranus"
 
 #: tools/scriptbuilder.cpp:490
 #, kde-format
 msgid "Toggle display of Neptune"
-msgstr "(Dés)Activer l'affichage de Neptune"
+msgstr "(Dés)active l'affichage de Neptune"
 
 #: tools/scriptbuilder.cpp:496
 #, kde-format
 msgid "Toggle display of Asteroids"
-msgstr "(Dés)Activer l'affichage des astéroïdes"
+msgstr "(Dés)active l'affichage des astéroïdes"
 
 #: tools/scriptbuilder.cpp:499
 #, kde-format
 msgid "Toggle display of Comets"
-msgstr "(Dés)Activer l'affichage des comètes"
+msgstr "(Dés)active l'affichage des comètes"
 
 #: tools/scriptbuilder.cpp:519
 #, kde-format
@@ -77597,77 +77597,77 @@ msgstr "Afficher les autres"
 #: tools/scriptbuilder.cpp:520
 #, kde-format
 msgid "Toggle display of constellation lines"
-msgstr "(Dés)Activer l'affichage des lignes de constellations"
+msgstr "(Dés)active l'affichage des lignes de constellations"
 
 #: tools/scriptbuilder.cpp:523
 #, kde-format
 msgid "Toggle display of constellation boundaries"
-msgstr "(Dés)Activer l'affichage des limites de constellations"
+msgstr "(Dés)active l'affichage des limites de constellations"
 
 #: tools/scriptbuilder.cpp:526
 #, kde-format
 msgid "Toggle display of constellation names"
-msgstr "(Dés)Activer l'affichage des noms de constellations"
+msgstr "(Dés)active l'affichage des noms de constellations"
 
 #: tools/scriptbuilder.cpp:529
 #, kde-format
 msgid "Toggle display of Milky Way"
-msgstr "(Dés)Activer l'affichage de la Voie Lactée"
+msgstr "(Dés)active l'affichage de la Voie Lactée"
 
 #: tools/scriptbuilder.cpp:532
 #, kde-format
 msgid "Toggle display of the coordinate grid"
-msgstr "(Dés)Activer l'affichage de la grille des coordonnées"
+msgstr "(Dés)active l'affichage de la grille des coordonnées"
 
 #: tools/scriptbuilder.cpp:535
 #, kde-format
 msgid "Toggle display of the celestial equator"
-msgstr "(Dés)Activer l'affichage de l'équateur céleste"
+msgstr "(Dés)active l'affichage de l'équateur céleste"
 
 #: tools/scriptbuilder.cpp:538
 #, kde-format
 msgid "Toggle display of the ecliptic"
-msgstr "(Dés)Activer l'affichage de l'écliptique"
+msgstr "(Dés)active l'affichage de l'écliptique"
 
 #: tools/scriptbuilder.cpp:541
 #, kde-format
 msgid "Toggle display of the horizon line"
-msgstr "(Dés)Activer l'affichage de la ligne d'horizon"
+msgstr "(Dés)active l'affichage de la ligne d'horizon"
 
 #: tools/scriptbuilder.cpp:544
 #, kde-format
 msgid "Toggle display of the opaque ground"
-msgstr "(Dés)Activer l'affichage du sol opaque"
+msgstr "(Dés)active l'affichage du sol opaque"
 
 #: tools/scriptbuilder.cpp:547
 #, kde-format
 msgid "Toggle display of star name labels"
-msgstr "(Dés)Activer l'affichage des noms d'étoiles"
+msgstr "(Dés)active l'affichage des noms d'étoiles"
 
 #: tools/scriptbuilder.cpp:550
 #, kde-format
 msgid "Toggle display of star magnitude labels"
-msgstr "(Dés)Activer l'affichage de la magnitude des étoiles"
+msgstr "(Dés)active l'affichage de la magnitude des étoiles"
 
 #: tools/scriptbuilder.cpp:553
 #, kde-format
 msgid "Toggle display of asteroid name labels"
-msgstr "(Dés)Activer l'affichage des noms d'astéroïdes"
+msgstr "(Dés)active l'affichage des noms d'astéroïdes"
 
 #: tools/scriptbuilder.cpp:556
 #, kde-format
 msgid "Toggle display of comet name labels"
-msgstr "(Dés)Activer l'affichage des noms de comètes"
+msgstr "(Dés)active l'affichage des noms de comètes"
 
 #: tools/scriptbuilder.cpp:559
 #, kde-format
 msgid "Toggle display of planet name labels"
-msgstr "(Dés)Activer l'affichage des noms de planètes"
+msgstr "(Dés)active l'affichage des noms de planètes"
 
 #: tools/scriptbuilder.cpp:562
 #, kde-format
 msgid "Toggle display of planet images"
-msgstr "(Dés)Activer l'affichage des images de planètes"
+msgstr "(Dés)active l'affichage des images de planètes"
 
 #: tools/scriptbuilder.cpp:583
 #, kde-format
