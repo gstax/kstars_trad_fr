@@ -241,12 +241,12 @@ msgstr "Erreur du guidage en DEC"
 #: auxiliary/colorscheme.cpp:65 ekos/align/align.cpp:87
 #, kde-format
 msgid "Solver FOV"
-msgstr "Résolveur FOV"
+msgstr "CdV Résolveur"
 
 #: auxiliary/colorscheme.cpp:66
 #, kde-format
 msgid "Sensor FOV"
-msgstr "Capteur FOV"
+msgstr "CdV Capteur"
 
 #: auxiliary/colorscheme.cpp:67
 #, kde-format
@@ -1271,7 +1271,7 @@ msgstr "Recentre une image Xplanet après mouvement"
 #: auxiliary/xplanetimageviewer.cpp:296 ekos/align/align.ui:323
 #, kde-format
 msgid "FOV:"
-msgstr "FOV"
+msgstr "CdV"
 
 #: auxiliary/xplanetimageviewer.cpp:305
 #, kde-format
@@ -1279,7 +1279,7 @@ msgid ""
 "Sets the FOV to the Specified value.   Note: has no effect if hovering over "
 "object."
 msgstr ""
-"Définit le champ de vision (FOV) à la valeur spécifiée. Remarque: aucun "
+"Définit le champ de vision (CdV) à la valeur spécifiée. Remarque: aucun "
 "effet en cas de survol"
 
 #: auxiliary/xplanetimageviewer.cpp:321
@@ -1304,7 +1304,7 @@ msgid ""
 "Optimum FOV for the target, FOV parameter not specified.  Note: has no "
 "effect if hovering over object."
 msgstr ""
-"Champ de vision optimal pour la cible, Le paramètre FOV étant non spécifié. "
+"Champ de vision optimal pour la cible, Le paramètre CdV étant non spécifié. "
 "Remarque : aucun effet en cas de survol de l'objet."
 
 #. i18n: ectx: property (text), widget (QLabel, fieldoFviewLabel_4)
@@ -1458,7 +1458,7 @@ msgstr "Affichage Xplanet : %1 vu de %2 le %3"
 #: auxiliary/xplanetimageviewer.cpp:752
 #, kde-format
 msgid "XPlanet View: %1 from %2 on %3 at FOV: %4 deg"
-msgstr "Affichage Xplanet : %1 vu de %2 le %3 de FOV %4 deg"
+msgstr "Affichage Xplanet : %1 vu de %2 le %3 de CdV %4 deg"
 
 #: auxiliary/xplanetimageviewer.cpp:766
 #, kde-format
@@ -1492,7 +1492,7 @@ msgstr "Choisissez un champ de vision"
 #: auxiliary/xplanetimageviewer.cpp:1120
 #, kde-format
 msgid "FOV to render in XPlanet:"
-msgstr "FOV à restituer avec Xplanet"
+msgstr "CdV à restituer avec Xplanet"
 
 #: auxiliary/xplanetimageviewer.cpp:1244
 #, kde-format
@@ -4431,7 +4431,7 @@ msgstr "Nouvel indicateur de champ de vision"
 #, kde-format
 msgctxt "Specify the apparent field of view (AFOV) manually"
 msgid "Specify AFOV"
-msgstr "Spécifier le champ de vision apparent (AFOV)"
+msgstr "Spécifier CdVA"
 
 #: dialogs/fovdialog.cpp:236
 #, kde-format
@@ -4567,7 +4567,7 @@ msgid ""
 "Add a new field-of-view (FOV) symbol to the list.  You can define the size, "
 "shape, and color of the new symbol."
 msgstr ""
-"Ajoutez un nouvel indicateur de champ de vision (FOV) à la liste. Vous "
+"Ajoutez un nouvel indicateur de champ de vision (CdV) à la liste. Vous "
 "pouvez définir la taille, la forme et la couleur du nouvel indicateur."
 
 #. i18n: ectx: property (text), widget (QPushButton, NewButton)
@@ -4604,7 +4604,7 @@ msgstr "Supprimer l'indicateur de champ de vision en surbrillance"
 msgid "Press this button to remove the highlighted FOV symbol from the list."
 msgstr ""
 "Cliquez sur ce bouton pour supprimer de la liste l'indicateur de champ de "
-"vision (FOV) en surbrillance."
+"vision (CdV) en surbrillance."
 
 #: dialogs/locationdialog.cpp:55
 #, kde-format
@@ -4897,7 +4897,7 @@ msgid ""
 "The name of the field-of-view (FOV) symbol.  This name appears in the FOV "
 "menu and in the \"Edit FOV Symbols\" tool."
 msgstr ""
-"Le nom de l'indicateur de champ de vision (FOV). Ce nom apparaît dans le "
+"Le nom de l'indicateur de champ de vision (CdV). Ce nom apparaît dans le "
 "menu Champ de vision et dans l'outil Modifier les indicateurs de champ de "
 "vision."
 
@@ -4936,7 +4936,7 @@ msgstr ""
 "Saisissez la longueur focale du télescope, en millimètres.\n"
 "\n"
 "Il s'agit d'un des champs de données requis pour définir le champ de vision "
-"(FOV) correspondant à celui d'un oculaire d'un télescope."
+"(CdV) correspondant à celui d'un oculaire d'un télescope."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel6_2)
 #. i18n: ectx: property (text), widget (QLabel, textLabel6_2_2)
@@ -4976,7 +4976,7 @@ msgstr ""
 "Saisissez la longueur focale de l'oculaire, en millimètres.\n"
 "\n"
 "Il s'agit d'un des champs de données requis pour définir un champ de vision "
-"(FOV) qui correspond à celui d'un oculaire de télescope."
+"(CdV) qui correspond à celui d'un oculaire de télescope."
 
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel8_2)
 #: dialogs/newfov.ui:224
@@ -5008,7 +5008,7 @@ msgstr ""
 "Saisissez l'angle de champ de vision de l'objectif, en minutes d'arc.\n"
 "\n"
 "Il s'agit d'un des champs de données requis pour définir un champ de vision "
-"(FOV) qui correspond à celui d'un oculaire de télescope."
+"(CdV) qui correspond à celui d'un oculaire de télescope."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel6_2_2_2)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -5055,7 +5055,7 @@ msgid ""
 "The computed FOV angle (in arcminutes) will be displayed in the \"Field of "
 "view\" edit box."
 msgstr ""
-"Ce bouton calculera l'angle de champ de vision (FOV) pour une combinaison "
+"Ce bouton calculera l'angle de champ de vision (CdV) pour une combinaison "
 "oculaire/télescope spécifique. Vous devez d'abord préciser la longueur "
 "focale du télescope et de l'oculaire, ainsi que l'angle de champ de vision "
 "de l'oculaire dans les champs de saisie ci-dessus.\n"
@@ -5098,7 +5098,7 @@ msgstr ""
 "Saisissez la longueur focale du télescope, en millimètres.\n"
 "\n"
 "Il s'agit d'un des champs de données requis pour définir un indicateur de "
-"champ de vision (FOV) qui corresponde au champ de vision d'une caméra montée "
+"champ de vision (CdV) qui corresponde au champ de vision d'une caméra montée "
 "sur un télescope."
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
@@ -5159,7 +5159,7 @@ msgstr ""
 "Saisissez la taille physique du capteur CCD.\n"
 "\n"
 "Il s'agit d'un des champs de données requis pour définir un indicateur de "
-"champ de vision (FOV) qui corresponde au champ de vision d'une caméra montée "
+"champ de vision (CdV) qui corresponde au champ de vision d'une caméra montée "
 "sur un télescope."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel6_2_3_2)
@@ -5179,7 +5179,7 @@ msgid ""
 "The computed FOV angle (in arcminutes) will be displayed in the \"Field of "
 "view\" edit box."
 msgstr ""
-"Ce bouton calculera l'angle de champ de vision (FOV) pour une combinaison "
+"Ce bouton calculera l'angle de champ de vision (CdV) pour une combinaison "
 "caméra/télescope spécifique. Vous devez d'abord préciser le longueur focale "
 "du télescope et la taille du capteur CCD.\n"
 "\n"
@@ -5202,7 +5202,7 @@ msgstr "Binoculaire"
 #: dialogs/newfov.ui:686
 #, kde-format
 msgid "Field of View:"
-msgstr "FOV"
+msgstr "Champ de vision"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel9_31)
 #: dialogs/newfov.ui:741
@@ -5220,7 +5220,7 @@ msgid ""
 "The computed FOV angle (in arcminutes) will be displayed in the \"Field of "
 "view\" edit box."
 msgstr ""
-"Ce bouton calculera l'angle de champ de vision (FOV) pour un binoculaire. "
+"Ce bouton calculera l'angle de champ de vision (CdV) pour un binoculaire. "
 "Vous devez d'abord spécifier le champ de vision linéaire comme mentionné sur "
 "le binoculaire.\n"
 "\n"
@@ -5300,13 +5300,13 @@ msgstr "Calculer l'ouverture à mi-puissance du faisceau"
 #: dialogs/newfov.ui:1061
 #, kde-format
 msgid "arcmin"
-msgstr "minutes d'arc"
+msgstr "arcmin"
 
 #. i18n: ectx: property (text), widget (QLabel, fieldoFviewLabel)
 #: dialogs/newfov.ui:1041
 #, kde-format
 msgid "Field of view:"
-msgstr "FOV"
+msgstr "Champ de vision"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, FOVEditRotation)
 #: dialogs/newfov.ui:1048
@@ -5364,7 +5364,7 @@ msgstr "Décalage Y"
 #: dialogs/newfov.ui:1088
 #, kde-format
 msgid "Degrees E of N"
-msgstr "Degrés E au N"
+msgstr "Degrés E du N"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, FOVEditX)
 #: dialogs/newfov.ui:1102
@@ -9980,7 +9980,7 @@ msgstr "Suspendu"
 #: ekos/analyze/analyze.cpp:2354 ekos/ekos.h:35
 #, kde-format
 msgid "Reacquiring"
-msgstr "Ré-acquisition"
+msgstr "Nouvelle acquisition en cours"
 
 #: ekos/analyze/analyze.cpp:2356 ekos/ekos.h:36 ekos/ekos.h:74
 #, kde-format
@@ -15055,7 +15055,7 @@ msgstr ""
 #: ekos/capture/rotatorsettings.ui:135
 #, kde-format
 msgid "Sync FOV to PA"
-msgstr "Synchroniser FOV à PA"
+msgstr "Synchroniser CdV à AP"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, rotateAfterMeridianCheck)
 #: ekos/capture/rotatorsettings.ui:145
@@ -22534,21 +22534,21 @@ msgstr "Largeur et hauteur du capteur de la caméra en pixels"
 #: ekos/scheduler/mosaic.ui:320
 #, kde-format
 msgid "↓ FOV"
-msgstr "↓ FOV"
+msgstr "↓ CdV"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, cameraFOVLabel)
 #: ekos/scheduler/mosaic.ui:353
 #, kde-format
 msgid "Camera FOV in arc minutes as determined from equipment parameters above"
 msgstr ""
-"Camera « FOV » en minutes d'arc comme défini à partir des paramètres "
+"CdV de la camera en minutes d'arc comme défini à partir des paramètres "
 "d'équipement ci-dessus"
 
 #. i18n: ectx: property (text), widget (QLabel, cameraFOVLabel)
 #: ekos/scheduler/mosaic.ui:356
 #, kde-format
 msgid "Camera FOV:"
-msgstr "Caméra FOV"
+msgstr "CdV Caméra"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, overlapSpin)
 #: ekos/scheduler/mosaic.ui:377
@@ -22690,7 +22690,7 @@ msgstr ""
 #: ekos/scheduler/mosaic.ui:656
 #, kde-format
 msgid "Cover FOV"
-msgstr "Couvrir le « FOV »"
+msgstr "Couvrir le CdV"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, cameraHFOVSpin)
 #: ekos/scheduler/mosaic.ui:698
@@ -28456,7 +28456,7 @@ msgstr ""
 #: kstars.kcfg:96
 #, kde-format
 msgid "Display J2000.0 RA/Dec coordinates in the statusbar?"
-msgstr "Afficher les coordonnées J2000.0 AD / Déc dans la barre d'état ?"
+msgstr "Afficher les coordonnées J2000.0 AD/DEC dans la barre d'état ?"
 
 #. i18n: ectx: whatsthis, entry (ShowJ2000RADecField), group (GUI)
 #: kstars.kcfg:97
@@ -28472,7 +28472,7 @@ msgstr ""
 #: kstars.kcfg:101
 #, kde-format
 msgid "Display CCD sensor angular size on the sky map?"
-msgstr "Afficher la taille angulaire du capteur « CCD » sur la carte du ciel ?"
+msgstr "Afficher la taille angulaire du capteur CCD sur la carte du ciel ?"
 
 #. i18n: ectx: label, entry (WindowWidth), group (GUI)
 #: kstars.kcfg:105
@@ -30964,14 +30964,14 @@ msgstr ""
 #: kstars.kcfg:1071
 #, kde-format
 msgid "Color of solver FOV box"
-msgstr "Couleur de la boîte du résolveur FOV"
+msgstr "Couleur de la boîte du CdV du résolveur"
 
 #. i18n: ectx: whatsthis, entry (SolverFOVColor), group (Colors)
 #: kstars.kcfg:1072
 #, kde-format
 msgid "The color for solver FOV box in Ekos alignment module."
 msgstr ""
-"La couleur pour la boîte du résolveur FOV dans le module d'alignement Ekos."
+"La couleur pour la boîte du CdV du résolveur dans le module d'alignement Ekos."
 
 #. i18n: ectx: label, entry (xplanetIsInternal), group (Xplanet)
 #: kstars.kcfg:1078 xplanet/opsxplanet.cpp:21
@@ -32209,7 +32209,7 @@ msgstr "Nom complet par défaut de l'observateur."
 msgid "Sync FOV indicator Position Angle with Rotator Settings Position Angle"
 msgstr ""
 "Synchronisation de l'angle de position pour l'indicateur de champ de vision "
-"avec l'angle de position des paramètres du rotacteur."
+"avec l'angle de position des paramètres du rotateur."
 
 #. i18n: ectx: label, entry (PAMultiplier), group (Capture)
 #: kstars.kcfg:1624
@@ -33087,7 +33087,7 @@ msgstr ""
 #, kde-format
 msgid "Display received FITS images unto solver FOV rectangle in the sky map."
 msgstr ""
-"Afficher les images « FITS » reçues vers le rectangle « FOV » du résolveur "
+"Afficher les images FITS reçues vers le rectangle CdV du résolveur "
 "de la carte du ciel."
 
 #. i18n: ectx: label, entry (AstrometryDifferentialSlewing), group (Align)
@@ -62891,19 +62891,19 @@ msgstr "&Démarrer le suivi"
 #, kde-format
 msgctxt "approximate field of view"
 msgid "Approximate FOV: %1 degrees"
-msgstr "CDV approximatif : %1 degrés"
+msgstr "CdV approximatif : %1 degrés"
 
 #: kstarsactions.cpp:1593
 #, kde-format
 msgctxt "approximate field of view"
 msgid "Approximate FOV: %1 arcminutes"
-msgstr "CDV approximatif : %1 minutes d'arc"
+msgstr "CdV approximatif : %1 minutes d'arc"
 
 #: kstarsactions.cpp:1599
 #, kde-format
 msgctxt "approximate field of view"
 msgid "Approximate FOV: %1 arcseconds"
-msgstr "CDV approximatif : %1 secondes d'arc"
+msgstr "CdV approximatif : %1 secondes d'arc"
 
 #: kstarsactions.cpp:1616
 #, kde-format
@@ -62929,7 +62929,7 @@ msgstr "Affichage de l'oculaire : choisissez un champ de vision"
 #: kstarsactions.cpp:1795
 #, kde-format
 msgid "FOV to render eyepiece view for:"
-msgstr "FOV pour le rendu de la vue de l'oculaire pour"
+msgstr "CdV pour le rendu de la vue de l'oculaire pour"
 
 #: kstarsdata.cpp:44
 #, kde-format
@@ -63731,12 +63731,12 @@ msgstr "(Dés)active l'afficheur FITS"
 #, kde-format
 msgctxt "Toggle the sensor Field of View"
 msgid "Sensor FOV"
-msgstr "Capteur FOV"
+msgstr "CdV Capteur"
 
 #: kstarsinit.cpp:622
 #, kde-format
 msgid "Toggle Sensor FOV"
-msgstr "(Dés)active le capteur FOV"
+msgstr "(Dés)active le CdV du capteur"
 
 #: kstarsinit.cpp:627
 #, kde-format
@@ -65410,7 +65410,7 @@ msgstr "Couleur"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Comet DEC motion arcmin/day"
-msgstr "Mouvement de DÉC des comètes (minutes d'arc / jour)"
+msgstr "Mouvement de DEC des comètes (minutes d'arc / jour)"
 
 #: libindi_strings.cpp:69
 #, kde-kuit-format
@@ -71124,7 +71124,7 @@ msgstr "Il est impossible d'envoyer le fichier"
 #: printing/foveditordialog.cpp:247
 #, kde-format
 msgid "FOV (%1/%2): %3 (%4' x %5')"
-msgstr "FOV (%1/%2) : %3 (%4' x %5')"
+msgstr "CdV (%1/%2) : %3 (%4' x %5')"
 
 #. i18n: ectx: property (text), widget (QPushButton, recaptureButton)
 #: printing/foveditordialog.ui:154
@@ -71286,7 +71286,7 @@ msgctxt ""
 "%1 = FOV index, %2 = FOV count, %3 = FOV name, %4 = FOV X size, %5 = FOV Y "
 "size"
 msgid "FOV (%1/%2): %3 (%4' x %5')"
-msgstr "CDV (%1/%2) : %3 (%4' x %5')"
+msgstr "CdV (%1/%2) : %3 (%4' x %5')"
 
 #: printing/printingwizard.cpp:558
 #, kde-format
@@ -71398,9 +71398,9 @@ msgid ""
 "After FOV snapshots are captured, you can view, caption and delete them "
 "using Field of View Snapshot Browser window."
 msgstr ""
-"Après la capture des copies « FOV », vous pouvez les afficher, étiqueter et "
-"supprimer en utilisant la fenêtre de navigation parmi les copies de champ de "
-"vision « FOV »."
+"Après l'acquisition des copies du champ de vision, vous pouvez les afficher, les étiqueter et "
+"les supprimer en utilisant la fenêtre de navigation parmi les copies de champ de "
+"vision."
 
 #. i18n: ectx: property (text), widget (QPushButton, browseButton)
 #: printing/pwizfovbrowse.ui:135
@@ -71501,9 +71501,9 @@ msgid ""
 msgstr ""
 "<p>Dans la méthode de capture manuelle du champ de vision, l'utilisateur "
 "centre la carte du ciel sur un point d'intérêt. , puis capture des "
-"instantanés de fragments de ciel à l'intérieur du symbole FOV actif.</p>\n"
+"instantanés de fragments de ciel à l'intérieur du symbole CdV actif.</p>\n"
 "<p>En mode capture du champ de vision, appuyez <b>Page Up</b> et <b>Page "
-"Down</b> pour changer de symbole FOV. LEs images sont capturées en appuyant "
+"Down</b> pour changer de symbole CdV. Les images sont capturées en appuyant "
 "sur la touche <b>K</b>. Une fois fait, appuyez sur  <b>Escape</b> pour "
 "revenir à l'assistant d'impression. </p>\n"
 "<p>Appuyez sur <b>Suivant</b> une fois fait.</p>"
@@ -71531,7 +71531,7 @@ msgid ""
 msgstr ""
 "Configurer la capture du champ de vision pour étoiles filantes : "
 "sélectionnez l’objet) partir duquel commencera l'étoile filante, puis "
-"sélectionnez le symbole du champ de vision (FOV) et la limite de magnitude."
+"sélectionnez le symbole du champ de vision (CdV) et la limite de magnitude."
 
 #. i18n: ectx: property (text), widget (QLabel, label1)
 #: printing/pwizfovsh.ui:116
@@ -73436,9 +73436,9 @@ msgid ""
 "\t\n"
 msgstr ""
 "\t\t<p>Vous pouvez construire vos propres indicateurs de champ de vision "
-"(FOV)\n"
+"(CdV)\n"
 "\t\t\tà l'aide de l'éditeur de champ de vision, depuis le menu "
-"« Configuration / Indicateurs de champ de vision.\n"
+"Configuration/Indicateurs de champ de vision.\n"
 "\t\t\tVous pouvez définir la dimension angulaire, la forme et la couleur de "
 "vos nouveaux indicateurs.\n"
 "\t\t</p>\n"
@@ -73457,11 +73457,11 @@ msgid ""
 "\t\n"
 msgstr ""
 "\t\t<p>Si vous utilisé une caméra pour capturer des images, vous pouvez "
-"créer un symbole de champ de vision (FOV) qui représentera le capteur à "
-"l'échelle. Vous pouvez ensuite ajuster l'orientation du symbole de FOV pour "
+"créer un symbole de champ de vision (CdV) qui représentera le capteur à "
+"l'échelle. Vous pouvez ensuite ajuster l'orientation du symbole de CdV pour "
 "correspondre à l'orientation de votre caméra. Vous voyez ainsi ce que celle-"
-"ci  enregistrera. L'éditeur de FOV est accessible à partir du menu "
-"Configuration-> Symbole FOV.\n"
+"ci  enregistrera. L'éditeur de CdV est accessible à partir du menu "
+"Configuration-> Symbole CdV.\n"
 "\t\t</p>\n"
 "\t\n"
 
@@ -78306,7 +78306,7 @@ msgid ""
 "smaller FOV or changing the source point"
 msgstr ""
 "L’algorithme « Star-hopper » a échoué. Si vous essayez un saut d’étoile "
-"important, essayez d’utiliser un champ de vision (FOV) plus petit ou de "
+"important, essayez d’utiliser un champ de vision (CdV) plus petit ou de "
 "changer le point de la source."
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, StarHopperDialog)
