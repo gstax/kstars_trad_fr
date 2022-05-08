@@ -32,7 +32,7 @@ msgstr "Configurer &kstars;"
 #: config.docbook:5
 #, no-c-format
 msgid "Setting the Geographic Location"
-msgstr "Définition de l'emplacement géographique"
+msgstr "Définition de la position géographique"
 
 #. Tag: para
 #: config.docbook:7
@@ -41,20 +41,20 @@ msgid ""
 "Here is a screenshot of the <guilabel>Set Geographic Location</guilabel> "
 "window:"
 msgstr ""
-"Voici une capture d'écran de la fenêtre <guilabel>définir l'emplacement "
+"Voici une capture d'écran de la fenêtre <guilabel>définir la position "
 "géographique</guilabel> :"
 
 #. Tag: screeninfo
 #: config.docbook:11
 #, no-c-format
 msgid "Changing the Geographic Location"
-msgstr "Changer l'emplacement géographique"
+msgstr "Changer la position géographique"
 
 #. Tag: phrase
 #: config.docbook:17
 #, no-c-format
 msgid "Set Location Window"
-msgstr "Régler la fenêtre d'emplacement"
+msgstr "Régler la fenêtre de position"
 
 #. Tag: para
 #: config.docbook:23
@@ -74,7 +74,7 @@ msgstr ""
 #: config.docbook:32 config.docbook:54
 #, no-c-format
 msgid "Geographic Location Tool"
-msgstr "Outil d'emplacement géographique"
+msgstr "Outil de position géographique"
 
 #. Tag: secondary
 #: config.docbook:33
@@ -104,7 +104,7 @@ msgstr ""
 "être filtrée en saisissant du texte dans les boîtes sous la carte. Par "
 "exemple, dans la capture d'écran, le texte <userinput>P</userinput> apparaît "
 "dans la boîte <guilabel>Filtre des villes</guilabel>, tandis que le texte "
-"<userinput>Py</userinput> apparaît dans la boîte <guilabel>Filtre par "
+"<userinput>Ha</userinput> apparaît dans la boîte <guilabel>Filtre par "
 "provinces</guilabel> et <userinput>France</userinput> dans la boîte "
 "<guilabel>Filtre des pays</guilabel>. Ainsi, notez que les villes qui "
 "apparaissent maintenant dans la liste possèdent des noms de ville, "
@@ -134,7 +134,7 @@ msgstr ""
 #: config.docbook:55
 #, no-c-format
 msgid "Custom locations"
-msgstr "Emplacements personnalisés"
+msgstr "Positions personnalisées"
 
 #. Tag: para
 #: config.docbook:55
@@ -158,18 +158,18 @@ msgid ""
 msgstr ""
 "Les informations sur la <link linkend=\"ai-geocoords\">longitude, la "
 "latitude</link> et le <link linkend=\"ai-timezones\">fuseau horaire</link> "
-"pour l'emplacement actuel sélectionné sont affichées dans les boîtes en bas "
+"pour la position actuelle sélectionnée sont affichées dans les boîtes en bas "
 "de la fenêtre. Si vous trouvez que l'une de ces données est inadaptée, vous "
 "pouvez la modifier et actionner le bouton <guibutton>+</guibutton> (Ajouter "
 "la ville à la liste) pour enregistrer votre version personnalisée de "
-"l'emplacement. Vous pouvez également définir un emplacement complètement "
-"nouveau en actionnant le bouton <guibutton>Effacer les champs</guibutton>, "
-"et en écrivant les données pour le nouvel emplacement. Notez que tous les "
+"la position. Vous pouvez également définir une position complètement "
+"nouvelle en actionnant le bouton <guibutton>Effacer les champs</guibutton>, "
+"et en écrivant les données pour la nouvelle position. Notez que tous les "
 "champs sauf <guilabel>Province</guilabel> et <guilabel>Pays</guilabel> "
-"doivent être remplis avant que le nouvel emplacement ne puisse être ajouté à "
-"la liste. Lors des prochaines sessions, &kstars; chargera vos emplacements "
+"doivent être remplis avant que la nouvelle position ne puisse être ajoutée à "
+"la liste. Lors des prochaines sessions, &kstars; chargera vos positions "
 "en même temps que les autres. Notez qu'à ce stade, la seule façon de "
-"supprimer un emplacement personnalisé est de supprimer la ligne appropriée à "
+"supprimer une position personnalisée est de supprimer la ligne appropriée à "
 "partir du fichier <filename>kstars/mycities.dat</filename> dans votre "
 "répertoire <userinput><command>qtpaths</command> <option>--paths "
 "GenericDataLocation</option></userinput>&nbsp;."
@@ -182,7 +182,7 @@ msgid ""
 "<filename>mycities.dat</filename> file so that we can add your locations to "
 "the master list."
 msgstr ""
-"Si vous ajoutez des emplacements (ou modifiez ceux existants), veuillez nous "
+"Si vous ajoutez des positions (ou modifiez celles existantes), veuillez nous "
 "envoyer votre fichier <filename>mycities.dat</filename> de sorte que nous "
 "puissions l'ajouter à la liste principale."
 
@@ -1006,8 +1006,8 @@ msgid ""
 msgstr ""
 "Sous la section des étoiles, la section <guilabel>Objets du ciel profond</"
 "guilabel> contrôle l'affichage de plusieurs catalogues d'objets non "
-"stellaires. Vous pouvez (dés)activer l'affichage des objets du ciel profond et "
-"contrôler leur nom et leur magnitude. Par défaut, la liste des objets du "
+"stellaires. Vous pouvez (dés)activer l'affichage des objets du ciel profond "
+"et contrôler leur nom et leur magnitude. Par défaut, la liste des objets du "
 "ciel profond inclut les catalogues Messier, NGC et IC. Des catalogues "
 "additionnels sont disponibles dans le menu <menuchoice><guimenu>Données</"
 "guimenu> <guimenuitem>Télécharger de nouvelles données</guimenuitem></"
@@ -2057,7 +2057,7 @@ msgstr ""
 "sous la même fenêtre <guilabel>Configurer &kstars;</guilabel>. De plus, ils "
 "peuvent être dessinés de la même manière que les étoiles en cochant la case "
 "<guilabel>Dessiner les satellites comme les étoiles</guilabel>. Pour "
-"dessiner que les satellites visibles depuis votre emplacement et votre heure "
+"dessiner que les satellites visibles depuis votre position et votre heure "
 "actuels, sélectionnez <guilabel>Afficher que les satellites visibles</"
 "guilabel>."
 
@@ -2327,10 +2327,10 @@ msgid ""
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Show Terrain</guimenuitem></"
 "menuchoice> menu item."
 msgstr ""
-"Vous pouvez (dés)activer la superposition du terrain en utilisant le raccourci "
-"clavier <keycombo>&Ctrl;&Shift;<keycap>T</keycap></keycombo> ou avec le menu "
-"<menuchoice><guimenu>Affichage</guimenu> <guimenuitem>Afficher terrain</"
-"guimenuitem></menuchoice>."
+"Vous pouvez (dés)activer la superposition du terrain en utilisant le "
+"raccourci clavier <keycombo>&Ctrl;&Shift;<keycap>T</keycap></keycombo> ou "
+"avec le menu <menuchoice><guimenu>Affichage</guimenu> <guimenuitem>Afficher "
+"terrain</guimenuitem></menuchoice>."
 
 #. Tag: title
 #: config.docbook:1143
@@ -2660,15 +2660,15 @@ msgstr ""
 "La case à cocher <guilabel>Corriger la réfraction atmosphérique</guilabel> "
 "contrôle si la position des objets est corrigée pour les effets de "
 "l'atmosphère. Du fait que l'atmosphère est une coquille sphérique, la "
-"lumière provenant de l'espace extérieur est « courbée » "
-"lorsqu'elle passe à travers l'atmosphère vers nos télescopes ou nos yeux à "
-"la surface de la Terre. L'effet est plus grand pour les objets proches de "
-"l'horizon et change vraiment l'heure de lever ou de coucher de quelques "
-"minutes. En fait, quand vous « voyez » un coucher du Soleil, la "
-"vraie position du Soleil est déjà au-dessous de l'horizon ; la réfraction "
-"atmosphérique le fait apparaître comme s'il était encore dans le ciel. Notez "
-"que la réfraction atmosphérique n'est jamais prise en compte si vous "
-"utilisez les <guilabel>Coordonnées équatoriales</guilabel>."
+"lumière provenant de l'espace extérieur est « courbée » lorsqu'elle passe à "
+"travers l'atmosphère vers nos télescopes ou nos yeux à la surface de la "
+"Terre. L'effet est plus grand pour les objets proches de l'horizon et change "
+"vraiment l'heure de lever ou de coucher de quelques minutes. En fait, quand "
+"vous « voyez » un coucher du Soleil, la vraie position du Soleil est déjà au-"
+"dessous de l'horizon ; la réfraction atmosphérique le fait apparaître comme "
+"s'il était encore dans le ciel. Notez que la réfraction atmosphérique n'est "
+"jamais prise en compte si vous utilisez les <guilabel>Coordonnées "
+"équatoriales</guilabel>."
 
 #. Tag: primary
 #: config.docbook:1319
@@ -2687,11 +2687,11 @@ msgid ""
 "<quote>snap</quote> immediately to the new focus position."
 msgstr ""
 "La case à cocher <guilabel>Utiliser la rotation animée</guilabel> contrôle "
-"comment l'affichage change lorsqu'une nouvelle position de la mise au point est "
-"sélectionnée dans la carte. Par défaut, vous verrez le ciel bouger ou "
-"« tourner » vers la nouvelle position ; si vous décochez cette "
-"option, l'affichage « sautera » immédiatement vers la nouvelle "
-"position de la mise au point."
+"comment l'affichage change lorsqu'une nouvelle position de la mise au point "
+"est sélectionnée dans la carte. Par défaut, vous verrez le ciel bouger ou "
+"« tourner » vers la nouvelle position ; si vous décochez cette option, "
+"l'affichage « sautera » immédiatement vers la nouvelle position de la mise "
+"au point."
 
 #. Tag: primary
 #: config.docbook:1326 config.docbook:1337
@@ -2810,9 +2810,9 @@ msgstr ""
 "d'informations</guimenuitem></menuchoice>. De plus, vous pouvez manipuler "
 "les trois boîtes d'informations avec la souris. Chaque boîte possède des "
 "lignes additionnelles de données qui sont cachées par défaut. Vous pouvez "
-"(dés)activer le mode d'affichage complet en double-cliquant sur la boîte pour "
-"l'<quote>enrouler</quote>. De plus, vous pouvez repositionner une boîte en "
-"la tirant avec la souris. Quand une boîte heurte un bord de fenêtre, elle "
+"(dés)activer le mode d'affichage complet en double-cliquant sur la boîte "
+"pour l'<quote>enrouler</quote>. De plus, vous pouvez repositionner une boîte "
+"en la tirant avec la souris. Quand une boîte heurte un bord de fenêtre, elle "
 "s'y <quote>colle</quote> lorsque la fenêtre est redimensionnée."
 
 #. Tag: primary
