@@ -882,7 +882,7 @@ msgid ""
 "location on a given date."
 msgstr ""
 "Ouvre l'outil <link linkend=\"tool-whatsup\">Dans le ciel cette nuit</link>, "
-"qui présente un résumé des objets qui sont observables de votre emplacement "
+"qui présente un résumé des objets qui sont observables de votre position "
 "à un moment donné."
 
 #. Tag: menuchoice
@@ -907,7 +907,7 @@ msgid ""
 msgstr ""
 "Ouvre l'outil <guilabel>Digne d'intérêt</guilabel> qui vous informe sur les "
 "observations les plus intéressantes que vous pouvez faire depuis votre "
-"emplacement et avec un équipement donné."
+"position et avec un équipement donné."
 
 #. Tag: menuchoice
 #: commands.docbook:496
@@ -1231,7 +1231,7 @@ msgstr "Boîte Mise au point"
 #: commands.docbook:676
 #, no-c-format
 msgid "Location Box"
-msgstr "Boîte Emplacement"
+msgstr "Boîte Position"
 
 #. Tag: guimenuitem
 #: commands.docbook:682
@@ -1277,7 +1277,7 @@ msgstr ""
 #: commands.docbook:698
 #, no-c-format
 msgid "Show Location Box"
-msgstr "Affiche la boîte d'emplacement"
+msgstr "Affiche la boîte de position"
 
 #. Tag: para
 #: commands.docbook:699
@@ -1288,7 +1288,7 @@ msgid ""
 "position of Location Info Box by holding the left-click mouse button and "
 "dragging it to the new position."
 msgstr ""
-"Bascule la boîte d'information de l'emplacement. Par défaut, cette boîte est "
+"(Dés)active la boîte d'information de la position. Par défaut, cette boîte est "
 "placée en haut à droite de l'écran. Vous pouvez modifier sa position en "
 "gardant le bouton gauche de la souris appuyé et en la déplaçant vers sa "
 "nouvelle position."
@@ -1340,7 +1340,7 @@ msgstr ""
 "temps et celle des valeurs d'un pas temporel. La barre d'outils principales "
 "permet également de rapidement ouvrir les fenêtres <guilabel>Trouver un "
 "objet</guilabel>, <guilabel>Régler l'horloge</guilabel> ou encore "
-"<guilabel>Régler l'emplacement géographique</guilabel>. Cette barre d'outils "
+"<guilabel>Régler la position géographique</guilabel>. Cette barre d'outils "
 "principales peut être configurée en utilisant le menu "
 "<menuchoice><guimenu>Configurations</guimenu><guimenuitem>Barres d'outils "
 "affichées</guimenuitem></menuchoice>."
@@ -1727,7 +1727,7 @@ msgid ""
 msgstr ""
 "Si vous sélectionnez ce sous-menu, alors la fenêtre du gestionnaire "
 "d'horizon artificiel s'ouvrira. Il permet de définir une ou plusieurs zones "
-"sur la carte du ciel qui sont masquées depuis votre emplacement actuel (&ie; "
+"sur la carte du ciel qui sont masquées depuis votre position actuelle (&ie; "
 "par des grands arbres ou des immeubles). La fenêtre est séparée en deux "
 "parties : sur la partie gauche se trouve la sections Régions et sur la "
 "partie droite la sections Points. Vous pouvez ajouter une zone en appuyant "
@@ -1803,7 +1803,7 @@ msgid ""
 "guimenuitem>"
 msgstr ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>G</keycap></keycombo> </"
-"shortcut> <guimenu>Configuration</guimenu> <guimenuitem> Emplacement "
+"shortcut> <guimenu>Configuration</guimenu> <guimenuitem> Position "
 "géographique…</guimenuitem>"
 
 #. Tag: para
@@ -1811,7 +1811,7 @@ msgstr ""
 #, no-c-format
 msgid "Select a new <link linkend=\"setgeo\">geographic location</link>."
 msgstr ""
-"Permet de choisir un nouvel <link linkend=\"setgeo\">emplacement "
+"Permet de choisir une nouvelle <link linkend=\"setgeo\">position "
 "géographique</link>"
 
 #. Tag: menuchoice
@@ -1982,11 +1982,11 @@ msgstr ""
 "Affiche l'<guilabel>Assistants de configuration</guilabel>. C'est la même "
 "fenêtre que vous avez vu lorsque vous avez lancé &kstars; pour la première "
 "fois. Cet assistant vous aidera à régler les options de base telles que "
-"votre emplacement sur Terre. La première page de cet assistant est une page "
+"votre position sur Terre. La première page de cet assistant est une page "
 "de bienvenue et si vous cliquez sur <guibutton>Suivant</guibutton> vous "
-"tomberez sur la page <guilabel>Choisissez votre emplacement actuel</"
-"guilabel>. Vous pouvez choisir ici votre emplacement actuel exact ou une "
-"ville proche si votre emplacement précis ne se trouve pas dans la base de "
+"tomberez sur la page <guilabel>Choisissez votre position actuelle</"
+"guilabel>. Vous pouvez choisir ici votre position actuelle exact ou une "
+"ville proche si votre position précise ne se trouve pas dans la base de "
 "données de villes de &kstars;. Parcourir la liste entière n'est pas très "
 "efficace et donc &kstars; fournit une méthode facile à utiliser pour choisir "
 "une ville rapidement. Vous pouvez ainsi filtrer la liste de villes par "
@@ -1994,7 +1994,7 @@ msgstr ""
 "réduite aux meilleures correspondances. Quand vous surlignez une ville dans "
 "cette liste, les boîtes de <guilabel>Latitude</guilabel> et "
 "<guilabel>Longitude</guilabel> seront mises à jour avec les coordonnées "
-"exacte de votre emplacement sélectionné. En cliquant sur le bouton "
+"exacte de votre position sélectionnée. En cliquant sur le bouton "
 "<guibutton>Suivant</guibutton>, vous irez sur la dernière page de "
 "l'assistant de configuration de &kstars; : <quote>Télécharger des données "
 "supplémentaires</quote>. Ici vous pourrez télécharger via Internet des "
@@ -3025,7 +3025,7 @@ msgstr "&Ctrl;<keycap>G</keycap>"
 msgid ""
 "Open the <link linkend=\"setgeo\">Set Geographic Location</link> window."
 msgstr ""
-"Ouvre la fenêtre d'<link linkend=\"setgeo\">emplacement géographique</link>."
+"Ouvre la fenêtre de <link linkend=\"setgeo\">position géographique</link>."
 
 #. Tag: keycombo
 #: commands.docbook:1487
@@ -3215,7 +3215,7 @@ msgid ""
 "clicking on an Info Box will <quote>shade</quote> it to show/hide extra "
 "information."
 msgstr ""
-"Centre et suit l'emplacement ou l'objet le plus proche du clic de la souris. "
+"Centre et suit la position ou l'objet le plus proche du clic de la souris. "
 "Un double clic sur une zone d'information l'<quote>enroulera</quote> pour "
 "révéler ou cacher des informations supplémentaires."
 
@@ -3239,7 +3239,7 @@ msgid ""
 "object nearest the mouse cursor."
 msgstr ""
 "Ouvre le <link linkend=\"popup-menu\">menu contextuel</link> de "
-"l'emplacement ou de l'objet le plus proche du pointeur de la souris."
+"la position ou de l'objet le plus proche du pointeur de la souris."
 
 #. Tag: term
 #: commands.docbook:1588
