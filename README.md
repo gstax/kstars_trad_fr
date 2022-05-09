@@ -74,3 +74,4 @@ Cela créera le fichier kstars.pdf.
 * Plate solver -> Résolveur
 * Autofocus -> Mise au point automatique
 * focuser -> moteur de mise au point
+* location -> position (en non emplacemnt)
