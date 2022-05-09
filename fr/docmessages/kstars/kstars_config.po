@@ -128,7 +128,7 @@ msgstr ""
 "vous cliquez un endroit sur la carte, seules les villes à moins de 2 degrés "
 "apparaîtront. Actuellement, vous pouvez effectuer une recherche en filtrant "
 "les noms ou en cliquant sur la carte, mais pas les deux à la fois. Lorsque "
-"vous cliquez la carte, les filtres de noms sont ignorés, et vice versa. "
+"vous cliquez la carte, les filtres de noms sont ignorés, et vice versa."
 
 #. Tag: secondary
 #: config.docbook:55
@@ -433,7 +433,7 @@ msgid ""
 msgstr ""
 "La page des <guilabel>Guides</guilabel> vous permet d'afficher ou non les "
 "non-objets (&ie; les lignes de constellations, leurs noms ou encore le "
-"contour de la Voie Lactée). "
+"contour de la Voie Lactée)."
 
 #. Tag: primary
 #: config.docbook:191
@@ -655,7 +655,7 @@ msgid ""
 "<guimenuitem>Download New Data...</guimenuitem></menuchoice> menu item. You "
 "can choose from a list of catalogs, including (but not limited to):"
 msgstr ""
-"Vous pouvez installer de nouveau catalogues avec l'<quote>installateur "
+"Vous pouvez installer de nouveaux catalogues avec l'<quote>installateur "
 "d'extension</quote>. Vous pouvez l'ouvrir en allant dans le menu "
 "<menuchoice><guimenu>Données</guimenu> <guimenuitem>Télécharger de nouvelles "
 "données…</guimenuitem></menuchoice>. Vous pouvez choisir à partir d'une "
@@ -676,8 +676,8 @@ msgid ""
 "Abell Planetary Nebulae Catalog: is a catalog of 86 planetary nebulae. The "
 "maximum magnitude is represented by Abell 47's value of 19.5."
 msgstr ""
-"Le catalogue des nébuleuses planétaire d'Abell qui contient 86 nébuleuses "
-"planétaire. La magnitude maximale est atteinte par le 47e objet dont la "
+"Le catalogue des nébuleuses planétaires d'Abell qui contient 86 nébuleuses "
+"planétaires. La magnitude maximale est atteinte par le 47e objet dont la "
 "valeur est 19,5."
 
 #. Tag: para
@@ -697,8 +697,8 @@ msgid ""
 "Hickson Compact Groups: is a catalog consisting of 99 compact groups of "
 "galaxies."
 msgstr ""
-"Les groupes compacts d'Hickson est un catalogue contenant un groupe compacts "
-"de 99 galaxies."
+"Les groupes compacts d'Hickson forment un catalogue contenant un groupe "
+"compact de 99 galaxies."
 
 #. Tag: para
 #: config.docbook:312
@@ -725,7 +725,7 @@ msgstr ""
 #: config.docbook:325
 #, no-c-format
 msgid "The following is a summary of catalogs in &kstars;:"
-msgstr "Ce qui suit est un résumé des catalogues de &kstars;."
+msgstr "Ce qui suit est un résumé des catalogues de &kstars; :"
 
 #. Tag: title
 #: config.docbook:328
@@ -779,7 +779,7 @@ msgstr "Catalogue par défaut"
 #: config.docbook:344
 #, no-c-format
 msgid "~300,000"
-msgstr "~300,000"
+msgstr "~300 000"
 
 #. Tag: entry
 #: config.docbook:345
@@ -859,7 +859,9 @@ msgstr "Catalogues des objets du ciel profond"
 #: config.docbook:383
 #, no-c-format
 msgid "New General Catalog of Nebulae and Clusters of Stars (OpenNGC)"
-msgstr "New General Catalog des nébuleuses et des amas d'étoiles (OpenNGC)"
+msgstr ""
+"Nouveau catalogue général (NGC) des nébuleuses et des amas d'étoiles "
+"(OpenNGC)"
 
 #. Tag: entry
 #: config.docbook:384
@@ -966,10 +968,10 @@ msgstr ""
 "non les étoiles en cochant <guilabel>Catalogues d'étoiles</guilabel>. En "
 "cochant, vous ferez apparaître plusieurs options. Par exemple le nombre "
 "d'étoiles peut être configuré avec le curseur <guilabel>Densité d'étoiles</"
-"guilabel>. Vous pouvez aussi configure &kstars; pour afficher le nom des "
+"guilabel>. Vous pouvez aussi configurer &kstars; pour afficher le nom des "
 "étoiles et leur <link linkend=\"ai-magnitude\">magnitude</link>. Le nom des "
 "étoiles est affiché à côté des étoiles brillantes. Pour afficher le nom des "
-"étoiles plus pâles, augmenter le curseur de la <guilabel>densité d'étoiles</"
+"étoiles plus pâles, augmentez le curseur de la <guilabel>densité d'étoiles</"
 "guilabel>."
 
 #. Tag: secondary
@@ -1016,7 +1018,7 @@ msgstr ""
 "vboettcher/kstars-catalogs\">dépôt de catalogues</ulink>. Le curseur "
 "<guilabel>zoom minimal CP</guilabel> contrôle le niveau de zoom minimal pour "
 "l'affichage des objets du ciel profond. Augmenter le niveau de zoom minimal "
-"peut augmenter les performances lors des déplacements extérieur de zoom. Le "
+"peut augmenter les performances lors des déplacements extérieurs de zoom. Le "
 "curseur <guilabel>pourcentage de cache CP</guilabel> régule le pourcentage "
 "du catalogue maître conservé en cache mémoire. Si vous observez des "
 "problèmes de mémoire, essayez de diminuer cette valeur. Le curseur "
@@ -1071,10 +1073,10 @@ msgid ""
 "but technical terms. It can be skipped without missing anything essential "
 "but helps understanding how to deal with and create (custom) catalogs."
 msgstr ""
-"Cette section aspire a introduire la base de donnes de catalogue de &kstars; "
-"en des termes simples mais techniques. Elle peut être sautée sans perdre "
-"l'essentiel mais aide à comprendre comment gérer et créer des catalogues "
-"personnalisés."
+"Cette section aspire à introduire la base de données de catalogues de "
+"&kstars; en des termes simples mais techniques. Elle peut être sautée sans "
+"perdre l'essentiel mais aide à comprendre comment gérer et créer des "
+"catalogues personnalisés."
 
 #. Tag: para
 #: config.docbook:494
@@ -1088,7 +1090,7 @@ msgstr ""
 "Les catalogues du ciel profond dans &kstars; sont de simples tables SQL "
 "(sqlite3) de bases de données. Chaque catalogue est représenté par sa propre "
 "table qui contient tous les objets et une entrée dans une table des "
-"métadonnées du catalogue. De plus, les catalogues peuvent importés ou "
+"métadonnées du catalogue. De plus, les catalogues peuvent être importés ou "
 "exportés dans des fichiers de base de données autonomes."
 
 #. Tag: para
@@ -1104,7 +1106,7 @@ msgid ""
 msgstr ""
 "Chaque objet possède les propriétés usuelles telles que nom et coordonnées "
 "mais aussi deux identités. La première est l'identifiant unique de l'objet "
-"en question et est calculée par un hachage de tous les champs de l'objet et "
+"en question et est calculé par un hachage de tous les champs de l'objet et "
 "de l'identifiant du catalogue. Comme des objets peuvent appartenir à "
 "plusieurs catalogues, chaque objet possède un identifiant additionnel (OID) "
 "qui identifie l'objet physique et peut être partagé par plusieurs objets de "
@@ -1122,7 +1124,7 @@ msgid ""
 msgstr ""
 "Afin d'accélérer la consultation, tous les catalogues activés sont fusionnés "
 "dans une table principale. Chaque catalogue possède un nombre de priorité et "
-"si plusieurs objets avec le même OID sont demandés, celui donc le catalogue "
+"si plusieurs objets avec le même OID sont demandés, celui dont le catalogue "
 "a la plus haute priorité sera chargé. Les objets du catalogue principal sont "
 "ensuite dessinés sur le ciel et sont disponibles dans tout &kstars;."
 
@@ -1158,8 +1160,8 @@ msgstr ""
 "\"https://invent.kde.org/vboettcher/kstars-catalogs/-/blob/master/catalogs/"
 "sharpless_2.py\">module python</ulink> et fournit des méthodes standards "
 "pour acquérir des données, les analyser et trouver des doublons dans "
-"d'autres catalogues. Tous les catalogues téléchargeables sont implémenter de "
-"cette manière. Si vous vouliez créer votre propre catalogue à mettre à "
+"d'autres catalogues. Tous les catalogues téléchargeables sont implémentés de "
+"cette manière. Si vous voulez créer votre propre catalogue à mettre à "
 "disposition de &kstars;, il est fortement recommandé de le créer comme un "
 "paquet dans ce dépôt. Les outils à disposition sont tellement flexibles que "
 "cela devrait bien fonctionner pour vous. Pour davantage d'informations sur "
@@ -1196,7 +1198,7 @@ msgstr ""
 "L'interface graphique de gestion des catalogues se trouve dans le menu "
 "<menuchoice><guimenu>Données</guimenu> <guimenuitem>Gérer les catalogues CP…"
 "</guimenuitem></menuchoice> et est affiché <link linkend=\"dso_manager\">ci-"
-"dessous</link>. "
+"dessous</link>."
 
 #. Tag: screeninfo
 #: config.docbook:554
@@ -1233,9 +1235,9 @@ msgid ""
 msgstr ""
 "Une liste de catalogues est affichée sur la partie gauche. Dans cette liste "
 "vous pouvez lire les propriétés essentielles du catalogues, en incluant son "
-"état d'activation, son identifiant ID t son nom. La colonne "
+"état d'activation, son identifiant ID et son nom. La colonne "
 "<guilabel>Modifiable</guilabel> indique si un catalogue peut être modifiable "
-"ou non. Les catalogues téléchargés du dépôts de catalogues à partir du menu "
+"ou non. Les catalogues téléchargés du dépôt de catalogues à partir du menu "
 "<menuchoice><guimenu>Données</guimenu> <guimenuitem>Télécharger de nouvelles "
 "données</guimenuitem></menuchoice> sont en général immuables alors que ceux "
 "créés par des utilisateurs ne le sont pas. Vous pouvez toujours "
@@ -1300,7 +1302,7 @@ msgstr "Créer un catalogue…"
 #, no-c-format
 msgid "Create a new catalog. See <xref linkend=\"create_catalog\"/>."
 msgstr ""
-"Création d'un nouveau catalogue. Voir <xref linkend=\"create_catalog\"/>"
+"Création d'un nouveau catalogue. Voir <xref linkend=\"create_catalog\"/>."
 
 #. Tag: guibutton
 #: config.docbook:607
@@ -1339,7 +1341,7 @@ msgstr "Supprimer un catalogue de la base de données des catalogues."
 #: config.docbook:625
 #, no-c-format
 msgid "Export..."
-msgstr "Exporte…"
+msgstr "Exporter…"
 
 #. Tag: para
 #: config.docbook:627
@@ -1357,8 +1359,8 @@ msgid ""
 "The resulting file can be imported with <link linkend=\"import"
 "\"><guibutton>Import Catalog...</guibutton></link> button."
 msgstr ""
-"Le fichier résultant peut être importer grâce au bouton <link linkend="
-"\"import\"><guibutton>Importer un catalogue…</guibutton></link>."
+"Le fichier résultant peut être importé grâce au bouton <link linkend=\"import"
+"\"><guibutton>Importer un catalogue…</guibutton></link>."
 
 #. Tag: guibutton
 #: config.docbook:635
@@ -1484,7 +1486,7 @@ msgstr ""
 "<guilabel>ID</guilabel> sera automatiquement choisi mais peut être modifié. "
 "Le champ <guilabel>Couleurs</guilabel> configure la couleur d'affichage des "
 "objets du catalogue. Toutes les autres valeurs sont facultatives ou "
-"possèdent de valeurs par défaut raisonnables."
+"possèdent des valeurs par défaut raisonnables."
 
 #. Tag: para
 #: config.docbook:702
@@ -1581,8 +1583,8 @@ msgid ""
 "details\"/>)."
 msgstr ""
 "Cette boîte de dialogue atteinte par l'interface graphique de gestion de "
-"catalogues (voir <xref linkend=\"catalog_gui\"/>). Dans le coin gauche en "
-"haut sont affichées les métadonnées du catalogue. Sur la droite, une table "
+"catalogues (voir <xref linkend=\"catalog_gui\"/>). Dans le coin en haut à "
+"gauche sont affichées les métadonnées du catalogue. Sur la droite, une table "
 "avec tous les objets du catalogue est affichée. La ligne de recherche au-"
 "dessus de la table permet de filtrer les objets par nom. Un double-clic sur "
 "une rangée ouvre une boîte de dialogue contenant les détails de l'objet."
@@ -1624,7 +1626,7 @@ msgid ""
 "Below the <guilabel>Object</guilabel> section, the general catalog options "
 "are situated."
 msgstr ""
-"Les options générales des catalogues sont situés sous la section "
+"Les options générales des catalogues sont situées sous la section "
 "<guilabel>Objets</guilabel>"
 
 #. Tag: guimenu
@@ -1659,7 +1661,7 @@ msgstr "Ajouter un objet au catalogue. (Voir <xref linkend=\"add_object\"/>)"
 #: config.docbook:810
 #, no-c-format
 msgid "Import CSV..."
-msgstr "Importer CVS…"
+msgstr "Importer CSV…"
 
 #. Tag: para
 #: config.docbook:812
@@ -1769,7 +1771,7 @@ msgid ""
 "at their defaults."
 msgstr ""
 "La section <guilabel>Facultatif</guilabel> contient des champs de données "
-"qui sont facultatifs et est divisée en deux sous-section. Ils sont déjà "
+"qui sont facultatifs et est divisée en deux sous-sections. Ils sont déjà "
 "remplis et peuvent être laissés avec leur valeur par défaut."
 
 #. Tag: para
@@ -1787,7 +1789,7 @@ msgstr ""
 #: config.docbook:872
 #, no-c-format
 msgid "The <guilabel>Misc</guilabel> subsection."
-msgstr "La sous-section <guilabel>Divers</guilabel>"
+msgstr "La sous-section <guilabel>Divers</guilabel>."
 
 #. Tag: guilabel
 #: config.docbook:878
@@ -1869,21 +1871,19 @@ msgstr ""
 #: config.docbook:902
 #, no-c-format
 msgid "Importing CSV (and similar formats)"
-msgstr "Importation CVS (et formats similaires)"
+msgstr "Importation CSV (et formats similaires)"
 
 #. Tag: screeninfo
 #: config.docbook:904
 #, no-c-format
 msgid "<screeninfo>Importing CSV Catalogs</screeninfo>"
-msgstr "<screeninfo>Importation de catalogues du ciel profond</screeninfo>"
+msgstr "<screeninfo>Importation de catalogues au format CSV</screeninfo>"
 
 #. Tag: phrase
 #: config.docbook:910 config.docbook:932 config.docbook:960
 #, no-c-format
 msgid "<phrase>Importing CSV Catalogs</phrase>"
-msgstr ""
-"<phrase>Importation de catalogues d'objets du ciel profond au format CSV</"
-"phrase>"
+msgstr "<phrase>Importation de catalogues au format CSV</phrase>"
 
 #. Tag: para
 #: config.docbook:914
@@ -1935,7 +1935,7 @@ msgid ""
 "reference, a mapping for the OpenNGC catalog is shown in the below "
 "screenshot."
 msgstr ""
-"Dans la partie du haut à droite vous pouvez choisir si les coordonnées sont "
+"Dans la partie en haut à droite vous pouvez choisir si les coordonnées sont "
 "exprimées en degrés ou en heure/minute/seconde. La section "
 "<guilabel>Correspondance</guilabel> vous permet de faire correspondre les "
 "colonnes du fichier CSV avec les champs de données dans &kstars;. Choisir "
@@ -1946,7 +1946,7 @@ msgstr ""
 "ajouter ou retirer des correspondances en cliquant sur <guilabel>+</"
 "guilabel> ou <guilabel>-</guilabel>. Lorsque vous avez terminé, vous pouvez "
 "tester vos réglages en cliquant sur <guilabel>Aperçu</guilabel> pour lire "
-"les quelques premier objets du fichier csv. Si vous êtes satisfait, vous "
+"les quelques premiers objets du fichier csv. Si vous êtes satisfait, vous "
 "pouvez cliquer sur <guilabel>OK</guilabel> pour importer tout le catalogue "
 "ou alors ajuster vos réglages et les vérifier à nouveau. Comme référence "
 "vous pouvez voir la correspondance pour un catalogue OpenNGC dans la capture "
@@ -2032,8 +2032,8 @@ msgid ""
 "Options</guilabel> section."
 msgstr ""
 "La page <guilabel>Satellites</guilabel> vous permet de régler les options "
-"d'affichage des satellites. Vous d'abord choisir d'afficher ou non les "
-"satellites en cochant la case <guilabel>Afficher satellites</guilabel> "
+"d'affichage des satellites. Vous pouvez d'abord choisir d'afficher ou non "
+"les satellites en cochant la case <guilabel>Afficher satellites</guilabel> "
 "depuis le haut de la section <guilabel>Options d'affichage</guilabel>. Par "
 "défaut, les satellites sont dessinés avec de petits cercles en rouge clair "
 "avec une étiquette de nom facultative juste à côté. Vous pouvez activer ou "
@@ -2056,9 +2056,9 @@ msgstr ""
 "facilement être personnalisée dans la page <guilabel>Couleurs</guilabel> "
 "sous la même fenêtre <guilabel>Configurer &kstars;</guilabel>. De plus, ils "
 "peuvent être dessinés de la même manière que les étoiles en cochant la case "
-"<guilabel>Dessiner les satellites comme les étoiles</guilabel>. Pour "
+"<guilabel>Dessiner les satellites comme les étoiles</guilabel>. Pour ne "
 "dessiner que les satellites visibles depuis votre position et votre heure "
-"actuels, sélectionnez <guilabel>Afficher que les satellites visibles</"
+"actuelles, sélectionnez <guilabel>Afficher que les satellites visibles</"
 "guilabel>."
 
 #. Tag: para
@@ -2357,7 +2357,7 @@ msgid ""
 "The <guilabel>Colors</guilabel> page allows you to set the color scheme, and "
 "to define custom color schemes. The tab is split into two panels:"
 msgstr ""
-"La page <guilabel>couleurs</guilabel> vous permet de définir le thème de "
+"La page <guilabel>Couleurs</guilabel> vous permet de définir le thème de "
 "couleur, et de définir des thèmes de couleurs personnalisés. Cette section "
 "est séparée en deux :"
 
@@ -2886,10 +2886,10 @@ msgid ""
 msgstr ""
 "Choisissez un <quote>Indicateur de champ de vision (FOV)</quote> en "
 "utilisant le menu <menuchoice><guimenu>configuration</guimenu> "
-"<guisubmenu>Indicateurs de champs de vision</guisubmenu></menuchoice>. "
+"<guisubmenu>Indicateurs de champ de vision</guisubmenu></menuchoice>. "
 "<firstterm>FOV</firstterm> est un acronyme pour <quote>field-of-view</quote> "
-"(champ de vision). Un indicateur de champ de vision est dessiné au centre de "
-"la fenêtre pour indiquer où l'affichage pointe. Les indicateurs "
+"(champ de vision = CdV). Un indicateur de champ de vision est dessiné au "
+"centre de la fenêtre pour indiquer où l'affichage pointe. Les indicateurs "
 "correspondant à différentes tailles angulaires ; vous pouvez utiliser un "
 "indicateur pour voir à quoi la vue ressemblerait à travers un certain "
 "télescope. Par exemple, si vous choisissez l'indicateur <quote>Jumelles "
@@ -2987,11 +2987,11 @@ msgstr ""
 "soit utiliser l'onglet Appareil photo pour calculer l'angle de champ de "
 "vision, étant donné les paramètres de votre réglage de télescope/Viseur ou "
 "télescope/appareil photo. Les cinq formes disponibles sont : cercle, carré, "
-"croix,  œil de bœuf et semitransparent. Une fois que vous avez spécifié les "
-"quatre paramètres, actionnez <guibutton>Ok</guibutton>, et l'indicateur "
-"apparaîtra dans la liste des indicateurs définis. Il sera aussi disponible "
-"dans le menu <menuchoice><guimenu>Configuration</guimenu> "
-"<guisubmenu>Indicateur de champ de vision</guisubmenu></menuchoice>."
+"croix,  cible et semitransparent. Une fois que vous avez spécifié les quatre "
+"paramètres, actionnez <guibutton>Ok</guibutton>, et l'indicateur apparaîtra "
+"dans la liste des indicateurs définis. Il sera aussi disponible dans le menu "
+"<menuchoice><guimenu>Configuration</guimenu> <guisubmenu>Indicateur de champ "
+"de vision</guisubmenu></menuchoice>."
 
 #. Tag: chapter
 #: config.docbook:1452
