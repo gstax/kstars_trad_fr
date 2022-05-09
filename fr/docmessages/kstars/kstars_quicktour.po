@@ -34,7 +34,7 @@ msgid ""
 "important features."
 msgstr ""
 "Ce chapitre propose une visite guidée de &kstars; et introduit beaucoup de "
-"concepts et fonctions importantes."
+"concepts et fonctionnalités importantes."
 
 #. Tag: screeninfo
 #: quicktour.docbook:10
@@ -133,7 +133,7 @@ msgid ""
 "<guilabel>Next</guilabel> button."
 msgstr ""
 "La deuxième page de l'assistant de configuration vous permet de choisir la "
-"position géographique de départ en le sélectionnant dans une liste de plus "
+"position géographique de départ en la sélectionnant dans une liste de plus "
 "de 3400 positions. La liste des positions peut être filtrée pour "
 "correspondre au texte que vous avez saisi dans les zones de texte "
 "<guilabel>Ville</guilabel>, <guilabel>Province</guilabel> et <guilabel>Pays</"
@@ -157,7 +157,7 @@ msgstr ""
 "des données supplémentaires qui ne sont pas incluses dans la distribution "
 "standard de &kstars;. Cliquez sur le bouton <guilabel>Téléchargement de "
 "données supplémentaires…</guilabel> pour ouvrir l'outil <guilabel>Obtenir "
-"des nouvelles données</guilabel>. Lorsque ce sera fait , cliquez sur le "
+"des nouvelles données</guilabel>. Lorsque ce sera fait, cliquez sur le "
 "bouton <guilabel>Ok</guilabel> dans l'assistant de configuration pour "
 "commencer à explorer &kstars;."
 
@@ -194,7 +194,7 @@ msgid ""
 "several ways to change the magnification (or <firstterm>Zoom level</"
 "firstterm>) of the display:"
 msgstr ""
-"Maintenant que votre position et votre heure sont ajustés, faisons le tour "
+"Maintenant que votre position et votre heure sont ajustées, faisons le tour "
 "du propriétaire. Vous pouvez bouger l'image à l'aide des flèches sur votre "
 "clavier. L'image bougera deux fois plus vite si vous gardez enfoncée la "
 "touche &Shift;. Une autre façon de bouger l'image est de laisser enfoncé le "
@@ -212,7 +212,7 @@ msgstr ""
 msgid "Use the <keycap>+</keycap> and <keycap>-</keycap> keys."
 msgstr ""
 "Utilisez les touches <keycap>&Ctrl;&Shift;+</keycap> et <keycap>&Ctrl;"
-"&Shift;-</keycap>"
+"&Shift;-</keycap>."
 
 # unreviewed-context
 #. Tag: para
@@ -223,7 +223,7 @@ msgid ""
 "buttons in the toolbar."
 msgstr ""
 "Actionnez les boutons <guibutton>zoom avant</guibutton>/<guibutton>zoom "
-"arrière</guibutton> dans la barre d'outils"
+"arrière</guibutton> dans la barre d'outils."
 
 # unreviewed-context
 #. Tag: para
@@ -234,7 +234,7 @@ msgid ""
 "Out</guimenuitem></menuchoice> menu item."
 msgstr ""
 "Sélectionnez le menu <menuchoice><guimenu>Affichage</guimenu> "
-"<guimenuitem>Zoom arrière/Zoom avant</guimenuitem></menuchoice>"
+"<guimenuitem>Zoom arrière/Zoom avant</guimenuitem></menuchoice>."
 
 #. Tag: para
 #: quicktour.docbook:107
@@ -253,7 +253,7 @@ msgstr ""
 #: quicktour.docbook:112
 #, no-c-format
 msgid "Use the scroll <mousebutton>wheel</mousebutton> on your mouse."
-msgstr "Utilisez la <mousebutton>molette</mousebutton> de votre souris"
+msgstr "Utilisez la <mousebutton>molette</mousebutton> de votre souris."
 
 #. Tag: para
 #: quicktour.docbook:115
@@ -328,7 +328,7 @@ msgstr ""
 "guimenu> et cochez ou décochez <guilabel>Équateur céleste</guilabel> et "
 "<guilabel>Écliptique</guilabel>. Vous pouvez aussi choisir les couleurs "
 "utilisées par &kstars; pour dessiner ces courbes dans la page "
-"<guimenu>Couleurs</guimenu>. "
+"<guimenu>Couleurs</guimenu>."
 
 #. Tag: screeninfo
 #: quicktour.docbook:149
@@ -460,7 +460,7 @@ msgstr ""
 "La section supérieure contient certaines lignes d'information que l'on ne "
 "peut pas sélectionner : le nom de l'objet (la nébuleuse de Mairan ou M43), "
 "son type (nébuleuse gazeuse) et la constellation qui contient l'objet "
-"(Orion). Les trois lignes suivantes en affichent l'heure du lever, du "
+"(Orion). Les trois lignes suivantes affichent l'heure du lever, du "
 "coucher et les heures de transit. Si les heures de lever et de coucher "
 "indiquent « circumpolaire », cela signifie que l'objet est toujours au-"
 "dessus de l'horizon pour la position actuelle."
@@ -587,7 +587,7 @@ msgstr ""
 ">) tous les objets dans &kstars; qui ont un nom. Beaucoup d'entre eux "
 "possèdent une dénomination seulement dans un catalogue (par exemple "
 "NGC 3077), et certains possèdent aussi un nom propre (la galaxie du "
-"Tourbillon ). Vous pouvez filtrer la liste selon le nom ou le type d'objet. "
+"Tourbillon). Vous pouvez filtrer la liste selon le nom ou le type d'objet. "
 "Pour filtrer par nom, saisissez une chaîne dans la zone de texte en haut de "
 "la fenêtre ; la liste ne contiendra alors que les noms qui commencent par "
 "cette chaîne. Pour filtrer par type, sélectionnez un type dans la liste "
@@ -620,7 +620,7 @@ msgstr ""
 "l'objet trouvé, vous pouvez l'utiliser de la même manière que n'importe quel "
 "autre objet déjà chargé dans &kstars; (&ie; l'ajouter dans votre liste de "
 "souhaits). Si l'objet n'a pas été trouvé dans les bases de données en ligne, "
-"un message d'avertissement apparaitra. Une fois qu'un objet a été trouvé par "
+"un message d'avertissement apparaîtra. Une fois qu'un objet a été trouvé par "
 "cette méthode, il sera ajouté à la base de données de &kstars; pour pouvoir "
 "être utilisé ultérieurement."
 
@@ -778,7 +778,7 @@ msgstr ""
 "Quand vous cliquez sur un objet dans la carte, il devient <firstterm>l'objet "
 "sélectionné</firstterm>, et son nom est identifié dans la barre d'état. Il y "
 "a de nombreuses commandes rapides au clavier qui agissent sur l'objet "
-"sélectionné."
+"sélectionné :"
 
 #. Tag: keycap
 #: quicktour.docbook:372
@@ -790,7 +790,7 @@ msgstr "<keycap>C</keycap>"
 #: quicktour.docbook:374
 #, no-c-format
 msgid "Center and Track on the selected object."
-msgstr "Centrer et suivre l'objet sélectionné"
+msgstr "Centrer et suivre l'objet sélectionné."
 
 #. Tag: keycap
 #: quicktour.docbook:379
@@ -818,7 +818,7 @@ msgstr "<keycap>L</keycap>"
 #: quicktour.docbook:389
 #, no-c-format
 msgid "Toggle a visible name label on the selected object."
-msgstr "Basculer la visibilité de l'étiquette du nom de l'objet sélectionné"
+msgstr "Basculer la visibilité de l'étiquette du nom de l'objet sélectionné."
 
 #. Tag: keycap
 #: quicktour.docbook:394
@@ -834,7 +834,7 @@ msgid ""
 "wish-list</link>."
 msgstr ""
 "Ajouter l'objet sélectionné à la <link linkend=\"tool-obsplanner\">liste de "
-"souhaits des observations</link>"
+"souhaits des observations</link>."
 
 #. Tag: keycap
 #: quicktour.docbook:402
@@ -849,9 +849,9 @@ msgid ""
 "Toggle a visible curve on the sky, showing the path of the object across the "
 "sky (only applicable to Solar System bodies)."
 msgstr ""
-"Inverser la visibilité d'une courbe dans le ciel, montrant la trace de "
+"(Dés)activer la visibilité d'une courbe dans le ciel, montrant la trace de "
 "l'objet à travers du ciel (applicable seulement aux objets du système "
-"solaire)"
+"solaire)."
 
 #. Tag: para
 #: quicktour.docbook:414
