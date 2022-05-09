@@ -1,6 +1,6 @@
 # KStars en français
 
-Traduction du fichier kstars.po en français.
+Traduction du fichier de la GUI kstars.po en français. (Et, de fil en aiguille, de la documentation...)
 
 But: une interface professionnelle, françisée et épurée.
 
@@ -74,3 +74,4 @@ Cela créera le fichier kstars.pdf.
 * Plate solver -> Résolveur
 * Autofocus -> Mise au point automatique
 * focuser -> moteur de mise au point
+* location -> position (en non emplacemnt)
