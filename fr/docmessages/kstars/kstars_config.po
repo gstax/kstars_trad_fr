@@ -219,8 +219,8 @@ msgid ""
 "one by one. The second one will skip to the next higher (or lower) unit of "
 "time, which allows you to make large timestep changes more quickly."
 msgstr ""
-"Quand &kstars; démarre, l'heure est positionnée selon l'horloge de votre "
-"ordinateur et l'horloge de &kstars; fonctionne pour rester en phase avec "
+"Quand &kstars; démarre, l'heure est réglée sur l'horloge de votre "
+"ordinateur, l'horloge de &kstars; fonctionne pour rester en phase avec "
 "l'heure réelle. Si vous voulez arrêter l'horloge, sélectionnez "
 "<menuchoice><guimenu>Heure</guimenu> <guimenuitem>Arrêter l'horloge</"
 "guimenuitem></menuchoice> ou cliquez simplement sur l'icône de barre "
@@ -251,13 +251,13 @@ msgid ""
 "just select the <menuchoice><guimenu>Time</guimenu> <guimenuitem>Set Time to "
 "Now</guimenuitem></menuchoice> menu item."
 msgstr ""
-"Vous pouvez déterminer l'heure et la date en sélectionnant "
+"Vous pouvez régler l'heure et la date en sélectionnant "
 "<menuchoice><guimenu>Heure</guimenu> <guimenuitem>Régler l'heure…</"
 "guimenuitem></menuchoice> ou en actionnant l'icône de barre d'outils "
 "<guiicon>Heure</guiicon>. La fenêtre <guilabel>Définir l'heure</guilabel> "
 "utilise un composant graphique de date standard de &kde;, couplé avec trois "
 "compteurs pour régler les heures, minutes et secondes. Si vous voulez "
-"synchroniser à nouveau l'horloge de simulation avec l'heure du système, "
+"synchroniser à nouveau l'horloge de simulation avec l'heure réelle, "
 "sélectionnez simplement <menuchoice><guimenu>Heure</guimenu> "
 "<guimenuitem>Régler l'heure à maintenant</guimenuitem></menuchoice>."
 
@@ -280,8 +280,8 @@ msgid ""
 msgstr ""
 "&kstars; peut accepter des dates très lointaines, au-delà des limites "
 "habituelles imposées par QDate. Actuellement, vous pouvez fixer une date "
-"entre les années -100 000 et +100 000. Nous pouvons étendre cette plage lors "
-"des versions futures. Cependant, soyez averti que l'exactitude de la "
+"entre les années -100 000 et +100 000. Nous pourrions étendre cette plage "
+"lors de versions futures. Cependant, soyez averti que l'exactitude de la "
 "simulation devient de plus en plus dégradée pour les dates les plus "
 "lointaines. C'est particulièrement vrai pour les positions des corps du "
 "système solaire."
@@ -344,7 +344,7 @@ msgid ""
 "<guilabel>Advanced</guilabel>."
 msgstr ""
 "La fenêtre <guilabel>Configuration de &kstars;</guilabel> est divisée en "
-"douze onglets : <guilabel>Catalogues</guilabel>, <guilabel>Système solaire</"
+"douze pages : <guilabel>Catalogues</guilabel>, <guilabel>Système solaire</"
 "guilabel>, <guilabel>Satellites</guilabel>, <guilabel>Supernovae</guilabel>, "
 "<guilabel>Guides</guilabel>, <guilabel>Terrain</guilabel>, "
 "<guilabel>Couleurs</guilabel>, <guilabel>FITS</guilabel>, <guilabel>INDI</"
@@ -365,8 +365,8 @@ msgid ""
 "concerning the display of the star and deep sky object catalogs."
 msgstr ""
 "Sur la page des <guilabel>Catalogues</guilabel>, Vous pouvez choisir "
-"plusieurs propriétés concernant l'affichage des catalogues des étoiles et "
-"des objets du ciel profond."
+"plusieurs configurations concernant l'affichage des catalogues des étoiles "
+"et des objets du ciel profond."
 
 #. Tag: secondary
 #: config.docbook:161 config.docbook:983
@@ -449,15 +449,16 @@ msgid ""
 "constellation lines and names on this page. The current version of &kstars; "
 "includes data for more than a dozen sky cultures."
 msgstr ""
-"Il est possible de choisir une <guilabel>culture du ciel</guilabel> pour les "
-"lignes de constellations et les noms sur cette page. La version actuelle de "
-"&kstars; inclut des données pour plus d'une dizaine de cultures du ciel."
+"Il est possible de choisir une <guilabel>culture du ciel</guilabel> "
+"(civilisation) pour les lignes de constellations et les noms sur cette page. "
+"La version actuelle de &kstars; inclut des données pour plus d'une dizaine "
+"de cultures du ciel."
 
 #. Tag: secondary
 #: config.docbook:200 config.docbook:1120
 #, no-c-format
 msgid "Terrain page"
-msgstr "Page du terrain"
+msgstr "Page Terrain"
 
 #. Tag: primary
 #: config.docbook:201
@@ -479,7 +480,7 @@ msgid ""
 "The <guilabel>Terrain</guilabel> page allows you to set the terrain or "
 "landscape image and configure its speedup options."
 msgstr ""
-"L'onglet des <guilabel>terrains</guilabel> vous permet de définir les "
+"La page des <guilabel>terrains</guilabel> vous permet de définir les "
 "terrains ou les images de paysage et de configurer leurs options "
 "d'accélération."
 
@@ -487,7 +488,7 @@ msgstr ""
 #: config.docbook:210 config.docbook:1157
 #, no-c-format
 msgid "Colors page"
-msgstr "Onglet Couleurs"
+msgstr "Pages Couleurs"
 
 #. Tag: primary
 #: config.docbook:211 config.docbook:1158 config.docbook:1380
@@ -502,8 +503,8 @@ msgid ""
 "The <guilabel>Colors</guilabel> page allows you to set the color scheme, and "
 "to define new custom color schemes."
 msgstr ""
-"L'onglet des <guilabel>couleurs</guilabel> vous permet de définir le thème "
-"de couleur, et de définir des thèmes de couleurs personnalisés."
+"La page des <guilabel>couleurs</guilabel> vous permet de définir le thème de "
+"couleur, et de définir des thèmes de couleurs personnalisés."
 
 #. Tag: para
 #: config.docbook:218
@@ -554,14 +555,14 @@ msgid ""
 "renderer Xplanet</ulink> (should be installed separately)."
 msgstr ""
 "La page <guilabel>Xplanet</guilabel> fournit un contrôle détaillé du <ulink "
-"url=\"http ://xplanet.sourceforge.net\">rendu de la surface des planètes du "
+"url=\"http://xplanet.sourceforge.net/\">rendu de la surface des planètes du "
 "système solaire par Xplanet</ulink> (à installer séparément)."
 
 #. Tag: secondary
 #: config.docbook:243 config.docbook:1302
 #, no-c-format
 msgid "Advanced page"
-msgstr "Onglet Avancé"
+msgstr "Page Avancé"
 
 #. Tag: para
 #: config.docbook:243 config.docbook:1302
@@ -570,7 +571,7 @@ msgid ""
 "The <guilabel>Advanced</guilabel> page provides fine-grained control over "
 "the more subtle behaviors of &kstars;."
 msgstr ""
-"L'onglet <guilabel>Avancé</guilabel> fournit un contrôle fin des "
+"La page <guilabel>Avancé</guilabel> fournit un contrôle fin des "
 "comportements les plus subtils de &kstars;."
 
 #. Tag: title
@@ -893,7 +894,7 @@ msgstr "Steinicke NGC/IC"
 #: config.docbook:401
 #, no-c-format
 msgid "Abell Planetary Nebulae Catalog"
-msgstr "Catalogue des nébuleuses planétaires d'Abell"
+msgstr "Catalogue Abell des nébuleuses planétaires"
 
 #. Tag: entry
 #: config.docbook:403
@@ -911,7 +912,7 @@ msgstr "Jusqu'à la magnitude 19,5"
 #: config.docbook:410
 #, no-c-format
 msgid "Sharpless HII region Catalog"
-msgstr "Catalogue des régions HII de Sharpless"
+msgstr "Catalogue Sharpless des régions HII"
 
 #. Tag: entry
 #: config.docbook:411
@@ -1026,7 +1027,7 @@ msgstr ""
 "objets du ciel profond. Si les étiquettes se chevauchent et la carte de ciel "
 "devient trop chargée, essayer de diminuer cette valeur. Le curseur "
 "<guilabel>zoom de la limite pâle</guilabel> régule la limite de magnitude "
-"affichée sur la carte du ciel (les magnitudes hautes sont les plus pâles). "
+"affichée sur la carte du ciel (les magnitudes élevées sont les plus pâles). "
 "Si <guilabel>Afficher les objets de magnitude inconnues</guilabel> est "
 "coché, les objets de magnitude inconnues sont toujours affichés."
 
@@ -1038,7 +1039,7 @@ msgid ""
 "they're managed."
 msgstr ""
 "La prochaine section expliquera en détail comment les catalogues du ciel "
-"profond (DSO ou CP) fonctionne dans &kstars; et comment ils sont gérés."
+"profond (CP) fonctionne dans &kstars; et comment ils sont gérés."
 
 #. Tag: title
 #: config.docbook:481
@@ -2087,7 +2088,7 @@ msgstr ""
 "satellites, vous devez cocher la case du groupe. Vous pouvez aussi "
 "sélectionner les satellites d'intérêt dans chaque groupe. Les orbites des "
 "satellites peuvent être mises à jour par internet en cliquant sur le bouton "
-"<guibutton>Mise à jour TLE</guibutton> (Two-Line elements ou paramètres "
+"<guibutton>Mise à jour TLE</guibutton> (Two-Line Elements ou paramètres "
 "orbitaux à deux lignes). Une autre manière de mettre à jour les orbites est "
 "d'utiliser le menu <menuchoice><guimenu>Données</guimenu> <guimenuitem>Mise "
 "à jour des orbites des satellites</guimenuitem></menuchoice>. Si vous "
@@ -2260,7 +2261,7 @@ msgid ""
 "\"https://stellarium.org/landscapes.html\">Stellarium</ulink>. The details "
 "of image creation are the same."
 msgstr ""
-"L'utilisateur est responsable de créer une image partiellement transparente "
+"L'utilisateur a la possibilité de créer une image partiellement transparente "
 "qui sera superposée sur la carte du ciel. Cette image devrait avoir des "
 "régions transparentes qui laissera passer la carte du ciel et d'autres "
 "opaques qui représentent les arbres, les bâtiments et le paysage autour du "
@@ -2469,8 +2470,8 @@ msgid ""
 "automatically display received images in the FITS Viewer."
 msgstr ""
 "Veuillez cocher la case <guilabel>Utiliser l'afficheur FITS</guilabel> si "
-"vous souhaitez afficher automatiquement les images FITS reçues dans "
-"l'afficheur FITS."
+"vous souhaitez afficher automatiquement les images FITS reçues de votre "
+"caméra dans l'afficheur FITS."
 
 #. Tag: para
 #: config.docbook:1212
@@ -2576,7 +2577,7 @@ msgid ""
 "guilabel>, see the <link linkend=\"tool-ekos\">Ekos section of this manual</"
 "link>."
 msgstr ""
-"Ekos est une suite d'astrophotographie complète qui permet de contrôle tout "
+"Ekos est une suite d'astrophotographie complète qui permet de contrôler tout "
 "périphérique INDI tels que des montures, des CCD, des APN, des moteurs de "
 "mise au point, des roues à filtres et bien plus encore. Ekos gère le suivi "
 "de haute précision en utilisant des résolveurs en ligne et hors ligne, la "
