@@ -175,7 +175,7 @@ msgstr ""
 #: commands.docbook:94
 #, no-c-format
 msgid "Sync time to system clock."
-msgstr "Synchronise l'heure avec l'horloge du système"
+msgstr "Synchronise l'heure avec l'horloge du système."
 
 #. Tag: menuchoice
 #: commands.docbook:98
@@ -225,7 +225,7 @@ msgstr "<guimenu>Heure</guimenu> <guimenuitem>Arrêter l'horloge</guimenuitem>"
 #: commands.docbook:123
 #, no-c-format
 msgid "Toggle whether time passes."
-msgstr "(dés)active le défilement du temps."
+msgstr "(Dés)active le défilement du temps."
 
 #. Tag: menuchoice
 #: commands.docbook:126
@@ -582,7 +582,7 @@ msgid ""
 "guimenuitem>"
 msgstr ""
 "<shortcut> <keycap>F6</keycap> </shortcut> <guimenuitem>Azimutale "
-"équidistante</guimenuitem> "
+"équidistante</guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:339 commands.docbook:1378
@@ -603,7 +603,7 @@ msgid ""
 "guimenuitem>"
 msgstr ""
 "<shortcut> <keycap>F7</keycap></shortcut> <guimenuitem>Orthographique</"
-"guimenuitem> "
+"guimenuitem>"
 
 #. Tag: para
 #: commands.docbook:344 commands.docbook:1385
@@ -1337,10 +1337,10 @@ msgstr ""
 "utilisée par &kstars;. Le pas temporel correspond au taux de temps dans la "
 "simulation. Pour régler le pas de temps, vous pouvez utiliser la boîte des "
 "unités de temps et celle des valeurs d'un pas temporel. La barre d'outils "
-"principales permet également de rapidement ouvrir les fenêtres "
+"principale permet également de rapidement ouvrir les fenêtres "
 "<guilabel>Trouver un objet</guilabel>, <guilabel>Régler l'horloge</guilabel> "
 "ou encore <guilabel>Régler la position géographique</guilabel>. Cette barre "
-"d'outils principales peut être configurée en utilisant le menu "
+"d'outils principale peut être configurée en utilisant le menu "
 "<menuchoice><guimenu>Configurations</guimenu><guimenuitem>Barres d'outils "
 "affichées</guimenuitem></menuchoice>."
 
@@ -1382,7 +1382,7 @@ msgstr ""
 #: commands.docbook:744
 #, no-c-format
 msgid "INDI Toolbar"
-msgstr "Barre d'outil INDI"
+msgstr "Barre d'outils INDI"
 
 #. Tag: para
 #: commands.docbook:745
@@ -1392,7 +1392,7 @@ msgid ""
 "shortcut icons:"
 msgstr ""
 "(Dés)active l'affichage de la barre d'outil INDI. Par défaut, la barre "
-"d'outil INDI contient cinq icônes de raccourci :"
+"d'outils INDI contient cinq icônes de raccourci :"
 
 #. Tag: guiicon
 #: commands.docbook:748
@@ -1450,7 +1450,7 @@ msgid ""
 "contains seven shortcut icons:"
 msgstr ""
 "(Dés)active l'affichage de la barre d'outil Télescope. Par défaut cette "
-"barre d'outil contient sept icônes de raccourci :"
+"barre d'outils contient sept icônes de raccourci :"
 
 #. Tag: guiicon
 #: commands.docbook:763
@@ -1502,7 +1502,7 @@ msgid ""
 "guimenu> <guimenuitem>Configure Toolbars...</guimenuitem></menuchoice> menu "
 "item."
 msgstr ""
-"La barre d'outil du télescope peut être configurée en utilisant "
+"La barre d'outils du télescope peut être configurée en utilisant "
 "<menuchoice><guimenu>Configurations</guimenu> <guimenuitem>Affichage des "
 "barres d'outils…</guimenuitem></menuchoice>"
 
@@ -1510,7 +1510,7 @@ msgstr ""
 #: commands.docbook:776
 #, no-c-format
 msgid "Dome Toolbar"
-msgstr "Barre d'outil du dôme"
+msgstr "Barre d'outils du dôme"
 
 #. Tag: para
 #: commands.docbook:777
@@ -1519,8 +1519,8 @@ msgid ""
 "Toggle display of the Dome Toolbar. By default, Dome Toolbar contains two "
 "shortcut icons:"
 msgstr ""
-"(Dés)active l'affichage de la barre d'outil du dôme. Par défaut cette barre "
-"d'outil contient deux icônes de raccourci :"
+"(Dés)active l'affichage de la barre d'outils du dôme. Par défaut cette barre "
+"d'outils contient deux icônes de raccourci :"
 
 #. Tag: guiicon
 #: commands.docbook:780
@@ -1730,34 +1730,34 @@ msgstr ""
 "d'horizon artificiel s'ouvrira. Il permet de définir une ou plusieurs zones "
 "sur la carte du ciel qui sont masquées depuis votre position actuelle (&ie; "
 "par des grands arbres ou des immeubles). La fenêtre est séparée en deux "
-"parties : sur la partie gauche se trouve la sections Régions et sur la "
-"partie droite la sections Points. Vous pouvez ajouter une zone en appuyant "
-"sur le bouton <guibutton>+</guibutton> (ajouter Région) ou vous pouvez en "
-"supprimer une en la choisissant dans la liste et appuyer sur le bouton "
-"<guibutton>-</guibutton> (Supprimer Région). Afin de dessiner une région, il "
-"faut définir une liste de points qui l'entoure. Vous pouvez ajouter un "
-"nouveau point en cliquant sur le bouton <guibutton>+</guibutton> (Ajouter "
-"Point) de la section de droite. Vous pouvez également supprimer un point "
-"sélectionné de la liste de points ou effacer tous les points. Il y a deux "
-"manières d'ajouter un point à une région sélectionnée : en indiquant "
-"manuellement les coordonnées du point ou en sélectionnant le point de la "
-"carte du ciel après avoir cliqué  sur le bouton <guibutton>Sélectionner "
-"Point</guibutton>. Veuillez noter que chaque point est décrit par des "
-"coordonnées horizontales : Az (Azimuth) et Alt (Altitude). Si vous souhaitez "
-"modifier les coordonnées d'un point, il suffit de double-cliquer sur sa "
-"valeur Az/Alt dans la boîte et indiquer de nouvelles valeurs. Le premier et "
-"le dernier point doivent se trouver sur l'horizon. Les polygones doivent "
-"être fermés pour être considérer comme des régions valides. Le gestionnaire "
-"d'horizon artificiel fournit un moyen simple pour renommer vos régions. Par "
-"défaut, les régions sont nommées : <quote>Région </quote> plus un index "
-"(&ie; <quote>Région 1</quote> ou <quote>Région 2</quote>). Pour renommer une "
+"parties : sur la partie gauche se trouve la section Régions et sur la partie "
+"droite la section Points. Vous pouvez ajouter une zone en appuyant sur le "
+"bouton <guibutton>+</guibutton> (ajouter Région) ou vous pouvez en supprimer "
+"une en la choisissant dans la liste et appuyer sur le bouton <guibutton>-</"
+"guibutton> (Supprimer Région). Afin de dessiner une région, il faut définir "
+"une liste de points qui l'entoure. Vous pouvez ajouter un nouveau point en "
+"cliquant sur le bouton <guibutton>+</guibutton> (Ajouter Point) de la "
+"section de droite. Vous pouvez également supprimer un point sélectionné de "
+"la liste de points ou effacer tous les points. Il y a deux manières "
+"d'ajouter un point à une région sélectionnée : en indiquant manuellement les "
+"coordonnées du point ou en sélectionnant le point de la carte du ciel après "
+"avoir cliqué sur le bouton <guibutton>Sélectionner Point</guibutton>. "
+"Veuillez noter que chaque point est décrit par des coordonnées "
+"horizontales : Az (Azimuth) et Alt (Altitude). Si vous souhaitez modifier "
+"les coordonnées d'un point, il suffit de double-cliquer sur sa valeur Az/Alt "
+"dans la boîte et indiquer de nouvelles valeurs. Le premier et le dernier "
+"point doivent se trouver sur l'horizon. Les polygones doivent être fermés "
+"pour être considérés comme des régions valides. Le gestionnaire d'horizon "
+"artificiel fournit un moyen simple pour renommer vos régions. Par défaut, "
+"les régions sont nommées : <quote>Région </quote> plus un index (&ie; "
+"<quote>Région 1</quote> ou <quote>Région 2</quote>). Pour renommer une "
 "région, il suffit de double-cliquer sur son nom et vous serez invité à "
 "entrer un nouveau nom. Vous pouvez aussi contrôler l'affichage de ces "
 "régions sur la carte du ciel par un simple clic sur la case à cocher en face "
 "de chaque région. Après avoir défini vos régions, vous pouvez les appliquer "
 "en cliquant sur le bouton <guibutton>Appliquer</guibutton>. Si vous "
 "souhaitez réutiliser ces régions dans une session ultérieure, vous pouvez "
-"les sauver afin qu'au prochain lancement de &kstars; elles seront "
+"les enregistrer afin qu'au prochain lancement de &kstars; elles seront "
 "automatiquement affichées sur la carte du ciel."
 
 #. Tag: menuchoice
@@ -1850,12 +1850,12 @@ msgstr ""
 "<guibutton>Personnaliser</guibutton>. Ensuite cliquez sur le bouton à côté "
 "de <guibutton>Personnaliser</guibutton> et entrez le raccourci que vous "
 "souhaitez utiliser dans &kstars;. Vous pouvez supprimer un raccourci en "
-"cliquant the bouton <guibutton>Supprimer</guibutton> après avoir choisi une "
-"action dans la liste. &kstars; vous aide à trouver une action en fournissant "
-"une méthode de recherche ; il suffit d'indiquer le nom de l'action pour "
-"réduire la liste aux meilleures correspondances. Par exemple, je vais vous "
-"donner un bref exemple sur la manière d'utiliser la fonctionnalité de "
-"configuration des raccourcis de &kstars;."
+"cliquant sur le bouton <guibutton>Supprimer</guibutton> après avoir choisi "
+"une action dans la liste. &kstars; vous aide à trouver une action en "
+"fournissant une méthode de recherche ; il suffit d'indiquer le nom de "
+"l'action pour réduire la liste aux meilleures correspondances. Par exemple, "
+"je vais vous donner un bref exemple sur la manière d'utiliser la "
+"fonctionnalité de configuration des raccourcis de &kstars; :"
 
 #. Tag: para
 #: commands.docbook:918
@@ -1876,7 +1876,7 @@ msgid ""
 "<quote>art</quote> in the search text box and the list will be reduced to "
 "only four actions. The Artificial Horizon is the first action in the list."
 msgstr ""
-"Ensuite, sélectionnez l'action à laquelle vous souhaiter rattacher un "
+"Ensuite, sélectionnez l'action à laquelle vous souhaitez rattacher un "
 "raccourci (&ie; horizon artificiel). Vous pouvez utiliser la méthode de "
 "recherche fournie par &kstars;. Veuillez simplement entrer <quote>art</"
 "quote> et la liste sera réduite à seulement trois actions. L'horizon "
@@ -1902,9 +1902,9 @@ msgstr ""
 "juste à côté de ce bouton <guibutton>Personnaliser</guibutton> utilisé pour "
 "ajouter de nouveaux raccourcis. Par défaut, si une action n'a aucun "
 "raccourci personnalisé, le choix <quote>Aucun</quote> sera assigné à ce "
-"bouton. Cliquez sur ce bouton et ensuite ajouter votre raccourci "
+"bouton. Cliquez sur ce bouton et ajoutez ensuite votre raccourci "
 "personnalisé. Dans notre exemple pour l'horizon artificiel, vous pouvez "
-"utiliser le raccourci &Ctrl;+H. Gardé enfoncé la touche &Ctrl; et appuyez "
+"utiliser le raccourci &Ctrl;+H. Gardez enfoncé la touche &Ctrl; et appuyez "
 "sur H. Ce raccourci sera automatiquement enregistré et vous pourrez ainsi "
 "l'utiliser la prochaine fois que vous lancerez &kstars;."
 
@@ -1985,45 +1985,44 @@ msgstr ""
 "fois. Cet assistant vous aidera à régler les options de base telles que "
 "votre position sur Terre. La première page de cet assistant est une page de "
 "bienvenue et si vous cliquez sur <guibutton>Suivant</guibutton> vous "
-"tomberez sur la page <guilabel>Choisissez votre position actuelle</"
-"guilabel>. Vous pouvez choisir ici votre position actuelle exact ou une "
-"ville proche si votre position précise ne se trouve pas dans la base de "
-"données de villes de &kstars;. Parcourir la liste entière n'est pas très "
-"efficace et donc &kstars; fournit une méthode facile à utiliser pour choisir "
-"une ville rapidement. Vous pouvez ainsi filtrer la liste de villes par "
-"ville, département et pays. En donnant davantage de détails, la liste sera "
-"réduite aux meilleures correspondances. Quand vous surlignez une ville dans "
-"cette liste, les boîtes de <guilabel>Latitude</guilabel> et "
-"<guilabel>Longitude</guilabel> seront mises à jour avec les coordonnées "
-"exacte de votre position sélectionnée. En cliquant sur le bouton "
-"<guibutton>Suivant</guibutton>, vous irez sur la dernière page de "
-"l'assistant de configuration de &kstars; : <quote>Télécharger des données "
-"supplémentaires</quote>. Ici vous pourrez télécharger via Internet des "
-"fichiers de données optionnels afin d'améliorer &kstars;, telles que des "
-"images des objets Messier ou encore un catalogue NGC/IC plus complet. "
-"Cliquez sur le bouton <guibutton>Télécharger des données supplémentaires</"
-"guibutton> pour commencer. Après avoir cliqué sur ce bouton, la fenêtre "
-"<guilabel>Obtenir Hot New Stuff></guilabel> apparaîtra. C'est l'installateur "
-"d'extensions de &kstars; qui vous aidera à gérer l'information "
-"supplémentaire que vous avez ajouter à &kstars;. Vous pouvez d'abord choisir "
-"le type d'affichage de la liste d'extensions en cliquant sur le bouton "
-"<guibutton>Mode d'affichage détaillé</guibutton> ou <guibutton>Mode "
-"d'affichage des icônes</guibutton>. Vous pouvez aussi trier la liste selon "
-"différents critères comme le plus récent, la notation, le plus téléchargé ou "
-"installé. Cela peut être réalisé facilement en sélectionnant une option avec "
-"le bouton radio. Vous pouvez aussi effectuer des recherches en utilisant le "
-"champ texte <guilabel>Recherche</guilabel>. En ce qui concerne la liste des "
-"extensions, vous pouvez agir de différentes manières en sélectionnant une "
-"extension de la liste. Vous pouvez installer ou désinstaller une extension "
-"en utilisant le bouton <guibutton>Installer/Désinstaller</guibutton>, vous "
-"pouvez ouvrir une fenêtre détaillées en utilisant le bouton "
-"<guibutton>Détails</guibutton> ou vous pouvez évaluer cette extension en "
-"donnant un nombre d'étoiles dorées, jusqu'à cinq. Si vous souhaitez envoyer "
-"un courriel à l'auteur d'une extension, vous pouvez le faire en cliquant sur "
-"son adresse email. Ensuite votre client de messagerie par défaut vous "
-"guidera dans le processus d'envoi. Après avoir gérer vos extensions de "
-"&kstars;, vous pouvez fermer la fenêtre en cliquant sur le bouton "
-"<guibutton>Fermer</guibutton>. Vous pouvez aussi utiliser l'outil de "
+"tomberez sur la page <guilabel>Choisir votre position actuelle</guilabel>. "
+"Vous pouvez choisir ici votre position actuelle exact ou une ville proche si "
+"votre position précise ne se trouve pas dans la base de données de villes de "
+"&kstars;. Parcourir la liste entière n'est pas très efficace et donc "
+"&kstars; fournit une méthode facile à utiliser pour choisir une ville "
+"rapidement. Vous pouvez ainsi filtrer la liste de villes par ville, "
+"département et pays. En donnant davantage de détails, la liste sera réduite "
+"aux meilleures correspondances. Quand vous surlignez une ville dans cette "
+"liste, les boîtes de <guilabel>Latitude</guilabel> et <guilabel>Longitude</"
+"guilabel> seront mises à jour avec les coordonnées exacte de la position "
+"sélectionnée. En cliquant sur le bouton <guibutton>Suivant</guibutton>, vous "
+"irez sur la dernière page de l'assistant de configuration de &kstars; : "
+"<quote>Télécharger des données supplémentaires</quote>. Ici vous pourrez "
+"télécharger via Internet des fichiers de données optionnels afin d'améliorer "
+"&kstars;, telles que des images des objets Messier ou encore un catalogue "
+"NGC/IC plus complet. Cliquez sur le bouton <guibutton>Télécharger des "
+"données supplémentaires</guibutton> pour commencer. Après avoir cliqué sur "
+"ce bouton, la fenêtre <guilabel>Obtenir Hot New Stuff</guilabel> apparaîtra. "
+"C'est l'installateur d'extensions de &kstars; qui vous aidera à gérer "
+"l'information supplémentaire que vous avez ajouté à &kstars;. Vous pouvez "
+"d'abord choisir le type d'affichage de la liste d'extensions en cliquant sur "
+"le bouton <guibutton>Mode d'affichage détaillé</guibutton> ou "
+"<guibutton>Mode d'affichage des icônes</guibutton>. Vous pouvez aussi trier "
+"la liste selon différents critères comme le plus récent, la notation, le "
+"plus téléchargé ou installé. Cela peut être réalisé facilement en "
+"sélectionnant une option avec le bouton radio. Vous pouvez aussi effectuer "
+"des recherches en utilisant le champ texte <guilabel>Recherche</guilabel>. "
+"En ce qui concerne la liste des extensions, vous pouvez agir de différentes "
+"manières en sélectionnant une extension de la liste. Vous pouvez installer "
+"ou désinstaller une extension en utilisant le bouton <guibutton>Installer/"
+"Désinstaller</guibutton>, vous pouvez ouvrir une fenêtre détaillées en "
+"utilisant le bouton <guibutton>Détails</guibutton> ou vous pouvez évaluer "
+"cette extension en donnant un nombre d'étoiles dorées, jusqu'à cinq. Si vous "
+"souhaitez envoyer un courriel à l'auteur d'une extension, vous pouvez le "
+"faire en cliquant sur son adresse email. Ensuite votre client de messagerie "
+"par défaut vous guidera dans le processus d'envoi. Après avoir géré vos "
+"extensions de &kstars;, vous pouvez fermer la fenêtre en cliquant sur le "
+"bouton <guibutton>Fermer</guibutton>. Vous pouvez aussi utiliser l'outil de "
 "téléchargement de données supplémentaires plus tard en choisissant "
 "<menuchoice><guimenu>Données</guimenu> <guimenuitem>Télécharger de nouvelles "
 "données…</guimenuitem></menuchoice>."
@@ -2115,8 +2114,8 @@ msgid ""
 "shown."
 msgstr ""
 "Identification et info rapide : les premières lignes sont dévolues au(x) "
-"nom(s) de l'objet, son type et la constellation dans il se trouve. La "
-"magnitude est indiquée avec l'exposant « m » si disponible. Pour les "
+"nom(s) de l'objet, son type et la constellation dans laquelle il se trouve. "
+"La magnitude est indiquée avec l'exposant « m » si disponible. Pour les "
 "étoiles, le type spectral est aussi montré ici. Pour les objets du ciel "
 "profond, la dimension, si connue, est indiquée en minutes d'arc (&ie; 6'x3') "
 "et le catalogue de la source est aussi montré."
@@ -2170,7 +2169,7 @@ msgid ""
 msgstr ""
 "Fenêtre <guimenuitem>Ajouter drapeau</guimenuitem> : Ouvrir le "
 "<quote>Gestionnaire de drapeaux</quote>. Vous pouvez gérer ici vos drapeaux "
-"et utilisez quelques fonctionnalités de &kstars;. Quand la fenêtre de "
+"et utiliser quelques fonctionnalités de &kstars;. Quand la fenêtre de "
 "<quote>Gestionnaire de drapeaux</quote> est ouverte pour un objet "
 "sélectionné, les boîtes pour l'<guilabel>ascension droite</guilabel> et la "
 "<guilabel>déclinaison</guilabel> seront automatiquement remplies avec les "
@@ -2182,7 +2181,7 @@ msgstr ""
 "<filename class=\"directory\">`qtpaths --paths GenericDataLocation`/kstars</"
 "filename>. Les noms de fichier doivent commencer par le mot-clé <quote>flag</"
 "quote>. Par exemple, le fichier <quote>flagSmall_red_cross.gif</quote> sera "
-"affichée comme Small red cross dans la boîte. Après avoir spécifié "
+"affiché comme Small red cross dans la boîte. Après avoir spécifié "
 "l'information du nouveau drapeau, vous pouvez l'ajouter à la liste de "
 "drapeaux en utilisant le bouton <guibutton>Ajouter</guibutton>. Vous pouvez "
 "aussi modifier les détails du drapeau (&ie; AD/DEC, l'étiquette ou l'icône) "
@@ -2255,9 +2254,9 @@ msgstr ""
 "chemin vers la destination en passant par une séquence d'étoiles ou "
 "d'astérisme d'étoiles. L'objet à partir duquel vous avez lancé cet outil "
 "sera l'étoile de départ. Quand le premier point est établi, une ligne "
-"pointillé va apparaître vous permettant de décider quel sera le point "
+"pointillée va apparaître vous permettant de décider quel sera le point "
 "d'arrivée. Vous devez déplacer le curseur de la souris vers ce point "
-"d'arriver et faire un clic droit sur lui. Ensuite, une boîte de dialogue "
+"d'arrivée et faire un clic droit sur lui. Ensuite, une boîte de dialogue "
 "apparaîtra où il faudra spécifier le champ de vue (FOV) à utiliser pour le "
 "saute-mouton. La sélection de champ de vue se fait parmi une liste de "
 "valeurs préétablie (jumelles 7x35, Telrad, Un degrés, HST WFPC2, 30m à "
@@ -2269,7 +2268,7 @@ msgstr ""
 "dialogue contiendra une liste des objets utilisés pour la route. Pour chaque "
 "objet de cette liste, vous pouvez effectuer une série d'actions. Vous pouvez "
 "afficher des détails avec le bouton <guibutton>Détails</guibutton>, centrer "
-"l'objet sélectionner avec le bouton <guibutton>Centrer sur la carte</"
+"l'objet sélectionné avec le bouton <guibutton>Centrer sur la carte</"
 "guibutton> ou aller à la prochaine étoile en cliquant sur le bouton "
 "<guibutton>Suivant</guibutton>. Veuillez noter que la prochaine étoile sera "
 "automatiquement centrée sur la carte. Cet outil fournit également des "
@@ -2283,7 +2282,7 @@ msgid ""
 "\">Object Details window</link> for this object."
 msgstr ""
 "<guimenuitem>Détails</guimenuitem> : ouvre la <link linkend=\"tool-details"
-"\">fenêtre des détails de l'objet</link> pour cet objet."
+"\">fenêtre de détails de l'objet</link> pour cet objet."
 
 #. Tag: para
 #: commands.docbook:1104
@@ -2308,13 +2307,13 @@ msgid ""
 "the object is already in the Observing WishList, then this item will become "
 "<guilabel>Remove Label</guilabel>."
 msgstr ""
-"<guimenuitem>Ajouter à la liste de souhaits</guimenuitem> : ajouter l'objet "
+"<guimenuitem>Ajouter à la liste de souhaits</guimenuitem> :: ajouter l'objet "
 "sélectionné à l'<guimenu>ordonnanceur d'observation</guimenu> souhaité. Vous "
 "pouvez voir la liste de souhaits dans le menu "
 "<menuchoice><guimenu>Observations</guimenu> <guimenuitem>Ordonnanceur "
 "d'observation</guimenuitem></menuchoice>. Si cet objet est déjà dans la "
-"liste de souhait, alors cet élément deviendra <guilabel>Supprimer étiquette</"
-"guilabel>."
+"liste de souhaits, alors cet élément deviendra <guilabel>Supprimer "
+"étiquette</guilabel>."
 
 #. Tag: term
 #: commands.docbook:1124 commands.docbook:1152 commands.docbook:1161
@@ -2369,7 +2368,7 @@ msgstr ""
 "vous aide grandement à localiser les objets, plutôt que de travailler avec "
 "des positions et des orientations relatives. Cela est d'un grand avantage "
 "surtout quand vous faites du saute-mouton astronomique. Veuillez noter que "
-"pour obtenir les meilleurs résultats, l'heure doit être synchronisées avec "
+"pour obtenir les meilleurs résultats, l'heure doit être synchronisée avec "
 "l'heure courante de &kstars; et &kstars; doit se trouver dans le mode de "
 "coordonnées horizontales."
 
@@ -2413,9 +2412,9 @@ msgid ""
 "Sky Survey) image of the object from the Internet, and display it in the "
 "Image Viewer tool."
 msgstr ""
-"<guimenuitem>Affiche Image SDSS</guimenuitem> : télécharge de l'Internet une "
-"image SDSS (Sloan Digital Sky Survey) de l'objet et l'affiche dans l'outil "
-"d'afficheur d'images."
+"<guimenuitem>Affiche Image SDSS</guimenuitem> : télécharge à partir de "
+"l'Internet une image SDSS (Sloan Digital Sky Survey) de l'objet et l'affiche "
+"dans l'outil d'afficheur d'images."
 
 #. Tag: para
 #: commands.docbook:1178
@@ -2425,9 +2424,9 @@ msgid ""
 "Survey) image of the object from the Internet, and display it in the Image "
 "Viewer tool."
 msgstr ""
-"<guimenuitem>Affiche Image DSS</guimenuitem> : télécharge de l'Internet une "
-"image DSS (Digitized Sky Survey) de l'objet et l'affiche dans l'outil "
-"d'afficheur d'images."
+"<guimenuitem>Affiche Image DSS</guimenuitem> : télécharge à partir de "
+"l'Internet une image DSS (Digitized Sky Survey) de l'objet et l'affiche dans "
+"l'outil d'afficheur d'images."
 
 #. Tag: title
 #: commands.docbook:1190
@@ -2504,7 +2503,7 @@ msgstr "<keycap>0</keycap>&ndash;<keycap>0</keycap>"
 #: commands.docbook:1223
 #, no-c-format
 msgid "Center Display on a major Solar System body:"
-msgstr "Centrer l'image sur un objet majeur du système solaire."
+msgstr "Centre l'image sur un objet majeur du système solaire :"
 
 #. Tag: para
 #: commands.docbook:1225
@@ -2616,7 +2615,7 @@ msgstr "&Ctrl;<keycap>T</keycap>"
 #: commands.docbook:1268
 #, no-c-format
 msgid "Toggle tracking mode."
-msgstr "Bascule le mode de suivi."
+msgstr "(Dés)active le mode de suivi."
 
 #. Tag: keycap
 #: commands.docbook:1272
@@ -2628,7 +2627,7 @@ msgstr "&lt;"
 #: commands.docbook:1273
 #, no-c-format
 msgid "Advance the simulation clock backwards by one time step."
-msgstr "Reculer l'horloge de simulation d'un pas de temps."
+msgstr "Recule l'horloge de simulation d'un pas de temps."
 
 #. Tag: keycap
 #: commands.docbook:1278
@@ -2640,7 +2639,7 @@ msgstr "&gt;"
 #: commands.docbook:1279
 #, no-c-format
 msgid "Advance the simulation clock forwards by one time step."
-msgstr "Avancer l'horloge de simulation d'un pas de temps."
+msgstr "Avance l'horloge de simulation d'un pas de temps."
 
 #. Tag: title
 #: commands.docbook:1287
@@ -2676,7 +2675,7 @@ msgstr "&Ctrl;<keycap>O</keycap>"
 #: commands.docbook:1301
 #, no-c-format
 msgid "Open a FITS image in the FITS Editor."
-msgstr "Ouvre une image FITS dans l'éditeur FITS"
+msgstr "Ouvre une image FITS dans l'éditeur FITS."
 
 #. Tag: keycombo
 #: commands.docbook:1305
@@ -2703,7 +2702,7 @@ msgid ""
 "Run a &kstars; <link linkend=\"tool-obsplanner\">Observation Planner</link>."
 msgstr ""
 "Exécute l'outil de <link linkend=\"tool-obsplanner\">liste d'observations</"
-"link>"
+"link>."
 
 #. Tag: keycombo
 #: commands.docbook:1316
@@ -2757,7 +2756,7 @@ msgstr "&Ctrl;<keycap>S</keycap>"
 #: commands.docbook:1337
 #, no-c-format
 msgid "Set the simulation clock to a specified Time and Date."
-msgstr "Règle l'horloge de simulation sur des date et heure spécifiées."
+msgstr "Règle l'horloge de simulation sur une date et heure spécifiée."
 
 #. Tag: keycombo
 #: commands.docbook:1341
@@ -2778,8 +2777,8 @@ msgid ""
 "Define equipment (telescope, eyepiece, lens and filter) characteristics for "
 "observation logs."
 msgstr ""
-"Définir les caractéristiques de équipement (télescope, oculaire, objectif et "
-"filtre) pour les fichiers journaux des observations."
+"Définit les caractéristiques des équipement (télescope, oculaire, objectif "
+"et filtre) pour les fichiers journaux des observations."
 
 #. Tag: keycombo
 #: commands.docbook:1353
@@ -2792,7 +2791,7 @@ msgstr "&Ctrl;<keycap>1</keycap>"
 #, no-c-format
 msgid "Add a new observer item for your observation logs."
 msgstr ""
-"Ajouter un nouvel élément d'observateur pour vos fichiers journaux "
+"Ajoute un nouvel élément d'observateur pour vos fichiers journaux "
 "d'observations."
 
 #. Tag: term
@@ -2955,7 +2954,7 @@ msgstr "<keycap>T</keycap>"
 #, no-c-format
 msgid "Toggle a trail on the selected object (solar system bodies only)."
 msgstr ""
-"Inverser une trace sur l'objet sélectionné (objets du système solaire "
+"(Dés)active une trace sur l'objet sélectionné (objets du système solaire "
 "seulement)."
 
 #. Tag: title
