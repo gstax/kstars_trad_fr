@@ -152,7 +152,7 @@ msgstr ""
 #: commands.docbook:75 commands.docbook:1327
 #, no-c-format
 msgid "Quit &kstars;."
-msgstr "Quitter &kstars;"
+msgstr "Quitte &kstars;."
 
 #. Tag: title
 #: commands.docbook:83
@@ -516,7 +516,7 @@ msgid ""
 "linkend=\"equatorial\">Equatorial</link> <link linkend=\"ai-skycoords"
 "\">Coordinate Systems</link>."
 msgstr ""
-"Bascule entre la vue des <link linkend=\"ai-skycoords\">systèmes de "
+"(Dés)active la vue des <link linkend=\"ai-skycoords\">systèmes de "
 "coordonnées</link> <link linkend=\"horizontal\">azimutales</link> et <link "
 "linkend=\"equatorial\">équatoriales</link>."
 
@@ -570,7 +570,7 @@ msgid ""
 "Lambert_azimuthal_equal-area_projection\">Lambert azimuthal equal-area</"
 "ulink> projection."
 msgstr ""
-"Passer l'affichage de la carte du ciel à la projection <ulink url=\"https://"
+"Passe l'affichage de la carte du ciel à la projection <ulink url=\"https://"
 "fr.wikipedia.org/wiki/Projection_azimutale_%C3%A9quivalente_de_Lambert"
 "\">azimutale équivalente de Lambert</ulink>."
 
@@ -591,7 +591,7 @@ msgid ""
 "Switch sky chart view to the <ulink url=\"https://en.wikipedia.org/wiki/"
 "Azimuthal_equidistant_projection\">azimuthal equidistant</ulink> projection."
 msgstr ""
-"Passer l'affichage de la carte du ciel à la projection <ulink url=\"https://"
+"Passe l'affichage de la carte du ciel à la projection <ulink url=\"https://"
 "https://fr.wikipedia.org/wiki/Projection_de_Postel\">azimutale équidistante</"
 "ulink> (ou projection de Postel)."
 
@@ -612,7 +612,7 @@ msgid ""
 "Switch sky chart view to the <ulink url=\"https://en.wikipedia.org/wiki/"
 "Orthographic_projection_(cartography)\">orthographic</ulink> projection."
 msgstr ""
-"Passer l'affichage de la carte du ciel à la projection <ulink url=\"https://"
+"Passe l'affichage de la carte du ciel à la projection <ulink url=\"https://"
 "fr.wikipedia.org/wiki/Projection_orthographique\">orthographique</ulink>."
 
 #. Tag: menuchoice
@@ -632,7 +632,7 @@ msgid ""
 "Switch sky chart view to the <ulink url=\"https://en.wikipedia.org/wiki/"
 "Equirectangular_projection\">equirectangular</ulink> projection."
 msgstr ""
-"Passer l'affichage de la carte du ciel à la projection <ulink url=\"https://"
+"Passe l'affichage de la carte du ciel à la projection <ulink url=\"https://"
 "fr.wikipedia.org/wiki/Projection_cylindrique_%C3%A9quidistante"
 "\">équirectangulaire </ulink> (appelée encore cylindrique équidistante)."
 
@@ -653,7 +653,7 @@ msgid ""
 "Switch sky chart view to the <ulink url=\"https://en.wikipedia.org/wiki/"
 "Stereographic_projection\">stereographic</ulink> projection."
 msgstr ""
-"Passer l'affichage de la carte du ciel à la projection <ulink url=\"https://"
+"Passe l'affichage de la carte du ciel à la projection <ulink url=\"https://"
 "fr.wikipedia.org/wiki/Projection_st%C3%A9r%C3%A9ographique"
 "\">stéréographique</ulink>."
 
@@ -673,7 +673,7 @@ msgid ""
 "Switch sky chart view to the <ulink url=\"https://en.wikipedia.org/wiki/"
 "Gnomonic_projection\">gnomonic</ulink> projection."
 msgstr ""
-"Passer l'affichage de la carte du ciel à la projection <ulink url=\"https://"
+"Passe l'affichage de la carte du ciel à la projection <ulink url=\"https://"
 "fr.wikipedia.org/wiki/Projection_gnomonique\">gnomonique</ulink>"
 
 #. Tag: menuchoice
@@ -2473,7 +2473,7 @@ msgstr ""
 #: commands.docbook:1207
 #, no-c-format
 msgid "<keycap>+</keycap> / <keycap>-</keycap>"
-msgstr "<keycap>+</keycap> / <keycap>-</keycap>"
+msgstr "<keycap>+</keycap> et <keycap>-</keycap>"
 
 #. Tag: para
 #: commands.docbook:1208
@@ -2497,7 +2497,7 @@ msgstr "&Ctrl;&Shift;<keycap>Z</keycap>"
 #: commands.docbook:1222
 #, no-c-format
 msgid "<keycap>0</keycap>&ndash;<keycap>9</keycap>"
-msgstr "<keycap>0</keycap>&ndash;<keycap>0</keycap>"
+msgstr "<keycap>0</keycap>&ndash;<keycap>9</keycap>"
 
 #. Tag: para
 #: commands.docbook:1223
@@ -2917,7 +2917,7 @@ msgstr "<keycap>L</keycap>"
 #: commands.docbook:1436
 #, no-c-format
 msgid "Toggle a name label for the selected object."
-msgstr "Bascule l'étiquette pour l'objet sélectionné."
+msgstr "(Dés)active l'étiquette pour l'objet sélectionné."
 
 #. Tag: keycap
 #: commands.docbook:1440
@@ -2993,7 +2993,7 @@ msgid ""
 "RA/Dec or Az/Alt coordinates on which to center."
 msgstr ""
 "Ouvre l'outil <guilabel>Définir les coordonnées</guilabel> pour spécifier "
-"les coordonnées AD/Déc ou Az/Alt sur lesquelles centrer."
+"les coordonnées AD/DEC ou Az/Alt sur lesquelles centrer."
 
 #. Tag: keycap
 #: commands.docbook:1474
