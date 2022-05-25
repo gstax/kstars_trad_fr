@@ -1,11 +1,11 @@
 # translation of kstars_quicktour.po to français
 # traduction de kstars_quicktour.po en Français
 # Copyright (C) 2002,2003, 2004, 2005, 2007, 2008 Free Software Foundation, Inc.
+#
 # Gérard Delafond <gerard@delafond.org>, 2002,2003, 2004, 2005.
 # Ludovic Grossard <grossard@kde.org>, 2002, 2003, 2004, 2007, 2012, 2013.
 # Stanislas Zeller <uncensored.assault@gmail.com>, 2008.
 # steve <stax@ik.me>, 2022.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_quicktour_3.5.8\n"
@@ -53,7 +53,7 @@ msgstr "Fenêtre principale"
 #: quicktour.docbook:23
 #, no-c-format
 msgid "The above screenshot shows a typical view of the &kstars; program. You can see the sky display centered on Betelgeuse, the brightest star in the constellation Orion. Stars are displayed with <link linkend=\"ai-colorandtemp\">realistic colors</link> and relative brightnesses. In three corners of the sky display, there are on-screen text labels displaying data on the current time (<quote>LT: 3:08:30 AM EEST Wednesday, July 6, 2016</quote>), the current Geographic Location (<quote>Bucharest, Romania</quote>), and the current object in the center of the display (<quote>Focused on: Betelgeuse (alpha Orionis)</quote>). Above the sky display, there are two toolbars. The main toolbar contains shortcuts for <link linkend=\"kstars-menus\">menu functions</link>, as well as a time-step widget which controls how fast the simulation clock runs. The view toolbar contains buttons that toggle the display of different kinds of objects in the sky. At the bottom of the window, there is a status bar which displays the name of any object you click on, and the <link linkend=\"ai-skycoords\">sky coordinates</link> (both Right Ascension/Declination and Azimuth/Altitude) of the mouse cursor."
-msgstr "La capture d'écran ci-dessus affiche une vue typique du programme &kstars;. On peut voir l'affichage du ciel centré sur Bételgeuse, l'étoile la plus brillante dans la constellation d'Orion. Les étoiles sont présentées avec des <link linkend=\"ai-colorandtemp\">couleurs réalistes</link> et une brillance relative. Dans trois coins de l'affichage du ciel, il y a des étiquettes affichant des informations sur l'heure actuelle (<quote>Heure locale : 20:16:20 h mercredi, 4 mai 2022</quote>), la position géographique actuelle (<quote>Pic du Midi (obs. du), Hautes-Pyrénées, France</quote>) et l'objet actuel au centre de l'affichage (<quote>Bételgeuse (α Orionis)</quote>). Au-dessus de l'affichage du ciel, se trouvent deux barres d'outils. La barre principale contient des raccourcis pour les <link linkend=\"kstars-menus\">fonctions de menus</link>, ainsi qu'un composant graphique de pas temporel contrôlant la vitesse de l'horloge de simulation. La barre d'affichage contient des boutons qui activent l'affichage de différentes sortes d'objets dans le ciel. Au bas de la fenêtre se trouve une barre d'état affichant le nom de l'objet sur lequel vous avez cliqué et les <link linkend=\"ai-skycoords\">coordonnées célestes</link> (à la fois l'ascension droite et la déclinaison ainsi que l'azimut et l'élévation) du curseur de la souris."
+msgstr "La capture d'écran ci-dessus affiche une vue typique du programme &kstars;. On peut voir l'affichage du ciel centré sur Bételgeuse, l'étoile la plus brillante dans la constellation d'Orion. Les étoiles sont présentées avec des <link linkend=\"ai-colorandtemp\">couleurs réalistes</link> et une brillance relative. Dans trois coins de l'affichage du ciel, il y a des étiquettes affichant des informations sur l'heure actuelle (<quote>Heure locale : 20:16:20 h mercredi, 4 mai 2022</quote>), la position géographique actuelle (<quote>Pic du Midi (obs. du), Hautes-Pyrénées, France</quote>) et l'objet actuel au centre de l'affichage (<quote>Bételgeuse (α Orionis)</quote>). Au-dessus de l'affichage du ciel, se trouvent deux barres d'outils. La barre principale contient des raccourcis pour les <link linkend=\"kstars-menus\">fonctions de menus</link>, ainsi qu'un composant graphique de pas temporel contrôlant la vitesse de l'horloge de simulation. La barre d'affichage contient des boutons qui activent l'affichage de différentes sortes d'objets dans le ciel. Au bas de la fenêtre se trouve une barre d'état affichant le nom de l'objet sur lequel vous avez cliqué et les <link linkend=\"ai-skycoords\">coordonnées célestes</link> (à la fois l'ascension droite et la déclinaison ainsi que l'azimut et l'élévation) du pointeur de la souris."
 
 #. Tag: title
 #. +> trunk5
@@ -116,14 +116,14 @@ msgstr "Bases"
 #: quicktour.docbook:80
 #, no-c-format
 msgid "Now that we have the time and location set, let us have a look around. You can pan the display using the arrow keys. If you hold down the &Shift; key before panning, the scrolling speed is increased. The display can also be panned by clicking and dragging with the mouse. Note that while the display is scrolling, not all objects are displayed. This is done to cut down on the <acronym>CPU</acronym> load of recomputing object positions, which makes the scrolling smoother (you can configure what gets hidden while scrolling in the <link linkend=\"config\">Configure - &kstars;</link> window). There are several ways to change the magnification (or <firstterm>Zoom level</firstterm>) of the display:"
-msgstr "Maintenant que votre position et votre heure sont ajustées, faisons le tour du propriétaire. Vous pouvez bouger l'image à l'aide des flèches sur votre clavier. L'image bougera deux fois plus vite si vous gardez enfoncée la touche &Shift;. Une autre façon de bouger l'image est de laisser enfoncé le bouton de la souris tout en la bougeant. Vous noterez que certains objets disparaissent temporairement lorsque l'image est bougée. Cela réduit la charge sur votre <acronym>CPU</acronym> et permet un défilement plus en douceur (vous pouvez configurer ce qui est caché pendant le déplacement dans la fenêtre de <link linkend=\"config\">Configuration de &kstars;</link>). Il y a plusieurs manières de changer le grossissement (ou <firstterm>Niveau de zoom</firstterm>) de l'affichage :"
+msgstr "Maintenant que votre position et votre heure sont ajustées, faisons le tour du propriétaire. Vous pouvez bouger l'image à l'aide des flèches sur votre clavier. L'image bougera deux fois plus vite si vous gardez enfoncée la touche &Maj;. Une autre façon de bouger l'image est de laisser enfoncé le bouton de la souris tout en la bougeant. Vous noterez que certains objets disparaissent temporairement lorsque l'image est bougée. Cela réduit la charge sur votre <acronym>processeur</acronym> et permet un défilement plus en douceur (vous pouvez configurer ce qui est caché pendant le déplacement dans la fenêtre de <link linkend=\"config\">Configuration de &kstars;</link>). Il y a plusieurs manières de changer le grossissement (ou <firstterm>Niveau de zoom</firstterm>) de l'affichage :"
 
 #. Tag: para
 #. +> trunk5
 #: quicktour.docbook:96
 #, no-c-format
 msgid "Use the <keycap>+</keycap> and <keycap>-</keycap> keys."
-msgstr "Utilisez les touches <keycap>&Ctrl;&Shift;+</keycap> et <keycap>&Ctrl;&Shift;-</keycap>."
+msgstr "Utilisez les touches <keycap>&Ctrl;&Maj;+</keycap> et <keycap>&Ctrl;&Maj;-</keycap>."
 
 # unreviewed-context
 #. Tag: para
@@ -160,7 +160,7 @@ msgstr "Utilisez la <mousebutton>molette</mousebutton> de votre souris."
 #: quicktour.docbook:115
 #, no-c-format
 msgid "Drag the mouse up and down with the &MMB; pressed."
-msgstr "Tirez la souris vers le haut et le bas avec le bouton du milieu enfoncé."
+msgstr "Tirez la souris vers le haut et le bas avec le bouton central enfoncé."
 
 #. Tag: para
 #. +> trunk5
@@ -374,7 +374,7 @@ msgstr "La fenêtre contient la liste de (presque, voire <xref linkend=\"catalog
 #: quicktour.docbook:278
 #, no-c-format
 msgid "&kstars; provides another method for resolving the objects that are missing from any of its predefined catalogues, by using an internet connection. Thus, if you want to find an object that &kstars; is not aware of, you can easily do this by querying several professional astronomical databases as: SIMBAD, NED or VizieR. This can be done by entering the object's name and then press the <guibutton>or search the internet for <replaceable>ObjectName</replaceable></guibutton> button. After your object is found, you can use it exactly as any object that is already loaded into &kstars; (&ie; adding it to the Observing WishList). If the object was not found in the online databases, then a warning dialogue will pop-up. Once you resolve an object by using this method, it is stored in &kstars; database, so if you close &kstars; and open it again, your object will still be there."
-msgstr "&kstars; fournit une autre méthode pour résoudre les objets qui sont absents des catalogues prédéfinis, qui est d'utiliser une recherche en ligne. Ainsi, si vous souhaitez trouver un objet que &kstars; ne connaît pas, vous pouvez le faire facilement en questionnant plusieurs bases de données astronomiques comme SIMBAD, NED ou encore VizieR. Cela peut être fait en indiquant le nom de l'objet et ensuite en cliquant sur le bouton <guibutton>Chercher <replaceable>ObjectName</replaceable> sur Internet</guibutton>. Une fois l'objet trouvé, vous pouvez l'utiliser de la même manière que n'importe quel autre objet déjà chargé dans &kstars; (&ie; l'ajouter dans votre liste de souhaits). Si l'objet n'a pas été trouvé dans les bases de données en ligne, un message d'avertissement apparaîtra. Une fois qu'un objet a été trouvé par cette méthode, il sera ajouté à la base de données de &kstars; pour pouvoir être utilisé ultérieurement."
+msgstr "&kstars; fournit une autre méthode pour résoudre les objets qui sont absents des catalogues prédéfinis, qui est d'utiliser une recherche en ligne. Ainsi, si vous souhaitez trouver un objet que &kstars; ne connaît pas, vous pouvez le faire facilement en questionnant plusieurs bases de données astronomiques comme SIMBAD, NED ou encore VizieR. Cela peut être fait en indiquant le nom de l'objet et ensuite en cliquant sur le bouton <guibutton>Chercher <replaceable>ObjectName</replaceable> sur Internet</guibutton>. Une fois l'objet trouvé, vous pouvez l'utiliser de la même manière que n'importe quel autre objet déjà chargé dans &kstars; (&cad; l'ajouter dans votre liste de souhaits). Si l'objet n'a pas été trouvé dans les bases de données en ligne, un message d'avertissement apparaîtra. Une fois qu'un objet a été trouvé par cette méthode, il sera ajouté à la base de données de &kstars; pour pouvoir être utilisé ultérieurement."
 
 #. Tag: para
 #. +> trunk5
@@ -543,7 +543,7 @@ msgstr "(Dés)activer la visibilité d'une courbe dans le ciel, montrant la trac
 #: quicktour.docbook:414
 #, no-c-format
 msgid "By holding down the &Shift; key, you can perform these actions on the centered object, rather than the selected object."
-msgstr "En maintenant enfoncée la touche &Shift;, on peut effectuer ces actions sur l'objet centré, plutôt que sur l'objet sélectionné."
+msgstr "En maintenant enfoncée la touche &Maj;, on peut effectuer ces actions sur l'objet centré, plutôt que sur l'objet sélectionné."
 
 #. Tag: title
 #. +> trunk5
