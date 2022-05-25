@@ -33,6 +33,17 @@ Si tout se passe bien les *.docbook seront créés dans le répertoire suivant.
 Sinon, il faut corriger les erreurs dans les *.po. sans quoi le fichier
 index.docbook ne sera pas créé.
 
+Il faut aussi remplacer 
+
+<code><! ENTITY % fr "INCLUDE"</code>
+
+par 
+
+
+<code><! ENTITY % French "INCLUDE"</code>
+
+pour tenir compte du nouveau fichier entities.user.
+
 
 ### Génération des fichers html
 
