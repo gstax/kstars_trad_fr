@@ -5,7 +5,7 @@
 # Ludovic Grossard <grossard@kde.org>, 2004, 2012.
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2012.
 # Xavier Besnard <xavier.besnard@neuf.fr>, 2021.
-# steve <stax@ik.me>, 2022. 
+# steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_calc-planetcoords_3.5.8\n"
@@ -22,42 +22,49 @@ msgstr ""
 "X-Generator: Lokalize 21.04.1\n"
 
 #. Tag: title
+#. +> trunk5
 #: calc-planetcoords.docbook:2
 #, no-c-format
 msgid "<title>Planet Coordinates module</title>"
-msgstr "<title>Module des coordonnées des planètes</title>"
+msgstr "<title>Module de coordonnées des planètes</title>"
 
 #. Tag: primary
+#. +> trunk5
 #: calc-planetcoords.docbook:3
 #, no-c-format
 msgid "Tools"
 msgstr "Outils"
 
 #. Tag: secondary
+#. +> trunk5
 #: calc-planetcoords.docbook:4
 #, no-c-format
 msgid "Astrocalculator"
 msgstr "Calculatrice astronomique"
 
 #. Tag: tertiary
+#. +> trunk5
 #: calc-planetcoords.docbook:5
 #, no-c-format
 msgid "<tertiary>Planet Coordinates module</tertiary>"
-msgstr "<tertiary>Module des coordonnées des planètes</tertiary>"
+msgstr "<tertiary>Module de coordonnées des planètes</tertiary>"
 
 #. Tag: screeninfo
+#. +> trunk5
 #: calc-planetcoords.docbook:9
 #, no-c-format
 msgid "The Planet Coordinates calculator module"
 msgstr "Le module de calcul des coordonnées des planètes"
 
 #. Tag: phrase
+#. +> trunk5
 #: calc-planetcoords.docbook:17
 #, no-c-format
 msgid "Planet Coordinates"
 msgstr "Coordonnées des planètes"
 
 #. Tag: para
+#. +> trunk5
 #: calc-planetcoords.docbook:22
 #, no-c-format
 msgid ""
@@ -81,6 +88,7 @@ msgstr ""
 "corps sont calculées et affichées."
 
 #. Tag: para
+#. +> trunk5
 #: calc-planetcoords.docbook:33
 #, no-c-format
 msgid ""
