@@ -22,42 +22,49 @@ msgstr ""
 "X-Generator: Lokalize 21.04.1\n"
 
 #. Tag: title
+#. +> trunk5
 #: calc-apcoords.docbook:2
 #, no-c-format
 msgid "<title>Apparent Coordinates module</title>"
 msgstr "<title>Module des coordonnées apparentes</title>"
 
 #. Tag: primary
+#. +> trunk5
 #: calc-apcoords.docbook:3
 #, no-c-format
 msgid "Tools"
 msgstr "Outils"
 
 #. Tag: secondary
+#. +> trunk5
 #: calc-apcoords.docbook:4
 #, no-c-format
 msgid "Astrocalculator"
 msgstr "Calculatrice astronomique"
 
 #. Tag: tertiary
+#. +> trunk5
 #: calc-apcoords.docbook:5
 #, no-c-format
 msgid "<tertiary>Apparent Coordinates module</tertiary>"
 msgstr "<tertiary>Module des coordonnées apparentes</tertiary>"
 
 #. Tag: screeninfo
+#. +> trunk5
 #: calc-apcoords.docbook:9
 #, no-c-format
 msgid "The Apparent Coordinates calculator module"
 msgstr "Le module de calcul des coordonnées apparentes"
 
 #. Tag: phrase
+#. +> trunk5
 #: calc-apcoords.docbook:17
 #, no-c-format
 msgid "Apparent Coordinates"
 msgstr "Coordonnées apparentes"
 
 #. Tag: para
+#. +> trunk5
 #: calc-apcoords.docbook:22
 #, no-c-format
 msgid ""
@@ -71,10 +78,11 @@ msgstr ""
 "catalogue</firstterm> d'un point à ses <firstterm>coordonnées apparentes</"
 "firstterm> pour n'importe quelle date. Les coordonnées des objets dans le "
 "ciel ne sont pas fixées du fait des <link linkend=\"ai-precession"
-"\">précession</link>, nutation et aberration. Ce module prend en compte ces "
-"effets."
+"\">précessions</link>, nutations et aberrations. Ce module prend en compte "
+"ces effets."
 
 #. Tag: para
+#. +> trunk5
 #: calc-apcoords.docbook:30
 #, no-c-format
 msgid ""
@@ -92,7 +100,7 @@ msgstr ""
 "saisissez les coordonnées de catalogue dans la section <guilabel>Coordonnées "
 "de catalogue</guilabel>. De façon alternative, vous pouvez également "
 "spécifier les coordonnées de catalogue par la sélection d'un objet utilisant "
-"la boîte de dialogue <guilabel>Trouver l'Objet</guilabel>. Vous pouvez aussi "
+"la boîte de dialogue <guilabel>Trouver l'objet</guilabel>. Vous pouvez aussi "
 "spécifier l'époque du catalogue ici (habituellement 2 000,0 pour les "
 "catalogues modernes d'objets). Ainsi, les coordonnées de l'objet pour la "
 "date cible seront alors affichées dans la section <guilabel>Coordonnées "
