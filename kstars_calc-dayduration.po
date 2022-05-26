@@ -1,16 +1,17 @@
 # translation of kstars_calc-dayduration.po to french
 # traduction de kstars_calc-dayduration.po en Français
 # Copyright (C) 2003, 2004 Free Software Foundation, Inc.
+#
 # Delafond <gerard@delafond.org>, 2003.
 # Ludovic Grossard <grossard@kde.org>, 2004, 2012.
-#
+# steve <stax@ik.me>, 2022
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_calc-dayduration\n"
+"Project-Id-Version: kstars_calc-dayduration_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-03-29 11:17+0200\n"
 "PO-Revision-Date: 2012-07-18 01:57+0200\n"
-"Last-Translator: Ludovic Grossard <grossard@kde.org>\n"
+"Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -65,4 +66,4 @@ msgstr "Durée du jour"
 #: calc-dayduration.docbook:22
 #, no-c-format
 msgid "This module computes the length of day as well as sunrise, sun-transit (noon), and sunset times for any calendar date, for any location on Earth. First select the desired geographic coordinates and date, then the data is computed and displayed."
-msgstr "Ce module calcule la durée du jour et les heures de lever du Soleil, du transit du Soleil (midi) et de son coucher pour n'importe quelle date du calendrier, à n'importe quel endroit sur Terre. Remplissez d'abord les coordonnées géographiques et la date, puis actionnez le bouton <guibutton>Calculer</guibutton>."
+msgstr "Ce module calcule la durée du jour et les heures de lever du Soleil, du transit du Soleil (midi) et de son coucher pour n'importe quelle date du calendrier, à n'importe quel endroit sur Terre. Choisissez d'abord les coordonnées géographiques et la date, ensuite les données seront calculées et affichées."
