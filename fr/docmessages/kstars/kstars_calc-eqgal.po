@@ -22,70 +22,81 @@ msgstr ""
 "X-Generator: Lokalize 21.04.1\n"
 
 #. Tag: title
+#. +> trunk5
 #: calc-eqgal.docbook:2
 #, no-c-format
 msgid "<title>Equatorial/Galactic Coordinates module</title>"
 msgstr "<title>Module des coordonnées équatoriales / galactiques</title>"
 
 #. Tag: primary
+#. +> trunk5
 #: calc-eqgal.docbook:3
 #, no-c-format
 msgid "Tools"
 msgstr "Outils"
 
 #. Tag: secondary
+#. +> trunk5
 #: calc-eqgal.docbook:4
 #, no-c-format
 msgid "Astrocalculator"
 msgstr "Calculatrice astronomique"
 
 #. Tag: tertiary
+#. +> trunk5
 #: calc-eqgal.docbook:5
 #, no-c-format
 msgid "<tertiary>Equatorial/Galactic Coordinates module</tertiary>"
-msgstr "<tertiary>Module des coordonnées équatoriales / galactiques</tertiary>"
+msgstr ""
+"<tertiary>Module des coordonnées équatoriales / galactiques</tertiary>"
 
 #. Tag: screeninfo
+#. +> trunk5
 #: calc-eqgal.docbook:9
 #, no-c-format
 msgid "The Equatorial/Galactic Coordinates calculator module"
 msgstr "Le module de calcul des coordonnées équatoriales / galactiques"
 
 #. Tag: phrase
+#. +> trunk5
 #: calc-eqgal.docbook:17
 #, no-c-format
 msgid "Equatorial/Galactic Coordinates"
 msgstr "Coordonnées équatoriales / galactiques"
 
 #. Tag: para
+#. +> trunk5
 #: calc-eqgal.docbook:22
 #, no-c-format
 msgid ""
 "This module converts from <link linkend=\"equatorial\">Equatorial "
-"coordinates</link> to <link linkend=\"galactic\">Galactic coordinates</"
-"link>, and vice versa. Fill in the coordinate values in either the "
-"<guilabel>Galactic coordinates</guilabel> or <guilabel>Equatorial "
+"coordinates</link> to <link linkend=\"galactic\">Galactic "
+"coordinates</link>, and vice versa. Fill in the coordinate values in either "
+"the <guilabel>Galactic coordinates</guilabel> or <guilabel>Equatorial "
 "coordinates (J2000)</guilabel> section. Alternatively set the equatorial "
-"coordinates by selecting an object using the <guilabel>Find Object</"
-"guilabel> dialog. Then the complementary coordinates will be filled in."
+"coordinates by selecting an object using the <guilabel>Find "
+"Object</guilabel> dialog. Then the complementary coordinates will be filled "
+"in."
 msgstr ""
-"Ce module convertit de <link linkend=\"equatorial\">Coordonnées "
-"équatoriales</link> en <link linkend=\"galactic\">Coordonnées galactiques</"
-"link> et vice versa. Remplissez les valeurs des coordonnées dans <guilabel> "
-"Coordonnées galactiques</guilabel> ou <guilabel>Coordonnées équatoriales "
-"(J2000)</guilabel>. Sinon remplissez les coordonnées équatoriales en "
-"sélectionnant un objet en utilisant la boîte de dialogue <guilabel>Chercher "
-"un objet</guilabel>. Les coordonnées complémentaires seront ensuite remplies."
+"Ce module convertit les <link linkend=\"equatorial\">coordonnées "
+"équatoriales</link> en <link linkend=\"galactic\">coordonnées "
+"galactiques</link> et vice versa. Remplissez les valeurs des coordonnées "
+"dans <guilabel> Coordonnées galactiques</guilabel> ou <guilabel>Coordonnées "
+"équatoriales (J2000)</guilabel>. Sinon remplissez les coordonnées "
+"équatoriales en sélectionnant un objet en utilisant la boîte de dialogue "
+"<guilabel>Chercher un objet</guilabel>. Les coordonnées complémentaires "
+"seront ensuite remplies."
 
 #. Tag: para
+#. +> trunk5
 #: calc-eqgal.docbook:33
 #, no-c-format
 msgid ""
 "The module contains a batch mode for converting several coordinate pairs at "
 "once. You must construct an input file in which each line contains two "
 "values: the input coordinate pairs (either Equatorial or Galactic). Then "
-"specify which coordinates you are using as input, and identify the input and "
-"output filenames. Finally, press the <guibutton>Run</guibutton> button to "
+"specify which coordinates you are using as input, and identify the input and"
+" output filenames. Finally, press the <guibutton>Run</guibutton> button to "
 "generate the output file, which will contain the converted coordinates "
 "(Equatorial or Galactic; the complement of what you chose as the input "
 "values)."
