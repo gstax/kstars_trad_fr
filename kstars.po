@@ -19,11 +19,11 @@
 # MORELLI <robert.morelli@laposte.net>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars\n"
+"Project-Id-Version: kstars_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-28 00:40+0000\n"
 "PO-Revision-Date: 2022-03-30 16:35+0200\n"
-"Last-Translator: Steve Petruzzello <stax@ik.me>\n"
+"Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -41,7 +41,7 @@ msgid "Your names"
 msgstr ""
 "Xavier Claude, Joëlle Cornavin, Gérard Delafond, Ludovic Grossard, Vincent "
 "Jagot, Anne-Marie Mahfouf, Nicolas Ternisien, Simon Depiets, Xavier Besnard, "
-"Robert Morelli"
+"Robert Morelli, stax"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
@@ -49,7 +49,7 @@ msgid "Your emails"
 msgstr ""
 "claude.xavier@gmail.com,jcorn@free.fr,gerard@delafond.org,grossard@kde.org,"
 "vincent.jagot@free.fr,annma@kde.org,ternisien@gmail.com,sdepiets@gmail.com, "
-"xavier.besnard@neuf.fr, robert.morelli@laposte.net"
+"xavier.besnard@neuf.fr, robert.morelli@laposte.net, stax@ik.me"
 
 #: auxiliary/colorscheme.cpp:29 kstars.cpp:57
 #, kde-format
@@ -5690,7 +5690,7 @@ msgstr ""
 "</p><p>Vous pouvez également utiliser cet outil ultérieurement, en "
 "choisissant <span style=\"font-weight:600;\">Télécharger de nouvelles "
 "données</span> depuis le menu <span style=\"font-weight:600;\">Fichier</"
-"span>.</p></body></html>"
+"span>.</p>"
 
 #. i18n: ectx: property (text), widget (QPushButton, DownloadButton)
 #: dialogs/wizdownload.ui:128
