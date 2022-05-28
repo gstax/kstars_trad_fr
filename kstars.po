@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-28 00:40+0000\n"
-"PO-Revision-Date: 2022-05-28 22:35+0200\n"
+"PO-Revision-Date: 2022-05-28 23:04+0200\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -14603,7 +14603,7 @@ msgstr ""
 #| msgid "%1 second remaining"
 #| msgid_plural "%1 seconds remaining"
 msgid "total remaining:"
-msgstr "durée totale restante"
+msgstr "Durée totale restante"
 
 #. i18n: ectx: property (text), widget (QLabel, avgDownloadLabel)
 #: ekos/capture/capture.ui:2341
@@ -19667,7 +19667,7 @@ msgstr "2. Démarrer et/ou Arrêter Ekos"
 #: ekos/manager.ui:421 kstarslite/qml/indi/INDIControlPanel.qml:15
 #, kde-format, kde-kuit-format
 msgid "INDI Control Panel"
-msgstr "Panneau de contrôle INDI"
+msgstr "Tableau de bord INDI"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, portSelectorB)
 #: ekos/manager.ui:450
@@ -22517,7 +22517,7 @@ msgstr "Taille des pixels de la caméra en microns"
 #: ekos/scheduler/mosaic.ui:133
 #, kde-format
 msgid "Pixel Size:"
-msgstr "Taille des pixels :"
+msgstr "Taille des pixels"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, fetchB)
 #: ekos/scheduler/mosaic.ui:140
@@ -22571,7 +22571,7 @@ msgstr ""
 #: ekos/scheduler/mosaic.ui:206
 #, kde-format
 msgid " East of North"
-msgstr "À l'est du nord"
+msgstr " à l'est du nord"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, backToEquipmentB)
 #: ekos/scheduler/framingassistant.ui:879
@@ -22623,7 +22623,7 @@ msgid ""
 "Adjust Grid center by manually entering the J2000 center or by dragging the "
 "center of the mosaic on the sky map."
 msgstr ""
-"Ajuster le centre de la grille en saisissant le centre J2000 ou en tirant le "
+"Ajustez le centre de la grille en saisissant le centre J2000 ou en tirant le "
 "centre de la mosaïque sur la carte du ciel."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, backToSelectGrid)
@@ -22843,7 +22843,7 @@ msgstr ""
 #: ekos/scheduler/mosaic.ui:539
 #, kde-format
 msgid "Mosaic Grid:"
-msgstr "Grille en mosaïque"
+msgstr "Grille de la mosaïque"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, targetWFOVSpin)
 #: ekos/scheduler/mosaic.ui:576
@@ -22929,7 +22929,7 @@ msgstr ""
 #: ekos/scheduler/mosaic.ui:767
 #, kde-format
 msgid "Mosaic FOV:"
-msgstr "Champ de vision en mosaïque"
+msgstr "Champ de vision de la mosaïque"
 
 #. i18n: ectx: property (title), widget (QGroupBox, jobsGroup)
 #: ekos/scheduler/mosaic.ui:783
@@ -22947,7 +22947,7 @@ msgstr "Aligner toute les "
 #: ekos/scheduler/mosaic.ui:837
 #, kde-format
 msgid "Focus Every"
-msgstr "Mise au point toute les "
+msgstr "Mise au point toutes les "
 
 #. i18n: ectx: property (title), widget (QGroupBox, outputGroup)
 #: ekos/scheduler/mosaic.ui:847
@@ -27163,7 +27163,7 @@ msgstr "Connexion"
 #, kde-format
 msgctxt "@title:window"
 msgid "INDI Control Panel"
-msgstr "Panneau de contrôle INDI"
+msgstr "Tableau de bord INDI"
 
 #: indi/guimanager.cpp:150
 #, kde-format
@@ -33830,37 +33830,37 @@ msgstr ""
 #: kstars.kcfg:2330
 #, kde-format
 msgid "Use Auto Dithering when guiding."
-msgstr "Utiliser une diffusion automatique d'erreurs lors du guidage."
+msgstr "Utilise une diffusion automatique d'erreurs lors du guidage."
 
 #. i18n: ectx: label, entry (DitherNoGuiding), group (Guide)
 #: kstars.kcfg:2334
 #, kde-format
 msgid "Perform dithering even when not guiding."
-msgstr "Réaliser une diffusion d'erreur même en dehors du guidage."
+msgstr "Réalise une diffusion d'erreur même en dehors du guidage."
 
 #. i18n: ectx: label, entry (RAGuideEnabled), group (Guide)
 #: kstars.kcfg:2338
 #, kde-format
 msgid "Enable autoguiding in the RA axis."
-msgstr "Activer le guidage automatique sur l'axe AD"
+msgstr "Active le guidage automatique sur l'axe AD"
 
 #. i18n: ectx: label, entry (DECGuideEnabled), group (Guide)
 #: kstars.kcfg:2342
 #, kde-format
 msgid "Enable autoguiding in the DEC axis."
-msgstr "Activer le guidage automatique sur l'axe DEC."
+msgstr "Active le guidage automatique sur l'axe DEC."
 
 #. i18n: ectx: label, entry (NorthDECGuideEnabled), group (Guide)
 #: kstars.kcfg:2346
 #, kde-format
 msgid "Enable North autoguiding in the DEC axis."
-msgstr "Activer le guidage automatique vers le nord sur l'axe DEC."
+msgstr "Active le guidage automatique vers le nord sur l'axe DEC."
 
 #. i18n: ectx: label, entry (SouthDECGuideEnabled), group (Guide)
 #: kstars.kcfg:2350
 #, kde-format
 msgid "Enable South autoguiding in the DEC axis."
-msgstr "Activer le guidage automatique vers le sud sur l'axe DEC."
+msgstr "Active le guidage automatique vers le sud sur l'axe DEC."
 
 #. i18n: ectx: label, entry (EastRAGuideEnabled), group (Guide)
 #: kstars.kcfg:2354
@@ -63738,7 +63738,7 @@ msgstr "Pilotes personnalisés…"
 #: kstarsinit.cpp:504
 #, kde-format
 msgid "INDI Control Panel..."
-msgstr "Panneau de contrôle INDI…"
+msgstr "Tableau de bord INDI…"
 
 #: kstarsinit.cpp:516
 #, kde-format
@@ -63941,18 +63941,18 @@ msgstr "Ekos"
 #: kstarsinit.cpp:607
 #, kde-format
 msgid "Toggle Ekos"
-msgstr "Panneau de contrôle Ekos"
+msgstr "(Dés)active Ekos"
 
 #: kstarsinit.cpp:609
 #, kde-format
 msgctxt "Toggle the INDI Control Panel in the display"
 msgid "INDI Control Panel"
-msgstr "Panneau de contrôle INDI"
+msgstr "Tableau de bord INDI"
 
 #: kstarsinit.cpp:611
 #, kde-format
 msgid "Toggle INDI Control Panel"
-msgstr "Panneau de contrôle INDI"
+msgstr "(Dés)active le tableau de bord INDI"
 
 #: kstarsinit.cpp:614
 #, kde-format
@@ -77440,7 +77440,7 @@ msgstr "Aujourd'hui"
 #: tools/polarishourangle.ui:14
 #, kde-format
 msgid "Polaris Hour Angle"
-msgstr "Angle polaire des heures :"
+msgstr "Angle polaire des heures"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: tools/polarishourangle.ui:44
@@ -77467,7 +77467,7 @@ msgstr "Angle polaire des heures"
 #: tools/polarishourangle.ui:121
 #, kde-format
 msgid "Current time"
-msgstr "Temps courant"
+msgstr "Heure actuelle"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: tools/polarishourangle.ui:128
@@ -80159,7 +80159,7 @@ msgid ""
 "<html><head/><body><p>Sequence: <span style=\" color:#ff0000;\">*</span></"
 "p></body></html>"
 msgstr ""
-"<html><head/><body><p>Séquence : <span style=\" color:#ff0000;\">*</span></"
+"<html><head/><body><p>Séquence <span style=\" color:#ff0000;\">*</span></"
 "p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
@@ -80171,7 +80171,7 @@ msgid ""
 "<html><head/><body><p>Target: <span style=\" color:#ff0000;\">*</span></p></"
 "body></html>"
 msgstr ""
-"<html><head/><body><p>Cible : <span style=\" color:#ff0000;\">*</span></p></"
+"<html><head/><body><p>Cible <span style=\" color:#ff0000;\">*</span></p></"
 "body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_18)
@@ -80183,7 +80183,7 @@ msgid ""
 "<html><head/><body><p>Directory: <span style=\" color:#ff0000;\">*</span></"
 "p></body></html>"
 msgstr ""
-"<html><head/><body><p>Dossier : <span style=\" color:#ff0000;\">*</span></"
+"<html><head/><body><p>Dossier <span style=\" color:#ff0000;\">*</span></"
 "p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, alignEvery)
