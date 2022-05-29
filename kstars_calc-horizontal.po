@@ -1,17 +1,18 @@
 # translation of kstars_calc-horizontal.po to french
 # traduction de kstars_calc-horizontal.po en Français
 # Copyright (C) 2003, 2004 Free Software Foundation, Inc.
+#
 # Delafond <gerard@delafond.org>, 2003.
 # Ludovic Grossard <grossard@kde.org>, 2004, 2012.
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2012.
-#
+# steve <stax@ik.me>, 2022
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_calc-horizontal\n"
+"Project-Id-Version: kstars_calc-horizontal_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-28 09:15+0200\n"
 "PO-Revision-Date: 2012-07-18 01:37+0200\n"
-"Last-Translator: Ludovic Grossard <grossard@kde.org>\n"
+"Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -64,7 +65,6 @@ msgstr "Coordonnées azimutales"
 #. Tag: para
 #. +> trunk5
 #: calc-horizontal.docbook:22
-#, fuzzy, no-c-format
-#| msgid "This module converts from <link linkend=\"equatorial\">Equatorial coordinates</link> to <link linkend=\"horizontal\">Horizontal coordinates</link>. First, select the date, time, and geographic coordinates for the calculation. Then, fill in the equatorial coordinates to be converted or use the <guilabel>Find Object</guilabel> dialog in the <guilabel>Equatorial Coordinates</guilabel> section. The corresponding Horizontal coordinates will be presented in the <guilabel>Horizontal Coordinates</guilabel> section."
+#, no-c-format
 msgid "This module converts from <link linkend=\"equatorial\">Equatorial coordinates</link> to <link linkend=\"horizontal\">Horizontal coordinates</link>. First, select the date, time, and geographic coordinates for the calculation. Then, fill in the equatorial coordinates to be converted or use the <guilabel>Find Object</guilabel> dialog in the <guilabel>Equatorial Coordinates (J2000)</guilabel> section. The corresponding Horizontal coordinates will be presented in the <guilabel>Horizontal Coordinates</guilabel> section."
-msgstr "Ce module convertit depuis les <link linkend=\"equatorial\">Coordonnées équatoriales</link> vers les <link linkend=\"horizontal\">Coordonnées azimutales</link>. Tout d'abord, sélectionnez la date, l'heure et les coordonnées géographiques pour le calcul. Puis, remplissez les coordonnées équatoriales pour les convertir ou utilisez la boîte de dialogue <guilabel>Chercher un objet</guilabel> dans la section <guilabel>Coordonnées équatoriales</guilabel>. Les coordonnées azimutales correspondantes seront présentées dans la section <guilabel>Coordonnées azimutales</guilabel>."
+msgstr "Ce module convertit les <link linkend=\"equatorial\">Coordonnées équatoriales</link> en <link linkend=\"horizontal\">Coordonnées azimutales</link>. Tout d'abord, sélectionnez la date, l'heure et les coordonnées géographiques pour le calcul. Puis, remplissez les coordonnées équatoriales à convertir ou utilisez la boîte de dialogue <guilabel>Chercher un objet</guilabel> dans la section <guilabel>Coordonnées équatoriales (J2000)</guilabel>. Les coordonnées azimutales correspondantes seront présentées dans la section <guilabel>Coordonnées azimutales</guilabel>."

@@ -4,14 +4,14 @@
 # Delafond <gerard@delafond.org>, 2004.
 # Ludovic Grossard <grossard@kde.org>, 2004, 2012.
 # Xavier Besnard <xavier.besnard@neuf.fr>, 2021.
-#
+# steve <stax@ik.me>, 2022
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_calc-angdist\n"
+"Project-Id-Version: kstars_calc-angdist_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-03-29 11:17+0200\n"
 "PO-Revision-Date: 2021-05-15 17:33+0200\n"
-"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
+"Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -73,9 +73,8 @@ msgstr "L'outil de distance angulaire sert à mesurer l'angle entre deux points 
 #. +> trunk5
 #: calc-angdist.docbook:29
 #, no-c-format
-#| msgid "There is also a Batch mode for this module. In batch mode, you specify an input filename which contains four numbers per line: the RA and Dec values for pairs of points. Alternatively, you can specify a single value for any of these four coordinates in the calculator panel (the corresponding values in the input file should be skipped if they are specified in the calculator)."
 msgid "There is also a Batch mode for this module. In batch mode, you specify an input filename which contains a number of parameters (up to four) on each line: the initial right ascension (RA), initial declination (Dec), final right ascension and final declination. By default, each line should contain four numbers signifying the RA and Dec values for pairs of points. Alternatively, you can specify a single value for any of these four coordinates in the calculator panel (the corresponding values in the input file should be skipped if they are specified in the calculator)."
-msgstr "Il existe également un mode de traitement par lots pour ce module. Dans ce mode, vous spécifiez un nom de fichier d'entrée contenant un certain nombre de paramètres (jusqu'à quatre) sur chaque ligne : l'ascension droite initiale (RA), la déclinaison initiale (Dec), l'ascension droite finale et la déclinaison finale. Par défaut, chaque ligne doit contenir quatre nombres signifiant les valeurs « RA » et « Dec » pour des paires de points. Alternativement, vous pouvez spécifier une seule valeur pour l'une de ces quatre coordonnées dans le panneau de la calculatrice (les valeurs correspondantes dans le fichier d'entrée doivent être ignorées si elles sont spécifiées dans la calculatrice)."
+msgstr "Il existe également un mode de traitement par lots pour ce module. Dans ce mode, vous spécifiez un nom de fichier d'entrée contenant un certain nombre de paramètres (jusqu'à quatre) sur chaque ligne : l'ascension droite initiale (AD), la déclinaison initiale (DEC), l'ascension droite finale et la déclinaison finale. Par défaut, chaque ligne doit contenir quatre nombres signifiant les valeurs <quote>AD</quote> et <quote>Dec</quote> pour des paires de points. Alternativement, vous pouvez spécifier une seule valeur pour l'une de ces quatre coordonnées dans le panneau de la calculatrice (les valeurs correspondantes dans le fichier d'entrée doivent être ignorées si elles sont spécifiées dans la calculatrice)."
 
 #. Tag: para
 #. +> trunk5
