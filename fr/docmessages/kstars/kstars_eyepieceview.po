@@ -1,11 +1,11 @@
-# Translation to French
+# Translation of kstars_eyepieceview.po to French
 # steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_eyepieceview_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-28 00:32+0000\n"
-"PO-Revision-Date: 2022-04-13 14:27+0200\n"
+"PO-Revision-Date: 2022-05-29 10:09+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -81,8 +81,8 @@ msgid ""
 "<link linkend=\"customize\">FOV Symbol editor</link>."
 msgstr ""
 "Pour utiliser cette fonctionnalité, vous devez d'abord définir les champs de "
-"vue de vos oculaires en utilisant l'outil de <link linkend=\"customize"
-"\">modification du symbole de champ de vue</link>."
+"vue de vos oculaires en utilisant l'outil <link linkend=\"customize"
+"\">Indicateurs de champ de vision</link>."
 
 #. Tag: para
 #: eyepieceview.docbook:32
@@ -125,7 +125,7 @@ msgid ""
 "calculated amount of rotation by using one item of the <guilabel>Preset:</"
 "guilabel> dropdown box that is tailored for different optical systems."
 msgstr ""
-"A la première invocation de cet outil, on vous demandera de choisir le champ "
+"À la première invocation de cet outil, on vous demandera de choisir le champ "
 "de vue à utiliser pour montrer la vue. Vous pouvez comparer cette vue avec "
 "une vraie image du ciel en cliquant sur le bouton <guibutton>Chercher image "
 "DSS</guibutton> pour télécharger une image. Vous pouvez ajuster l'angle de "
@@ -157,10 +157,9 @@ msgid ""
 "generated data is for location McDonald Observatory Texas, and the date is "
 "14th Dec 2016)."
 msgstr ""
-"La vue à l'oculaire Arp84 avec un marquage indicant comment le graphique "
+"La vue à l'oculaire Arp84 avec un marquage indiquant comment le graphique "
 "doit être orienté pour correspondre à la vue à travers un Dobson à une heure "
-"donnée (les données générées sont pour l'observatoire McDonald au Texas pour "
-"la date du 14 décembre 2016)."
+"donnée."
 
 #. Tag: para
 #: eyepieceview.docbook:60
