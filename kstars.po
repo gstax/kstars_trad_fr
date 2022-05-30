@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-28 00:40+0000\n"
-"PO-Revision-Date: 2022-05-28 23:04+0200\n"
+"PO-Revision-Date: 2022-05-29 14:33+0200\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -28336,7 +28336,7 @@ msgstr "Ajouter une trace"
 #: kspopupmenu.cpp:432
 #, kde-format
 msgid "Simulate Eyepiece View"
-msgstr "Simuler un affichage de l'oculaire"
+msgstr "Simuler la vue à l'oculaire"
 
 #: kspopupmenu.cpp:441
 #, kde-format
@@ -74154,13 +74154,13 @@ msgstr "Altitude "
 #: tools/altvstime.ui:338
 #, kde-format
 msgid "Object Rise"
-msgstr "Apparition de l'objet"
+msgstr "Lever"
 
 #. i18n: ectx: property (text), widget (QPushButton, setButton)
 #: tools/altvstime.ui:345
 #, kde-format
 msgid "Object Set"
-msgstr "Disparition de l'objet"
+msgstr "Coucher"
 
 #. i18n: ectx: property (text), widget (QPushButton, transitButton)
 #: tools/altvstime.ui:352
@@ -75016,8 +75016,8 @@ msgid ""
 "Note: This overlay makes sense only if the view was generated in alt/az mode "
 "with a preset such as Refractor or Vanilla"
 msgstr ""
-"Remarque : ce recouvrement est adapté que si l'affichage a été produit avec "
-"le mode « Alt / « Az » avec un préréglage comme « Réfracteur » ou "
+"Remarque : ce recouvrement n'est adapté que si l'affichage a été produit avec "
+"le mode Alt/Az avec un préréglage comme « Réfracteur » ou "
 "« Vanille »."
 
 #: tools/exporteyepieceview.cpp:93
@@ -75026,14 +75026,14 @@ msgid ""
 "Note: This overlay  makes sense only if the view was generated in alt/az "
 "mode with a preset such as Dobsonian"
 msgstr ""
-"Remarque : ce recouvrement est adapté que si l'affichage a été produit avec "
-"le mode « Alt / « Az » avec un préréglage comme « Dobsonien »."
+"Remarque : ce recouvrement n'est adapté que si l'affichage a été produit avec "
+"le mode Alt/Az avec un préréglage comme « Dobsonien »."
 
 #: tools/exporteyepieceview.cpp:174
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Image as"
-msgstr "Enregistrer une image sous"
+msgstr "Enregistrer l'image sous"
 
 #: tools/exporteyepieceview.cpp:175
 #, kde-format
@@ -79003,13 +79003,13 @@ msgstr "Illum. lunaire : 42 %"
 #: tools/wutdialog.ui:356
 #, kde-format
 msgid "Select a category:"
-msgstr "Choisissez une catégorie :"
+msgstr "Choisissez une catégorie"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel16)
 #: tools/wutdialog.ui:374
 #, kde-format
 msgid "Matching objects:"
-msgstr "Objets correspondants :"
+msgstr "Objets correspondants"
 
 #. i18n: ectx: property (title), widget (QGroupBox, ObjectBox)
 #: tools/wutdialog.ui:397
@@ -79031,7 +79031,7 @@ msgstr ""
 #: tools/wutdialog.ui:412
 #, kde-format
 msgid "Rises at:  22:12"
-msgstr "Se lève à : 22:12"
+msgstr "Se lève à "
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, ObjectTransitLabel)
 #: tools/wutdialog.ui:422
@@ -79047,7 +79047,7 @@ msgstr ""
 #: tools/wutdialog.ui:425
 #, kde-format
 msgid "Transits at:  03:45"
-msgstr "Transite à : 03:45"
+msgstr "Transite à "
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, ObjectSetLabel)
 #: tools/wutdialog.ui:435
@@ -79063,7 +79063,7 @@ msgstr ""
 #: tools/wutdialog.ui:438
 #, kde-format
 msgid "Sets at:  08:22"
-msgstr "Se couche à : 08:22"
+msgstr "Se couche à "
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, CenterButton)
 #: tools/wutdialog.ui:461
