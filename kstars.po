@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-28 00:40+0000\n"
-"PO-Revision-Date: 2022-05-31 18:19+0200\n"
+"PO-Revision-Date: 2022-05-31 20:56+0200\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -13335,7 +13335,7 @@ msgstr "Impossible de définir un groupement de pixels (binning)."
 #, kde-format
 msgid "Capture failed. Check INDI Control Panel for details."
 msgstr ""
-"Échec de l'acquisition. Veuillez vérifier le panneau de contrôle INDI pour "
+"Échec de l'acquisition. Veuillez vérifier le tableau de bord INDI pour "
 "plus de détails."
 
 #: ekos/capture/capture.cpp:2661
@@ -14995,7 +14995,7 @@ msgid ""
 msgstr ""
 "<html><head/><body><p>Sélectionnez les propriétés personnalisées à définir "
 "quand la tâche de séquences est exécutée en mode lot. Une fois que la valeur "
-"désirée de la propriété est définie dans le panneau de contrôle INDI, "
+"désirée de la propriété est définie dans le tableau de bord INDI, "
 "ajoutez la dans la section <span style=\" font-weight:600;\"> Propriétés des "
 "tâches</span>. Cliquez sur <span style=\" font-weight:600;\">Appliquer</"
 "span> pour enregistrer les valeurs des propriétés.</p></body></html>"
@@ -18258,7 +18258,7 @@ msgstr "Avertissement : échec du décalage manuel."
 msgid "%1 info are missing. Please set the values in INDI Control Panel."
 msgstr ""
 "Les informations pour %1 sont manquantes. Veuillez définir les valeurs dans "
-"le panneau de contrôle d'INDI."
+"le tableau de bord INDI."
 
 #: ekos/guide/internalguide/internalguider.cpp:452
 #, kde-format
@@ -19865,7 +19865,7 @@ msgid ""
 "Error syncing telescope info. Check INDI control panel for more details."
 msgstr ""
 "Erreur de synchronisation avec les informations du télescope. Veuillez "
-"vérifier le panneau de contrôle INDI pour plus de détails."
+"vérifier le tableau de bord INDI pour plus de détails."
 
 #: ekos/mount/mount.cpp:699
 #, kde-format
@@ -23219,12 +23219,12 @@ msgstr "Sélectionner une image FITS"
 #: ekos/scheduler/scheduler.cpp:871
 #, kde-format
 msgid "FITS header: cannot find OBJCTRA (%1)."
-msgstr "En-tête « FITS » : impossible de trouver « OBJCTRA » (%1)."
+msgstr "En-tête FITS : impossible de trouver « OBJCTRA » (%1)."
 
 #: ekos/scheduler/scheduler.cpp:890
 #, kde-format
 msgid "FITS header: cannot find OBJCTDEC (%1)."
-msgstr "En-tête « FITS » : impossible de trouver « OBJCTDEC » (%1)."
+msgstr "En-tête FITS : impossible de trouver « OBJCTDEC » (%1)."
 
 #: ekos/scheduler/scheduler.cpp:940
 #, kde-format
@@ -23634,7 +23634,7 @@ msgid ""
 "details."
 msgstr ""
 "Un ou plusieurs périphériques INDI n'ont pas réussi à se connecter. Vérifier "
-"le panneau de contrôle INDI pour plus de détails."
+"le tableau de bord INDI pour plus de détails."
 
 #: ekos/scheduler/scheduler.cpp:3135
 #, kde-format
@@ -23649,7 +23649,7 @@ msgid ""
 "One or more INDI devices timed out. Check INDI control panel for details."
 msgstr ""
 "Un ou plusieurs périphériques INDI n'ont pas répondu dans le temps imparti. "
-"Vérifier le panneau de contrôle INDI pour plus de détails."
+"Vérifier le tableau de bord INDI pour plus de détails."
 
 #: ekos/scheduler/scheduler.cpp:3153
 #, kde-format
@@ -25408,27 +25408,27 @@ msgstr "Ouverture du FITS"
 #: fitsviewer/fitsdata.cpp:230 fitsviewer/fitsdata.cpp:274
 #, kde-format
 msgid "Error reading fits buffer."
-msgstr "Erreur de lecture du tampon « FITS »."
+msgstr "Erreur de lecture du tampon FITS."
 
 #: fitsviewer/fitsdata.cpp:241
 #, kde-format
 msgid "Failed to unpack compressed fits"
-msgstr "Impossible d'ouvrir un fichier compressé « FITS »."
+msgstr "Impossible d'ouvrir un fichier compressé FITS."
 
 #: fitsviewer/fitsdata.cpp:260
 #, kde-format
 msgid "Error opening fits file %1"
-msgstr "Impossible d'ouvrir un fichier « FITS » : %1"
+msgstr "Impossible d'ouvrir un fichier FITS : %1"
 
 #: fitsviewer/fitsdata.cpp:284
 #, kde-format
 msgid "Could not locate image HDU."
-msgstr "Impossible de trouver une image « HDU »."
+msgstr "Impossible de trouver une image HDU."
 
 #: fitsviewer/fitsdata.cpp:291
 #, kde-format
 msgid "FITS file open error (fits_get_img_param)."
-msgstr "Erreur lors de l'ouverture du fichier « FITS » (fits_get_img_param)."
+msgstr "Erreur lors de l'ouverture du fichier FITS (fits_get_img_param)."
 
 #: fitsviewer/fitsdata.cpp:296
 #, kde-format
@@ -25779,7 +25779,7 @@ msgstr "R"
 #, kde-format
 msgctxt "@title:window"
 msgid "Save FITS"
-msgstr "Enregistrer « FITS »"
+msgstr "Enregistrer FITS"
 
 #: fitsviewer/fitstab.cpp:716
 #, kde-format
@@ -28853,7 +28853,7 @@ msgstr "Actualiser automatiquement la date et l'heure ?"
 #, kde-format
 msgid "Make INDI Control Panel window independent of KStars main window"
 msgstr ""
-"Rend la fenêtre du panneau de contrôle INDI indépendante de la fenêtre "
+"Rend la fenêtre du tableau de bord INDI indépendante de la fenêtre "
 "principale KStars."
 
 #. i18n: ectx: label, entry (showTargetCrosshair), group (indi)
@@ -63985,7 +63985,7 @@ msgstr "Contrôle Monture"
 #: kstarsinit.cpp:629
 #, kde-format
 msgid "Toggle Mount Control Panel"
-msgstr "(Dés)active le panneau de contrôle de la monture"
+msgstr "(Dés)active le tableau de bord de la monture"
 
 #: kstarsinit.cpp:633
 #, kde-format
