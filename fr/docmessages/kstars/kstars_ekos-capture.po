@@ -5,52 +5,59 @@ msgstr ""
 "Project-Id-Version: kstars_ekos-capture_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-22 00:30+0000\n"
-"PO-Revision-Date: 2022-04-13 14:51+0200\n"
+"PO-Revision-Date: 2022-05-31 16:27+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
 "X-Generator: Lokalize 20.12.0\n"
 
 #. Tag: title
+#. +> trunk5
 #: ekos-capture.docbook:2
 #, no-c-format
 msgid "<title>Capture</title>"
 msgstr "<title>Acquisition</title>"
 
 #. Tag: primary
+#. +> trunk5
 #: ekos-capture.docbook:4
 #, no-c-format
 msgid "Tools"
 msgstr "Outils"
 
 #. Tag: secondary
+#. +> trunk5
 #: ekos-capture.docbook:5
 #, no-c-format
 msgid "Ekos"
 msgstr "Ekos"
 
 #. Tag: tertiary
+#. +> trunk5
 #: ekos-capture.docbook:6
 #, no-c-format
 msgid "<tertiary>Capture</tertiary>"
 msgstr "<tertiary>Acquisition</tertiary>"
 
 #. Tag: screeninfo
+#. +> trunk5
 #: ekos-capture.docbook:9
 #, no-c-format
 msgid "<screeninfo>Ekos Capture</screeninfo>"
 msgstr "<screeninfo>Acquisition Ekos</screeninfo>"
 
 #. Tag: phrase
+#. +> trunk5
 #: ekos-capture.docbook:17
 #, no-c-format
 msgid "<phrase>Ekos Capture</phrase>"
 msgstr "<phrase>Acquisition Ekos</phrase>"
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:21
 #, no-c-format
 msgid ""
@@ -61,17 +68,21 @@ msgid ""
 "rotator, if available."
 msgstr ""
 "Le module CDD est le module d'acquisition d'images et de vidéos d'Ekos. Il "
-"permet l'acquisition d'aperçu, de séquences d'images et d'enregistrer des "
-"vidéos au format <ulink url=\"https://sites.google.com/site/astropipp/ser-"
-"player\">SER</ulink> tout en gérant une roue à filtres et un rotateur."
+"permet l'acquisition d'image unique (aperçu), d'images multiples (file de "
+"séquence) et d'enregistrer des vidéos au format <ulink url=\"https://sites."
+"google.com/site/astropipp/ser-player\">SER</ulink> tout en gérant "
+"éventuellement une roue à filtres et un rotateur si ces périphériques sont "
+"disponibles."
 
 #. Tag: title
+#. +> trunk5
 #: ekos-capture.docbook:25
 #, no-c-format
 msgid "CCD &amp; Filter Wheel Group"
-msgstr "CCD &amp; Roue à filtres"
+msgstr "CCD et roue à filtres"
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:26
 #, no-c-format
 msgid ""
@@ -82,16 +93,18 @@ msgstr ""
 "l'acquisition. Réglez la température du CDD et la configuration des filtres."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:31
 #, no-c-format
 msgid ""
 "<guilabel>CCD</guilabel>: Select the active CCD camera. If your camera has a "
 "guide head, you can select it from here as well."
 msgstr ""
-"<guilabel>CCD</guilabel> : choix de la camera CCD active. Si votre caméra "
-"possède un guide, vous pouvez également la sélectionner ici."
+"<guilabel>CCD</guilabel> : sélectionnez la camera CCD active. Si la caméra "
+"possède un guide, vous pouvez également le sélectionner ici."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:36
 #, no-c-format
 msgid ""
@@ -100,10 +113,11 @@ msgid ""
 "camera."
 msgstr ""
 "<guilabel>Roue à filtres</guilabel> : sélectionnez le périphérique actif de "
-"roue à filtre. Si votre caméra possède une roue à filtres intégrées, le "
+"roue à filtre. Si votre caméra possède une roue à filtres intégrée, le "
 "périphérique sera le même que la caméra."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:41
 #, no-c-format
 msgid ""
@@ -115,7 +129,7 @@ msgid ""
 "but can be adjusted in <guilabel>Capture</guilabel> options under Ekos "
 "configuration."
 msgstr ""
-"<guilabel>Refroidisseur</guilabel> : allumer/éteindre le refroidisseur. Vous "
+"<guilabel>Refroidisseur</guilabel> : (dés)activez le refroidisseur. Vous "
 "pouvez régler la température souhaitée de la caméra si elle possède un "
 "refroidisseur. Cochez cette option pour forcer les réglages de température "
 "avant l'acquisition. Celle-ci ne débute que lorsque la température mesurée "
@@ -125,24 +139,28 @@ msgstr ""
 "d'Ekos."
 
 #. Tag: title
+#. +> trunk5
 #: ekos-capture.docbook:48
 #, no-c-format
 msgid "<title>Capture Settings</title>"
 msgstr "<title>Réglages de l'acquisition</title>"
 
 #. Tag: screeninfo
+#. +> trunk5
 #: ekos-capture.docbook:50
 #, no-c-format
 msgid "<screeninfo>Capture Settings</screeninfo>"
 msgstr "<screeninfo>Réglages de l'acquisition</screeninfo>"
 
 #. Tag: phrase
+#. +> trunk5
 #: ekos-capture.docbook:58
 #, no-c-format
 msgid "<phrase>Capture Settings</phrase>"
 msgstr "<phrase>Réglages de l'acquisition</phrase>"
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:62
 #, no-c-format
 msgid ""
@@ -155,6 +173,7 @@ msgstr ""
 "<guibutton>Aperçu</guibutton> ou ajouter une tâche à la séquence."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:67
 #, no-c-format
 msgid "<guilabel>Exposure</guilabel>: Specify exposure duration in seconds."
@@ -162,26 +181,30 @@ msgstr ""
 "<guilabel>Exposition</guilabel> : spécifie la durée d'exposition en secondes."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:72
 #, no-c-format
 msgid "<guilabel>Filter</guilabel>: Specify the desired filter."
 msgstr "<guilabel>Filtre</guilabel> : spécifie le filtre désiré."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:77
 #, no-c-format
 msgid "<guilabel>Count</guilabel>: Number of images to capture"
 msgstr "<guilabel>Nombre</guilabel> : spécifie le nombre d'images à acquérir."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:82
 #, no-c-format
 msgid "<guilabel>Delay</guilabel>: Delay in seconds between image captures."
 msgstr ""
 "<guilabel>Attente</guilabel> : spécifie la durée entre deux acquisitions en "
-"secondes. "
+"secondes."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:87
 #, no-c-format
 msgid ""
@@ -190,17 +213,19 @@ msgid ""
 "<guimenuitem>Bias</guimenuitem>, and <guimenuitem>Flat</guimenuitem> frames."
 msgstr ""
 "<guilabel>Type</guilabel> : spécifie le type de trames CCD. Les options sont "
-"<guimenuitem>Lumière</guimenuitem>, <guimenuitem>Dark</guimenuitem>, "
+"<guimenuitem>Light</guimenuitem>, <guimenuitem>Dark</guimenuitem>, "
 "<guimenuitem>Bias</guimenuitem> et <guimenuitem>Flat</guimenuitem>."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:92
 #, no-c-format
 msgid "<guilabel>ISO</guilabel>: For DSLR cameras, specify the ISO value."
 msgstr ""
-"<guilabel>ISO</guilabel> : spécifie la value ISO (seulement pour les APN)."
+"<guilabel>ISO</guilabel> : spécifie la valeur ISO (seulement pour les APN)."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:97
 #, no-c-format
 msgid ""
@@ -210,22 +235,25 @@ msgid ""
 "(&eg; RAW or JPEG)."
 msgstr ""
 "<guilabel>Format</guilabel> : spécifie le format d'enregistrement des "
-"images. Pour les tous les CCD, seule l'option <guimenuitem>FITS</"
+"images. Pour tous les les CCD, seule l'option <guimenuitem>FITS</"
 "guimenuitem> est disponible. Pour les APN, vous pouvez enregistrer les "
-"images au format <guimenuitem>Natif</guimenuitem> (&cad; RAW ou JPEG) en "
-"plus du format <guimenuitem>FITS</guimenuitem>."
+"images au format <guimenuitem>Natif</guimenuitem> (&cad; RAW ou JPEG, mais "
+"préférez RAW) en plus du format <guimenuitem>FITS</guimenuitem>."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:102
 #, no-c-format
 msgid ""
 "<guilabel>Custom Properties</guilabel>: Set extended properties available in "
 "the camera to the job settings."
 msgstr ""
-"<guilabel>Propriétés personnalisables</guilabel> : réglage de propriétés "
-"étendues disponibles dans la caméra pour la configuration des tâches."
+"<guilabel>Propriétés personnalisables</guilabel> : permet de régler les "
+"propriétés étendues disponibles dans la caméra pour la configuration des "
+"tâches."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:107
 #, no-c-format
 msgid ""
@@ -233,12 +261,13 @@ msgid ""
 "additional options explained in the <link linkend=\"capture-calibration-"
 "frames\">Calibration Frames section below</link>."
 msgstr ""
-"<guilabel>Calibration</guilabel> : pour les trames Dark &amp; Flat, vous "
-"pouvez spécifier des options additionnelles expliquées dans la <link linkend="
-"\"capture-calibration-frames\">section de la calibrations des trames</link> "
-"ci-dessous."
+"<guilabel>Calibration</guilabel> : pour les trames Dark et Flat, vous pouvez "
+"spécifier des options additionnelles expliquées dans la section de la <link "
+"linkend=\"capture-calibration-frames\">calibrations des trames</link> ci-"
+"dessous."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:112
 #, no-c-format
 msgid ""
@@ -252,6 +281,7 @@ msgstr ""
 "<guibutton>Réinitialiser</guibutton>."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:117
 #, no-c-format
 msgid ""
@@ -259,15 +289,17 @@ msgid ""
 "binning."
 msgstr ""
 "<guilabel>Groupement de pixels</guilabel> : spécifie le groupement de pixels "
-"horizontal (X) et vertical (Y)."
+"horizontal (X) et vertical (Y) (binning en anglais)."
 
 #. Tag: title
+#. +> trunk5
 #: ekos-capture.docbook:123
 #, no-c-format
 msgid "Custom Properties"
 msgstr "Propriétés personnalisables"
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:124
 #, no-c-format
 msgid ""
@@ -291,8 +323,8 @@ msgstr ""
 "utilisant les commandes communes. Les commandes d'acquisition décrites ci-"
 "dessus représentent les réglages les plus courants qui sont partagés par les "
 "différentes caméras mais chaque caméra est unique et peut proposer des "
-"propriétés étendues propres. Bien que vous puissiez utiliser le panneau de "
-"contrôle d'INDI pour régler les propriétés du pilote, il est important de "
+"propriétés étendues propres. Bien que vous puissiez utiliser le tableau de "
+"bord d'INDI pour régler les propriétés du pilote, il est important de "
 "pouvoir régler ces propriétés pour chaque tâche de la séquence. Quand vous "
 "cliquez sur le bouton <guibutton>Propriétés personnalisables</guibutton>, "
 "une boîte de dialogue apparaît divisée en <guilabel>Propriétés disponibles</"
@@ -305,6 +337,7 @@ msgstr ""
 "<guilabel>Propriétés de la tâche</guilabel> seront enregistrées et sauvées."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:127
 #, no-c-format
 msgid ""
@@ -313,30 +346,35 @@ msgstr ""
 "La prochaine vidéo explique ce concept en détails avec un exemple concret :"
 
 #. Tag: phrase
+#. +> trunk5
 #: ekos-capture.docbook:136
 #, no-c-format
 msgid "Custom Properties feature"
 msgstr "Fonctionnalité des propriétés personnalisables"
 
 #. Tag: title
+#. +> trunk5
 #: ekos-capture.docbook:144
 #, no-c-format
 msgid "<title>File Settings</title>"
 msgstr "<title>Réglages des fichiers</title>"
 
 #. Tag: screeninfo
+#. +> trunk5
 #: ekos-capture.docbook:147
 #, no-c-format
 msgid "<screeninfo>File Settings</screeninfo>"
 msgstr "<screeninfo>Réglages des fichiers</screeninfo>"
 
 #. Tag: phrase
+#. +> trunk5
 #: ekos-capture.docbook:155
 #, no-c-format
 msgid "<phrase>File Settings</phrase>"
 msgstr "<phrase>Réglages des fichiers</phrase>"
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:159
 #, no-c-format
 msgid ""
@@ -348,6 +386,7 @@ msgstr ""
 "téléversement."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:164
 #, no-c-format
 msgid ""
@@ -361,24 +400,27 @@ msgid ""
 msgstr ""
 "<guilabel>Préfixe</guilabel> : spécifie le préfixe à ajouter au nom généré. "
 "Vous pouvez également ajouter le type de trame, le filtre, la durée "
-"d'exposition et l'horodatage ISO 8601. Par exemple, si vous spécifiez un "
-"préfixe <userinput>M45</userinput> et cochez les cases Type et Filtre avec "
-"un filtre <guimenuitem>Rouge</guimenuitem> et un type <guimenuitem>Light</"
-"guimenuitem>, le nom généré ressemblera à :"
+"d'exposition et l'horodatage au format ISO 8601. Par exemple, si vous "
+"spécifiez un préfixe <userinput>M45</userinput> et cochez les cases Type et "
+"Filtre avec un filtre <guimenuitem>Rouge</guimenuitem> et un type "
+"<guimenuitem>Light</guimenuitem>, le nom généré ressemblera à :"
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:169
 #, no-c-format
 msgid "M45_Light_Red_001.fits"
-msgstr "M45_Light_Red_001.fits"
+msgstr "M45_Light_Rouge_001.fits"
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:174
 #, no-c-format
 msgid "M45_Light_Red_002.fits"
-msgstr "M45_Light_Red_002.fits"
+msgstr "M45_Light_Rouge_002.fits"
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:179
 #, no-c-format
 msgid ""
@@ -389,18 +431,21 @@ msgstr ""
 "nom de fichier, &eg; :"
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:184
 #, no-c-format
 msgid "M45_Light_Red_001_2016-11-09T23-47-46.fits"
-msgstr "M45_Light_Red_001_2016-11-09T23-47-46.fits"
+msgstr "M45_Light_Rouge_001_2016-11-09T23-47-46.fits"
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:188
 #, no-c-format
 msgid "M45_Light_Red_002_2016-11-09T23-48-34.fits"
-msgstr "M45_Light_Red_002_2016-11-09T23-48-34.fits"
+msgstr "M45_Light_Rouge_002_2016-11-09T23-48-34.fits"
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:194
 #, no-c-format
 msgid ""
@@ -411,13 +456,14 @@ msgid ""
 "value is returned by the script, the sequence is aborted."
 msgstr ""
 "<guilabel>Script</guilabel> : spécifie un script facultatif à être exécuté "
-"après chaque acquisition complétée. Le chemin complet du script doit être "
-"indiqué et il doit être exécutable. Une valeur de zéro doit être retournée "
-"en cas de succès afin de permettre à la séquence de continuer. Si une valeur "
+"après chaque acquisition. Le chemin complet du script doit être indiqué et "
+"il doit être exécutable. Une valeur de zéro doit être retournée en cas de "
+"succès afin de permettre à la séquence de continuer. Si une valeur "
 "différente de zéro est retournée par le script, alors la séquence sera "
 "interrompue."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:199
 #, no-c-format
 msgid ""
@@ -428,6 +474,7 @@ msgstr ""
 "d'enregistrement des images."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:204
 #, no-c-format
 msgid "<guilabel>Upload</guilabel>: Select how captured images are uploaded:"
@@ -436,6 +483,7 @@ msgstr ""
 "être téléversées."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:209
 #, no-c-format
 msgid ""
@@ -446,6 +494,7 @@ msgstr ""
 "enregistrées dans le répertoire local spécifié ci-dessus."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:213
 #, no-c-format
 msgid ""
@@ -456,6 +505,7 @@ msgstr ""
 "l'ordinateur distant."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:217
 #, no-c-format
 msgid ""
@@ -467,6 +517,7 @@ msgstr ""
 "Ekos."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:221
 #, no-c-format
 msgid ""
@@ -480,6 +531,7 @@ msgstr ""
 "vers Ekos."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:226
 #, no-c-format
 msgid ""
@@ -492,24 +544,28 @@ msgstr ""
 "répertoire distant d'enregistrement des images."
 
 #. Tag: title
+#. +> trunk5
 #: ekos-capture.docbook:234
 #, no-c-format
 msgid "<title>Limit Settings</title>"
 msgstr "<title>Réglages des limites</title>"
 
 #. Tag: screeninfo
+#. +> trunk5
 #: ekos-capture.docbook:237
 #, no-c-format
 msgid "<screeninfo>Limit Settings</screeninfo>"
 msgstr "<screeninfo>Réglages des limites</screeninfo>"
 
 #. Tag: phrase
+#. +> trunk5
 #: ekos-capture.docbook:245
 #, no-c-format
 msgid "<phrase>Limit Settings</phrase>"
 msgstr "<phrase>Réglages des limites</phrase>"
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:249
 #, no-c-format
 msgid ""
@@ -522,6 +578,7 @@ msgstr ""
 "l'action appropriée pour remédier à la situation comme expliqué ci-dessous."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:254
 #, no-c-format
 msgid ""
@@ -538,6 +595,7 @@ msgstr ""
 "redeviendra inférieure à la limite."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:258
 #, no-c-format
 msgid ""
@@ -560,6 +618,7 @@ msgstr ""
 "succès, la séquence reprend, sinon elle est interrompue."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:262
 #, no-c-format
 msgid ""
@@ -576,21 +635,23 @@ msgstr ""
 "<guilabel>Retournement au méridien</guilabel> : si cela est géré par la "
 "monture, spécifie l'angle horaire limite (en heures) avant qu'un <ulink url="
 "\"https://astronomy.mdodd.com/gem_movement.html\">retournement au méridien</"
-"ulink> est déclenché. Par exemple si vous spécifiez la durée de retournement "
-"au méridien à 0,1 heure, alors Ekos attendra que la monture dépasse le "
-"méridien de 0,1 heure (6 minutes) pour déclencher le retournement au "
-"méridien. Ensuite Ekos réalisera un alignement en utilisant astrometry.net "
-"(si <link linkend=\"ekos-align\">l'alignement</link> est utilisé) et "
+"ulink> soit déclenché. Par exemple si vous spécifiez la durée de "
+"retournement au méridien à 0,1 heure, alors Ekos attendra que la monture "
+"dépasse le méridien de 0,1 heure (6 minutes) pour déclencher le retournement "
+"au méridien. Ensuite Ekos réalisera un alignement en utilisant astrometry."
+"net (si <link linkend=\"ekos-align\">l'alignement</link> est utilisé) et "
 "reprendra le guidage (s'il était démarré avant cette opération) et "
 "l'acquisition."
 
 #. Tag: title
+#. +> trunk5
 #: ekos-capture.docbook:269
 #, no-c-format
 msgid "<title>Sequence Queue</title>"
 msgstr "<title>File d'attente des séquences</title>"
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:271
 #, no-c-format
 msgid ""
@@ -606,24 +667,27 @@ msgstr ""
 "d'acquisition d'Ekos. C'est l'endroit où vous planifiez et exécutez les "
 "tâches en utilisant le puissant ordonnanceur intégré. Pour ajouter une "
 "tâche, il suffit de sélectionner tous les paramètres des réglages de "
-"l'acquisition et du nommage de fichier comme indiquer ci-dessus. Ensuite, "
+"l'acquisition et du nommage de fichier comme indiqué ci-dessus. Ensuite, "
 "cliquez sur le bouton d'ajout <inlinemediaobject><imageobject><imagedata "
 "fileref=\"list-add.png\" format=\"PNG\"/></imageobject></inlinemediaobject> "
 "de la file d'attente des séquences pour l'ajouter à la file d'attente."
 
 #. Tag: screeninfo
+#. +> trunk5
 #: ekos-capture.docbook:275
 #, no-c-format
 msgid "<screeninfo>Sequence Queue</screeninfo>"
 msgstr "<screeninfo>File d'attente des séquences</screeninfo>"
 
 #. Tag: phrase
+#. +> trunk5
 #: ekos-capture.docbook:283
 #, no-c-format
 msgid "<phrase>Sequence Queue</phrase>"
 msgstr "<phrase>File d'attente des séquences</phrase>"
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:287
 #, no-c-format
 msgid ""
@@ -647,26 +711,28 @@ msgid ""
 msgstr ""
 "Vous pouvez ajouter autant de tâches que désirées. Bien que cela ne soit pas "
 "strictement nécessaire, il est préférable d'ajouter les tâches d'acquisition "
-"de Dark et Flat après celles de Light. Une fois que vous avez terminé "
+"de Dark et de Flat après celles de Light. Une fois que vous avez terminé "
 "d'ajouter des tâches, cliquez simplement sur le bouton <guibutton>Démarrer "
 "séquence</guibutton> <inlinemediaobject><imageobject><imagedata fileref="
 "\"media-playback-start.png\" format=\"PNG\"/></imageobject></"
 "inlinemediaobject> pour débuter l'exécution des tâches. L'état d'une tâche "
 "passe de <guilabel>Inactif</guilabel> à <guilabel>En progrès</guilabel> et "
 "enfin <guilabel>Complété</guilabel> une fois terminée. La file d'attente des "
-"séquences démarre automatiquement la prochaine tâche. Si une tâche est "
-"interrompue, elle peut être reprise. Pour mettre une tâche en pause, cliquez "
-"sur le bouton <inlinemediaobject><imageobject><imagedata fileref=\"view-"
-"refresh.png\" format=\"PNG\"/></imageobject></inlinemediaobject> et la tâche "
-"sera arrêtée après que l'acquisition en cours soit terminée. Pour "
-"réinitialiser l'état de toutes les tâches, cliquez simplement sur le bouton "
-"de réinitialisation <inlinemediaobject><imageobject><imagedata fileref="
-"\"view-refresh.png\" format=\"PNG\"/></imageobject></inlinemediaobject>. "
-"Veuillez noter que cela réinitialise également le compteur de progression de "
-"toutes les images. Pour afficher un aperçu d'une image dans l'afficheur FITS "
-"de &kstars;, cliquez sur le bouton <guibutton>Aperçu</guibutton>."
+"séquences démarre ensuite automatiquement la prochaine tâche. Si une tâche "
+"est interrompue, elle peut être reprise. Pour mettre une tâche en pause, "
+"cliquez sur le bouton <inlinemediaobject><imageobject><imagedata fileref="
+"\"view-refresh.png\" format=\"PNG\"/></imageobject></inlinemediaobject> et "
+"la tâche sera arrêtée <emphasis role=\"bold\">après que l'acquisition en "
+"cours soit terminée</emphasis>. Pour réinitialiser l'état de toutes les "
+"tâches, cliquez simplement sur le bouton de réinitialisation "
+"<inlinemediaobject><imageobject><imagedata fileref=\"view-refresh.png\" "
+"format=\"PNG\"/></imageobject></inlinemediaobject>. Veuillez noter que cela "
+"réinitialise également le compteur de progression de toutes les images. Pour "
+"afficher un aperçu d'une image dans l'afficheur FITS de &kstars;, cliquez "
+"sur le bouton <guibutton>Aperçu</guibutton>."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:290
 #, no-c-format
 msgid ""
@@ -677,15 +743,16 @@ msgid ""
 "format=\"PNG\"/></imageobject></inlinemediaobject>. Please note that it will "
 "replace any current sequence queues in Ekos."
 msgstr ""
-"Les séquences peuvent être enregistrées dans un fichier &XML; au format "
-"<literal role=\"extension\">.esq</literal> (Ekos Sequence Queue). Pour "
-"charger une séquence, cliquez sur le bouton "
+"Les séquences peuvent être enregistrées dans un fichier au format &XML; "
+"d'extension <literal role=\"extension\">.esq</literal> (Ekos Sequence "
+"Queue). Pour charger une séquence, cliquez sur le bouton "
 "<inlinemediaobject><imageobject><imagedata fileref=\"document-open.png\" "
 "format=\"PNG\"/></imageobject></inlinemediaobject>. Veuillez noter que cela "
 "<emphasis>remplacera</emphasis> toute séquence déjà dans la file d'attente "
 "d'Ekos."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:295
 #, no-c-format
 msgid ""
@@ -707,6 +774,7 @@ msgstr ""
 "désactiver cette option."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:300
 #, no-c-format
 msgid ""
@@ -730,6 +798,7 @@ msgstr ""
 "séquences."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:303
 #, no-c-format
 msgid ""
@@ -744,30 +813,35 @@ msgstr ""
 "la vidéo."
 
 #. Tag: phrase
+#. +> trunk5
 #: ekos-capture.docbook:312
 #, no-c-format
 msgid "Recording feature"
 msgstr "Fonctionnalité d'enregistrement"
 
 #. Tag: title
+#. +> trunk5
 #: ekos-capture.docbook:319
 #, no-c-format
 msgid "Filter Settings"
-msgstr "Configuration des filtres"
+msgstr "Réglages des filtres"
 
 #. Tag: screeninfo
+#. +> trunk5
 #: ekos-capture.docbook:322
 #, no-c-format
 msgid "<screeninfo>Filter Queue</screeninfo>"
 msgstr "<screeninfo>File d'attente des filtres</screeninfo>"
 
 #. Tag: phrase
+#. +> trunk5
 #: ekos-capture.docbook:330
 #, no-c-format
 msgid "<phrase>Filter Queue</phrase>"
 msgstr "<phrase>Filtre d'attente des filtres</phrase>"
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:335
 #, no-c-format
 msgid ""
@@ -780,24 +854,27 @@ msgid ""
 msgstr ""
 "Cliquez sur l'icône du filtre <inlinemediaobject><imageobject><imagedata "
 "fileref=\"view-filter.png\" format=\"PNG\"/></imageobject></"
-"inlinemediaobject> pour ouvrir la boîte de dialogue de configuration des "
-"filtres. Si vous utilisez des filtres qui ne sont pas tous de même longueur "
-"(parafocale) et requièrent par conséquent des réglages de mise au point "
-"différents, vous pouvez configurer ces réglages dans cette fenêtre."
+"inlinemediaobject> pour ouvrir la boîte de dialogue de réglages des filtres. "
+"Si vous utilisez des filtres qui ne sont pas tous parfocaux entre eux et "
+"requièrent par conséquent des réglages de mise au point différents, vous "
+"pouvez configurer ces réglages dans cette fenêtre."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:338
 #, no-c-format
 msgid "Configure settings for each filter individually:"
 msgstr "Configuration individuelle des réglages de chaque filtre :"
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:343
 #, no-c-format
 msgid "<guilabel>Filter</guilabel>: Filter Name."
 msgstr "<guilabel>Filtre</guilabel> : spécifie le nom du filtre."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:348
 #, no-c-format
 msgid ""
@@ -809,6 +886,7 @@ msgstr ""
 "vaut une seconde."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:353
 #, no-c-format
 msgid ""
@@ -822,9 +900,16 @@ msgid ""
 msgstr ""
 "<guilabel>Décalage</guilabel> : spécifie les décalages relatifs. Ekos "
 "déclenchera une mise au point avec ce décalage s'il existe une différence "
-"entre le décalage du filtre courant et le filtre cible."
+"entre le décalage du filtre courant et le filtre cible. Par exemple avec les "
+"données de l'image, si le filtre courant est le <emphasis>Rouge</emphasis> "
+"et que le prochain filtre est le <emphasis>Vert</emphasis>, alors Ekos "
+"commandera au moteur de mise au point de rentrer de +300 crans. Des "
+"décalages relatifs de mise au point positifs indique un déplacement vers "
+"l'extérieur alors que des valeurs négatives indiquent un mouvement vers "
+"l'intérieur."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:358
 #, no-c-format
 msgid ""
@@ -836,6 +921,7 @@ msgstr ""
 "pour ce filtre."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:363
 #, no-c-format
 msgid ""
@@ -844,9 +930,10 @@ msgid ""
 msgstr ""
 "<guilabel>Verrouiller le filtre</guilabel> : spécifie le filtre à configurer "
 "et à <emphasis>verrouiller</emphasis> quand la mise au point automatique est "
-"réalisé pour ce filtre."
+"réalisée pour ce filtre."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:368
 #, no-c-format
 msgid ""
@@ -856,13 +943,14 @@ msgid ""
 "(H_Alpha) so before Ekos captures the next frame, the following actions take "
 "place:"
 msgstr ""
-"Prenons un exemple. Supposons qu'une séquence d'acquisition est en cours et "
+"Prenons un exemple. Supposons qu'une séquence d'acquisitions est en cours et "
 "que le filtre courant est le <guilabel>Vert</guilabel>, ainsi le décalage "
 "relatif est de +300. La prochaine image de la séquence utilise le filtre "
 "d'hydrogène alpha (Hα), donc avant qu'Ekos prenne la prochaine trame, les "
 "actions suivantes seront réalisées :"
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:373
 #, no-c-format
 msgid ""
@@ -873,6 +961,7 @@ msgstr ""
 "mise au point automatique est activée, le filtre est changé en luminosité."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:378
 #, no-c-format
 msgid ""
@@ -883,36 +972,42 @@ msgstr ""
 "précédent <guilabel>Vert</guilabel> avait été déplacé à +300 auparavant."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:383
 #, no-c-format
 msgid "Auto Focus process is initiated."
 msgstr "La procédure de mise au point automatique est initialisée."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:388
 #, no-c-format
 msgid "Once Auto Focus is complete, the filter is changed to H_Alpha."
 msgstr "Dès qu'elle est terminé, le filtre est changé en Hα."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:393
 #, no-c-format
 msgid "A focus offset of -1200 is applied."
 msgstr "Un décalage de mise au point de -1200 est appliqué."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:398
 #, no-c-format
 msgid "Capture sequence is resumed."
-msgstr "La séquence d'acquisition se poursuit."
+msgstr "La séquence d'acquisition reprend."
 
 #. Tag: title
+#. +> trunk5
 #: ekos-capture.docbook:406
 #, no-c-format
 msgid "FITS Viewer"
 msgstr "Afficheur FITS"
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:408
 #, no-c-format
 msgid ""
@@ -925,6 +1020,7 @@ msgstr ""
 "l'afficheur."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:413
 #, no-c-format
 msgid ""
@@ -940,6 +1036,7 @@ msgstr ""
 "traitements par lots."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:418
 #, no-c-format
 msgid ""
@@ -950,24 +1047,28 @@ msgstr ""
 "après son acquisition."
 
 #. Tag: title
+#. +> trunk5
 #: ekos-capture.docbook:426
 #, no-c-format
 msgid "<title>Rotator Settings</title>"
 msgstr "<title>Réglages du rotateur</title>"
 
 #. Tag: screeninfo
+#. +> trunk5
 #: ekos-capture.docbook:429
 #, no-c-format
 msgid "<screeninfo>Rotator Settings</screeninfo>"
 msgstr "<screeninfo>Réglages du rotateur</screeninfo>"
 
 #. Tag: phrase
+#. +> trunk5
 #: ekos-capture.docbook:437
 #, no-c-format
 msgid "<phrase>Rotator Settings</phrase>"
 msgstr "<phrase>Réglages du rotateur</phrase>"
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:442
 #, no-c-format
 msgid ""
@@ -982,9 +1083,9 @@ msgid ""
 "caltech.edu/NuSTAR_Public/NuSTAROperationSite/file/NuSTAR-PA.pdf\">examples</"
 "ulink> for various PAs."
 msgstr ""
-"Les rotateurs de champs sont gérés par INDI &amp; Ekos. L'angle du rotateur "
-"est l'angle rapporté par le rotateur mais n'est pas nécessairement <ulink "
-"url=\"https://fr.wikipedia.org/wiki/Angle_de_position\">l'angle de position</"
+"Les rotateurs de champs sont gérés par INDI et Ekos. L'angle du rotateur est "
+"l'angle rapporté par le rotateur mais n'est pas nécessairement <ulink url="
+"\"https://fr.wikipedia.org/wiki/Angle_de_position\">l'angle de position</"
 "ulink>. Un angle de position de zéro indique que le haut d'une trame (repéré "
 "par une petite flèche) pointe <emphasis>directement</emphasis> vers le pôle. "
 "L'angle de position est exprimé en degrés de l'est par rapport au nord, "
@@ -994,6 +1095,7 @@ msgstr ""
 "position d'étoiles binaires."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:445
 #, no-c-format
 msgid ""
@@ -1014,17 +1116,19 @@ msgstr ""
 "La boîte de dialogue du rotateur d'Ekos permet un contrôle direct de l'angle "
 "brut et de l'angle de position. Le décalage et le coefficient multiplicateur "
 "peuvent être modifiés manuellement afin de synchroniser l'angle brute du "
-"rotateur avec l'angle de position actuel. Cochez <guilabel>Synchroniser FOV "
-"to AP</guilabel> pour effectuer la rotation de l'indicateur du champ de "
+"rotateur avec l'angle de position actuel. Cochez <guilabel>Synchroniser CdV "
+"vers AP</guilabel> pour effectuer la rotation de l'indicateur du champ de "
 "vision courant sur la carte du ciel avec la valeur d'angle de position."
 
 #. Tag: phrase
+#. +> trunk5
 #: ekos-capture.docbook:455
 #, no-c-format
 msgid "Rotator settings"
 msgstr "Réglages du rotateur"
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:460
 #, no-c-format
 msgid ""
@@ -1035,29 +1139,33 @@ msgid ""
 msgstr ""
 "On peut assigner à chaque tâche d'acquisition un angle de rotation différent "
 "mais soyez conscient que cela peut causer l'interruption du guidage puisque "
-"l'étoile guide sera perdue pendant la rotation. Ainsi, pour la plupart de "
+"l'étoile guide sera perdue pendant la rotation. Ainsi, pour la plupart des "
 "séquences, l'angle du rotateur est identique pour toutes les tâches "
 "d'acquisition."
 
 #. Tag: title
+#. +> trunk5
 #: ekos-capture.docbook:466
 #, no-c-format
 msgid "Calibration Frames"
 msgstr "Trames de calibration"
 
 #. Tag: screeninfo
+#. +> trunk5
 #: ekos-capture.docbook:469
 #, no-c-format
 msgid "<screeninfo>Calibration settings</screeninfo>"
 msgstr "<screeninfo>Réglages de la calibration</screeninfo>"
 
 #. Tag: phrase
+#. +> trunk5
 #: ekos-capture.docbook:477
 #, no-c-format
 msgid "<phrase>Calibration settings</phrase>"
 msgstr "<phrase>Réglages de la calibration</phrase>"
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:481
 #, no-c-format
 msgid ""
@@ -1077,24 +1185,27 @@ msgstr ""
 "peuvent également être utilisées pour l'acquisition des trames Dark et Bias. "
 "Si votre caméra possède un obturateur mécanique, il n'est pas nécessaires de "
 "régler ces options sauf si vous souhaitez fermer le bouchon anti-poussière "
-"pour vous assurer qu'aucune lumière passe dans le tube optique. Pour les "
+"pour vous assurer qu'aucune lumière ne passe dans le tube optique. Pour les "
 "Flats, vous devez spécifier la source de lumière, puis une durée "
 "d'exposition. La durée peut être spécifiée soit manuellement soit basée sur "
 "un calcul d'ADU (Analog Digital Unit ou pas de quantification)."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:486
 #, no-c-format
 msgid "Flat Field Source"
 msgstr "Source de lumière pour le Flat"
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:490
 #, no-c-format
 msgid "<guilabel>Manual</guilabel>: The flat light source is manual."
-msgstr "<guilabel>Manuel</guilabel> : la source de lumière est manuel."
+msgstr "<guilabel>Manuel</guilabel> : la source de lumière est manuelle."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:494
 #, no-c-format
 msgid ""
@@ -1104,9 +1215,13 @@ msgid ""
 "and turn on the light source."
 msgstr ""
 "<guilabel>Bouchon anti-poussière avec source de lumière intégrée</"
-"guilabel> : pour l'utilisation de ce type d'appareil (&cad; FlipFlat),"
+"guilabel> : pour l'utilisation de ce type d'appareil (p. ex. FlipFlat). Pour "
+"les trames Dark et Bias, veuillez à fermer le bouchon anti-poussière avant "
+"de commencer. Pour les trames Flat, fermez le bouchon anti-poussière et "
+"allumer la source de lumière."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:498
 #, no-c-format
 msgid ""
@@ -1117,9 +1232,14 @@ msgid ""
 "be the parking location."
 msgstr ""
 "<guilabel>Bouchon anti-poussière avec source de lumière externe</guilabel> : "
-"pour l'utilisation de bouchon anti-poussière avec source de lumière externe."
+"pour l'utilisation de bouchon anti-poussière avec source de lumière externe. "
+"Pour les trames Dark et Bias, veuillez à fermer le bouchon anti-poussière "
+"avant de commencer. Pour les trames Flat, fermez le bouchon anti-poussière "
+"et allumer la source de lumière. L'emplacement de la source externe de "
+"lumière pour les Flats est présumée être la position de parcage."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:502
 #, no-c-format
 msgid ""
@@ -1131,21 +1251,25 @@ msgstr ""
 "<guilabel>Mur</guilabel> : la source de lumière est un panneau placé contre "
 "un mur. Spécifier les coordonnées d'azimut et d'altitude du panneau et la "
 "monture pivotera dans cette direction avant de débuter l'acquisition des "
-"trames."
+"trames de Flats. Si le panneau de lumière est contrôlable par INDI, Ekos se "
+"chargera de l'allumer et de l'éteindre."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:506
 #, no-c-format
 msgid "<guilabel>Dawn/Dusk</guilabel>: Currently unsupported."
 msgstr "<guilabel>Aube/Crépuscule</guilabel> : non géré actuellement."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:513
 #, no-c-format
 msgid "Flat Field Duration"
 msgstr "Durée d'exposition de l'acquisition de Flat"
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:517
 #, no-c-format
 msgid ""
@@ -1155,15 +1279,17 @@ msgstr ""
 "d'attente de la séquence."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:521
 #, no-c-format
 msgid ""
 "<guilabel>ADU</guilabel>: Duration is variable until specified ADU is met."
 msgstr ""
 "<guilabel>ADU</guilabel> : la durée est variable jusqu'à que la valeur ADU "
-"est atteinte."
+"soit atteinte."
 
 #. Tag: para
+#. +> trunk5
 #: ekos-capture.docbook:528
 #, no-c-format
 msgid ""
@@ -1182,22 +1308,25 @@ msgstr ""
 "Flat. Si une valeur ADU est spécifiée, Ekos commence par prendre une série "
 "d'images pour établie la courbe nécessaire pour atteindre la valeur ADU "
 "souhaitée. Une fois que cette valeur est calculée, une nouvelle image est "
-"prise et l'ADU est recalculée jusqu'à ce que la valeur souhaitée est "
+"prise et l'ADU est recalculée jusqu'à ce que la valeur souhaitée soit "
 "atteinte."
 
 #. Tag: title
+#. +> trunk5
 #: ekos-capture.docbook:534
 #, no-c-format
 msgid "Video Tutorials"
-msgstr "Tutorials vidéos"
+msgstr "Tutoriels vidéos"
 
 #. Tag: phrase
+#. +> trunk5
 #: ekos-capture.docbook:542
 #, no-c-format
 msgid "<phrase>Capture</phrase>"
 msgstr "<phrase>Acquisition</phrase>"
 
 #. Tag: phrase
+#. +> trunk5
 #: ekos-capture.docbook:553
 #, no-c-format
 msgid "Filter Wheels"
