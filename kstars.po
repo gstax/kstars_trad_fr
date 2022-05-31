@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-28 00:40+0000\n"
-"PO-Revision-Date: 2022-05-31 07:39+0200\n"
+"PO-Revision-Date: 2022-05-31 10:53+0200\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -22054,12 +22054,12 @@ msgid ""
 "style=\" font-weight:600;\">next</span> to continue. </p></body></html>"
 msgstr ""
 "<html><head/><body><p>Bienvenu dans l' <span style=\" font-weight:600;"
-"\">assistant de Profil Ekos.</span></p><p>Ekos est le premier contrôleur "
-"d'observatoire et une plateforme d'automatisation. Avec Ekos, vous pouvez "
-"capturer des images et des données scientifiques aisément. L'assistant vous "
-"aide à créer votre profil d'équipements. Vous devrez vérifier un certains "
+"\">assistant de Profil Ekos.</span></p><p>Ekos est une plateforme permettant de contrôler et d'automatiser un observatoire. "
+"Avec Ekos, vous pouvez procéder à l'acquisition "
+"d'images et de données scientifiques aisément. Cet assistant vous "
+"aidera à créer votre profil de matériel. Vous devrez renseigner un certain "
 "nombres d'informations de base.</p><p> Cliquez sur<span style=\" font-"
-"weight:600;\">suite</span> pour continuer. </p></body></html>"
+"weight:600;\">Suivant</span> pour continuer.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #: ekos/profilewizard.ui:214
@@ -22103,7 +22103,7 @@ msgstr ""
 #: ekos/profilewizard.ui:332
 #, kde-format
 msgid "Where is your equipment connected?"
-msgstr "Où est connecté votre équipement ?"
+msgstr "Où est connecté votre matériel ?"
 
 #. i18n: ectx: property (text), widget (QPushButton, localEquipmentB)
 #: ekos/profilewizard.ui:355
@@ -22112,7 +22112,7 @@ msgid ""
 "Equipment is attached\n"
 "to this device"
 msgstr ""
-"L'équipement est connecté\n"
+"Le matériel est connecté\n"
 "à ce périphérique"
 
 #. i18n: ectx: property (text), widget (QPushButton, remoteEquipmentB)
@@ -22122,8 +22122,8 @@ msgid ""
 "Equipment is attached to\n"
 "a remote device"
 msgstr ""
-"L'équipement est connecté\n"
-"à ce périphérique distant"
+"Le matériel est connecté\n"
+"à un périphérique distant"
 
 #. i18n: ectx: property (text), widget (QLabel, label_22)
 #: ekos/profilewizard.ui:437
@@ -22176,7 +22176,7 @@ msgid ""
 msgstr ""
 "<html><head/><body><p><a href=\"https://github.com/knro/indiwebmanager"
 "\"><span style=\" text-decoration: underline; color:#007af4;\">Gestionnaire "
-"Internet INDI </span></a> s'exécutant sur un ordinateur distant ? </p></"
+"Internet INDI </span></a> s'exécutant sur un ordinateur distant ?</p></"
 "body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, webManagerNotSureB)
@@ -22286,7 +22286,7 @@ msgid ""
 "<html><head/><body><p>What do you want to name your profile?</p></body></"
 "html>"
 msgstr ""
-"<html><head/><body><p>Que voulez-vous pour nommer votre profil ?</p></body></"
+"<html><head/><body><p>Comment souhaitez-vous nommer votre profil ?</p></body></"
 "html>"
 
 #. i18n: ectx: property (text), widget (QLineEdit, profileNameEdit)
@@ -22302,7 +22302,7 @@ msgid ""
 "<html><head/><body><p>Which guider application do you want to use?</p></"
 "body></html>"
 msgstr ""
-"<html><head/><body><p>Quelle application de guidage voulez-vous utiliser ?</"
+"<html><head/><body><p>Quelle application de guidage souhaitez-vous utiliser ?</"
 "p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, useInternalGuiderR)
@@ -22328,7 +22328,7 @@ msgstr ""
 "<html><head/><body><p><span style=\" font-weight:600;\">Astuce</span> : "
 "l'assistant de guidage interne est recommandé. L'utilisation d'applications "
 "externes pour l'assistance au guidage nécessite une configuration "
-"spécifique, en dehors du périmètre d'Ekos.</p></body></html>"
+"spécifique qui est en dehors du périmètre d'Ekos.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
 #: ekos/profilewizard.ui:1087
@@ -22337,7 +22337,7 @@ msgid ""
 "<html><head/><body><p>Do you want to select additional services?</p></body></"
 "html>"
 msgstr ""
-"<html><head/><body><p>Voulez-vous sélectionner des services additionnels ?</"
+"<html><head/><body><p>Souhaitez-vous sélectionner des services additionnels ?</"
 "p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, useJoystickCheck)
@@ -22368,7 +22368,7 @@ msgstr ""
 "<html><head/><body><p>Si l’ordinateur distant est équipé d’un accès à "
 "« astrometry.net », il est possible d’exécuter le pilote d’astrométrie à "
 "distance et l’utiliser pour résoudre les images dans le module "
-"« Alignement » d'Ekos. </p></body></html>"
+"Alignement d'Ekos. </p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, useRemoteAstrometryCheck)
 #: ekos/profilewizard.ui:1117
