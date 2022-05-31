@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-28 00:40+0000\n"
-"PO-Revision-Date: 2022-05-31 10:53+0200\n"
+"PO-Revision-Date: 2022-05-31 10:58+0200\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -22053,8 +22053,8 @@ msgid ""
 "will be asked to verify some basic information. </p><p>Please click <span "
 "style=\" font-weight:600;\">next</span> to continue. </p></body></html>"
 msgstr ""
-"<html><head/><body><p>Bienvenu dans l' <span style=\" font-weight:600;"
-"\">assistant de Profil Ekos.</span></p><p>Ekos est une plateforme permettant de contrôler et d'automatiser un observatoire. "
+"<html><head/><body><p>Bienvenue dans l' <span style=\" font-weight:600;"
+"\">assistant de profil d'Ekos.</span></p><p>Ekos est une plateforme permettant de contrôler et d'automatiser un observatoire. "
 "Avec Ekos, vous pouvez procéder à l'acquisition "
 "d'images et de données scientifiques aisément. Cet assistant vous "
 "aidera à créer votre profil de matériel. Vous devrez renseigner un certain "
@@ -22234,7 +22234,7 @@ msgstr ""
 #: ekos/profilewizard.ui:865
 #, kde-format
 msgid "Which INDI Server do you want to use?"
-msgstr "Quel serveur INDI voulez-vous utiliser ?"
+msgstr "Quel serveur INDI souhaitez-vous utiliser ?"
 
 #. i18n: ectx: property (text), widget (QPushButton, useInternalINDIB)
 #: ekos/profilewizard.ui:888
