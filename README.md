@@ -2,7 +2,7 @@
 
 Traduction du fichier de la GUI kstars.po en français. (Et, de fil en aiguille, de la documentation...)
 
-But: une interface professionnelle, françisée et épurée.
+But: une interface professionnelle, francisée et épurée.
 
 
 ## Source
@@ -43,7 +43,7 @@ Si tout se passe bien les *.docbook seront créés dans le répertoire suivant.
 Sinon, il faut corriger les erreurs dans les *.po. sans quoi le fichier
 index.docbook ne sera pas créé.
 
-Il faut aussi remplacer 
+Il faut aussi remplacer (dans index.docbook)
 
 <code><! ENTITY % fr "INCLUDE"</code>
 
