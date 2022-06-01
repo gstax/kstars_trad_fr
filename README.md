@@ -9,6 +9,14 @@ But: une interface professionnelle, francisée et épurée.
 
 Le fichier source se trouve à l'adresse http://websvn.kde.org/*checkout*/trunk/l10n-kf5/fr/messages/kstars/kstars.po
 
+### Fichiers po de la documentation
+https://websvn.kde.org/trunk/l10n-support/fr/summit/docmessages/kstars/?sortby=date#dirlist
+
+### KDE en français
+Un (glossaire de KDE)[https://fr.l10n.kde.org/dict/].
+
+#### Doc kstars en anglais
+Elle se trouve (ici)[https://docs.kde.org/trunk5/en/kstars/kstars/index.html].
 
 ## Compilation du fichier
 
@@ -26,6 +34,10 @@ Reformater le fichier po :
 
 ### Différence entre deux versions
 <code>diff -u <(msgfmt -o - kstars.po| msgunfmt ) <(msgfmt -o - kstars_3.5.9.po| msgunfmt)</code>
+
+### Extraction chaînes non-traduite
+<code>msgattrib --untranslated source.po -o output.po</code><br/>
+Il existe une option pour les fuzzy également (--only-fuzzy).
 
 ## Vérification des po
 Plusieurs outils existent pour vérifier les fichiers.
