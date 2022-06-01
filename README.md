@@ -24,6 +24,16 @@ Reformater le fichier po :
 
 ## Traduction de la documentation
 
+## Vérification des po
+Plusieurs outils existent pour vérifier les fichiers.
+
+<code>pology check_rules fichier.po</code>
+<code>i18nspector -l fr fichier.po</code>
+
+Comme ce sont des fichiers pris dans la branche trunk, il faut rajouter ce drapeau aux fichiers po. Un script python le fait :
+
+<code>python3 add_trunk.py fichier.po</code>
+
 ### Création des docbook
 
 <code>cd /home/steve/sources/l10n-scripty></code> <br/>
@@ -44,6 +54,9 @@ par
 
 pour tenir compte du nouveau fichier entities.user.
 
+Les fichiers css ne sont pas trouvés, j'ai donc créé un petit script bash pour corriger les chemins :
+
+<code>./corriger_css.sh</code>
 
 ### Génération des fichers html
 
@@ -81,8 +94,7 @@ Cela créera le fichier kstars.pdf.
 
 * Capture -> Acquisition
 * Meridian flip -> Retournement au méridien
-* Focusor -> Focuseur (mieux à trouver)
+* Focusor -> Moteur de mise au point
 * Plate solver -> Résolveur
 * Autofocus -> Mise au point automatique
-* focuser -> moteur de mise au point
 * location -> position (en non emplacemnt)
