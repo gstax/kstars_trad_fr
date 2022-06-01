@@ -24,7 +24,7 @@ Reformater le fichier po :
 
 ## Traduction de la documentation
 
-## Différence entre deux versions
+### Différence entre deux versions
 <code>diff -u <(msgfmt -o - kstars.po| msgunfmt ) <(msgfmt -o - kstars_3.5.9.po| msgunfmt)</code>
 
 ## Vérification des po
