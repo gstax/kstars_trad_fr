@@ -13,10 +13,10 @@ Le fichier source se trouve à l'adresse http://websvn.kde.org/*checkout*/trunk/
 https://websvn.kde.org/trunk/l10n-support/fr/summit/docmessages/kstars/?sortby=date#dirlist
 
 ### KDE en français
-Un (glossaire de KDE)[https://fr.l10n.kde.org/dict/].
+Un [glossaire de KDE](https://fr.l10n.kde.org/dict/).
 
 #### Doc kstars en anglais
-Elle se trouve (ici)[https://docs.kde.org/trunk5/en/kstars/kstars/index.html].
+Elle se trouve [ici](https://docs.kde.org/trunk5/en/kstars/kstars/index.html).
 
 ## Compilation du fichier
 
