@@ -27,7 +27,7 @@ Reformater le fichier po :
 ## Vérification des po
 Plusieurs outils existent pour vérifier les fichiers.
 
-<code>pology check_rules fichier.po</code>
+<code>pology check_rules fichier.po</code><br/>
 <code>i18nspector -l fr fichier.po</code>
 
 Comme ce sont des fichiers pris dans la branche trunk, il faut rajouter ce drapeau aux fichiers po. Un script python le fait :
