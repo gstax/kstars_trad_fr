@@ -43,7 +43,7 @@ Il existe une option pour les fuzzy également (--only-fuzzy).
 Plusieurs outils existent pour vérifier les fichiers.
 
 <code>pology check_rules fichier.po</code><br/>
-<code>i18nspector -l fr fichier.po</code>
+<code>i18nspector -l fr fichier.po</code> (doc)[https://i18nspector.readthedocs.io/en/stable/]
 
 Comme ce sont des fichiers pris dans la branche trunk, il faut rajouter ce drapeau aux fichiers po. Un script python le fait :
 
