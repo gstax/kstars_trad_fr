@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-28 00:40+0000\n"
-"PO-Revision-Date: 2022-05-31 20:56+0200\n"
+"PO-Revision-Date: 2022-06-05 13:14+0200\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -9744,7 +9744,7 @@ msgid ""
 "Cannot set solver to remote. The Ekos equipment profile must include the "
 "astrometry Auxiliary driver."
 msgstr ""
-"Impossible de basculer le résolveur en mode distant. Le profil Ekos des "
+"Impossible de passer le résolveur en mode distant. Le profil Ekos des "
 "équipements doit inclure le pilote auxiliaire d'astrométrie."
 
 #: ekos/align/remoteastrometryparser.cpp:50
@@ -11286,7 +11286,7 @@ msgstr "Confirmer le filtre"
 #: ekos/focus/focus.ui:734
 #, kde-format
 msgid "Filter Settings"
-msgstr "Configurations des filtres"
+msgstr "Réglages des filtres"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_INDIFilterWheelLogging)
@@ -11980,7 +11980,7 @@ msgstr "Supprimer une règle"
 #: ekos/auxiliary/serialportassistant.ui:182
 #, kde-format
 msgid "Display on detecting unmapped ports"
-msgstr "Afficher les ports non mappés:"
+msgstr "Afficher lors de la détection de ports non associés"
 
 #. i18n: ectx: property (text), widget (QPushButton, nextB)
 #: ekos/auxiliary/serialportassistant.ui:205 indi/telescopewizard.ui:97
@@ -12014,7 +12014,7 @@ msgstr "Fermer"
 #: ekos/auxiliary/stellarsolverprofile.cpp:22
 #, kde-format
 msgid "Default focus star-extraction."
-msgstr "Extraction d'étoiles par défaut par mise au point."
+msgstr "Mise au point par défaut pour l'extraction d'étoiles."
 
 #: ekos/auxiliary/stellarsolverprofile.cpp:38
 #: ekos/auxiliary/stellarsolverprofile.cpp:106
@@ -12044,7 +12044,7 @@ msgstr "Profil pour l'extraction de sources de grandes étoiles."
 #: ekos/auxiliary/stellarsolverprofile.cpp:94
 #, kde-format
 msgid "Default guider star-extraction."
-msgstr "Extraction d'étoiles par défaut du guideur."
+msgstr "Extraction d'étoiles par défaut du guide."
 
 #: ekos/auxiliary/stellarsolverprofile.cpp:162
 #, kde-format
@@ -12093,7 +12093,7 @@ msgstr "Défini une estimation HFR pour la plupart des étoiles."
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:32
 #, kde-format
 msgid "Options Profiles"
-msgstr "Profil d'Options"
+msgstr "Profils d'options"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, optionsProfileGroup)
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:64
@@ -13086,7 +13086,7 @@ msgstr "Mise en pause possible que lorsque l'acquisition est lancée."
 #: ekos/capture/capture.cpp:548
 #, kde-format
 msgid "Sequence shall be paused after current exposure is complete."
-msgstr "La séquence sera mise en pause, après la fin de l'exposition courante."
+msgstr "La séquence sera mise en pause à la fin de l'exposition courante."
 
 #: ekos/capture/capture.cpp:552
 #, kde-format
@@ -13280,7 +13280,7 @@ msgstr ""
 #: ekos/capture/capture.cpp:2266 ekos/capture/capture.ui:1629
 #| msgid "Reset mount model after meridian flip"
 msgid "Refocus after meridian flip"
-msgstr "Réinitialiser la mise au point après le basculement au méridien."
+msgstr "Réinitialiser la mise au point après le retournement au méridien."
 
 #: ekos/capture/capture.cpp:2261 ekos/capture/capture.cpp:2495
 #, kde-format
@@ -14277,7 +14277,7 @@ msgstr "Y"
 #: ekos/capture/capture.ui:826
 #, kde-format
 msgid "<b>File Settings</b>"
-msgstr "<b>Paramétrage des fichiers</b>"
+msgstr "<b>Réglages des fichiers</b>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_15)
 #: ekos/capture/capture.ui:882
@@ -14796,7 +14796,7 @@ msgstr "Total"
 #: ekos/capture/capturecountswidget.ui:614
 #, kde-format
 msgid "Switch display to the graphical mode of capture counts display."
-msgstr "Basculer l'affichage des compteurs d'acquisition en mode graphique."
+msgstr "(Dés)active l'affichage des compteurs d'acquisition en mode graphique."
 
 #: ekos/capture/capturepreviewwidget.cpp:172
 #, kde-format
@@ -16030,7 +16030,7 @@ msgstr "Position courante et absolue du moteur de mise au point"
 #: ekos/focus/focus.ui:213 ekos/scheduler/scheduler.ui:350
 #, kde-format
 msgid "Steps:"
-msgstr "Étapes"
+msgstr "Positions"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, stopGotoB)
 #: ekos/focus/focus.ui:229
@@ -19930,13 +19930,13 @@ msgstr ""
 #: ekos/mount/mount.cpp:1350
 #, kde-format
 msgid "meridian flip failed, retrying in 4 minutes"
-msgstr "Échec du retournement au méridien. Nouvel essai dans 4 minutes."
+msgstr "Échec du retournement au méridien. Nouvel essai dans 4 minutes"
 
 #: ekos/mount/mount.cpp:1354
 #, kde-format
 msgid "No successful Meridian Flip done, delay too long"
 msgstr ""
-"Le retournement au méridien s'est mal terminé. Le délai était trop long."
+"Le retournement au méridien s'est mal terminé. Le délai était trop long"
 
 #: ekos/mount/mount.cpp:1361
 #, kde-format
@@ -21365,7 +21365,7 @@ msgstr "Toujours réinitialiser la séquence au démarrage"
 #: ekos/opsekos.ui:659
 #, kde-format
 msgid "Reset mount model after meridian flip"
-msgstr "Réinitialiser le modèle de pointage après le retournement au méridien."
+msgstr "Réinitialiser le modèle de pointage après le retournement au méridien"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_useSummaryPreview)
 #: ekos/opsekos.ui:668
@@ -21883,7 +21883,7 @@ msgstr "Auxiliaire #3"
 #: ekos/profileeditor.ui:516
 #, kde-format
 msgid "Aux 3:"
-msgstr "Aux 4"
+msgstr "Aux 3"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, weatherLabel)
 #: ekos/profileeditor.ui:562
@@ -26802,7 +26802,7 @@ msgid ""
 "data."
 msgstr ""
 "Ne pas télécharger HiPS de l'Internet. Utiliser l'emplacement de DSS hors-"
-"ligne pour charger toutes les donnes."
+"ligne pour charger toutes les données."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_HIPSUseOfflineSource)
 #: hips/opshipscache.ui:133
@@ -32337,7 +32337,7 @@ msgid ""
 "flip and if successful it will resume guiding and capture operations."
 msgstr ""
 "Si l’angle horaire de la cible dépasse cette valeur, Ekos commandera un "
-"basculement de méridien. Si cela réussit, alors, Ekos reprendra les "
+"retournement de méridien. Si cela réussit, alors, Ekos reprendra les "
 "opérations de guidage et de capture."
 
 #. i18n: ectx: label, entry (MaximumHaLimit), group (Mount)
@@ -32354,7 +32354,7 @@ msgid ""
 "telescope is above this limit, a meridian flip will be forced."
 msgstr ""
 "Limite maximale pour l’angle horaire du télescope. Si l’angle horaire du "
-"télescope est au-dessus de cette limite, un basculement du méridien sera "
+"télescope est au-dessus de cette limite, un retournement du méridien sera "
 "forcé."
 
 #. i18n: ectx: label, entry (EnableHaLimit), group (Mount)
@@ -32367,7 +32367,7 @@ msgstr "Activer limite de l'angle horaire de la monture."
 #: kstars.kcfg:1585
 #, kde-format
 msgid "Flips the mount when reaching the meridian, if supported."
-msgstr "Bascule la monture lors de l'atteinte du méridien, si pris en charge."
+msgstr "Retourne la monture lors de l'atteinte du méridien, si pris en charge."
 
 #. i18n: ectx: label, entry (MeridianFlipUnitDegrees), group (Mount)
 #: kstars.kcfg:1589
@@ -32545,7 +32545,7 @@ msgstr ""
 #: kstars.kcfg:1672
 #, kde-format
 msgid "Reset mount model after meridian flip."
-msgstr "Réinitialiser le modèle de pointage après le basculement de méridien."
+msgstr "Réinitialiser le modèle de pointage après le retournement au méridien."
 
 #. i18n: ectx: label, entry (CalibrationADUValue), group (Capture)
 #: kstars.kcfg:1676
