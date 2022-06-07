@@ -1,18 +1,18 @@
 # translation of kstars_config.po to french
 # traduction de kstars_config.po en Français
 # Copyright (C) 2002,2003, 2004 Free Software Foundation, Inc.
+#
 # Gérard Delafond <gerard@delafond.org>, 2002,2003, 2004.
 # Ludovic Grossard <grossard@kde.org>, 2002, 2003, 2004, 2012.
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2012, 2013.
 # xavier <ktranslator31@yahoo.fr>, 2012.
 # steve <stax@ik.me>, 2022.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_config_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-01 10:07+0200\n"
-"PO-Revision-Date: 2022-05-25 06:44+0200\n"
+"PO-Revision-Date: 2022-06-07 13:54+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -180,10 +180,9 @@ msgstr "La fenêtre de configuration de &kstars;"
 #. +> trunk5
 #: config.docbook:122 config.docbook:152 config.docbook:160 config.docbook:168
 #: config.docbook:175 config.docbook:182 config.docbook:199 config.docbook:209
-#: config.docbook:234 config.docbook:242 config.docbook:982
-#: config.docbook:1010 config.docbook:1061 config.docbook:1092
-#: config.docbook:1119 config.docbook:1156 config.docbook:1202
-#: config.docbook:1301
+#: config.docbook:234 config.docbook:242 config.docbook:982 config.docbook:1010
+#: config.docbook:1061 config.docbook:1092 config.docbook:1119
+#: config.docbook:1156 config.docbook:1202 config.docbook:1301
 #, no-c-format
 msgid "Configure &kstars; window"
 msgstr "La fenêtre de configuration de &kstars;"
@@ -1053,7 +1052,7 @@ msgstr "<guibutton>Couleurs</guibutton>"
 #: config.docbook:655
 #, no-c-format
 msgid "Open the catalog color editor (See <xref linkend=\"catalog_colors\"/>.)."
-msgstr "Ouvrir le modificateur de couleur de catalogue (voir <xref linkend=\"catalog_colors\"/>)."
+msgstr "Ouvrir l'éditeur de couleur de catalogue (voir <xref linkend=\"catalog_colors\"/>)."
 
 #. Tag: para
 #. +> trunk5
@@ -1130,21 +1129,21 @@ msgstr "<title>Modifier la couleur d'un catalogue</title>"
 #: config.docbook:712
 #, no-c-format
 msgid "<secondary>Catalog Color Editor</secondary>"
-msgstr "<secondary>Modificateur de couleurs de catalogue</secondary>"
+msgstr "<secondary>Éditeur de couleurs de catalogue</secondary>"
 
 #. Tag: screeninfo
 #. +> trunk5
 #: config.docbook:715
 #, no-c-format
 msgid "Catalog color editor"
-msgstr "Modificateur de couleurs de catalogue"
+msgstr "Éditeur de couleurs de catalogue"
 
 #. Tag: phrase
 #. +> trunk5
 #: config.docbook:721
 #, no-c-format
 msgid "The catalog color editor."
-msgstr "Le modificateur de couleurs de catalogue."
+msgstr "L'éditeur de couleurs de catalogue."
 
 #. Tag: para
 #. +> trunk5
@@ -2068,21 +2067,21 @@ msgstr "Choisissez un <quote>Indicateur de champ de vision (FOV)</quote> en util
 #: config.docbook:1399
 #, no-c-format
 msgid "You can define your own FOV symbols (or modify the existing symbols) using the <guimenuitem>Edit FOV Symbols...</guimenuitem> menu item, which launches the FOV Editor:"
-msgstr "Vous pouvez définir vos propres indicateurs de champ de vision (ou modifier les indicateurs existants) en utilisant l'élément de menu <guimenuitem>Modifier les indicateurs de champ de vision…</guimenuitem>, ce qui lance le modificateur de champ de vision :"
+msgstr "Vous pouvez définir vos propres indicateurs de champ de vision (ou modifier les indicateurs existants) en utilisant l'élément de menu <guimenuitem>Modifier les indicateurs de champ de vision…</guimenuitem>, ce qui lance l'éditeur de champ de vision :"
 
 #. Tag: screeninfo
 #. +> trunk5
 #: config.docbook:1404
 #, no-c-format
 msgid "Field-of-View Symbols Editor"
-msgstr "Modificateur d'indicateurs de champ de vision"
+msgstr "Éditeur d'indicateurs de champ de vision"
 
 #. Tag: phrase
 #. +> trunk5
 #: config.docbook:1410
 #, no-c-format
 msgid "FOV Symbol Editor"
-msgstr "Modificateur d'indicateurs de champ de vision"
+msgstr "Éditeur d'indicateurs de champ de vision"
 
 #. Tag: para
 #. +> trunk5
