@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kstars_greatcircle_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-03-28 16:23+0000\n"
-"PO-Revision-Date: 2013-02-02 07:51+0100\n"
+"PO-Revision-Date: 2022-06-09 10:56+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -19,37 +19,42 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: author
+#. +> trunk5
 #: greatcircle.docbook:3
 #, no-c-format
 msgid "<firstname>Jason</firstname> <surname>Harris</surname>"
 msgstr "<firstname>Jason</firstname> <surname>Harris</surname>"
 
 #. Tag: title
+#. +> trunk5
 #: greatcircle.docbook:8
 #, no-c-format
 msgid "<title>Great Circles</title>"
 msgstr "<title>Grands cercles</title>"
 
 #. Tag: primary
+#. +> trunk5
 #: greatcircle.docbook:9
 #, no-c-format
 msgid "<primary>Great Circles</primary>"
 msgstr "<primary>Grands cercles</primary>"
 
 #. Tag: seealso
+#. +> trunk5
 #: greatcircle.docbook:10
 #, no-c-format
 msgid "Celestial Sphere"
 msgstr "Sphère céleste"
 
 #. Tag: para
+#. +> trunk5
 #: greatcircle.docbook:12
 #, no-c-format
 msgid ""
-"Consider a sphere, such as the Earth, or the <link linkend=\"ai-csphere"
-"\">Celestial Sphere</link>. The intersection of any plane with the sphere "
-"will result in a circle on the surface of the sphere. If the plane happens "
-"to contain the center of the sphere, the intersection circle is a "
+"Consider a sphere, such as the Earth, or the <link linkend=\"ai-"
+"csphere\">Celestial Sphere</link>. The intersection of any plane with the "
+"sphere will result in a circle on the surface of the sphere. If the plane "
+"happens to contain the center of the sphere, the intersection circle is a "
 "<firstterm>Great Circle</firstterm>. Great circles are the largest circles "
 "that can be drawn on a sphere. Also, the shortest path between any two "
 "points on a sphere is always along a great circle."
@@ -58,19 +63,20 @@ msgstr ""
 "céleste</link>. L'intersection entre tout plan et la sphère résulte en un "
 "cercle sur la surface de la sphère. Si le plan passe par le centre de la "
 "sphère, le cercle est appelé un <firstterm>grand cercle</firstterm>. Les "
-"grands cercles donc, sont les plus grands cercles que l'on peut dessiner sur "
-"une sphère. Aussi, une ligne entre toute paire de points se trouvant sur une "
-"sphère se trouve obligatoirement le long d'un grand cercle."
+"grands cercles sont donc les plus grands cercles que l'on peut dessiner sur"
+" une sphère. Aussi, une ligne entre toute paire de points se trouvant sur "
+"une sphère se trouve nécessairement le long d'un grand cercle."
 
 #. Tag: para
+#. +> trunk5
 #: greatcircle.docbook:21
 #, no-c-format
 msgid ""
 "Some examples of great circles on the celestial sphere include: the <link "
-"linkend=\"ai-horizon\">Horizon</link>, the <link linkend=\"ai-cequator"
-"\">Celestial Equator</link>, and the <link linkend=\"ai-ecliptic\">Ecliptic</"
-"link>."
+"linkend=\"ai-horizon\">Horizon</link>, the <link linkend=\"ai-"
+"cequator\">Celestial Equator</link>, and the <link linkend=\"ai-"
+"ecliptic\">Ecliptic</link>."
 msgstr ""
 "Des exemples de grands cercles sur la sphère céleste : l'<link linkend=\"ai-"
-"horizon\">horizon</link>, l'<link linkend=\"ai-cequator\">équateur céleste</"
-"link>, et l'<link linkend=\"ai-ecliptic\">écliptique</link>."
+"horizon\">horizon</link>, l'<link linkend=\"ai-cequator\">équateur "
+"céleste</link> et l'<link linkend=\"ai-ecliptic\">écliptique</link>."
