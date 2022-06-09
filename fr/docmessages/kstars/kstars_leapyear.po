@@ -1,17 +1,15 @@
 # translation of kstars_leapyear.po to french
-# translation of kstars_leapyear.po to
 # traduction de kstars_leapyear.po en Français
-# Copyright (C) 2002,2003, 2004 Free Software Foundation, Inc.
 #
 # Gérard Delafond <gerard@delafond.org>, 2002,2003.
 # Ludovic Grossard <grossard@kde.org>, 2004, 2013.
-# steve <stax@ik.me>, 2022 
+# steve <stax@ik.me>, 2022
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_leapyear_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-22 00:30+0000\n"
-"PO-Revision-Date: 2013-02-02 07:51+0100\n"
+"PO-Revision-Date: 2022-06-09 15:40+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -21,24 +19,28 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: author
+#. +> trunk5
 #: leapyear.docbook:3
 #, no-c-format
 msgid "<firstname>Jason</firstname> <surname>Harris</surname>"
 msgstr "<firstname>Jason</firstname> <surname>Harris</surname>"
 
 #. Tag: title
+#. +> trunk5
 #: leapyear.docbook:8
 #, no-c-format
 msgid "<title>Leap Years</title>"
 msgstr "<title>Années bissextiles</title>"
 
 #. Tag: primary
+#. +> trunk5
 #: leapyear.docbook:9
 #, no-c-format
 msgid "<primary>Leap Years</primary>"
 msgstr "<primary>Années bissextiles</primary>"
 
 #. Tag: para
+#. +> trunk5
 #: leapyear.docbook:11
 #, no-c-format
 msgid ""
@@ -53,6 +55,7 @@ msgstr ""
 "Soleil ; une orbite complète prend une <firstterm>année</firstterm>."
 
 #. Tag: para
+#. +> trunk5
 #: leapyear.docbook:16
 #, no-c-format
 msgid ""
@@ -77,6 +80,7 @@ msgstr ""
 "bizarre…"
 
 #. Tag: para
+#. +> trunk5
 #: leapyear.docbook:25
 #, no-c-format
 msgid ""
@@ -95,9 +99,10 @@ msgstr ""
 "surplus à la fin de chaque année, chaque année les dates du calendrier "
 "seront un peu en retard relativement à la position réelle de la Terre autour "
 "du Soleil. En seulement quelques années, les dates des solstices et des "
-"équinoxes auront notablement glissé."
+"équinoxes auront notablement dérivé."
 
 #. Tag: para
+#. +> trunk5
 #: leapyear.docbook:33
 #, no-c-format
 msgid ""
@@ -113,12 +118,13 @@ msgstr ""
 "définies comme ayant 365,0 jours, et en conséquence, le calendrier s'éloigna "
 "lentement des vraies saisons. En l'an 46 <abbrev>Av J.-C.</abbrev>, Jules "
 "César établit le <firstterm>calendrier julien</firstterm>, qui introduisit "
-"pour la première fois le concept de l'<firstterm>année bissextile</"
-"firstterm> : il décréta que tous les quatre ans, l'année durerait 366 jours "
-"afin que, en moyenne sur le long terme, un année dure 365,25 jours. En gros, "
-"cela résolut le problème du calendrier."
+"pour la première fois le concept d'<firstterm>année bissextile</firstterm> : "
+"il décréta que tous les quatre ans, l'année durerait 366 jours afin que, en "
+"moyenne sur le long terme, un année dure 365,25 jours. En gros, cela résolut "
+"le problème du calendrier."
 
 #. Tag: para
+#. +> trunk5
 #: leapyear.docbook:41
 #, no-c-format
 msgid ""
@@ -142,18 +148,19 @@ msgstr ""
 "pas 365,25 jours. Le calendrier dérive encore un peu, même si l'effet n'est "
 "apparent que sur de très longs intervalles. C'est pourquoi en 1582, le pape "
 "Grégoire XIII a institué le <firstterm>calendrier grégorien</firstterm>, qui "
-"est très semblable au calendrier julien mais avec un truc de plus pour les "
-"années bissextiles : les années de début de siècle (celles qui se terminent "
-"par <quote>00</quote> sont bissextiles seulement si elles sont divisibles "
-"par 400. Ainsi, les années 1700, 1800, 1900 ne sont pas des années "
-"bissextiles (elles le seraient sous le calendrier julien), et l'année 2000 "
-"<emphasis>est</emphasis> une année bissextile. Cette modification produit "
-"une année qui en moyenne dure 365.2425 jours. Il y a donc encore une très "
-"minime dérive du calendrier, mais c'est une erreur de seulement 3 jours sur "
-"10 000 ans ! Le calendrier grégorien est aujourd'hui le calendrier standard "
-"utilisé à peu près partout sur la planète."
+"est très semblable au calendrier julien mais avec une astuce de plus pour "
+"les années bissextiles : les années de début de siècle (celles qui se "
+"terminent par <quote>00</quote> sont bissextiles si et seulement si elles "
+"sont divisibles par 400. Ainsi, les années 1700, 1800, 1900 ne sont pas des "
+"années bissextiles (elles le seraient sous le calendrier julien), et l'année "
+"2000 <emphasis>est</emphasis> une année bissextile. Cette modification "
+"produit une année qui dure en moyenne 365.2425 jours. Il y a donc encore une "
+"très minime dérive du calendrier, mais c'est une erreur de seulement 3 jours "
+"sur 10 000 ans ! Le calendrier grégorien est aujourd'hui le calendrier "
+"standard utilisé à peu près partout sur la planète."
 
 #. Tag: para
+#. +> trunk5
 #: leapyear.docbook:57
 #, no-c-format
 msgid ""
@@ -167,5 +174,5 @@ msgstr ""
 "calendrier julien avait été en utilisation pendant plus de 1 500 ans, et "
 "donc la date avait déjà subi une dérive d'une dizaine de jours. Le pape "
 "Grégoire a donc décidé de resynchroniser le calendrier en "
-"<emphasis>éliminant</emphasis> tout simplement 10 jours. En 1582, le jour "
-"après le 4 octobre fut le 15 octobre."
+"<emphasis>supprimant</emphasis> tout simplement 10 jours. Ainsi, En 1582, le "
+"jour suivant le 4 octobre fut le 15 octobre."
