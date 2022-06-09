@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kstars_precession_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-22 00:30+0000\n"
-"PO-Revision-Date: 2013-02-02 07:52+0100\n"
+"PO-Revision-Date: 2022-06-09 11:24+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -20,24 +20,28 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: author
+#. +> trunk5
 #: precession.docbook:3
 #, no-c-format
 msgid "<firstname>Jason</firstname> <surname>Harris</surname>"
 msgstr "<firstname>Jason</firstname> <surname>Harris</surname>"
 
 #. Tag: title
+#. +> trunk5
 #: precession.docbook:8
 #, no-c-format
 msgid "<title>Precession</title>"
 msgstr "<title>Précession</title>"
 
 #. Tag: primary
+#. +> trunk5
 #: precession.docbook:9
 #, no-c-format
 msgid "<primary>Precession</primary>"
 msgstr "<primary>Précession</primary>"
 
 #. Tag: para
+#. +> trunk5
 #: precession.docbook:11
 #, no-c-format
 msgid ""
@@ -46,24 +50,25 @@ msgid ""
 "circuit in 26,000 years. If you have ever spun a top or a dreidel, the "
 "<quote>wobbling</quote> rotation of the top as it spins is precession."
 msgstr ""
-"La <firstterm>précession</firstterm> est le changement graduel de la\n"
-"direction de l'axe de rotation de la Terre. L'axe de rotation trace un\n"
-"cône, effectuant un tour complet en 26 000 ans. Si vous avez déjà joué\n"
-"avec une toupie ou un dreidel, la toupie ne demeure pas fixée sur\n"
-"place, elle vacille ; c'est ce qu'on appelle précession. "
+"La <firstterm>précession</firstterm> est le changement graduel de la "
+"direction de l'axe de rotation de la Terre. L'axe de rotation trace un cône, "
+"effectuant un tour complet en environ 26 000 ans. Si vous avez déjà joué "
+"avec une toupie, vous avez pu constater que la toupie ne demeure pas fixée "
+"sur place, elle oscille ; c'est ce qu'on appelle précession."
 
 #. Tag: para
+#. +> trunk5
 #: precession.docbook:16
 #, no-c-format
 msgid ""
 "Because the direction of the Earth's spin axis changes, so does the location "
 "of the <link linkend=\"ai-cpoles\">Celestial Poles</link>."
 msgstr ""
-"Donc, puisque la direction de la rotation de la Terre varie,\n"
-"la position des <link linkend=\"ai-cpoles\">pôles célestes</link>\n"
-"varie aussi."
+"Donc, puisque la direction de la rotation de la Terre varie, la position des "
+"<link linkend=\"ai-cpoles\">pôles célestes</link> varie aussi."
 
 #. Tag: para
+#. +> trunk5
 #: precession.docbook:19
 #, no-c-format
 msgid ""
@@ -76,23 +81,25 @@ msgid ""
 "<emphasis>torque</emphasis> in addition to a linear force. This torque on "
 "the spinning body of the Earth leads to the precessional motion."
 msgstr ""
-"Les causes du phénomène de précession sont complexes. La Terre n'est pas une "
-"sphère parfaite, elle est un peu aplatie, et donc le <link linkend=\"ai-"
-"greatcircle\">grand cercle</link> de l'équateur est plus long que le grand "
-"cercle <quote>méridional</quote> qui passe par les pôles. De plus, la Lune "
-"et le Soleil se trouvent à l'extérieur du plan équatorial de la Terre. Il en "
-"résulte que l'attraction gravitationnelle de la Lune et du Soleil, agissant "
-"sur la Terre oblongue, cause un minuscule <emphasis>moment de torsion</"
-"emphasis> en plus d'une force linéaire. Cette force de torsion, agissant sur "
-"la Terre, cause le mouvement de précession."
+"Les causes du phénomène de précession sont complexes et multiples. La Terre "
+"n'est pas une sphère parfaite, elle est un peu aplatie aux pôles, et donc le "
+"<link linkend=\"ai-greatcircle\">grand cercle</link> de l'équateur est plus "
+"long que le grand cercle <quote>méridional</quote> qui passe par les pôles. "
+"De plus, la Lune et le Soleil se trouvent à l'extérieur du plan équatorial "
+"de la Terre. Il en résulte que l'attraction gravitationnelle de la Lune et "
+"du Soleil, agissant sur la Terre oblongue, cause un minuscule "
+"<emphasis>moment de torsion</emphasis> en plus d'une force linéaire. Cette "
+"force de torsion, agissant sur la Terre, cause le mouvement de précession."
 
 #. Tag: para
+#. +> trunk5
 #: precession.docbook:31
 #, no-c-format
 msgid "Exercise:"
 msgstr "Exercice : "
 
 #. Tag: para
+#. +> trunk5
 #: precession.docbook:32
 #, no-c-format
 msgid ""
@@ -108,15 +115,16 @@ msgstr ""
 "La manière la plus facile de voir la précession est d'observer le <link "
 "linkend=\"ai-cpoles\">pôle céleste</link>. Pour trouver le pôle céleste, "
 "activez d'abord les coordonnées équatoriales dans la fenêtre "
-"<guilabel>Configurer &kstars;</guilabel>, puis appuyez, sur votre clavier, "
-"sur la <keycap>flèche haut</keycap> jusqu'à ce que l'image cesse de défiler. "
-"La déclinaison, affichée au centre du <guilabel>Panneau d'information</"
+"<guilabel>Configurer &kstars;</guilabel>, puis appuyez sur la <keycap>flèche "
+"haut</keycap> de votre clavier  jusqu'à ce que l'image cesse de défiler. La "
+"déclinaison, affichée au centre du <guilabel>Panneau d'information</"
 "guilabel>, devrait être de +90 degrés, et l'étoile Polaris devrait se "
 "trouver à peu près au centre de l'écran ; ajustez à l'aide des boutons "
 "<quote>flèches</quote>. Remarquez que le ciel semble tourner autour du pôle "
 "céleste."
 
 #. Tag: para
+#. +> trunk5
 #: precession.docbook:41
 #, no-c-format
 msgid ""
