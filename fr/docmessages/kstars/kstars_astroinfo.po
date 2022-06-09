@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kstars_astroinfo_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-03-28 16:23+0000\n"
-"PO-Revision-Date: 2013-02-02 07:50+0100\n"
+"PO-Revision-Date: 2022-06-09 08:43+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -21,18 +21,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: title
+#. +> trunk5
 #: astroinfo.docbook:2
 #, no-c-format
 msgid "The AstroInfo Project"
 msgstr "Le projet AstroInfo"
 
 #. Tag: para
+#. +> trunk5
 #: astroinfo.docbook:4
 #, no-c-format
 msgid ""
 "Here you can find a collection of short articles that explain various "
-"astronomical concepts used in &kstars;. From coordinate systems to celestial "
-"mechanics, you can find answers to your questions here."
+"astronomical concepts used in &kstars;. From coordinate systems to celestial"
+" mechanics, you can find answers to your questions here."
 msgstr ""
 "Vous trouverez ici une collection de courts articles qui expliquent une "
 "variété de concepts d'astronomie utilisés dans &kstars;. Des systèmes de "
@@ -40,6 +42,7 @@ msgstr ""
 "questions."
 
 #. Tag: para
+#. +> trunk5
 #: astroinfo.docbook:8
 #, no-c-format
 msgid ""
@@ -47,9 +50,10 @@ msgid ""
 "&kstars; to illustrate the concept behind the article."
 msgstr ""
 "Certains articles contiennent des exercices à compléter dans &kstars; pour "
-"illustrer le concept derrière l'article."
+"illustrer le concept développé dans l'article."
 
 #. Tag: chapter
+#. +> trunk5
 #: astroinfo.docbook:11
 #, no-c-format
 msgid ""
