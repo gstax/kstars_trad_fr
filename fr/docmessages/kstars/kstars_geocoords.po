@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kstars_geocoords_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-03-28 16:23+0000\n"
-"PO-Revision-Date: 2013-02-02 07:51+0100\n"
+"PO-Revision-Date: 2022-06-09 09:27+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -20,42 +20,49 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: author
+#. +> trunk5
 #: geocoords.docbook:3
 #, no-c-format
 msgid "<firstname>Jason</firstname> <surname>Harris</surname>"
 msgstr "<firstname>Jason</firstname> <surname>Harris</surname>"
 
 #. Tag: title
+#. +> trunk5
 #: geocoords.docbook:8
 #, no-c-format
 msgid "Geographic Coordinates"
 msgstr "Coordonnées géographiques"
 
 #. Tag: primary
+#. +> trunk5
 #: geocoords.docbook:9
 #, no-c-format
 msgid "<primary>Geographic Coordinate System</primary>"
 msgstr "<primary>Système de coordonnées géographiques</primary>"
 
 #. Tag: primary
+#. +> trunk5
 #: geocoords.docbook:10
 #, no-c-format
 msgid "Longitude"
 msgstr "Longitude"
 
 #. Tag: see
+#. +> trunk5
 #: geocoords.docbook:10 geocoords.docbook:11
 #, no-c-format
 msgid "<see>Geographic Coordinate System</see>"
 msgstr "<see>Système de coordonnées géographiques</see>"
 
 #. Tag: primary
+#. +> trunk5
 #: geocoords.docbook:11
 #, no-c-format
 msgid "Latitude"
 msgstr "Latitude"
 
 #. Tag: para
+#. +> trunk5
 #: geocoords.docbook:12
 #, no-c-format
 msgid ""
@@ -69,17 +76,19 @@ msgid ""
 "(Greenwich, England is the accepted zero-longitude point in most modern "
 "societies)."
 msgstr ""
-"Un endroit sur Terre peut être spécifié à l'aide d'un système de coordonnées "
-"sphériques. Le système de coordonnées géographiques (<foreignphrase>earth-"
-"mapping</foreignphrase>) est aligné avec l'axe de rotation de la Terre. Il "
-"utilise deux angles mesurés à partir du centre de la Terre. Le premier "
-"angle, appelé <firstterm>latitude</firstterm>, est l'angle entre un endroit "
-"sur Terre et l'équateur. Le deuxième angle, qu'on appelle la "
-"<firstterm>longitude</firstterm>, mesure l'angle <emphasis>le long</"
-"emphasis> de l'équateur à partir d'un point sur Terre (Greenwich en "
-"Angleterre possède une longitude de zéro degrés)."
+"Une position sur Terre peut être spécifiée à l'aide d'un système de "
+"coordonnées sphériques. Le système de coordonnées géographiques "
+"(<foreignphrase>earth-mapping</foreignphrase>) est aligné avec l'axe de "
+"rotation de la Terre. Il utilise deux angles mesurés à partir du centre de "
+"la Terre. Le premier angle, appelé <firstterm>latitude</firstterm>, est "
+"l'angle entre un endroit sur Terre et l'équateur. Le deuxième angle, qu'on "
+"appelle la <firstterm>longitude</firstterm>, mesure l'angle <emphasis>le "
+"long</emphasis> de l'équateur à partir d'un point sur Terre (Greenwich en "
+"Angleterre possède une longitude de zéro degré dans la plupart des sociétés "
+"modernes)."
 
 #. Tag: para
+#. +> trunk5
 #: geocoords.docbook:22
 #, no-c-format
 msgid ""
@@ -90,13 +99,14 @@ msgid ""
 "Greenwich, England will pass through Baltimore."
 msgstr ""
 "En combinant ces deux angles, on peut spécifier tout endroit sur Terre. Par "
-"exemple, Baltimore, Mariland (USA) possède une latitude de 39,3 degrés nord "
-"et une longitude de 76,6 degrés ouest. En d'autres mots, si l'on dessine une "
-"ligne entre le centre de la Terre et un point qui se trouve à 39,3 degrés au-"
-"dessus de l'équateur et à 76,6 degrés à l'ouest de Greenwich, passera à "
-"travers Baltimore."
+"exemple, Baltimore dans le Mariland (USA) possède une latitude de 39,3 "
+"degrés nord et une longitude de 76,6 degrés ouest. En d'autres mots, si l'on "
+"dessine une ligne entre le centre de la Terre et un point qui se trouve à "
+"39,3 degrés au-dessus de l'équateur et à 76,6 degrés à l'ouest de Greenwich, "
+"alors elle passera à travers Baltimore."
 
 #. Tag: para
+#. +> trunk5
 #: geocoords.docbook:28
 #, no-c-format
 msgid ""
@@ -115,6 +125,7 @@ msgstr ""
 "plan fondamental."
 
 #. Tag: para
+#. +> trunk5
 #: geocoords.docbook:35
 #, no-c-format
 msgid ""
@@ -133,18 +144,19 @@ msgstr ""
 "0 degrés), est un <link linkend=\"ai-greatcircle\">grand cercle</link>. Les "
 "lignes possédant la même longitude sont appelées les <firstterm>méridiens</"
 "firstterm>. Le méridien qui passe par Greenwich est le <firstterm>méridien "
-"principal</firstterm> (longitude de 0 degrés). Contrairement aux parallèles, "
+"principal</firstterm> (longitude de 0 degré). Contrairement aux parallèles, "
 "les méridiens sont tous des grands cercles, et les méridiens ne sont pas "
-"parallèles l'un à l'autre : ils se rejoignent tous au pôle nord et au pôle "
-"sud. "
+"parallèles entre eux : ils se rejoignent tous au pôle nord et au pôle sud."
 
 #. Tag: para
+#. +> trunk5
 #: geocoords.docbook:46
 #, no-c-format
 msgid "Exercise:"
 msgstr "Exercice :"
 
 #. Tag: para
+#. +> trunk5
 #: geocoords.docbook:47
 #, no-c-format
 msgid ""
@@ -153,6 +165,7 @@ msgstr ""
 "Quelle est la longitude du Pôle Nord ? Sa latitude est de 90 degrés nord."
 
 #. Tag: para
+#. +> trunk5
 #: geocoords.docbook:51
 #, no-c-format
 msgid ""
