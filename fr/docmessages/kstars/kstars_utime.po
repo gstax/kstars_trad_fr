@@ -1,6 +1,5 @@
 # translation of kstars_utime.po to french
 # traduction de kstars_utime.po en Français
-# Copyright (C) 2002,2003, 2004 Free Software Foundation, Inc.
 #
 # Gérard Delafond <gerard@delafond.org>, 2002,2003.
 # Ludovic Grossard <grossard@kde.org>, 2003, 2004.
@@ -11,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kstars_utime_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-22 00:30+0000\n"
-"PO-Revision-Date: 2022-04-10 08:19+0200\n"
+"PO-Revision-Date: 2022-06-09 16:04+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
 "Language: fr\n"
@@ -22,30 +21,35 @@ msgstr ""
 "X-Generator: Lokalize 20.12.0\n"
 
 #. Tag: author
+#. +> trunk5
 #: utime.docbook:3
 #, no-c-format
 msgid "<firstname>Jason</firstname> <surname>Harris</surname>"
 msgstr "<firstname>Jason</firstname> <surname>Harris</surname>"
 
 #. Tag: title
+#. +> trunk5
 #: utime.docbook:8
 #, no-c-format
 msgid "<title>Universal Time</title>"
 msgstr "<title>Heure universelle</title>"
 
 #. Tag: primary
+#. +> trunk5
 #: utime.docbook:9
 #, no-c-format
 msgid "<primary>Universal Time</primary>"
 msgstr "<primary>Heure universelle</primary>"
 
 #. Tag: seealso
+#. +> trunk5
 #: utime.docbook:10
 #, no-c-format
 msgid "Time Zones"
 msgstr "Fuseaux horaires"
 
 #. Tag: para
+#. +> trunk5
 #: utime.docbook:12
 #, no-c-format
 msgid ""
@@ -54,12 +58,13 @@ msgid ""
 "because the Earth is round (see <link linkend=\"ai-timezones\">Time Zones</"
 "link>)."
 msgstr ""
-"L'heure affichée sur nos horloges est une mesure de la position que possède "
-"le Soleil dans le ciel. Cette heure n'est pas la même si l'observation est "
-"faite à différentes longitudes, puisque la Terre est ronde (voir <link "
-"linkend=\"ai-timezones\">Fuseaux horaires</link>)."
+"L'heure affichée sur nos horloges est une mesure de la position du Soleil "
+"dans le ciel. Cette heure n'est pas la même si l'observation est faite à "
+"différentes longitudes puisque la Terre est ronde (voir <link linkend=\"ai-"
+"timezones\">Fuseaux horaires</link>)."
 
 #. Tag: para
+#. +> trunk5
 #: utime.docbook:16
 #, no-c-format
 msgid ""
@@ -72,13 +77,14 @@ msgid ""
 msgstr ""
 "Cependant, il est parfois nécessaire de définir une heure globale, une heure "
 "qui est la même peu importe l'endroit où l'on se trouve sur la Terre. Une "
-"façon de réaliser ce but est de choisir un endroit sur Terre et d'adopter "
+"façon de réaliser cela est de choisir un endroit sur Terre et d'adopter "
 "l'heure locale de cet endroit comme l'<firstterm>heure universelle</"
-"firstterm>, abréviation <abbrev>UT</abbrev>. (notez que le terme heure "
+"firstterm>, abréviation <abbrev>HU</abbrev>. (notez que le terme heure "
 "universelle n'a rien à voir avec l'<quote>univers</quote>. Il serait peut-"
 "être pratique de dire <emphasis>heure globale</emphasis>)."
 
 #. Tag: para
+#. +> trunk5
 #: utime.docbook:23
 #, no-c-format
 msgid ""
@@ -94,22 +100,24 @@ msgid ""
 msgstr ""
 "L'endroit choisi pour représenter l'heure universelle est Greenwich en "
 "Angleterre. C'est un choix arbitraire et historique. L'heure universelle a "
-"pris son envol à l'époque où, en Europe, les bateaux ont commencé à explorer "
+"pris son envol à l'époque où, en Europe, les bateaux ont commencé à naviguer "
 "en haute mer, loin de tout point de repère terrestre. Un navigateur pouvait "
 "déterminer la longitude du vaisseau en comparant l'heure locale (qu'il "
 "mesurait à l'aide de la position du Soleil) et l'heure à la ville du port "
-"(en utilisant une horloge à bord du navire). Greenwich était l'endroit où se "
-"trouvait l'observatoire Royal d'Angleterre, qui avait pour fonction de tenir "
-"le compte précis de l'heure afin de permettre aux navires de recalibrer "
-"leurs horloges avant de prendre le large."
+"domestique (en utilisant une horloge « précise » à bord du navire). "
+"Greenwich était l'endroit où se trouvait l'observatoire royal d'Angleterre, "
+"qui avait pour fonction de tenir le compte précis de l'heure afin de "
+"permettre aux navires de recalibrer leurs horloges avant de prendre le large."
 
 #. Tag: para
+#. +> trunk5
 #: utime.docbook:35
 #, no-c-format
 msgid "Exercise:"
-msgstr "Exercice : "
+msgstr "Exercice"
 
 #. Tag: para
+#. +> trunk5
 #: utime.docbook:36
 #, no-c-format
 msgid ""
@@ -118,13 +126,14 @@ msgid ""
 "<keycap>G</keycap></keycombo>). Note that the Local Time (<abbrev>LT</"
 "abbrev>) and the Universal Time (<abbrev>UT</abbrev>) are now the same."
 msgstr ""
-"Indiquez <quote>Greenwich, Angleterre</quote> comme endroit géographique "
-"dans la fenêtre <guilabel>Fixer le lieu géographique</guilabel> (<keycombo "
-"action=\"simul\">&Ctrl;<keycap>G</keycap></keycombo>). Veuillez noter que "
-"l'heure locale (<abbrev>LT</abbrev>) et l'heure universelle (<abbrev>UT</"
-"abbrev>) sont maintenant les mêmes."
+"Indiquez <quote>Greenwich, Angleterre</quote> comme position géographique "
+"dans la fenêtre <guilabel>Régler la position géographique</guilabel> "
+"(<keycombo action=\"simul\">&Ctrl;<keycap>G</keycap></keycombo>). Veuillez "
+"noter que l'heure locale (<abbrev>HL</abbrev>) et l'heure universelle "
+"(<abbrev>HU</abbrev>) sont maintenant les mêmes."
 
 #. Tag: para
+#. +> trunk5
 #: utime.docbook:42
 #, no-c-format
 msgid ""
