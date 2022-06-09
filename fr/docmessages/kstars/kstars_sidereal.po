@@ -1,6 +1,5 @@
 # translation of kstars_sidereal.po to french
 # traduction de kstars_sidereal.po en Français
-# Copyright (C) 2002,2003, 2004, 2005, 2007 Free Software Foundation, Inc.
 #
 # Gérard Delafond <gerard@delafond.org>, 2002,2003, 2005.
 # Ludovic Grossard <grossard@kde.org>, 2002, 2003, 2004, 2007.
@@ -11,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kstars_sidereal_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-22 00:30+0000\n"
-"PO-Revision-Date: 2012-12-10 13:38+0100\n"
+"PO-Revision-Date: 2022-06-09 15:54+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
 "Language: fr\n"
@@ -21,30 +20,35 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: author
+#. +> trunk5
 #: sidereal.docbook:3
 #, no-c-format
 msgid "<firstname>Jason</firstname> <surname>Harris</surname>"
 msgstr "<firstname>Jason</firstname> <surname>Harris</surname>"
 
 #. Tag: title
+#. +> trunk5
 #: sidereal.docbook:8
 #, no-c-format
 msgid "<title>Sidereal Time</title>"
 msgstr "<title>Temps sidéral</title>"
 
 #. Tag: primary
+#. +> trunk5
 #: sidereal.docbook:9
 #, no-c-format
 msgid "<primary>Sidereal Time</primary>"
-msgstr "<primary>Heure sidérale</primary>"
+msgstr "<primary>Temps sidérale</primary>"
 
 #. Tag: seealso
+#. +> trunk5
 #: sidereal.docbook:10
 #, no-c-format
 msgid "Hour Angle"
 msgstr "Angle horaire"
 
 #. Tag: para
+#. +> trunk5
 #: sidereal.docbook:12
 #, no-c-format
 msgid ""
@@ -54,32 +58,37 @@ msgid ""
 "it takes the Sun to travel 360 degrees around the sky, due to the rotation "
 "of the Earth. Smaller units of Solar Time are just divisions of a Day:"
 msgstr ""
-"Le <firstterm>temps sidéral</firstterm> signifie littéralement <quote>temps "
-"d'étoile</quote>. Le temps que nous utilisons dans la vie quotidienne "
-"s'appelle le temps solaire. L'unité fondamentale du temps solaire est la "
-"<firstterm>journée</firstterm> : le temps nécessaire pour que le Soleil "
-"effectue une rotation de 360 degrés autour du ciel, dû à la rotation de la "
-"Terre. Les autres unités du temps solaire sont des divisions de la journée : "
+"Le <firstterm>temps sidéral</firstterm> signifie littéralement le "
+"<quote>temps des étoiles</quote>. Le temps que nous utilisons dans la vie "
+"quotidienne s'appelle le temps solaire. L'unité fondamentale du temps "
+"solaire est la <firstterm>journée</firstterm> : le temps nécessaire pour que "
+"le Soleil effectue une rotation de 360 degrés autour du ciel, dû à la "
+"rotation de la Terre. Les autres unités du temps solaire sont des divisions "
+"de la journée :"
 
 #. Tag: para
+#. +> trunk5
 #: sidereal.docbook:20
 #, no-c-format
 msgid "1/24 Day = 1 Hour"
 msgstr "1 / 24 jour = 1 heure"
 
 #. Tag: para
+#. +> trunk5
 #: sidereal.docbook:21
 #, no-c-format
 msgid "1/60 Hour = 1 Minute"
 msgstr "1 / 60 heure = 1 minute"
 
 #. Tag: para
+#. +> trunk5
 #: sidereal.docbook:22
 #, no-c-format
 msgid "1/60 Minute = 1 Second"
 msgstr "1 / 60 minute = 1 seconde"
 
 #. Tag: para
+#. +> trunk5
 #: sidereal.docbook:24
 #, no-c-format
 msgid ""
@@ -93,12 +102,14 @@ msgid ""
 msgstr ""
 "Mais il y a un problème : en réalité la Terre n'effectue pas une rotation de "
 "360 degrés en une journée solaire. La Terre orbite autour du Soleil et au "
-"cours d'une journée elle parcourt environ 1 degré (360 / 365.25 = 1 degré "
-"par jour). Donc en 24 heures la direction face au Soleil change d'environ 1 "
-"degré. Résultat : la Terre doit effectuer une rotation de 361 degrés pour "
-"que le Soleil semble avoir parcouru 360 degrés dans le ciel."
+"cours d'une journée elle parcourt environ 1 degré le long de son orbite "
+"(360 / 365.25 = 1 degré par jour). Donc en 24 heures la direction face au "
+"Soleil change d'environ 1 degré. Résultat : la Terre doit effectuer une "
+"rotation de 361 degrés pour que le Soleil semble avoir parcouru 360 degrés "
+"dans le ciel."
 
 #. Tag: para
+#. +> trunk5
 #: sidereal.docbook:32
 #, no-c-format
 msgid ""
@@ -114,20 +125,20 @@ msgid ""
 "Therefore, one Solar Second = 1.00278 Sidereal Seconds."
 msgstr ""
 "En astronomie, on s'intéresse seulement à la durée de rotation de la Terre "
-"relativement aux étoiles <quote>fixes</quote>, et non pas au Soleil. Alors "
-"on désire une mesure du temps qui enraye la complication de l'orbite de la "
-"Terre autour du Soleil qui se charge uniquement de savoir combien de temps "
-"prend la Terre à effectuer une rotation de 360 degrés par rapport aux "
+"relativement aux étoiles <quote>fixes</quote> et non pas au Soleil. On "
+"désire alors une mesure du temps qui enraye la complication de l'orbite de "
+"la Terre autour du Soleil qui se charge uniquement de savoir combien de "
+"temps prend la Terre à effectuer une rotation de 360 degrés par rapport aux "
 "étoiles. Cette durée de rotation s'appelle une <firstterm>journée sidérale</"
-"firstterm>. En moyenne, une journée sidérale est 4 minutes plus courte "
-"qu'une journée solaire, à cause du 1 degré de rotation terrestre "
-"supplémentaire dans la journée solaire. Au lieu de définir la journée "
-"sidérale comme étant de 23 heures 56 minutes, on définit l'heure sidérale, "
-"la minute sidérale et la seconde sidérale comme étant la même fraction d'une "
-"journée que leurs homonymes solaires. Donc, 1 seconde solaire = 1,00278 "
-"secondes sidérales."
+"firstterm>. En moyenne une journée sidérale est 4 minutes plus courte qu'une "
+"journée solaire, à cause du 1 degré de rotation terrestre supplémentaire "
+"dans la journée solaire. Au lieu de définir la journée sidérale comme étant "
+"de 23 heures 56 minutes, on définit l'heure sidérale, la minute sidérale et "
+"la seconde sidérale comme étant la même fraction d'une journée que leurs "
+"homonymes solaires. Donc, 1 seconde solaire = 1,00278 secondes sidérales."
 
 #. Tag: para
+#. +> trunk5
 #: sidereal.docbook:44
 #, no-c-format
 msgid ""
@@ -150,18 +161,19 @@ msgstr ""
 "un moment donné. Le temps sidéral divise une rotation complète de la Terre "
 "en 24 heures sidérales ; de la même manière, la carte du ciel est divisée en "
 "24 heures d'<firstterm>ascension droite</firstterm>. Ce n'est pas une "
-"coïncidence ; l'heure locale sidérale (<acronym>LST</acronym>) indique "
+"coïncidence ; l'heure locale sidérale (<acronym>HLS</acronym>) indique "
 "l'ascension droite qui traverse actuellement le <link linkend=\"ai-meridian"
 "\">méridien local</link>. Donc si une étoile a une ascension droite de "
-"05h 32m 24s, elle passera votre méridien à HLS=05:32:24. En d'autres mots, "
-"la différence entre l'<acronym>AD</acronym> d'un objet et le temps LST "
+"05h 32m 24s, elle passera votre méridien à HLS = 05:32:24. En d'autres mots, "
+"la différence entre l'<acronym>AD</acronym> d'un objet et le temps HLS "
 "indique à quelle distance du méridien l'objet se trouve. Par exemple, ce "
-"même objet au temps LST = 06:32:24 (une heure sidérale plus tard), se trouve "
+"même objet au temps HLS = 06:32:24 (une heure sidérale plus tard), se trouve "
 "à une heure d'ascension droite à l'ouest de votre méridien, c'est-à-dire "
 "15 degrés. Cette distance angulaire entre l'objet et le méridien s'appelle "
 "l'<link linkend=\"ai-hourangle\">angle horaire</link> de l'objet."
 
 #. Tag: para
+#. +> trunk5
 #: sidereal.docbook:61
 #, no-c-format
 msgid ""
@@ -182,6 +194,7 @@ msgstr ""
 "sidérales sont plus courtes que les secondes HL et HU."
 
 #. Tag: para
+#. +> trunk5
 #: sidereal.docbook:69
 #, no-c-format
 msgid ""
@@ -196,7 +209,7 @@ msgstr ""
 "Pointez sur le <link linkend=\"ai-zenith\">zénith</link> en appuyant sur la "
 "touche <keycap>Z</keycap> ou sélectionnez <menuchoice><guimenu>Pointage</"
 "guimenu> <guimenuitem>Zénith</guimenuitem></menuchoice>. Le zénith est le "
-"point qui se trouve directement au-dessus de votre tête, et est un point qui "
+"point qui se trouve directement au-dessus de votre tête et est un point qui "
 "se trouve sur votre <link linkend=\"ai-meridian\">méridien local</link>. "
 "Notez l'ascension droite du zénith : elle est égale à votre heure locale "
 "sidérale."
