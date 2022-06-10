@@ -43,6 +43,9 @@ Il existe une option pour les fuzzy également (--only-fuzzy).
 Plusieurs outils existent pour vérifier les fichiers.
 
 <code>pology check_rules fichier.po</code><br/>
+
+[Doc pology](https://community.kde.org/KDE_Localization/fr/pology)
+
 <code>i18nspector -l fr fichier.po</code> (doc)[https://i18nspector.readthedocs.io/en/stable/]
 
 Comme ce sont des fichiers pris dans la branche trunk, il faut rajouter ce drapeau aux fichiers po. Un script python le fait :
@@ -101,7 +104,7 @@ Cela créera le fichier kstars.pdf.
 
 * règle pour anti- (voir https://fr.wiktionary.org/wiki/anti-#fr)
 
-
+* Points cardinaux : attention aux règles (p. ex (https://www.btb.termiumplus.gc.ca/redac-chap?lang=fra&lettr=chapsect3&info0=3.3.2)
 * Enlever tous les :
 * Pas de guillemets autour de Ekos et INDI 
 
