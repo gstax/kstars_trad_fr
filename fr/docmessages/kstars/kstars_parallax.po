@@ -1,17 +1,16 @@
 # translation of kstars_parallax.po to french
 # traduction de kstars_parallax.po en Français
 #
-# Copyright (C) 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
 # Gérard Delafond <gerard@delafond.org>, 2002, 2003.
 # Ludovic Grossard <grossard@kde.org>, 2002, 2003, 2004.
 # xavier <ktranslator31@yahoo.fr>, 2012.
-# steve <stax@ik.me>, 2022 
+# steve <stax@ik.me>, 2022
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_parallax_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-03-28 16:23+0000\n"
-"PO-Revision-Date: 2012-12-08 00:13+0100\n"
+"PO-Revision-Date: 2022-06-11 07:54+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
 "Language: fr\n"
@@ -21,42 +20,49 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: author
+#. +> trunk5
 #: parallax.docbook:3
 #, no-c-format
 msgid "<firstname>James</firstname> <surname>Lindenschmidt</surname>"
 msgstr "<firstname>James</firstname> <surname>Lindenschmidt</surname>"
 
 #. Tag: title
+#. +> trunk5
 #: parallax.docbook:7
 #, no-c-format
 msgid "<title>Parallax</title>"
 msgstr "<title>Parallaxe</title>"
 
 #. Tag: primary
+#. +> trunk5
 #: parallax.docbook:8
 #, no-c-format
 msgid "<primary>Parallax</primary>"
 msgstr "<primary>Parallaxe</primary>"
 
 #. Tag: primary
+#. +> trunk5
 #: parallax.docbook:9
 #, no-c-format
 msgid "Astronomical Unit"
 msgstr "Unité astronomique"
 
 #. Tag: see
+#. +> trunk5
 #: parallax.docbook:9 parallax.docbook:10
 #, no-c-format
 msgid "<see>Parallax</see>"
 msgstr "<see>Parallaxe</see>"
 
 #. Tag: primary
+#. +> trunk5
 #: parallax.docbook:10
 #, no-c-format
 msgid "Parsec"
 msgstr "Parsec"
 
 #. Tag: para
+#. +> trunk5
 #: parallax.docbook:11
 #, no-c-format
 msgid ""
@@ -68,7 +74,7 @@ msgid ""
 "distant object. Tilt your head to your left shoulder, and your hand will "
 "appear to shift to the right side of the distant object."
 msgstr ""
-"La <firstterm>Parallaxe</firstterm> est le changement apparent de la "
+"La <firstterm>parallaxe</firstterm> est le changement apparent de la "
 "position d'un objet observé provoqué par un changement de position de "
 "l'observateur. Par exemple, tenez votre main devant vous à longueur de bras "
 "et observez un objet à l'autre bout de la pièce derrière votre main. "
@@ -77,6 +83,7 @@ msgstr ""
 "et votre main apparaîtra à droite de l'objet distant."
 
 #. Tag: para
+#. +> trunk5
 #: parallax.docbook:21
 #, no-c-format
 msgid ""
@@ -93,22 +100,23 @@ msgid ""
 "are millions of times further away than the Sun, so the parallax effect is "
 "impossible to see with the unaided eye.</para></footnote>."
 msgstr ""
-"Du fait que la terre est en orbite autour du Soleil, nous observons le ciel "
+"Du fait que la Terre est en orbite autour du Soleil, nous observons le ciel "
 "d'une position en mouvement constant. De ce fait, nous devons nous attendre "
 "à voir un effet de <firstterm>parallaxe annuelle</firstterm> dans lequel les "
-"positions des objets proches apparaît <quote>osciller</quote> en arrière et "
-"en avant en fonction de notre position autour du Soleil. Ceci survient bien "
-"en fait, mais les distances par rapport aux étoiles les plus proches sont "
-"tellement grandes que vous devez faire des observations très soigneuses au "
-"télescope pour le détecter<footnote><para>Les anciens astronomes grecs "
+"positions des objets proches apparaissent <quote>osciller</quote> en arrière "
+"et en avant en fonction de notre position autour du Soleil. Cela survient "
+"bien en fait, mais les distances par rapport aux étoiles les plus proches "
+"sont tellement grandes que vous devez faire des observations très soigneuses "
+"au télescope pour le détecter<footnote><para>Les anciens astronomes grecs "
 "connaissaient la parallaxe ; du fait qu'ils ne pouvaient pas observer de "
 "parallaxe annuelle dans la position des étoiles, ils conclurent que la Terre "
 "ne pouvait pas être en mouvement autour du Soleil. Ce qu'il ne réalisèrent "
 "pas est que les étoiles sont des millions de fois plus loin que le Soleil, "
-"et que de ce fait, la parallaxe n'est pas visible à l'oeil nu.</para></"
+"et que de ce fait, la parallaxe n'est pas visible à l'œil nu.</para></"
 "footnote>."
 
 #. Tag: para
+#. +> trunk5
 #: parallax.docbook:36
 #, no-c-format
 msgid ""
@@ -121,10 +129,11 @@ msgstr ""
 "Les télescopes modernes permettent aux astronomes d'utiliser la parallaxe "
 "annuelle pour mesurer les distances des étoiles proches en utilisant la "
 "triangulation. L'astronome mesure avec soin la position de l'étoile à deux "
-"dates espacées de 6 mois. Plus l'étoile est proche du Soleil, plus la "
+"dates séparées de 6 mois. Plus l'étoile est proche du Soleil, plus la "
 "modification apparente de sa position sera importante."
 
 #. Tag: para
+#. +> trunk5
 #: parallax.docbook:44
 #, no-c-format
 msgid ""
@@ -150,7 +159,7 @@ msgstr ""
 "autour du Soleil ; dans cette période, sa position a changé de "
 "2 <firstterm>Unités astronomiques</firstterm> (abrégé UA ; 1 UA est la "
 "distance de la Terre au Soleil, soit environ 150 millions de kilomètres). "
-"Ceci semble être une très grande distance, mais même l'étoile la plus proche "
+"Cela semble être une très grande distance, mais même l'étoile la plus proche "
 "est à environ 40 <emphasis>trillions</emphasis> de kilomètres. De ce fait, "
 "la parallaxe annuelle est très petite, typiquement plus petite qu'un "
 "<firstterm>parsec</firstterm>, qui fait seulement 1/3600 degré. Une unité "
