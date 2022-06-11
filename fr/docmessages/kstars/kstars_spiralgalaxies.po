@@ -1,6 +1,5 @@
 # translation of kstars_spiralgalaxies.po to french
 # traduction de kstars_spiralgalaxies.po en Français
-# Copyright (C) 2003, 2004 Free Software Foundation, Inc.
 #
 # Delafond <gerard@delafond.org>, 2003, 2004.
 # Ludovic Grossard <grossard@kde.org>, 2003, 2004.
@@ -11,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kstars_spiralgalaxies_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-03-28 16:23+0000\n"
-"PO-Revision-Date: 2012-12-07 23:48+0100\n"
+"PO-Revision-Date: 2022-06-11 08:21+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
 "Language: fr\n"
@@ -21,24 +20,28 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: author
+#. +> trunk5
 #: spiralgalaxies.docbook:4
 #, no-c-format
 msgid "<firstname>Mike</firstname> <surname>Choatie</surname>"
 msgstr "<firstname>Mike</firstname> <surname>Choatie</surname>"
 
 #. Tag: title
+#. +> trunk5
 #: spiralgalaxies.docbook:10
 #, no-c-format
 msgid "<title>Spiral Galaxies</title>"
 msgstr "<title>Galaxies spirales</title>"
 
 #. Tag: primary
+#. +> trunk5
 #: spiralgalaxies.docbook:11
 #, no-c-format
 msgid "<primary>Spiral Galaxies</primary>"
 msgstr "<primary>Galaxies spirales</primary>"
 
 #. Tag: para
+#. +> trunk5
 #: spiralgalaxies.docbook:14
 #, no-c-format
 msgid ""
@@ -60,6 +63,7 @@ msgstr ""
 "plus beaux du ciel."
 
 #. Tag: para
+#. +> trunk5
 #: spiralgalaxies.docbook:24
 #, no-c-format
 msgid ""
@@ -72,17 +76,18 @@ msgid ""
 "nuclear bulge is stretched out into a line, so it literally looks like it "
 "has a <quote>bar</quote> of stars in its center."
 msgstr ""
-"Les galaxies sont classées en utilisant un <quote>diagramme de fourche de "
-"réglage</quote>. L'extrémité de la fourche classifie les <link linkend=\"ai-"
-"ellipgal\">galaxies elliptiques</link> sur une échelle depuis la plus ronde, "
-"qui est cotée E0, jusqu'à celles qui apparaissent les plus aplaties, qui "
-"sont cotées E7. Les <quote>branches</quote> de la fourche de réglage sont là "
-"ou les deux types de galaxies spirales sont classifiées : spirales normales "
-"et spirales <quote>barrées</quote>. Une spirale barrée en est une dont le "
-"noyau est étiré en une ligne, de telle manière qu'elle a une <quote>barre</"
-"quote> d'étoiles en son centre."
+"Les galaxies sont classées en utilisant le diagramme de <quote>séquence de "
+"Hubble</quote> (parfois appelé « fourchette de Hubble »). L'extrémité de la "
+"fourchette classifie les <link linkend=\"ai-ellipgal\">galaxies elliptiques</"
+"link> sur une échelle depuis la plus ronde, qui est notée E0, jusqu'à celles "
+"qui apparaissent les plus aplaties, qui sont notées E7. Les <quote>branches</"
+"quote> de la fourchette sont là où les deux types de galaxies spirales sont "
+"classifiées : spirales normales et spirales <quote>barrées</quote>. Une "
+"spirale barrée en est une dont le noyau est étiré en une ligne, de telle "
+"manière qu'elle a une <quote>barre</quote> d'étoiles en son centre."
 
 #. Tag: para
+#. +> trunk5
 #: spiralgalaxies.docbook:34
 #, no-c-format
 msgid ""
@@ -99,12 +104,13 @@ msgstr ""
 "leur <quote>renflement</quote> central, leur surface brillante et le "
 "resserrement de leurs bras. Ces caractéristiques sont en relation, de telle "
 "manière qu'une galaxie Sa a un gros renflement central, une grande surface "
-"lumineuse et des bras et des bras enroulés serrés en spirale. Une galaxie Sb "
-"a un renflement plus petit, un disque plus pâle et des bras plus relâchés, "
-"et ainsi de suite pour Sc et Sd. Les galaxies barrées utilisent le même "
-"schéma de classification, indiqués comme SBa, SBb, SBc et SBd."
+"lumineuse et des bras enroulés serrés en spirale. Une galaxie Sb a un "
+"renflement plus petit, un disque plus pâle et des bras plus relâchés, et "
+"ainsi de suite pour Sc et Sd. Les galaxies barrées utilisent le même schéma "
+"de classification, indiqués comme types SBa, SBb, SBc et SBd."
 
 #. Tag: para
+#. +> trunk5
 #: spiralgalaxies.docbook:43
 #, no-c-format
 msgid ""
@@ -120,6 +126,7 @@ msgstr ""
 "luminosité uniforme. Elles ont aussi un renflement très important."
 
 #. Tag: para
+#. +> trunk5
 #: spiralgalaxies.docbook:48
 #, no-c-format
 msgid ""
@@ -132,10 +139,11 @@ msgstr ""
 "La Voie Lactée, qui est la maison de la Terre et de toutes les étoiles de "
 "notre ciel, est une galaxie spirale, et on pense que c'est une spirale "
 "barrée. Le nom <quote>Voie Lactée</quote> se rapporte à une bande d'étoiles "
-"très pâles dans le ciel. Cette bande est le résultat de l'aspect dans un "
-"plan du disque de notre galaxie depuis notre position à l'intérieur."
+"très pâles dans le ciel. Cette bande est le résultat de l'aspect vu du plan "
+"du disque de notre galaxie depuis notre position à l'intérieur."
 
 #. Tag: para
+#. +> trunk5
 #: spiralgalaxies.docbook:54
 #, no-c-format
 msgid ""
@@ -146,15 +154,16 @@ msgid ""
 "that is where the gas and dust are most concentrated; gas and dust are the "
 "building blocks of star formation."
 msgstr ""
-"Les galaxies spirales sont des entités très dynamiques. Elles sont le lit de "
-"formation des étoiles, et contiennent beaucoup de jeunes étoiles dans leurs "
-"disques. Leur renflement central tend à être fait d'étoiles plus vieilles, "
-"et leur halo diffus est fait des plus vieilles étoiles de l'Univers. La "
-"formation des étoiles est active dans le disque car c'est l'endroit où le "
-"gaz et la poussière sont le plus concentrés ; les gaz et la poussière sont "
-"les briques élémentaires de la formation des étoiles."
+"Les galaxies spirales sont des entités très dynamiques. Elles sont le lieu "
+"de formation des étoiles, et contiennent beaucoup de jeunes étoiles dans "
+"leurs disques. Leur renflement central tend à être fait d'étoiles plus "
+"vieilles, et leur halo diffus est fait des plus vieilles étoiles de "
+"l'Univers. La formation des étoiles est active dans le disque car c'est "
+"l'endroit où le gaz et la poussière sont le plus concentrés ; les gaz et la "
+"poussière sont les briques élémentaires de la formation des étoiles."
 
 #. Tag: para
+#. +> trunk5
 #: spiralgalaxies.docbook:61
 #, no-c-format
 msgid ""
@@ -172,10 +181,11 @@ msgstr ""
 "elliptiques sont connues pour contenir ces objets exotiques ; en fait, "
 "beaucoup d'astronomes croient maintenant que <emphasis>toutes</emphasis> les "
 "grandes galaxies contiennent un trou noir supermassif en leur noyau. Notre "
-"voie lactée est connue pour héberger un trou noir dans son centre, d'une "
-"masse plusieurs millions de fois plus grande qu'une étoile."
+"voie lactée est connue pour héberger un trou noir en son centre, d'une masse "
+"plusieurs millions de fois plus grande qu'une étoile."
 
 #. Tag: para
+#. +> trunk5
 #: spiralgalaxies.docbook:73
 #, no-c-format
 msgid ""
@@ -192,48 +202,56 @@ msgstr ""
 "liste de galaxies spirales avec de belles images disponibles."
 
 #. Tag: para
+#. +> trunk5
 #: spiralgalaxies.docbook:80
 #, no-c-format
 msgid "M 64, the Black-Eye Galaxy (type Sa)"
-msgstr "M 64, la galaxie Black-Eye (type Sa)"
+msgstr "M 64, la galaxie de l'œil noir (type Sa)"
 
 #. Tag: para
+#. +> trunk5
 #: spiralgalaxies.docbook:81
 #, no-c-format
 msgid "M 31, the Andromeda Galaxy (type Sb)"
 msgstr "M 31, la galaxie d'Andromède (type Sb)"
 
 #. Tag: para
+#. +> trunk5
 #: spiralgalaxies.docbook:82
 #, no-c-format
 msgid "M 81, Bode's Galaxy (type Sb)"
 msgstr "M 81, la galaxie de Bode (type Sb)"
 
 #. Tag: para
+#. +> trunk5
 #: spiralgalaxies.docbook:83
 #, no-c-format
 msgid "M 51, the Whirlpool Galaxy (type Sc)"
-msgstr "M 51, la galaxie Whirlpool (type Sc)"
+msgstr "M 51, la galaxie du Tourbillon (type Sc)"
 
 #. Tag: para
+#. +> trunk5
 #: spiralgalaxies.docbook:84
 #, no-c-format
 msgid "NGC 300 (type Sd) [use DSS image link]"
 msgstr "NGC 300 (type Sd) [utiliser le lien d'image DSS]"
 
 #. Tag: para
+#. +> trunk5
 #: spiralgalaxies.docbook:85
 #, no-c-format
 msgid "M 83 (type SBa)"
 msgstr "M 83 (type SBa)"
 
 #. Tag: para
+#. +> trunk5
 #: spiralgalaxies.docbook:86
 #, no-c-format
 msgid "NGC 1530 (type SBb)"
 msgstr "NGC 1530 (type SBb)"
 
 #. Tag: para
+#. +> trunk5
 #: spiralgalaxies.docbook:87
 #, no-c-format
 msgid "NGC 1073 (type SBc)"
