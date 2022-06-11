@@ -1,7 +1,5 @@
 # translation of kstars_retrograde.po to Français
 # traduction de kstars_retrograde.po en Français
-# translation of kstars_retrograde.po to
-# Copyright (C) 2002, 2003, 2004, 2008, 2011 Free Software Foundation, Inc.
 #
 # Gérard Delafond <gerard@delafond.org>, 2002, 2003.
 # Ludovic Grossard <grossard@kde.org>, 2004.
@@ -13,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kstars_retrograde_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-03-28 16:23+0000\n"
-"PO-Revision-Date: 2011-01-25 15:39+0100\n"
+"PO-Revision-Date: 2022-06-11 07:59+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -23,24 +21,28 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: author
+#. +> trunk5
 #: retrograde.docbook:3
 #, no-c-format
 msgid "<firstname>John</firstname> <surname>Cirillo</surname>"
 msgstr "<firstname>John</firstname> <surname>Cirillo</surname>"
 
 #. Tag: title
+#. +> trunk5
 #: retrograde.docbook:8
 #, no-c-format
 msgid "<title>Retrograde Motion</title>"
 msgstr "<title>Mouvement rétrograde</title>"
 
 #. Tag: primary
+#. +> trunk5
 #: retrograde.docbook:9
 #, no-c-format
 msgid "<primary>Retrograde Motion</primary>"
 msgstr "<primary>Mouvement rétrograde</primary>"
 
 #. Tag: para
+#. +> trunk5
 #: retrograde.docbook:12
 #, no-c-format
 msgid ""
@@ -50,9 +52,10 @@ msgid ""
 msgstr ""
 "Le <firstterm>mouvement rétrograde</firstterm> est le mouvement orbital d'un "
 "corps dans une direction opposée à la direction normale des autres corps "
-"spaciaux au sein d'un système donné."
+"spatiaux au sein d'un système donné."
 
 #. Tag: para
+#. +> trunk5
 #: retrograde.docbook:15
 #, no-c-format
 msgid ""
@@ -71,6 +74,7 @@ msgstr ""
 "étant un mouvement rétrograde."
 
 #. Tag: para
+#. +> trunk5
 #: retrograde.docbook:22
 #, no-c-format
 msgid ""
@@ -108,6 +112,7 @@ msgstr ""
 "reprendre leur dérivation normale d'ouest en est d'une nuit sur l'autre."
 
 #. Tag: para
+#. +> trunk5
 #: retrograde.docbook:39
 #, no-c-format
 msgid ""
