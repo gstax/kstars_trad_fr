@@ -1,6 +1,5 @@
 # translation of kstars_ellipticalgalaxies.po to french
 # traduction de kstars_ellipticalgalaxies.po en Français
-# Copyright (C) 2002,2003, 2004 Free Software Foundation, Inc.
 #
 # Gérard Delafond <gerard@delafond.org>, 2002,2003.
 # Ludovic Grossard <grossard@kde.org>, 2002, 2003, 2004.
@@ -12,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kstars_ellipticalgalaxies_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-22 00:30+0000\n"
-"PO-Revision-Date: 2012-12-10 13:47+0100\n"
+"PO-Revision-Date: 2022-06-11 08:06+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
 "Language: fr\n"
@@ -22,24 +21,28 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: author
+#. +> trunk5
 #: ellipticalgalaxies.docbook:3
 #, no-c-format
 msgid "<firstname>Jasem</firstname> <surname>Mutlaq</surname>"
 msgstr "<firstname>Jasem</firstname> <surname>Mutlaq</surname>"
 
 #. Tag: title
+#. +> trunk5
 #: ellipticalgalaxies.docbook:11
 #, no-c-format
 msgid "<title>Elliptical Galaxies</title>"
 msgstr "<title>Galaxies elliptiques</title>"
 
 #. Tag: primary
+#. +> trunk5
 #: ellipticalgalaxies.docbook:12
 #, no-c-format
 msgid "<primary>Elliptical Galaxies</primary>"
 msgstr "<primary>Galaxies elliptiques</primary>"
 
 #. Tag: para
+#. +> trunk5
 #: ellipticalgalaxies.docbook:15
 #, no-c-format
 msgid ""
@@ -71,6 +74,7 @@ msgstr ""
 "Hubble sont toujours utilisés."
 
 #. Tag: para
+#. +> trunk5
 #: ellipticalgalaxies.docbook:29
 #, no-c-format
 msgid ""
@@ -81,7 +85,7 @@ msgid ""
 "merger at <ulink url=\"http://oposite.stsci.edu/pubinfo/pr/2002/11/vid/"
 "v0211d3.mpg\"> this NASA HST webpage</ulink> (warning: the file is 3.4 MB)."
 msgstr ""
-"Supposé pendant un temps être un type de galaxies simple, les elliptiques "
+"Supposées pendant un temps être un type de galaxies simple, les elliptiques "
 "sont maintenant connues comme étant des objets complexes. Une partie de "
 "cette complexité est due à leur histoire étonnante : les galaxies "
 "elliptiques sont supposées être le produit final de la fusion de deux "
@@ -91,6 +95,7 @@ msgstr ""
 "le fichier fait 3,4 Mo)."
 
 #. Tag: para
+#. +> trunk5
 #: ellipticalgalaxies.docbook:39
 #, no-c-format
 msgid ""
@@ -102,17 +107,19 @@ msgid ""
 msgstr ""
 "Les galaxies elliptiques s'étalent sur une grande plage de taille et de "
 "luminosité, des géantes elliptiques, d'une taille de centaines de milliers "
-"d'années-lumière et presque un billion de fois plus brillantes que le "
+"d'années-lumière et presque un milliard de fois plus brillantes que le "
 "Soleil, aux naines elliptiques, juste un peu plus brillantes que l'amas "
 "globulaire moyen. Elles se divisent en plusieurs groupes morphologiques :"
 
 #. Tag: term
+#. +> trunk5
 #: ellipticalgalaxies.docbook:49
 #, no-c-format
 msgid "cD galaxies:"
 msgstr "Galaxies cD :"
 
 #. Tag: para
+#. +> trunk5
 #: ellipticalgalaxies.docbook:50
 #, no-c-format
 msgid ""
@@ -126,12 +133,14 @@ msgstr ""
 "de la fusion de plusieurs galaxies."
 
 #. Tag: term
+#. +> trunk5
 #: ellipticalgalaxies.docbook:59
 #, no-c-format
 msgid "Normal Elliptical galaxies"
 msgstr "Galaxies elliptiques normales"
 
 #. Tag: para
+#. +> trunk5
 #: ellipticalgalaxies.docbook:60
 #, no-c-format
 msgid ""
@@ -144,12 +153,14 @@ msgstr ""
 "(E) et les elliptiques denses."
 
 #. Tag: term
+#. +> trunk5
 #: ellipticalgalaxies.docbook:67
 #, no-c-format
 msgid "Dwarf elliptical galaxies (dE's)"
-msgstr "Galaxies elliptiques naines (Dwarf elliptical galaxies = dE)"
+msgstr "Galaxies elliptiques naines (dE)"
 
 #. Tag: para
+#. +> trunk5
 #: ellipticalgalaxies.docbook:68
 #, no-c-format
 msgid ""
@@ -159,7 +170,7 @@ msgid ""
 "appearance. They display the same characteristic gradual decline of star "
 "density from a relatively dense core out to a diffuse periphery."
 msgstr ""
-"Ce groupe de galaxies est fondamentalement différent des galaxies "
+"Cette classe de galaxies est fondamentalement différente des galaxies "
 "elliptiques normales. Leur diamètre est d'un ordre de 1 à 10 kiloparsec, "
 "avec une luminosité de surface qui est bien plus basse que les galaxies "
 "elliptiques normales, ce qui leur donne une apparence bien plus diffuse. "
@@ -167,12 +178,14 @@ msgstr ""
 "des étoiles d'un centre relativement dense vers une périphérie diffuse."
 
 #. Tag: term
+#. +> trunk5
 #: ellipticalgalaxies.docbook:78
 #, no-c-format
 msgid "Dwarf spheroidal galaxies (dSph's)"
-msgstr "Galaxies sphéroïdes naines (Dwarf spheroidal galaxies = dSph)"
+msgstr "Galaxies sphéroïdes naines (dSph)"
 
 #. Tag: para
+#. +> trunk5
 #: ellipticalgalaxies.docbook:79
 #, no-c-format
 msgid ""
@@ -190,12 +203,14 @@ msgstr ""
 "Voie Lactée !"
 
 #. Tag: term
+#. +> trunk5
 #: ellipticalgalaxies.docbook:89
 #, no-c-format
 msgid "Blue compact dwarf galaxies (BCD's)"
-msgstr "Galaxies naines bleues denses (Blue compact dwarf galaxies = BCD)"
+msgstr "Galaxies naines bleues denses (BCD)"
 
 #. Tag: para
+#. +> trunk5
 #: ellipticalgalaxies.docbook:91
 #, no-c-format
 msgid ""
@@ -207,12 +222,13 @@ msgid ""
 msgstr ""
 "Les petites galaxies sont rarement bleues. Elles ont des couleurs "
 "photométriques de B-V = 0,0 à 0,30 mag, ce qui est typique pour des étoiles "
-"relativement jeunes de <firstterm>type spectral</firstterm> A. Ceci suggère "
+"relativement jeunes de <firstterm>type spectral</firstterm> A. Cela suggère "
 "qu'à l'intérieur des galaxies naines bleues denses, des étoiles sont "
 "actuellement en cours de formations. Ces systèmes ont aussi un abondant gaz "
 "interstellaire (contrairement aux autres galaxies elliptiques)."
 
 #. Tag: para
+#. +> trunk5
 #: ellipticalgalaxies.docbook:102
 #, no-c-format
 msgid ""
