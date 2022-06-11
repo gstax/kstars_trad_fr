@@ -1,7 +1,5 @@
 # translation of kstars_darkmatter.po to french
-# translation of kstars_darkmatter.po to
 # traduction de kstars_darkmatter.po en Français
-# Copyright (C) 2002,2003, 2004, 2007 Free Software Foundation, Inc.
 #
 # Gérard Delafond <gerard@delafond.org>, 2002,2003.
 # Ludovic Grossard <grossard@kde.org>, 2002, 2004, 2007, 2012.
@@ -13,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kstars_darkmatter_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-22 00:30+0000\n"
-"PO-Revision-Date: 2022-04-10 09:04+0200\n"
+"PO-Revision-Date: 2022-06-11 07:21+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
 "Language: fr\n"
@@ -24,24 +22,28 @@ msgstr ""
 "X-Generator: Lokalize 20.12.0\n"
 
 #. Tag: author
+#. +> trunk5
 #: darkmatter.docbook:4
 #, no-c-format
 msgid "<firstname>Jasem</firstname> <surname>Mutlaq</surname>"
 msgstr "<firstname>Jasem</firstname> <surname>Mutlaq</surname>"
 
 #. Tag: title
+#. +> trunk5
 #: darkmatter.docbook:12
 #, no-c-format
 msgid "<title>Dark Matter</title>"
 msgstr "<title>Matière sombre</title>"
 
 #. Tag: primary
+#. +> trunk5
 #: darkmatter.docbook:13
 #, no-c-format
 msgid "<primary>Dark Matter</primary>"
 msgstr "<primary>Matière sombre</primary>"
 
 #. Tag: para
+#. +> trunk5
 #: darkmatter.docbook:16
 #, no-c-format
 msgid ""
@@ -49,9 +51,10 @@ msgid ""
 "the universe is in a form of matter that cannot be seen."
 msgstr ""
 "Les scientifiques sont maintenant convaincus que 90 % de la masse de "
-"l'univers est dans une forme de matière qui ne peut être vue."
+"l'univers est une forme de matière qui ne peut être vue."
 
 #. Tag: para
+#. +> trunk5
 #: darkmatter.docbook:21
 #, no-c-format
 msgid ""
@@ -70,6 +73,7 @@ msgstr ""
 "de l'univers</quote>."
 
 #. Tag: para
+#. +> trunk5
 #: darkmatter.docbook:28
 #, no-c-format
 msgid ""
@@ -85,20 +89,21 @@ msgid ""
 "But what is exactly dark matter and how do we really know it exists, if we "
 "cannot see it?"
 msgstr ""
-"Le terme donné à cette <quote>masse manquante</quote> est de la "
-"<firstterm>matière sombre</firstterm>, et ces deux mots s'ajoutent bien à "
-"tout ce que nous savons actuellement pour ce point. Nous savons qu'il y a de "
-"la <quote>matière</quote>, car nous pouvons voir les effets de son influence "
-"gravitationnelle. Cependant, la matière n'émet pas de radiation "
-"électromagnétique du tout, donc elle est <quote>sombre</quote>. Il existe "
-"plusieurs théories pour comptabiliser la masse manquante, allant des "
-"particules subatomiques à une population de trous noirs isolés, à des moins "
-"exotiques naines blanches et brunes. Le terme <quote>masse manquante</quote> "
-"pourrait tromper, car la masse elle-même ne manque pas, seulement la "
-"lumière. Mais qu'est exactement la matière sombre et comment savons-nous "
-"vraiment qu'elle existe, si nous ne pouvons pas la voir ?"
+"Le terme donné à cette <quote>masse manquante</quote> est <firstterm>matière "
+"sombre</firstterm>, et ces deux mots résument plutôt bien nos connaissances "
+"actuelles à sujet. Nous savons qu'il y a de la <quote>matière</quote>, car "
+"nous pouvons voir les effets de son influence gravitationnelle. Cependant la "
+"matière n'émet pas de radiation électromagnétique du tout, donc elle est "
+"<quote>sombre</quote>. Il existe plusieurs théories pour comptabiliser la "
+"masse manquante, allant des particules subatomiques à une population de "
+"trous noirs isolés, à des moins exotiques naines blanches et brunes. Le "
+"terme <quote>masse manquante</quote> pourrait tromper, car ce n'est pas la "
+"masse elle-même qui manque mais seulement la lumière. Mais de quoi est "
+"composée cette matière sombre et comment savons-nous vraiment qu'elle "
+"existe, si nous ne pouvons pas la voir ?"
 
 #. Tag: para
+#. +> trunk5
 #: darkmatter.docbook:41
 #, no-c-format
 msgid ""
@@ -112,11 +117,11 @@ msgid ""
 "<firstterm>dynamical mass</firstterm> estimate was <emphasis>400 times</"
 "emphasis> larger than the estimate based on the galaxy light."
 msgstr ""
-"L'histoire commença en 1933, quand l'astronome Fritz Zwicky étudia les "
-"mouvements d'amas de galaxies lointains et massifs, spécialement l'amas de "
-"la Chevelure et l'amas de la Vierge. Zwicky a estimé la masse de chaque "
-"galaxie dans l'amas selon leur luminosité et les a ajoutées pour obtenir la "
-"masse totale de l'amas. Il a fait ensuite une seconde estimation "
+"L'histoire commença en 1933, quand l'astronome suisse Fritz Zwicky étudia "
+"les mouvements d'amas de galaxies lointains et massifs, spécialement l'amas "
+"de la Chevelure et l'amas de la Vierge. Zwicky a estimé la masse de chaque "
+"galaxie dans l'amas selon leur luminosité et en a calculé la somme pour "
+"obtenir la masse totale de l'amas. Il a fait ensuite une seconde estimation "
 "indépendante de la masse de l'amas, en fonction de la mesure de l'étalement "
 "des vitesses des galaxies individuelles dans l'amas. À sa surprise, cette "
 "deuxième <firstterm>masse dynamique</firstterm> estimée était <emphasis>400 "
@@ -124,6 +129,7 @@ msgstr ""
 "luminosité des galaxies."
 
 #. Tag: para
+#. +> trunk5
 #: darkmatter.docbook:54
 #, no-c-format
 msgid ""
@@ -142,6 +148,7 @@ msgstr ""
 "conséquences pour l'évolution et le destin de l'Univers lui-même."
 
 #. Tag: para
+#. +> trunk5
 #: darkmatter.docbook:64
 #, no-c-format
 msgid ""
@@ -160,12 +167,13 @@ msgstr ""
 "centre galactique, sur des orbites presque circulaires, presque comme les "
 "orbites des planètes d'une étoile. Comme les orbites des planètes, les "
 "étoiles avec des orbites plus grandes sont supposées avoir des vitesses "
-"orbitales plus lentes (c'est juste une application de la 3ème loi de "
-"Kepler). En fait, la 3ème loi de Kepler ne s'applique qu'aux étoiles proches "
-"du périmètre d'une galaxie spirale, car elle suppose que la masse interne à "
-"l'orbite soit constante."
+"orbitales plus lentes (c'est juste une application de la 3<superscript>ème</"
+"superscript> loi de Kepler). En fait, cette loi de Kepler ne s'applique "
+"qu'aux étoiles proches du périmètre d'une galaxie spirale, car elle suppose "
+"que la masse interne à l'orbite soit constante."
 
 #. Tag: para
+#. +> trunk5
 #: darkmatter.docbook:76
 #, no-c-format
 msgid ""
@@ -189,6 +197,7 @@ msgstr ""
 "qui continue apparemment bien au-delà des régions occupées par les étoiles."
 
 #. Tag: para
+#. +> trunk5
 #: darkmatter.docbook:88
 #, no-c-format
 msgid ""
@@ -201,7 +210,7 @@ msgid ""
 "mass in the galaxy that we are not accounting for when we add up all the "
 "parts we can see."
 msgstr ""
-"Voici une autre manière de comprendre ceci. Considérez que les étoiles "
+"Voici une autre manière d'aborder la question. Considérez que les étoiles "
 "proches de la périphérie d'une galaxie spirale, avec des vitesses orbitales "
 "typiquement observées de 200 kilomètres par seconde. Si la galaxie ne "
 "consistait qu'en matière que nous pouvons voir, ces étoiles seraient "
@@ -212,6 +221,7 @@ msgstr ""
 "pouvons voir."
 
 #. Tag: para
+#. +> trunk5
 #: darkmatter.docbook:99
 #, no-c-format
 msgid ""
@@ -225,13 +235,14 @@ msgstr ""
 "Plusieurs théories ont émergé dans la littérature pour comptabiliser la "
 "masse manquante, telles que <acronym>WIMP</acronym> (acronyme anglais pour "
 "« particules massives interagissant faiblement »), <acronym>MACHO</acronym>s "
-"((acronyme anglais « objets hypothétiques compacts et sombres »), les trous "
-"noirs primordiaux, les neutrinos massifs et autres, chacune avec ses pour et "
-"ses contre. Aucune théorie seule n'a encore été acceptée par la communauté "
-"astronomique, car nous manquons jusqu'à maintenant de moyens pour tester "
-"valablement une théorie contre une autre."
+"(acronyme anglais pour « objets hypothétiques compacts et sombres »), les "
+"trous noirs primordiaux, les neutrinos massifs et autres, chacune avec ses "
+"pour et ses contre. Aucune théorie seule n'a encore été acceptée par la "
+"communauté astronomique, car nous manquons jusqu'à maintenant de moyens pour "
+"tester valablement une théorie contre une autre."
 
 #. Tag: para
+#. +> trunk5
 #: darkmatter.docbook:108
 #, no-c-format
 msgid ""
@@ -247,8 +258,8 @@ msgstr ""
 "Vous pouvez voir les amas de galaxies que le professeur Zwicky a étudiés "
 "pour découvrir la matière sombre. Utilisez la fenêtre de &kstars; "
 "<guilabel>Trouvez un objet</guilabel> (<keycombo action=\"simul\">&Ctrl;"
-"<keycap>F</keycap></keycombo>) pour centrer sur <quote>M 87</quote> pour "
-"trouver l'amas de la Vierge et sur <quote>NGC 4884</quote> pour trouver "
+"<keycap>F</keycap></keycombo>) pour centrer sur <quote>M 87</quote> pour "
+"trouver l'amas de la Vierge et sur <quote>NGC 4884</quote> pour trouver "
 "l'amas de la Chevelure. Vous pouvez avoir à zoomer pour voir les galaxies. "
 "Notez que l'amas de la Vierge apparaît être bien plus grand dans le ciel. En "
 "réalité, la Chevelure est plus grande. Elle n'apparaît plus petite que parce "
