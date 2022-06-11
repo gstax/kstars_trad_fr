@@ -1,8 +1,5 @@
-# translation of kstars_blackbody.po to french
-# translation of kstars_blackbody.po to franch
 # translation of kstars_blackbody.po to français
 # traduction de kstars_blackbody.po en Français
-# Copyright (C) 2002,2003, 2004 Free Software Foundation, Inc.
 #
 # Gérard Delafond <gerard@delafond.org>, 2002,2003.
 # Ludovic Grossard <grossard@kde.org>, 2004, 2012.
@@ -12,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kstars_blackbody_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-03-28 16:23+0000\n"
-"PO-Revision-Date: 2012-07-19 08:13+0200\n"
+"PO-Revision-Date: 2022-06-11 06:43+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -22,30 +19,35 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: author
+#. +> trunk5
 #: blackbody.docbook:5
 #, no-c-format
 msgid "<firstname>Jasem</firstname> <surname>Mutlaq</surname>"
 msgstr "<firstname>Jasem</firstname> <surname>Mutlaq</surname>"
 
 #. Tag: title
+#. +> trunk5
 #: blackbody.docbook:13
 #, no-c-format
 msgid "<title>Blackbody Radiation</title>"
 msgstr "<title>Radiation de corps noir</title>"
 
 #. Tag: primary
+#. +> trunk5
 #: blackbody.docbook:14
 #, no-c-format
 msgid "<primary>Blackbody Radiation</primary>"
 msgstr "<primary>Radiation de corps noir</primary>"
 
 #. Tag: seealso
+#. +> trunk5
 #: blackbody.docbook:15
 #, no-c-format
 msgid "Star Colors and Temperatures"
-msgstr "Couleur des étoiles et température"
+msgstr "Couleurs et températures des étoiles"
 
 #. Tag: para
+#. +> trunk5
 #: blackbody.docbook:18
 #, no-c-format
 msgid ""
@@ -56,15 +58,16 @@ msgid ""
 "<emphasis>blackbody</emphasis>). However, if heated to a high temperature, a "
 "blackbody will begin to glow with <firstterm>thermal radiation</firstterm>."
 msgstr ""
-"Un <firstterm>Corps noir</firstterm> se réfère à un concept d'objet opaque "
-"qui émet <firstterm>des rayonnements thermiques</firstterm>. Un corps noir "
-"parfait absorbe toute la lumière entrante et n'en reflète pas du tout. À la "
+"Un <firstterm>corps noir</firstterm> se réfère à un objet opaque qui émet "
+"<firstterm>des rayonnements thermiques</firstterm>. Un corps noir parfait "
+"absorbe toute la lumière entrante et n'en reflète pas du tout. À la "
 "température de la pièce, un corps noir parfait apparaît parfaitement noir "
 "(d'où le nom de <emphasis>corps noir</emphasis>). Cependant, lorsqu'on le "
 "chauffe à haute température, un corps noir commencera à briller avec les "
 "<firstterm>radiations thermiques</firstterm>."
 
 #. Tag: para
+#. +> trunk5
 #: blackbody.docbook:29
 #, no-c-format
 msgid ""
@@ -84,6 +87,7 @@ msgstr ""
 "en utilisant des objets normaux."
 
 #. Tag: para
+#. +> trunk5
 #: blackbody.docbook:38
 #, no-c-format
 msgid ""
@@ -99,12 +103,13 @@ msgstr ""
 "Construisons une boîte faite d'un matériau conduisant la chaleur, comme le "
 "métal. La boîte doit être complètement fermée sur tous les côtés, de telle "
 "manière que l'intérieur forme une cavité qui ne reçoit pas de lumière de "
-"l'extérieur. Puis, faisons un petit trou quelque part sur la boîte. La "
+"l'extérieur. Puis, faisons un petit trou quelque part dans la boîte. La "
 "lumière sortant de ce trou ressemblera presque parfaitement à la lumière "
 "émise par un corps noir parfait pour la température de l'air qui se trouve à "
 "l'intérieur."
 
 #. Tag: para
+#. +> trunk5
 #: blackbody.docbook:49
 #, no-c-format
 msgid ""
@@ -117,17 +122,18 @@ msgid ""
 "that led to the foundation of the wonderful science of Quantum Mechanics, "
 "but that is unfortunately beyond the scope of this article."
 msgstr ""
-"Au début du 20° siècle, les scientifiques Lord Rayleigh et Max Planck (entre "
-"autres) ont étudié les rayonnements du corps noir en utilisant un tel "
-"matériel. Après beaucoup de travail, Planck a pu décrire empiriquement "
-"l'intensité de la lumière émise par un corps noir comme une fonction de la "
-"longueur d'onde. De plus, il a pu décrire comment ce spectre changeait avec "
-"la température. Le travail de Planck sur les rayonnements du corps noir est "
-"l'une des zones de la physique qui a mené à la fondation de la merveilleuse "
-"science de la mécanique quantique, mais est malheureusement au-delà du but "
-"de cet article."
+"Au début du 20<superscript>e</superscript> siècle, les scientifiques Lord "
+"Rayleigh et Max Planck (entre autres) ont étudié les rayonnements du corps "
+"noir en utilisant un tel matériel. Après beaucoup de travail, Planck a pu "
+"décrire empiriquement l'intensité de la lumière émise par un corps noir "
+"comme une fonction de la longueur d'onde. De plus, il a pu décrire comment "
+"ce spectre changeait avec la température. Le travail de Planck sur les "
+"rayonnements du corps noir est l'un des domaines de la physique qui a mené à "
+"la fondation de la merveilleuse science de la mécanique quantique, mais est "
+"malheureusement au-delà du périmètre de cet article."
 
 #. Tag: para
+#. +> trunk5
 #: blackbody.docbook:61
 #, no-c-format
 msgid ""
@@ -141,12 +147,14 @@ msgstr ""
 "bleues (voir la figure 1)."
 
 #. Tag: phrase
+#. +> trunk5
 #: blackbody.docbook:73
 #, no-c-format
 msgid "Figure 1"
 msgstr "Figure 1"
 
 #. Tag: para
+#. +> trunk5
 #: blackbody.docbook:77
 #, no-c-format
 msgid ""
@@ -154,11 +162,12 @@ msgid ""
 "and its color progressively shifts toward blue and white as it is heated "
 "further."
 msgstr ""
-"Par exemple, une barre de fer devient orange-rouge lorsqu'elle est chauffée "
-"à haute température et sa couleur se modifie progressivement vers le bleu et "
-"blanc lorsqu'elle est chauffée plus fort."
+"Par exemple une barre de fer devient orange-rouge lorsqu'elle est chauffée à "
+"haute température et sa couleur se modifie progressivement vers le bleu puis "
+"le blanc lorsqu'elle est chauffée encore davantage."
 
 #. Tag: para
+#. +> trunk5
 #: blackbody.docbook:82
 #, no-c-format
 msgid ""
@@ -166,11 +175,12 @@ msgid ""
 "blackbody temperature and the wavelength of the spectral peak with the "
 "following equation:"
 msgstr ""
-"En 1893, le physicien allemand Wilhelm Wien a quantifié la relation entre la "
+"En 1893 le physicien allemand Wilhelm Wien a quantifié la relation entre la "
 "température du corps noir et la longueur d'onde du pic spectral par "
 "l'équation suivante :"
 
 #. Tag: para
+#. +> trunk5
 #: blackbody.docbook:96
 #, no-c-format
 msgid ""
@@ -182,21 +192,23 @@ msgid ""
 msgstr ""
 "où T est la température en Kelvin. La loi de Wien (aussi connue comme loi de "
 "déplacement de Wien) dit que la longueur d'onde d'émission maximale d'un "
-"corps noir est inversement proportionnelle à sa température. Ceci signifie "
+"corps noir est inversement proportionnelle à sa température. Cela signifie "
 "que les longueurs d'onde courtes (plus haute fréquence) correspondent à des "
 "photons de plus haute énergie, ce que vous attendez d'un objet plus chaud."
 
 #. Tag: para
+#. +> trunk5
 #: blackbody.docbook:106
 #, no-c-format
 msgid ""
 "For example, the sun has an average temperature of 5800 K, so its wavelength "
 "of maximum emission is given by:"
 msgstr ""
-"Par exemple, le Soleil a une température moyenne de 5 800 K, donc sa "
-"longueur d'onde d'émission maximale est donnée par :"
+"Par exemple le Soleil a une température moyenne de 5 800 K, donc sa longueur "
+"d'onde d'émission maximale est donnée par :"
 
 #. Tag: para
+#. +> trunk5
 #: blackbody.docbook:117
 #, no-c-format
 msgid ""
@@ -206,10 +218,11 @@ msgid ""
 msgstr ""
 "Cette longueur d'onde tombe dans la région verte du spectre visible, mais "
 "les radiations continues des photons du Soleil, à la fois plus longues et "
-"plus courtes que lambda(max) font que l'œil humain perçoit la couleur du "
-"Soleil comme jaune / blanche."
+"plus courtes que &lgr;<subscript>max</subscript>  font que l'œil humain "
+"perçoit la couleur du Soleil comme jaune / blanche."
 
 #. Tag: para
+#. +> trunk5
 #: blackbody.docbook:124
 #, no-c-format
 msgid ""
@@ -221,6 +234,7 @@ msgstr ""
 "sa température T."
 
 #. Tag: para
+#. +> trunk5
 #: blackbody.docbook:137
 #, no-c-format
 msgid ""
@@ -229,13 +243,13 @@ msgid ""
 "1000 K to 2000 K) then the total energy radiated from a blackbody increase "
 "by a factor of 2<superscript>4</superscript> or 16."
 msgstr ""
-"où A est la superficie de la surface, alpha est une constante de "
-"proportionnalité et T est la température en Kelvin. Ceci posé, si nous "
-"doublons la température (par ex. 1 000 K à 2 000 K), l'énergie totale "
-"rayonnée par un corps noir augmente d'un facteur 2<superscript>4</"
-"superscript>, soit 16."
+"où A est la superficie de la surface, &agr; est une constante de "
+"proportionnalité et T est la température en Kelvin. Ainsi, si nous doublons "
+"la température (par ex. 1 000 K à 2 000 K), l'énergie totale rayonnée par un "
+"corps noir augmente d'un facteur 2<superscript>4</superscript>, soit 16."
 
 #. Tag: para
+#. +> trunk5
 #: blackbody.docbook:144
 #, no-c-format
 msgid ""
@@ -249,14 +263,12 @@ msgstr ""
 "étoile est"
 
 #. Tag: para
+#. +> trunk5
 #: blackbody.docbook:158
 #, no-c-format
 msgid ""
 "where R is the star radius in cm, and the alpha is the Stefan-Boltzman "
 "constant, which has the value:"
 msgstr ""
-"où R est le rayon de l'étoile en cm et alpha est la constante de Stefan "
+"où R est le rayon de l'étoile en cm et &agr; est la constante de Stefan "
 "Boltzman, qui a la valeur :"
-
-#~ msgid "mutlaqja@ku.edu"
-#~ msgstr "mutlaqja@ku.edu"
