@@ -1,6 +1,5 @@
 # translation of kstars_stars.po to french
 # traduction de kstars_stars.po en Français
-# Copyright (C) 2002, 2003, 2004 Free Software Foundation, Inc.
 #
 # Gérard Delafond <gerard@delafond.org>, 2002, 2003.
 # Ludovic Grossard <grossard@kde.org>, 2002, 2004, 2013.
@@ -10,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kstars_stars_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-03-28 16:23+0000\n"
-"PO-Revision-Date: 2013-02-02 07:50+0100\n"
+"PO-Revision-Date: 2022-06-12 07:46+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -20,30 +19,35 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: author
+#. +> trunk5
 #: stars.docbook:3
 #, no-c-format
 msgid "<firstname>Jason</firstname> <surname>Harris</surname>"
 msgstr "<firstname>Jason</firstname> <surname>Harris</surname>"
 
 #. Tag: title
+#. +> trunk5
 #: stars.docbook:7
 #, no-c-format
 msgid "Stars: An Introductory <acronym>FAQ</acronym>"
 msgstr "Les étoiles : une <acronym>FAQ</acronym> introductive"
 
 #. Tag: primary
+#. +> trunk5
 #: stars.docbook:8
 #, no-c-format
 msgid "Stars"
 msgstr "Étoiles"
 
 #. Tag: para
+#. +> trunk5
 #: stars.docbook:14
 #, no-c-format
 msgid "What are the stars?"
 msgstr "Que sont les étoiles ?"
 
 #. Tag: para
+#. +> trunk5
 #: stars.docbook:17
 #, no-c-format
 msgid ""
@@ -53,18 +57,20 @@ msgid ""
 "temperature reaches tens of millions of degrees Celsius."
 msgstr ""
 "Les <firstterm>étoiles</firstterm> sont de gigantesques sphères d'hydrogène "
-"faisant leur propre pesanteur. Les étoiles sont aussi des moteurs "
-"thermonucléaires ; la fusion nucléaire se fait en profondeur dans le cœur "
+"ayant leur propre gravité. Les étoiles sont aussi des moteurs "
+"thermonucléaires ; la fusion nucléaire se passe en profondeur dans le cœur "
 "des étoiles, là où la densité est extrême et où la température atteint des "
 "dizaines de millions de degrés Celsius."
 
 #. Tag: para
+#. +> trunk5
 #: stars.docbook:29
 #, no-c-format
 msgid "Is the Sun a star?"
 msgstr "Le Soleil est-il une étoile ?"
 
 #. Tag: para
+#. +> trunk5
 #: stars.docbook:32
 #, no-c-format
 msgid ""
@@ -75,16 +81,18 @@ msgid ""
 msgstr ""
 "Oui, le Soleil est une étoile. C'est la pièce dominante de notre système "
 "solaire. Comparé aux autres étoiles, notre Soleil est plutôt ordinaire. Il "
-"apparaît être bien plus grand et brillant car il est des millions de fois "
-"plus près que les autres étoiles."
+"semble bien plus grand et brillant car il est des millions de fois plus près "
+"de nous que les autres étoiles."
 
 #. Tag: para
+#. +> trunk5
 #: stars.docbook:43
 #, no-c-format
 msgid "Why do stars shine?"
 msgstr "Pourquoi les étoiles brillent-elles ?"
 
 #. Tag: para
+#. +> trunk5
 #: stars.docbook:46
 #, no-c-format
 msgid ""
@@ -94,10 +102,10 @@ msgid ""
 msgstr ""
 "La réponse courte est : les étoiles brillent parce qu'elles sont très "
 "chaudes. Ce n'est pas plus compliqué que ça. Tout objet chauffé à des "
-"milliers de degrés irradie de la lumière, exactement comme le font les "
-"étoiles."
+"milliers de degrés émet de la lumière exactement comme le font les étoiles."
 
 #. Tag: para
+#. +> trunk5
 #: stars.docbook:56
 #, no-c-format
 msgid "The obvious next question is: why are stars so hot?"
@@ -106,6 +114,7 @@ msgstr ""
 "chaudes ?"
 
 #. Tag: para
+#. +> trunk5
 #: stars.docbook:59
 #, no-c-format
 msgid ""
@@ -126,17 +135,19 @@ msgstr ""
 "température élevée, elle ne peut pas la provoquer. Une réponse plus correcte "
 "est que les étoiles sont chaudes parce qu'elles rétrécissent. Les étoiles se "
 "forment à partir de gaz diffus de nébuleuses gazeuses : lorsque le gaz se "
-"condense en étoile pour former une étoile, l'énergie potentielle "
-"gravitationnelle du matériau est libérée, d'abord en énergie cinétique, puis "
-"en chaleur lorsque la densité augmente."
+"condense pour former une étoile, l'énergie potentielle gravitationnelle de "
+"la matière est libérée, d'abord en énergie cinétique, puis en chaleur "
+"lorsque la densité augmente."
 
 #. Tag: para
+#. +> trunk5
 #: stars.docbook:76
 #, no-c-format
 msgid "Are stars all the same?"
 msgstr "Toutes les étoiles sont-elles identiques ?"
 
 #. Tag: para
+#. +> trunk5
 #: stars.docbook:79
 #, no-c-format
 msgid ""
@@ -144,12 +155,12 @@ msgid ""
 "dense gas (mostly Hydrogen), and nuclear fusion reactions are occurring at "
 "or near the centers of every star in the sky."
 msgstr ""
-"Les étoiles ont beaucoup de choses en commun : ce sont des sphères "
-"condensées de chaleur, de gaz dense (surtout de l'hydrogène) et des "
-"réactions de fusion se produisent près du centre de toutes les étoiles du "
-"ciel."
+"Les étoiles ont beaucoup de choses en commun : ce sont des sphères chaudes "
+"et denses de gaz (surtout de l'hydrogène) et des réactions de fusion se "
+"produisent près du centre de toutes les étoiles du ciel."
 
 #. Tag: para
+#. +> trunk5
 #: stars.docbook:83
 #, no-c-format
 msgid ""
@@ -161,9 +172,9 @@ msgid ""
 "mass stars. The temperature and Luminosity also depend on the "
 "<emphasis>evolutionary state</emphasis> of the star."
 msgstr ""
-"Cependant, les étoiles montrent aussi une grande diversité pour certaines de "
-"leurs propriétés. Les étoiles les plus brillantes brillent environ 100 "
-"millions de fois plus fort que les plus pâles. La plage des températures de "
+"Cependant les étoiles présentent aussi une grande diversité pour certaines "
+"de leurs propriétés. Les étoiles les plus brillantes brillent environ 100 "
+"millions de fois plus que les plus pâles. La plage des températures de "
 "surface s'étale de seulement quelques milliers de degrés à presque 50 000 "
 "degrés Celsius. Ces différences sont largement dues aux différences de "
 "masse : les étoiles massives sont à la fois plus chaudes et plus brillantes "
@@ -171,18 +182,21 @@ msgstr ""
 "de <emphasis>l'état d'évolution</emphasis> de l'étoile."
 
 #. Tag: para
+#. +> trunk5
 #: stars.docbook:99
 #, no-c-format
 msgid "What is the Main Sequence?"
-msgstr "Qu'est la séquence principale ?"
+msgstr "Qu'est-ce que la séquence principale ?"
 
 #. Tag: primary
+#. +> trunk5
 #: stars.docbook:102
 #, no-c-format
 msgid "Main sequence"
 msgstr "Séquence principale"
 
 #. Tag: para
+#. +> trunk5
 #: stars.docbook:102
 #, no-c-format
 msgid ""
@@ -193,17 +207,19 @@ msgid ""
 msgstr ""
 "La séquence principale est l'état d'évolution d'une étoile quand elle "
 "fusionne l'hydrogène en son centre. C'est la première (et la plus longue) "
-"étape de la vie d'une étoile (sans compter les phases protoétoile). Ce qui "
-"arrive à une étoile après qu'elle ait épuisé son hydrogène est traité dans "
-"un article sur l'évolution stellaire (à venir)."
+"étape de la vie d'une étoile (sans compter les phases initiales de "
+"protoétoile). Ce qui arrive à une étoile après qu'elle ait épuisé son "
+"hydrogène est traité dans un article sur l'évolution stellaire (à venir)."
 
 #. Tag: para
+#. +> trunk5
 #: stars.docbook:114
 #, no-c-format
 msgid "How long do stars last?"
-msgstr "Combien de temps dure une étoile ?"
+msgstr "Combien de temps vit une étoile ?"
 
 #. Tag: para
+#. +> trunk5
 #: stars.docbook:117
 #, no-c-format
 msgid ""
@@ -217,11 +233,11 @@ msgid ""
 "the Universe has yet been in existence."
 msgstr ""
 "La vie d'une étoile dépend beaucoup de sa masse. Les étoiles plus massives "
-"sont plus chaudes et brillent bien plus fort, faisant qu'elles consument "
-"leur combustible nucléaire bien plus vite. Les plus grandes étoiles "
-"(grossièrement 100 fois plus massives que le Soleil) tombent en panne de "
-"carburant en quelques millions d'années, alors que les plus petites "
+"sont plus chaudes et brillent bien plus intensément, faisant qu'elles "
+"consument leur combustible nucléaire bien plus vite. Les plus grandes "
+"étoiles (grossièrement 100 fois plus massives que le Soleil) tombent en "
+"panne de carburant en quelques millions d'années, alors que les plus petites "
 "(grossièrement 10 pour cent de la masse du Soleil) sont bien plus économes "
-"en combustible brilleront (quoique faiblement) pendant des "
-"<emphasis>trillions</emphasis> d'années. Notez que c'est bien plus long que "
+"en combustible et brilleront (quoique faiblement) pendant des "
+"<emphasis>milliards</emphasis> d'années. Notez que c'est bien plus long que "
 "l'âge actuel de l'Univers."
