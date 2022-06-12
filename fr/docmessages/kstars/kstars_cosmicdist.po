@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: kstars_cosmicdist_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-03-28 16:23+0000\n"
-"PO-Revision-Date: 2022-04-10 07:42+0200\n"
+"PO-Revision-Date: 2022-06-12 08:26+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
 "Language: fr\n"
@@ -17,24 +17,28 @@ msgstr ""
 "X-Generator: Lokalize 20.12.0\n"
 
 #. Tag: author
+#. +> trunk5
 #: cosmicdist.docbook:3
 #, no-c-format
 msgid "<firstname>Akarsh</firstname> <surname>Simha</surname>"
 msgstr "<firstname>Akarsh</firstname> <surname>Simha</surname>"
 
 #. Tag: title
+#. +> trunk5
 #: cosmicdist.docbook:8
 #, no-c-format
 msgid "<title>Cosmic Distance Ladder</title>"
 msgstr "<title>Échelle de distances cosmiques</title>"
 
 #. Tag: primary
+#. +> trunk5
 #: cosmicdist.docbook:9
 #, no-c-format
 msgid "<primary>Cosmic Distance Ladder</primary>"
 msgstr "<primary>Échelle de distances cosmiques</primary>"
 
 #. Tag: para
+#. +> trunk5
 #: cosmicdist.docbook:10
 #, no-c-format
 msgid ""
@@ -48,19 +52,21 @@ msgstr ""
 "L'échelle de distances cosmiques se réfère à une succession de différentes "
 "méthodes que les astronomes utilisent pour mesurer les distances aux astres "
 "dans le ciel. Quelques méthodes, comme la <link linkend=\"ai-parallax"
-"\">parallaxe</link>, fonctionne mieux uniquement pour les astres proches. "
+"\">parallaxe</link>, fonctionnent mieux uniquement pour les astres proches. "
 "D'autres méthodes, comme l'utilisation du <firstterm>décalage cosmique vers "
-"le rouge</firstterm> (redshift), fonctionne mieux pour les galaxies très "
-"éloignées. Ainsi, il y a plusieurs méthodes, chacune avec leur validité "
-"limitée et leur nom."
+"le rouge</firstterm> (redshift), fonctionnent mieux pour les galaxies très "
+"éloignées. Ainsi il y a plusieurs méthodes, chacune avec leur domaine de "
+"validité limitée et par conséquent leur nom."
 
 #. Tag: title
+#. +> trunk5
 #: cosmicdist.docbook:20
 #, no-c-format
 msgid "Direct measurements"
 msgstr "Mesures directes"
 
 #. Tag: para
+#. +> trunk5
 #: cosmicdist.docbook:21
 #, no-c-format
 msgid ""
@@ -73,10 +79,11 @@ msgstr ""
 "La base de l'échelle consiste en des astres pour lesquelles les distances "
 "peuvent être directement mesurées, comme la lune (veuillez consulter <ulink "
 "url=\"https://fr.wikipedia.org/wiki/R%C3%A9flecteur_lunaire\">Mesure de "
-"distance lunaire par laser</ulink>). La même technique, utilisant des ondes "
+"distance lunaire par laser</ulink>). La même technique utilisant des ondes "
 "radio, est appliquée pour trouver la distance à des planètes par exemple."
 
 #. Tag: para
+#. +> trunk5
 #: cosmicdist.docbook:29
 #, no-c-format
 msgid ""
@@ -87,12 +94,14 @@ msgstr ""
 "\">parallaxe</link> est possible et fournit la distance à l'étoile."
 
 #. Tag: title
+#. +> trunk5
 #: cosmicdist.docbook:37
 #, no-c-format
 msgid "Standard candles"
-msgstr "Objets lumineux standards"
+msgstr "Chandelles standards"
 
 #. Tag: para
+#. +> trunk5
 #: cosmicdist.docbook:38
 #, no-c-format
 msgid ""
@@ -102,13 +111,14 @@ msgid ""
 "bright it actually is. Distant objects appear less brighter, because their "
 "light gets spread out over a larger area."
 msgstr ""
-"Les « Objets lumineux standards » sont des objets dont l'éclat intrinsèque "
-"est bien connu. La <link linkend=\"ai-magnitude\">magnitude</link> "
-"apparente, qui est facile à mesurer, nous indique la luminosité telle "
-"qu'elle nous apparaît et non sa luminosité réelle. Les objets distants sont "
-"moins lumineux parce que leur lumière se disperse sur de grandes zones."
+"Les « chandelles standards » sont des objets dont l'éclat intrinsèque est "
+"bien connu. La <link linkend=\"ai-magnitude\">magnitude</link> apparente, "
+"qui est facile à mesurer, nous indique la luminosité telle qu'elle nous "
+"apparaît et non sa luminosité réelle. Les objets distants sont moins "
+"lumineux parce que leur lumière se disperse sur de grandes zones."
 
 #. Tag: para
+#. +> trunk5
 #: cosmicdist.docbook:45
 #, no-c-format
 msgid ""
@@ -121,83 +131,92 @@ msgid ""
 msgstr ""
 "En accord avec la <firstterm>loi du carré inverse</firstterm> pour "
 "l'intensité lumineuse, la quantité de lumière que nous recevons d'un objet "
-"diminue avec le carré de la distance. Ainsi, la distance à l'objet peut être "
-"calculée si l'intensité courante est connue (magnitude absolue : « M » ) "
-"ainsi que l'intensité observée sur terre (magnitude absolue : « m » ). Le "
+"diminue avec le carré de la distance. Ainsi la distance à l'objet peut être "
+"calculée si l'intensité courante est connue (magnitude absolue « M ») ainsi "
+"que l'intensité observée sur terre (magnitude absolue « m »). Le "
 "<firstterm>module de distance</firstterm> doit être défini comme suit :"
 
 #. Tag: para
+#. +> trunk5
 #: cosmicdist.docbook:52
 #, no-c-format
 msgid "Distance Modulus = M - m = 5 log<subscript>10</subscript> d - 5"
-msgstr "Modulo de distance = M - m = 5 log<subscript>10</subscript> d - 5"
+msgstr "Module de distance = M - m = 5 log<subscript>10</subscript> D - 5"
 
 #. Tag: para
+#. +> trunk5
 #: cosmicdist.docbook:54
 #, no-c-format
 msgid ""
 "Here 'd' is the distance measured in <link linkend=\"ai-parallax\">parsecs</"
 "link>."
 msgstr ""
-"Dans cet exemple, la distance « d » est mesurée en <link linkend=\"ai-"
+"Dans cet exemple, la distance « D » est mesurée en <link linkend=\"ai-"
 "parallax\">parsecs</link>."
 
 #. Tag: para
+#. +> trunk5
 #: cosmicdist.docbook:58
 #, no-c-format
 msgid ""
 "For these special standard candle objects, we have some other way of knowing "
 "their intrinsic brightness, and thereby can calculate their distance."
 msgstr ""
-"Pour des objets lumineux standards spéciaux, il existe certaines autres "
-"façons de calculer l'intensité intrinsèque et par conséquent de calculer "
-"leurs distances."
+"Pour des chandelles standards spéciales, il existe d'autres façons de "
+"calculer l'intensité intrinsèque et par conséquent de calculer leurs "
+"distances."
 
 #. Tag: para
+#. +> trunk5
 #: cosmicdist.docbook:63
 #, no-c-format
 msgid "Common \"standard candles\" used in astronomy are:"
 msgstr ""
-"Les objet lumineux standards les plus communs utilisés en astronomie sont : "
+"Les chandelles standards les plus communes utilisées en astronomie sont : "
 
 #. Tag: para
+#. +> trunk5
 #: cosmicdist.docbook:68
 #, no-c-format
 msgid ""
 "Cepheid Variables: A kind of periodic variable star, whose variation period "
 "is related to the luminosity"
 msgstr ""
-"Céphéide Variables : une variété d'étoiles périodiques variable, dont la "
+"Les céphéides variables : une variété d'étoiles périodiques variable dont la "
 "période de variation est liée à son intensité"
 
 #. Tag: para
+#. +> trunk5
 #: cosmicdist.docbook:71
 #, no-c-format
 msgid ""
 "RR Lyrae Variables: Another such periodic variable star with a well-known "
 "period-luminosity relationship"
 msgstr ""
-"Variables RR de la Lyre : une autre variété d'étoiles variables périodiques "
-"avec une relation parfaitement connue entre période et intensité "
+"Les variables de type RR de la Lyre : une autre variété d'étoiles variables "
+"périodiques avec une relation parfaitement connue entre période et intensité "
 
 #. Tag: para
+#. +> trunk5
 #: cosmicdist.docbook:74
 #, no-c-format
 msgid ""
 "Type-Ia supernovae: These supernovae have a very well-defined luminosity as "
 "a result of the physics that governs them and hence serve as standard-candles"
 msgstr ""
-"Supernova de type Ia : ces supernova ont une intensité parfaitement connue "
-"comme le résultat des lois de physique qui les gouvernent et qui sont "
-"utilisées comme des objets lumineux standards"
+"Les supernovas de type Ia : ces supernovas ont une intensité parfaitement "
+"connue résultant des lois de physique qui les gouvernent et qui sont "
+"utilisées comme des chandelles standards"
 
 #. Tag: title
+#. +> trunk5
 #: cosmicdist.docbook:83
 #, no-c-format
 msgid "Other methods"
 msgstr "Autres méthodes"
 
 #. Tag: para
+#. +> trunk5
 #: cosmicdist.docbook:84
 #, no-c-format
 msgid ""
@@ -214,19 +233,24 @@ msgid ""
 "redshift</firstterm>, which is the redshift of light from distance galaxies "
 "that results from the expansion of the universe."
 msgstr ""
-"Il a de nombreuses autres méthodes. Quelques-unes d'entre elles reposent sur "
-"la physique des étoiles telles que la relation entre la luminosité et la "
-"couleurs de types variables d'étoiles (cela est généralement représenté par "
-"le <firstterm>diagramme de Hertzsprung-Russel</firstterm>). Quelques-unes "
-"d'entre elles fonctionnent avec des groupes d'étoiles, telles que la "
-"<firstterm>méthode des groupes en déplacement</firstterm> et de la "
-"<firstterm>méthode de correspondance à la séquence principale</firstterm>. "
-"La <firstterm>relation de Tully-Fisher</firstterm> qui relie l'intensité "
-"d'une galaxie spirale à sa rotation, peut être utilisée pour trouver le "
-"module de distance, puisque la rotation d'une galaxie se mesure facilement "
-"en utilisant <firstterm>le décalage de l'effet Doppler</firstterm>."
+"Il existe de nombreuses autres méthodes. Quelques-unes d'entre elles "
+"reposent sur la physique des étoiles telles que la relation entre la "
+"luminosité et la couleurs de types variables d'étoiles (cela est "
+"généralement représenté par le <firstterm>diagramme de Hertzsprung-Russel</"
+"firstterm>). Quelques-unes d'entre elles fonctionnent avec des groupes "
+"d'étoiles, telles que la <firstterm>méthode des groupes en déplacement</"
+"firstterm> et de la <firstterm>méthode de correspondance à la séquence "
+"principale</firstterm>. La <firstterm>relation de Tully-Fisher</firstterm> "
+"qui relie l'intensité d'une galaxie spirale à sa rotation, peut être "
+"utilisée pour trouver le module de distance, puisque la rotation d'une "
+"galaxie se mesure facilement en utilisant <firstterm>le décalage de l'effet "
+"Doppler</firstterm>. La distance des galaxies lointaines peut être trouvées "
+"en mesurant le <firstterm>décalage cosmologique</firstterm> qui représente "
+"le redshift de la lumière provenant de galaxies lointaines résultant de "
+"l'expansion de l'Univers."
 
 #. Tag: para
+#. +> trunk5
 #: cosmicdist.docbook:100
 #, no-c-format
 msgid ""
