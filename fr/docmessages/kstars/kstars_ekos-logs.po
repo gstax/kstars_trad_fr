@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: kstars_ekos-logs_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-03-28 16:23+0000\n"
-"PO-Revision-Date: 2022-05-31 15:11+0200\n"
+"PO-Revision-Date: 2022-06-07 08:36+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -26,7 +26,7 @@ msgstr "<title>Fichiers journaux</title>"
 #: ekos-logs.docbook:4
 #, no-c-format
 msgid "Tools"
-msgstr "Tools"
+msgstr "Outils"
 
 #. Tag: secondary
 #. +> trunk5
@@ -46,15 +46,36 @@ msgstr "<tertiary>Fichiers journaux</tertiary>"
 #. +> trunk5
 #: ekos-logs.docbook:8
 #, no-c-format
-msgid "Logging is a very important tool in order to diagnose any issues with either INDI drivers or Ekos. Before submitting any support request, the log must be attached in order to help diagnose the exact issue. Depending on the exact problem, you may need to enable logging for the feature or drivers that exhibit issues. Enabling logging for everything is not recommended as it will produce too much data that would be useful to diagnose the issue and could result in missing the root cause all other. So only enable the necessary logs."
-msgstr "Les fichiers journaux sont un outil très important pour diagnostiquer les problèmes tant pour les pilotes INDI que pour Ekos. Pour toute demande d'aide, il est nécessaire de joindre les fichiers journaux à cette demande afin d'aider à diagnostiquer le problème. Selon la nature du problème, vous devrez activer la fonction journal pour la fonctionnalité ou le pilote concerné. Tout activer n'est pas recommandé puisque cela générera beaucoup de données, et que la cause du problème risque de se trouver noyée dans toute cette information. Ainsi, n'activez que les fichiers journaux qui vous semblent nécessaires."
+msgid ""
+"Logging is a very important tool in order to diagnose any issues with either "
+"INDI drivers or Ekos. Before submitting any support request, the log must be "
+"attached in order to help diagnose the exact issue. Depending on the exact "
+"problem, you may need to enable logging for the feature or drivers that "
+"exhibit issues. Enabling logging for everything is not recommended as it "
+"will produce too much data that would be useful to diagnose the issue and "
+"could result in missing the root cause all other. So only enable the "
+"necessary logs."
+msgstr ""
+"Les fichiers journaux sont un outil très important pour diagnostiquer les "
+"problèmes tant pour les pilotes INDI que pour Ekos. Pour toute demande "
+"d'aide, il est nécessaire de joindre les fichiers journaux à cette demande "
+"afin d'aider à diagnostiquer le problème. Selon la nature du problème, vous "
+"devrez activer la fonction journal pour la fonctionnalité ou le pilote "
+"concerné. Tout activer n'est pas recommandé puisque cela générera beaucoup "
+"de données, et que la cause du problème risque de se trouver noyée dans "
+"toute cette information. Ainsi, n'activez que les fichiers journaux qui vous "
+"semblent nécessaires."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-logs.docbook:11
 #, no-c-format
-msgid "The following short video explains how to use the Logging feature to submit logs."
-msgstr "La courte vidéo suivante explique comment utiliser la fonctionnalité des fichiers journaux."
+msgid ""
+"The following short video explains how to use the Logging feature to submit "
+"logs."
+msgstr ""
+"La courte vidéo suivante explique comment utiliser la fonctionnalité des "
+"fichiers journaux."
 
 #. Tag: phrase
 #. +> trunk5
