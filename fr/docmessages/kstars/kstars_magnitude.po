@@ -1,6 +1,5 @@
 # translation of kstars_magnitude.po to french
 # traduction de kstars_magnitude.po en Français
-# Copyright (C) 2002,2003, 2004, 2005, 2007 Free Software Foundation, Inc.
 #
 # Gérard Delafond <gerard@delafond.org>, 2002,2003, 2005.
 # Ludovic Grossard <grossard@kde.org>, 2002, 2003, 2004, 2005, 2007, 2012.
@@ -11,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kstars_magnitude_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-03-28 16:23+0000\n"
-"PO-Revision-Date: 2012-12-10 13:34+0100\n"
+"PO-Revision-Date: 2022-06-12 07:26+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
 "Language: fr\n"
@@ -21,24 +20,28 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: author
+#. +> trunk5
 #: magnitude.docbook:3
 #, no-c-format
 msgid "<firstname>Girish</firstname> <surname>V</surname>"
 msgstr "<firstname>Girish</firstname> <surname>V</surname>"
 
 #. Tag: title
+#. +> trunk5
 #: magnitude.docbook:7
 #, no-c-format
 msgid "<title>Magnitude Scale</title>"
 msgstr "<title>Échelle de magnitude</title>"
 
 #. Tag: primary
+#. +> trunk5
 #: magnitude.docbook:8
 #, no-c-format
 msgid "<primary>Magnitude Scale</primary>"
 msgstr "<primary>Échelle de magnitude</primary>"
 
 #. Tag: indexterm
+#. +> trunk5
 #: magnitude.docbook:8
 #, no-c-format
 msgid "<seealso>Flux</seealso> <seealso>Star Colors and Temperatures</seealso>"
@@ -47,6 +50,7 @@ msgstr ""
 "seealso>"
 
 #. Tag: para
+#. +> trunk5
 #: magnitude.docbook:12
 #, no-c-format
 msgid ""
@@ -60,13 +64,14 @@ msgid ""
 msgstr ""
 "Il y a 2 500 ans, l'astronome grec Hipparque classifia la luminosité des "
 "étoiles visibles dans le ciel sur une échelle de 1 à 6. Il qualifia les "
-"étoiles les plus brillantes du ciel de <quote>première magnitude</quote>, et "
-"les plus pâles <quote>sixième magnitude</quote>. Étonnamment, deux "
-"millénaires et demi plus tard, la classification de Hipparque est toujours "
+"étoiles les plus brillantes du ciel de <quote>première magnitude</quote> et "
+"les plus pâles de <quote>sixième magnitude</quote>. Étonnamment, deux "
+"millénaires et demi plus tard, la classification d'Hipparque est toujours "
 "largement utilisée par les astronomes, bien qu'elle ait été depuis "
 "modernisée et quantifiée."
 
 #. Tag: para
+#. +> trunk5
 #: magnitude.docbook:20
 #, no-c-format
 msgid ""
@@ -78,6 +83,7 @@ msgstr ""
 "emphasis> que les étoiles pâles."
 
 #. Tag: para
+#. +> trunk5
 #: magnitude.docbook:25
 #, no-c-format
 msgid ""
@@ -90,6 +96,7 @@ msgstr ""
 "logarithmique :"
 
 #. Tag: para
+#. +> trunk5
 #: magnitude.docbook:29
 #, no-c-format
 msgid "m = m<subscript>0</subscript> - 2.5 log (F / F<subscript>0</subscript>)"
@@ -97,6 +104,7 @@ msgstr ""
 "m = m<subscript>0</subscript> - 2.5 log (F / F<subscript>0</subscript>)"
 
 #. Tag: para
+#. +> trunk5
 #: magnitude.docbook:31
 #, no-c-format
 msgid ""
@@ -112,13 +120,14 @@ msgstr ""
 "Si vous ne comprenez pas les mathématiques, cela dit juste que la magnitude "
 "d'une étoile donnée (m) est différente d'une étoile standard (m<subscript>0</"
 "subscript>) d'un facteur 2,5 fois le logarithme de leur rapport de flux. Le "
-"facteur 2,5*log signifie que si le rapport de flux est 100, la différence "
-"est magnitude 5. Ainsi, une étoile de 6ème magnitude est 100 fois plus pâle "
-"qu'une étoile de 1ère magnitude. La raison pour laquelle la simple "
-"classification de Hipparque se traduit en une fonction relativement complexe "
+"facteur 2,5*log signifie que si le rapport de flux est 100, la différence de "
+"magnitude vaut 5. Ainsi, une étoile de magnitude 6 est 100 fois plus pâle "
+"qu'une étoile de magnitude 1. La raison pour laquelle la simple "
+"classification d'Hipparque se traduit en une fonction relativement complexe "
 "est que l'œil humain réagit de manière logarithmique à la lumière."
 
 #. Tag: para
+#. +> trunk5
 #: magnitude.docbook:40
 #, no-c-format
 msgid ""
@@ -130,14 +139,15 @@ msgid ""
 "and a measure of the flux ratio of each object to Vega."
 msgstr ""
 "Il y a plusieurs échelles de magnitude différentes en usage, chacune d'entre "
-"elles pour un but différent. La plus commune est l'échelle de magnitude "
-"apparente, qui est juste la mesure de comment les étoiles brillent (ainsi "
-"que les autres objets) pour l'œil humain. L'échelle de magnitude apparente "
-"définit l'étoile Vega comme magnitude 0,0, et assigne des magnitudes à tous "
-"les autres objets en utilisant l'équation ci-dessus, et une mesure du "
-"rapport de flux de chaque objet par rapport à Vega."
+"elles ayant un but différent. La plus commune est l'échelle de magnitude "
+"apparente, qui mesure la manière dont les étoiles brillent (ainsi que les "
+"autres objets) pour l'œil humain. L'échelle de magnitude apparente définit "
+"l'étoile Vega comme magnitude 0,0 et attribue des magnitudes à tous les "
+"autres objets en utilisant l'équation ci-dessus, et une mesure du rapport de "
+"flux de chaque objet par rapport à Vega."
 
 #. Tag: para
+#. +> trunk5
 #: magnitude.docbook:48
 #, no-c-format
 msgid ""
@@ -160,24 +170,26 @@ msgstr ""
 "magnitude apparente, c'est-à-dire apparemment de même luminosité. Vous ne "
 "pouvez pas savoir simplement en regardant si elles ont la même luminosité "
 "<emphasis>intrinsèque</emphasis> ; il est possible qu'une des deux étoiles "
-"soit bien plus brillante, mais bien plus loin. Si nous connaissions les "
-"distances aux étoiles (voyez l'article <link linkend=\"ai-parallax"
-"\">parallaxe</link>), nous pourrions en tenir compte et assigner des "
-"<firstterm>magnitudes absolues</firstterm> qui refléteraient la réalité, la "
-"luminosité intrinsèque. La magnitude absolue est définie comme la luminosité "
-"apparente que l'étoile aurait si elle était observée d'une distance de 10 "
-"parsecs (1 parsec=3,26 années-lumière, soit 3,1 x 10<superscript>18</"
-"superscript> cm). La magnitude absolue (M) peut être déterminée à partir de "
-"la magnitude apparente (m) et de la distance en parsecs (d) en utilisant la "
-"formule :"
+"soit bien plus brillante mais aussi bien plus lointaine. Si nous "
+"connaissions les distances aux étoiles (voyez l'article <link linkend=\"ai-"
+"parallax\">parallaxe</link>), nous pourrions en tenir compte et attribuer "
+"des <firstterm>magnitudes absolues</firstterm> qui refléteraient la réalité "
+"de la luminosité intrinsèque. La magnitude absolue est définie comme la "
+"luminosité apparente que l'étoile aurait si elle était observée d'une "
+"distance de 10 parsecs (1 parsec = 3,26 années-lumière, soit "
+"3,1 x 10<superscript>18</superscript> cm). La magnitude absolue (M) peut "
+"être déterminée à partir de la magnitude apparente (m) et de la distance en "
+"parsecs (d) en utilisant la formule :"
 
 #. Tag: para
+#. +> trunk5
 #: magnitude.docbook:63
 #, no-c-format
 msgid "M = m + 5 - 5 * log(d) (note that M=m when d=10)."
 msgstr "M = m + 5 - 5 * log(d) (notez que M=m quand d=10)."
 
 #. Tag: para
+#. +> trunk5
 #: magnitude.docbook:65
 #, no-c-format
 msgid ""
@@ -189,15 +201,16 @@ msgid ""
 "magnitude, which is one <emphasis>trillion</emphasis> times fainter than "
 "Vega."
 msgstr ""
-"L'échelle moderne des magnitudes n'est fait plus référence à l'œil humain, "
-"mais aux plaques photographiques et aux photomètres photoélectriques. Avec "
-"les télescopes, nous pouvons voir des objets bien plus pâles que Hipparque "
-"ne pouvait voir à l'œil nu, ainsi, l'échelle de magnitude a été étendue au-"
-"delà de 6. En fait, le télescope spatial Hubble peut voir des images "
-"d'étoiles proches d'une magnitude 30, qui est un <emphasis>trillion</"
-"emphasis> de fois plus pâle que Vega."
+"L'échelle moderne des magnitudes n'est plus fondée sur l'œil humain, mais "
+"sur les plaques photographiques et les photomètres photoélectriques. Avec "
+"les télescopes, nous pouvons voir des objets bien plus pâles qu'Hipparque ne "
+"pouvait voir à l'œil nu, ainsi, l'échelle de magnitude a été étendue au-delà "
+"de 6. Ainsi le télescope spatial Hubble peut voir des images d'étoiles "
+"proches d'une magnitude 30 qui est un <emphasis>mille milliards</emphasis> "
+"de fois plus pâle que Vega."
 
 #. Tag: para
+#. +> trunk5
 #: magnitude.docbook:73
 #, no-c-format
 msgid ""
