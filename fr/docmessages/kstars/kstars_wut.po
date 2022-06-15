@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kstars_wut_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-28 00:32+0000\n"
-"PO-Revision-Date: 2022-05-30 20:29+0200\n"
+"PO-Revision-Date: 2022-06-15 09:04+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
 "Language: fr\n"
@@ -25,7 +25,7 @@ msgstr ""
 #: wut.docbook:2
 #, no-c-format
 msgid "<title>What's up Tonight? Tool</title>"
-msgstr "<title>Outil « Dans le ciel cette nuit »</title>"
+msgstr "<title>Outil <quote>Dans le ciel cette nuit</quote></title>"
 
 #. Tag: primary
 #. +> trunk5
@@ -39,14 +39,14 @@ msgstr "Outils"
 #: wut.docbook:4
 #, no-c-format
 msgid "<secondary>What's up Tonight? Tool</secondary>"
-msgstr "<secondary>Outil « Dans le ciel cette nuit »</secondary>"
+msgstr "<secondary>Outil <quote>Dans le ciel cette nuit</quote></secondary>"
 
 #. Tag: screeninfo
 #. +> trunk5
 #: wut.docbook:8
 #, no-c-format
 msgid "The What's up Tonight Tool"
-msgstr "L'outil « Dans le ciel cette nuit »"
+msgstr "L'outil <quote>Dans le ciel cette nuit</quote>"
 
 #. Tag: phrase
 #. +> trunk5
@@ -135,7 +135,7 @@ msgid ""
 "it to Wish List by pressing the <guibutton>Center Object</guibutton> or "
 "<guibutton>Add to List</guibutton> button."
 msgstr ""
-"Par défaut, « Dans le ciel cette nuit » affichera les objets qui sont au-"
+"Par défaut, <quote>Dans le ciel cette nuit</quote> affichera les objets qui sont au-"
 "dessus de l'horizon entre le coucher du Soleil et minuit (&cad; <quote>dans "
 "la soirée</quote>). Vous pouvez choisir d'afficher les objets qui sont entre "
 "minuit et l'aube (<quote>Dans la matinée</quote>) ou entre le crépuscule et "
