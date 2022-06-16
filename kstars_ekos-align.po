@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos_align_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-22 00:30+0000\n"
+"POT-Creation-Date: 2021-07-22 10:31+0200\n"
 "PO-Revision-Date: 2022-06-10 06:24+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -67,155 +67,71 @@ msgstr "<phrase>Module d'alignement d'Ekos</phrase>"
 #. +> trunk5
 #: ekos-align.docbook:23
 #, no-c-format
-msgid ""
-"Ekos Alignment Module enables highly accurate GOTOs to within sub-arcseconds"
-" accuracy and can measure and correct polar alignment errors. This is "
-"possible thanks to the astrometry.net solver. Ekos begins by capturing an "
-"image of a star field, feeding that image to <ulink "
-"url=\"https://astrometry.net\">astrometry.net</ulink> solver, and getting "
-"the central coordinates (RA, DEC) of the image. The solver essentially "
-"performs a pattern recognition against a catalog of millions of stars. Once "
-"the coordinates are determined, the true pointing of the telescope is known."
-msgstr ""
-"Le module d'alignement d'Ekos permet des GOTO hautement précis avec une "
-"précision inférieure à la seconde d'arc et peut mesurer et corriger les "
-"erreurs d'alignement polaire. Cela est possible grâce au résolveur "
-"astrometry.net. Ekos commence par acquérir une image d'un champ d'étoile qui"
-" est ensuite transmise à <ulink "
-"url=\"https://astrometry.net\">astrometry.net</ulink> qui calculera ses "
-"coordonnées centrales (AD et DEC). Le résolveur réalise essentiellement une "
-"reconnaissance de motifs à l'aide d'un catalogue de millions d'étoiles. Une "
-"fois que ces coordonnées sont déterminées, le vrai pointage du télescope est"
-" connu."
+msgid "Ekos Alignment Module enables highly accurate GOTOs to within sub-arcseconds accuracy and can measure and correct polar alignment errors. This is possible thanks to the astrometry.net solver. Ekos begins by capturing an image of a star field, feeding that image to <ulink url=\"https://astrometry.net\">astrometry.net</ulink> solver, and getting the central coordinates (RA, DEC) of the image. The solver essentially performs a pattern recognition against a catalog of millions of stars. Once the coordinates are determined, the true pointing of the telescope is known."
+msgstr "Le module d'alignement d'Ekos permet des GOTO hautement précis avec une précision inférieure à la seconde d'arc et peut mesurer et corriger les erreurs d'alignement polaire. Cela est possible grâce au résolveur astrometry.net. Ekos commence par acquérir une image d'un champ d'étoile qui est ensuite transmise à <ulink url=\"https://astrometry.net\">astrometry.net</ulink> qui calculera ses coordonnées centrales (AD et DEC). Le résolveur réalise essentiellement une reconnaissance de motifs à l'aide d'un catalogue de millions d'étoiles. Une fois que ces coordonnées sont déterminées, le vrai pointage du télescope est connu."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:26
 #, no-c-format
-msgid ""
-"Often, there is a discrepancy between where the telescope thinks it is "
-"looking at and where it is truly pointing. The magnitude of this discrepancy"
-" can range from a few arcminutes to a couple of degrees. Ekos can then "
-"correct the discrepancy by either syncing to the new coordinates, or by "
-"slewing the mount to the desired target originally requested."
-msgstr ""
-"Il y a souvent une différence entre l'endroit où le télescope croit pointer "
-"et où il pointe vraiment. L'importance de cette différence peut varier de "
-"quelques minutes d'arc à quelques degrés. Ekos peut ensuite corriger cette "
-"différence soit en synchronisant aux nouvelles coordonnées ou en pivotant "
-"vers la cible demandée à l'origine."
+msgid "Often, there is a discrepancy between where the telescope thinks it is looking at and where it is truly pointing. The magnitude of this discrepancy can range from a few arcminutes to a couple of degrees. Ekos can then correct the discrepancy by either syncing to the new coordinates, or by slewing the mount to the desired target originally requested."
+msgstr "Il y a souvent une différence entre l'endroit où le télescope croit pointer et où il pointe vraiment. L'importance de cette différence peut varier de quelques minutes d'arc à quelques degrés. Ekos peut ensuite corriger cette différence soit en synchronisant aux nouvelles coordonnées ou en pivotant vers la cible demandée à l'origine."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:29
 #, no-c-format
-msgid ""
-"Furthermore, Ekos provides two tools to measure and correct polar alignment "
-"errors:"
-msgstr ""
-"De plus Ekos fournit deux outils pour mesurer et corriger l'alignement "
-"polaire :"
+msgid "Furthermore, Ekos provides two tools to measure and correct polar alignment errors:"
+msgstr "De plus Ekos fournit deux outils pour mesurer et corriger l'alignement polaire :"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:34
 #, no-c-format
-msgid ""
-"<guilabel>Polar Alignment Assistant Tool</guilabel>: A very easy tool to "
-"measure and correct polar errors. It takes three images near the celestial "
-"pole (Close to Polaris for Northern Hemisphere) and then calculates the "
-"offset between the mount axis and polar axis."
-msgstr ""
-"<guilabel>Outil d'assistance à l'alignement polaire</guilabel> : un outil "
-"très simple d'utilisation pour mesurer et corriger les erreurs polaires. Il "
-"prend trois images près du pôle céleste (proche de Polaris dans l'hémisphère"
-" Nord) et calcule ensuite le décalage entre l'axe de la monture et l'axe "
-"polaire. "
+msgid "<guilabel>Polar Alignment Assistant Tool</guilabel>: A very easy tool to measure and correct polar errors. It takes three images near the celestial pole (Close to Polaris for Northern Hemisphere) and then calculates the offset between the mount axis and polar axis."
+msgstr "<guilabel>Outil d'assistance à l'alignement polaire</guilabel> : un outil très simple d'utilisation pour mesurer et corriger les erreurs polaires. Il prend trois images près du pôle céleste (proche de Polaris dans l'hémisphère Nord) et calcule ensuite le décalage entre l'axe de la monture et l'axe polaire. "
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:39
 #, no-c-format
-msgid ""
-"<guilabel>Legacy Polar Alignment Tool</guilabel>: If Polaris is not visible,"
-" this tool can be used to measure and correct polar alignment errors. It "
-"captures a couple of images near the meridian and east/west of the meridian."
-" This will enable the user to adjust the mount until the misalignment is "
-"minimized."
-msgstr ""
-"<guilabel>Ancien outil d'alignement polaire</guilabel> : si Polaris n'est "
-"pas visible, cet outil peut être utilisé pour mesurer et corriger les "
-"erreurs d'alignement polaire. Il prend quelques images près du méridien et "
-"quelques autres à l'est et à l'ouest du méridien. Cela permet à "
-"l'utilisateur d'ajuster la monture jusqu'à ce que le mauvais alignement soit"
-" minimisé."
+msgid "<guilabel>Legacy Polar Alignment Tool</guilabel>: If Polaris is not visible, this tool can be used to measure and correct polar alignment errors. It captures a couple of images near the meridian and east/west of the meridian. This will enable the user to adjust the mount until the misalignment is minimized."
+msgstr "<guilabel>Ancien outil d'alignement polaire</guilabel> : si Polaris n'est pas visible, cet outil peut être utilisé pour mesurer et corriger les erreurs d'alignement polaire. Il prend quelques images près du méridien et quelques autres à l'est et à l'ouest du méridien. Cela permet à l'utilisateur d'ajuster la monture jusqu'à ce que le mauvais alignement soit minimisé."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:44
 #, no-c-format
-msgid ""
-"At a minimum, you need a CCD/Webcam and a telescope that supports Slew &amp;"
-" Sync commands. Most popular commercial telescope nowadays support such "
-"commands."
-msgstr ""
-"Vous avez besoin au minimum d'une caméra CCD ou d'une webcam et d'un "
-"télescope qui gère les commandes de pointage et de synchronisation. La "
-"plupart de télescopes trouvés dans le commerce aujourd'hui gère ces "
-"commandes."
+msgid "At a minimum, you need a CCD/Webcam and a telescope that supports Slew &amp; Sync commands. Most popular commercial telescope nowadays support such commands."
+msgstr "Vous avez besoin au minimum d'une caméra CCD ou d'une webcam et d'un télescope qui gère les commandes de pointage et de synchronisation. La plupart de télescopes trouvés dans le commerce aujourd'hui gère ces commandes."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:47
 #, no-c-format
-msgid ""
-"For the Ekos Alignment Module to work, you have an option of either "
-"utilizing the <emphasis>online</emphasis> astrometry.net solver, "
-"<emphasis>offline</emphasis>, or <emphasis>remote</emphasis> solver:"
-msgstr ""
-"Pour utiliser ce module, vous pouvez soit utiliser le résolveur "
-"astrometry.net <emphasis>en ligne</emphasis>, soit l'utiliser <emphasis>hors"
-" ligne</emphasis> ou encore <emphasis>à distance</emphasis> :"
+msgid "For the Ekos Alignment Module to work, you have an option of either utilizing the <emphasis>online</emphasis> astrometry.net solver, <emphasis>offline</emphasis>, or <emphasis>remote</emphasis> solver:"
+msgstr "Pour utiliser ce module, vous pouvez soit utiliser le résolveur astrometry.net <emphasis>en ligne</emphasis>, soit l'utiliser <emphasis>hors ligne</emphasis> ou encore <emphasis>à distance</emphasis> :"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:52
 #, no-c-format
-msgid ""
-"<guilabel>Online Solver</guilabel>: The online solver requires no "
-"configuration, and depending on your Internet bandwidth, it might take a "
-"while to upload and solve the image."
-msgstr ""
-"<guilabel>Résolveur en ligne</guilabel> : il ne nécessite aucune "
-"configuration, mais dépendant de votre bande passante, risque de prendre du "
-"temps pour téléverser les images et les résoudre."
+msgid "<guilabel>Online Solver</guilabel>: The online solver requires no configuration, and depending on your Internet bandwidth, it might take a while to upload and solve the image."
+msgstr "<guilabel>Résolveur en ligne</guilabel> : il ne nécessite aucune configuration, mais dépendant de votre bande passante, risque de prendre du temps pour téléverser les images et les résoudre."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:57
 #, no-c-format
-msgid ""
-"<guilabel>Offline Solver</guilabel>: The offline solver can be faster and "
-"requires no Internet connection. In order to use the offline solver, you "
-"must install astrometry.net in addition to the necessary index files."
-msgstr ""
-"<guilabel>Résolveur hors ligne</guilabel> : il est rapide et ne nécessite "
-"aucune connexion internet. Pour l'utiliser, vous devez installer "
-"astrometry.net ainsi que les fichiers index nécessaires."
+msgid "<guilabel>Offline Solver</guilabel>: The offline solver can be faster and requires no Internet connection. In order to use the offline solver, you must install astrometry.net in addition to the necessary index files."
+msgstr "<guilabel>Résolveur hors ligne</guilabel> : il est rapide et ne nécessite aucune connexion internet. Pour l'utiliser, vous devez installer astrometry.net ainsi que les fichiers index nécessaires."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:62
 #, no-c-format
-msgid ""
-"<guilabel>Remote Solver</guilabel>: The remote solver is an offline solver "
-"the resides on a different machine (for example, you can use Astrometry "
-"solver on StellarMate). Captured images are solved on the remote machine."
-msgstr ""
-"<guilabel>Résolveur à distance</guilabel> : c'est un résolveur hors ligne "
-"qui est installé sur une autre machine (par exemple, vous pouvez le utiliser"
-" le résolveur astrometry.net sur StellarMate). Les images sont résolues sur "
-"cette autre machine."
+msgid "<guilabel>Remote Solver</guilabel>: The remote solver is an offline solver the resides on a different machine (for example, you can use Astrometry solver on StellarMate). Captured images are solved on the remote machine."
+msgstr "<guilabel>Résolveur à distance</guilabel> : c'est un résolveur hors ligne qui est installé sur une autre machine (par exemple, vous pouvez le utiliser le résolveur astrometry.net sur StellarMate). Les images sont résolues sur cette autre machine."
 
 #. Tag: title
 #. +> trunk5
@@ -228,31 +144,15 @@ msgstr "Obtenir astrometry.net"
 #. +> trunk5
 #: ekos-align.docbook:72
 #, no-c-format
-msgid ""
-"If you are planning to use <emphasis>Offline</emphasis> astrometry then you "
-"need to download astrometry.net application."
-msgstr ""
-"Si votre idée est d'utiliser astrometry <emphasis>hors ligne</emphasis>, "
-"alors il vous faudra télécharger l'application astrometry.net."
+msgid "If you are planning to use <emphasis>Offline</emphasis> astrometry then you need to download astrometry.net application."
+msgstr "Si votre idée est d'utiliser astrometry <emphasis>hors ligne</emphasis>, alors il vous faudra télécharger l'application astrometry.net."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:76
 #, no-c-format
-msgid ""
-"Astrometry.net is already shipped with StellarMate so there is no need to "
-"install it. Index files from 16 arcminutes and above (4206 to 4019) are "
-"included with StellarMate. For any additional index files, you need to "
-"install them as necessary. To use Astrometry in StellarMate from a remote "
-"Ekos on &Linux;/&Windows;/&MacOS;, make sure to select "
-"<guimenuitem>Remote</guimenuitem> option in Ekos Alignment Module. "
-"Furthermore, make sure that the <guimenuitem>Astrometry</guimenuitem> driver"
-" is selected in your equipment profile."
-msgstr ""
-"Astrometry.net est déjà livré avec StellarMate, donc il n'est pas nécessaire"
-" de l'installer. Les fichiers d'index dès 16 minutes d'arc et au-dessus "
-"(4206 - 4019) sont inclus dans StellarMate. Tout fichier index additionnel "
-"nécessaire devra être installé séparément. "
+msgid "Astrometry.net is already shipped with StellarMate so there is no need to install it. Index files from 16 arcminutes and above (4206 to 4019) are included with StellarMate. For any additional index files, you need to install them as necessary. To use Astrometry in StellarMate from a remote Ekos on &Linux;/&Windows;/&MacOS;, make sure to select <guimenuitem>Remote</guimenuitem> option in Ekos Alignment Module. Furthermore, make sure that the <guimenuitem>Astrometry</guimenuitem> driver is selected in your equipment profile."
+msgstr "Astrometry.net est déjà livré avec StellarMate, donc il n'est pas nécessaire de l'installer. Les fichiers d'index dès 16 minutes d'arc et au-dessus (4206 - 4019) sont inclus dans StellarMate. Tout fichier index additionnel nécessaire devra être installé séparément. "
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -279,33 +179,15 @@ msgstr "&Windows;"
 #. +> trunk5
 #: ekos-align.docbook:97
 #, no-c-format
-msgid ""
-"To use astrometry.net under &Windows;, you need to download and install the "
-"<ulink url=\"https://adgsoftware.com/ansvr/\">ANSVR Local Astrometry.net "
-"solver</ulink>. The ANSVR mimics the astrometry.net online server on your "
-"local computer; thus the internet not required for any astrometry queries."
-msgstr ""
-"Pour utiliser astrometry.net sous &Windows; vous devez télécharger et "
-"installer <ulink url=\"https://adgsoftware.com/ansvr/\">le résolveur local "
-"d'astrometry.net ANSVR</ulink>. Ce résolveur simule le résolveur en ligne "
-"astrometry.net mais en local sur votre ordinateur ; ainsi, il n'est pas "
-"nécessaire d'avoir une connexion internet pour ces requêtes."
+msgid "To use astrometry.net under &Windows;, you need to download and install the <ulink url=\"https://adgsoftware.com/ansvr/\">ANSVR Local Astrometry.net solver</ulink>. The ANSVR mimics the astrometry.net online server on your local computer; thus the internet not required for any astrometry queries."
+msgstr "Pour utiliser astrometry.net sous &Windows; vous devez télécharger et installer <ulink url=\"https://adgsoftware.com/ansvr/\">le résolveur local d'astrometry.net ANSVR</ulink>. Ce résolveur simule le résolveur en ligne astrometry.net mais en local sur votre ordinateur ; ainsi, il n'est pas nécessaire d'avoir une connexion internet pour ces requêtes."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:100
 #, no-c-format
-msgid ""
-"After installing the ANSVR server and downloading the appropriate index "
-"files for your setup, make sure ANSVR server is up and running and then go "
-"to Ekos Alignment options where you can simply change the <guilabel>API "
-"URL</guilabel> to use the ANSVR server as illustrated below:"
-msgstr ""
-"Après avoir téléchargé le serveur ANSVR et installé les fichiers index "
-"appropriés pour votre configuration, assurez-vous qu'il soit lancé avant de "
-"vous rendre dans les options du module d'alignement d'Ekos où vous devez "
-"simplement modifier <guilabel>API URL</guilabel> pour utiliser le serveur "
-"ANSVR comme illustré ci-dessous :"
+msgid "After installing the ANSVR server and downloading the appropriate index files for your setup, make sure ANSVR server is up and running and then go to Ekos Alignment options where you can simply change the <guilabel>API URL</guilabel> to use the ANSVR server as illustrated below:"
+msgstr "Après avoir téléchargé le serveur ANSVR et installé les fichiers index appropriés pour votre configuration, assurez-vous qu'il soit lancé avant de vous rendre dans les options du module d'alignement d'Ekos où vous devez simplement modifier <guilabel>API URL</guilabel> pour utiliser le serveur ANSVR comme illustré ci-dessous :"
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -325,38 +207,15 @@ msgstr "<phrase>Paramètres ANSRV</phrase>"
 #. +> trunk5
 #: ekos-align.docbook:116
 #, no-c-format
-msgid ""
-"In Ekos Align module, you must set the solver type to "
-"<guimenuitem>Online</guimenuitem> so that it uses the local ANSVR server for"
-" all astrometry queries. Then you can use the align module as you would "
-"normally do."
-msgstr ""
-"Dans le module d'alignement d'Ekos, vous devez modifier le type de résolveur"
-" pour <guimenuitem>En ligne</guimenuitem> afin qu'il puisse utiliser le "
-"serveur ANSVR local pour toutes les requêtes d'astrométrie. Ensuite vous "
-"pourrez utiliser le module d'alignement comme vous le feriez habituellement."
+msgid "In Ekos Align module, you must set the solver type to <guimenuitem>Online</guimenuitem> so that it uses the local ANSVR server for all astrometry queries. Then you can use the align module as you would normally do."
+msgstr "Dans le module d'alignement d'Ekos, vous devez modifier le type de résolveur pour <guimenuitem>En ligne</guimenuitem> afin qu'il puisse utiliser le serveur ANSVR local pour toutes les requêtes d'astrométrie. Ensuite vous pourrez utiliser le module d'alignement comme vous le feriez habituellement."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:119
 #, no-c-format
-msgid ""
-"Remember as indicated above that StellarMate <emphasis>already</emphasis> "
-"includes astrometry.net. Therefore, if you would like to use StellarMate "
-"remotely to solve your images, simply change solver type to "
-"<guimenuitem>Remote</guimenuitem> and ensure that your equipment profile "
-"includes <emphasis role=\"bold\">Astrometry</emphasis> driver which can be "
-"selected under the <guilabel>Auxiliary</guilabel> dropdown. This is "
-"applicable to all operating systems and not just &Windows;."
-msgstr ""
-"Veuillez vous souvenir, comme indiqué plus haut, que StellarMate inclut "
-"<emphasis>déjà</emphasis> astrometry.net. Ainsi, si vous souhaitez utiliser "
-"StellarMate à distance, il suffit de modifier le type de résolveur à "
-"<guimenuitem>À distance</guimenuitem> et vous assurez que le profil de votre"
-" matériel inclut le pilote <emphasis role=\"bold\">Astrometry</emphasis> qui"
-" peut être sélectionné dans la liste déroulante "
-"<guilabel>Auxiliaire</guilabel>. Cela est applicable à tous les systèmes "
-"d'exploitation et non pas seulement à &Windows;."
+msgid "Remember as indicated above that StellarMate <emphasis>already</emphasis> includes astrometry.net. Therefore, if you would like to use StellarMate remotely to solve your images, simply change solver type to <guimenuitem>Remote</guimenuitem> and ensure that your equipment profile includes <emphasis role=\"bold\">Astrometry</emphasis> driver which can be selected under the <guilabel>Auxiliary</guilabel> dropdown. This is applicable to all operating systems and not just &Windows;."
+msgstr "Veuillez vous souvenir, comme indiqué plus haut, que StellarMate inclut <emphasis>déjà</emphasis> astrometry.net. Ainsi, si vous souhaitez utiliser StellarMate à distance, il suffit de modifier le type de résolveur à <guimenuitem>À distance</guimenuitem> et vous assurez que le profil de votre matériel inclut le pilote <emphasis role=\"bold\">Astrometry</emphasis> qui peut être sélectionné dans la liste déroulante <guilabel>Auxiliaire</guilabel>. Cela est applicable à tous les systèmes d'exploitation et non pas seulement à &Windows;."
 
 #. Tag: term
 #. +> trunk5
@@ -369,12 +228,8 @@ msgstr "&MacOS;"
 #. +> trunk5
 #: ekos-align.docbook:127
 #, no-c-format
-msgid ""
-"Astrometry.net is already included with &kstars; for &MacOS;, so no need to "
-"install it."
-msgstr ""
-"Astrometry.net est déjà inclut dans &kstars; pour &MacOS;, ainsi il ne faut "
-"pas l'installer."
+msgid "Astrometry.net is already included with &kstars; for &MacOS;, so no need to install it."
+msgstr "Astrometry.net est déjà inclut dans &kstars; pour &MacOS;, ainsi il ne faut pas l'installer."
 
 #. Tag: term
 #. +> trunk5
@@ -387,14 +242,8 @@ msgstr "&Linux;"
 #. +> trunk5
 #: ekos-align.docbook:135
 #, no-c-format
-msgid ""
-"Astrometry.net is already included with &kstars; bleeding version. But if "
-"astrometry is not installed, then you can install it by running the "
-"following command under &ubuntu;:"
-msgstr ""
-"Astrometry.net est déjà inclut dans la dernière version de &kstars; pour "
-"&Linux;. Mais si astrometry.net n'est pas installé, vous pouvez l'installer "
-"simplement en exécutant la commande suivante (sous Debian et dérivés) :"
+msgid "Astrometry.net is already included with &kstars; bleeding version. But if astrometry is not installed, then you can install it by running the following command under &ubuntu;:"
+msgstr "Astrometry.net est déjà inclut dans la dernière version de &kstars; pour &Linux;. Mais si astrometry.net n'est pas installé, vous pouvez l'installer simplement en exécutant la commande suivante (sous Debian et dérivés) :"
 
 #. Tag: command
 #. +> trunk5
@@ -414,21 +263,8 @@ msgstr "Téléchargement des fichiers index"
 #. +> trunk5
 #: ekos-align.docbook:148
 #, no-c-format
-msgid ""
-"For offline (and remote) solvers, index files are necessary for the solver "
-"to work. The complete collection of index files is huge (over 30 GB), but "
-"you only need to download what is necessary for your equipment setup. Index "
-"files are sorted by the Field-Of-View (FOV) range they cover. There are two "
-"methods to fetch the necessary index files: The new download support in "
-"Align module, and the old manual way."
-msgstr ""
-"Pour les résolveurs hors-ligne (et à distance), les fichiers index sont "
-"nécessaires pour que la résolution fonctionne. La collection complète de ces"
-" fichiers index est énorme (plus de 30 Go), mais vous devez que ceux qui "
-"correspondent à votre matériel. Les fichiers index sont organisés par "
-"l'intervalle de champ de vision (FOV) qu'ils couvrent. Il existe deux "
-"manières d'obtenir les fichiers d'index nécessaires : la gestion nouvelle de"
-" téléchargement dans le module d'alignement et l'ancienne manière manuelle."
+msgid "For offline (and remote) solvers, index files are necessary for the solver to work. The complete collection of index files is huge (over 30 GB), but you only need to download what is necessary for your equipment setup. Index files are sorted by the Field-Of-View (FOV) range they cover. There are two methods to fetch the necessary index files: The new download support in Align module, and the old manual way."
+msgstr "Pour les résolveurs hors-ligne (et à distance), les fichiers index sont nécessaires pour que la résolution fonctionne. La collection complète de ces fichiers index est énorme (plus de 30 Go), mais vous devez que ceux qui correspondent à votre matériel. Les fichiers index sont organisés par l'intervalle de champ de vision (FOV) qu'ils couvrent. Il existe deux manières d'obtenir les fichiers d'index nécessaires : la gestion nouvelle de téléchargement dans le module d'alignement et l'ancienne manière manuelle."
 
 #. Tag: title
 #. +> trunk5
@@ -455,33 +291,15 @@ msgstr "<phrase>Téléchargement des index astrometry.net</phrase>"
 #. +> trunk5
 #: ekos-align.docbook:166
 #, no-c-format
-msgid ""
-"Automatic download is only available for Ekos users on &Linux; &amp; "
-"&MacOS;. For &Windows; users, please download ANSVR solver."
-msgstr ""
-"Le téléchargement automatique n'est disponible pour les utilisateurs d'Ekos "
-"utilisant &Linux; et &MacOS;. Pour &Windows;, veuillez télécharger le "
-"resolveur ANSVR."
+msgid "Automatic download is only available for Ekos users on &Linux; &amp; &MacOS;. For &Windows; users, please download ANSVR solver."
+msgstr "Le téléchargement automatique n'est disponible pour les utilisateurs d'Ekos utilisant &Linux; et &MacOS;. Pour &Windows;, veuillez télécharger le resolveur ANSVR."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:169
 #, no-c-format
-msgid ""
-"To access the download page, click the <guibutton>Options</guibutton> button"
-" in the <link linkend=\"ekos-align\">Align module</link> and then select "
-"<guilabel>Astrometry Index Files</guilabel> tab. The page displays the "
-"current FOV of your current setup and below it a list of available and "
-"installed index files. Three icons are used to designate the importance of "
-"index files given your current setup as follows:"
-msgstr ""
-"Pour accéder à la page de téléchargement, cliquez sur le bouton "
-"<guibutton>Options</guibutton> dans le <link linkend=\"ekos-align\">module "
-"d'alignement</link>, puis sélectionner l'onglet <guilabel>Fichiers index "
-"Astrometry</guilabel>. La page affiche le champ de vision courant (FOV) de "
-"votre matériel ainsi qu'une liste des fichiers index disponibles et "
-"installés. Trois icônes sont utilisés pour désigner l'importance des "
-"fichiers index pour votre configuration actuelle :"
+msgid "To access the download page, click the <guibutton>Options</guibutton> button in the <link linkend=\"ekos-align\">Align module</link> and then select <guilabel>Astrometry Index Files</guilabel> tab. The page displays the current FOV of your current setup and below it a list of available and installed index files. Three icons are used to designate the importance of index files given your current setup as follows:"
+msgstr "Pour accéder à la page de téléchargement, cliquez sur le bouton <guibutton>Options</guibutton> dans le <link linkend=\"ekos-align\">module d'alignement</link>, puis sélectionner l'onglet <guilabel>Fichiers index Astrometry</guilabel>. La page affiche le champ de vision courant (FOV) de votre matériel ainsi qu'une liste des fichiers index disponibles et installés. Trois icônes sont utilisés pour désigner l'importance des fichiers index pour votre configuration actuelle :"
 
 #. Tag: guilabel
 #. +> trunk5
@@ -508,25 +326,8 @@ msgstr "Facultatif"
 #. +> trunk5
 #: ekos-align.docbook:189
 #, no-c-format
-msgid ""
-"You must download all the required files, and if you have plenty of hard "
-"drive space left, you can also download the recommended indexes. If an index"
-" file is installed, the checkmark shall be checked, otherwise check it to "
-"download the relevant index file. Please only download one file at a time, "
-"especially for larger files. You might be prompted to enter the "
-"administrator password (default in StellarMate is "
-"<userinput>smate</userinput>) to install the files. Once you installed all "
-"the required files, you can begin using the offline astrometry.net solver "
-"immediately."
-msgstr ""
-"Vous devez télécharger tous les fichiers requis et, s'il vous reste de "
-"l'espace disque, vous pouvez également installer les fichiers recommandés. "
-"Si un fichier index est installé, la case sera cochée, sinon cochez-là pour "
-"télécharger les fichiers index pertinents. Il est possible que le mot de "
-"passe de l'administrateur du système soit demandé (par défaut, il s'agit de "
-"<userinput>smate</userinput>) pour installer ces fichiers. Une fois que tous"
-" les fichiers sont téléchargés et installés, vous pourrez commencer "
-"d'utiliser le résolveur hors-ligne immédiatement."
+msgid "You must download all the required files, and if you have plenty of hard drive space left, you can also download the recommended indexes. If an index file is installed, the checkmark shall be checked, otherwise check it to download the relevant index file. Please only download one file at a time, especially for larger files. You might be prompted to enter the administrator password (default in StellarMate is <userinput>smate</userinput>) to install the files. Once you installed all the required files, you can begin using the offline astrometry.net solver immediately."
+msgstr "Vous devez télécharger tous les fichiers requis et, s'il vous reste de l'espace disque, vous pouvez également installer les fichiers recommandés. Si un fichier index est installé, la case sera cochée, sinon cochez-là pour télécharger les fichiers index pertinents. Il est possible que le mot de passe de l'administrateur du système soit demandé (par défaut, il s'agit de <userinput>smate</userinput>) pour installer ces fichiers. Une fois que tous les fichiers sont téléchargés et installés, vous pourrez commencer d'utiliser le résolveur hors-ligne immédiatement."
 
 #. Tag: title
 #. +> trunk5
@@ -539,26 +340,8 @@ msgstr "Téléchargement manuel"
 #. +> trunk5
 #: ekos-align.docbook:195
 #, no-c-format
-msgid ""
-"You need to <ulink url=\"http://data.astrometry.net\">download</ulink> and "
-"install the necessary index files suitable for your telescope+CCD field of "
-"view (FOV). You need to install index files covering 100% to 10% of your "
-"FOV. For example, if your FOV is 60 arcminutes, you need to install index "
-"files covering skymarks from 6 arcminutes (10%) to 60 arcminutes (100%). "
-"There are many online tools to calculate FOVs, such as <ulink "
-"url=\"http://starizona.com/acb/ccd/calc_pixel.aspx\">Starizona Field of View"
-" Calculator</ulink>."
-msgstr ""
-"Vous devez <ulink url=\"http://data.astrometry.net\">télécharger</ulink> et "
-"installer les fichiers index nécessaire qui conviennent pour votre matériel "
-"(champ de vision de l'ensemble télescope et CDD). Vous devez installer les "
-"fichiers index couvrant une plage allant de 10 % à 100 % de votre champ de "
-"vision. Par exemple si votre champ de vision fait 60 minutes d'arc, vous "
-"devez installer les fichiers couvrant la plage allant de 6 minutes d'arc "
-"(10 %) à 60 minutes d'arc (100 %). Il existe de nombreux outils en ligne "
-"permettant de calculer le champ de vision, par exemple <ulink "
-"url=\"https://astronomy.tools/calculators/field_of_view/\">Field of view "
-"calculator</ulink>."
+msgid "You need to <ulink url=\"http://data.astrometry.net\">download</ulink> and install the necessary index files suitable for your telescope+CCD field of view (FOV). You need to install index files covering 100% to 10% of your FOV. For example, if your FOV is 60 arcminutes, you need to install index files covering skymarks from 6 arcminutes (10%) to 60 arcminutes (100%). There are many online tools to calculate FOVs, such as <ulink url=\"http://starizona.com/acb/ccd/calc_pixel.aspx\">Starizona Field of View Calculator</ulink>."
+msgstr "Vous devez <ulink url=\"http://data.astrometry.net\">télécharger</ulink> et installer les fichiers index nécessaire qui conviennent pour votre matériel (champ de vision de l'ensemble télescope et CDD). Vous devez installer les fichiers index couvrant une plage allant de 10 % à 100 % de votre champ de vision. Par exemple si votre champ de vision fait 60 minutes d'arc, vous devez installer les fichiers couvrant la plage allant de 6 minutes d'arc (10 %) à 60 minutes d'arc (100 %). Il existe de nombreux outils en ligne permettant de calculer le champ de vision, par exemple <ulink url=\"https://astronomy.tools/calculators/field_of_view/\">Field of view calculator</ulink>."
 
 #. Tag: title
 #. +> trunk5
@@ -907,24 +690,8 @@ msgstr "2,8 - 4,0"
 #. +> trunk5
 #: ekos-align.docbook:291
 #, no-c-format
-msgid ""
-"<ulink url=\"http://data.astrometry.net/debian/astrometry-"
-"data-4201-1_0.45_all.deb\">astrometry-data-4201-1</ulink> <ulink "
-"url=\"http://data.astrometry.net/debian/astrometry-"
-"data-4201-2_0.45_all.deb\">astrometry-data-4201-2</ulink> <ulink "
-"url=\"http://data.astrometry.net/debian/astrometry-"
-"data-4201-3_0.45_all.deb\">astrometry-data-4201-3</ulink> <ulink "
-"url=\"http://data.astrometry.net/debian/astrometry-"
-"data-4201-4_0.45_all.deb\">astrometry-data-4201-4</ulink>"
-msgstr ""
-"<ulink url=\"http://data.astrometry.net/debian/astrometry-"
-"data-4201-1_0.45_all.deb\">astrometry-data-4201-1</ulink> <ulink "
-"url=\"http://data.astrometry.net/debian/astrometry-"
-"data-4201-2_0.45_all.deb\">astrometry-data-4201-2</ulink> <ulink "
-"url=\"http://data.astrometry.net/debian/astrometry-"
-"data-4201-3_0.45_all.deb\">astrometry-data-4201-3</ulink> <ulink "
-"url=\"http://data.astrometry.net/debian/astrometry-"
-"data-4201-4_0.45_all.deb\">astrometry-data-4201-4</ulink>"
+msgid "<ulink url=\"http://data.astrometry.net/debian/astrometry-data-4201-1_0.45_all.deb\">astrometry-data-4201-1</ulink> <ulink url=\"http://data.astrometry.net/debian/astrometry-data-4201-2_0.45_all.deb\">astrometry-data-4201-2</ulink> <ulink url=\"http://data.astrometry.net/debian/astrometry-data-4201-3_0.45_all.deb\">astrometry-data-4201-3</ulink> <ulink url=\"http://data.astrometry.net/debian/astrometry-data-4201-4_0.45_all.deb\">astrometry-data-4201-4</ulink>"
+msgstr "<ulink url=\"http://data.astrometry.net/debian/astrometry-data-4201-1_0.45_all.deb\">astrometry-data-4201-1</ulink> <ulink url=\"http://data.astrometry.net/debian/astrometry-data-4201-2_0.45_all.deb\">astrometry-data-4201-2</ulink> <ulink url=\"http://data.astrometry.net/debian/astrometry-data-4201-3_0.45_all.deb\">astrometry-data-4201-3</ulink> <ulink url=\"http://data.astrometry.net/debian/astrometry-data-4201-4_0.45_all.deb\">astrometry-data-4201-4</ulink>"
 
 #. Tag: entry
 #. +> trunk5
@@ -944,39 +711,15 @@ msgstr "2,0 - 2,8"
 #. +> trunk5
 #: ekos-align.docbook:296
 #, no-c-format
-msgid ""
-"<ulink url=\"http://data.astrometry.net/debian/astrometry-"
-"data-4200-1_0.45_all.deb\">astrometry-data-4200-1</ulink> <ulink "
-"url=\"http://data.astrometry.net/debian/astrometry-"
-"data-4200-2_0.45_all.deb\">astrometry-data-4200-2</ulink> <ulink "
-"url=\"http://data.astrometry.net/debian/astrometry-"
-"data-4200-3_0.45_all.deb\">astrometry-data-4200-3</ulink> <ulink "
-"url=\"http://data.astrometry.net/debian/astrometry-"
-"data-4200-4_0.45_all.deb\">astrometry-data-4200-4</ulink>"
-msgstr ""
-"<ulink url=\"http://data.astrometry.net/debian/astrometry-"
-"data-4200-1_0.45_all.deb\">astrometry-data-4200-1</ulink> <ulink "
-"url=\"http://data.astrometry.net/debian/astrometry-"
-"data-4200-2_0.45_all.deb\">astrometry-data-4200-2</ulink> <ulink "
-"url=\"http://data.astrometry.net/debian/astrometry-"
-"data-4200-3_0.45_all.deb\">astrometry-data-4200-3</ulink> <ulink "
-"url=\"http://data.astrometry.net/debian/astrometry-"
-"data-4200-4_0.45_all.deb\">astrometry-data-4200-4</ulink>"
+msgid "<ulink url=\"http://data.astrometry.net/debian/astrometry-data-4200-1_0.45_all.deb\">astrometry-data-4200-1</ulink> <ulink url=\"http://data.astrometry.net/debian/astrometry-data-4200-2_0.45_all.deb\">astrometry-data-4200-2</ulink> <ulink url=\"http://data.astrometry.net/debian/astrometry-data-4200-3_0.45_all.deb\">astrometry-data-4200-3</ulink> <ulink url=\"http://data.astrometry.net/debian/astrometry-data-4200-4_0.45_all.deb\">astrometry-data-4200-4</ulink>"
+msgstr "<ulink url=\"http://data.astrometry.net/debian/astrometry-data-4200-1_0.45_all.deb\">astrometry-data-4200-1</ulink> <ulink url=\"http://data.astrometry.net/debian/astrometry-data-4200-2_0.45_all.deb\">astrometry-data-4200-2</ulink> <ulink url=\"http://data.astrometry.net/debian/astrometry-data-4200-3_0.45_all.deb\">astrometry-data-4200-3</ulink> <ulink url=\"http://data.astrometry.net/debian/astrometry-data-4200-4_0.45_all.deb\">astrometry-data-4200-4</ulink>"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:301
 #, no-c-format
-msgid ""
-"The Debian packages are suitable for any Debian-based distribution (Ubuntu, "
-"Mint, &etc;). If you downloaded the Debian Packages above for your FOV "
-"range, you can install them from your favorite package manager, or via the "
-"following command:"
-msgstr ""
-"Les paquets Debian conviennent à toute distribution basée sur Debian "
-"(Ubuntu, Mint, &etc;). Si vous avez téléchargé les paquets Debian couvrant "
-"votre champ de vision, vous pouvez les installer avec votre gestionnaire de "
-"paquets favori ou en exécutant la commande suivante :"
+msgid "The Debian packages are suitable for any Debian-based distribution (Ubuntu, Mint, &etc;). If you downloaded the Debian Packages above for your FOV range, you can install them from your favorite package manager, or via the following command:"
+msgstr "Les paquets Debian conviennent à toute distribution basée sur Debian (Ubuntu, Mint, &etc;). Si vous avez téléchargé les paquets Debian couvrant votre champ de vision, vous pouvez les installer avec votre gestionnaire de paquets favori ou en exécutant la commande suivante :"
 
 #. Tag: command
 #. +> trunk5
@@ -989,31 +732,15 @@ msgstr "sudo dpkg -i astrometry-data-*.deb"
 #. +> trunk5
 #: ekos-align.docbook:307
 #, no-c-format
-msgid ""
-"On the other hand, if you downloaded the FITS index files directly, copy "
-"them to <filename role=\"directory\">/usr/share/astrometry</filename> "
-"directory."
-msgstr ""
-"Mais si vous avez téléchargé les fichiers index FITS directement, il vous "
-"faudra les copier dans le répertoire <filename "
-"role=\"directory\">/usr/share/astrometry/</filename>."
+msgid "On the other hand, if you downloaded the FITS index files directly, copy them to <filename role=\"directory\">/usr/share/astrometry</filename> directory."
+msgstr "Mais si vous avez téléchargé les fichiers index FITS directement, il vous faudra les copier dans le répertoire <filename role=\"directory\">/usr/share/astrometry/</filename>."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:311
 #, no-c-format
-msgid ""
-"It is recommended to use a download manager as such <ulink "
-"url=\"https://addons.mozilla.org/en-"
-"US/firefox/addon/downthemall/\">DownThemAll!</ulink> for &firefox; to "
-"download the Debian packages as browsers' built-in download manager may have"
-" problems with download large packages."
-msgstr ""
-"Il est recommandé d'utiliser un gestionnaire de téléchargement comme <ulink "
-"url=\"https://addons.mozilla.org/fr/firefox/addon/downthemall/\">DownThemAll!</ulink>"
-" pour &firefox; pour télécharger les paquets Debian puisqu'il arrive que "
-"certains gestionnaire de téléchargement de navigateurs rencontrent parfois "
-"des problèmes à télécharger de gros fichiers."
+msgid "It is recommended to use a download manager as such <ulink url=\"https://addons.mozilla.org/en-US/firefox/addon/downthemall/\">DownThemAll!</ulink> for &firefox; to download the Debian packages as browsers' built-in download manager may have problems with download large packages."
+msgstr "Il est recommandé d'utiliser un gestionnaire de téléchargement comme <ulink url=\"https://addons.mozilla.org/fr/firefox/addon/downthemall/\">DownThemAll!</ulink> pour &firefox; pour télécharger les paquets Debian puisqu'il arrive que certains gestionnaire de téléchargement de navigateurs rencontrent parfois des problèmes à télécharger de gros fichiers."
 
 #. Tag: title
 #. +> trunk5
@@ -1026,110 +753,43 @@ msgstr "Comment les utiliser ?"
 #. +> trunk5
 #: ekos-align.docbook:320
 #, no-c-format
-msgid ""
-"Ekos Align Module offers multiple functions to aid you in achieving accurate"
-" GOTOs. Start with your mount in home position with the telescope tube "
-"looking directly at the celestial pole. For users in Northern Hemisphere, "
-"point the telescope as close as possible to Polaris. It is not necessary to "
-"perform 2 or 3 star alignments, but it can be useful for some mount types. "
-"Make sure your camera is focused and stars are resolved."
-msgstr ""
-"Le module d'alignement d'Ekos propose de multiples fonctions pour vous aider"
-" à réaliser des pointages GOTO précis. Commencez avec votre monture en "
-"position parquée (home position), c'est à dire pointant directement vers le "
-"pôle céleste. Pour les utilisateurs de l'hémisphère Nord, pointez le "
-"télescope aussi près que possible vers l'étoile polaire Polaris. Il n'est "
-"pas nécessaire de faire un alignement sur deux ou trois étoiles bien que ça "
-"peut être utile pour certains types de montures. Assurez-vous que la mise au"
-" point de votre caméra soit réalisée et que les étoiles soient bien "
-"résolues."
+msgid "Ekos Align Module offers multiple functions to aid you in achieving accurate GOTOs. Start with your mount in home position with the telescope tube looking directly at the celestial pole. For users in Northern Hemisphere, point the telescope as close as possible to Polaris. It is not necessary to perform 2 or 3 star alignments, but it can be useful for some mount types. Make sure your camera is focused and stars are resolved."
+msgstr "Le module d'alignement d'Ekos propose de multiples fonctions pour vous aider à réaliser des pointages GOTO précis. Commencez avec votre monture en position parquée (home position), c'est à dire pointant directement vers le pôle céleste. Pour les utilisateurs de l'hémisphère Nord, pointez le télescope aussi près que possible vers l'étoile polaire Polaris. Il n'est pas nécessaire de faire un alignement sur deux ou trois étoiles bien que ça peut être utile pour certains types de montures. Assurez-vous que la mise au point de votre caméra soit réalisée et que les étoiles soient bien résolues."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:325
 #, no-c-format
-msgid ""
-"<guilabel>Capture &amp; Solve</guilabel>: Capture an image and determine "
-"what region in the sky the telescope is exactly looking at. The astrometry "
-"results include the equatorial coordinates (RA &amp; DEC) of the center of "
-"the captured image in addition to pixel scale and field rotation. Depending "
-"on the Solver Action settings, the results can be used to Sync the mount or "
-"Sync and then Slew to the target location. For example, suppose you slewed "
-"the mount to Vega then used <emphasis>Capture &amp; Solve</emphasis>. If the"
-" actual telescope location is different from Vega, it will be first synced "
-"to the solved coordinate and then Ekos shall command the mount to slew to "
-"Vega. After slew is complete, the Alignment module will repeat Capture &amp;"
-" Solve process again until the error between reported and actual position "
-"falls below the accuracy thresholds (30 arcseconds by default)."
-msgstr ""
-"<guilabel>Acquisition &amp; pointage</guilabel> : commencer par acquérir une"
-" image et déterminez la région du ciel où le télescope est en train de "
-"pointer. Les résultats de l'astrométrie incluent les coordonnées "
-"équatoriales (AD &amp; DEC) du centre de l'image, ainsi que l'échelle de "
-"pixel et la rotation du champ. Selon les réglages des actions du résolveur, "
-"les résultats peuvent être utilisés pour synchroniser la monture ou "
-"synchroniser et ensuite pointer vers l'endroit de la cible. Par exemple, "
-"supposons que vous avez pointé la monture vers Vega et qu'ensuite vous avez "
-"utilisé la fonction <emphasis>Acquisition &amp; Résoudre</emphasis>. Si la "
-"position actuelle du télescope est différente de Vega, alors il commencera "
-"par se synchroniser aux coordonnées résolues et ensuite Ekos donnera l'ordre"
-" à la monture de pointer vers Vega. Après que la rotation soit terminée, le "
-"module d'alignement relancera le processus d'<emphasis>Acquisition &amp; "
-"Résoudre</emphasis> jusqu'à ce que l'erreur entre la position rapportée et "
-"la position actuelle soit plus faible que le seuil de précision "
-"préalablement défini (par défaut 30 secondes d'arc). "
+msgid "<guilabel>Capture &amp; Solve</guilabel>: Capture an image and determine what region in the sky the telescope is exactly looking at. The astrometry results include the equatorial coordinates (RA &amp; DEC) of the center of the captured image in addition to pixel scale and field rotation. Depending on the Solver Action settings, the results can be used to Sync the mount or Sync and then Slew to the target location. For example, suppose you slewed the mount to Vega then used <emphasis>Capture &amp; Solve</emphasis>. If the actual telescope location is different from Vega, it will be first synced to the solved coordinate and then Ekos shall command the mount to slew to Vega. After slew is complete, the Alignment module will repeat Capture &amp; Solve process again until the error between reported and actual position falls below the accuracy thresholds (30 arcseconds by default)."
+msgstr "<guilabel>Acquisition &amp; pointage</guilabel> : commencer par acquérir une image et déterminez la région du ciel où le télescope est en train de pointer. Les résultats de l'astrométrie incluent les coordonnées équatoriales (AD &amp; DEC) du centre de l'image, ainsi que l'échelle de pixel et la rotation du champ. Selon les réglages des actions du résolveur, les résultats peuvent être utilisés pour synchroniser la monture ou synchroniser et ensuite pointer vers l'endroit de la cible. Par exemple, supposons que vous avez pointé la monture vers Vega et qu'ensuite vous avez utilisé la fonction <emphasis>Acquisition &amp; Résoudre</emphasis>. Si la position actuelle du télescope est différente de Vega, alors il commencera par se synchroniser aux coordonnées résolues et ensuite Ekos donnera l'ordre à la monture de pointer vers Vega. Après que la rotation soit terminée, le module d'alignement relancera le processus d'<emphasis>Acquisition &amp; Résoudre</emphasis> jusqu'à ce que l'erreur entre la position rapportée et la position actuelle soit plus faible que le seuil de précision préalablement défini (par défaut 30 secondes d'arc). "
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:330
 #, no-c-format
-msgid ""
-"<guilabel>Load &amp; Slew</guilabel>: Load a FITS or JPEG file, solve it, "
-"and then slew to it."
-msgstr ""
-"<guilabel>Charger &amp; Pivoter</guilabel> : charger une image FITS ou JPEG,"
-" la résoudre et ensuite pivoter."
+msgid "<guilabel>Load &amp; Slew</guilabel>: Load a FITS or JPEG file, solve it, and then slew to it."
+msgstr "<guilabel>Charger &amp; Pivoter</guilabel> : charger une image FITS ou JPEG, la résoudre et ensuite pivoter."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:335
 #, no-c-format
-msgid ""
-"<guilabel>Polar Alignment Assistant</guilabel>: A simple tool to aid in "
-"polar alignment of German Equatorial Mounts."
-msgstr ""
-"<guilabel>Assistant d'alignement polaire</guilabel> : un outil simple d'aide"
-" à l'alignement polaire pour les montures équatoriales allemandes."
+msgid "<guilabel>Polar Alignment Assistant</guilabel>: A simple tool to aid in polar alignment of German Equatorial Mounts."
+msgstr "<guilabel>Assistant d'alignement polaire</guilabel> : un outil simple d'aide à l'alignement polaire pour les montures équatoriales allemandes."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:340
 #, no-c-format
-msgid ""
-"<guilabel>Legacy Polar Alignment Tool</guilabel>: Measure polar alignment "
-"error when a view of the celestial pole (&eg; Polaris for Northern "
-"Hemisphere) is not available."
-msgstr ""
-"<guilabel>Ancien outil d'alignement polaire</guilabel> : permet de mesurer "
-"les erreurs d'alignement polaire pour les situations où la vue d'un pôle "
-"céleste (&eg; Polaris pour l'hémisphère Nord) n'est pas possible."
+msgid "<guilabel>Legacy Polar Alignment Tool</guilabel>: Measure polar alignment error when a view of the celestial pole (&eg; Polaris for Northern Hemisphere) is not available."
+msgstr "<guilabel>Ancien outil d'alignement polaire</guilabel> : permet de mesurer les erreurs d'alignement polaire pour les situations où la vue d'un pôle céleste (&eg; Polaris pour l'hémisphère Nord) n'est pas possible."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:346
 #, no-c-format
-msgid ""
-"<emphasis role=\"bold\">Never</emphasis> solve an image at or near the "
-"celestial pole (unless Ekos Polar Alignment Assistant Tool is used). Slew at"
-" least 20 degrees away from the celestial pole before solving the first "
-"image. Solving very close to the poles will make your mount pointing worse "
-"so avoid it."
-msgstr ""
-"Ne <emphasis role=\"bold\">Jamais</emphasis> résoudre une image proche du "
-"pôle céleste (sauf quand l'outil d'assistance à l'alignement polaire est "
-"utilisé). Pivoter à au moins 20 degrés du pôle céleste avant de commencer à "
-"résoudre la première image. Une résolution trop proche des pôles péjore le "
-"pointage de la monture, alors évitez-là."
+msgid "<emphasis role=\"bold\">Never</emphasis> solve an image at or near the celestial pole (unless Ekos Polar Alignment Assistant Tool is used). Slew at least 20 degrees away from the celestial pole before solving the first image. Solving very close to the poles will make your mount pointing worse so avoid it."
+msgstr "Ne <emphasis role=\"bold\">Jamais</emphasis> résoudre une image proche du pôle céleste (sauf quand l'outil d'assistance à l'alignement polaire est utilisé). Pivoter à au moins 20 degrés du pôle céleste avant de commencer à résoudre la première image. Une résolution trop proche des pôles péjore le pointage de la monture, alors évitez-là."
 
 #. Tag: title
 #. +> trunk5
@@ -1156,14 +816,8 @@ msgstr "<phrase>Réglages astrometry.net</phrase>"
 #. +> trunk5
 #: ekos-align.docbook:367
 #, no-c-format
-msgid ""
-"Before you begin the alignment process, select the desired CCD &amp; "
-"Telescope. You can explore astrometry.net options that are passed to the "
-"astrometry.net solver each time an image is captured:"
-msgstr ""
-"Avant de démarrer la procédure d'alignement polaire, il faut sélectionner le"
-" télescope et le CCD. Vous pouvez explorer les options d'astrometry.net qui "
-"sont passées au résolveur à chaque acquisition d'image :"
+msgid "Before you begin the alignment process, select the desired CCD &amp; Telescope. You can explore astrometry.net options that are passed to the astrometry.net solver each time an image is captured:"
+msgstr "Avant de démarrer la procédure d'alignement polaire, il faut sélectionner le télescope et le CCD. Vous pouvez explorer les options d'astrometry.net qui sont passées au résolveur à chaque acquisition d'image :"
 
 #. Tag: para
 #. +> trunk5
@@ -1183,91 +837,50 @@ msgstr "<guilabel>Exposition</guilabel> : durée d'exposition en secondes."
 #. +> trunk5
 #: ekos-align.docbook:382
 #, no-c-format
-msgid ""
-"<guilabel>Accuracy</guilabel>: Acceptable difference between reported "
-"telescope coordinate and actually solved coordinate."
-msgstr ""
-"<guilabel>Précision</guilabel> : différence acceptable entre les coordonnées"
-" rapportées du télescope et les coordonnées résolues."
+msgid "<guilabel>Accuracy</guilabel>: Acceptable difference between reported telescope coordinate and actually solved coordinate."
+msgstr "<guilabel>Précision</guilabel> : différence acceptable entre les coordonnées rapportées du télescope et les coordonnées résolues."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:387
 #, no-c-format
 msgid "<guilabel>Bin X</guilabel>: Set horizontal binning of the CCD."
-msgstr ""
-"<guilabel>Bin X</guilabel> : réglage du groupement de pixels horizontal du "
-"CCD."
+msgstr "<guilabel>Bin X</guilabel> : réglage du groupement de pixels horizontal du CCD."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:392
 #, no-c-format
 msgid "<guilabel>Bin Y</guilabel>: Set vertical binning of the CCD."
-msgstr ""
-"<guilabel>Bin Y</guilabel> : réglage du groupement de pixels vertical du "
-"CCD."
+msgstr "<guilabel>Bin Y</guilabel> : réglage du groupement de pixels vertical du CCD."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:397
 #, no-c-format
-msgid ""
-"<guilabel>Scope</guilabel>: Set the active telescope in case you have "
-"different Primary and Guide scopes. FOV is re-calculated when selecting a "
-"different telescope."
-msgstr ""
-"<guilabel>Tube</guilabel> : choix du télescope actif dans le cas où vous "
-"possédez un télescope pour l'acquisition d'images et un autre pour le "
-"guidage."
+msgid "<guilabel>Scope</guilabel>: Set the active telescope in case you have different Primary and Guide scopes. FOV is re-calculated when selecting a different telescope."
+msgstr "<guilabel>Tube</guilabel> : choix du télescope actif dans le cas où vous possédez un télescope pour l'acquisition d'images et un autre pour le guidage."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:402
 #, no-c-format
-msgid ""
-"<guilabel>Options</guilabel>: Options that are passed to the astrometry.net "
-"solver. Click the edit button <inlinemediaobject><imageobject><imagedata "
-"fileref=\"document-edit.png\" "
-"format=\"PNG\"/></imageobject></inlinemediaobject> to explore the options in"
-" detail."
-msgstr ""
-"<guilabel>Options</guilabel> : les options qui seront passées au résolveur "
-"astrometry.net. Cliquez sur le bouton "
-"<inlinemediaobject><imageobject><imagedata fileref=\"document-edit.png\" "
-"format=\"PNG\"/></imageobject></inlinemediaobject> pour examiner le détail "
-"des options."
+msgid "<guilabel>Options</guilabel>: Options that are passed to the astrometry.net solver. Click the edit button <inlinemediaobject><imageobject><imagedata fileref=\"document-edit.png\" format=\"PNG\"/></imageobject></inlinemediaobject> to explore the options in detail."
+msgstr "<guilabel>Options</guilabel> : les options qui seront passées au résolveur astrometry.net. Cliquez sur le bouton <inlinemediaobject><imageobject><imagedata fileref=\"document-edit.png\" format=\"PNG\"/></imageobject></inlinemediaobject> pour examiner le détail des options."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:407
 #, no-c-format
-msgid ""
-"<guilabel>Solver</guilabel>: Select solver type (Online, Offline, Remote). "
-"The remote solver is only available when connecting to a remote device."
-msgstr ""
-"<guilabel>Résolveur</guilabel> : choix du type de résolveur (en ligne, hors "
-"ligne, à distance). Le résolveur à distance n'est disponible que pour les "
-"connexions à distance à un périphérique."
+msgid "<guilabel>Solver</guilabel>: Select solver type (Online, Offline, Remote). The remote solver is only available when connecting to a remote device."
+msgstr "<guilabel>Résolveur</guilabel> : choix du type de résolveur (en ligne, hors ligne, à distance). Le résolveur à distance n'est disponible que pour les connexions à distance à un périphérique."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:412
 #, no-c-format
-msgid ""
-"By default, the solver will search all over the sky to determine the "
-"coordinates of the captured image. This can <emphasis>take a lot of "
-"time</emphasis>; therefore, in order to speed up the solver, you can "
-"restrict it to only search within a specified area in the sky designated by "
-"the <guilabel>RA</guilabel>, <guilabel>DEC</guilabel>, and "
-"<guilabel>Radius</guilabel> options above."
-msgstr ""
-"Par défaut, le résolveur cherchera une solution dans le ciel entier de "
-"l'image acquise. Cela peut prendre <emphasis>beaucoup de temps</emphasis>. "
-"Par conséquent vous pouvez accélérer la résolution en restreignant la "
-"recherche à une zone limitée du ciel déterminée par les options ci-dessus "
-"d'<guilabel>AD</guilabel>, de <guilabel>DEC</guilabel> et de "
-"<guilabel>rayon</guilabel>."
+msgid "By default, the solver will search all over the sky to determine the coordinates of the captured image. This can <emphasis>take a lot of time</emphasis>; therefore, in order to speed up the solver, you can restrict it to only search within a specified area in the sky designated by the <guilabel>RA</guilabel>, <guilabel>DEC</guilabel>, and <guilabel>Radius</guilabel> options above."
+msgstr "Par défaut, le résolveur cherchera une solution dans le ciel entier de l'image acquise. Cela peut prendre <emphasis>beaucoup de temps</emphasis>. Par conséquent vous pouvez accélérer la résolution en restreignant la recherche à une zone limitée du ciel déterminée par les options ci-dessus d'<guilabel>AD</guilabel>, de <guilabel>DEC</guilabel> et de <guilabel>rayon</guilabel>."
 
 #. Tag: title
 #. +> trunk5
@@ -1301,69 +914,36 @@ msgstr "<phrase>Options astrometry.net</phrase>"
 #. +> trunk5
 #: ekos-align.docbook:435
 #, no-c-format
-msgid ""
-"Most of the options are sufficient by default. If you have astrometry.net "
-"installed in a non-standard location, you can change the paths as necessary."
-msgstr ""
-"La plupart des options sont suffisantes par défaut. Si votre installation "
-"d'astrometry.net se trouve à un emplacement non standard, vous pouvez "
-"modifier les chemins comme nécessaire."
+msgid "Most of the options are sufficient by default. If you have astrometry.net installed in a non-standard location, you can change the paths as necessary."
+msgstr "La plupart des options sont suffisantes par défaut. Si votre installation d'astrometry.net se trouve à un emplacement non standard, vous pouvez modifier les chemins comme nécessaire."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:440
 #, no-c-format
-msgid ""
-"<guilabel>WCS</guilabel>: World-Coordinate-System is a system for embedding "
-"equatorial coordinate information within the image. Therefore, when you view"
-" the image, you can hover it and view the coordinate for each pixel. You can"
-" also click anywhere in the image and command to the telescope to slew "
-"there. It is highly recommended to keep this option on."
-msgstr ""
-"<guilabel>WCS</guilabel> : le système de coordonnées mondiales (World-"
-"Coordinate-System) est un mécanisme permettant d'intégrer les coordonnées "
-"équatoriales à une image. Ainsi, lors de la visualisation d'une image, un "
-"survol affiche les coordonnées de chaque pixel. Vous pouvez également "
-"cliquer n'importe où dans l'image et ordonner au télescope de pivoter vers "
-"ce point. Il est hautement recommandé de conserver cette option. Veuillez "
-"noter que cela ne fonctionne que pour les images FITS (les images brutes des"
-" APN ne permettent pas ce mécanisme)."
+msgid "<guilabel>WCS</guilabel>: World-Coordinate-System is a system for embedding equatorial coordinate information within the image. Therefore, when you view the image, you can hover it and view the coordinate for each pixel. You can also click anywhere in the image and command to the telescope to slew there. It is highly recommended to keep this option on."
+msgstr "<guilabel>WCS</guilabel> : le système de coordonnées mondiales (World-Coordinate-System) est un mécanisme permettant d'intégrer les coordonnées équatoriales à une image. Ainsi, lors de la visualisation d'une image, un survol affiche les coordonnées de chaque pixel. Vous pouvez également cliquer n'importe où dans l'image et ordonner au télescope de pivoter vers ce point. Il est hautement recommandé de conserver cette option. Veuillez noter que cela ne fonctionne que pour les images FITS (les images brutes des APN ne permettent pas ce mécanisme)."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:445
 #, no-c-format
-msgid ""
-"<guilabel>Verbose</guilabel>: If the solver repeatedly fails to solve, check"
-" this option to enable <emphasis>verbose</emphasis> output of the solver to "
-"help you identify any problems."
-msgstr ""
-"<guilabel>Bavard</guilabel> : si le résolveur échoue à plusieurs reprises, "
-"cochez cette case pour obtenir une sortie bavarde du résolveur afin de vous "
-"aider à corriger le problème."
+msgid "<guilabel>Verbose</guilabel>: If the solver repeatedly fails to solve, check this option to enable <emphasis>verbose</emphasis> output of the solver to help you identify any problems."
+msgstr "<guilabel>Bavard</guilabel> : si le résolveur échoue à plusieurs reprises, cochez cette case pour obtenir une sortie bavarde du résolveur afin de vous aider à corriger le problème."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:450
 #, no-c-format
-msgid ""
-"<guilabel>Overlay</guilabel>: Overlay captured images unto the sky map of "
-"&kstars;."
-msgstr ""
-"<guilabel>Superposition</guilabel> : superpose l'image acquise à la carte du"
-" ciel de &kstars;."
+msgid "<guilabel>Overlay</guilabel>: Overlay captured images unto the sky map of &kstars;."
+msgstr "<guilabel>Superposition</guilabel> : superpose l'image acquise à la carte du ciel de &kstars;."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:455
 #, no-c-format
-msgid ""
-"<guilabel>Upload JPG</guilabel>: When using online astrometry.net, upload "
-"all images are JPEGs to save bandwidth as FITS images can be large."
-msgstr ""
-"<guilabel>Téléverser JPEG</guilabel> : lors de l'utilisation en ligne "
-"d'astrometry.net, téléverse les images au format JPEG afin de limiter la "
-"bande passante puisque la taille des images FITS peut être très importante."
+msgid "<guilabel>Upload JPG</guilabel>: When using online astrometry.net, upload all images are JPEGs to save bandwidth as FITS images can be large."
+msgstr "<guilabel>Téléverser JPEG</guilabel> : lors de l'utilisation en ligne d'astrometry.net, téléverse les images au format JPEG afin de limiter la bande passante puisque la taille des images FITS peut être très importante."
 
 #. Tag: title
 #. +> trunk5
@@ -1376,14 +956,8 @@ msgstr "Options du résolveur"
 #. +> trunk5
 #: ekos-align.docbook:464
 #, no-c-format
-msgid ""
-"Ekos selects and updates the optimal options by default to accelerate the "
-"performance of the solver. You may opt to change the options that are passed"
-" to the solver in case the default options are not sufficient."
-msgstr ""
-"Ekos choisit et met à jour les options optimales par défaut pour accélérer "
-"les performances du résolveur. Vous pouvez modifier ces options si celles "
-"par défaut ne conviennent pas."
+msgid "Ekos selects and updates the optimal options by default to accelerate the performance of the solver. You may opt to change the options that are passed to the solver in case the default options are not sufficient."
+msgstr "Ekos choisit et met à jour les options optimales par défaut pour accélérer les performances du résolveur. Vous pouvez modifier ces options si celles par défaut ne conviennent pas."
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -1410,43 +984,22 @@ msgstr "Acquisition &amp; Résolution"
 #. +> trunk5
 #: ekos-align.docbook:484
 #, no-c-format
-msgid ""
-"Using Ekos Alignment Module, aligning your mount using the controller's 1, "
-"2, or 3 star alignment is <emphasis>not</emphasis> strictly necessary, "
-"though for some mounts it is recommended to perform a rough 1 or 2 star "
-"alignment before using Ekos alignment module. If you are using EQMod, you "
-"can start using Ekos alignment module right away. A typical workflow for "
-"GOTO alignment involves the following steps:"
-msgstr ""
-"Avec le module d'alignement d'Ekos, l'alignement de la monture sur une, deux"
-" ou trois étoiles avec la commande de la monture n'est "
-"<emphasis>pas</emphasis> strictement nécessaire, mais pour certaines "
-"montures, il peut être recommandé de réaliser un alignement sommaire sur une"
-" ou deux étoiles avant d'utiliser le module d'alignement d'Ekos. Mais si "
-"vous utiliser EQMod, vous pouvez commencer d'utiliser tout de suite le "
-"module d'alignement. Une marche à suivre typique pour les alignement GOTO "
-"implique les étapes suivantes :"
+msgid "Using Ekos Alignment Module, aligning your mount using the controller's 1, 2, or 3 star alignment is <emphasis>not</emphasis> strictly necessary, though for some mounts it is recommended to perform a rough 1 or 2 star alignment before using Ekos alignment module. If you are using EQMod, you can start using Ekos alignment module right away. A typical workflow for GOTO alignment involves the following steps:"
+msgstr "Avec le module d'alignement d'Ekos, l'alignement de la monture sur une, deux ou trois étoiles avec la commande de la monture n'est <emphasis>pas</emphasis> strictement nécessaire, mais pour certaines montures, il peut être recommandé de réaliser un alignement sommaire sur une ou deux étoiles avant d'utiliser le module d'alignement d'Ekos. Mais si vous utiliser EQMod, vous pouvez commencer d'utiliser tout de suite le module d'alignement. Une marche à suivre typique pour les alignement GOTO implique les étapes suivantes :"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:489
 #, no-c-format
-msgid ""
-"Set your mount to its home position (usually the NCP for equatorial mounts)."
-msgstr ""
-"Placez votre monture en position de parcage (généralement pointée vers un "
-"pôle céleste pour les montures équatoriales)."
+msgid "Set your mount to its home position (usually the NCP for equatorial mounts)."
+msgstr "Placez votre monture en position de parcage (généralement pointée vers un pôle céleste pour les montures équatoriales)."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:494
 #, no-c-format
-msgid ""
-"Select <guilabel>Slew to Target</guilabel> in the <guilabel>Solver "
-"Action</guilabel>."
-msgstr ""
-"Sélectionnez <guilabel>Pivoter vers cible</guilabel> pour l'option "
-"<guilabel>Action du résolveur</guilabel>."
+msgid "Select <guilabel>Slew to Target</guilabel> in the <guilabel>Solver Action</guilabel>."
+msgstr "Sélectionnez <guilabel>Pivoter vers cible</guilabel> pour l'option <guilabel>Action du résolveur</guilabel>."
 
 #. Tag: para
 #. +> trunk5
@@ -1459,73 +1012,43 @@ msgstr "Pivotez vers une étoile brillante proche."
 #. +> trunk5
 #: ekos-align.docbook:504
 #, no-c-format
-msgid ""
-"After slew is complete, click <guibutton>Capture &amp; Solve</guibutton>."
-msgstr ""
-"Après que le pivotage soit terminé, cliquez sur le bouton "
-"<guibutton>Acquisition &amp; Résolution</guibutton>."
+msgid "After slew is complete, click <guibutton>Capture &amp; Solve</guibutton>."
+msgstr "Après que le pivotage soit terminé, cliquez sur le bouton <guibutton>Acquisition &amp; Résolution</guibutton>."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:509
 #, no-c-format
-msgid ""
-"If the solver is successful, Ekos will sync and then slew to the star. The "
-"results are displayed in the <guilabel>Solution Results</guilabel> tab along"
-" with a bullseye diagram that shows the offset the reported telescope "
-"coordinates (&ie; where the telescope <emphasis>thinks</emphasis> it is "
-"looking at) vs. its actual position in the sky as determined by the solver."
-msgstr ""
-"Si la résolution est un succès, Ekos va se synchroniser et ensuite pivoter "
-"vers l'étoile. Les résultats sont affichés dans l'onglet <guilabel>Résultats"
-" de la solution</guilabel> ainsi que dans un diagramme qui montre le "
-"décalage entre les coordonnées rapportées du télescope (&cad; où le "
-"télescope <emphasis>croit</emphasis> qu'il pointe) et la position actuelle "
-"dans le ciel déterminée par le résolveur."
+msgid "If the solver is successful, Ekos will sync and then slew to the star. The results are displayed in the <guilabel>Solution Results</guilabel> tab along with a bullseye diagram that shows the offset the reported telescope coordinates (&ie; where the telescope <emphasis>thinks</emphasis> it is looking at) vs. its actual position in the sky as determined by the solver."
+msgstr "Si la résolution est un succès, Ekos va se synchroniser et ensuite pivoter vers l'étoile. Les résultats sont affichés dans l'onglet <guilabel>Résultats de la solution</guilabel> ainsi que dans un diagramme qui montre le décalage entre les coordonnées rapportées du télescope (&cad; où le télescope <emphasis>croit</emphasis> qu'il pointe) et la position actuelle dans le ciel déterminée par le résolveur."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:512
 #, no-c-format
-msgid ""
-"Each time the solver is executed and returns successful results, Ekos can "
-"run on the following actions:"
-msgstr ""
-"Chaque fois que la résolution s'est terminée avec succès, Ekos peut exécuter"
-" les actions suivantes :"
+msgid "Each time the solver is executed and returns successful results, Ekos can run on the following actions:"
+msgstr "Chaque fois que la résolution s'est terminée avec succès, Ekos peut exécuter les actions suivantes :"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:517
 #, no-c-format
-msgid ""
-"<guilabel>Sync</guilabel>: Syncs the telescope coordinates to the solution "
-"coordinates."
-msgstr ""
-"<guilabel>Synchroniser</guilabel> : synchronise les coordonnées du télescope"
-" avec les coordonnées de la solution."
+msgid "<guilabel>Sync</guilabel>: Syncs the telescope coordinates to the solution coordinates."
+msgstr "<guilabel>Synchroniser</guilabel> : synchronise les coordonnées du télescope avec les coordonnées de la solution."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:522
 #, no-c-format
-msgid ""
-"<guilabel>Slew to Target</guilabel>: Syncs the telescope coordinates to the "
-"solution coordinates and then slew to the target."
-msgstr ""
-"<guilabel>Pivoter vers la cible</guilabel> : synchronise les coordonnées du "
-"télescope avec les coordonnées de la solution puis pivote vers la cible."
+msgid "<guilabel>Slew to Target</guilabel>: Syncs the telescope coordinates to the solution coordinates and then slew to the target."
+msgstr "<guilabel>Pivoter vers la cible</guilabel> : synchronise les coordonnées du télescope avec les coordonnées de la solution puis pivote vers la cible."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:527
 #, no-c-format
-msgid ""
-"<guilabel>Nothing</guilabel>: Just solve the image and display the solution "
-"coordinates."
-msgstr ""
-"<guilabel>Rien</guilabel> : résolution de l'image et affichage des "
-"coordonnées de la solution."
+msgid "<guilabel>Nothing</guilabel>: Just solve the image and display the solution coordinates."
+msgstr "<guilabel>Rien</guilabel> : résolution de l'image et affichage des coordonnées de la solution."
 
 #. Tag: title
 #. +> trunk5
@@ -1545,22 +1068,8 @@ msgstr "<title>Assistant d'alignement polaire</title>"
 #. +> trunk5
 #: ekos-align.docbook:538
 #, no-c-format
-msgid ""
-"When setting up a German Equatorial Mount (GEM) for imaging, a critical "
-"aspect of capturing long-exposure images is to ensure proper polar "
-"alignment. A GEM mount has two axis: Right Ascension (RA) axis and "
-"Declination (DE) axis. Ideally, the RA axis should be aligned with the "
-"celestial sphere polar axis. A mount's job is to track the star's motion "
-"around the sky, from the moment they rise at the eastern horizon, all the "
-"way up across the median, and westward until they set."
-msgstr ""
-"Un des aspects critiques de l'installation d'une monture équatoriale "
-"allemande pour l'imagerie longue durée est un alignement polaire aussi "
-"précis que possible. Ces montures ont deux axes : l'ascension droite (AD) et"
-" la déclinaison (DEC). Idéalement l'axe d'AD devrait être aligné avec l'axe "
-"polaire de la sphère céleste. Le travail d'une monture est de suivre le "
-"déplacement d'une étoile dans le ciel depuis son lever à l'horizon est "
-"jusqu'au passage au méridien puis enfin jusqu'à son coucher vers l'ouest."
+msgid "When setting up a German Equatorial Mount (GEM) for imaging, a critical aspect of capturing long-exposure images is to ensure proper polar alignment. A GEM mount has two axis: Right Ascension (RA) axis and Declination (DE) axis. Ideally, the RA axis should be aligned with the celestial sphere polar axis. A mount's job is to track the star's motion around the sky, from the moment they rise at the eastern horizon, all the way up across the median, and westward until they set."
+msgstr "Un des aspects critiques de l'installation d'une monture équatoriale allemande pour l'imagerie longue durée est un alignement polaire aussi précis que possible. Ces montures ont deux axes : l'ascension droite (AD) et la déclinaison (DEC). Idéalement l'axe d'AD devrait être aligné avec l'axe polaire de la sphère céleste. Le travail d'une monture est de suivre le déplacement d'une étoile dans le ciel depuis son lever à l'horizon est jusqu'au passage au méridien puis enfin jusqu'à son coucher vers l'ouest."
 
 #. Tag: phrase
 #. +> trunk5
@@ -1573,33 +1082,8 @@ msgstr "<phrase>Assistant d'alignement polaire</phrase>"
 #. +> trunk5
 #: ekos-align.docbook:553
 #, no-c-format
-msgid ""
-"In long exposure imaging, a camera is attached to the telescope where the "
-"image sensor captures incoming photons from a particular area in the sky. "
-"The incident photons have to strike the same photo-site over and over again "
-"if we are to gather a clear and crisp image. Of course, actual photons do "
-"not behave in this way: optics, atmosphere, seeing quality all scatter and "
-"refract photons in one way or another. Furthermore, photons do not arrive "
-"uniformly but follow a Poisson distribution. For point-like sources like "
-"stars, a point spread function describes how photons are spatially "
-"distributed across the pixels. Nevertheless, the "
-"<emphasis>overall</emphasis> idea we want to keep the source photons hitting"
-" the same pixels. Otherwise, we might end up with an image plagued with "
-"various trail artifacts."
-msgstr ""
-"Dans l'imagerie longue durée, une caméra est montée sur le télescope qui "
-"enregistre les photons qui arrivent sur son capteur depuis une région "
-"particulière du ciel. Ces photons doivent frapper le même pixel encore et "
-"encore pour obtenir une image claire et étincelante. Bien sûr, les vrais "
-"photons ne se comportent pas exactement comme cela. Les défauts d'optique, "
-"l'atmosphère turbulente, la qualité du ciel (le seeing en anglais) génèrent "
-"une légère dispersion des photons sur le capteur. De plus, ils n'arrivent "
-"pas uniformément mais suivant une distribution de Poisson. Pour des sources "
-"ponctuelles comme les étoiles, une fonction de dispersion de point (point "
-"spread function ou PSF en anglais) décrit leur distribution spatiale à "
-"travers les pixels. Cela dit, l'idée <emphasis>principale</emphasis> est de "
-"faire en sorte que les photons frappent toujours le même pixel. Sinon, "
-"l'image finale sera polluée de divers trainées et autres artéfacts."
+msgid "In long exposure imaging, a camera is attached to the telescope where the image sensor captures incoming photons from a particular area in the sky. The incident photons have to strike the same photo-site over and over again if we are to gather a clear and crisp image. Of course, actual photons do not behave in this way: optics, atmosphere, seeing quality all scatter and refract photons in one way or another. Furthermore, photons do not arrive uniformly but follow a Poisson distribution. For point-like sources like stars, a point spread function describes how photons are spatially distributed across the pixels. Nevertheless, the <emphasis>overall</emphasis> idea we want to keep the source photons hitting the same pixels. Otherwise, we might end up with an image plagued with various trail artifacts."
+msgstr "Dans l'imagerie longue durée, une caméra est montée sur le télescope qui enregistre les photons qui arrivent sur son capteur depuis une région particulière du ciel. Ces photons doivent frapper le même pixel encore et encore pour obtenir une image claire et étincelante. Bien sûr, les vrais photons ne se comportent pas exactement comme cela. Les défauts d'optique, l'atmosphère turbulente, la qualité du ciel (le seeing en anglais) génèrent une légère dispersion des photons sur le capteur. De plus, ils n'arrivent pas uniformément mais suivant une distribution de Poisson. Pour des sources ponctuelles comme les étoiles, une fonction de dispersion de point (point spread function ou PSF en anglais) décrit leur distribution spatiale à travers les pixels. Cela dit, l'idée <emphasis>principale</emphasis> est de faire en sorte que les photons frappent toujours le même pixel. Sinon, l'image finale sera polluée de divers trainées et autres artéfacts."
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -1619,72 +1103,29 @@ msgstr "<phrase>Alignement polaire</phrase>"
 #. +> trunk5
 #: ekos-align.docbook:569
 #, no-c-format
-msgid ""
-"Since mounts are not perfect, they cannot perfectly keep track of object as "
-"it transits across the sky. This can stem from many factors, one of which is"
-" the misalignment of the mount's Right Ascension axis with respect to the "
-"celestial pole axis. Polar alignment removes one of the biggest sources of "
-"tracking errors in the mount, but other sources of error still play a "
-"factor. If properly aligned, some mounts can track an object for a few "
-"minutes with the only deviation of 1-2 arcsec RMS."
-msgstr ""
-"Les montures n'étant pas parfaites non plus, elles ne peuvent suivre "
-"parfaitement un objet lors de sa course dans le ciel. Cela peut provenir de "
-"plusieurs facteurs, l'un d'entre eux étant l'alignement imparfait de l'axe "
-"d'ascension droite par rapport à l'axe du pôle céleste. Un alignement "
-"polaire précis supprime (ou minimise) l'une des plus importantes sources "
-"d'erreur de suivi de la monture mais d'autres sources d'erreur ont également"
-" un impact. Une monture correctement alignée peut suivre un objet pendant "
-"plusieurs minutes avec seulement 1 ou 2 secondes d'arc d'erreur RMS."
+msgid "Since mounts are not perfect, they cannot perfectly keep track of object as it transits across the sky. This can stem from many factors, one of which is the misalignment of the mount's Right Ascension axis with respect to the celestial pole axis. Polar alignment removes one of the biggest sources of tracking errors in the mount, but other sources of error still play a factor. If properly aligned, some mounts can track an object for a few minutes with the only deviation of 1-2 arcsec RMS."
+msgstr "Les montures n'étant pas parfaites non plus, elles ne peuvent suivre parfaitement un objet lors de sa course dans le ciel. Cela peut provenir de plusieurs facteurs, l'un d'entre eux étant l'alignement imparfait de l'axe d'ascension droite par rapport à l'axe du pôle céleste. Un alignement polaire précis supprime (ou minimise) l'une des plus importantes sources d'erreur de suivi de la monture mais d'autres sources d'erreur ont également un impact. Une monture correctement alignée peut suivre un objet pendant plusieurs minutes avec seulement 1 ou 2 secondes d'arc d'erreur RMS."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:572
 #, no-c-format
-msgid ""
-"However, unless you have a top of the line mount, then you'd probably want "
-"to use an autoguider to keep the same star locked in the same position over "
-"time. Despite all of this, if the axis of the mount is not properly aligned "
-"with the celestial pole, then even a mechanically-perfect mount would lose "
-"tracking with time. Tracking errors are proportional to the magnitude of the"
-" misalignment. It is therefore very important for long exposure imaging to "
-"get the mount polar aligned to reduce any residual errors as it spans across"
-" the sky."
-msgstr ""
-"Toutefois, même avec un monture alignée très soigneusement, vous souhaiterez"
-" probablement utiliser un guide pour conserver une étoile verrouillée à la "
-"même position dans le temps. Malgré tout cela, si l'axe de la monture n'est "
-"pas correctement aligné avec le pôle céleste, même un monture mécaniquement "
-"parfaite ne permettra pas un suivi dans le temps. Les erreurs de suivi sont "
-"proportionnelles à la grandeur de l'erreur d'alignement. Il est par "
-"conséquent très important pour les longues poses d'obtenir un alignement le "
-"plus précis possible afin de réduire les erreurs résiduelles lors du "
-"déplacement dans le ciel."
+msgid "However, unless you have a top of the line mount, then you'd probably want to use an autoguider to keep the same star locked in the same position over time. Despite all of this, if the axis of the mount is not properly aligned with the celestial pole, then even a mechanically-perfect mount would lose tracking with time. Tracking errors are proportional to the magnitude of the misalignment. It is therefore very important for long exposure imaging to get the mount polar aligned to reduce any residual errors as it spans across the sky."
+msgstr "Toutefois, même avec un monture alignée très soigneusement, vous souhaiterez probablement utiliser un guide pour conserver une étoile verrouillée à la même position dans le temps. Malgré tout cela, si l'axe de la monture n'est pas correctement aligné avec le pôle céleste, même un monture mécaniquement parfaite ne permettra pas un suivi dans le temps. Les erreurs de suivi sont proportionnelles à la grandeur de l'erreur d'alignement. Il est par conséquent très important pour les longues poses d'obtenir un alignement le plus précis possible afin de réduire les erreurs résiduelles lors du déplacement dans le ciel."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:575
 #, no-c-format
-msgid ""
-"Before starting the process, point the mount as close as possible to the "
-"celestial pole. If you are living in the Northern Hemisphere, point it as "
-"close as possible to Polaris."
-msgstr ""
-"Avant de démarrer la procédure, pointez la monture le plus près possible du "
-"pôle céleste. Si vous habitez l'hémisphère Nord, pointez vers Polaris."
+msgid "Before starting the process, point the mount as close as possible to the celestial pole. If you are living in the Northern Hemisphere, point it as close as possible to Polaris."
+msgstr "Avant de démarrer la procédure, pointez la monture le plus près possible du pôle céleste. Si vous habitez l'hémisphère Nord, pointez vers Polaris."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:578
 #, no-c-format
-msgid ""
-"The tool works by capturing and solving three images. After capturing each, "
-"the mount rotates by a fixed amount and another image is captured and "
-"solved."
-msgstr ""
-"L'outil fonctionne en prenant et en résolvant trois images. Après chaque "
-"acquisition, la monture tourne d'une quantité fixe et une nouvelle image est"
-" prise et résolue."
+msgid "The tool works by capturing and solving three images. After capturing each, the mount rotates by a fixed amount and another image is captured and solved."
+msgstr "L'outil fonctionne en prenant et en résolvant trois images. Après chaque acquisition, la monture tourne d'une quantité fixe et une nouvelle image est prise et résolue."
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -1697,54 +1138,15 @@ msgstr "<screeninfo>Assistant d'alignement polaire</screeninfo>"
 #. +> trunk5
 #: ekos-align.docbook:594
 #, no-c-format
-msgid ""
-"After the first capture, you can rotate the mount by a specific amount "
-"(default 30 degrees) either West or East. After selecting the magnitude and "
-"direction, click <guibutton>Next</guibutton> to continue and the mount will "
-"be rotated. Once the rotation is complete you shall be asked to take another"
-" capture, unless you have checked <guilabel>Auto Mode</guilabel>. In "
-"Automated mode, the rest of the process will continue with the same settings"
-" and direction until a total of three images are captured."
-msgstr ""
-"Après la première acquisition, vous pouvez faire pivoter la monture qu'une "
-"quantité fixe (par défaut 30 degrés) soit vers l'est soit vers l'ouest. "
-"Après avoir fait ces choix, cliquez sur <guibutton>Suivant</guibutton> pour "
-"continuer et la monture va pivoter. Une fois la rotation terminée, il vous "
-"sera demandé de prendre une nouvelle image sauf si l'option <guilabel>Mode "
-"Auto</guilabel> est cochée. Dans le mode automatique, la suite de la "
-"procédure se poursuivra avec les mêmes réglages jusqu'à ce que trois images "
-"auront été acquises."
+msgid "After the first capture, you can rotate the mount by a specific amount (default 30 degrees) either West or East. After selecting the magnitude and direction, click <guibutton>Next</guibutton> to continue and the mount will be rotated. Once the rotation is complete you shall be asked to take another capture, unless you have checked <guilabel>Auto Mode</guilabel>. In Automated mode, the rest of the process will continue with the same settings and direction until a total of three images are captured."
+msgstr "Après la première acquisition, vous pouvez faire pivoter la monture qu'une quantité fixe (par défaut 30 degrés) soit vers l'est soit vers l'ouest. Après avoir fait ces choix, cliquez sur <guibutton>Suivant</guibutton> pour continuer et la monture va pivoter. Une fois la rotation terminée, il vous sera demandé de prendre une nouvelle image sauf si l'option <guilabel>Mode Auto</guilabel> est cochée. Dans le mode automatique, la suite de la procédure se poursuivra avec les mêmes réglages jusqu'à ce que trois images auront été acquises."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:597
 #, no-c-format
-msgid ""
-"Since the mount's true RA/DE are resolved by astrometry, we can construct a "
-"unique circle from the three centers found in the astrometry solutions. The "
-"circle's center is where the mount rotates about (RA Axis) and ideally, this"
-" point should coincide with the celestial pole. However, if there is a "
-"misalignment, then Ekos draws a correction vector. This correction vector "
-"can be placed anywhere in the image. Next, <emphasis>refresh</emphasis> the "
-"camera feed and make corrections to the mount's Altitude and Azimuth knobs "
-"until the star is located in the designated cross-hair. To make it easy to "
-"make corrections, expand the view by clicking on the Fullscreen button "
-"<inlinemediaobject><imageobject><imagedata fileref=\"view-fullscreen.png\" "
-"format=\"PNG\"/></imageobject></inlinemediaobject>."
-msgstr ""
-"Puisque les AD et DEC vraies sont résolues pas astrométrie, on peut "
-"construire un cercle unique à partir du centre des solutions d'astrométrie. "
-"Le centre du cercle correspond à l'axe de rotation (axe d'ascension droite) "
-"et devrait idéalement coïncider avec l'axe du pôle céleste. Toutefois, en "
-"cas d'erreur d'alignement, Ekos tracera un vecteur de correction. Ce vecteur"
-" de correction peut être positionné n'importe où dans l'image. En cliquant "
-"ensuite sur <emphasis>Rafraîchir</emphasis>, la caméra va prendre des images"
-" en boucle ce qui va vous permettre d'ajuster l'altitude et l'azimut avec "
-"les molettes de la montures pour déplacer l'étoile jusqu'à la position "
-"désignée par un réticule en croix. Pour vous aider à faire ces corrections, "
-"élargissez la vue en cliquant sur bouton plein écran "
-"<inlinemediaobject><imageobject><imagedata fileref=\"view-fullscreen.png\" "
-"format=\"PNG\"/></imageobject></inlinemediaobject>."
+msgid "Since the mount's true RA/DE are resolved by astrometry, we can construct a unique circle from the three centers found in the astrometry solutions. The circle's center is where the mount rotates about (RA Axis) and ideally, this point should coincide with the celestial pole. However, if there is a misalignment, then Ekos draws a correction vector. This correction vector can be placed anywhere in the image. Next, <emphasis>refresh</emphasis> the camera feed and make corrections to the mount's Altitude and Azimuth knobs until the star is located in the designated cross-hair. To make it easy to make corrections, expand the view by clicking on the Fullscreen button <inlinemediaobject><imageobject><imagedata fileref=\"view-fullscreen.png\" format=\"PNG\"/></imageobject></inlinemediaobject>."
+msgstr "Puisque les AD et DEC vraies sont résolues pas astrométrie, on peut construire un cercle unique à partir du centre des solutions d'astrométrie. Le centre du cercle correspond à l'axe de rotation (axe d'ascension droite) et devrait idéalement coïncider avec l'axe du pôle céleste. Toutefois, en cas d'erreur d'alignement, Ekos tracera un vecteur de correction. Ce vecteur de correction peut être positionné n'importe où dans l'image. En cliquant ensuite sur <emphasis>Rafraîchir</emphasis>, la caméra va prendre des images en boucle ce qui va vous permettre d'ajuster l'altitude et l'azimut avec les molettes de la montures pour déplacer l'étoile jusqu'à la position désignée par un réticule en croix. Pour vous aider à faire ces corrections, élargissez la vue en cliquant sur bouton plein écran <inlinemediaobject><imageobject><imagedata fileref=\"view-fullscreen.png\" format=\"PNG\"/></imageobject></inlinemediaobject>."
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -1764,23 +1166,8 @@ msgstr "<phrase>Résultat d'alignement polaire</phrase>"
 #. +> trunk5
 #: ekos-align.docbook:613
 #, no-c-format
-msgid ""
-"If you are away from StellarMate or PC, you can use your Tablet to monitor "
-"the camera feed while making corrections. Use the <link linkend=\"ekos-"
-"tutorials-viewer\">StellarMate's web-based VNC viewer</link> or use any VNC "
-"Client on your tablet to access StellarMate. If Ekos is running on your PC, "
-"you can use applications like TeamViewer to achieve the same results. The "
-"following is a video demonstrating how to utilize the Polar Alignment "
-"Assistant tool."
-msgstr ""
-"Si votre StellarMate ou votre PC est éloigné de votre monture, vous pouvez "
-"utiliser une tablette pour surveiller les images de la caméras tout en "
-"effectuant les corrections. Utilisez l'<link linkend=\"ekos-tutorials-"
-"viewer\">afficheur VNC web de StellarMate</link> ou tout autre client VNC "
-"installé sur votre tablette pour accéder à StellarMate. Si Ekos tourne sur "
-"votre PC, vous pouvez utiliser des applications comme TeamViewer pour "
-"parvenir au même résultat. Voici une vidéo montrant comment utiliser l'outil"
-" d'assistance à l'alignement polaire."
+msgid "If you are away from StellarMate or PC, you can use your Tablet to monitor the camera feed while making corrections. Use the <link linkend=\"ekos-tutorials-viewer\">StellarMate's web-based VNC viewer</link> or use any VNC Client on your tablet to access StellarMate. If Ekos is running on your PC, you can use applications like TeamViewer to achieve the same results. The following is a video demonstrating how to utilize the Polar Alignment Assistant tool."
+msgstr "Si votre StellarMate ou votre PC est éloigné de votre monture, vous pouvez utiliser une tablette pour surveiller les images de la caméras tout en effectuant les corrections. Utilisez l'<link linkend=\"ekos-tutorials-viewer\">afficheur VNC web de StellarMate</link> ou tout autre client VNC installé sur votre tablette pour accéder à StellarMate. Si Ekos tourne sur votre PC, vous pouvez utiliser des applications comme TeamViewer pour parvenir au même résultat. Voici une vidéo montrant comment utiliser l'outil d'assistance à l'alignement polaire."
 
 #. Tag: title
 #. +> trunk5
@@ -1793,182 +1180,71 @@ msgstr "Marche à suivre de l'alignement polaire à l'ancienne"
 #. +> trunk5
 #: ekos-align.docbook:629
 #, no-c-format
-msgid ""
-"Using the Polar Alignment mode, Ekos can measure and correct the polar "
-"alignment errors. To measure Azimuth error, point your mount to a star close"
-" to the meridian. If you live in the northern hemisphere, you will point the"
-" mount toward the southern meridian. Click on <guibutton>Measure Az "
-"Error</guibutton> to begin the process. Ekos will try to measure the drift "
-"between two images and calculates the error accordingly. You can ask Ekos to"
-" correct Azimuth error by clicking on the <guibutton>Correct Az "
-"Error</guibutton> button. Ekos will slew to a new location and asks you to "
-"adjust the mount's azimuth knobs until the star is in the center of the "
-"Field of View. You can use the Focus Module's <link linkend=\"focus-focuser-"
-"group\">Framing feature</link> to take a look at the image as you make your "
-"adjustments."
-msgstr ""
-"Le mode d'alignement polaire permet à Ekos de mesurer et de corriger les "
-"erreurs d'alignement polaire. Pour mesurer les erreurs en azimut, pointez "
-"votre monture vers une étoile proche du méridien. Si vous habitez "
-"l'hémisphère Nord, pointez la monture vers le méridien sud. Cliquez sur le "
-"bouton <guibutton>Mesurer erreur Az</guibutton> pour démarrer le processus. "
-"Ekos va mesurer la dérive entre deux images et calculer l'erreur. Vous "
-"pouvez demander à Ekos de corriger l'erreur en azimut en cliquant sur le "
-"bouton <guibutton>Corriger erreur Az</guibutton>. Ekos va faire tourner la "
-"monture vers une nouvelle direction et vous demander d'ajuster l'azimut avec"
-" la molette de la monture jusqu'à ce que l'étoile se trouve au centre du "
-"champ de vision. La <link linkend=\"focus-focuser-group\">fonction "
-"d'acquisition en boucle</link> du module de mise au point vous permet de "
-"visualiser les images tout en ajustant la position de la monture."
+msgid "Using the Polar Alignment mode, Ekos can measure and correct the polar alignment errors. To measure Azimuth error, point your mount to a star close to the meridian. If you live in the northern hemisphere, you will point the mount toward the southern meridian. Click on <guibutton>Measure Az Error</guibutton> to begin the process. Ekos will try to measure the drift between two images and calculates the error accordingly. You can ask Ekos to correct Azimuth error by clicking on the <guibutton>Correct Az Error</guibutton> button. Ekos will slew to a new location and asks you to adjust the mount's azimuth knobs until the star is in the center of the Field of View. You can use the Focus Module's <link linkend=\"focus-focuser-group\">Framing feature</link> to take a look at the image as you make your adjustments."
+msgstr "Le mode d'alignement polaire permet à Ekos de mesurer et de corriger les erreurs d'alignement polaire. Pour mesurer les erreurs en azimut, pointez votre monture vers une étoile proche du méridien. Si vous habitez l'hémisphère Nord, pointez la monture vers le méridien sud. Cliquez sur le bouton <guibutton>Mesurer erreur Az</guibutton> pour démarrer le processus. Ekos va mesurer la dérive entre deux images et calculer l'erreur. Vous pouvez demander à Ekos de corriger l'erreur en azimut en cliquant sur le bouton <guibutton>Corriger erreur Az</guibutton>. Ekos va faire tourner la monture vers une nouvelle direction et vous demander d'ajuster l'azimut avec la molette de la monture jusqu'à ce que l'étoile se trouve au centre du champ de vision. La <link linkend=\"focus-focuser-group\">fonction d'acquisition en boucle</link> du module de mise au point vous permet de visualiser les images tout en ajustant la position de la monture."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:632
 #, no-c-format
-msgid ""
-"Similarly, to measure Altitude error, click on the <guibutton>Measure Alt "
-"Error</guibutton> button. You need to point your mount either east or west "
-"and set the <guilabel>Altitude Direction</guilabel> combo box accordingly. "
-"Ekos will take two images and calculates the error. You can ask Ekos to "
-"correct Altitude error by clicking on the <guibutton>Correct Alt "
-"Error</guibutton> button. As with Azimuth correction, Ekos will slew to a "
-"new location and asks you to adjust the mount's altitude knobs until the "
-"star is in the center of the FOV."
-msgstr ""
-"De même, pour mesurer l'erreur en altitude, cliquez sur le bouton "
-"<guibutton>Mesurer erreur Alt</guibutton>. Vous devez pointer la monture "
-"soit à l'est soit à l'ouest et réglez <guilabel>Direction "
-"Altitude</guilabel> en fonction. Ekos va prendre deux images et calculer "
-"l'erreur. Vous demandez ensuite à Ekos de corriger l'erreur en altitude en "
-"cliquant sur le bouton <guibutton>Corriger erreur Alt</guibutton>. Comme "
-"avec l'erreur en azimut, Ekos va pivoter vers une nouvelle position et vous "
-"demandera d'ajuster la position en altitude de la monture avec la molette de"
-" la monture jusqu'à ce que l'étoile se trouve au centre du champ de vision."
+msgid "Similarly, to measure Altitude error, click on the <guibutton>Measure Alt Error</guibutton> button. You need to point your mount either east or west and set the <guilabel>Altitude Direction</guilabel> combo box accordingly. Ekos will take two images and calculates the error. You can ask Ekos to correct Altitude error by clicking on the <guibutton>Correct Alt Error</guibutton> button. As with Azimuth correction, Ekos will slew to a new location and asks you to adjust the mount's altitude knobs until the star is in the center of the FOV."
+msgstr "De même, pour mesurer l'erreur en altitude, cliquez sur le bouton <guibutton>Mesurer erreur Alt</guibutton>. Vous devez pointer la monture soit à l'est soit à l'ouest et réglez <guilabel>Direction Altitude</guilabel> en fonction. Ekos va prendre deux images et calculer l'erreur. Vous demandez ensuite à Ekos de corriger l'erreur en altitude en cliquant sur le bouton <guibutton>Corriger erreur Alt</guibutton>. Comme avec l'erreur en azimut, Ekos va pivoter vers une nouvelle position et vous demandera d'ajuster la position en altitude de la monture avec la molette de la monture jusqu'à ce que l'étoile se trouve au centre du champ de vision."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:635
 #, no-c-format
-msgid ""
-"After making a correction, it is recommended to measure the Azimuth and "
-"Altitude errors again and gauge the difference. You may need to perform the "
-"correction more than once to obtain optimal results."
-msgstr ""
-"Après avoir apporté ces correction, il est recommandé de mesurer à nouveau "
-"les erreurs en azimut et en altitude pour juger de la différence. Il peut "
-"ainsi être nécessaire de réaliser ce processus plus d'une fois pour obtenir "
-"un résultat optimal."
+msgid "After making a correction, it is recommended to measure the Azimuth and Altitude errors again and gauge the difference. You may need to perform the correction more than once to obtain optimal results."
+msgstr "Après avoir apporté ces correction, il est recommandé de mesurer à nouveau les erreurs en azimut et en altitude pour juger de la différence. Il peut ainsi être nécessaire de réaliser ce processus plus d'une fois pour obtenir un résultat optimal."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:638
 #, no-c-format
-msgid ""
-"Before starting the Polar Alignment tool, you must complete the GOTO "
-"Workflow above for at least one point in the sky. Once your mount is "
-"aligned, proceed with the following (assuming you live in the northern "
-"hemisphere):"
-msgstr ""
-"Avant de commencer l'outil d'alignement polaire, vous devez terminer la "
-"procédure GOTO ci-dessus pour au moins un point dans le ciel. Une fois que "
-"la monture est alignée, vous pouvez poursuivre (en faisant l'hypothèse que "
-"vous êtes dans l'hémisphère Nord) :"
+msgid "Before starting the Polar Alignment tool, you must complete the GOTO Workflow above for at least one point in the sky. Once your mount is aligned, proceed with the following (assuming you live in the northern hemisphere):"
+msgstr "Avant de commencer l'outil d'alignement polaire, vous devez terminer la procédure GOTO ci-dessus pour au moins un point dans le ciel. Une fois que la monture est alignée, vous pouvez poursuivre (en faisant l'hypothèse que vous êtes dans l'hémisphère Nord) :"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:643
 #, no-c-format
-msgid ""
-"Slew to a <emphasis role=\"bold\">bright</emphasis> star (4th magnitude or "
-"below) near the southern meridian (Azimuth 180). Make sure <guilabel>Slew to"
-" Target</guilabel> is selected. Capture and solve. The star should be "
-"exactly centered in your CCD field of view."
-msgstr ""
-"Pointez une étoile <emphasis role=\"bold\">brillante</emphasis> (magnitude 4"
-" ou moins) près du méridien sud (azimut 180). Assurez-vous que l'option "
-"<guilabel>Pivoter vers cible</guilabel> est sélectionnée. Cliquez sur le "
-"bouton <guibutton>Acquisition &amp; Résolution</guibutton>. L'étoile devrait"
-" être centrée parfaitement dans votre champ de vision."
+msgid "Slew to a <emphasis role=\"bold\">bright</emphasis> star (4th magnitude or below) near the southern meridian (Azimuth 180). Make sure <guilabel>Slew to Target</guilabel> is selected. Capture and solve. The star should be exactly centered in your CCD field of view."
+msgstr "Pointez une étoile <emphasis role=\"bold\">brillante</emphasis> (magnitude 4 ou moins) près du méridien sud (azimut 180). Assurez-vous que l'option <guilabel>Pivoter vers cible</guilabel> est sélectionnée. Cliquez sur le bouton <guibutton>Acquisition &amp; Résolution</guibutton>. L'étoile devrait être centrée parfaitement dans votre champ de vision."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:648
 #, no-c-format
-msgid ""
-"Switch mode to <guilabel>Polar Alignment</guilabel>. Click "
-"<guibutton>Measure Az Error</guibutton>. It will ask you to slew to a star "
-"at the southern meridian which we already done. Click "
-"<guibutton>Continue</guibutton>. Ekos will now perform the error "
-"calculation."
-msgstr ""
-"Changer le mode pour <guilabel>Alignement polaire</guilabel>. Cliquez sur le"
-" bouton <guibutton>Mesurer erreur Az</guibutton>. Cela vous demandera de "
-"pivoter vers une étoile près du méridien sud, ce que nous venons de faire. "
-"Cliquez sur le bouton <guibutton>Continuer</guibutton>. Ekos va maintenant "
-"calculer l'erreur."
+msgid "Switch mode to <guilabel>Polar Alignment</guilabel>. Click <guibutton>Measure Az Error</guibutton>. It will ask you to slew to a star at the southern meridian which we already done. Click <guibutton>Continue</guibutton>. Ekos will now perform the error calculation."
+msgstr "Changer le mode pour <guilabel>Alignement polaire</guilabel>. Cliquez sur le bouton <guibutton>Mesurer erreur Az</guibutton>. Cela vous demandera de pivoter vers une étoile près du méridien sud, ce que nous venons de faire. Cliquez sur le bouton <guibutton>Continuer</guibutton>. Ekos va maintenant calculer l'erreur."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:653
 #, no-c-format
-msgid ""
-"If all goes well, the error is displayed in the output boxes. To correct for"
-" the error, click <guibutton>Correct Az Error</guibutton>. Ekos will now "
-"slew to a different point in the sky, and you will be required to <emphasis "
-"role=\"bold\">ONLY</emphasis> adjust the mount's azimuth knobs to center the"
-" star in the field of view. The most convenient way of monitoring the star "
-"field is by going to the <guilabel>Focus</guilabel> module and clicking "
-"<guibutton>Start Framing</guibutton>. If the azimuth error is great, the "
-"star might not be visible in the CCD field of view, and therefore you have "
-"to make <emphasis>blind</emphasis> adjustments (or simply look through the "
-"finderscope) until the star enters the CCD FOV."
-msgstr ""
-"si tout se passe bien, l'erreur est affichée dans une boîte. Pour corriger "
-"l'erreur, cliquez sur le bouton <guibutton>corriger erreur Az</guibutton>. "
-"Ekos va faire pivoter la monture vers un point différent dans le ciel et "
-"vous devrez <emphasis>seulement</emphasis> ajuster la molette d'azimut pour "
-"centrer l'étoile dans le champ de vision. À nouveau, prenez des images en "
-"boucle pour surveiller votre ajustement. Si l'erreur en azimut est trop "
-"grande, vous risquez de ne pas voir l'étoile dans le champ de vision du CCD "
-"et vous devrez par conséquent faire des ajustements <emphasis>à "
-"l'aveugle</emphasis> (ou simplement regarder dans le chercheur) jusqu'à ce "
-"que l'étoile entre dans le champ de vision du CCD."
+msgid "If all goes well, the error is displayed in the output boxes. To correct for the error, click <guibutton>Correct Az Error</guibutton>. Ekos will now slew to a different point in the sky, and you will be required to <emphasis role=\"bold\">ONLY</emphasis> adjust the mount's azimuth knobs to center the star in the field of view. The most convenient way of monitoring the star field is by going to the <guilabel>Focus</guilabel> module and clicking <guibutton>Start Framing</guibutton>. If the azimuth error is great, the star might not be visible in the CCD field of view, and therefore you have to make <emphasis>blind</emphasis> adjustments (or simply look through the finderscope) until the star enters the CCD FOV."
+msgstr "si tout se passe bien, l'erreur est affichée dans une boîte. Pour corriger l'erreur, cliquez sur le bouton <guibutton>corriger erreur Az</guibutton>. Ekos va faire pivoter la monture vers un point différent dans le ciel et vous devrez <emphasis>seulement</emphasis> ajuster la molette d'azimut pour centrer l'étoile dans le champ de vision. À nouveau, prenez des images en boucle pour surveiller votre ajustement. Si l'erreur en azimut est trop grande, vous risquez de ne pas voir l'étoile dans le champ de vision du CCD et vous devrez par conséquent faire des ajustements <emphasis>à l'aveugle</emphasis> (ou simplement regarder dans le chercheur) jusqu'à ce que l'étoile entre dans le champ de vision du CCD."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:658
 #, no-c-format
-msgid ""
-"Begin your azimuth adjustments until the bright star you slewed to initially"
-" is as close to center as you can get it."
-msgstr ""
-"Commencez vos ajustements en azimut jusqu'à ce que l'étoile brillante se "
-"trouve aussi près du centre que possible."
+msgid "Begin your azimuth adjustments until the bright star you slewed to initially is as close to center as you can get it."
+msgstr "Commencez vos ajustements en azimut jusqu'à ce que l'étoile brillante se trouve aussi près du centre que possible."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:663
 #, no-c-format
-msgid ""
-"<guibutton>Stop Framing</guibutton> in the <link linkend=\"focus-focuser-"
-"group\">Focus module</link>."
-msgstr ""
-"Arrêter l'acquisition en boucle en cliquant sur le bouton <guibutton>Arrêter"
-" en boucle</guibutton> dans le <link linkend=\"focus-focuser-group\">module "
-"de mise au point</link>."
+msgid "<guibutton>Stop Framing</guibutton> in the <link linkend=\"focus-focuser-group\">Focus module</link>."
+msgstr "Arrêter l'acquisition en boucle en cliquant sur le bouton <guibutton>Arrêter en boucle</guibutton> dans le <link linkend=\"focus-focuser-group\">module de mise au point</link>."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:668
 #, no-c-format
-msgid ""
-"Repeat the <guibutton>Measure Az Error</guibutton> to ensure we indeed "
-"corrected the error. You might have to run it more than once to ensure the "
-"results are valid."
-msgstr ""
-"Répétez la procédure <guibutton>Mesurer erreur Az</guibutton> pour s'assurer"
-" que l'erreur a bien été corrigée. Vous devrez peut-être répéter la "
-"procédure pour s'assurer que le résultat est correct."
+msgid "Repeat the <guibutton>Measure Az Error</guibutton> to ensure we indeed corrected the error. You might have to run it more than once to ensure the results are valid."
+msgstr "Répétez la procédure <guibutton>Mesurer erreur Az</guibutton> pour s'assurer que l'erreur a bien été corrigée. Vous devrez peut-être répéter la procédure pour s'assurer que le résultat est correct."
 
 #. Tag: para
 #. +> trunk5
@@ -1981,29 +1257,15 @@ msgstr "Changer le mode pour <guilabel>GOTO</guilabel>."
 #. +> trunk5
 #: ekos-align.docbook:678
 #, no-c-format
-msgid ""
-"Now slew to a <emphasis role=\"bold\">bright</emphasis> star either on the "
-"eastern or western horizon, preferably above 20 degrees of altitude. It has "
-"to be as close as possible to the eastern (90 azimuth) or western (270) "
-"cardinal points."
-msgstr ""
-"Maintenant pivotez la monture vers une étoile <emphasis "
-"role=\"bold\">brillante</emphasis> vers l'horizon ouest ou est mais de "
-"préférence au-dessus de 20 degrés d'altitude. Elle doit se trouver aussi "
-"près que possible des points cardinaux est (azimut 90) ou ouest (azimut "
-"270)."
+msgid "Now slew to a <emphasis role=\"bold\">bright</emphasis> star either on the eastern or western horizon, preferably above 20 degrees of altitude. It has to be as close as possible to the eastern (90 azimuth) or western (270) cardinal points."
+msgstr "Maintenant pivotez la monture vers une étoile <emphasis role=\"bold\">brillante</emphasis> vers l'horizon ouest ou est mais de préférence au-dessus de 20 degrés d'altitude. Elle doit se trouver aussi près que possible des points cardinaux est (azimut 90) ou ouest (azimut 270)."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:683
 #, no-c-format
-msgid ""
-"After slew is complete, capture and solve. The star should be dead center in"
-" the CCD FOV now."
-msgstr ""
-"Après que la rotation soit terminée, cliquez sur le bouton "
-"<guibutton>Acquisition &amp; Résolution</guibutton>. L'étoile devrait être "
-"en plein centre du champ de vision du CCD."
+msgid "After slew is complete, capture and solve. The star should be dead center in the CCD FOV now."
+msgstr "Après que la rotation soit terminée, cliquez sur le bouton <guibutton>Acquisition &amp; Résolution</guibutton>. L'étoile devrait être en plein centre du champ de vision du CCD."
 
 #. Tag: para
 #. +> trunk5
@@ -2016,36 +1278,15 @@ msgstr "Changer le mode pour <guilabel>Alignement polaire</guilabel>."
 #. +> trunk5
 #: ekos-align.docbook:693
 #, no-c-format
-msgid ""
-"Click <guibutton>Measure Alt Error</guibutton>. It will ask you to slew to a"
-" star at either the eastern (Azimuth 90) or western (Azimuth 270) horizon "
-"which we already done. Click <guibutton>Continue</guibutton>. Ekos will now "
-"perform the error calculation."
-msgstr ""
-"Cliquez sur le bouton <guibutton>Mesurer erreur Alt</guibutton>. Il vous "
-"sera demandé de pivoter vers une étoile de l'horizon est (Azimut 90) ou de "
-"l'horizon ouest (azimut 270), ce que nous venons de faire. Cliquez sur le "
-"bouton <guibutton>Continuer</guibutton>. Ekos va maintenant calculer "
-"l'erreur."
+msgid "Click <guibutton>Measure Alt Error</guibutton>. It will ask you to slew to a star at either the eastern (Azimuth 90) or western (Azimuth 270) horizon which we already done. Click <guibutton>Continue</guibutton>. Ekos will now perform the error calculation."
+msgstr "Cliquez sur le bouton <guibutton>Mesurer erreur Alt</guibutton>. Il vous sera demandé de pivoter vers une étoile de l'horizon est (Azimut 90) ou de l'horizon ouest (azimut 270), ce que nous venons de faire. Cliquez sur le bouton <guibutton>Continuer</guibutton>. Ekos va maintenant calculer l'erreur."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:698
 #, no-c-format
-msgid ""
-"To correct for the error, click <guibutton>Correct Alt Error</guibutton>. "
-"Ekos will now slew to a different point in the sky, and you will be required"
-" to <emphasis role=\"bold\">ONLY</emphasis> adjust the mount's altitude "
-"knobs to center the star in the field of view. Start framing as done before "
-"in the <link linkend=\"focus-focuser-group\">focus module</link> to help you"
-" with the centering."
-msgstr ""
-"Pour corriger l'erreur, cliquez sur le bouton <guibutton>Corriger erreur "
-"Alt</guibutton>. Ekos va pivoter vers une nouvelle position dans le ciel et "
-"vous devrez ensuite ajuster <emphasis role=\"bold\">seulement</emphasis> la "
-"molette d'altitude de la monture pour centrer l'étoile dans le champ de "
-"vision. À nouveau, vous pouvez utiliser l'acquisition en boucle pour vous "
-"aider à centrer."
+msgid "To correct for the error, click <guibutton>Correct Alt Error</guibutton>. Ekos will now slew to a different point in the sky, and you will be required to <emphasis role=\"bold\">ONLY</emphasis> adjust the mount's altitude knobs to center the star in the field of view. Start framing as done before in the <link linkend=\"focus-focuser-group\">focus module</link> to help you with the centering."
+msgstr "Pour corriger l'erreur, cliquez sur le bouton <guibutton>Corriger erreur Alt</guibutton>. Ekos va pivoter vers une nouvelle position dans le ciel et vous devrez ensuite ajuster <emphasis role=\"bold\">seulement</emphasis> la molette d'altitude de la monture pour centrer l'étoile dans le champ de vision. À nouveau, vous pouvez utiliser l'acquisition en boucle pour vous aider à centrer."
 
 #. Tag: para
 #. +> trunk5
@@ -2058,14 +1299,8 @@ msgstr "Arrêter l'acquisition en boucle une fois que l'objet est centré."
 #. +> trunk5
 #: ekos-align.docbook:708
 #, no-c-format
-msgid ""
-"Repeat the <guibutton>Measure Alt Error</guibutton> to ensure we indeed "
-"corrected the error. You might have to run it more than once to ensure the "
-"results are valid."
-msgstr ""
-"Répétez la procédure <guibutton>Mesurer erreur Alt</guibutton> pour vous "
-"assurer que l'erreur a bien été corrigée. Vous devrez peut-être répéter "
-"cette procédure pour obtenir un résultat correct."
+msgid "Repeat the <guibutton>Measure Alt Error</guibutton> to ensure we indeed corrected the error. You might have to run it more than once to ensure the results are valid."
+msgstr "Répétez la procédure <guibutton>Mesurer erreur Alt</guibutton> pour vous assurer que l'erreur a bien été corrigée. Vous devrez peut-être répéter cette procédure pour obtenir un résultat correct."
 
 #. Tag: para
 #. +> trunk5
@@ -2078,11 +1313,5 @@ msgstr "L'alignement polaire est maintenant terminé !"
 #. +> trunk5
 #: ekos-align.docbook:718
 #, no-c-format
-msgid ""
-"The mount may slew to a dangerous position and you might risk hitting the "
-"tripod and/or other equipment. Carefully monitor the mount's motion. Use at "
-"your own risk."
-msgstr ""
-"La monture peut pivoter vers une position dangereuse et risque de toucher la"
-" monture ou un autre équipement. Il faut surveiller attentivement son "
-"mouvement. Utilisez à vos risques et périls…"
+msgid "The mount may slew to a dangerous position and you might risk hitting the tripod and/or other equipment. Carefully monitor the mount's motion. Use at your own risk."
+msgstr "La monture peut pivoter vers une position dangereuse et risque de toucher la monture ou un autre équipement. Il faut surveiller attentivement son mouvement. Utilisez à vos risques et périls…"

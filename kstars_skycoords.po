@@ -1,17 +1,17 @@
 # translation of kstars_skycoords.po to french
 # traduction de kstars_skycoords.po en Français
 # Copyright (C) 2002,2003, 2004 Free Software Foundation, Inc.
-#
 # Gérard Delafond <gerard@delafond.org>, 2002,2003.
 # Ludovic Grossard <grossard@kde.org>, 2003, 2004, 2013.
 # xavier <ktranslator31@yahoo.fr>, 2012.
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2013.
 # steve <stax@ik.me>, 2022
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_skycoords_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-22 00:30+0000\n"
+"POT-Creation-Date: 2021-07-22 10:31+0200\n"
 "PO-Revision-Date: 2022-06-12 07:00+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
@@ -110,8 +110,14 @@ msgstr "Le <firstterm>système de coordonnées équatorial</firstterm> est proba
 #. +> trunk5
 #: skycoords.docbook:45
 #, no-c-format
-msgid "However, there is an important difference between the equatorial and geographic coordinate systems: the geographic system is fixed to the Earth; it rotates as the Earth does. The Equatorial system is fixed to the stars<footnote id=\"fn-precess\"><para>Actually, the equatorial coordinates are not quite fixed to the stars. See <link linkend=\"ai-precession\">precession</link>. Also, if <link linkend=\"ai-hourangle\">Hour Angle</link> is used in place of Right Ascension, then the Equatorial system is fixed to the Earth, not to the stars.</para></footnote>, so it appears to rotate across the sky with the stars, but of course it is really the Earth rotating under the fixed sky."
-msgstr "Il existe toutefois une différence importante entre le système de coordonnées équatoriales et le système de coordonnées géographiques : le système géographique est fixé à la Terre ; il tourne avec la Terre. Le système équatorial est fixé aux étoiles<footnote id=\"fn-precess\"><para>En fait, les coordonnées équatoriales ne sont pas tout à fait fixées aux étoiles. Voir <link linkend=\"ai-precession\">précession</link>. De plus, si l'on utilise l'<link linkend=\"ai-hourangle\">angle horaire</link> au lieu de l'ascension droite, le système équatorial devient fixé à la Terre et non aux étoiles.</para></footnote>, donc il semble se déplacer avec les étoiles alors qu'en réalité c'est la Terre qui tourne et le ciel est immobile."
+msgid ""
+"However, there is an important difference between the equatorial and geographic coordinate systems: the geographic system is fixed to the Earth; it rotates as the Earth does. The Equatorial system is fixed to the stars<footnote id=\"fn-precess\">"
+"<para>Actually, the equatorial coordinates are not quite fixed to the stars. See <link linkend=\"ai-precession\">precession</link>. Also, if <link linkend=\"ai-hourangle\">Hour Angle</link> is used in place of Right Ascension, then the Equatorial system is fixed to the Earth, not to the stars.</para>"
+"</footnote>, so it appears to rotate across the sky with the stars, but of course it is really the Earth rotating under the fixed sky."
+msgstr ""
+"Il existe toutefois une différence importante entre le système de coordonnées équatoriales et le système de coordonnées géographiques : le système géographique est fixé à la Terre ; il tourne avec la Terre. Le système équatorial est fixé aux étoiles<footnote id=\"fn-precess\">"
+"<para>En fait, les coordonnées équatoriales ne sont pas tout à fait fixées aux étoiles. Voir <link linkend=\"ai-precession\">précession</link>. De plus, si l'on utilise l'<link linkend=\"ai-hourangle\">angle horaire</link> au lieu de l'ascension droite, le système équatorial devient fixé à la Terre et non aux étoiles.</para>"
+"</footnote>, donc il semble se déplacer avec les étoiles alors qu'en réalité c'est la Terre qui tourne et le ciel est immobile."
 
 #. Tag: para
 #. +> trunk5
