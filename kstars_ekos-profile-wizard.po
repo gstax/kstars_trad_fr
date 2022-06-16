@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos-profile-wizard_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-28 09:15+0200\n"
-"PO-Revision-Date: 2022-06-07 13:57+0200\n"
+"POT-Creation-Date: 2021-07-28 00:32+0000\n"
+"PO-Revision-Date: 2022-06-15 09:21+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -19,7 +19,7 @@ msgstr ""
 #: ekos-profile-wizard.docbook:2
 #, no-c-format
 msgid "<title>Profile Wizard</title>"
-msgstr "<title>Assistant de profil</title>"
+msgstr "<title>Assistant de profil<title>"
 
 #. Tag: primary
 #. +> trunk5
@@ -145,7 +145,7 @@ msgstr "Page de connexion à distance"
 #: ekos-profile-wizard.docbook:77
 #, no-c-format
 msgid "In case selected the 2nd option in the last step, you shall be presented with the Remote Connect Page, here you will enter the hostname or IP address of the StellarMate unit. You can get the hostname from the StellarMate mobile App. Alternatively, you can construct the hostname from StellarMate HotSpot SSID. You should see the SSID when you search for WiFi networks nearby. For example, suppose the SSID is <replaceable>stellarmate</replaceable>. The hostname should be <emphasis><replaceable>stellarmate</replaceable>.local</emphasis>. That is, if you remove the underscore, and append <emphasis>.local</emphasis>, then you will get the unit hostname. You can always use the StellarMate App to change the unit default hostname to the name of your choice."
-msgstr "Dans le cas où vous avez sélectionné la seconde option à l'étape précédente, vous verrez apparaître la page de connexion à distance où vous devrez saisir le nom d'hôte ou l'adresse IP de l'appareil sur lequel est installé StellarMate. Vous pouvez obtenir le nom d'hôte depuis l'application mobile de StellarMate. Autrement, vous pouvez construire le nom d'hôte à partir du SSID de StellarMate qui devrait être visible lors d'une recherche de réseaux wifi. Supposons par exemple que le SSID soit <replaceable>stellarmate</replaceable>. Le nom d'hôte sera alors <emphasis><replaceable>stellarmate</replaceable>.local</emphasis>. Vous pouvez toujours utiliser l'application StellarMate pour modifier le nom d'hôte par défaut à votre convenance."
+msgstr "Dans le cas où vous avez sélectionné la seconde option à l'étape précédente, vous verrez apparaître la page de connexion à distance où vous devrez saisir le nom d'hôte ou l'adresse IP de l'appareil sur lequel est installé StellarMate. Vous pouvez obtenir le nom d'hôte depuis l'application mobile de StellarMate. Autrement, vous pouvez construire le nom d'hôte à partir du SSID de StellarMate qui devrait être visible lors d'une recherche de réseaux wifi. Supposons par exemple que le SSID soit <replaceable>stellarmate</replaceable>. Le nom d'hôte sera alors <emphasis><replaceable>stellarmate.local</replaceable></emphasis>. Vous pouvez toujours utiliser l'application StellarMate pour modifier le nom d'hôte par défaut à votre convenance."
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -180,7 +180,7 @@ msgstr "Page de création de profil"
 #: ekos-profile-wizard.docbook:101
 #, no-c-format
 msgid "Now you get to name your equipment profile. Afterwards select which guider application to use. The <guilabel>Internal Guider</guilabel> is the only officially supported selection in StellarMate. You may opt to select <guimenuitem>PHD2/LinGuider</guimenuitem> but the details are out of the scope of this documentation. If additional services are desired, check the ones you want to run."
-msgstr "Vous pouvez maintenant choisir le nom de profil de votre matériel. Ensuite sélectionnez l'application de guidage que vous souhaitez utiliser. Le <guilabel>guidage interne</guilabel> est le seul officiellement géré par StellarMate. Vous pouvez choisir <guimenu>PHD2</guimenu> ou <guimenu>Guide « Lin »</guimenu> mais les détails ne sont pas couverts pas cette documentation. Si des services additionnels sont souhaités, veuillez cocher ceux que vous voulez utiliser."
+msgstr "Vous pouvez maintenant choisir le nom de profil de votre matériel. Ensuite sélectionnez l'application de guidage que vous souhaitez utiliser. Le <guilabel>guidage interne</guilabel> est le seul officiellement géré par StellarMate. Vous pouvez choisir <guimenu>PHD2</guimenu> ou <guimenu>LinGuider</guimenu> mais les détails ne sont pas couverts pas cette documentation. Si des services additionnels sont souhaités, veuillez cocher ceux que vous voulez utiliser."
 
 #. Tag: screeninfo
 #. +> trunk5

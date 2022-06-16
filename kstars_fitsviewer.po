@@ -1,23 +1,24 @@
 # translation of kstars_fitsviewer.po to Français
-# traduction de kstars_fitsviewer.po en Français
 #
 # Delafond <gerard@delafond.org>, 2005.
 # Ludovic Grossard <grossard@kde.org>, 2005, 2007, 2012.
 # Stanislas Zeller <uncensored.assault@gmail.com>, 2008.
 # Joëlle Cornavin <jcornavin@laposte.net>, 2011.
+# steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_fitsviewer\n"
+"Project-Id-Version: kstars_fitsviewer_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-28 09:15+0200\n"
-"PO-Revision-Date: 2012-07-19 08:14+0200\n"
-"Last-Translator: Ludovic Grossard <grossard@kde.org>\n"
-"Language-Team: French <kde-francophone@kde.org>\n"
+"POT-Creation-Date: 2021-07-28 00:32+0000\n"
+"PO-Revision-Date: 2022-06-15 08:58+0200\n"
+"Last-Translator: steve <stax@ik.me>\n"
+"Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 20.12.0\n"
 
 #. Tag: title
 #. +> trunk5
@@ -44,16 +45,31 @@ msgstr "Afficheur FITS"
 #. +> trunk5
 #: fitsviewer.docbook:7
 #, no-c-format
-msgid "The Flexible Image Transport System (FITS) is the standard format for representing images and data in Astronomy."
-msgstr "Le FITS (Flexible Image Transport System) est le format standard pour représenter les images et les données en astronomie."
+msgid ""
+"The Flexible Image Transport System (FITS) is the standard format for "
+"representing images and data in Astronomy."
+msgstr ""
+"FITS (Flexible Image Transport System) est le format standard pour "
+"représenter les images et les données en astronomie."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:9
-#, fuzzy, no-c-format
-#| msgid "The &kstars; FITS Viewer tool is integrated with the <link linkend=\"indi\">INDI</link> framework for seamless display and manipulation of captured FITS images. To open a FITS file, select <guimenuitem>Open FITS...</guimenuitem> from the <guimenu>File</guimenu> menu, or press <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo>."
-msgid "The &kstars; FITS Viewer tool is automatically invoked when new images are received from the camera. It is primarily used to view and examine FITS data. It is not designed for editing of FITS Images. To open a FITS file, select the <menuchoice><guimenu>File</guimenu> <guimenuitem>Open Image...</guimenuitem></menuchoice> menu item, or press <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo>."
-msgstr "L'outil d'affichage FITS de &kstars; est intégré avec l'infrastructure <link linkend=\"indi\">INDI</link> permettant un affichage fluide et la manipulation des images FITS capturées. Pour ouvrir un fichier FITS, sélectionnez <guimenuitem>Ouvrir FITS...</guimenuitem> depuis le menu <guimenu>Fichier</guimenu> ou appuyez sur <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo>."
+#, no-c-format
+msgid ""
+"The &kstars; FITS Viewer tool is automatically invoked when new images are "
+"received from the camera. It is primarily used to view and examine FITS "
+"data. It is not designed for editing of FITS Images. To open a FITS file, "
+"select the <menuchoice><guimenu>File</guimenu> <guimenuitem>Open "
+"Image...</guimenuitem></menuchoice> menu item, or press <keycombo "
+"action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo>."
+msgstr ""
+"L'outil d'affichage FITS de &kstars; est intégré avec l'infrastructure <link"
+" linkend=\"indi\">INDI</link> permettant un affichage fluide et la "
+"manipulation des images FITS. Pour ouvrir un fichier FITS, sélectionnez "
+"depuis le menu <menuchoice><guimenu>Fichier</guimenu> <guimenuitem>Ouvrir "
+"FITS…</guimenuitem></menuchoice> ou appuyez sur <keycombo "
+"action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo>."
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -73,57 +89,68 @@ msgstr "Outil d'affichage FITS"
 #. +> trunk5
 #: fitsviewer.docbook:27
 #, no-c-format
-msgid "The above diagram illustrates the FITS Viewer work area and window. The tool provides basic functions for image display. FITS data depth is preserved throughout all processing, open, and save functions. While the tool adhere to the FITS standard, it does not support all possible FITS features:"
-msgstr "Le diagramme ci-dessus illustre la zone de travail et la fenêtre de l'afficheur FITS. L'outil fournit les fonctions de base pour l'affichage des images. La profondeur des données FITS est préservée durant tout le processus, ainsi que les fonctions d'ouverture et d'enregistrement. Bien que l'outil adhère au standard FITS, il ne prend pas en charge touttes les fonctionnalités possibles de FITS :"
+msgid ""
+"The above diagram illustrates the FITS Viewer work area and window. The tool"
+" provides basic functions for image display. FITS data depth is preserved "
+"throughout all processing, open, and save functions. While the tool adhere "
+"to the FITS standard, it does not support all possible FITS features:"
+msgstr ""
+"Le diagramme ci-dessus illustre la zone de travail et la fenêtre de "
+"l'afficheur FITS. L'outil fournit les fonctions de base pour l'affichage des"
+" images. La profondeur des données FITS est préservée durant tout le "
+"processus, ainsi que les fonctions d'ouverture et d'enregistrement. Bien que"
+" l'outil adhère au standard FITS, il ne prend pas en charge touttes les "
+"fonctionnalités possibles de FITS :"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:29
 #, no-c-format
 msgid "Support for only <emphasis>one</emphasis> image per file."
-msgstr "prise en charge pour seulement <emphasis>une</emphasis> image par fichier,"
+msgstr ""
+"prise en charge pour seulement <emphasis>une</emphasis> image par fichier,"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:30
-#, fuzzy, no-c-format
-#| msgid "Support for only 2D data. 1D and 3D data are discarded."
+#, no-c-format
 msgid "Support for only 2D and 3D data. 1D data are discarded."
-msgstr "Prise en charge pour seulement les données 2D. Les données 1D et la 3D sont ignorées."
+msgstr ""
+"Prise en charge pour les données 2D et 3D seulement. Les données 1D sont "
+"ignorées."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:32
 #, no-c-format
 msgid "The FITS Viewer window is divided into the following regions:"
-msgstr ""
+msgstr "La fenêtre de l'afficheur FITS est divisée en plusieurs partie:"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:34
 #, no-c-format
 msgid "Main Menu"
-msgstr ""
+msgstr "Menu principal"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:36
 #, no-c-format
 msgid "File"
-msgstr ""
+msgstr "Fichier"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:38
 #, no-c-format
 msgid "Standard Open, Save, and Save As actions."
-msgstr ""
+msgstr "Actions standards Ouvrir, Enregistrer et Enregistrer sous."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:39
-#, fuzzy, no-c-format
-#| msgid "FITS header: Displays FITS header information."
+#, no-c-format
 msgid "FITS Header: Display FITS header table data."
 msgstr "En-tête FITS : affiche les informations d'en-tête FITS."
 
@@ -132,161 +159,169 @@ msgstr "En-tête FITS : affiche les informations d'en-tête FITS."
 #: fitsviewer.docbook:40
 #, no-c-format
 msgid "Debayer: Covert RAW image to RGB."
-msgstr ""
+msgstr "Debayerisation : convertit les images brutes en RGB."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:43
 #, no-c-format
 msgid "Edit"
-msgstr ""
+msgstr "Modifier"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:45
 #, no-c-format
 msgid "Undo: Undo last action."
-msgstr ""
+msgstr "Annuler : annule la dernière action."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:46
 #, no-c-format
 msgid "Redo: Redo last action."
-msgstr ""
+msgstr "Refaire : refait la dernière action."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:47
 #, no-c-format
 msgid "Copy: Copy image to clipboard."
-msgstr ""
+msgstr "Copier : copier l'image dans le presse-papier."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:50
 #, no-c-format
 msgid "View"
-msgstr ""
+msgstr "Afficher"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:52
 #, no-c-format
 msgid "Zoom Controls: Zoom in, Zoom out, standard Zoom."
-msgstr ""
+msgstr "Commandes Zoom : zoom avant, zoom arrière, zoom standard."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:53
 #, no-c-format
 msgid "Filters: Auto Stretch, Contrast, High Pass, Rotate, Flip."
-msgstr ""
+msgstr "Filtres : auto-étirement, contraste, passe haut, rotation, inversion"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:54
 #, no-c-format
 msgid "Mark Stars: Detect and mark stars in the image."
-msgstr ""
+msgstr "Marquage d'étoiles : détecter et marquer les étoiles dans l'image."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:59
 #, no-c-format
 msgid "Main Toolbar"
-msgstr ""
+msgstr "Barre d'outils principales"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:61
 #, no-c-format
 msgid "Open File."
-msgstr ""
+msgstr "Ouvrir un fichier."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:62
 #, no-c-format
-msgid "Save File: Save FITS data. Any filters applied to the image will be saved."
+msgid ""
+"Save File: Save FITS data. Any filters applied to the image will be saved."
 msgstr ""
+"Enregistrer un fichier : enregistre les données FITS. Tout filtre appliqué à"
+" l'image sera enregistré."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:63
 #, no-c-format
 msgid "Save File As."
-msgstr ""
+msgstr "Enregistrer le fichier sous."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:64
 #, no-c-format
 msgid "Undo last action."
-msgstr ""
+msgstr "Annule la dernière action."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:65
 #, no-c-format
 msgid "Redo last action."
-msgstr ""
+msgstr "Refaire la dernière action."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:66
 #, no-c-format
-msgid "Zoom In: Zoom in up to a maximum of 400%. For large images this operation can be very memory intensive. Turn on Limited Resource Mode to save memory."
+msgid ""
+"Zoom In: Zoom in up to a maximum of 400%. For large images this operation "
+"can be very memory intensive. Turn on Limited Resource Mode to save memory."
 msgstr ""
+"Zoom avant : zoom avant jusqu'à un maximum de 400 %. Pour des grosses "
+"images, cette opération peu prendre beaucoup de mémoire. Activer <quote>Mode"
+" de resource limité</quote> pour économiser de la mémoire."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:67
 #, no-c-format
 msgid "Zoom Out."
-msgstr ""
+msgstr "Zoom arrière"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:68
 #, no-c-format
 msgid "View in Actual Size."
-msgstr ""
+msgstr "Afficher à la taille actuel."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:69
 #, no-c-format
 msgid "Zoom to fit."
-msgstr ""
+msgstr "Zoomer pour ajuster."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:70
 #, no-c-format
 msgid "Rotate Right."
-msgstr ""
+msgstr "Tourner à droite."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:71
 #, no-c-format
 msgid "Rotate Left."
-msgstr ""
+msgstr "Tourner à gauche."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:72
 #, no-c-format
 msgid "Flip Horizontal."
-msgstr ""
+msgstr "Inversion horizontale."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:73
 #, no-c-format
 msgid "Flip Vertical."
-msgstr ""
+msgstr "Inversion verticale."
 
 #. Tag: para
 #. +> trunk5
@@ -294,6 +329,7 @@ msgstr ""
 #, no-c-format
 msgid "Show Cross Hairs: Toggles crosshairs in the center of the image."
 msgstr ""
+"Afficher le réticule : bascule l'affichage du réticule au centre de l'image."
 
 #. Tag: para
 #. +> trunk5
@@ -301,27 +337,43 @@ msgstr ""
 #, no-c-format
 msgid "Show Pixel Gridlines: Toggles pixel grid."
 msgstr ""
+"Afficher le quadrillage des pixels : bascule le quadrillage des pixels."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:76
 #, no-c-format
-msgid "Show Equatorial Gridlines: Toggles Equatorial Grid if FITS contains a valid WCS header."
+msgid ""
+"Show Equatorial Gridlines: Toggles Equatorial Grid if FITS contains a valid "
+"WCS header."
 msgstr ""
+"Afficher la grille équatoriale : bascule la grille équatoriale si le fichier"
+" FITS contient une en-tête WCS valide."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:77
 #, no-c-format
-msgid "Show Objects in Image: Identifies objects such as stars, galaxies, and nebulae within the image."
+msgid ""
+"Show Objects in Image: Identifies objects such as stars, galaxies, and "
+"nebulae within the image."
 msgstr ""
+"Afficher les objets dans l'image : identifie des objets tels que les "
+"étoiles, les galaxies et les nébuleuses dans l'image."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:78
 #, no-c-format
-msgid "Center Telescope: Toggle Center Telescope mode. When active and if the image contains a valid WCS header, clicking anywhere in the image triggers the telescope slewing to the clicked point."
+msgid ""
+"Center Telescope: Toggle Center Telescope mode. When active and if the image"
+" contains a valid WCS header, clicking anywhere in the image triggers the "
+"telescope slewing to the clicked point."
 msgstr ""
+"Centrer le télescope : bascule le mode de centrage du télescope. Quand ce "
+"mode est activé et que l'image contient une en-tête WCS valide, un clic "
+"n'importe où dans l'image déclenche le pivotement du télescope vers le point"
+" cliqué."
 
 #. Tag: para
 #. +> trunk5
@@ -329,6 +381,7 @@ msgstr ""
 #, no-c-format
 msgid "Histogram: Toggle histogram view in the side panel."
 msgstr ""
+"Histogramme : bascule l'affichage de l'histogramme dans le panneau latéral."
 
 #. Tag: para
 #. +> trunk5
@@ -336,169 +389,259 @@ msgstr ""
 #, no-c-format
 msgid "Statistics: Toggle FITS Statistic view in the side panel."
 msgstr ""
+"Statistiques : bascule l'affichage des statistiques FITS dans le panneau "
+"latéral."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:81
 #, no-c-format
 msgid "Auto Stretch: Apply Auto Stretch filter to the image."
-msgstr ""
+msgstr "Auto-étirement : applique le filtre d'auto-étirement à l'image."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:84
 #, no-c-format
-msgid "Side Panel: The side panel can be opened by dragging the separator to the right. When dragged to the left, the side panel can also be closed."
+msgid ""
+"Side Panel: The side panel can be opened by dragging the separator to the "
+"right. When dragged to the left, the side panel can also be closed."
 msgstr ""
+"Panneau latéral : le panneau latéral peut être ouvert en tirant le "
+"séparateur vers la droite. En le tirant vers la gauche, il sera fermé."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:86
 #, no-c-format
-msgid "Statistics: Displays image statistics including Minimum, Maximum, Average, and Median values."
+msgid ""
+"Statistics: Displays image statistics including Minimum, Maximum, Average, "
+"and Median values."
 msgstr ""
+"Statistiques : affiche les statistiques de l'image telles que valeurs "
+"minimum, maximum, moyenne et médiane."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:87
 #, no-c-format
-msgid "Histogram: Displays image histogram with controls to adjust the minimum and maximum values for each channel. Both linear and logarithmic scalings are available to apply to the image."
+msgid ""
+"Histogram: Displays image histogram with controls to adjust the minimum and "
+"maximum values for each channel. Both linear and logarithmic scalings are "
+"available to apply to the image."
 msgstr ""
+"Histogramme : affiche l'histogramme de l'image avec la possibilité d'ajuster"
+" les valeurs minimum et maximum pour chaque canal. Les échelles linéaires et"
+" logarithmiques sont disponibles pour application à l'image."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:88
-#, fuzzy, no-c-format
-#| msgid "FITS header: Displays FITS header information."
-msgid "FITS Header: Displays a table for FITS header keywords, values, and comments."
-msgstr "En-tête FITS : affiche les informations d'en-tête FITS."
+#, no-c-format
+msgid ""
+"FITS Header: Displays a table for FITS header keywords, values, and "
+"comments."
+msgstr ""
+"En-tête FITS : affiche un tableau des en-tête FITS avec les mots-clés, les "
+"valeurs et les commentaires."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:89
 #, no-c-format
-msgid "Recent Images: Displays recently opened images. Clicking on any image will load it."
+msgid ""
+"Recent Images: Displays recently opened images. Clicking on any image will "
+"load it."
 msgstr ""
+"Images récentes : affiche les images récemment ouvertes. Un clic sur "
+"n'importe quelle image l'ouvrira."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:92
 #, no-c-format
-msgid "Image Display Area. Hovering over the image will update the status bar values accordingly."
+msgid ""
+"Image Display Area. Hovering over the image will update the status bar "
+"values accordingly."
 msgstr ""
+"Aire d'affichage de l'image. Le survol de l'image par la souris indiquera "
+"les valeurs en conséquence."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:94
 #, no-c-format
-msgid "Status Bar: From right to left, the following status indicators are available:"
+msgid ""
+"Status Bar: From right to left, the following status indicators are "
+"available:"
 msgstr ""
+"Barre d'état : les indicateurs d'état suivant sont (droite vers gauche) :"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:96
 #, no-c-format
-msgid "Loading Indicator: The LED becomes yellow when an image is getting loaded and turns green after loading is successfully done. If there are problems with loading the image, it turns red."
+msgid ""
+"Loading Indicator: The LED becomes yellow when an image is getting loaded "
+"and turns green after loading is successfully done. If there are problems "
+"with loading the image, it turns red."
 msgstr ""
+"Indicateur de chargement : la LED devient jaune quand une image est en train"
+" d'être chargée et passe au vert quand le chargement s'est terminé avec "
+"succès. Si des erreurs ont été rencontrées, elle sera rouge."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:97
 #, no-c-format
 msgid "Resolution: Image resolution in pixels."
-msgstr ""
+msgstr "Résolution : la résolution de l'image en pixels."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:98
 #, no-c-format
-msgid "Cartesian Coordinates: Displays and updates the current mouse position as you hover over the image. It include the X and Y position in addition to the current value."
+msgid ""
+"Cartesian Coordinates: Displays and updates the current mouse position as "
+"you hover over the image. It include the X and Y position in addition to the"
+" current value."
 msgstr ""
+"Coordonnées cartésiennes : affiche et actualise la position courante de la "
+"souris en passant au-dessus de l'image. Cela inclut la position en X et en Y"
+" ainsi que la valeur courante."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:99
 #, no-c-format
-msgid "Equatorial Coordinates: If the image contains a valid WCS header, the J2000 Right Ascension (RA) and declination (DE) values are displayed."
+msgid ""
+"Equatorial Coordinates: If the image contains a valid WCS header, the J2000 "
+"Right Ascension (RA) and declination (DE) values are displayed."
 msgstr ""
+"Coordonnées équatoriales : si l'image contient une en-tête WCS valide, "
+"l'ascension droite J2000 (AD) et la déclinaison (Déc) sont affichées."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:103
 #, no-c-format
-msgid "In addition to image display, the viewer can process World-Coordinate-System (WCS) header if present within the FITS file and provides useful information regarding the objects found within the image, equatorial grid overlay, popup menu, and the ability to slew the mount (if connected) to any point within the image."
+msgid ""
+"In addition to image display, the viewer can process World-Coordinate-System"
+" (WCS) header if present within the FITS file and provides useful "
+"information regarding the objects found within the image, equatorial grid "
+"overlay, popup menu, and the ability to slew the mount (if connected) to any"
+" point within the image."
 msgstr ""
+"Outre l'affichage de l'image, l'afficheur peut traiter l'éventuelle en-tête "
+"WCS (World Coordinate System) qui fournit des informations précieuses "
+"concernant les objets présents dans l'image, la superposition de la grille "
+"équatoriales, un menu contextuel et la possibilité de pivoter le télescope "
+"vers n'importe quel point de l'image."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:106
 #, no-c-format
-msgid "Several filters can be applied to enhance the image include auto stretch and high contrast. Depending on the image size, these operations can take a few seconds to complete. The bottom status bar displays the current pixel value and current X &amp; Y coordinates of the mouse pointer within the image. Furthermore, it includes the current zoom level and the image resolution."
+msgid ""
+"Several filters can be applied to enhance the image include auto stretch and"
+" high contrast. Depending on the image size, these operations can take a few"
+" seconds to complete. The bottom status bar displays the current pixel value"
+" and current X &amp; Y coordinates of the mouse pointer within the image. "
+"Furthermore, it includes the current zoom level and the image resolution."
 msgstr ""
+"Plusieurs filtres peuvent être appliqués pour améliorer l'image en incluant "
+"l'auto-étirement et le haut contraste. Ces opérations peuvent prendre "
+"quelques secondes selon la taille de l'image. La barre d'état du bas affiche"
+" la valeur du pixel survolé ainsi que les coordonnées X et Y. Enfin, elle "
+"inclut le niveau de zoom actuel et la résolution de l'image."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:109
 #, no-c-format
-msgid "When loading a bayered image, the viewer can automatically debayer the image if <emphasis>Auto Debayer</emphasis> is checked in the FITS Settings. The debayering operation fetches the bayer pattern (&eg; RGGB) from the FITS header. If none exists, you can alter the debayering algorithm and pattern from the <guimenu>File</guimenu> menu or by using the <keycombo>&Ctrl; <keycap>D</keycap></keycombo> shortcut."
+msgid ""
+"When loading a bayered image, the viewer can automatically debayer the image"
+" if <emphasis>Auto Debayer</emphasis> is checked in the FITS Settings. The "
+"debayering operation fetches the bayer pattern (&eg; RGGB) from the FITS "
+"header. If none exists, you can alter the debayering algorithm and pattern "
+"from the <guimenu>File</guimenu> menu or by using the <keycombo>&Ctrl; "
+"<keycap>D</keycap></keycombo> shortcut."
 msgstr ""
+"Quand une image bayerisé est chargée, l'afficheur peur automatiquement la "
+"débayériser si le réglage FITS <quote>Auto débayerisation</quote> est coché."
+" Cette opération lit le motif de Bayer (&cad; RGGB) dans l'en-tête FITS. Si "
+"aucun n'est trouvé, vous pouvez modifier l'algorithme et le motif dans le "
+"menu <guimenu>Fichier</guimenu> ou avec le raccourci <keycombo>&Ctrl; "
+"<keycap>D</keycap></keycombo>."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:112
 #, no-c-format
-msgid "Since operations such as auto debayering and auto WCS are computationally expensive and stress the processor on low-powered embedded devices, you can toggle their behavior in <link linkend=\"fits-configure\">&kstars; Settings FITS page</link>."
+msgid ""
+"Since operations such as auto debayering and auto WCS are computationally "
+"expensive and stress the processor on low-powered embedded devices, you can "
+"toggle their behavior in <link linkend=\"fits-configure\">&kstars; Settings "
+"FITS page</link>."
 msgstr ""
+"Comme les opérations d'auto-débayérisation et d'auto WCS sont très "
+"gourmandes en puissance de calculs, vous pouvez désactiver ce comportement "
+"dans la <link linkend=\"fits-configure\">page FITS des réglages de "
+"&kstars;</link>."
 
 #. Tag: screeninfo
 #. +> trunk5
 #: fitsviewer.docbook:116
 #, no-c-format
 msgid "<screeninfo>FITS Settings</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Réglages FITS</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: fitsviewer.docbook:124
 #, no-c-format
 msgid "<phrase>FITS Settings</phrase>"
-msgstr ""
+msgstr "<phrase>Réglages FITS</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:128
 #, no-c-format
-msgid "Hovering over any option shall display a detailed tooltip that explains its function."
+msgid ""
+"Hovering over any option shall display a detailed tooltip that explains its "
+"function."
 msgstr ""
+"Le survol d'une option affichera une infobulle détaillée expliquant sa "
+"fonction."
 
 #. Tag: title
 #. +> trunk5
 #: fitsviewer.docbook:132
 #, no-c-format
 msgid "Features"
-msgstr ""
+msgstr "Fonctionnalités"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:135
-#, fuzzy, no-c-format
-#| msgid "Support for 8, 16, 32, IEEE -32, and IEEE -64 bits formats."
+#, no-c-format
 msgid "Support for 8, 16, 32, IEEE-32, and IEEE-64 bits formats."
-msgstr "Gestion des formats sur 8, 16, 32, IEEE -32 et IEEE -64 bits"
+msgstr "Gestion des formats sur 8, 16, 32, IEEE-32 et IEEE-64 octets"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:140
 #, no-c-format
 msgid "Support Color FITS images (3D Cubes) and Bayered FITS images."
-msgstr ""
+msgstr "Gère les images FITS couleurs (cubes 3D) et les images FITS de Bayer."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:145
 #, no-c-format
 msgid "Histogram with linear, logarithmic, and square-root scales."
-msgstr "Histogramme avec les échelles linéaire, logarithmique et racine carrée."
+msgstr ""
+"Histogramme avec les échelles linéaire, logarithmique et racine carrée."
 
 #. Tag: para
 #. +> trunk5
@@ -533,14 +676,14 @@ msgstr "statistiques,"
 #: fitsviewer.docbook:170
 #, no-c-format
 msgid "Rectangular and Equatorial Grids (if WCS info is present)."
-msgstr ""
+msgstr "Grille rectangulaire et équatoriales (si l'info WCS est présente)."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:175
 #, no-c-format
 msgid "Detection and highlight of stars."
-msgstr ""
+msgstr "Détection et mise en valeur des étoiles."
 
 #. Tag: para
 #. +> trunk5
@@ -561,37 +704,44 @@ msgstr "annuler / refaire."
 #: fitsviewer.docbook:192
 #, no-c-format
 msgid "<term>Histogram</term>"
-msgstr ""
+msgstr "<term>Histogramme</term>"
 
 #. Tag: screeninfo
 #. +> trunk5
 #: fitsviewer.docbook:195
 #, no-c-format
 msgid "<screeninfo>Histogram</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Histogramme</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: fitsviewer.docbook:203
 #, no-c-format
 msgid "<phrase>Histogram</phrase>"
-msgstr ""
+msgstr "<phrase>Histogramme</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:207
-#, fuzzy, no-c-format
-#| msgid "Histogram: Displays one-channel FITS histogram. The user can rescale the image by optionally defining an upper and lower limit for the cutoff region. The rescaling operation (linear, logarithmic, or square-root) may then be applied to the region enclosed by the upper and lower limits."
-msgid "Displays multi-channel FITS histogram. The user can rescale the image by optionally defining an upper and lower limit for the cutoff region. The rescaling operation (linear, logarithmic, or square-root) may then be applied to the region enclosed by the upper and lower limits."
-msgstr "Histogramme : affiche un histogramme FITS à un canal. L'utilisateur peut changer l'échelle de l'image en définissant optionnellement une limite supérieure et inférieure pour la région coupée. L'opération de changement de l'échelle (linéaire, logarithmique ou racine carrée) peut ensuite être appliquée à la région entourée par les limites supérieure et inférieure."
+#, no-c-format
+msgid ""
+"Displays multi-channel FITS histogram. The user can rescale the image by "
+"optionally defining an upper and lower limit for the cutoff region. The "
+"rescaling operation (linear, logarithmic, or square-root) may then be "
+"applied to the region enclosed by the upper and lower limits."
+msgstr ""
+"Affiche un histogramme FITS à plusieurs canaux. L'utilisateur peut changer "
+"l'échelle de l'image en définissant facultativement une limite supérieure et"
+" inférieure pour la région coupée. L'opération de changement de l'échelle "
+"(linéaire, logarithmique ou racine carrée) peut ensuite être appliquée à la "
+"région entourée par les limites supérieure et inférieure."
 
 #. Tag: term
 #. +> trunk5
 #: fitsviewer.docbook:213
-#, fuzzy, no-c-format
-#| msgid "FITS Viewer"
+#, no-c-format
 msgid "FITS Header"
-msgstr "Afficheur FITS"
+msgstr "En-tête FITS"
 
 #. Tag: para
 #. +> trunk5
@@ -599,93 +749,106 @@ msgstr "Afficheur FITS"
 #, no-c-format
 msgid "Displays a read-only table listing FITS header keywords and values."
 msgstr ""
+"Affiche les valeurs et les mots-clés FITS dans une table en lecture seule."
 
 #. Tag: term
 #. +> trunk5
 #: fitsviewer.docbook:221
-#, fuzzy, no-c-format
-#| msgid "Statistics."
+#, no-c-format
 msgid "Statistics"
-msgstr "statistiques,"
+msgstr "statistiques"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:223
-#, fuzzy, no-c-format
-#| msgid "Statistics: Provides simple statistics for minimum and maximum pixel values and their respective locations. FITS depth, dimension, mean, and standard deviation."
-msgid "Provides simple statistics for minimum and maximum pixel values and their respective locations. FITS depth, dimension, mean, and standard deviation."
-msgstr "Statistiques : fournit des statistiques simples pour les valeurs minimales et maximales de pixel et leurs emplacements respectifs. La profondeur, la dimension, la moyenne et l'écart-type FITS."
+#, no-c-format
+msgid ""
+"Provides simple statistics for minimum and maximum pixel values and their "
+"respective locations. FITS depth, dimension, mean, and standard deviation."
+msgstr ""
+"Fournit des statistiques simples pour les valeurs minimales et maximales de "
+"pixel et leurs emplacements respectifs. La profondeur, la dimension, la "
+"moyenne et l'écart-type FITS."
 
 #. Tag: title
 #. +> trunk5
 #: fitsviewer.docbook:232
-#, fuzzy, no-c-format
-#| msgid "FITS Viewer"
+#, no-c-format
 msgid "Embedded FITS Viewer"
-msgstr "Afficheur FITS"
+msgstr "Afficheur FITS intégré"
 
 #. Tag: screeninfo
 #. +> trunk5
 #: fitsviewer.docbook:234
 #, no-c-format
 msgid "<screeninfo>FITS Viewer embedded</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Afficheur FITS intégré</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: fitsviewer.docbook:242
 #, no-c-format
 msgid "<phrase>FITS Viewer embedded</phrase>"
-msgstr ""
+msgstr "<phrase>Afficheur FITS intégré</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:246
 #, no-c-format
-msgid "In Ekos <link linkend=\"ekos-focus\">Focus</link>, <link linkend=\"ekos-guide\">Guide</link>, and <link linkend=\"ekos-align\">Align</link> modules, captured images are displayed in the embedded FITS Viewer. The embedded viewer includes a <emphasis>floating bar</emphasis> that can be used to perform several functions:"
+msgid ""
+"In Ekos <link linkend=\"ekos-focus\">Focus</link>, <link linkend=\"ekos-"
+"guide\">Guide</link>, and <link linkend=\"ekos-align\">Align</link> modules,"
+" captured images are displayed in the embedded FITS Viewer. The embedded "
+"viewer includes a <emphasis>floating bar</emphasis> that can be used to "
+"perform several functions:"
 msgstr ""
+"Dans les modules de <link linkend=\"ekos-focus\">mise au point</link>, de "
+"<link linkend=\"ekos-guide\">guidage</link> et d'<link linkend=\"ekos-"
+"align\">alignement</link>, les images acquises sont affichées dans "
+"l'afficheur FITS intégré. Il inclut une <emphasis>barre flottante</emphasis>"
+" qui peut être utilisée pour effectuer plusieurs fonctions :"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:251
 #, no-c-format
 msgid "Zoom Out"
-msgstr ""
+msgstr "Zoom arrière"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:256
 #, no-c-format
 msgid "Zoom In"
-msgstr ""
+msgstr "Zoom avant"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:261
 #, no-c-format
 msgid "Default Zoom"
-msgstr ""
+msgstr "Zoom par défaut"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:266
 #, no-c-format
 msgid "Zoom To Fit"
-msgstr ""
+msgstr "Zoom pour ajuster"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:271
 #, no-c-format
 msgid "Toggle Cross Hairs"
-msgstr ""
+msgstr "Basculer le réticule"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:276
 #, no-c-format
 msgid "Toggle Pixel Gridlines"
-msgstr ""
+msgstr "Basculer la grille de pixel"
 
 #. Tag: para
 #. +> trunk5
@@ -693,155 +856,255 @@ msgstr ""
 #, no-c-format
 msgid "Toggle Detected Stars: Highlight detected stars with red circles."
 msgstr ""
+"Afficher les étoiles détectées : mise en valeur des étoiles détectées avec "
+"des cercles rouges."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:286
 #, no-c-format
 msgid "Star Profile: View detailed 3D star profile."
-msgstr ""
+msgstr "Profile d'étoile : affiche le profile 3D détaillé de l'étoile."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:291
 #, no-c-format
-msgid "The floating bar is automatically hidden once the mouse leaves the embedded viewer area. You can use the mouse to pan and zoom just like the standalone FITS Viewer tool. The green tracking box can be used to select a specific star or region within the image, for example, to select a guide star."
+msgid ""
+"The floating bar is automatically hidden once the mouse leaves the embedded "
+"viewer area. You can use the mouse to pan and zoom just like the standalone "
+"FITS Viewer tool. The green tracking box can be used to select a specific "
+"star or region within the image, for example, to select a guide star."
 msgstr ""
+"La barre flottante est automatiquement cachée dès que la souris quitte la "
+"zone de l'afficheur intégré. Vous pouvez utiliser la souris pour déplacer et"
+" zoomer comme avec l'outil de l'afficheur FITS. La boîte de suivi verte peut"
+" être utilisée pour sélectionner une étoile particulière ou une région de "
+"l'image, par exemple pour choisir une étoile guide."
 
 #. Tag: title
 #. +> trunk5
 #: fitsviewer.docbook:297
 #, no-c-format
 msgid "3D Star Profile &amp; Data Visualization Tool"
-msgstr ""
+msgstr "Profil 3D de l'étoile &amp; outil de visualisation des données"
 
 #. Tag: screeninfo
 #. +> trunk5
 #: fitsviewer.docbook:299
 #, no-c-format
 msgid "<screeninfo>Star Profile main page</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Page principale du profil de l'étoile</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: fitsviewer.docbook:307
 #, no-c-format
 msgid "<phrase>Star Profile main page</phrase>"
-msgstr ""
+msgstr "<phrase>Page principale du profil de l'étoile</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:311
 #, no-c-format
-msgid "The 3D data visualization tool can plot 3D graphs of the selected region of the image. This is particularly useful for astrophotographers who want to visualize the profile of a star they are considering focusing or guiding on. For scientists, it enables them to examine a cross-section of the data to understand the relative brightness of different objects in the image. Additionally, it empowers imagers who want to visually see what is going on in their data collection in a new way."
+msgid ""
+"The 3D data visualization tool can plot 3D graphs of the selected region of "
+"the image. This is particularly useful for astrophotographers who want to "
+"visualize the profile of a star they are considering focusing or guiding on."
+" For scientists, it enables them to examine a cross-section of the data to "
+"understand the relative brightness of different objects in the image. "
+"Additionally, it empowers imagers who want to visually see what is going on "
+"in their data collection in a new way."
 msgstr ""
+"L'outil de visualisation de données 3D peut tracer un graphique 3D d'une "
+"région sélectionnée de l'image. Cela est particulièrement utile pour les "
+"astrophotographes qui souhaite visualiser le profil d'une étoile qu'ils "
+"envisagent d'utiliser comme étoile guide. Pour les scientifiques, cela leurs"
+" permet d'étudier un échantillon des données pour comprendre la luminosité "
+"relative des différents objets de l'image. De plus, cela permet aux "
+"personnes qui souhaitent comprendre visuellement ce qui se passe dans leurs "
+"données d'une nouvelle manière."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:314
 #, no-c-format
-msgid "To use the new feature, the user needs to select the <guiicon>View Star Profile</guiicon> icon in one of the Ekos Module Views, or in the FITS Viewer. Then, the region selected in the green tracking box will show up in the 3D graph as shown above. The user will then have one of the following toolbars at the bottom."
+msgid ""
+"To use the new feature, the user needs to select the <guiicon>View Star "
+"Profile</guiicon> icon in one of the Ekos Module Views, or in the FITS "
+"Viewer. Then, the region selected in the green tracking box will show up in "
+"the 3D graph as shown above. The user will then have one of the following "
+"toolbars at the bottom."
 msgstr ""
+"Pour utiliser cette nouvelle fonctionnalité, l'utilisateur doit sélectionner"
+" l'icône <guiicon>Voir profil de l'étoile</guiicon> dans une des vues des "
+"modules Ekos ou directement dans l'afficheur FITS. Ensuite la région "
+"sélectionnée dans la boîte de suivi verte apparaîtra dans le graphe 3d comme"
+" montré ci-dessus. L'utilisateur aura ensuite une des barre suivantes "
+"d'outils en bas."
 
 #. Tag: screeninfo
 #. +> trunk5
 #: fitsviewer.docbook:318
 #, no-c-format
 msgid "<screeninfo>Star Profile toolbar 1</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Barre d'outils du profil d'étoile 1</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: fitsviewer.docbook:326
 #, no-c-format
 msgid "<phrase>Star Profile toolbar 1</phrase>"
-msgstr ""
+msgstr "<phrase>Barre d'outils du profil d'étoile 1</phrase>"
 
 #. Tag: screeninfo
 #. +> trunk5
 #: fitsviewer.docbook:331
 #, no-c-format
 msgid "<screeninfo>Star Profile toolbar 2</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Barre d'outils du profil d'étoile 2</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: fitsviewer.docbook:339
 #, no-c-format
 msgid "<phrase>Star Profile toolbar 2</phrase>"
-msgstr ""
+msgstr "<phrase>Barre d'outils du profil d'étoile 2</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:343
 #, no-c-format
-msgid "At the far left, the sample size combo box will let the user select the size of the image crop shown in the graph. This option is only available in the <guilabel>Summary Screen</guilabel>, the <link linkend=\"ekos-align\">Align Module</link>, and the FITS Viewer. The second combo box lets the user control whether they are selecting an individual item, or a row, or a column of pixels. The slice button will be enabled if the user selects <guimenuitem>Row</guimenuitem> or <guimenuitem>Column</guimenuitem>. It will put the graph in slice mode so that the user can see a cross-section view of the image. Third, is a checkbox that will open up two sliders that will let the user drag the slider to change the selection. This is extremely useful in the slide mode to change the selected point and to move the cross section around the graph. It is also useful in the normal view when in <guilabel>Explore Mode</guilabel> so that the user can zoom around the image examining the pixels."
+msgid ""
+"At the far left, the sample size combo box will let the user select the size"
+" of the image crop shown in the graph. This option is only available in the "
+"<guilabel>Summary Screen</guilabel>, the <link linkend=\"ekos-align\">Align "
+"Module</link>, and the FITS Viewer. The second combo box lets the user "
+"control whether they are selecting an individual item, or a row, or a column"
+" of pixels. The slice button will be enabled if the user selects "
+"<guimenuitem>Row</guimenuitem> or <guimenuitem>Column</guimenuitem>. It will"
+" put the graph in slice mode so that the user can see a cross-section view "
+"of the image. Third, is a checkbox that will open up two sliders that will "
+"let the user drag the slider to change the selection. This is extremely "
+"useful in the slide mode to change the selected point and to move the cross "
+"section around the graph. It is also useful in the normal view when in "
+"<guilabel>Explore Mode</guilabel> so that the user can zoom around the image"
+" examining the pixels."
 msgstr ""
+"Tout à gauche, la boîte d'échantillon permet à l'utilisateur de choisir la "
+"taille du recadrage de l'image affichée dans le graphe. Cette option n'est "
+"disponible que dans <guilabel>Écran résumé</guilabel>, le module <link "
+"linkend=\"ekos-align\">Alignement</link> et l'afficheur FITS. La deuxième "
+"boîte permet à l'utilisateur de contrôler s'il souhaite un élément "
+"individuel, un rangée ou une colonne de pixels. Le bouton Tranche sera "
+"activé si l'utilisateur sélectionne <guimenuitem>Rangée</guimenuitem> ou "
+"<guimenuitem>Colonne</guimenuitem>. Cela mettra le graphe en mode Tranche "
+"pour permettre à l'utilisateur de voir une vue transversale de l'image. "
+"Troisièmement, il y a une case à cocher qui ouvrira deux curseurs qui "
+"permettent de changer de sélection. Cela est extrêmement utile pour changer "
+"de point sélectionné et se déplacer dans la coupe transversale autour du "
+"graphe. Cela est aussi utile dans l'affichage normal du <guilabel>Mode "
+"exploration</guilabel> pour zoomer dans l'image et examiner les pixels. "
 
 #. Tag: screeninfo
 #. +> trunk5
 #: fitsviewer.docbook:347
 #, no-c-format
 msgid "<screeninfo>Star Profile, examine pixels</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Profil d'étoile, examiner les pixels</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: fitsviewer.docbook:355
 #, no-c-format
 msgid "<phrase>Star Profile, examine pixels</phrase>"
-msgstr ""
+msgstr "<phrase> Profil d'étoile, examiner les pixels</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:359
 #, no-c-format
-msgid "Then the user has the <guilabel>Zoom To</guilabel> combo box, which the user can use to zoom the graph to different preset locations. Next is the combo box that lets the user select the color scheme of the graph. Then are the HFR and the Peak checkboxes, which will both turn on the HFR and Peak labels on each found star in the image, but will also display one of them at the bottom of the screen. And finally comes the Scaling checkbox, which enables the <guilabel>Scaling</guilabel> Side Panel. There are three sliders in that panel, one to control the minimum value displayed on the graph or <quote>black point</quote>, one to control the maximum value displayed in the graph or the <quote>white point</quote>, and a third that is disabled by default that lets the user control the cutoff value for data displayed on the graph."
+msgid ""
+"Then the user has the <guilabel>Zoom To</guilabel> combo box, which the user"
+" can use to zoom the graph to different preset locations. Next is the combo "
+"box that lets the user select the color scheme of the graph. Then are the "
+"HFR and the Peak checkboxes, which will both turn on the HFR and Peak labels"
+" on each found star in the image, but will also display one of them at the "
+"bottom of the screen. And finally comes the Scaling checkbox, which enables "
+"the <guilabel>Scaling</guilabel> Side Panel. There are three sliders in that"
+" panel, one to control the minimum value displayed on the graph or "
+"<quote>black point</quote>, one to control the maximum value displayed in "
+"the graph or the <quote>white point</quote>, and a third that is disabled by"
+" default that lets the user control the cutoff value for data displayed on "
+"the graph."
 msgstr ""
+"Ensuite l'utilisateur a la boîte <guilabel>Zoomer vers</guilabel> qui permet"
+" de zoomer vers des endroits préréglés. Puis il y a la boîte de choix de la "
+"couleur du graphe. Ensuite, les cases à cocher pour activer les étiquettes "
+"pour l'HFR et le pic pour chaque étoile de l'image mais affichera aussi "
+"l'une d'entre elles au bas de l'écran. Et enfin il y a la case à cocher des "
+"échelles qui active le panneau latéral <guilabel>Échelles</guilabel>. Il y a"
+" trois curseurs dans ce panneau, un pour contrôle la valeur minimale "
+"affichée sur le graphe ou le <quote>point noir</quote>, un pour la valeur "
+"maximale affichée sur le graphe ou le <quote>point blanc</quote> et le "
+"troisième qui est désactivé par défaut et qui contrôle la valeur limite des "
+"données à afficher sur le graphe."
 
 #. Tag: screeninfo
 #. +> trunk5
 #: fitsviewer.docbook:363
 #, no-c-format
 msgid "Star Profile vertical page"
-msgstr ""
+msgstr "Page vertical du profil de l'étoile"
 
 #. Tag: phrase
 #. +> trunk5
 #: fitsviewer.docbook:371
 #, no-c-format
 msgid "Star Profile vertical"
-msgstr ""
+msgstr "Vertical du profil de l'étoile"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:375
 #, no-c-format
-msgid "This third slider is very useful to get really big peaks out of the way so you can study the finer details in the image. There is a checkbox at the top to enable/disable the cutoff slider. And finally at the bottom of the sliders is the <guibutton>Auto scale</guibutton> button. This will auto scale the sliders as you sample different areas in the image. It will not only optimize the display of the data but will also affect the minimum and maximum points of the slider. If you disable auto scale, then as you sample different parts of the image, they will be displayed at the same scale. A particularly useful way to use this is to select an area of your image using auto scale, tweak the min, max, and cutoff sliders to your liking, and then turn off the auto scale feature to explore other areas of the graph."
+msgid ""
+"This third slider is very useful to get really big peaks out of the way so "
+"you can study the finer details in the image. There is a checkbox at the top"
+" to enable/disable the cutoff slider. And finally at the bottom of the "
+"sliders is the <guibutton>Auto scale</guibutton> button. This will auto "
+"scale the sliders as you sample different areas in the image. It will not "
+"only optimize the display of the data but will also affect the minimum and "
+"maximum points of the slider. If you disable auto scale, then as you sample "
+"different parts of the image, they will be displayed at the same scale. A "
+"particularly useful way to use this is to select an area of your image using"
+" auto scale, tweak the min, max, and cutoff sliders to your liking, and then"
+" turn off the auto scale feature to explore other areas of the graph."
 msgstr ""
+"Ce troisième curseur est vraiment utile pour se débarrasser des gros pics "
+"afin d'étudier les détails de l'image. Il y a une case à cocher en haut pour"
+" activer ou désactiver le curseur de la limite. Et enfin, juste en dessous "
+"du curseur il y a le bouton <guibutton>Échelle automatique</guibutton>. Cela"
+" ajustera les curseurs alors que vous parcourrez les différentes régions de "
+"l'image. Cela ne fera pas qu'optimiser l'affichage des données mais "
+"affectera aussi les points minimaux et maximaux du curseur. Si vous "
+"désactivez la mise à l'échelle automatique, alors toutes les parties de "
+"l'image seront affichées à la même échelle. Une manière particulièrement "
+"utile d'utiliser cette fonction est de choisir une partie de l'image avec la"
+" mise à l'échelle automatique activée, puis de fignoler les réglages des "
+"trois curseurs, et enfin de désactiver la mise à l'échelle automatique pour "
+"explorer les autres parties de l'image."
 
 #. Tag: screeninfo
 #. +> trunk5
 #: fitsviewer.docbook:379
 #, no-c-format
 msgid "<screeninfo>Star Profile final page</screeninfo>"
-msgstr ""
+msgstr "<screeninfo>Page finale du profile de l'image</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: fitsviewer.docbook:387
 #, no-c-format
 msgid "<phrase>Star Profile final page</phrase>"
-msgstr ""
-
-#~ msgid "FITS Viewer features:"
-#~ msgstr "Fonctionnalités de l'afficheur FITS :"
-
-#~ msgid "The following is a brief description of the tool's functional units:"
-#~ msgstr "Ce qui suit est une brève description des unités fonctionnelles de l'outil :"
-
-#~ msgid "No support for WCS (World Coordinate System)."
-#~ msgstr "Pas de prise en charge pour WCS (World Coordinate System)."
-
-#~ msgid "Support for only 2D data. 1D and 3D data are discarded."
-#~ msgstr "Prise en charge pour seulement les données 2D. Les données 1D et la 3D sont ignorées."
+msgstr "<phrase>Page finale du profil de l'étoile</phrase>"
