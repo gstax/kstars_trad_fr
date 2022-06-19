@@ -1,10 +1,10 @@
 # translation of kstars_wut.po to french
 # traduction de kstars_wut.po en Français
 # Copyright (C) 2003, 2004 Free Software Foundation, Inc.
-#
 # Delafond <gerard@delafond.org>, 2003, 2004.
 # Ludovic Grossard <grossard@kde.org>, 2004, 2012.
 # steve <stax@ik.me>, 2022.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_wut_3.5.8\n"
@@ -21,42 +21,36 @@ msgstr ""
 "X-Generator: Lokalize 20.12.0\n"
 
 #. Tag: title
-#. +> trunk5
 #: wut.docbook:2
 #, no-c-format
 msgid "<title>What's up Tonight? Tool</title>"
 msgstr "<title>Outil <quote>Dans le ciel cette nuit</quote></title>"
 
 #. Tag: primary
-#. +> trunk5
 #: wut.docbook:3
 #, no-c-format
 msgid "Tools"
 msgstr "Outils"
 
 #. Tag: secondary
-#. +> trunk5
 #: wut.docbook:4
 #, no-c-format
 msgid "<secondary>What's up Tonight? Tool</secondary>"
 msgstr "<secondary>Outil <quote>Dans le ciel cette nuit</quote></secondary>"
 
 #. Tag: screeninfo
-#. +> trunk5
 #: wut.docbook:8
 #, no-c-format
 msgid "The What's up Tonight Tool"
 msgstr "L'outil <quote>Dans le ciel cette nuit</quote>"
 
 #. Tag: phrase
-#. +> trunk5
 #: wut.docbook:16
 #, no-c-format
 msgid "What's up Tonight?"
 msgstr "Dans le ciel cette nuit"
 
 #. Tag: para
-#. +> trunk5
 #: wut.docbook:21
 #, no-c-format
 msgid ""
@@ -75,7 +69,6 @@ msgstr ""
 "<guibutton>Changer de position…</guibutton> en haut de cette fenêtre."
 
 #. Tag: para
-#. +> trunk5
 #: wut.docbook:29
 #, no-c-format
 msgid ""
@@ -88,7 +81,6 @@ msgstr ""
 "illuminée de la Lune."
 
 #. Tag: para
-#. +> trunk5
 #: wut.docbook:34
 #, no-c-format
 msgid ""
@@ -120,7 +112,6 @@ msgstr ""
 "des informations détaillées</link> pour cet objet."
 
 #. Tag: para
-#. +> trunk5
 #: wut.docbook:50
 #, no-c-format
 msgid ""
@@ -135,15 +126,15 @@ msgid ""
 "it to Wish List by pressing the <guibutton>Center Object</guibutton> or "
 "<guibutton>Add to List</guibutton> button."
 msgstr ""
-"Par défaut, <quote>Dans le ciel cette nuit</quote> affichera les objets qui sont au-"
-"dessus de l'horizon entre le coucher du Soleil et minuit (&cad; <quote>dans "
-"la soirée</quote>). Vous pouvez choisir d'afficher les objets qui sont entre "
-"minuit et l'aube (<quote>Dans la matinée</quote>) ou entre le crépuscule et "
-"l'aube (<quote>N'importe quand dans la nuit</quote>) en utilisant la liste "
-"déroulante près du haut de la fenêtre. Vous pouvez également choisir de "
-"n'afficher que les objets qui sont plus lumineux qu'une certaine magnitude "
-"en réglant une magnitude minimale dans la boîte <guilabel>Afficher les "
-"objets plus lumineux que la magnitude </guilabel>. Vous pouvez centrer "
-"l'objet sélectionné dans la carte du ciel ou l'ajouter à votre liste de "
-"souhaits en cliquant sur le bouton <guibutton>Centrer l'objet</guibutton> ou "
-"<guibutton>Ajouter à la liste</guibutton>."
+"Par défaut, <quote>Dans le ciel cette nuit</quote> affichera les objets qui "
+"sont au-dessus de l'horizon entre le coucher du Soleil et minuit (&cad; "
+"<quote>dans la soirée</quote>). Vous pouvez choisir d'afficher les objets "
+"qui sont entre minuit et l'aube (<quote>Dans la matinée</quote>) ou entre le "
+"crépuscule et l'aube (<quote>N'importe quand dans la nuit</quote>) en "
+"utilisant la liste déroulante près du haut de la fenêtre. Vous pouvez "
+"également choisir de n'afficher que les objets qui sont plus lumineux qu'une "
+"certaine magnitude en réglant une magnitude minimale dans la boîte "
+"<guilabel>Afficher les objets plus lumineux que la magnitude </guilabel>. "
+"Vous pouvez centrer l'objet sélectionné dans la carte du ciel ou l'ajouter à "
+"votre liste de souhaits en cliquant sur le bouton <guibutton>Centrer "
+"l'objet</guibutton> ou <guibutton>Ajouter à la liste</guibutton>."

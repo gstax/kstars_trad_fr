@@ -15,35 +15,30 @@ msgstr ""
 "X-Generator: Lokalize 20.12.0\n"
 
 #. Tag: title
-#. +> trunk5
 #: ekos-profile-wizard.docbook:2
 #, no-c-format
 msgid "<title>Profile Wizard</title>"
 msgstr "<title>Assistant de profil<title>"
 
 #. Tag: primary
-#. +> trunk5
 #: ekos-profile-wizard.docbook:4
 #, no-c-format
 msgid "Tools"
 msgstr "Outils"
 
 #. Tag: secondary
-#. +> trunk5
 #: ekos-profile-wizard.docbook:5
 #, no-c-format
 msgid "Ekos"
 msgstr "Ekos"
 
 #. Tag: tertiary
-#. +> trunk5
 #: ekos-profile-wizard.docbook:6
 #, no-c-format
 msgid "<tertiary>Profile Wizard</tertiary>"
 msgstr "<tertiary>Assistant de profil</tertiary>"
 
 #. Tag: para
-#. +> trunk5
 #: ekos-profile-wizard.docbook:8
 #, no-c-format
 msgid ""
@@ -57,28 +52,24 @@ msgstr ""
 "profil de matériel."
 
 #. Tag: term
-#. +> trunk5
 #: ekos-profile-wizard.docbook:13
 #, no-c-format
 msgid "Greeting Page"
 msgstr "Page de bienvenue"
 
 #. Tag: screeninfo
-#. +> trunk5
 #: ekos-profile-wizard.docbook:16
 #, no-c-format
 msgid "<screeninfo>Profile Wizard Welcome</screeninfo>"
 msgstr "<screeninfo>Bienvenue à l'assistant de profil</screeninfo>"
 
 #. Tag: phrase
-#. +> trunk5
 #: ekos-profile-wizard.docbook:24
 #, no-c-format
 msgid "<phrase>Profile Wizard Welcome</phrase>"
 msgstr "<phrase>Bienvenue à l'assistant de profil</phrase>"
 
 #. Tag: para
-#. +> trunk5
 #: ekos-profile-wizard.docbook:28
 #, no-c-format
 msgid ""
@@ -90,14 +81,12 @@ msgstr ""
 "continuer."
 
 #. Tag: term
-#. +> trunk5
 #: ekos-profile-wizard.docbook:34
 #, no-c-format
 msgid "Equipment Location Page"
 msgstr "Page de l'emplacement du matériel"
 
 #. Tag: para
-#. +> trunk5
 #: ekos-profile-wizard.docbook:36
 #, no-c-format
 msgid ""
@@ -108,7 +97,6 @@ msgstr ""
 "sélection dépend de l'emplacement où est connecté votre matériel :"
 
 #. Tag: para
-#. +> trunk5
 #: ekos-profile-wizard.docbook:41
 #, no-c-format
 msgid ""
@@ -121,7 +109,6 @@ msgstr ""
 "VNC), sur votre périphérique (&Windows;, &Linux;) ou sur &MacOS;."
 
 #. Tag: para
-#. +> trunk5
 #: ekos-profile-wizard.docbook:46
 #, no-c-format
 msgid ""
@@ -134,7 +121,6 @@ msgstr ""
 "&Linux;) ou &MacOS; et votre matériel est connecté à un ordinateur distant."
 
 #. Tag: para
-#. +> trunk5
 #: ekos-profile-wizard.docbook:51
 #, no-c-format
 msgid ""
@@ -148,35 +134,30 @@ msgstr ""
 "active que pour les versions de &kstars; inférieures à 3.5.8."
 
 #. Tag: screeninfo
-#. +> trunk5
 #: ekos-profile-wizard.docbook:57
 #, no-c-format
 msgid "<screeninfo>Equipment location page</screeninfo>"
 msgstr "<screeninfo>Page de l'emplacement de l'équipement</screeninfo>"
 
 #. Tag: phrase
-#. +> trunk5
 #: ekos-profile-wizard.docbook:65
 #, no-c-format
 msgid "<phrase>Equipment location page</phrase>"
 msgstr "<phrase>Page de l'emplacement de l'équipement</phrase>"
 
 #. Tag: para
-#. +> trunk5
 #: ekos-profile-wizard.docbook:69
 #, no-c-format
 msgid "Click <guibutton>Next</guibutton> to continue."
 msgstr "Cliquez sur <guibutton>Suivant</guibutton> pour continuer."
 
 #. Tag: term
-#. +> trunk5
 #: ekos-profile-wizard.docbook:75
 #, no-c-format
 msgid "Remote Connection Page"
 msgstr "Page de connexion à distance"
 
 #. Tag: para
-#. +> trunk5
 #: ekos-profile-wizard.docbook:77
 #, no-c-format
 msgid ""
@@ -199,26 +180,23 @@ msgstr ""
 "de StellarMate. Autrement, vous pouvez construire le nom d'hôte à partir du "
 "SSID de StellarMate qui devrait être visible lors d'une recherche de réseaux "
 "wifi. Supposons par exemple que le SSID soit <replaceable>stellarmate</"
-"replaceable>. Le nom d'hôte sera alors <emphasis><replaceable>stellarmate.local</"
-"replaceable></emphasis>. Vous pouvez toujours utiliser l'application "
+"replaceable>. Le nom d'hôte sera alors <emphasis><replaceable>stellarmate."
+"local</replaceable></emphasis>. Vous pouvez toujours utiliser l'application "
 "StellarMate pour modifier le nom d'hôte par défaut à votre convenance."
 
 #. Tag: screeninfo
-#. +> trunk5
 #: ekos-profile-wizard.docbook:81
 #, no-c-format
 msgid "<screeninfo>Profile Wizard Remote page</screeninfo>"
 msgstr "<screeninfo>Page de l'assistant profil à distance</screeninfo>"
 
 #. Tag: phrase
-#. +> trunk5
 #: ekos-profile-wizard.docbook:89
 #, no-c-format
 msgid "<phrase>Profile Wizard Remote page</phrase>"
 msgstr "<phrase>Page de l'assistant profil à distance</phrase>"
 
 #. Tag: para
-#. +> trunk5
 #: ekos-profile-wizard.docbook:93
 #, no-c-format
 msgid ""
@@ -232,14 +210,12 @@ msgstr ""
 "<guibutton>Suivant</guibutton> pour continuer."
 
 #. Tag: term
-#. +> trunk5
 #: ekos-profile-wizard.docbook:99
 #, no-c-format
 msgid "Profile Creation Page"
 msgstr "Page de création de profil"
 
 #. Tag: para
-#. +> trunk5
 #: ekos-profile-wizard.docbook:101
 #, no-c-format
 msgid ""
@@ -253,27 +229,24 @@ msgstr ""
 "Vous pouvez maintenant choisir le nom de profil de votre matériel. Ensuite "
 "sélectionnez l'application de guidage que vous souhaitez utiliser. Le "
 "<guilabel>guidage interne</guilabel> est le seul officiellement géré par "
-"StellarMate. Vous pouvez choisir <guimenu>PHD2</guimenu> ou <guimenu>"
-"LinGuider</guimenu> mais les détails ne sont pas couverts pas cette "
+"StellarMate. Vous pouvez choisir <guimenu>PHD2</guimenu> ou "
+"<guimenu>LinGuider</guimenu> mais les détails ne sont pas couverts pas cette "
 "documentation. Si des services additionnels sont souhaités, veuillez cocher "
 "ceux que vous voulez utiliser."
 
 #. Tag: screeninfo
-#. +> trunk5
 #: ekos-profile-wizard.docbook:105
 #, no-c-format
 msgid "<screeninfo>The final page of Profile Wizard</screeninfo>"
 msgstr "<screeninfo>La dernière page de l'assistant profil</screeninfo>"
 
 #. Tag: phrase
-#. +> trunk5
 #: ekos-profile-wizard.docbook:113
 #, no-c-format
 msgid "<phrase>The final page of Profile Wizard</phrase>"
 msgstr "<phrase>La dernière page de l'assistant de profil</phrase>"
 
 #. Tag: para
-#. +> trunk5
 #: ekos-profile-wizard.docbook:120
 #, no-c-format
 msgid ""

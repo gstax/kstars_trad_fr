@@ -20,28 +20,24 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: author
-#. +> trunk5
 #: magnitude.docbook:3
 #, no-c-format
 msgid "<firstname>Girish</firstname> <surname>V</surname>"
 msgstr "<firstname>Girish</firstname> <surname>V</surname>"
 
 #. Tag: title
-#. +> trunk5
 #: magnitude.docbook:7
 #, no-c-format
 msgid "<title>Magnitude Scale</title>"
 msgstr "<title>Échelle de magnitude</title>"
 
 #. Tag: primary
-#. +> trunk5
 #: magnitude.docbook:8
 #, no-c-format
 msgid "<primary>Magnitude Scale</primary>"
 msgstr "<primary>Échelle de magnitude</primary>"
 
 #. Tag: indexterm
-#. +> trunk5
 #: magnitude.docbook:8
 #, no-c-format
 msgid "<seealso>Flux</seealso> <seealso>Star Colors and Temperatures</seealso>"
@@ -50,7 +46,6 @@ msgstr ""
 "seealso>"
 
 #. Tag: para
-#. +> trunk5
 #: magnitude.docbook:12
 #, no-c-format
 msgid ""
@@ -71,7 +66,6 @@ msgstr ""
 "modernisée et quantifiée."
 
 #. Tag: para
-#. +> trunk5
 #: magnitude.docbook:20
 #, no-c-format
 msgid ""
@@ -83,7 +77,6 @@ msgstr ""
 "emphasis> que les étoiles pâles."
 
 #. Tag: para
-#. +> trunk5
 #: magnitude.docbook:25
 #, no-c-format
 msgid ""
@@ -96,7 +89,6 @@ msgstr ""
 "logarithmique :"
 
 #. Tag: para
-#. +> trunk5
 #: magnitude.docbook:29
 #, no-c-format
 msgid "m = m<subscript>0</subscript> - 2.5 log (F / F<subscript>0</subscript>)"
@@ -104,7 +96,6 @@ msgstr ""
 "m = m<subscript>0</subscript> - 2.5 log (F / F<subscript>0</subscript>)"
 
 #. Tag: para
-#. +> trunk5
 #: magnitude.docbook:31
 #, no-c-format
 msgid ""
@@ -127,7 +118,6 @@ msgstr ""
 "est que l'œil humain réagit de manière logarithmique à la lumière."
 
 #. Tag: para
-#. +> trunk5
 #: magnitude.docbook:40
 #, no-c-format
 msgid ""
@@ -147,7 +137,6 @@ msgstr ""
 "flux de chaque objet par rapport à Vega."
 
 #. Tag: para
-#. +> trunk5
 #: magnitude.docbook:48
 #, no-c-format
 msgid ""
@@ -182,14 +171,12 @@ msgstr ""
 "parsecs (d) en utilisant la formule :"
 
 #. Tag: para
-#. +> trunk5
 #: magnitude.docbook:63
 #, no-c-format
 msgid "M = m + 5 - 5 * log(d) (note that M=m when d=10)."
 msgstr "M = m + 5 - 5 * log(d) (notez que M=m quand d=10)."
 
 #. Tag: para
-#. +> trunk5
 #: magnitude.docbook:65
 #, no-c-format
 msgid ""
@@ -201,16 +188,15 @@ msgid ""
 "magnitude, which is one <emphasis>trillion</emphasis> times fainter than "
 "Vega."
 msgstr ""
-"L'échelle moderne de magnitude n'est plus fondée sur l'œil humain, mais "
-"sur les plaques photographiques et les photomètres photoélectriques. Avec "
-"les télescopes, nous pouvons voir des objets bien plus pâles qu'Hipparque ne "
+"L'échelle moderne de magnitude n'est plus fondée sur l'œil humain, mais sur "
+"les plaques photographiques et les photomètres photoélectriques. Avec les "
+"télescopes, nous pouvons voir des objets bien plus pâles qu'Hipparque ne "
 "pouvait voir à l'œil nu, ainsi, l'échelle de magnitude a été étendue au-delà "
 "de 6. Ainsi le télescope spatial Hubble peut voir des images d'étoiles "
 "proches d'une magnitude 30 qui est un <emphasis>mille milliards</emphasis> "
 "de fois plus pâle que Vega."
 
 #. Tag: para
-#. +> trunk5
 #: magnitude.docbook:73
 #, no-c-format
 msgid ""
@@ -227,3 +213,6 @@ msgstr ""
 "travers un filtre <quote>visuel</quote>, qui est vert, m<subscript>B</"
 "subscript> est la magnitude à travers un filtre bleu, m<subscript>pg</"
 "subscript> est la magnitude de plaque photographique, &etc;)."
+
+#~ msgid "m = m_0 - 2.5 log (F / F_0)"
+#~ msgstr "m = m_0 - 2.5 log (F / F_0)"

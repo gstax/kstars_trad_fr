@@ -16,28 +16,24 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: author
-#. +> trunk5
 #: epoch.docbook:3
 #, no-c-format
 msgid "<firstname>Akarsh</firstname> <surname>Simha</surname>"
 msgstr "<firstname>Akarsh</firstname> <surname>Simha</surname>"
 
 #. Tag: title
-#. +> trunk5
 #: epoch.docbook:8
 #, no-c-format
 msgid "<title>Epoch</title>"
 msgstr "<title>Période</title>"
 
 #. Tag: primary
-#. +> trunk5
 #: epoch.docbook:9
 #, no-c-format
 msgid "<primary>Epoch</primary>"
 msgstr "<primary>Période</primary>"
 
 #. Tag: para
-#. +> trunk5
 #: epoch.docbook:10
 #, no-c-format
 msgid ""
@@ -52,12 +48,11 @@ msgstr ""
 "passé) utilisé comme référence pour la mesure du temps en astronomie. Pour "
 "faciliter les calculs, les astronomes utilisent généralement le nombre de "
 "jours qui se sont écoulés depuis un certain moment de temps, comme une façon "
-"de représenter le temps dans les calculs d'astronomie. La référence <quote>point "
-"de départ</quote> arbitrairement choisi pour le calcul de temps est nommé une "
-"période."
+"de représenter le temps dans les calculs d'astronomie. La référence "
+"<quote>point de départ</quote> arbitrairement choisi pour le calcul de temps "
+"est nommé une période."
 
 #. Tag: para
-#. +> trunk5
 #: epoch.docbook:18
 #, no-c-format
 msgid ""
@@ -73,7 +68,6 @@ msgstr ""
 "sont généralement marqués comme valable pour une certaine période."
 
 #. Tag: para
-#. +> trunk5
 #: epoch.docbook:26
 #, no-c-format
 msgid ""
@@ -87,7 +81,6 @@ msgstr ""
 "UTC. D'autres périodes incluent B1900 et B1950."
 
 #. Tag: para
-#. +> trunk5
 #: epoch.docbook:32
 #, no-c-format
 msgid "&kstars; supports catalogs based on J2000.0 and B1950.0 epochs."

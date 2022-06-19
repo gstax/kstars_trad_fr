@@ -1,11 +1,11 @@
 # translation of kstars.po to français
 # traduction de kstars.po en Français
 # Copyright (C) 2002,2003, 2004, 2005, 2007, 2008 Free Software Foundation, Inc.
-#
 # Gérard Delafond <gerard@delafond.org>, 2002,2003, 2004, 2005.
 # Ludovic Grossard <grossard@kde.org>, 2002, 2003, 2004, 2005, 2007, 2009, 2010, 2011, 2013.
 # Stanislas Zeller <uncensored.assault@gmail.com>, 2008.
 # steve <stax@ik.me>, 2022.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_3.5.8\n"
@@ -323,10 +323,10 @@ msgstr ""
 "siège devant votre ordinateur. Il offre une simulation graphique hautement "
 "précise du ciel, pour toute date et tout endroit sur Terre. Le programme "
 "inclut plus de 126 000 étoiles jusqu'à la neuvième magnitude (bien au-delà "
-"de la limite de l'œil nu), 13 000 <quote>objets lointains</quote> des catalogues "
-"Messier, NGC et IC, toutes les planètes du système solaire, le Soleil et la "
-"Lune, des centaines de comètes et astéroïdes, la Voie Lactée, 88 "
-"constellations et des lignes guides comme <link linkend=\"ai-cequator"
+"de la limite de l'œil nu), 13 000 <quote>objets lointains</quote> des "
+"catalogues Messier, NGC et IC, toutes les planètes du système solaire, le "
+"Soleil et la Lune, des centaines de comètes et astéroïdes, la Voie Lactée, "
+"88 constellations et des lignes guides comme <link linkend=\"ai-cequator"
 "\">l'équateur céleste</link>, <link linkend=\"ai-horizon\">l'horizon</link> "
 "et <link linkend=\"ai-ecliptic\">l'écliptique</link>."
 
@@ -550,3 +550,53 @@ msgstr ""
 #, no-c-format
 msgid "&underFDL;"
 msgstr "&underFDL;"
+
+#~ msgid "mutlaqja AT ikarustech DOT com"
+#~ msgstr "mutlaqja AT ikarustech DOT com"
+
+#, fuzzy
+#~| msgid "2.0.0 (&kde; 4.9)"
+#~ msgid "2.7.2 (Applications 17.04)"
+#~ msgstr "2.0.0 (&kde; 4.9)"
+
+#~ msgid ""
+#~ "&kstars; is a graphical desktop planetarium for &kde;. It depicts an "
+#~ "accurate simulation of the night sky, including stars, constellations, "
+#~ "star clusters, nebulae, galaxies, all planets, the Sun, the Moon, comets "
+#~ "and asteroids. You can see the sky as it appears from any location on "
+#~ "Earth, on any date. The user interface is highly intuitive and flexible; "
+#~ "the display can be panned and zoomed with the mouse, and you can easily "
+#~ "identify objects, and track their motion across the sky. &kstars; "
+#~ "includes many powerful features, yet the interface is clean and simple, "
+#~ "and fun to use."
+#~ msgstr ""
+#~ "&kstars; est un planétarium de bureau pour &kde;. Il dessine une "
+#~ "simulation précise du ciel nocturne, comprenant les étoiles, "
+#~ "constellations, amas d'étoiles, nébuleuses, galaxies, toutes les "
+#~ "planètes, le Soleil, la Lune, les comètes et les astéroïdes. Vous pouvez "
+#~ "voir le ciel comme il apparaît de n'importe quel endroit de la Terre, "
+#~ "n'importe quel jour. L'interface utilisateur est très intuitive et "
+#~ "flexible. L'affichage peut être déplacé et zoomé avec la souris et vous "
+#~ "pouvez facilement identifier les objets, et suivre leur mouvement à "
+#~ "travers le ciel. &kstars; inclut beaucoup de fonctionnalités puissantes, "
+#~ "bien que l'interface soit propre et simple et d'utilisation amusante."
+
+#~ msgid ""
+#~ "Our <link linkend=\"tool-calculator\">Astrocalculator</link> tool "
+#~ "provides direct access to many of the algorithms the program uses behind "
+#~ "the scenes, including coordinate converters and time calculators. The "
+#~ "<link linkend=\"tool-aavso\">AAVSO Lightcurve Generator</link> tool will "
+#~ "download a lightcurve for any of the 6000+ variable stars monitored by "
+#~ "the American Association of Variable Star Observers (AAVSO). The "
+#~ "lightcurves are generated <quote>on the fly</quote> by querying the AAVSO "
+#~ "server directly, ensuring that you have the very latest data points."
+#~ msgstr ""
+#~ "Notre outil <link linkend=\"tool-calculator\">Astrocalculator</link> "
+#~ "fournit un accès direct à beaucoup d'algorithmes que le programme utilise "
+#~ "en coulisses, y compris les convertisseurs de coordonnées et des "
+#~ "calculateurs de temps. L'outil <link linkend=\"tool-aavso\">AAVSO "
+#~ "Lightcurve Generator</link> téléchargera une courbe de lumière pour "
+#~ "n'importe laquelle des 6 000 étoiles variables surveillées par l'American "
+#~ "Association of Variable Star Observers (AAVSO). Les courbes de lumière "
+#~ "sont fabriquées « au vol » en interrogeant directement le serveur AAVSO, "
+#~ "en s'assurant que vous avez les derniers relevés."

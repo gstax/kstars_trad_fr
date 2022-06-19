@@ -1,12 +1,12 @@
 # translation of kstars_config.po to french
 # traduction de kstars_config.po en Français
 # Copyright (C) 2002,2003, 2004 Free Software Foundation, Inc.
-#
 # Gérard Delafond <gerard@delafond.org>, 2002,2003, 2004.
 # Ludovic Grossard <grossard@kde.org>, 2002, 2003, 2004, 2012.
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2012, 2013.
 # xavier <ktranslator31@yahoo.fr>, 2012.
 # steve <stax@ik.me>, 2022.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_config_3.5.8\n"
@@ -1544,9 +1544,9 @@ msgstr ""
 "la couleur d'affichage des objets pour un thème de couleur spécifique. Un "
 "clic sur un bouton fera apparaître un sélectionneur de couleurs pour choisir "
 "une couleur. La couleur des boutons est initialisée avec les couleurs par "
-"défaut des spécifications du catalogue. La couleur <quote>par défaut</quote> est celle "
-"qui sera choisie pour le catalogue s'il n'existe aucun groupe de couleurs "
-"pour un thème de couleurs."
+"défaut des spécifications du catalogue. La couleur <quote>par défaut</quote> "
+"est celle qui sera choisie pour le catalogue s'il n'existe aucun groupe de "
+"couleurs pour un thème de couleurs."
 
 #. Tag: title
 #: config.docbook:737
@@ -1905,9 +1905,9 @@ msgstr ""
 "configurer l'analyseur csv. Le <guilabel>préfixe de commentaire</guilabel> "
 "est le caractère qui indique qu'une ligne est commentée. Le "
 "<guilabel>séparateur</guilabel> devra être ajusté pour correspondre à celui "
-"du fichier d'entrée. Il s'agit souvent de <quote>,</quote> ou de <quote>;</quote> mais d'autres "
-"séparateurs peuvent être utilisés. Enfin, vous pouvez choisir de sauter un "
-"certain nombre de lignes au début du fichier. Le bouton "
+"du fichier d'entrée. Il s'agit souvent de <quote>,</quote> ou de <quote>;</"
+"quote> mais d'autres séparateurs peuvent être utilisés. Enfin, vous pouvez "
+"choisir de sauter un certain nombre de lignes au début du fichier. Le bouton "
 "<guibutton>Sélectionner</guibutton> vous permet de choisir le fichier csv à "
 "lire avec les configurations ci-dessus. Ensuite, la boîte de dialogue aura "
 "l'apparence de la capture d'écran ci-dessous."
@@ -2661,15 +2661,15 @@ msgstr ""
 "La case à cocher <guilabel>Corriger la réfraction atmosphérique</guilabel> "
 "contrôle si la position des objets est corrigée pour les effets de "
 "l'atmosphère. Du fait que l'atmosphère est une coquille sphérique, la "
-"lumière provenant de l'espace extérieur est <quote>courbée</quote> lorsqu'elle passe à "
-"travers l'atmosphère vers nos télescopes ou nos yeux à la surface de la "
-"Terre. L'effet est plus grand pour les objets proches de l'horizon et change "
-"vraiment l'heure de lever ou de coucher de quelques minutes. En fait, quand "
-"vous <quote>voyez</quote> un coucher du Soleil, la vraie position du Soleil est déjà au-"
-"dessous de l'horizon ; la réfraction atmosphérique le fait apparaître comme "
-"s'il était encore dans le ciel. Notez que la réfraction atmosphérique n'est "
-"jamais prise en compte si vous utilisez les <guilabel>Coordonnées "
-"équatoriales</guilabel>."
+"lumière provenant de l'espace extérieur est <quote>courbée</quote> "
+"lorsqu'elle passe à travers l'atmosphère vers nos télescopes ou nos yeux à "
+"la surface de la Terre. L'effet est plus grand pour les objets proches de "
+"l'horizon et change vraiment l'heure de lever ou de coucher de quelques "
+"minutes. En fait, quand vous <quote>voyez</quote> un coucher du Soleil, la "
+"vraie position du Soleil est déjà au-dessous de l'horizon ; la réfraction "
+"atmosphérique le fait apparaître comme s'il était encore dans le ciel. Notez "
+"que la réfraction atmosphérique n'est jamais prise en compte si vous "
+"utilisez les <guilabel>Coordonnées équatoriales</guilabel>."
 
 #. Tag: primary
 #: config.docbook:1319
@@ -2690,9 +2690,9 @@ msgstr ""
 "La case à cocher <guilabel>Utiliser la rotation animée</guilabel> contrôle "
 "comment l'affichage change lorsqu'une nouvelle position de la mise au point "
 "est sélectionnée dans la carte. Par défaut, vous verrez le ciel bouger ou "
-"<quote>tourner</quote> vers la nouvelle position ; si vous décochez cette option, "
-"l'affichage <quote>sautera</quote> immédiatement vers la nouvelle position de la mise "
-"au point."
+"<quote>tourner</quote> vers la nouvelle position ; si vous décochez cette "
+"option, l'affichage <quote>sautera</quote> immédiatement vers la nouvelle "
+"position de la mise au point."
 
 #. Tag: primary
 #: config.docbook:1326 config.docbook:1337
@@ -2999,3 +2999,102 @@ msgstr ""
 #, no-c-format
 msgid "&hips;"
 msgstr "&hips;"
+
+#, fuzzy
+#~| msgid "Colors page"
+#~ msgid "Colors"
+#~ msgstr "Onglet Couleurs"
+
+#, fuzzy
+#~| msgid "Catalogs page"
+#~ msgid "Messier Catalogue"
+#~ msgstr "Onglet Catalogues"
+
+#, fuzzy
+#~| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
+#~ msgid "<screeninfo>Load Catalog Window</screeninfo>"
+#~ msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
+
+#, fuzzy
+#~| msgid "<phrase>Configure &kstars; Window</phrase>"
+#~ msgid "<phrase>Load Catalog Window</phrase>"
+#~ msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
+
+#, fuzzy
+#~| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
+#~ msgid "<screeninfo>Overwrite Catalog</screeninfo>"
+#~ msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
+
+#, fuzzy
+#~| msgid "<phrase>Configure &kstars; Window</phrase>"
+#~ msgid "<phrase>Overwrite Catalog</phrase>"
+#~ msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
+
+#, fuzzy
+#~| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
+#~ msgid "<screeninfo>Delete Catalog</screeninfo>"
+#~ msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
+
+#, fuzzy
+#~| msgid "Description"
+#~ msgid "Declination"
+#~ msgstr "Description"
+
+#, fuzzy
+#~| msgid "<screeninfo>Configure &kstars; Window</screeninfo>"
+#~ msgid "<screeninfo>Complete info for new catalog</screeninfo>"
+#~ msgstr "<screeninfo>Fenêtre Configuration de &kstars;</screeninfo>"
+
+#, fuzzy
+#~| msgid "<phrase>Configure &kstars; Window</phrase>"
+#~ msgid "<phrase>Complete info for new catalog</phrase>"
+#~ msgstr "<phrase>Fenêtre Configuration de &kstars;</phrase>"
+
+#, fuzzy
+#~| msgid ""
+#~| "In the <guilabel>Catalogs</guilabel> page, you determine which object "
+#~| "catalogs are displayed in the map. The <guilabel>Stars</guilabel> "
+#~| "section also allows you to set the <quote>faint <link linkend=\"ai-"
+#~| "magnitude\">magnitude</link> limit</quote> for stars, and the <link "
+#~| "linkend=\"ai-magnitude\">magnitude</link> limit for displaying the names "
+#~| "and/or magnitudes of stars. Below the stars section, the <guilabel>Deep-"
+#~| "Sky Objects</guilabel> section controls the display of several non-"
+#~| "stellar object catalogs. By default, the list includes the Messier, NGC "
+#~| "and IC catalogs. You can add your own custom object catalogs by pressing "
+#~| "the <guibutton>Import Catalog</guibutton> or <guilabel>Load Catalog</"
+#~| "guilabel> button. For detailed instructions on preparing a catalog data "
+#~| "file, see the <filename>README.customize</filename> file that ships with "
+#~| "&kstars;."
+#~ msgid ""
+#~ "In the <guilabel>Catalogs</guilabel> page, you determine which object "
+#~ "catalogs are displayed in the map. The <guilabel>Stars</guilabel> section "
+#~ "also allows you to set the <quote>faint <link linkend=\"ai-magnitude"
+#~ "\">magnitude</link> limit</quote> for stars, and the <link linkend=\"ai-"
+#~ "magnitude\">magnitude</link> limit for displaying the names and/or "
+#~ "magnitudes of stars. Below the stars section, the <guilabel>Deep-Sky "
+#~ "Objects</guilabel> section controls the display of several non-stellar "
+#~ "object catalogs. By default, the list includes the Messier, NGC and IC "
+#~ "catalogs. You can add your own custom object catalogs by pressing the "
+#~ "<guibutton>Import Catalog</guibutton> or <guilabel>Load Catalog</"
+#~ "guilabel> button. For detailed instructions on preparing a catalog data "
+#~ "file, see the <filename>README.customize</filename> file that ships with "
+#~ "&kstars;. It is possible to define faint limits for sky objects for "
+#~ "zoomed in and zoomed out states of the rendering. When the <guilabel>Show "
+#~ "objects of unknown magnitude</guilabel> item is enabled, objects whose "
+#~ "magnitudes are unknown, or not available to &kstars;, are drawn "
+#~ "irrespective of the faint limits set."
+#~ msgstr ""
+#~ "Dans l'onglet <guilabel>Catalogues</guilabel>, vous déterminez quels "
+#~ "catalogues d'objets sont affichés dans la carte. La section "
+#~ "<guilabel>étoiles</guilabel> vous permet aussi de déterminer la "
+#~ "<quote>limite basse de la <link linkend=\"ai-magnitude\">magnitude</"
+#~ "link></quote> pour les étoiles et la limite de la <link linkend=\"ai-"
+#~ "magnitude\">magnitude</link> pour afficher le nom et/ou la magnitude des "
+#~ "étoiles. Sous la section des étoiles, la section <guilabel>Objets du ciel "
+#~ "profond</guilabel> contrôle l'affichage de plusieurs catalogues d'objets "
+#~ "non stellaires. Par défaut, la liste inclut les catalogues Messier, NGC "
+#~ "et IC. Vous pouvez ajouter vos propres catalogues d'objets en actionnant "
+#~ "le bouton <guibutton>Importer un catalogue...</guibutton>. Pour des "
+#~ "instructions sur la préparation d'un fichier de données de catalogue, "
+#~ "voyez le fichier <filename>README.customize</filename> fourni avec "
+#~ "&kstars;."

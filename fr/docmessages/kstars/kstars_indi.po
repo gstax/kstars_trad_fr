@@ -1818,3 +1818,588 @@ msgstr ""
 "Si vous pensez que tous les réglages sont corrects, mais que le télescope "
 "continue à bouger n'importe comment ou pas du tout, veuillez envoyer un "
 "rapport de bogue à <email>indi-devel@lists.sourceforge.net</email>."
+
+#, fuzzy
+#~| msgid ""
+#~| "<option>INDI messages in status bar:</option> When checked, &kstars; "
+#~| "displays INDI status messages in the &kstars; status bar."
+#~ msgid ""
+#~ "<guilabel>INDI messages in status bar</guilabel>: When checked, &kstars; "
+#~ "displays INDI status messages in the &kstars; status bar."
+#~ msgstr ""
+#~ "<option>Messages INDI dans la barre d'état : </option>lorsque cela est "
+#~ "coché, &kstars; affiche les messages d'état INDI dans la barre d'état de "
+#~ "&kstars;."
+
+#, fuzzy
+#~| msgid "Device driver"
+#~ msgid "Device Updates"
+#~ msgstr "Pilote de matériel"
+
+#, fuzzy
+#~| msgid ""
+#~| "Update Source: Synchronize &kstars; according to either the computer or "
+#~| "device time and location settings."
+#~ msgid ""
+#~ "<option>Computer:</option> Sync the device to the computer's time and "
+#~ "location settings."
+#~ msgstr ""
+#~ "Source de mise à jour : synchronise &kstars; soit avec l'ordinateur ou "
+#~ "l'heure du périphérique et les réglages d'emplacement géographique."
+
+#, fuzzy
+#~| msgid ""
+#~| "Update Source: Synchronize &kstars; according to either the computer or "
+#~| "device time and location settings."
+#~ msgid ""
+#~ "<option>Device:</option> Sync the computer to the device's time and "
+#~ "location settings."
+#~ msgstr ""
+#~ "Source de mise à jour : synchronise &kstars; soit avec l'ordinateur ou "
+#~ "l'heure du périphérique et les réglages d'emplacement géographique."
+
+#~ msgid ""
+#~ "<option>Time:</option> Update the telescope's date and time, if "
+#~ "supported, upon connection."
+#~ msgstr ""
+#~ "<option>Heure : </option>met à jour la date et l'heure du télescope, si "
+#~ "géré, lors de la connexion."
+
+#~ msgid ""
+#~ "<option>Geographic location:</option> Update the telescope's geographical "
+#~ "location information (current longitude and latitude), if supported, upon "
+#~ "connection."
+#~ msgstr ""
+#~ "<option>Emplacement géographique : </option>actualise les informations "
+#~ "d'emplacement géographique (longitude et latitude actuelles), si géré, "
+#~ "lors de la connexion."
+
+#~ msgid "Options:"
+#~ msgstr "Options :"
+
+#~ msgid "-l d : log driver messages to d/YYYY-MM-DD.islog"
+#~ msgstr ""
+#~ "-l d : écrit dans un journal les messages du pilote dans d/YYYY-MM-DD."
+#~ "islog"
+
+#~ msgid "-m m : kill client if gets more than this many MB behind, default 10"
+#~ msgstr ""
+#~ "-m m : tue le client s'il utilise plus que la valeur en Mo données après. "
+#~ "La valeur par défaut est 10"
+
+#~ msgid "-p p : alternate IP port, default 7624"
+#~ msgstr "-p p : port IP alternatif, 7624 par défaut"
+
+#~ msgid "-v : show key events, no traffic"
+#~ msgstr "-v : affiche les évènements des touches, pas de trafic"
+
+#~ msgid "-vv : -v + key message content"
+#~ msgstr "-vv : -v plus le contenu des messages"
+
+#~ msgid "-vvv : -vv + complete xml"
+#~ msgstr "-vvv : -vv plus le xml complet"
+
+#~ msgid "driver : executable or device@host[:port]"
+#~ msgstr "driver : exécutable ou device@host[:port]"
+
+#~ msgid "<acronym>FAQ</acronym>"
+#~ msgstr "<acronym>FAQ</acronym>"
+
+#~ msgid ""
+#~ "Set the correct port in the <guilabel>INDI Control Panel</guilabel> under "
+#~ "the <guimenu>Devices</guimenu> menu. The default device is <constant>/dev/"
+#~ "ttyS0</constant>"
+#~ msgstr ""
+#~ "Déterminez le port correct dans le <guilabel>tableau de bord INDI</"
+#~ "guilabel> sous le menu <guimenu>Périphériques</guimenu>. Le port par "
+#~ "défaut est <constant>/dev/ttyS0</constant>"
+
+#~ msgid ""
+#~ "&kstars; automatically updates the telescope's longitude, latitude, and "
+#~ "time based on current settings in &kstars;. You can enable/disable these "
+#~ "updates from <guimenuitem>Configure INDI</guimenuitem> dialog under the "
+#~ "<guimenu>Devices</guimenu> menu."
+#~ msgstr ""
+#~ "&kstars; met à jour automatiquement la latitude, la longitude et l'heure "
+#~ "en fonction sur les réglages en cours de &kstars;. Vous pouvez activer / "
+#~ "désactiver ces mises à jour dans la boîte de dialogue "
+#~ "<guimenuitem>Configurer INDI</guimenuitem> dans le menu "
+#~ "<guimenu>Périphériques</guimenu>."
+
+#~ msgid ""
+#~ "<option>Telescope port:</option> The default telescope port. When you "
+#~ "connect to a local or remote telescope service, &kstars; will "
+#~ "automatically fill the telescope's device port with the specified default "
+#~ "port."
+#~ msgstr ""
+#~ "<option>Port du télescope : </option>le port du télescope par défaut. "
+#~ "Quand vous connectez à un service de télescope local ou distant, &kstars; "
+#~ "remplira automatiquement le port de matériel de télescope avec le port "
+#~ "spécifié par défaut."
+
+#~ msgid ""
+#~ "<option>Video port:</option> The default video port. When you connect to "
+#~ "a local or remote video service, &kstars; will automatically fill the "
+#~ "webcam's device port with the specified default port."
+#~ msgstr ""
+#~ "<option>Port vidéo : </option>le port vidéo par défaut. Quand vous "
+#~ "connectez à un périphérique de vidéo local ou distant, &kstars; remplira "
+#~ "automatiquement le port matériel de webcam avec le port spécifié par "
+#~ "défaut."
+
+#~ msgid "Automatic device updates"
+#~ msgstr "Rafraîchissement automatique des périphériques"
+
+#, fuzzy
+#~| msgid ""
+#~| "<option>Automatic Display of FITS upon capture:</option> When checked, "
+#~| "&kstars; will display captured FITS in &kstars; <link linkend=\"tool-"
+#~| "fitsviewer\">FITS Viewer</link> tool. If you use the <link linkend="
+#~| "\"indi-capture\">Capture Image Sequence</link> tool, all captured images "
+#~| "will be saved to disk regardless of this option."
+#~ msgid ""
+#~ "<option>Automatic Display of FITS upon capture:</option> When checked, "
+#~ "&kstars; will display captured FITS in &kstars; <link linkend=\"tool-"
+#~ "fitsviewer\">FITS Viewer</link> tool."
+#~ msgstr ""
+#~ "<option>Affichage automatique sur FITS lors d'une capture : </"
+#~ "option>lorsque coché, &kstars; affichera les captures de FITS dans "
+#~ "l'outil <link linkend=\"tool-fitsviewer\">Afficheur FITS</link> de "
+#~ "&kstars;. Si vous utilisez l'outil <link linkend=\"indi-capture"
+#~ "\">Séquence de capture d'images</link>, toutes les images capturées "
+#~ "seront enregistrées sur le disque, sans tenir compte de cette option."
+
+#~ msgid ""
+#~ "Filter Wheel: Assign color codes to the filter wheel slots (e.g. Slot #0 "
+#~ "Red, Slot #1 Blue..etc). You can assign color codes for up to 10 filter "
+#~ "slots (0 to 9). To assign a color code, select a slot number from the "
+#~ "drop down combo box, and then type the corresponding color code in the "
+#~ "edit field. Repeat the process for all desired slots and then press OK."
+#~ msgstr ""
+#~ "Roue à filtres : assigner les codes de couleurs aux emplacements de roue "
+#~ "à filtres (&pex; Slot #0 Red, Slot #1 Blue, etc.). Vous pouvez assigner "
+#~ "des codes de couleurs jusqu'à 10 emplacements de filtres (0 à 9). Pour "
+#~ "assigner un code de couleur, sélectionnez un numéro d'emplacement dans la "
+#~ "liste déroulante, et donnez le code de couleur correspondant dans le "
+#~ "champ d'édition. Répétez le processus pour tous les emplacements désirés "
+#~ "et actionnez Ok."
+
+#~ msgid "<title>Capture Image Sequence</title>"
+#~ msgstr "<title>Séquence de capture d'images</title>"
+
+#~ msgid "Capture"
+#~ msgstr "Capture"
+
+#~ msgid "Image"
+#~ msgstr "Image"
+
+#~ msgid ""
+#~ "The Capture Image Sequence tool can be used to aquire images from cameras "
+#~ "and CCDs in interactive and batch modes. Furthermore, you can select "
+#~ "which filter, if any, you want to use for your images. The capture tool "
+#~ "remains disabled until you establish a connection to an imaging device."
+#~ msgstr ""
+#~ "L'outil de séquence de capture d'images peut servir à acquérir des images "
+#~ "depuis des caméras et CCD en modes interactif et batch. De plus, vous "
+#~ "pouvez sélectionner quel filtre, éventuellement, vous voulez pour vos "
+#~ "images. L'outil de capture reste désactivé jusqu'à ce que vous "
+#~ "établissiez une connexion à un périphérique d'imagerie."
+
+#~ msgid "<screeninfo>Capture Image Sequence</screeninfo>"
+#~ msgstr "<screeninfo>Séquence de capture d'image</screeninfo>"
+
+#~ msgid ""
+#~ "The above screenshot depicts a sample capture session. The tool provides "
+#~ "the following options:"
+#~ msgstr ""
+#~ "La capture d'écran ci-dessus décrit un exemple de session de capture. "
+#~ "L'outil fournit les options suivantes :"
+
+#~ msgid "Camera/CCD"
+#~ msgstr "Caméra/CCD"
+
+#~ msgid "<option>Device:</option> The desired imaging device."
+#~ msgstr "<option>Périphérique : </option>le périphérique d'imagerie désiré."
+
+#~ msgid ""
+#~ "<option>Prefix:</option> The image prefix which will be prepended to each "
+#~ "captured filename."
+#~ msgstr ""
+#~ "<option>Préfixe : </option>le préfixe d'image qui sera ajouté au début de "
+#~ "chaque nom de fichier capturé."
+
+#~ msgid ""
+#~ "<option>Exposure:</option> The number of seconds to expose each frame."
+#~ msgstr ""
+#~ "<option>Exposition : </option> le nombre de secondes pour exposer chaque "
+#~ "image."
+
+#~ msgid "<option>Count:</option> The number of images to aquire."
+#~ msgstr "<option>Nombre : </option>le nombre d'images à acquérir."
+
+#~ msgid ""
+#~ "<option>Delay:</option> The delay in seconds between consecutive images."
+#~ msgstr ""
+#~ "<option>Délai : </option>le délai en secondes entre les images "
+#~ "consécutives."
+
+#~ msgid ""
+#~ "<option>ISO 8601 time stamp:</option> Append ISO 8601 time stamp to the "
+#~ "filename. (e.g. image_01_20050427T09:48:05)."
+#~ msgstr ""
+#~ "<option>Horodatage ISO 8601 : </option>ajouter l'horodatage au nom de "
+#~ "fichier (&pex; image_01_20050427T09:48:05)."
+
+#~ msgid "Filter"
+#~ msgstr "Filtre"
+
+#~ msgid "<option>Device:</option> The desired filter device."
+#~ msgstr "<option>Périphérique : </option>le matériel de filtrage désiré."
+
+#~ msgid ""
+#~ "<option>Filter:</option> The desired filter slot. You can assign color "
+#~ "values to slot numbers using the <link linkend=\"indi-configure\">INDI</"
+#~ "link> page (e.g. Slot #1 = Red, Slot #2 = Blue..etc)."
+#~ msgstr ""
+#~ "<option>Filtre : </option>l'emplacement de filtre désiré. Vous pouvez "
+#~ "assigner des valeurs de couleurs au numéro d'emplacement en utilisant la "
+#~ "page <link linkend=\"indi-configure\">INDI</link> (&pex; Slot #1 = Red, "
+#~ "Slot #2 = Blue..etc)."
+
+#~ msgid ""
+#~ "After you fill in the desired options, you can begin the capture "
+#~ "procedure by pressing the <guibutton>Start</guibutton> button. You may "
+#~ "cancel at any time using the <guibutton>Stop</guibutton> button. All "
+#~ "captured images will be saved to the default FITS directory which can be "
+#~ "specified in the <link linkend=\"indi-configure\">INDI</link> page of the "
+#~ "settings dialog."
+#~ msgstr ""
+#~ "Après que vous avez empli les options désirées, vous pouvez commencer la "
+#~ "procédure de capture en actionnant le bouton <guibutton>Commencer</"
+#~ "guibutton>. Vous pouvez abandonner à n'importe quel moment en utilisant "
+#~ "le bouton <guibutton>Arrêt</guibutton>. Toutes les images capturées "
+#~ "seront enregistrées dans le dossier FITS par défaut, qui peut être "
+#~ "spécifié dans la page <link linkend=\"indi-configure\">INDI</link> de la "
+#~ "boîte de dialogue de configuration."
+
+#~ msgid ""
+#~ "If you have more complex capturing requirements and conditions to fulfil, "
+#~ "it is recommended to create a script to meet your specific needs using "
+#~ "the <link linkend=\"tool-scriptbuilder\">Script Builder</link> tool in "
+#~ "the <guimenu>Tools</guimenu> menu."
+#~ msgstr ""
+#~ "Si vous avez des besoins de capture plus complexes et des conditions à "
+#~ "remplir, il est recommandé de créer un script pour répondre à vos besoins "
+#~ "spécifiques en utilisant l'outil <link linkend=\"tool-scriptbuilder\">de "
+#~ "génération de scripts</link> dans le menu <guimenu>Outils</guimenu>."
+
+#~ msgid "Can I use &kstars; to do guiding?"
+#~ msgstr "Puis-je utiliser &kstars; pour le guidage ?"
+
+#~ msgid ""
+#~ "Currently, there are no plans to support guiding in &kstars;. Users may "
+#~ "utilize <ulink url=\"http://code.google.com/p/open-phd-guiding/\">OpenPHD "
+#~ "Guiding</ulink> as it is compatible with &kstars; and INDI."
+#~ msgstr ""
+#~ "Actuellement, il n'y a pas de plans pour prendre en charge le guidage "
+#~ "dans &kstars;. Les utilisateurs peuvent utiliser <ulink url=\"http://code."
+#~ "google.com/p/open-phd-guiding/\">Guide pour OpenPHD</ulink> car il est "
+#~ "compatible avec &kstars; et INDI. "
+
+#~ msgid "Supported Telescopes"
+#~ msgstr "Télescopes gérés"
+
+#~ msgid "Telescope"
+#~ msgstr "Télescope"
+
+#~ msgid "LX200 8\"-12\" Classic"
+#~ msgstr "LX200 8\"-12\" Classic"
+
+#~ msgid "indi_lx200classic"
+#~ msgstr "indi_lx200classic"
+
+#~ msgid "Autostar based telescopes"
+#~ msgstr "Télescopes gérés par Autostar"
+
+#~ msgid "indi_lx200autostar"
+#~ msgstr "indi_lx200autostar"
+
+#~ msgid "LX200 GPS 8\"-16\""
+#~ msgstr "LX200 GPS 8\"-16\""
+
+#~ msgid "indi_lx200gps"
+#~ msgstr "indi_lx200gps"
+
+#~ msgid "LX200 Classic 16\""
+#~ msgstr "LX200 Classic 16\""
+
+#~ msgid "indi_lx200_16"
+#~ msgstr "indi_lx200_16"
+
+#~ msgid "NexStar GPS, CGE, AS-GT"
+#~ msgstr "NexStar GPS, CGE, AS-GT"
+
+#~ msgid "indi_celestrongps"
+#~ msgstr "indi_celestrongps"
+
+#~ msgid "New GT, NexStar 5i/8i"
+#~ msgstr "New GT, NexStar 5i/8i"
+
+#~ msgid "Takahashi Temma"
+#~ msgstr "Takahashi Temma"
+
+#~ msgid "indi_temma"
+#~ msgstr "indi_temma"
+
+#~ msgid "Astro-Electronic FS-2"
+#~ msgstr "Astro-Electronic FS-2"
+
+#~ msgid "indi_lx200basic"
+#~ msgstr "indi_lx200basic"
+
+#~ msgid "Argo Navis"
+#~ msgstr "Argo Navis"
+
+#~ msgid "Losmandy Gemini"
+#~ msgstr "Losmandy Gemini"
+
+#~ msgid "Mel Bartels Controllers"
+#~ msgstr "Mel Bartels Controllers"
+
+#~ msgid "Sky Commander"
+#~ msgstr "Sky Commander"
+
+#~ msgid "indi_skycommander"
+#~ msgstr "indi_skycommander"
+
+#~ msgid "Intelliscope/SkyWizard"
+#~ msgstr "Intelliscope/SkyWizard"
+
+#~ msgid "indi_intelliscope"
+#~ msgstr "indi_intelliscope"
+
+#~ msgid "Orion Atlas"
+#~ msgstr "Orion Atlas"
+
+#~ msgid "indi_orion_atlas"
+#~ msgstr "indi_orion_atlas"
+
+#~ msgid "Supported Focusers"
+#~ msgstr "Viseurs gérés"
+
+#~ msgid "Focuser"
+#~ msgstr "Viseur"
+
+#~ msgid "Meade LX200GPS Microfocuser"
+#~ msgstr "Meade LX200GPS Microfocuser"
+
+#~ msgid "Meade 1206 Primary Mirror Focuser"
+#~ msgstr "Meade 1206 Primary Mirror Focuser"
+
+#~ msgid "JMI NGF Series"
+#~ msgstr "JMI NGF Series"
+
+#~ msgid "JMI MOTOFOCUS"
+#~ msgstr "JMI MOTOFOCUS"
+
+#~ msgid "FLI Precision Focuser"
+#~ msgstr "FLI Precision Focuser"
+
+#~ msgid "indi_fli_pdf"
+#~ msgstr "indi_fli_pdf"
+
+#~ msgid "RoboFocus"
+#~ msgstr "RoboFocus"
+
+#~ msgid "indi_robofocus"
+#~ msgstr "indi_robofocus"
+
+#~ msgid "Supported CCDs"
+#~ msgstr "CCD gérés"
+
+#~ msgid "<entry>CCD</entry>"
+#~ msgstr "<entry>CCD</entry>"
+
+#~ msgid "Finger Lakes Instruments CCDs"
+#~ msgstr "Intruments CCD Finger Lakes"
+
+#~ msgid "indi_fli_ccd"
+#~ msgstr "indi_fli_ccd"
+
+#~ msgid "Santa Barbara Instrument CCDs"
+#~ msgstr "Santa Barbara Instrument CCDs"
+
+#~ msgid "indi_sbig_ccd"
+#~ msgstr "indi_sbig_ccd"
+
+#~ msgid "Apogee CCDs"
+#~ msgstr "Apogee CCDs"
+
+#~ msgid "indi_apogee_alta"
+#~ msgstr "indi_apogee_alta"
+
+#~ msgid "Supported Filter Wheels"
+#~ msgstr "Roues de filtres gérées"
+
+#~ msgid "Filter Wheel"
+#~ msgstr "Roue de filtres"
+
+#~ msgid "FLI Filter Wheels"
+#~ msgstr "Roue de filtres FLI"
+
+#~ msgid "indi_fli_wheel"
+#~ msgstr "indi_Roue_de_Filtre"
+
+#~ msgid "True Technology Wheel"
+#~ msgstr "Roue à Filtre motorisée «True Technology»"
+
+#~ msgid "indi_trutech_wheel"
+#~ msgstr "indi_Roue_à_Filtre_truetech"
+
+#~ msgid "Supported Webcams"
+#~ msgstr "Webcams gérées"
+
+#~ msgid "Webcam"
+#~ msgstr "Webcam"
+
+#~ msgid "Any Video4Linux compatible device"
+#~ msgstr "N'importe quel périphérique compatible Video4Linux"
+
+#~ msgid "indi_v4l_generic"
+#~ msgstr "indi_v4l_generic"
+
+#~ msgid "Philips webcam"
+#~ msgstr "Webcam Philips"
+
+#~ msgid "indi_v4l_philips"
+#~ msgstr "indi_v4l_philips"
+
+#~ msgid "Meade Lunar Planetary Imager"
+#~ msgstr "Meade Lunar Planetary Imager"
+
+#~ msgid "indi_meade_lpi"
+#~ msgstr "indi_meade_lpi"
+
+#~ msgid "SBIG STV"
+#~ msgstr "SBIG STV"
+
+#~ msgid "indi_sbig_stv"
+#~ msgstr "indi_sbig_stv"
+
+#~ msgid ""
+#~ "You can run devices by browsing the device tree, selecting a specific "
+#~ "device, and then clicking on the <guibutton>Run Service button</"
+#~ "guibutton>. You can select the operation mode, either local or server as "
+#~ "defined above."
+#~ msgstr ""
+#~ "Vous pouvez lancer des périphériques en naviguant dans l'arborescence des "
+#~ "périphériques, en choisissant un matériel spécifique, et en cliquant sur "
+#~ "le bouton <guibutton>Lancer le service</guibutton>. Vous pouvez "
+#~ "sélectionner le mode opératoire, soit local, soit en serveur comme défini "
+#~ "ci-dessus."
+
+#, fuzzy
+#~| msgid "KStars supports the following imaging devices:"
+#~ msgid "&kstars; supports the following imaging devices:"
+#~ msgstr "KStars gère les matériels d'imagerie suivants ;"
+
+#~ msgid "Finger Lakes instruments CCDs"
+#~ msgstr "Finger Lakes instruments CCDs"
+
+#~ msgid ""
+#~ "SBIG CCDs: In order to use SBIG CCDs, you must download and install the "
+#~ "Universal SBIG Driver library from <ulink url=\"http://indi.sourceforge."
+#~ "net\">INDI</ulink> website."
+#~ msgstr ""
+#~ "Caméras CCD SBIG: Pour utiliser les caméras CCD SBIG CCDs, vous devez "
+#~ "télécharger et installer le Universal SBIG Driver library depuis le site "
+#~ "web <ulink url=\"http://indi.sourceforge.net\">INDI</ulink>."
+
+#~ msgid ""
+#~ "Apogee CCDs: Only USB versions are supported. You must have libusb "
+#~ "installed."
+#~ msgstr ""
+#~ "Caméras CCD Apogee : seules les versions USB sont gérées. libusb doit "
+#~ "être installé."
+
+#~ msgid ""
+#~ "<ulink url=\"http://www.exploits.org/v4l/\">Video4Linux</ulink> "
+#~ "compatible devices. Philips webcam extended features are supported as "
+#~ "well."
+#~ msgstr ""
+#~ "Matériels compatibles <ulink url=\"http://www.exploits.org/v4l/"
+#~ "\">Video4Linux</ulink>. Les fonctionnalités étendues des webcams Philips "
+#~ "sont aussi gérées."
+
+#~ msgid ""
+#~ "The fli and apogee drivers requires root privileges in order to operate "
+#~ "properly. Note that running the driver as root is considered a security "
+#~ "risk."
+#~ msgstr ""
+#~ "Le pilote FLI et apogee nécessite les privilèges superutilisateur pour "
+#~ "opérer correctement. Notez que le lancement d'un pilote en tant que "
+#~ "superutilisateur est considéré comme un risque pour la sécurité."
+
+#~ msgid ""
+#~ "<mousebutton>Right</mousebutton>-click on the device and select "
+#~ "<guilabel>Run Service</guilabel>."
+#~ msgstr ""
+#~ "Cliquez du bouton <mousebutton>droit</mousebutton> sur le périphérique et "
+#~ "sélectionnez <guilabel>Lancer le service</guilabel>."
+
+#~ msgid "Version"
+#~ msgstr "Version"
+
+#~ msgid "<entry>1.0</entry>"
+#~ msgstr "<entry>1.0</entry>"
+
+#~ msgid "<entry>0.9</entry>"
+#~ msgstr "<entry>0.9</entry>"
+
+#~ msgid "<entry>0.1</entry>"
+#~ msgstr "<entry>0.1</entry>"
+
+#~ msgid "Astro-Physics AP"
+#~ msgstr "Astro-Physics AP"
+
+#~ msgid "apmount"
+#~ msgstr "apmount"
+
+#, fuzzy
+#~ msgid "lx200generic"
+#~ msgstr "lx200generic"
+
+#~ msgid "apogee_ppi, apogee_pci, apogee_isa, apogee_usb"
+#~ msgstr "apogee_ppi, apogee_pci, apogee_isa, apogee_usb"
+
+#~ msgid "v4ldriver"
+#~ msgstr "v4ldriver"
+
+#~ msgid ""
+#~ "Apogee CCDs: Parallel, ISA, PCI, and USB modes are supported. You need to "
+#~ "install <ulink url=\"http://indi.sf.net/apogee_kernel.tar.gz\">Apogee "
+#~ "kernel drivers</ulink> for your specific mode (for USB mode, you only "
+#~ "need libusb)."
+#~ msgstr ""
+#~ "Apogee CCD : les modes parallèle, ISA, PCI et USB sont gérés. Vous devez "
+#~ "installer <ulink url=\"http://indi.sf.net/apogee_kernel.tar.gz\">les "
+#~ "pilotes de noyau Apogee</ulink> pour votre mode spécifique (pour l'USB, "
+#~ "vous n'avez besoin que de libusb)."
+
+#~ msgid "-r n : max restart attempts, default 2"
+#~ msgstr "-r n : tentatives maximales de redémarrage, 2 par défaut"
+
+#~ msgid "-v : more verbose to stderr"
+#~ msgstr "-v : plus de bavardage vers stderr"
+
+#, fuzzy
+#~ msgid "LX200 Classic"
+#~ msgstr "LX200 Classic 16\""
+
+#, fuzzy
+#~ msgid "LX200 GPS"
+#~ msgstr "LX200 GPS 8\"-16\""
+
+#, fuzzy
+#~ msgid "LX00 16\""
+#~ msgstr "LX200 GPS 8\"-16\""

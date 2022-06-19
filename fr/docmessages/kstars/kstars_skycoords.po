@@ -1,12 +1,12 @@
 # translation of kstars_skycoords.po to french
 # traduction de kstars_skycoords.po en Français
 # Copyright (C) 2002,2003, 2004 Free Software Foundation, Inc.
-#
 # Gérard Delafond <gerard@delafond.org>, 2002,2003.
 # Ludovic Grossard <grossard@kde.org>, 2003, 2004, 2013.
 # xavier <ktranslator31@yahoo.fr>, 2012.
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2013.
 # steve <stax@ik.me>, 2022
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_skycoords_3.5.8\n"
@@ -22,21 +22,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: author
-#. +> trunk5
 #: skycoords.docbook:3
 #, no-c-format
 msgid "<firstname>Jason</firstname> <surname>Harris</surname>"
 msgstr "<firstname>Jason</firstname> <surname>Harris</surname>"
 
 #. Tag: title
-#. +> trunk5
 #: skycoords.docbook:8
 #, no-c-format
 msgid "<title>Celestial Coordinate Systems</title>"
 msgstr "<title>Les systèmes de coordonnées célestes</title>"
 
 #. Tag: primary
-#. +> trunk5
 #: skycoords.docbook:10 skycoords.docbook:27 skycoords.docbook:95
 #: skycoords.docbook:132 skycoords.docbook:158
 #, no-c-format
@@ -44,14 +41,12 @@ msgid "<primary>Celestial Coordinate Systems</primary>"
 msgstr "<primary>Les systèmes de coordonnées célestes</primary>"
 
 #. Tag: secondary
-#. +> trunk5
 #: skycoords.docbook:11
 #, no-c-format
 msgid "Overview"
 msgstr "Survol"
 
 #. Tag: para
-#. +> trunk5
 #: skycoords.docbook:11
 #, no-c-format
 msgid ""
@@ -81,21 +76,18 @@ msgstr ""
 "système de coordonnées est nommé selon le plan fondamental qu'il utilise."
 
 #. Tag: title
-#. +> trunk5
 #: skycoords.docbook:26
 #, no-c-format
 msgid "The Equatorial Coordinate System"
 msgstr "Le système de coordonnées équatoriales"
 
 #. Tag: secondary
-#. +> trunk5
 #: skycoords.docbook:28
 #, no-c-format
 msgid "<secondary>Equatorial Coordinates</secondary>"
 msgstr "<secondary>Coordonnées équatoriales</secondary>"
 
 #. Tag: indexterm
-#. +> trunk5
 #: skycoords.docbook:28
 #, no-c-format
 msgid ""
@@ -106,28 +98,24 @@ msgstr ""
 "<seealso>Système de coordonnées géographiques</seealso>"
 
 #. Tag: primary
-#. +> trunk5
 #: skycoords.docbook:33
 #, no-c-format
 msgid "Right Ascension"
 msgstr "Ascension droite"
 
 #. Tag: see
-#. +> trunk5
 #: skycoords.docbook:33 skycoords.docbook:34
 #, no-c-format
 msgid "<see>Equatorial Coordinates</see>"
 msgstr "<see>Coordonnées équatoriales</see>"
 
 #. Tag: primary
-#. +> trunk5
 #: skycoords.docbook:34
 #, no-c-format
 msgid "Declination"
 msgstr "Déclinaison"
 
 #. Tag: para
-#. +> trunk5
 #: skycoords.docbook:36
 #, no-c-format
 msgid ""
@@ -151,7 +139,6 @@ msgstr ""
 "Nord et Sud."
 
 #. Tag: para
-#. +> trunk5
 #: skycoords.docbook:45
 #, no-c-format
 msgid ""
@@ -178,7 +165,6 @@ msgstr ""
 "alors qu'en réalité c'est la Terre qui tourne et le ciel est immobile."
 
 #. Tag: para
-#. +> trunk5
 #: skycoords.docbook:56
 #, no-c-format
 msgid ""
@@ -211,7 +197,6 @@ msgstr ""
 "15 degrés (360 degrés / 24 heures)."
 
 #. Tag: para
-#. +> trunk5
 #: skycoords.docbook:70
 #, no-c-format
 msgid ""
@@ -250,49 +235,42 @@ msgstr ""
 "2000) et B1950.0 (<firstterm>année besselienne</firstterm> 1950)."
 
 #. Tag: title
-#. +> trunk5
 #: skycoords.docbook:93
 #, no-c-format
 msgid "The Horizontal Coordinate System"
 msgstr "Le système de coordonnées horizontales"
 
 #. Tag: secondary
-#. +> trunk5
 #: skycoords.docbook:96
 #, no-c-format
 msgid "<secondary>Horizontal Coordinates</secondary>"
 msgstr "<secondary>Coordonnées horizontales</secondary>"
 
 #. Tag: indexterm
-#. +> trunk5
 #: skycoords.docbook:96
 #, no-c-format
 msgid "<seealso>Horizon</seealso> <seealso>Zenith</seealso>"
 msgstr "<seealso>Horizon</seealso> <seealso>Zénith</seealso>"
 
 #. Tag: primary
-#. +> trunk5
 #: skycoords.docbook:100
 #, no-c-format
 msgid "Azimuth"
 msgstr "Azimut"
 
 #. Tag: see
-#. +> trunk5
 #: skycoords.docbook:100 skycoords.docbook:101
 #, no-c-format
 msgid "<see>Horizontal Coordinates</see>"
 msgstr "<see>Coordonnées horizontales</see>"
 
 #. Tag: primary
-#. +> trunk5
 #: skycoords.docbook:101
 #, no-c-format
 msgid "Altitude"
 msgstr "Altitude"
 
 #. Tag: para
-#. +> trunk5
 #: skycoords.docbook:102
 #, no-c-format
 msgid ""
@@ -321,7 +299,6 @@ msgstr ""
 "est parfois appelé système de coordonnées Alt/Az."
 
 #. Tag: para
-#. +> trunk5
 #: skycoords.docbook:114
 #, no-c-format
 msgid ""
@@ -339,7 +316,6 @@ msgstr ""
 "l'azimut d'un objet changeront en fonction de la position de l'observateur."
 
 #. Tag: para
-#. +> trunk5
 #: skycoords.docbook:121
 #, no-c-format
 msgid ""
@@ -355,28 +331,24 @@ msgstr ""
 "180 degrés."
 
 #. Tag: title
-#. +> trunk5
 #: skycoords.docbook:130
 #, no-c-format
 msgid "The Ecliptic Coordinate System"
 msgstr "Le système de coordonnées écliptiques"
 
 #. Tag: secondary
-#. +> trunk5
 #: skycoords.docbook:133
 #, no-c-format
 msgid "Ecliptic Coordinates"
 msgstr "Coordonnées écliptiques"
 
 #. Tag: seealso
-#. +> trunk5
 #: skycoords.docbook:134
 #, no-c-format
 msgid "Ecliptic"
 msgstr "Écliptique"
 
 #. Tag: para
-#. +> trunk5
 #: skycoords.docbook:136
 #, no-c-format
 msgid ""
@@ -401,7 +373,6 @@ msgstr ""
 "\">équinoxe vernal</link>."
 
 #. Tag: para
-#. +> trunk5
 #: skycoords.docbook:146
 #, no-c-format
 msgid ""
@@ -419,28 +390,24 @@ msgstr ""
 "qu'elles possèdent toujours des latitudes écliptiques de petite taille)."
 
 #. Tag: title
-#. +> trunk5
 #: skycoords.docbook:156
 #, no-c-format
 msgid "The Galactic Coordinate System"
 msgstr "Le système de coordonnées galactiques"
 
 #. Tag: secondary
-#. +> trunk5
 #: skycoords.docbook:159
 #, no-c-format
 msgid "Galactic Coordinates"
 msgstr "Coordonnées galactiques"
 
 #. Tag: primary
-#. +> trunk5
 #: skycoords.docbook:162
 #, no-c-format
 msgid "Milky Way"
 msgstr "Voie Lactée"
 
 #. Tag: para
-#. +> trunk5
 #: skycoords.docbook:162
 #, no-c-format
 msgid ""

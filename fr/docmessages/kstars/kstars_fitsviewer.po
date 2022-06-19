@@ -240,8 +240,8 @@ msgid ""
 "can be very memory intensive. Turn on Limited Resource Mode to save memory."
 msgstr ""
 "Zoom avant : zoom avant jusqu'à un maximum de 400 %. Pour des grosses "
-"images, cette opération peu prendre beaucoup de mémoire. Activer <quote>Mode de "
-"resource limité</quote> pour économiser de la mémoire."
+"images, cette opération peu prendre beaucoup de mémoire. Activer <quote>Mode "
+"de resource limité</quote> pour économiser de la mémoire."
 
 #. Tag: para
 #: fitsviewer.docbook:67
@@ -507,11 +507,11 @@ msgid ""
 "<keycap>D</keycap></keycombo> shortcut."
 msgstr ""
 "Quand une image bayerisé est chargée, l'afficheur peur automatiquement la "
-"débayériser si le réglage FITS <quote>Auto débayerisation</quote> est coché. Cette "
-"opération lit le motif de Bayer (&cad; RGGB) dans l'en-tête FITS. Si aucun "
-"n'est trouvé, vous pouvez modifier l'algorithme et le motif dans le menu "
-"<guimenu>Fichier</guimenu> ou avec le raccourci <keycombo>&Ctrl; <keycap>D</"
-"keycap></keycombo>."
+"débayériser si le réglage FITS <quote>Auto débayerisation</quote> est coché. "
+"Cette opération lit le motif de Bayer (&cad; RGGB) dans l'en-tête FITS. Si "
+"aucun n'est trouvé, vous pouvez modifier l'algorithme et le motif dans le "
+"menu <guimenu>Fichier</guimenu> ou avec le raccourci <keycombo>&Ctrl; "
+"<keycap>D</keycap></keycombo>."
 
 #. Tag: para
 #: fitsviewer.docbook:112
@@ -992,3 +992,22 @@ msgstr "<screeninfo>Page finale du profile de l'image</screeninfo>"
 #, no-c-format
 msgid "<phrase>Star Profile final page</phrase>"
 msgstr "<phrase>Page finale du profil de l'étoile</phrase>"
+
+#~ msgid "FITS Viewer features:"
+#~ msgstr "Fonctionnalités de l'afficheur FITS :"
+
+#~ msgid "The following is a brief description of the tool's functional units:"
+#~ msgstr ""
+#~ "Ce qui suit est une brève description des unités fonctionnelles de "
+#~ "l'outil :"
+
+#~ msgid "No support for WCS (World Coordinate System)."
+#~ msgstr "Pas de prise en charge pour WCS (World Coordinate System)."
+
+#~ msgid ""
+#~ "Brightness/Contrast: Adjusts brightness and contrast. The function can be "
+#~ "CPU and memory intensive for very large FITS."
+#~ msgstr ""
+#~ "Luminosité / Contraste : ajuste la luminosité et le contraste. La "
+#~ "fonction peut exiger beaucoup de puissance processeur et de mémoire pour "
+#~ "les très grands FITS."
