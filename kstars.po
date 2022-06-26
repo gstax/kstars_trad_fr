@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-28 00:40+0000\n"
-"PO-Revision-Date: 2022-06-05 13:14+0200\n"
+"PO-Revision-Date: 2022-06-14 15:47+0200\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -6633,7 +6633,7 @@ msgstr "Filtre"
 #: ekos/align/align.ui:623 ekos/focus/focus.ui:674 ekos/guide/guide.ui:335
 #, kde-format
 msgid "Bin:"
-msgstr "Bin"
+msgstr "Groupement"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_6)
 #. i18n: ectx: property (text), widget (QLabel, label_7)
@@ -6646,7 +6646,7 @@ msgstr "CCD"
 #: ekos/align/align.ui:637
 #, kde-format
 msgid "Exposure duration in seconds"
-msgstr "Durée d'exposition en secondes."
+msgstr "Durée d'exposition en secondes"
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #. i18n: ectx: property (text), widget (QLabel, ISOLabel)
@@ -17780,7 +17780,7 @@ msgstr "DEC RMS (sec)"
 #: ekos/guide/guide.ui:850
 #, kde-format
 msgid "<b>Total RMS\"</b>"
-msgstr "<b>Total RMS</b> (sec d'arc)"
+msgstr "<b>Total RMS \"</b>"
 
 #. i18n: ectx: property (text), widget (QLabel, l_TotalRMS)
 #. i18n: ectx: property (text), widget (QLabel, l_SNR)
@@ -17799,7 +17799,7 @@ msgstr "<b>Guidage SNR</b>"
 #: ekos/guide/guide.ui:976
 #, kde-format
 msgid "Drift Graphics"
-msgstr "Graphique de dérive"
+msgstr "Graphique de la dérive"
 
 #. i18n: ectx: property (toolTip), widget (QSlider, correctionSlider)
 #: ekos/guide/guide.ui:1050
@@ -28439,12 +28439,12 @@ msgstr "&Arrêter le suivi"
 #: kstars.cpp:340 kstarsactions.cpp:1657 kstarsinit.cpp:263
 #, kde-format
 msgid "Switch to Star Globe View (Equatorial &Coordinates)"
-msgstr "Passer à la vue du globe céleste (&Coordonnées équatoriales)"
+msgstr "Passer en &coordonnées équatoriales"
 
 #: kstars.cpp:341 kstarsactions.cpp:1645 kstarsinit.cpp:264
 #, kde-format
 msgid "Switch to Horizonal View (Horizontal &Coordinates)"
-msgstr "Passer à la vue horizontale (&Coordonnées azimutales)"
+msgstr "Passer en &coordonnées horizontales"
 
 #. i18n: ectx: label, entry (PositionTimeBox), group (GUI)
 #: kstars.kcfg:10
@@ -63609,7 +63609,7 @@ msgstr "Indicateurs de c&hamp de vision"
 #: kstarsinit.cpp:369
 #, kde-format
 msgid "HiPS All Sky Overlay"
-msgstr "Superposition HiPS de tout le ciel"
+msgstr "Superposition HiPS"
 
 #: kstarsinit.cpp:376
 #, kde-format
@@ -76914,7 +76914,7 @@ msgstr "Informations sur les métadonnées des images"
 #: tools/observinglist.ui:648
 #, kde-format
 msgid "Replace from Internet..."
-msgstr "Remplacer à partir d'Internet"
+msgstr "Remplacer à partir d'Internet…"
 
 #. i18n: ectx: property (text), widget (QPushButton, DeleteImage)
 #: tools/observinglist.ui:661
