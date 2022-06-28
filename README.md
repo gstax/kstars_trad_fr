@@ -76,6 +76,8 @@ Les fichiers css ne sont pas trouvés, j'ai donc créé un petit script bash pou
 
 <code>./corriger_css.sh</code>
 
+Rem : ça s'est si l'on veut visualier avec un navigateur quelconque. On peut éviter cette étape en utilisant Konqueror.
+
 ### Génération des fichers html
 
 <code> cd /home/steve/sources/trad_kstars/fr/docs/kstars/kstars</code><br/>
