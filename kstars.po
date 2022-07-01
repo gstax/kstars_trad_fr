@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-28 00:40+0000\n"
-"PO-Revision-Date: 2022-06-14 15:47+0200\n"
+"PO-Revision-Date: 2022-07-01 05:34+0200\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -456,7 +456,7 @@ msgstr "Échec du chargement de l'image « %1 »."
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Image"
-msgstr "Enregistrer une image"
+msgstr "Enregistrer l'image"
 
 #: auxiliary/imageviewer.cpp:320 ekos/align/align.cpp:3867
 #: ekos/guide/guidedriftgraph.cpp:461 kstarsactions.cpp:1271
@@ -737,17 +737,17 @@ msgstr ""
 #: auxiliary/ksutils.cpp:1674
 #, kde-format
 msgid "Cannot open %1: %2"
-msgstr "Il est impossible d'ouvrir le fichier %1: %2"
+msgstr "Impossible d'ouvrir le fichier %1: %2"
 
 #: auxiliary/ksutils.cpp:1682
 #, kde-format
 msgid "Cannot unpack_thumb %1: %2"
-msgstr "Impossible de décompresser l'aperçu %1: %2"
+msgstr "Impossible de décompresser l'aperçu %1 : %2"
 
 #: auxiliary/ksutils.cpp:1693
 #, kde-format
 msgid "Cannot write %s %1: %2"
-msgstr "Impossible d'écrire %s %1: %2"
+msgstr "Impossible d'écrire %s %1 : %2"
 
 #: auxiliary/kswizard.cpp:65
 #, kde-format
@@ -900,7 +900,7 @@ msgstr "Image désactivée"
 #, kde-format
 msgctxt "@title:window"
 msgid "XPlanet Solar System Simulator: %1"
-msgstr "Simulateur Xplanet pour le système solaire : %1"
+msgstr "Simulateur XPlanet pour le système solaire : %1"
 
 #. i18n?
 #. i18nc("Asteroid name (optional)", "Pluto");
@@ -1214,7 +1214,7 @@ msgstr "Triton"
 #, kde-format
 msgid "This allows you to select a new object/target for XPlanet to view"
 msgstr ""
-"Permet de sélectionner un nouvel objet/cible pour un affichage avec Xplanet"
+"Permet de sélectionner un nouvel objet/cible pour un affichage avec XPlanet"
 
 #: auxiliary/xplanetimageviewer.cpp:234
 #, kde-format
@@ -1246,27 +1246,27 @@ msgid ""
 "XPlanet Latitude, Longitude, and object radius in %. This is only valid when "
 "viewing the object from the same object"
 msgstr ""
-"La latitude, la longitude et le rayon de l'objet en % pour Xplanet. Cela "
+"La latitude, la longitude et le rayon de l'objet en % pour XPlanet. Cela "
 "n'est valable que pour la vision de l'objet depuis lui-même."
 
 #: auxiliary/xplanetimageviewer.cpp:259
 #, kde-format
 msgid "Reset XPlanet Location to the location specified in the XPlanet Options"
 msgstr ""
-"Réinitialiser l'emplacement Xplanet à l'emplacement spécifié dans les "
-"options de Xplanet"
+"Réinitialiser l'emplacement XPlanet à l'emplacement spécifié dans les "
+"options de XPlanet"
 
 #: auxiliary/xplanetimageviewer.cpp:269
 #, kde-format
 msgid "Hover over target and freely rotate view with mouse in XPlanet Viewer"
 msgstr ""
 "Survoler la cible et faire tourner l'affichage avec la souris dans "
-"l'afficheur Xplanet"
+"l'afficheur XPlanet"
 
 #: auxiliary/xplanetimageviewer.cpp:278
 #, kde-format
 msgid "Recenters the XPlanet image once it has been moved"
-msgstr "Recentre une image Xplanet après mouvement"
+msgstr "Recentre une image XPlanet après mouvement"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: auxiliary/xplanetimageviewer.cpp:296 ekos/align/align.ui:323
@@ -1336,24 +1336,24 @@ msgstr "Réinitialiser la rotation à 0"
 #: auxiliary/xplanetimageviewer.cpp:379
 #, kde-format
 msgid "Bring up XPlanet Options"
-msgstr "Faire apparaître les options de Xplanet"
+msgstr "Faire apparaître les options de XPlanet"
 
 #: auxiliary/xplanetimageviewer.cpp:405
 #, kde-format
 msgid "Allows you to set the XPlanet time to a different date/time from KStars"
 msgstr ""
-"Cette option permet de définir une heure pour Xplanet différente de l'heure "
+"Cette option permet de définir une heure pour XPlanet différente de l'heure "
 "et de la date de KStars."
 
 #: auxiliary/xplanetimageviewer.cpp:414
 #, kde-format
 msgid "Sets the XPlanet time to the current KStars time"
-msgstr "Définit le temps Xplanet comme le temps courant de KStars"
+msgstr "Définit le temps XPlanet comme le temps courant de KStars"
 
 #: auxiliary/xplanetimageviewer.cpp:419
 #, kde-format
 msgid "Current XPlanet Time"
-msgstr "Heure Xplanet actuelle"
+msgstr "Heure XPlanet actuelle"
 
 #: auxiliary/xplanetimageviewer.cpp:422 auxiliary/xplanetimageviewer.cpp:878
 #: auxiliary/xplanetimageviewer.cpp:1039 auxiliary/xplanetimageviewer.cpp:1052
@@ -1367,13 +1367,13 @@ msgid ""
 "This sets the time step from the current XPlanet time, good for viewing "
 "events"
 msgstr ""
-"Ceci définit le pas de temps à partir de l'heure courante de Xplanet, adapté "
+"Ceci définit le pas de temps à partir de l'heure courante de XPlanet, adapté "
 "pour suivre des évènements"
 
 #: auxiliary/xplanetimageviewer.cpp:435
 #, kde-format
 msgid "This sets the time step from the current XPlanet time"
-msgstr "Ceci définit un pas de temps pour l'heure actuelle de Xplanet"
+msgstr "Ceci définit un pas de temps pour l'heure actuelle de XPlanet"
 
 #: auxiliary/xplanetimageviewer.cpp:442
 #, kde-format
@@ -1437,29 +1437,29 @@ msgstr "Vous permet de lancer l'animation"
 msgid "Resets the animation to 0 timesteps from the current XPlanet Time"
 msgstr ""
 "Réinitialise l'animation à des pas de temps de 0, à partir de l'heure "
-"actuelle de Xplanet"
+"actuelle de XPlanet"
 
 #: auxiliary/xplanetimageviewer.cpp:542
 #, kde-format
 msgid "Xplanet binary path is empty in config panel."
 msgstr ""
-"Le répertoire de l'exécutable xplanet est vide dans le panneau de "
+"Le répertoire de l'exécutable XPlanet est vide dans le panneau de "
 "configuration."
 
 #: auxiliary/xplanetimageviewer.cpp:550
 #, kde-format
 msgid "The configured Xplanet binary does not exist or is not executable."
-msgstr "L'exécutable xplanet configuré n'existe pas ou est non exécutable."
+msgstr "L'exécutable XPlanet configuré n'existe pas ou est non exécutable."
 
 #: auxiliary/xplanetimageviewer.cpp:750
 #, kde-format
 msgid "XPlanet View: %1 from %2 on %3"
-msgstr "Affichage Xplanet : %1 vu de %2 le %3"
+msgstr "Affichage XPlanet : %1 vu de %2 le %3"
 
 #: auxiliary/xplanetimageviewer.cpp:752
 #, kde-format
 msgid "XPlanet View: %1 from %2 on %3 at FOV: %4 deg"
-msgstr "Affichage Xplanet : %1 vu de %2 le %3 de CdV %4 deg"
+msgstr "Affichage XPlanet : %1 vu de %2 le %3 de CdV %4 deg"
 
 #: auxiliary/xplanetimageviewer.cpp:766
 #, kde-format
@@ -1472,7 +1472,7 @@ msgid ""
 "XPlanet failed to generate the image for object %1 before the timeout "
 "expired."
 msgstr ""
-"Échec de Xplanet pour la génération de l'image de l'objet %1 avant la fin du "
+"Échec de XPlanet pour la génération de l'image de l'objet %1 avant la fin du "
 "délai imparti."
 
 #: auxiliary/xplanetimageviewer.cpp:792 indi/servermanager.cpp:89
@@ -1493,7 +1493,7 @@ msgstr "Choisissez un champ de vision"
 #: auxiliary/xplanetimageviewer.cpp:1120
 #, kde-format
 msgid "FOV to render in XPlanet:"
-msgstr "CdV à restituer avec Xplanet"
+msgstr "CdV à restituer avec XPlanet"
 
 #: auxiliary/xplanetimageviewer.cpp:1244
 #, kde-format
@@ -1508,7 +1508,7 @@ msgstr "Le catalogue avec cet ID existe déjà."
 #: catalogsdb/catalogsdb.cpp:594 catalogsdb/catalogsdb.cpp:730
 #, kde-format
 msgid "Catalog could not be found."
-msgstr "Il est impossible de trouver le catalogue."
+msgstr "Impossible de trouver le catalogue."
 
 #: catalogsdb/catalogsdb.cpp:683 catalogsdb/catalogsdb.cpp:1036
 #, kde-format
@@ -1538,18 +1538,18 @@ msgstr "Le fichier de sortie n'est pas accessible en écriture."
 #: catalogsdb/catalogsdb.cpp:742
 #, kde-format
 msgid "Could not attach output file.<br>%1"
-msgstr "Impossible d'attacher le fichier de sortie.<br> %1"
+msgstr "Impossible d'attacher le fichier de sortie.<br>%1"
 
 #: catalogsdb/catalogsdb.cpp:752
 #, kde-format
 msgid "Could not copy catalog to output file.<br>%1"
-msgstr "Impossible de copier le catalogue dans le fichier de sortie. <br> %1"
+msgstr "Impossible de copier le catalogue dans le fichier de sortie.<br>%1"
 
 #: catalogsdb/catalogsdb.cpp:756
 #, kde-format
 msgid "Could not create catalog registry in output file.<br>%1"
 msgstr ""
-"Impossible de créer le registre de catalogue dans le fichier de sortie. <br> "
+"Impossible de créer le registre de catalogue dans le fichier de sortie.<br>"
 "%1"
 
 #: catalogsdb/catalogsdb.cpp:768
@@ -1557,7 +1557,7 @@ msgstr ""
 msgid "Could not insert catalog into registry in output file.<br>%1"
 msgstr ""
 "Impossible d'insérer le catalogue dans le registre, dans le fichier de "
-"sortie. <br> %1"
+"sortie.<br>%1"
 
 #: catalogsdb/catalogsdb.cpp:774
 #, kde-format
@@ -1570,7 +1570,7 @@ msgstr ""
 msgid "Could not insert set exported database application id.<br>%1"
 msgstr ""
 "Impossible d'insérer l'id de l'application définie de la base de données "
-"exportée. <br> %1"
+"exportée.<br>%1"
 
 #: catalogsdb/catalogsdb.cpp:797
 #, kde-format
@@ -1580,7 +1580,7 @@ msgstr "Le fichier de catalogue n'est pas accessible en lecture."
 #: catalogsdb/catalogsdb.cpp:806
 #, kde-format
 msgid "Could not attach input file.<br>%1"
-msgstr "Impossible d'attacher le fichier d'entrée.<br> %1"
+msgstr "Impossible d'attacher le fichier d'entrée.<br>%1"
 
 #: catalogsdb/catalogsdb.cpp:816
 #, kde-format
@@ -1590,7 +1590,7 @@ msgstr "Fichier de catalogue non valide."
 #: catalogsdb/catalogsdb.cpp:823
 #, kde-format
 msgid "Could not migrate old catalog format.<br>%1"
-msgstr "Impossible de migrer l'ancien format de catalogue. <br> %1"
+msgstr "Impossible de migrer l'ancien format de catalogue.<br>%1"
 
 #: catalogsdb/catalogsdb.cpp:829
 #, kde-format
@@ -1620,12 +1620,12 @@ msgstr "La suppression du catalogue utilisateur n'est pas autorisée."
 #: catalogsdb/catalogsdb.cpp:890
 #, kde-format
 msgid "Could not remove the catalog from the registry.<br>%1"
-msgstr "Impossible de supprimer le catalogue à partir du registre <br>%1"
+msgstr "Impossible de supprimer le catalogue à partir du registre.<br>%1"
 
 #: catalogsdb/catalogsdb.cpp:904
 #, kde-format
 msgid "Both catalogs have to exist!"
-msgstr "Les deux catalogues doivent exister!"
+msgstr "Les deux catalogues doivent exister !"
 
 #: catalogsdb/catalogsdb.cpp:907
 #, kde-format
@@ -2134,7 +2134,7 @@ msgstr "Téléchargement en cours…"
 #: data/qml/whatisinteresting/wiview.qml:1543
 #, kde-kuit-format
 msgid "Explanation of the What's Interesting Panel"
-msgstr "Explication du panneau Digne d'intérêt!"
+msgstr "Explication du panneau « Digne d'intérêt ! »"
 
 #: data/qml/whatisinteresting/wiview.qml:1557
 #, kde-kuit-format
@@ -2152,14 +2152,14 @@ msgid ""
 "conveniently.  Please see the descriptions below for details on what the "
 "buttons at the bottom do."
 msgstr ""
-"Le panneau Digne d'intérêt permet d'explorer de différentes façons, les "
+"Le panneau « Digne d'intérêt » permet d'explorer de différentes façons, les "
 "objects observables cette nuit. Il inclut les objets visibles à l'œil nu "
 "aussi bien que ceux nécessitant un instrument. Il s'adresse à la fois aux "
-"astronomes débutants ou expérimentés.En cliquant sur une catégorie ou un "
+"astronomes débutants ou expérimentés. En cliquant sur une catégorie ou un "
 "catalogue, une liste d'objets apparaît. Cliquez sur un objet dans la liste, "
 "les détails le concernant s'afficheront. Si on dispose de miniatures ou "
-"d'informations Wikipedia, elles s'afficheront  également. Sinon, vous pouvez "
-"les télécharger. En élargissant la fenêtre  Qu'y-a-t-il d'intéressant, "
+"d'informations Wikipedia, elles s'afficheront également. Sinon, vous pouvez "
+"les télécharger. En élargissant la fenêtre « Digne d'intérêt », "
 "l'affichage se modifiera dynamiquement. Voir ci-dessous pour le descriptif "
 "de chaque bouton."
 
@@ -2195,7 +2195,7 @@ msgid ""
 msgstr ""
 "Ce bouton rechargera la liste des objets courants. Il mettra aussi à jour "
 "toutes les informations affichées, toutes les images ainsi que les "
-"informations et les images pour l'objet actuellement sélectionnées."
+"informations et les images pour l'objet actuellement sélectionné."
 
 #: data/qml/whatisinteresting/wiview.qml:1642
 #, kde-kuit-format
@@ -2242,8 +2242,8 @@ msgstr ""
 "concernant les objets à partir de Wikipedia. Vous pouvez sélectionner soit "
 "de télécharger des informations, juste pour l'un d'entre eux, pour tous les "
 "objets de la liste ou seulement pour les objets de la liste ne possédant "
-"encore aucune informations téléchargées. Remarque: si la liste est déjà "
-"filtrer pour les objets visibles ou les objets intéressants, seuls les "
+"encore aucune information téléchargée. Remarque: si la liste est déjà "
+"filtrée pour les objets visibles ou les objets intéressants, seuls les "
 "objets filtrés seront téléchargés. Si vous voulez actuellement avoir tous "
 "les objets dans la liste, veuillez désactiver les filtres."
 
@@ -2424,19 +2424,19 @@ msgstr "Décrivez les champs de données"
 #: dialogs/addcatdialog.ui:137
 #, kde-format
 msgid "<b>Catalog fields:</b>"
-msgstr "<b>Champs du catalogue:</b>"
+msgstr "<b>Champs du catalogue :</b>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3_2)
 #: dialogs/addcatdialog.ui:176
 #, kde-format
 msgid "<b>Available fields:</b>"
-msgstr "<b>Champs disponibles:</b>"
+msgstr "<b>Champs disponibles :</b>"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, Epoch)
 #: dialogs/addcatdialog.ui:211
 #, kde-format
 msgid "The coordinate epoch for the catalog"
-msgstr "Epoque des coordonnées du catalogue"
+msgstr "Époque des coordonnées du catalogue"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
 #: dialogs/addcatdialog.ui:230
@@ -2454,7 +2454,7 @@ msgstr "Couleur du symbole :"
 #: dialogs/addcatdialog.ui:277
 #, kde-format
 msgid "Coordinate epoch:"
-msgstr "Epoque des coordonnées:"
+msgstr "Époque des coordonnées :"
 
 #. i18n: ectx: property (text), widget (QRadioButton, CSVButton)
 #: dialogs/addcatdialog.ui:301
@@ -2484,13 +2484,13 @@ msgstr "Saisissez le nom de fichier pour le fichier de catalogue de sortie"
 #: dialogs/addcatdialog.ui:359
 #, kde-format
 msgid "Catalog name:"
-msgstr "Nom du catalogue:"
+msgstr "Nom du catalogue :"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: dialogs/addcatdialog.ui:366
 #, kde-format
 msgid "Save catalog as:"
-msgstr "Enregistrer le catalogue sous:"
+msgstr "Enregistrer le catalogue sous :"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, CatalogName)
 #: dialogs/addcatdialog.ui:373
@@ -2516,7 +2516,7 @@ msgid ""
 "to the Google search engine?"
 msgstr ""
 "L'URL n'est pas valable. Voulez-vous ouvrir une fenêtre de navigateur\n"
-"avec le moteur de recherche Google?"
+"avec le moteur de recherche Google ?"
 
 #: dialogs/addlinkdialog.cpp:60 ekos/align/align.cpp:3878
 #: ekos/align/mountmodel.cpp:261 ekos/align/mountmodel.cpp:387
@@ -2697,7 +2697,7 @@ msgstr "Tout fichier"
 #: dialogs/catalogcsvimport.cpp:116
 #, kde-format
 msgid "Could not open the csv file.<br>It does not exist."
-msgstr "Impossible d'ouvrir le fichier csv.<br> Il n'existe pas."
+msgstr "Impossible d'ouvrir le fichier csv.<br>Il n'existe pas."
 
 #: dialogs/catalogcsvimport.cpp:167 widgets/draglistbox.cpp:70
 #: widgets/draglistbox.cpp:87
@@ -2709,7 +2709,7 @@ msgstr "Ignorer"
 #, kde-format
 msgid "%1 Object"
 msgid_plural "%1 Objects"
-msgstr[0] "Objet %1"
+msgstr[0] "%1 Objet"
 msgstr[1] "%1 Objets"
 
 #: dialogs/catalogcsvimport.cpp:184
@@ -2747,13 +2747,13 @@ msgstr "Entrée"
 #: dialogs/catalogcsvimport.ui:50
 #, kde-format
 msgid "lines"
-msgstr " premières lignes"
+msgstr "lignes"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: dialogs/catalogcsvimport.ui:77
 #, kde-format
 msgid "Skip first:"
-msgstr "Ignorer les "
+msgstr "Ignorer les premières "
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: dialogs/catalogcsvimport.ui:84
@@ -2814,7 +2814,7 @@ msgstr "Correspondance"
 #: dialogs/catalogcsvimport.ui:235
 #, kde-format
 msgid "Type Mapping"
-msgstr "Type de correspondance "
+msgstr "Type de correspondance"
 
 #. i18n: ectx: property (text), widget (QPushButton, preview_button)
 #: dialogs/catalogcsvimport.ui:297 ekos/capture/capturecountswidget.cpp:235
@@ -2835,27 +2835,27 @@ msgstr ""
 #: dialogs/catalogdetails.cpp:80
 #, kde-format
 msgid "Could not load the catalog with id=%1"
-msgstr "Impossible de charger le catalogue avec l'ID= %1"
+msgstr "Impossible de charger le catalogue avec l'ID=%1"
 
 #: dialogs/catalogdetails.cpp:133
 #, kde-format
 msgid "Could not update the catalog.<br>%1"
-msgstr "Impossible de mettre à jour le catalogue.<br> %1"
+msgstr "Impossible de mettre à jour le catalogue.<br>%1"
 
 #: dialogs/catalogdetails.cpp:148 dialogs/catalogdetails.cpp:197
 #, kde-format
 msgid "Could not add the object.<br>%1"
-msgstr "Il est impossible d'ajouter l'objet.<br>%1"
+msgstr "Impossible d'ajouter l'objet.<br>%1"
 
 #: dialogs/catalogdetails.cpp:167 dialogs/catalogdetails.cpp:191
 #, kde-format
 msgid "Could not remove the object.<br>%1"
-msgstr "Impossible de supprimer l'objet.<br> %1"
+msgstr "Impossible de supprimer l'objet.<br>%1"
 
 #: dialogs/catalogdetails.cpp:214
 #, kde-format
 msgid "Could not add the objects.<br>%1"
-msgstr "Il est impossible d'ajouter les objets.<br>%1"
+msgstr "Impossible d'ajouter les objets.<br>%1"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, CatalogDetails)
 #: dialogs/catalogdetails.ui:14
@@ -3172,13 +3172,13 @@ msgstr "Désactiver"
 #: dialogs/catalogsdbui.cpp:154
 #, kde-format
 msgid "Could not enable/disable the catalog.<br>%1"
-msgstr "Impossible d'activer/désactiver le catalogue. <br> %1"
+msgstr "Impossible d'activer/désactiver le catalogue.<br>%1"
 
 #: dialogs/catalogsdbui.cpp:175
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Catalog"
-msgstr "Exporter un catalogue"
+msgstr "Exporter le catalogue"
 
 #: dialogs/catalogsdbui.cpp:176 dialogs/catalogsdbui.cpp:196
 #, kde-format
@@ -3188,17 +3188,17 @@ msgstr "Catalogue"
 #: dialogs/catalogsdbui.cpp:190
 #, kde-format
 msgid "Could not export the catalog.<br>%1"
-msgstr "Impossible d'exporter le catalogue.<br> %1"
+msgstr "Impossible d'exporter le catalogue.<br>%1"
 
 #: dialogs/catalogsdbui.cpp:231
 #, kde-format
 msgid "Could not remove the catalog.<br>%1"
-msgstr "Impossible de supprimer le catalogue.<br> %1"
+msgstr "Impossible de supprimer le catalogue.<br>%1"
 
 #: dialogs/catalogsdbui.cpp:249
 #, kde-format
 msgid "Could not create the catalog.<br>%1"
-msgstr "Impossible de créer le catalogue.<br> %1"
+msgstr "Impossible de créer le catalogue.<br>%1"
 
 #: dialogs/catalogsdbui.cpp:284
 #, kde-format
@@ -3569,7 +3569,7 @@ msgstr "Il est impossible de modifier l'entrée."
 #: dialogs/detaildialog.cpp:954
 #, kde-format
 msgid "Are you sure you want to remove the %1 link?"
-msgstr "Confirmez-vous la suppression du lien %1 :"
+msgstr "Confirmez-vous la suppression du lien %1 ?"
 
 #: dialogs/detaildialog.cpp:955 indi/drivermanager.cpp:1501
 #: indi/indidriver.cpp:897
@@ -3580,7 +3580,7 @@ msgstr "Confirmation de la suppression"
 #: dialogs/detaildialog.cpp:963
 #, kde-format
 msgid "Could not delete the entry."
-msgstr "Il est impossible de supprimer l'entrée."
+msgstr "Impossible de supprimer l'entrée."
 
 #: dialogs/detaildialog.cpp:1079 tools/observinglist.cpp:875
 #, kde-format
@@ -3839,7 +3839,7 @@ msgstr "Période"
 #: dialogs/details_data_comet.ui:262
 #, kde-format
 msgid "0 y"
-msgstr "0 y"
+msgstr "0 a"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, DetailsDatabase)
 #: dialogs/details_database.ui:13
@@ -4326,7 +4326,7 @@ msgstr "Format Époque non valable."
 #: dialogs/focusdialog.cpp:182
 #, kde-format
 msgid "The Azimuth value must be between 0.0 and 360.0."
-msgstr "L'azimut doit être comprise entre 0,0 et 360,0."
+msgstr "L'azimut doit être compris entre 0,0 et 360,0."
 
 #: dialogs/focusdialog.cpp:184
 #, kde-format
@@ -4808,7 +4808,7 @@ msgid ""
 "and West is negative.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Longitude en degrés. L'est de Greenwich est positif et "
-"l'ouest négatif. </p></body></html>"
+"l'ouest négatif.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, LatLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -4883,7 +4883,7 @@ msgid ""
 "weight:600;\">:</span></p></body></html>"
 msgstr ""
 "<html><head/><body><p><span style=\" font-weight:600;\">Nom </span><span "
-"style=\" font-weight:600; color:#ff0000;\">*</span> </body></html>"
+"style=\" font-weight:600; color:#ff0000;\">*</span></p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, FOVName)
 #: dialogs/newfov.ui:65
@@ -5099,7 +5099,7 @@ msgstr ""
 "Saisissez la longueur focale du télescope, en millimètres.\n"
 "\n"
 "Il s'agit d'un des champs de données requis pour définir un indicateur de "
-"champ de vision (CdV) qui corresponde au champ de vision d'une caméra montée "
+"champ de vision (CdV) qui correspond au champ de vision d'une caméra montée "
 "sur un télescope."
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
@@ -5160,7 +5160,7 @@ msgstr ""
 "Saisissez la taille physique du capteur CCD.\n"
 "\n"
 "Il s'agit d'un des champs de données requis pour définir un indicateur de "
-"champ de vision (CdV) qui corresponde au champ de vision d'une caméra montée "
+"champ de vision (CdV) qui correspond au champ de vision d'une caméra montée "
 "sur un télescope."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel6_2_3_2)
@@ -5429,13 +5429,13 @@ msgstr "Sélectionner une couleur pour l'indicateur de champ de vision"
 #: dialogs/newfov.ui:1229
 #, kde-format
 msgid "Select a color for the field-of-view (FOV) symbol."
-msgstr "Sélectionnez une couleur pour l'indicateur de champ de vision."
+msgstr "Sélectionner une couleur pour l'indicateur de champ de vision."
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, ShapeBox)
 #: dialogs/newfov.ui:1253
 #, kde-format
 msgid "Select a shape for the field-of-view symbol"
-msgstr "Sélectionner une forme pour l'indicateur de champ de vision"
+msgstr "Sélectionner une forme pour l'indicateur de champ de vision."
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, ShapeBox)
 #: dialogs/newfov.ui:1258
@@ -5446,10 +5446,10 @@ msgid ""
 "\n"
 "Circle, Square, Crosshairs, Bullseye."
 msgstr ""
-"Sélectionnez une forme pour l'indicateur de champ de vision (CdV). Les "
+"Sélectionner une forme pour l'indicateur de champ de vision (CdV). Les "
 "formes possibles sont:\n"
 "\n"
-"cercle, carré, croix, œil-de-bœuf."
+"cercle, carré, croix, cible."
 
 #. i18n: ectx: property (text), item, widget (QComboBox, ShapeBox)
 #: dialogs/newfov.ui:1262
@@ -5476,7 +5476,7 @@ msgstr "Croix"
 #: dialogs/newfov.ui:1277
 #, kde-format
 msgid "Bullseye"
-msgstr "Œil-de-bœuf"
+msgstr "Cible"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, ShapeBox)
 #: dialogs/newfov.ui:1282
@@ -5756,7 +5756,7 @@ msgid ""
 "<p>This wizard will help you set up some basic options, such as your "
 "location on Earth.</p><p>To get started, press the <b>Next</b> button.</p>"
 msgstr ""
-"<p>L'assistant vous aidera à définir certains options basiques, comme votre "
+"<p>L'assistant vous aidera à définir certaines options basiques, comme votre "
 "position sur Terre.</p><p>Pour démarrer, veuillez appuyer sur le bouton "
 "<b>Suivant</b>.</p>"
 
@@ -5867,8 +5867,8 @@ msgid ""
 "focal length and camera pixel size are correct."
 msgstr ""
 "Attention ! Le champ de vision calculé est hors limites. Veuillez vous "
-"assurez que la longueur focale du télescope et la taille en pixels de la "
-"caméra sont corrects."
+"assurer que la longueur focale du télescope et la taille en pixels de la "
+"caméra sont correctes."
 
 #: ekos/align/align.cpp:1245
 #, kde-format
@@ -5878,7 +5878,7 @@ msgid ""
 "p><p>Calculated FOV: %1</p>"
 msgstr ""
 "<p>Champ de vision effectif en minutes d'arc.</p><p>Veuillez acquérir puis "
-"résoudre pour mesurer le champs de vision réel ou saisissez manuellement les "
+"résoudre pour mesurer le champ de vision réel ou saisissez manuellement les "
 "valeurs.</p><p>Champ de vision calculé : %1</p>"
 
 #: ekos/align/align.cpp:1254
@@ -6003,7 +6003,7 @@ msgid ""
 "valid WCS."
 msgstr ""
 "Informations WCS mises à jour. Les images acquises dès maintenant "
-"posséderont des informations WCS valables."
+"possèderont des informations WCS valables."
 
 #: ekos/align/align.cpp:2175
 #, kde-format
@@ -6103,7 +6103,7 @@ msgstr ""
 msgid ""
 "Mount is synced to solution coordinates. Astrometric solver is successful."
 msgstr ""
-"La monture est synchronisé avec les coordonnées de la solution. La "
+"La monture est synchronisée avec les coordonnées de la solution. La "
 "résolution s'est terminée avec succès."
 
 #: ekos/align/align.cpp:2693 ekos/align/align.cpp:2718
@@ -6124,13 +6124,13 @@ msgstr ""
 #, kde-format
 msgid "Slew complete. Target accuracy is not met, running solver again..."
 msgstr ""
-"Pointage terminée. La précision sur la cible n'est pas atteinte, nouvelle "
+"Pointage terminé. La précision sur la cible n'est pas atteinte, nouvelle "
 "tentative de résolution…"
 
 #: ekos/align/align.cpp:2710
 #, kde-format
 msgid "Slew complete. Solving Alignment Point. . ."
-msgstr "Pointage terminée. Résolution en cours du point d'alignement…"
+msgstr "Pointage terminé. Résolution en cours du point d'alignement…"
 
 #: ekos/align/align.cpp:2753 ekos/align/align.cpp:2857
 #, kde-format
@@ -6155,7 +6155,7 @@ msgstr "Pointage détecté, suspension de la résolution…"
 #: ekos/align/align.cpp:2851
 #, kde-format
 msgid "Syncing to RA (%1) DEC (%2)"
-msgstr "Synchronisation aux coordonnées : AD (%1)   DEC (%2)"
+msgstr "Synchronisation aux coordonnées : AD (%1)  DEC (%2)"
 
 #: ekos/align/align.cpp:2874
 #, kde-format
@@ -6171,7 +6171,7 @@ msgstr "Tâche Ekos (%1) - Télescope synchronisé"
 #, kde-format
 msgctxt "@title:window"
 msgid "Load Image"
-msgstr "Charge une image"
+msgstr "Charger une image"
 
 #: ekos/align/align.cpp:3157
 #, kde-format
@@ -6272,7 +6272,7 @@ msgstr "Impossible d'écrire le fichier %1"
 #: tools/scriptbuilder.cpp:902 tools/scriptbuilder.cpp:985
 #, kde-format, kde-kuit-format
 msgid "Could Not Open File"
-msgstr "Il est impossible d'ouvrir le fichier"
+msgstr "Impossible d'ouvrir le fichier"
 
 #: ekos/align/align.cpp:3908
 #, kde-format
@@ -6335,7 +6335,7 @@ msgstr "Arrêter"
 #, kde-format
 msgid "Select which action to perform after the captured image is solved"
 msgstr ""
-"Sélectionner l'action à lancer après la résolution de l'images acquise."
+"Sélectionner l'action à lancer après la résolution de l'image acquise."
 
 #. i18n: ectx: property (statusTip), widget (QGroupBox, gotoBox)
 #: ekos/align/align.ui:115
@@ -6405,7 +6405,7 @@ msgid ""
 "below the accuracy threshold"
 msgstr ""
 "Le seuil de précision en secondes d'arc entre les coordonnées de la solution "
-"et de la cible. La résolveur devra être lancé de façon répétée, jusqu'à ce "
+"et de la cible. Le résolveur devra être lancé de façon répétée, jusqu'à ce "
 "que les coordonnées de la solution soient en dessous du seuil de précision."
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_22)
@@ -6969,13 +6969,13 @@ msgid ""
 msgstr ""
 "Dans le module Alignement, l'option Rien est sélectionné pour les activités "
 "du résolveur. Cela signifie que l'outil d'alignement n étoiles ne fera ni "
-"synchronisation, ni alignement mais ne fera que présenter les erreurs du "
-"modèle de pointage. Voulez-vous continuer?"
+"synchronisation ni alignement mais ne fera que présenter les erreurs du "
+"modèle de pointage. Voulez-vous continuer ?"
 
 #: ekos/align/mountmodel.cpp:1008
 #, kde-format
 msgid "Pointing Model Report Only?"
-msgstr "Uniquement un rapport d'Alignement n étoiles?"
+msgstr "Uniquement un rapport d'Alignement n étoiles ?"
 
 #: ekos/align/mountmodel.cpp:1025
 #, kde-format
@@ -7010,7 +7010,7 @@ msgid ""
 "by Ekos. If this is not the case, then this tool is not suitable for your "
 "mount.</p>"
 msgstr ""
-"<p>Cet outil peut vous à définir un meilleur pointage pour votre monture en "
+"<p>Cet outil peut vous aider à définir un meilleur pointage pour votre monture en "
 "déplaçant celle-ci en différents points du ciel et en résolvant les images "
 "capturées. Cela peut accroître la précision de vos pointages. Pour être "
 "applicable, votre monture doit être capable d'améliorer son modèle de "
@@ -7027,7 +7027,7 @@ msgstr "Assistant d'Alignement n étoiles"
 #: ekos/align/mountmodel.ui:54
 #, kde-format
 msgid "Object Type:"
-msgstr "Type d'objet:"
+msgstr "Type d'objet :"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, alignTypeBox)
 #: ekos/align/mountmodel.ui:69
@@ -7057,15 +7057,15 @@ msgstr ""
 "<ul>\n"
 "<li><b>Toute étoile :</b> L'assistant recherche l'étoile la plus proche.</"
 "li>\n"
-"<li><b>Tout objet :</b>L'assistant recherche tout objet de tout type le plus "
+"<li><b>Tout objet :</b> L'assistant recherche tout objet de tout type le plus "
 "proche.</li>\n"
-"<li><b>Étoiles nommées</b> L'assistant recherche l'étoile la plus proche "
+"<li><b>Étoiles nommées :</b> L'assistant recherche l'étoile la plus proche "
 "dans la liste des étoiles actuellement visibles. Veuillez notez que la "
 "première étoile nommée peut être plutôt loin du point attendu et la même "
 "étoile pourrait être aussi la plus proche de points multiples.</li>\n"
 "<li><b>DEC fixe :</b> L'assistant génère tous les points pour le DEC choisi."
 "</li>\n"
-"<li><b>Quadrillage fixe :</b>L'assistant utilise seulement le quadrillage "
+"<li><b>Quadrillage fixe :</b> L'assistant utilise seulement le quadrillage "
 "original sans essayer de l'associer avec les objets.</li>\n"
 "</ul>\n"
 "</body></html>"
@@ -7108,7 +7108,7 @@ msgid ""
 "below. They will be generated based on the options selected in this wizard."
 msgstr ""
 "Générer automatiquement le nombre spécifié de points d'alignement dans la "
-"table ci-dessous. Ils seront générés à partir des options sélectionnés dans "
+"table ci-dessous. Ils seront générés à partir des options sélectionnées dans "
 "l'assistant."
 
 #. i18n: ectx: property (text), widget (QPushButton, wizardAlignB)
@@ -7124,14 +7124,14 @@ msgid ""
 "The Declination of the points that will be generated.  This option only "
 "applies to the Fixed DEC Option."
 msgstr ""
-"La déclinaison des points qui seront générées. Cette option ne s'applique "
+"La déclinaison des points qui seront générés. Cette option ne s'applique "
 "que à l'option DEC fixe."
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: ekos/align/mountmodel.ui:133
 #, kde-format
 msgid "Minimum Alt:"
-msgstr "Élévation minimale:"
+msgstr "Élévation minimale :"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, minAltBox)
 #: ekos/align/mountmodel.ui:140
@@ -7179,7 +7179,7 @@ msgid ""
 msgstr ""
 "Le nombre de points que l'assistant devrait générer. Si ce nombre est "
 "inférieur à 5, il les généra avec le même paramètre DEC. Ensuite, ils seront "
-"répartis uniformément entre RA et DEC. Remarque: si le choix est fait d'un "
+"répartis uniformément entre AD et DEC. Remarque : si le choix est fait d'un "
 "paramètre DEC fixée, tous les points auront la même valeur de paramètre DEC."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
@@ -7209,7 +7209,7 @@ msgstr ""
 #: ekos/align/mountmodel.ui:270
 #, kde-format
 msgid "Greek:"
-msgstr "Grec:"
+msgstr "Grec :"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, greekStarListBox)
 #: ekos/align/mountmodel.ui:283
@@ -7291,7 +7291,7 @@ msgid ""
 "Sort the alignment points, starting with the point closest to the current "
 "telescope position, to try to minimize the distance between each slew."
 msgstr ""
-"Trier les points d'alignement, démarrant avec le point le plus prés de la "
+"Trier les points d'alignement, démarrant avec le point le plus près de la "
 "position actuelle du télescope pour tenter de réduire la distance entre "
 "chaque pointage."
 
@@ -7341,7 +7341,7 @@ msgid ""
 "ran on a previous occasion."
 msgstr ""
 "Charger une liste enregistrée de points d'alignement, ainsi vous pourrez "
-"exécuter cet alignement réalisé précédemment"
+"exécuter cet alignement réalisé précédemment."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, saveAlignB)
 #: ekos/align/mountmodel.ui:513
@@ -7378,7 +7378,7 @@ msgstr ""
 "pointer et résoudre astrométriquement la liste des points dans la table ci-"
 "dessus en utilisant ces paramètres dans le module d'alignement. Si la "
 "procédure avait été mise en pause antérieurement, elle reprendra à son point "
-"d'arrêt. Si elle a été arrêtée ou terminée, elle sera redémarrer."
+"d'arrêt. Si elle a été arrêtée ou terminée, elle sera redémarrée."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, stopAlignB)
 #: ekos/align/mountmodel.ui:592
@@ -7466,7 +7466,7 @@ msgstr ""
 "de « StellarSolver » d'Astrometry.net et ne nécessite aucun programme "
 "externe. L'astrométrie locale utilise une installation locale en ligne de "
 "commandes pour « astrometry.net » sous Linux et Mac ou avec « ANSVR » sous "
-"Windows. « Watney local » utilise une installation local du programme de "
+"Windows. « Watney local » utilise une installation locale du programme de "
 "résolveur d'astrométrie Watney. La bibliothèque « ASTAP » utilise une "
 "installation locale du programme « ASTAP ». Enfin, la version en ligne "
 "utilise soit « astrometry.net » sur Internet, soit « ANSVR » sur un "
@@ -7513,13 +7513,13 @@ msgstr "Méthode de résolution"
 #: ekos/align/opsalign.ui:160
 #, kde-format
 msgid "Options Profile:"
-msgstr "Options du profil:"
+msgstr "Options du profil :"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, kcfg_SolveOptionsProfile)
 #: ekos/align/opsalign.ui:181
 #, kde-format
 msgid "Selects the Options Profile to use for Plate Solving"
-msgstr "Sélectionne les options du profil pour utilisation du résolveur "
+msgstr "Sélectionne les options du profil pour utilisation du résolveur"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, editSolverProfile)
 #: ekos/align/opsalign.ui:191
@@ -7527,7 +7527,7 @@ msgstr "Sélectionne les options du profil pour utilisation du résolveur "
 msgid ""
 "Opens the currently selected Options Profile in the Options Profile Editor"
 msgstr ""
-"Ouvre les options du profil  courant dans l'éditeur des options de profil"
+"Ouvre les options du profil courant dans l'éditeur des options de profil"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: ekos/align/opsalign.ui:206
@@ -7627,7 +7627,7 @@ msgstr ""
 "<html><head/><body><p>Le seuil de rotation en minutes d'arc lors de "
 "l'utilisation de Charger &amp; Pointer. Si la différence entre l'angle "
 "mesuré de la position et l'angle de la position FITS est sous ce seuil, "
-"alors, le pointage est considérée comme réussie.</p>y></html>"
+"alors le pointage est considérée comme réussie.</p></body></html>"
 
 #: ekos/align/opsastap.cpp:41
 #, kde-format
@@ -7741,7 +7741,7 @@ msgid ""
 "The lower end of the imager scale, calculated as a little smaller than the "
 "shorter dimension of the image."
 msgstr ""
-"Limite inférieure de la taille de l'imageur, calculé de façon légèrement "
+"Limite inférieure de la taille de l'imageur, calculée de façon légèrement "
 "plus petite que la dimension la plus petite de l'image."
 
 #. i18n: ectx: property (text), widget (QLineEdit, lineEdit_41)
@@ -7779,8 +7779,8 @@ msgid ""
 msgstr ""
 "<p>Unités des limites de l'image ci-dessus.</p>\n"
 "<ul>\n"
-"<li>dw: largeur en degrés</li>\n"
-"<li>aw: largeur en minutes d'arc</li>\n"
+"<li>dw : largeur en degrés</li>\n"
+"<li>aw : largeur en minutes d'arc</li>\n"
 "</ul>"
 
 #. i18n: ectx: property (text), widget (QLineEdit, lineEdit_50)
@@ -7797,7 +7797,7 @@ msgid ""
 "The high end of the imager scale, calculated as a little bigger than the "
 "longer dimension of the image."
 msgstr ""
-"Limite supérieure de la taille de l'imageur, calculé de façon légèrement "
+"Limite supérieure de la taille de l'imageur, calculée de façon légèrement "
 "plus importante que la dimension la plus grande de l'image."
 
 #. i18n: ectx: property (text), widget (QLineEdit, lineEdit_42)
@@ -7866,9 +7866,9 @@ msgid ""
 msgstr ""
 "<p>Les unités pour les limites de taille de l'imageur ci-dessous.</p>\n"
 "<ul>\n"
-"<li>dw: hauteur en degrés </li>\n"
-"<li>aw: largeur en minutes d'arc</li>\n"
-"<li>app: secondes d'arc par pixel</li>\n"
+"<li>dw : hauteur en degrés </li>\n"
+"<li>aw : largeur en minutes d'arc</li>\n"
+"<li>app : secondes d'arc par pixel</li>\n"
 "</ul>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
@@ -7934,7 +7934,7 @@ msgid ""
 "The Search Radius for the Estimated Telescope/Image Field Position in "
 "degrees."
 msgstr ""
-"Rayon de recherche pour une position estimée du champ du télescope/images,  "
+"Rayon de recherche pour une position estimée du champ du télescope/images, "
 "en degrés."
 
 #. i18n: ectx: property (text), widget (QLineEdit, lineEdit_44)
@@ -8002,7 +8002,7 @@ msgstr "4"
 #, kde-format
 msgid "Automatically update position coordinates when mount completes slewing."
 msgstr ""
-"Met à jour automatiquement les coordonnées de position quand la monture a "
+"Mettre à jour automatiquement les coordonnées de position quand la monture a "
 "terminé le pointage."
 
 #. i18n: ectx: property (toolTip), widget (QLabel, positionWarningLabel)
@@ -8026,14 +8026,14 @@ msgstr ""
 #: ekos/align/opsastrometry.ui:560
 #, kde-format
 msgid "Use differential slewing instead of syncing"
-msgstr "Utiliser un pointage différentielle plutôt qu'une synchronisation"
+msgstr "Utiliser un pointage différentiel plutôt qu'une synchronisation"
 
 #: ekos/align/opsastrometryindexfiles.cpp:192
 #, kde-format
 msgid ""
 "Downloads Disabled, this is not a directory, it is a list of all index files."
 msgstr ""
-"Téléchargements désactivés. Cela n'est pas un répertoire mais une liste de "
+"Téléchargements désactivés. Cela n'est pas un dossier mais une liste de "
 "tous les fichiers d'index."
 
 #: ekos/align/opsastrometryindexfiles.cpp:202
@@ -8046,12 +8046,12 @@ msgstr "Téléchargements activés. Le dossier existe et autorise l'écriture."
 msgid "Downloads Disabled, directory permissions issue."
 msgstr ""
 "Téléchargements désactivés suite à un problème de permissions sur le "
-"répertoire."
+"dossier."
 
 #: ekos/align/opsastrometryindexfiles.cpp:206
 #, kde-format
 msgid "Downloads Disabled, directory does not exist."
-msgstr "Téléchargements désactivés. Le répertoire n'existe pas."
+msgstr "Téléchargements désactivés. Le dossier n'existe pas."
 
 #. i18n: ectx: property (text), widget (QLabel, label_32)
 #: ekos/align/opsastrometryindexfiles.cpp:255
@@ -8087,7 +8087,7 @@ msgstr "Erreur d'écriture du fichier"
 #: ekos/align/opsastrometryindexfiles.cpp:623
 #, kde-format
 msgid "Astrometry Folder Permissions Error"
-msgstr "Erreur de permission pour le répertoire d'astrométrie"
+msgstr "Erreur de permission pour le dossier d'astrométrie"
 
 #: ekos/align/opsastrometryindexfiles.cpp:533
 #, kde-format
@@ -8095,7 +8095,7 @@ msgid ""
 "The selected Index File directory does not exist.  Please either create it "
 "or choose another."
 msgstr ""
-"Le répertoire sélectionné de fichiers d'index n'existe pas. Veuillez en "
+"Le dossier sélectionné de fichiers d'index n'existe pas. Veuillez en "
 "créer un ou en choisir un autre."
 
 #: ekos/align/opsastrometryindexfiles.cpp:548
@@ -8104,13 +8104,13 @@ msgid ""
 "The file %1 already exists in another directory.  Are you sure you want to "
 "download it to this directory as well?"
 msgstr ""
-"Le fichier %1 existe déjà dans un autre répertoire. Voulez-vous vraiment le "
-"télécharger celui-ci?"
+"Le fichier %1 existe déjà dans un autre dossier. Voulez-vous vraiment le "
+"télécharger celui-ci ?"
 
 #: ekos/align/opsastrometryindexfiles.cpp:550
 #, kde-format
 msgid "Install File(s)"
-msgstr "Installer de(s) fichier(s)"
+msgstr "Installer un(des) fichier(s)"
 
 #: ekos/align/opsastrometryindexfiles.cpp:592
 #, kde-format
@@ -8197,7 +8197,7 @@ msgid ""
 "<html><head/><body><p>This displays the path to the folder for the "
 "Astrometry Index Files on your computer.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Ceci affiche l'emplacement du répertoire pour les "
+"<html><head/><body><p>Ceci affiche l'emplacement du dossier pour les "
 "fichiers d'index d'astrométrie sur votre ordinateur.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_27)
@@ -8229,7 +8229,7 @@ msgstr "Détails du dossier"
 #: ekos/align/opsastrometryindexfiles.ui:253
 #, kde-format
 msgid "Add a folder where index files are stored"
-msgstr "Ajoute un répertoire où seront enregistrés les fichiers d'index"
+msgstr "Ajoute un dossier où seront enregistrés les fichiers d'index"
 
 #. i18n: ectx: property (text), widget (QPushButton, addIndexFileDirectory)
 #. i18n: ectx: property (text), widget (QPushButton, zoomInB)
@@ -8271,9 +8271,9 @@ msgid ""
 "on your filesystem so that you can see where it is located and copy files "
 "into it if needed.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Ce bouton ouvrira le répertoire contenant les fichiers "
+"<html><head/><body><p>Ce bouton ouvrira le dossier contenant les fichiers "
 "d'index d'astrométrie présent sur votre ordinateur. Ainsi, vous pourrez voir "
-"où il se trouve et copier les fichiers dedans, si nécessaire</p></body></"
+"où il se trouve et copier les fichiers dedans, si nécessaire.</p></body></"
 "html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, openIndexFileDirectory)
@@ -8303,7 +8303,7 @@ msgstr "L'URL du serveur où se trouve les fichiers index"
 #, kde-format
 #| msgid "Index Files"
 msgid "Index Files URL:"
-msgstr "Url des fichiers d'index"
+msgstr "URL des fichiers d'index"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, indexURL)
 #: ekos/align/opsastrometryindexfiles.ui:315
@@ -8351,7 +8351,7 @@ msgstr "680' - 1000'"
 #: ekos/align/opsastrometryindexfiles.ui:516
 #, kde-format
 msgid "Wide Fields"
-msgstr "Grands Champs "
+msgstr "Grands Champs"
 
 #. i18n: ectx: property (text), widget (QLabel, label_37)
 #: ekos/align/opsastrometryindexfiles.ui:526
@@ -8948,14 +8948,14 @@ msgid ""
 "Choose your current setup from the list to load the typical paths to those "
 "programs for your computer "
 msgstr ""
-"Sélectionnez votre configuration courante à partir de la liste, pour charger "
+"Sélectionner votre configuration courante à partir de la liste, pour charger "
 "des chemins vers ces programmes sur votre ordinateur."
 
 #. i18n: ectx: property (text), item, widget (QComboBox, defaultPathSelector)
 #: ekos/align/opsprograms.ui:27
 #, kde-format
 msgid "Select to load one of the default sets"
-msgstr "Sélectionner chargement d'un des paramétrages par défaut"
+msgstr "Sélectionner pour charger un des paramétrages par défaut"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, defaultPathSelector)
 #: ekos/align/opsprograms.ui:32
@@ -8997,7 +8997,7 @@ msgstr "Programme Sextractor local"
 #: ekos/align/opsprograms.ui:69
 #, kde-format
 msgid "sextractor binary:"
-msgstr "Binaire de sextractor:"
+msgstr "Exécutable de sextractor :"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_SextractorBinary)
 #: ekos/align/opsprograms.ui:76
@@ -9179,7 +9179,7 @@ msgstr "Troisième acquisition"
 #: ekos/align/polaralignmentassistant.cpp:39
 #, kde-format
 msgid "Select Star"
-msgstr "Sélectionner une étoile "
+msgstr "Sélectionner une étoile"
 
 #: ekos/align/polaralignmentassistant.cpp:40
 #, kde-format
@@ -9203,9 +9203,9 @@ msgid ""
 "Equatorial Mount</p><p>2. FOV &gt; 0.5 degrees</p><p>For small FOVs, use the "
 "Legacy Polar Alignment Tool.</p>"
 msgstr ""
-"<p>L'outil d'aide à l'alignement polaire nécessite les éléments suivants:</"
-"p><p>1. Une monture équatoriale allemande,</p><p>2. Un champ de vision FOV "
-"&gt; 0.5 degrés</p><p>Pour de petits champs de vision, utiliser l'ancien "
+"<p>L'outil d'aide à l'alignement polaire nécessite les éléments suivants :</"
+"p><p>1. Une monture équatoriale allemande,</p><p>2. Un champ de vision "
+"&gt; 0,5 degrés</p><p>Pour de petits champs de vision, utiliser l'ancien "
 "outil d'alignement polaire.</p>"
 
 #: ekos/align/polaralignmentassistant.cpp:370
@@ -9235,7 +9235,7 @@ msgid ""
 "Warning: Equatorial Grid Lines will not be drawn due to limited resources "
 "mode."
 msgstr ""
-"Attention : les lignes de quadrillage équatoriale n'ont pu être tracées à "
+"Attention : les lignes de quadrillage équatoriale n'ont pas pu être tracées à "
 "cause d'un mode limité de ressources."
 
 #: ekos/align/polaralignmentassistant.cpp:523
@@ -9305,7 +9305,7 @@ msgid ""
 "Mount is synced to celestial pole. You can now continue Polar Alignment "
 "Assistant procedure."
 msgstr ""
-"La monture est synchronisé sur le pôle céleste. Vous pouvez maintenant "
+"La monture est synchronisée sur le pôle céleste. Vous pouvez maintenant "
 "poursuivre la procédure d'alignement polaire."
 
 #: ekos/align/polaralignmentassistant.cpp:845
