@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-28 00:40+0000\n"
-"PO-Revision-Date: 2022-07-01 05:34+0200\n"
+"PO-Revision-Date: 2022-07-06 07:41+0200\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -9330,7 +9330,7 @@ msgstr ""
 msgid "Failed to process World Coordinate System: %1. Try again."
 msgstr ""
 "Échec du traitement du système de coordonnées mondiales WCS : %1. Veuillez "
-"réessayez."
+"réessayer."
 
 #. i18n: ectx: property (toolTip), widget (QStackedWidget, PAHWidgets)
 #: ekos/align/polaralignmentassistant.ui:44
@@ -9371,7 +9371,7 @@ msgid ""
 "be 10 arcmins or wider. 60+ arcminutes is recommended.</span></p></body></"
 "html>"
 msgstr ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Désactivé: le champ "
+"<html><head/><body><p><span style=\" font-weight:600;\">Désactivé : le champ "
 "de vision doit être de 10 minutes d'arc ou plus. Une valeur de 60 minutes "
 "d'arc au moins est recommandée.</span></p></body></html>"
 
@@ -9423,7 +9423,7 @@ msgstr ""
 #: ekos/align/polaralignmentassistant.ui:171
 #, kde-format
 msgid "Manual slew"
-msgstr "Pointage manuelle"
+msgstr "Pointage manuel"
 
 #. i18n: ectx: property (text), widget (QLabel, firstCaptureText)
 #: ekos/align/polaralignmentassistant.ui:212
@@ -9499,9 +9499,9 @@ msgid ""
 "vector. <span style=\" font-weight:600;\">Click Next </span> when done.</p>"
 msgstr ""
 "<p>Le triangle de correction est tracé ci-dessus. <span style=\" font-"
-"weight:600;\">Effectuez un zoom avant et sélectionnez une étoile brillante </"
+"weight:600;\">Effectuez un zoom avant et sélectionnez une étoile brillante</"
 "span> pour repositionner le vecteur de correction. Cliquez sur <span style="
-"\" font-weight:600;\">« Suivant » </span> une fois fait.</p>"
+"\" font-weight:600;\">« Suivant »</span> une fois fait.</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, refreshText)
 #: ekos/align/polaralignmentassistant.ui:517
@@ -9521,13 +9521,13 @@ msgid ""
 msgstr ""
 "<html><head/><body><p>Cliquez sur <span style=\" font-weight:600;"
 "\">« Rafraîchir »</span> pour démarrer des acquisitions en boucle avec la "
-"durée d'exposition spécifiée. Ajustez avec  <span style=\" font-weight:600;"
+"durée d'exposition spécifiée. Ajustez avec <span style=\" font-weight:600;"
 "\">les réglages d'altitude de la monture</span> pour déplacer l'étoile le "
-"long  de la ligne <span style=\" font-weight:600; color:#ffff50;\">Jaune</"
+"long  de la ligne <span style=\"font-weight:600; color:#ffff50;\">Jaune</"
 "span>, puis ajustez les <span style=\" font-weight:600;\">réglages d'azimut</"
-"span> pour la déplacer le long de la ligne <span style=\" font-weight:600; "
+"span> pour la déplacer le long de la ligne <span style=\"font-weight:600; "
 "color:#00ff00;\">Verte</span> jusqu'à ce que l'étoile choisie soit centrée "
-"sur le pointeur en croix. Cliquez sur <span style=\" font-weight:600;"
+"sur le pointeur en croix. Cliquez sur <span style=\"font-weight:600;"
 "\">« Fait »</span> lorsque l'étoile est centrée.</p><p>Utilisez <span style="
 "\" font-weight:600;\">Mettre à jour l'erreur en PA </span> pour estimer "
 "l'erreur restante pendant le déplacement de l'étoile.</p></body></html>"
@@ -9697,7 +9697,7 @@ msgstr "<p>Calcul de WCS pour la première image…</p>"
 #: ekos/align/polaralignmentassistant.ui:1136
 #, kde-format
 msgid "<p>Calculating WCS for the second image...</p>"
-msgstr "<p>Calcul du WCS pour la deuxième image…</p>"
+msgstr "<p>Calcul de WCS pour la deuxième image…</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, thirdWcsText)
 #: ekos/align/polaralignmentassistant.ui:1165
@@ -9820,7 +9820,7 @@ msgstr "Lire depuis le fichier"
 #: ekos/analyze/analyze.cpp:392
 #, kde-format
 msgid "Set alternative image-file base directory"
-msgstr "Répertoire racine alternatif pour les fichiers d'images"
+msgstr "Dossier racine alternatif pour les fichiers d'images"
 
 #: ekos/analyze/analyze.cpp:414
 #, kde-format
@@ -9836,7 +9836,7 @@ msgstr "Journaux (*.analyze);; Tous les fichiers (*)"
 #: ekos/analyze/analyze.cpp:434
 #, kde-format
 msgid "Set an alternate base directory for your captured images"
-msgstr "Définir un répertoire racine alternatif pour vos images capturées"
+msgstr "Définir un dossier racine alternatif pour vos images"
 
 #: ekos/analyze/analyze.cpp:1009
 #, kde-format
@@ -9913,7 +9913,7 @@ msgid ""
 "You won't get HFR values without it. Once you set it, newly captured images "
 "will have their HFRs computed."
 msgstr ""
-"L’option Calcul automatique du HFR dans le menu des options  FITS de KStars "
+"L’option Calcul automatique du HFR dans le menu des options FITS de KStars "
 "n’est pas définie. Vous n’obtiendrez pas de valeurs HFR sans elle. Une fois "
 "que vous la sélectionnez, les images nouvellement capturées auront leurs HFR "
 "calculés."
@@ -9936,7 +9936,7 @@ msgstr ""
 #: ekos/scheduler/schedulerjob.cpp:643
 #, kde-format
 msgid "Aborted"
-msgstr "Avorté"
+msgstr "Interrompu"
 
 #: ekos/analyze/analyze.cpp:2330 ekos/ekos.h:23
 #, kde-format
@@ -10081,7 +10081,7 @@ msgid ""
 msgstr ""
 "<html><head/><body><p>Pendant l’enregistrement en direct, conserver le "
 "dernier tracé. Les dernières actions réalisées par Ekos sont affichées sur "
-"le côté droit du tracé. </p></body></html>"
+"le côté droit du tracé.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, keepCurrentCB)
 #: ekos/analyze/analyze.ui:85
@@ -10243,7 +10243,7 @@ msgid ""
 "<html><head/><body><p>Plot the declination (DEC) guide pulses in "
 "milliseconds.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Tracer les impulsion de guidage de déclinaison (DEC) "
+"<html><head/><body><p>Tracer les impulsions de guidage de déclinaison (DEC) "
 "en millisecondes.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, decPulseOut)
@@ -10291,7 +10291,7 @@ msgid ""
 "samples.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Tracer la valeur en moyenne quadratique (Root-Mean-"
-"Squared, RMS) de la dérive combinée AD et DEC en secondes d'arc , moyennée "
+"Squared, RMS) de la dérive combinée AD et DEC en secondes d'arc, moyennée "
 "sur approximativement les 40 derniers échantillons.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, rmsCB)
@@ -10378,7 +10378,7 @@ msgid ""
 "<html><head/><body><p>Plot the signal-to-noise ratio (SNR) of the guide star."
 "</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Trace le rapport signal-bruit (SNR) de l’étoile de "
+"<html><head/><body><p>Tracer le rapport signal-bruit (SNR) de l’étoile de "
 "guidage.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, snrCB)
@@ -10517,7 +10517,7 @@ msgstr ""
 msgid ""
 "<html><head/><body><p>Plot the mount's hour angle value.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Tracer la valeur de l'angle horaire de ma monture.</"
+"<html><head/><body><p>Tracer la valeur de l'angle horaire de la monture.</"
 "p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, mountHaCB)
@@ -10548,7 +10548,7 @@ msgstr ""
 #: ekos/analyze/analyze.ui:1013
 #, kde-format
 msgid "hfr"
-msgstr "hrf"
+msgstr "hfr"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, hfrOut)
 #: ekos/analyze/analyze.ui:1026
@@ -10678,7 +10678,7 @@ msgstr "Détails"
 #: ekos/auxiliary/darklibrary.cpp:122
 #, kde-format
 msgid "Failed to load %1: %2"
-msgstr "Impossible de charger %1: %2"
+msgstr "Impossible de charger %1 : %2"
 
 #: ekos/auxiliary/darklibrary.cpp:334
 #, kde-format
@@ -10693,17 +10693,17 @@ msgstr ""
 #: ekos/auxiliary/darklibrary.cpp:344
 #, kde-format
 msgid "Dark frame %s is expired. Please create new master dark."
-msgstr "Le dark %s a expirée. Veuillez créer un nouveau dark maître."
+msgstr "Le dark %s a expiré. Veuillez créer un nouveau dark maître."
 
 #: ekos/auxiliary/darklibrary.cpp:362
 #, kde-format
 msgid "Removing bad dark frame file %1"
-msgstr "Suppression du fichier de dark %1 "
+msgstr "Suppression du fichier de dark %1"
 
 #: ekos/auxiliary/darklibrary.cpp:458
 #, kde-format
 msgid "Failed to load defect map %1"
-msgstr "Il est impossible de charger la carte %1 des défauts"
+msgstr "Impossible de charger la carte %1 des défauts"
 
 #: ekos/auxiliary/darklibrary.cpp:478
 #, kde-format
@@ -10713,7 +10713,7 @@ msgstr "Impossible de charger le fichier %1 de correspondance des défauts"
 #: ekos/auxiliary/darklibrary.cpp:494
 #, kde-format
 msgid "Failed to load dark frame file %1"
-msgstr "Impossible de charger le fichier  dark %1 darks"
+msgstr "Impossible de charger le fichier dark %1 darks"
 
 #: ekos/auxiliary/darklibrary.cpp:544
 #, kde-format
@@ -10733,7 +10733,7 @@ msgstr "%1/%2 images reçues."
 #: ekos/auxiliary/darklibrary.cpp:685
 #, kde-format
 msgid "Are you sure you want to delete all dark frames images and data?"
-msgstr "Voulez-vous vraiment supprimer toutes les darks et données ?"
+msgstr "Voulez-vous vraiment supprimer tous les darks et données ?"
 
 #: ekos/auxiliary/darklibrary.cpp:1192
 #, kde-format
@@ -10743,7 +10743,7 @@ msgstr "En cours…"
 #: ekos/auxiliary/darklibrary.cpp:1349
 #, kde-format
 msgid "Failed to save master frame: %1"
-msgstr "Impossible d'enregistrer la trame maître: %1"
+msgstr "Impossible d'enregistrer la trame maître : %1"
 
 #: ekos/auxiliary/darklibrary.cpp:1365
 #, kde-format
@@ -10763,7 +10763,7 @@ msgstr "Carte des défauts enregistrée dans %1."
 #: ekos/auxiliary/darklibrary.cpp:1436
 #, kde-format
 msgid "Failed to save defect map to %1"
-msgstr "Impossible d'enregistrer la carte des défaut vers %1"
+msgstr "Impossible d'enregistrer la carte des défauts vers %1"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, DarkLibrary)
 #. i18n: ectx: property (text), widget (QPushButton, darkLibraryB)
@@ -10805,7 +10805,7 @@ msgstr "Darks"
 #, kde-format
 msgid "For the selected camera, remove noise by means of defect map filtering."
 msgstr ""
-"Pour la caméra sélectionnée, supprimez le bruit par  un filtrage avec la "
+"Pour la caméra sélectionnée, supprimez le bruit par un filtrage avec la "
 "carte des défauts."
 
 #. i18n: ectx: property (text), widget (QRadioButton, preferDefectsRadio)
@@ -10818,7 +10818,7 @@ msgstr "Défauts"
 #: ekos/auxiliary/darklibrary.ui:161
 #, kde-format
 msgid "Minimum exposure time in seconds."
-msgstr "Exposition minimum en secondes."
+msgstr "Exposition minimale en secondes."
 
 #. i18n: ectx: property (text), widget (QLabel, temperatureLabel)
 #: ekos/auxiliary/darklibrary.ui:177
@@ -10953,7 +10953,7 @@ msgstr "Cartes des défauts"
 #: ekos/auxiliary/darklibrary.ui:537
 #, kde-format
 msgid "Master Dark:"
-msgstr "Master Dark"
+msgstr "Dark maître"
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
 #. i18n: ectx: property (text), widget (QLabel, label_16)
@@ -11037,8 +11037,8 @@ msgid ""
 "Aggressiveness level. Increase value to include more hot pixels. Click "
 "Generate Map to execute."
 msgstr ""
-"Niveau d'agressivité. Augmentez cette valeur pour inclure plus de pixels "
-"chauds. Cliquez sur Générer une carte pour lancer l'exécution."
+"Niveau d'agressivité. Augmenter cette valeur pour inclure plus de pixels "
+"chauds. Cliquer sur « Générer une carte » pour lancer l'exécution."
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, hotPixelsEnabled)
 #: ekos/auxiliary/darklibrary.ui:819
@@ -11053,8 +11053,8 @@ msgid ""
 "Aggressiveness level. Increase value to include more cold pixels.  Click "
 "Generate Map to execute."
 msgstr ""
-"Niveau d'agressivité. Augmentez cette valeur pour inclure plus de pixels "
-"froid. Cliquez sur Générer une carte pour lancer l'exécution."
+"Niveau d'agressivité. Augmenter cette valeur pour inclure plus de pixels "
+"froid. Cliquer sur « Générer une carte » pour lancer l'exécution."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, resetMapParametersB)
 #: ekos/auxiliary/darklibrary.ui:895
@@ -11137,7 +11137,7 @@ msgstr "Seuil de T°"
 #: ekos/auxiliary/darklibrary.ui:1034
 #, kde-format
 msgid "Remove all dark frames data and files"
-msgstr "Supprimer toutes les fichiers de dark"
+msgstr "Supprimer tous les fichiers et données de dark"
 
 #. i18n: ectx: property (text), widget (QPushButton, clearAllB)
 #: ekos/auxiliary/darklibrary.ui:1037
@@ -11174,13 +11174,13 @@ msgstr "Validité du dark "
 #: ekos/auxiliary/darklibrary.ui:1090
 #, kde-format
 msgid "Open folder where dark frames are stored"
-msgstr "Ouvrir le répertoire où sont enregistrées les darks"
+msgstr "Ouvrir le dossier où sont enregistrées les darks"
 
 #. i18n: ectx: property (text), widget (QPushButton, openDarksFolderB)
 #: ekos/auxiliary/darklibrary.ui:1093
 #, kde-format
 msgid "Darks Folder"
-msgstr "Répertoire des darks"
+msgstr "Dossier des darks"
 
 #. i18n: ectx: property (text), widget (QPushButton, clearExpiredB)
 #: ekos/auxiliary/darklibrary.ui:1117
@@ -11249,7 +11249,7 @@ msgstr "Démarrer"
 #, kde-format
 msgid "Lock specific filter when running Auto Focus"
 msgstr ""
-"Verrouillez le filtre durant l'exécution de la mise au point automatique."
+"Verrouiller le filtre durant l'exécution de la mise au point automatique."
 
 #: ekos/auxiliary/filtermanager.cpp:163
 #, kde-format
@@ -11273,7 +11273,7 @@ msgstr "Position de mise au point du flat"
 #: ekos/auxiliary/filtermanager.cpp:519
 #, kde-format
 msgid "Set filter to %1. Is filter set?"
-msgstr "Changer le filtre à %1. Est-ce que le filtre est prêt?"
+msgstr "Changer le filtre à %1. Est-ce que le filtre est prêt ?"
 
 #: ekos/auxiliary/filtermanager.cpp:520
 #, kde-format
@@ -11321,7 +11321,7 @@ msgid ""
 "for light frames in each filter. Before a flat frame is captured, the "
 "focuser is moved to the same focus point as light frames.</p></body></html>"
 msgstr ""
-"<html><head/><body><p> Si une roue à filtre est utilisée ainsi qu'un moteur "
+"<html><head/><body><p>Si une roue à filtre est utilisée ainsi qu'un moteur "
 "de mise au point à position absolue, il faut mémoriser la position de mise "
 "au point pour chaque filtre. Avant l'acquisition d'un flat, il doit être "
 "déplacé à la même position que pour les brutes.</p></body></html>"
@@ -11340,7 +11340,7 @@ msgstr "Effacer tous les journaux (%1)"
 #: ekos/auxiliary/opslogs.cpp:149
 #, kde-format
 msgid "Are you sure you want to delete all logs?"
-msgstr "Voulez-vous vraiment supprimer tous les journaux?"
+msgstr "Voulez-vous vraiment supprimer tous les journaux ?"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, clearLogsB)
 #: ekos/auxiliary/opslogs.cpp:159 ekos/auxiliary/opslogs.ui:548
@@ -11357,7 +11357,7 @@ msgid ""
 "consume resources and may slow the system down. Turn off logs when no longer "
 "used.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Active les journaux pour caractériser les problèmes "
+"<html><head/><body><p>Activer les journaux pour caractériser les problèmes "
 "avec Ekos et INDI. N'activez que les journaux nécessaires. Les journaux "
 "consomment des ressources et peuvent ralentir le système. Supprimez les "
 "fichiers journaux quand vous n'en n'avez plus besoin.</p></body></html>"
@@ -11482,7 +11482,7 @@ msgstr "FITS"
 #: ekos/auxiliary/opslogs.ui:212 options/opsadvanced.ui:333
 #, kde-format
 msgid "Log output to log file"
-msgstr "Journaliser la sortie dans un fichier "
+msgstr "Journaliser la sortie dans un fichier"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_INDIAuxiliaryLogging)
 #: ekos/auxiliary/opslogs.ui:222
@@ -11528,7 +11528,7 @@ msgstr "CCD"
 #: ekos/auxiliary/opslogs.ui:265 options/opsadvanced.ui:297
 #, kde-format
 msgid "Verbosity:"
-msgstr "Niveau de détails   "
+msgstr "Niveau de détails"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_CaptureLogging)
 #: ekos/auxiliary/opslogs.ui:282
@@ -11648,7 +11648,7 @@ msgstr "Pilotes"
 #: ekos/auxiliary/opslogs.ui:417
 #, kde-format
 msgid "Log Ekos Mount module activity"
-msgstr "Enregistrer l'activité du module Monture d'Ekos "
+msgstr "Enregistrer l'activité du module Monture d'Ekos"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, kcfg_LoggerLevel)
 #: ekos/auxiliary/opslogs.ui:430
@@ -11733,7 +11733,7 @@ msgstr "Messages INDI dans la &barre d'état"
 #: ekos/auxiliary/opslogs.ui:529
 #, kde-format
 msgid "Open Logs Directory"
-msgstr "Ouvrir le répertorie des journaux"
+msgstr "Ouvrir le dossier des journaux"
 
 #: ekos/auxiliary/portselector.cpp:68
 #, kde-format
@@ -11822,7 +11822,7 @@ msgid ""
 "device from stellarmate then replug it after 1 second. Click on the <b>Start "
 "Scan</b> to begin this procedure."
 msgstr ""
-"Pour assigner un désignation permanente à un périphérique, vous avez besoin "
+"Pour assigner une désignation permanente à un périphérique, vous avez besoin "
 "de le déconnecter de Stellarmate et ensuite de le reconnecter après une "
 "seconde. Cliquer sur l'élément <b>Démarrer le balayage</b> pour lancer cette "
 "procédure."
@@ -11890,7 +11890,7 @@ msgstr "Série #"
 #: ekos/auxiliary/serialportassistant.cpp:209
 #, kde-format
 msgid "Hardware Port?"
-msgstr "Port matériel?"
+msgstr "Port matériel ?"
 
 #: ekos/auxiliary/serialportassistant.cpp:266
 #, kde-format
@@ -11962,7 +11962,7 @@ msgstr ""
 "style:italic;\">permanents</span> à vos périphériques <span style=\" font-"
 "weight:600;\">série vers USB</span> afin qu’ils soient plus faciles à "
 "connecter à l’avenir. </p><p><br/></p><p>Cliquez sur <span style=\" font-"
-"weight:600;\">Suivant</span> pour continuer. </p></body></html>"
+"weight:600;\">Suivant</span> pour continuer.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: ekos/auxiliary/serialportassistant.ui:113
@@ -12058,7 +12058,7 @@ msgid ""
 "Profile intended for Plate Solving telescopic sized images in a single CPU "
 "Thread"
 msgstr ""
-"Profil destiné à la résolution astrométrique pour des  champ de télescope "
+"Profil destiné à la résolution astrométrique pour des champs de télescope "
 "avec un seul processus de traitement."
 
 #: ekos/auxiliary/stellarsolverprofile.cpp:182
@@ -12159,7 +12159,7 @@ msgid ""
 "Loads the default set of profiles, clearing any modifications or custom "
 "profiles. "
 msgstr ""
-"Charge le paramétrage par défaut des profils, en supprimant toutes  "
+"Charge le paramétrage par défaut des profils, en supprimant toutes "
 "modifications et profils personnalisés."
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, optionsProfile)
@@ -12273,7 +12273,7 @@ msgid ""
 "The percentage of flux a separate peak must have to be considered a separate "
 "object."
 msgstr ""
-"Pourcentage de flux  qu'un pic séparé doit avoir pour être considéré comme "
+"Pourcentage de flux qu'un pic séparé doit avoir pour être considéré comme "
 "un objet séparé."
 
 #. i18n: ectx: property (text), widget (QLineEdit, deblend_contrast)
@@ -12304,7 +12304,7 @@ msgstr ""
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:413
 #, kde-format
 msgid "Kron Factor"
-msgstr "Facteur Kron:"
+msgstr "Facteur Kron"
 
 #. i18n: ectx: property (text), widget (QLabel, label_23)
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:420
@@ -12543,7 +12543,7 @@ msgstr "Multiple de seuil"
 msgid ""
 "Add the multiple times the rms background level to the detection threshold."
 msgstr ""
-"Ajouter ce multiple au niveau de background rms pour le seuil de  détection."
+"Ajouter ce multiple au niveau de background rms pour le seuil de détection."
 
 #. i18n: ectx: property (text), widget (QLineEdit, threshMultiple)
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:658
@@ -12895,8 +12895,8 @@ msgid ""
 "the indices you are using take less than 2 GB of space, and you have at "
 "least as much physical memory as indices, you want this enabled."
 msgstr ""
-"Vérifier les indices en parallèle en les chargeant simultanément en mémoire? "
-"Si les indices utilisés prennent moins de 2 Go d’espace et que vous avez au "
+"Vérifier les indices en parallèle en les chargeant simultanément en mémoire ? "
+"Si les indices utilisés prennent moins de 2 Go d’espace et que vous avez au "
 "moins autant de mémoire physique, vous voulez que ceci soit activé."
 
 #. i18n: ectx: property (text), widget (QCheckBox, inParallel)
@@ -12908,7 +12908,7 @@ msgstr "Charger tous les index en mémoire"
 #. i18n: ectx: property (windowTitle), widget (QDialog, calibrationOptions)
 #: ekos/capture/calibrationoptions.ui:14
 #, kde-format
-msgid "Calibration Options CAPTURE STEVE"
+msgid "Calibration Options"
 msgstr "Options de calibration"
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox)
@@ -13138,7 +13138,7 @@ msgid ""
 "Warning: Guide deviation is selected but autoguide process was not started."
 msgstr ""
 "Attention : l'option de dérive du guidage est sélectionnée mais le processus "
-"d'autoguidage n'était pas démarré."
+"de guidage automatique n'était pas démarré."
 
 #: ekos/capture/capture.cpp:709
 #, kde-format
@@ -13226,7 +13226,7 @@ msgstr "Réception de l'image"
 #: ekos/capture/capture.cpp:1869
 #, kde-format
 msgid "Received image %1 out of %2."
-msgstr "Trame %1 de %2 reçue"
+msgstr "Trame %1 sur %2 reçue"
 
 #: ekos/capture/capture.cpp:1889
 #, kde-format
@@ -13347,14 +13347,14 @@ msgstr "Téléchargement en cours…"
 #, kde-format
 msgid "You must set remote directory for Local & Both modes."
 msgstr ""
-"Vous devez définir un répertoire distant pour les modes « Client et Les "
+"Vous devez définir un dossier distant pour les modes « Client et Les "
 "Deux »."
 
 #: ekos/capture/capture.cpp:2807
 #, kde-format
 msgid "You must set local directory for Client & Both modes."
 msgstr ""
-"Vous devez définir un répertoire local pour les modes « Client et Les Deux »."
+"Vous devez définir un dossier local pour les modes « Client et Les Deux »."
 
 #: ekos/capture/capture.cpp:3048
 #, kde-format
@@ -13485,7 +13485,7 @@ msgid ""
 "exposure in %3 seconds."
 msgstr ""
 "La déviation de guidage %1 est maintenant inférieure à la valeur limite de "
-"%2 secondes d'arc, reprise de l'exposition dans %3secondes."
+"%2 secondes d'arc, reprise de l'exposition dans %3 secondes."
 
 #: ekos/capture/capture.cpp:3795
 #, kde-format
@@ -13540,7 +13540,7 @@ msgstr "sans nom"
 #, kde-format
 msgctxt "@title:window"
 msgid "FITS Save Directory"
-msgstr "Répertoire d'enregistrement des fichiers FITS"
+msgstr "Dossier d'enregistrement des fichiers FITS"
 
 #: ekos/capture/capture.cpp:4151
 #, kde-format
@@ -13902,7 +13902,7 @@ msgstr "Seuil"
 #, kde-format
 msgid "Maximum difference between camera and target temperatures"
 msgstr ""
-"Différence maximale entre la températures de la caméra et la température "
+"Différence maximale entre la température de la caméra et la température "
 "cible"
 
 #: ekos/capture/capture.cpp:7273
@@ -14135,7 +14135,7 @@ msgstr "Horodatage"
 #: ekos/capture/capture.ui:679
 #, kde-format
 msgid "Local directory to save sequence images"
-msgstr "Répertoire local pour enregistrement les séquences d'images"
+msgstr "Dossier local pour enregistrement les séquences d'images"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_18)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -14143,7 +14143,7 @@ msgstr "Répertoire local pour enregistrement les séquences d'images"
 #: indi/recordingoptions.ui:94
 #, kde-format
 msgid "Directory:"
-msgstr "Répertoire"
+msgstr "Dossier"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel1_7)
 #: ekos/capture/capture.ui:698
@@ -14187,7 +14187,7 @@ msgid ""
 "images are saved to."
 msgstr ""
 "Lors de l'enregistrement d'images sur des périphériques distants, spécifier "
-"le répertoire où les images seront enregistrées."
+"le dossier où les images seront enregistrées."
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, remoteDriversLabel)
@@ -14226,7 +14226,7 @@ msgstr ""
 "\" margin-top:12px ; margin-bottom:0px ; margin-left:0px ; margin-"
 "right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-"
 "weight:600 ;\">Localement</span> : les images sont enregistrées localement "
-"sur le disque dans le répertoire spécifié ci-dessus.</li><li style=\" margin-"
+"sur le disque dans le dossier spécifié ci-dessus.</li><li style=\" margin-"
 "top:0px ; margin-bottom:0px ; margin-left:0px ; margin-right:0px ; -qt-block-"
 "indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">À "
 "distance</span> : lors de la connexion à un appareil distant, sélectionnez "
@@ -14349,7 +14349,7 @@ msgstr "Gérer les propriétés INDI"
 #: ekos/capture/capture.ui:1261
 #, kde-format
 msgid "Reset CCD frame & size values to default values"
-msgstr "Réinitialise les paramètres de taille CCD à leurs valeurs par défaut"
+msgstr "Réinitialiser les paramètres de taille CCD à leurs valeurs par défaut"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, generateDarkFlatsB)
 #: ekos/capture/capture.ui:1290
@@ -14411,7 +14411,7 @@ msgid ""
 "Start capturing only if guide deviation is below the given threshold "
 "(ignored for previews)"
 msgstr ""
-"Démarrez l'acquisition uniquement si l'écart en guidage est inférieur au "
+"Démarrer l'acquisition uniquement si l'écart en guidage est inférieur au "
 "seuil indiqué (ceci est ignoré pour les aperçus)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, startGuiderDriftS)
@@ -15032,7 +15032,7 @@ msgstr ""
 "Il s’agit d’une configuration unique. Vous pouvez obtenir ces valeurs à "
 "partir du manuel de votre caméra ou de sources en ligne telles que la <a "
 "href=\"https://www.digicamdb.com/\"><span style=\" text-decoration : "
-"underline; color:#007af4;\">Base de données des appareil photo numériques</"
+"underline; color:#007af4;\">Base de données des appareils photo numériques</"
 "span></a>. </p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_3)
@@ -15444,7 +15444,7 @@ msgstr "Mise au point du filtre"
 #: ekos/ekos.h:74 ekos/ekos.h:121 ekos/ekos.h:159
 #, kde-format
 msgid "Changing Filter"
-msgstr "changement du filtre"
+msgstr "Changement du filtre"
 
 #: ekos/ekos.h:74
 #, kde-format
@@ -15500,7 +15500,7 @@ msgstr "Décalage de la mise au point"
 #: ekos/ekos.h:185
 #, kde-format
 msgid "Startup"
-msgstr "Démarrer"
+msgstr "Démarrage"
 
 #: ekos/ekos.h:185 ekos/scheduler/schedulerjob.cpp:640
 #, kde-format
@@ -15510,7 +15510,7 @@ msgstr "Exécution"
 #: ekos/ekos.h:186
 #, kde-format
 msgid "Shutdown"
-msgstr "Éteindre"
+msgstr "Extinction"
 
 #: ekos/ekos.h :186
 #, kde-format
@@ -15836,7 +15836,7 @@ msgstr ""
 #, kde-format
 msgid "Failed to detect any stars. Reset frame and try again."
 msgstr ""
-"Échec à détecter une étoile. Réinitialiser la trame et essayer à nouveau."
+"Échec de la détection d'une étoile. Réinitialiser la trame et essayer à nouveau."
 
 #: ekos/focus/focus.cpp:2384
 #, kde-format
@@ -16185,14 +16185,14 @@ msgstr "Sous-trame"
 #: ekos/focus/focus.ui:948
 #, kde-format
 msgid "Wait this many seconds before resuming guiding."
-msgstr "Attendre plusieurs seconde avant la reprise du guidage."
+msgstr "Attendre plusieurs secondes avant la reprise du guidage."
 
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, GuideSettleTime)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, FocusSettleTime)
 #: ekos/focus/focus.ui:951 ekos/focus/focus.ui:1657
 #, kde-format
 msgid " s"
-msgstr "s"
+msgstr " s"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, useAutoStar)
 #: ekos/focus/focus.ui:967
@@ -16440,7 +16440,7 @@ msgstr ""
 "margin-left : 0px ; margin-right : 0px ; -qt-list-indent : 1 ;\"><li style="
 "\" margin-top:12px ; margin-bottom:0px ; margin-left:0px ; margin-"
 "right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-"
-"weight:600 ;\">Itératif</span> : Déplace le moteur de mise au point par pas "
+"weight:600 ;\">Itératif</span> : déplace le moteur de mise au point par pas "
 "discrets, selon un pas préalablement défini. Une fois qu'une pente de courbe "
 "est calculée, d'autres tailles de pas sont calculées pour atteindre la "
 "solution optimale. L'algorithme s'arrête lorsque le HFR mesuré se situe dans "
@@ -16454,7 +16454,7 @@ msgstr ""
 "moyennant un bon ensemble de données.</li><li style=\" margin-top:0px ; "
 "margin-bottom:12px ; margin-left:0px ; margin-right:0px ; -qt-block-"
 "indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">Linéaire</"
-"span> : Les échantillons se concentrent vers l'intérieur de façon régulière, "
+"span> : les échantillons se concentrent vers l'intérieur de façon régulière, "
 "en utilisant 2 passes. L'algorithme peut être lent, mais il est plus "
 "résistant aux contrecoups. Commencez avec le moteur de mise au point "
 "positionné près de la bonne mise au point. Définissez la taille du pas "
@@ -16488,13 +16488,13 @@ msgid ""
 "at the current focuser position.</p></body></html>"
 msgstr ""
 "<html><body><p>Nombre de trames à acquérir pour moyenner la valeur « HFR » à "
-"la position courante de la crémaillère.</p></body></html>"
+"la position courante du moteur de mise au point.</p></body></html>"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, focusFramesSpin)
 #: ekos/focus/focus.ui:1369
 #, kde-format
 msgid " frames"
-msgstr "Trames"
+msgstr " trames"
 
 # unreviewed-context
 #. i18n: ectx: property (toolTip), widget (QComboBox, focusDetectionCombo)
@@ -16630,7 +16630,7 @@ msgstr ""
 "<html><corps><p>Ce nombre multiplié par la taille de l’étape initiale est le "
 "nombre d’étapes vues de l’extérieur dont l’algorithme de mise au point "
 "linéaire s’éloigne de la position initiale à partir du début de la mise au "
-"point. </p></body></html>"
+"point.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, stepIN)
 #: ekos/focus/focus.ui:1567
@@ -16854,7 +16854,7 @@ msgid ""
 "The connection was refused by the peer. Make sure the LinGuider is running, "
 "and check that the host name and port settings are correct."
 msgstr ""
-"La connexion a été refusé par le pair. Veuillez vous assurer que le "
+"La connexion a été refusée par le pair. Veuillez vous assurer que le "
 "composant « LinGuider » est lancé et que le nom de l'hôte et les paramètres "
 "de port sont corrects."
 
@@ -17030,7 +17030,7 @@ msgstr "PHD2 : stabilisation terminée. Démarrage du guidage."
 #: ekos/guide/externalguide/phd2.cpp:461
 #, kde-format
 msgid "PHD2: Star found, guiding is resuming..."
-msgstr "PHD2 : une étoile a été trouvé. Le guidage est relancé…"
+msgstr "PHD2 : une étoile a été trouvée. Le guidage est relancé…"
 
 #: ekos/guide/externalguide/phd2.cpp:543
 #, kde-format
@@ -17268,7 +17268,7 @@ msgstr "La monture est en cours de pointage. Annulation du guidage…"
 #: ekos/guide/guide.cpp:1616
 #, kde-format
 msgid "Calibration is cleared."
-msgstr "Le calibration est effacée."
+msgstr "La calibration est effacée."
 
 #: ekos/guide/guide.cpp:1637
 #, kde-format
@@ -17283,7 +17283,7 @@ msgstr "Guidage externe déconnecté."
 #: ekos/guide/guide.cpp:1672
 #, kde-format
 msgid "Calibration completed."
-msgstr "Calibration terminé."
+msgstr "Calibration terminée."
 
 #: ekos/guide/guide.cpp:1688
 #, kde-format
@@ -17313,7 +17313,7 @@ msgstr "Guidage mis en pause."
 #: ekos/guide/guide.cpp:1724
 #, kde-format
 msgid "Manual dithering in progress."
-msgstr "Décalage manuelle en cours."
+msgstr "Décalage manuel en cours."
 
 #: ekos/guide/guide.cpp:1728
 #, kde-format
@@ -17433,8 +17433,8 @@ msgid ""
 "use 'auto star' detection.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Sélectionner automatiquement l'étoile de calibration. "
-"<br/>Veuillez noter que le processus « SEP Multi Étoiles » utilise  <span "
-"style=\" font-weight:600;\">toujours</span> la détection avec «  étoile "
+"<br/>Veuillez noter que le processus « SEP Multi Étoiles » utilise <span "
+"style=\" font-weight:600;\">toujours</span> la détection avec « étoile "
 "automatique ».</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, autoStarCheck)
@@ -17780,7 +17780,7 @@ msgstr "DEC RMS (sec)"
 #: ekos/guide/guide.ui:850
 #, kde-format
 msgid "<b>Total RMS\"</b>"
-msgstr "<b>Total RMS \"</b>"
+msgstr "<b>Total RMS\"</b>"
 
 #. i18n: ectx: property (text), widget (QLabel, l_TotalRMS)
 #. i18n: ectx: property (text), widget (QLabel, l_SNR)
@@ -17831,7 +17831,7 @@ msgid ""
 "<html><head/><body><p>Display the RA graph in the Drift Graphics plot.</p></"
 "body></html>"
 msgstr ""
-"<html><head/><body><p>Affiche le graphique AD dans le tracé du graphique de "
+"<html><head/><body><p>Afficher le graphique AD dans le tracé du graphique de "
 "dérive.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, showRAPlotCheck)
@@ -17847,7 +17847,7 @@ msgid ""
 "<html><head/><body><p>Display the RA Corrections graph in the Drift Graphics "
 "plot.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Affiche le graphique de corrections AD dans le tracé "
+"<html><head/><body><p>Afficher le graphique de corrections AD dans le tracé "
 "du graphique de dérive.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, showRACorrectionsCheck)
@@ -17864,7 +17864,7 @@ msgid ""
 "<html><head/><body><p>Display DEC graph in the Drift Graphics plot.</p></"
 "body></html>"
 msgstr ""
-"<html><head/><body><p>Affiche le graphique DEC dans le tracé du graphique de "
+"<html><head/><body><p>Afficher le graphique DEC dans le tracé du graphique de "
 "dérive.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showDECorrectionsCheck)
@@ -17874,7 +17874,7 @@ msgid ""
 "<html><head/><body><p>Display the DEC Corrections graph in the Drift "
 "Graphics plot.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Affiche le graphique de corrections DEC dans le tracé "
+"<html><head/><body><p>Afficher le graphique de corrections DEC dans le tracé "
 "du graphique de dérive.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showSNRPlotCheck)
@@ -17884,7 +17884,7 @@ msgid ""
 "<html><head/><body><p>Display SNR graph in the Drift Graphics plot.</p></"
 "body></html>"
 msgstr ""
-"<html><head/><body><p>Affiche le graphique SNR dans le tracé du graphique de "
+"<html><head/><body><p>Afficher le graphique SNR dans le tracé du graphique de "
 "dérive.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, showSNRPlotCheck)
@@ -17967,7 +17967,7 @@ msgid ""
 "them (with the exception of the time axis in the drift graphics).</p></"
 "body></html>"
 msgstr ""
-"<html><head/><body><p> Définir l'échelle automatiquement à la fois pour tous "
+"<html><head/><body><p>Définir l'échelle automatiquement à la fois pour tous "
 "les graphiques de guidage comme échelle par défaut. Si des points sont "
 "situés hors de cet intervalle, l'affichage est étendu pour les inclure (avec "
 "l'exception de l'axe des temps dans le graphique de dérive.</body></html>"
@@ -18001,7 +18001,7 @@ msgid ""
 msgstr ""
 "<html><head/><body><p>Définir la précision souhaitée de guidage dans le "
 "graphique de dérive. Le nombre représente le rayon du cercle concentrique "
-"vert en secondes d’arc. </p></body></html>"
+"vert en secondes d’arc.</p></body></html>"
 
 #: ekos/guide/guidedriftgraph.cpp:63
 #, kde-format
@@ -18339,7 +18339,7 @@ msgstr "Impulsion"
 msgid "Maximum number of iterations calibration should use per phase."
 msgstr ""
 "Le nombre maximal d'itérations de calibration qui devraient être utilisé par "
-"phase. "
+"phase."
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #: ekos/guide/opscalibration.ui:102
@@ -18355,7 +18355,7 @@ msgstr ""
 #: ekos/guide/opscalibration.ui:105
 #, kde-format
 msgid "Max Iterations:"
-msgstr "Itérations maximale"
+msgstr "Maximum d'itérations"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #: ekos/guide/opscalibration.ui:112
@@ -18382,7 +18382,7 @@ msgstr "Déplacement maximal (px)"
 msgid "Maximum number of pixels the calibration should move (approximate)."
 msgstr ""
 "Le nombre maximal de pixels que la calibration doit déplacer "
-"(approximativement). "
+"(approximativement)."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_TwoAxisEnabled)
 #: ekos/guide/opscalibration.ui:143
@@ -18451,7 +18451,7 @@ msgstr "ms/secondes d'arc"
 #: ekos/guide/opscalibration.ui:332
 #, kde-format
 msgid "degrees (swapped)"
-msgstr "degrés (Permuté)"
+msgstr "degrés (permuté)"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_GuideCalibrationBacklash)
 #: ekos/guide/opscalibration.ui:366
@@ -18498,8 +18498,8 @@ msgid ""
 "automatically determined from your mount. The \"Reset Guide on Slew\" option "
 "above must be unchecked for this to be attempted.</p></body></html>"
 msgstr ""
-"<html><head/><body><p> Stocke et essaye de réutiliser les calibrations. Cela "
-"ne ne fonctionne que sur le côté opposé du méridien, si la position par "
+"<html><head/><body><p>Stocke et essaye de réutiliser les calibrations. Cela "
+"ne fonctionne que sur le côté opposé du méridien, si la position par "
 "rapport au pied peut être déterminée automatiquement à partir de votre "
 "monture. L'option « Réinitialiser la calibration du guide après chaque "
 "pointage » ci-dessus doit être décochée pour que cette opération puisse être "
@@ -18641,12 +18641,12 @@ msgid ""
 "dither amount is random anyway. It is necessary when 2-D dither is required "
 "but guiding is only done in one axis.</p></body></html>"
 msgstr ""
-"<html><head/><body><p> Si cette case est cochée, la quantité de décalage est "
+"<html><head/><body><p>Si cette case est cochée, la quantité de décalage est "
 "générée de manière aléatoire, les impulsions sont envoyées, mais le nombre "
-"de pixels résultant n'est pas appliqué, donc seule la première impulsion  "
+"de pixels résultant n'est pas appliqué, donc seule la première impulsion "
 "est envoyée. C'est plus rapide et recommandé, car le nombre de pixels de "
 "décalage est de toute façon aléatoire. C'est nécessaire lorsque le tramage 2-"
-"D est  requis, le guidage ne se faisant que sur un seul axe.</p></body></"
+"D est requis, le guidage ne se faisant que sur un seul axe.</p></body></"
 "html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DitherWithOnePulse)
@@ -18662,7 +18662,7 @@ msgid ""
 "<html><head/><body><p>If checked, autoguiding is aborted when dithering "
 "fails. Otherwise, guiding resumes normally.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Si cette option est cochée, l'autoguidage est annulé "
+"<html><head/><body><p>Si cette option est cochée, le guidage automatique est annulé "
 "en cas d’échec du décalage. Sinon, il se poursuit normalement.</p></body></"
 "html>"
 
@@ -18670,7 +18670,7 @@ msgstr ""
 #: ekos/guide/opsdither.ui:225
 #, kde-format
 msgid "Abort Autoguide on failure"
-msgstr "Annuler l'autoguidage en cas d'erreur"
+msgstr "Annuler le guidage automatique en cas d'erreur"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_DitherNoGuiding)
 #: ekos/guide/opsdither.ui:234
@@ -18678,14 +18678,14 @@ msgstr "Annuler l'autoguidage en cas d'erreur"
 msgid ""
 "<html><head/><body><p>Perform dithering when not guiding.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Réaliser un décalage lorsque l'autoguidage n'est pas "
+"<html><head/><body><p>Réaliser un décalage lorsque le guidage automatique n'est pas "
 "actif.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DitherNoGuiding)
 #: ekos/guide/opsdither.ui:237
 #, kde-format
 msgid "Non-Guide Dither Pulse"
-msgstr "Décalage sans autoguidage"
+msgstr "Décalage sans guidage automatique"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_DitherNoGuidingPulse)
 #: ekos/guide/opsdither.ui:244
@@ -18726,23 +18726,23 @@ msgid ""
 msgstr ""
 "<html><head/><body><p><a href=\"https://ieeexplore.ieee.org/"
 "document/7105398\"><span style=\" text-decoration: underline; color:#007af4;"
-"\">Le processus de guidage Gaussien (PGG) </span></a>, <span style=\" font-"
+"\">Le processus de guidage Gaussien (PGG)</span></a>, <span style=\" font-"
 "style:italic;\">(c) 2014-2017 Max Planck Society</span>, est utilisé "
 "uniquement pour du guidage en AD.<br/>La plupart des paramètres peuvent être "
 "gardés avec leur valeur par défaut.<br/> Ce processus peut être utilisé avec "
 "tous les algorithmes de détection d'étoiles mais il a été testé en "
-"profondeur avec l'algorithme recommandé<span style=\" font-weight:600; color:"
+"profondeur avec l'algorithme recommandé<span style=\"font-weight:600; color:"
 "#8ae234;\"> SEP MultiStar</span>.<br/>Il combine une bonne correction dont "
-"l'agressivité est contrôlée avec <span style=\" font-weight:600; color:"
-"#8ae234;\">Contrôler le gain </span>et <span style=\" font-weight:600; color:"
+"l'agressivité est contrôlée avec <span style=\"font-weight:600; color:"
+"#8ae234;\">Contrôler le gain </span>et <span style=\"font-weight:600; color:"
 "#8ae234;\">Déplacement minimal</span>, avec une correction prédictive "
-"contrôlée par <span style=\" font-weight:600; color:#8ae234;\">Prédiction du "
+"contrôlée par <span style=\"font-weight:600; color:#8ae234;\">Prédiction du "
 "gain</span>.</p><p>Le paramètre le plus important est <span style=\" font-"
 "weight:600; color:#8ae234;\">Période Maximale</span>. Si vous pouvez le "
 "déterminer pour votre monture <br/>il est bien plus efficace de le régler "
-"manuellement en décochant <span style=\" font-weight:600; color:#8ae234;"
+"manuellement en décochant <span style=\"font-weight:600; color:#8ae234;"
 "\">Estimer la période.</span><br/><br/>Veuillez cocher la case ci-dessous "
-"pour <span style=\" font-weight:600; color:#8ae234;\">activer PGG</span>.</"
+"pour <span style=\"font-weight:600; color:#8ae234;\">activer PGG</span>.</"
 "p><hr/></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_gpg0)
@@ -19011,7 +19011,7 @@ msgstr ""
 #: ekos/guide/opsguide.ui:73
 #, kde-format
 msgid "Integral gain (0-1.0)"
-msgstr "Gain intégral (0 - 1.0)"
+msgstr "Gain intégral (0 - 1,0)"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, l_11)
 #: ekos/guide/opsguide.ui:96
@@ -19021,16 +19021,16 @@ msgid ""
 "guide deviations. 1.0 would attempt to fully correct the error. It's best to "
 "use an aggressiveness less than 1.0 to avoid oscillations.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Contrôle l'agressivité avec lequel le guide essaye de "
-"corriger l'écart de guidage. 1.0 implique une correction complète de "
-"l'erreur. Il est conseillé d'utiliser une valeur inférieure à 1.0 pour "
+"<html><head/><body><p>Contrôle l'agressivité avec laquelle le guide essaye de "
+"corriger l'écart de guidage. 1,0 implique une correction complète de "
+"l'erreur. Il est conseillé d'utiliser une valeur inférieure à 1,0 pour "
 "éviter des oscillations.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, l_11)
 #: ekos/guide/opsguide.ui:99
 #, kde-format
 msgid "Aggressiveness (0-1.0)"
-msgstr "Agressivité (0 - 1.0)"
+msgstr "Agressivité (0 - 1,0)"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, l_14)
 #: ekos/guide/opsguide.ui:148
@@ -19281,7 +19281,7 @@ msgstr ""
 #: ekos/indihub.ui:97
 #, kde-format
 msgid "Solo"
-msgstr "Seul\""
+msgstr "Seul"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, shareR)
 #: ekos/indihub.ui:107
@@ -19309,7 +19309,7 @@ msgid ""
 "by scheduler running in INDIHUB-cloud (experimental).</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Ouvrir un accès distant vers votre équipement devant "
-"être contrôler par l'ordonnanceur s'exécutant dans le nuage "
+"être contrôlé par l'ordonnanceur s'exécutant dans le nuage "
 "« INDIHUB » (expérimental).</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, roboticR)
@@ -19453,7 +19453,7 @@ msgid ""
 "%1\n"
 "Please ensure the device is connected and powered on."
 msgstr ""
-"Impossible d'établir : \n"
+"Impossible d'établir :\n"
 "%1\n"
 "Veuillez vous assurer que le périphérique est connecté et alimenté."
 
@@ -19471,7 +19471,7 @@ msgid ""
 "Please ensure each device is connected and powered on."
 msgstr ""
 "Il est impossible d'établir une connexion avec les périphériques "
-"suivants : \n"
+"suivants :\n"
 "%1\n"
 "Veuillez vous assurer que chaque périphérique est connecté et alimenté."
 
@@ -19482,7 +19482,7 @@ msgid ""
 "%1\n"
 "Please ensure the device is connected and powered on."
 msgstr ""
-"Impossible d'établir une connexion à distance : %1 \n"
+"Impossible d'établir une connexion à distance : %1\n"
 "Veuillez vous assurer que votre périphérique est connecté et alimenté."
 
 #: ekos/manager.cpp:1101
@@ -19492,8 +19492,8 @@ msgid ""
 "%1\n"
 "Please ensure each device is connected and powered on."
 msgstr ""
-"Il est impossible d'établir une connexion distante avec les périphériques "
-"suivants : \n"
+"Impossible d'établir une connexion distante avec les périphériques "
+"suivants :\n"
 "%1\n"
 "Veuillez vous assurer que chaque périphérique est connecté et alimenté."
 
@@ -19531,7 +19531,7 @@ msgid ""
 "Please ensure the device is connected and powered on."
 msgstr ""
 "%1 n'a pas réussi à se connecter.\n"
-" Veuillez vous assurer que le périphérique est connecté et alimenté."
+"Veuillez vous assurer que le périphérique est connecté et alimenté."
 
 #: ekos/manager.cpp:1407
 #, kde-format
@@ -19649,7 +19649,7 @@ msgstr "Supprimer le profil"
 #: ekos/manager.ui:272 indi/customdrivers.ui:14
 #, kde-format
 msgid "Custom Drivers"
-msgstr "Pilotes personnalisé"
+msgstr "Pilotes personnalisés"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, wizardProfileB)
 #: ekos/manager.ui:300
@@ -19987,7 +19987,7 @@ msgstr "Retournement au méridien terminé."
 #: ekos/mount/mount.cpp:1615
 #, kde-format
 msgid "Warning: Overriding %1 configuration."
-msgstr "Avertissement : écrasement de la configuration %1."
+msgstr "Avertissement : surcharge de la configuration %1."
 
 #: ekos/mount/mount.cpp:1842
 #, kde-format
@@ -20028,7 +20028,7 @@ msgstr "Monture déjà parquée."
 #: ekos/mount/mount.cpp:2041
 #, kde-format
 msgid "Parking time cannot be in the past."
-msgstr "L'heure de parcage ne peut être dans le passé."
+msgstr "L'heure de parcage ne peut pas être dans le passé."
 
 #: ekos/mount/mount.cpp:2050
 #, kde-format
@@ -20172,7 +20172,7 @@ msgid ""
 msgstr ""
 "<html><head/><body><p>Demander un retournement au méridien si l'angle "
 "horaire dépasse la valeur spécifiée. L'acquisition et le guidage seront "
-"suspendus et repris une fois le retournement terminé. </p></body></html>"
+"suspendus et repris une fois le retournement terminé.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, meridianFlipCheckBox)
 #: ekos/mount/mount.ui:410
@@ -20606,7 +20606,7 @@ msgid ""
 "weight:600;\">follows telescope motion</span></p></body></html>"
 msgstr ""
 "<html><head/><body><p>Activer l'asservissement. Le déplacement du dôme <span "
-"style=\" font-weight:600;\"> suit le déplacement du télescope.</span></p></"
+"style=\" font-weight:600;\">suit le déplacement du télescope.</span></p></"
 "body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, slavingDisableButton)
@@ -20617,7 +20617,7 @@ msgid ""
 "\">does not follow telescope motion</span>.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Désactiver l'asservissement. Le déplacement du dôme "
-"<span style=\" font-weight:600;\"> ne suit pas le déplacement du télescope.</"
+"<span style=\" font-weight:600;\">ne suit pas le déplacement du télescope.</"
 "span></p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, domePark)
@@ -20882,7 +20882,7 @@ msgstr "Fermeture de l'obturateur…"
 #: ekos/observatory/observatorydomemodel.cpp:123
 #, kde-format
 msgid "opening"
-msgstr "Ouverture"
+msgstr "ouverture"
 
 #: ekos/observatory/observatorydomemodel.cpp:123
 #, kde-format
@@ -20893,7 +20893,7 @@ msgstr "fermeture"
 #, kde-format
 msgctxt "%2 dome or rolloff roof motion %1..."
 msgid "%2 rolloff roof %1..."
-msgstr "Plafond d'affaiblissement %2 %1…"
+msgstr "Toit roulant %2 %1…"
 
 #: ekos/observatory/observatorydomemodel.cpp:125
 #, kde-format
@@ -21106,7 +21106,7 @@ msgid ""
 "negative value adjusts the twilight restriction.</p></body></html>"
 msgstr ""
 "<html><body><p>Décaler le crépuscule astronomique de plusieurs heures. La "
-"valeur positive ou négative ajuste la restriction de  pénombre.</p></body></"
+"valeur positive ou négative ajuste la restriction de pénombre.</p></body></"
 "html>"
 
 #. i18n: ectx: property (text), widget (QLabel, duskOffsetLabel)
@@ -21237,7 +21237,7 @@ msgid ""
 "When calculating position after captures, compute it every Nth capture. Set "
 "to 0 to disable."
 msgstr ""
-"Lors du calcul de position après des acquisitions, la calculez toutes les N-"
+"Lors du calcul de position après des acquisitions, la calculer toutes les N-"
 "ième acquisitions. Mettre à 0 pour désactiver."
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
@@ -21270,8 +21270,8 @@ msgid ""
 msgstr ""
 "<html><head/><body><p>Si la calibration du guidage échoue, redémarrez le "
 "processus d'alignement avant de relancer le processus de recalibration du "
-"guidage. Cela peut aider à recentrer l'objet cible dans le champs de vision "
-"si le processus de calibration s'éloigne de trop. </p></body></html>"
+"guidage. Cela peut aider à recentrer l'objet cible dans le champ de vision "
+"si le processus de calibration s'éloigne de trop.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_RealignAfterCalibrationFailure)
 #: ekos/opsekos.ui:491
@@ -21351,9 +21351,9 @@ msgid ""
 "progress is enabled.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Lorsque vous commencez à traiter une liste de "
-"séquences, remet à zéro tous les comptages d'acquisition. L'ordonnanceur  "
+"séquences, remet à zéro tous les comptages d'acquisition. L'ordonnanceur "
 "passe outre cette option lorsque l'option « Mémoriser la progression du "
-"travail » est activée. </p></body></html>"
+"travail » est activée.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AlwaysResetSequenceWhenStarting)
 #: ekos/opsekos.ui:649
@@ -21396,7 +21396,7 @@ msgid ""
 msgstr ""
 "<html><head/><body><p>Forcer les temps d’exposition à s’aligner sur les "
 "préréglages d’exposition APN. Cela garantit des temps d’exposition précis "
-"pour les expositions inférieures à la seconde. </p></body></html>"
+"pour les expositions inférieures à la seconde.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ForceDSLRPresets)
 #: ekos/opsekos.ui:717
@@ -23864,7 +23864,7 @@ msgstr ""
 #: ekos/scheduler/scheduler.cpp:4895
 #, kde-format
 msgid "Job '%1' is focusing."
-msgstr "La tâche « %1 » est en cours de réaliser la mise au point."
+msgstr "La tâche « %1 » est en train de réaliser la mise au point."
 
 #: ekos/scheduler/scheduler.cpp:4929
 #, kde-format
@@ -33752,7 +33752,7 @@ msgstr ""
 #: kstars.kcfg:2286
 #, kde-format
 msgid "Take dark frame for autoguider images."
-msgstr "Prendre une trame sombre comme images d'autoguidage."
+msgstr "Prendre une trame sombre comme images de guidage automatique."
 
 #. i18n: ectx: label, entry (GuideSubframeEnabled), group (Guide)
 #: kstars.kcfg:2290
@@ -80062,12 +80062,6 @@ msgstr "(310 M)"
 #| msgid "index-4202-*.fits"
 msgid "index-5202-*.fits"
 msgstr "index-5202-*.fits"
-
-#. i18n: ectx: property (windowTitle), widget (QDialog, calibrationOptions)
-#: ekos/capture/calibrationoptions.ui:14
-#, kde-format
-msgid "Calibration Options"
-msgstr "Options de calibrage"
 
 #: ekos/guide/externalguide/phd2.cpp:704
 #| msgid "PHD2: Guiding started."
