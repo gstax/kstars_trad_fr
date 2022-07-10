@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-28 00:40+0000\n"
-"PO-Revision-Date: 2022-07-10 07:40+0200\n"
+"PO-Revision-Date: 2022-07-10 10:19+0200\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -5573,7 +5573,7 @@ msgstr ""
 "<html><head/><body><p>GSC : <a href=\"https://drive.google.com/file/"
 "d/0B_ivMJINsdQ8cDhNcU5ESkZMZ0E/view?usp=sharing\"><span style=\" text-"
 "decoration: underline; color:#0000ff;\">Catalogue de Guidage pour les "
-"étoiles</span></a> (305 MB)</p></body></html>"
+"étoiles</span></a> (305 Mo)</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, installGSC)
 #: dialogs/wizdata.ui:150
@@ -21446,9 +21446,9 @@ msgid ""
 "Increase value to permit more relaxed changes in HFR values without "
 "requiring a full autofocus run.</p></body></html>"
 msgstr ""
-"<html><head/><body><p> Définir le gain en pourcentage du seuil HFR. "
+"<html><head/><body><p>Définir le gain en pourcentage du seuil HFR. "
 "Lorsqu'une opération de mise au point automatique est terminée, sa valeur "
-"HFR  est augmentée de ce pourcentage de seuil et stockée dans le module "
+"HFR est augmentée de ce pourcentage de seuil et stockée dans le module "
 "d'acquisition. Si « In-Sequence-Focus » est engagé, le module de mise au "
 "point automatique ne s'exécute que si la valeur HFR actuelle dépasse le "
 "seuil HFR du module d'acquisition. Augmentez la valeur pour permettre des "
@@ -21552,7 +21552,7 @@ msgstr "Impossible d'enregistrer avec un profil vide."
 #: ekos/profileeditor.cpp:185
 #, kde-format
 msgid "Profile name already exists."
-msgstr "Ce nom du profil existe déjà."
+msgstr "Ce nom de profil existe déjà."
 
 #: ekos/profileeditor.cpp:577
 #, kde-format
@@ -21614,7 +21614,7 @@ msgstr ""
 #: ekos/profileeditor.ui:68
 #, kde-format
 msgid "Auto Connect"
-msgstr "Connection automatique"
+msgstr "Connexion automatique"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, portSelectorCheck)
 #: ekos/profileeditor.ui:91
@@ -21965,7 +21965,7 @@ msgid ""
 "the connection to succeed.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Ajouter des pilotes INDI distants à chaîner avec le "
-"serveur INDI local configuré dans ce profil. Formatez ce champ comme une "
+"serveur INDI local configuré dans ce profil. Formattez ce champ comme une "
 "liste de noms de pilotes, de noms d'hôtes/adresses, le port facultatif, "
 "séparée par des virgules :</p><p><span style=\" font-weight:600;\">&quot;ZWO "
 "ASI120MC&quot;@192.168.1.50:8000</span><br/>Connecte la caméra à l'adresse "
@@ -22053,7 +22053,7 @@ msgid ""
 "will be asked to verify some basic information. </p><p>Please click <span "
 "style=\" font-weight:600;\">next</span> to continue. </p></body></html>"
 msgstr ""
-"<html><head/><body><p>Bienvenue dans l' <span style=\" font-weight:600;"
+"<html><head/><body><p>Bienvenue dans l'<span style=\" font-weight:600;"
 "\">assistant de profil d'Ekos.</span></p><p>Ekos est une plateforme permettant de contrôler et d'automatiser un observatoire. "
 "Avec Ekos, vous pouvez procéder à l'acquisition "
 "d'images et de données scientifiques aisément. Cet assistant vous "
@@ -22769,9 +22769,9 @@ msgid ""
 "html>"
 msgstr ""
 "<html><head/><body><p align=\"justify\">Hauteur minimale du champ que la "
-"mosaïque doit couvrir, exprimé en minutes d'arc. </p><p align=\"justify\">La "
+"mosaïque doit couvrir, exprimé en minutes d'arc.</p><p align=\"justify\">La "
 "modification de cette valeur change immédiatement le nombre de tuiles sur la "
-"hauteur de la mosaïque. </p></body></html>"
+"hauteur de la mosaïque.</p></body></html>"
 
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, targetHFOVSpin)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, targetWFOVSpin)
@@ -22855,9 +22855,9 @@ msgid ""
 "html>"
 msgstr ""
 "<html><head/><body><p align=\"justify\">Largeur minimale de champ que la "
-"mosaïque doit couvrir, exprimée en minutes d'arc. </p><p align=\"justify"
+"mosaïque doit couvrir, exprimée en minutes d'arc.</p><p align=\"justify"
 "\">La modification de cette valeur change immédiatement le nombre de tuiles "
-"sur la largeur de la mosaïque. </p></body></html>"
+"sur la largeur de la mosaïque.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, cameraWFOVSpin)
 #: ekos/scheduler/mosaic.ui:627
@@ -23042,7 +23042,7 @@ msgid ""
 "the overlap should be the first setting to consider. To recompute the field "
 "covered by the mosaic from the number of tiles considering the current "
 "overlap, click 'Cover FOV'.</p><p align=\"justify\">When processing a single "
-"stack, <span style=\" font-weight:600;\">50%</span> and <span style=\" font-"
+"stack, <span style=\"font-weight:600;\">50%</span> and <span style=\" font-"
 "weight:600;\">75%</span> are interesting overlap values. You may want to "
 "increase these slightly to work around tile rotation, apply cropping while "
 "capturing or before stacking, or avoid flat frame calibration artifacts on "
@@ -23059,7 +23059,7 @@ msgid ""
 "object of interest on the border of a tile.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Ce diagramme du ciel affiche la distribution prévue "
-"des tuiles de mosaïque. </p><p><span style=\" font-style:italic;\">Remarque :"
+"des tuiles de mosaïque.</p><p><span style=\"font-style:italic;\">Remarque :"
 "</span> Cette version de l’outil « Mosaïque » utilise une projection plane "
 "simple et manque de précision lorsque la déclinaison est supérieure à 70 "
 "degrés. Veuillez chevaucher soigneusement les tuiles pour éviter des trous. "
@@ -23068,7 +23068,7 @@ msgstr ""
 "tuiles sont ensuite distribuées sous forme de grille à partir du paramètre "
 "&quot;Grille des tuiles&quot;. Elles sont rendues avec un vert transparent "
 "et correspondent au champ de la caméra à partir du paramètre &quot;Champ de "
-"vision de la caméra&quot;. </p> <p>• L'extension du champ de mosaïque "
+"vision de la caméra&quot;.</p> <p>• L'extension du champ de mosaïque "
 "correspond au paramètre « Champ de vision de la mosaïque » et est rendue "
 "avec un arrière-plan rouge pour vous aider à remplir les trous en ajustant "
 "le chevauchement.</p><p>• Les options de tâches permettent d’exécuter "
@@ -23078,7 +23078,7 @@ msgstr ""
 "utilisez un alignement n étoiles dans « Alignement » ou configurer une "
 "nouvelle mise au point périodique dans « Capture ».<p>• Les chiffres en haut "
 "à droite dans les tuiles indiquent l’ordre dans lequel les tâches de "
-"l'ordonnanceur seront créés. La capture des cibles est d’abord effectuée, "
+"l'ordonnanceur seront créées. La capture des cibles est d’abord effectuée, "
 "d’ouest en est. Les numéros au centre indiquent les coordonnées de la cible "
 "de la tâche étant générée pour chaque tuile. Les nombres en bas indiquent "
 "l’angle de déplacement des tuiles par rapport au centre de la mosaïque.</"
@@ -23092,30 +23092,30 @@ msgstr ""
 "laquelle les carreaux adjacents peuvent être collés :<p>• <span style=\" "
 "font-weight:600;\">0 - 10 %</span>  si vous prévoyez d’enregistrer vos "
 "trames sur un champ synthétique construit à partir d’étoiles du catalogue.</"
-"p><p>• <span style=\" font-weight:600;\">10 - 20 %</span> si vous prévoyez "
+"p><p>• <span style=\"font-weight:600;\">10 - 20 %</span> si vous prévoyez "
 "de coller les trames adjacentes par alignement des étoiles dans leurs zones "
-"de ciel superposées.</p><p>• <span style=\" font-weight:600;\">50 - 80 %</"
+"de ciel superposées.</p><p>• <span style=\"font-weight:600;\">50 - 80 %</"
 "span> si vous prévoyez de traiter une seule pile avec les trames produites "
-"par les tâches de mosaïques. <p align=\"justify\"> Modifier la valeur de "
+"par les tâches de mosaïques.<p align=\"justify\">Modifier la valeur de "
 "chevauchement met à jour immédiatement le nombre de tuiles afin de couvrir "
 "complètement le champ de la mosaïque. Les tuiles générées peuvent cependant "
 "couvrir un champ plus large que nécessaire. Pour cette raison, le "
 "chevauchement devrait être déterminé en priorité. Pour recalculer le champ "
 "couvert par la mosaïque, à partir du nombre de tuiles et du taux de "
-"recouvrement, cliquez 'Cover FOV'</p><p align=\"justify\"> Lorsqu'on traite "
-"une seule pile <span style=\" font-weight:600;\">50%</span> et <span style= "
-"\" font-weight:600;\">75%</span> sont des valeurs de recouvrement "
+"recouvrement, cliquez « Couvrir le CdV ».</p><p align=\"justify\"> Lorsqu'on traite "
+"une seule pile <span style=\"font-weight:600;\">50%</span> et <span style="
+"\"font-weight:600;\">75%</span> sont des valeurs de recouvrement "
 "intéressantes. Vous pouvez vouloir augmenter cette valeur légèrement en "
 "fonction de la rotation, appliquer un redimensionnement pendant la capture "
 "ou avant l'empilement, ou évitez des effets de bords sur les flats. Si votre "
 "séquence contient une seule capture, configurez la mosaïque avec un minimum "
 "de 13 couches au centre de la mosaïque, ce qui permettra l'empilement avec "
-"la méthode winsorized sigma rejection. Exemple:</p><p align=\"justify\">• "
+"la méthode winsorized sigma rejection. Exemple :</p><p align=\"justify\">• "
 "Une mosaïque 5x5, avec un chevauchement de 80% aura 25 sous-trames à son "
-"centre, <br/>• Une mosaïque 4x4 avec un chevauchement de 75% aura 16 sous-"
-"trames à son centre, <br/>• Une mosaïque 3x3 avec un recouvrement de 66.6% "
+"centre.<br/>• Une mosaïque 4x4 avec un chevauchement de 75% aura 16 sous-"
+"trames à son centre.<br/>• Une mosaïque 3x3 avec un recouvrement de 66.6% "
 "aura 9 sous-trames en son centre, et exigera deux passes.</p><p align="
-"\"justify\"> Notez que le chevauchement des tuiles peut engendrer des "
+"\"justify\">Notez que le chevauchement des tuiles peut engendrer des "
 "gradients importants, qui demanderont des traitements supplémentaires avant "
 "l'empilement. Donc, faites vos images avec un ciel très noir et évitez de "
 "placer l'objet en bord de tuile.</p></body></html>"
@@ -23162,10 +23162,10 @@ msgid ""
 "time.\n"
 "Not available if option \"Sort jobs by Altitude and Priority\" is set."
 msgstr ""
-"Déplacer la tâche sélectionnée d'une ligne vers le haut de la liste. \n"
+"Déplacer la tâche sélectionnée d'une ligne vers le haut de la liste.\n"
 "L’ordre n’affecte que les tâches d’observation devant commencer en même "
-"temps.  \n"
-"Non disponible si l’option « Trier les tâches par Élévation et Priorité » "
+"temps.\n"
+"Non disponible si l’option « Trier les tâches par Altitude et Priorité » "
 "est définie."
 
 #: ekos/scheduler/scheduler.cpp:470
@@ -23176,10 +23176,10 @@ msgid ""
 "time.\n"
 "Not available if option \"Sort jobs by Altitude and Priority\" is set."
 msgstr ""
-"Déplacer la tâche sélectionnée d’une ligne vers le bas dans la liste. \n"
+"Déplacer la tâche sélectionnée d’une ligne vers le bas dans la liste.\n"
 "L’ordre n’affecte que les tâches d’observation devant commencer au même "
 "moment.\n"
-"Non disponible si l’option « Trier les tâches par Élévation et Priorité » "
+"Non disponible si l’option « Trier les tâches par Altitude et Priorité » "
 "est définie."
 
 #: ekos/scheduler/scheduler.cpp:476
@@ -23269,7 +23269,7 @@ msgstr "Attention : un nom de cible est requis."
 #: ekos/scheduler/scheduler.cpp:1084
 #, kde-format
 msgid "Warning: Sequence file is required."
-msgstr "Attention : un nom de séquence est requis."
+msgstr "Attention : un fichier de séquence est requis."
 
 #: ekos/scheduler/scheduler.cpp:1091
 #, kde-format
@@ -23586,34 +23586,34 @@ msgstr "Démarrage de la tâche Ekos (%1)"
 #: ekos/scheduler/scheduler.cpp:3013
 #, kde-format
 msgid "Ekos started."
-msgstr "Démarrage de Ekos"
+msgstr "Démarrage d'Ekos"
 
 # unreviewed-context
 #: ekos/scheduler/scheduler.cpp:3022
 #, kde-format
 msgid "Starting Ekos failed. Retrying..."
-msgstr "Le démarrage de Ekos échoué. Nouvelle tentative…"
+msgstr "Le démarrage d'Ekos a échoué. Nouvelle tentative…"
 
 #: ekos/scheduler/scheduler.cpp:3028
 #, kde-format
 msgid "Starting Ekos failed."
-msgstr "Le démarrage de Ekos a échoué."
+msgstr "Le démarrage d'Ekos a échoué."
 
 #: ekos/scheduler/scheduler.cpp:3039
 #, kde-format
 msgid "Starting Ekos timed out. Retrying..."
 msgstr ""
-"Le démarrage de Ekos dans le temps imparti a échoué. Nouvelle tentative…"
+"Le démarrage d'Ekos dans le temps imparti a échoué. Nouvelle tentative…"
 
 #: ekos/scheduler/scheduler.cpp:3051
 #, kde-format
 msgid "Starting Ekos timed out."
-msgstr "Le démarrage de « Ekos » dans le temps imparti a échoué."
+msgstr "Le démarrage d'Ekos dans le temps imparti a échoué."
 
 #: ekos/scheduler/scheduler.cpp:3062
 #, kde-format
 msgid "Ekos stopped."
-msgstr "Arrêt de Ekos."
+msgstr "Arrêt d'Ekos."
 
 #: ekos/scheduler/scheduler.cpp:3113
 #, kde-format
@@ -23685,7 +23685,7 @@ msgstr "L'observatoire a lancé le processus de démarrage"
 #: ekos/scheduler/scheduler.cpp:3262
 #, kde-format
 msgid "Ekos is already started, skipping startup script..."
-msgstr "Ekos es déjà lancé. Le script de démarrage est ignoré…"
+msgstr "Ekos est déjà lancé. Le script de démarrage est ignoré…"
 
 #: ekos/scheduler/scheduler.cpp:3359
 #, kde-format
@@ -23701,7 +23701,7 @@ msgstr "Réchauffement du capteur CCD"
 #, kde-format
 msgid "Warning: Bypassing parking procedures, no INDI connection."
 msgstr ""
-"Attention : contournement des procédures de mise en sécurité. Aucun "
+"Attention : contournement des procédures de mise en sécurité. Aucune "
 "connexion avec INDI."
 
 #: ekos/scheduler/scheduler.cpp:3528
@@ -23747,7 +23747,7 @@ msgid ""
 "Job '%1' current altitude (%2 degrees) crossed minimum constraint altitude "
 "(%3 degrees), marking idle."
 msgstr ""
-"La tâche « %1 » pour l'altitude courant (%2 degrés) a atteint l'altitude "
+"La tâche « %1 » pour l'altitude courante (%2 degrés) a atteint l'altitude "
 "minimale de contraintes (%3 degrés). Tâche marquée inactive."
 
 #: ekos/scheduler/scheduler.cpp:3822
@@ -23842,7 +23842,7 @@ msgstr "Enregistrer la liste de l'ordonnanceur Ekos"
 #: ekos/scheduler/scheduler.cpp:4599
 #, kde-format
 msgid "Failed to save scheduler list"
-msgstr "Échec de l'enregistrement de la liste de l'ordonnanceur "
+msgstr "Échec de l'enregistrement de la liste de l'ordonnanceur"
 
 #: ekos/scheduler/scheduler.cpp:4739
 #, kde-format
@@ -23890,7 +23890,7 @@ msgstr "La tâche « %1 » est terminée."
 #, kde-format
 msgid "Job '%1' is complete after #%2 batch."
 msgid_plural "Job '%1' is complete after #%2 batches."
-msgstr[0] "La tâche « %1 » s'est terminée après %2 itérations."
+msgstr[0] "La tâche « %1 » s'est terminée après %2 itération."
 msgstr[1] "La tâche « %1 » s'est terminée après %2 itérations."
 
 #: ekos/scheduler/scheduler.cpp:5067
@@ -23911,7 +23911,7 @@ msgid "Job '%1' stopping, reached completion time with #%2 batch done."
 msgid_plural ""
 "Job '%1' stopping, reached completion time with #%2 batches done."
 msgstr[0] ""
-"Arrêt de la tâche « %1 », temps d’achèvement atteint avec le lot #%2 terminé."
+"Arrêt de la tâche « %1 », temps d’achèvement atteint avec #%2 lot terminé."
 msgstr[1] ""
 "Arrêt de la tâche « %1 », temps d’achèvement atteint avec les #%2 lots "
 "terminés."
@@ -23922,7 +23922,7 @@ msgid "Job '%1' completed #%2 batch before completion time, restarted."
 msgid_plural ""
 "Job '%1' completed #%2 batches before completion time, restarted."
 msgstr[0] ""
-"Tâche « %1 » terminée. Lot #%2 avant le temps d’achèvement, redémarré."
+"Tâche « %1 » terminée. #%2 lot avant le temps d’achèvement, redémarré."
 msgstr[1] ""
 "Tâche « %1 » terminée. #%2 lots avant le temps d’achèvement, redémarrés."
 
@@ -23991,7 +23991,7 @@ msgstr "Parcage de la monture en cours…"
 #: ekos/scheduler/scheduler.cpp:6005
 #, kde-format
 msgid "Mount already unparked."
-msgstr "Monture déjà parquée."
+msgstr "Monture déjà déparquée."
 
 #: ekos/scheduler/scheduler.cpp:6082
 #, kde-format
@@ -24063,7 +24063,7 @@ msgstr "Mise en sécurité du dôme en cours…"
 #: ekos/scheduler/scheduler.cpp:6291
 #, kde-format
 msgid "Dome already parked."
-msgstr "Dôme toujours en sécurité."
+msgstr "Dôme déjà en sécurité."
 
 #: ekos/scheduler/scheduler.cpp:6318
 #, kde-format
@@ -24073,7 +24073,7 @@ msgstr "Le déblocage du dôme est en cours…"
 #: ekos/scheduler/scheduler.cpp:6324
 #, kde-format
 msgid "Dome already unparked."
-msgstr "Dome toujours débloqué."
+msgstr "Dome déjà débloqué."
 
 #: ekos/scheduler/scheduler.cpp:6356
 #, kde-format
@@ -24129,7 +24129,7 @@ msgstr "Retrait du capuchon antipoussière…"
 #: ekos/scheduler/scheduler.cpp:6512
 #, kde-format
 msgid "Cap already unparked."
-msgstr "Couvercle antipoussière toujours débloqué."
+msgstr "Capuchon antipoussière déjà débloqué."
 
 #: ekos/scheduler/scheduler.cpp:6544
 #, kde-format
@@ -24161,7 +24161,7 @@ msgstr ""
 #: ekos/scheduler/scheduler.cpp:6815
 #, kde-format
 msgid "Mosaic file %1 saved successfully."
-msgstr "Le fichier de mosaïque %1 est enregistré correctement."
+msgstr "Le fichier de mosaïque %1 a été correctement enregistré."
 
 #: ekos/scheduler/scheduler.cpp:6819
 #, kde-format
@@ -24276,7 +24276,7 @@ msgstr "Attention : la tâche « %1 » d'alignement a échoué."
 msgid ""
 "Warning: job '%1' forcing mount model reset after failing alignment #%2."
 msgstr ""
-"Attention: la tâche %1 force la réinitialisation du modèle de pointage après "
+"Attention : la tâche %1 force la réinitialisation du modèle de pointage après "
 "un défaut d'alignement #%2."
 
 #: ekos/scheduler/scheduler.cpp:7540 ekos/scheduler/scheduler.cpp:7606
@@ -24625,7 +24625,7 @@ msgid ""
 "will be used as center for the mosaic and the sequence will be assigned to "
 "all tiles of the mosaic.</p></body></html>"
 msgstr ""
-"<html><head/><body><p align=\"justify\">Ouvrir l'outil Mosaïque</p><p align="
+"<html><head/><body><p align=\"justify\">Ouvrir l'outil Mosaïque.</p><p align="
 "\"justify\">Cet outil requiert une cible avec des coordonnées valides dans "
 "le panneau de gauche et un fichier de séquence valide.</p><p align=\"justify"
 "\">La cible sera utilisée comme centre pour la mosaïque et la séquence sera "
@@ -24717,9 +24717,9 @@ msgid ""
 "will interrupt running jobs if a higher priority job can run.</p></body></"
 "html>"
 msgstr ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Classique</span> : "
-"Démarre les tâches qui remplissent les contraintes de priorité et de score."
-"</ p><p><span style=\" font-weight:600;\">Greedy</span> : Tente toujours de "
+"<html><head/><body><p><span style=\"font-weight:600;\">Classique</span> : "
+"démarre les tâches qui remplissent les contraintes de priorité et de score."
+"</p><p><span style=\"font-weight:600;\">Greedy</span> : tente toujours de "
 "démarrer une tâche en choisissant celle de plus haute priorité qui peut être "
 "démarrée en tenant compte de ses contraintes. Cela interrompra les tâches "
 "actives si une tâche de plus haute priorité peut être lancée.</p></body></"
@@ -24735,8 +24735,6 @@ msgstr "Classique"
 #. i18n: ectx: property (text), item, widget (QComboBox, schedulerAlgorithmCombo)
 #: ekos/scheduler/scheduler.ui:1208
 #, kde-format
-#| msgctxt "City in Colorado USA"
-#| msgid "Greeley"
 msgid "Greedy"
 msgstr "Greedy"
 
@@ -24786,7 +24784,7 @@ msgstr "Répéter j&usqu'à"
 #: ekos/scheduler/scheduler.ui:1377
 #, kde-format
 msgid "Restart job until it is executed this many times."
-msgstr "Relancer la tâche jusqu'à ce qu'il exécute ce nombre de fois."
+msgstr "Relancer la tâche jusqu'à ce qu'elle soit exécutée ce nombre de fois."
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, repeatsSpin)
 #: ekos/scheduler/scheduler.ui:1380
@@ -24829,7 +24827,7 @@ msgstr ""
 "Démarrer la tâche d'observation quand l'objet atteint le point culminant, "
 "ajusté avec la valeur de décalage en minutes. Par défaut, la tâche "
 "d'observation s'exécute durant 60 minutes avant d'arriver au point "
-"culminant. "
+"culminant."
 
 #. i18n: ectx: property (text), widget (QRadioButton, culminationConditionR)
 #: ekos/scheduler/scheduler.ui:1477
@@ -24986,17 +24984,17 @@ msgid ""
 msgstr ""
 "<html><head/><body><p>L'aube astronomique et le crépuscule pour la tache "
 "planifiée courante ou pour la date courante si aucune tâche n'est disponible."
-"</p><p> - la première valeur concerne <span style=\" font-weight:600;\">le "
+"</p><p> - la première valeur concerne <span style=\"font-weight:600;\">le "
 "crépuscule</span>, spécifiquement la prochaine heure locale où le Soleil "
 "sera plus haut que -18° d'altitude après le démarrage de la tâche.</p><p>Un "
-"symbole d'avertissement indique que le Soleil ne  descendra pas en dessous "
+"symbole d'avertissement indique que le Soleil ne descendra pas en dessous "
 "de la limite astronomique du crépuscule après le début du travail, et que "
 "les heures de l'aube et du crépuscule sont calculées à partir de son "
-"altitude minimale. Dans  cette situation, la restriction crépusculaire "
+"altitude minimale. Dans cette situation, la restriction crépusculaire "
 "empêche l'exécution du travail, à moins que les options Ekos Dawn Offset et "
-"Dusk Offset soient configurées de manière appropriée. </p><p>Notez que "
+"Dusk Offset soient configurées de manière appropriée.</p><p>Notez que "
 "l'option de décalage de pré-aube avance virtuellement l'aube par défaut de "
-"30 minutes and évitera donc qu'une tâche ne démarre juste avant ce moment. </"
+"30 minutes and évitera donc qu'une tâche ne démarre juste avant ce moment.</"
 "p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, shutdownGroupBox)
@@ -25009,10 +25007,10 @@ msgid ""
 "procedures (e.g. parking), if selected, are completed.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Procédure d'arrêt unique à exécuter après la fin de "
-"toutes les tâches de l'ordonnanceur. Le script est exécuté <span style=\" "
+"toutes les tâches de l'ordonnanceur. Le script est exécuté <span style=\""
 "font-weight:600; text- decoration: underline;\">après</span> les procédures "
 "d'arrêt (par ex. parcage) qui, si elles sont sélectionnées, seront "
-"complétées. </p></body></html>"
+"complétées.</p></body></html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, shutdownGroupBox)
 #: ekos/scheduler/scheduler.ui:1779
@@ -25335,7 +25333,7 @@ msgid ""
 "Depends on the actions to be run, and the sequence job to be processed."
 msgstr ""
 "La durée de la tâche « %1 » sera calculée à son démarrage, selon "
-"l'estimation faite par l'ordonnanceur. \n"
+"l'estimation faite par l'ordonnanceur.\n"
 "Dépend des actions à exécuter et de la tâche de la séquence à traiter."
 
 #: ekos/scheduler/schedulerjob.cpp:638
@@ -25433,7 +25431,7 @@ msgstr "Erreur lors de l'ouverture du fichier FITS (fits_get_img_param)."
 #: fitsviewer/fitsdata.cpp:296
 #, kde-format
 msgid "1D FITS images are not supported in KStars."
-msgstr "Les images FITS 1D ne sont pas prises en charge dans KStars."
+msgstr "Les images FITS 1D ne sont pas prises en charge dans KStars."
 
 #: fitsviewer/fitsdata.cpp:343
 #, kde-format
@@ -25468,7 +25466,7 @@ msgstr "Impossible de décompresser l'aperçu : %1"
 #: fitsviewer/fitsdata.cpp:608
 #, kde-format
 msgid "Cannot dcraw_process: %1"
-msgstr "Il est impossible «  dcraw_process » : %1"
+msgstr "Impossible de « dcraw_process » : %1"
 
 #: fitsviewer/fitsdata.cpp:616
 #, kde-format
@@ -25557,25 +25555,25 @@ msgstr "Utilisation d'un filtre de Bayer pour l'image"
 #: fitsviewer/fitsdebayer.ui:30
 #, kde-format
 msgid "RGGB"
-msgstr "RGGB"
+msgstr "RVVB"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, filterCombo)
 #: fitsviewer/fitsdebayer.ui:35
 #, kde-format
 msgid "GBRG"
-msgstr "GBRG"
+msgstr "VBRV"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, filterCombo)
 #: fitsviewer/fitsdebayer.ui:40
 #, kde-format
 msgid "GRBG"
-msgstr "GRBG"
+msgstr "VRBV"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, filterCombo)
 #: fitsviewer/fitsdebayer.ui:45
 #, kde-format
 msgid "BGGR"
-msgstr "BGGR"
+msgstr "BVVR"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: fitsviewer/fitsdebayer.ui:53
@@ -25702,7 +25700,7 @@ msgid ""
 "Frequency:   </td><td>%4</td></tr></table>"
 msgstr ""
 "<table><tr><td>Intensité : </td><td>%1</td></tr><tr><td>Fréquence « R » : </"
-"td><td>%2</td></tr><tr><td>Fréquence « G » : </td><td>%3</td></"
+"td><td>%2</td></tr><tr><td>Fréquence « V » : </td><td>%3</td></"
 "tr><tr><td>Fréquence « B » : </td><td>%4</td></tr></table>"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, FITSHistogramUI)
@@ -26038,7 +26036,7 @@ msgid ""
 "*No WCS Info*"
 msgstr ""
 "Afficher les lignes de grille équatoriale\n"
-"* Aucune informations WCS *"
+"* Aucune information WCS *"
 
 #: fitsviewer/fitsviewer.cpp:917
 #, kde-format
@@ -26251,21 +26249,21 @@ msgid ""
 "processed. Only grayscale images are shown.</li></ul></body></html>"
 msgstr ""
 "<html><head/><body><p>Activez le mode ressources limitées pour désactiver "
-"toutes les opérations gourmandes en ressources :</p><ul style=\"margin-top: "
+"toutes les opérations gourmandes en ressources : </p><ul style=\"margin-top: "
 "0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-"
-"indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-"
+"indent: 1;\"><li style=\"margin-top:12px; margin-bottom:0px; margin-"
 "left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span "
-"style=\" font-weight:600;\">Auto debayer</span>: Les images bayérisées ne "
+"style=\"font-weight:600;\">Auto debayer</span>: les images bayérisées ne "
 "seront pas débayérisées. Seules les images en niveau de gris sont affichées."
-"</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"weight:600;\">Auto WCS</span>: Les données du système de coordonnées "
+"</li><li style=\"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\"font-"
+"weight:600;\">Auto WCS</span>: les données du système de coordonnées "
 "mondiales ne seront pas traitées. Le WCS fait correspondre les coordonnées "
 "du ciel aux coordonnées de l'image. Les lignes de la grille équatoriale, "
 "l'identification des objets et la rotation du télescope dans une image sont "
-"désactivées..</li><li style=\" margin-top:0px; margin-bottom:12px; margin-"
+"désactivées.</li><li style=\"margin-top:0px; margin-bottom:12px; margin-"
 "left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span "
-"style=\" font-weight:600;\">3D Cube</span> : Les images RVB ne seront pas "
+"style=\"font-weight:600;\">3D Cube</span> : les images RVB ne seront pas "
 "traitées. Seules les images en niveaux de gris sont affichées.</li></ul></"
 "body></html>"
 
@@ -26299,9 +26297,9 @@ msgid ""
 "unpredictable behavior resulting in crashes on slower machines.</span></p></"
 "body></html>"
 msgstr ""
-"<html><head/><body><p>Chargement automatique des données du  World-"
-"Coordinate-System (WCS) lors de l'ouverture d'un fichier FITS..</p><p><span "
-"style=\" font-weight:600;\"> Attention: Activer cette option seulement sur "
+"<html><head/><body><p>Chargement automatique des données du World-"
+"Coordinate-System (WCS) lors de l'ouverture d'un fichier FITS.</p><p><span "
+"style=\"font-weight:600;\"> Attention : activer cette option seulement sur "
 "des machines très rapides car elle peut conduire à des comportements "
 "imprévisibles aboutissant à un crash sur des machines lentes.</span></p></"
 "body></html>"
@@ -26318,7 +26316,7 @@ msgstr "WCS automatique"
 msgid ""
 "Process 3D (RGB) FITS images. If unchecked, only first channel is processed."
 msgstr ""
-"Traiter les images FITS 3D (RGB). Si non sélectionné, seul le premier canal "
+"Traiter les images FITS 3D (RVB). Si non sélectionné, seul le premier canal "
 "est traité."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_Auto3DCube)
@@ -26347,7 +26345,7 @@ msgstr "Histogramme non linéaire"
 #: fitsviewer/opsfits.ui:269
 #, kde-format
 msgid "Compute the HFR of images loaded into fitsviewer."
-msgstr "Calculer le HFR des images chargées dans « fitsviewer »."
+msgstr "Calculer le HFR des images chargées dans l'afficheur FITS."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoHFR)
 #: fitsviewer/opsfits.ui:272
@@ -26376,7 +26374,7 @@ msgstr "HFR rapide"
 msgid "Set the StellarSolver SEP profile for Capture-image HFR calculations."
 msgstr ""
 "Définir le profil SEP pour le « Stellarsolver » pour les calculs HFR de "
-"calcul / images."
+"l'image acquise."
 
 #. i18n: ectx: property (text), widget (QLabel, hfrSepLabel)
 #: fitsviewer/opsfits.ui:303
@@ -26514,14 +26512,14 @@ msgid ""
 "Automatically scales the sliders for the subFrame.\n"
 "Uncheck to leave them unchanged when you pan around."
 msgstr ""
-"Met automatiquement à l'échelle les curseurs de la sous-image.\n"
+"Met automatiquement à l'échelle les curseurs de la sous-trame.\n"
 "Décochez cette case pour qu'ils restent inchangés lorsque vous effectuez un "
 "panoramique."
 
 #: fitsviewer/starprofileviewer.cpp:115
 #, kde-format
 msgid "Hides and shows the scaling side panel"
-msgstr "Masque et affiche le panneau latérale de dimensionnement."
+msgstr "Masque et affiche le panneau latéral de dimensionnement."
 
 #: fitsviewer/starprofileviewer.cpp:126
 #, kde-format
@@ -26644,13 +26642,13 @@ msgstr "Effacer : %1"
 #: fitsviewer/starprofileviewer.cpp:876
 #, kde-format
 msgid "Max: %1"
-msgstr "Max. : %1 "
+msgstr "Max : %1 "
 
 #: fitsviewer/starprofileviewer.cpp:513 fitsviewer/starprofileviewer.cpp:520
 #: fitsviewer/starprofileviewer.cpp:877
 #, kde-format
 msgid "Min: %1"
-msgstr "Min. : %1"
+msgstr "Min : %1"
 
 #: fitsviewer/starprofileviewer.cpp:667
 #, kde-format
@@ -26675,7 +26673,7 @@ msgstr "(%1, %2)"
 #: fitsviewer/starprofileviewer.cpp:909
 #, kde-format
 msgid "HFR: %1  "
-msgstr "HFR :%1"
+msgstr "HFR : %1"
 
 #: fitsviewer/starprofileviewer.cpp:913
 #, kde-format
@@ -26779,7 +26777,7 @@ msgstr "Disque"
 #: hips/opshipscache.ui:43 hips/opshipscache.ui:89
 #, kde-format
 msgid "MB"
-msgstr "MB"
+msgstr "Mo"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_HIPSMemoryCache)
@@ -26941,10 +26939,10 @@ msgid ""
 "change the <span style=\" font-weight:600;\">Label </span>then press<span "
 "style=\" font-weight:600;\"> Add.</span></p></body></html>"
 msgstr ""
-"<html><head/><body><p>Pour créer un <span style=\" font-weight:600;\">Alias</"
+"<html><head/><body><p>Pour créer un <span style=\"font-weight:600;\">Alias</"
 "span> à partir d’un pilote existant, sélectionnez un pilote existant, puis "
-"modifiez uniquement <span style=\" font-weight:600;\">l’étiquette</span> et "
-"enfin, appuyez sur<span style=\" font-weight:600;\"> Ajouter</span>.</p></"
+"modifiez uniquement <span style=\"font-weight:600;\">l’étiquette</span> et "
+"enfin, appuyez sur <span style=\"font-weight:600;\">Ajouter.</span></p></"
 "body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -26983,12 +26981,12 @@ msgstr "Erreur"
 #: indi/drivermanager.cpp:442
 #, kde-format
 msgid "Connection to INDI server locally on port %1 failed."
-msgstr "La connexion au serveur INDI localement sur le port %1 a échoué."
+msgstr "La connexion au serveur INDI localement sur le port %1 a échoué."
 
 #: indi/drivermanager.cpp:611 indi/indidriver.cpp:291
 #, kde-format, kde-kuit-format
 msgid "Invalid port entry: %1"
-msgstr "Élément de port non valable : %1"
+msgstr "Port non valable : %1"
 
 #: indi/drivermanager.cpp:651
 #, kde-format
@@ -27024,17 +27022,16 @@ msgid ""
 "Please make sure to set the correct path in KStars configuration"
 msgstr ""
 "Il est impossible de trouver le dossier des pilotes du serveur INDI : %1\n"
-"Veillez vous assurer d'avoir défini l'emplacement correct dans la "
+"Veuillez vous assurer d'avoir défini l'emplacement correct dans la "
 "configuration de KStars."
 
 #: indi/drivermanager.cpp:1012 indi/indidriver.cpp:528
 #, kde-format, kde-kuit-format
 msgid "Failed to open INDI Driver file: %1"
-msgstr "Il est impossible d'ouvrir le fichier de pilotes INDI : %1"
+msgstr "Impossible d'ouvrir le fichier de pilotes INDI : %1"
 
 #: indi/drivermanager.cpp:1393
 #, kde-format
-msgctxt "@title:window"
 msgid "Add Host"
 msgstr "Ajouter un hôte"
 
@@ -27046,11 +27043,10 @@ msgstr "Erreur : le numéro de port n'est pas valable."
 #: indi/drivermanager.cpp:1418 indi/indidriver.cpp:822
 #, kde-format, kde-kuit-format
 msgid "Host: %1 Port: %2 already exists."
-msgstr "L'hôte : %1, sur le port : %2 existe déjà."
+msgstr "L'hôte %1 sur le port %2 existe déjà."
 
 #: indi/drivermanager.cpp:1444
 #, kde-format
-msgctxt "@title:window"
 msgid "Modify Host"
 msgstr "Modifier un hôte"
 
@@ -27070,7 +27066,7 @@ msgid ""
 "Unable to write to file 'indihosts.xml'\n"
 "Any changes to INDI hosts configurations will not be saved."
 msgstr ""
-"impossible d'écrire dans le fichier « indihosts.xml »\n"
+"Impossible d'écrire dans le fichier « indihosts.xml »\n"
 "Aucun changement apporté aux configurations des hôtes INDI ne sera "
 "enregistré."
 
@@ -27299,7 +27295,7 @@ msgstr "FLUX DE DONNÉES INDI"
 #: indi/indielement.cpp:624
 #, kde-format
 msgid "Cannot open file %1 for reading"
-msgstr "Il est impossible d'ouvrir le fichier %1 en lecture"
+msgstr "Impossible d'ouvrir le fichier %1 en lecture"
 
 #: indi/indielement.cpp:633
 #, kde-format
@@ -27322,7 +27318,7 @@ msgstr "Heure"
 msgid ""
 "Enable binary data transfer from this property to KStars and vice-versa."
 msgstr ""
-"Active le transfert de données binaires depuis cette propriété vers KStars "
+"Activer le transfert de données binaires depuis cette propriété vers KStars "
 "et vice versa."
 
 #: indi/indiproperty.cpp:297
@@ -27559,7 +27555,7 @@ msgid ""
 msgstr ""
 "<html><head/><body><p>KStars est la source principale pour les réglages "
 "d’heure et de position. Tous les paramètres d’heure et de position des "
-"périphériques INDI sont synchronisés avec les paramètres de KStars. </p></"
+"périphériques INDI sont synchronisés avec les paramètres de KStars.</p></"
 "body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_useKStarsSource)
@@ -27580,7 +27576,7 @@ msgstr ""
 #, kde-format
 msgid "Synchronize KStars date and time automatically from the update source."
 msgstr ""
-"Synchronisez automatiquement la date et l'heure de KStars depuis la source "
+"Synchroniser automatiquement la date et l'heure de KStars depuis la source "
 "de mise à jour."
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_useMountSource)
@@ -27592,7 +27588,7 @@ msgid ""
 "controller settings.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>La raquette est la source principale de paramètres "
-"d'heure/date et de position. KStars sera synchronisé avec ces paramètres. </"
+"d'heure/date et de position. KStars sera synchronisé avec ces paramètres.</"
 "p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_useMountSource)
@@ -27616,7 +27612,7 @@ msgstr ""
 #, kde-format
 msgid "Synchronize KStars location settings from the update source."
 msgstr ""
-"Synchronisez les paramètres de position de KStars depuis la source de mise à "
+"Synchroniser les paramètres de position de KStars depuis la source de mise à "
 "jour."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useGeographicUpdate)
@@ -27635,7 +27631,7 @@ msgid ""
 msgstr ""
 "<html><head/><body><p>Le pilote GPS est la principale paramètres de temps et "
 "de localisation. L'heure et les paramètres de localisation de KStars sont "
-"synchronisés avec les paramètres GPS. </p></body></html>"
+"synchronisés avec les paramètres GPS.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_useGPSSource)
 #: indi/opsindi.ui:319
@@ -27650,7 +27646,7 @@ msgid ""
 "Specify range of ports that INDI Server will bind to when starting new "
 "drivers"
 msgstr ""
-"Indiquez la plage de ports auquel le serveur INDI se liera lors du démarrage "
+"Indiquer la plage de ports à laquelle le serveur INDI se liera lors du démarrage "
 "de nouveaux pilotes"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -27685,7 +27681,7 @@ msgid ""
 "Display a telescope marker on the sky map in order to track the telescope "
 "motion across the sky."
 msgstr ""
-"Affiche un marqueur de télescope sur la carte du ciel afin de suivre le "
+"Afficher un marqueur de télescope sur la carte du ciel afin de suivre le "
 "déplacement du télescope à travers le ciel."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_showTargetCrosshair)
@@ -27754,13 +27750,13 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>\n"
-"<p>Nom du dossier des vidéos SER <b>distante</b>Si le serveur Indi est "
+"<p>Nom du dossier des vidéos SER <b>distante</b>. Si le serveur INDI est "
 "actif localement, alors un dossier local peut être sélectionné. "
-"Cependant, si vous êtes connecté à un serveur Indi distant, alors le "
+"Cependant, si vous êtes connecté à un serveur INDI distant, alors le "
 "dossier doit être un dossier valide sur le système de fichiers distant "
 "ou il sera sauvé.</p>\n"
-"<p>Les dossier d'enregistrement peuvent contenir des token pour les "
-"rendre dynamiques:</p>\n"
+"<p>Les dossiers d'enregistrement peuvent contenir des token pour les "
+"rendre dynamiques :</p>\n"
 "<ul>\n"
 "<li><b>_D_</b> pour la date YYYY-MM-DD.</li>\n"
 "<li><b>_H_</b> pour le temps HH:MM:SS.</li>\n"
@@ -27792,8 +27788,8 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>\n"
-"<p>Nom des fichiers vidéos SER.  Les fichiers enregistrées peuvent contenir "
-"des tokens pour les rendre dynamiques:</p>\n"
+"<p>Nom des fichiers vidéos SER. Les fichiers enregistrées peuvent contenir "
+"des tokens pour les rendre dynamiques :</p>\n"
 "<ul>\n"
 "<li><b>_D_</b> pour la date YYYY-MM-DD.</li>\n"
 "<li><b>_H_</b> pour l'heure HH:MM:SS.</li>\n"
@@ -27808,7 +27804,7 @@ msgstr ""
 #, kde-format
 msgid "Record stream until this many frames are captured"
 msgstr ""
-"Enregistrer le flux jusqu'à ce que de nombreuses trames soient capturées."
+"Enregistrer le flux jusqu'à ce que ce nombre de trames soient acquises."
 
 #. i18n: ectx: property (text), widget (QRadioButton, recordFramesR)
 #: indi/recordingoptions.ui:166
@@ -27892,7 +27888,7 @@ msgstr "(Dés)activer le filtre de Bayer"
 #: indi/streamform.ui:165
 #, kde-format
 msgid "Zoom level"
-msgstr "Niveau de zoom :"
+msgstr "Niveau de zoom"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, zoomLevelCombo)
 #: indi/streamform.ui:174
@@ -27941,13 +27937,13 @@ msgstr "Appliquer une valeur « FPS » et relancer le flux."
 #: indi/streamform.ui:343
 #, kde-format
 msgid "FPS:"
-msgstr "images/s :"
+msgstr "Trames/s"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, avgFPS)
 #: indi/streamform.ui:356
 #, kde-format
 msgid "Average FPS"
-msgstr "Moyenne « FPS »"
+msgstr "Moyenne Trames/s"
 
 #: indi/streamwg.cpp:61
 #, kde-format
@@ -28001,12 +27997,12 @@ msgstr ""
 "Bienvenue dans l'<b>Assistant de configuration de télescope de KStars !</b>\n"
 "<br><br>\n"
 "Cet assistant va vous aider à vous connecter à votre télescope et à le "
-"contrôler depuis KStars. Il vous sera demander de vérifier certaines "
+"contrôler depuis KStars. Il vous sera demandé de vérifier certaines "
 "informations de base.\n"
 "<br>\n"
 "<br>Vous pouvez obtenir de plus amples informations sur la prise en charge "
 "des télescopes dans KStars en cliquant sur le bouton <tt>Aide</tt> à tout "
-"moment pendant l'Assistant.\n"
+"moment pendant l'utilisation de l'assistant.\n"
 "<br><br>\n"
 "Veuillez cliquer sur « Suivant » pour continuer."
 
@@ -28022,7 +28018,7 @@ msgstr ""
 "<h3>1. Modèle de télescope</h3>\n"
 "\n"
 "Veuillez sélectionner le modèle de votre télescope dans la liste ci-dessous. "
-"Cliquez sur Suivant après avoir sélectionné un modèle."
+"Cliquez sur « Suivant » après avoir sélectionné un modèle."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: indi/telescopewizard.ui:274
@@ -28033,9 +28029,9 @@ msgid ""
 "Select <tt>LX200 Basic</tt> to control such devices."
 msgstr ""
 "<b>Astuce</b>\n"
-"<br>Certains télescopes « non-Meade » prennent en charge un sous-ensemble du "
+"<br>Certains télescopes différents des « Meade » prennent en charge un sous-ensemble du "
 "jeu de commandes LX200 Basic. Cliquez sur <tt>LX200 Basic</tt> pour "
-"contrôler ce type de périphériques."
+"contrôler ce type de périphérique."
 
 #. i18n: ectx: property (text), widget (QLabel, telescopePageInfo)
 #: indi/telescopewizard.ui:313
@@ -28058,7 +28054,7 @@ msgstr ""
 "<br><br>\n"
 "Une fois l'alignement réussi, connectez l'interface RS232 de votre télescope "
 "au port série ou USB de votre ordinateur.\n"
-"<br><br><br>Cliquez sur Suivant pour continuer."
+"<br><br><br>Cliquez sur « Suivant » pour continuer."
 
 #. i18n: ectx: property (text), widget (QLabel, localPageLabel)
 #: indi/telescopewizard.ui:347
@@ -28073,14 +28069,14 @@ msgstr ""
 "<h3>3. Vérifiez les réglages locaux</h3>\n"
 "\n"
 "Vérifiez si les réglages suivants d'heure, de date et de lieu sont corrects. "
-"Si l'un quelconque des paramètres est incorrect, vous pouvez le corriger par "
+"Si l'un des paramètres est incorrect, vous pouvez le corriger par "
 "le biais des boutons <tt>Régler l'heure</tt> et <tt>Définir le lieu</tt>.\n"
 
 #. i18n: ectx: property (text), widget (QLabel, locationLabel)
 #: indi/telescopewizard.ui:410
 #, kde-format
 msgid "<b>Location</b>"
-msgstr "<b>Lieu</b>"
+msgstr "<b>Position</b>"
 
 #. i18n: ectx: property (text), widget (QLabel, timeLabel)
 #: indi/telescopewizard.ui:453
@@ -28104,7 +28100,7 @@ msgstr "Régler l'heure…"
 #: indi/telescopewizard.ui:484
 #, kde-format
 msgid "Set Location..."
-msgstr "Définir le lieu…"
+msgstr "Définir la position…"
 
 #. i18n: ectx: property (text), widget (QLabel, portPageLabel)
 #: indi/telescopewizard.ui:538
@@ -28122,11 +28118,11 @@ msgstr ""
 "\n"
 "Saisissez le numéro de port auquel votre télescope est connecté. Si vous "
 "n'avez qu'un seul port série sur votre ordinateur, il s'agit habituellement "
-"de <tt>/dev/ttyS0</tt> \n"
+"de <tt>/dev/ttyS0</tt>.\n"
 "<br><br>Si vous n'êtes pas sûr du numéro de port, vous pouvez laisser le "
 "champ vide. KStars essaiera de balayer les ports pour y rechercher les "
 "télescopes raccordés. Sachez que le processus de recherche automatique peut "
-"prendre quelques minutes pour aboutir. "
+"prendre quelques minutes pour aboutir."
 
 #. i18n: ectx: property (text), widget (QLabel, portLabel)
 #: indi/telescopewizard.ui:575
@@ -28163,7 +28159,7 @@ msgid ""
 "Sorry. KStars failed to detect any attached telescopes, please check your "
 "settings and try again."
 msgstr ""
-"Désolé. KStars n'a pas réussi à détecter un quelconque télescope raccordé. "
+"Désolé. KStars n'a pas réussi à détecter de télescope raccordé. "
 "Veuillez vérifier vos réglages et essayer à nouveau."
 
 #: indi/telescopewizardprocess.cpp:354
@@ -28178,7 +28174,6 @@ msgstr "Heure du lever : %1"
 
 #: kspopupmenu.cpp:89
 #, kde-format
-msgctxt "the time at which an object falls below the horizon"
 msgid "Set time: %1"
 msgstr "Heure du coucher : %1"
 
@@ -28214,13 +28209,11 @@ msgstr "Ciel vide"
 
 #: kspopupmenu.cpp:139 kspopupmenu.cpp:221 kspopupmenu.cpp:589
 #, kde-format
-msgctxt "Sloan Digital Sky Survey"
 msgid "Show SDSS Image"
 msgstr "Afficher l'image SDSS"
 
 #: kspopupmenu.cpp:141 kspopupmenu.cpp:223 kspopupmenu.cpp:591
 #, kde-format
-msgctxt "Digitized Sky Survey"
 msgid "Show DSS Image"
 msgstr "Afficher l'image DSS"
 
@@ -28260,7 +28253,7 @@ msgstr "Élévation : %1 km"
 #: kspopupmenu.cpp:285
 #, kde-format
 msgid "Range: %1 km"
-msgstr "Distance : %1 km"
+msgstr "Distance : %1 km"
 
 #: kspopupmenu.cpp:290 kspopupmenu.cpp:371
 #, kde-format
@@ -28341,7 +28334,7 @@ msgstr "Simuler la vue à l'oculaire"
 #: kspopupmenu.cpp:441
 #, kde-format
 msgid "View in XPlanet"
-msgstr "Affichage dans Xplanet"
+msgstr "Affichage dans XPlanet"
 
 #: kspopupmenu.cpp:446
 #, kde-format
@@ -28391,7 +28384,7 @@ msgstr "Supprimer du catalogue local"
 #: kspopupmenu.cpp:664
 #, kde-format
 msgid "Slew && Set As Parking Position"
-msgstr "Faire tourner et définir comme position de sécurité"
+msgstr "Pivoter et définir comme position de parcage"
 
 #: kspopupmenu.cpp:674
 #, kde-format
@@ -28400,15 +28393,13 @@ msgstr "Centrer la croix"
 
 #: kspopupmenu.cpp:708
 #, kde-format
-msgctxt "Move mount to target"
 msgid "Goto"
 msgstr "Aller à"
 
 #: kspopupmenu.cpp:717
 #, kde-format
-msgctxt "Synchronize mount to target"
 msgid "Sync"
-msgstr "Synchronisation"
+msgstr "Synchroniser"
 
 #: kspopupmenu.cpp:758
 #, kde-format
@@ -28418,7 +28409,7 @@ msgstr "Suivre un satellite"
 #: kspopupmenu.cpp:772
 #, kde-format
 msgid "Goto && Set As Parking Position"
-msgstr "Aller à et définir comme position de sécurité"
+msgstr "Aller à et définir comme position de parcage"
 
 #: kspopupmenu.cpp:779
 #, kde-format
@@ -28427,7 +28418,6 @@ msgstr "Trouver un télescope"
 
 #: kstars.cpp:60
 #, kde-format
-msgctxt "@title:window"
 msgid "KStars"
 msgstr "KStars"
 
@@ -28528,7 +28518,7 @@ msgid ""
 "If true, the Geographic Location InfoBox will show only its top line of data."
 msgstr ""
 "Si cette case est cochée, la boîte d'informations sur la position "
-"géographique n'affichera que que sa ligne de données du haut."
+"géographique n'affichera que sa ligne de données du haut."
 
 #. i18n: ectx: label, entry (ShowInfoBoxes), group (GUI)
 #: kstars.kcfg:40
@@ -28797,7 +28787,7 @@ msgid ""
 "         will be cached. Turning this value up yields better\n"
 "         performance at the cost of memory."
 msgstr ""
-"Les objet du ciel profond (CP) sont chargés à partir d’une base de données "
+"Les objets du ciel profond (CP) sont chargés à partir d’une base de données "
 "« sqlite » et \n"
 "\t\tmis en cache dans la mémoire. Ce paramètre régule la quantité d'objets "
 "qui seront \n"
@@ -29114,7 +29104,7 @@ msgid ""
 "The Province name of the current geographic location. This is the name of "
 "the state for locations in the U. S."
 msgstr ""
-"Le nom de la région de la position géographique actuel. Il s'agit du nom de "
+"Le nom de la région de la position géographique actuelle. Il s'agit du nom de "
 "département dans le cas de la France."
 
 #. i18n: ectx: label, entry (CountryName), group (Location)
@@ -29194,8 +29184,8 @@ msgstr ""
 #, kde-format
 msgid "Use animated slewing effects when changing focus position?"
 msgstr ""
-"Utiliser des effets de réorientation animé lors d'un changement de position "
-"du focus ?"
+"Utiliser des effets animés de réorientation lors d'un changement de position "
+"de la mise au point ?"
 
 #. i18n: ectx: whatsthis, entry (UseAnimatedSlewing), group (View)
 #: kstars.kcfg:362
@@ -29204,7 +29194,7 @@ msgid ""
 "If true, focus changes will cause the sky to visibly spin to the new "
 "position. Otherwise, the display will \"snap\" instantly to the new position."
 msgstr ""
-"Si cette option est cochée, les changements de focus feront tourner "
+"Si cette option est cochée, les changements de mise au point feront tourner "
 "visiblement le ciel vers la nouvelle position. Sinon, l'affichage « se "
 "collera » instantanément à la nouvelle position."
 
@@ -29249,9 +29239,9 @@ msgid ""
 "The names of the currently selected field-of-view indicators. The list of "
 "defined FOV indicator names is listed in the \"Settings|FOV Symbols\" menu."
 msgstr ""
-"Les noms des indicateurs actuellement sélectionnés des champ de vision. La "
+"Les noms des indicateurs actuellement sélectionnés des champs de vision. La "
 "liste des noms définis des indicateurs des champs de vision définis se "
-"trouve dans le menu « Configuration/Symboles des champ de vision »."
+"trouve dans le menu « Configuration -> Symboles des champ de vision »."
 
 #. i18n: ectx: label, entry (FadePlanetTrails), group (View)
 #: kstars.kcfg:381
@@ -29266,7 +29256,7 @@ msgid ""
 "If true, trails attached to solar system bodies will fade into the "
 "background sky color."
 msgstr ""
-"Si cette option est cochée, les traces attachées à des corps du Système "
+"Si cette option est cochée, les traces attachées à des corps du système "
 "solaire se fondront dans la couleur d'arrière-plan du ciel."
 
 #. i18n: ectx: label, entry (FocusRA), group (View)
@@ -29307,7 +29297,7 @@ msgstr ""
 #: kstars.kcfg:396
 #, kde-format
 msgid "Name of focused object"
-msgstr "Nom de l'objet focalisé"
+msgstr "Nom de l'objet ciblé"
 
 #. i18n: ectx: whatsthis, entry (FocusObject), group (View)
 #: kstars.kcfg:397
@@ -29397,7 +29387,7 @@ msgstr "Culture céleste"
 #: kstars.kcfg:422
 #, kde-format
 msgid "Choose sky culture."
-msgstr "Choisissez une culture céleste."
+msgstr "Choisir une culture céleste."
 
 #. i18n: ectx: label, entry (HideCNames), group (View)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HideCNames)
@@ -29466,7 +29456,7 @@ msgstr ""
 #: kstars.kcfg:446
 #, kde-format
 msgid "Hide solar system objects while moving?"
-msgstr "Cacher les objets du Système solaire pendant le déplacement ?"
+msgstr "Cacher les objets du système solaire pendant le déplacement ?"
 
 #. i18n: ectx: whatsthis, entry (HidePlanets), group (View)
 #: kstars.kcfg:447
@@ -29475,7 +29465,7 @@ msgid ""
 "Toggle whether solar system objects are hidden while the display is in "
 "motion."
 msgstr ""
-"Décide si les objets du Système solaire doivent ou non être cachés lorsque "
+"Décide si les objets du système solaire doivent ou non être cachés lorsque "
 "l'affichage est en mouvement."
 
 #. i18n: ectx: label, entry (HideStars), group (View)
@@ -29568,7 +29558,7 @@ msgstr "Dessiner les chevelures de comètes sur la carte du ciel ?"
 #, kde-format
 msgid "Toggle whether comet comas are drawn in the sky map."
 msgstr ""
-"Indique si les comètes doivent être dessinées ou non sur la carte du ciel."
+"Indique si les chevelures de comètes doivent être dessinées ou non sur la carte du ciel."
 
 #. i18n: ectx: label, entry (ShowCometNames), group (View)
 #: kstars.kcfg:485
@@ -29588,7 +29578,7 @@ msgstr ""
 #: kstars.kcfg:490
 #, kde-format
 msgid "Draw supernovae in the sky map?"
-msgstr "Dessiner des supernovae sur la carte du ciel ?"
+msgstr "Dessiner les supernovae sur la carte du ciel ?"
 
 #. i18n: ectx: whatsthis, entry (ShowSupernovae), group (View)
 #: kstars.kcfg:491
@@ -29682,7 +29672,7 @@ msgid ""
 "Toggle whether constellation boundary containing the central focus point is "
 "highlighted in the sky map."
 msgstr ""
-"Décide si la limite de la constellation contenant le point central de focus "
+"Décide si la limite de la constellation contenant le point central de la mise au point "
 "doit ou non être mise en surbrillance sur la carte du ciel."
 
 #. i18n: ectx: label, entry (ShowCLines), group (View)
@@ -29731,7 +29721,7 @@ msgstr ""
 #: kstars.kcfg:540
 #, kde-format
 msgid "Draw \"deep sky\" objects in the sky map?"
-msgstr "Dessiner les objets du « ciel profond » sur la carte du ciel ?"
+msgstr "Dessiner les objets du ciel profond sur la carte du ciel ?"
 
 #. i18n: ectx: whatsthis, entry (ShowDeepSky), group (View)
 #: kstars.kcfg:541
@@ -30274,7 +30264,7 @@ msgstr ""
 #: kstars.kcfg:735 tools/scriptbuilder.cpp:666
 #, kde-format
 msgid "Automatically add trail to centered solar system body?"
-msgstr "Ajouter automatiquement une trace au corps du Système solaire centré ?"
+msgstr "Ajouter automatiquement une trace au corps du système solaire centré ?"
 
 #. i18n: ectx: whatsthis, entry (UseAutoTrail), group (View)
 #: kstars.kcfg:736
@@ -30283,7 +30273,7 @@ msgid ""
 "Toggle whether a centered solar system object automatically gets a trail "
 "attached, as long as it remains centered."
 msgstr ""
-"Indique si la trace d'un objet du Système solaire centré doit ou non obtenir "
+"Indique si la trace d'un objet du système solaire centré doit ou non obtenir "
 "automatiquement une trace attachée, tant qu'il reste centré."
 
 #. i18n: ectx: label, entry (UseHoverLabel), group (View)
@@ -30545,7 +30535,7 @@ msgstr ""
 #, kde-format
 msgid "Relative density for star name labels and/or magnitudes"
 msgstr ""
-"Densité relative des étiquettes de noms et / ou des magnitudes des étoiles"
+"Densité relative des étiquettes de noms et/ou des magnitudes des étoiles"
 
 #. i18n: ectx: whatsthis, entry (StarLabelDensity), group (View)
 #: kstars.kcfg:832
@@ -30595,7 +30585,7 @@ msgstr ""
 #, kde-format
 msgid "Maximum distance from Sun for labeling comets, in AU"
 msgstr ""
-"Distance maximale à partir du Soleil pour l'étiquetage des comètes, en AU"
+"Distance maximale à partir du Soleil pour l'étiquetage des comètes, en UA"
 
 #. i18n: ectx: whatsthis, entry (MaxRadCometName), group (View)
 #: kstars.kcfg:847
@@ -31880,7 +31870,7 @@ msgstr ""
 #: kstars.kcfg:1331
 #, kde-format
 msgid "Enable Verbose Logging"
-msgstr "Activer la connexion avec traces"
+msgstr "Activer les traces verbeuses"
 
 #. i18n: ectx: whatsthis, entry (VerboseLogging), group (General)
 #: kstars.kcfg:1332
@@ -31897,7 +31887,7 @@ msgstr ""
 #: kstars.kcfg:1336
 #, kde-format
 msgid "Enable Regular Logging"
-msgstr "Activer la connexion périodique"
+msgstr "Activer les traces classiques"
 
 #. i18n: ectx: whatsthis, entry (RegularLogging), group (General)
 #: kstars.kcfg:1337
@@ -31912,7 +31902,7 @@ msgstr ""
 #: kstars.kcfg:1341
 #, kde-format
 msgid "Disable Verbose Logging"
-msgstr "Activer la connexion avec traces"
+msgstr "Désactiver les traces verbeuses"
 
 #. i18n: ectx: whatsthis, entry (DisableLogging), group (General)
 #: kstars.kcfg:1342
@@ -32035,8 +32025,8 @@ msgid ""
 "Display all captured FITS images in a single FITS Viewer window. By default "
 "each camera create its own FITS Viewer instance"
 msgstr ""
-"Affichez toutes les images FITS acquises dans une seule fenêtre de "
-"l'afficheur FITS. Par défaut, chaque caméra créé son propre instance "
+"Afficher toutes les images FITS acquises dans une seule fenêtre de "
+"l'afficheur FITS. Par défaut, chaque caméra créé sa propre instance "
 "d'afficheur FITS."
 
 #. i18n: ectx: label, entry (singleWindowOpenedFITS), group (FITSViewer)
@@ -32067,7 +32057,7 @@ msgstr ""
 #, kde-format
 msgid "Make FITS Viewer window independent of KStars main window"
 msgstr ""
-"Rend la fenêtre de l'afficheur FITS indépendante de la fenêtre principale "
+"Rendre la fenêtre de l'afficheur FITS indépendante de la fenêtre principale "
 "KStars."
 
 #. i18n: ectx: label, entry (AutoDebayer), group (FITSViewer)
@@ -32119,7 +32109,7 @@ msgid ""
 msgstr ""
 "Conserver les ressources de processeurs et de mémoire, en désactivant toutes "
 "les fonctionnalités consommant beaucoup de ressources dans l'afficheur "
-"« FITS »."
+"FITS."
 
 #. i18n: ectx: label, entry (NonLinearHistogram), group (FITSViewer)
 #: kstars.kcfg:1445
@@ -32165,13 +32155,13 @@ msgstr "Index du télescope sélectionné issu de la liste des télescopes"
 #: kstars.kcfg:1473
 #, kde-format
 msgid "Ekos window width"
-msgstr "Largeur de la fenêtre « Ekos »"
+msgstr "Largeur de la fenêtre Ekos"
 
 #. i18n: ectx: label, entry (EkosWindowHeight), group (Ekos)
 #: kstars.kcfg:1477
 #, kde-format
 msgid "Ekos window height"
-msgstr "Hauteur de la fenêtre « Ekos »"
+msgstr "Hauteur de la fenêtre Ekos"
 
 #. i18n: ectx: label, entry (EkosLeftIcons), group (Ekos)
 #: kstars.kcfg:1485
@@ -32183,19 +32173,19 @@ msgstr "Les icônes des modules « Ekos » sont placées sur la gauche des pag
 #: kstars.kcfg:1489
 #, kde-format
 msgid "Remember Ekos Live credentials."
-msgstr "Se souvenir les identifiants de la version en ligne de « Ekos »"
+msgstr "Se souvenir des identifiants de la version en ligne d'Ekos"
 
 #. i18n: ectx: label, entry (AutoStartEkosLive), group (Ekos)
 #: kstars.kcfg:1493
 #, kde-format
 msgid "Start Ekos Live on KStars startup."
-msgstr "Lancer la version en ligne « Ekos » au démarrage de KStars."
+msgstr "Lancer la version en ligne d'Ekos au démarrage de KStars."
 
 #. i18n: ectx: label, entry (EkosLiveOnline), group (Ekos)
 #: kstars.kcfg:1497
 #, kde-format
 msgid "Whether EkosLive connection mode is online."
-msgstr "Soit le mode de connexion « EkosLive » est en ligne."
+msgstr "Si le mode de connexion « EkosLive » est en ligne."
 
 #. i18n: ectx: label, entry (EkosLiveUsername), group (Ekos)
 #: kstars.kcfg:1501
@@ -32207,13 +32197,13 @@ msgstr "Nom d'utilisateur « EkosLive »"
 #: kstars.kcfg:1504
 #, kde-format
 msgid "Make Ekos window independent of KStars main window"
-msgstr "Rend la fenêtre « Ekos » indépendante de la fenêtre principale KStars."
+msgstr "Rend la fenêtre Ekos indépendante de la fenêtre principale KStars."
 
 #. i18n: ectx: label, entry (profile), group (Ekos)
 #: kstars.kcfg:1508
 #, kde-format
 msgid "Ekos drivers profile"
-msgstr "Profils de pilotes « Ekos »"
+msgstr "Profils de pilotes Ekos"
 
 #. i18n: ectx: label, entry (neverLoadConfig), group (Ekos)
 #: kstars.kcfg:1512
@@ -32252,14 +32242,14 @@ msgstr ""
 #, kde-format
 msgid "List of CCDs with mechanical or electronic shutters."
 msgstr ""
-"Liste des capteurs « CCD » avec des obturateurs mécaniques ou électroniques."
+"Liste des capteurs CCD avec des obturateurs mécaniques ou électroniques."
 
 #. i18n: ectx: label, entry (shutterlessCCDs), group (DarkLibrary)
 #: kstars.kcfg:1537
 #, kde-format
 msgid "List of CCDs without mechanical or electronic shutters."
 msgstr ""
-"Liste des capteurs « CCD » avec des obturateurs mécaniques ou électroniques."
+"Liste des capteurs CCD avec des obturateurs mécaniques ou électroniques."
 
 #. i18n: ectx: label, entry (darkCameras), group (DarkLibrary)
 #: kstars.kcfg:1540
@@ -32284,7 +32274,7 @@ msgid ""
 "Use the graphical version for capture/sequence/total counting using round "
 "progress bars."
 msgstr ""
-"Utilisez la version graphique pour la capture / la séquence / le comptage / "
+"Utiliser la version graphique pour l'acquisition, la séquence, le comptage et "
 "le total en utilisant des barres de progression rondes."
 
 #. i18n: ectx: label, entry (MinimumAltLimit), group (Mount)
@@ -32320,7 +32310,7 @@ msgstr "Activer les limites d'altitude pour la monture."
 #, kde-format
 msgid "Warn user before command mount to go to a target below horizon."
 msgstr ""
-"Avertir l'utilisateur avant de cpointer la monture vers une cible sous "
+"Avertir l'utilisateur avant de pointer la monture vers une cible sous "
 "l'horizon."
 
 #. i18n: ectx: label, entry (MeridianFlipOffset), group (Mount)
@@ -32338,7 +32328,7 @@ msgid ""
 msgstr ""
 "Si l’angle horaire de la cible dépasse cette valeur, Ekos commandera un "
 "retournement de méridien. Si cela réussit, alors, Ekos reprendra les "
-"opérations de guidage et de capture."
+"opérations de guidage et d'acquisition."
 
 #. i18n: ectx: label, entry (MaximumHaLimit), group (Mount)
 #: kstars.kcfg:1576
@@ -32361,7 +32351,7 @@ msgstr ""
 #: kstars.kcfg:1581
 #, kde-format
 msgid "Enable mount hour angle limit."
-msgstr "Activer limite de l'angle horaire de la monture."
+msgstr "Activer la limite de l'angle horaire de la monture."
 
 #. i18n: ectx: label, entry (ExecuteMeridianFlip), group (Mount)
 #: kstars.kcfg:1585
@@ -32497,7 +32487,7 @@ msgstr ""
 msgid ""
 "Automatically apply dark subtraction if a suitable dark frame is available."
 msgstr ""
-"Appliquez automatiquement la soustraction de l'obscurité si une image sombre "
+"Appliquer automatiquement la soustraction de l'obscurité si une image sombre "
 "appropriée est disponible."
 
 #. i18n: ectx: label, entry (EnforceGuideDeviation), group (Capture)
@@ -32529,7 +32519,7 @@ msgstr "Imposer une nouvelle mise au point toutes les N minutes."
 #: kstars.kcfg:1667
 #, kde-format
 msgid "Number of minute between forced refocus attempts"
-msgstr "Nombre de minutes entre les tentatives de refocalisation forcée."
+msgstr "Nombre de minutes entre les nouvelles tentatives de mise au point forcée."
 
 #. i18n: ectx: whatsthis, entry (RefocusEveryN), group (Capture)
 #: kstars.kcfg:1668
@@ -32539,7 +32529,7 @@ msgid ""
 "sequence."
 msgstr ""
 "Définit l'intervalle de temps avant les tentatives de mise au point "
-"automatique forcées durant une séquence d'acquisitions."
+"automatique forcées durant une séquence d'acquisition."
 
 #. i18n: ectx: label, entry (ResetMountModelAfterMeridian), group (Capture)
 #: kstars.kcfg:1672
@@ -32561,7 +32551,7 @@ msgid ""
 "exposure time to achieve the desired ADU value."
 msgstr ""
 "Si cette option est choisie, Ekos acquerra quelques images planes afin de "
-"déterminer le temps optimal d’exposition  pour atteindre la valeur ADU "
+"déterminer le temps optimal d’exposition pour atteindre la valeur ADU "
 "souhaitée."
 
 #. i18n: ectx: label, entry (CalibrationADUValueTolerance), group (Capture)
@@ -32577,7 +32567,7 @@ msgid ""
 "Maximum difference between measured and target ADU values to deem the value "
 "as acceptable."
 msgstr ""
-"Différence maximale entre les valeurs ADU mesurées et objectives pour "
+"Différence maximale entre les valeurs ADU mesurées et objectives pour "
 "statuer que la valeur est acceptable."
 
 #. i18n: ectx: label, entry (CalibrationFlatSourceIndex), group (Capture)
@@ -32677,7 +32667,7 @@ msgstr ""
 msgid ""
 "Calculate median focus value after each autofocus operation is complete."
 msgstr ""
-"Le calcul de la valeur médiane de focus après chaque opération de mise au "
+"Le calcul de la valeur médiane de la mise au point après chaque opération de mise au "
 "point automatique est terminé."
 
 #. i18n: ectx: label, entry (SaveHFRToFile), group (Capture)
@@ -32688,7 +32678,7 @@ msgid ""
 "zero value is used."
 msgstr ""
 "Lors de l'enregistrement d'un fichier de séquence, enregistrer la valeur "
-"courante du seuil HFR. Par défaut, la valeur de zéro est utilisé."
+"courante du seuil HFR. Par défaut, la valeur de zéro est utilisée."
 
 #. i18n: ectx: label, entry (AutoStretch), group (Capture)
 #: kstars.kcfg:1746
@@ -32875,7 +32865,7 @@ msgstr ""
 #: kstars.kcfg:1842
 #, kde-format
 msgid "Initial Focus Out Steps"
-msgstr "Étapes initiales d'une mise au point vers l'extérieure"
+msgstr "Étapes initiales d'une mise au point vers l'extérieur"
 
 #. i18n: ectx: whatsthis, entry (InitialFocusOutSteps), group (Focus)
 #: kstars.kcfg:1843
@@ -32901,7 +32891,7 @@ msgstr "Valeur de gain par défaut pour la mise au point"
 msgid ""
 "Specifies gain value of CCD when performing focusing if supported by camera."
 msgstr ""
-"Spécifie la valeur du gain pour le capteur « CCD » lors de la réalisation "
+"Spécifie la valeur du gain pour le capteur CCD lors de la réalisation "
 "d'une mise au point, si pris en charge par la caméra. "
 
 #. i18n: ectx: label, entry (FocusBoxSize), group (Focus)
@@ -32914,30 +32904,30 @@ msgstr "Taille par défaut de la boîte de sélection d'étoile à cibler"
 #: kstars.kcfg:1853
 #, kde-format
 msgid "Set box size to select a focus star."
-msgstr "Définissez la taille de la boîte pour choisir une étoile à focaliser."
+msgstr "Définir la taille de la boîte pour choisir une étoile pour la mise au point."
 
 #. i18n: ectx: label, entry (FocusXBin), group (Focus)
 #: kstars.kcfg:1857
 #, kde-format
 msgid "Default CCD X binning in focus mode"
 msgstr ""
-"Taille en x du groupement de pixels du CCD par défaut en mode « mise au "
-"point »"
+"Taille en x du groupement de pixels du CCD par défaut en mode mise au "
+"point"
 
 #. i18n: ectx: whatsthis, entry (FocusXBin), group (Focus)
 #: kstars.kcfg:1858
 #, kde-format
 msgid "Set horizontal binning of CCD camera while in focus mode."
 msgstr ""
-"Positionnez le binning horizontal de la caméra CCD en mode mise au point."
+"Positionner le binning horizontal de la caméra CCD en mode mise au point."
 
 #. i18n: ectx: label, entry (FocusYBin), group (Focus)
 #: kstars.kcfg:1862
 #, kde-format
 msgid "Default CCD Y binning in focus mode"
 msgstr ""
-"Taille en y du groupement de pixels du CCD par défaut en mode « mise au "
-"point »"
+"Taille en y du groupement de pixels du CCD par défaut en mode mise au "
+"point"
 
 #. i18n: ectx: whatsthis, entry (FocusYBin), group (Focus)
 #: kstars.kcfg:1863
@@ -32963,9 +32953,9 @@ msgid ""
 "defaults to the Centroid detection, but can use SEP detection too. Its "
 "performance decreases as the number of stars increases."
 msgstr ""
-"Mesurer la valeur moyenne du « HFR » de toutes les étoiles combinées dans "
+"Mesurer la valeur moyenne du HFR de toutes les étoiles combinées dans "
 "une trame complète. Cette méthode utilise par défaut la détection centroïde, "
-"mais peut aussi utiliser la détection « SEP ». Sa performance diminue à "
+"mais peut aussi utiliser la détection SEP. Sa performance diminue à "
 "mesure que le nombre d’étoiles augmente."
 
 #. i18n: ectx: label, entry (FocusFullFieldInnerRadius), group (Focus)
@@ -32984,7 +32974,7 @@ msgid ""
 msgstr ""
 "Pendant la mise au point de plein champ, les étoiles se trouvant à "
 "l'intérieur de ce pourcentage de la trame sont filtrées hors du calcul "
-"« HFR » (0 % par défaut). Les algorithmes de détection peuvent également "
+"HFR (0 % par défaut). Les algorithmes de détection peuvent également "
 "avoir un filtre inhérent."
 
 #. i18n: ectx: label, entry (FocusFullFieldOuterRadius), group (Focus)
@@ -33002,7 +32992,7 @@ msgid ""
 "algorithms may also have an inherent filter."
 msgstr ""
 "Lors de la mise au point en plein champ, les étoiles étant en dehors de ce "
-"pourcentage de la trame sont filtrées en dehors du calcul « HFR » (100 % par "
+"pourcentage de la trame sont filtrées en dehors du calcul HFR (100 % par "
 "défaut). Les algorithmes de détection peuvent également avoir un filtre "
 "inhérent."
 
@@ -33010,7 +33000,7 @@ msgstr ""
 #: kstars.kcfg:1885
 #, kde-format
 msgid "Automatically select a star to focus."
-msgstr "Sélectionne automatiquement l'étoile à cibler"
+msgstr "Sélectionner automatiquement l'étoile pour la mise au point"
 
 #. i18n: ectx: label, entry (SuspendGuiding), group (Focus)
 #: kstars.kcfg:1889
@@ -33076,7 +33066,7 @@ msgstr ""
 #, kde-format
 msgid "Default focus exposure time when no filters are used."
 msgstr ""
-"Temps d'exposition par défaut pour la mise au point lorsque aucun filtre "
+"Temps d'exposition par défaut pour la mise au point lorsqu'aucun filtre "
 "n'est utilisé."
 
 #. i18n: ectx: label, entry (FocusGaussianSigma), group (Focus)
@@ -33108,40 +33098,40 @@ msgstr "Sextractor interne ou externe pour la mise au point."
 #, kde-format
 msgid "Options Profile for Sextraction when Focusing."
 msgstr ""
-"Options du profil pour le programme d'extraction d'étoiles « SExtractor » "
+"Options du profil pour le programme d'extraction d'étoiles Sextractor "
 "lors de la mise au point."
 
 #. i18n: ectx: label, entry (HFRSextractorType), group (StellarSolver)
 #: kstars.kcfg:1947
 #, kde-format
 msgid "Internal or External Sextractor to compute subs HFR."
-msgstr "« Sextractor » interne ou externe pour le calcul des sous « HFR »."
+msgstr "Sextractor interne ou externe pour le calcul des sous HFR."
 
 #. i18n: ectx: label, entry (HFROptionsProfile), group (StellarSolver)
 #: kstars.kcfg:1951
 #, kde-format
 msgid "Options Profile for Sextraction to compute subs HFR"
 msgstr ""
-"Options du profil pour le programme « SExtractor » pour le calcul des « sous-"
-"HFR »."
+"Options du profil pour le programme Sextractor pour le calcul des sous-"
+"HFR."
 
 #. i18n: ectx: label, entry (GuideSextractorType), group (StellarSolver)
 #: kstars.kcfg:1955
 #, kde-format
 msgid "Internal or External Sextractor for Guiding."
-msgstr "« Sextractor » interne ou externe pour le guidage."
+msgstr "Sextractor interne ou externe pour le guidage."
 
 #. i18n: ectx: label, entry (GuideOptionsProfile), group (StellarSolver)
 #: kstars.kcfg:1959
 #, kde-format
 msgid "Options Profile for Sextraction when Guiding."
-msgstr "Options du profil pour le programme « SExtractor » lors du guidage."
+msgstr "Options du profil pour le programme Sextractor lors du guidage."
 
 #. i18n: ectx: label, entry (SolveSextractorType), group (StellarSolver)
 #: kstars.kcfg:1963
 #, kde-format
 msgid "Internal, External, or BuiltIn Sextractor for Solving."
-msgstr "Interne, externe ou « Sextractor » intégré pour la résolution."
+msgstr "Interne, externe ou Sextractor intégré pour la résolution."
 
 #. i18n: ectx: label, entry (SolverMode), group (StellarSolver)
 #: kstars.kcfg:1967
@@ -33157,7 +33147,7 @@ msgid ""
 "Local ASTAP. 3 for Online Astrometry."
 msgstr ""
 "Méthode de résolution locale. 0 pour le résolveur interne. 1 pour "
-"l'astrométrie locale. 2 pour « ASTAP » local. 3 pour l'astrométrie en ligne."
+"l'astrométrie locale. 2 pour ASTAP local. 3 pour l'astrométrie en ligne."
 
 #. i18n: ectx: label, entry (SolveOptionsProfile), group (StellarSolver)
 #: kstars.kcfg:1975
@@ -33196,14 +33186,14 @@ msgstr "Liste des emplacements pour les dossiers d'index."
 #, kde-format
 msgid "List of folders in which astrometry Index Files can be found."
 msgstr ""
-"Liste des dossiers où mes fichiers d'index d'astrométrie peuvent être "
+"Liste des dossiers où les fichiers d'index d'astrométrie peuvent être "
 "trouvés."
 
 #. i18n: ectx: label, entry (DefaultAlignCCD), group (Align)
 #: kstars.kcfg:1998
 #, kde-format
 msgid "Default align module CCD."
-msgstr "Module « CCD » d'alignement par défaut."
+msgstr "Module CCD d'alignement par défaut."
 
 #. i18n: ectx: label, entry (DefaultAlignFilterWheel), group (Align)
 #: kstars.kcfg:2001
@@ -33223,14 +33213,14 @@ msgstr "Valeur d'exposition d'alignement par défaut"
 msgid ""
 "Specifies exposure value of CCD in seconds when performing plate solving."
 msgstr ""
-"Spécifie le temps de pose de la caméra DTC en secondes quand on fait de la "
-"calibration astrométrique. "
+"Spécifie le temps de pose de la caméra CCD en secondes quand on fait de la "
+"calibration astrométrique."
 
 #. i18n: ectx: label, entry (SolverBinningIndex), group (Align)
 #: kstars.kcfg:2009
 #, kde-format
 msgid "Default CCD binning index while in alignment mode"
-msgstr "L'indice de catégorisation « CCD » par défaut en mode alignement"
+msgstr "L'indice de groupement de pixels CCD par défaut en mode alignement"
 
 #. i18n: ectx: whatsthis, entry (SolverBinningIndex), group (Align)
 #: kstars.kcfg:2010
@@ -33239,9 +33229,9 @@ msgid ""
 "Set binning index of CCD camera while in alignment mode. Default values 0-3 "
 "corresponding to 1x1 to 4x4 binning. 4 is max binning."
 msgstr ""
-"Définir l’indice de catégorisation de la caméra « CCD » en mode "
-"d’alignement. Les valeurs par défaut 0 - 3  correspondent à une "
-"catégorisation de 1 x 1 à 4 x 4. La catégorisation maximale est de 4."
+"Définir l’indice de groupement de pixels de la caméra CCD en mode "
+"d’alignement. Les valeurs par défaut 0 - 3  correspondent à un "
+"groupement de 1 x 1 à 4 x 4. Le groupement maximal est de 4."
 
 #. i18n: ectx: label, entry (SolverCameraGain), group (Align)
 #: kstars.kcfg:2014
@@ -33270,7 +33260,7 @@ msgid ""
 "consider the load and slew operation successful."
 msgstr ""
 "Seuil entre les angles de position mesurés et FITS en minutes d’arc pour "
-"considérer comme réussie le chargement et l’opération de déplacement."
+"considérer comme réussis le chargement et l’opération de déplacement."
 
 #. i18n: ectx: label, entry (SolverScopeType), group (Align)
 #: kstars.kcfg:2028
@@ -33298,8 +33288,8 @@ msgid ""
 "captured CCD images."
 msgstr ""
 "Système de coordonnées mondiales (World Coordinate System, WCS). Ce système "
-"est utilisé pour l'encodage des coordonnées RA / DEC dans les images CCD "
-"capturées."
+"est utilisé pour l'encodage des coordonnées AD/DEC dans les images CCD "
+"acquises."
 
 #. i18n: ectx: label, entry (AstrometrySolverOverlay), group (Align)
 #: kstars.kcfg:2040
@@ -33343,7 +33333,7 @@ msgstr ""
 #, kde-format
 msgid "Take a dark frame and subtract it before running astrometry operation."
 msgstr ""
-"Prendre un trame sombre et la soustraire avant l'exécution de l'opération "
+"Prendre un dark et ea soustraire avant l'exécution de l'opération "
 "d'astrométrie."
 
 #. i18n: ectx: label, entry (SettlingTime), group (Align)
@@ -33353,7 +33343,7 @@ msgid ""
 "Time to wait in milliseconds after telescope slewing is complete before "
 "starting the next capture."
 msgstr ""
-"Temps d'attente en millisecondes une fois que la rotation du télescope soit "
+"Temps d'attente en millisecondes une fois que la rotation du télescope est "
 "terminée, avant le démarrage de la prochaine acquisition."
 
 #. i18n: ectx: label, entry (AstrometryUseNoFITS2FITS), group (Align)
@@ -33374,8 +33364,8 @@ msgid ""
 "Check this option if your image does not have much nebulosity. If it does "
 "have strong nebulosity, uncheck it."
 msgstr ""
-"Cochez cette option si votre image ne possède trop de nébulosité. Si vous "
-"avez beaucoup de nébulosité, décochez là."
+"Cochez cette option si l'image ne possède trop de nébulosité. S'il y a "
+"beaucoup de nébulosité, décochez là."
 
 #. i18n: ectx: label, entry (AstrometryUseNoVerify), group (Align)
 #: kstars.kcfg:2072
@@ -33385,7 +33375,7 @@ msgid ""
 "before blindly trying to solve the image. It is recommended to keep it "
 "checked."
 msgstr ""
-"Ceci empêchera le résolveur de chercher un en-tête WCS déjà existant, avant "
+"Cela empêchera le résolveur de chercher un en-tête WCS déjà existant, avant "
 "d'essayer de résoudre l'image par une recherche étendue. Il est recommandé "
 "de conserver cette option cochée."
 
@@ -33444,7 +33434,7 @@ msgstr "Sous-échantillonage automatique selon la taille de l'image."
 msgid ""
 "User supplied Right Ascension value in degrees to be passed to the solver."
 msgstr ""
-"Valeur pour l'ascension correcte, fournie par l'utilisateur, en degrés, à "
+"Valeur correcte pour l'ascension droite, fournie par l'utilisateur, en degrés, à "
 "fournir au résolveur."
 
 #. i18n: ectx: label, entry (AstrometryPositionDE), group (Align)
@@ -33480,7 +33470,7 @@ msgstr "Options additionnelles pour le programme astrometry.net"
 #: kstars.kcfg:2131
 #, kde-format
 msgid "astrometry.net solve-field binary"
-msgstr "Exécutable du résolveur de astrometry.net"
+msgstr "Exécutable du résolveur d'astrometry.net"
 
 #. i18n: ectx: whatsthis, entry (AstrometrySolverBinary), group (Align)
 #: kstars.kcfg:2132
@@ -33492,36 +33482,35 @@ msgstr "Chemin du fichier de résolution astrometry.net."
 #: kstars.kcfg:2136
 #, kde-format
 msgid "astrometry.net wcsinfo binary"
-msgstr "Exécutable wcsinfo de astrometry.net"
+msgstr "Exécutable wcsinfo d'astrometry.net"
 
 #. i18n: ectx: whatsthis, entry (AstrometryWCSInfo), group (Align)
 #: kstars.kcfg:2137
 #, kde-format
 msgid "Path to astrometry.net wcsinfo location."
-msgstr "Chemin du fichier des informations wcsinfo  astronomy.net."
+msgstr "Chemin du fichier des informations wcsinfo astronomy.net."
 
 #. i18n: ectx: label, entry (AstrometryConfFile), group (Align)
 #: kstars.kcfg:2141
 #, kde-format
 msgid "astrometry.net configuration file"
-msgstr "Fichier de configuration Astronomy.net"
+msgstr "Fichier de configuration d'astrometry.net"
 
 #. i18n: ectx: whatsthis, entry (AstrometryConfFile), group (Align)
 #: kstars.kcfg:2142
 #, kde-format
 msgid "Path to astrometry.net file location."
-msgstr "Chemin du fichier astrometry.net."
+msgstr "Chemin du fichier d'astrometry.net."
 
 #. i18n: ectx: whatsthis, entry (SextractorBinary), group (Align)
 #: kstars.kcfg:2147
 #, kde-format
 msgid "Path to the Sextractor executable."
-msgstr "Chemin vers l'exécutable SExtractor."
+msgstr "Chemin vers l'exécutable Sextractor."
 
 #. i18n: ectx: whatsthis, entry (WatneyBinary), group (Align)
 #: kstars.kcfg:2152
 #, kde-format
-#| msgid "Path to the Sextractor executable."
 msgid "Path to the Watney Solver executable."
 msgstr "Chemin vers l'exécutable du résolveur Watney."
 
@@ -33529,7 +33518,7 @@ msgstr "Chemin vers l'exécutable du résolveur Watney."
 #: kstars.kcfg:2157
 #, kde-format
 msgid "astrometry.net API Key"
-msgstr "Clé API pour Astrometry.net"
+msgstr "Clé API pour astrometry.net"
 
 #. i18n: ectx: whatsthis, entry (AstrometryAPIKey), group (Align)
 #: kstars.kcfg:2158
@@ -33538,14 +33527,14 @@ msgid ""
 "Key to access astrometry.net online web services. You must register with "
 "astrometry.net to obtain a key."
 msgstr ""
-"Clé pour accéder aux services Internet en ligne de astrometry.net. Vous "
+"Clé pour accéder aux services Internet en ligne d'astrometry.net. Vous "
 "devez créer un compte sur astrometry.net pour obtenir une clé."
 
 #. i18n: ectx: label, entry (AstrometryAPIURL), group (Align)
 #: kstars.kcfg:2162
 #, kde-format
 msgid "astrometry.net API URL"
-msgstr "URL de l'API pour Astrometry.net"
+msgstr "URL de l'API pour astrometry.net"
 
 #. i18n: ectx: label, entry (AstrometryUseJPEG), group (Align)
 #: kstars.kcfg:2166
@@ -33554,7 +33543,7 @@ msgid ""
 "Use JPEG format, instead of FITS, to upload images to the astrometry.net "
 "online service."
 msgstr ""
-"Utiliser le format JPEG, plutôt que FITS, pour envoyer des images vers le "
+"Utiliser le format JPEG plutôt que FITS, pour envoyer des images vers le "
 "service en ligne astrometry.net."
 
 #. i18n: ectx: label, entry (AstrometryTimeout), group (Align)
@@ -33570,7 +33559,7 @@ msgstr ""
 #, kde-format
 msgid "Speed index to set mount in Polar Alignment Assistant Tool."
 msgstr ""
-"Index de vitesse pour positionner la monture avec l''assistant d'alignement "
+"Index de vitesse pour positionner la monture avec l'assistant d'alignement "
 "polaire."
 
 #. i18n: ectx: label, entry (PAHAutoPark), group (Align)
@@ -33587,13 +33576,13 @@ msgstr ""
 #: kstars.kcfg:2188
 #, kde-format
 msgid "Default guide module CCD."
-msgstr "Module « CCD » de guidage par défaut"
+msgstr "Module CCD de guidage par défaut"
 
 #. i18n: ectx: label, entry (DefaultST4Driver), group (Guide)
 #: kstars.kcfg:2191
 #, kde-format
 msgid "Default guide module ST4 Driver."
-msgstr "Pilote par défaut pour le module de guidage ST4 »."
+msgstr "Pilote par défaut pour le module de guidage ST4."
 
 #. i18n: ectx: label, entry (GuideExposure), group (Guide)
 #: kstars.kcfg:2194
@@ -33618,7 +33607,7 @@ msgid ""
 "Which Algorithm to use track guide square (0 smart, 1 SEP, 2 fast, 3 "
 "threshold, 4 no threshold, 5 SEP multistar)."
 msgstr ""
-"Quel algorithme pour utiliser le carré de guidage de la piste (0 "
+"Algorithme pour utiliser le carré de guidage de la piste (0 "
 "intelligent, 1 SEP, 2 rapide, 3 à seuil, 4 sans seuil, 5 SEP multi-étoile)."
 
 #. i18n: ectx: label, entry (PHD2Host), group (Guide)
@@ -33651,7 +33640,7 @@ msgstr "Port de la surveillance des évènements « lin_guider »"
 msgid ""
 "Index of telescope type to be used when guiding. 0 for Primary, 1 for Guide"
 msgstr ""
-"Index du type de telescope à utiliser lors du guidage. 0 pour le primaire et "
+"Index du type de télescope à utiliser lors du guidage. 0 pour le primaire et "
 "1 pour le guide"
 
 #. i18n: ectx: label, entry (CalibrationPulseDuration), group (Guide)
@@ -33689,7 +33678,7 @@ msgid ""
 "Effect FITS filter index corresponding to the available image enhancing "
 "filters."
 msgstr ""
-"Index des filtres pour effets « FITS » correspondant aux filtres disponibles "
+"Index des filtres pour effets FITS correspondant aux filtres disponibles "
 "d'amélioration d'images."
 
 #. i18n: ectx: label, entry (GuideAutoStarEnabled), group (Guide)
@@ -33697,7 +33686,7 @@ msgstr ""
 #, kde-format
 msgid "Automatically select calibration star and perform calibration."
 msgstr ""
-"Sélectionne automatiquement l'étoile pour la calibration et lance la "
+"Sélectionner automatiquement l'étoile pour la calibration et lance la "
 "calibration."
 
 #. i18n: ectx: label, entry (AutoModeIterations), group (Guide)
@@ -33712,7 +33701,7 @@ msgstr ""
 #, kde-format
 msgid "When star tracking is lost, wait this many seconds before aborting."
 msgstr ""
-"Lors de la perte de suivi d'étoile, attendre ce temps de plusieurs secondes "
+"Lors de la perte de suivi d'étoile, attendre cette quantité de secondes "
 "avant annulation."
 
 #. i18n: ectx: label, entry (GuideCalibrationTimeout), group (Guide)
@@ -33720,20 +33709,20 @@ msgstr ""
 #, kde-format
 msgid "When calibration starts, wait this many seconds before aborting."
 msgstr ""
-"Lors du démarrage de la calibration, attendre plusieurs secondes avant "
+"Lors du démarrage de la calibration, attendre cette quantité de secondes avant "
 "annulation."
 
 #. i18n: ectx: label, entry (GuideMaxDeltaRMS), group (Guide)
 #: kstars.kcfg:2266
 #, kde-format
 msgid "Maximum delta RMS permitted while guiding before aborting."
-msgstr "Maximum de delta « RMS » autorisé lors du guidage avant annulation."
+msgstr "Maximum de delta RMS autorisé lors du guidage avant annulation."
 
 #. i18n: ectx: label, entry (GuideMaxHFR), group (Guide)
 #: kstars.kcfg:2270
 #, kde-format
 msgid "Maximum HFR permitted for SEP MultiStar guide star."
-msgstr "« HFR » maximal autorisé pour le guidage « SEP » multi-étoiles."
+msgstr "HFR maximal autorisé pour le guidage SEP multi-étoiles."
 
 #. i18n: ectx: label, entry (TwoAxisEnabled), group (Guide)
 #: kstars.kcfg:2278
@@ -33806,7 +33795,7 @@ msgstr ""
 #, kde-format
 msgid "If dithering fails then abort autoguide."
 msgstr ""
-"En cas d'échec de la diffusion d'erreurs, alors annulez le guidage "
+"En cas d'échec de la diffusion d'erreurs, alors annuler le guidage "
 "automatique."
 
 #. i18n: ectx: label, entry (DitherWithOnePulse), group (Guide)
@@ -33830,37 +33819,37 @@ msgstr ""
 #: kstars.kcfg:2330
 #, kde-format
 msgid "Use Auto Dithering when guiding."
-msgstr "Utilise une diffusion automatique d'erreurs lors du guidage."
+msgstr "Utiliser une diffusion automatique d'erreurs lors du guidage."
 
 #. i18n: ectx: label, entry (DitherNoGuiding), group (Guide)
 #: kstars.kcfg:2334
 #, kde-format
 msgid "Perform dithering even when not guiding."
-msgstr "Réalise une diffusion d'erreur même en dehors du guidage."
+msgstr "Réaliser une diffusion d'erreur même en dehors du guidage."
 
 #. i18n: ectx: label, entry (RAGuideEnabled), group (Guide)
 #: kstars.kcfg:2338
 #, kde-format
 msgid "Enable autoguiding in the RA axis."
-msgstr "Active le guidage automatique sur l'axe AD"
+msgstr "Activer le guidage automatique sur l'axe AD"
 
 #. i18n: ectx: label, entry (DECGuideEnabled), group (Guide)
 #: kstars.kcfg:2342
 #, kde-format
 msgid "Enable autoguiding in the DEC axis."
-msgstr "Active le guidage automatique sur l'axe DEC."
+msgstr "Activer le guidage automatique sur l'axe DEC."
 
 #. i18n: ectx: label, entry (NorthDECGuideEnabled), group (Guide)
 #: kstars.kcfg:2346
 #, kde-format
 msgid "Enable North autoguiding in the DEC axis."
-msgstr "Active le guidage automatique vers le nord sur l'axe DEC."
+msgstr "Activer le guidage automatique vers le nord sur l'axe DEC."
 
 #. i18n: ectx: label, entry (SouthDECGuideEnabled), group (Guide)
 #: kstars.kcfg:2350
 #, kde-format
 msgid "Enable South autoguiding in the DEC axis."
-msgstr "Active le guidage automatique vers le sud sur l'axe DEC."
+msgstr "Activer le guidage automatique vers le sud sur l'axe DEC."
 
 #. i18n: ectx: label, entry (EastRAGuideEnabled), group (Guide)
 #: kstars.kcfg:2354
@@ -34003,7 +33992,7 @@ msgstr ""
 #: kstars.kcfg:2509
 #, kde-format
 msgid "Remove DEC backlash when calibrating guider."
-msgstr "Supprimez le jeu DEC lors de la calibration du guidage."
+msgstr "Supprimer le jeu DEC lors de la calibration du guidage."
 
 #. i18n: ectx: label, entry (SerializedCalibration), group (Scheduler)
 #: kstars.kcfg:2513
@@ -34018,8 +34007,8 @@ msgid ""
 "If guiding calibration fails, run alignment process again before proceeding "
 "to recalibration."
 msgstr ""
-"En cas d'échec de la calibration de guidage, relancez le processus "
-"d'alignement, avant de réaliser une recalibration."
+"En cas d'échec de la calibration de guidage, relancer le processus "
+"d'alignement, avant de réaliser une nouvelle calibration."
 
 #. i18n: ectx: label, entry (PreemptiveShutdownTime), group (Scheduler)
 #: kstars.kcfg:2520
@@ -34045,7 +34034,7 @@ msgstr ""
 #: kstars.kcfg:2528
 #, kde-format
 msgid "Minimum time between jobs in minutes."
-msgstr "Durée minimum entre deux tâches exprimée en minutes."
+msgstr "Durée minimale entre deux tâches exprimée en minutes."
 
 #. i18n: ectx: label, entry (PreDawnTime), group (Scheduler)
 #: kstars.kcfg:2532
@@ -34075,7 +34064,7 @@ msgid ""
 "Offset astronomical dawn by this many hours to relax twilight restriction "
 "when using narrowband filters."
 msgstr ""
-"Décaler l'aube astronomique par ceci, quelques heures pour relâcher la "
+"Décaler l'aube astronomique de ce nombre d'heures pour relâcher la "
 "restriction de la pénombre lors de l'utilisation de filtres à bande étroite."
 
 #. i18n: ectx: label, entry (DuskOffset), group (Scheduler)
@@ -34122,7 +34111,7 @@ msgstr "Hauteur de la caméra en pixels."
 #: kstars.kcfg:2568
 #, kde-format
 msgid "Position angle of the camera with respect to north."
-msgstr "Angle de position de la caméra selon le Nord."
+msgstr "Angle de position de la caméra selon le nord."
 
 #. i18n: ectx: label, entry (ErrorHandlingStrategy), group (Scheduler)
 #: kstars.kcfg:2572
@@ -34150,7 +34139,7 @@ msgstr "Replanifier des tâches ayant rencontré des erreurs."
 #: kstars.kcfg:2594
 #, kde-format
 msgid "Display HFR on the Analyze Statistics Plot."
-msgstr "Afficher HFR sur le tracé de statistiques de l'onglet « Analyse »."
+msgstr "Afficher HFR sur le tracé de statistiques de l'onglet Analyse."
 
 #. i18n: ectx: whatsthis, entry (AnalyzeNumCaptureStars), group (Analyze)
 #: kstars.kcfg:2598
@@ -34160,7 +34149,7 @@ msgid ""
 "Plot."
 msgstr ""
 "Afficher le nombre d'étoiles détectées dans l'image sur le tracé des "
-"statistiques de l'onglet « Analyse »."
+"statistiques de l'onglet Analyse."
 
 #. i18n: ectx: whatsthis, entry (AnalyzeMedian), group (Analyze)
 #: kstars.kcfg:2602
@@ -34169,7 +34158,7 @@ msgid ""
 "Display median sample value for the capture on the Analyze Statistics Plot."
 msgstr ""
 "Afficher la valeur médiane de l'échantillon pour l'image sur le tracé des "
-"statistiques de l'onglet « Analyse »."
+"statistiques de l'onglet Analyse."
 
 #. i18n: ectx: whatsthis, entry (AnalyzeEccentricity), group (Analyze)
 #: kstars.kcfg:2606
@@ -34179,7 +34168,7 @@ msgid ""
 "Statistics Plot."
 msgstr ""
 "Afficher l'excentricité médiane pour les étoiles de l'image dans le tracé "
-"des statistiques de l'onglet « Analyse »."
+"des statistiques de l'onglet Analyse."
 
 #. i18n: ectx: whatsthis, entry (AnalyzeTemperature), group (Analyze)
 #: kstars.kcfg:2610
@@ -34187,7 +34176,7 @@ msgstr ""
 msgid "Display the ambient temperature on the Analyze Statistics Plot."
 msgstr ""
 "Afficher la température ambiante sur le tracé de statistiques de l'onglet "
-"« Analyse »."
+"Analyse."
 
 #. i18n: ectx: whatsthis, entry (AnalyzeNumStars), group (Analyze)
 #: kstars.kcfg:2614
@@ -34195,7 +34184,7 @@ msgstr ""
 msgid "Display NumStars on the Analyze Statistics Plot."
 msgstr ""
 "Afficher le nombre d'étoiles sur le tracé de statistiques de l'onglet "
-"« Analyse »."
+"Analyse."
 
 #. i18n: ectx: whatsthis, entry (AnalyzeSkyBg), group (Analyze)
 #: kstars.kcfg:2618
@@ -34203,33 +34192,33 @@ msgstr ""
 msgid "Display SkyBackground on the Analyze Statistics Plot."
 msgstr ""
 "Afficher le fond du ciel sur le tracé de statistiques de l'onglet "
-"« Analyse »."
+"Analyse."
 
 #. i18n: ectx: whatsthis, entry (AnalyzeSNR), group (Analyze)
 #: kstars.kcfg:2622
 #, kde-format
 msgid "Display SNR on the Analyze Statistics Plot."
-msgstr "Afficher SNR sur le tracé de statistiques de l'onglet « Analyse »."
+msgstr "Afficher SNR sur le tracé de statistiques de l'onglet Analyse."
 
 #. i18n: ectx: whatsthis, entry (AnalyzeRA), group (Analyze)
 #: kstars.kcfg:2626
 #, kde-format
 msgid "Display RA on the Analyze Statistics Plot."
-msgstr "Afficher AD sur le tracé de statistiques de l'onglet « Analyse »."
+msgstr "Afficher AD sur le tracé de statistiques de l'onglet Analyse."
 
 #. i18n: ectx: whatsthis, entry (AnalyzeDEC), group (Analyze)
 #: kstars.kcfg:2630
 #, kde-format
 msgid "Display DEC on the Analyze Statistics Plot."
-msgstr "Afficher DEC sur le tracé de statistiques de l'onglet « Analyse »."
+msgstr "Afficher DEC sur le tracé de statistiques de l'onglet Analyse."
 
 #. i18n: ectx: whatsthis, entry (AnalyzeRAp), group (Analyze)
 #: kstars.kcfg:2634
 #, kde-format
 msgid "Display RA Pulses on the Analyze Statistics Plot."
 msgstr ""
-"Afficher les impulsions en RA sur le tracé de statistiques de l'onglet "
-"« Analyse »."
+"Afficher les impulsions en AD sur le tracé de statistiques de l'onglet "
+"Analyse."
 
 #. i18n: ectx: whatsthis, entry (AnalyzeDECp), group (Analyze)
 #: kstars.kcfg:2638
@@ -34237,21 +34226,21 @@ msgstr ""
 msgid "Display DEC Pulses on the Analyze Statistics Plot."
 msgstr ""
 "Afficher les impulsions en DEC sur le tracé de statistiques de l'onglet "
-"« Analyse »."
+"Analyse."
 
 #. i18n: ectx: whatsthis, entry (AnalyzeDrift), group (Analyze)
 #: kstars.kcfg:2642
 #, kde-format
 msgid "Display Drift on the Analyze Statistics Plot."
 msgstr ""
-"Afficher le décalage sur le tracé de statistiques de l'onglet « Analyse »."
+"Afficher la dérive sur le tracé de statistiques de l'onglet Analyse."
 
 #. i18n: ectx: whatsthis, entry (AnalyzeRMS), group (Analyze)
 #: kstars.kcfg:2646
 #, kde-format
 msgid "Display RMS Error on the Analyze Statistics Plot."
 msgstr ""
-"Afficher l'erreur RMS sur le tracé des statistiques de l'onglet « Analyse »."
+"Afficher l'erreur RMS sur le tracé des statistiques de l'onglet Analyse."
 
 #. i18n: ectx: whatsthis, entry (AnalyzeRMSC), group (Analyze)
 #: kstars.kcfg:2650
@@ -34259,23 +34248,23 @@ msgstr ""
 msgid "Display RMS Error (during capture) on the Analyze Statistics Plot."
 msgstr ""
 "Afficher l'erreur RMS (durant l'acquisition) sur le tracé des statistiques "
-"de l'onglet « Analyse »."
+"de l'onglet Analyse."
 
 #. i18n: ectx: whatsthis, entry (AnalyzeMountRA), group (Analyze)
 #: kstars.kcfg:2654
 #, kde-format
 msgid "Display Mount RA on the Analyze Statistics Plot."
 msgstr ""
-"Afficher l'ascension droite de la monture sur le tracé des statistiques de "
-"l'onglet « Analyse »."
+"Afficher l'AD de la monture sur le tracé des statistiques de "
+"l'onglet Analyse."
 
 #. i18n: ectx: whatsthis, entry (AnalyzeMountDEC), group (Analyze)
 #: kstars.kcfg:2658
 #, kde-format
 msgid "Display Mount DEC on the Analyze Statistics Plot."
 msgstr ""
-"Afficher la déclinaison de la monture sur le tracé des statistiques de "
-"l'onglet « Analyse »."
+"Afficher la DES de la monture sur le tracé des statistiques de "
+"l'onglet Analyse."
 
 #. i18n: ectx: whatsthis, entry (AnalyzeMountHA), group (Analyze)
 #: kstars.kcfg:2662
@@ -34283,21 +34272,21 @@ msgstr ""
 msgid "Display Mount Hour Angle on the Analyze Statistics Plot."
 msgstr ""
 "Afficher l'angle horaire monture sur le tracé des statistiques de l'onglet "
-"« Analyse »."
+"Analyse."
 
 #. i18n: ectx: whatsthis, entry (AnalyzeAz), group (Analyze)
 #: kstars.kcfg:2666
 #, kde-format
 msgid "Display Azimuth on the Analyze Statistics Plot."
 msgstr ""
-"Afficher l'azimut sur le tracé des statistiques de l'onglet « Analyse »."
+"Afficher l'azimut sur le tracé des statistiques de l'onglet Analyse."
 
 #. i18n: ectx: whatsthis, entry (AnalyzeAlt), group (Analyze)
 #: kstars.kcfg:2670
 #, kde-format
 msgid "Display Altitude on the Analyze Statistics Plot."
 msgstr ""
-"Afficher l'altitude sur le tracé des statistiques de l'onglet « analyse »."
+"Afficher l'altitude sur le tracé des statistiques de l'onglet Analyse."
 
 #. i18n: ectx: whatsthis, entry (AnalyzePierSide), group (Analyze)
 #: kstars.kcfg:2674
@@ -34305,7 +34294,7 @@ msgstr ""
 msgid "Display PierSide on the Analyze Statistics Plot."
 msgstr ""
 "Afficher le côté de la butée sur le tracé des statistiques de l'onglet "
-"« Analyse »."
+"Analyse."
 
 #. i18n: ectx: label, entry (LastServer), group (INDI Lite)
 #: kstars.kcfg:2680
@@ -34596,7 +34585,7 @@ msgstr ""
 #: kstars.kcfg:2849
 #, kde-format
 msgid "Update the fits header with the found solution."
-msgstr "Mettre à jour de l'en-tête FITS avec la solution trouvée."
+msgstr "Mettre à jour l'en-tête FITS avec la solution trouvée."
 
 #. i18n: ectx: label, entry (ASTAPLargeSearchWindow), group (ASTAP)
 #: kstars.kcfg:2853
@@ -34619,2845 +34608,2371 @@ msgstr "Contrôler le niveau de transparence des panneaux de mosaïque."
 
 #: kstars_i18n.cpp:2
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "C Western"
 msgstr "C Ouest"
 
 #: kstars_i18n.cpp:3
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ANDROMEDA"
 msgstr "Andromède"
 
 #: kstars_i18n.cpp:4 kstars_i18n.cpp:564
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ANTLIA"
 msgstr "Machine Pneumatique"
 
 #: kstars_i18n.cpp:5 kstars_i18n.cpp:565
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "APUS"
 msgstr "Oiseau de Paradis"
 
 #: kstars_i18n.cpp:6 kstars_i18n.cpp:566
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "AQUARIUS"
 msgstr "Verseau"
 
 #: kstars_i18n.cpp:7 kstars_i18n.cpp:567
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "AQUILA"
 msgstr "Aigle"
 
 #: kstars_i18n.cpp:8 kstars_i18n.cpp:568
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ARA"
 msgstr "Autel"
 
 #: kstars_i18n.cpp:9 kstars_i18n.cpp:569
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ARIES"
 msgstr "Bélier"
 
 #: kstars_i18n.cpp:10 kstars_i18n.cpp:570
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "AURIGA"
 msgstr "Cocher"
 
 #: kstars_i18n.cpp:11 kstars_i18n.cpp:571
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "BOOTES"
 msgstr "Bouvier"
 
 #: kstars_i18n.cpp:12 kstars_i18n.cpp:572
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CAELUM"
 msgstr "Burin"
 
 #: kstars_i18n.cpp:13 kstars_i18n.cpp:573
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CAMELOPARDALIS"
 msgstr "Girafe"
 
 #: kstars_i18n.cpp:14 kstars_i18n.cpp:574
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CANCER"
 msgstr "Cancer"
 
 #: kstars_i18n.cpp:15 kstars_i18n.cpp:575
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CANES VENATICI"
 msgstr "Chiens de Chasse"
 
 #: kstars_i18n.cpp:16 kstars_i18n.cpp:576
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CANIS MAJOR"
 msgstr "Grand Chien"
 
 #: kstars_i18n.cpp:17 kstars_i18n.cpp:577
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CANIS MINOR"
 msgstr "Petit Chien"
 
 #: kstars_i18n.cpp:18 kstars_i18n.cpp:578
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CAPRICORNUS"
 msgstr "Capricorne"
 
 #: kstars_i18n.cpp:19 kstars_i18n.cpp:579
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CARINA"
 msgstr "Carène"
 
 #: kstars_i18n.cpp:20 kstars_i18n.cpp:580
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CASSIOPEIA"
 msgstr "Cassiopée"
 
 #: kstars_i18n.cpp:21 kstars_i18n.cpp:581
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CENTAURUS"
 msgstr "Centaure"
 
 #: kstars_i18n.cpp:22 kstars_i18n.cpp:582
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CEPHEUS"
 msgstr "Céphée"
 
 #: kstars_i18n.cpp:23 kstars_i18n.cpp:583
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CETUS"
 msgstr "Baleine"
 
 #: kstars_i18n.cpp:24 kstars_i18n.cpp:584
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CHAMAELEON"
 msgstr "Caméléon"
 
 #: kstars_i18n.cpp:25 kstars_i18n.cpp:585
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CIRCINUS"
 msgstr "Compas"
 
 #: kstars_i18n.cpp:26 kstars_i18n.cpp:586
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "COLUMBA"
 msgstr "Colombe"
 
 #: kstars_i18n.cpp:27 kstars_i18n.cpp:587
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "COMA BERENICES"
 msgstr "Chevelure de Bérénice"
 
 #: kstars_i18n.cpp:28 kstars_i18n.cpp:588 kstars_i18n.cpp:684
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CORONA AUSTRALIS"
 msgstr "Couronne australe"
 
 #: kstars_i18n.cpp:29 kstars_i18n.cpp:589 kstars_i18n.cpp:675
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CORONA BOREALIS"
 msgstr "Couronne boréale"
 
 #: kstars_i18n.cpp:30 kstars_i18n.cpp:590
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CORVUS"
 msgstr "Corbeau"
 
 #: kstars_i18n.cpp:31 kstars_i18n.cpp:591
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CRATER"
 msgstr "Coupe"
 
 #: kstars_i18n.cpp:32 kstars_i18n.cpp:592
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CRUX"
 msgstr "Croix du Sud"
 
 #: kstars_i18n.cpp:33 kstars_i18n.cpp:593
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CYGNUS"
 msgstr "Cygne"
 
 #: kstars_i18n.cpp:34 kstars_i18n.cpp:594
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "DELPHINUS"
 msgstr "Dauphin"
 
 #: kstars_i18n.cpp:35 kstars_i18n.cpp:595
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "DORADO"
 msgstr "Dorade"
 
 #: kstars_i18n.cpp:36 kstars_i18n.cpp:596
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "DRACO"
 msgstr "Dragon"
 
 #: kstars_i18n.cpp:37 kstars_i18n.cpp:597
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "EQUULEUS"
 msgstr "Petit Cheval"
 
 #: kstars_i18n.cpp:38 kstars_i18n.cpp:598
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ERIDANUS"
 msgstr "Éridan"
 
 #: kstars_i18n.cpp:39 kstars_i18n.cpp:599
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FORNAX"
 msgstr "Fourneau"
 
 #: kstars_i18n.cpp:40 kstars_i18n.cpp:600
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GEMINI"
 msgstr "Gémeaux"
 
 #: kstars_i18n.cpp:41 kstars_i18n.cpp:601
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GRUS"
 msgstr "Grue"
 
 #: kstars_i18n.cpp:42 kstars_i18n.cpp:602
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "HERCULES"
 msgstr "Hercule"
 
 #: kstars_i18n.cpp:43 kstars_i18n.cpp:603
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "HOROLOGIUM"
 msgstr "Horloge"
 
 #: kstars_i18n.cpp:44 kstars_i18n.cpp:604
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "HYDRA"
 msgstr "Hydre femelle"
 
 #: kstars_i18n.cpp:45 kstars_i18n.cpp:605
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "HYDRUS"
 msgstr "Hydre mâle"
 
 #: kstars_i18n.cpp:46 kstars_i18n.cpp:606
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "INDUS"
 msgstr "Indien"
 
 #: kstars_i18n.cpp:47 kstars_i18n.cpp:607
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "LACERTA"
 msgstr "Lézard"
 
 #: kstars_i18n.cpp:48 kstars_i18n.cpp:608
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "LEO"
 msgstr "Lion"
 
 #: kstars_i18n.cpp:49 kstars_i18n.cpp:609
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "LEO MINOR"
 msgstr "Petit Lion"
 
 #: kstars_i18n.cpp:50 kstars_i18n.cpp:610
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "LEPUS"
 msgstr "Lièvre"
 
 #: kstars_i18n.cpp:51 kstars_i18n.cpp:611
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "LIBRA"
 msgstr "Balance"
 
 #: kstars_i18n.cpp:52 kstars_i18n.cpp:612
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "LUPUS"
 msgstr "Loup"
 
 #: kstars_i18n.cpp:53
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "LYNX"
 msgstr "Lynx"
 
 #: kstars_i18n.cpp:54 kstars_i18n.cpp:614
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "LYRA"
 msgstr "Lyre"
 
 #: kstars_i18n.cpp:55 kstars_i18n.cpp:615
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "MENSA"
 msgstr "Table"
 
 #: kstars_i18n.cpp:56 kstars_i18n.cpp:616
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "MICROSCOPIUM"
 msgstr "Microscope"
 
 #: kstars_i18n.cpp:57 kstars_i18n.cpp:617
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "MONOCEROS"
 msgstr "Licorne"
 
 #: kstars_i18n.cpp:58 kstars_i18n.cpp:618
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "MUSCA"
 msgstr "Mouche"
 
 #: kstars_i18n.cpp:59 kstars_i18n.cpp:619
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "NORMA"
 msgstr "Règle"
 
 #: kstars_i18n.cpp:60 kstars_i18n.cpp:620
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "OCTANS"
 msgstr "Octant"
 
 #: kstars_i18n.cpp:61 kstars_i18n.cpp:621
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "OPHIUCHUS"
 msgstr "Ophiucus"
 
 #: kstars_i18n.cpp:62 kstars_i18n.cpp:622
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ORION"
 msgstr "Orion"
 
 #: kstars_i18n.cpp:63 kstars_i18n.cpp:623
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PAVO"
 msgstr "Paon"
 
 #: kstars_i18n.cpp:64 kstars_i18n.cpp:624
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PEGASUS"
 msgstr "Pégase"
 
 #: kstars_i18n.cpp:65 kstars_i18n.cpp:625
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PERSEUS"
 msgstr "Persée"
 
 #: kstars_i18n.cpp:66 kstars_i18n.cpp:626
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PHOENIX"
 msgstr "Phénix"
 
 #: kstars_i18n.cpp:67 kstars_i18n.cpp:627
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PICTOR"
 msgstr "Chevalet du peintre"
 
 #: kstars_i18n.cpp:68 kstars_i18n.cpp:628
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PISCES"
 msgstr "Poissons"
 
 #: kstars_i18n.cpp:69 kstars_i18n.cpp:629
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PISCIS AUSTRINUS"
 msgstr "Poisson austral"
 
 #: kstars_i18n.cpp:70 kstars_i18n.cpp:630
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PUPPIS"
 msgstr "Poupe"
 
 #: kstars_i18n.cpp:71 kstars_i18n.cpp:631
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PYXIS"
 msgstr "Boussole"
 
 #: kstars_i18n.cpp:72 kstars_i18n.cpp:632
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "RETICULUM"
 msgstr "Réticule"
 
 #: kstars_i18n.cpp:73 kstars_i18n.cpp:633 kstars_i18n.cpp:685
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SAGITTA"
 msgstr "Flèche"
 
 #: kstars_i18n.cpp:74 kstars_i18n.cpp:634
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SAGITTARIUS"
 msgstr "Sagittaire"
 
 #: kstars_i18n.cpp:75 kstars_i18n.cpp:635
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SCORPIUS"
 msgstr "Scorpion"
 
 #: kstars_i18n.cpp:76 kstars_i18n.cpp:636
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SCULPTOR"
 msgstr "Atelier du Sculpteur"
 
 #: kstars_i18n.cpp:77 kstars_i18n.cpp:637
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SCUTUM"
 msgstr "Écu de Sobieski"
 
 #: kstars_i18n.cpp:78
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SERPENS CAPUT"
 msgstr "Tête du serpent"
 
 #: kstars_i18n.cpp:79
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SERPENS CAUDA"
 msgstr "Queue du serpent"
 
 #: kstars_i18n.cpp:80 kstars_i18n.cpp:639
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SEXTANS"
 msgstr "Sextant"
 
 #: kstars_i18n.cpp:81 kstars_i18n.cpp:640
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "TAURUS"
 msgstr "Taureau"
 
 #: kstars_i18n.cpp:82 kstars_i18n.cpp:641
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "TELESCOPIUM"
 msgstr "Télescope"
 
 #: kstars_i18n.cpp:83 kstars_i18n.cpp:642 kstars_i18n.cpp:683
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "TRIANGULUM"
 msgstr "Triangle"
 
 #: kstars_i18n.cpp:84 kstars_i18n.cpp:643 kstars_i18n.cpp:682
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "TRIANGULUM AUSTRALE"
 msgstr "Triangle austral"
 
 #: kstars_i18n.cpp:85 kstars_i18n.cpp:644
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "TUCANA"
 msgstr "Toucan"
 
 #: kstars_i18n.cpp:86 kstars_i18n.cpp:645
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "URSA MAJOR"
 msgstr "Grande Ourse"
 
 #: kstars_i18n.cpp:87 kstars_i18n.cpp:646
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "URSA MINOR"
 msgstr "Petite Ourse"
 
 #: kstars_i18n.cpp:88 kstars_i18n.cpp:647
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "VELA"
 msgstr "Voiles"
 
 #: kstars_i18n.cpp:89 kstars_i18n.cpp:648
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "VIRGO"
 msgstr "Vierge"
 
 #: kstars_i18n.cpp:90 kstars_i18n.cpp:649
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "VOLANS"
 msgstr "Poisson volant"
 
 #: kstars_i18n.cpp:91 kstars_i18n.cpp:650
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "VULPECULA"
 msgstr "Petit Renard"
 
 #: kstars_i18n.cpp:92
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "C Chinese"
 msgstr "C Chinois"
 
 #: kstars_i18n.cpp:93 kstars_i18n.cpp:443
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "NORTHERN DIPPER"
 msgstr "Louche du Nord"
 
 #: kstars_i18n.cpp:94
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CURVED ARRAY"
 msgstr "Ensemble incurvé"
 
 #: kstars_i18n.cpp:95
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "COILED THONG"
 msgstr "Lanière enroulée"
 
 #: kstars_i18n.cpp:96
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "WINGS"
 msgstr "Ailes"
 
 #: kstars_i18n.cpp:97
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CHARIOT"
 msgstr "Chariot"
 
 #: kstars_i18n.cpp:98
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "TAIL"
 msgstr "Queue"
 
 #: kstars_i18n.cpp:99
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "WINNOWING BASKET"
 msgstr "Van"
 
 #: kstars_i18n.cpp:100 kstars_i18n.cpp:501
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "DIPPER"
 msgstr "Louche"
 
 #: kstars_i18n.cpp:101
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "DRUM"
 msgstr "Tambour"
 
 #: kstars_i18n.cpp:102 kstars_i18n.cpp:421
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "THREE STEPS"
 msgstr "Trois Marches"
 
 #: kstars_i18n.cpp:103
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "IMPERIAL GUARDS"
 msgstr "Gardes impériaux"
 
 #: kstars_i18n.cpp:104
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "HORN"
 msgstr "Corne"
 
 #: kstars_i18n.cpp:105
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "WILLOW"
 msgstr "Saule"
 
 #: kstars_i18n.cpp:106
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "IMPERIAL PASSAGEWAY"
 msgstr "Passage impérial"
 
 #: kstars_i18n.cpp:107
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "KITCHEN"
 msgstr "Cuisine"
 
 #: kstars_i18n.cpp:108
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "RIVER TURTLE"
 msgstr "Tortue de rivière"
 
 #: kstars_i18n.cpp:109
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "STOMACH"
 msgstr "Estomac"
 
 #: kstars_i18n.cpp:110
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GREAT GENERAL"
 msgstr "Grand Général"
 
 #: kstars_i18n.cpp:111
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "WALL"
 msgstr "Mur"
 
 #: kstars_i18n.cpp:112
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "LEGS"
 msgstr "Jambes"
 
 #: kstars_i18n.cpp:113
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ROOT"
 msgstr "Racine"
 
 #: kstars_i18n.cpp:114
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "RAMPARTS"
 msgstr "Remparts"
 
 #: kstars_i18n.cpp:115
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FLYING CORRIDOR"
 msgstr "Couloir volant"
 
 #: kstars_i18n.cpp:116
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "OUTER FENCE"
 msgstr "Clôture externe"
 
 #: kstars_i18n.cpp:117
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FORD"
 msgstr "Gué"
 
 #: kstars_i18n.cpp:118
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SEVEN EXCELLENCIES"
 msgstr "Sept Excellences"
 
 #: kstars_i18n.cpp:119
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "MARKET"
 msgstr "Marché"
 
 #: kstars_i18n.cpp:120
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FIVE CHARIOTS"
 msgstr "Cinq Chariots"
 
 #: kstars_i18n.cpp:121 kstars_i18n.cpp:346
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ROLLED TONGUE"
 msgstr "Langue enroulée"
 
 #: kstars_i18n.cpp:122 kstars_i18n.cpp:204
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "NET"
 msgstr "Filet"
 
 #: kstars_i18n.cpp:123 kstars_i18n.cpp:378
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "TOILET"
 msgstr "Toilette"
 
 #: kstars_i18n.cpp:124
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SCREEN"
 msgstr "Paravent"
 
 #: kstars_i18n.cpp:125
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SOLDIERS' MARKET"
 msgstr "Marché aux Soldats"
 
 #: kstars_i18n.cpp:126
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SQUARE GRANARY"
 msgstr "Grenier carré"
 
 #: kstars_i18n.cpp:127
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "THREE STARS"
 msgstr "Trois étoiles"
 
 #: kstars_i18n.cpp:128
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FOUR CHANNELS"
 msgstr "Quatre Canaux"
 
 #: kstars_i18n.cpp:129
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "WELL"
 msgstr "Puits"
 
 #: kstars_i18n.cpp:130
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SOUTH RIVER"
 msgstr "Rivière du Sud"
 
 #: kstars_i18n.cpp:131
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "NORTH RIVER"
 msgstr "Rivière du Nord"
 
 #: kstars_i18n.cpp:132
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FIVE FEUDAL KINGS"
 msgstr "Cinq Rois Féodaux"
 
 #: kstars_i18n.cpp:133
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ORCHARD"
 msgstr "Verger"
 
 #: kstars_i18n.cpp:134
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "MEADOWS"
 msgstr "Prairie"
 
 #: kstars_i18n.cpp:135
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CIRCULAR GRANARY"
 msgstr "Grenier circulaire"
 
 #: kstars_i18n.cpp:136
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PURPLE PALACE"
 msgstr "Palais violet"
 
 #: kstars_i18n.cpp:137
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "EXTENDED NET"
 msgstr "Filet étendu"
 
 #: kstars_i18n.cpp:138
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ARSENAL"
 msgstr "Arsenal"
 
 #: kstars_i18n.cpp:139
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "HOOK"
 msgstr "Crochet"
 
 #: kstars_i18n.cpp:140
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SUPREME PALACE"
 msgstr "Palais suprême"
 
 #: kstars_i18n.cpp:141
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "JADE WELL"
 msgstr "Puits de jade"
 
 #: kstars_i18n.cpp:142
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "LANCE"
 msgstr "Lance"
 
 #: kstars_i18n.cpp:143 kstars_i18n.cpp:193
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "BOAT"
 msgstr "Bateau"
 
 #: kstars_i18n.cpp:144 kstars_i18n.cpp:340
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "MAUSOLEUM"
 msgstr "Mausolée"
 
 #: kstars_i18n.cpp:145 kstars_i18n.cpp:271
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "DOG"
 msgstr "Chien"
 
 #: kstars_i18n.cpp:146
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "EARTH GOD'S TEMPLE"
 msgstr "Temple des Dieux sur Terre"
 
 #: kstars_i18n.cpp:147
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "BOW AND ARROW"
 msgstr "Arc et Flèche"
 
 #: kstars_i18n.cpp:148
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PESTLE"
 msgstr "Pilon"
 
 #: kstars_i18n.cpp:149 kstars_i18n.cpp:304
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "MORTAR"
 msgstr "Mortier"
 
 #: kstars_i18n.cpp:150
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ROOFTOP"
 msgstr "Toiture"
 
 #: kstars_i18n.cpp:151
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "THUNDERBOLT"
 msgstr "Éclair"
 
 #: kstars_i18n.cpp:152
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CHARIOT YARD"
 msgstr "Cour du Chariot"
 
 #: kstars_i18n.cpp:153
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GOOD GOURD"
 msgstr "Bonne Courge"
 
 #: kstars_i18n.cpp:154
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ROTTEN GOURD"
 msgstr "Gourde pourrie"
 
 #: kstars_i18n.cpp:155
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ENCAMPMENT"
 msgstr "Campement"
 
 #: kstars_i18n.cpp:156
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "THUNDER AND LIGHTNING"
 msgstr "Foudre et Éclair"
 
 #: kstars_i18n.cpp:157
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PALACE GATE"
 msgstr "Porte du Palais"
 
 #: kstars_i18n.cpp:158
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "EMPTINESS"
 msgstr "Vide"
 
 #: kstars_i18n.cpp:159
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "WEAVING GIRL"
 msgstr "Tisserande"
 
 #: kstars_i18n.cpp:160
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GIRL"
 msgstr "Fille"
 
 #: kstars_i18n.cpp:161
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "OX"
 msgstr "Bœuf"
 
 #: kstars_i18n.cpp:162
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "HEART"
 msgstr "Cœur"
 
 #: kstars_i18n.cpp:163
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ROOM"
 msgstr "Salle"
 
 #: kstars_i18n.cpp:164
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SPRING"
 msgstr "Ressort"
 
 #: kstars_i18n.cpp:165
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ESTABLISHMENT"
 msgstr "Établissement"
 
 #: kstars_i18n.cpp:166
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FLAIL"
 msgstr "Fléau"
 
 #: kstars_i18n.cpp:167
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SPEAR"
 msgstr "Lance"
 
 #: kstars_i18n.cpp:168 kstars_i18n.cpp:281
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "RIGHT FLAG"
 msgstr "Drapeau de droite"
 
 #: kstars_i18n.cpp:169 kstars_i18n.cpp:278
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "LEFT FLAG"
 msgstr "Drapeau de gauche"
 
 #: kstars_i18n.cpp:170
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "DRUMSTICK"
 msgstr "Baguette"
 
 #: kstars_i18n.cpp:171
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "BOND"
 msgstr "Lien"
 
 #: kstars_i18n.cpp:172
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "WOMAN'S BED"
 msgstr "Lit de la Dame"
 
 #: kstars_i18n.cpp:173
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "WESTERN DOOR"
 msgstr "Porte de l'Ouest"
 
 #: kstars_i18n.cpp:174
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "EASTERN DOOR"
 msgstr "Porte de l'Est"
 
 #: kstars_i18n.cpp:175
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FARMLAND"
-msgstr "terrain de cultivation"
+msgstr "Terrain de cultivation"
 
 #: kstars_i18n.cpp:176
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "STAR"
 msgstr "Étoile"
 
 #: kstars_i18n.cpp:177
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GHOSTS"
 msgstr "Fantômes"
 
 #: kstars_i18n.cpp:178
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "XUANYUAN"
 msgstr "Xuanyuan"
 
 #: kstars_i18n.cpp:179
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "TRIPOD"
 msgstr "Trépied"
 
 #: kstars_i18n.cpp:180
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "NECK"
 msgstr "Cou"
 
 #: kstars_i18n.cpp:181
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ZAOFU"
 msgstr "Zaofu"
 
 #: kstars_i18n.cpp:182
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "MARKET OFFICER"
 msgstr "Officier du Marché"
 
 #: kstars_i18n.cpp:183
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "C Egyptian"
 msgstr "C Égyptienne"
 
 #: kstars_i18n.cpp:184
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "BULL'S FORELEG"
 msgstr "Patte avant du Taureau"
 
 #: kstars_i18n.cpp:185
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "TWO POLES"
 msgstr "Deux Poteaux"
 
 #: kstars_i18n.cpp:186
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "LION"
 msgstr "Lion"
 
 #: kstars_i18n.cpp:187
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "TWO JAWS"
 msgstr "Deux Mâchoires"
 
 #: kstars_i18n.cpp:188
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SAH"
 msgstr "Sah"
 
 #: kstars_i18n.cpp:189
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "BIRD"
 msgstr "Oiseau"
 
 #: kstars_i18n.cpp:190
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SEK"
 msgstr "Sek"
 
 #: kstars_i18n.cpp:191
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "TRIANGLE"
 msgstr "Triangle"
 
 #: kstars_i18n.cpp:192
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FERRY BOAT"
 msgstr "Traversier"
 
 #: kstars_i18n.cpp:194
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CROCODILE"
 msgstr "Crocodile"
 
 #: kstars_i18n.cpp:195
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SELKIS"
 msgstr "Selkis"
 
 #: kstars_i18n.cpp:196
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PROW"
 msgstr "Proue"
 
 #: kstars_i18n.cpp:197
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "HORUS"
 msgstr "Horus"
 
 #: kstars_i18n.cpp:198
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SHEEPFOLD"
 msgstr "Bergerie"
 
 #: kstars_i18n.cpp:199
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GIANT"
 msgstr "Géant"
 
 #: kstars_i18n.cpp:200
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "HIPPOPOTAMUS"
 msgstr "Hippopotame"
 
 #: kstars_i18n.cpp:201
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FLOCK"
 msgstr "Troupeau"
 
 #: kstars_i18n.cpp:202
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PAIR OF STARS"
 msgstr "Paire d'Étoiles"
 
 #: kstars_i18n.cpp:203
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "KHANUWY FISH"
 msgstr "Poisson Khanuwy"
 
 #: kstars_i18n.cpp:205
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "JAW"
 msgstr "Mâchoire"
 
 #: kstars_i18n.cpp:206
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "MOORING POST"
 msgstr "Point d'amarrage"
 
 #: kstars_i18n.cpp:207
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "KENEMET"
 msgstr "Kenemet"
 
 #: kstars_i18n.cpp:208
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CHEMATY"
 msgstr "Chematy"
 
 #: kstars_i18n.cpp:209
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "WATY BEKETY"
 msgstr "Waty Bekety"
 
 #: kstars_i18n.cpp:210
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SHEEP"
 msgstr "Mouton"
 
 #: kstars_i18n.cpp:211
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "STARS OF WATER"
 msgstr "Étoiles d'eau"
 
 #: kstars_i18n.cpp:212
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "C Inuit"
 msgstr "C Inuit"
 
 #: kstars_i18n.cpp:213
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "TWO SUNBEAMS"
 msgstr "Deux Rayons de Soleil"
 
 #: kstars_i18n.cpp:214
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "TWO PLACED FAR APART"
 msgstr "Deux Éloignés"
 
 #: kstars_i18n.cpp:215
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "DOGS"
 msgstr "Chiens"
 
 #: kstars_i18n.cpp:216
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "COLLARBONES"
 msgstr "Clavicules"
 
 #: kstars_i18n.cpp:217
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "LAMP STAND"
 msgstr "Pied de lampe"
 
 #: kstars_i18n.cpp:218
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CARIBOU"
 msgstr "Caribou"
 
 #: kstars_i18n.cpp:219
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "TWO IN FRONT"
 msgstr "Deux devant"
 
 #: kstars_i18n.cpp:220
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "BREASTBONE"
 msgstr "Sternum"
 
 #: kstars_i18n.cpp:221
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "RUNNERS"
 msgstr "Coureurs"
 
 #: kstars_i18n.cpp:222
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "BLUBBER CONTAINER"
 msgstr "Récipient de graisse de baleine"
 
 #: kstars_i18n.cpp:223
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "THE ONE BEHIND"
 msgstr "Celui de derrière"
 
 #: kstars_i18n.cpp:224
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "C Korean"
 msgstr "C Corée"
 
 #: kstars_i18n.cpp:225
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "HOLY KETTLE"
 msgstr "Bouilloire sainte"
 
 #: kstars_i18n.cpp:226
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FARM OF CAPITAL CITY"
 msgstr "Ferme de la capitale"
 
 #: kstars_i18n.cpp:227
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "DIGNITY OF KING"
 msgstr "Dignité du Roi"
 
 #: kstars_i18n.cpp:228
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "NOMINATION"
 msgstr "Nomination"
 
 #: kstars_i18n.cpp:229
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GATE OF SKY"
 msgstr "Porte du ciel"
 
 #: kstars_i18n.cpp:230
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "EQUALITY"
 msgstr "Égalité"
 
 #: kstars_i18n.cpp:231 kstars_i18n.cpp:232 kstars_i18n.cpp:444
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "HELPER"
 msgstr "Assistant"
 
 #: kstars_i18n.cpp:233
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "POSITION OF HOLY KING"
 msgstr "Position du roi sacré"
 
 #: kstars_i18n.cpp:234
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "NECK OF DRAGON"
 msgstr "Cou du dragon"
 
 #: kstars_i18n.cpp:235
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "BEHEADING"
 msgstr "Décapitation"
 
 #: kstars_i18n.cpp:236
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "JUDGE"
 msgstr "Juge"
 
 #: kstars_i18n.cpp:237
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FLUTTERING FLAG"
 msgstr "Drapeau virevoltant"
 
 #: kstars_i18n.cpp:238
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "JAVELIN OF SKY"
 msgstr "Javelot céleste"
 
 #: kstars_i18n.cpp:239
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SEAT FOR LONGEVITY"
 msgstr "Siège de longévité"
 
 #: kstars_i18n.cpp:240
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "OAR FOR VISITOR"
 msgstr "Aviron du visiteur"
 
 #: kstars_i18n.cpp:241
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "MILK OF SKY"
 msgstr "Lait céleste"
 
 #: kstars_i18n.cpp:242
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "HOUSE OF QUEEN"
 msgstr "Maison de la Reine"
 
 #: kstars_i18n.cpp:243
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ANCIENT CHARIOT"
 msgstr "Chariot ancien"
 
 #: kstars_i18n.cpp:244
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CARRIAGE FOR KING"
 msgstr "Transport du Roi"
 
 #: kstars_i18n.cpp:245
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GENERAL OF CAVALRY"
 msgstr "Général de cavalerie"
 
 #: kstars_i18n.cpp:246
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CAVALRY OF EMPEROR"
 msgstr "Cavalerie de l'Empereur"
 
 #: kstars_i18n.cpp:247
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GENERAL OF MOBILE TROOPS"
 msgstr "Général des troupes mobiles"
 
 #: kstars_i18n.cpp:248
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "EAST ROAD"
 msgstr "Route orientale"
 
 #: kstars_i18n.cpp:249
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GATE BOLT"
 msgstr "Verrou de porte"
 
 #: kstars_i18n.cpp:250
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "DOOR LOCK AND KEY"
 msgstr "Serrure et clé de porte"
 
 #: kstars_i18n.cpp:251
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PENALTY"
 msgstr "Pénalité"
 
 #: kstars_i18n.cpp:252
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ROYAL HALL"
 msgstr "Hall royal"
 
 #: kstars_i18n.cpp:253 kstars_i18n.cpp:430
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CHAMBERLAIN"
 msgstr "Chambellan"
 
 #: kstars_i18n.cpp:254
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SUN"
 msgstr "Soleil"
 
 #: kstars_i18n.cpp:255
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "WEST ROAD"
 msgstr "Route occidentale"
 
 #: kstars_i18n.cpp:256
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SEAT OF EMPEROR"
 msgstr "Siège de l'Empereur"
 
 #: kstars_i18n.cpp:257
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FIVE TROOPS"
 msgstr "Cinq troupes"
 
 #: kstars_i18n.cpp:258
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "RIVER OF SKY"
 msgstr "Rivière céleste"
 
 #: kstars_i18n.cpp:259
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PRAYER FOR PROGENY"
 msgstr "Prière pour la descendance"
 
 #: kstars_i18n.cpp:260
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FISH"
 msgstr "Poisson"
 
 #: kstars_i18n.cpp:261
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FORECAST"
 msgstr "Prévisions"
 
 #: kstars_i18n.cpp:262
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "YARD FOR EMPRESSES"
 msgstr "Cour des impératrices"
 
 #: kstars_i18n.cpp:263
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "HOLY PALACE"
 msgstr "Palais sacré"
 
 #: kstars_i18n.cpp:264
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "WINNOW"
 msgstr "Trieuse"
 
 #: kstars_i18n.cpp:265
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "OUTER PESTLE"
 msgstr "Pilon extérieur"
 
 #: kstars_i18n.cpp:266
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CHAFF"
 msgstr "Ivraie"
 
 #: kstars_i18n.cpp:267
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "HEAD OF TOWN"
 msgstr "Chef de la ville"
 
 #: kstars_i18n.cpp:268
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "BUILD"
 msgstr "Charpente"
 
 #: kstars_i18n.cpp:269
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FOWL OF SKY"
 msgstr "Poule céleste"
 
 #: kstars_i18n.cpp:270
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SHRINE OF SKY"
 msgstr "Sanctuaire céleste"
 
 #: kstars_i18n.cpp:272
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "NORTHEASTERN NATIONS"
 msgstr "Nations du nord-est"
 
 #: kstars_i18n.cpp:273
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "OLD FARMER"
 msgstr "Vieux fermier"
 
 #: kstars_i18n.cpp:274
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SNAPPING TURTLE"
 msgstr "Tortue serpentine"
 
 #: kstars_i18n.cpp:275
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ROAD FOR EMPEROR"
 msgstr "Route de l'Empereur"
 
 #: kstars_i18n.cpp:276
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "THE WEAVER"
 msgstr "Le tisserand"
 
 #: kstars_i18n.cpp:277
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "RIVER ADJOINING TOWER"
 msgstr "Tour prêt de la rivière"
 
 #: kstars_i18n.cpp:279
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "DRUM OF RIVER"
 msgstr "Tambour de la rivière"
 
 #: kstars_i18n.cpp:280
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "DRUMSTICK OF SKY"
 msgstr "Baguette céleste"
 
 #: kstars_i18n.cpp:282
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "COW LEADING MAN"
 msgstr "Garçon vacher"
 
 #: kstars_i18n.cpp:283
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "BANK SPREAD"
 msgstr "Prolongation de la grève"
 
 #: kstars_i18n.cpp:284
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "BASKET FOR SILKWORM"
 msgstr "Panier de ver à soie"
 
 #: kstars_i18n.cpp:285
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "OFFICER FOR CART"
 msgstr "Officier de charrette"
 
 #: kstars_i18n.cpp:286
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FERRY OF SKY"
 msgstr "Ferry céleste"
 
 #: kstars_i18n.cpp:287
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FRUIT"
 msgstr "Fruit"
 
 #: kstars_i18n.cpp:288
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SEED"
 msgstr "Graine"
 
 #: kstars_i18n.cpp:289
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "STORAGE FOR LADY"
 msgstr "Stockage de la reine"
 
 #: kstars_i18n.cpp:290
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "COURT LADY"
 msgstr "Dame de la cour"
 
 #: kstars_i18n.cpp:291
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "JUDGE FAULT"
 msgstr "Faute du juge"
 
 #: kstars_i18n.cpp:292
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "AMEND FAULT"
 msgstr "Faute d'amende"
 
 #: kstars_i18n.cpp:293
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GRANT LIFE"
 msgstr "Accord de vie"
 
 #: kstars_i18n.cpp:294
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PUNISH"
 msgstr "Punition"
 
 #: kstars_i18n.cpp:295
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "EMPTY HOUSE"
 msgstr "Maison vide"
 
 #: kstars_i18n.cpp:296
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "WEEP"
 msgstr "Pleur"
 
 #: kstars_i18n.cpp:297
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SOB"
 msgstr "Sanglot"
 
 #: kstars_i18n.cpp:298
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CASTLE WITH RAMPART"
 msgstr "Château avec remparts"
 
 #: kstars_i18n.cpp:299
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "HOOK FOR DRESS"
 msgstr "Crochet de la robe"
 
 #: kstars_i18n.cpp:300
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GROOM"
 msgstr "Valet d'écurie"
 
 #: kstars_i18n.cpp:301
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CHARIOTEER"
 msgstr "Chariot"
 
 #: kstars_i18n.cpp:302
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "HUMAN"
 msgstr "Humain"
 
 #: kstars_i18n.cpp:303
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "INNER PESTLE"
 msgstr "Pilon intérieur"
 
 #: kstars_i18n.cpp:305
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "WAREHOUSE OF SKY"
 msgstr "Magasin céleste"
 
 #: kstars_i18n.cpp:306
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "TOMB"
 msgstr "Tombe"
 
 #: kstars_i18n.cpp:307
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "COVER OF HOUSE"
 msgstr "Couverture de maison"
 
 #: kstars_i18n.cpp:308
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "BROKEN MORTAR"
 msgstr "Mortier brisé"
 
 #: kstars_i18n.cpp:309
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CLIMBING SERPENT"
 msgstr "Serpent grimpant"
 
 #: kstars_i18n.cpp:310
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PALACE OF EMPEROR"
 msgstr "Palais de l'Empereur"
 
 #: kstars_i18n.cpp:311
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "DETACHED PALACE"
 msgstr "Palais détaché"
 
 #: kstars_i18n.cpp:312
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "OFFICIAL FOR MATERIALS SUPPLY"
 msgstr "Officier d'approvisionnement en matières premières"
 
 #: kstars_i18n.cpp:313
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "LIGHTNING"
 msgstr "Foudre"
 
 #: kstars_i18n.cpp:314
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "RAMPART"
 msgstr "Rempart"
 
 #: kstars_i18n.cpp:315
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "TROOPS OF SKY"
 msgstr "Troupes célestes"
 
 #: kstars_i18n.cpp:316
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "VILLAGE FOR PATROL"
 msgstr "Village de patrouille"
 
 #: kstars_i18n.cpp:317
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "NET OF SKY"
 msgstr "Filet céleste"
 
 #: kstars_i18n.cpp:318
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "STABLE OF SKY"
 msgstr "Étable céleste"
 
 #: kstars_i18n.cpp:319
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "EASTERN WALL"
 msgstr "Mur oriental"
 
 #: kstars_i18n.cpp:320 kstars_i18n.cpp:419
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CIVIL ENGINEER"
 msgstr "Ingénieur civil"
 
 #: kstars_i18n.cpp:321
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "THUNDERBOLTS"
 msgstr "Coups de tonnerre"
 
 #: kstars_i18n.cpp:322
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CLOUDS AND RAIN"
 msgstr "Nuages et pluie"
 
 #: kstars_i18n.cpp:323
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "HIGHWAY"
 msgstr "Grande route"
 
 #: kstars_i18n.cpp:324
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "WHIP"
 msgstr "Fouet"
 
 #: kstars_i18n.cpp:325
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "OFFICER FOR CHARIOT"
 msgstr "Officier du chariot"
 
 #: kstars_i18n.cpp:326
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SIDE ROAD"
 msgstr "Route secondaire"
 
 #: kstars_i18n.cpp:327
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ARMORY"
 msgstr "Arsenal"
 
 #: kstars_i18n.cpp:328
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SOUTHERN GATE OF EMPERATOR"
 msgstr "Porte sud de l'Imperator"
 
 #: kstars_i18n.cpp:329
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "OUTER FOLDING SCREEN"
 msgstr "Écran pliant extérieur"
 
 #: kstars_i18n.cpp:330
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "TOILET OF SKY"
 msgstr "Toilette céleste"
 
 #: kstars_i18n.cpp:331
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ARCHITECT"
 msgstr "Architecte"
 
 #: kstars_i18n.cpp:332
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "EMPERATOR"
 msgstr "Imperator"
 
 #: kstars_i18n.cpp:333
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "WATCHTOWER"
 msgstr "Tour de guet"
 
 #: kstars_i18n.cpp:334
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "LEFT ELM"
 msgstr "Orme de gauche"
 
 #: kstars_i18n.cpp:335
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "RIGHT ELM"
 msgstr "Orme de droite"
 
 #: kstars_i18n.cpp:336
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "STOREHOUSE OF SKY"
 msgstr "Entrepôt céleste"
 
 #: kstars_i18n.cpp:337
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "STACK OF CEREALS"
 msgstr "Pile de céréales"
 
 #: kstars_i18n.cpp:338
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SHIP OF SKY"
 msgstr "Vaisseau céleste"
 
 #: kstars_i18n.cpp:339 kstars_i18n.cpp:381
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "STORE OF WATER"
 msgstr "Entrepôt d'eau"
 
 #: kstars_i18n.cpp:341
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "HEAP OF CORPSES"
 msgstr "Pile de corps"
 
 #: kstars_i18n.cpp:342
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "STOMACH OF TIGER"
 msgstr "Estomac du tigre"
 
 #: kstars_i18n.cpp:343
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "STORE OF MILLET FOR RELIGIOUS SERVICE"
 msgstr "Magasin de millet pour service religieux"
 
 #: kstars_i18n.cpp:344
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "STOREHOUSE FOR CEREALS"
 msgstr "Entrepôt à céréales"
 
 #: kstars_i18n.cpp:345
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "WHETSTONE"
 msgstr "Pierre à aiguiser"
 
 #: kstars_i18n.cpp:347
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SHAMAN OF SKY"
 msgstr "Shaman céleste"
 
 #: kstars_i18n.cpp:348
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "EAR AND EYE"
 msgstr "Oreille et œil"
 
 #: kstars_i18n.cpp:349
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "MOON"
 msgstr "Lune"
 
 #: kstars_i18n.cpp:350 kstars_i18n.cpp:353
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "HILL OF SKY"
 msgstr "Colline céleste"
 
 #: kstars_i18n.cpp:351
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CONSPIRACY OF SKY"
 msgstr "Complot céleste"
 
 #: kstars_i18n.cpp:352
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FODDER"
 msgstr "Fourrage"
 
 #: kstars_i18n.cpp:354
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GARAGE FOR CHARIOT"
 msgstr "Garage du chariot"
 
 #: kstars_i18n.cpp:355
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "POND FOR FISH"
 msgstr "Bassin à poissons"
 
 #: kstars_i18n.cpp:356 kstars_i18n.cpp:357 kstars_i18n.cpp:358
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PILLAR"
 msgstr "Pilier"
 
 #: kstars_i18n.cpp:359
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PUDDLE OF SKY"
 msgstr "Flaque céleste"
 
 #: kstars_i18n.cpp:360
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "KINGS"
 msgstr "Rois"
 
 #: kstars_i18n.cpp:361
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GATEWAY OF SKY"
 msgstr "Passerelle céleste"
 
 #: kstars_i18n.cpp:362
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FLAGE OF SAAM"
 msgstr "Drapeau de Saam"
 
 #: kstars_i18n.cpp:363
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "VILLAGE OF SKY"
 msgstr "Village céleste"
 
 #: kstars_i18n.cpp:364
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "BELVEDERE OF SKY"
 msgstr "Belvédère céleste"
 
 #: kstars_i18n.cpp:365
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GENERAL OF BORDER"
 msgstr "Général de frontière"
 
 #: kstars_i18n.cpp:366
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CELEBRATION OF SKY"
 msgstr "Célébration céleste"
 
 #: kstars_i18n.cpp:367
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FLAG OF EMPEROR"
 msgstr "Drapeau de l'Empereur"
 
 #: kstars_i18n.cpp:368
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "NINE TERRITORIES"
 msgstr "Neuf territoires"
 
 #: kstars_i18n.cpp:369
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GARDEN OF SKY"
 msgstr "Gardien céleste"
 
 #: kstars_i18n.cpp:370
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SETTLED FLAG"
 msgstr "Drapeau en berne"
 
 #: kstars_i18n.cpp:371
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FORECAST CALAMITY"
 msgstr "Prévision catastrophique"
 
 #: kstars_i18n.cpp:372
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SCOUT OF THREE TROOPS"
 msgstr "Éclaireur des trois troupes"
 
 #: kstars_i18n.cpp:373
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SAAM"
 msgstr "Saam"
 
 #: kstars_i18n.cpp:374
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "EXPEDITIONARY FORCE"
 msgstr "Force expéditionnaire"
 
 #: kstars_i18n.cpp:375
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "WELL FOR MILITARY"
 msgstr "Puits militaire"
 
 #: kstars_i18n.cpp:376
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "WELL OF JADE"
 msgstr "Puits de Jade"
 
 #: kstars_i18n.cpp:377 kstars_i18n.cpp:432
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FOLDING SCREEN"
 msgstr "Écran pliant"
 
 #: kstars_i18n.cpp:379
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ARROW"
 msgstr "Flèche"
 
 #: kstars_i18n.cpp:380
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PILED BRUSHWOOD"
 msgstr "Tas de broussailles"
 
 #: kstars_i18n.cpp:382
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "NORTHERN RIVER"
 msgstr "Rivière du nord"
 
 #: kstars_i18n.cpp:383
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FIVE LORDS"
 msgstr "Cinq seigneurs"
 
 #: kstars_i18n.cpp:384
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "WINE GLASS OF THE SKY"
 msgstr "Verre de vin céleste"
 
 #: kstars_i18n.cpp:385
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "EASTERN WELL"
 msgstr "Puits oriental"
 
 #: kstars_i18n.cpp:386
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FLOOD CONTROL"
 msgstr "Contrôle d'inondation"
 
 #: kstars_i18n.cpp:387
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "BALANCE OF WATER"
 msgstr "Balance de l'eau"
 
 #: kstars_i18n.cpp:388
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FOUR SPIRITS OF THE RIVER"
 msgstr "Quatre esprits de la rivière"
 
 #: kstars_i18n.cpp:389
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SOUTHERN RIVER"
 msgstr "Rivière du sud"
 
 #: kstars_i18n.cpp:390
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "TWIN GATE"
 msgstr "Portes jumelles"
 
 #: kstars_i18n.cpp:391
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "BOW"
 msgstr "Arc"
 
 #: kstars_i18n.cpp:392
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "STAR OF WOLF"
 msgstr "Étoile du loup"
 
 #: kstars_i18n.cpp:393
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "WILD FOWLS"
 msgstr "Poulets sauvages"
 
 #: kstars_i18n.cpp:394
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "MARKET FOR ARMY"
 msgstr "Marché militaire"
 
 #: kstars_i18n.cpp:395
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GRANDCHILDREN"
 msgstr "Petit-fils"
 
 #: kstars_i18n.cpp:396
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SON"
 msgstr "Fils"
 
 #: kstars_i18n.cpp:397
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GROWN-UP"
 msgstr "Adulte"
 
 #: kstars_i18n.cpp:398
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "OLD MAN"
 msgstr "Vieil homme"
 
 #: kstars_i18n.cpp:399
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "BEACON"
 msgstr "Balise"
 
 #: kstars_i18n.cpp:400
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "EYE OF SKY"
 msgstr "Œil céleste"
 
 #: kstars_i18n.cpp:401
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PILE OF DEAD"
 msgstr "Tas de morts"
 
 #: kstars_i18n.cpp:402
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GREEN RIDGE"
 msgstr "Corniche verte"
 
 #: kstars_i18n.cpp:403
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "OUTER KITCHEN"
 msgstr "Cuisine extérieure"
 
 #: kstars_i18n.cpp:404
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "DOG OF SKY"
 msgstr "Chien céleste"
 
 #: kstars_i18n.cpp:405
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SPIRIT OF GURYOUNG"
 msgstr "Esprit de Guryoung"
 
 #: kstars_i18n.cpp:406
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FLAG OF WINE OFFICER"
 msgstr "Drapeau de l'officier de vin"
 
 #: kstars_i18n.cpp:407
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "OFFICER OF KITCHEN"
 msgstr "Officier de la cuisine"
 
 #: kstars_i18n.cpp:408
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "EQUALITY AND FAIR"
 msgstr "Égalité et justice"
 
 #: kstars_i18n.cpp:409
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "EMPEROR HEONWON"
 msgstr "Empereur Heonwon"
 
 #: kstars_i18n.cpp:410
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CAPITAL OF SKY"
 msgstr "Capitale céleste"
 
 #: kstars_i18n.cpp:411
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CHIEF OF FARMING"
 msgstr "Chef de l'agriculture"
 
 #: kstars_i18n.cpp:412
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "OFFICER OF TOMB"
 msgstr "Officier de la tombe"
 
 #: kstars_i18n.cpp:413
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "TOMB OF SKY"
 msgstr "Tombe céleste"
 
 #: kstars_i18n.cpp:414
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "WING OF RED BIRD"
 msgstr "Aile de l'oiseau rouge"
 
 #: kstars_i18n.cpp:415
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "EASTERN POTTERY"
 msgstr "Poterie orientale"
 
 #: kstars_i18n.cpp:416
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CHARIOT OF EMPEROR"
 msgstr "Chariot de l'Empereur"
 
 #: kstars_i18n.cpp:417
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SAND FOR LIFE"
 msgstr "Sable de la vie"
 
 #: kstars_i18n.cpp:418
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GATEWAY FOR TROOPS"
 msgstr "Passerelle des troupes"
 
 #: kstars_i18n.cpp:420
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GUARDIAN KNIGHT"
 msgstr "Chevalier gardien"
 
 #: kstars_i18n.cpp:422
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FIVE FEUDAL LORDS"
 msgstr "Cinq seigneurs féodaux"
 
 #: kstars_i18n.cpp:423
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SANGJIIN"
 msgstr "Sangjiin"
 
 #: kstars_i18n.cpp:424
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "LOW FENCE"
 msgstr "Basse clôture"
 
 #: kstars_i18n.cpp:425 kstars_i18n.cpp:426
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "TALL FENCE"
 msgstr "Haute clôture"
 
 #: kstars_i18n.cpp:427
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "NINE LORDS"
 msgstr "Neufs seigneurs"
 
 #: kstars_i18n.cpp:428
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "DUNG OF TIGER"
 msgstr "Crotte de tigre"
 
 #: kstars_i18n.cpp:429
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CROWN PRINCE"
 msgstr "Prince couronné"
 
 #: kstars_i18n.cpp:431
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FIVE EMPERORS"
 msgstr "Cinq empereurs"
 
 #: kstars_i18n.cpp:433 kstars_i18n.cpp:441 kstars_i18n.cpp:442
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "THREE MINISTERS"
 msgstr "Trois ministres"
 
 #: kstars_i18n.cpp:434
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "OFFICER FOR AUDIENCE"
 msgstr "Officier d'audience"
 
 #: kstars_i18n.cpp:435
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GRAVE FRONT"
 msgstr "Façade de cimetière"
 
 #: kstars_i18n.cpp:436
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "OBSERVATORY"
 msgstr "Observatoire"
 
 #: kstars_i18n.cpp:437
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FEMALE OFFICER"
 msgstr "Femme officier"
 
 #: kstars_i18n.cpp:438
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "WIDE LODGING AREA"
 msgstr "Large zone d'abri"
 
 #: kstars_i18n.cpp:439
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "EIGHT CEREALS"
 msgstr "Huit céréales"
 
 #: kstars_i18n.cpp:440
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ADVANCE GUARD"
 msgstr "Garde avancée"
 
 #: kstars_i18n.cpp:445
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "VIRTUE"
 msgstr "Valeur"
 
 #: kstars_i18n.cpp:446
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "EMPEROR'S GOD OF WAR"
 msgstr "Dieu impérial de la guerre"
 
 #: kstars_i18n.cpp:447
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "EMPEROR'S GOD OF WEATHER"
 msgstr "Dieu impérial de la météo"
 
 #: kstars_i18n.cpp:448
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "INNER KITCHEN"
 msgstr "Cuisine intérieure"
 
 #: kstars_i18n.cpp:449
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FLAP OF FLAG"
 msgstr "Volet du drapeau"
 
 #: kstars_i18n.cpp:450
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "MINISTER"
 msgstr "Ministre"
 
 #: kstars_i18n.cpp:451
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GENERAL AND MINISTER"
 msgstr "Général et ministre"
 
 #: kstars_i18n.cpp:452
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "JAIL OF SKY"
 msgstr "Prison céleste"
 
 #: kstars_i18n.cpp:453
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SIX DEPARTMENTS"
 msgstr "Six départements"
 
 #: kstars_i18n.cpp:454
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "INNER STAIRWAY"
 msgstr "Escalier intérieur"
 
 #: kstars_i18n.cpp:455
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SPEAR OF SKY"
 msgstr "Lance céleste"
 
 #: kstars_i18n.cpp:456
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "COVER FOR EMPEROR"
 msgstr "Couverture de l'Empereur"
 
 #: kstars_i18n.cpp:457
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PLACE FOR FIVE EMPEROR"
 msgstr "Place des cinq empereurs"
 
 #: kstars_i18n.cpp:458
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "YEARS"
 msgstr "Années"
 
 #: kstars_i18n.cpp:459
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "KITCHEN OF SKY"
 msgstr "Cuisine céleste"
 
 #: kstars_i18n.cpp:460
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "NORTH POLE"
 msgstr "Pôle nord"
 
 #: kstars_i18n.cpp:461
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "WOUND LODGE"
 msgstr "Abri des blessés"
 
 #: kstars_i18n.cpp:462
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SINGLE-LOG BRIDGE"
 msgstr "Passerelle simple poutre"
 
 #: kstars_i18n.cpp:463
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "GREAT EMPEROR"
 msgstr "Grand empereur"
 
 #: kstars_i18n.cpp:464
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "OFFICER FOR OPINION"
 msgstr "Officier d'opinion"
 
 #: kstars_i18n.cpp:465
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PILLAR OF SKY"
 msgstr "Pilier céleste"
 
 #: kstars_i18n.cpp:466
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SECRETARY"
 msgstr "Secrétaire"
 
 #: kstars_i18n.cpp:467
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "MAID"
 msgstr "Servante"
 
 #: kstars_i18n.cpp:468
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "DESK OF WOMAN"
 msgstr "Bureau de femme"
 
 #: kstars_i18n.cpp:469
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "JUDGE PRISON"
 msgstr "Prison du juge"
 
 #: kstars_i18n.cpp:470 kstars_i18n.cpp:471
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "PURPLE FENCE"
 msgstr "Clôture violette"
 
 #: kstars_i18n.cpp:472
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ORDER OF SKY"
 msgstr "Ordre céleste"
 
 #: kstars_i18n.cpp:473
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SEVEN MINISTERS"
 msgstr "Sept ministres"
 
 #: kstars_i18n.cpp:474
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "THREAD STRAW"
 msgstr "Fil de paille"
 
 #: kstars_i18n.cpp:475 kstars_i18n.cpp:476
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "MARKET FENCE"
 msgstr "Portail de marché"
 
 #: kstars_i18n.cpp:477
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FEUDAL LORD"
 msgstr "Seigneur féodal"
 
 #: kstars_i18n.cpp:478
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SEAT FOR EMPEROR"
 msgstr "Siège de l'Empereur"
 
 #: kstars_i18n.cpp:479
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ROYAL FAMILY"
 msgstr "Famille royale"
 
 #: kstars_i18n.cpp:480
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "HEAD OF FAMILY"
 msgstr "Tête de famille"
 
 #: kstars_i18n.cpp:481
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "RECORD OF FAMILY"
 msgstr "Registre de famille"
 
 #: kstars_i18n.cpp:482
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "OFFICER FOR FAMILY"
 msgstr "Officier de famille"
 
 #: kstars_i18n.cpp:483
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "TOWER IN MARKET"
 msgstr "Tour du marché"
 
 #: kstars_i18n.cpp:484
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "MEASURE CEREAL"
 msgstr "Céréale de mesure"
 
 #: kstars_i18n.cpp:485
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CEREAL MEASURE REGULATION"
 msgstr "Régulation de mesure de céréales"
 
 #: kstars_i18n.cpp:486
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "EUNUCH"
 msgstr "Eunuque"
 
 #: kstars_i18n.cpp:487
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "OFFICER FOR CHARIOTS"
 msgstr "Officier de chariots"
 
 #: kstars_i18n.cpp:488
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "MEASURE AMOUNT"
 msgstr "Unité de mesure"
 
 #: kstars_i18n.cpp:489
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "BUTCHERY"
 msgstr "Boucherie"
 
 #: kstars_i18n.cpp:490
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "OFFICER FOR JEWEL"
 msgstr "Officier de bijou"
 
 #: kstars_i18n.cpp:491
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "ROYAL"
 msgstr "Royal"
 
 #: kstars_i18n.cpp:492
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "LORD"
 msgstr "Seigneur"
 
 #: kstars_i18n.cpp:493
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "LEFT EXECUTOR"
 msgstr "Exécuteur de gauche"
 
 #: kstars_i18n.cpp:494
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "RIGHT EXECUTOR"
 msgstr "Exécuteur de droite"
 
 #: kstars_i18n.cpp:495
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "CROSSBEAM FOR HEO"
 msgstr "Faisceaux croisés de Héo"
 
 #: kstars_i18n.cpp:496
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "THREADING COINS"
 msgstr "Pièces filetées"
 
 #: kstars_i18n.cpp:497
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "C Lakota"
 msgstr "C Lakota"
 
 #: kstars_i18n.cpp:498
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "HAND"
 msgstr "Main"
 
 #: kstars_i18n.cpp:499
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "SNAKE"
 msgstr "Serpent"
 
 #: kstars_i18n.cpp:500
 #, kde-kuit-format
-msgctxt "Constellation name (optional)"
 msgid "FIREPLACE"
 msgstr "CHEMINÉE"
 
@@ -80094,7 +79609,7 @@ msgid ""
 "If Align is enabled, scheduler would initiate a realignment procedure before "
 "restarting any jobs even if guiding is active."
 msgstr ""
-"Si l'option « Alignement » est activée, l'ordonnanceur lancera une procédure "
+"Si l'option Alignement est activée, l'ordonnanceur lancera une procédure "
 "de réalignement avant de relancer toute tâche, même si le guidage est actif."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ForceAlignmentBeforeJob)
