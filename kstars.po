@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-28 00:40+0000\n"
-"PO-Revision-Date: 2022-07-06 07:41+0200\n"
+"PO-Revision-Date: 2022-07-10 07:40+0200\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -697,7 +697,7 @@ msgstr ""
 #: auxiliary/ksutils.cpp:1345
 #, kde-format
 msgid "Make Astrometry Index File Directory?"
-msgstr "Créer le répertoire pour le fichier d'index d'astrométrie ?"
+msgstr "Créer le dossier pour le fichier d'index d'astrométrie ?"
 
 #: auxiliary/ksutils.cpp:1350
 #, kde-format
@@ -1443,7 +1443,7 @@ msgstr ""
 #, kde-format
 msgid "Xplanet binary path is empty in config panel."
 msgstr ""
-"Le répertoire de l'exécutable XPlanet est vide dans le panneau de "
+"Le dossier de l'exécutable XPlanet est vide dans le panneau de "
 "configuration."
 
 #: auxiliary/xplanetimageviewer.cpp:550
@@ -5520,13 +5520,13 @@ msgstr "Maintenant"
 #: dialogs/wizdata.ui:61
 #, kde-format
 msgid "KStars Data Directory"
-msgstr "Répertoire de données de KStars"
+msgstr "Dossier de données de KStars"
 
 #. i18n: ectx: property (text), widget (QLabel, foundFeedback1)
 #: dialogs/wizdata.ui:68
 #, kde-format
 msgid "The KStars Data Directory called kstars should be located at:"
-msgstr "Le répertoire de données de KStars nommé kstars devrait se trouver à :"
+msgstr "Le dossier de données de KStars nommé kstars devrait se trouver à :"
 
 #. i18n: ectx: property (text), widget (QLabel, dataPath)
 #: dialogs/wizdata.ui:83
@@ -5543,7 +5543,7 @@ msgid ""
 "KStars directory already some place else, you can exit KStars and copy it to "
 "that location yourself."
 msgstr ""
-"Votre répertoire de données n'existe pas. Vous pouvez cliquez sur le bouton "
+"Votre dossier de données n'existe pas. Vous pouvez cliquez sur le bouton "
 "ci-dessous pour copier le dossier de données par défaut de KStars vers "
 "l'emplacement correct ou si vous avez déjà un dossier KStars déjà disponible "
 "quelque part ailleurs, vous pouvez quitter KStars et le copier vous même "
@@ -5553,13 +5553,13 @@ msgstr ""
 #: dialogs/wizdata.ui:112
 #, kde-format
 msgid "Copy KStars Data Directory"
-msgstr "Copier le répertoire de données de KStars"
+msgstr "Copier le dossier de données de KStars"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: dialogs/wizdata.ui:119
 #, kde-format
 msgid "Optional Files for the Data directory:"
-msgstr "Fichiers optionnels pour le répertoire de données :"
+msgstr "Fichiers optionnels pour le dossier de données :"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: dialogs/wizdata.ui:137
@@ -5661,11 +5661,11 @@ msgid ""
 "solving, and learning to use KStars. Just click the button to install or "
 "unzip the zip file and place the gsc folder in the data directory."
 msgstr ""
-"Son installation dans votre répertoire de données permettra au simulateur "
+"Son installation dans votre dossier de données permettra au simulateur "
 "CCD de KStars de prendre des images réalistes. Cela est utile pour tester "
 "les séquences, la résolution astrométrique des clichés et l'apprentissage de "
 "l'utilisation de KStars. Cliquez juste sur le bouton pour l'installer ou "
-"décompresser le fichier zip et installer le dossier gsc dans le répertoire "
+"décompresser le fichier zip et installer le dossier gsc dans le dossier "
 "de données."
 
 #. i18n: ectx: property (text), widget (QLabel, DownloadTitle)
@@ -5970,9 +5970,9 @@ msgid ""
 "directories.  Please download some index files or add the correct directory "
 "to the list."
 msgstr ""
-"Aucun fichier d'index n'a été trouvé sur votre système dans les répertoires "
+"Aucun fichier d'index n'a été trouvé sur votre système dans les dossier "
 "spécifiés. Veuillez télécharger quelques fichiers d'index ou ajouter un "
-"répertoire correct à la liste."
+"dossier correct à la liste."
 
 #: ekos/align/align.cpp:1949
 #, kde-format
@@ -19181,7 +19181,7 @@ msgid ""
 "body></html>"
 msgstr ""
 "<html><head/><body><p> Si cette case est cochée et que le guide interne est "
-"exécuté, un fichier journal est enregistré dans le répertoire de "
+"exécuté, un fichier journal est enregistré dans le dossier de "
 "journalisation par défaut. Il ne s'agit pas d'un journal de débogage mais il "
 "est destiné en vue d'améliorer la journalisation et il peut être visualisé "
 "avec phd2logview.</p></body></html>"
@@ -27504,14 +27504,14 @@ msgstr "Les pilotes INDI sont internes au paquet de l'application."
 #: indi/opsindi.ui:105
 #, kde-format
 msgid "INDI drivers XML directory:"
-msgstr "Répertoire XML des pilotes INDI "
+msgstr "Dossier XML des pilotes INDI "
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_indiDriversDir)
 #: indi/opsindi.ui:112
 #, kde-format
 msgid "Path to the INDI drivers XML directory"
 msgstr ""
-"Chemin vers le répertoire des fichiers de configuration XML des pilotes INDI"
+"Chemin vers le dossier des fichiers de configuration XML des pilotes INDI"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: indi/opsindi.ui:154
@@ -27531,7 +27531,7 @@ msgstr ""
 #: indi/opsindi.ui:196
 #, kde-format
 msgid "Default FITS directory:"
-msgstr "Répertoire FITS par défaut "
+msgstr "Dossier FITS par défaut "
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, autoGroup)
 #: indi/opsindi.ui:240
@@ -27754,12 +27754,12 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>\n"
-"<p>Nom du répertoire des vidéos SER <b>distante</b>Si le serveur Indi est "
-"actif localement, alors un répertoire local peut être sélectionné. "
+"<p>Nom du dossier des vidéos SER <b>distante</b>Si le serveur Indi est "
+"actif localement, alors un dossier local peut être sélectionné. "
 "Cependant, si vous êtes connecté à un serveur Indi distant, alors le "
-"répertoire doit être un répertoire valide sur le système de fichiers distant "
+"dossier doit être un dossier valide sur le système de fichiers distant "
 "ou il sera sauvé.</p>\n"
-"<p>Les répertoires d'enregistrement peuvent contenir des token pour les "
+"<p>Les dossier d'enregistrement peuvent contenir des token pour les "
 "rendre dynamiques:</p>\n"
 "<ul>\n"
 "<li><b>_D_</b> pour la date YYYY-MM-DD.</li>\n"
@@ -32737,13 +32737,13 @@ msgstr ""
 #: kstars.kcfg:1770
 #, kde-format
 msgid "Path to capture directory to save images."
-msgstr "Emplacement du répertoire pour l'enregistrement des images."
+msgstr "Emplacement du dossier pour l'enregistrement des images."
 
 #. i18n: ectx: label, entry (RemoteCaptureDirectory), group (Capture)
 #: kstars.kcfg:1774
 #, kde-format
 msgid "Path to remote capture directory to save images."
-msgstr "Emplacement du répertoire distant pour l'enregistrement des images."
+msgstr "Emplacement du dossier distant pour l'enregistrement des images."
 
 #. i18n: ectx: label, entry (ManualCoverTimeout), group (Capture)
 #: kstars.kcfg:1777
@@ -71545,8 +71545,8 @@ msgid ""
 "<p>When done, press <b>Next</b> button.</p>"
 msgstr ""
 "<p>Définir les détails de base du document : titre, sous-titre et "
-"description. </p>\n"
-"<p>Lorsque vous avez terminé, veuillez appuyer sur le bouton <b>Suivant</b>. "
+"description.</p>\n"
+"<p>Lorsque vous avez terminé, veuillez appuyer sur le bouton <b>Suivant</b>."
 "</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
@@ -71575,10 +71575,10 @@ msgid ""
 "logging forms. Select which you want to be included in finder chart and "
 "press <b>Next</b> to proceed.</p>"
 msgstr ""
-"<p>Le graphique « Chercheur » peut contenir des éléments supplémes tels que "
+"<p>Le graphique « Chercheur » peut contenir des éléments supplémentaires tels que "
 "des tableaux détaillés et formulaires de journalisation. Sélectionnez celui "
 "que vous souhaitez inclure dans le graphique du « Chercheur » et appuyer sur "
-"<b>Suivant</b> pour continuer. </p>"
+"<b>Suivant</b> pour continuer.</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, tablesLabel)
 #: printing/pwizchartcontents.ui:132
@@ -71738,12 +71738,12 @@ msgid ""
 "<p>Press <b>Next</b> when done.</p>"
 msgstr ""
 "<p>Dans la méthode de capture manuelle du champ de vision, l'utilisateur "
-"centre la carte du ciel sur un point d'intérêt. , puis capture des "
+"centre la carte du ciel sur un point d'intérêt, puis capture des "
 "instantanés de fragments de ciel à l'intérieur du symbole CdV actif.</p>\n"
 "<p>En mode capture du champ de vision, appuyez <b>Page Up</b> et <b>Page "
 "Down</b> pour changer de symbole CdV. Les images sont capturées en appuyant "
-"sur la touche <b>K</b>. Une fois fait, appuyez sur  <b>Escape</b> pour "
-"revenir à l'assistant d'impression. </p>\n"
+"sur la touche <b>K</b>. Une fois fait, appuyez sur <b>Escape</b> pour "
+"revenir à l'assistant d'impression.</p>\n"
 "<p>Appuyez sur <b>Suivant</b> une fois fait.</p>"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton)
@@ -79612,10 +79612,10 @@ msgid ""
 "enhancement.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Si cette case est cochée, Xplanet utilisera un fichier "
-"FIFO dans le répertoire /tmp pour sauvegarder temporairement les images "
+"FIFO dans le dossier /tmp pour sauvegarder temporairement les images "
 "Xplanet afin que KStars les charge et mette à jour la vue. Si cette option "
 "n'est pas cochée, Xplanet enregistrera les fichiers dans le dossier Xplanet "
-"du répertoire de données de KStars. L'utilisation d'un fichier FIFO devrait "
+"du dossier de données de KStars. L'utilisation d'un fichier FIFO devrait "
 "éviter au disque dur des lectures/écritures excessives et peut offrir une "
 "amélioration des performances.</p></body></html>"
 
