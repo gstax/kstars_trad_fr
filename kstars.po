@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-28 00:40+0000\n"
-"PO-Revision-Date: 2022-07-10 10:19+0200\n"
+"PO-Revision-Date: 2022-07-17 16:27+0200\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -7700,7 +7700,7 @@ msgstr ""
 #: ekos/align/opsastap.ui:140
 #, kde-format
 msgid "Update FITS"
-msgstr "Mettre à jour FITS"
+msgstr "Ouvrir FITS"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ASTAPSearchRadius)
 #. i18n: ectx: property (text), widget (QLabel, label_9)
@@ -19470,7 +19470,7 @@ msgid ""
 "%1\n"
 "Please ensure each device is connected and powered on."
 msgstr ""
-"Il est impossible d'établir une connexion avec les périphériques "
+"Impossible d'établir une connexion avec les périphériques "
 "suivants :\n"
 "%1\n"
 "Veuillez vous assurer que chaque périphérique est connecté et alimenté."
@@ -27021,7 +27021,7 @@ msgid ""
 "Unable to find INDI drivers directory: %1\n"
 "Please make sure to set the correct path in KStars configuration"
 msgstr ""
-"Il est impossible de trouver le dossier des pilotes du serveur INDI : %1\n"
+"Impossible de trouver le dossier des pilotes du serveur INDI : %1\n"
 "Veuillez vous assurer d'avoir défini l'emplacement correct dans la "
 "configuration de KStars."
 
@@ -27029,11 +27029,6 @@ msgstr ""
 #, kde-format, kde-kuit-format
 msgid "Failed to open INDI Driver file: %1"
 msgstr "Impossible d'ouvrir le fichier de pilotes INDI : %1"
-
-#: indi/drivermanager.cpp:1393
-#, kde-format
-msgid "Add Host"
-msgstr "Ajouter un hôte"
 
 #: indi/drivermanager.cpp:1404 indi/indidriver.cpp:812
 #, kde-format, kde-kuit-format
@@ -27044,11 +27039,6 @@ msgstr "Erreur : le numéro de port n'est pas valable."
 #, kde-format, kde-kuit-format
 msgid "Host: %1 Port: %2 already exists."
 msgstr "L'hôte %1 sur le port %2 existe déjà."
-
-#: indi/drivermanager.cpp:1444
-#, kde-format
-msgid "Modify Host"
-msgstr "Modifier un hôte"
 
 #: indi/drivermanager.cpp:1493 indi/indidriver.cpp:890
 #, kde-format, kde-kuit-format
@@ -62372,7 +62362,7 @@ msgstr "ADS (NASA Astrophysics Data System)"
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "Astronomy and Astrophysics"
-msgstr "Astronomie et Astrophysique"
+msgstr "Astronomie et astrophysique"
 
 #: kstars_i18n.cpp:4828
 #, kde-kuit-format
@@ -62500,7 +62490,7 @@ msgid ""
 "Unable to find INDI server. Please make sure the package that provides the "
 "'indiserver' binary is installed."
 msgstr ""
-"Il est impossible de trouver le serveur INDI. Veuillez vous assurer que le "
+"Impossible de trouver le serveur INDI. Veuillez vous assurer que le "
 "paquet fournissant l'exécutable pour indiserver est installé."
 
 #: kstarsactions.cpp:693
@@ -62574,7 +62564,7 @@ msgstr "Le lancement de scripts distants n'est pas pris en charge."
 #: kstarsactions.cpp:1319 oal/execute.cpp:319 tools/observinglist.cpp:910
 #, kde-format
 msgid "Could not open file %1"
-msgstr "Il est impossible d'ouvrir le fichier « %1 »"
+msgstr "Impossible d'ouvrir le fichier « %1 »"
 
 #: kstarsactions.cpp:1344
 #, kde-format
@@ -62805,12 +62795,12 @@ msgstr "Fichier malformé %1"
 #: kstarsdata.cpp:1137
 #, kde-format
 msgid "Could not set time: %1 / %2 / %3 ; %4:%5:%6"
-msgstr "Il est impossible de définir l'heure : %1 / %2 / %3 ; %4:%5:%6"
+msgstr "Impossible de définir l'heure : %1 / %2 / %3 ; %4:%5:%6"
 
 #: kstarsdata.cpp:1466
 #, kde-format
 msgid "Could not set location named %1, %2, %3"
-msgstr "Il est impossible de définir l'emplacement nommé %1, %2, %3"
+msgstr "Impossible de définir l'emplacement nommé %1, %2, %3"
 
 #: kstarsdata.cpp:1541 kstarslite/dialogs/detaildialoglite.cpp:686
 #, kde-format
@@ -62818,7 +62808,7 @@ msgid ""
 "Custom image-links file could not be opened.\n"
 "Link cannot be recorded for future sessions."
 msgstr ""
-"Il est impossible d'ouvrir le fichier de liens d'images personnalisé.\n"
+"Impossible d'ouvrir le fichier de liens d'images personnalisé.\n"
 "Il n'est pas possible d'enregistrer le lien pour les sessions futures."
 
 #: kstarsdata.cpp:1543 kstarslite/dialogs/detaildialoglite.cpp:711
@@ -62827,7 +62817,7 @@ msgid ""
 "Custom information-links file could not be opened.\n"
 "Link cannot be recorded for future sessions."
 msgstr ""
-"Il est impossible d'ouvrir le fichier de liens d'informations personnalisé.\n"
+"Impossible d'ouvrir le fichier de liens d'informations personnalisé.\n"
 "Il n'est pas possible d'enregistrer le lien pour les sessions futures."
 
 #: kstarsdata.cpp:1643 kstarsdata.cpp:1665
@@ -63059,7 +63049,7 @@ msgstr "Af&ficher la boîte de mise au point"
 #, kde-format
 msgctxt "Show location-related info box"
 msgid "Show &Location Box"
-msgstr "Afficher la boîte de &Position"
+msgstr "Afficher &la boîte de position"
 
 #: kstarsinit.cpp:320
 #, kde-format
@@ -63094,7 +63084,7 @@ msgstr "Afficher le champ J2000.0 AD/DEC"
 #: kstarsinit.cpp:337
 #, kde-format
 msgid "C&olor Schemes"
-msgstr "&Modèles de couleurs"
+msgstr "M&odèles de couleurs"
 
 #: kstarsinit.cpp:338
 #, kde-format
@@ -63270,7 +63260,7 @@ msgid ""
 "For time steps larger than 10 minutes, frames are displayed at an interval "
 "of 'X'."
 msgstr ""
-"Utilisez cette valeur pour définir la vitesse à tel moment dans les flux de "
+"Utiliser cette valeur pour définir la vitesse à tel moment dans les flux de "
 "simulation.\n"
 "Pour un pas de temps « X » allant jusqu'à 10 minutes, le temps passe à la "
 "vitesse de « X » par seconde.\n"
@@ -63655,11 +63645,6 @@ msgstr "Non implémenté."
 msgid "About"
 msgstr "À propos"
 
-#: kstarslite/qml/dialogs/AboutDialog.qml:28 main.cpp:106
-#, kde-format, kde-kuit-format
-msgid "KStars"
-msgstr "KStars"
-
 #: kstarslite/qml/dialogs/AboutDialog.qml:37 main.cpp:48
 #, kde-format, kde-kuit-format
 msgid "Desktop Planetarium"
@@ -63929,7 +63914,7 @@ msgstr ""
 #: kstarslite/qml/dialogs/helpers/LocationEdit.qml:160
 #, kde-kuit-format
 msgid "Timeout occurred. Try again."
-msgstr "Dépassement du temps impartie. Veuillez réessayer."
+msgstr "Dépassement du temps imparti. Veuillez réessayer."
 
 #: kstarslite/qml/dialogs/helpers/LocationEdit.qml:175
 #, kde-kuit-format
@@ -63990,17 +63975,17 @@ msgstr "Veuillez saisir la ville"
 #: kstarslite/qml/dialogs/helpers/LocationEdit.qml:381
 #, kde-kuit-format
 msgid "Please, fill in the country"
-msgstr "Veuillez remplir le pays"
+msgstr "Veuillez saisir le pays"
 
 #: kstarslite/qml/dialogs/helpers/LocationEdit.qml:384
 #, kde-kuit-format
 msgid "Please, fill in the latitude"
-msgstr "Veuillez remplir la latitude"
+msgstr "Veuillez saisir la latitude"
 
 #: kstarslite/qml/dialogs/helpers/LocationEdit.qml:387
 #, kde-kuit-format
 msgid "Please, fill in the longitude"
-msgstr "Veuillez remplir la longitude"
+msgstr "Veuillez saisr la longitude"
 
 #: kstarslite/qml/dialogs/helpers/LocationEdit.qml:392
 #, kde-kuit-format
@@ -64236,12 +64221,6 @@ msgstr "Symboles de champ de vision"
 #, kde-kuit-format
 msgid "Slew"
 msgstr "Rotation"
-
-#: kstarslite/qml/modules/helpers/TelescopeControl.qml:28
-#: kstarslite/qml/modules/menus/ContextMenu.qml:136
-#, kde-kuit-format
-msgid "Sync"
-msgstr "Mise en phase"
 
 #: kstarslite/qml/modules/helpers/TimeSpinBox.qml:162
 #, kde-format
@@ -64633,7 +64612,7 @@ msgstr "Quitter"
 #: kstarslite/qml/modules/tutorial/TutorialPopup.qml:36
 #, kde-kuit-format
 msgid "Welcome to KStars Lite"
-msgstr " Bienvenue dans KStars version légère"
+msgstr " Bienvenue dans KStars Light"
 
 #: kstarslite/qml/modules/tutorial/TutorialPopup.qml:44
 #, kde-kuit-format
@@ -65193,7 +65172,7 @@ msgstr "Communication"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Compress"
-msgstr "Comprimer"
+msgstr "Compresser"
 
 #: libindi_strings.cpp:74
 #, kde-kuit-format
@@ -65781,19 +65760,19 @@ msgstr "Filtre n°5"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Filter#6"
-msgstr "Filtre"
+msgstr "Filtre n°6"
 
 #: libindi_strings.cpp:173
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Filter#7"
-msgstr "Filtre"
+msgstr "Filtre n°7"
 
 #: libindi_strings.cpp:174
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Filter#8"
-msgstr "Filtre"
+msgstr "Filtre n°"
 
 #: libindi_strings.cpp:175
 #, kde-kuit-format
@@ -65811,13 +65790,13 @@ msgstr "Informations sur le micrologiciel"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Firmware data"
-msgstr "Données de micrologiciel"
+msgstr "Données du micrologiciel"
 
 #: libindi_strings.cpp:178
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Firmware version"
-msgstr "Version de micrologiciel"
+msgstr "Version du micrologiciel"
 
 #: libindi_strings.cpp:179
 #, kde-kuit-format
@@ -66057,7 +66036,7 @@ msgstr "Interrompre un guide"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Guide E/W"
-msgstr "Guide Est/Ouest"
+msgstr "Guide E/O"
 
 #: libindi_strings.cpp:221
 #, kde-kuit-format
@@ -68357,7 +68336,7 @@ msgstr "Yuri Fabirovsky"
 #: main.cpp:180
 #, kde-format
 msgid "Splash screen for both regular KStars and KStars Lite."
-msgstr "Écran de démarrage pour les versions normale et allégées de KStars."
+msgstr "Écran de démarrage pour KStars et KStars Light."
 
 #: main.cpp:181
 #, kde-format
@@ -68418,7 +68397,7 @@ msgstr "Fichier(s) FITS à ouvrir."
 #, kde-format
 msgid "Could not parse image format of %1; assuming PNG."
 msgstr ""
-"Il est impossible d'analyser le format d'image de %1, on suppose que c'est "
+"Impossible d'analyser le format d'image de %1, on suppose que c'est "
 "du PNG."
 
 #: main.cpp:293
@@ -68436,7 +68415,7 @@ msgstr "Script exécuté."
 #: main.cpp:328
 #, kde-format
 msgid "Could not execute script."
-msgstr "Il est impossible d'exécuter le script."
+msgstr "Impossible d'exécuter le script."
 
 #: main.cpp:352
 #, kde-format
@@ -68911,7 +68890,7 @@ msgid ""
 "Warning! All KStars configuration is going to be purged. This cannot be "
 "reversed."
 msgstr ""
-"Attention ! La totalité de la configuration de KStars va être vidée. Toute "
+"Attention ! La totalité de la configuration de KStars va être supprimée. Toute "
 "annulation est impossible."
 
 #: options/opsadvanced.cpp:137
@@ -69036,7 +69015,7 @@ msgstr ""
 #: options/opsadvanced.ui:387
 #, kde-format
 msgid "Purge All Configuration"
-msgstr "Purger toutes les configurations"
+msgstr "Supprimer toutes les configurations"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
 #: options/opsadvanced.ui:420
@@ -69166,7 +69145,7 @@ msgstr "Afficher des images en ligne du ciel ?"
 #, kde-format
 msgid "If checked, inline images will be shown on the skymap."
 msgstr ""
-"Si cette case est cochée, des images en ligne seront dessinés sur la carte "
+"Si cette case est cochée, des images en ligne seront dessinées sur la carte "
 "du ciel."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowInlineImages)
@@ -69213,7 +69192,7 @@ msgstr "Cacher les objets pendant le déplacement"
 #, kde-format
 #| msgid "Also hide if time step larger than:"
 msgid "Hide objects only if time step is larger than threshold"
-msgstr "Cacher les objects que si le pas de temps est supérieur au seuil"
+msgstr "Cacher les objects seulement si le pas de temps est supérieur au seuil"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabelHideTimeStep)
 #: options/opsadvanced.ui:647
@@ -69227,7 +69206,7 @@ msgstr "Cacher également si le pas de temps est supérieur à"
 msgid ""
 "If checked, then fainter stars will be hidden when the map is in motion."
 msgstr ""
-"Si cette case est cochée, les étoiles plus faibles sont cachées lorsque la "
+"Si cette case est cochée, les étoiles plus faibles seront cachées lorsque la "
 "carte est en mouvement."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_HideStars)
@@ -69249,7 +69228,7 @@ msgstr ""
 #: options/opsadvanced.ui:688
 #, kde-format
 msgid "Hide solar system bodies while moving?"
-msgstr "Cacher les corps du Système solaire pendant le déplacement ?"
+msgstr "Cacher les corps du système solaire pendant le déplacement ?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_HidePlanets)
 #: options/opsadvanced.ui:691
@@ -69258,7 +69237,7 @@ msgid ""
 "If checked, then all solar system bodies will be hidden when the map is in "
 "motion."
 msgstr ""
-"Si cette case est cochée, tous les corps du Système solaire sont cachés "
+"Si cette case est cochée, tous les corps du système solaire sont cachés "
 "lorsque la carte est en mouvement."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_HidePlanets)
@@ -69385,7 +69364,7 @@ msgid ""
 "Dobsonian hole"
 msgstr ""
 "Durant le tri par pourcentage d'élévation, dégrader les objets présents dans "
-"le troue de Dobson."
+"le trou de Dobson."
 
 #. i18n: ectx: property (text), widget (QLabel, holeSizeLabel)
 #: options/opsadvanced.ui:953
@@ -69594,13 +69573,13 @@ msgid ""
 "Local color scheme index file could not be opened.\n"
 "Scheme cannot be removed."
 msgstr ""
-"Il est impossible d'ouvrir le fichier local d'index de modèle de couleurs.\n"
+"Impossible d'ouvrir le fichier local d'index de modèle de couleurs.\n"
 "Il n'est pas possible de supprimer le modèle."
 
 #: options/opscolors.cpp:287
 #, kde-format
 msgid "Could not delete the file: %1"
-msgstr "Il est impossible de supprimer le fichier : %1"
+msgstr "Impossible de supprimer le fichier : %1"
 
 #: options/opscolors.cpp:288
 #, kde-format
@@ -69610,7 +69589,7 @@ msgstr "Erreur de suppression de fichier"
 #: options/opscolors.cpp:300
 #, kde-format
 msgid "Could not find an entry named %1 in colors.dat."
-msgstr "Il est impossible de trouver un élément nommé « %1 » dans colors.dat."
+msgstr "Impossible de trouver un élément nommé « %1 » dans colors.dat."
 
 #: options/opscolors.cpp:301
 #, kde-format
@@ -69805,7 +69784,7 @@ msgid ""
 msgstr ""
 "<html><head/><body><p>Enregistrer les trames de mise au point automatique. "
 "Activer uniquement pour dépanner la mise au point automatique par examen des "
-"trames. Cela peut consommer un grand volume d'enregistrement.</p></body></"
+"trames. Cela peut consommer un grand volume d'espace disque.</p></body></"
 "html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SaveFocusImages)
@@ -69824,14 +69803,14 @@ msgid ""
 msgstr ""
 "<html><head/><body><p>Enregistrer les trames internes de l'assistant de "
 "guidage. Activer uniquement pour dépanner l'assistant de guidage par examen "
-"des trames. Cela peut consommer un grand volume d'enregistrement.</p></"
+"des trames. Cela peut consommer un grand volume d'espace disque.</p></"
 "body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SaveGuideImages)
 #: options/opsdeveloper.ui:53
 #, kde-format
 msgid "Save Guider Images"
-msgstr "Enregistrer les image du guidage"
+msgstr "Enregistrer les images du guidage"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowCLines)
 #: options/opsguides.ui:23
@@ -69995,7 +69974,7 @@ msgid ""
 msgstr ""
 "Si cette case est cochée, l'écliptique sera dessiné sur la carte du ciel. "
 "L'écliptique est un grand cercle sur le ciel, que le Soleil semble suivre "
-"pendant toute sa course annuelle. Tous les autres corps du Système solaire "
+"pendant toute sa course annuelle. Tous les autres corps du système solaire "
 "suivent en gros la ligne d'écliptique."
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_FillMilkyWay)
@@ -70247,7 +70226,7 @@ msgstr "Actualiser les TLE"
 #: options/opssolarsystem.ui:32
 #, kde-format
 msgid "Show solar system objects"
-msgstr "Afficher les objets du Système solaire"
+msgstr "Afficher les objets du système solaire"
 
 #. i18n: ectx: property (title), widget (QGroupBox, MajorBodiesBox)
 #: options/opssolarsystem.ui:42
@@ -70306,7 +70285,7 @@ msgstr "Si cette case est cochée, Mars sera dessinée sur la carte."
 #, kde-format
 msgid "Attach Name labels to the major solar system bodies?"
 msgstr ""
-"Attacher des étiquettes de noms aux corps principaux du Système solaire ?"
+"Attacher des étiquettes de noms aux corps principaux du système solaire ?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowPlanetNames)
 #: options/opssolarsystem.ui:98
@@ -70866,13 +70845,13 @@ msgstr "Date, heure et lieu"
 #, kde-format
 msgctxt "@title:window"
 msgid "Field of View Snapshot Browser"
-msgstr "Navigateur d'instantanés du champs de vision"
+msgstr "Navigateur d'instantanés du champ de vision"
 
 #: printing/foveditordialog.cpp:198 printing/pwizprint.cpp:127
 #: tools/scriptbuilder.cpp:923
 #, kde-format
 msgid "Could not upload file"
-msgstr "Il est impossible d'envoyer le fichier"
+msgstr "Impossible d'envoyer le fichier"
 
 #: printing/foveditordialog.cpp:247
 #, kde-format
@@ -70999,7 +70978,7 @@ msgid ""
 "settings or use manual capture mode."
 msgstr ""
 "Le saut d'étoiles a retourné un emplacement vide. Nous vous conseillons de "
-"changer les paramètres de saut d'étoile ou d'utiliser un mode de capture "
+"changer les paramètres de saut d'étoiles ou d'utiliser un mode d'acquisition "
 "manuel."
 
 #: printing/printingwizard.cpp:222
@@ -71021,7 +71000,7 @@ msgstr "Passer à la page suivante de l'assistant"
 #: printing/printingwizard.cpp:417
 #, kde-format
 msgid "Go to previous Wizard page"
-msgstr "Passe à la page précédente de l'assistant"
+msgstr "Passer à la page précédente de l'assistant"
 
 #: printing/printingwizard.cpp:536
 #, kde-format
@@ -71252,12 +71231,12 @@ msgid ""
 "p>\n"
 "<p>Press <b>Next</b> when done.</p>"
 msgstr ""
-"<p>Dans la méthode de capture manuelle du champ de vision, l'utilisateur "
-"centre la carte du ciel sur un point d'intérêt, puis capture des "
+"<p>Dans la méthode d'acquisition manuelle du champ de vision, l'utilisateur "
+"centre la carte du ciel sur un point d'intérêt, puis acquiert des "
 "instantanés de fragments de ciel à l'intérieur du symbole CdV actif.</p>\n"
-"<p>En mode capture du champ de vision, appuyez <b>Page Up</b> et <b>Page "
-"Down</b> pour changer de symbole CdV. Les images sont capturées en appuyant "
-"sur la touche <b>K</b>. Une fois fait, appuyez sur <b>Escape</b> pour "
+"<p>En mode acquisition du champ de vision, appuyez <b>Page Up</b> et <b>Page "
+"Down</b> pour changer de symbole CdV. Les images sont acquises en appuyant "
+"sur la touche <b>K</b>. Une fois fait, appuyez sur <b>Échap</b> pour "
 "revenir à l'assistant d'impression.</p>\n"
 "<p>Appuyez sur <b>Suivant</b> une fois fait.</p>"
 
@@ -71282,15 +71261,15 @@ msgid ""
 "Configure star hopper FOV capture: select object at which star hopping will "
 "begin, select FOV symbol and magnitude limit."
 msgstr ""
-"Configurer la capture du champ de vision pour étoiles filantes : "
-"sélectionnez l’objet) partir duquel commencera l'étoile filante, puis "
+"Configurer l'acquisition du champ de vision pour étoiles filantes : "
+"sélectionnez l’objet partir duquel commencera l'étoile filante, puis "
 "sélectionnez le symbole du champ de vision (CdV) et la limite de magnitude."
 
 #. i18n: ectx: property (text), widget (QLabel, label1)
 #: printing/pwizfovsh.ui:116
 #, kde-format
 msgid "Select begin star:"
-msgstr "Sélectionnez une étoile de départ"
+msgstr "Sélectionner une étoile de départ"
 
 #. i18n: ectx: property (text), widget (QPushButton, selectFromListButton)
 #. i18n: ectx: property (text), widget (QPushButton, fromListButton)
@@ -71342,14 +71321,14 @@ msgid ""
 "<p>Once you have selected field of view capture method, press <b>Next</b>.</"
 "p>"
 msgstr ""
-"<p>Sélectionnez la méthode de capture de champ de vision. Il existe 2 "
+"<p>Sélectionnez la méthode d'acquisition de champ de vision. Il existe 2 "
 "méthodes : manuelle et basée sur le cheminement d'étoiles.</p>\n"
 "<p>Par la <b>méthode manuelle</b> vous naviguez sur la carte du ciel pour "
-"trouver des objets intéressants, puis capturez plusieurs champs de vision.</"
+"trouver des objets intéressants, puis faites une acquisition de plusieurs champs de vision.</"
 "p>\n"
-"<p><b>La méthode par cheminement d'étoiles</b> capture automatiquement des "
+"<p><b>La méthode par cheminement d'étoiles</b> fait une acquisition automatique des "
 "images du champ de vision. C'est une fonction expérimentale.</p>\n"
-"<p> Une fois sélectionnée la méthode de capture du champ de vision, appuyez "
+"<p> Une fois sélectionnée la méthode d'acquisition du champ de vision, appuyez "
 "sur <b>Suivant</b>.</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, typeLabel)
@@ -71362,14 +71341,14 @@ msgstr "Méthode de définition de champ de vision"
 #: printing/pwizfovtypeselection.ui:136
 #, kde-format
 msgid "Manually capture field of view snapshots"
-msgstr "Capturer manuellement des instantanés de champ de vision"
+msgstr "Faire une acquisition manuelle des instantanés de champ de vision"
 
 #. i18n: ectx: property (text), widget (QRadioButton, hopperRadio)
 #: printing/pwizfovtypeselection.ui:152
 #, kde-format
 msgid "Star hopper-based fields of view capture (experimental)"
 msgstr ""
-"Capture de champs de vision reposant sur le saut d'étoiles (expérimental)"
+"Acquisition de champs de vision reposant sur le saut d'étoiles (expérimental)"
 
 #. i18n: ectx: property (text), widget (QLabel, stepTitle)
 #: printing/pwizobjectselection.ui:71
@@ -71389,7 +71368,7 @@ msgid ""
 "<p>When done, press <b>Next</b> button.</p>"
 msgstr ""
 "<p>Sélectionnez l'objet à observer. Vous pouvez le choisir depuis une liste "
-"d'objets, en cliquant sur le bouton<b>Choisir objet depuis une liste</b>  ou "
+"d'objets, en cliquant sur le bouton<b>Choisir objet depuis une liste</b> ou "
 "pointez le sur la carte du ciel en appuyant sur <b>Pointer objet sur la "
 "carter</b>. Après la localisation de l'objet, appuyez avec le bouton droit "
 "de la souris et choisir <b>Choisir cet objet</b> depuis le menu contextuel.</"
@@ -71431,9 +71410,9 @@ msgid ""
 "button to get back to previous steps.</p>"
 msgstr ""
 "<p>Votre document est prêt pour l'impression. Cliquez sur "
-"<b>Prévisualisation impression </b> et <b>Imprimer</b>  pour imprimer. Vous "
+"<b>Prévisualisation impression</b> et <b>Imprimer</b>  pour imprimer. Vous "
 "pouvez aussi l'exporter vers un fichier.</p>\n"
-"<p>Si vous désirez modifié le contenu du document, cliquez sur <b>Précédent</"
+"<p>Si vous désirez modifier le contenu du document, cliquez sur <b>Précédent</"
 "b> pour revenir à l'étape précédente.</p>"
 
 #. i18n: ectx: property (text), widget (QPushButton, previewButton)
@@ -71469,7 +71448,7 @@ msgid ""
 "<p>To get started, press the <b>Next</b> button.</p>"
 msgstr ""
 "<html><head></head><body><p>Cet assistant va vous aider à configurer "
-"certaines paramètres, tels que pour imprimer les graphiques de recherche "
+"certains paramètres, tels que pour imprimer les graphiques de recherche "
 "avec des formulaires de connexion.</p>\n"
 "<p>Pour commencer, cliquez sur le bouton <b>Suivant</b>.</p>"
 
@@ -71532,7 +71511,7 @@ msgid ""
 "the new one?"
 msgstr ""
 "Importer des objets personnalisés et résolus par Internet de l'ancienne base "
-"de données des objets du ciel lointains dans une nouvelle ?"
+"de données des objets du ciel profond dans une nouvelle ?"
 
 #: skycomponents/catalogscomponent.cpp:327
 #: skycomponents/catalogscomponent.cpp:334
@@ -71691,7 +71670,7 @@ msgstr "Mise à jour des éléments orbitaux des satellites"
 #, kde-format
 msgid "Failed to load the DSO database."
 msgstr ""
-"Il est impossible de charger la base de données des objets du ciel profond."
+"Impossible de charger la base de données des objets du ciel profond."
 
 #: skycomponents/skymapcomposite.cpp:133
 #, kde-format
@@ -71707,7 +71686,7 @@ msgstr ""
 #: skycomponents/solarsystemcomposite.cpp:25
 #, kde-format
 msgid "Loading solar system"
-msgstr "Chargement du Système solaire"
+msgstr "Chargement du système solaire"
 
 #: skycomponents/starcomponent.cpp:62
 #, kde-format
@@ -71857,7 +71836,7 @@ msgstr "Callisto"
 #: tools/eclipsetool/lunareclipsehandler.h:57
 #, kde-format
 msgid "Earth Shadow"
-msgstr "Ombre de la terre"
+msgstr "Ombre de la Terre"
 
 #: skyobjects/ksmoon.cpp:292
 #, kde-format
@@ -72239,12 +72218,12 @@ msgstr "Erreur d'analyse de « TimeZoneRule », utilisation d'une règle vide.
 #: time/timezonerule.cpp:104
 #, kde-format
 msgid "Could not parse %1 as a valid month code."
-msgstr "Il est impossible d'analyser %1 comme code de mois valable."
+msgstr "Impossible d'analyser %1 comme code de mois valable."
 
 #: time/timezonerule.cpp:217
 #, kde-format
 msgid "Could not parse %1 as a valid day code."
-msgstr "Il est impossible d'analyser %1 comme code de jour valable."
+msgstr "Impossible d'analyser %1 comme code de jour valable."
 
 #. i18n: ectx: @info:tipoftheday
 #: tips:2
@@ -72258,7 +72237,7 @@ msgid ""
 "\t\n"
 msgstr ""
 "\t\t<p>Vous pouvez repérer des objets dans le ciel par leur nom.\n"
-"\t\t\tUtilisez Ctrl+F, l'élément de menu « Pointage / Chercher un objet » ou "
+"\t\t\tUtilisez Ctrl+F, l'élément de menu « Pointage/Chercher un objet » ou "
 "le\n"
 "\t\t\tbouton de barre d'outils « Chercher un objet »\n"
 "\t\t</p>\n"
@@ -72497,7 +72476,7 @@ msgid ""
 msgstr ""
 "\t\t<p>Vous pouvez augmenter ou réduire l'affichage du zoom en faisant "
 "tourner la molette de votre\n"
-"\t\t\tsouris ou en faisant glisser la souris vers le haut ou vers le bas en "
+"\t\t\tsouris ou en faisant glisser la souris vers le haut ou vers le bas "
 "en maintenant enfoncé le bouton central.\n"
 "\t\t\tIl est également possible d'utiliser les touches +/- ou les éléments "
 "« Zoom avant » et\n"
@@ -72892,7 +72871,7 @@ msgid ""
 "\t\n"
 msgstr ""
 "\t\t<p>KStars intègre une suite très puissante d'astrophotographie nommée "
-"Ekos. Ce dernière vous permet de contrôler un équipement d'astrophotographie "
+"Ekos. Cette dernière vous permet de contrôler un équipement d'astrophotographie "
 "grâce à INDI, de réaliser la mise au point automatique, etc. et de mettre en "
 "place des séquences automatiques d'acquisition.\n"
 "\t\t</p>\n"
@@ -73012,7 +72991,7 @@ msgid ""
 "\t\n"
 msgstr ""
 "\t\t<p>Par défaut, KStars est livré avec les catalogues d'objets du ciel "
-"profond NGC et IC.  Vous pouvez télécharger beaucoup plus de catalogues à "
+"profond NGC et IC. Vous pouvez télécharger beaucoup plus de catalogues à "
 "partir de l'option Fichier->Télécharger de nouvelles données. Vous pouvez "
 "aussi créer vos propres catalogues personnalisés et les ajouter.\n"
 "\t\t</p>\n"
@@ -73128,7 +73107,7 @@ msgid ""
 msgstr ""
 "\t\t<p>Vous pouvez facilement basculer entre les modèles de couleurs "
 "prédéfinis en sélectionnant\n"
-"\t\t\tle Modèle de couleurs depuis le menu « Configuration/Modèles de "
+"\t\t\tle modèle de couleurs depuis le menu « Configuration/Modèles de "
 "couleurs ».\n"
 "\t\t</p>\n"
 "\t\n"
@@ -73208,11 +73187,11 @@ msgid ""
 "\t\t</p>\n"
 "\t\n"
 msgstr ""
-"\t\t<p>Si vous utilisé une caméra pour capturer des images, vous pouvez "
+"\t\t<p>Si vous utiliser une caméra pour l'acquisition des images, vous pouvez "
 "créer un symbole de champ de vision (CdV) qui représentera le capteur à "
 "l'échelle. Vous pouvez ensuite ajuster l'orientation du symbole de CdV pour "
 "correspondre à l'orientation de votre caméra. Vous voyez ainsi ce que celle-"
-"ci  enregistrera. L'éditeur de CdV est accessible à partir du menu "
+"ci enregistrera. L'éditeur de CdV est accessible à partir du menu "
 "Configuration-> Symbole CdV.\n"
 "\t\t</p>\n"
 "\t\n"
@@ -73446,11 +73425,11 @@ msgid ""
 "\t\t</p>\n"
 "\t\n"
 msgstr ""
-"\t\t<p> La distance des étoiles les plus proches peuvent être mesurées par "
+"\t\t<p>La distance des étoiles les plus proches peut être mesurée par "
 "la méthode de la parallaxe. L'idée est exposée dans le projet Astro Info. "
 "Kstars affiche les distances de beaucoup d'étoiles dans la fenêtre de "
 "Détails. Pour y accéder, cliquez simplement droit sur l'étoile et choisissez "
-"\"Détails\" dans le menu pop-up.\n"
+"« Détails » dans le menu pop-up.\n"
 "\t\t</p>\n"
 "\t\n"
 
@@ -73522,7 +73501,7 @@ msgid ""
 msgstr ""
 "\t\t<p>La meilleure façon d'observer un objet peu lumineux dans le ciel "
 "nocturne est de ne pas le regarder directement mais de regarder dans la "
-"région qui l'entoure ! Cette technique, appelée « vision décalée », "
+"région qui l'entoure ! Cette technique, appelée « vision décalée », "
 "fonctionne grâce à la façon dont les cellules à bâtonnets, qui sont "
 "sensibles à la lumière faible, sont placées sur la rétine de nos yeux.\n"
 "\t\t</p>\n"
@@ -73752,7 +73731,7 @@ msgid ""
 "and the data type of the option's value (string, integer, float or boolean)."
 msgstr ""
 "Cliquez sur ce bouton pour choisir parmi les options d'affichage depuis une "
-"liste en arbre, où elles sont groupées par sujet. Sont également présentés "
+"liste en arbre, où elles sont groupées par sujet. Est également présentée "
 "une courte description de chaque option et le type de données de la valeur "
 "de l'option (chaîne, entier, nombre flottant ou booléen)."
 
@@ -73778,7 +73757,7 @@ msgid ""
 "\"false\", \"1\", or \"0\".  If you are unsure what data type is expected, "
 "examine the Tree View of options using the \"Browse Tree...\" button."
 msgstr ""
-"Définissez ici la valeur pour l'option d'affichage sélectionné. Veuillez "
+"Définissez ici la valeur pour l'option d'affichage sélectionnée. Veuillez "
 "vous assurer que la valeur que vous saisissez correspond au type de données "
 "attendu par l'option. Par exemple, comme l'option « UseAltAz » attend une "
 "valeur booléenne, vous devrez indiquer « Vrai », « Faux », « 1 » ou « 0 ». "
@@ -73987,12 +73966,12 @@ msgid ""
 msgstr ""
 "Si cette option est cochée, le ciel reste focalisé sur sa position ou son "
 "objet actuel au fur et à mesure que le temps passe. Cette fonction est "
-"appelée « suivi ». Notez que le suivi est automatiquement engagée à chaque "
-"fois qu'un objet est centré au point de focus. Ainsi, si vous utilisez "
+"appelée « suivi ». Notez que le suivi est automatiquement engagé à chaque "
+"fois qu'un objet est centré au point de mise au point. Ainsi, si vous utilisez "
 "« lookToward » avec un nom d'objet, vous n'avez pas besoin d'engager le "
 "suivi.\n"
 "\n"
-"Si la case n'est pas cochée, alors le suivi sera désactivée, même si un "
+"Si la case n'est pas cochée, alors le suivi sera désactivé, même si un "
 "objet a été centré. Au fur et à mesure que le temps passe, le ciel semble "
 "alors dériver (en raison de la rotation de la Terre)."
 
@@ -74111,9 +74090,9 @@ msgid ""
 "duration of the seasons</LI></UL></QT>"
 msgstr ""
 "<QT>Section comprenant des algorithmes pour le calcul des éphémérides de "
-"temps<UL><LI><B>Jour julien :</B> conversion de jour julien / calendaire</"
-"LI> <LI><B>Temps sidéral :</B> conversion de temps sidéral  / universel</LI> "
-"<LI><B>Almanach :</B> horaire de lever / coucher / transit et données de "
+"temps<UL><LI><B>Jour julien :</B> conversion de jour julien/calendaire</"
+"LI><LI><B>Temps sidéral :</B> conversion de temps sidéral/universel</LI> "
+"<LI><B>Almanach :</B> horaire de lever/coucher/transit et données de "
 "position pour le Soleil et la Lune.</LI> <LI><B>Équinoxes et Solstices :</B> "
 "équinoxes, solstices et durée des saisons</LI></UL></QT>"
 
@@ -74134,15 +74113,15 @@ msgid ""
 msgstr ""
 "<QT>Section comprenant des algorithmes pour la conversion de différents "
 "systèmes de coordonnées astronomiques<UL><LI><B>Galactiques :</B> conversion "
-"de coordonnées galactiques / équatoriales</LI><LI><B>Apparentes :</B> calcul "
+"de coordonnées galactiques/équatoriales</LI><LI><B>Apparentes :</B> calcul "
 "des coordonnées équatoriales actuelles à partir d'une date de référence "
 "(epoch) donnée</LI><LI><B>Écliptiques :</B> conversion de coordonnées "
-"écliptiques / équatoriales</LI> <LI><B>Horizontales :</B> calcul de l'azimut "
+"écliptiques/équatoriales</LI> <LI><B>Horizontales :</B> calcul de l'azimut "
 "et de l'élévation pour une source, un moment et une position sur la Terre "
 "donnés</LI><LI><B>Distance angulaire :</B> calcul de la distance angulaire "
 "entre deux objets dont les positions sont indiquées en coordonnées "
 "équatoriales</LI><LI><B>Coordonnées géodésiques :</B> conversion de "
-"coordonnées géodésiques / XYZ</LI><LI><B>Vitesse « LRS » :</B> calcul de la "
+"coordonnées géodésiques/XYZ</LI><LI><B>Vitesse « LRS » :</B> calcul de la "
 "vitesse radiale héliocentrique, géocentrique et topocentrique d'une source à "
 "partir de sa vitesse LRS</LI></UL></QT>"
 
@@ -74829,40 +74808,40 @@ msgid ""
 "the Terrain background feature.</li></ul></body></html>"
 msgstr ""
 "<html><head/><body><p>L'horizon artificiel est utilisé pour définir les "
-"<span style=\" font-weight:600;\">régions</span> sur la carte du ciel qui "
+"<span style=\"font-weight:600;\">régions</span> sur la carte du ciel qui "
 "sont <span style=\" font-style:italic;\">inaccessibles</span> depuis votre "
 "point d'observation (i.e. à cause d'arbres ou de bâtiments). Ces zones "
 "peuvent être au-dessus ou en dessous de segments de ligne que vous "
 "saisissez. Ces contraintes d'horizon artificiel sont tenues en compte par "
 "l'ordonnanceur pour démarrer ou arrêter une tâche.</p><ul style=\"margin-"
 "top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-"
-"indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-"
+"indent: 1;\"><li style=\"margin-top:12px; margin-bottom:0px; margin-"
 "left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Pour "
-"dessiner <span style=\" font-weight:600;\">une région</span>, il faut placer "
-"une série de <span style=\" font-weight:600;\">points</span> (<span style=\" "
+"dessiner <span style=\"font-weight:600;\">une région</span>, il faut placer "
+"une série de <span style=\"font-weight:600;\">points</span> (<span style=\""
 "font-style:italic;\">au minimum</span> 2) qui délimite la zone.</li><ul "
 "style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: "
-"0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; "
+"0px; -qt-list-indent: 1;\"><li style=\"margin-top:0px; margin-bottom:0px; "
 "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Le "
-"mode <span style=\" font-style:italic;\">plafond/fenêtre</span> permet de "
+"mode <span style=\"font-style:italic;\">plafond/fenêtre</span> permet de "
 "bloquer la zone au-dessus de la ligne (plafond) ou en dessous (fenêtre).</"
-"li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"li><li style=\"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">Le bouton « + » ajoute une "
 "ligne dans le tableau de points et permet de saisir manuellement les "
-"coordonnée d'un point.</li>  <li style=\" margin-top:0px; margin-bottom:0px; "
+"coordonnée d'un point.</li>  <li style=\"margin-top:0px; margin-bottom:0px; "
 "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> "
-"Vous pouvez également placer les points <span style=\" font-style:italic;"
+"Vous pouvez également placer les points <span style=\"font-style:italic;"
 "\">directement sur la carte du ciel</span> en utilisant le bouton <span "
-"style=\" font-weight:600;\">Placer les points sur la carte du ciel</span>, "
-"en haut à droite.</li></ul><li style=\" margin-top:0px; margin-bottom:0px; "
+"style=\"font-weight:600;\">Placer les points sur la carte du ciel</span>, "
+"en haut à droite.</li></ul><li style=\"margin-top:0px; margin-bottom:0px; "
 "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
-"\">Activez une région <span style=\" font-style:italic;\">en cochant sa "
-"case</span>. </li><li style= \" margin-top:0px; margin-bottom:0px; margin-"
+"\">Activez une région <span style=\"font-style:italic;\">en cochant sa "
+"case</span>. </li><li style= \"margin-top:0px; margin-bottom:0px; margin-"
 "left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">La "
 "sélection d'une région affiche ses points sur la carte du ciel. </li><li "
-"style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"style=\"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">Confirmez en cliquant sur "
-"<span style=\" font-style:italic;\">Appliquer</span>.</li><li style=\" "
+"<span style=\"font-style:italic;\">Appliquer</span>.</li><li style=\""
 "margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-"
 "block-indent:0; text-indent:0px;\">Définir des régions est plus facile avec "
 "la fonction « Terrain d'arrière-plan ».</li></ul></body></html>"
@@ -74955,7 +74934,7 @@ msgstr "Seconde position"
 #: tools/scriptbuilder.cpp:984
 #, kde-format
 msgid "Could not open file %1."
-msgstr "Il est impossible d'ouvrir le fichier %1."
+msgstr "Impossible d'ouvrir le fichier %1."
 
 #: tools/modcalcangdist.cpp:145 tools/modcalcapcoord.cpp:155
 #: tools/modcalcdaylength.cpp:266 tools/modcalcgalcoord.cpp:203
@@ -75602,7 +75581,7 @@ msgid ""
 "and country.  If the string contains spaces, enclose it in quotes so it gets "
 "parsed properly."
 msgstr ""
-"Les chaînes de position se composent des noms - séparés par des virgules- de "
+"Les chaînes de position se composent des noms séparés par des virgules de la "
 "la ville, de la région et du pays. Si la chaîne contient des espaces, "
 "entourez-la de guillemets pour qu'elle puisse être analysée correctement."
 
@@ -75921,7 +75900,7 @@ msgid ""
 "Stars and objects whose names KStars does not know are not supported in the "
 "observing lists"
 msgstr ""
-"Les étoiles et objects que KStars ne connait pas ne sont pas prises en "
+"Les étoiles et objets que KStars ne connait pas ne sont pas prises en "
 "charge dans les listes d'observation"
 
 #: tools/observinglist.cpp:274
@@ -76167,7 +76146,7 @@ msgstr "Impossible d'enregistrer une liste vide de session."
 #, kde-format
 msgid "Could not open file %1.  Try a different filename?"
 msgstr ""
-"Il est impossible d'ouvrir le fichier %1. Essayer un nom de fichier "
+"Impossible d'ouvrir le fichier %1. Essayer un nom de fichier "
 "différent ?"
 
 #: tools/observinglist.cpp:1174
@@ -76411,7 +76390,7 @@ msgstr "Heure planifiée"
 #: tools/observinglist.ui:545
 #, kde-format
 msgid "Select an Object to View Information here"
-msgstr "Sélectionnez un objet pour afficher des informations ici"
+msgstr "Sélectionner un objet pour afficher des informations ici"
 
 #. i18n: ectx: property (text), widget (QLabel, ImagePreview)
 #: tools/observinglist.ui:597
@@ -76668,7 +76647,7 @@ msgstr "Ciel profond"
 #: tools/obslistwizard.ui:200
 #, kde-format
 msgid "Select all solar system object types in the list"
-msgstr "Sélectionner tous les types d'objets du Système solaire dans la liste"
+msgstr "Sélectionner tous les types d'objets du système solaire dans la liste"
 
 #. i18n: ectx: property (text), widget (QLabel, RegionSelectText)
 #: tools/obslistwizard.ui:259
@@ -76734,9 +76713,9 @@ msgid ""
 msgstr ""
 "<html><head></head><body><p>Sélectionnez des objets dans une région "
 "rectangulaire</p><p></p><p>Sur cette page, vous pouvez limiter votre liste "
-"d'observation à ces objets occupant une région rectangulaire particulière "
+"d'observations à ces objets occupant une région rectangulaire particulière "
 "dans le ciel. Indiquez la région rectangulaire en sélectionnant les limites "
-"de l'ascension droite (AD) et de la déclinaison (Déc) qui définissent la "
+"de l'ascension droite (AD) et de la déclinaison (DEC) qui définissent la "
 "région.</p><p></p><p>Lorsque vous avez terminé, cliquez sur <span style="
 "\"font-weight:600;\">Suivant</span> pour continuer.</p> </body></html>"
 
@@ -76773,11 +76752,11 @@ msgid ""
 msgstr ""
 "<html><head></head><body><p>Sélectionnez des objets dans une région "
 "circulaire</p><p></p><p>Sur cette page, vous pouvez limiter votre liste "
-"d'observation à ces objets occupant une région circulaire particulière dans "
+"d'observations à ces objets occupant une région circulaire particulière dans "
 "le ciel. Indiquez la région circulaire en sélectionnant les coordonnées de "
-"l'ascension droite (AD) et de la déclinaison (Déc) pour le centre du cercle, "
+"l'ascension droite (AD) et de la déclinaison (DEC) pour le centre du cercle, "
 "ainsi que la taille du rayon du cercle, en degrés.</p><p></p><p>Lorsque vous "
-"avez terminé, cliquez sur <span style=\" font-weight:600;\">Suivant</span> "
+"avez terminé, cliquez sur <span style=\"font-weight:600;\">Suivant</span> "
 "pour continuer.</p> </body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, CenterRALabel)
@@ -76790,7 +76769,7 @@ msgstr "centrer l'AD :"
 #: tools/obslistwizard.ui:616
 #, kde-format
 msgid "center Dec:"
-msgstr "centrer la Déc :"
+msgstr "centrer la DEC :"
 
 #. i18n: ectx: property (text), widget (QLabel, RadiusLabel)
 #: tools/obslistwizard.ui:642
@@ -76815,14 +76794,14 @@ msgid ""
 msgstr ""
 "<html><head></head><body><p>Sélectionnez des objets observables à une "
 "certaine date</p><p></p><p>sur cette page, vous pouvez limiter votre liste "
-"d'observation aux seuls objets pouvant être observés à une certaine date (et "
+"d'observations aux seuls objets pouvant être observés à une certaine date (et "
 "depuis une position géographique particulière sur la Terre). Pour filtrer "
 "votre liste de cette façon, cochez la case ci-dessous puis sélectionnez la "
 "date souhaitée. Si vous laissez cette case non cochée, alors votre liste "
 "comprendra des objets, qu'ils soient ou non observables (réglage par "
 "défaut). Vous pouvez aussi changer la position géographique utilisée pour "
 "déterminer si les objets sont ou non observables.</p><p></p><p>Lorsque vous "
-"avez terminé, cliquez sur <span style=\" font-weight:600;\">Suivant</span> "
+"avez terminé, cliquez sur <span style=\"font-weight:600;\">Suivant</span> "
 "pour continuer.</p><p></p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -77042,12 +77021,12 @@ msgstr "Supprime l'étiquette de nom de l'objet nommé %1."
 #: tools/scriptbuilder.cpp:187
 #, kde-format
 msgid "Add a trail to the solar system body named %1."
-msgstr "Ajoute une trace au corps de Système solaire nommé %1."
+msgstr "Ajoute une trace au corps de système solaire nommé %1."
 
 #: tools/scriptbuilder.cpp:189
 #, kde-format
 msgid "Remove the trail from the solar system body named %1."
-msgstr "Supprime la trace du corps de Système solaire nommé %1."
+msgstr "Supprime la trace du corps de système solaire nommé %1."
 
 #: tools/scriptbuilder.cpp:192
 #, kde-format
@@ -77153,7 +77132,7 @@ msgid ""
 msgstr ""
 "Imprime l'image du ciel sur une imprimante ou dans un fichier. Si %1 est "
 "vrai, la boîte de dialogue d'impression s'affichera. Si %2 est vrai, le "
-"modèle de couleurs de la carte du ciel sera utilisée pour l'impression."
+"modèle de couleurs de la carte du ciel sera utilisé pour l'impression."
 
 #: tools/scriptbuilder.cpp:236
 #, kde-format
@@ -77239,7 +77218,7 @@ msgstr "(Dés)active l'affichage de la boîte d'informations de la mise au point
 #: tools/scriptbuilder.cpp:421
 #, kde-format
 msgid "(un)Shade Time InfoBox"
-msgstr "(Dés)Enroule la boîte d'informations de temps"
+msgstr "(Dés)enroule la boîte d'informations de temps"
 
 #: tools/scriptbuilder.cpp:424
 #, kde-format
@@ -77284,7 +77263,7 @@ msgstr "(Dés)active l'affichage des objets du ciel profond"
 #: tools/scriptbuilder.cpp:463
 #, kde-format
 msgid "Toggle display of all solar system bodies"
-msgstr "(Dés)active l'affichage de tous les corps du Système solaire"
+msgstr "(Dés)active l'affichage de tous les corps du système solaire"
 
 #: tools/scriptbuilder.cpp:466
 #, kde-format
@@ -77445,7 +77424,7 @@ msgstr "Cacher les éléments"
 #, kde-format
 msgid "Toggle whether objects hidden while slewing display"
 msgstr ""
-"Indique si les objets doivent ou non être cachés lors d'une réorientation de "
+"Indiquer si les objets doivent ou non être cachés lors d'une réorientation de "
 "l'affichage"
 
 #: tools/scriptbuilder.cpp:601
@@ -77470,7 +77449,7 @@ msgstr "Cacher les étoiles faibles lors du déplacement vers la cible ?"
 #, kde-format
 msgid "Hide solar system bodies while slewing?"
 msgstr ""
-"Cacher les corps du Système solaire lors du déplacement vers la cible ?"
+"Cacher les corps du système solaire lors du déplacement vers la cible ?"
 
 #: tools/scriptbuilder.cpp:610
 #, kde-format
@@ -77530,12 +77509,12 @@ msgid ""
 "4=Bullseye)"
 msgstr ""
 "Sélectionner la forme de l'indicateur de champ de vision (0=Carré, 1=Cercle, "
-"2=Croix, 4=Œil-de-bœuf)"
+"2=Croix, 4=Cible)"
 
 #: tools/scriptbuilder.cpp:647
 #, kde-format
 msgid "int"
-msgstr "ent"
+msgstr "entier"
 
 #: tools/scriptbuilder.cpp:650
 #, kde-format
@@ -77625,7 +77604,7 @@ msgstr ""
 #: tools/scriptbuilder.cpp:816
 #, kde-format
 msgid "Could not download remote file."
-msgstr "Il est impossible de télécharger un fichier distant."
+msgstr "Impossible de télécharger un fichier distant."
 
 #: tools/scriptbuilder.cpp:816
 #, kde-format
@@ -77649,7 +77628,7 @@ msgstr ""
 #: tools/scriptbuilder.cpp:1110
 #, kde-format
 msgid "Could not parse script.  Line was: %1"
-msgstr "Il est impossible d'analyser le script. La ligne était : %1"
+msgstr "Impossible d'analyser le script. La ligne était : %1"
 
 #: tools/scriptbuilder.cpp:1521 tools/scriptbuilder.cpp:1525
 #: tools/scriptbuilder.cpp:1579 tools/scriptbuilder.cpp:2005
@@ -78135,7 +78114,7 @@ msgid ""
 "<b>brilliantly lit inner-city sky</b>.</p>"
 msgstr ""
 "<p>Quel est le degré de pollution lumineuse de votre ciel nocturne ? "
-"Veuillez Noter vos conditions de ciel nocturne de 1 à 9 en fonction de "
+"Veuillez noter vos conditions de ciel nocturne de 1 à 9 en fonction de "
 "<b>l'échelle de Bortle d'évaluation de la qualité du ciel noir</b>. Une note "
 "de <b>1</b> représente un <b>excellent site de ciel noir</b>, tandis que "
 "<b>9</b> représente un <b>ciel de centre-ville brillamment illuminé</b>.</p>"
@@ -78546,7 +78525,7 @@ msgstr ""
 #: tools/wutdialog.ui:412
 #, kde-format
 msgid "Rises at:  22:12"
-msgstr "Se lève à "
+msgstr "Se lève à 22 :12"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, ObjectTransitLabel)
 #: tools/wutdialog.ui:422
@@ -78562,7 +78541,7 @@ msgstr ""
 #: tools/wutdialog.ui:425
 #, kde-format
 msgid "Transits at:  03:45"
-msgstr "Transite à "
+msgstr "Transite à 03 :45"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, ObjectSetLabel)
 #: tools/wutdialog.ui:435
@@ -78578,7 +78557,7 @@ msgstr ""
 #: tools/wutdialog.ui:438
 #, kde-format
 msgid "Sets at:  08:22"
-msgstr "Se couche à "
+msgstr "Se couche à 08 :22"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, CenterButton)
 #: tools/wutdialog.ui:461
@@ -78613,7 +78592,7 @@ msgstr "Ouvrir la fenêtre Détails de l'objet"
 #: tools/wutdialog.ui:477 tools/wutdialog.ui:490
 #, kde-format
 msgid "Open the Details window for the highlighted object."
-msgstr "Ouvre la fenêtre Détails  de l'objet surligné."
+msgstr "Ouvre la fenêtre Détails de l'objet surligné."
 
 #. i18n: ectx: property (text), widget (QPushButton, DetailButton)
 #: tools/wutdialog.ui:480
@@ -79023,37 +79002,37 @@ msgstr "Les fichiers FIFO ne sont pas pris en charge par Windows"
 #, kde-format
 msgctxt "@title:window"
 msgid "Select XPlanet Config File"
-msgstr "Sélectionner le fichier de configuration de Xplanet"
+msgstr "Sélectionner le fichier de configuration de XPlanet"
 
 #: xplanet/opsxplanet.cpp:231
 #, kde-format
 msgctxt "@title:window"
 msgid "Select XPlanet Star Map File"
-msgstr "Sélectionnez un fichier de correspondance d'étoiles pour Xplanet"
+msgstr "Sélectionner un fichier de correspondance d'étoiles pour XPlanet"
 
 #: xplanet/opsxplanet.cpp:244
 #, kde-format
 msgctxt "@title:window"
 msgid "Select XPlanet Arc File"
-msgstr "Sélectionner un fichier arc pour Xplanet"
+msgstr "Sélectionner un fichier arc pour XPlanet"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_xplanetIsInternal)
 #: xplanet/opsxplanet.ui:45
 #, kde-format
 msgid "Xplanet binary is internal to the application bundle"
-msgstr "L'exécutable de Xplanet est interne au groupe d'applications."
+msgstr "L'exécutable de XPlanet est interne au groupe d'applications."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabelXplanetPath)
 #: xplanet/opsxplanet.ui:55
 #, kde-format
 msgid "Xplanet path:"
-msgstr "Chemin de Xplanet"
+msgstr "Chemin de XPlanet"
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_XplanetPath)
 #: xplanet/opsxplanet.ui:73
 #, kde-format
 msgid "Enter here the path of xplanet binary."
-msgstr "Saisissez ici le chemin de l'exécutable xplanet."
+msgstr "Saisissez ici le chemin de l'exécutable XPlanet."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabelXplanetGeometryX)
 #: xplanet/opsxplanet.ui:80
@@ -79071,7 +79050,7 @@ msgstr "Définit la largeur de la fenêtre"
 #: xplanet/opsxplanet.ui:107
 #, kde-format
 msgid "Set the width of the xplanet image"
-msgstr "Définir la largeur d'image de Xplanet"
+msgstr "Définir la largeur d'image de XPlanet"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_XplanetHeight)
 #: xplanet/opsxplanet.ui:130
@@ -79083,19 +79062,19 @@ msgstr "Définit la hauteur de la fenêtre"
 #: xplanet/opsxplanet.ui:133
 #, kde-format
 msgid "Set the height of the xplanet image"
-msgstr "Définir la hauteur d'image de Xplanet"
+msgstr "Définir la hauteur d'image de XPlanet"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_XplanetTimeout)
 #: xplanet/opsxplanet.ui:162
 #, kde-format
 msgid "The time KStars will wait for XPlanet to complete before giving up."
-msgstr "KStars attendra cette durée que Xplanet se termine avant d'abandonner."
+msgstr "KStars attendra cette durée que XPlanet se termine avant d'abandonner."
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: xplanet/opsxplanet.ui:169
 #, kde-format
 msgid "XPlanet timeout:"
-msgstr "Délai imparti pour Xplanet"
+msgstr "Délai imparti pour XPlanet"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: xplanet/opsxplanet.ui:176
@@ -79126,10 +79105,10 @@ msgid ""
 "save the hard disk from excessive reads/writes and may offer a performance "
 "enhancement.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Si cette case est cochée, Xplanet utilisera un fichier "
+"<html><head/><body><p>Si cette case est cochée, XPlanet utilisera un fichier "
 "FIFO dans le dossier /tmp pour sauvegarder temporairement les images "
-"Xplanet afin que KStars les charge et mette à jour la vue. Si cette option "
-"n'est pas cochée, Xplanet enregistrera les fichiers dans le dossier Xplanet "
+"XPlanet afin que KStars les charge et mette à jour la vue. Si cette option "
+"n'est pas cochée, XPlanet enregistrera les fichiers dans le dossier XPlanet "
 "du dossier de données de KStars. L'utilisation d'un fichier FIFO devrait "
 "éviter au disque dur des lectures/écritures excessives et peut offrir une "
 "amélioration des performances.</p></body></html>"
@@ -79256,9 +79235,9 @@ msgid ""
 "xplanet.sourceforge.net/maps.php\">http://xplanet.sourceforge.net/maps.php</"
 "a> "
 msgstr ""
-"Xplanet nécessite des cartes pour fonctionner correctement. Il n'est pas "
+"XPlanet nécessite des cartes pour fonctionner correctement. Il n'est pas "
 "livré avec beaucoup de cartes planétaires. Vous devez en télécharger "
-"quelques-unes afin de profiter pleinement des avantages de Xplanet. Voici un "
+"quelques-unes afin de profiter pleinement des avantages de XPlanet. Voici un "
 "bon point de départ : <a href=\"http://xplanet.sourceforge.net/maps.php"
 "\">http://xplanet.sourceforge.net/maps.php</a>."
 
@@ -79266,7 +79245,7 @@ msgstr ""
 #: xplanet/opsxplanet.ui:543
 #, kde-format
 msgid "XPlanet Planet Maps"
-msgstr "Cartes des planètes de Xplanet"
+msgstr "Cartes des planètes de XPlanet"
 
 #. i18n: ectx: attribute (title), widget (QWidget, XplanetTabLabel)
 #: xplanet/opsxplanet.ui:566
@@ -79587,7 +79566,7 @@ msgstr "PHD2: démarrage du décalage."
 #: ekos/manager/focusmanager.ui:281
 #, kde-format
 msgid "Focus HFR profile"
-msgstr "Profil de focus HFR "
+msgstr "Profil HFR de mise au point"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, focusStarView)
 #. i18n: ectx: property (text), widget (QLabel, focusStarView)
@@ -79668,7 +79647,7 @@ msgid ""
 "<html><head/><body><p>Sequence: <span style=\" color:#ff0000;\">*</span></"
 "p></body></html>"
 msgstr ""
-"<html><head/><body><p>Séquence <span style=\" color:#ff0000;\">*</span></"
+"<html><head/><body><p>Séquence : <span style=\" color:#ff0000;\">*</span></"
 "p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
@@ -79680,7 +79659,7 @@ msgid ""
 "<html><head/><body><p>Target: <span style=\" color:#ff0000;\">*</span></p></"
 "body></html>"
 msgstr ""
-"<html><head/><body><p>Cible <span style=\" color:#ff0000;\">*</span></p></"
+"<html><head/><body><p>Cible : <span style=\" color:#ff0000;\">*</span></p></"
 "body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_18)
@@ -79692,7 +79671,7 @@ msgid ""
 "<html><head/><body><p>Directory: <span style=\" color:#ff0000;\">*</span></"
 "p></body></html>"
 msgstr ""
-"<html><head/><body><p>Dossier <span style=\" color:#ff0000;\">*</span></"
+"<html><head/><body><p>Dossier : <span style=\" color:#ff0000;\">*</span></"
 "p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, alignEvery)
@@ -79763,7 +79742,7 @@ msgstr ""
 #: kstars.kcfg:2739
 #| msgid "List of index folder paths."
 msgid "HIPS offline full path."
-msgstr "Chemin local complet des images HiPS."
+msgstr "Chemin local complet des images HIPS."
 
 #: kstarsinit.cpp:627
 #| msgid "Mosaic FOV:"
