@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos-focus_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-22 10:31+0200\n"
+"POT-Creation-Date: 2022-07-23 09:13+0200\n"
 "PO-Revision-Date: 2022-06-15 08:55+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -16,399 +16,1364 @@ msgstr ""
 
 #. Tag: title
 #. +> trunk5
-#: ekos-focus.docbook:2
+#: ekos-focus.docbook:3
 #, no-c-format
 msgid "<title>Focus</title>"
 msgstr "<title>Mise au point</title>"
 
 #. Tag: primary
 #. +> trunk5
-#: ekos-focus.docbook:4
+#: ekos-focus.docbook:6
 #, no-c-format
 msgid "Tools"
 msgstr "Outils"
 
 #. Tag: secondary
 #. +> trunk5
-#: ekos-focus.docbook:5
+#: ekos-focus.docbook:8
 #, no-c-format
 msgid "Ekos"
 msgstr "Ekos"
 
 #. Tag: tertiary
 #. +> trunk5
-#: ekos-focus.docbook:6
+#: ekos-focus.docbook:10
 #, no-c-format
 msgid "<tertiary>Focus</tertiary>"
 msgstr "<tertiary>Mise au point</tertiary>"
 
 #. Tag: title
 #. +> trunk5
-#: ekos-focus.docbook:9
+#: ekos-focus.docbook:14
 #, no-c-format
 msgid "Theory Of Operation"
 msgstr "Théorie de la procédure"
 
 #. Tag: screeninfo
 #. +> trunk5
-#: ekos-focus.docbook:12
+#: ekos-focus.docbook:17
 #, no-c-format
 msgid "<screeninfo>Ekos Focus</screeninfo>"
 msgstr "<screeninfo>Mise au point Ekos</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: ekos-focus.docbook:20
+#: ekos-focus.docbook:25
 #, no-c-format
 msgid "<phrase>Ekos Focus</phrase>"
 msgstr "<phrase>Mise au point Ekos</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:25
-#, no-c-format
-msgid "In order to focus an image, Ekos needs to establish a numerical method for gauging how <emphasis>good</emphasis> your focus is. It's easy when you look at an image and can see it as <emphasis>unfocused</emphasis>, as the human is very good at detecting that, but <emphasis>how</emphasis> can Ekos possibly know that?"
+#: ekos-focus.docbook:30
+#, fuzzy, no-c-format
+#| msgid "In order to focus an image, Ekos needs to establish a numerical method for gauging how <emphasis>good</emphasis> your focus is. It's easy when you look at an image and can see it as <emphasis>unfocused</emphasis>, as the human is very good at detecting that, but <emphasis>how</emphasis> can Ekos possibly know that?"
+msgid "In order to focus an image, Ekos needs to establish a numerical method for gauging how <emphasis>good</emphasis> your focus is. It's easy when you look at an image and can see it as <emphasis>unfocused</emphasis>, as the human eye is very good at detecting that, but <emphasis>how</emphasis> can Ekos possibly know that?"
 msgstr "Afin de faire la mise au point d'une image, Ekos a besoin d'établir une méthode numérique pour juger la <emphasis>valeur</emphasis> de votre mise au point. Il est très facile pour un humain d'estimer si une image n'est pas <emphasis>nette</emphasis>, mais <emphasis>comment</emphasis> est-ce qu'Ekos peut le savoir ?"
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:28
-#, no-c-format
-msgid "There are multiple methods. One is to calculate the Full Width at Half Maximum (FHWM) of a star profile within an image, and then adjust the focus until an optimal (narrower) FWHM is reached. The problem with FWHM is that it assumes the initial focus position to be close to the critical focus. Additionally, FWHM does not perform very well under low-intensity fluxes. An Alternative method is Half-Flux-Radius (HFR), which is a measure of the width in pixels counting from the center of the stars until the accumulated intensity is half of the total flux of the star. HFR proved to be much more stable in conditions where you might have unfavorable sky conditions, when the brightness profile of the stars is low, and when the starting position of the focus is far from the optimal focus."
+#: ekos-focus.docbook:36
+#, fuzzy, no-c-format
+#| msgid "There are multiple methods. One is to calculate the Full Width at Half Maximum (FHWM) of a star profile within an image, and then adjust the focus until an optimal (narrower) FWHM is reached. The problem with FWHM is that it assumes the initial focus position to be close to the critical focus. Additionally, FWHM does not perform very well under low-intensity fluxes. An Alternative method is Half-Flux-Radius (HFR), which is a measure of the width in pixels counting from the center of the stars until the accumulated intensity is half of the total flux of the star. HFR proved to be much more stable in conditions where you might have unfavorable sky conditions, when the brightness profile of the stars is low, and when the starting position of the focus is far from the optimal focus."
+msgid "There are multiple methods. One is to calculate the Full Width at Half Maximum (FHWM) of a star profile within an image, and then adjust the focus until an optimal (narrower) FWHM is reached. The problem with FWHM is that it assumes the initial focus position to be close to the critical focus. Additionally, FWHM does not perform very well under low-intensity fluxes. An Alternative method is Half-Flux-Radius (HFR), which is a measure of the width in pixels counting from the center of the star until the accumulated intensity is half of the total flux of the star. HFR proved to be much more stable in conditions where you might have unfavorable sky conditions, when the brightness profile of the stars is low, and when the starting position of the focus is far from the optimal focus."
 msgstr "Il existe plusieurs méthodes. L'une d'entre elles est de calculer la largeur complète à la moitié de la hauteur (FWHM ou Full Width at Half Maximum) du profil d'une étoile de l'image et ensuite ajuster la mise au point jusqu'à minimiser cette valeur. Le problème avec cette méthode est qu'elle suppose que la position initiale de mise au point est proche de la mise au point optimale. De plus, elle ne se comporte pas très bien pour des flux très faibles. Une méthode alternative est le HFR (Half-Flux-Radius) qui mesure la largeur en pixels en comptant du centre de l'étoile jusqu'à ce que la valeur accumulée de l'intensité vaut la moitié du flux total de l'étoile. Cette méthode est bien plus stable dans des conditions de ciel défavorables et quand le profil de luminosité des étoiles est faible ou encore quand la position de départ de la mise au point est éloignée de la position optimale."
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:31
-#, no-c-format
-msgid "After Ekos processes an image, it selects the brightest star and starts measuring its HFR. It can automatically select the star, or you can select the star manually. It is usually recommended to select stars that are not too bright as they might get saturated during the focusing process. A magnitude 3 or 4 star is often sufficient."
+#: ekos-focus.docbook:49
+#, fuzzy, no-c-format
+#| msgid "After Ekos processes an image, it selects the brightest star and starts measuring its HFR. It can automatically select the star, or you can select the star manually. It is usually recommended to select stars that are not too bright as they might get saturated during the focusing process. A magnitude 3 or 4 star is often sufficient."
+msgid "After Ekos processes an image, it selects either a single star and starts measuring its HFR, or it selects a set of stars matching the criteria that have been set and calculates an average HFR. It can automatically select stars, or you can select a single star manually. It is recommended to allow Ekos to select a set of stars."
 msgstr "Après qu'Ekos ait traité une image, il sélectionne l'étoile la plus brillante et commence à mesurer son HFR. Il peut sélectionner une étoile automatiquement ou vous pouvez lui indiquer quelle étoile utiliser. Il est en général recommandé de sélectionner des étoiles pas trop brillantes car elles risqueraient d'être saturées durant la procédure de mise au point. Une magnitude d'étoile de 3 ou 4 est souvent suffisante."
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:34
+#: ekos-focus.docbook:55
 #, no-c-format
-msgid "Ekos then begins the focusing process by commanding the focuser to focus inwards or outwards, and re-measures the HFR. This establishes a V-shaped curve in which the sweet spot of optimal focus is at the center of the V-curve, and the slope of which depends on the properties of the telescope and camera in use. In Ekos, a full V-curve is never constructed as the focusing process works iteratively, so under most circumstances, a half V-curve shape as illustrated in the Focus Module image is measured."
-msgstr "Ekos commence ensuite la procédure de mise en point en indiquant au moteur de mise au point de faire la mise au point vers l'intérieur et vers l'extérieur et de mesurer à nouveau le HFR. Ce processus itératif produit une courbe en V dont le centre correspond à la position de mise au point optimale et dont la pente dépend des propriétés du télescope et de la caméra. Dans Ekos, une courbe en V complète n'est jamais construite puisque la procédure de mise au point fonctionne de manière itérative et que la plupart du temps, une demi courbe en V est mesurée, comme illustrée dans l'image du module de mise au point."
+msgid "Ekos supports 4 different focus algorithms: Iterative, Polynominal, Linear and Linear 1 Pass."
+msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:37
-#, no-c-format
-msgid "Because the HFR varies linearly with focus distance, it is possible to calculate the optimal focus point. In practice, Ekos operates iteratively by moving in discrete steps, decided initially by the user-configurable step size and later by the slope of the V-curve, to get closer to the optimal focus position where it then changes gears and performs smaller, finer moves to reach the optimal focus. In the default <guilabel>Iterative</guilabel> algorithm, the focus process stops when the measured HFR is within the configurable tolerance of the minimum recorded HFR in the process. In other words, whenever the process starts searching for a solution within a narrowly limited range, it checks if the current HFR is within % difference compared to the minimum HFR recorded, and if this condition is met then the autofocus process is considered successful. The default value is set to 1% and is sufficient for most situations. The <guilabel>Step</guilabel> options specify the number of <emphasis>initial</emphasis> ticks the focuser has to move. If the image is severely out of focus, we set the step size high (&ie; &gt; 250). On the other hand, if the focus is close to optimal focus, we set the step size to a more reasonable range (&lt; 50). It takes trial and error to find the best starting tick, but Ekos only uses that for the first focus motion, as all subsequent motions depend on the V-Curve slope calculations."
+#: ekos-focus.docbook:60
+#, fuzzy, no-c-format
+#| msgid "Because the HFR varies linearly with focus distance, it is possible to calculate the optimal focus point. In practice, Ekos operates iteratively by moving in discrete steps, decided initially by the user-configurable step size and later by the slope of the V-curve, to get closer to the optimal focus position where it then changes gears and performs smaller, finer moves to reach the optimal focus. In the default <guilabel>Iterative</guilabel> algorithm, the focus process stops when the measured HFR is within the configurable tolerance of the minimum recorded HFR in the process. In other words, whenever the process starts searching for a solution within a narrowly limited range, it checks if the current HFR is within % difference compared to the minimum HFR recorded, and if this condition is met then the autofocus process is considered successful. The default value is set to 1% and is sufficient for most situations. The <guilabel>Step</guilabel> options specify the number of <emphasis>initial</emphasis> ticks the focuser has to move. If the image is severely out of focus, we set the step size high (&ie; &gt; 250). On the other hand, if the focus is close to optimal focus, we set the step size to a more reasonable range (&lt; 50). It takes trial and error to find the best starting tick, but Ekos only uses that for the first focus motion, as all subsequent motions depend on the V-Curve slope calculations."
+msgid "<emphasis role=\"bold\">Iterative</emphasis>: In the Iterative algorithm, Ekos operates iteratively by moving in discrete steps, decided initially by the user-configurable step size and later by the slope of the V-Curve, to get closer to the optimal focus position where it then changes gears and performs smaller, finer moves to reach the optimal focus. The focus process stops when the measured HFR is within the configurable tolerance of the minimum recorded HFR in the process. In other words, whenever the process starts searching for a solution within a narrowly limited range, it checks if the current HFR is within % difference compared to the minimum HFR recorded, and if this condition is met then the Autofocus process is considered successful. The default value is set to 1% and is sufficient for most situations. The Step options specify the number of initial ticks the focuser has to move. If the image is severely out of focus, we set the step size high (i.e. greater than 250). On the other hand, if the focus is close to optimal focus, we set the step size to a more reasonable range (less than 50). It takes trial and error to find the best starting tick, but Ekos only uses that for the first focus motion, as all subsequent motions depend on the V-Curve slope calculations. Key features include:"
 msgstr "La valeur variant linéairement avec la distance de mise au point, il est possible de calculer la valeur optimale de la position de mise au point. Dans la pratique, Ekos fonctionne de manière itérative en déplaçant le moteur de mise au point par pas discrets dont la valeur a été décidée initialement par l'utilisateur et ensuite par la valeur de la pente de la courbe en V, afin de s'approcher de plus en plus de la position optimale et enfin en réduisant le nombre de pas lorsque la solution optimale est proche. Avec l'algorithme <guilabel>Itératif</guilabel> par défaut, la procédure s'arrête quand la valeur HFR mesurée se trouve dans une plage de tolérance prédéfinie. En d'autres termes, quand la procédure commence à chercher une solution dans cette plage de tolérance, elle vérifie si la valeur courante du HFR est % de différence comparée à la valeur HFR minimale mesurée et si c'est le cas, la procédure est réputée réussie. La valeur par défaut est 1% et est suffisante dans la plupart des situations. L'option <guilabel>Pas</guilabel> spécifie le nombre <guilabel>initial</guilabel> de pas pour le mouvement du moteur de mise au point. Si l'image est très loin de la mise au point optimale, on règle la taille des pas à une grande valeur (&cad; &gt; 250). Sinon, on peut réduire cette valeur (&lt; 50). Il faut procéder par tâtonnements pour trouver la meilleure valeur de départ, mais Ekos ne l'utilise que pour le premier mouvement de mise au point, les mouvements des suivantes dépendant des calculs de la pente de la courbe en V."
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:40
+#: ekos-focus.docbook:83 ekos-focus.docbook:110
 #, no-c-format
-msgid "When using the <guilabel>Polynomial</guilabel> algorithm, the process starts in the <guilabel>Iterative</guilabel> mode, but once we cross to the other side of the V-curve (&ie; once HFR values start increasing again after decreasing for a while), the Ekos performs polynomial fitting to find a solution that predicts the minimum possible HFR position. If a valid solution is found, the autofocus process is considered successful."
+msgid "The algorithm relies on the focuser having well controlled backlash."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:88 ekos-focus.docbook:115
+#, no-c-format
+msgid "The algorithm can be fast using a minimum number of steps."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:93
+#, no-c-format
+msgid "The algorithm works on a \"good enough\" paradigm whereby it stops when the HFR is within % Tolerance of the perceived minimum."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:101
+#, fuzzy, no-c-format
+#| msgid "When using the <guilabel>Polynomial</guilabel> algorithm, the process starts in the <guilabel>Iterative</guilabel> mode, but once we cross to the other side of the V-curve (&ie; once HFR values start increasing again after decreasing for a while), the Ekos performs polynomial fitting to find a solution that predicts the minimum possible HFR position. If a valid solution is found, the autofocus process is considered successful."
+msgid "<emphasis role=\"bold\">Polynomial</emphasis>: In the Polynomial algorithm, the process starts off in Iterative mode, but once we cross to the other side of the V-Curve (once HFR values start increasing again after decreasing for a while), then Ekos performs quadratic curve fitting to find a solution that predicts the minimum possible HFR position. Key features include:"
 msgstr "Quand l'algorithme <guilabel>Polynomial</guilabel> est utilisé, la procédure débute en mode <guilabel>Itératif</guilabel> mais une fois que l'on franchit l'autre côté de la courbe en V (&cad; quand les valeurs HFR recommencent d'augmenter après avoir diminué pour un moment), Ekos commence un calcul d'interpolation polynomial afin de trouver une solution qui prédit la position HFR minimale. Si une solution valable est trouvée, la procédure de mise au point est réputée réussie."
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:43
+#: ekos-focus.docbook:120
 #, no-c-format
-msgid "While Ekos Focus Module supports relative focusers, it is <emphasis role=\"bold\">highly recommended</emphasis> to use absolute focusers."
-msgstr "Bien que le module de mise au point d'Ekos gère les moteurs de mise au point à position relative, il est <emphasis role=\"bold\">hautement recommandé</emphasis> d'utiliser des moteurs de mise au point à position absolue."
+msgid "The algorithm uses curve fitting to pinpoint the optimum focus position."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:127
+#, no-c-format
+msgid "<emphasis role=\"bold\">Linear</emphasis>: In the Linear algorithm, Ekos steps outward from its starting point then moves inward taking regular datapoints through the point of optimum focus and then further inward, to draw a V-Curve. It then fits a quadratic curve to the datapoints and calculates the point of optimum focus. It then moves out again past the point of optimum focus, halves the stepsize and moves in again for a second pass. It looks to follow the curve from the first pass and find the minimum HFR. Due to randomness in the HFR measurements it uses the % tolerance to help decide when it has found a solution. Key features include:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:140
+#, no-c-format
+msgid "The algorithm compensates for focuser backlash and can deal with both consistent and inconsistent backlash."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:145
+#, no-c-format
+msgid "The algorithm is slow, taking 2 passes to identify optimum focus."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:150
+#, no-c-format
+msgid "The algorithm uses curve fitting to pinpoint the optimum focus position in pass 1, but then uses % Tolerance to try to stop as close as possible to this HFR on pass 2."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:156 ekos-focus.docbook:186
+#, no-c-format
+msgid "The algorithm is highly configurable with user control over many parameters like step size and number of steps."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:163
+#, no-c-format
+msgid "<emphasis role=\"bold\">Linear 1 Pass</emphasis>: In the Linear 1 Pass algorithm, Ekos initially performs like the Linear algorithm in establishing the first pass V-Curve and fitting a curve to it to find the solution. Then, however, it moves directly to the calculated minimum. Key features include:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:171
+#, no-c-format
+msgid "The algorithm compensates for focuser backlash, providing that backlash is consistent."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:176
+#, no-c-format
+msgid "The algorithm is fast, taking 1 pass to identify optimum focus."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:181
+#, no-c-format
+msgid "The algorithm uses more sophisticated curve fitting to pinpoint the optimum focus position."
+msgstr ""
 
 #. Tag: title
 #. +> trunk5
-#: ekos-focus.docbook:49
+#: ekos-focus.docbook:195
 #, no-c-format
 msgid "Focuser Group"
 msgstr "Moteur de mise au point"
 
 #. Tag: screeninfo
 #. +> trunk5
-#: ekos-focus.docbook:52
+#: ekos-focus.docbook:198
 #, no-c-format
 msgid "<screeninfo>Focuser Settings</screeninfo>"
 msgstr "<screeninfo>Réglages du moteur de mise au point</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: ekos-focus.docbook:60
+#: ekos-focus.docbook:206
 #, no-c-format
 msgid "<phrase>Focuser Settings</phrase>"
 msgstr "<phrase>Réglages du moteur de mise au point</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:65
-#, no-c-format
-msgid "Any INDI-compatible focuser is supported. It is recommended to use <emphasis role=\"bold\">absolute</emphasis> focusers since their absolute position is known on power up. In INDI, the focuser <emphasis>zero</emphasis> position is when the drawtube is <emphasis role=\"bold\">fully retracted</emphasis>. When focusing <emphasis>outwards</emphasis>, the focuser position increases, while it decreases when focusing <emphasis>inwards</emphasis>. The following focuser types are supported:"
+#: ekos-focus.docbook:211
+#, fuzzy, no-c-format
+#| msgid "Any INDI-compatible focuser is supported. It is recommended to use <emphasis role=\"bold\">absolute</emphasis> focusers since their absolute position is known on power up. In INDI, the focuser <emphasis>zero</emphasis> position is when the drawtube is <emphasis role=\"bold\">fully retracted</emphasis>. When focusing <emphasis>outwards</emphasis>, the focuser position increases, while it decreases when focusing <emphasis>inwards</emphasis>. The following focuser types are supported:"
+msgid "All INDI-compatible focusers are supported. It is recommended to use <emphasis role=\"bold\">absolute</emphasis> focusers for the best results since their absolute position is known on power up. In INDI, the focuser <emphasis>zero</emphasis> position is when the drawtube is <emphasis role=\"bold\">fully retracted</emphasis>. When focusing <emphasis>outwards</emphasis>, the focuser position increases, while it decreases when focusing <emphasis>inwards</emphasis>. The following focuser types are supported:"
 msgstr "Tout moteur de mise au point compatible INDI est géré. Il est recommandé d'utiliser des moteurs de mise au point à position <emphasis role=\"bold\">absolue</emphasis> puisque leur position absolue est connue à l'allumage. Dans INDI, la position <emphasis>zéro</emphasis> du moteur de mise au point correspond à un tube <emphasis role=\"bold\">complètement rentré</emphasis>. Quand la mise au point se fait vers l'extérieur, la position du moteur de mise au point augmente et inversement. Les types suivants de moteurs de mise au point sont gérés :"
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:70
-#, no-c-format
-msgid "<emphasis role=\"bold\">Absolute</emphasis>: Absolute Position Focusers such as RoboFocus, MoonLite, &etc;"
+#: ekos-focus.docbook:222
+#, fuzzy, no-c-format
+#| msgid "<emphasis role=\"bold\">Absolute</emphasis>: Absolute Position Focusers such as RoboFocus, MoonLite, &etc;"
+msgid "<emphasis role=\"bold\">Absolute</emphasis>: Absolute Position Focusers such as RoboFocus, MoonLite, ASI ZWO"
 msgstr "<emphasis role=\"bold\">Position absolue</emphasis> : moteurs de mise au point à position absolue tels que RoboFocus, Moonlite, &etc;"
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:75
+#: ekos-focus.docbook:227
 #, no-c-format
 msgid "<emphasis role=\"bold\">Relative</emphasis>: Relative Position Focusers."
 msgstr "<emphasis role=\"bold\">Position relative</emphasis> : moteur de mise au point à position relative."
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:80
-#, no-c-format
-msgid "<emphasis role=\"bold\">Simple Focusers</emphasis>: DC/PWM focusers with no position feedback."
+#: ekos-focus.docbook:232
+#, fuzzy, no-c-format
+#| msgid "<emphasis role=\"bold\">Simple Focusers</emphasis>: DC/PWM focusers with no position feedback."
+msgid "<emphasis role=\"bold\">Time Based</emphasis>: Time based focusers with no position feedback that adjust focus position by moving for a certain amount of time."
 msgstr "<emphasis role=\"bold\">Simple</emphasis> : moteurs de mise au point DC/PWM avec aucun retour de position."
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:85
+#: ekos-focus.docbook:238
 #, no-c-format
-msgid "For absolute focusers, you can set the ticks count. To view a continuous feed of the camera, click the <guibutton>Framing</guibutton> button. An image shall be captured repeatedly according to the CCD settings in the <guilabel>CCD and Filter Wheel</guilabel> group. You can focus in and out by pressing the respective buttons, and each shall move by the step size indicated in the focus settings. For absolute and relative focusers, the step size is in units of <emphasis>ticks</emphasis> and for simple DC focusers, the step size is in <emphasis>milliseconds</emphasis>."
-msgstr "Pour les moteurs de mise au point à position absolue, vous pouvez régler le comptage des pas. Pour avoir une visualisation en continu de la caméra, cliquez sur le bouton <guibutton>En boucle</guibutton>. Une image sera prise régulièrement selon les réglages du groupe <guilabel>CCD et roue à filtres</guilabel>. Vous pouvez mettre au point en avant ou en arrière en utilisant les boutons respectifs et chacun fera bouger d'un certain nombre de pas en fonction de ce qui a été configuré dans les réglages de la mise au point. Pour les moteurs de mise au point à position relative et absolue, la taille du pas est mesurée en <emphasis>cran</emphasis> et pour les moteurs de mise au point DC simple, il est mesuré en <emphasis>millisecondes</emphasis>. "
+msgid "Start off by selecting the Focuser from the dropdown."
+msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:88
+#: ekos-focus.docbook:240
 #, no-c-format
-msgid "To begin the autofocus process, simply click the <guibutton>Auto Focus</guibutton> button."
-msgstr "Pour débuter la procédure de mise au point automatique, cliquez simplement sur le bouton <guibutton>Démarrer</guibutton>."
+msgid "For absolute focusers, you can set the ticks count in the Initial Steps Size field in the <link linkend=\"focus-mechanics\">Mechanics</link> tab. For absolute and relative focusers, the step size is in units of <emphasis>ticks</emphasis> and for simple, or time based, focusers, the step size is in <emphasis>milliseconds</emphasis>. The <guibutton>In</guibutton> and <guibutton>Out</guibutton> buttons can then be used to move the focuser by this number of ticks."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:248
+#, no-c-format
+msgid "The Steps fields will initially contain the starting point in ticks for the focuser. As the focuser moves, the left field will update to reflect the focuser's current position. The right field will initially contain the starting position of the focuser but will update each time a successful Autofocus run completes, to keep a last good focus position. In addition you can set the right field to whatever value you like, and use the <guibutton>Goto</guibutton> button to move the focuser to this position."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:257
+#, no-c-format
+msgid "The <guibutton>Goto Focus Position</guibutton> button moves the focuser to the position in the righthand Steps field."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:260
+#, no-c-format
+msgid "The <guibutton>Stop Focuser Motion</guibutton> button stops the in-progress focuser motion."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:263
+#, no-c-format
+msgid "The <guibutton>Auto Focus</guibutton> button starts an Autofocus run. The <guibutton>Stop</guibutton> button is used to stop the run."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:267
+#, no-c-format
+msgid "The <guibutton>Capture Image</guibutton> button will take a frame based on the current settings in the <guilabel>CCD and Filter Wheel</guilabel> group. The <guibutton>Start Framing</guibutton> button will start repeatedly capturing frames until the <guibutton>Stop</guibutton> button is pressed."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:273
+#, no-c-format
+msgid "Some of the focus algorithms will attempt to cope with being started away from the point of optimum focus, but for predictable results, it is best to start from a position of being approximately in focus. For first time setup, <guibutton>Start Framing</guibutton> can be used along with the <guibutton>In</guibutton> and <guibutton>Out</guibutton> buttons to adjust the focus position to roughly minimize the HFR of the stars in the captured images. When Framing is used in this way, the <link linkend=\"focus-v-curve\">V-Curve</link> graph changes to show a time series of frames and their associated HFRs. This makes the framing process much easier to perform."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:284
+#, no-c-format
+msgid "If you are completely new to astronomy, it is always a good idea to get familiar with your equipment in daylight. This includes getting the approximate focus position on a distant object. This will provide a good starting position for focusing on stars when nighttime comes."
+msgstr ""
 
 #. Tag: title
 #. +> trunk5
-#: ekos-focus.docbook:94
+#: ekos-focus.docbook:291
 #, no-c-format
 msgid "CCD &amp; Filter Wheel Group"
 msgstr "CCD &amp; roue à filtres"
 
 #. Tag: screeninfo
 #. +> trunk5
-#: ekos-focus.docbook:97
+#: ekos-focus.docbook:294
 #, no-c-format
 msgid "<screeninfo>Focus CCD &amp; Filter Wheel Group</screeninfo>"
 msgstr "<screeninfo>Mise au point CCD &amp; roue à filtres</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: ekos-focus.docbook:105
+#: ekos-focus.docbook:302
 #, no-c-format
 msgid "<phrase>Focus CCD &amp; Filter Wheel Group</phrase>"
 msgstr "<phrase>Mise au point CCD &amp; roue à filtres</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:110
+#: ekos-focus.docbook:307
 #, no-c-format
-msgid "You must specify the CCD and Filter Wheel (if any) to be used during the focusing process. You can <emphasis role=\"bold\">lock</emphasis> a specific filter within the filter wheel to be utilized whenever the autofocus process is invoked. Usually, the user should select the Clear/Luminescence filter for this purpose so that Ekos always uses the same filter to perform the autofocus process. This locked filter is also used in the <link linkend=\"ekos-align\">Alignment Module</link> whenever it performs any astrometry capture."
-msgstr "Vous devez spécifier le CCD et la roue à filtres (si vous en avez une) à utiliser pour la procédure de mise au point automatique. Vous pouvez <emphasis role=\"bold\">verrouiller</emphasis> un filtre spécifique de la roue à filtres chaque fois que la procédure de mise au point automatique est invoquée. Généralement, l'utilisateur devrait choisir le filtre Clair/Luminance pour cet usage pour qu'Ekos puisse toujours utiliser le même filtre pour cette procédure. Ce filtre verrouillé est également utilisé pour le module <link linkend=\"ekos-align\">Alignement</link> pour les acquisitions d'astrométrie."
+msgid "Set the CCD to be used in the focus process from the dropdown. The <guibutton>Live Video</guibutton> button brings up the associated popup. Next set the exposure length. The <guibutton>Toggle Full Screen</guibutton> button pops the window displaying the focus frame out to a separate window. Pressing it again returns it within the focus window. The <guibutton>Show in FITS Viewer</guibutton> button pops-up a separate FITS Viewer window to display the focus frame, in addition to focus frame displayed within the focus window."
+msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:113
+#: ekos-focus.docbook:316
 #, no-c-format
-msgid "You may also select an <guilabel>Effect</guilabel> filter to enhance the image for preview purposes. It is highly advisable to turn off any effects during the focusing process as it may interfere with HFR calculations. For DSLRs cameras, you can change the ISO settings. You may reset the focusing subframe to full frame capture if you click the <guibutton>Reset</guibutton> button."
-msgstr "Vous pouvez aussi choisir un filtre <guilabel>Effets</guilabel> pour améliorer l'image pour les aperçus. Il est grandement conseillé d'éteindre tout effet durant la procédure de mise au point automatique puisqu'il risque d'interférer avec les calculs de HFR. Pour les APN, vous pouvez modifier les réglages d'ISO. Vous pouvez réinitialiser les sous-trames de mise au point à des acquisitions plein format en cliquant sur le bouton <guibutton>Réinitialiser</guibutton>."
+msgid "The next row of controls allows CCD parameters to be set. Choose a value from the binning dropdown and then set either the camera gain or ISO."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:322
+#, no-c-format
+msgid "<guilabel>Binning</guilabel>: Increasing the binning will change the image scale as well as resulting in brighter pixels. A good place to start would be 1x1 and then see whether better results can be obtained by binning at higher levels such as 2x2 or 4x4."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:329
+#, no-c-format
+msgid "<guilabel>Gain / ISO</guilabel>: Set the Gain / ISO for the CCD being used to focus. The value needs to be high enough to give a clear star pattern but not so high as to create too much noise to interfere with the focus operation. Some experimentation will be required to find an optimum value. If you are unsure where to start try unity gain for your camera and adjust from there."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:338
+#, no-c-format
+msgid "The next row of controls deals with the Filter Wheel, if there is one. Firstly, choose the Filter Wheel from the dropdown and the filter to use. To start focusing it will probably be easier to select the filter that allows the most light through, for example the Lum filter. The <guibutton>Filter Settings</guibutton> button brings up the <link linkend=\"capture-filter-settings\">Filter Settings</link> popup. This allows a number of parameters to be set per filter to be used during an Autofocus run which could be unattended so a user would not be available to set parameters at run time. Broadly these allow two types of focus runs:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:351
+#, no-c-format
+msgid "<emphasis role=\"bold\">Per Filter</emphasis>: When another module, for example, the Capture module requires a filter change, it is possible to automatically refocus for the new filter. The exposure to use for each filter is taken from the <link linkend=\"capture-filter-settings\">Filter Settings</link> popup. This is very useful where, for example, narrowband filter require longer exposure times than broadband filters."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:361
+#, no-c-format
+msgid "<emphasis role=\"bold\">Lock Filter</emphasis>: It is possible to specify a Lock filter to use when it is required to focus another filter. For example, if a Red filter is used and an Autofocus run required, it is possible to run the Autofocus using the Lum filter and then, when complete, adjust the focus position by an Offset value corresponding to the predetermined focus difference between the Lum and Red filters. This is useful when, for example, it is difficult to focus some filters directly without excessively long exposure times. Note that this locked filter approach may also used in the <link linkend=\"ekos-align\">Alignment Module</link> whenever it performs a capture for astrometry."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:375
+#, no-c-format
+msgid "You may select the temperature source from the dropdown on the next row of controls. Underneath are displayed the current temperature from the selected temperature source and the change in temperature between when the last successful Autofocus run completed and the current temperature. It is common practice to redo focus after significant temperature changes that alter the telescope's focus point. You may reset the focusing subframe to full frame capture if you click the <guibutton>Reset</guibutton> button."
+msgstr ""
 
 #. Tag: title
 #. +> trunk5
-#: ekos-focus.docbook:119
-#, no-c-format
-msgid "Settings"
-msgstr "Réglages"
+#: ekos-focus.docbook:386
+#, fuzzy, no-c-format
+#| msgid "<title>Focus</title>"
+msgid "<title>Focus Settings</title>"
+msgstr "<title>Mise au point</title>"
 
 #. Tag: screeninfo
 #. +> trunk5
-#: ekos-focus.docbook:122
+#: ekos-focus.docbook:389
 #, no-c-format
 msgid "<screeninfo>Focus Settings</screeninfo>"
 msgstr "<screeninfo>Réglages de la mise au point</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: ekos-focus.docbook:130
+#: ekos-focus.docbook:397
 #, no-c-format
 msgid "<phrase>Focus Settings</phrase>"
 msgstr "<phrase>Réglages de la mise au point</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:135
+#: ekos-focus.docbook:402
 #, no-c-format
-msgid "You may need to adjust focus settings in order to achieve a successful and reliable autofocus process. The settings are retained between sessions."
-msgstr "Il peut être nécessaire d'ajuster les réglages de mise au point pour réaliser une procédure de mise au point automatique réussie et fiable. Les réglages sont conservés entre les sessions."
+msgid "Next are 3 tabbed panes of parameters. These parameters are retained between sessions. First up is the Settings pane."
+msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:140
+#: ekos-focus.docbook:407
 #, no-c-format
-msgid "<emphasis role=\"bold\">Auto Star Select</emphasis>: Automatically select the best focus star from the image."
-msgstr "<emphasis role=\"bold\">Sélection automatique d'étoile</emphasis> : sélectionner automatiquement la meilleure étoile de mise au point de l'image."
+msgid "<guilabel>Auto Select Star</guilabel>: Allow Ekos to select the focus star(s) from the image. If not selected then the user will have to manually select a star."
+msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:144
-#, no-c-format
-msgid "<emphasis role=\"bold\">Subframe</emphasis>: Subframe around the focus star during the autofocus procedure. Enabling subframing can significantly speed up the focus process."
-msgstr "<emphasis role=\"bold\">Sous-trame</emphasis> : sous-trame autour de l'étoile à mettre au point durant la procédure de mise au point automatique. L'activation de cette option peut accélérer de manière significative la procédure."
-
-#. Tag: para
-#. +> trunk5
-#: ekos-focus.docbook:148
-#, no-c-format
-msgid "<emphasis role=\"bold\">Dark Frame</emphasis>: Check this option to capture a dark frame if necessary and perform dark-frame subtraction. This option can be useful in noisy images."
+#: ekos-focus.docbook:413
+#, fuzzy, no-c-format
+#| msgid "<emphasis role=\"bold\">Dark Frame</emphasis>: Check this option to capture a dark frame if necessary and perform dark-frame subtraction. This option can be useful in noisy images."
+msgid "<guilabel>Dark Frame</guilabel>: Check this option to perform dark-frame subtraction. This option can be useful in noisy images, where a pretaken dark is subtracted from the focus image before further processing."
 msgstr "<emphasis role=\"bold\">Image Dark</emphasis> : cochez cette option pour l'acquisition d'image Dark si nécessaire et réaliser une soustraction de cette image Dark."
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:152
+#: ekos-focus.docbook:418
 #, no-c-format
-msgid "<emphasis role=\"bold\">Suspend Guiding</emphasis>: Suspend Guiding while autofocus in progress. If the focus process can disrupt the guide star (&eg; when using Integrated Guide Port IGP whereas the guider is physically attached to the primary CCD), then it is recommended to enable this option. When using Off-Axis guider, then this option is not necessary."
-msgstr "<emphasis role=\"bold\">Suspendre le guidage</emphasis> : suspend le guidage pendant que la mise au point automatique est en cours. Si la procédure de mise au point peut perturber l'étoile guide (&cad; lors de l'utilisation du port guide intégré IGP où le guide est physiquement attaché au CCD primaire), alors il est recommandé d'activer cette option. Elle n'est cependant pas nécessaire pour les guides hors axe (OAG)."
+msgid "Dark frames are used by Focus, Alignment and Guiding. See the Dark Library feature within the <link linkend=\"ekos-capture\">Capture Module</link> for more details on how to setup Dark Frames."
+msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:156
-#, no-c-format
-msgid "<emphasis role=\"bold\">Box size</emphasis>: Sets the box size used to enclose the focus star. Increase if you have very large stars. For Bahtinov focus the box size can be increased even more to better enclose the Bahtinov diffraction pattern."
+#: ekos-focus.docbook:424
+#, fuzzy, no-c-format
+#| msgid "<emphasis role=\"bold\">Subframe</emphasis>: Subframe around the focus star during the autofocus procedure. Enabling subframing can significantly speed up the focus process."
+msgid "<guilabel>Sub Frame</guilabel>: Either use the Full Field of the camera or select a Subframe around the focus star during the Autofocus procedure. This is only relevant if a single star is used for focusing. Enabling subframing can speed up the focus process."
+msgstr "<emphasis role=\"bold\">Sous-trame</emphasis> : sous-trame autour de l'étoile à mettre au point durant la procédure de mise au point automatique. L'activation de cette option peut accélérer de manière significative la procédure."
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:432
+#, fuzzy, no-c-format
+#| msgid "<emphasis role=\"bold\">Box size</emphasis>: Sets the box size used to enclose the focus star. Increase if you have very large stars. For Bahtinov focus the box size can be increased even more to better enclose the Bahtinov diffraction pattern."
+msgid "<guilabel>Box</guilabel>: Sets the box size used to enclose the focus star when using <emphasis role=\"bold\">Sub Frame</emphasis>. Increase if you have very large stars. For Bahtinov focus the box size can be increased even more to better enclose the Bahtinov diffraction pattern."
 msgstr "<emphasis role=\"bold\">Taille de la boîte</emphasis> : règle la taille de la boîte qui délimite l'étoile de mise au point. Augmentez si vous avez de très grosses étoiles, Pour la mise au point avec un masque de Bathinov, vous pouvez encore plus l'augmenter pour inclure les motifs de diffraction."
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:160
+#: ekos-focus.docbook:440
 #, no-c-format
-msgid "<emphasis role=\"bold\">Max Travel</emphasis>: Maximum travel in ticks before the autofocus process aborts."
-msgstr "<emphasis role=\"bold\">Déplacement maximum</emphasis> : déplacement maximum en cran avant que la procédure de mise au point automatique ne s'arrête."
+msgid "<guilabel>Full Field</guilabel>: Either use the full field of the camera or select a Sub Frame around the focus star during the Autofocus procedure. If using multiple stars then this option must be selected."
+msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:164
+#: ekos-focus.docbook:447
 #, no-c-format
-msgid "<emphasis role=\"bold\">Step</emphasis>: <emphasis>Initial</emphasis> step size in ticks to cause a noticeable change in HFR value. For timer-based focuser, it is the initial time in milliseconds to move the focuser inward or outward."
-msgstr "<emphasis role=\"bold\">Pas</emphasis> : taille <emphasis>initiale</emphasis> de pas en cran pour causer un changement notable de la valeur HFR. Pour les moteurs de mise au point simple fondé sur le temps, cela correspond au temps en millisecondes pour déplacer le moteur de mise au point vers l'avant ou vers l'arrière."
+msgid "<guilabel>Annulus</guilabel>: Used in conjunction with Full Field, Annulus provides two input fields that together define a doughnut over the FOV of the camera. Stars falling outside of the doughnut are discounted from processing. Setting an inner value above 0% causes stars in the centre of the FOV to be discarded. This could be useful to avoid using stars in the target of the image (for example a galaxy) for focusing purposes. Setting an outer value below 100% causes stars in the edges of the FOV to be discarded during focusing. This could be useful if you do not have a flat field out to the edges of your FOV."
+msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:168
+#: ekos-focus.docbook:460
 #, no-c-format
-msgid "<emphasis role=\"bold\">Tolerance</emphasis>: The tolerance percentage values decides when the autofocus process stops in the <guilabel>Iterative</guilabel> algorithm. During the autofocus process, HFR values are recorded, and once the focuser is close to an optimal position, it starts measuring HFRs against the minimum recorded HFR in the sessions and stops whenever a measured HFR value is within % difference of the minimum recorded HFR. Decrease value to narrow optimal focus point solution radius. Increase to expand solution radius."
-msgstr "<emphasis role=\"bold\">Tolérance</emphasis> : le pourcentage de tolérance est le critère d'arrêt de la procédure de mise au point automatique pour l'algorithme <guilabel>Itératif</guilabel>. Durant cette procédure, les valeurs HFR sont enregistrées et une fois que le moteur de mise au point est proche de la position optimale, il compare les HFR aux valeurs de HFR minimales et s'arrête dès qu'une valeur HFR est dans cette plage de tolérance. Diminuez cette valeur pour restreindre le rayon de la solution et inversement."
+msgid "<guilabel>Suspend Guiding</guilabel>: Set this option to suspend guiding during an Autofocus run. An additional check is made to only suspend guiding if it is being carried out via the primary scope, for example when using an Off Axis Guider. The purpose of this is to prevent guiding from having problems with defocused stars during the focus process."
+msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:172
+#: ekos-focus.docbook:469
 #, no-c-format
-msgid "Setting the value too low might result in a repetitive loop and would most likely result in a failed autofocus process."
-msgstr "Veuillez noter que si cette valeur est trop faible, il est possible que l'algorithme entre dans une boucle qui fera échouer la procédure de mise au point automatique."
+msgid "<guilabel>Settle</guilabel>: This option is used in conjunction with <guilabel>Suspend Guiding</guilabel>. It allows any vibrations in the optical train to settle by waiting this many seconds after the Autofocus process has completed, before restarting guiding."
+msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:178
+#: ekos-focus.docbook:476
 #, no-c-format
-msgid "<emphasis role=\"bold\">Threshold</emphasis>: Threshold percentage value is used for star detection using the <emphasis>Threshold</emphasis> detection algorithm. Increase to restrict the centroid to bright cores. Decrease to enclose fuzzy stars."
+msgid "<guilabel>Use Weights</guilabel>: This is an experimental option only available with the Linear 1 Pass focus algorithm and Curve Types of Hyperbola and Parabola. It requires Full Field to be selected. The option calculates the standard deviation of star HFRs and uses the square of this (mathematically the variance) as a weighting in the curve fitting process. The advantage of this is that datapoints with less reliable data and therefore larger HFR standard deviations will be given less weight than more reliable datapoints. If this option is unchecked, and for all other curve fitting where the option is not allowed, all datapoints are given equal weight in the curve fitting process."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:488
+#, no-c-format
+msgid "See the <link linkend=\"Levenberg-Marquardt\">Levenberg-Marquardt Solver</link> for more details."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:493
+#, no-c-format
+msgid "<guilabel>R2 Limit</guilabel>: This is an experimental option only available with the Linear 1 Pass focus algorithm and Curve Types of Hyperbola and Parabola. As part of the Linear 1 Pass algorithm, the degree to which the curve fits the datapoints, or <link linkend=\"Coefficient_of_Determination\">Coefficient of Determination, R2</link>, is calculated. This option allow a minimum acceptable value of R2 to be defined that is compared to the value obtained from the curve fitting process. If the minimum value has not been achieved then Autofocus will rerun. Only one rerun will be performed and even if the minimum R2 has not been met the second time, the Autofocus run will still be deemed successful."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:505
+#, no-c-format
+msgid "Experiment to find an appropriate value but a good starting point would be 0.8 or 0.9"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: ekos-focus.docbook:512
+#, fuzzy, no-c-format
+#| msgid "<title>Focus</title>"
+msgid "<title>Focus Process</title>"
+msgstr "<title>Mise au point</title>"
+
+#. Tag: screeninfo
+#. +> trunk5
+#: ekos-focus.docbook:515
+#, fuzzy, no-c-format
+#| msgid "<screeninfo>Focus V-Curve</screeninfo>"
+msgid "<screeninfo>Focus Process</screeninfo>"
+msgstr "<screeninfo>Courbe en V de la mise au point</screeninfo>"
+
+#. Tag: phrase
+#. +> trunk5
+#: ekos-focus.docbook:523
+#, fuzzy, no-c-format
+#| msgid "<phrase>Focus V-Curve</phrase>"
+msgid "<phrase>Focus Process</phrase>"
+msgstr "<phrase>Courbe en V de la mise au point</phrase>"
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:528
+#, no-c-format
+msgid "This is the Focus Process parameters pane."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:532
+#, fuzzy, no-c-format
+#| msgid "<emphasis role=\"bold\">Detection</emphasis>: Select star detection algorithm. Each algorithm has its strengths and weaknesses. It is recommended to keep the default value unless it fails to properly detect stars."
+msgid "<guilabel>Detection</guilabel>: Select star detection algorithm. Each algorithm has its strengths and weaknesses. It is recommended to keep the default value, SEP, unless it fails to properly detect stars. The following are available:"
+msgstr "<emphasis role=\"bold\">Détection</emphasis> : choix de l'algorithme de détection d'étoile. Chaque algorithme a ses forces et ses faiblesses. Il est recommandé de conserver les valeurs par défaut sauf s'il échoue à détecter correctement les étoiles."
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:539
+#, no-c-format
+msgid "<emphasis role=\"bold\">SEP</emphasis>: Source Extraction and Photometry built in library. This is the default value."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:544
+#, fuzzy, no-c-format
+#| msgid "<emphasis role=\"bold\">Relative</emphasis>: Relative Position Focusers."
+msgid "<emphasis role=\"bold\">Centroid</emphasis>: An extraction method based on estimating star mass around signal peaks."
+msgstr "<emphasis role=\"bold\">Position relative</emphasis> : moteur de mise au point à position relative."
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:549
+#, fuzzy, no-c-format
+#| msgid "<emphasis role=\"bold\">Relative</emphasis>: Relative Position Focusers."
+msgid "<emphasis role=\"bold\">Gradient</emphasis>: A single source extraction model based on the Sobel filter."
+msgstr "<emphasis role=\"bold\">Position relative</emphasis> : moteur de mise au point à position relative."
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:554
+#, fuzzy, no-c-format
+#| msgid "<emphasis role=\"bold\">Absolute</emphasis>: Absolute Position Focusers such as RoboFocus, MoonLite, &etc;"
+msgid "<emphasis role=\"bold\">Threshold</emphasis>: A single source detection algorithm based on pixel values."
+msgstr "<emphasis role=\"bold\">Position absolue</emphasis> : moteurs de mise au point à position absolue tels que RoboFocus, Moonlite, &etc;"
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:559
+#, fuzzy, no-c-format
+#| msgid "<emphasis role=\"bold\">Bahtinov</emphasis>: This detection method can be used when using a Bahtinov mask for focusing. First take an image, then select the star to focus on. A new image will be taken and the diffraction pattern will be analysed. Three lines will be displayed on the diffraction pattern showing how well the pattern is recognized and how good the image is in focus. When the pattern is not well recognized, the 'Num. of rows' parameter can be adjusted to improve recognition. The line with the circles at each end is a magnified indicator for the focus. The shorter the line, the better the image is in focus."
+msgid "<emphasis role=\"bold\">Bahtinov</emphasis>: This detection method can be used when using a Bahtinov mask for focusing. First take an image, then select the star to focus on. A new image will be taken and the diffraction pattern will be analysed. Three lines will be displayed on the diffraction pattern showing how well the pattern is recognized and how good the image is in focus. When the pattern is not well recognized, the <emphasis>Num. of rows</emphasis> parameter can be adjusted to improve recognition. The line with the circles at each end is a magnified indicator for the focus. The shorter the line, the better the image is in focus."
+msgstr "<emphasis role=\"bold\">Bathinov</emphasis> : cette méthode de détection peut être utilisée quand un masque de Bathinov est utilisé pour la mise au point. Prenez d'abord une image, puis sélectionnez l'étoile sur laquelle faire la mise au point. Une nouvelle image sera prise et le motif de diffraction sera analysé. Trois lignes seront affichées sur le motif de diffraction montrant la qualité de la détection et de la mise au point. Quand le motif n'est pas bien détecté, le paramètre <quote>Nombre de lignes</quote> peut être ajusté pour améliorer la détection. La ligne avec les cercles aux deux bouts est un indicateur grossi pour la mise au point. Plus cette ligne est courte et meilleure sera la mise au point."
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:575
+#, no-c-format
+msgid "<guilabel>SEP Profile</guilabel>: If the star detection algorithm is set to <emphasis>SEP</emphasis>, then choose a parameter profile to use with the algorithm. It is recommended to use the default 1-Focus-Default profile as a starting point."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:582
+#, fuzzy, no-c-format
+#| msgid "<emphasis role=\"bold\">Threshold</emphasis>: Threshold percentage value is used for star detection using the <emphasis>Threshold</emphasis> detection algorithm. Increase to restrict the centroid to bright cores. Decrease to enclose fuzzy stars."
+msgid "<guilabel>Threshold</guilabel>: Threshold percentage value is used for star detection using the <emphasis>Threshold</emphasis> detection algorithm. Increase to restrict the centroid to bright cores. Decrease to enclose fuzzy stars."
 msgstr "<emphasis role=\"bold\">Seuil</emphasis> : la valeur en pourcentage du seuil est utilisée pour détecter les étoiles pour l'algorithme de détection <emphasis>Seuil</emphasis>. Augmentez cette valeur pour restreindre le centroïde aux cœurs brillants. Diminuez-là pour inclure les étoiles floues."
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:182
-#, no-c-format
-msgid "<emphasis role=\"bold\">Algorithm</emphasis>: Select the autofocus process algorithm:"
+#: ekos-focus.docbook:589
+#, fuzzy, no-c-format
+#| msgid "<emphasis role=\"bold\">Algorithm</emphasis>: Select the autofocus process algorithm:"
+msgid "<guilabel>Algorithm</guilabel>: Select the Autofocus process algorithm:"
 msgstr "<emphasis role=\"bold\">Algorithme</emphasis> : choisissez l'algorithme pour la procédure de mise au point automatique :"
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:186
-#, no-c-format
-msgid "<emphasis role=\"bold\">Iterative</emphasis>: Moves focuser by discreet steps initially decided by the step size. Once a curve slope is calculated, further step sizes are calculated to reach an optimal solution. The algorithm stops when the measured HFR is within percentage tolerance of the minimum HFR recorded in the procedure."
+#: ekos-focus.docbook:594
+#, fuzzy, no-c-format
+#| msgid "<emphasis role=\"bold\">Iterative</emphasis>: Moves focuser by discreet steps initially decided by the step size. Once a curve slope is calculated, further step sizes are calculated to reach an optimal solution. The algorithm stops when the measured HFR is within percentage tolerance of the minimum HFR recorded in the procedure."
+msgid "<emphasis role=\"bold\">Iterative</emphasis>: Moves focuser by discreet steps initially decided by the step size. Once a curve slope is calculated, further step sizes are calculated to reach an optimal solution. The algorithm stops when the measured HFR is within <emphasis role=\"bold\">Tolerance</emphasis> of the minimum HFR recorded in the procedure."
 msgstr "<emphasis role=\"bold\">Itératif</emphasis> : déplace le moteur de mise au point par pas discret de taille initiale fixée. Une fois que la pente de la courbe est calculée, les tailles de pas suivants sont calculés pour atteindre une solution optimale. L'algorithme s'arrête dès que la valeur HFR mesurée se trouve dans la plage de tolérance définie."
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:190
+#: ekos-focus.docbook:603
 #, no-c-format
 msgid "<emphasis role=\"bold\">Polynomial</emphasis>: Starts with the iterative method. Upon crossing to the other side of the V-Curve, polynomial fitting coefficients along with possible minimum solution are calculated. This algorithm can be faster than a purely iterative approach given a good data set."
 msgstr "<emphasis role=\"bold\">Polynomial</emphasis> : débute avec la méthode itérative. Quand la position passe de l'autre côté de la courbe en V, une interpolation polynomiale est calculée pour déterminer la position de la solution minimale. Cet algorithme peut être plus rapide que la méthode itérative avec un bon ensemble de données."
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:197
+#: ekos-focus.docbook:611
 #, no-c-format
-msgid "<emphasis role=\"bold\">Frames</emphasis>: Number of average frames to capture. During each capture, an HFR is recorded. If the instantaneous HFR value is unreliable, you can average a number of frames to increase the signal to noise ratio."
-msgstr "<emphasis role=\"bold\">Trames</emphasis> : nombre moyen de trames à acquérir. Un HFR est enregistré pour chaque acquisition. Si une valeur instantanée de HFR n'est pas fiable, vous pouvez faire la moyenne sur ce nombre de trames pour augmenter le rapport signal sur bruit."
+msgid "<emphasis role=\"bold\">Linear</emphasis>: This algorithm build a V-Curve with approximately <emphasis role=\"bold\">Out step Multiple</emphasis> steps on each side of the minimum. Having built the V-Curve it then fits a quadratic equation to the curve (parabolic shape) and uses this to calculate the focuser position giving the minimum HFR. Having identified the minimum it then performs a 2nd pass halving the step size, recreating the curve from the 1st pass. It attempts to stop within <emphasis role=\"bold\">Tolerance</emphasis> of the minimum HFR calculated during the 1st pass."
+msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:201
+#: ekos-focus.docbook:624
 #, no-c-format
-msgid "<emphasis role=\"bold\">Detection</emphasis>: Select star detection algorithm. Each algorithm has its strengths and weaknesses. It is recommended to keep the default value unless it fails to properly detect stars."
-msgstr "<emphasis role=\"bold\">Détection</emphasis> : choix de l'algorithme de détection d'étoile. Chaque algorithme a ses forces et ses faiblesses. Il est recommandé de conserver les valeurs par défaut sauf s'il échoue à détecter correctement les étoiles."
+msgid "<emphasis role=\"bold\">Linear 1 Pass</emphasis>: This algorithm starts in the same way as <emphasis role=\"bold\">Linear</emphasis> building a V-Curve. Having built the V-Curve it then fits the <emphasis role=\"bold\">Curve Fit</emphasis>type to the datapoints and then calculates the focuser position giving the minimum HFR. Having identified the minimum it then moves directly to that point in a way designed to neutralise backlash."
+msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:205
+#: ekos-focus.docbook:633
 #, no-c-format
-msgid "<emphasis role=\"bold\">Bahtinov</emphasis>: This detection method can be used when using a Bahtinov mask for focusing. First take an image, then select the star to focus on. A new image will be taken and the diffraction pattern will be analysed. Three lines will be displayed on the diffraction pattern showing how well the pattern is recognized and how good the image is in focus. When the pattern is not well recognized, the 'Num. of rows' parameter can be adjusted to improve recognition. The line with the circles at each end is a magnified indicator for the focus. The shorter the line, the better the image is in focus."
-msgstr "<emphasis role=\"bold\">Bathinov</emphasis> : cette méthode de détection peut être utilisée quand un masque de Bathinov est utilisé pour la mise au point. Prenez d'abord une image, puis sélectionnez l'étoile sur laquelle faire la mise au point. Une nouvelle image sera prise et le motif de diffraction sera analysé. Trois lignes seront affichées sur le motif de diffraction montrant la qualité de la détection et de la mise au point. Quand le motif n'est pas bien détecté, le paramètre <quote>Nombre de lignes</quote> peut être ajusté pour améliorer la détection. La ligne avec les cercles aux deux bouts est un indicateur grossi pour la mise au point. Plus cette ligne est courte et meilleure sera la mise au point."
+msgid "This algorithm supports the older style Quadratic curve type as well as the newer <link linkend=\"Levenberg-Marquardt\">Levenberg-Marquardt Solver</link> for Hyperbolic and Parabolic curves. It will also weight the datapoints in the curve fitting process if Use Weights is checked."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:644
+#, fuzzy, no-c-format
+#| msgid "You may also select an <guilabel>Effect</guilabel> filter to enhance the image for preview purposes. It is highly advisable to turn off any effects during the focusing process as it may interfere with HFR calculations. For DSLRs cameras, you can change the ISO settings. You may reset the focusing subframe to full frame capture if you click the <guibutton>Reset</guibutton> button."
+msgid "<guilabel>Effect</guilabel>: You may select an <guilabel>Effect</guilabel> filter to enhance the image for preview purposes. It is highly advisable to turn off any effects during the focusing process as it may interfere with HFR calculations. For DSLR cameras, you can change the ISO settings."
+msgstr "Vous pouvez aussi choisir un filtre <guilabel>Effets</guilabel> pour améliorer l'image pour les aperçus. Il est grandement conseillé d'éteindre tout effet durant la procédure de mise au point automatique puisqu'il risque d'interférer avec les calculs de HFR. Pour les APN, vous pouvez modifier les réglages d'ISO. Vous pouvez réinitialiser les sous-trames de mise au point à des acquisitions plein format en cliquant sur le bouton <guibutton>Réinitialiser</guibutton>."
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:652
+#, fuzzy, no-c-format
+#| msgid "<emphasis role=\"bold\">Tolerance</emphasis>: The tolerance percentage values decides when the autofocus process stops in the <guilabel>Iterative</guilabel> algorithm. During the autofocus process, HFR values are recorded, and once the focuser is close to an optimal position, it starts measuring HFRs against the minimum recorded HFR in the sessions and stops whenever a measured HFR value is within % difference of the minimum recorded HFR. Decrease value to narrow optimal focus point solution radius. Increase to expand solution radius."
+msgid "<guilabel>Tolerance</guilabel>: The tolerance percentage value is used to help decide when the Autofocus process stops in the <guilabel>Iterative</guilabel> and <guilabel>Linear</guilabel> algorithms. During the Autofocus process, HFR values are recorded, and once the focuser is close to an optimal position, it starts measuring HFRs against the minimum recorded HFR in the sessions and stops whenever a measured HFR value is within % difference of the minimum recorded HFR. Decrease the value to narrow the optimal focus point solution radius. Increase to expand solution radius."
+msgstr "<emphasis role=\"bold\">Tolérance</emphasis> : le pourcentage de tolérance est le critère d'arrêt de la procédure de mise au point automatique pour l'algorithme <guilabel>Itératif</guilabel>. Durant cette procédure, les valeurs HFR sont enregistrées et une fois que le moteur de mise au point est proche de la position optimale, il compare les HFR aux valeurs de HFR minimales et s'arrête dès qu'une valeur HFR est dans cette plage de tolérance. Diminuez cette valeur pour restreindre le rayon de la solution et inversement."
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:663
+#, fuzzy, no-c-format
+#| msgid "Setting the value too low might result in a repetitive loop and would most likely result in a failed autofocus process."
+msgid "Setting the value too low might result in a repetitive loop and would most likely result in a failed Autofocus process."
+msgstr "Veuillez noter que si cette valeur est trop faible, il est possible que l'algorithme entre dans une boucle qui fera échouer la procédure de mise au point automatique."
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:669
+#, no-c-format
+msgid "<guilabel>Kernel Size</guilabel>: The kernel size of the gaussian blur applied to the image before applying Bahtinov edge detection. Used when <emphasis role=\"bold\">Detection</emphasis> is Bahtinov."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:676
+#, no-c-format
+msgid "<guilabel>Average over</guilabel>: Number of frames to capture at each datapoint. It is usually sensible to start with 1 but increasing this will result in an averaging process over the star HFRs."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:683
+#, no-c-format
+msgid "<guilabel>Sigma</guilabel>: The sigma of the gaussian blur applied to the image before applying Bahtinov edge detection. Used when <emphasis role=\"bold\">Detection</emphasis> is Bahtinov."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:689
+#, no-c-format
+msgid "<guilabel>Num. of rows</guilabel>: The number of lines displayed on screen when using a Bahtinov mask. Used when <emphasis role=\"bold\">Detection</emphasis> is Bahtinov."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:695
+#, no-c-format
+msgid "<guilabel>Curve Fit</guilabel>: The type of curve to fit to the datapoints."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:700
+#, no-c-format
+msgid "<emphasis role=\"bold\">Quadratic</emphasis>: Uses a quadratic equation using a linear style least squares algorithm supplied by GSL (GNU Science Library). This is, in effect, a parabolic curve."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:707
+#, no-c-format
+msgid "<emphasis role=\"bold\">Hyperbola</emphasis>: Fits a Hyperbola using a non-linear least squares algorithm supplied by GSL (GNU Science Library). See <link linkend=\"Levenberg-Marquardt\">Levenberg-Marquardt Solver</link> for more details."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:715
+#, no-c-format
+msgid "<emphasis role=\"bold\">Parabola</emphasis>: Fits a Parabola using a non-linear least squares algorithm supplied by GSL (GNU Science Library). See <link linkend=\"Levenberg-Marquardt\">Levenberg-Marquardt Solver</link> for more details."
+msgstr ""
 
 #. Tag: title
 #. +> trunk5
-#: ekos-focus.docbook:214
+#: ekos-focus.docbook:727
+#, fuzzy, no-c-format
+#| msgid "<title>Focus</title>"
+msgid "<title>Focus Mechanics</title>"
+msgstr "<title>Mise au point</title>"
+
+#. Tag: screeninfo
+#. +> trunk5
+#: ekos-focus.docbook:730
+#, fuzzy, no-c-format
+#| msgid "<screeninfo>Focus Settings</screeninfo>"
+msgid "<screeninfo>Focus Mechanics</screeninfo>"
+msgstr "<screeninfo>Réglages de la mise au point</screeninfo>"
+
+#. Tag: phrase
+#. +> trunk5
+#: ekos-focus.docbook:738
+#, fuzzy, no-c-format
+#| msgid "<phrase>Focus Settings</phrase>"
+msgid "<phrase>Focus Mechanics</phrase>"
+msgstr "<phrase>Réglages de la mise au point</phrase>"
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:743
+#, no-c-format
+msgid "This is the Focus Mechanics parameters pane."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:747
+#, no-c-format
+msgid "<guilabel>Initial Step size</guilabel>: This sets the step size to be used by various focus algorithms. For absolute and relative focusers this is the number of ticks; for timer based focusers this is the number of milliseconds."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:754
+#, no-c-format
+msgid "<guilabel>Max Travel</guilabel>: Puts bounds on the amount of travel from the current focuser position that is permitted by the Autofocus algorithms. The purpose is to protect the focuser from travelling too far and potentially damaging itself. On the other hand, the value needs to be big enough to allow sufficient focuser motion to permit the auto focus runs to complete."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:763
+#, no-c-format
+msgid "<guilabel>Max Step size</guilabel>: Used by the Iterative focus algorithm to limit the maximum step size that can be used."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:768
+#, no-c-format
+msgid "<guilabel>Backlash</guilabel>: All mechanical devices with gears suffer from backlash. In a typical focuser there will be a dead zone where changing direction (e.g. from “in” to “out”) results in movement of the focuser by a few ticks, but no actual movement of the optical train."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:774
+#, no-c-format
+msgid "The Linear 1 Pass algorithm (like the Linear algorithm) provides backlash compensation in the 2 places during an auto focus run when the focuser moves outwards:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:780
+#, no-c-format
+msgid "The initial outward movement of Initial Step Size * Out Step Multiple at the start of the run."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:785
+#, no-c-format
+msgid "When the inward pass is complete and Ekos has determined the best focus position and moves outward to it."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:790
+#, no-c-format
+msgid "Linear 1 Pass will extend (by x ticks) the outward movement, and then, as a separate movement it will move inward by x ticks. So it always approaches the desired position in an inward direction."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:794
+#, no-c-format
+msgid "There are 2 schemes that can be used:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:798
+#, no-c-format
+msgid "Set Backlash to 0. Ekos will use a value of 5 * Initial Step Size."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:803
+#, no-c-format
+msgid "Set Backlash &gt; 0. EKOS will use this value in its backlash calculations. There will probably be instructions with your focuser for determining the value of Backlash. It is not necessary to set an exact value for either Linear or Linear 1 Pass to work correctly; all that is required is that the value set in Backlash is &gt;= the actual backlash value. For example, if you measure backlash and get a value around 100, any value &gt;=100 will work equally well. For example, set Backlash = 200."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:816
+#, no-c-format
+msgid "<guilabel>Settle</guilabel>: The number of seconds to wait, after moving the focuser, before starting the next capture. The purpose is to stop any vibrations in the optical train from affecting the next frame."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:823
+#, no-c-format
+msgid "<guilabel>Out Step Multiple</guilabel>: Used by the Linear and Linear 1 Pass focus algorithms, this parameter specifies the initial number of outward steps the focuser takes at the start of a Autofocus run."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:830
+#, no-c-format
+msgid "<guilabel>Capture Timeout</guilabel>: The amount of time in seconds to wait for a captured image to be received before declaring a timeout."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:836
+#, no-c-format
+msgid "<guilabel>Motion Timeout</guilabel>: The amount of time in seconds to wait for the focuser to move to the requested position before declaring a timeout."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: ekos-focus.docbook:844
+#, fuzzy, no-c-format
+#| msgid "<title>Focus</title>"
+msgid "<title>Focus Display</title>"
+msgstr "<title>Mise au point</title>"
+
+#. Tag: screeninfo
+#. +> trunk5
+#: ekos-focus.docbook:847
+#, fuzzy, no-c-format
+#| msgid "<screeninfo>Focus Settings</screeninfo>"
+msgid "<screeninfo>Focus Display</screeninfo>"
+msgstr "<screeninfo>Réglages de la mise au point</screeninfo>"
+
+#. Tag: phrase
+#. +> trunk5
+#: ekos-focus.docbook:855
+#, fuzzy, no-c-format
+#| msgid "<phrase>Focus Settings</phrase>"
+msgid "<phrase>Focus Display</phrase>"
+msgstr "<phrase>Réglages de la mise au point</phrase>"
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:860
+#, no-c-format
+msgid "The focus display, displays a FITS viewer window onto the frame taken during the focus process. It displays the <guilabel>Annulus</guilabel> values superimposed on the image. All the stars detected by Ekos based on the selected parameters, have their HFR value displayed next to the associated star."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:866
+#, no-c-format
+msgid "The window supports the following FITS viewer options (at the top of the window):"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:871
+#, no-c-format
+msgid "<guibutton>Zoom In</guibutton> and <guibutton>Zoom Out</guibutton>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:876
+#, no-c-format
+msgid "<guibutton>Default Zoom</guibutton> and <guibutton>Zoom to Fit</guibutton>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:881
+#, no-c-format
+msgid "<guibutton>Toggle Stretch</guibutton>: Toggle screen stretch on or off."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:886
+#, no-c-format
+msgid "<guibutton>Toggle Crosshairs</guibutton>: Toggle crosshairs on or off."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:891
+#, no-c-format
+msgid "<guibutton>Toggle Gridlines</guibutton>: Toggle pixel gridlines on or off."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:896
+#, no-c-format
+msgid "<guibutton>Toggle Stars</guibutton>: Toggle star detection on or off."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: ekos-focus.docbook:903
 #, no-c-format
 msgid "V-Curve"
 msgstr "Courbe en V"
 
 #. Tag: screeninfo
 #. +> trunk5
-#: ekos-focus.docbook:217
+#: ekos-focus.docbook:906
 #, no-c-format
 msgid "<screeninfo>Focus V-Curve</screeninfo>"
 msgstr "<screeninfo>Courbe en V de la mise au point</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: ekos-focus.docbook:225
+#: ekos-focus.docbook:914
 #, no-c-format
 msgid "<phrase>Focus V-Curve</phrase>"
 msgstr "<phrase>Courbe en V de la mise au point</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:230
+#: ekos-focus.docbook:919
 #, no-c-format
-msgid "The V-shaped curve displays absolute position versus Half-Flux-Radius (HFR) values. The center of the V-curve is the optimal focus position. Once Ekos crosses from one side of the V-curve to the other, it backtracks and tries to find the optimal focus position. The final focus position is decided by which algorithm is selected."
-msgstr "Le graphique de la courbe en V affiche le HFR selon la position absolue. Le centre de cette courbe représente la position optimale de la mise au point. Une fois qu'Ekos passe de l'autre côté de la courbe, il recule pour trouver la position optimale. La position finale de la mise au point dépend de l'algorithme choisi."
+msgid "The V-Curve displays focuser position (x-axis) versus Half-Flux-Radius (HFR) (y-axis). Each datapoint is drawn on the graph and represented by a circle with a number representing the datapoint. How many datapoints are taken and how the focuser moves is determined by the parameters chosen."
+msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:233
+#: ekos-focus.docbook:925
 #, no-c-format
-msgid "When framing, the horizontal axis denotes the frame number. This is to aid you in the framing process as you can see how HFR changes between frames."
+msgid "For certain algorithms, Ekos will also draw a curve of best fit through the datapoints. If <guilabel>Use Weights</guilabel> is selected then error bars are indicated on each datapoint that correspond to the standard deviation in measured HFR value."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:930
+#, no-c-format
+msgid "Under the V-Curve a number of parameters are displayed:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:934
+#, no-c-format
+msgid "<guilabel>HFR</guilabel>: Displays the star HFR for the most recent datapoint."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:939
+#, no-c-format
+msgid "<guilabel>Stars</guilabel>: The number of stars used for the most recent datapoint."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:944
+#, no-c-format
+msgid "<guilabel>Iteration</guilabel>: The number of datapoints taken so far."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:949
+#, no-c-format
+msgid "<guibutton>HFR</guibutton>: Invokes the <link linkend=\"focus-relative-profile\">Relative Profile</link> popup."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:954
+#, no-c-format
+msgid "<guibutton>Clear Data</guibutton>: Resets the V-Curve graph by clearing the displayed data."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:959
+#, fuzzy, no-c-format
+#| msgid "When framing, the horizontal axis denotes the frame number. This is to aid you in the framing process as you can see how HFR changes between frames."
+msgid "When framing, the graph format changes to that of a \"time series\" where horizontal axis denotes the frame number. This is to aid you in the framing process as you can see how HFR changes between frames."
 msgstr "Lors d'acquisitions en boucle, l'axe horizontal représente le numéro de la trame. Cela peut vous aider dans ce processus puisque vous pouvez voir comment le HFR change au cours du processus."
+
+#. Tag: screeninfo
+#. +> trunk5
+#: ekos-focus.docbook:964
+#, no-c-format
+msgid "V-Curve as timeseries"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5
+#: ekos-focus.docbook:973
+#, no-c-format
+msgid "Focus V-Curve Timeseries"
+msgstr ""
 
 #. Tag: title
 #. +> trunk5
-#: ekos-focus.docbook:239
+#: ekos-focus.docbook:980
 #, no-c-format
 msgid "Relative Profile"
 msgstr "Profil relatif"
 
 #. Tag: screeninfo
 #. +> trunk5
-#: ekos-focus.docbook:242
+#: ekos-focus.docbook:983
 #, no-c-format
 msgid "<screeninfo>Focus Relative Profile</screeninfo>"
 msgstr "<screeninfo>Profil relatif de la mise au point</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: ekos-focus.docbook:250
+#: ekos-focus.docbook:992
 #, no-c-format
 msgid "<phrase>Focus Relative Profile</phrase>"
 msgstr "<phrase>Profil relatif de la mise au point</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: ekos-focus.docbook:255
-#, no-c-format
-msgid "The relative profile is a graph that displays the relative HFR values plotted against each other. Lower HFR values correspond to narrower shapes and vice-versa. The solid red curve is the profile of the current HFR value, while the dotted green curve is for the previous HFR value. Finally, the magenta curve denotes the first measured HFR and is displayed when the autofocus process concludes. This enables you to judge how well the autofocus process improved the relative focus quality."
+#: ekos-focus.docbook:997
+#, fuzzy, no-c-format
+#| msgid "The relative profile is a graph that displays the relative HFR values plotted against each other. Lower HFR values correspond to narrower shapes and vice-versa. The solid red curve is the profile of the current HFR value, while the dotted green curve is for the previous HFR value. Finally, the magenta curve denotes the first measured HFR and is displayed when the autofocus process concludes. This enables you to judge how well the autofocus process improved the relative focus quality."
+msgid "The relative profile is a graph that displays the relative HFR values plotted against each other. Lower HFR values correspond to narrower shapes and vice-versa. The solid red curve is the profile of the current HFR value, while the dotted green curve is for the previous HFR value. Finally, the magenta curve denotes the first measured HFR. This enables you to judge how well the Autofocus process improved the relative focus quality."
 msgstr "Le profil relatif est un graphique qui représente les valeurs HFR affichées les unes contre les autres. Les valeurs basses de HFR correspondent à des formes plus étroites et inversement. La courbe en rouge plein représente le profil de la valeur HFR courante, alors que la courbe en vert pointillé représente la valeur précédente. Enfin, la courbe en magenta montre la première valeur HFR mesurée et est affichée quand la procédure de mise au point automatique est terminée. Ce graphique vous permet de juger de la qualité de la mise au point relative."
+
+#. Tag: title
+#. +> trunk5
+#: ekos-focus.docbook:1007
+#, no-c-format
+msgid "How to Setup for an Autofocus Run"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1009
+#, no-c-format
+msgid "The exact settings that work best for a given astronomical setup need to be worked out by the user using trial and error, but this section gives some pointers. It uses the Linear 1 Pass algorithm:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1015
+#, no-c-format
+msgid "Start near to focus by manually finding focus. Use the <guibutton>Start Framing</guibutton> option and manually adjust focus to get to approximate focus."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1021
+#, no-c-format
+msgid "Select Linear 1 Pass and your curve of choice, say Hyperbola. Select Use Weights."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1026
+#, no-c-format
+msgid "Make sure you are finding enough stars."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1030
+#, no-c-format
+msgid "Start with the SEP star detection method and the 1-Focus-Default profile unless you have reason to use a different setup."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1036
+#, no-c-format
+msgid "On the Settings tab, use Full Field (rather than Sub Frame) which will use many stars rather than just one. Select Auto Select Star to let the system select the stars to use."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1042
+#, no-c-format
+msgid "Make sure Annulus is set to use a large amount of frame to make use of as many stars as possible. Note that there may be other factors that prevent you using all of the field such as issues with an un-flat field in the corners of the sensor, but don’t overdo the restriction."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1050
+#, no-c-format
+msgid "Set the camera settings such as exposure, gain and binning such that you are getting a good number of stars. Its impossible to be prescriptive here but try for between 20 and 100 (obviously if your focal length and target can’t find that many then the process should still work but may be less optimal from a curve fitting perspective). As a suggestion start with 2 sec exposures, unity gain for your camera and 1x1 binning."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1060
+#, no-c-format
+msgid "Upping the exposure usually finds more stars (but makes the focus process longer). You can also try taking multiple frames at the same point by setting the Average Over field &gt; 1 frame."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1069
+#, no-c-format
+msgid "Setup the Mechanics tab."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1073
+#, no-c-format
+msgid "Setup Backlash. See the Backlash section for more details but if you do not know the value for your equipment then set to 0."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1079
+#, no-c-format
+msgid "Setup Max Travel. This should be appropriate for your focuser to prevent overextending it. It needs to be big enough to support the values set in Initial Step Size and Out Step Multiple. It will need a minimum of just over Initial Step Size * Out Step Multiple. If you can, set it to, say, double this."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1087
+#, no-c-format
+msgid "Settle. If your focuser causes vibration in the optical train then you need to set this value so that after moving, the system waits for Settle seconds before taking the next frame. Try moving the focuser then taking a few frames at the same position. If the first frame after movement has bigger HFRs than subsequent frames, then you probably need to up the value in Settle."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1096
+#, no-c-format
+msgid "Out Step Multiple. Start with 4 or 5. This will give you 9-10 or 11-12 datapoints which is a good place to start. You need enough datapoints to form a curve, but the more you have the longer the process will take to complete."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1103
+#, no-c-format
+msgid "Initial Step Size. The following shows a “good curve”. There is significant movement in the HFR axis to clearly demonstrate the curve, in this case max HFR is about 2.2 whilst min is 0.75 which gives a max / min of about 3."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5
+#: ekos-focus.docbook:1109
+#, fuzzy, no-c-format
+#| msgid "<screeninfo>Focus V-Curve</screeninfo>"
+msgid "<screeninfo>Good Focus Curve</screeninfo>"
+msgstr "<screeninfo>Courbe en V de la mise au point</screeninfo>"
+
+#. Tag: phrase
+#. +> trunk5
+#: ekos-focus.docbook:1118
+#, fuzzy, no-c-format
+#| msgid "<phrase>Focus V-Curve</phrase>"
+msgid "<phrase>Good Focus Curve</phrase>"
+msgstr "<phrase>Courbe en V de la mise au point</phrase>"
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1125
+#, no-c-format
+msgid "In contract, the next picture shows an Initial Step Size that has been set too low. The HFR varies from about 0.78 to 0.72. Which gives a max / min just over 1. The other clue that this is a poor setup is that the Error Bar range is very large compared to HFR movement which means that the curve solver is drawing a curve through a lot of noise, which means the results will not be very accurate."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5
+#: ekos-focus.docbook:1134
+#, fuzzy, no-c-format
+#| msgid "<screeninfo>Focus V-Curve</screeninfo>"
+msgid "<screeninfo>Bad Focus Curve</screeninfo>"
+msgstr "<screeninfo>Courbe en V de la mise au point</screeninfo>"
+
+#. Tag: phrase
+#. +> trunk5
+#: ekos-focus.docbook:1143
+#, fuzzy, no-c-format
+#| msgid "<phrase>Focus V-Curve</phrase>"
+msgid "<phrase>Bad Focus Curve</phrase>"
+msgstr "<phrase>Courbe en V de la mise au point</phrase>"
+
+#. Tag: title
+#. +> trunk5
+#: ekos-focus.docbook:1154
+#, no-c-format
+msgid "Coefficient of Determination, R2"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1156
+#, no-c-format
+msgid "The Coefficient of Determination, or R2, is calculated in order to give a measure of how well the fitted curve matches the datapoints. More information is available <ulink url=\"https://en.wikipedia.org/wiki/Coefficient_of_determination\">here</ulink>. This is an experimental feature that is available for the Linear 1 Pass focus algorithm. In essence, R2 gives a value between 0 and 1, with 1 meaning a perfect fit where all datapoints sit on the curve, and 0 meaning that there is no correlation between the datapoints and the curve. The user should experiment with their equipment to see what values they can obtain, but as a guide, a value above, say 0.8 would be a good fit."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1167
+#, no-c-format
+msgid "There is an option to set an “R2 Limit” in the Settings tab of the Focus window that is compared to the calculated R2 after the auto focu run has completed. If the limit value has not been achieved, then the auto focus is rerun."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1172
+#, no-c-format
+msgid "Setting an R2 Limit could be useful for unattended observation if the focus run produces a bad result for a 1-off reason. Obviously if the reason is not transitory then rerunning will not improve anything."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1176
+#, no-c-format
+msgid "If the R2 Limit is not achieved and the focus process is rerun, and again fails to achieve the R2 Limit, then the focus run is marked as successful to avoid the process getting stuck rerunning auto focus forever."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1181
+#, no-c-format
+msgid "This feature is turned off by setting the R2 Limit to 0."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: ekos-focus.docbook:1185
+#, no-c-format
+msgid "Levenberg–Marquardt Solver"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1187
+#, no-c-format
+msgid "The Levenberg-Marquardt (LM) algorithm is used to solve non-linear least squares problems. The GNU Science Library provides an implementation of the solver. These resources provide more details:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1205
+#, no-c-format
+msgid "The Levenberg-Marquardt algorithm is a new feature added for the Linear 1 Pass focus algorithm. It is a non-linear least-squares solver and thus suitable for many different equations. The basic idea is to adjust the equation y = f(x,P) so that the computed y values are as close as possible to the y values of the datapoints provided, so that the resultant curve fits the data as best as it can. P is a set of parameters that are varied by the solver in order to find the best fit. The solver measures how far away the curve is at each data point, squares the result and adds them all up. This is the number to be minimized, lets call is S. The solver is supplied with an initial guess for the parameters, P. It calculates S, makes an adjustment to P and calculates a new S1. Provided S1 &lt; S then we are moving in the right direction. It iterates through the procedure until:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1221
+#, no-c-format
+msgid "the delta in S is less than a supplied limit (convergence has been reached), or"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1226
+#, no-c-format
+msgid "the maximum number of iterations has been reached, or"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1230
+#, no-c-format
+msgid "the solver encountered an error."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1234
+#, no-c-format
+msgid "The solver is capable of solving either an unweighted or weighted set of datapoints. In essence, an unweighted set of data gives equal weight to each datapoint when trying to fit a curve. An alternative is to weight each datapoint with a measure that corresponds to how accurate the measurement of the datapoint actually is. In our case this is the variance of star HFRs associated with the datapoint. The variance is the standard deviation squared."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: ekos-focus.docbook:1242
+#, no-c-format
+msgid "Currently the solver is used to fit either a parabolic or a hyperbolic curve."
+msgstr ""
+
+#, no-c-format
+#~ msgid "Ekos then begins the focusing process by commanding the focuser to focus inwards or outwards, and re-measures the HFR. This establishes a V-shaped curve in which the sweet spot of optimal focus is at the center of the V-curve, and the slope of which depends on the properties of the telescope and camera in use. In Ekos, a full V-curve is never constructed as the focusing process works iteratively, so under most circumstances, a half V-curve shape as illustrated in the Focus Module image is measured."
+#~ msgstr "Ekos commence ensuite la procédure de mise en point en indiquant au moteur de mise au point de faire la mise au point vers l'intérieur et vers l'extérieur et de mesurer à nouveau le HFR. Ce processus itératif produit une courbe en V dont le centre correspond à la position de mise au point optimale et dont la pente dépend des propriétés du télescope et de la caméra. Dans Ekos, une courbe en V complète n'est jamais construite puisque la procédure de mise au point fonctionne de manière itérative et que la plupart du temps, une demi courbe en V est mesurée, comme illustrée dans l'image du module de mise au point."
+
+#, no-c-format
+#~ msgid "While Ekos Focus Module supports relative focusers, it is <emphasis role=\"bold\">highly recommended</emphasis> to use absolute focusers."
+#~ msgstr "Bien que le module de mise au point d'Ekos gère les moteurs de mise au point à position relative, il est <emphasis role=\"bold\">hautement recommandé</emphasis> d'utiliser des moteurs de mise au point à position absolue."
+
+#, no-c-format
+#~ msgid "For absolute focusers, you can set the ticks count. To view a continuous feed of the camera, click the <guibutton>Framing</guibutton> button. An image shall be captured repeatedly according to the CCD settings in the <guilabel>CCD and Filter Wheel</guilabel> group. You can focus in and out by pressing the respective buttons, and each shall move by the step size indicated in the focus settings. For absolute and relative focusers, the step size is in units of <emphasis>ticks</emphasis> and for simple DC focusers, the step size is in <emphasis>milliseconds</emphasis>."
+#~ msgstr "Pour les moteurs de mise au point à position absolue, vous pouvez régler le comptage des pas. Pour avoir une visualisation en continu de la caméra, cliquez sur le bouton <guibutton>En boucle</guibutton>. Une image sera prise régulièrement selon les réglages du groupe <guilabel>CCD et roue à filtres</guilabel>. Vous pouvez mettre au point en avant ou en arrière en utilisant les boutons respectifs et chacun fera bouger d'un certain nombre de pas en fonction de ce qui a été configuré dans les réglages de la mise au point. Pour les moteurs de mise au point à position relative et absolue, la taille du pas est mesurée en <emphasis>cran</emphasis> et pour les moteurs de mise au point DC simple, il est mesuré en <emphasis>millisecondes</emphasis>. "
+
+#, no-c-format
+#~ msgid "To begin the autofocus process, simply click the <guibutton>Auto Focus</guibutton> button."
+#~ msgstr "Pour débuter la procédure de mise au point automatique, cliquez simplement sur le bouton <guibutton>Démarrer</guibutton>."
+
+#, no-c-format
+#~ msgid "You must specify the CCD and Filter Wheel (if any) to be used during the focusing process. You can <emphasis role=\"bold\">lock</emphasis> a specific filter within the filter wheel to be utilized whenever the autofocus process is invoked. Usually, the user should select the Clear/Luminescence filter for this purpose so that Ekos always uses the same filter to perform the autofocus process. This locked filter is also used in the <link linkend=\"ekos-align\">Alignment Module</link> whenever it performs any astrometry capture."
+#~ msgstr "Vous devez spécifier le CCD et la roue à filtres (si vous en avez une) à utiliser pour la procédure de mise au point automatique. Vous pouvez <emphasis role=\"bold\">verrouiller</emphasis> un filtre spécifique de la roue à filtres chaque fois que la procédure de mise au point automatique est invoquée. Généralement, l'utilisateur devrait choisir le filtre Clair/Luminance pour cet usage pour qu'Ekos puisse toujours utiliser le même filtre pour cette procédure. Ce filtre verrouillé est également utilisé pour le module <link linkend=\"ekos-align\">Alignement</link> pour les acquisitions d'astrométrie."
+
+#, no-c-format
+#~ msgid "Settings"
+#~ msgstr "Réglages"
+
+#, no-c-format
+#~ msgid "You may need to adjust focus settings in order to achieve a successful and reliable autofocus process. The settings are retained between sessions."
+#~ msgstr "Il peut être nécessaire d'ajuster les réglages de mise au point pour réaliser une procédure de mise au point automatique réussie et fiable. Les réglages sont conservés entre les sessions."
+
+#, no-c-format
+#~ msgid "<emphasis role=\"bold\">Auto Star Select</emphasis>: Automatically select the best focus star from the image."
+#~ msgstr "<emphasis role=\"bold\">Sélection automatique d'étoile</emphasis> : sélectionner automatiquement la meilleure étoile de mise au point de l'image."
+
+#, no-c-format
+#~ msgid "<emphasis role=\"bold\">Suspend Guiding</emphasis>: Suspend Guiding while autofocus in progress. If the focus process can disrupt the guide star (&eg; when using Integrated Guide Port IGP whereas the guider is physically attached to the primary CCD), then it is recommended to enable this option. When using Off-Axis guider, then this option is not necessary."
+#~ msgstr "<emphasis role=\"bold\">Suspendre le guidage</emphasis> : suspend le guidage pendant que la mise au point automatique est en cours. Si la procédure de mise au point peut perturber l'étoile guide (&cad; lors de l'utilisation du port guide intégré IGP où le guide est physiquement attaché au CCD primaire), alors il est recommandé d'activer cette option. Elle n'est cependant pas nécessaire pour les guides hors axe (OAG)."
+
+#, no-c-format
+#~ msgid "<emphasis role=\"bold\">Max Travel</emphasis>: Maximum travel in ticks before the autofocus process aborts."
+#~ msgstr "<emphasis role=\"bold\">Déplacement maximum</emphasis> : déplacement maximum en cran avant que la procédure de mise au point automatique ne s'arrête."
+
+#, no-c-format
+#~ msgid "<emphasis role=\"bold\">Step</emphasis>: <emphasis>Initial</emphasis> step size in ticks to cause a noticeable change in HFR value. For timer-based focuser, it is the initial time in milliseconds to move the focuser inward or outward."
+#~ msgstr "<emphasis role=\"bold\">Pas</emphasis> : taille <emphasis>initiale</emphasis> de pas en cran pour causer un changement notable de la valeur HFR. Pour les moteurs de mise au point simple fondé sur le temps, cela correspond au temps en millisecondes pour déplacer le moteur de mise au point vers l'avant ou vers l'arrière."
+
+#, no-c-format
+#~ msgid "<emphasis role=\"bold\">Frames</emphasis>: Number of average frames to capture. During each capture, an HFR is recorded. If the instantaneous HFR value is unreliable, you can average a number of frames to increase the signal to noise ratio."
+#~ msgstr "<emphasis role=\"bold\">Trames</emphasis> : nombre moyen de trames à acquérir. Un HFR est enregistré pour chaque acquisition. Si une valeur instantanée de HFR n'est pas fiable, vous pouvez faire la moyenne sur ce nombre de trames pour augmenter le rapport signal sur bruit."
+
+#, no-c-format
+#~ msgid "The V-shaped curve displays absolute position versus Half-Flux-Radius (HFR) values. The center of the V-curve is the optimal focus position. Once Ekos crosses from one side of the V-curve to the other, it backtracks and tries to find the optimal focus position. The final focus position is decided by which algorithm is selected."
+#~ msgstr "Le graphique de la courbe en V affiche le HFR selon la position absolue. Le centre de cette courbe représente la position optimale de la mise au point. Une fois qu'Ekos passe de l'autre côté de la courbe, il recule pour trouver la position optimale. La position finale de la mise au point dépend de l'algorithme choisi."
