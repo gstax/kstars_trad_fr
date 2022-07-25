@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos-focus_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-23 09:13+0200\n"
+"POT-Creation-Date: 2022-07-25 16:49+0200\n"
 "PO-Revision-Date: 2022-06-15 08:55+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -506,7 +506,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-focus.docbook:493
 #, no-c-format
-msgid "<guilabel>R2 Limit</guilabel>: This is an experimental option only available with the Linear 1 Pass focus algorithm and Curve Types of Hyperbola and Parabola. As part of the Linear 1 Pass algorithm, the degree to which the curve fits the datapoints, or <link linkend=\"Coefficient_of_Determination\">Coefficient of Determination, R2</link>, is calculated. This option allow a minimum acceptable value of R2 to be defined that is compared to the value obtained from the curve fitting process. If the minimum value has not been achieved then Autofocus will rerun. Only one rerun will be performed and even if the minimum R2 has not been met the second time, the Autofocus run will still be deemed successful."
+msgid "<guilabel>R2 Limit</guilabel>: This is an experimental option only available with the Linear 1 Pass focus algorithm and Curve Types of Hyperbola and Parabola. As part of the Linear 1 Pass algorithm, the degree to which the curve fits the datapoints, or <link linkend=\"Coefficient_of_Determination\">Coefficient of Determination, R2</link>, is calculated. This option allows a minimum acceptable value of R2 to be defined that is compared to the value obtained from the curve fitting process. If the minimum value has not been achieved then Autofocus will rerun. Only one rerun will be performed and even if the minimum R2 has not been met the second time, the Autofocus run will still be deemed successful."
 msgstr ""
 
 #. Tag: para
@@ -636,14 +636,14 @@ msgstr "<emphasis role=\"bold\">Polynomial</emphasis> : débute avec la méthod
 #. +> trunk5
 #: ekos-focus.docbook:611
 #, no-c-format
-msgid "<emphasis role=\"bold\">Linear</emphasis>: This algorithm build a V-Curve with approximately <emphasis role=\"bold\">Out step Multiple</emphasis> steps on each side of the minimum. Having built the V-Curve it then fits a quadratic equation to the curve (parabolic shape) and uses this to calculate the focuser position giving the minimum HFR. Having identified the minimum it then performs a 2nd pass halving the step size, recreating the curve from the 1st pass. It attempts to stop within <emphasis role=\"bold\">Tolerance</emphasis> of the minimum HFR calculated during the 1st pass."
+msgid "<emphasis role=\"bold\">Linear</emphasis>: This algorithm builds a V-Curve with approximately <emphasis role=\"bold\">Out step Multiple</emphasis> steps on each side of the minimum. Having built the V-Curve it then fits a quadratic equation to the curve (parabolic shape) and uses this to calculate the focuser position giving the minimum HFR. Having identified the minimum it then performs a 2nd pass halving the step size, recreating the curve from the 1st pass. It attempts to stop within <emphasis role=\"bold\">Tolerance</emphasis> of the minimum HFR calculated during the 1st pass."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:624
 #, no-c-format
-msgid "<emphasis role=\"bold\">Linear 1 Pass</emphasis>: This algorithm starts in the same way as <emphasis role=\"bold\">Linear</emphasis> building a V-Curve. Having built the V-Curve it then fits the <emphasis role=\"bold\">Curve Fit</emphasis>type to the datapoints and then calculates the focuser position giving the minimum HFR. Having identified the minimum it then moves directly to that point in a way designed to neutralise backlash."
+msgid "<emphasis role=\"bold\">Linear 1 Pass</emphasis>: This algorithm starts in the same way as <emphasis role=\"bold\">Linear</emphasis> building a V-Curve. Having built the V-Curve it then fits the <emphasis role=\"bold\">Curve Fit</emphasis> type to the datapoints and then calculates the focuser position giving the minimum HFR. Having identified the minimum it then moves directly to that point in a way designed to neutralise backlash."
 msgstr ""
 
 #. Tag: para
