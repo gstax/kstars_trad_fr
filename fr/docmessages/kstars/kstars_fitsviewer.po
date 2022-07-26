@@ -5,20 +5,21 @@
 # Stanislas Zeller <uncensored.assault@gmail.com>, 2008.
 # Joëlle Cornavin <jcornavin@laposte.net>, 2011.
 # steve <stax@ik.me>, 2022.
+# Xavier Besnard <xavier.besnard@neuf.fr>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_fitsviewer_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-28 00:32+0000\n"
-"PO-Revision-Date: 2022-06-15 08:58+0200\n"
-"Last-Translator: steve <stax@ik.me>\n"
-"Language-Team: French\n"
+"POT-Creation-Date: 2022-07-12 01:02+0000\n"
+"PO-Revision-Date: 2022-07-15 17:16+0200\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Lokalize 22.04.3\n"
 
 #. Tag: title
 #: fitsviewer.docbook:2
@@ -354,7 +355,17 @@ msgid "Auto Stretch: Apply Auto Stretch filter to the image."
 msgstr "Auto-étirement : applique le filtre d'auto-étirement à l'image."
 
 #. Tag: para
-#: fitsviewer.docbook:84
+#: fitsviewer.docbook:82
+#, no-c-format
+msgid ""
+"Toggle Selection Rectangle: Toggle selection rectangle for statistics of a "
+"region of interest."
+msgstr ""
+"Changer de rectangle de sélection : changement du rectangle de sélection "
+"pour une région d'intérêt."
+
+#. Tag: para
+#: fitsviewer.docbook:85
 #, no-c-format
 msgid ""
 "Side Panel: The side panel can be opened by dragging the separator to the "
@@ -364,7 +375,7 @@ msgstr ""
 "séparateur vers la droite. En le tirant vers la gauche, il sera fermé."
 
 #. Tag: para
-#: fitsviewer.docbook:86
+#: fitsviewer.docbook:87
 #, no-c-format
 msgid ""
 "Statistics: Displays image statistics including Minimum, Maximum, Average, "
@@ -374,7 +385,7 @@ msgstr ""
 "minimum, maximum, moyenne et médiane."
 
 #. Tag: para
-#: fitsviewer.docbook:87
+#: fitsviewer.docbook:88
 #, no-c-format
 msgid ""
 "Histogram: Displays image histogram with controls to adjust the minimum and "
@@ -386,7 +397,7 @@ msgstr ""
 "logarithmiques sont disponibles pour application à l'image."
 
 #. Tag: para
-#: fitsviewer.docbook:88
+#: fitsviewer.docbook:89
 #, no-c-format
 msgid ""
 "FITS Header: Displays a table for FITS header keywords, values, and comments."
@@ -395,7 +406,7 @@ msgstr ""
 "valeurs et les commentaires."
 
 #. Tag: para
-#: fitsviewer.docbook:89
+#: fitsviewer.docbook:90
 #, no-c-format
 msgid ""
 "Recent Images: Displays recently opened images. Clicking on any image will "
@@ -405,7 +416,7 @@ msgstr ""
 "n'importe quelle image l'ouvrira."
 
 #. Tag: para
-#: fitsviewer.docbook:92
+#: fitsviewer.docbook:93
 #, no-c-format
 msgid ""
 "Image Display Area. Hovering over the image will update the status bar "
@@ -415,7 +426,7 @@ msgstr ""
 "les valeurs en conséquence."
 
 #. Tag: para
-#: fitsviewer.docbook:94
+#: fitsviewer.docbook:95
 #, no-c-format
 msgid ""
 "Status Bar: From right to left, the following status indicators are "
@@ -424,7 +435,7 @@ msgstr ""
 "Barre d'état : les indicateurs d'état suivant sont (droite vers gauche) :"
 
 #. Tag: para
-#: fitsviewer.docbook:96
+#: fitsviewer.docbook:97
 #, no-c-format
 msgid ""
 "Loading Indicator: The LED becomes yellow when an image is getting loaded "
@@ -436,13 +447,13 @@ msgstr ""
 "succès. Si des erreurs ont été rencontrées, elle sera rouge."
 
 #. Tag: para
-#: fitsviewer.docbook:97
+#: fitsviewer.docbook:98
 #, no-c-format
 msgid "Resolution: Image resolution in pixels."
 msgstr "Résolution : la résolution de l'image en pixels."
 
 #. Tag: para
-#: fitsviewer.docbook:98
+#: fitsviewer.docbook:99
 #, no-c-format
 msgid ""
 "Cartesian Coordinates: Displays and updates the current mouse position as "
@@ -454,7 +465,7 @@ msgstr ""
 "ainsi que la valeur courante."
 
 #. Tag: para
-#: fitsviewer.docbook:99
+#: fitsviewer.docbook:100
 #, no-c-format
 msgid ""
 "Equatorial Coordinates: If the image contains a valid WCS header, the J2000 "
@@ -464,7 +475,7 @@ msgstr ""
 "l'ascension droite J2000 (AD) et la déclinaison (Déc) sont affichées."
 
 #. Tag: para
-#: fitsviewer.docbook:103
+#: fitsviewer.docbook:104
 #, no-c-format
 msgid ""
 "In addition to image display, the viewer can process World-Coordinate-System "
@@ -480,7 +491,7 @@ msgstr ""
 "vers n'importe quel point de l'image."
 
 #. Tag: para
-#: fitsviewer.docbook:106
+#: fitsviewer.docbook:107
 #, no-c-format
 msgid ""
 "Several filters can be applied to enhance the image include auto stretch and "
@@ -496,7 +507,7 @@ msgstr ""
 "inclut le niveau de zoom actuel et la résolution de l'image."
 
 #. Tag: para
-#: fitsviewer.docbook:109
+#: fitsviewer.docbook:110
 #, no-c-format
 msgid ""
 "When loading a bayered image, the viewer can automatically debayer the image "
@@ -514,7 +525,7 @@ msgstr ""
 "<keycap>D</keycap></keycombo>."
 
 #. Tag: para
-#: fitsviewer.docbook:112
+#: fitsviewer.docbook:113
 #, no-c-format
 msgid ""
 "Since operations such as auto debayering and auto WCS are computationally "
@@ -528,19 +539,19 @@ msgstr ""
 "link>."
 
 #. Tag: screeninfo
-#: fitsviewer.docbook:116
+#: fitsviewer.docbook:117
 #, no-c-format
 msgid "<screeninfo>FITS Settings</screeninfo>"
 msgstr "<screeninfo>Réglages FITS</screeninfo>"
 
 #. Tag: phrase
-#: fitsviewer.docbook:124
+#: fitsviewer.docbook:125
 #, no-c-format
 msgid "<phrase>FITS Settings</phrase>"
 msgstr "<phrase>Réglages FITS</phrase>"
 
 #. Tag: para
-#: fitsviewer.docbook:128
+#: fitsviewer.docbook:129
 #, no-c-format
 msgid ""
 "Hovering over any option shall display a detailed tooltip that explains its "
@@ -550,98 +561,104 @@ msgstr ""
 "fonction."
 
 #. Tag: title
-#: fitsviewer.docbook:132
+#: fitsviewer.docbook:133
 #, no-c-format
 msgid "Features"
 msgstr "Fonctionnalités"
 
 #. Tag: para
-#: fitsviewer.docbook:135
+#: fitsviewer.docbook:136
 #, no-c-format
 msgid "Support for 8, 16, 32, IEEE-32, and IEEE-64 bits formats."
 msgstr "Gestion des formats sur 8, 16, 32, IEEE-32 et IEEE-64 octets"
 
 #. Tag: para
-#: fitsviewer.docbook:140
+#: fitsviewer.docbook:141
 #, no-c-format
 msgid "Support Color FITS images (3D Cubes) and Bayered FITS images."
 msgstr "Gère les images FITS couleurs (cubes 3D) et les images FITS de Bayer."
 
 #. Tag: para
-#: fitsviewer.docbook:145
+#: fitsviewer.docbook:146
 #, no-c-format
 msgid "Histogram with linear, logarithmic, and square-root scales."
 msgstr ""
 "Histogramme avec les échelles linéaire, logarithmique et racine carrée."
 
 #. Tag: para
-#: fitsviewer.docbook:150
+#: fitsviewer.docbook:151
 #, no-c-format
 msgid "Brightness/Contrast controls."
 msgstr "Contrôles de luminosité / contraste"
 
 #. Tag: para
-#: fitsviewer.docbook:155
+#: fitsviewer.docbook:156
 #, no-c-format
 msgid "Pan and Zoom."
 msgstr "panoramique et zoom,"
 
 #. Tag: para
-#: fitsviewer.docbook:160
+#: fitsviewer.docbook:161
 #, no-c-format
 msgid "Auto levels."
 msgstr "niveaux automatiques,"
 
 #. Tag: para
-#: fitsviewer.docbook:165
+#: fitsviewer.docbook:166
 #, no-c-format
 msgid "Statistics."
 msgstr "statistiques,"
 
 #. Tag: para
-#: fitsviewer.docbook:170
+#: fitsviewer.docbook:171
+#, no-c-format
+msgid "Statistics for a region of interest(Rectangle)."
+msgstr "Statistiques d'une la région d'intérêt (Rectangle)."
+
+#. Tag: para
+#: fitsviewer.docbook:176
 #, no-c-format
 msgid "Rectangular and Equatorial Grids (if WCS info is present)."
 msgstr "Grille rectangulaire et équatoriales (si l'info WCS est présente)."
 
 #. Tag: para
-#: fitsviewer.docbook:175
+#: fitsviewer.docbook:181
 #, no-c-format
 msgid "Detection and highlight of stars."
 msgstr "Détection et mise en valeur des étoiles."
 
 #. Tag: para
-#: fitsviewer.docbook:180
+#: fitsviewer.docbook:186
 #, no-c-format
 msgid "FITS header query."
 msgstr "requête d'en-tête FITS,"
 
 #. Tag: para
-#: fitsviewer.docbook:185
+#: fitsviewer.docbook:191
 #, no-c-format
 msgid "Undo/Redo."
 msgstr "annuler / refaire."
 
 #. Tag: term
-#: fitsviewer.docbook:192
+#: fitsviewer.docbook:198
 #, no-c-format
 msgid "<term>Histogram</term>"
 msgstr "<term>Histogramme</term>"
 
 #. Tag: screeninfo
-#: fitsviewer.docbook:195
+#: fitsviewer.docbook:201
 #, no-c-format
 msgid "<screeninfo>Histogram</screeninfo>"
 msgstr "<screeninfo>Histogramme</screeninfo>"
 
 #. Tag: phrase
-#: fitsviewer.docbook:203
+#: fitsviewer.docbook:209
 #, no-c-format
 msgid "<phrase>Histogram</phrase>"
 msgstr "<phrase>Histogramme</phrase>"
 
 #. Tag: para
-#: fitsviewer.docbook:207
+#: fitsviewer.docbook:213
 #, no-c-format
 msgid ""
 "Displays multi-channel FITS histogram. The user can rescale the image by "
@@ -656,26 +673,26 @@ msgstr ""
 "région entourée par les limites supérieure et inférieure."
 
 #. Tag: term
-#: fitsviewer.docbook:213
+#: fitsviewer.docbook:219
 #, no-c-format
 msgid "FITS Header"
 msgstr "En-tête FITS"
 
 #. Tag: para
-#: fitsviewer.docbook:215
+#: fitsviewer.docbook:221
 #, no-c-format
 msgid "Displays a read-only table listing FITS header keywords and values."
 msgstr ""
 "Affiche les valeurs et les mots-clés FITS dans une table en lecture seule."
 
 #. Tag: term
-#: fitsviewer.docbook:221
+#: fitsviewer.docbook:227
 #, no-c-format
 msgid "Statistics"
 msgstr "statistiques"
 
 #. Tag: para
-#: fitsviewer.docbook:223
+#: fitsviewer.docbook:229
 #, no-c-format
 msgid ""
 "Provides simple statistics for minimum and maximum pixel values and their "
@@ -685,26 +702,67 @@ msgstr ""
 "pixel et leurs emplacements respectifs. La profondeur, la dimension, la "
 "moyenne et l'écart-type FITS."
 
+#. Tag: term
+#: fitsviewer.docbook:235
+#, no-c-format
+msgid "Statistics of region of interest"
+msgstr "Statistiques d'une région d'intérêt"
+
+#. Tag: screeninfo
+#: fitsviewer.docbook:238
+#, no-c-format
+msgid "FITSViewer"
+msgstr "Afficheur « FITS »"
+
+#. Tag: phrase
+#: fitsviewer.docbook:246
+#, no-c-format
+msgid "Selection Statistics"
+msgstr "Sélectionnez des statistiques"
+
+#. Tag: para
+#: fitsviewer.docbook:250
+#, no-c-format
+msgid ""
+"Provides simple statistics average mean, average standard deviation and "
+"average median of the selected region by the user in a tooltip."
+msgstr ""
+
+#. Tag: para
+#: fitsviewer.docbook:253
+#, no-c-format
+msgid ""
+"The user can either set the selection region by <keycombo>&Shift;"
+"<keycap>Left Click</keycap></keycombo> dragging or by choosing an entry from "
+"the drop down menu of the Toggle Selection Rectangle button. In addition to "
+"this, the user can translate the region by simple <keycap>Left Click</"
+"keycap> drag of the mouse. The statistics of the region are shown as a "
+"tooltip once the cursor is brought over the selection region. For smaller "
+"images, the statistics are updated instantly, and for larger images, the "
+"statistics are updated once the user releases the <keycap>Left Click</"
+"keycap> button after modification of the region."
+msgstr ""
+
 #. Tag: title
-#: fitsviewer.docbook:232
+#: fitsviewer.docbook:262
 #, no-c-format
 msgid "Embedded FITS Viewer"
 msgstr "Afficheur FITS intégré"
 
 #. Tag: screeninfo
-#: fitsviewer.docbook:234
+#: fitsviewer.docbook:264
 #, no-c-format
 msgid "<screeninfo>FITS Viewer embedded</screeninfo>"
 msgstr "<screeninfo>Afficheur FITS intégré</screeninfo>"
 
 #. Tag: phrase
-#: fitsviewer.docbook:242
+#: fitsviewer.docbook:272
 #, no-c-format
 msgid "<phrase>FITS Viewer embedded</phrase>"
 msgstr "<phrase>Afficheur FITS intégré</phrase>"
 
 #. Tag: para
-#: fitsviewer.docbook:246
+#: fitsviewer.docbook:276
 #, no-c-format
 msgid ""
 "In Ekos <link linkend=\"ekos-focus\">Focus</link>, <link linkend=\"ekos-guide"
@@ -720,43 +778,43 @@ msgstr ""
 "être utilisée pour effectuer plusieurs fonctions :"
 
 #. Tag: para
-#: fitsviewer.docbook:251
+#: fitsviewer.docbook:281
 #, no-c-format
 msgid "Zoom Out"
 msgstr "Zoom arrière"
 
 #. Tag: para
-#: fitsviewer.docbook:256
+#: fitsviewer.docbook:286
 #, no-c-format
 msgid "Zoom In"
 msgstr "Zoom avant"
 
 #. Tag: para
-#: fitsviewer.docbook:261
+#: fitsviewer.docbook:291
 #, no-c-format
 msgid "Default Zoom"
 msgstr "Zoom par défaut"
 
 #. Tag: para
-#: fitsviewer.docbook:266
+#: fitsviewer.docbook:296
 #, no-c-format
 msgid "Zoom To Fit"
 msgstr "Zoom pour ajuster"
 
 #. Tag: para
-#: fitsviewer.docbook:271
+#: fitsviewer.docbook:301
 #, no-c-format
 msgid "Toggle Cross Hairs"
 msgstr "Basculer le réticule"
 
 #. Tag: para
-#: fitsviewer.docbook:276
+#: fitsviewer.docbook:306
 #, no-c-format
 msgid "Toggle Pixel Gridlines"
 msgstr "Basculer la grille de pixel"
 
 #. Tag: para
-#: fitsviewer.docbook:281
+#: fitsviewer.docbook:311
 #, no-c-format
 msgid "Toggle Detected Stars: Highlight detected stars with red circles."
 msgstr ""
@@ -764,13 +822,13 @@ msgstr ""
 "des cercles rouges."
 
 #. Tag: para
-#: fitsviewer.docbook:286
+#: fitsviewer.docbook:316
 #, no-c-format
 msgid "Star Profile: View detailed 3D star profile."
 msgstr "Profile d'étoile : affiche le profile 3D détaillé de l'étoile."
 
 #. Tag: para
-#: fitsviewer.docbook:291
+#: fitsviewer.docbook:321
 #, no-c-format
 msgid ""
 "The floating bar is automatically hidden once the mouse leaves the embedded "
@@ -785,25 +843,25 @@ msgstr ""
 "l'image, par exemple pour choisir une étoile guide."
 
 #. Tag: title
-#: fitsviewer.docbook:297
+#: fitsviewer.docbook:327
 #, no-c-format
 msgid "3D Star Profile &amp; Data Visualization Tool"
 msgstr "Profil 3D de l'étoile &amp; outil de visualisation des données"
 
 #. Tag: screeninfo
-#: fitsviewer.docbook:299
+#: fitsviewer.docbook:329
 #, no-c-format
 msgid "<screeninfo>Star Profile main page</screeninfo>"
 msgstr "<screeninfo>Page principale du profil de l'étoile</screeninfo>"
 
 #. Tag: phrase
-#: fitsviewer.docbook:307
+#: fitsviewer.docbook:337
 #, no-c-format
 msgid "<phrase>Star Profile main page</phrase>"
 msgstr "<phrase>Page principale du profil de l'étoile</phrase>"
 
 #. Tag: para
-#: fitsviewer.docbook:311
+#: fitsviewer.docbook:341
 #, no-c-format
 msgid ""
 "The 3D data visualization tool can plot 3D graphs of the selected region of "
@@ -824,7 +882,7 @@ msgstr ""
 "données d'une nouvelle manière."
 
 #. Tag: para
-#: fitsviewer.docbook:314
+#: fitsviewer.docbook:344
 #, no-c-format
 msgid ""
 "To use the new feature, the user needs to select the <guiicon>View Star "
@@ -841,31 +899,31 @@ msgstr ""
 "d'outils en bas."
 
 #. Tag: screeninfo
-#: fitsviewer.docbook:318
+#: fitsviewer.docbook:348
 #, no-c-format
 msgid "<screeninfo>Star Profile toolbar 1</screeninfo>"
 msgstr "<screeninfo>Barre d'outils du profil d'étoile 1</screeninfo>"
 
 #. Tag: phrase
-#: fitsviewer.docbook:326
+#: fitsviewer.docbook:356
 #, no-c-format
 msgid "<phrase>Star Profile toolbar 1</phrase>"
 msgstr "<phrase>Barre d'outils du profil d'étoile 1</phrase>"
 
 #. Tag: screeninfo
-#: fitsviewer.docbook:331
+#: fitsviewer.docbook:361
 #, no-c-format
 msgid "<screeninfo>Star Profile toolbar 2</screeninfo>"
 msgstr "<screeninfo>Barre d'outils du profil d'étoile 2</screeninfo>"
 
 #. Tag: phrase
-#: fitsviewer.docbook:339
+#: fitsviewer.docbook:369
 #, no-c-format
 msgid "<phrase>Star Profile toolbar 2</phrase>"
 msgstr "<phrase>Barre d'outils du profil d'étoile 2</phrase>"
 
 #. Tag: para
-#: fitsviewer.docbook:343
+#: fitsviewer.docbook:373
 #, no-c-format
 msgid ""
 "At the far left, the sample size combo box will let the user select the size "
@@ -899,19 +957,19 @@ msgstr ""
 "exploration</guilabel> pour zoomer dans l'image et examiner les pixels. "
 
 #. Tag: screeninfo
-#: fitsviewer.docbook:347
+#: fitsviewer.docbook:377
 #, no-c-format
 msgid "<screeninfo>Star Profile, examine pixels</screeninfo>"
 msgstr "<screeninfo>Profil d'étoile, examiner les pixels</screeninfo>"
 
 #. Tag: phrase
-#: fitsviewer.docbook:355
+#: fitsviewer.docbook:385
 #, no-c-format
 msgid "<phrase>Star Profile, examine pixels</phrase>"
 msgstr "<phrase> Profil d'étoile, examiner les pixels</phrase>"
 
 #. Tag: para
-#: fitsviewer.docbook:359
+#: fitsviewer.docbook:389
 #, no-c-format
 msgid ""
 "Then the user has the <guilabel>Zoom To</guilabel> combo box, which the user "
@@ -940,19 +998,19 @@ msgstr ""
 "afficher sur le graphe."
 
 #. Tag: screeninfo
-#: fitsviewer.docbook:363
+#: fitsviewer.docbook:393
 #, no-c-format
 msgid "Star Profile vertical page"
 msgstr "Page vertical du profil de l'étoile"
 
 #. Tag: phrase
-#: fitsviewer.docbook:371
+#: fitsviewer.docbook:401
 #, no-c-format
 msgid "Star Profile vertical"
 msgstr "Vertical du profil de l'étoile"
 
 #. Tag: para
-#: fitsviewer.docbook:375
+#: fitsviewer.docbook:405
 #, no-c-format
 msgid ""
 "This third slider is very useful to get really big peaks out of the way so "
@@ -982,13 +1040,13 @@ msgstr ""
 "explorer les autres parties de l'image."
 
 #. Tag: screeninfo
-#: fitsviewer.docbook:379
+#: fitsviewer.docbook:409
 #, no-c-format
 msgid "<screeninfo>Star Profile final page</screeninfo>"
 msgstr "<screeninfo>Page finale du profile de l'image</screeninfo>"
 
 #. Tag: phrase
-#: fitsviewer.docbook:387
+#: fitsviewer.docbook:417
 #, no-c-format
 msgid "<phrase>Star Profile final page</phrase>"
 msgstr "<phrase>Page finale du profil de l'étoile</phrase>"
