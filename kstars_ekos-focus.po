@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos-focus_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-25 16:49+0200\n"
+"POT-Creation-Date: 2022-07-26 08:40+0200\n"
 "PO-Revision-Date: 2022-06-15 08:55+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -506,7 +506,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-focus.docbook:493
 #, no-c-format
-msgid "<guilabel>R2 Limit</guilabel>: This is an experimental option only available with the Linear 1 Pass focus algorithm and Curve Types of Hyperbola and Parabola. As part of the Linear 1 Pass algorithm, the degree to which the curve fits the datapoints, or <link linkend=\"Coefficient_of_Determination\">Coefficient of Determination, R2</link>, is calculated. This option allows a minimum acceptable value of R2 to be defined that is compared to the value obtained from the curve fitting process. If the minimum value has not been achieved then Autofocus will rerun. Only one rerun will be performed and even if the minimum R2 has not been met the second time, the Autofocus run will still be deemed successful."
+msgid "<guilabel>R² Limit</guilabel>: This is an experimental option only available with the Linear 1 Pass focus algorithm and Curve Types of Hyperbola and Parabola. As part of the Linear 1 Pass algorithm, the degree to which the curve fits the datapoints, or <link linkend=\"Coefficient_of_Determination\">Coefficient of Determination, R²</link>, is calculated. This option allows a minimum acceptable value of R² to be defined that is compared to the value obtained from the curve fitting process. If the minimum value has not been achieved then Autofocus will rerun. Only one rerun will be performed and even if the minimum R² has not been met the second time, the Autofocus run will still be deemed successful."
 msgstr ""
 
 #. Tag: para
@@ -1209,7 +1209,7 @@ msgstr "<phrase>Courbe en V de la mise au point</phrase>"
 #. +> trunk5
 #: ekos-focus.docbook:1125
 #, no-c-format
-msgid "In contract, the next picture shows an Initial Step Size that has been set too low. The HFR varies from about 0.78 to 0.72. Which gives a max / min just over 1. The other clue that this is a poor setup is that the Error Bar range is very large compared to HFR movement which means that the curve solver is drawing a curve through a lot of noise, which means the results will not be very accurate."
+msgid "In contrast, the next picture shows an Initial Step Size that has been set too low. The HFR varies from about 0.78 to 0.72. Which gives a max / min just over 1. The other clue that this is a poor setup is that the Error Bar range is very large compared to HFR movement which means that the curve solver is drawing a curve through a lot of noise, which means the results will not be very accurate."
 msgstr ""
 
 #. Tag: screeninfo
@@ -1232,42 +1232,42 @@ msgstr "<phrase>Courbe en V de la mise au point</phrase>"
 #. +> trunk5
 #: ekos-focus.docbook:1154
 #, no-c-format
-msgid "Coefficient of Determination, R2"
+msgid "Coefficient of Determination, R²"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1156
 #, no-c-format
-msgid "The Coefficient of Determination, or R2, is calculated in order to give a measure of how well the fitted curve matches the datapoints. More information is available <ulink url=\"https://en.wikipedia.org/wiki/Coefficient_of_determination\">here</ulink>. This is an experimental feature that is available for the Linear 1 Pass focus algorithm. In essence, R2 gives a value between 0 and 1, with 1 meaning a perfect fit where all datapoints sit on the curve, and 0 meaning that there is no correlation between the datapoints and the curve. The user should experiment with their equipment to see what values they can obtain, but as a guide, a value above, say 0.8 would be a good fit."
+msgid "The Coefficient of Determination, or R², is calculated in order to give a measure of how well the fitted curve matches the datapoints. More information is available <ulink url=\"https://en.wikipedia.org/wiki/Coefficient_of_determination\">here</ulink>. This is an experimental feature that is available for the Linear 1 Pass focus algorithm. In essence, R² gives a value between 0 and 1, with 1 meaning a perfect fit where all datapoints sit on the curve, and 0 meaning that there is no correlation between the datapoints and the curve. The user should experiment with their equipment to see what values they can obtain, but as a guide, a value above, say 0.8 would be a good fit."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1167
 #, no-c-format
-msgid "There is an option to set an “R2 Limit” in the Settings tab of the Focus window that is compared to the calculated R2 after the auto focu run has completed. If the limit value has not been achieved, then the auto focus is rerun."
+msgid "There is an option to set an “R² Limit” in the Settings tab of the Focus window that is compared to the calculated R² after the auto focus run has completed. If the limit value has not been achieved, then the auto focus is rerun."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1172
 #, no-c-format
-msgid "Setting an R2 Limit could be useful for unattended observation if the focus run produces a bad result for a 1-off reason. Obviously if the reason is not transitory then rerunning will not improve anything."
+msgid "Setting an R² Limit could be useful for unattended observation if the focus run produces a bad result for a 1-off reason. Obviously if the reason is not transitory then rerunning will not improve anything."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1176
 #, no-c-format
-msgid "If the R2 Limit is not achieved and the focus process is rerun, and again fails to achieve the R2 Limit, then the focus run is marked as successful to avoid the process getting stuck rerunning auto focus forever."
+msgid "If the R² Limit is not achieved and the focus process is rerun, and again fails to achieve the R² Limit, then the focus run is marked as successful to avoid the process getting stuck rerunning auto focus forever."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1181
 #, no-c-format
-msgid "This feature is turned off by setting the R2 Limit to 0."
+msgid "This feature is turned off by setting the R² Limit to 0."
 msgstr ""
 
 #. Tag: title
@@ -1288,7 +1288,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-focus.docbook:1205
 #, no-c-format
-msgid "The Levenberg-Marquardt algorithm is a new feature added for the Linear 1 Pass focus algorithm. It is a non-linear least-squares solver and thus suitable for many different equations. The basic idea is to adjust the equation y = f(x,P) so that the computed y values are as close as possible to the y values of the datapoints provided, so that the resultant curve fits the data as best as it can. P is a set of parameters that are varied by the solver in order to find the best fit. The solver measures how far away the curve is at each data point, squares the result and adds them all up. This is the number to be minimized, lets call is S. The solver is supplied with an initial guess for the parameters, P. It calculates S, makes an adjustment to P and calculates a new S1. Provided S1 &lt; S then we are moving in the right direction. It iterates through the procedure until:"
+msgid "The Levenberg-Marquardt algorithm is a new feature added for the Linear 1 Pass focus algorithm. It is a non-linear least-squares solver and thus suitable for many different equations. The basic idea is to adjust the equation y = f(x,P) so that the computed y values are as close as possible to the y values of the datapoints provided, so that the resultant curve fits the data as best as it can. P is a set of parameters that are varied by the solver in order to find the best fit. The solver measures how far away the curve is at each data point, squares the result and adds them all up. This is the number to be minimized, let's call it S. The solver is supplied with an initial guess for the parameters, P. It calculates S, makes an adjustment to P and calculates a new S1. Provided S1 &lt; S then we are moving in the right direction. It iterates through the procedure until:"
 msgstr ""
 
 #. Tag: para
