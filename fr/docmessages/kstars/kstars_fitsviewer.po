@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kstars_fitsviewer_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-12 01:02+0000\n"
-"PO-Revision-Date: 2022-07-15 17:16+0200\n"
+"PO-Revision-Date: 2022-07-26 07:58+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -726,7 +726,7 @@ msgstr "Sélectionnez des statistiques"
 msgid ""
 "Provides simple statistics average mean, average standard deviation and "
 "average median of the selected region by the user in a tooltip."
-msgstr ""
+msgstr "Fournit en surimpression des statistiques simples de moyenne telles que la déviation standard moyenne et la médiane moyenne de la région sélectionnée par l'utilisateur."
 
 #. Tag: para
 #: fitsviewer.docbook:253
@@ -741,7 +741,7 @@ msgid ""
 "images, the statistics are updated instantly, and for larger images, the "
 "statistics are updated once the user releases the <keycap>Left Click</"
 "keycap> button after modification of the region."
-msgstr ""
+msgstr "L'utilisateur peut soit sélectionner une région en glissant le pointeur après un <keycombo>&Shift; <keycap>Clic gauche</keycap></keycombo> ou en choisissant une entrée du menu déroulant du bouton de sélection de rectangle. De plus, l'utilisateur peut translater la région d'un simple <keycap>Clic gauche</keycap> de la souris. Les statistiques de la région sont affichée en surimpression lors d'un survol de la région sélectionnée. Les statistiques sont mises à jour instantanément pour les petites images et pour les grandes images, celles-ci sont mises à jour au relâchement du <keycap>Clic gauche</keycap> après modification de la région."
 
 #. Tag: title
 #: fitsviewer.docbook:262
