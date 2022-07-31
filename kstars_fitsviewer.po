@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kstars_fitsviewer_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-12 07:02+0200\n"
-"PO-Revision-Date: 2022-07-15 17:16+0200\n"
+"PO-Revision-Date: 2022-07-29 14:11+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -652,13 +652,30 @@ msgstr "Sélectionnez des statistiques"
 #, no-c-format
 msgid "Provides simple statistics average mean, average standard deviation and average median of the selected region by the user in a tooltip."
 msgstr ""
+"Fournit des statistiques simples : moyenne, écart-type moyen et médiane"
+" moyenne de la région sélectionnée par l'utilisateur dans une infobulle."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:253
-#, no-c-format
+#, fuzzy, no-c-format
 msgid "The user can either set the selection region by <keycombo>&Shift;<keycap>Left Click</keycap></keycombo> dragging or by choosing an entry from the drop down menu of the Toggle Selection Rectangle button. In addition to this, the user can translate the region by simple <keycap>Left Click</keycap> drag of the mouse. The statistics of the region are shown as a tooltip once the cursor is brought over the selection region. For smaller images, the statistics are updated instantly, and for larger images, the statistics are updated once the user releases the <keycap>Left Click</keycap> button after modification of the region."
 msgstr ""
+"L'utilisateur peut soit définir la région de sélection par un <keycombo>clic"
+" &maj; gauche<keycap>."
+" gauche</keycap></keycombo> ou en choisissant une entrée du menu déroulant du"
+" bouton"
+" menu déroulant du bouton \"Toggle Selection Rectangle\". En plus de cela, l'"
+" utilisateur peut traduire la région par un simple <keycap>Clic gauche<"
+"/keycap> glisser de la"
+" la souris. Les statistiques de la région sont affichées sous forme"
+" d'infobulle une fois que le"
+" curseur est amené sur la région de sélection. Pour les petites images, les"
+" statistiques sont mises à jour instantanément, et pour les images plus"
+" grandes, les statistiques sont"
+" mises à jour une fois que l'utilisateur relâche le bouton <keycap>Clic"
+" gauche</keycap> après la"
+" modification de la région."
 
 #. Tag: title
 #. +> trunk5
