@@ -1,143 +1,145 @@
 <sect1 id="tool-ekos">
-<title>Ekos</title>
-<indexterm><primary>Tools</primary>
-<secondary>Ekos</secondary>
+<title
+>Ekos</title>
+<indexterm
+><primary
+>Outils</primary>
+<secondary
+>Ekos</secondary>
 </indexterm>
 
-<para>
-    <emphasis role="bold">Ekos</emphasis> is an advanced cross-platform (&Windows;, &MacOS;, &Linux;) observatory control and automation tool with a particular focus on Astrophotography. It is based on a modular extensible framework to perform common astrophotography tasks. This includes highly accurate GOTOs using astrometry solver, ability to measure <emphasis>and</emphasis> correct polar alignment errors, auto-focus &amp; auto-guide capabilities, and capture of single or stack of images with filter wheel support. Ekos is shipped with &kstars;.
-</para>
+<para
+><emphasis role="bold"
+>Ekos</emphasis
+> est un outil multiplateforme (&Windows;, &MacOS; et &Linux;) avancé de contrôle d'observatoire et d'automatisation avec un intérêt particulier pour l'astrophotographie. Il est fondé sur un cadre modulaire et extensible pour réaliser les tâches courantes d'astrophotographie. Cela inclut du pointage GOTO hautement précis grâce au résolveur astrometry.net, la possibilité de mesurer <emphasis
+>et</emphasis
+> de corriger les erreurs d'alignement polaire, la mise au point et le guidage automatique ainsi que l'acquisition d'images simples ou multiples avec gestion de roue à filtres. Ekos est distribué avec &kstars;. </para>
 <mediaobject>
   <videoobject>
-    <videodata contentdepth="315" contentwidth="560" fileref="https://www.youtube.com/embed/un2KVJY3Yis"/>
+    <videodata contentdepth="315" contentwidth="560" fileref="https://www.youtube.com/embed/un2KVJY3Yis"
+></videodata>
   </videoobject>
-  <caption><para><phrase>Ekos introductory video</phrase></para></caption>
+  <caption
+><para
+><phrase
+>Vidéo d'introduction à Ekos</phrase
+></para
+></caption>
 </mediaobject>
-<para>Features:</para>
+<para
+>Fonctionnalités :</para>
 <itemizedlist>
     <listitem>
-        <para>
-            Control your telescope, CCD (&amp; DSLRs), filter wheel, focuser, guider, adaptive optics unit, and any INDI-compatible auxiliary device from Ekos.
-        </para>
+        <para
+>Contrôle de télescope, de CDD (&amp; APN), de roue à filtres, de moteur de mise au point, de guide, de périphérique d'optique adaptative et de tout périphérique compatible avec le protocole INDI (Instrument Neutral Distributed Interface) directement depuis Ekos. </para>
     </listitem>
     <listitem>
-        <para>
-            <emphasis>Built-in</emphasis> native <link linkend="ekos-guide">autoguiding</link> with support for automatic dithering between exposures and support for Adaptive Optics devices in addition to traditional guiders.
-        </para>
+        <para
+><link linkend="ekos-guide"
+>Guidage automatique</link
+> natif <emphasis
+>intégré</emphasis
+> avec gestion automatique de décalage entre les expositions ainsi que gestion pour les périphériques d'optique adaptative en complément des guides traditionnels. </para>
     </listitem>
     <listitem>
-        <para>
-            <ulink url="https://knro.blogspot.com/2013/10/demo-of-ekos-alignment-module.html">Extremely accurate GOTOs</ulink> using astrometry.net solver (both Online and Offline solvers supported).
-        </para>
+        <para
+><ulink url="https://knro.blogspot.com/2013/10/demo-of-ekos-alignment-module.html"
+>GOTO extrêmement précis</ulink
+> grâce à l'utilisation du résolveur astrometry.net (mode en-ligne et hors-ligne gérés). </para>
     </listitem>
     <listitem>
-        <para>
-            Load &amp; Slew: Load a FITS image, slew to solved coordinates, and center the mount on the exact image coordinates in order to get the same desired frame.
-        </para>
+        <para
+>Charger &amp; Pivoter : chargement d'une image FITS, pivotement vers les coordonnées résolues et centrage de la monture sur les coordonnées exactes de l'image afin d'obtenir le même champ. </para>
     </listitem>
     <listitem>
-        <para>
-            Measure &amp; Correct Polar Alignment errors using astromety.net solver.
-        </para>
+        <para
+>Mesure et correction des erreurs d'alignement polaire en utilisant le résolveur astrometry.net. </para>
     </listitem>
     <listitem>
-        <para>
-            Easy to use <ulink url="https://www.youtube.com/watch?v=sx6Zz9lNd5Q">Polar Alignment Assistant</ulink> tool. A very quick and reliable tool to polar align your German Equatorial Mount!
-        </para>
+        <para
+>Un outil d'<ulink url="https://www.youtube.com/watch?v=sx6Zz9lNd5Q"
+>alignement polaire assisté</ulink
+> facile à utiliser. Un outil très rapide et fiable pour réaliser un alignement polaire précis d'une monture équatoriale allemande ! </para>
     </listitem>
     <listitem>
-        <para>
-            Capture and record <ulink url="https://www.youtube.com/watch?v=OJFZWwlAQRM">video streams in SER format</ulink>.
-        </para>
+        <para
+>Acquisition et enregistrement des <ulink url="https://www.youtube.com/watch?v=OJFZWwlAQRM"
+>vidéos au format SER</ulink
+>. </para>
     </listitem>
     <listitem>
-        <para>
-            Completely <ulink url="https://www.youtube.com/watch?v=85L3J_iiXZ4">automated scheduler</ulink> to control all your observatory equipment, select the best targets for imaging given current conditions and constraints, monitor weather conditions, and capture your data while you are away!
-        </para>
+        <para
+><ulink url="https://www.youtube.com/watch?v=85L3J_iiXZ4"
+>Ordonnanceur complètement automatisé</ulink
+> pour contrôler l'intégralité du matériel, et permettant de sélectionner des cibles d'acquisition tout en définissant des contraintes sur les conditions météorologiques. Réalisez vos acquisitions de données même lorsque vous êtes absent ! </para>
     </listitem>
     <listitem>
-        <para>
-            <emphasis>Smart</emphasis> Dark Library: All your dark frames with different binning/temperature/frame settings are saved for future use. Ekos re-uses dark frames intelligently without taking unnecessary captures. You can configure how long you want to reuse all the dark frames.
-        </para>
+        <para
+>Bibliothèque <emphasis
+>intelligente</emphasis
+> de Dark : toutes les trames de Dark de combinaisons de groupement de pixels et de température différents sont enregistrées pour des usages futurs. Ekos réutilise intelligemment ces trames pour éviter des acquisitions inutiles. La durée d'exploitation des ces trames peut être réglée. </para>
     </listitem>
     <listitem>
-        <para>
-            Define multiple driver profiles for local and remote setups. Switch among them easily.
-        </para>
+        <para
+>Définition de multiples profils de matériel pour des configurations locales et à distance. Passer facilement d'un profil à l'autre. </para>
     </listitem>
     <listitem>
-        <para>
-            Auto and manual focus modes using Half-Flux-Radius (HFR) method.
-        </para>
+        <para
+>Modes de mise au point automatique et manuelle en utilisant la méthode HFR (Half-Flux-Radius). </para>
     </listitem>
     <listitem>
-        <para>
-            <ulink url="https://www.youtube.com/watch?v=stsrcsPxUZA">Automated <emphasis>unattended</emphasis> meridian flip</ulink>. Ekos performs post meridian flip alignment, calibration, focusing, and guiding to resume the capture session.
-        </para>
+        <para
+><ulink url="https://www.youtube.com/watch?v=stsrcsPxUZA"
+>Retournement au méridien automatisé et <emphasis
+>non surveillé</emphasis
+></ulink
+>. Ekos réalise automatiquement un alignement après le retournement au méridien, la calibration, la mise au point automatique et le guidage afin de reprendre la session d'acquisition. </para>
     </listitem>
     <listitem>
-        <para>
-            Automatic focus between exposures when a user-configurable HFR limit is exceeded.
-        </para>
+        <para
+>Mise au point automatique entre expositions quand la limite HFR déterminée par l'utilisateur dépasse une certaine limite. </para>
     </listitem>
     <listitem>
-        <para>
-            Powerful sequence queue for batch capture of images with optional prefixes, timestamps, filter wheel selection, and much more!
-        </para>
+        <para
+>Puissante gestion de séquences d'acquisition par lots avec l'ajout facultatif de préfixes, d'horodatage, de sélection de roue à filtres et bien plus encore ! </para>
     </listitem>
     <listitem>
-        <para>
-            Export and import sequence queue sets as Ekos Sequence Queue (<literal role="extension">.esq</literal>) files.
-        </para>
+        <para
+>Export et import d'ensembles de file d'attente de séquences comme des fichiers de séquences Ekos d'extension <literal role="extension"
+>.esq</literal
+>. </para>
     </listitem>
     <listitem>
-        <para>
-            <ulink url="https://www.youtube.com/watch?v=fg2HDFg_dCE">Center the telescope anywhere in a captured FITS image</ulink> or any FITS with World Coordinate System (WCS) header.
-        </para>
+        <para
+><ulink url="https://www.youtube.com/watch?v=fg2HDFg_dCE"
+>Centrer le télescope n'importe où dans une image FITS</ulink
+> ou n'importe quelle image FITS avec une en-tête WCS (World Coordinate System). </para>
     </listitem>
     <listitem>
-        <para>
-            Automatic flat field capture, just set the desired ADU and let Ekos does the rest!
-        </para>
+        <para
+>Acquisition automatique des images de plage de lumière uniforme (PLU ou flat field en anglais). Définissez le pas de quantification souhaité (ADU ou Analog Digital Unit en anglais) et laissez Ekos faire le reste ! </para>
     </listitem>
     <listitem>
-        <para>
-            Automatic abort and resumption of exposure tasks if guiding errors exceed a user-configurable value.
-        </para>
+        <para
+>Annulation et reprise automatique des tâches d'expositions si les erreurs de guidage dépassent une valeur configurable par l'utilisateur. </para>
     </listitem>
     <listitem>
-        <para>
-            Support for dome slaving.
-        </para>
+        <para
+>Gestion des dômes. </para>
     </listitem>
     <listitem>
-        <para>
-            Complete integration with &kstars; Observation Planner and SkyMap.
-        </para>
+        <para
+>Intégration complète avec le planificateur d'observations de &kstars; et la carte du ciel. </para>
     </listitem>
     <listitem>
-        <para>
-            Fully scriptable via <ulink url="https://freedesktop.org/wiki/Software/dbus/">&DBus;</ulink>.
-        </para>
+        <para
+>Complètement contrôlable programmatiquement via <ulink url="https://freedesktop.org/wiki/Software/dbus/"
+>&DBus;</ulink
+>. </para>
     </listitem>
     <listitem>
-        <para>
-            Integrate with all INDI native devices.
-        </para>
+        <para
+>Intégration native avec tous les périphériques INDI. </para>
     </listitem>
-</itemizedlist>
-
-&tool-ekos-setup;
-&tool-ekos-user-interface;
-&tool-ekos-profile-wizard;
-&tool-ekos-profile-editor;
-&tool-ekos-logs;
-&tool-ekos-capture;
-&tool-ekos-focus;
-&tool-ekos-guide;
-&tool-ekos-align;
-&tool-ekos-scheduler;
-&tool-ekos-analyze;
-&tool-ekos-tutorials;
-
-</sect1>
+</itemizedlist
+>&tool-ekos-setup; &tool-ekos-user-interface; &tool-ekos-profile-wizard; &tool-ekos-profile-editor; &tool-ekos-logs; &tool-ekos-capture; &tool-ekos-focus; &tool-ekos-guide; &tool-ekos-align; &tool-ekos-scheduler; &tool-ekos-analyze; &tool-ekos-tutorials; </sect1>

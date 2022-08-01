@@ -31,7 +31,11 @@
 >Calculer</guibutton
 > pour obtenir l'angle entre les deux points. </para>
 <para
->Il existe également un mode de traitement par lots pour ce module. Dans ce mode, vous spécifiez un nom de fichier d'entrée contenant un certain nombre de paramètres (jusqu'à quatre) sur chaque ligne : l'ascension droite initiale (RA), la déclinaison initiale (Dec), l'ascension droite finale et la déclinaison finale. Par défaut, chaque ligne doit contenir quatre nombres signifiant les valeurs « RA » et « Dec » pour des paires de points. Alternativement, vous pouvez spécifier une seule valeur pour l'une de ces quatre coordonnées dans le panneau de la calculatrice (les valeurs correspondantes dans le fichier d'entrée doivent être ignorées si elles sont spécifiées dans la calculatrice). </para>
+>Il existe également un mode de traitement par lots pour ce module. Dans ce mode, vous spécifiez un nom de fichier d'entrée contenant un certain nombre de paramètres (jusqu'à quatre) sur chaque ligne : l'ascension droite initiale (AD), la déclinaison initiale (DEC), l'ascension droite finale et la déclinaison finale. Par défaut, chaque ligne doit contenir quatre nombres signifiant les valeurs <quote
+>AD</quote
+> et <quote
+>Dec</quote
+> pour des paires de points. Alternativement, vous pouvez spécifier une seule valeur pour l'une de ces quatre coordonnées dans le panneau de la calculatrice (les valeurs correspondantes dans le fichier d'entrée doivent être ignorées si elles sont spécifiées dans la calculatrice). </para>
 <para
 >Une fois que vous avez spécifié le nom du fichier d'entrée et un nom de fichier de sortie, actionnez simplement le bouton <guibutton
 >Lancer</guibutton

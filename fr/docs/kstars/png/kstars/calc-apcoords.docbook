@@ -30,14 +30,16 @@
 > d'un point à ses <firstterm
 >coordonnées apparentes</firstterm
 > pour n'importe quelle date. Les coordonnées des objets dans le ciel ne sont pas fixées du fait des <link linkend="ai-precession"
->précession</link
->, nutation et aberration. Ce module prend en compte ces effets. </para>
+>précessions</link
+>, nutations et aberrations. Ce module prend en compte ces effets. </para>
 <para
->Pour utiliser le module, donnez d'abord les date et heure cible désirées dans la section <guilabel
->Date et heure cibles</guilabel
->. Puis, donnez les coordonnées de catalogue dans la section <guilabel
+>Pour utiliser le module, veuillez d'abord saisir les dates et heures cibles désirées dans la section <guilabel
+>Dates et heures cibles</guilabel
+>. Puis, saisissez les coordonnées de catalogue dans la section <guilabel
 >Coordonnées de catalogue</guilabel
->. Vous pouvez également spécifier l'époque de catalogue ici (habituellement 2 000,0 pour les catalogues modernes d'objets). Les coordonnées de l'objet pour la date-cible seront alors affichées dans la section <guilabel
+>. De façon alternative, vous pouvez également spécifier les coordonnées de catalogue par la sélection d'un objet utilisant la boîte de dialogue <guilabel
+>Trouver l'objet</guilabel
+>. Vous pouvez aussi spécifier l'époque du catalogue ici (habituellement 2 000,0 pour les catalogues modernes d'objets). Ainsi, les coordonnées de l'objet pour la date cible seront alors affichées dans la section <guilabel
 >Coordonnées apparentes</guilabel
 >. </para>
 </sect2>

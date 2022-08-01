@@ -16,7 +16,7 @@
 <secondary
 >Survol</secondary
 ></indexterm
->Lors de l'étude du ciel, la quête la plus fondamentale est de savoir à quel endroit se trouvent les objets célestes. Afin de spécifier les positions des objets, les astronomes ont créé plusieurs <firstterm
+>Lors de l'étude du ciel, la première question est de savoir à quel endroit se trouvent les objets célestes. Afin de spécifier les positions des objets, les astronomes ont créé plusieurs <firstterm
 >systèmes de coordonnées</firstterm
 >. Chacun d'entre eux se sert d'une grille de coordonnées projetée sur la <link linkend="ai-csphere"
 >sphère céleste</link
@@ -30,7 +30,7 @@
 
 <sect2 id="equatorial">
 <title
->Le système de coordonnées équatorial</title>
+>Le système de coordonnées équatoriales</title>
 <indexterm
 ><primary
 >Les systèmes de coordonnées célestes</primary>
@@ -67,13 +67,13 @@
 >pôles célestes</link
 > Nord et Sud. </para
 ><para
->Il existe toutefois une différence importante entre le système de coordonnées équatorial et le système de coordonnées géographique : le système géographique est fixé à la Terre ; il tourne avec la Terre. Le système équatorial est fixé aux étoiles<footnote id="fn-precess"
+>Il existe toutefois une différence importante entre le système de coordonnées équatoriales et le système de coordonnées géographiques : le système géographique est fixé à la Terre ; il tourne avec la Terre. Le système équatorial est fixé aux étoiles<footnote id="fn-precess"
 ><para
->en fait, les coordonnées équatoriales ne sont pas tout à fait fixées aux étoiles. Voir <link linkend="ai-precession"
+>En fait, les coordonnées équatoriales ne sont pas tout à fait fixées aux étoiles. Voir <link linkend="ai-precession"
 >précession</link
 >. De plus, si l'on utilise l'<link linkend="ai-hourangle"
 >angle horaire</link
-> au lieu de l'ascension droite, le système équatorial devient fixé à la Terre, non pas aux étoiles.</para
+> au lieu de l'ascension droite, le système équatorial devient fixé à la Terre et non aux étoiles.</para
 ></footnote
 >, donc il semble se déplacer avec les étoiles alors qu'en réalité c'est la Terre qui tourne et le ciel est immobile. </para
 ><para
@@ -81,7 +81,9 @@
 >latitudinal</firstterm
 > du système équatorial est appelé <firstterm
 >déclinaison</firstterm
-> (que l'on abrège avec Déc). La déclinaison mesure l'angle d'un objet au-dessus ou au-dessous de l'équateur céleste. L'angle <firstterm
+> (que l'on abrège <acronym
+>DEC</acronym
+>). La déclinaison mesure l'angle d'un objet au-dessus ou au-dessous de l'équateur céleste. L'angle <firstterm
 >longitudinal</firstterm
 > s'appelle l'<firstterm
 >ascension droite</firstterm
@@ -89,29 +91,29 @@
 >AD</acronym
 >). L'ascension droite mesure l'angle d'un objet à l'est de l'<link linkend="ai-equinox"
 >équinoxe vernal</link
->. Contrairement à la longitude, l'ascension droite est habituellement mesurée en heures, non en degrés, parce que la rotation apparente du système de coordonnées équatorial est très apparenté à l'<link linkend="ai-sidereal"
+>. Contrairement à la longitude, l'ascension droite est habituellement mesurée en heures, non en degrés, parce que la rotation apparente du système de coordonnées équatoriales est très apparenté à l'<link linkend="ai-sidereal"
 >heure sidérale</link
 > et à l'<link linkend="ai-hourangle"
 >angle horaire</link
 >. Puisqu'une rotation complète du ciel prend 24 heures, un heure d'ascension droite est égale à 15 degrés (360 degrés / 24 heures). </para>
 <para
->Les coordonnées équatoriales pour les objets du ciel profond et les étoiles ne varient pas sensiblement pendant une courte période, car ils ne sont pas affectés par le <firstterm
+>Les coordonnées équatoriales pour les objets du ciel profond et les étoiles ne varient pas sensiblement pendant une courte période, car elles ne sont pas affectées par le <firstterm
 >mouvement diurne</firstterm
-> (la rotation quotidienne apparente du ciel autour de la terre. Toutefois, noter que cela prend <link linkend="ai-sidereal"
-> 1 jour sidéral </link
+> (la rotation quotidienne apparente du ciel autour de la Terre. Toutefois, notez que cela prend <link linkend="ai-sidereal"
+>1 jour sidéral </link
 >, contre 1 jour solaire). Les coordonnées sont adaptées pour la créations des catalogues d'étoiles et les objets du ciel profond (à noter que les <firstterm
->coordonnées galactique</firstterm
-> fonctionneront également, mais sontdifficile à utiliser à partir d'un point de vue depuis la Terre. Cependant, il y a des effets qui font varier la RA et Dec des objets au fil du temps, à savoir la <link linkend="ai-precession"
+>coordonnées galactiques</firstterm
+> fonctionneront également, mais sont difficiles à utiliser à partir d'un point de vue terrestre. Cependant, il y a des effets qui font varier la RA et DEC des objets au fil du temps, à savoir la <link linkend="ai-precession"
 >précession</link
 > et la <firstterm
 >nutation</firstterm
 >, et le <firstterm
-> mouvement propre </firstterm
+>mouvement propre </firstterm
 >, ce dernier étant encore moins important. Les coordonnées équatoriales sont donc généralement spécifiées avec une <link linkend="ai-epoch"
 >époque</link
 >, pour tenir compte de la précession. Les époques comprennent J2000.0 (<link linkend="ai-julianday"
->Année Julian</link
->2000) et B1950.0 (<firstterm
+>Année julienne</link
+> 2000) et B1950.0 (<firstterm
 >année besselienne</firstterm
 > 1950). </para>
 </sect2>
@@ -138,7 +140,7 @@
 ></indexterm>
 <indexterm
 ><primary
->cd Élévation</primary
+>Altitude</primary
 ><see
 >Coordonnées horizontales</see
 ></indexterm>
@@ -155,27 +157,27 @@
 >altitude</firstterm
 > (Alt). L'angle d'un objet autour de l'horizon (mesuré à partir du point nord, vers l'est) est appelé <firstterm
 >azimut</firstterm
->. Le système de coordonnées horizontal est parfois appelé système de coordonnées Alt / Az. </para
+>. Le système de coordonnées horizontal est parfois appelé système de coordonnées Alt/Az. </para
 ><para
->Le système de coordonnées horizontal est fixé à la Terre, et non pas aux étoiles. En conséquence, l'altitude et l'azimut d'un objet changent avec le temps, l'objet semblant dériver dans le ciel. De plus, puisque le système horizontal est défini par l'horizon local de l'observateur, l'altitude et l'azimut d'un objet changeront en fonction de l'endroit où l'observateur est situé.  </para
+>Le système de coordonnées horizontales est fixé à la Terre et non pas aux étoiles. En conséquence, l'altitude et l'azimut d'un objet changent avec le temps, l'objet semblant dériver dans le ciel. De plus, puisque le système horizontal est défini par l'horizon local de l'observateur, l'altitude et l'azimut d'un objet changeront en fonction de la position de l'observateur. </para
 ><para
 >Les coordonnées horizontales sont très utiles pour déterminer les heures du lever et du coucher d'un objet céleste. Un objet qui se lève possède une altitude de 0 degrés et un azimut plus petit que 180 degrés ; un objet qui se couche possède une altitude de 0 degrés et un azimut plus grand que 180 degrés. </para>
 </sect2>
 
 <sect2 id="ecliptic">
 <title
->Le système de coordonnées écliptique</title>
+>Le système de coordonnées écliptiques</title>
 
 <indexterm
 ><primary
 >Les systèmes de coordonnées célestes</primary>
 <secondary
->Coordonnées écliptique</secondary>
+>Coordonnées écliptiques</secondary>
 <seealso
 >Écliptique</seealso>
 </indexterm>
 <para
->Le système de coordonnées écliptique utilise l'<link linkend="ai-ecliptic"
+>Le système de coordonnées écliptiques utilise l'<link linkend="ai-ecliptic"
 >écliptique</link
 > comme plan fondamental. L'écliptique est la trajectoire que le Soleil semble suivre à travers le ciel au cours d'une année. C'est aussi la projection, sur la sphère céleste, du plan orbital de la Terre. L'angle latitudinal est appelé la <firstterm
 >latitude écliptique</firstterm
@@ -185,7 +187,7 @@
 >équinoxe vernal</link
 >. </para
 ><para
->D'après vous, à quoi sert le système de coordonnées écliptique ? Si vous avez trouvé qu'il sert à cartographier les objets du système solaire, vous avez raison. Les planètes, à l'exception de Pluton, orbitent autour du Soleil sur pratiquement le même plan, et donc on peut dire qu'elles se trouvent toutes à un endroit pas très éloigné de l'écliptique (&cad; qu'elles possèdent toujours des latitudes écliptiques de petite taille). </para>
+>D'après vous, à quoi sert le système de coordonnées écliptiques ? Si vous avez trouvé qu'il sert à cartographier les objets du système solaire, vous avez raison. Les planètes, à l'exception de Pluton, orbitent autour du Soleil sur pratiquement le même plan, et donc on peut dire qu'elles se trouvent toutes à un endroit pas très éloigné de l'écliptique (&cad; qu'elles possèdent toujours des latitudes écliptiques de petite taille). </para>
 </sect2>
 
 <sect2 id="galactic">

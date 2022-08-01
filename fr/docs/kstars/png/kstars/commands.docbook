@@ -4,8 +4,7 @@
 
 <sect1 id="kstars-menus">
   <title
->Commandes des menus</title
-> <!-- updated for 4.9, some items ar missing-->
+>Commandes des menus</title>
 <indexterm
 ><primary
 >Commandes</primary
@@ -15,34 +14,9 @@
 
 <sect2 id="filemenu">
 <title
->Le menu <guimenu
->Fichier</guimenu
-></title>
+>Menu Fichier</title>
 
 <variablelist>
-<varlistentry>
-<term
-><menuchoice
-><shortcut
-> <keycombo action="simul"
->&Ctrl;<keycap
->D</keycap
-></keycombo
-> </shortcut
-> <guimenu
->Fichier</guimenu
-> <guimenuitem
->Télécharger de nouvelles données...</guimenuitem
-> </menuchoice
-></term>
-<listitem
-><para
->Ouvre la boîte de dialogue <guilabel
->Obtenir les nouveautés</guilabel
-> pour télécharger de nouvelles données pour &kstars;. </para
-></listitem>
-</varlistentry>
-
 <varlistentry>
 <term
 ><menuchoice
@@ -55,33 +29,27 @@
 > <guimenu
 >Fichier</guimenu
 > <guimenuitem
->Ouvrir FITS...</guimenuitem
+>Ouvrir Image…</guimenuitem
 > </menuchoice
 ></term>
 <listitem
 ><para
->Ouvre une image FITS dans l'outil d'affichage FITS </para
+>Ouvre une image dans l'outil d'affichage FITS. </para
 ></listitem>
 </varlistentry>
 
 <varlistentry>
 <term
 ><menuchoice
-><shortcut
-> <keycombo action="simul"
->&Ctrl;<keycap
->I</keycap
-></keycombo
-> </shortcut
-> <guimenu
+><guimenu
 >Fichier</guimenu
 > <guimenuitem
->Enregistrer l'image du ciel...</guimenuitem
+>Enregistrer l'image du ciel…</guimenuitem
 > </menuchoice
 ></term>
 <listitem
 ><para
->Crée une image de l'affichage courant sur le disque </para
+>Crée une image de l'affichage courant sur le disque. </para
 ></listitem>
 </varlistentry>
 
@@ -97,61 +65,29 @@
 > <guimenu
 >Fichier</guimenu
 > <guimenuitem
->Exécuter un script...</guimenuitem
+>Exécuter un script…</guimenuitem
 > </menuchoice
 ></term>
 <listitem
 ><para
->Exécute le script de &kstars; spécifié </para
-></listitem>
-</varlistentry>
-<!-- not in 4.7
-<variablelist>
-<varlistentry>
-<term
-><menuchoice>
-<shortcut>
-<keycombo action="simul"
->&Ctrl;<keycap
->N</keycap
-></keycombo>
-</shortcut>
-<guimenu
->File</guimenu>
-<guimenuitem
->New Window</guimenuitem>
-</menuchoice
-></term>
-<listitem
-><para
->Open another &kstars; window
-</para
+>Exécute le script de &kstars; spécifié. </para
 ></listitem>
 </varlistentry>
 
 <varlistentry>
 <term
-><menuchoice>
-<shortcut>
-<keycombo action="simul"
->&Ctrl;<keycap
->W</keycap
-></keycombo>
-</shortcut>
-<guimenu
->File</guimenu>
-<guimenuitem
->Close Window</guimenuitem>
-</menuchoice
+><menuchoice
+><guimenu
+>Fichier</guimenu
+> <guimenuitem
+>Assistant d'impression…</guimenuitem
+> </menuchoice
 ></term>
 <listitem
 ><para
->Close &kstars; window
-</para
+>Démarre l'assistant de configuration pour l'acquisition d'images d'objets du ciel en utilisant un télescope et pour l'impression des résultats comme tirage de bonne qualité pour une utilisation ultérieure ou la constitution d'un catalogue. </para
 ></listitem>
 </varlistentry>
--->
-<!-- FIXME missing File->Printing Wizard-->
 
 <varlistentry>
 <term
@@ -165,12 +101,12 @@
 > <guimenu
 >Fichier</guimenu
 > <guimenuitem
->Imprimer...</guimenuitem
+>Imprimer…</guimenuitem
 > </menuchoice
 ></term>
 <listitem
 ><para
->Envoie la carte actuelle du ciel à l'imprimante (ou dans un fichier PostScript/PDF) </para
+>Envoie la carte actuelle du ciel à l'imprimante (ou dans un fichier &PostScript;/&PDF;) </para
 ></listitem>
 </varlistentry>
 
@@ -191,7 +127,7 @@
 ></term>
 <listitem
 ><para
->Quitte &kstars; </para
+>Quitte &kstars;. </para
 ></listitem>
 </varlistentry>
 </variablelist>
@@ -200,9 +136,7 @@
 
 <sect2 id="timemenu">
 <title
->Le menu <guimenu
->Heure</guimenu
-></title>
+>Menu Heure</title>
 
 <variablelist>
 <varlistentry>
@@ -222,7 +156,7 @@
 ></term>
 <listitem
 ><para
->Synchronise avec l'horloge du PC</para
+>Synchronise l'heure avec l'horloge du système.</para
 ></listitem>
 </varlistentry>
 
@@ -238,15 +172,34 @@
 > <guimenu
 >Heure</guimenu
 > <guimenuitem
->Régler l'heure...</guimenuitem
+>Régler l'heure…</guimenuitem
 > </menuchoice
 ></term>
 <listitem
 ><para
->Choisit l'heure et la date</para
+>Régler l'heure et la date.</para
 ></listitem>
 </varlistentry>
-<!--FIXME missing Advance one step backward in time &lt;-->
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycap
+>&lt;</keycap
+> </shortcut
+> <guimenu
+>Heure</guimenu
+> <guimenuitem
+>Recule d'un pas dans le temps</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Recule d'un pas dans le temps dans la simulation de la carte du ciel de &kstars;. La durée d'un pas temporel peut être réglée en appuyant sur le petit bouton <guilabel
+>|&lt;</guilabel
+> dans la barre d'outils de &kstars;. </para
+></listitem>
+</varlistentry>
 <varlistentry>
 <term
 ><menuchoice
@@ -258,19 +211,36 @@
 ></term>
 <listitem
 ><para
->(dés)active le défilement du temps</para
+>(Dés)active le défilement du temps.</para
 ></listitem>
 </varlistentry>
-<!--FIXME missing Advance one step forward in time &gt;-->
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycap
+>&gt;</keycap
+> </shortcut
+> <guimenu
+>Heure</guimenu
+> <guimenuitem
+>Avance d'un pas dans le temps</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Avance d'un pas dans le temps dans la simulation de la carte du ciel de &kstars; La durée d'un pas temporel peut être réglée en appuyant sur le petit bouton <guilabel
+>&gt;|</guilabel
+> dans la barre d'outils de &kstars;. </para
+></listitem>
+</varlistentry>
 </variablelist>
 
 </sect2>
 
 <sect2 id="pointmenu">
 <title
->Le menu <guimenu
->Pointage</guimenu
-></title>
+>Menu Pointage</title>
 
 <variablelist>
 <varlistentry>
@@ -290,7 +260,7 @@
 ><para
 >Centre l'affichage au <link linkend="ai-zenith"
 >Zénith</link
-> (juste à la verticale) </para
+> (juste à la verticale). </para
 ></listitem>
 </varlistentry>
 
@@ -309,7 +279,7 @@
 ></term>
 <listitem
 ><para
->Centre l'affichage au-dessus de l'horizon nord</para
+>Centre l'affichage au-dessus de l'horizon nord.</para
 ></listitem>
 </varlistentry>
 
@@ -328,7 +298,7 @@
 ></term>
 <listitem
 ><para
->Centre l'affichage au-dessus de l'horizon est</para
+>Centre l'affichage au-dessus de l'horizon est.</para
 ></listitem>
 </varlistentry>
 
@@ -382,14 +352,14 @@
 > <guimenu
 >Pointage</guimenu
 > <guimenuitem
->Définir les coordonnées manuellement...</guimenuitem
+>Définir les coordonnées manuellement…</guimenuitem
 > </menuchoice
 ></term>
 <listitem
 ><para
 >Centre l'affichage sur des <link linkend="ai-skycoords"
 >coordonnées célestes</link
-> spécifiques </para
+> spécifiques. </para
 ></listitem>
 </varlistentry>
 
@@ -405,14 +375,14 @@
 > <guimenu
 >Pointage</guimenu
 > <guimenuitem
->Chercher un objet...</guimenuitem
+>Chercher un objet…</guimenuitem
 > </menuchoice
 ></term>
 <listitem
 ><para
->Localise un objet par son nom en utilisant la <link linkend="findobjects"
->fenêtre de recherche d'objet</link
-></para
+>Cherche un objet par son nom en utilisant la fenêtre <link linkend="findobjects"
+>Chercher un objet</link
+>.</para
 ></listitem>
 </varlistentry>
 
@@ -428,7 +398,7 @@
 > <guimenu
 >Pointage</guimenu
 > <guimenuitem
->Arrêter le suivi</guimenuitem
+>Démarrer/Arrêter le suivi</guimenuitem
 > </menuchoice
 ></term>
 <listitem
@@ -442,9 +412,7 @@
 
 <sect2 id="viewmenu">
 <title
->Le menu <guimenu
->Affichage</guimenu
-></title>
+>Menu Affichage</title>
 
 <variablelist>
 <varlistentry>
@@ -464,7 +432,7 @@
 ></term>
 <listitem
 ><para
->Se rapproche</para
+>Zoom avant de l'affichage.</para
 ></listitem>
 </varlistentry>
 
@@ -485,7 +453,7 @@
 ></term>
 <listitem
 ><para
->S'éloigne</para
+>Zoom arrière de l'affichage.</para
 ></listitem>
 </varlistentry>
 
@@ -506,7 +474,7 @@
 ></term>
 <listitem
 ><para
->Restaure le réglage par défaut du zoom</para
+>Restaure le réglage par défaut du zoom.</para
 ></listitem>
 </varlistentry>
 
@@ -522,12 +490,12 @@
 > <guimenu
 >Affichage</guimenu
 > <guimenuitem
->Zoomer à la dimension angulaire...</guimenuitem
+>Zoomer à la dimension angulaire…</guimenuitem
 > </menuchoice
 ></term>
 <listitem
 ><para
->Fait un zoom à l'angle de champ de vision spécifié</para
+>Fait un zoom à l'angle de champ de vision spécifié.</para
 ></listitem>
 </varlistentry>
 
@@ -548,7 +516,7 @@
 ></term>
 <listitem
 ><para
->(Dés)active le mode plein écran</para
+>(Dés)active le mode plein écran.</para
 ></listitem>
 </varlistentry>
 
@@ -556,126 +524,205 @@
 <term
 ><menuchoice
 ><shortcut
-> <keycap
->Espace</keycap
-> </shortcut
+> &Space; </shortcut
 > <guimenu
 >Affichage</guimenu
 > <guimenuitem
->Coordonnées azimutales / coordonnées équatoriales</guimenuitem
+>Passer à la vue du globe céleste (Coordonnées équatoriales) / Passer à la vue horizontale (Coordonnées azimutales)</guimenuitem
 > </menuchoice
 ></term>
 <listitem
 ><para
->Bascule entre les <link linkend="ai-skycoords"
+>(Dés)active la vue des <link linkend="ai-skycoords"
 >systèmes de coordonnées</link
 > <link linkend="horizontal"
 >azimutales</link
 > et <link linkend="equatorial"
 >équatoriales</link
+>.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;&Maj;<keycap
+>T</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Affichage</guimenu
+> <guimenuitem
+>Afficher le terrain</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>(Dés)active l'affichage de <link linkend="tool-obsplanner"
+>l'image du terrain</link
+>.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Affichage</guimenu
+> <guisubmenu
+>Projection</guisubmenu
+></menuchoice
+></term>
+<listitem
+><para
+>Un sous-menu qui liste toutes les projections. <variablelist>
+  <varlistentry>
+  <term
+><menuchoice
+><shortcut
+> <keycap
+>F5</keycap
+></shortcut
+> <guimenuitem
+>Azimutale équivalente de Lambert</guimenuitem
+></menuchoice
+></term>
+  <listitem
+><para
+>Passe l'affichage de la carte du ciel à la projection <ulink url="https://fr.wikipedia.org/wiki/Projection_azimutale_%C3%A9quivalente_de_Lambert"
+>azimutale équivalente de Lambert</ulink
+>.</para
+></listitem>
+  </varlistentry>
+
+  <varlistentry>
+  <term
+><menuchoice
+><shortcut
+> <keycap
+>F6</keycap
+> </shortcut
+> <guimenuitem
+>Azimutale équidistante</guimenuitem
+></menuchoice
+></term>
+  <listitem
+><para
+>Passe l'affichage de la carte du ciel à la projection <ulink url="https://https://fr.wikipedia.org/wiki/Projection_de_Postel"
+>azimutale équidistante</ulink
+> (ou projection de Postel).</para
+></listitem>
+  </varlistentry>
+
+  <varlistentry>
+  <term
+><menuchoice
+><shortcut
+> <keycap
+>F7</keycap
+></shortcut
+> <guimenuitem
+>Orthographique</guimenuitem
+></menuchoice
+></term>
+  <listitem
+><para
+>Passe l'affichage de la carte du ciel à la projection <ulink url="https://fr.wikipedia.org/wiki/Projection_orthographique"
+>orthographique</ulink
+>.</para
+></listitem>
+  </varlistentry>
+
+  <varlistentry>
+  <term
+><menuchoice
+><shortcut
+> <keycap
+>F8</keycap
+> </shortcut
+> <guimenuitem
+>Équirectangulaire</guimenuitem
+> </menuchoice
+></term>
+  <listitem
+><para
+>Passe l'affichage de la carte du ciel à la projection <ulink url="https://fr.wikipedia.org/wiki/Projection_cylindrique_%C3%A9quidistante"
+>équirectangulaire </ulink
+> (appelée encore cylindrique équidistante).</para
+></listitem>
+  </varlistentry>
+
+  <varlistentry>
+  <term
+><menuchoice
+><shortcut
+> <keycap
+>F9</keycap
+></shortcut
+> <guimenuitem
+>Stéréographique</guimenuitem
+></menuchoice
+></term>
+  <listitem
+><para
+>Passe l'affichage de la carte du ciel à la projection <ulink url="https://fr.wikipedia.org/wiki/Projection_st%C3%A9r%C3%A9ographique"
+>stéréographique</ulink
+>.</para
+></listitem>
+  </varlistentry>
+
+  <varlistentry>
+  <term
+><menuchoice
+><shortcut
+> <keycap
+>F10</keycap
+> </shortcut
+> <guimenuitem
+>Gnomonique</guimenuitem
+></menuchoice
+></term>
+  <listitem
+><para
+>Passe l'affichage de la carte du ciel à la projection <ulink url="https://fr.wikipedia.org/wiki/Projection_gnomonique"
+>gnomonique</ulink
+></para
+></listitem>
+  </varlistentry>
+</variablelist
 ></para
 ></listitem>
 </varlistentry>
 
-<!--FIXME Projection with 6 subitems are missing -->
-
-</variablelist>
-</sect2>
-
-<sect2 id="devicemenu">
-  <title
->Le menu <guimenu
->Périphériques</guimenu
-></title
-> 
-
-<variablelist>
-
 <varlistentry>
 <term
 ><menuchoice
 ><guimenu
->Périphériques</guimenu
-> <guimenuitem
->Assistant de configuration de télescope...</guimenuitem
+>Affichage</guimenu
+> <guisubmenu
+>Superposition HiPS de tout le ciel</guisubmenu
 > </menuchoice
 ></term>
 <listitem
 ><para
->Ouvre l'<guilabel
->assistant de configuration de télescope</guilabel
->, qui fournit un guide pas à pas pour vous aider à connecter votre télescope et à le contrôler depuis &kstars;.</para
+>Un sous-menu qui liste les superpositions activées. Sélectionnez <guimenuitem
+>Paramètres HiPS…</guimenuitem
+> pour configurer les superpositions du ciel <link linkend="hips"
+>HiPS</link
+>.</para
 ></listitem>
 </varlistentry>
 
-<varlistentry>
-<term
-><menuchoice
-><guimenu
->Périphériques</guimenu
-> <guimenuitem
->Gestionnaire de périphériques...</guimenuitem
-> </menuchoice
-></term>
-<listitem
-><para
->Ouvre le gestionnaire de périphériques, qui vous permet de démarrer / arrêter des pilotes de périphériques et à les connecter à des serveurs INDI distants.</para
-></listitem>
-</varlistentry>
-
-<varlistentry>
-<term
-><menuchoice
-><guimenu
->Périphériques</guimenu
-> <guimenuitem
->Tableau de bord INDI...</guimenuitem
-> </menuchoice
-></term>
-<listitem
-><para
->Ouvre le Tableau de bord INDI, qui vous permet de contrôler toutes les fonctions gérées par un matériel.</para
-></listitem>
-</varlistentry>
-
-<varlistentry>
-<term
-><menuchoice
-><guimenu
->Périphériques</guimenu
-> <guimenuitem
->Capturer une séquence d'images...</guimenuitem
-> </menuchoice
-></term>
-<listitem
-><para
->Acquiert des images à partir d'une caméra CCD ou d'une webcam</para
-></listitem>
-</varlistentry>
-<!-- in 4.7 this is a page in the settings dialog
-<varlistentry>
-<term
-><menuchoice>
-<guimenu
->Devices</guimenu>
-<guimenuitem
->Configure INDI</guimenuitem>
-</menuchoice
-></term>
-<listitem
-><para
->Opens up a dialog to configure INDI-related features such as automatic device updates.</para
-></listitem>
-</varlistentry>
--->
 </variablelist>
 </sect2>
 
 <sect2 id="toolmenu">
 <title
->Le menu <guimenu
->Outils</guimenu
-></title>
+>Menu Outils</title>
 
 <variablelist>
 <varlistentry>
@@ -683,55 +730,146 @@
 ><menuchoice
 ><shortcut
 > <keycombo action="simul"
->&Ctrl;<keycap
+>&Ctrl;&Maj;<keycap
 >C</keycap
 ></keycombo
 > </shortcut
 > <guimenu
 >Outils</guimenu
 > <guimenuitem
->Calculatrice...</guimenuitem
+>Calculatrice</guimenuitem
 > </menuchoice
 ></term>
 <listitem>
 <para
 >Ouvre l'outil <link linkend="tool-calculator"
 >Calculatrice astronomique</link
->, vous donnant accès à un grand nombre de fonctions mathématiques utilisées par &kstars;. </para>
+> vous donnant accès à un grand nombre de fonctions mathématiques utilisées par &kstars;. </para>
 </listitem>
 </varlistentry>
+</variablelist>
 
-<!--FIXME missing
-Sky Calendar...
-Observing List... Ctrl+L
-
--->
-<!-- removed after 4.9 see http://commits.kde.org/kstars/c8dd5af7bff7f738ce2b6ab68bdb46e9125bde7d
+<variablelist>
 <varlistentry>
 <term
-><menuchoice>
-<shortcut>
-<keycombo action="simul"
+><menuchoice
+><guimenu
+>Outils</guimenu
+> <guisubmenu
+>Périphériques</guisubmenu
+></menuchoice
+></term>
+<listitem
+><para
+>Un sous-menu pour contrôler les périphériques gérés. <variablelist>
+
+  <varlistentry>
+    <term
+><menuchoice
+><shortcut
+> <keycombo action="simul"
 >&Ctrl;<keycap
->V</keycap
-></keycombo>
-</shortcut>
-<guimenu
->Tools</guimenu>
-<guimenuitem
->AAVSO Light Curves...</guimenuitem>
-</menuchoice
+>0</keycap
+></keycombo
+> </shortcut
+> <guimenuitem
+>Liste de votre équipement…</guimenuitem
+></menuchoice
+></term>
+    <listitem
+><para
+>Permet de définir les caractéristiques de votre équipement pour les fichiers journaux d'observations. La fenêtre Configurer équipement est divisée en quatre onglets : <guilabel
+>Télescope</guilabel
+>, <guilabel
+>Oculaire</guilabel
+>, <guilabel
+>Objectif</guilabel
+> et <guilabel
+>Filtre</guilabel
+>. Vous pouvez ajouter un nouvel équipement en complétant ses caractéristiques et en appuyant sur le bouton <guibutton
+>Ajouter nouveau…</guibutton
+>. Vous pouvez également enregistrer ou supprimer un équipement depuis la liste.</para
+></listitem>
+  </varlistentry>
+<!--
+  <varlistentry>
+    <term
+><menuchoice
+><guimenuitem
+>Telescope Wizard...</guimenuitem
+></menuchoice
+></term>
+    <listitem
+><para
+>Opens the <guilabel
+>Telescope Wizard</guilabel
+>, which provides a step-by-step guide to help you connect to your telescope and control it with &kstars;.</para
+></listitem>
+  </varlistentry>
+-->
+
+  <varlistentry>
+    <term
+><menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>D</keycap
+></keycombo
+> </shortcut
+> <guimenuitem
+>Gestionnaire de périphériques…</guimenuitem
+></menuchoice
+></term>
+    <listitem
+><para
+>Ouvre le gestionnaire de périphériques qui vous permet de démarrer/arrêter les pilotes de périphériques et à les connecter à des serveurs INDI distants.</para
+></listitem>
+  </varlistentry>
+
+  <varlistentry>
+    <term
+><guimenuitem
+>Pilotes personnalisés…</guimenuitem
+></term>
+    <listitem
+><para
+>Une boîte de dialogue pour personnaliser les pilotes…</para
+></listitem>
+  </varlistentry>
+
+  <varlistentry>
+    <term
+><guimenuitem
+>Tableau de bord INDI…</guimenuitem
+></term>
+    <listitem
+><para
+>Ouvre le tableau de bord INDI qui vous permet de contrôler toutes les fonctions gérées par un périphérique.</para
+></listitem>
+  </varlistentry>
+</variablelist
+></para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Outils</guimenu
+> <guimenuitem
+>Agenda du ciel</guimenuitem
+> </menuchoice
 ></term>
 <listitem>
-<para>
-Opens the <link linkend="tool-aavso"
->AAVSO Light Curve Generator</link>
-Tool, which allows you to download a light curve for any variable
-star from the American Association of Variable Star Observers.
-</para>
+<para
+>Ouvre l'outil de <guilabel
+>Agenda du ciel</guilabel
+> qui vous permet de planifier les observations des planètes du système solaire en donnant des données graphiques sur le lever et le coucher de ces objets. </para>
 </listitem>
 </varlistentry>
--->
+
 <varlistentry>
 <term
 ><menuchoice
@@ -744,7 +882,7 @@ star from the American Association of Variable Star Observers.
 > <guimenu
 >Outils</guimenu
 > <guimenuitem
->Élévation selon l'heure...</guimenuitem
+>Élévation selon l'heure</guimenuitem
 > </menuchoice
 ></term>
 <listitem>
@@ -767,18 +905,63 @@ star from the American Association of Variable Star Observers.
 > <guimenu
 >Outils</guimenu
 > <guimenuitem
->Dans le ciel cette nuit...</guimenuitem
+>Dans le ciel cette nuit</guimenuitem
 > </menuchoice
 ></term>
 <listitem>
 <para
 >Ouvre l'outil <link linkend="tool-whatsup"
 >Dans le ciel cette nuit</link
->, qui présente un résumé des objets qui sont observables de votre emplacement à un moment donné. </para>
+>, qui présente un résumé des objets qui sont observables de votre position à un moment donné. </para>
 </listitem>
 </varlistentry>
 
- <!--FIXME missing Ekos...-->
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>W</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Outils</guimenu
+> <guimenuitem
+>Digne d'intérêt…</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+>Ouvre l'outil <guilabel
+>Digne d'intérêt</guilabel
+> qui vous informe sur les observations les plus intéressantes que vous pouvez faire depuis votre position et avec un équipement donné. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>X</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Outils</guimenu
+> <guimenuitem
+>Simulateur de système solaire XPlanet</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+>Ce menu n'apparaît que si le programme optionnel <application
+>XPlanet</application
+> est installé. </para>
+</listitem>
+</varlistentry>
+
 <varlistentry>
 <term
 ><menuchoice
@@ -791,7 +974,7 @@ star from the American Association of Variable Star Observers.
 > <guimenu
 >Outils</guimenu
 > <guimenuitem
->Constructeur de scripts...</guimenuitem
+>Constructeur de scripts</guimenuitem
 > </menuchoice
 ></term>
 <listitem>
@@ -814,14 +997,35 @@ star from the American Association of Variable Star Observers.
 > <guimenu
 >Outils</guimenu
 > <guimenuitem
->Système solaire...</guimenuitem
+>Système solaire</guimenuitem
 > </menuchoice
 ></term>
 <listitem>
 <para
 >Ouvre l'<link linkend="tool-solarsys"
 >afficheur du système solaire</link
->, qui affiche une vue d'en haut du système solaire à la date de simulation courante. </para>
+>, qui affiche une vue aérienne du système solaire à la date de simulation courante. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>K</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Outils</guimenu
+> <guimenuitem
+>Ekos</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+>Ouvre Ekos, un outil complet et puissant pour l'astrophotographie. Avec Ekos vous pouvez aligner et guider votre télescope, ajuster la mise au point de votre CCD et procéder à l'acquisition d'images en utilisant une interface facile et intuitive. </para>
 </listitem>
 </varlistentry>
 
@@ -837,165 +1041,597 @@ star from the American Association of Variable Star Observers.
 > <guimenu
 >Outils</guimenu
 > <guimenuitem
->Lunes de Jupiter...</guimenuitem
+>Lunes de Jupiter</guimenuitem
 > </menuchoice
 ></term>
 <listitem>
 <para
->Ouvre l'<link linkend="tool-jmoons"
->Outil des Lunes de Jupiter</link
->, qui affiche la position des quatre Lunes de Jupiter les plus brillantes en fonction du temps. </para>
+>Ouvre l'outil <link linkend="tool-jmoons"
+>Lunes de Jupiter</link
+> qui affiche la position des quatre Lunes de Jupiter les plus brillantes en fonction du temps. </para>
 </listitem>
 </varlistentry>
-<!--FIXME missing
-Flags
-  -->
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Outils</guimenu
+> <guimenuitem
+>Drapeaux</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+>Ouvre l'outil de <guilabel
+>gestionnaires de drapeaux</guilabel
+> qui permet d'assigner des étiquettes de couleurs et des icônes à des positions données sur la carte du ciel. </para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+</sect2>
+
+<sect2 id="datamenu">
+<title
+>Menu Données</title>
+
+<variablelist>
+  <varlistentry>
+    <term
+><menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>N</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Données</guimenu
+> <guimenuitem
+>Télécharger de nouvelles données…</guimenuitem
+></menuchoice
+></term>
+    <listitem
+><para
+>Ouvre la boîte de dialogue <guilabel
+>Obtenir les nouveautés</guilabel
+> pour télécharger de nouvelles données pour &kstars;.</para
+></listitem>
+  </varlistentry>
+
+  <varlistentry>
+    <term
+><menuchoice
+><guimenu
+>Données</guimenu
+> <guimenuitem
+>Gérer les catalogues du ciel profond (CP)</guimenuitem
+></menuchoice
+></term>
+    <listitem
+><para
+>Ouvre la boîte de dialogue <guilabel
+>Catalogue CP</guilabel
+> pour gérer la base de données des catalogues de &kstars;.</para
+></listitem>
+  </varlistentry>
+
+  <varlistentry>
+    <term
+><menuchoice
+><guimenu
+>Données</guimenu
+> <guisubmenu
+>Mises à jour</guisubmenu
+></menuchoice
+></term>
+    <listitem
+><para
+>Ce sous-menu permet de mettre à jour à partir d'Internet les données d'objets divers, nommément les astéroïdes, les comètes, les éléments orbitaux de satellites ainsi que les données des supernovae récentes. Les données seront téléchargées uniquement pour le compte de l'utilisateur courant. Si vous utilisez &kstars; sur plusieurs comptes, vous devrez télécharger ces données pour chaque compte séparément.</para>
+
+    <para
+>&kstars; essaie par défaut de télécharger automatiquement la liste des supernovae récente. Vous pouvez désactiver le téléchargement dans la page <guilabel
+>Supernovae</guilabel
+> de &kstars;.</para
+></listitem>
+  </varlistentry>
+</variablelist>
+
+</sect2>
+
+<sect2 id="observationmenu">
+<title
+>Menu Observation</title>
+
+<variablelist>
+  <varlistentry>
+    <term
+><menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>L</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Observation</guimenu
+> <guimenuitem
+>Planificateur d'observations</guimenuitem
+> </menuchoice
+></term>
+    <listitem
+><para
+>Ouvre l'outil de <link linkend="tool-obsplanner"
+>planificateur d'observations</link
+>.</para
+></listitem>
+  </varlistentry>
+
+  <varlistentry>
+    <term
+><menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>2</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Observation</guimenu
+> <guimenuitem
+>Exécuter le plan de session…</guimenuitem
+> </menuchoice
+></term>
+    <listitem
+><para
+>Ouvre l'outil d'<link linkend="tool-obsplanner"
+>assistant de plan de session</link
+> ou exécute la session planifiée.</para
+></listitem>
+  </varlistentry>
+
+  <varlistentry>
+    <term
+><menuchoice
+><guimenu
+>Observation</guimenu
+> <guimenuitem
+>Angle horaire polaire…</guimenuitem
+> </menuchoice
+></term>
+    <listitem
+><para
+>Ouvre l'outil <guilabel
+>Angle horaire polaire</guilabel
+>.</para
+></listitem>
+  </varlistentry>
 </variablelist>
 </sect2>
 
 <sect2 id="settingmenu">
 <title
->Le menu <guimenu
->Configuration</guimenu
-></title>
+>Menu Configuration</title>
 
 <variablelist>
-<varlistentry>
-<term
+  <varlistentry>
+  <term
 ><menuchoice
 ><guimenu
 >Configuration</guimenu
 > <guisubmenu
 >Boîtes d'informations</guisubmenu
-> <guimenuitem
->Afficher les boîtes d'information</guimenuitem
 > </menuchoice
 ></term>
-<listitem
+  <listitem
 ><para
->Inverse l'affichage des trois boîtes d'information </para
+>Un sous-menu qui liste les différentes boîtes d'informations. <variablelist>
+    <varlistentry>
+      <term
+><guimenuitem
+>Afficher les boîtes d'informations</guimenuitem
+></term>
+      <listitem
+><para
+>(Dés)active l'affichage des trois boîtes d'informations : <itemizedlist>
+          <listitem
+><para
+><guiicon
+>Heure</guiicon
+></para
 ></listitem>
-</varlistentry>
+          <listitem
+><para
+><guiicon
+>Mise au point</guiicon
+></para
+></listitem>
+          <listitem
+><para
+><guiicon
+>Position</guiicon
+></para
+></listitem>
+        </itemizedlist>
+      </para
+></listitem>
+    </varlistentry>
 
-<varlistentry>
-<term
-><menuchoice
-><guimenu
->Configuration</guimenu
-> <guisubmenu
->Boîtes d'informations</guisubmenu
-> <guimenuitem
+    <varlistentry>
+      <term
+><guimenuitem
 >Afficher la boîte d'heure</guimenuitem
-> </menuchoice
 ></term>
-<listitem
+      <listitem
 ><para
->Inverse l'affichage de la boîte d'heure </para
+>(Dés)active l'affichage de la boîte d'informations de l'heure. Par défaut, cette boîte est placée en haut à gauche de l'écran. Vous pouvez modifier sa position en gardant le bouton gauche de la souris appuyé et en la déplaçant à sa nouvelle position.</para
 ></listitem>
-</varlistentry>
+    </varlistentry>
 
-<varlistentry>
-<term
+    <varlistentry>
+      <term
+><guimenuitem
+>Affiche la boîte de mise au point</guimenuitem
+></term>
+      <listitem
+><para
+>(Dés)active l'affichage de la boîte d'information de la mise au point. Par défaut, cette boîte est placée en haut à droite de l'écran. Vous pouvez modifier sa position en gardant le bouton gauche de la souris appuyé et en la déplaçant vers sa nouvelle position.</para
+></listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term
+><guimenuitem
+>Affiche la boîte de position</guimenuitem
+></term>
+      <listitem
+><para
+>(Dés)active la boîte d'information de la position. Par défaut, cette boîte est placée en haut à droite de l'écran. Vous pouvez modifier sa position en gardant le bouton gauche de la souris appuyé et en la déplaçant vers sa nouvelle position.</para
+></listitem>
+    </varlistentry>
+  </variablelist
+></para
+></listitem>
+  </varlistentry>
+
+  <varlistentry>
+  <term
 ><menuchoice
 ><guimenu
 >Configuration</guimenu
 > <guisubmenu
->Boîtes d'informations</guisubmenu
+>Barre d'outils affichées</guisubmenu
+> </menuchoice
+></term>
+  <listitem
+><para
+>Un sous-menu qui liste les différentes barres d'outils. <variablelist>
+    <varlistentry>
+      <term
+><guimenuitem
+>Barre principale</guimenuitem
+></term>
+      <listitem
+><para
+>(Dés)active l'affichage de la barre principale. Par défaut, la barre principale fournit des raccourcis utiles pour contrôler la vue de la carte du ciel (&cad; Zoom avant et Zoom arrière) et aussi pour contrôler l'horloge de &kstars;. Vous pouvez Démarrer/Arrêter l'horloge, avancer ou reculer d'un pas temporel et aussi facilement régler l'heure utilisée par &kstars;. Le pas temporel correspond au taux de temps dans la simulation. Pour régler le pas de temps, vous pouvez utiliser la boîte des unités de temps et celle des valeurs d'un pas temporel. La barre principale permet également de rapidement ouvrir les fenêtres <guilabel
+>Trouver un objet</guilabel
+>, <guilabel
+>Régler l'horloge</guilabel
+> ou encore <guilabel
+>Régler la position géographique</guilabel
+>. Cette barre principale peut être configurée en utilisant le menu <menuchoice
+><guimenu
+>Configuration</guimenu
+><guimenuitem
+>Barres d'outils affichées</guimenuitem
+></menuchoice
+>.</para
+></listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term
+><guimenuitem
+>Barre d'outils Affichage</guimenuitem
+></term>
+      <listitem
+><para
+>(Dés)active l'affichage de la barre d'outils Affichage. Elle contrôle quels objects sont dessinés sur la carte du ciel de &kstars; (étoiles, objets du ciel profond, objets du système solaire, supernovae ou satellites) ainsi que l'information au sujet des constellations à inclure (les lignes de constellations et leur limite, leur nom et leur type de culture céleste). Elle fournit également des raccourcis d'icône pour afficher la Voie Lactée (de couleur grise foncée), pour afficher les grilles équatoriales et azimutales et aussi pour afficher un terrain opaque vert. Veuillez noter que lorsque l'horizon est désactivé, les effets de réfaction sont temporairement désactivés. Cette barre d'outil peut être configurée en utilisant le menu <menuchoice
+><guimenu
+>Configuration</guimenu
 > <guimenuitem
->Afficher la boîte de focus</guimenuitem
-> </menuchoice
-></term>
-<listitem
-><para
->Inverse l'affichage de la boîte d'information du focus </para
+>Barres d'outils affichées</guimenuitem
+></menuchoice
+>.</para
 ></listitem>
-</varlistentry>
+    </varlistentry>
 
-<varlistentry>
-<term
-><menuchoice
+    <varlistentry>
+      <term
+><guimenuitem
+>Barre d'outils INDI</guimenuitem
+></term>
+      <listitem
+><para
+>(Dés)active l'affichage de la barre d'outil INDI. Par défaut, la barre d'outils INDI contient cinq icônes de raccourci :</para>
+        <itemizedlist>
+          <listitem
+><para
+><inlinemediaobject
+><imageobject
+><imagedata fileref="kstars_ekos.png" format="PNG"/></imageobject
+></inlinemediaobject
+> <guiicon
+>(Dés)active la barre d'outil Ekos</guiicon
+></para
+></listitem>
+          <listitem
+><para
+><inlinemediaobject
+><imageobject
+><imagedata fileref="kstars_indi.png" format="PNG"/></imageobject
+></inlinemediaobject
+> <guiicon
+>(Dés)active le tableau de bord INDI</guiicon
+></para
+></listitem>
+          <listitem
+><para
+><inlinemediaobject
+><imageobject
+><imagedata fileref="kstars_fitsviewer.png" format="PNG"/></imageobject
+></inlinemediaobject
+> <guiicon
+>(Dés)active l'afficheur FITS</guiicon
+></para
+></listitem>
+          <listitem
+><para
+><inlinemediaobject
+><imageobject
+><imagedata fileref="archive-extract.png" format="PNG"/></imageobject
+></inlinemediaobject
+> <guiicon
+>(Dés)active le capteur Cdv</guiicon
+></para
+></listitem>
+          <listitem
+><para
+><inlinemediaobject
+><imageobject
+><imagedata fileref="center_telescope.png" format="PNG"/></imageobject
+></inlinemediaobject
+> <guiicon
+>(Dés)active le verrouillage du centre du télescope</guiicon
+></para
+></listitem>
+        </itemizedlist>
+        <para
+>La barre d'outil INDI peut être configurée en utilisant <menuchoice
 ><guimenu
 >Configuration</guimenu
-> <guisubmenu
->Boîtes d'informations</guisubmenu
 > <guimenuitem
->Afficher la boîte d'emplacement</guimenuitem
-> </menuchoice
-></term>
-<listitem
-><para
->Inverse l'affichage de la boîte d'emplacement </para
+>Barres d'outils affichées</guimenuitem
+></menuchoice
+>.</para
 ></listitem>
-</varlistentry>
+    </varlistentry>
 
-<varlistentry>
-<term
-><menuchoice
+    <varlistentry>
+      <term
+><guimenuitem
+>Barre d'outil Télescope</guimenuitem
+></term>
+      <listitem
+><para
+>(Dés)active l'affichage de la barre d'outil Télescope. Par défaut cette barre d'outils contient sept icônes de raccourci :</para>
+        <itemizedlist>
+          <listitem
+><para
+><inlinemediaobject
+><imageobject
+><imagedata fileref="draw-text.png" format="PNG"/></imageobject
+></inlinemediaobject
+> <guiicon
+>(Dés)active le tableau de bord de la monture</guiicon
+></para
+></listitem>
+          <listitem
+><para
+><inlinemediaobject
+><imageobject
+><imagedata fileref="lock-open.png" format="PNG"/></imageobject
+></inlinemediaobject
+> <guiicon
+>(Dés)active le suivi du télescope</guiicon
+></para
+></listitem>
+          <listitem
+><para
+><inlinemediaobject
+><imageobject
+><imagedata fileref="object-rotate-right.png" format="PNG"/></imageobject
+></inlinemediaobject
+> <guiicon
+>Pivote le télescope vers l'objet centré</guiicon
+></para
+></listitem>
+          <listitem
+><para
+><inlinemediaobject
+><imageobject
+><imagedata fileref="media-record.png" format="PNG"/></imageobject
+></inlinemediaobject
+> <guiicon
+>Synchronise le télescope vers l'objet centré</guiicon
+></para
+></listitem>
+          <listitem
+><para
+><inlinemediaobject
+><imageobject
+><imagedata fileref="flag-red.png" format="PNG"/></imageobject
+></inlinemediaobject
+> <guiicon
+>Parquer le télescope</guiicon
+></para
+></listitem>
+          <listitem
+><para
+><inlinemediaobject
+><imageobject
+><imagedata fileref="flag-green.png" format="PNG"/></imageobject
+></inlinemediaobject
+> <guiicon
+>Déparquer le télescope</guiicon
+></para
+></listitem>
+          <listitem
+><para
+><inlinemediaobject
+><imageobject
+><imagedata fileref="process-stop.png" format="PNG"/></imageobject
+></inlinemediaobject
+> <guiicon
+>Annuler le mouvement du télescope</guiicon
+></para
+></listitem>
+        </itemizedlist>
+        <para
+>La barre d'outils du télescope peut être configurée en utilisant <menuchoice
 ><guimenu
 >Configuration</guimenu
-> <guisubmenu
->Barres d'outils affichées</guisubmenu
-> </menuchoice
-></term>
-<listitem
-><para
->(Dés)active l'affichage de la barre principale et de la barre d'outils </para
+> <guimenuitem
+>Affichage des barres d'outils…</guimenuitem
+></menuchoice
+></para
 ></listitem>
-</varlistentry>
+    </varlistentry>
 
-<varlistentry>
-<term
+    <varlistentry>
+      <term
+><guimenuitem
+>Barre d'outils du dôme</guimenuitem
+></term>
+      <listitem
+><para
+>(Dés)active l'affichage de la barre d'outils du dôme. Par défaut cette barre d'outils contient deux icônes de raccourci :</para>
+        <itemizedlist>
+          <listitem
+><para
+><inlinemediaobject
+><imageobject
+><imagedata fileref="dome-park.png" format="PNG"/></imageobject
+></inlinemediaobject
+> <guiicon
+>Parquer le dôme</guiicon
+></para
+></listitem>
+          <listitem
+><para
+><inlinemediaobject
+><imageobject
+><imagedata fileref="dome-unpark.png" format="PNG"/></imageobject
+></inlinemediaobject
+> <guiicon
+>Déparquer le dôme</guiicon
+></para
+></listitem>
+        </itemizedlist>
+        <para
+>La barre d'outils du dôme peut être configurée en utilisant <menuchoice
+><guimenu
+>Configuration</guimenu
+> <guimenuitem
+>Affichage des barres d'outils…</guimenuitem
+></menuchoice
+>.</para
+></listitem>
+    </varlistentry>
+
+  </variablelist
+></para
+></listitem>
+  </varlistentry>
+
+  <varlistentry>
+    <term
 ><menuchoice
 ><guimenu
 >Configuration</guimenu
 > <guisubmenu
 >Barre d'état</guisubmenu
-> <guimenuitem
+> </menuchoice
+></term>
+  <listitem
+><para
+>Un sous-menu qui liste the différentes barres d'état. <variablelist>
+    <varlistentry>
+      <term
+><guimenuitem
 >Afficher la barre d'état</guimenuitem
-> </menuchoice
 ></term>
-<listitem
+      <listitem
 ><para
->(Dés)active l'affichage de la barre d'état </para
+>(Dés)active l'affichage de la barre d'état. Elle est placée en bas de la fenêtre de &kstars;.</para
 ></listitem>
-</varlistentry>
+    </varlistentry>
 
-<varlistentry>
-<term
+    <varlistentry>
+      <term
+><guimenuitem
+>Afficher le champ Az/Alt</guimenuitem
+></term>
+      <listitem
+><para
+>(Dés)active l'affichage des coordonnées azimutales du pointeur de la souris dans la barre d'état.</para
+></listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term
+><guimenuitem
+>Afficher le champ AD/DEC</guimenuitem
+></term>
+      <listitem
+><para
+>(Dés)active l'affichage des coordonnées équatoriales du pointeur de la souris dans la barre d'état.</para
+></listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term
+><guimenuitem
+>Afficher le champ J2000.0 AD/DEC</guimenuitem
+></term>
+      <listitem
+><para
+>(Dés)active l'affichage des coordonnées équatoriales J2000 du pointeur de la souris dans la barre d'état.</para
+></listitem>
+    </varlistentry>
+  </variablelist
+></para
+></listitem>
+  </varlistentry>
+
+  <varlistentry>
+    <term
 ><menuchoice
 ><guimenu
 >Configuration</guimenu
 > <guisubmenu
->Barre d'état</guisubmenu
-> <guimenuitem
->Afficher le champ Az / Alt</guimenuitem
+>Thèmes</guisubmenu
 > </menuchoice
 ></term>
-<listitem
+    <listitem
 ><para
->(Dés)active l'affichage des coordonnées azimutales du pointeur de la souris dans la barre d'état </para
+>Liste les différents thèmes disponibles.</para
 ></listitem>
-</varlistentry>
+  </varlistentry>
 
-<varlistentry>
-<term
-><menuchoice
-><guimenu
->Configuration</guimenu
-> <guisubmenu
->Barre d'état</guisubmenu
-> <guimenuitem
->Afficher le champ AD / Déc</guimenuitem
-> </menuchoice
-></term>
-<listitem
-><para
->(Dés)active l'affichage des coordonnées azimutales du pointeur de la souris dans la barre d'état </para
-></listitem>
-</varlistentry>
-
-<varlistentry>
-<term
+  <varlistentry>
+    <term
 ><menuchoice
 ><guimenu
 >Configuration</guimenu
@@ -1003,14 +1639,14 @@ Flags
 >Modèles de couleurs</guisubmenu
 > </menuchoice
 ></term>
-<listitem
+    <listitem
 ><para
->Ce sous-menu contient tous les modèles de couleurs, y compris vos modèles de couleurs personnalisés. En sélectionnant un élément, le modèle de couleur se met en place. </para
+>Ce sous-menu contient tous les modèles de couleurs : Classique, Carte d'étoiles, Vision nocturne et Nuit sans Lune. Elle peut aussi inclure vos propres modèles de couleurs. En sélectionnant un élément, le modèle de couleur se met en place.</para
 ></listitem>
-</varlistentry>
+  </varlistentry>
 
-<varlistentry>
-<term
+  <varlistentry>
+    <term
 ><menuchoice
 ><guimenu
 >Configuration</guimenu
@@ -1018,21 +1654,78 @@ Flags
 >Indicateurs de champ de vision</guisubmenu
 > </menuchoice
 ></term>
-<listitem
+    <listitem
 ><para
->Cette liste de sous-menu répertorie les indicateurs de champ de vision (FOV) disponibles. L'indicateur de champ de vision est dessiné au centre de l'affichage. Vous pouvez choisir depuis la liste des indicateurs prédéfinis (Pas d'indicateur, jumelles 7x35, Un degré, ou LST WFPC2), ou vous pouvez définir vos propres indicateurs (ou modifier les indicateurs existants) en utilisant l'élément <guimenuitem
->Modifier les indicateurs de champ de vision...</guimenuitem
->. </para
+>Cette liste de sous-menu répertorie les indicateurs de champ de vision (FOV) disponibles. L'indicateur de champ de vision est dessiné au centre de l'affichage. Vous pouvez choisir depuis la liste des indicateurs prédéfinis (Jumelles 7x35, Telrad, Un degré, HST WFPC2 ou 30m à 1,3cm) en cochant leur case ou vous pouvez n'en utiliser aucun en décochant toutes les cases. Vous pouvez définir vos propres indicateurs (ou modifier les indicateurs existants) en utilisant l'élément <guimenuitem
+>Modifier les indicateurs de champ de vision…</guimenuitem
+>.</para
 ></listitem>
-</varlistentry>
-<!-- missing
-Switch to OpenGL backend
-Updates
-Define Equipment Ctrl+0
-Add Observer Ctrl+1
-  -->
-<varlistentry>
-<term
+  </varlistentry>
+
+  <varlistentry>
+    <term
+><menuchoice
+><guimenu
+>Configuration</guimenu
+> <guisubmenu
+>Horizon artificiel…</guisubmenu
+> </menuchoice
+></term>
+    <listitem
+><para
+>Si vous sélectionnez ce sous-menu, alors la fenêtre du gestionnaire d'horizon artificiel s'ouvrira. Il permet de définir une ou plusieurs zones sur la carte du ciel qui sont masquées depuis votre position actuelle (&cad; par des grands arbres ou des immeubles). La fenêtre est séparée en deux parties : sur la partie gauche se trouve la section Régions et sur la partie droite la section Points. Vous pouvez ajouter une zone en appuyant sur le bouton <guibutton
+>+</guibutton
+> (ajouter Région) ou vous pouvez en supprimer une en la choisissant dans la liste et appuyer sur le bouton <guibutton
+>-</guibutton
+> (Supprimer Région). Afin de dessiner une région, il faut définir une liste de points qui l'entoure. Vous pouvez ajouter un nouveau point en cliquant sur le bouton <guibutton
+>+</guibutton
+> (Ajouter Point) de la section de droite. Vous pouvez également supprimer un point sélectionné de la liste de points ou effacer tous les points. Il y a deux manières d'ajouter un point à une région sélectionnée : en indiquant manuellement les coordonnées du point ou en sélectionnant le point de la carte du ciel après avoir cliqué sur le bouton <guibutton
+>Sélectionner Point</guibutton
+>. Veuillez noter que chaque point est décrit par des coordonnées horizontales : Az (Azimuth) et Alt (Altitude). Si vous souhaitez modifier les coordonnées d'un point, il suffit de double-cliquer sur sa valeur Az/Alt dans la boîte et indiquer de nouvelles valeurs. Le premier et le dernier point doivent se trouver sur l'horizon. Les polygones doivent être fermés pour être considérés comme des régions valables. Le gestionnaire d'horizon artificiel fournit un moyen simple pour renommer vos régions. Par défaut, les régions sont nommées : <quote
+>Région</quote
+> plus un index (&cad; <quote
+>Région 1</quote
+> ou <quote
+>Région 2</quote
+>). Pour renommer une région, il suffit de double-cliquer sur son nom et vous serez invité à saisir un nouveau nom. Vous pouvez aussi contrôler l'affichage de ces régions sur la carte du ciel par un simple clic sur la case à cocher en face de chaque région. Après avoir défini vos régions, vous pouvez les appliquer en cliquant sur le bouton <guibutton
+>Appliquer</guibutton
+>. Si vous souhaitez réutiliser ces régions dans une session ultérieure, vous pouvez les enregistrer afin qu'au prochain lancement de &kstars; elles seront automatiquement affichées sur la carte du ciel.</para
+></listitem>
+  </varlistentry>
+
+  <varlistentry>
+    <term
+><menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>1</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Configuration</guimenu
+> <guimenuitem
+> Gérer l'observateur…</guimenuitem
+> </menuchoice
+></term>
+    <listitem
+><para
+>En sélectionnant ceci vous ouvrirez la fenêtre de gestion d'observateur qui permet de répertorier les observateurs qui utilisent &kstars; sur cette ordinateur. Vous pouvez saisir un nouvel observateur en complétant les champs requis : <guilabel
+>Nom</guilabel
+> et <guilabel
+>Prénom</guilabel
+> et valider en cliquant sur le bouton <guibutton
+>+</guibutton
+> (Ajouter Observateur). Veuillez noter que le champ <guilabel
+>Contact</guilabel
+> est facultatif. Vous pouvez supprimer un observateur en cliquant sur le bouton <guibutton
+>-</guibutton
+> (Supprimer Observateur).</para
+></listitem>
+  </varlistentry>
+
+  <varlistentry>
+    <term
 ><menuchoice
 ><shortcut
 > <keycombo action="simul"
@@ -1043,47 +1736,151 @@ Add Observer Ctrl+1
 > <guimenu
 >Configuration</guimenu
 > <guimenuitem
-> Emplacement géographique...</guimenuitem
+> Position géographique…</guimenuitem
 > </menuchoice
 ></term>
-<listitem>
-<para
->Permet de choisir un nouvel <link linkend="setgeo"
->emplacement géographique</link
-> </para>
-</listitem>
-</varlistentry>
-<!--Configure Shortcuts / Configure Toolbars missing -->
-<varlistentry>
-<term
+    <listitem
+><para
+>Permet de choisir une nouvelle <link linkend="setgeo"
+>position géographique</link
+></para
+></listitem>
+  </varlistentry>
+
+  <varlistentry>
+    <term
 ><menuchoice
 ><guimenu
 >Configuration</guimenu
 > <guimenuitem
->Configurer &kstars;...</guimenuitem
+>Configurer les raccourcis clavier…</guimenuitem
 > </menuchoice
 ></term>
-<listitem
+    <listitem
+><para
+>Ouvrir la fenêtre de configuration des raccourcis clavier pour modifier les raccourcis dans &kstars;. Vous pouvez utiliser le schéma de raccourci par défaut de &kstars; ou définir votre propre schéma de raccourcis. Afin d'ajouter un nouveau raccourci personnalisé à une action, vous devez cliquer sur le nom d'une action et ensuite cliquer sur la case à cocher <guibutton
+>Personnaliser</guibutton
+>. Ensuite cliquez sur le bouton à côté de <guibutton
+>Personnaliser</guibutton
+> et saisissez le raccourci que vous souhaitez utiliser dans &kstars;. Vous pouvez supprimer un raccourci en cliquant sur le bouton <guibutton
+>Supprimer</guibutton
+> après avoir choisi une action dans la liste. &kstars; vous aide à trouver une action en fournissant une méthode de recherche ; il suffit d'indiquer le nom de l'action pour réduire la liste aux meilleures correspondances. Par exemple, je vais vous donner un bref exemple sur la manière d'utiliser la fonctionnalité de configuration des raccourcis de &kstars; : <itemizedlist>
+        <listitem
+><para
+>Veuillez d'abord ouvrir la fenêtre de configuration des raccourcis depuis le menu de <guimenu
+>Configuration</guimenu
+>.</para
+></listitem>
+        <listitem
+><para
+>Ensuite, sélectionnez l'action à laquelle vous souhaitez rattacher un raccourci (&cad; horizon artificiel). Vous pouvez utiliser la méthode de recherche fournie par &kstars;. Veuillez simplement saisir <quote
+>art</quote
+> et la liste sera réduite à seulement trois actions. L'horizon artificiel est la dernière des trois dans la liste.</para
+></listitem>
+        <listitem
+><para
+>Maintenant que vous avez trouvé l'action souhaitée, vous pouvez ajouter un nouveau raccourci en cliquant sur son nom. Après avoir cliqué sur le nom de l'action, choisissez <guibutton
+>Personnaliser</guibutton
+>. Il y a un bouton juste à côté de ce bouton <guibutton
+>Personnaliser</guibutton
+> utilisé pour ajouter de nouveaux raccourcis. Par défaut, si une action n'a aucun raccourci personnalisé, le choix <quote
+>Aucun</quote
+> sera assigné à ce bouton. Cliquez sur ce bouton et ajoutez ensuite votre raccourci personnalisé. Dans notre exemple pour l'horizon artificiel, vous pouvez utiliser le raccourci &Ctrl;+H. Gardez enfoncé la touche &Ctrl; et appuyez sur H. Ce raccourci sera automatiquement enregistré et vous pourrez ainsi l'utiliser la prochaine fois que vous lancerez &kstars;.</para
+></listitem>
+      </itemizedlist>
+    </para
+></listitem>
+  </varlistentry>
+
+  <varlistentry>
+    <term
+><menuchoice
+><guimenu
+>Configuration</guimenu
+> <guimenuitem
+>Configurer &kstars;…</guimenuitem
+> </menuchoice
+></term>
+    <listitem
 ><para
 >Permet de modifier les <link linkend="config"
 >options de configuration</link
-></para
+>.</para
 ></listitem>
-</varlistentry>
+  </varlistentry>
 
-<!-- Startup Wizard missing-->
- 
+  <varlistentry>
+    <term
+><menuchoice
+><guimenu
+>Configuration</guimenu
+> <guimenuitem
+>Démarrer l'assistant…</guimenuitem
+> </menuchoice
+></term>
+    <listitem
+><para
+>Affiche l'<guilabel
+>Assistants de configuration</guilabel
+>. C'est la même fenêtre que vous avez vu lorsque vous avez lancé &kstars; pour la première fois. Cet assistant vous aidera à régler les options de base telles que votre position sur Terre. La première page de cet assistant est une page de bienvenue et si vous cliquez sur <guibutton
+>Suivant</guibutton
+> vous tomberez sur la page <guilabel
+>Choisir votre position actuelle</guilabel
+>. Vous pouvez choisir ici votre position actuelle exact ou une ville proche si votre position précise ne se trouve pas dans la base de données de villes de &kstars;. Parcourir la liste entière n'est pas très efficace et donc &kstars; fournit une méthode facile à utiliser pour choisir une ville rapidement. Vous pouvez ainsi filtrer la liste de villes par ville, département et pays. En donnant davantage de détails, la liste sera réduite aux meilleures correspondances. Quand vous surlignez une ville dans cette liste, les boîtes de <guilabel
+>Latitude</guilabel
+> et <guilabel
+>Longitude</guilabel
+> seront mises à jour avec les coordonnées exacte de la position sélectionnée. En cliquant sur le bouton <guibutton
+>Suivant</guibutton
+>, vous irez sur la dernière page de l'assistant de configuration de &kstars; : <quote
+>Télécharger des données supplémentaires</quote
+>. Ici vous pourrez télécharger via Internet des fichiers de données optionnels afin d'améliorer &kstars;, telles que des images des objets Messier ou encore un catalogue NGC/IC plus complet. Cliquez sur le bouton <guibutton
+>Télécharger des données supplémentaires</guibutton
+> pour commencer. Après avoir cliqué sur ce bouton, la fenêtre <guilabel
+>Obtenir Hot New Stuff</guilabel
+> apparaîtra. C'est l'installateur d'extensions de &kstars; qui vous aidera à gérer l'information supplémentaire que vous avez ajouté à &kstars;. Vous pouvez d'abord choisir le type d'affichage de la liste d'extensions en cliquant sur le bouton <guibutton
+>Mode d'affichage détaillé</guibutton
+> ou <guibutton
+>Mode d'affichage des icônes</guibutton
+>. Vous pouvez aussi trier la liste selon différents critères comme le plus récent, la notation, le plus téléchargé ou installé. Cela peut être réalisé facilement en sélectionnant une option avec le bouton radio. Vous pouvez aussi effectuer des recherches en utilisant le champ texte <guilabel
+>Recherche</guilabel
+>. En ce qui concerne la liste des extensions, vous pouvez agir de différentes manières en sélectionnant une extension de la liste. Vous pouvez installer ou désinstaller une extension en utilisant le bouton <guibutton
+>Installer/Désinstaller</guibutton
+>, vous pouvez ouvrir une fenêtre détaillées en utilisant le bouton <guibutton
+>Détails</guibutton
+> ou vous pouvez évaluer cette extension en donnant un nombre d'étoiles dorées, jusqu'à cinq. Si vous souhaitez envoyer un courriel à l'auteur d'une extension, vous pouvez le faire en cliquant sur son adresse email. Ensuite votre client de messagerie par défaut vous guidera dans le processus d'envoi. Après avoir géré vos extensions de &kstars;, vous pouvez fermer la fenêtre en cliquant sur le bouton <guibutton
+>Fermer</guibutton
+>. Vous pouvez aussi utiliser l'outil de téléchargement de données supplémentaires plus tard en choisissant <menuchoice
+><guimenu
+>Données</guimenu
+> <guimenuitem
+>Télécharger de nouvelles données…</guimenuitem
+></menuchoice
+>.</para
+></listitem>
+  </varlistentry>
 </variablelist>
+
+<para
+>&kstars; possède additionnellement les menus courants de <guimenu
+>Configuration</guimenu
+> de &kde;. Pour davantage d'informations, veuillez lire les sections concernant les <ulink url="help:/fundamentals/menus.html#menus-settings"
+>Menus de configuration</ulink
+> dans les indispensables de &kde;. </para>
+
 </sect2>
 
-<!--Observation menu missing -->
- 
 <sect2 id="helpmenu">
 <title
->Le menu <guimenu
->Aide</guimenu
-></title>
-&help.menu.documentation; </sect2>
+>Menu Aide</title>
+<para
+>&kstars; possède le menu <guilabel
+>Aide</guilabel
+> courant de &kde;. Pour davantage d'informations, veuillez lire la section concernant le menu <ulink url="help:/fundamentals/menus.html#menus-help"
+>Aide</ulink
+> des Indispensables de &kde;. </para>
+
+</sect2>
 
 <sect2 id="popup-menu">
 <title
@@ -1106,7 +1903,9 @@ Add Observer Ctrl+1
 >[Tous]</term>
 <listitem
 ><para
->L'identification et le type : les trois premières lignes indiquent le nom et le type de l'objet. Dans le cas des étoiles, le type spectral apparaît aussi. </para
+>Identification et info rapide : les premières lignes sont dévolues au(x) nom(s) de l'objet, son type et la constellation dans laquelle il se trouve. La magnitude est indiquée avec l'exposant <quote
+>m</quote
+> si disponible. Pour les étoiles, le type spectral est aussi montré ici. Pour les objets du ciel profond, la dimension, si connue, est indiquée en minutes d'arc (&cad; 6'x3') et le catalogue de la source est aussi montré. </para
 ></listitem>
 </varlistentry>
 
@@ -1115,7 +1914,7 @@ Add Observer Ctrl+1
 >[Tous]</term>
 <listitem
 ><para
->Les heures du lever / coucher pour l'objet à la date de simulation courante sont affichées les trois lignes suivantes. </para
+>Les heures du lever et du coucher pour l'objet à la date de simulation courante sont affichées sur les trois lignes suivantes. </para
 ></listitem>
 </varlistentry>
 
@@ -1135,15 +1934,76 @@ Add Observer Ctrl+1
 >[Tous]</term>
 <listitem
 ><para
+>Fenêtre <guimenuitem
+>Ajouter drapeau</guimenuitem
+> : Ouvrir le <quote
+>Gestionnaire de drapeaux</quote
+>. Vous pouvez gérer ici vos drapeaux et utiliser quelques fonctionnalités de &kstars;. Quand la fenêtre de <quote
+>Gestionnaire de drapeaux</quote
+> est ouverte pour un objet sélectionné, les boîtes pour l'<guilabel
+>ascension droite</guilabel
+> et la <guilabel
+>déclinaison</guilabel
+> seront automatiquement remplies avec les coordonnées de l'objet sélectionné dans la carte du ciel. Outre ces deux boîtes, vous pouvez régler l<guilabel
+>Epoch</guilabel
+>, ajouter une <guilabel
+>étiquette</guilabel
+>, ajuster la <guilabel
+>couleur de l'étiquette</guilabel
+> et même ajouter une <guilabel
+>icône</guilabel
+>. Pour ajouter des icônes personnalisées, il suffit d'ajouter des images dans le dossier <filename class="directory"
+>`qtpaths --paths GenericDataLocation`/kstars</filename
+>. Les noms de fichier doivent commencer par le mot-clé <quote
+>flag</quote
+>. Par exemple, le fichier <quote
+>flagSmall_red_cross.gif</quote
+> sera affiché comme Small red cross dans la boîte. Après avoir spécifié l'information du nouveau drapeau, vous pouvez l'ajouter à la liste de drapeaux en utilisant le bouton <guibutton
+>Ajouter</guibutton
+>. Vous pouvez aussi modifier les détails du drapeau (&cad; AD/DEC, l'étiquette ou l'icône) et ensuite les enregistrer avec le bouton <guibutton
+>Enregistrer les changements</guibutton
+>. Avec le gestionnaire de drapeaux, vous pouvez facilement centrer un objet dans la carte ou dans le télescope en cliquant sut le bouton <guibutton
+>Centrer sur la carte</guibutton
+> ou <guibutton
+>Centrer dans le télescope</guibutton
+>. Pour supprimer une entrée dans la liste, sélectionner le simplement dans la liste et cliquez sur le bouton <guibutton
+>Supprimer</guibutton
+>. Vos drapeaux sont enregistrés après la fermeture de la session et vous pourrez ainsi les voir chaque fois que vous ouvrirez &kstars; à nouveau. </para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+>[Tous]</term>
+<listitem
+><para
 ><guimenuitem
->Distance angulaire à...</guimenuitem
-> : entre en « mode distance angulaire ». Dans ce mode, une ligne pointillée est dessinée depuis le premier objet-cible vers la position courante de la souris. Quand vous invoquez le menu contextuel avec le &BDS; sur un second objet, cela affichera la distance angulaire entre deux objets à proximité du second objet. Vous pouvez actionner la touche <keycap
->&Echap;</keycap
+>Distance angulaire à…</guimenuitem
+> : entre en <quote
+>mode distance angulaire</quote
+>. Dans ce mode, une ligne pointillée est dessinée depuis le premier objet ciblé vers la position courante de la souris. Quand vous invoquez le menu contextuel avec le &BDS; sur un second objet, cela affichera la distance angulaire entre deux objets à proximité du second objet. Vous pouvez actionner la touche <keycap
+>&Esc;</keycap
 > pour quitter le mode de distance angulaire sans mesurer d'angle. </para
 ></listitem>
 </varlistentry>
 
-<!-- Starhop from here missing-->
+<!-- Starhop: -->
+<varlistentry>
+<term
+>[Tous]</term>
+<listitem
+><para
+><guimenuitem
+>Saute-mouton astronomique depuis ici vers</guimenuitem
+> : vous permet de trouver un chemin entre deux points du ciel. Le saute-mouton astronomique est une technique qui utilise des étoiles brillantes comme guide pour trouver des étoiles plus faibles. Ainsi, si vous avez une étoile brillante, vous pouvez l'utiliser comme référence pour en trouver une plus faible. En commençant de cette étoile de référence, &kstars; trouvera un chemin vers la destination en passant par une séquence d'étoiles ou d'astérisme d'étoiles. L'objet à partir duquel vous avez lancé cet outil sera l'étoile de départ. Quand le premier point est établi, une ligne pointillée va apparaître vous permettant de décider quel sera le point d'arrivée. Vous devez déplacer le pointeur de la souris vers ce point d'arrivée et faire un clic droit sur lui. Ensuite, une boîte de dialogue apparaîtra où il faudra spécifier le champ de vue (FOV) à utiliser pour le saute-mouton. La sélection de champ de vue se fait parmi une liste de valeurs préétablie (jumelles 7x35, Telrad, Un degrés, HST WFPC2, 30m à 1,3cm, ainsi que vos propres champs de vue). Cette sélection faite, &kstars; trouvera une route pour vous et vous affichera une liste d'objets utilisée pour le saute-mouton. Si &kstars; ne parvient pas à trouver une route, une boîte de dialogue affichera une erreur qui vous aidera à corriger le problème. Quand l'algorithme de saute-mouton se termine, une boîte de dialogue contiendra une liste des objets utilisés pour la route. Pour chaque objet de cette liste, vous pouvez effectuer une série d'actions. Vous pouvez afficher des détails avec le bouton <guibutton
+>Détails</guibutton
+>, centrer l'objet sélectionné avec le bouton <guibutton
+>Centrer sur la carte</guibutton
+> ou aller à la prochaine étoile en cliquant sur le bouton <guibutton
+>Suivant</guibutton
+>. Veuillez noter que la prochaine étoile sera automatiquement centrée sur la carte. Cet outil fournit également des directions pour chaque objet de la liste. </para
+></listitem>
+</varlistentry>
 
 <varlistentry>
 <term
@@ -1153,7 +2013,7 @@ Add Observer Ctrl+1
 ><guimenuitem
 >Détails</guimenuitem
 > : ouvre la <link linkend="tool-details"
->fenêtre des détails de l'objet</link
+>fenêtre de détails de l'objet</link
 > pour cet objet. </para
 ></listitem>
 </varlistentry>
@@ -1170,19 +2030,38 @@ Add Observer Ctrl+1
 >. </para
 ></listitem>
 </varlistentry>
-<!-- missing
-Add to Observing Wishlist
-Add Trail
-Print XPlanet view
-  -->
+
 <varlistentry>
 <term
 >[Tous]</term>
 <listitem
 ><para
 ><guimenuitem
->Afficher l'image...</guimenuitem
-> : télécharge une image de l'objet depuis l'Internet, et l'afficher dans l'outil afficheur d'images. Le texte « ... » est remplacé par une courte description de la source de l'image. Un objet peut avoir de multiples liens d'images disponibles dans le menu contextuel. </para
+>Ajouter à la liste de souhaits</guimenuitem
+> : ajouter l'objet sélectionné au <guimenu
+>planificateur d'observation</guimenu
+>. Vous pouvez voir la liste de souhaits dans le menu <menuchoice
+><guimenu
+>Observations</guimenu
+> <guimenuitem
+>Planificateur d'observation</guimenuitem
+></menuchoice
+>. Si cet objet est déjà dans la liste de souhaits, alors cet élément deviendra <guilabel
+>Supprimer étiquette</guilabel
+>. </para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+>[Objets du système solaire]</term>
+<listitem
+><para
+><guimenuitem
+>Ajouter une trace</guimenuitem
+> : ajoute une trace à l'objet courant du système solaire. Une trace d'étoile est le chemin continu créé par l'étoile dans le ciel de la nuit dû à la rotation de la Terre. Si un objet a déjà une trace, cet élément deviendra <guilabel
+>Supprimer Trace</guilabel
+>. </para
 ></listitem>
 </varlistentry>
 
@@ -1192,8 +2071,58 @@ Print XPlanet view
 <listitem
 ><para
 ><guimenuitem
->Page...</guimenuitem
-> : affiche une page web sur l'objet dans votre navigateur web par défaut. Le texte « ... » est remplacé par une courte description de la page. Un objet peut avoir de multiples liens web disponibles dans le menu contextuel. </para
+>Simuler un affichage à l'oculaire</guimenuitem
+> : cette fonctionnalité présente une vue à travers un oculaire de différents types de télescope. Une première fenêtre de dialogue vous demande de choisir un champ de vue à utiliser comme oculaire. L'utilisateur a l'option de le déterminer à partir de l'image (précis si l'image possède des métadonnées, sinon ce sera aléatoire). Après avoir choisi ce champ de vue, la fenêtre <quote
+>Affichage du champ de vue de l'oculaire</quote
+> apparaîtra. Vous pouvez facilement faire une rotation de l'affichage en utilisant le curseur <quote
+>Rotation</quote
+>. Vous pouvez également retourner et inverser l'affichage afin de le faire correspondre à l'affichage du télescope ou de la caméra. L'outil <quote
+>Affichage oculaire</quote
+> vous aide grandement à localiser les objets, plutôt que de travailler avec des positions et des orientations relatives. Cela est d'un grand avantage surtout quand vous faites du saute-mouton astronomique. Veuillez noter que pour obtenir les meilleurs résultats, l'heure doit être synchronisée avec l'heure courante de &kstars; et &kstars; doit se trouver dans le mode de coordonnées horizontales. </para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+>[Objets du système solaire]</term>
+<listitem
+><para
+><guimenuitem
+>Ressources de l'image</guimenuitem
+> : donne une liste de liens d'image pour l'objet courant du système solaire. Les images sont affichées dans l'outil d'affichage d'images de &kstars;. Cet outil vous permet d'inverser les couleurs et d'enregistrer les images sur votre ordinateur. </para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+>[Objets du système solaire]</term>
+<listitem
+><para
+><guimenuitem
+>Ressources Informations</guimenuitem
+> : donne une liste de liens d'informations pour l'objet courant du système solaire. Les liens sont ouverts dans votre navigateur par défaut. </para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+>[Tous les objets sauf ceux du système solaire]</term>
+<listitem
+><para
+><guimenuitem
+>Affiche Image SDSS</guimenuitem
+> : télécharge à partir de l'Internet une image SDSS (Sloan Digital Sky Survey) de l'objet et l'affiche dans l'outil d'afficheur d'images. </para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+>[Tous les objets sauf ceux du système solaire]</term>
+<listitem
+><para
+><guimenuitem
+>Affiche Image DSS</guimenuitem
+> : télécharge à partir de l'Internet une image DSS (Digitized Sky Survey) de l'objet et l'affiche dans l'outil d'afficheur d'images. </para
 ></listitem>
 </varlistentry>
 
@@ -1236,7 +2165,7 @@ Print XPlanet view
 <term
 ><keycap
 >+</keycap
-> / <keycap
+> et <keycap
 >-</keycap
 ></term>
 <listitem
@@ -1254,7 +2183,7 @@ Print XPlanet view
 ></term>
 <listitem
 ><para
->Restaure le réglage par défaut du zoom</para
+>Restaure le réglage par défaut du zoom.</para
 ></listitem>
 </varlistentry>
 
@@ -1267,55 +2196,79 @@ Print XPlanet view
 ></term>
 <listitem
 ><para
->Fait un zoom à l'angle de champ de vision spécifié</para
+>Fait un zoom à l'angle de champ de vision spécifié.</para
 ></listitem>
 </varlistentry>
 
 <varlistentry>
 <term
->0&ndash;9</term>
+><keycap
+>0</keycap
+>&ndash;<keycap
+>9</keycap
+></term>
 <listitem
 ><para
->Centrer l'image sur un objet majeur du système solaire. <itemizedlist>
+>Centre l'image sur un objet majeur du système solaire : <itemizedlist>
 <listitem
 ><para
->0 = Soleil</para
+><keycap
+>0</keycap
+> : Soleil</para
 ></listitem>
 <listitem
 ><para
->1 = Mercure</para
+><keycap
+>1</keycap
+> : Mercure</para
 ></listitem>
 <listitem
 ><para
->2 = Vénus</para
+><keycap
+>2</keycap
+> : Venus</para
 ></listitem>
 <listitem
 ><para
->3 = Lune</para
+><keycap
+>3</keycap
+> : Lune</para
 ></listitem>
 <listitem
 ><para
->4 = Mars</para
+><keycap
+>4</keycap
+> : Mars</para
 ></listitem>
 <listitem
 ><para
->5 = Jupiter</para
+><keycap
+>5</keycap
+> : Jupiter</para
 ></listitem>
 <listitem
 ><para
->6 = Saturne</para
+><keycap
+>6</keycap
+> : Saturne</para
 ></listitem>
 <listitem
 ><para
->7 = Uranus</para
+><keycap
+>7</keycap
+> : Uranus</para
 ></listitem>
 <listitem
 ><para
->8 = Neptune</para
+><keycap
+>8</keycap
+> : Neptune</para
 ></listitem>
 <listitem
 ><para
->9 = Pluton</para
+><keycap
+>9</keycap
+> : Pluton</para
 ></listitem>
 </itemizedlist>
 </para
@@ -1342,7 +2295,7 @@ Print XPlanet view
 ></term>
 <listitem
 ><para
->Centre l'affichage au-dessus de l'horizon nord</para
+>Centre l'affichage au-dessus de l'horizon nord.</para
 ></listitem>
 </varlistentry>
 
@@ -1353,7 +2306,7 @@ Print XPlanet view
 ></term>
 <listitem
 ><para
->Centre l'affichage au-dessus de l'horizon est</para
+>Centre l'affichage au-dessus de l'horizon est.</para
 ></listitem>
 </varlistentry>
 
@@ -1388,7 +2341,7 @@ Print XPlanet view
 ></term>
 <listitem
 ><para
->Inverser le mode de suivi.</para
+>(Dés)active le mode de suivi.</para
 ></listitem>
 </varlistentry>
 
@@ -1399,7 +2352,7 @@ Print XPlanet view
 ></term>
 <listitem
 ><para
->Reculer l'horloge de simulation d'un pas de temps</para>
+>Recule l'horloge de simulation d'un pas de temps.</para>
 </listitem>
 </varlistentry>
 
@@ -1410,7 +2363,7 @@ Print XPlanet view
 ></term>
 <listitem
 ><para
->Avancer l'horloge de simulation d'un pas de temps</para>
+>Avance l'horloge de simulation d'un pas de temps.</para>
 </listitem>
 </varlistentry>
 
@@ -1429,7 +2382,7 @@ Print XPlanet view
 >Raccourcis clavier</tertiary>
 </indexterm>
 <variablelist>
-<!-- not in 4.7
+
 <varlistentry>
 <term
 ><keycombo action="simul"
@@ -1439,33 +2392,7 @@ Print XPlanet view
 ></term>
 <listitem
 ><para
->Open a new &kstars; window</para
-></listitem>
-</varlistentry>
-
-<varlistentry>
-<term
-><keycombo action="simul"
->&Ctrl;<keycap
->W</keycap
-></keycombo
-></term>
-<listitem
-><para
->Close a &kstars; window</para
-></listitem>
-</varlistentry>
--->
-<varlistentry>
-<term
-><keycombo action="simul"
->&Ctrl;<keycap
->D</keycap
-></keycombo
-></term>
-<listitem
-><para
->Télécharge des données supplémentaires</para
+>Télécharge des données supplémentaires.</para
 ></listitem>
 </varlistentry>
 
@@ -1478,7 +2405,7 @@ Print XPlanet view
 ></term>
 <listitem
 ><para
->Ouvre une image FITS dans l'éditeur FITS</para
+>Ouvre une image FITS dans l'éditeur FITS.</para
 ></listitem>
 </varlistentry>
 
@@ -1491,7 +2418,22 @@ Print XPlanet view
 ></term>
 <listitem
 ><para
->Exporte une image du ciel dans un fichier</para
+>Exporte une image du ciel dans un fichier.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><keycombo action="simul"
+>&Ctrl;<keycap
+>L</keycap
+></keycombo
+></term>
+<listitem
+><para
+>Exécute l'outil de <link linkend="tool-obsplanner"
+>planificateur d'observations</link
+>. </para
 ></listitem>
 </varlistentry>
 
@@ -1504,7 +2446,7 @@ Print XPlanet view
 ></term>
 <listitem
 ><para
->Exécute un script &DBus; de &kstars;</para
+>Exécute un script &DBus; de &kstars;.</para
 ></listitem>
 </varlistentry>
 
@@ -1530,7 +2472,7 @@ Print XPlanet view
 ></term>
 <listitem
 ><para
->Quitte &kstars;</para
+>Quitte &kstars;.</para
 ></listitem>
 </varlistentry>
 
@@ -1543,7 +2485,7 @@ Print XPlanet view
 ></term>
 <listitem
 ><para
->Synchronise l'horloge de simulation avec l'heure courante du système</para
+>Synchronise l'horloge de simulation avec l'heure courante du système.</para
 ></listitem>
 </varlistentry>
 
@@ -1556,7 +2498,7 @@ Print XPlanet view
 ></term>
 <listitem
 ><para
->Règle l'horloge de simulation sur des date et heure spécifiées</para
+>Règle l'horloge de simulation sur une date et heure spécifiée.</para
 ></listitem>
 </varlistentry>
 
@@ -1569,24 +2511,48 @@ Print XPlanet view
 ></term>
 <listitem
 ><para
->(Dés)active le mode plein écran</para
+>(Dés)active le mode plein écran.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><keycombo action="simul"
+>&Ctrl;<keycap
+>0</keycap
+></keycombo
+></term>
+<listitem
+><para
+>Définit les caractéristiques des équipement (télescope, oculaire, objectif et filtre) pour les fichiers journaux des observations. </para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><keycombo action="simul"
+>&Ctrl;<keycap
+>1</keycap
+></keycombo
+></term>
+<listitem
+><para
+>Ajoute un nouvel élément d'observateur pour vos fichiers journaux d'observations.</para
 ></listitem>
 </varlistentry>
 
 <varlistentry
 ><term
-><keycap
->Espace</keycap
-></term>
+>&Space;</term>
 <listitem
 ><para
->Bascule entre les <link linkend="ai-skycoords"
+>(Dés)active la vue des <link linkend="ai-skycoords"
 >systèmes de coordonnées</link
 > <link linkend="horizontal"
 >azimutales</link
 > et <link linkend="equatorial"
 >équatoriales</link
-> </para
+>. </para
 ></listitem
 ></varlistentry>
 
@@ -1598,6 +2564,84 @@ Print XPlanet view
 <listitem
 ><para
 >Ouvre le manuel de &kstars;.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><keycap
+>F5</keycap
+></term>
+<listitem
+><para
+>Passe l'affichage de la carte du ciel à la projection <ulink url="https://fr.wikipedia.org/wiki/Projection_azimutale_%C3%A9quivalente_de_Lambert"
+>azimutale équivalente de Lambert</ulink
+>. </para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><keycap
+>F6</keycap
+></term>
+<listitem
+><para
+>Passe l'affichage de la carte du ciel à la projection <ulink url="https://https://fr.wikipedia.org/wiki/Projection_de_Postel"
+>azimutale équidistante</ulink
+> (ou projection de Postel). </para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><keycap
+>F7</keycap
+></term>
+<listitem
+><para
+>Passe l'affichage de la carte du ciel à la projection <ulink url="https://fr.wikipedia.org/wiki/Projection_orthographique"
+>orthographique</ulink
+>.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><keycap
+>F8</keycap
+></term>
+<listitem
+><para
+>Passe l'affichage de la carte du ciel à la projection <ulink url="https://fr.wikipedia.org/wiki/Projection_cylindrique_%C3%A9quidistante"
+>équirectangulaire </ulink
+> (appelée encore cylindrique équidistante). </para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><keycap
+>F9</keycap
+></term>
+<listitem
+><para
+>Passe l'affichage de la carte du ciel à la projection <ulink url="https://fr.wikipedia.org/wiki/Projection_st%C3%A9r%C3%A9ographique"
+>stéréographique</ulink
+>. </para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><keycap
+>F10</keycap
+></term>
+<listitem
+><para
+>Passe l'affichage de la carte du ciel à la projection <ulink url="https://fr.wikipedia.org/wiki/Projection_gnomonique"
+>gnomonique</ulink
+> </para
 ></listitem>
 </varlistentry>
 </variablelist>
@@ -1629,7 +2673,7 @@ Print XPlanet view
 ></term>
 <listitem
 ><para
->Centre et suit l'objet sélectionné</para
+>Centre et suit l'objet sélectionné.</para
 ></listitem>
 </varlistentry>
 
@@ -1640,7 +2684,7 @@ Print XPlanet view
 ></term>
 <listitem
 ><para
->Ouvre la fenêtre des détails pour l'objet sélectionné</para
+>Ouvre la fenêtre des détails pour l'objet sélectionné.</para
 ></listitem>
 </varlistentry>
 
@@ -1651,7 +2695,7 @@ Print XPlanet view
 ></term>
 <listitem
 ><para
->(Dés)active l'étiquette pour l'objet sélectionné</para
+>(Dés)active l'étiquette pour l'objet sélectionné.</para
 ></listitem>
 </varlistentry>
 
@@ -1662,7 +2706,7 @@ Print XPlanet view
 ></term>
 <listitem
 ><para
->Ajoute l'objet sélectionné à la liste d'observations</para
+>Ajoute l'objet sélectionné à la liste d'observations.</para
 ></listitem>
 </varlistentry>
 
@@ -1673,7 +2717,7 @@ Print XPlanet view
 ></term>
 <listitem
 ><para
->Ouvre le menu contextuel pour l'objet sélectionné</para
+>Ouvre le menu contextuel pour l'objet sélectionné.</para
 ></listitem>
 </varlistentry>
 
@@ -1684,7 +2728,7 @@ Print XPlanet view
 ></term>
 <listitem
 ><para
->Inverser une trace sur l'objet sélectionné (objets du système solaire seulement)</para
+>(Dés)active une trace sur l'objet sélectionné (objets du système solaire seulement).</para
 ></listitem>
 </varlistentry>
 
@@ -1707,7 +2751,7 @@ Print XPlanet view
 ><para
 >Ouvre la <link linkend="findobjects"
 >fenêtre de recherche d'objet</link
-> pour spécifier un objet du ciel sur lequel centrer</para
+> pour spécifier un objet du ciel sur lequel centrer.</para
 ></listitem>
 </varlistentry>
 
@@ -1721,8 +2765,10 @@ Print XPlanet view
 <listitem
 ><para
 >Ouvre l'outil <guilabel
->Définir les coordonnées</guilabel
-> pour spécifier les coordonnées AD/Déc ou Az/Alt sur lesquelles centrer</para
+>Définir les coordonnées manuellement</guilabel
+> pour spécifier les coordonnées « AD / DEC » ou « Az / Alt » sur lesquelles centrer. L'outil applique par défaut une <link linkend="ai-epoch"
+>époque « J2000 »</link
+> pour « AD / DEC ».</para
 ></listitem>
 </varlistentry>
 
@@ -1733,7 +2779,7 @@ Print XPlanet view
 ></term>
 <listitem
 ><para
->Commence une mesure de distance angulaire à la position actuelle du pointeur de la souris. La distance angulaire entre les points de départ et d'arrivée est affichée au point d'arrivée</para
+>Commence une mesure de distance angulaire à la position actuelle du pointeur de la souris. La distance angulaire entre les points de départ et d'arrivée est affichée au point d'arrivée.</para
 ></listitem>
 </varlistentry>
 
@@ -1746,9 +2792,9 @@ Print XPlanet view
 ></term>
 <listitem
 ><para
->Ouvre la fenêtre d'<link linkend="setgeo"
->emplacement géographique</link
-></para
+>Ouvre la fenêtre de <link linkend="setgeo"
+>position géographique</link
+>.</para
 ></listitem>
 </varlistentry>
 
@@ -1763,25 +2809,10 @@ Print XPlanet view
 ><para
 >Ouvre la <link linkend="tool-calculator"
 >Calculatrice astronomique</link
-> </para
+>. </para
 ></listitem>
 </varlistentry>
-<!--
-<varlistentry>
-<term
-><keycombo action="simul"
->&Ctrl;<keycap
->V</keycap
-></keycombo
-></term>
-<listitem
-><para
->Open the <link linkend="tool-aavso"
->AAVSO Lightcurve Generator</link>
-</para
-></listitem>
-</varlistentry>
--->
+
 <varlistentry>
 <term
 ><keycombo action="simul"
@@ -1793,7 +2824,7 @@ Print XPlanet view
 ><para
 >Ouvre l'outil <link linkend="tool-altvstime"
 >Élévation selon l'heure</link
-></para
+>.</para
 ></listitem>
 </varlistentry>
 
@@ -1808,7 +2839,22 @@ Print XPlanet view
 ><para
 >Ouvre l'outil <link linkend="tool-whatsup"
 >Dans le ciel cette nuit</link
-></para
+>.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><keycombo action="simul"
+>&Ctrl;<keycap
+>W</keycap
+></keycombo
+></term>
+<listitem
+><para
+>Ouvrir l'outil <quote
+>Digne d'intérêt</quote
+>.</para
 ></listitem>
 </varlistentry>
 
@@ -1823,7 +2869,7 @@ Print XPlanet view
 ><para
 >Ouvre l'outil <link linkend="tool-scriptbuilder"
 >Constructeur de scripts</link
-></para
+>.</para
 ></listitem>
 </varlistentry>
 
@@ -1838,7 +2884,7 @@ Print XPlanet view
 ><para
 >Ouvre l'<link linkend="tool-solarsys"
 >Afficheur du système solaire</link
-> </para
+>. </para
 ></listitem>
 </varlistentry>
 
@@ -1851,24 +2897,9 @@ Print XPlanet view
 ></term>
 <listitem
 ><para
->Ouvre l'<link linkend="tool-jmoons"
->outil des lunes de Jupiter</link
-></para
-></listitem>
-</varlistentry>
-
-<varlistentry>
-<term
-><keycombo action="simul"
->&Ctrl;<keycap
->L</keycap
-></keycombo
-></term>
-<listitem
-><para
->Ouvre l'outil de <link linkend="tool-obsplanner"
->liste d'observations</link
-></para
+>Ouvre l'outil <link linkend="tool-jmoons"
+>des lunes de Jupiter</link
+>.</para
 ></listitem>
 </varlistentry>
 
@@ -1898,7 +2929,15 @@ Print XPlanet view
 >Déplacements de la souris</term>
 <listitem
 ><para
->Les coordonnées célestes (AD / Déc et Az / Alt) du pointeur de la souris sont mises à jour dans la barre d'état. </para
+>Les coordonnées du ciel (Az/Alt, AD/DEC et J2000.0 AD/DEC) sous le pointeur de la souris sont mises à jour dans la barre d'état dans le coin du bas à droite de l'écran. La barre d'état peut être personnalisée dans le sous-menu <menuchoice
+><guimenu
+>Configuration</guimenu
+> <guimenuitem
+>Barre d'état</guimenuitem
+></menuchoice
+>. Vous pourrez ainsi choisir le système de coordonnées que &kstars; affichera dans la barre d'état. De plus, vous pouvez la cacher en décochant <guilabel
+>Afficher la barre d'état</guilabel
+>.  </para
 ></listitem>
 </varlistentry>
 
@@ -1921,8 +2960,8 @@ Print XPlanet view
 >Objets dans le ciel</primary>
 <secondary
 >Identification</secondary
-></indexterm>
-L'objet le plus proche du clic de la souris est identifié dans la barre d'état. </para
+></indexterm
+>L'objet le plus proche du clic de la souris est identifié dans la barre d'état. </para
 ></listitem>
 </varlistentry>
 
@@ -1936,10 +2975,10 @@ L'objet le plus proche du clic de la souris est identifié dans la barre d'état
 >Objets dans le ciel</primary>
 <secondary
 >Centrage</secondary
-></indexterm>
-Centre et suit l'emplacement ou l'objet le plus proche du clic de la souris. Un double clic sur une zone d'information l'<quote
+></indexterm
+>Centre et suit la position ou l'objet le plus proche du clic de la souris. Un double clic sur une zone d'information l'<quote
 >enroulera</quote
-> pour révéler / cacher des informations supplémentaires. </para
+> pour révéler ou cacher des informations supplémentaires. </para
 ></listitem>
 </varlistentry>
 
@@ -1953,19 +2992,21 @@ Centre et suit l'emplacement ou l'objet le plus proche du clic de la souris. Un 
 >Objets dans le ciel</primary>
 <secondary
 >Invocation du menu contextuel pour</secondary
-></indexterm>
-Ouvre le <link linkend="popup-menu"
+></indexterm
+>Ouvre le <link linkend="popup-menu"
 >menu contextuel</link
-> de l'emplacement ou de l'objet le plus proche du pointeur de la souris. </para
+> de la position ou de l'objet le plus proche du pointeur de la souris. </para
 ></listitem>
 </varlistentry>
 
 <varlistentry
 ><term
->Actions sur la roulette de la souris</term>
+>Actions sur la molette de la souris</term>
 <listitem
 ><para
->Fait zoom vers l'avant ou l'arrière. Si vous n'avez pas de souris à roulette, vous pouvez maintenir le bouton central de la souris et la déplacer verticalement. </para
+>Zoom l'affichage vers l'avant ou l'arrière. Si vous n'avez pas de souris <mousebutton
+>à molette</mousebutton
+>, vous pouvez maintenir le bouton central de la souris et la déplacer verticalement. </para
 ></listitem>
 </varlistentry>
 

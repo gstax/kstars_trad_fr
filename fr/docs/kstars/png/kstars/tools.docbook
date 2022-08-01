@@ -1,18 +1,18 @@
 <chapter id="tools">
 <title
->Outils de KStars</title>
+>Outils de &kstars;</title>
 <para>
 <indexterm
 ><primary
 >Outils</primary
 ></indexterm
-> &kstars; est fourni avec un certain nombre d'outils qui vous permettent d'explorer des aspects très avancés de l'astronomie et du ciel nocturne. </para>
+> &kstars; est fourni avec un certain nombre d'outils qui permettent d'explorer des aspects très avancés de l'astronomie et du ciel nocturne. </para>
 
 <itemizedlist>
 <listitem
 ><para
 ><link linkend="tool-details"
->Détails des objets</link
+>Détails de l'objet</link
 ></para
 ></listitem>
 <listitem
@@ -21,14 +21,6 @@
 >Calculatrice astronomique</link
 ></para
 ></listitem>
-<!--
-<listitem
-><para
-><link linkend="tool-aavso"
->AAVSO Lightcurves</link
-></para
-></listitem>
--->
 <listitem
 ><para
 ><link linkend="tool-altvstime"
@@ -43,6 +35,12 @@
 ></listitem>
 <listitem
 ><para
+><link linkend="tool-eyepieceview"
+>Simuler la vue à l'oculaire</link
+></para
+></listitem>
+<listitem
+><para
 ><link linkend="tool-scriptbuilder"
 >Constructeur de scripts</link
 ></para
@@ -51,6 +49,12 @@
 ><para
 ><link linkend="tool-solarsys"
 >Affichage du système solaire</link
+></para
+></listitem>
+<listitem
+><para
+><link linkend="tool-ekos"
+>Ekos</link
 ></para
 ></listitem>
 <listitem
@@ -71,5 +75,5 @@
 >Afficheur FITS</link
 ></para
 ></listitem>
-</itemizedlist>
-&tool-details; &tool-calculator; &tool-altvstime; &tool-whatsup; &tool-scriptbuilder; &tool-solarsys; &tool-jmoons; &tool-obsplanner; &tool-fitsviewer; </chapter>
+</itemizedlist
+>&tool-details; &tool-calculator; &tool-altvstime; &tool-eyepieceview; &tool-whatsup; &tool-scriptbuilder; &tool-solarsys; &tool-ekos; &tool-jmoons; &tool-obsplanner; &tool-fitsviewer; </chapter>
