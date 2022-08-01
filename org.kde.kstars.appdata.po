@@ -1,10 +1,11 @@
 # Simon Depiets <sdepiets@gmail.com>, 2018.
 # Xavier Besnard <xavier.besnard@neuf.fr>, 2020, 2021.
+# Steve <stax@ik.me>, 2022
 msgid ""
 msgstr ""
 "Project-Id-Version: org.kde.kstars.appdata\n"
 "POT-Creation-Date: 2018-11-14 03:47+0100\n"
-"PO-Revision-Date: 2021-01-13 12:54+0100\n"
+"PO-Revision-Date: 2022-08-01 22:44+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -34,7 +35,7 @@ msgid ""
 "KDE."
 msgstr ""
 "KStar est un logiciel d'astronomie sous licence libre, « Open Source » et "
-"multi-plate-forme de KDE."
+"multiplateforme de KDE."
 
 #. (itstool) path: description/p
 #: org.kde.kstars.appdata.xml:10
@@ -46,7 +47,7 @@ msgid ""
 msgstr ""
 "Il fournit une simulation graphique précise du ciel nocturne, de n'importe "
 "quel endroit sur Terre, à toute date et toute heure. L'affichage comporte "
-"plus de 100 millions d'étoiles, 13 000 objets du ciel lointain, toutes les "
+"plus de 100 millions d'étoiles, 13 000 objets du ciel lointain, toutes les "
 "huit planètes, le Soleil et la Lune, des milliers de comètes, d'astéroïdes, "
 "supernova et satellites."
 
@@ -75,10 +76,10 @@ msgid ""
 "explore the universe!"
 msgstr ""
 "Pour l'astronome amateur, il fournit un planificateur d'observation, un "
-"outil de calendrier pour le ciel et un éditeur « FOV » (Field Of View) pour "
+"outil de calendrier pour le ciel et un éditeur « CdV » (Champ de vision) pour "
 "calculer le champs d'observation des équipements et les afficher. Vous "
 "pouvez aussi trouver des objets intéressants dans l'outil « Quoi de neuf ce "
-"soir », tracer une courbe altitude /temps pour n'importe quel objet, "
+"soir », tracer une courbe altitude en fonction du temps pour n'importe quel objet, "
 "imprimer des cartes du ciel en haute qualité et avoir accès à beaucoup "
 "d'autres informations et ressources pour vous aider à explorer l'univers !"
 
@@ -93,11 +94,11 @@ msgid ""
 "multiple images using the powerful built in sequence manager."
 msgstr ""
 "Faisant partie de KStars, la suite d'astrophotographie Ekos est une solution "
-"complète d'astrophotographie, contrôlant tous les périphériques « INDI », "
-"dont de nombreux télescopes, des caméras « CCD », des appareils photo "
-"« DSLR », des viseurs, des filtres et bien plus. Ekos prend en charge le "
+"complète d'astrophotographie, contrôlant tous les périphériques INDI, "
+"dont de nombreux télescopes, des caméras CCD, des appareils photo numériques, "
+"des viseurs, des filtres et bien plus. Ekos prend en charge le "
 "suivi en haute précision en utilisant des résolveurs en ligne ou hors ligne, "
-"des capacités d'autofocus et d'autoguidage et la capture d'images simples ou "
+"des capacités de mise au point et de guidage automatique et l'acquisition d'images simples ou "
 "multiples grâce à un puissant outil de gestionnaire de séquence."
 
 #. (itstool) path: description/p
@@ -108,12 +109,12 @@ msgstr "Catalogues astronomiques :"
 #. (itstool) path: ul/li
 #: org.kde.kstars.appdata.xml:16
 msgid "Default catalog consisting of stars to magnitude 8"
-msgstr "Le catalogue par défaut contient des étoiles de magnitude 8"
+msgstr "Le catalogue par défaut contient des étoiles jusqu'à la magnitude 8"
 
 #. (itstool) path: ul/li
 #: org.kde.kstars.appdata.xml:17
 msgid "Extra catalogs consisting of 100 million stars to magnitude 16"
-msgstr "D'autres catalogues contiennent 100 millions d'étoiles de magnitude 16"
+msgstr "D'autres catalogues contiennent 100 millions d'étoiles jusqu'à la magnitude 16"
 
 #. (itstool) path: ul/li
 #: org.kde.kstars.appdata.xml:18
@@ -121,9 +122,9 @@ msgid ""
 "Downloadable catalogs including Messier Images, Abell Planetary Nebulae, "
 "Sharpless Catalog, Lynds Dark Nebula Catalog"
 msgstr ""
-"Les catalogues pouvant être téléchargés contiennent des images de Messier, "
-"les nébuleuses planétaires de Abell, le catalogue « Sharpless » et le "
-"catalogue de nébuleuses « Lynds Dark »."
+"Les catalogues pouvant être téléchargés contiennent des images du catalogue de Messier, "
+"les nébuleuses planétaires de du catalogues d'Abell, le catalogue Sharpless et le "
+"catalogue de nébuleuses Lynds Dark."
 
 #. (itstool) path: ul/li
 #: org.kde.kstars.appdata.xml:19
