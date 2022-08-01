@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: kstars_ekos-focus_3.6.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-26 01:01+0000\n"
-"PO-Revision-Date: 2022-08-01 15:18+0200\n"
+"PO-Revision-Date: 2022-08-01 20:44+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -194,7 +194,7 @@ msgid ""
 "uses that for the first focus motion, as all subsequent motions depend on "
 "the V-Curve slope calculations. Key features include:"
 msgstr ""
-"<emphasis role=\"bold\">Itératif</emphasis> : dans cet algorithme, Ekos fonctionne de manière itérative en se déplaçant par pas discret, dont la valeur initiale a été décidée par l'utilisateur et ensuite par la pente de la courbe en V, pour être le plus près possible de la position optimale de la mise au point où il diminue ensuite la taille des pas pour se rapprocher encore plus de la position optimale. La procédure s'arrête quand le HFR mesuré se trouve dans une plage de tolérance configurable du HFR minimum enregistré. En d'autres termes, quand la procédure cherche une solution dans une plage étroite, il vérifie si le HFR courant est dans une plage de tolérance acceptable comparé au HFR minimum enregistré et si cette condition est remplie, la procédure de mise au point est considérée comme réussie. La valeur de tolérance par défaut est réglé à 1% et est suffisante pour la plupart des situations. Les options de pas spécifient le nombre initiale d'encoches pour le déplacement du moteur. Si l'image est loin de la mise au point, on augmente ce nombre (&cad; plus grand que 250). Sinon, si la position de mise au point est proche de la position optimale, on réduit cette valeur à environ 50. C'est un processus d'essais et d'erreurs pour trouver la bonne valeur de départ, mais Ekos ne l'utilise que pour le premier déplacement de mise au point, tous les suivants dépendant de la pente de la courbe en V. Les fonctionnalités principales incluent : "
+"<emphasis role=\"bold\">Itératif</emphasis> : dans cet algorithme, Ekos fonctionne de manière itérative en se déplaçant par pas discret, dont la valeur initiale a été décidée par l'utilisateur et ensuite par la pente de la courbe en V, pour être le plus près possible de la position optimale de la mise au point où il diminue ensuite la taille des pas pour se rapprocher encore plus de la position optimale. La procédure s'arrête quand le HFR mesuré se trouve dans une plage de tolérance configurable du HFR minimum enregistré. En d'autres termes, quand la procédure cherche une solution dans une plage étroite, il vérifie si le HFR courant est dans une plage de tolérance acceptable comparé au HFR minimum enregistré et si cette condition est remplie, la procédure de mise au point est considérée comme réussie. La valeur de tolérance par défaut est réglé à 1% et est suffisante pour la plupart des situations. Les options de pas spécifient le nombre initial d'encoches pour le déplacement du moteur. Si l'image est loin de la mise au point, on augmente ce nombre (&cad; plus grand que 250). Sinon, si la position de mise au point est proche de la position optimale, on réduit cette valeur à environ 50. C'est un processus d'essais et d'erreurs pour trouver la bonne valeur de départ, mais Ekos ne l'utilise que pour le premier déplacement de mise au point, tous les suivants dépendant de la pente de la courbe en V. Les fonctionnalités principales incluent : "
 
 #. Tag: para
 #: ekos-focus.docbook:83 ekos-focus.docbook:110
@@ -260,7 +260,7 @@ msgid ""
 "pass. It looks to follow the curve from the first pass and find the minimum "
 "HFR. Due to randomness in the HFR measurements it uses the % tolerance to "
 "help decide when it has found a solution. Key features include:"
-msgstr "<emphasis role=\"bold\">Linéaire</emphasis> : dans cette algorithme, Ekos se déplace vers l'extérieur depuis son point de départ puis recule en prenant plusieurs points près de la position de mise au point optimale puis recule encore pour dessiner la courbe en V. Il effectue ensuite une régression sur la courbe quadratique et calcule le point optimal. Il repart ensuite vers l'extérieur en dépassant le point optimal, divise par deux le pas, et recule encore pour une seconde passe. Il essaie de suivre la courbe de la première passe et trouve la valeur de HFR minimale. Comme les mesures du HFR sont aléatoires, il utilise le pourcentage de tolérance pour décider si une solution a été trouvée. Les fonctionnalités principales incluent :"
+msgstr "<emphasis role=\"bold\">Linéaire</emphasis> : dans cet algorithme, Ekos se déplace vers l'extérieur depuis son point de départ puis recule en prenant plusieurs points près de la position de mise au point optimale puis recule encore pour dessiner la courbe en V. Il effectue ensuite une régression sur la courbe quadratique et calcule le point optimal. Il repart ensuite vers l'extérieur en dépassant le point optimal, divise par deux le pas, et recule encore pour une seconde passe. Il essaie de suivre la courbe de la première passe et trouve la valeur de HFR minimale. Comme les mesures du HFR sont aléatoires, il utilise le pourcentage de tolérance pour décider si une solution a été trouvée. Les fonctionnalités principales incluent :"
 
 #. Tag: para
 #: ekos-focus.docbook:140
@@ -424,7 +424,7 @@ msgid ""
 "size is in <emphasis>milliseconds</emphasis>. The <guibutton>In</guibutton> "
 "and <guibutton>Out</guibutton> buttons can then be used to move the focuser "
 "by this number of ticks."
-msgstr "Pour les moteurs de mise au point à position absolue, vous pouvez régler le nombre initiale d'encoches dans le champ Taille initiale de pas dans l'onglet <link linkend=\"focus-mechanics\">Mécaniques</link>. Les pas sont comptés en unité d'encoche pour les moteurs de mise au point à position absolue et relative et en <emphasis>millisecondes</emphasis> pour les moteurs simples ou basés sur le temps. Les boutons <guibutton>En avant</guibutton> et <guibutton>En arrière</guibutton> peuvent ensuite être utilisés pour déplacer le moteur de ce nombre de pas."
+msgstr "Pour les moteurs de mise au point à position absolue, vous pouvez régler le nombre initial d'encoches dans le champ Taille initiale de pas dans l'onglet <link linkend=\"focus-mechanics\">Mécaniques</link>. Les pas sont comptés en unité d'encoche pour les moteurs de mise au point à position absolue et relative et en <emphasis>millisecondes</emphasis> pour les moteurs simples ou basés sur le temps. Les boutons <guibutton>En avant</guibutton> et <guibutton>En arrière</guibutton> peuvent ensuite être utilisés pour déplacer le moteur de ce nombre de pas."
 
 #. Tag: para
 #: ekos-focus.docbook:248
@@ -437,7 +437,7 @@ msgid ""
 "Autofocus run completes, to keep a last good focus position. In addition you "
 "can set the right field to whatever value you like, and use the "
 "<guibutton>Goto</guibutton> button to move the focuser to this position."
-msgstr "Les champs Pas contiennent initialement le point de départ de l'encoche du moteur de mise au point. Au cours de son déplacement, le champ de gauche sera mis à jour pour refléter la position courant du moteur. Le champ de droite contient initialement la position de départ mais ne sera mise à jour que lorsqu'une mise au point automatique aura réussi, cela afin de conserver la dernière bonne position. De plus, le champ de droite permet de régler une valeur choisie et de s'y rendre en cliquant sur le bouton <guibutton>Aller à</guibutton>."
+msgstr "Les champs Pas contiennent initialement le point de départ de l'encoche du moteur de mise au point. Au cours de son déplacement, le champ de gauche sera mis à jour pour refléter la position courant du moteur. Le champ de droite contient initialement la position de départ mais ne sera mis à jour que lorsqu'une mise au point automatique aura réussi, cela afin de conserver la dernière bonne position. De plus, le champ de droite permet de régler une valeur choisie et de s'y rendre en cliquant sur le bouton <guibutton>Aller à</guibutton>."
 
 #. Tag: para
 #: ekos-focus.docbook:257
@@ -650,7 +650,7 @@ msgid ""
 "<guilabel>Auto Select Star</guilabel>: Allow Ekos to select the focus "
 "star(s) from the image. If not selected then the user will have to manually "
 "select a star."
-msgstr "<guilabel>Sélection automatique d'étoile</guilabel> : permet à Ekos de choisir une ou des étoiles sur la(les)quelle(s) mettre au point depuis l'image. Si cette case n'est pas cochée, c'est à l'utilisateur de choisir une étoile."
+msgstr "<guilabel>Sélection automatique d'étoile</guilabel> : permet à Ekos de choisir une ou des étoiles sur lesquelles mettre au point depuis l'image. Si cette case n'est pas cochée, c'est à l'utilisateur de choisir une étoile."
 
 #. Tag: para
 #: ekos-focus.docbook:413
@@ -1014,7 +1014,7 @@ msgid ""
 "it then performs a 2nd pass halving the step size, recreating the curve from "
 "the 1st pass. It attempts to stop within <emphasis role=\"bold\">Tolerance</"
 "emphasis> of the minimum HFR calculated during the 1st pass."
-msgstr "<emphasis role=\"bold\">Linéaire</emphasis> : cette algorithme construit une courbe en V avec approximativement un <emphasis role=\"bold\">multiple de pas extérieur</emphasis> de chaque côté du minimum. Une fois cette courbe en V construite, une interpolation quadratique est réalisée sur cette courbe (forme parabolique) et l'utilise pour calculer la position du moteur de mise au point, ce qui donne la valeur minimale du HFR. Une fois cette valeur minimale identifiée, une seconde passe est réalisée avec des pas divisés par deux pour recréer la courbe de la première passe. L'algorithme s'arrête une fois que la valeur est dans la <emphasis role=\"bold\">tolérance</emphasis> de la valeur minimale du HFR calculée lors de la première passe."
+msgstr "<emphasis role=\"bold\">Linéaire</emphasis> : cet algorithme construit une courbe en V avec approximativement un <emphasis role=\"bold\">multiple de pas extérieur</emphasis> de chaque côté du minimum. Une fois cette courbe en V construite, une interpolation quadratique est réalisée sur cette courbe (forme parabolique) et l'utilise pour calculer la position du moteur de mise au point, ce qui donne la valeur minimale du HFR. Une fois cette valeur minimale identifiée, une seconde passe est réalisée avec des pas divisés par deux pour recréer la courbe de la première passe. L'algorithme s'arrête une fois que la valeur est dans la <emphasis role=\"bold\">tolérance</emphasis> de la valeur minimale du HFR calculée lors de la première passe."
 
 #. Tag: para
 #: ekos-focus.docbook:624
@@ -1026,7 +1026,7 @@ msgid ""
 "\">Curve Fit</emphasis> type to the datapoints and then calculates the "
 "focuser position giving the minimum HFR. Having identified the minimum it "
 "then moves directly to that point in a way designed to neutralise backlash."
-msgstr "<emphasis role=\"bold\">Linéaire à 1 passe</emphasis> : cette algorithme commence comme l'algorithme <emphasis role=\"bold\">linéaire</emphasis> en construisant une courbe en V. Une fois fait, une interpolation est réalisée selon le type de <emphasis role=\"bold\">courbe</emphasis> des points de données et ensuite calcule la position du moteur de mise au point ce qui donne la valeur minimale du HFR. Cette valeur étant identifiée, le moteur se déplace directement vers ce point d'une manière qui neutralise le jeu du moteur."
+msgstr "<emphasis role=\"bold\">Linéaire à 1 passe</emphasis> : cet algorithme commence comme l'algorithme <emphasis role=\"bold\">linéaire</emphasis> en construisant une courbe en V. Une fois fait, une interpolation est réalisée selon le type de <emphasis role=\"bold\">courbe</emphasis> des points de données et ensuite calcule la position du moteur de mise au point ce qui donne la valeur minimale du HFR. Cette valeur étant identifiée, le moteur se déplace directement vers ce point d'une manière qui neutralise le jeu du moteur."
 
 #. Tag: para
 #: ekos-focus.docbook:633
