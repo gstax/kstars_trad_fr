@@ -1,0 +1,159 @@
+# Simon Depiets <sdepiets@gmail.com>, 2018.
+# Xavier Besnard <xavier.besnard@neuf.fr>, 2020, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: org.kde.kstars.appdata\n"
+"POT-Creation-Date: 2018-11-14 03:47+0100\n"
+"PO-Revision-Date: 2021-01-13 12:54+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 20.12.0\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#. (itstool) path: component/name
+#: org.kde.kstars.appdata.xml:6
+msgid "KStars"
+msgstr "KStars"
+
+#. (itstool) path: component/summary
+#: org.kde.kstars.appdata.xml:7
+msgid "Desktop Planetarium"
+msgstr "Planétarium de bureau"
+
+#. (itstool) path: description/p
+#: org.kde.kstars.appdata.xml:9
+msgid ""
+"KStars is freely licensed, open source, cross-platform Astronomy Software by "
+"KDE."
+msgstr ""
+"KStar est un logiciel d'astronomie sous licence libre, « Open Source » et "
+"multi-plate-forme de KDE."
+
+#. (itstool) path: description/p
+#: org.kde.kstars.appdata.xml:10
+msgid ""
+"It provides an accurate graphical simulation of the night sky, from any "
+"location on Earth, at any date and time. The display includes up to 100 "
+"million stars, 13,000 deep-sky objects,all 8 planets, the Sun and Moon, and "
+"thousands of comets, asteroids, supernovae, and satellites."
+msgstr ""
+"Il fournit une simulation graphique précise du ciel nocturne, de n'importe "
+"quel endroit sur Terre, à toute date et toute heure. L'affichage comporte "
+"plus de 100 millions d'étoiles, 13 000 objets du ciel lointain, toutes les "
+"huit planètes, le Soleil et la Lune, des milliers de comètes, d'astéroïdes, "
+"supernova et satellites."
+
+#. (itstool) path: description/p
+#: org.kde.kstars.appdata.xml:11
+msgid ""
+"For students and teachers, it supports adjustable simulation speeds in order "
+"to view phenomena that happen over long timescales, the KStars "
+"Astrocalculator to predict conjunctions, and many common astronomical "
+"calculations."
+msgstr ""
+"Pour les élèves et les enseignants, il prend en charge des vitesses de "
+"simulation ajustables, afin d'afficher des phénomènes arrivant sur de "
+"longues périodes de temps. Le module « Astrocalculator » de KStars effectue "
+"les prédictions de conjonctions et de nombreux calculs classiques "
+"d'astronomie."
+
+#. (itstool) path: description/p
+#: org.kde.kstars.appdata.xml:12
+msgid ""
+"For the amateur astronomer, it provides an observation planner, a sky "
+"calendar tool, and an FOV editor to calculate field of view of equipment and "
+"display them. Find out interesting objects in the \"What's up Tonight\" "
+"tool, plot altitude vs. time graphs for any object, print high-quality sky "
+"charts, and gain access to lots of information and resources to help you "
+"explore the universe!"
+msgstr ""
+"Pour l'astronome amateur, il fournit un planificateur d'observation, un "
+"outil de calendrier pour le ciel et un éditeur « FOV » (Field Of View) pour "
+"calculer le champs d'observation des équipements et les afficher. Vous "
+"pouvez aussi trouver des objets intéressants dans l'outil « Quoi de neuf ce "
+"soir », tracer une courbe altitude /temps pour n'importe quel objet, "
+"imprimer des cartes du ciel en haute qualité et avoir accès à beaucoup "
+"d'autres informations et ressources pour vous aider à explorer l'univers !"
+
+#. (itstool) path: description/p
+#: org.kde.kstars.appdata.xml:13
+msgid ""
+"Included with KStars is Ekos astrophotography suite, a complete "
+"astrophotography solution that can control all INDI devices including "
+"numerous telescopes, CCDs, DSLRs, focusers, filters, and a lot more. Ekos "
+"supports highly accurate tracking using online and offline astrometry "
+"solver, autofocus and autoguiding capabilities, and capture of single or "
+"multiple images using the powerful built in sequence manager."
+msgstr ""
+"Faisant partie de KStars, la suite d'astrophotographie Ekos est une solution "
+"complète d'astrophotographie, contrôlant tous les périphériques « INDI », "
+"dont de nombreux télescopes, des caméras « CCD », des appareils photo "
+"« DSLR », des viseurs, des filtres et bien plus. Ekos prend en charge le "
+"suivi en haute précision en utilisant des résolveurs en ligne ou hors ligne, "
+"des capacités d'autofocus et d'autoguidage et la capture d'images simples ou "
+"multiples grâce à un puissant outil de gestionnaire de séquence."
+
+#. (itstool) path: description/p
+#: org.kde.kstars.appdata.xml:14
+msgid "Astronomical Catalogs:"
+msgstr "Catalogues astronomiques :"
+
+#. (itstool) path: ul/li
+#: org.kde.kstars.appdata.xml:16
+msgid "Default catalog consisting of stars to magnitude 8"
+msgstr "Le catalogue par défaut contient des étoiles de magnitude 8"
+
+#. (itstool) path: ul/li
+#: org.kde.kstars.appdata.xml:17
+msgid "Extra catalogs consisting of 100 million stars to magnitude 16"
+msgstr "D'autres catalogues contiennent 100 millions d'étoiles de magnitude 16"
+
+#. (itstool) path: ul/li
+#: org.kde.kstars.appdata.xml:18
+msgid ""
+"Downloadable catalogs including Messier Images, Abell Planetary Nebulae, "
+"Sharpless Catalog, Lynds Dark Nebula Catalog"
+msgstr ""
+"Les catalogues pouvant être téléchargés contiennent des images de Messier, "
+"les nébuleuses planétaires de Abell, le catalogue « Sharpless » et le "
+"catalogue de nébuleuses « Lynds Dark »."
+
+#. (itstool) path: ul/li
+#: org.kde.kstars.appdata.xml:19
+msgid "Corrections for precession, nutation and atmospheric refraction"
+msgstr ""
+"Corrections pour la précession, la nutation et les réfractions "
+"atmosphériques."
+
+#. (itstool) path: ul/li
+#: org.kde.kstars.appdata.xml:20
+msgid "Tools for retrieval of data from online databases"
+msgstr ""
+"Outils pour télécharger des données à partir de bases de données en ligne"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kstars.appdata.xml:28
+msgid "KStars main window"
+msgstr "Fenêtre principale de KStars"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kstars.appdata.xml:32
+msgid "\"What's interesting\" tool in KStars"
+msgstr "Outil « Quoi d'intéressant » de KStars"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kstars.appdata.xml:36
+msgid "Ekos tool in KStars"
+msgstr "Outil Ekos de KStars"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kstars.appdata.xml:40
+msgid "Observation Planner of KStars"
+msgstr "Planificateur d'observation de KStars"
