@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_tools_3.6.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-22 00:30+0000\n"
+"POT-Creation-Date: 2021-07-22 10:31+0200\n"
 "PO-Revision-Date: 2022-04-10 08:24+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
@@ -22,107 +22,106 @@ msgstr ""
 "X-Generator: Lokalize 20.12.0\n"
 
 #. Tag: title
+#. +> trunk5
 #: tools.docbook:2
 #, no-c-format
 msgid "&kstars; Tools"
 msgstr "Outils de &kstars;"
 
 #. Tag: primary
+#. +> trunk5
 #: tools.docbook:4
 #, no-c-format
 msgid "Tools"
 msgstr "Outils"
 
 #. Tag: para
+#. +> trunk5
 #: tools.docbook:4
 #, no-c-format
-msgid ""
-"&kstars; comes with a number of tools that allow you to explore some more "
-"advanced aspects of astronomy and the night sky."
-msgstr ""
-"&kstars; est fourni avec un certain nombre d'outils qui permettent "
-"d'explorer des aspects très avancés de l'astronomie et du ciel nocturne."
+msgid "&kstars; comes with a number of tools that allow you to explore some more advanced aspects of astronomy and the night sky."
+msgstr "&kstars; est fourni avec un certain nombre d'outils qui permettent d'explorer des aspects très avancés de l'astronomie et du ciel nocturne."
 
 #. Tag: link
+#. +> trunk5
 #: tools.docbook:10
 #, no-c-format
 msgid "Object Details"
 msgstr "Détails de l'objet"
 
 #. Tag: link
+#. +> trunk5
 #: tools.docbook:11
 #, no-c-format
 msgid "Astrocalculator"
 msgstr "Calculatrice astronomique"
 
 #. Tag: link
+#. +> trunk5
 #: tools.docbook:12
 #, no-c-format
 msgid "Altitude vs. Time Plotter"
 msgstr "Élévation selon l'heure"
 
 #. Tag: link
+#. +> trunk5
 #: tools.docbook:13
 #, no-c-format
 msgid "What's up Tonight?"
 msgstr "Dans le ciel cette nuit"
 
 #. Tag: link
+#. +> trunk5
 #: tools.docbook:14
 #, no-c-format
 msgid "Simulate Eyepiece View"
 msgstr "Simuler la vue à l'oculaire"
 
 #. Tag: link
+#. +> trunk5
 #: tools.docbook:15
 #, no-c-format
 msgid "Script Builder"
 msgstr "Constructeur de scripts"
 
 #. Tag: link
+#. +> trunk5
 #: tools.docbook:16
 #, no-c-format
 msgid "Solar System Viewer"
 msgstr "Affichage du système solaire"
 
 #. Tag: link
+#. +> trunk5
 #: tools.docbook:17
 #, no-c-format
 msgid "Ekos"
 msgstr "Ekos"
 
 #. Tag: link
+#. +> trunk5
 #: tools.docbook:18
 #, no-c-format
 msgid "Jupiter Moons Tool"
 msgstr "Outil des lunes de Jupiter"
 
 #. Tag: link
+#. +> trunk5
 #: tools.docbook:19
 #, no-c-format
 msgid "Observation Planner"
 msgstr "Planificateur d'observation"
 
 #. Tag: link
+#. +> trunk5
 #: tools.docbook:20
 #, no-c-format
 msgid "FITS Viewer"
 msgstr "Afficheur FITS"
 
 #. Tag: chapter
+#. +> trunk5
 #: tools.docbook:21
 #, no-c-format
-msgid ""
-"&tool-details; &tool-calculator; &tool-altvstime; &tool-eyepieceview; &tool-"
-"whatsup; &tool-scriptbuilder; &tool-solarsys; &tool-ekos; &tool-jmoons; "
-"&tool-obsplanner; &tool-fitsviewer;"
-msgstr ""
-"&tool-details; &tool-calculator; &tool-altvstime; &tool-eyepieceview; &tool-"
-"whatsup; &tool-scriptbuilder; &tool-solarsys; &tool-ekos; &tool-jmoons; "
-"&tool-obsplanner; &tool-fitsviewer;"
-
-#~ msgid "AAVSO Lightcurves"
-#~ msgstr "Courbes de luminosité de l'AAVSO"
-
-#~ msgid "Observing List Tool"
-#~ msgstr "Outil de liste d'observations"
+msgid "&tool-details; &tool-calculator; &tool-altvstime; &tool-eyepieceview; &tool-whatsup; &tool-scriptbuilder; &tool-solarsys; &tool-ekos; &tool-jmoons; &tool-obsplanner; &tool-fitsviewer;"
+msgstr "&tool-details; &tool-calculator; &tool-altvstime; &tool-eyepieceview; &tool-whatsup; &tool-scriptbuilder; &tool-solarsys; &tool-ekos; &tool-jmoons; &tool-obsplanner; &tool-fitsviewer;"
