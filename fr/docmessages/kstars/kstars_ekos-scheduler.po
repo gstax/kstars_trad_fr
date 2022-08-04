@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: kstars_ekos_scheduler_3.6.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-29 10:03+0200\n"
-"PO-Revision-Date: 2022-08-04 08:36+0200\n"
+"PO-Revision-Date: 2022-08-04 15:12+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -89,7 +89,7 @@ msgstr "Réglages"
 #: ekos-scheduler.docbook:33
 #, no-c-format
 msgid "Ekos Scheduler provides a simple interface to aid the user in setting the conditions and constraints required for an observation job. Each observation job is composed of the following:"
-msgstr "L'ordonnanceur d'Ekos propose une interface simple pour aider l'utilisateur à configurer les conditions et les contraintes requises pour une tâche d'observation. Chaque tâche est composées de :"
+msgstr "L'ordonnanceur d'Ekos propose une interface simple pour aider l'utilisateur à configurer les conditions et les contraintes requises pour une tâche d'observation. Chaque tâche est composée de :"
 
 #. Tag: para
 #. +> trunk5
@@ -577,7 +577,7 @@ msgstr "<phrase>Confirmer le matériel</phrase>"
 #: ekos-scheduler.docbook:332
 #, no-c-format
 msgid "<emphasis role=\"bold\">Adjust Grid</emphasis>: Select the mosaic panel dimension and overlap percentage. The Mosaic Panel is updated accordingly on the sky map. Adjust the Position Angle to match the desired mosaic orientation in the sky. If the Position Angle is different from your camera's usual orientation, you may need to rotate the camera either manually or via a mechanized rotator when the scheduler jobs are executed. Tile transparency is automatically calculated by default but may be turned off and adjusted manually. To compute the mosaic field from the number of tiles, click the <guibutton>Cover FOV</guibutton> button. The mosaic panel can be centered in the sky map by clicking on the <guibutton>Recenter</guibutton> button."
-msgstr "<emphasis role=\"bold\">Ajustement de la grille</emphasis> : sélectionner la dimension des panneaux et le pourcentage de recouvrement. Le panneau de mosaïque est mise à jour en conséquence sur la carte du ciel. Ajuster l'angle de position pour correspondre à l'orientation désirée de la mosaïque dans le ciel. Si l'angle de position est différent de l'orientation usuelle de la caméra, il faudra soit tourner la caméra manuellement soit avec un rotateur mécanique lorsque les tâches seront exécutées. La transparence des tuiles est par défaut automatiquement calculée mais peut être désactivée et ajustée manuellement. Pour calculer le champ de la mosaïque à partir du nombre de tuiles, cliquer sur le bouton <guibutton>Couvrir CdV</guibutton>. La mosaïque peut être centrée sur la carte du ciel en cliquant sur le bouton <guibutton>Recentrer</guibutton>."
+msgstr "<emphasis role=\"bold\">Ajustement de la grille</emphasis> : sélectionner la dimension des panneaux et le pourcentage de recouvrement. Le panneau de mosaïque est mis à jour en conséquence sur la carte du ciel. Ajuster l'angle de position pour correspondre à l'orientation désirée de la mosaïque dans le ciel. Si l'angle de position est différent de l'orientation usuelle de la caméra, il faudra soit tourner la caméra manuellement soit avec un rotateur mécanique lorsque les tâches seront exécutées. La transparence des tuiles est par défaut automatiquement calculée mais peut être désactivée et ajustée manuellement. Pour calculer le champ de la mosaïque à partir du nombre de tuiles, cliquer sur le bouton <guibutton>Couvrir CdV</guibutton>. La mosaïque peut être centrée sur la carte du ciel en cliquant sur le bouton <guibutton>Recentrer</guibutton>."
 
 #. Tag: screeninfo
 #. +> trunk5
