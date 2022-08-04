@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: kstars_ekos_scheduler_3.6.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-29 10:03+0200\n"
-"PO-Revision-Date: 2022-04-13 15:12+0200\n"
+"PO-Revision-Date: 2022-08-04 08:36+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -486,26 +486,26 @@ msgstr "Les scripts doivent être <emphasis>exécutables</emphasis> pour qu'Ekos
 #. Tag: title
 #. +> trunk5
 #: ekos-scheduler.docbook:274
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<title>Mosaic Wizard</title>"
 msgid "<title>Mosaic Planner</title>"
-msgstr "<title>Assistant de création de mosaïque</title>"
+msgstr "<title>Planificateur de mosaïques</title>"
 
 #. Tag: screeninfo
 #. +> trunk5
 #: ekos-scheduler.docbook:276
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Mosaic Wizard</screeninfo>"
 msgid "<screeninfo>Mosaic Planner</screeninfo>"
-msgstr "<screeninfo>Assistant de création de mosaïque</screeninfo>"
+msgstr "<screeninfo>Planificateur de mosaïques</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: ekos-scheduler.docbook:284
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Mosaic Wizard</phrase>"
 msgid "<phrase>Mosaic Planner</phrase>"
-msgstr "<phrase>Assistant de création de mosaïque</phrase>"
+msgstr "<phrase>Planificateur de mosaïques</phrase>"
 
 #. Tag: para
 #. +> trunk5
@@ -547,53 +547,53 @@ msgstr "La seconde étape est gérée par des logiciels de traitement d'images c
 #: ekos-scheduler.docbook:309
 #, no-c-format
 msgid "The <guilabel>Mosaic Planner</guilabel> in the Ekos Scheduler will create multiple Scheduler jobs based on a central target. To toggle the planner, click on the <guibutton>Mosaic Planner</guibutton> button in Ekos Scheduler or KStars INDI toolbar as illustrated in the screenshot. The planner draws the Mosaic Panel directly unto the sky map. It is recommended to enable HiPS overlay for the best experience. The planner is composed of four stages:"
-msgstr ""
+msgstr "Le <guilabel>planificateur de mosaïques</guilabel> de l'ordonnanceur d'Ekos créera plusieurs tâches basées sur une cible centrale. Pour afficher le planificateur, cliquez sur le bouton <guibutton>Planificateur de mosaïques</guibutton> dans l'ordonnanceur d'Ekos ou sur la barre d'outils INDI de KStars comme illustré dans la capture d'écran. Le planificateur dessine la mosaïque directement sur la carte du ciel. Il est recommandé d'activer la superposition HiPS pour la meilleur expérience. Le planificateur est composé de quatre étapes :"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:314
 #, no-c-format
 msgid "<emphasis role=\"bold\">Confirm Equipment</emphasis>: Ekos attempts to load equipment settings from INDI. If unsuccessful, you need to enter your equipment settings including your telescope focal length in addition to camera's width, height, and pixel dimensions. The settings are saved for future sessions."
-msgstr ""
+msgstr "<emphasis role=\"bold\">Confirmation du matériel</emphasis> : Ekos tente de charger les réglages du matériel depuis INDI. En cas d'échec, il faut saisir les paramètres du matériel tels que longueur focale du télescope, les dimensions du capteur CCD (largeur, hauteur, taille des pixels). Ces réglages seront enregistrés pour les sessions futures."
 
 #. Tag: screeninfo
 #. +> trunk5
 #: ekos-scheduler.docbook:318
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Mosaic Wizard</screeninfo>"
 msgid "<screeninfo>Confirm Equipment</screeninfo>"
-msgstr "<screeninfo>Assistant de création de mosaïque</screeninfo>"
+msgstr "<screeninfo>Confirmer le matériel</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: ekos-scheduler.docbook:326
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Mosaic Wizard</phrase>"
 msgid "<phrase>Confirm Equipment</phrase>"
-msgstr "<phrase>Assistant de création de mosaïque</phrase>"
+msgstr "<phrase>Confirmer le matériel</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:332
 #, no-c-format
 msgid "<emphasis role=\"bold\">Adjust Grid</emphasis>: Select the mosaic panel dimension and overlap percentage. The Mosaic Panel is updated accordingly on the sky map. Adjust the Position Angle to match the desired mosaic orientation in the sky. If the Position Angle is different from your camera's usual orientation, you may need to rotate the camera either manually or via a mechanized rotator when the scheduler jobs are executed. Tile transparency is automatically calculated by default but may be turned off and adjusted manually. To compute the mosaic field from the number of tiles, click the <guibutton>Cover FOV</guibutton> button. The mosaic panel can be centered in the sky map by clicking on the <guibutton>Recenter</guibutton> button."
-msgstr ""
+msgstr "<emphasis role=\"bold\">Ajustement de la grille</emphasis> : sélectionner la dimension des panneaux et le pourcentage de recouvrement. Le panneau de mosaïque est mise à jour en conséquence sur la carte du ciel. Ajuster l'angle de position pour correspondre à l'orientation désirée de la mosaïque dans le ciel. Si l'angle de position est différent de l'orientation usuelle de la caméra, il faudra soit tourner la caméra manuellement soit avec un rotateur mécanique lorsque les tâches seront exécutées. La transparence des tuiles est par défaut automatiquement calculée mais peut être désactivée et ajustée manuellement. Pour calculer le champ de la mosaïque à partir du nombre de tuiles, cliquer sur le bouton <guibutton>Couvrir CdV</guibutton>. La mosaïque peut être centrée sur la carte du ciel en cliquant sur le bouton <guibutton>Recentrer</guibutton>."
 
 #. Tag: screeninfo
 #. +> trunk5
 #: ekos-scheduler.docbook:336
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Mosaic Wizard</screeninfo>"
 msgid "<screeninfo>Select Grid</screeninfo>"
-msgstr "<screeninfo>Assistant de création de mosaïque</screeninfo>"
+msgstr "<screeninfo>Sélection de la grille</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: ekos-scheduler.docbook:344
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Mosaic Wizard</phrase>"
 msgid "<phrase>Select Grid</phrase>"
-msgstr "<phrase>Assistant de création de mosaïque</phrase>"
+msgstr "<phrase>Sélection de la grille</phrase>"
 
 #. Tag: para
 #. +> trunk5
@@ -628,53 +628,53 @@ msgstr "<phrase>Outil de mosaïque de l'ordonnanceur - grande rotation</phrase>"
 #: ekos-scheduler.docbook:369
 #, no-c-format
 msgid "<emphasis role=\"bold\">Adjust Grid</emphasis>: Adjust Grid center by manually entering the J2000 center or by dragging the center of the mosaic on the sky map."
-msgstr ""
+msgstr "<emphasis role=\"bold\">Ajustement de la grille</emphasis> : sélectionner la dimension des panneaux et le pourcentage de recouvrement. Le panneau de mosaïque est mise à jour en conséquence sur la carte du ciel." 
 
 #. Tag: screeninfo
 #. +> trunk5
 #: ekos-scheduler.docbook:373
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Mosaic Wizard</screeninfo>"
 msgid "<screeninfo>Adjust Grid</screeninfo>"
-msgstr "<screeninfo>Assistant de création de mosaïque</screeninfo>"
+msgstr "<screeninfo>Ajustement de la grille</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: ekos-scheduler.docbook:381
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Mosaic Wizard</phrase>"
 msgid "<phrase>Adjust Grid</phrase>"
-msgstr "<phrase>Assistant de création de mosaïque</phrase>"
+msgstr "<phrase>Ajustement de la grille</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:387
 #, no-c-format
 msgid "<emphasis role=\"bold\">Create Jobs</emphasis>: The final step is to select the sequence file and directory to store the images. Target field is automatically filled but may be changed as desired. Select the steps each scheduler job should execute in sequence (Track -> Focus -> Align -> Guide -> Capture), and adjust the frequency of automatic alignment and focus routines that must be executed during the mosaic operation. For example, if <guilabel>Align Every</guilabel> is set to 2 Scheduler Jobs, then the first job will run the astrometry alignment, while the second job will skip it. When the third job is executed, alignment is performed again and so forth."
-msgstr ""
+msgstr "<emphasis role=\"bold\">Création des tâches</emphasis> : l'étape finale consiste en la sélection du fichier séquence et le dossier d'enregistrement des images. Le champ cible est automatiquement renseigné mais peut être modifié à convenance. Sélectionner les différentes étapes de la tâche (Suivre -> Mise au point -> Alignement -> Guidage -> Acquisition) et régler la fréquence de rafraichissement de l'alignement et de la mise au point durant l'exécution de la tâche. Par exemple, si <guilabel>Aligner tous les</guilabel> est réglé à 2 tâches, alors la première tâche exécutera un alignement alors que la suivante ne l'exécutera pas. Et la troisième l'exécutera à nouveau et ainsi de suite."
 
 #. Tag: screeninfo
 #. +> trunk5
 #: ekos-scheduler.docbook:391
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Scheduler Mosaic Tool</screeninfo>"
 msgid "<screeninfo>Create Jobs</screeninfo>"
-msgstr "<screeninfo>Outil mosaïque de l'ordonnanceur</screeninfo>"
+msgstr "<screeninfo>Création des tâches</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: ekos-scheduler.docbook:399
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Scheduler Mosaic Tool</phrase>"
 msgid "<phrase>Create Jobs</phrase>"
-msgstr "<phrase>Outil de mosaïque de l'ordonnanceur</phrase>"
+msgstr "<phrase>Création des tâches</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:405
 #, no-c-format
 msgid "Click <guibutton>Create Jobs</guibutton> to generate mosaic scheduler jobs and add them to the schedule queue."
-msgstr ""
+msgstr "Cliquer sur le bouton <guibutton>Créer les tâches</guibutton> pour générer les tâches d'ordonnancement de mosaïque et les ajouter à la file d'attente."
 
 #, no-c-format
 #~ msgid "The <guilabel>Mosaic Job Creator</guilabel> in the Ekos Scheduler will create multiple Scheduler jobs based on a central target. It requires that you select first one target and one sequence file. The Sequence File contains all the information necessary to capture an image including exposure time, filters, temperature setting, &etc;, and that information will be used for each pane of the mosaic. Observation job conditions and constraints shall be assigned too, so check that they are as per your requirements. You may simply prepare a new job without adding it, or pick an existing job, as long as both target and sequence file fields are valid in the Scheduler form. If you added jobs to the observation list previously, Ekos will ask you if you would want to keep or remove them before inserting the mosaic jobs in the list."
