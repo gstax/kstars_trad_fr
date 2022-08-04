@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: kstars_ekos_scheduler_3.6.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-29 10:03+0200\n"
-"PO-Revision-Date: 2022-08-04 15:12+0200\n"
+"PO-Revision-Date: 2022-08-04 15:56+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -159,7 +159,7 @@ msgstr "<guilabel>Condition d'achèvement</guilabel> : spécifie les conditions
 #: ekos-scheduler.docbook:83
 #, no-c-format
 msgid "You must select the <guilabel>Target</guilabel> and <guilabel>Sequence</guilabel> before you can add a job to the Scheduler. When the scheduler starts, it evaluates all jobs in accord to the conditions and constraints specified and attempts to select the best job to execute. Selection of the job depends on a simple heuristic algorithm that scores each job given the conditions and constraints, each of which is weighted accordingly. If two targets have identical conditions and constraints, usually the higher priority target followed by higher altitude target is selected for execution. If no candidates are available at the current time, the scheduler goes into sleep mode and wakes up when the next job is ready for execution."
-msgstr "Vous devez sélectionner la <guilabel>Cible</guilabel> et la <guilabel>Séquence</guilabel> avant de pouvoir ajouter une tâche à l'ordonnanceur. À son démarrage l'ordonnanceur évalue toutes les tâches en fonction des conditions et des contraintes spécifiées et tente de choisir la plus appropriée pour exécution. Cette sélection dépend d'un algorithme heuristique simple qui donne un score à chaque tâche en fonction des conditions et des contraintes, chacune ayant un poids particulier en conséquence. Si deux cibles possèdent les mêmes conditions et contraintes, c'est généralement la cible ayant la priorité la plus haute suivie et l'altitude la plus élevée qui est sélectionnée pour exécution. "
+msgstr "Vous devez sélectionner la <guilabel>Cible</guilabel> et la <guilabel>Séquence</guilabel> avant de pouvoir ajouter une tâche à l'ordonnanceur. À son démarrage l'ordonnanceur évalue toutes les tâches en fonction des conditions et des contraintes spécifiées et tente de choisir la plus appropriée pour exécution. Cette sélection dépend d'un algorithme heuristique simple qui donne un score à chaque tâche en fonction des conditions et des contraintes, chacune ayant un poids particulier en conséquence. Si deux cibles possèdent les mêmes conditions et contraintes, c'est généralement la cible ayant la priorité la plus haute suivie et l'altitude la plus élevée qui est sélectionnée pour exécution."
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -547,7 +547,7 @@ msgstr "La seconde étape est gérée par des logiciels de traitement d'images c
 #: ekos-scheduler.docbook:309
 #, no-c-format
 msgid "The <guilabel>Mosaic Planner</guilabel> in the Ekos Scheduler will create multiple Scheduler jobs based on a central target. To toggle the planner, click on the <guibutton>Mosaic Planner</guibutton> button in Ekos Scheduler or KStars INDI toolbar as illustrated in the screenshot. The planner draws the Mosaic Panel directly unto the sky map. It is recommended to enable HiPS overlay for the best experience. The planner is composed of four stages:"
-msgstr "Le <guilabel>planificateur de mosaïques</guilabel> de l'ordonnanceur d'Ekos créera plusieurs tâches basées sur une cible centrale. Pour afficher le planificateur, cliquez sur le bouton <guibutton>Planificateur de mosaïques</guibutton> dans l'ordonnanceur d'Ekos ou sur la barre d'outils INDI de KStars comme illustré dans la capture d'écran. Le planificateur dessine la mosaïque directement sur la carte du ciel. Il est recommandé d'activer la superposition HiPS pour la meilleur expérience. Le planificateur est composé de quatre étapes :"
+msgstr "Le <guilabel>planificateur de mosaïques</guilabel> de l'ordonnanceur d'Ekos créera plusieurs tâches basées sur une cible centrale. Pour afficher le planificateur, cliquez sur le bouton <guibutton>Planificateur de mosaïques</guibutton> dans l'ordonnanceur d'Ekos ou sur la barre d'outils INDI de KStars comme illustré dans la capture d'écran. Le planificateur dessine la mosaïque directement sur la carte du ciel. Il est recommandé d'activer la superposition HiPS pour la meilleure expérience. Le planificateur est composé de quatre étapes :"
 
 #. Tag: para
 #. +> trunk5
