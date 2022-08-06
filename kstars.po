@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-03 09:08+0200\n"
-"PO-Revision-Date: 2022-08-04 16:57+0200\n"
+"PO-Revision-Date: 2022-08-06 13:32+0200\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -7788,21 +7788,21 @@ msgstr "Dialogue"
 #: ekos/align/mountmodel.ui:35
 #, kde-format
 msgid "<p>This tool can help your mount build a better pointing model by moving the mount to different points in the sky and solving captured images. This can increase the accuracy of your GOTOs. To qualify, your mount must be capable of improving its internal pointing model after each <b>Sync</b>  commanded by Ekos. If this is not the case, then this tool is not suitable for your mount.</p>"
-msgstr "<p>Cet outil peut vous aider à définir un meilleur pointage pour votre monture en déplaçant celle-ci en différents points du ciel et en résolvant les images capturées. Cela peut accroître la précision de vos pointages. Pour être applicable, votre monture doit être capable d'améliorer son modèle de pointage interne, après chaque <b>Synchronisation</b> demandée par Ekos. Si ceci n'est pas le cas, alors, cet outil n'est pas adapté à votre monture.</p>"
+msgstr "<p>Cet outil peut vous aider à définir un meilleur pointage pour votre monture en déplaçant celle-ci en différents points du ciel et en résolvant les images acquises. Cela peut accroître la précision de vos pointages. Pour être applicable, votre monture doit être capable d'améliorer son modèle de pointage interne, après chaque <b>Synchronisation</b> demandée par Ekos. Si ceci n'est pas le cas, alors, cet outil n'est pas adapté à votre monture.</p>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #. +> trunk5
 #: ekos/align/mountmodel.ui:48
 #, kde-format
 msgid "Mount Model Wizard"
-msgstr "Assistant d'Alignement n étoiles"
+msgstr "Assistant d'alignement n étoiles"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. +> trunk5
 #: ekos/align/mountmodel.ui:54
 #, kde-format
 msgid "Object Type:"
-msgstr "Type d'objet :"
+msgstr "Type d'objet"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, alignTypeBox)
 #. +> trunk5
@@ -7908,7 +7908,7 @@ msgstr "La déclinaison des points qui seront générés. Cette option ne s'appl
 #: ekos/align/mountmodel.ui:133
 #, kde-format
 msgid "Minimum Alt:"
-msgstr "Élévation minimale :"
+msgstr "Élévation minimale"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, minAltBox)
 #. +> trunk5
@@ -7970,21 +7970,21 @@ msgstr "Noms communs"
 #: ekos/align/mountmodel.ui:250
 #, kde-format
 msgid "These are the common names for the named stars that are currently up at your location.  If you select a star, it will be added to the table below."
-msgstr "Voici les noms habituels pour les étoiles cataloguées, actuellement visibles à votre position. Si vous sélectionnez une étoile, elle sera ajoutée à la table ci-dessous."
+msgstr "Voici les noms habituels des étoiles cataloguées et actuellement visibles à votre position. Si vous sélectionnez une étoile, elle sera ajoutée à la table ci-dessous."
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. +> trunk5
 #: ekos/align/mountmodel.ui:270
 #, kde-format
 msgid "Greek:"
-msgstr "Grec :"
+msgstr "Grec"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, greekStarListBox)
 #. +> trunk5
 #: ekos/align/mountmodel.ui:283
 #, kde-format
 msgid "These are the Greek names for the brighter stars that are currently up at your location.  If you select a star, it will be added to the table below."
-msgstr "Voici les noms grecs pour les étoiles les plus lumineuses, actuellement visibles à votre position. Si vous sélectionnez une étoile, elle sera ajoutée à la table ci-dessous."
+msgstr "Voici les noms grecs des étoiles les plus lumineuses et actuellement visibles à votre position. Si vous sélectionnez une étoile, elle sera ajoutée à la table ci-dessous."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. +> trunk5
@@ -8012,14 +8012,14 @@ msgstr "<p>Supprimer la ligne sélectionnée de la table des points d'alignement
 #: ekos/align/mountmodel.ui:375
 #, kde-format
 msgid "Add an empty row to the alignment list so that you can manually add an RA and DE for a position you would like the telescope to slew to when doing the mount model routine."
-msgstr "Ajouter une ligne vide dans la liste des alignements, afin que vous puissiez ajouter manuellement des paramètres RA et DE pour une position vers laquelle vous voudriez que le télescope se déplace durant la procédure du modélisation du ciel."
+msgstr "Ajouter une ligne vide dans la liste des alignements, afin que vous puissiez ajouter manuellement des paramètres AD et DEC pour une position vers laquelle vous voudriez que le télescope se déplace durant la procédure du modélisation du ciel."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, findAlignB)
 #. +> trunk5
 #: ekos/align/mountmodel.ui:397
 #, kde-format
 msgid "Open the Find Object dialog so that you can select an object to get an RA and DEC automatically that you would like the telescope to slew to when doing the mount model routine."
-msgstr "Ouvrir la boîte de dialogue Trouver un objet afin que vous puissiez trouver un objet et trouver automatiquement les paramètres RA et DEC. Ainsi, vous allez pouvoir faire tourner le télescope durant la procédure de modélisation du ciel."
+msgstr "Ouvrir la boîte de dialogue Trouver un objet afin que vous puissiez trouver un objet et trouver automatiquement les paramètres AD et DEC. Ainsi, vous allez pouvoir faire tourner le télescope durant la procédure de modélisation du ciel."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, sortAlignB)
 #. +> trunk5
@@ -8033,7 +8033,7 @@ msgstr "Trier les points d'alignement, démarrant avec le point le plus près de
 #: ekos/align/mountmodel.ui:444
 #, kde-format
 msgid "This is a table of alignment points that you would like the mount model routine to use in aligning your telescope.  If you would like to add or remove points, you may use the buttons above.  If you would like to run, pause, or stop the mount model routine, you may use the buttons below.  You can directly edit an RA or DE for a particular point directly in the cells.  Just be sure to follow the format hh:mm:ss. The object name is just provided for convenience and is not used.  If you want to change the order of the alignment points, you can drag the row up or down using the vertical header for that row on the left."
-msgstr "Ceci est une table de points d'alignement que vous aimeriez utiliser durant la procédure d'alignement n étoiles, pour l'alignement du télescope. Si vous voulez ajouter ou supprimer des points, vous devriez utiliser les boutons ci-dessus. Si vous voulez lancer l'exécution ou la mise en pause ou l'arrêt de la procédure d'alignement n étoiles, vous devrez utiliser les boutons ci-dessous. Vous pouvez modifier une AD ou une DE pour un point particulier directement dans les cellules. Veuillez vous assurer de saisir un format hh:mm:ss. Le nom de l'objet n'est fourni que pour le confort et n'est pas utilisé. Si vous voulez modifier l'ordre des point d'alignements, vous pouvez faire glisser la colonne vers le haut ou le bas en utilisant l'en-tête verticale de cette colonne sur la gauche."
+msgstr "Ceci est une table de points d'alignement que vous aimeriez utiliser durant la procédure d'alignement n étoiles, pour l'alignement du télescope. Si vous voulez ajouter ou supprimer des points, vous devriez utiliser les boutons ci-dessus. Si vous voulez lancer l'exécution ou la mise en pause ou l'arrêt de la procédure d'alignement n étoiles, vous devrez utiliser les boutons ci-dessous. Vous pouvez modifier une AD ou une DEC pour un point particulier directement dans les cellules. Veuillez vous assurer de saisir un format hh:mm:ss. Le nom de l'objet n'est fourni que pour le confort et n'est pas utilisé. Si vous voulez modifier l'ordre des point d'alignements, vous pouvez faire glisser la colonne vers le haut ou le bas en utilisant l'en-tête verticale de cette colonne sur la gauche."
 
 #. i18n: ectx: property (text), widget (QTableWidget, alignTable)
 #. +> trunk5
@@ -89616,4 +89616,4 @@ msgstr "Sélectionnez la couleur de fond."
 #~ "These magnitude limits do not affect IC objects, as the magnitudes for many IC objects are undefined."
 #~ msgstr ""
 #~ "Définit les limites de magnitude de pâleur des objets du NGC / de Messier, lorsqu'on augmente et réduit le zoom dessus.\n"
-#~ "Ces limites de magnitude n'affectent pas les objets de l'IC, car les magnitudes de nombreux objets de l'IC sont indéfinies."
+e~ "Ces limites de magnitude n'affectent pas les objets de l'IC, car les magnitudes de nombreux objets de l'IC sont indéfinies."
