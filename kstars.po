@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-03 09:08+0200\n"
-"PO-Revision-Date: 2022-08-07 13:20+0200\n"
+"PO-Revision-Date: 2022-08-07 13:32+0200\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -10798,7 +10798,7 @@ msgstr "Tâche"
 #: ekos/analyze/analyze.cpp:1708
 #, kde-format
 msgid "The \"Auto Compute HFR\" option in the KStars FITS options menu is not set. You won't get HFR values without it. Once you set it, newly captured images will have their HFRs computed."
-msgstr "L’option Calcul automatique du HFR dans le menu des options FITS de KStars n’est pas définie. Vous n’obtiendrez pas de valeurs HFR sans elle. Une fois que vous la sélectionnez, les images nouvellement capturées auront leurs HFR calculés."
+msgstr "L’option Calcul automatique du HFR dans le menu des options FITS de KStars n’est pas définie. Vous n’obtiendrez pas de valeurs HFR sans elle. Une fois que vous la sélectionnez, les images nouvellement acquises auront leurs HFR calculés."
 
 #. +> trunk5
 #: ekos/analyze/analyze.cpp:1724
@@ -11561,7 +11561,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Tracer le rayon de demi-flux (HFR) en pixels des images capturées.</p>"
+"<p>Tracer le rayon de demi-flux (HFR) en pixels des images acquises.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, hfrCB)
@@ -11581,7 +11581,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Le rayon de demi-flux (HFR) en pixels des images capturées.</p>"
+"<p>Le rayon de demi-flux (HFR) en pixels des images acquises.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, numCaptureStarsCB)
@@ -11595,7 +11595,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Tracer le nombre d’étoiles détectées dans les images capturées.</p>"
+"<p>Tracer le nombre d’étoiles détectées dans les images acquises.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, medianCB)
@@ -11609,7 +11609,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Tracer la valeur médiane d'échantillonnage dans les images capturées.</p>"
+"<p>Tracer la valeur médiane d'échantillonnage dans les images acquises.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, medianCB)
@@ -11630,7 +11630,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Tracer l’excentricité médiane des étoiles dans les images capturées.</p>"
+"<p>Tracer l’excentricité médiane des étoiles dans les images acquises.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, eccentricityCB)
@@ -12202,7 +12202,7 @@ msgstr "Effacer une ligne"
 #: ekos/auxiliary/darklibrary.ui:1070 kstars.kcfg:1544
 #, kde-format
 msgid "Maximum acceptable difference between current and recorded dark frame temperature set point. When the difference exceeds this value, a new dark frame shall be captured for this set point."
-msgstr "Différence maximale acceptable entre le point de consigne de température du dark courant et celui enregistré. Lorsque la différence dépasse cette valeur, une nouvelle image sombre doit être capturée pour ce point de consigne."
+msgstr "Différence maximale acceptable entre le point de consigne de température du dark courant et celui enregistré. Lorsque la différence dépasse cette valeur, une nouvelle image sombre doit être acquise pour ce point de consigne."
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. +> trunk5
@@ -12239,7 +12239,7 @@ msgstr "°C"
 #: ekos/auxiliary/darklibrary.ui:1097 kstars.kcfg:1760
 #, kde-format
 msgid "Reuse dark frames from the dark library for this many days. If exceeded, a new dark frame shall be captured and stored for future use."
-msgstr "Réutiliser les darks de la bibliothèque de darks pendant ce nombre de jours. S’il est dépassé, un nouveau dark devra être capturé et enregistré pour une utilisation future."
+msgstr "Réutiliser les darks de la bibliothèque de darks pendant ce nombre de jours. S’il est dépassé, un nouveau dark devra être acquis et enregistré pour une utilisation future."
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. +> trunk5
@@ -14859,7 +14859,7 @@ msgstr "Guidage automatique suspendu."
 #: ekos/capture/capture.cpp:6197
 #, kde-format
 msgid "Flat calibration failed. Captured image is only %1-bit while requested ADU is %2."
-msgstr "Échec de la calibration du flat. L'image capturée n'est que de %1 bits alors que la valeur ADU demandée est %2."
+msgstr "Échec de la calibration du flat. L'image acquise n'est que de %1 bits alors que la valeur ADU demandée est %2."
 
 #. +> trunk5
 #: ekos/capture/capture.cpp:6208
@@ -19028,13 +19028,13 @@ msgstr "y (pixels)"
 #: ekos/guide/guide.cpp:3152 ekos/guide/guide.cpp:3432
 #, kde-format
 msgid "The PHD2 camera is not available to Ekos, so you cannot see the captured images.  But you will still see the Guide Star Image when you guide."
-msgstr "La caméra PHD2 est indisponible pour Ekos. Ainsi, vous ne pourrez voir les images capturées. Mais, vous devriez toujours voir l'image de l'étoile ciblée lors du guidage."
+msgstr "La caméra PHD2 est indisponible pour Ekos. Ainsi, vous ne pourrez voir les images acquises. Mais, vous devriez toujours voir l'image de l'étoile ciblée lors du guidage."
 
 #. +> trunk5
 #: ekos/guide/guide.cpp:3156 ekos/guide/guide.cpp:3436
 #, kde-format
 msgid "To receive PHD2 images other than the Guide Star Image, SubFrame must be unchecked.  Unchecking it now to enable your image captures.  You can re-enable it before Guiding"
-msgstr "Pour recevoir des images de PHD2 autre que l'image de l'étoile de guidage, le paramètre « Sous-trame » doit être désactivé. Sa désactivation vous permet maintenant de faire des captures d'images. Vous pouvez le réactiver avant le guidage."
+msgstr "Pour recevoir des images de PHD2 autre que l'image de l'étoile de guidage, le paramètre « Sous-trame » doit être désactivé. Sa désactivation vous permet maintenant de faire des acquisitions d'images. Vous pouvez le réactiver avant le guidage."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. +> trunk5
@@ -19089,7 +19089,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Soustraire le dark. Si aucun dark n'est disponible, un nouveau sera capturé et enregistré pour un usage ultérieur.</p>"
+"<p>Soustraire le dark. Si aucun dark n'est disponible, un nouveau sera acquis et enregistré pour un usage ultérieur.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, loopB)
@@ -19110,7 +19110,8 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Utiliser des sous-trames de l'image autour de l'étoile de guidage. Ou, avec PHD2, recevez l'image de l'étoile de guidage au lieu de la trame complète de l'image. Pour l'assistant de guidage interne, avant de cocher cette option, vous devez <span style=\" font-weight:600;\">d'abord</span> capturer une image et sélectionner une étoile de guidage. Décochez cette option pour recevoir une trame complète à nouveau.</p>"
+"<p>Utiliser des sous-trames de l'image autour de l'étoile de guidage. Ou, avec PHD2, recevez l'image de l'étoile de guidage au lieu de la trame complète de l'image. Pour l'assistant de guidage interne, avant de cocher cette option, vous devez <span style=\" font-weight:600;\">d'abord</span> acquérir une image et sélectionner une étoile de guidage. Décochez cette option pour recevoir une trame complète à nouveau.<br/>"
+"Veuillez noter que SEP Multi Star ne peut <span style=\"font-wight:600;\">pas</span> utiliser de sous-trames.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, subFrameCheck)
@@ -20409,7 +20410,7 @@ msgstr "Délai décalage PHD2"
 #: ekos/guide/opsdither.ui:157 ekos/guide/opsdither.ui:177
 #, kde-format
 msgid "Dither after this many captured frames in the CCD module"
-msgstr "Décalage après ce nombre de trames capturées dans le module CCD."
+msgstr "Décaler après ce nombre de trames acquises dans le module CCD."
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_7)
@@ -22290,7 +22291,7 @@ msgstr ""
 #: ekos/mount/mount.ui:410
 #, kde-format
 msgid "Flip if HA >"
-msgstr "Basculer si AH >"
+msgstr "Retourner si AH >"
 
 #. i18n: ectx: property (text), widget (QLabel, pierSideLabel)
 #. +> trunk5
@@ -80534,7 +80535,7 @@ msgstr "Ajouter un formulaire de journalisation de base au graphique de recherch
 #: printing/pwizfovbrowse.ui:71
 #, kde-format
 msgid "Browse Captured Field of View Images"
-msgstr "Parcourir les images de champs de vision capturées"
+msgstr "Parcourir les images acquises de champs de vision"
 
 #. i18n: ectx: property (text), widget (QLabel, stepText)
 #. +> trunk5
@@ -80548,7 +80549,7 @@ msgstr "Après l'acquisition des copies du champ de vision, vous pouvez les affi
 #: printing/pwizfovbrowse.ui:135
 #, kde-format
 msgid "Browse captured FOV snapshots"
-msgstr "Parcourir les instantanés de champs de vision capturés"
+msgstr "Parcourir les instantanés de champs de vision"
 
 #. +> trunk5
 #: printing/pwizfovconfig.cpp:55
@@ -80633,7 +80634,7 @@ msgstr "Type de graphique :"
 #: printing/pwizfovmanual.ui:71
 #, kde-format
 msgid "Manually Capture Field of View Snapshots"
-msgstr "Capturer manuellement des instantanés de champ de vision"
+msgstr "Acquérir manuellement des instantanés de champ de vision"
 
 #. i18n: ectx: property (text), widget (QLabel, stepText)
 #. +> trunk5
@@ -80648,7 +80649,7 @@ msgid ""
 msgstr ""
 "<p>Dans la méthode de capture manuelle du champ de vision, l'utilisateur centre la carte du ciel sur un point d'intérêt, puis capture des instantanés de fragments de ciel à l'intérieur du symbole CdV actif.</p>"
 "\n"
-"<p>En mode capture du champ de vision, appuyez <b>Page Up</b> et <b>Page Down</b> pour changer de symbole CdV. Les images sont capturées en appuyant sur la touche <b>K</b>. Une fois fait, appuyez sur <b>Escape</b> pour revenir à l'assistant d'impression.</p>"
+"<p>En mode capture du champ de vision, appuyez <b>Page Up</b> et <b>Page Down</b> pour changer de symbole CdV. Les images sont acquises en appuyant sur la touche <b>K</b>. Une fois fait, appuyez sur <b>Escape</b> pour revenir à l'assistant d'impression.</p>"
 "\n"
 "<p>Appuyez sur <b>Suivant</b> une fois fait.</p>"
 
@@ -80757,7 +80758,7 @@ msgstr "Méthode de définition de champ de vision"
 #: printing/pwizfovtypeselection.ui:136
 #, kde-format
 msgid "Manually capture field of view snapshots"
-msgstr "Capturer manuellement des instantanés de champ de vision"
+msgstr "Acquérir manuellement des instantanés de champ de vision"
 
 #. i18n: ectx: property (text), widget (QRadioButton, hopperRadio)
 #. +> trunk5
@@ -82794,7 +82795,7 @@ msgid ""
 "\t\n"
 msgstr ""
 "\t\t"
-"<p>Si vous utilisé une caméra pour capturer des images, vous pouvez créer un symbole de champ de vision (CdV) qui représentera le capteur à l'échelle. Vous pouvez ensuite ajuster l'orientation du symbole de CdV pour correspondre à l'orientation de votre caméra. Vous voyez ainsi ce que celle-ci  enregistrera. L'éditeur de CdV est accessible à partir du menu Configuration-> Symbole CdV.\n"
+"<p>Si vous utilisé une caméra pour acquérir des images, vous pouvez créer un symbole de champ de vision (CdV) qui représentera le capteur à l'échelle. Vous pouvez ensuite ajuster l'orientation du symbole de CdV pour correspondre à l'orientation de votre caméra. Vous voyez ainsi ce que celle-ci enregistrera. L'éditeur de CdV est accessible à partir du menu Configuration-> Symbole CdV.\n"
 "\t\t</p>"
 "\n"
 "\t\n"
