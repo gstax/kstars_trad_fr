@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-03 09:08+0200\n"
-"PO-Revision-Date: 2022-08-07 08:41+0200\n"
+"PO-Revision-Date: 2022-08-07 13:20+0200\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -7042,7 +7042,7 @@ msgstr "Contrôle du résolveur"
 #: ekos/align/align.ui:72
 #, kde-format
 msgid "Capture && Solve"
-msgstr "Acquisition && résolution"
+msgstr "Acquisition && Résolution"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, loadSlewB)
 #. +> trunk5
@@ -11947,7 +11947,7 @@ msgstr "4x4"
 #: ekos/auxiliary/darklibrary.ui:307 ekos/capture/capture.ui:951
 #, kde-format
 msgid "Count:"
-msgstr "Nombre"
+msgstr "Nombre de trames"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, label_21)
@@ -17633,7 +17633,7 @@ msgstr "Suspendre le guidage"
 #: ekos/focus/focus.ui:954
 #, kde-format
 msgid "Wait this many seconds before resuming guiding."
-msgstr "Attendre plusieurs secondes avant la reprise du guidage."
+msgstr "Attendre ce nombre de secondes avant la reprise du guidage."
 
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, GuideSettleTime)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, FocusSettleTime)
@@ -19286,7 +19286,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Sélectionner quel télescope utiliser pour réaliser les calculs de champ de vision.</p>"
+"<p>Sélectionner le télescope à utiliser pour réaliser les calculs de champ de vision.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, l_5)
@@ -23318,7 +23318,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Dans le cas d'absence de tâche planifiée pendant plusieurs heures, veuillez effectuer une procédure d'arrêt complet et relancer les opérations d'observations, une fois la tâche prête.</p>"
+"<p>Dans le cas d'absence de tâche planifiée pendant ce nombre d'heures, effectuer une procédure d'arrêt complet et relancer les opérations d'observations, une fois la tâche prête.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PreemptiveShutdown)
@@ -23432,7 +23432,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Si le script d'arrêt ferme le serveur INDI, activez cette option. Ainsi, aucune erreur de déconnexion n'est générée.</p>"
+"<p>Si le script d'arrêt arrête le serveur INDI, activer cette option pour qu'aucune erreur de déconnexion ne soit générée.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShutdownScriptTerminatesINDI)
@@ -23534,7 +23534,7 @@ msgstr "Réinitialiser l'alignement n étoiles avant le démarrage de chaque tâ
 #: ekos/opsekos.ui:461 kstars.kcfg:2622
 #, kde-format
 msgid "If captured position exceeds target position by more this many arcminutes, abort capture and reschedule the pipeline."
-msgstr "Si la position capturée dépasse la position cible de plus de ces quelques minutes d'arc, alors annulez la capture et reprogrammez la file d'attente."
+msgstr "Si la position de l'acquisition dépasse la position cible de plus de ces quelques minutes d'arc, alors annuler l'acquisition et reprogrammer la file d'attente."
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #. +> trunk5
@@ -23728,7 +23728,7 @@ msgstr "Effacer les informations de l'APN"
 #: ekos/opsekos.ui:770
 #, kde-format
 msgid "In-Sequence Focus"
-msgstr "Mise au point à suivre"
+msgstr "Suivi de la mise au point"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_5)
 #. +> trunk5
@@ -23740,7 +23740,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Définir le gain en pourcentage du seuil HFR. Lorsqu'une opération de mise au point automatique est terminée, sa valeur HFR est augmentée de ce pourcentage de seuil et stockée dans le module d'acquisition. Si « In-Sequence-Focus » est engagé, le module de mise au point automatique ne s'exécute que si la valeur HFR actuelle dépasse le seuil HFR du module d'acquisition. Augmentez la valeur pour permettre des changements plus souples des valeurs HFR sans nécessiter une mise au point automatique complète.</p>"
+"<p>Définir le gain en pourcentage du seuil HFR. Lorsqu'une opération de mise au point automatique est terminée, sa valeur HFR est augmentée de ce pourcentage de seuil et stockée dans le module d'acquisition. Si « Suivi de la mise au point » est engagé, le module de mise au point automatique ne s'exécute que si la valeur HFR actuelle dépasse le seuil HFR du module d'acquisition. Augmenter la valeur pour permettre des changements plus souples des valeurs HFR sans nécessiter une mise au point automatique complète.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
@@ -29011,7 +29011,7 @@ msgstr "Échantillonnage adaptatif"
 #: fitsviewer/opsfits.ui:166 fitsviewer/opsfits.ui:176 kstars.kcfg:1768
 #, kde-format
 msgid "Set the coarseness of the preview shown when sliding the fitsviewer's stretch parameter sliders. 1 is full resolution, but can be slow, 4 would be coarse resolution and fast."
-msgstr "Définit la grossièreté de l’aperçu affiché lors du glissement des curseurs de paramètres d’étirement de l'afficheur « FITS ». Une valeur de 1 correspond à une pleine résolution, mais peut conduire à du ralentissement, une valeur de 4 correspond à une résolution grossière mais rapide."
+msgstr "Définit la grossièreté de l’aperçu affiché lors du glissement des curseurs de paramètres d’étirement de l'afficheur FITS. Une valeur de 1 correspond à une pleine résolution, mais peut conduire à du ralentissement, une valeur de 4 correspond à une résolution grossière mais rapide."
 
 #. i18n: ectx: property (text), widget (QLabel, stretchPreviewSamplingLabel)
 #. +> trunk5
@@ -29076,7 +29076,7 @@ msgstr "Mode avec ressources limitées"
 #: fitsviewer/opsfits.ui:223
 #, kde-format
 msgid "Automatically debayer captured image if it contains a bayer pattern"
-msgstr "Débayérisation automatique de l'image capturée si elle contient une matrice de Bayer"
+msgstr "Débayérisation automatique de l'image acquise si elle contient une matrice de Bayer"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoDebayer)
 #. +> trunk5
@@ -29112,7 +29112,7 @@ msgstr "WCS automatique"
 #: fitsviewer/opsfits.ui:246
 #, kde-format
 msgid "Process 3D (RGB) FITS images. If unchecked, only first channel is processed."
-msgstr "Traiter les images FITS 3D (RVB). Si non sélectionné, seul le premier canal est traité."
+msgstr "Traiter les images FITS 3D (RVB). Si non cochée, seul le premier canal est traité."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_Auto3DCube)
 #. +> trunk5
@@ -29160,7 +29160,7 @@ msgstr "Calculer automatiquement HFR"
 #: fitsviewer/opsfits.ui:282
 #, kde-format, no-c-format
 msgid "When computing the HFR, run it quickly by only looking at 25% of the image."
-msgstr "Lors du calcul du HFR, exécutez le rapidement en ne regardant que 25 % de l'image."
+msgstr "Lors du calcul du HFR, l'exécuter rapidement en n'utilisant que 25 % de l'image."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_QuickHFR)
 #. +> trunk5
@@ -29174,7 +29174,7 @@ msgstr "HFR rapide"
 #: fitsviewer/opsfits.ui:300
 #, kde-format
 msgid "Set the StellarSolver SEP profile for Capture-image HFR calculations."
-msgstr "Définir le profil SEP pour le « Stellarsolver » pour les calculs HFR de l'image acquise."
+msgstr "Définir le profil SEP pour le résolveur Stellarsolver pour les calculs HFR de l'image acquise."
 
 #. i18n: ectx: property (text), widget (QLabel, hfrSepLabel)
 #. +> trunk5
@@ -30500,7 +30500,7 @@ msgstr "KStars synchronise tous les périphériques"
 #: indi/opsindi.ui:274
 #, kde-format
 msgid "Enable time synchronization upon connection between KStars and INDI"
-msgstr "Autoriser la synchronisation du temps à la connexion entre KStars et INDI"
+msgstr "Autoriser la synchronisation de l'heure à la connexion entre KStars et INDI"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_useTimeUpdate)
 #. +> trunk5
@@ -30534,7 +30534,7 @@ msgstr "La monture synchronise KStars"
 #: indi/opsindi.ui:300
 #, kde-format
 msgid "Enable geographic location synchronization upon connection between KStars and INDI"
-msgstr "Activer la synchronisation de la position géographique grâce à une connexion entre KStars et INDI"
+msgstr "Activer la synchronisation de la position géographique lors de la connexion entre KStars et INDI"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_useGeographicUpdate)
 #. +> trunk5
@@ -32466,7 +32466,7 @@ msgstr "Choisir une culture céleste."
 #: kstars.kcfg:426 options/opsadvanced.ui:773
 #, kde-format
 msgid "Hide constellation names while moving?"
-msgstr "Cacher les noms des constellations pendant le déplacement ?"
+msgstr "Cacher les noms des constellations pendant le déplacement"
 
 #. i18n: ectx: whatsthis, entry (HideCNames), group (View)
 #. +> trunk5
@@ -32481,7 +32481,7 @@ msgstr "Décide si les noms de constellations doivent ou non être cachés lorsq
 #: kstars.kcfg:431 options/opsadvanced.ui:747
 #, kde-format
 msgid "Hide coordinate grids while moving?"
-msgstr "Cacher les grilles des coordonnées pendant le déplacement ?"
+msgstr "Cacher les grilles des coordonnées pendant le déplacement"
 
 #. i18n: ectx: whatsthis, entry (HideGrids), group (View)
 #. +> trunk5
@@ -32538,7 +32538,7 @@ msgstr "Décide si les objets du système solaire doivent ou non être cachés l
 #: kstars.kcfg:451 options/opsadvanced.ui:677
 #, kde-format
 msgid "Hide faint stars while moving?"
-msgstr "Cacher les étoiles faibles pendant le déplacement ?"
+msgstr "Cacher les étoiles faibles pendant le déplacement"
 
 #. i18n: ectx: whatsthis, entry (HideStars), group (View)
 #. +> trunk5
@@ -32552,7 +32552,7 @@ msgstr "Décide si les étoiles faibles doivent ou non être cachées lorsque l'
 #: kstars.kcfg:456
 #, kde-format
 msgid "Hide object name labels while moving?"
-msgstr "Cacher les noms d'objets pendant le déplacement ?"
+msgstr "Cacher les noms d'objets pendant le déplacement"
 
 #. i18n: ectx: whatsthis, entry (HideLabels), group (View)
 #. +> trunk5
@@ -78358,7 +78358,7 @@ msgstr "Vitesse de déroulement du zoom"
 #: options/opsadvanced.ui:466 options/opsadvanced.ui:521
 #, kde-format
 msgid "Show name label of centered object?"
-msgstr "Afficher l'étiquette du nom de l'objet centré ?"
+msgstr "Afficher l'étiquette du nom de l'objet centré"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_UseAutoLabel)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_UseHoverLabel)
@@ -78387,7 +78387,7 @@ msgstr "Attacher une étiquette temporaire lors du survol de la souris"
 #: options/opsadvanced.ui:534
 #, kde-format
 msgid "Show inline images on the sky?"
-msgstr "Afficher des images en ligne du ciel ?"
+msgstr "Afficher des images en ligne du ciel"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowInlineImages)
 #. +> trunk5
@@ -78450,7 +78450,7 @@ msgstr "Pointeur par défaut"
 #: options/opsadvanced.ui:590
 #, kde-format
 msgid "Show slewing motion when focus changes?"
-msgstr "Afficher le mouvement de réorientation lorsque la mise au point change ?"
+msgstr "Afficher le mouvement de réorientation lorsque la mise au point change"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_UseAnimatedSlewing)
 #. +> trunk5
@@ -78485,7 +78485,7 @@ msgstr "Configurer les objets cachés pendant le déplacement"
 #: options/opsadvanced.ui:649
 #, kde-format
 msgid "Do not draw all objects while the map is moving?"
-msgstr "Ne pas dessiner tous les objets lorsque la carte se déplace ?"
+msgstr "Ne pas dessiner tous les objets lorsque la carte se déplace"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_HideOnSlew)
 #. +> trunk5
@@ -78541,7 +78541,7 @@ msgstr "Les étoiles plus faibles que celle-ci ne seront pas dessinées lorsque 
 #: options/opsadvanced.ui:711
 #, kde-format
 msgid "Hide solar system bodies while moving?"
-msgstr "Cacher les corps du Système solaire pendant le déplacement ?"
+msgstr "Cacher les corps du Système solaire pendant le déplacement"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_HidePlanets)
 #. +> trunk5
@@ -78563,7 +78563,7 @@ msgstr "Système solaire"
 #: options/opsadvanced.ui:724
 #, kde-format
 msgid "Hide object labels while moving?"
-msgstr "Cacher les étiquettes des objets pendant le déplacement ?"
+msgstr "Cacher les étiquettes des objets pendant le déplacement"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_HideLabels)
 #. +> trunk5
@@ -78626,14 +78626,14 @@ msgstr "Noms des constellations"
 #: options/opsadvanced.ui:803
 #, kde-format
 msgid "Observing &List"
-msgstr "&Liste d'observation"
+msgstr "&Liste d'observations"
 
 #. i18n: ectx: property (title), widget (QGroupBox, ObsListOptions)
 #. +> trunk5
 #: options/opsadvanced.ui:830
 #, kde-format
 msgid "Observing List Labels"
-msgstr "Étiquettes de la liste d'observation"
+msgstr "Étiquettes de la liste d'observations"
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_ObsListSymbol)
 #. +> trunk5
@@ -78786,7 +78786,7 @@ msgstr ""
 #: options/opscatalog.ui:610
 #, kde-format
 msgid "Resolve names not known to KStars using online services"
-msgstr "Trouver les noms inconnus de KStars en utilisant les services en ligne."
+msgstr "Trouver le nom d'objets inconnus de KStars en utilisant les services en ligne."
 
 #. i18n: ectx: property (toolTip), widget (MagnitudeSpinBox, kcfg_MagLimitDrawDeepSkyZoomOut)
 #. i18n: ectx: property (toolTip), widget (QLabel, LabelMagDeepSkyZoomOut)
@@ -79663,7 +79663,7 @@ msgstr "Sélectionner tous les corps majeurs"
 #: options/opssolarsystem.ui:111
 #, kde-format
 msgid "Press this to select all planets, the Sun and the Moon to be drawn in the map"
-msgstr "Choisissez ce paramètre pour sélectionner toutes les planètes, le Soleil et la Lune pour les dessiner sur la carte"
+msgstr "Choisir ce paramètre pour sélectionner toutes les planètes, le Soleil et la Lune pour les dessiner sur la carte"
 
 #. i18n: ectx: property (text), widget (QPushButton, showAllPlanets)
 #. +> trunk5
@@ -86609,7 +86609,7 @@ msgstr ""
 "<p></p>"
 "<p>Si vous ne souhaitez pas exclure des objets faibles avec cette sélection, laissez simplement la case ci-dessous non cochée.</p>"
 "<p></p>"
-"<p>Cette page est la dernière de l'assistant de création de listes d'observation. Vous pouvez revenir en arrière et modifier les pages précédentes avec le bouton <span style=\"font-weight:600;\">Précédent</span>. Lorsque vous êtes satisfait, cliquez sur le bouton <span style=\"font-weight:600;\">Terminer</span> pour quitter l'assistant, et l'outil « Liste d'observation » sera rempli par les objets que vous avez spécifiés ici.</p>"
+"<p>Cette page est la dernière de l'assistant de création de listes d'observation. Vous pouvez revenir en arrière et modifier les pages précédentes avec le bouton <span style=\"font-weight:600;\">Précédent</span>. Lorsque vous êtes satisfait, cliquez sur le bouton <span style=\"font-weight:600;\">Terminer</span> pour quitter l'assistant, et l'outil « Liste d'observations » sera rempli par les objets que vous avez spécifiés ici.</p>"
 "<p></p>"
 "</body></html>"
 
@@ -87258,25 +87258,25 @@ msgstr "Cacher la Voie Lactée lors du déplacement vers la cible ?"
 #: tools/scriptbuilder.cpp:613
 #, kde-format
 msgid "Hide constellation names while slewing?"
-msgstr "Cacher les noms des constellations lors du déplacement vers la cible ?"
+msgstr "Cacher les noms des constellations lors du déplacement vers la cible"
 
 #. +> trunk5
 #: tools/scriptbuilder.cpp:616
 #, kde-format
 msgid "Hide constellation lines while slewing?"
-msgstr "Cacher les lignes des constellations lors du déplacement vers la cible ?"
+msgstr "Cacher les lignes des constellations lors du déplacement vers la cible"
 
 #. +> trunk5
 #: tools/scriptbuilder.cpp:619
 #, kde-format
 msgid "Hide constellation boundaries while slewing?"
-msgstr "Cacher les limites des constellations lors du déplacement vers la cible ?"
+msgstr "Cacher les limites des constellations lors du déplacement vers la cible"
 
 #. +> trunk5
 #: tools/scriptbuilder.cpp:622
 #, kde-format
 msgid "Hide coordinate grid while slewing?"
-msgstr "Cacher la grille des coordonnées lors du déplacement vers la cible ?"
+msgstr "Cacher la grille des coordonnées lors du déplacement vers la cible"
 
 #. +> trunk5
 #: tools/scriptbuilder.cpp:636
