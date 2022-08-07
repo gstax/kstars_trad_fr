@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-03 09:08+0200\n"
-"PO-Revision-Date: 2022-08-07 13:34+0200\n"
+"PO-Revision-Date: 2022-08-07 13:49+0200\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -15053,7 +15053,7 @@ msgstr[1] "%1 tâches pour les dark-flats ont été créées."
 #: ekos/capture/capture.ui:49
 #, kde-format
 msgid "Camera && Filter Wheel"
-msgstr "Caméra et Roue à filtres"
+msgstr "Caméra et roue à filtres"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. +> trunk5
@@ -17457,7 +17457,7 @@ msgstr "Position courante et absolue du moteur de mise au point"
 #: ekos/scheduler/scheduler.ui:350
 #, kde-format
 msgid "Steps:"
-msgstr "Positions"
+msgstr "Étapes"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, stopGotoB)
 #. +> trunk5
@@ -27117,7 +27117,7 @@ msgstr "Trame acquise est à %1 minutes d’arc de la cible, réalignement en co
 #: ekos/scheduler/scheduler.ui:38
 #, kde-format
 msgid "Object && Sequence Selection"
-msgstr "Sélection de l'objet && de la séquence"
+msgstr "Sélection de l'objet et de la séquence"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, FITSLabel)
 #. +> trunk5
@@ -27507,7 +27507,7 @@ msgstr "L'altitude de l'objet doit rester égale ou supérieure à cette valeur.
 #: ekos/scheduler/scheduler.ui:1629
 #, kde-format
 msgid "Alt > "
-msgstr "Alt > "
+msgstr "Altitude > "
 
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, minAltitude)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, minMoonSeparation)
