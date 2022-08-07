@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-03 09:08+0200\n"
-"PO-Revision-Date: 2022-08-07 13:49+0200\n"
+"PO-Revision-Date: 2022-08-07 14:21+0200\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -1392,7 +1392,7 @@ msgstr "Ceci vous permet de sélectionner un emplacement pour affichage"
 #: tools/observinglist.ui:185
 #, kde-format
 msgid "Location:"
-msgstr "Lieu"
+msgstr "Position"
 
 #. +> trunk5
 #: auxiliary/xplanetimageviewer.cpp:249
@@ -5494,7 +5494,7 @@ msgstr "Latitude"
 #: dialogs/locationdialog.ui:390
 #, kde-format
 msgid "Elevation"
-msgstr "Élévation"
+msgstr "Altitude"
 
 #. i18n: ectx: property (text), widget (QLabel, TZLabel)
 #. +> trunk5
@@ -32254,7 +32254,7 @@ msgstr "La latitude de la position géographique actuelle, en degrés décimaux.
 #: kstars.kcfg:345
 #, kde-format
 msgid "Elevation above sea level of geographic location, in meters."
-msgstr "Élévation par rapport au niveau de la mer de la position géographique actuelle, en mètres."
+msgstr "Altitude par rapport au niveau de la mer de la position géographique actuelle, en mètres."
 
 #. i18n: ectx: label, entry (TimeZone), group (Location)
 #. +> trunk5
@@ -71063,7 +71063,7 @@ msgstr "Lecture des règles de fuseaux horaires"
 #: kstarsdata.cpp:142
 #, kde-format
 msgid "Upgrade existing user city db to support geographic elevation."
-msgstr "Mettre à jour la base de données existante pour les cités des utilisateurs pour la prise en charge de l'altitude géographique."
+msgstr "Mettre à jour la base de données existante pour les cités des utilisateurs pour la prise en charge de la hauteur géographique."
 
 #. +> trunk5
 #: kstarsdata.cpp:160
@@ -71075,7 +71075,7 @@ msgstr "Ajout d'une colonne « Altitude » à la table des villes."
 #: kstarsdata.cpp:174
 #, kde-format
 msgid "City table already contains \"Elevation\"."
-msgstr "La table des villes contient toujours des données d'élévation."
+msgstr "La table des villes contient toujours des données d'altitude."
 
 #. +> trunk5
 #: kstarsdata.cpp:179
@@ -71526,25 +71526,25 @@ msgstr "Gérer les catalogues du ciel profond (CP)"
 #: kstarsinit.cpp:402
 #, kde-format
 msgid "Update Comets Orbital Elements"
-msgstr "Mettre à jour les éléments orbitaux des comètes"
+msgstr "Éléments orbitaux des comètes"
 
 #. +> trunk5
 #: kstarsinit.cpp:404
 #, kde-format
 msgid "Update Asteroids Orbital Elements"
-msgstr "Mettre à jour les éléments orbitaux des astéroïdes"
+msgstr "Éléments orbitaux des astéroïdes"
 
 #. +> trunk5
 #: kstarsinit.cpp:406
 #, kde-format
 msgid "Update Recent Supernovae Data"
-msgstr "Mettre à jour les données des supernovas récentes"
+msgstr "Données des supernovas récentes"
 
 #. +> trunk5
 #: kstarsinit.cpp:408
 #, kde-format
 msgid "Update Satellites Orbital Elements"
-msgstr "Mettre à jour les éléments orbitaux des satellites"
+msgstr "Éléments orbitaux des satellites"
 
 #. +> trunk5
 #: kstarsinit.cpp:412
@@ -71575,7 +71575,7 @@ msgstr "Dans le ciel cette nuit"
 #: kstarsinit.cpp:437
 #, kde-format
 msgid "XPlanet Solar System Simulator"
-msgstr "Simulateur de système solaire Xplanet"
+msgstr "Simulateur XPlanet"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, SkyCalendar)
 #. +> trunk5
@@ -74318,7 +74318,7 @@ msgstr "Est/Ouest"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Elevation (m)"
-msgstr "Élévation (m)"
+msgstr "Altitude (m)"
 
 #. +> trunk5
 #: libindi_strings.cpp:135
@@ -74696,7 +74696,7 @@ msgstr "Minuterie de mise au point"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Focus in"
-msgstr "Mettre au point à l'intérieur"
+msgstr "Mettre au point vers l'intérieur"
 
 #. +> trunk5
 #: libindi_strings.cpp:190
@@ -76460,7 +76460,7 @@ msgstr "Qualité du ciel"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Sleep"
-msgstr "Mettre en sommeil"
+msgstr "Mise en veille"
 
 #. +> trunk5
 #: libindi_strings.cpp:443
@@ -83190,13 +83190,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Print elevation vs time plot"
-msgstr "Imprimer le tracé de l'élévation selon l'heure"
+msgstr "Imprimer le tracé de la hauteur selon l'heure"
 
 #. +> trunk5
 #: tools/altvstime.cpp:1407
 #, kde-format
 msgid "Elevation vs. Time Plot"
-msgstr "Tracé de l'élévation selon l'heure"
+msgstr "Tracé de la hauteur selon l'heure"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, nameBox)
 #. +> trunk5
@@ -83315,7 +83315,7 @@ msgstr "Transit"
 #: tools/altvstime.ui:362
 #, kde-format
 msgid "Date && Location"
-msgstr "Date et Lieu"
+msgstr "Date et Position"
 
 #. i18n: ectx: property (text), widget (QPushButton, cityButton)
 #. +> trunk5
@@ -83674,7 +83674,7 @@ msgstr "<QT>Section comprenant des algorithmes pour le calcul des éphémérides
 #: tools/astrocalc.cpp:67
 #, kde-format
 msgid "<QT>Section with algorithms for the conversion of different astronomical systems of coordinates<UL><LI><B>Galactic:</B> Galactic/Equatorial coordinates conversion</LI><LI><B>Apparent:</B> Computation of current equatorial coordinates from a given epoch</LI><LI><B>Ecliptic:</B> Ecliptic/Equatorial coordinates conversion</LI><LI><B>Horizontal:</B> Computation of azimuth and elevation for a given source, time, and location on the Earth</LI><LI><B>Angular Distance:</B> Computation of angular distance between two objects whose positions are given in equatorial coordinates</LI><LI><B>Geodetic Coords:</B> Geodetic/XYZ coordinate conversion</LI><LI><B>LSR Velocity:</B> Computation of the heliocentric, geocentric and topocentric radial velocity of a source from its LSR velocity</LI></UL></QT>"
-msgstr "<QT>Section comprenant des algorithmes pour la conversion de différents systèmes de coordonnées astronomiques<UL><LI><B>Galactiques :</B> conversion de coordonnées galactiques / équatoriales</LI><LI><B>Apparentes :</B> calcul des coordonnées équatoriales actuelles à partir d'une date de référence (epoch) donnée</LI><LI><B>Écliptiques :</B> conversion de coordonnées écliptiques / équatoriales</LI> <LI><B>Horizontales :</B> calcul de l'azimut et de l'élévation pour une source, un moment et une position sur la Terre donnés</LI><LI><B>Distance angulaire :</B> calcul de la distance angulaire entre deux objets dont les positions sont indiquées en coordonnées équatoriales</LI><LI><B>Coordonnées géodésiques :</B> conversion de coordonnées géodésiques / XYZ</LI><LI><B>Vitesse « LRS » :</B> calcul de la vitesse radiale héliocentrique, géocentrique et topocentrique d'une source à partir de sa vitesse LRS</LI></UL></QT>"
+msgstr "<QT>Section comprenant des algorithmes pour la conversion de différents systèmes de coordonnées astronomiques<UL><LI><B>Galactiques :</B> conversion de coordonnées galactiques / équatoriales</LI><LI><B>Apparentes :</B> calcul des coordonnées équatoriales actuelles à partir d'une date de référence (epoch) donnée</LI><LI><B>Écliptiques :</B> conversion de coordonnées écliptiques / équatoriales</LI> <LI><B>Horizontales :</B> calcul de l'azimut et de la hauteur pour une source, un moment et une position sur la Terre donnés</LI><LI><B>Distance angulaire :</B> calcul de la distance angulaire entre deux objets dont les positions sont indiquées en coordonnées équatoriales</LI><LI><B>Coordonnées géodésiques :</B> conversion de coordonnées géodésiques / XYZ</LI><LI><B>Vitesse « LRS » :</B> calcul de la vitesse radiale héliocentrique, géocentrique et topocentrique d'une source à partir de sa vitesse LRS</LI></UL></QT>"
 
 #. +> trunk5
 #: tools/astrocalc.cpp:90
@@ -85079,14 +85079,14 @@ msgstr "Coordonnées géographiques"
 #: tools/modcalcgeod.ui:250
 #, kde-format
 msgid "Elevation (meters):"
-msgstr "Élévation (mètres)"
+msgstr "Altitude (mètres)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, AltGeoCheckBatch)
 #. +> trunk5
 #: tools/modcalcgeod.ui:395
 #, kde-format
 msgid "Elev. (m):"
-msgstr "Élév. (m)"
+msgstr "Alt. (m)"
 
 #. +> trunk5
 #: tools/modcalcjd.cpp:244
@@ -85476,7 +85476,7 @@ msgstr "Topocentrique"
 #: tools/modcalcvlsr.ui:498
 #, kde-format
 msgid "Elevation (m):"
-msgstr "Élévation (m)"
+msgstr "Altitude (m)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, InputVelocityCheckBatch)
 #. +> trunk5
@@ -86317,12 +86317,12 @@ msgid ""
 "</body></html>"
 msgstr ""
 " <html><head></head><body>"
-"<p>Bienvenue dans l'assistant de création de listes d'observation</p>"
+"<p>Bienvenue dans l'assistant de création de listes d'observations</p>"
 " "
 "<p></p>"
-"<p>Avec cet outil, vous pouvez élaborer une liste d'observation en filtrant la liste de tous les objets de différentes façons. Tout d'abord, vous sélectionnerez des objets par <span style=\"font-weight:600;\">type</span>, puis seulement les objets qui occupent une <span style=\"font-weight:600;\">région spécifique dans le ciel</span>. En outre, vous pouvez réduire la liste d'observation en sélectionnant des objets dans un <span style=\"font-weight:600;\">intervalle de magnitude</span> spécifié. Enfin, vous pouvez choisir de ne conserver que les objets qui sont <span style=\"font-weight:600;\">observables à une date particulière</span>.</p>"
+"<p>Avec cet outil, vous pouvez élaborer une liste d'observations en filtrant la liste de tous les objets de différentes façons. Tout d'abord, vous sélectionnerez des objets par <span style=\"font-weight:600;\">type</span>, puis seulement les objets qui occupent une <span style=\"font-weight:600;\">région spécifique dans le ciel</span>. En outre, vous pouvez réduire la liste d'observations en sélectionnant des objets dans un <span style=\"font-weight:600;\">intervalle de magnitude</span> spécifié. Enfin, vous pouvez choisir de ne conserver que les objets qui sont <span style=\"font-weight:600;\">observables à une date particulière</span>.</p>"
 "<p></p>"
-"<p>Cliquez sur le bouton <span style=\"font-weight:600;\">Suivant</span> pour commencer par sélectionner les types d'objets que vous voulez voir présents dans votre liste d'observation.</p>"
+"<p>Cliquez sur le bouton <span style=\"font-weight:600;\">Suivant</span> pour commencer par sélectionner les types d'objets que vous voulez voir présents dans votre liste d'observations.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, ObjTypeLabel)
@@ -86341,7 +86341,7 @@ msgstr ""
 "<html><head></head><body>"
 "<p>Sélectionnez des objets par type</p>"
 "<p></p>"
-"<p>Mettez en surbrillance les types d'objets que vous voulez inclure dans votre liste d'observation dans la case ci-dessous. Vous pouvez surligner plus d'un élément dans la liste. Les boutons sur la droite peuvent être utilisés pour choisir rapidement certaines sélections communes.</p>"
+"<p>Mettez en surbrillance les types d'objets que vous voulez inclure dans votre liste d'observations dans la case ci-dessous. Vous pouvez surligner plus d'un élément dans la liste. Les boutons de droite peuvent être utilisés pour choisir rapidement certaines sélections communes.</p>"
 "<p></p>"
 "<p>Lorsque vous avez terminé, cliquez sur le bouton <span style=\"font-weight:600;\">Suivant</span>.</p>"
 " </body> </html>"
@@ -86540,7 +86540,7 @@ msgstr ""
 "<html><head></head><body>"
 "<p>Sélectionnez des objets observables à une certaine date</p>"
 "<p></p>"
-"<p>sur cette page, vous pouvez limiter votre liste d'observation aux seuls objets pouvant être observés à une certaine date (et depuis une position géographique particulière sur la Terre). Pour filtrer votre liste de cette façon, cochez la case ci-dessous puis sélectionnez la date souhaitée. Si vous laissez cette case non cochée, alors votre liste comprendra des objets, qu'ils soient ou non observables (réglage par défaut). Vous pouvez aussi changer la position géographique utilisée pour déterminer si les objets sont ou non observables.</p>"
+"<p>Sur cette page, vous pouvez limiter votre liste d'observations aux seuls objets pouvant être observés à une certaine date (et depuis une position géographique particulière sur la Terre). Pour filtrer votre liste de cette façon, cochez la case ci-dessous puis sélectionnez la date souhaitée. Si vous laissez cette case non cochée, alors votre liste comprendra des objets, qu'ils soient ou non observables (réglage par défaut). Vous pouvez aussi changer la position géographique utilisée pour déterminer si les objets sont ou non observables.</p>"
 "<p></p>"
 "<p>Lorsque vous avez terminé, cliquez sur <span style=\" font-weight:600;\">Suivant</span> pour continuer.</p>"
 "<p></p>"
@@ -86606,11 +86606,11 @@ msgstr ""
 "<p>Sélectionnez des objets brillants</p>"
 " "
 "<p></p>"
-"<p>Sur cette page, vous pouvez limiter votre liste d'observation aux seuls objets plus brillant qu'une magnitude donnée. Soyez prudent avec cette sélection, car KStars ne dispose pas d'une magnitude pour chaque objet dans sa base de données. Il faut indiquer si vous voulez ou non inclure des objets comportant une magnitude non définie.</p>"
+"<p>Sur cette page, vous pouvez limiter votre liste d'observations aux seuls objets plus brillant qu'une magnitude donnée. Soyez prudent avec cette sélection, car KStars ne dispose pas d'une magnitude pour chaque objet dans sa base de données. Il faut indiquer si vous voulez ou non inclure des objets comportant une magnitude non définie.</p>"
 "<p></p>"
 "<p>Si vous ne souhaitez pas exclure des objets faibles avec cette sélection, laissez simplement la case ci-dessous non cochée.</p>"
 "<p></p>"
-"<p>Cette page est la dernière de l'assistant de création de listes d'observation. Vous pouvez revenir en arrière et modifier les pages précédentes avec le bouton <span style=\"font-weight:600;\">Précédent</span>. Lorsque vous êtes satisfait, cliquez sur le bouton <span style=\"font-weight:600;\">Terminer</span> pour quitter l'assistant, et l'outil « Liste d'observations » sera rempli par les objets que vous avez spécifiés ici.</p>"
+"<p>Cette page est la dernière de l'assistant de création de listes d'observations. Vous pouvez revenir en arrière et modifier les pages précédentes avec le bouton <span style=\"font-weight:600;\">Précédent</span>. Lorsque vous êtes satisfait, cliquez sur le bouton <span style=\"font-weight:600;\">Terminer</span> pour quitter l'assistant, et l'outil « Liste d'observations » sera rempli par les objets que vous avez spécifiés ici.</p>"
 "<p></p>"
 "</body></html>"
 
@@ -86633,7 +86633,7 @@ msgstr "Exclure les objets n'ayant pas de magnitude définie"
 #: tools/obslistwizard.ui:1035
 #, kde-format
 msgid "Your observing list currently has 0 objects."
-msgstr "Votre liste d'observation ne contient actuellement aucun objet."
+msgstr "Votre liste d'observations ne contient actuellement aucun objet."
 
 #. i18n: ectx: property (text), widget (QPushButton, updateButton)
 #. +> trunk5
