@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.5.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-03 09:08+0200\n"
-"PO-Revision-Date: 2022-08-07 14:21+0200\n"
+"PO-Revision-Date: 2022-08-07 14:35+0200\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -5017,14 +5017,14 @@ msgstr "Az"
 #: dialogs/focusdialog.ui:164
 #, kde-format
 msgid "Altitude. Interpreted as the apparent altitude when refraction corrections are enabled."
-msgstr "Altitude. Interprétée comme l'altitude apparente quand les corrections de réfraction sont activées."
+msgstr "Hauteur. Interprétée comme l'altitude apparente quand les corrections de réfraction sont activées."
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk5
 #: dialogs/focusdialog.ui:167
 #, kde-format
 msgid "Alt (apparent):"
-msgstr "Alt (apparente)"
+msgstr "Hauteur (apparente)"
 
 #. +> trunk5
 #: dialogs/fovdialog.cpp:77
@@ -7908,7 +7908,7 @@ msgstr "La déclinaison des points qui seront générés. Cette option ne s'appl
 #: ekos/align/mountmodel.ui:133
 #, kde-format
 msgid "Minimum Alt:"
-msgstr "Élévation minimale"
+msgstr "Hauteur minimale"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, minAltBox)
 #. +> trunk5
@@ -10505,7 +10505,7 @@ msgstr "Erreur d'altitude pour l'alignement polaire, mesurée par 3 images au d�
 #: tools/modcalcplanets.ui:296
 #, kde-format
 msgid "Alt:"
-msgstr "Élévation"
+msgstr "Hauteur"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_PAHOrigErrorAz)
 #. i18n: ectx: property (toolTip), widget (QLabel, PAHOrigErrorAz)
@@ -11482,7 +11482,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Altitude du télescope (en degrés).</p>"
+"<p>Hauteur du télescope (en degrés).</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, pierSideCB)
@@ -14073,7 +14073,7 @@ msgstr "Capuchon antipoussière avec une lumière uniforme externe"
 #: ekos/capture/calibrationoptions.ui:75
 #, kde-format
 msgid "Slew mount to the specified Azimuth/Altitude coordinates before taking flat field images"
-msgstr "Pointer la monture vers les coordonnées d'azimut/élévation avant de prendre des images flat"
+msgstr "Pointer la monture vers les coordonnées d'azimut/hauteur avant de prendre des images flat"
 
 #. i18n: ectx: property (text), widget (QRadioButton, wallSourceC)
 #. +> trunk5
@@ -21761,7 +21761,7 @@ msgstr "Cible"
 #: kstarslite/qml/dialogs/DetailsDialog.qml:269 tools/altvstime.cpp:97
 #, kde-format, kde-kuit-format
 msgid "Altitude"
-msgstr "Altitude"
+msgstr "Hauteur"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, ekosOptionsB)
 #. +> trunk5
@@ -27836,7 +27836,7 @@ msgid ""
 "A rising target is indicated with an arrow going up.\n"
 "A setting target is indicated with an arrow going down."
 msgstr ""
-"Élévation actuelle de la cible de la tâche « %1 ». \n"
+"Hauteur actuelle de la cible de la tâche « %1 ». \n"
 "Une cible montante est indiquée avec une flèche vers le haut.\n"
 "Une cible de réglage est indiquée avec une flèche descendante."
 
@@ -31288,7 +31288,7 @@ msgstr "Vitesse : %1 km/s"
 #: kspopupmenu.cpp:284
 #, kde-format
 msgid "Altitude: %1 km"
-msgstr "Élévation : %1 km"
+msgstr "Altitude : %1 km"
 
 #. +> trunk5
 #: kspopupmenu.cpp:285
@@ -35639,7 +35639,7 @@ msgstr "Azimuth de l'emplacement du mur de calibration."
 #: kstars.kcfg:1716
 #, kde-format
 msgid "Altitude of calibration wall location."
-msgstr "Altitude de l'emplacement du mur de calibration."
+msgstr "Hauteur de l'emplacement du mur de calibration."
 
 #. i18n: ectx: label, entry (MaxTemperatureDiff), group (Capture)
 #. +> trunk5
@@ -71563,7 +71563,7 @@ msgstr "Planificateur d'observations"
 #: kstarsinit.cpp:425 tools/altvstime.ui:14 tools/obslistpopupmenu.cpp:56
 #, kde-format
 msgid "Altitude vs. Time"
-msgstr "Élévation selon l'heure"
+msgstr "Hauteur selon l'heure"
 
 #. +> trunk5
 #: kstarsinit.cpp:428
@@ -79442,7 +79442,7 @@ msgstr "Dessiner la grille des coordonnées horizontales ?"
 #: options/opsguides.ui:313
 #, kde-format
 msgid "If checked, a grid of lines will be drawn every 30 degrees in Azimuth and every 20 degrees in Altitude."
-msgstr "Si cette case est cochée, une grille de lignes sera dessinée tous les 30 degrés en azimut et tous les 20 degrés en élévation."
+msgstr "Si cette case est cochée, une grille de lignes sera dessinée tous les 30 degrés en azimut et tous les 20 degrés en hauteur."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowHorizontalGrid)
 #. +> trunk5
@@ -82380,7 +82380,7 @@ msgid ""
 "\t\n"
 msgstr ""
 "\t\t"
-"<p>L'outil d'élévation selon l'heure (Ctrl+A) tracera des courbes d'élévation pour n'importe quel\n"
+"<p>L'outil de hauteur selon l'heure (Ctrl+A) tracera des courbes de hauteur pour n'importe quel\n"
 "\t\t\tgroupe d'objets que vous sélectionnez. C'est un outil très performant pour planifier\n"
 "\t\t\tdes sessions d'observation.\n"
 "\t\t</p>"
@@ -83119,7 +83119,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Altitude vs. Time"
-msgstr "Élévation en fonction de l'heure"
+msgstr "Hauteur en fonction de l'heure"
 
 #. +> trunk5
 #: tools/altvstime.cpp:92
@@ -83143,7 +83143,7 @@ msgstr "Im&primer…"
 #: tools/altvstime.cpp:159
 #, kde-format
 msgid "Print the Altitude vs. time plot"
-msgstr "Imprimer le tracé de l'altitude par rapport à l'heure"
+msgstr "Imprimer le tracé de la hauteur par rapport à l'heure"
 
 #. +> trunk5
 #: tools/altvstime.cpp:579 tools/altvstime.cpp:937
@@ -83180,7 +83180,7 @@ msgstr ""
 "<td>%2</td>"
 "</tr>"
 "<tr>"
-"<td>Altitude : </td>"
+"<td>Hauteur : </td>"
 "<td>%4</td>"
 "</tr>"
 "</table>"
@@ -83218,9 +83218,9 @@ msgid ""
 msgstr ""
 "Il existe deux manières d'utiliser ce champ : \n"
 "\n"
-"1. Saisissez simplement le nom d'un objet connu et cliquez sur le bouton « Tracer » (ou appuyer sur Entrée). La courbe « Élévation selon l'heure » de l'objet sera ajoutée au graphique et ses coordonnées seront affichées au-dessous.\n"
+"1. Saisissez simplement le nom d'un objet connu et cliquez sur le bouton « Tracer » (ou appuyer sur Entrée). La courbe « Hauteur selon l'heure » de l'objet sera ajoutée au graphique et ses coordonnées seront affichées au-dessous.\n"
 "\n"
-"2. Saisissez une étiquette de nom pour un objet personnalisé. Vous devez aussi spécifier les coordonnées AD et Déc de l'objet, puis cliquez sur le bouton « Tracé » pour ajouter sa courbe au graphique."
+"2. Saisissez une étiquette de nom pour un objet personnalisé. Vous devez aussi spécifier les coordonnées AD et DEC de l'objet, puis cliquez sur le bouton « Tracer » pour ajouter sa courbe au graphique."
 
 #. i18n: ectx: property (text), widget (QPushButton, browseButton)
 #. i18n: ectx: property (text), widget (QPushButton, Obj1FindButton)
@@ -83287,7 +83287,7 @@ msgstr "    Calculer   "
 #: tools/altvstime.ui:293
 #, kde-format
 msgid "Altitude: "
-msgstr "Altitude "
+msgstr "Hauteur "
 
 #. i18n: ectx: property (text), widget (QPushButton, riseButton)
 #. +> trunk5
@@ -84303,7 +84303,7 @@ msgstr "Azimuth"
 #, kde-format
 msgctxt "Altitude"
 msgid "Alt"
-msgstr "Élévation"
+msgstr "Hauteur"
 
 #. +> trunk5
 #: tools/horizonmanager.cpp:188
@@ -84798,7 +84798,7 @@ msgstr "Résultats du calcul de l'almanach"
 #: tools/modcalcdaylength.ui:129
 #, kde-format
 msgid "Altitude at noon:"
-msgstr "Élévation à midi"
+msgstr "Hauteur à midi"
 
 #. i18n: ectx: property (text), widget (QLabel, SunSetLabel)
 #. i18n: ectx: property (text), widget (QLabel, MoonSetLabel)
@@ -84850,7 +84850,7 @@ msgstr "Azimut du coucher du soleil"
 #: tools/modcalcdaylength.ui:541
 #, kde-format
 msgid "Transit altitude:"
-msgstr "Altitude de transit"
+msgstr "Hauteur de transit"
 
 #. i18n: ectx: property (text), widget (QLabel, MoonRiseAzLabel)
 #. +> trunk5
@@ -85600,7 +85600,7 @@ msgstr "Mag"
 #: tools/observinglist.cpp:94
 #, kde-format
 msgid "Current Altitude"
-msgstr "Élévation courante"
+msgstr "Hauteur courante"
 
 #. +> trunk5
 #: tools/observinglist.cpp:98
