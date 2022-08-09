@@ -446,7 +446,7 @@ msgstr "Plusieurs filtres peuvent être appliqués pour améliorer l'image en in
 #: fitsviewer.docbook:110
 #, no-c-format
 msgid "When loading a bayered image, the viewer can automatically debayer the image if <emphasis>Auto Debayer</emphasis> is checked in the FITS Settings. The debayering operation fetches the bayer pattern (&eg; RGGB) from the FITS header. If none exists, you can alter the debayering algorithm and pattern from the <guimenu>File</guimenu> menu or by using the <keycombo>&Ctrl; <keycap>D</keycap></keycombo> shortcut."
-msgstr "Quand une image bayerisé est chargée, l'afficheur peur automatiquement la débayériser si le réglage FITS <quote>Auto débayerisation</quote> est coché. Cette opération lit le motif de Bayer (&cad; RGGB) dans l'en-tête FITS. Si aucun n'est trouvé, vous pouvez modifier l'algorithme et le motif dans le menu <guimenu>Fichier</guimenu> ou avec le raccourci <keycombo>&Ctrl; <keycap>D</keycap></keycombo>."
+msgstr "Quand une image bayerisé est chargée, l'afficheur peur automatiquement la débayériser si le réglage FITS <quote>Auto débayerisation</quote> est coché. Cette opération lit le motif de Bayer (c'est-à-dire RGGB) dans l'en-tête FITS. Si aucun n'est trouvé, vous pouvez modifier l'algorithme et le motif dans le menu <guimenu>Fichier</guimenu> ou avec le raccourci <keycombo>&Ctrl; <keycap>D</keycap></keycombo>."
 
 #. Tag: para
 #. +> trunk5

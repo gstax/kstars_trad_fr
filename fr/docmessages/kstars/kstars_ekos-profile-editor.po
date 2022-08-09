@@ -75,14 +75,14 @@ msgstr "Vous pouvez définir des profils pour votre matériel et leur mode de co
 #: ekos-profile-editor.docbook:30
 #, no-c-format
 msgid "<guilabel>Connection Mode</guilabel>: Ekos can be started either locally or remotely. Local mode is when Ekos is running in the same machine as INDI server, &ie; all the devices are connected directly to the machine. If you run INDI server on a remote machine (for example, on a Raspberry PI), you need to set the INDI server host and port."
-msgstr "<guilabel>Mode de connexion</guilabel> : Ekos peut être démarré soit en local soit à distance. Le mode en local est quand Ekos tourne sur la même machine que le serveur INDI, &cad; tous les périphériques sont connectés directement (physiquement) à la machine. Si vous exécutez le serveur INDI sur une machine distante (par exemple sur un Raspberry PI), vous devez configurer l'adresse de l'hôte du serveur INDI ainsi que son port d'écoute."
+msgstr "<guilabel>Mode de connexion</guilabel> : Ekos peut être démarré soit en local soit à distance. Le mode en local est quand Ekos tourne sur la même machine que le serveur INDI, c'est-à-dire tous les périphériques sont connectés directement (physiquement) à la machine. Si vous exécutez le serveur INDI sur une machine distante (par exemple sur un Raspberry PI), vous devez configurer l'adresse de l'hôte du serveur INDI ainsi que son port d'écoute."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-profile-editor.docbook:35
 #, no-c-format
 msgid "<guilabel>Auto Connect</guilabel>: Check this option to enable automatic connection to all your devices after INDI server is started. If unchecked, INDI devices are created but not automatically connected. This is useful when you want to make changes to the driver (&eg; change baud rate or IP address or any other settings) <emphasis>before</emphasis> you connect to it."
-msgstr "<guilabel>Connexion automatique</guilabel> : sélectionnez cette option pour activer la connexion automatique de tous vos périphériques après le démarrage du serveur INDI. Si vous ne choisissez pas cette option, les périphériques INDI seront créés mais ne seront pas automatiquement connectés. Cela est utile lorsque vous souhaitez modifier le pilote (&cad; modifier le débit en bauds, l'adresse IP ou tout autre réglage) <emphasis>avant</emphasis> la connexion."
+msgstr "<guilabel>Connexion automatique</guilabel> : sélectionnez cette option pour activer la connexion automatique de tous vos périphériques après le démarrage du serveur INDI. Si vous ne choisissez pas cette option, les périphériques INDI seront créés mais ne seront pas automatiquement connectés. Cela est utile lorsque vous souhaitez modifier le pilote (c'est-à-dire modifier le débit en bauds, l'adresse IP ou tout autre réglage) <emphasis>avant</emphasis> la connexion."
 
 #. Tag: para
 #. +> trunk5
