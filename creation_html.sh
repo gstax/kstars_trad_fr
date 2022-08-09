@@ -22,3 +22,5 @@ echo "2/3 : sed DONE"
 meinproc5 --check index.docbook
 
 echo "3/3 : Création des fichiers html DONE"
+
+echo "Fin du script"
