@@ -131,7 +131,7 @@ msgstr "<emphasis role=\"bold\">Polynomial</emphasis> : avec cet algorithme, la
 #: ekos-focus.docbook:120
 #, no-c-format
 msgid "The algorithm uses curve fitting to pinpoint the optimum focus position."
-msgstr "L'algorithme utilise une interpolation pour déterminer la position optimale de mise au point."
+msgstr "L'algorithme utilise une régression pour déterminer la position optimale de mise au point."
 
 #. Tag: para
 #. +> trunk5
@@ -159,7 +159,7 @@ msgstr "L'algorithme est lent car il nécessite deux passes pour identifier la m
 #: ekos-focus.docbook:150
 #, no-c-format
 msgid "The algorithm uses curve fitting to pinpoint the optimum focus position in pass 1, but then uses % Tolerance to try to stop as close as possible to this HFR on pass 2."
-msgstr "L'algorithme utilise une interpolation pour déterminer la position optimale de la mise au point à la première passe puis utilise un pourcentage de tolérance pour s'arrêter aussi près que possible de ce HFR à la seconde passe."
+msgstr "L'algorithme utilise une régression pour déterminer la position optimale de la mise au point à la première passe puis utilise un pourcentage de tolérance pour s'arrêter aussi près que possible de ce HFR à la seconde passe."
 
 #. Tag: para
 #. +> trunk5
@@ -194,7 +194,7 @@ msgstr "L'algorithme est rapide puisqu'il nécessite une passe pour identifier l
 #: ekos-focus.docbook:181
 #, no-c-format
 msgid "The algorithm uses more sophisticated curve fitting to pinpoint the optimum focus position."
-msgstr "L'algorithme utilise une interpolation plus sophistiquée pour identifier la position optimale de la mise au point."
+msgstr "L'algorithme utilise une régression plus sophistiquée pour identifier la position optimale de la mise au point."
 
 #. Tag: title
 #. +> trunk5
@@ -481,7 +481,7 @@ msgstr "<guilabel>Stabiliser</guilabel> : cette option est utilisée conjointem
 #: ekos-focus.docbook:476
 #, no-c-format
 msgid "<guilabel>Use Weights</guilabel>: This is an experimental option only available with the Linear 1 Pass focus algorithm and Curve Types of Hyperbola and Parabola. It requires Full Field to be selected. The option calculates the standard deviation of star HFRs and uses the square of this (mathematically the variance) as a weighting in the curve fitting process. The advantage of this is that datapoints with less reliable data and therefore larger HFR standard deviations will be given less weight than more reliable datapoints. If this option is unchecked, and for all other curve fitting where the option is not allowed, all datapoints are given equal weight in the curve fitting process."
-msgstr "<guilabel>Poids</guilabel> : cette option est encore expérimentale et n'est disponible qu'avec l'algorithme de mise au point linéaire à 1 passe et le type de courbe hyperbole et parabole. Elle nécessite l'option Champ complet. Elle calcule la déviation standard du HFR des étoiles et utilise le carré de cette valeur (la variance mathématique) comme poids pour la courbe d'interpolation. L'avantage de cette méthode est que les points moins fiables, de déviation standard du HFR plus grande, auront un poids plus petit que les points plus fiables. Si cette option n'est pas cochée, tous les points auront un poids identique dans le calcul d'interpolation."
+msgstr "<guilabel>Poids</guilabel> : cette option est encore expérimentale et n'est disponible qu'avec l'algorithme de mise au point linéaire à 1 passe et le type de courbe hyperbole et parabole. Elle nécessite l'option Champ complet. Elle calcule la déviation standard du HFR des étoiles et utilise le carré de cette valeur (la variance mathématique) comme poids pour la courbe de régression. L'avantage de cette méthode est que les points moins fiables, de déviation standard du HFR plus grande, auront un poids plus petit que les points plus fiables. Si cette option n'est pas cochée, tous les points auront un poids identique dans le calcul de régression."
 
 #. Tag: para
 #. +> trunk5
@@ -495,7 +495,7 @@ msgstr "Voir le <link linkend=\"Levenberg-Marquardt\">résolveur de Levenberg-Ma
 #: ekos-focus.docbook:493
 #, no-c-format
 msgid "<guilabel>R² Limit</guilabel>: This is an experimental option only available with the Linear 1 Pass focus algorithm and Curve Types of Hyperbola and Parabola. As part of the Linear 1 Pass algorithm, the degree to which the curve fits the datapoints, or <link linkend=\"Coefficient_of_Determination\">Coefficient of Determination, R²</link>, is calculated. This option allows a minimum acceptable value of R² to be defined that is compared to the value obtained from the curve fitting process. If the minimum value has not been achieved then Autofocus will rerun. Only one rerun will be performed and even if the minimum R² has not been met the second time, the Autofocus run will still be deemed successful."
-msgstr "<guilabel>Limite r²</guilabel> : cette option est encore expérimentale et n'est disponible qu'avec l'algorithme de mise au point linéaire à 1 passe et le type de courbe hyperbole et parabole. Faisant partie de l'algorithme linéaire à 1 passe, le degré de la courbe d'interpolation, ou <link linkend=\"Coefficient_of_Determination\">coefficient de détermination</link> est calculé. Cette option permet de définir une valeur minimale acceptable pour R² qui est comparée à la valeur obtenue par l'interpolation de la courbe. Si la valeur minimale n'a pas été atteinte, alors la procédure de mise au point automatique est relancée. Néanmoins, une seule relance du processus sera réalisée et même si le minimum de R² n'a pas été atteinte, le processus de mise au point automatique sera considérée comme étant un succès."
+msgstr "<guilabel>Limite r²</guilabel> : cette option est encore expérimentale et n'est disponible qu'avec l'algorithme de mise au point linéaire à 1 passe et le type de courbe hyperbole et parabole. Faisant partie de l'algorithme linéaire à 1 passe, le degré de la courbe de régression, ou <link linkend=\"Coefficient_of_Determination\">coefficient de détermination</link> est calculé. Cette option permet de définir une valeur minimale acceptable pour R² qui est comparée à la valeur obtenue par la régression. Si la valeur minimale n'a pas été atteinte, alors la procédure de mise au point automatique est relancée. Néanmoins, une seule relance du processus sera réalisée et même si le minimum de R² n'a pas été atteinte, le processus de mise au point automatique sera considérée comme étant un succès."
 
 #. Tag: para
 #. +> trunk5
@@ -607,28 +607,28 @@ msgstr "<emphasis role=\"bold\">Itératif</emphasis> : déplace le moteur de mi
 #: ekos-focus.docbook:603
 #, no-c-format
 msgid "<emphasis role=\"bold\">Polynomial</emphasis>: Starts with the iterative method. Upon crossing to the other side of the V-Curve, polynomial fitting coefficients along with possible minimum solution are calculated. This algorithm can be faster than a purely iterative approach given a good data set."
-msgstr "<emphasis role=\"bold\">Polynomial</emphasis> : débute avec la méthode itérative. Quand la position passe de l'autre côté de la courbe en V, une interpolation polynomiale est calculée pour déterminer la position de la solution minimale. Cet algorithme peut être plus rapide que la méthode itérative avec un bon ensemble de données."
+msgstr "<emphasis role=\"bold\">Polynomial</emphasis> : débute avec la méthode itérative. Quand la position passe de l'autre côté de la courbe en V, une régression polynomiale est calculée pour déterminer la position de la solution minimale. Cet algorithme peut être plus rapide que la méthode itérative avec un bon ensemble de données."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:611
 #, no-c-format
 msgid "<emphasis role=\"bold\">Linear</emphasis>: This algorithm builds a V-Curve with approximately <emphasis role=\"bold\">Out step Multiple</emphasis> steps on each side of the minimum. Having built the V-Curve it then fits a quadratic equation to the curve (parabolic shape) and uses this to calculate the focuser position giving the minimum HFR. Having identified the minimum it then performs a 2nd pass halving the step size, recreating the curve from the 1st pass. It attempts to stop within <emphasis role=\"bold\">Tolerance</emphasis> of the minimum HFR calculated during the 1st pass."
-msgstr "<emphasis role=\"bold\">Linéaire</emphasis> : cet algorithme construit une courbe en V avec approximativement un <emphasis role=\"bold\">multiple de pas extérieur</emphasis> de chaque côté du minimum. Une fois cette courbe en V construite, une interpolation quadratique est réalisée sur cette courbe (forme parabolique) et l'utilise pour calculer la position du moteur de mise au point, ce qui donne la valeur minimale du HFR. Une fois cette valeur minimale identifiée, une seconde passe est réalisée avec des pas divisés par deux pour recréer la courbe de la première passe. L'algorithme s'arrête une fois que la valeur est dans la <emphasis role=\"bold\">tolérance</emphasis> de la valeur minimale du HFR calculée lors de la première passe."
+msgstr "<emphasis role=\"bold\">Linéaire</emphasis> : cet algorithme construit une courbe en V avec approximativement un <emphasis role=\"bold\">multiple de pas extérieur</emphasis> de chaque côté du minimum. Une fois cette courbe en V construite, une régression quadratique est réalisée sur cette courbe (forme parabolique) et l'utilise pour calculer la position du moteur de mise au point, ce qui donne la valeur minimale du HFR. Une fois cette valeur minimale identifiée, une seconde passe est réalisée avec des pas divisés par deux pour recréer la courbe de la première passe. L'algorithme s'arrête une fois que la valeur est dans la <emphasis role=\"bold\">tolérance</emphasis> de la valeur minimale du HFR calculée lors de la première passe."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:624
 #, no-c-format
 msgid "<emphasis role=\"bold\">Linear 1 Pass</emphasis>: This algorithm starts in the same way as <emphasis role=\"bold\">Linear</emphasis> building a V-Curve. Having built the V-Curve it then fits the <emphasis role=\"bold\">Curve Fit</emphasis> type to the datapoints and then calculates the focuser position giving the minimum HFR. Having identified the minimum it then moves directly to that point in a way designed to neutralise backlash."
-msgstr "<emphasis role=\"bold\">Linéaire à 1 passe</emphasis> : cet algorithme commence comme l'algorithme <emphasis role=\"bold\">linéaire</emphasis> en construisant une courbe en V. Une fois fait, une interpolation est réalisée selon le type de <emphasis role=\"bold\">courbe</emphasis> des points de données et ensuite calcule la position du moteur de mise au point ce qui donne la valeur minimale du HFR. Cette valeur étant identifiée, le moteur se déplace directement vers ce point d'une manière qui neutralise le jeu du moteur."
+msgstr "<emphasis role=\"bold\">Linéaire à 1 passe</emphasis> : cet algorithme commence comme l'algorithme <emphasis role=\"bold\">linéaire</emphasis> en construisant une courbe en V. Une fois fait, une régression est réalisée selon le type de <emphasis role=\"bold\">courbe</emphasis> des points de données et ensuite calcule la position du moteur de mise au point ce qui donne la valeur minimale du HFR. Cette valeur étant identifiée, le moteur se déplace directement vers ce point d'une manière qui neutralise le jeu du moteur."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:633
 #, no-c-format
 msgid "This algorithm supports the older style Quadratic curve type as well as the newer <link linkend=\"Levenberg-Marquardt\">Levenberg-Marquardt Solver</link> for Hyperbolic and Parabolic curves. It will also weight the datapoints in the curve fitting process if Use Weights is checked."
-msgstr "Cet algorithme gère l'ancien type de courbe quadratique ainsi que le nouveau <link linkend=\"Levenberg-Marquardt\">résolveur Levenberg-Marquardt</link> pour les courbes hyperboliques et paraboliques. Il déterminera aussi les poids des points d'interpolation si l'option Utiliser les poids est cochée."
+msgstr "Cet algorithme gère l'ancien type de courbe quadratique ainsi que le nouveau <link linkend=\"Levenberg-Marquardt\">résolveur Levenberg-Marquardt</link> pour les courbes hyperboliques et paraboliques. Il déterminera aussi les poids des points de régression si l'option Utiliser les poids est cochée."
 
 #. Tag: para
 #. +> trunk5
@@ -684,7 +684,7 @@ msgstr "<guilabel>Nombre de lignes</guilabel> : le nombre de lignes affiché à
 #: ekos-focus.docbook:695
 #, no-c-format
 msgid "<guilabel>Curve Fit</guilabel>: The type of curve to fit to the datapoints."
-msgstr "<guilabel>Courbe d'interpolation</guilabel> : le type de courbe pour l'interpolation des points."
+msgstr "<guilabel>Courbe de régression</guilabel> : le type de courbe pour la régression des points."
 
 #. Tag: para
 #. +> trunk5
@@ -950,7 +950,7 @@ msgstr "La courbe en V affiche le HFR (axe y) en fonction de la position du mote
 #: ekos-focus.docbook:925
 #, no-c-format
 msgid "For certain algorithms, Ekos will also draw a curve of best fit through the datapoints. If <guilabel>Use Weights</guilabel> is selected then error bars are indicated on each datapoint that correspond to the standard deviation in measured HFR value."
-msgstr "Pour certains algorithmes, Ekos dessinera également une courbe d'interpolation des points. Si l'option <guilabel>Utiliser Poids</guilabel> est sélectionnée, des barres d'erreurs sont indiquées qui correspondent à la déviation standard mesurée en unité HFR."
+msgstr "Pour certains algorithmes, Ekos dessinera également une courbe de régression des points. Si l'option <guilabel>Utiliser Poids</guilabel> est sélectionnée, des barres d'erreurs sont indiquées qui correspondent à la déviation standard mesurée en unité HFR."
 
 #. Tag: para
 #. +> trunk5
@@ -1104,7 +1104,7 @@ msgstr "Assurez-vous que Anneau est sélectionné afin d'utiliser une grande qua
 #: ekos-focus.docbook:1050
 #, no-c-format
 msgid "Set the camera settings such as exposure, gain and binning such that you are getting a good number of stars. Its impossible to be prescriptive here but try for between 20 and 100 (obviously if your focal length and target can’t find that many then the process should still work but may be less optimal from a curve fitting perspective). As a suggestion start with 2 sec exposures, unity gain for your camera and 1x1 binning."
-msgstr "Réglez les paramètres de la caméra tels que durée d'exposition, gain et groupement de pixels de telle manière d'obtenir un bon nombre d'étoiles. Il est impossible d'être parfaitement précis ici mais essayez d'obtenir entre 20 et 100 étoiles (évidemment, si la longueur focale et la cible ne permettent pas d'en obtenir autant, alors la procédure fonctionnera quand même mais en étant moins optimale du point de vue de l'interpolation de la courbe). Commencez avec une durée d'exposition de 2s, un gain unitaire et un groupement de pixels de 1x1."
+msgstr "Réglez les paramètres de la caméra tels que durée d'exposition, gain et groupement de pixels de telle manière d'obtenir un bon nombre d'étoiles. Il est impossible d'être parfaitement précis ici mais essayez d'obtenir entre 20 et 100 étoiles (évidemment, si la longueur focale et la cible ne permettent pas d'en obtenir autant, alors la procédure fonctionnera quand même mais en étant moins optimale du point de vue de la régression de la courbe). Commencez avec une durée d'exposition de 2s, un gain unitaire et un groupement de pixels de 1x1."
 
 #. Tag: para
 #. +> trunk5
@@ -1202,7 +1202,7 @@ msgstr "Coefficient de détermination R²"
 #: ekos-focus.docbook:1156
 #, no-c-format
 msgid "The Coefficient of Determination, or R², is calculated in order to give a measure of how well the fitted curve matches the datapoints. More information is available <ulink url=\"https://en.wikipedia.org/wiki/Coefficient_of_determination\">here</ulink>. This is an experimental feature that is available for the Linear 1 Pass focus algorithm. In essence, R² gives a value between 0 and 1, with 1 meaning a perfect fit where all datapoints sit on the curve, and 0 meaning that there is no correlation between the datapoints and the curve. The user should experiment with their equipment to see what values they can obtain, but as a guide, a value above, say 0.8 would be a good fit."
-msgstr "Le coefficient de détermination, ou R², est un indicateur utilisé pour juger de la qualité de l'interpolation. Davantage d'information est disponible <ulink url=\"https://fr.wikipedia.org/wiki/Coefficient_de_d%C3%A9termination\">ici</ulink>. C'est encore une fonctionnalité expérimentale disponible pour l'algorithme linéaire à 1 passe. En substance, ce coefficient R² est un nombre entre 0 et 1, avec 1 signifiant que tous les points se trouvent sur la courbe et 0 signifiant qu'il n'y a pas de corrélation entre les points et la courbe. L'utilisateur devrait expérimenter avec son matériel pour sentir quelle valeur peut être obtenue, mais toute valeur au-dessus d'environ 0,8 traduit une bonne interpolation."
+msgstr "Le coefficient de détermination, ou R², est un indicateur utilisé pour juger de la qualité de la régression. Davantage d'information est disponible <ulink url=\"https://fr.wikipedia.org/wiki/Coefficient_de_d%C3%A9termination\">ici</ulink>. C'est encore une fonctionnalité expérimentale disponible pour l'algorithme linéaire à 1 passe. En substance, ce coefficient R² est un nombre entre 0 et 1, avec 1 signifiant que tous les points se trouvent sur la courbe et 0 signifiant qu'il n'y a pas de corrélation entre les points et la courbe. L'utilisateur devrait expérimenter avec son matériel pour sentir quelle valeur peut être obtenue, mais toute valeur au-dessus d'environ 0,8 traduit une bonne régression."
 
 #. Tag: para
 #. +> trunk5
