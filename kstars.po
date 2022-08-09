@@ -17243,13 +17243,13 @@ msgstr "Échec de la détection d'une étoile. Réinitialiser la trame et essaye
 #: ekos/focus/focus.cpp:2467
 #, kde-format
 msgid "Curve Fit check failed R2=%1 R2Limit=%2 retrying..."
-msgstr "Échec de l'interpolation de la courbe R2=%1 R2Limit=%2, nouvel essai…"
+msgstr "Échec de la régression de la courbe R2=%1 R2Limit=%2, nouvel essai…"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:2474
 #, kde-format
 msgid "Curve Fit check failed again R2=%1 R2Limit=%2 but continuing..."
-msgstr "L'interpolation de la courbe a échoué à nouveau R2=%1 R2Limit=%2, mais poursuite…"
+msgstr "La régression de la courbe a échoué à nouveau R2=%1 R2Limit=%2, mais poursuite…"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:2517
@@ -17783,7 +17783,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head><body>"
-"<p>Cocher cette case pour utiliser la déviation standard du HFR de l'étoile comme poids pour l'algorithme d'interpolation de la courbe. Si décochée, tous les points auront le même poids. Cette fonctionnalité est actuellement expérimentale et n'est disponible que pour l'algorithme Plein Champ (étoiles multiples) et une interpolation hyperbolique ou parabolique de l'algorithme linéaire à une passe.</p>"
+"<p>Cocher cette case pour utiliser la déviation standard du HFR de l'étoile comme poids pour l'algorithme de régression de la courbe. Si décochée, tous les points auront le même poids. Cette fonctionnalité est actuellement expérimentale et n'est disponible que pour l'algorithme Plein Champ (étoiles multiples) et une régression hyperbolique ou parabolique de l'algorithme linéaire à une passe.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, useWeights)
@@ -17815,7 +17815,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Fixer une valeur minimale acceptable pour R² lors d'une mise au point automatique. Si cette valeur n'est pas atteinte, la mise au point automatique sera relancée pour essayer d'améliorer R². Cette fonctionnalité est expérimentale et n'est disponible que pour l'algorithme linéaire à une passe à interpolation hyperbolique ou parabolique.</p>"
+"<p>Fixer une valeur minimale acceptable pour R² lors d'une mise au point automatique. Si cette valeur n'est pas atteinte, la mise au point automatique sera relancée pour essayer d'améliorer R². Cette fonctionnalité est expérimentale et n'est disponible que pour l'algorithme linéaire à une passe à régression hyperbolique ou parabolique.</p>"
 "</body></html>"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
@@ -17923,7 +17923,7 @@ msgstr ""
 "<li style=\" margin-top:12px ; margin-bottom:0px ; margin-left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">Itératif</span> : déplace le moteur de mise au point par pas discrets, selon un pas préalablement défini. Une fois que la pente de la courbe est calculée, d'autres tailles de pas sont calculées pour atteindre la solution optimale. L'algorithme s'arrête lorsque le HFR mesuré se situe dans la tolérance en pourcentage du HFR minimum enregistré dans la procédure.</li>"
 "<li style=\" margin-top:0px ; margin-bottom:0px ; margin-left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">Polynomial</span> : commence par une méthode itérative. En passant de l'autre côté de la courbe en V, les coefficients d'ajustement polynomiaux ainsi que la solution minimale possible sont calculés. Cet algorithme peut être plus rapide que l'approche purement itérative, moyennant un bon ensemble de données.</li>"
 "<li style=\" margin-top:0px ; margin-bottom:12px ; margin-left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">Linéaire</span> : les échantillons se concentrent vers l'intérieur de façon régulière, en utilisant 2 passes. L'algorithme peut être lent, mais il est plus résistant aux contrecoups. Commencez avec le moteur de mise au point positionné près de la bonne mise au point. Définissez la taille du pas initial et le déplacement maximal pour l'intervalle d'échantillonnage souhaité et la plage autour de la position de départ de la mise au point. La tolérance devrait être d'environ 5 %.</li>"
-"<li style=\"margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\"font-weight:600;\">Linéaire 1 passe</span> : commence comme <span style=\"font-weight:600;\">linéaire</span> mais après avoir terminé la première passe et plutôt que d'en faire une seconde, se déplace directement à la valeur minimale du HFR calculé. Utilise une interpolation hyperbolique ou parabolique.</li>"
+"<li style=\"margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\"font-weight:600;\">Linéaire 1 passe</span> : commence comme <span style=\"font-weight:600;\">linéaire</span> mais après avoir terminé la première passe et plutôt que d'en faire une seconde, se déplace directement à la valeur minimale du HFR calculé. Utilise une régression hyperbolique ou parabolique.</li>"
 "</ul>"
 "</body></html>"
 
@@ -18092,11 +18092,11 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Sélectionner le type de courbes d'interpolation :</p>"
+"<p>Sélectionner le type de courbes de régression :</p>"
 "<ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\">"
-"<li style=\"margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\"font-weight:600;\">Quadratique</span> : utilise un interpolation polynomiale de degrés 2. C'est l'option par défaut actuelle et actuellement la seule option pour tous les algorithmes excepté l'algorithme linéaire à 1 passe.</li>"
-"<li style=\"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\"font-weight:600;\">Hyperbolique</span> : utilise une interpolation hyperbolique. Actuellement seulement disponible pour l'algorithme linéaire à 1 passe et est expérimental.</li>"
-"<li style=\"margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\"font-weight:600;\">Parabolique</span> : utilise une interpolation parabolique. Actuellement seulement disponible pour l'algorithme linéaire à 1 passe et est expérimental.</li>"
+"<li style=\"margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\"font-weight:600;\">Quadratique</span> : utilise un régression polynomiale de degrés 2. C'est l'option par défaut actuelle et actuellement la seule option pour tous les algorithmes excepté l'algorithme linéaire à 1 passe.</li>"
+"<li style=\"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\"font-weight:600;\">Hyperbolique</span> : utilise une régression hyperbolique. Actuellement seulement disponible pour l'algorithme linéaire à 1 passe et est expérimental.</li>"
+"<li style=\"margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\"font-weight:600;\">Parabolique</span> : utilise une régression parabolique. Actuellement seulement disponible pour l'algorithme linéaire à 1 passe et est expérimental.</li>"
 "</ul>"
 "</body></html>"
 
@@ -18126,7 +18126,7 @@ msgstr "Parabole"
 #: ekos/focus/focus.ui:1570
 #, kde-format
 msgid "Curve Fit:"
-msgstr "Courbe d'interpolation"
+msgstr "Courbe de régression"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #. +> trunk5
@@ -36093,14 +36093,14 @@ msgstr "Type de courbe"
 #: kstars.kcfg:1959
 #, kde-format
 msgid "Use weights in the curve fitting process."
-msgstr "Utiliser des poids dans le processus d'interpolation de courbe."
+msgstr "Utiliser des poids dans le calcul de régression."
 
 #. i18n: ectx: label, entry (FocusR2Limit), group (Focus)
 #. +> trunk5
 #: kstars.kcfg:1963
 #, kde-format
 msgid "Acceptable limit on R2 from curve fit."
-msgstr "Limite acceptable pour R2 depuis la courbe d'interpolation."
+msgstr "Limite acceptable pour R2 depuis la courbe de régression."
 
 #. i18n: ectx: label, entry (FocusSextractorType), group (StellarSolver)
 #. +> trunk5
