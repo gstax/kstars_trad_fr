@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.6.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-03 09:08+0200\n"
-"PO-Revision-Date: 2022-08-07 21:03+0200\n"
+"PO-Revision-Date: 2022-08-14 17:23+0200\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -7403,7 +7403,7 @@ msgstr "Filtre"
 #: ekos/align/align.ui:623 ekos/focus/focus.ui:674 ekos/guide/guide.ui:449
 #, kde-format
 msgid "Bin:"
-msgstr "Groupement"
+msgstr "Regroupement"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_6)
 #. i18n: ectx: property (text), widget (QLabel, label_7)
@@ -7483,7 +7483,7 @@ msgstr "Résultats de la solution"
 #: ekos/align/align.ui:835
 #, kde-format
 msgid "The results from Astrometric Solutions from the Capture and Solve Tool, the Load and Slew Tool, and the Mount Model Tool will be displayed below."
-msgstr "Les résultats des solutions d'astrométrie des outils « Acquisition & résolution », « Charger & Pointer » et « Alignement n étoiles » seront affichés ci-dessous."
+msgstr "Les résultats des solutions d'astrométrie des outils « Acquisition & résolution », « Charger & Pointer » et « Modélisation de la monture » seront affichés ci-dessous."
 
 #. i18n: ectx: property (text), widget (QTableWidget, solutionTable)
 #. i18n: ectx: property (text), widget (QLabel, label_15)
@@ -7563,14 +7563,14 @@ msgstr "Ajuster automatiquement l'échelle et centrer le graphique des résultat
 #: ekos/align/align.ui:1010
 #, kde-format
 msgid "Launch the mount model tool. This tool enables you to create pre-programmed list of points to go to and solve. It can aid in building a pointing model for better accuracy."
-msgstr "Lancer l'alignement n étoiles. Cet outil autorise la création de liste préprogrammée de points à atteindre et à résoudre. Il peut aider à la construction d'un modèle de pointage pour une meilleure précision."
+msgstr "Lancer l'outil de modélisation de la monture. Cet outil autorise la création de liste préprogrammée de points à atteindre et à résoudre. Il peut aider à la construction d'un modèle de pointage pour une meilleure précision."
 
 #. i18n: ectx: property (text), widget (QPushButton, mountModelB)
 #. +> trunk5
 #: ekos/align/align.ui:1013
 #, kde-format
 msgid "Mount Model"
-msgstr "Alignement n étoiles"
+msgstr "Modèle de monture"
 
 #. +> trunk5
 #: ekos/align/alignview.cpp:121 fitsviewer/fitsview.cpp:1519
@@ -7748,19 +7748,19 @@ msgstr "Veuillez vérifier les points d'alignement."
 #: ekos/align/mountmodel.cpp:1008
 #, kde-format
 msgid "In the Align Module, \"Nothing\" is Selected for the Solver Action.  This means that the mount model tool will not sync/align your mount but will only report the pointing model errors.  Do you wish to continue?"
-msgstr "Dans le module Alignement, l'option Rien est sélectionné pour les activités du résolveur. Cela signifie que l'outil d'alignement n étoiles ne fera ni synchronisation ni alignement mais ne fera que présenter les erreurs du modèle de pointage. Voulez-vous continuer ?"
+msgstr "Dans le module Alignement, l'option Rien est sélectionné pour les activités du résolveur. Cela signifie que l'outil de modélisation de monture ne fera ni synchronisation ni alignement mais ne fera que présenter les erreurs du modèle de pointage. Voulez-vous continuer ?"
 
 #. +> trunk5
 #: ekos/align/mountmodel.cpp:1011
 #, kde-format
 msgid "Pointing Model Report Only?"
-msgstr "Uniquement un rapport d'Alignement n étoiles ?"
+msgstr "Uniquement un rapport de modélisation de pointage ?"
 
 #. +> trunk5
 #: ekos/align/mountmodel.cpp:1028
 #, kde-format
 msgid "The Mount Model Tool is Starting."
-msgstr "L'outil de modélisation du ciel est démarré."
+msgstr "L'outil de modélisation de la monture est démarré."
 
 #. +> trunk5
 #: ekos/align/mountmodel.cpp:1037
@@ -7772,7 +7772,7 @@ msgstr "L'outil de modélisation de la monture est en pause."
 #: ekos/align/mountmodel.cpp:1096
 #, kde-format
 msgid "The Mount Model Tool is Finished."
-msgstr "L'outil de modélisation du ciel a terminé."
+msgstr "L'outil de modélisation de la monture a terminé."
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, mountModel)
 #. i18n: ectx: property (windowTitle), widget (QDialog, OpsAstrometryIndexFiles)
@@ -7787,14 +7787,14 @@ msgstr "Dialogue"
 #: ekos/align/mountmodel.ui:35
 #, kde-format
 msgid "<p>This tool can help your mount build a better pointing model by moving the mount to different points in the sky and solving captured images. This can increase the accuracy of your GOTOs. To qualify, your mount must be capable of improving its internal pointing model after each <b>Sync</b>  commanded by Ekos. If this is not the case, then this tool is not suitable for your mount.</p>"
-msgstr "<p>Cet outil peut vous aider à définir un meilleur pointage pour votre monture en déplaçant celle-ci en différents points du ciel et en résolvant les images acquises. Cela peut accroître la précision de vos pointages. Pour être applicable, votre monture doit être capable d'améliorer son modèle de pointage interne, après chaque <b>Synchronisation</b> demandée par Ekos. Si ceci n'est pas le cas, alors, cet outil n'est pas adapté à votre monture.</p>"
+msgstr "<p>Cet outil peut aider votre monture à construire un meilleur modèle de pointage en la déplaçant en différents points du ciel et en résolvant les images acquises. Cela peut accroître la précision de vos pointages.<br/>Pour être applicable, votre monture doit être capable d'améliorer son modèle de pointage interne, après chaque <b>synchronisation</b> demandée par Ekos. Si cela n'est pas le cas, alors cet outil n'est pas adapté à votre monture.</p>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #. +> trunk5
 #: ekos/align/mountmodel.ui:48
 #, kde-format
 msgid "Mount Model Wizard"
-msgstr "Assistant d'alignement n étoiles"
+msgstr "Assistant de modèle de pointage de la monture"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. +> trunk5
@@ -8025,14 +8025,14 @@ msgstr "Ouvrir la boîte de dialogue Trouver un objet afin que vous puissiez tro
 #: ekos/align/mountmodel.ui:419
 #, kde-format
 msgid "Sort the alignment points, starting with the point closest to the current telescope position, to try to minimize the distance between each slew."
-msgstr "Trier les points d'alignement, démarrant avec le point le plus près de la position actuelle du télescope pour tenter de réduire la distance entre chaque pointage."
+msgstr "Trier les points d'alignement, en démarrant avec le point le plus près de la position actuelle du télescope pour tenter de réduire la distance entre chaque pointage."
 
 #. i18n: ectx: property (toolTip), widget (QTableWidget, alignTable)
 #. +> trunk5
 #: ekos/align/mountmodel.ui:444
 #, kde-format
 msgid "This is a table of alignment points that you would like the mount model routine to use in aligning your telescope.  If you would like to add or remove points, you may use the buttons above.  If you would like to run, pause, or stop the mount model routine, you may use the buttons below.  You can directly edit an RA or DE for a particular point directly in the cells.  Just be sure to follow the format hh:mm:ss. The object name is just provided for convenience and is not used.  If you want to change the order of the alignment points, you can drag the row up or down using the vertical header for that row on the left."
-msgstr "Ceci est une table de points d'alignement que vous aimeriez utiliser durant la procédure d'alignement n étoiles, pour l'alignement du télescope. Si vous voulez ajouter ou supprimer des points, vous devriez utiliser les boutons ci-dessus. Si vous voulez lancer l'exécution ou la mise en pause ou l'arrêt de la procédure d'alignement n étoiles, vous devrez utiliser les boutons ci-dessous. Vous pouvez modifier une AD ou une DEC pour un point particulier directement dans les cellules. Veuillez vous assurer de saisir un format hh:mm:ss. Le nom de l'objet n'est fourni que pour le confort et n'est pas utilisé. Si vous voulez modifier l'ordre des point d'alignements, vous pouvez faire glisser la colonne vers le haut ou le bas en utilisant l'en-tête verticale de cette colonne sur la gauche."
+msgstr "Ceci est une table de points d'alignement que vous aimeriez utiliser durant la procédure de modélisation du guidage de la monture pour l'alignement du télescope. Si vous voulez ajouter ou supprimer des points, vous devriez utiliser les boutons ci-dessus. Si vous voulez lancer l'exécution ou la mise en pause ou l'arrêt de la procédure, vous devrez utiliser les boutons ci-dessous. Vous pouvez modifier une AD ou une DEC pour un point particulier directement dans les cellules. Veuillez vous assurer d'utiliser le format hh:mm:ss. Le nom de l'objet n'est fourni que pour le confort et n'est pas utilisé. Si vous voulez modifier l'ordre des point d'alignements, vous pouvez faire glisser la colonne vers le haut ou le bas en utilisant l'en-tête verticale de cette colonne sur la gauche."
 
 #. i18n: ectx: property (text), widget (QTableWidget, alignTable)
 #. +> trunk5
@@ -8074,14 +8074,14 @@ msgstr "Afficher les points d'alignement sur une carte du ciel comme des étique
 #: ekos/align/mountmodel.ui:570
 #, kde-format
 msgid "Start or pause the mount model routine.  It will slew to and astrometrically solve the list of points in the table above using the settings in the align module.  If the routine was previously paused, it will pick up where it left off.  If it was stopped or it had finished it will start the routine over again."
-msgstr "Démarrer ou mettre en pause la procédure d'alignement n étoiles. Il fera pointer et résoudre astrométriquement la liste des points dans la table ci-dessus en utilisant ces paramètres dans le module d'alignement. Si la procédure avait été mise en pause antérieurement, elle reprendra à son point d'arrêt. Si elle a été arrêtée ou terminée, elle sera redémarrée."
+msgstr "Démarrer ou mettre en pause la procédure de modélisation de la monture. Il fera pointer et résoudre astrométriquement la liste des points dans la table ci-dessus en utilisant ces paramètres dans le module d'alignement. Si la procédure avait été mise en pause antérieurement, elle reprendra à son point d'arrêt. Si elle a été arrêtée ou terminée, elle sera redémarrée."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, stopAlignB)
 #. +> trunk5
 #: ekos/align/mountmodel.ui:592
 #, kde-format
 msgid "<p>Stop the mount model routine.  It will <b>not</b> clear any points from your telescope's pointing model.  It will stop the routine and any points currently being solved. If you run the mount model again after hitting stop, it will start the routine over again with the first point.</p>"
-msgstr "<p> Arrêter la procédure d'alignement n étoiles. Cela <b>n'effacera</b> aucun point du modèle de pointage de votre télescope. La procédure sera arrêtée et tous les points seront résolus. Si vous relancez la procédure une nouvelle fois après l'avoir stoppée, la procédure repartira à partir du premier point."
+msgstr "<p> Arrêter la procédure. Cela <b>n'effacera</b> aucun point du modèle de pointage de votre télescope. La procédure sera arrêtée et tous les points seront résolus. Si vous relancez la procédure une nouvelle fois après l'avoir stoppée, la procédure repartira à partir du premier point."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
 #. +> trunk5
@@ -8179,7 +8179,7 @@ msgstr "Méthode de résolution"
 #: ekos/align/opsalign.ui:160
 #, kde-format
 msgid "Options Profile:"
-msgstr "Options du profil :"
+msgstr "Options du profil"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, kcfg_SolveOptionsProfile)
 #. +> trunk5
@@ -8838,7 +8838,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p><span style=\" font-weight:600;\">Offline</span> astrometry.net a besoin de fichiers d'index afin de résoudre l'image. Voir le site Astrometry.net <a href=\"http://astrometry.net/doc/readme.html\"><span style=\" text-decoration: underline; color:#0000ff;\">README</span></a> pour les détails. La liste suivante décrit les fichiers d'index nécessaires, ainsi que ceux recommandés, à installer pour couvrir le FOV de l'imageur. Une fois installés, les index correspondants sont cochés. Une icône en face de chaque index indique l'état suivant :</p>"
+"<p><span style=\" font-weight:600;\">Offline</span> astrometry.net a besoin de fichiers d'index afin de résoudre l'image. Voir le site Astrometry.net <a href=\"http://astrometry.net/doc/readme.html\"><span style=\" text-decoration: underline; color:#0000ff;\">README</span></a> pour les détails. La liste suivante décrit les fichiers d'index nécessaires, ainsi que ceux recommandés, à installer pour couvrir le CdV de l'imageur. Une fois installés, les index correspondants sont cochés. Une icône en face de chaque index indique l'état suivant :</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, required_legend)
@@ -9871,7 +9871,7 @@ msgstr "Programme Sextractor local"
 #: ekos/align/opsprograms.ui:69
 #, kde-format
 msgid "sextractor binary:"
-msgstr "Exécutable de sextractor :"
+msgstr "Exécutable de sextractor"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_SextractorBinary)
 #. +> trunk5
@@ -11881,14 +11881,14 @@ msgstr "Défauts"
 #: ekos/capture/captureprocessoverlay.ui:433
 #, kde-format
 msgid "Binning:"
-msgstr "Groupement de pixels"
+msgstr "Regroupement de pixels"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk5
 #: ekos/auxiliary/darklibrary.ui:181
 #, kde-format
 msgid "Exp. Range:"
-msgstr "Plage Exp."
+msgstr "Plage d'exposition"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, combinAlgorithmCombo)
 #. +> trunk5
@@ -12279,7 +12279,7 @@ msgstr "Double clic pour charger le dark"
 #: ekos/auxiliary/darkprocessor.cpp:261 ekos/auxiliary/darkprocessor.cpp:269
 #, kde-format
 msgid "No suitable dark frames or defect maps found. Please run the Dark Library wizard in Capture module."
-msgstr "Aucun dark valide ou carte de défaut trouvé. Veuillez lancer l'assistant pour Bibliothèque Dark dans le module Capture."
+msgstr "Aucun dark valide ou carte de défaut trouvé. Veuillez lancer l'assistant pour Bibliothèque Dark dans le module d'acquisition."
 
 #. i18n: ectx: property (text), widget (QCheckBox, fileFilterS)
 #. i18n: ectx: property (text), widget (QTableWidget, queueTable)
@@ -13666,7 +13666,7 @@ msgstr "2.0"
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:668
 #, kde-format
 msgid "Star Filtering Parameters (Make these settings 0 to disable them)"
-msgstr "Paramètres de filtrage des étoiles (saisir la valeur 0 pour ces paramètres pour les désactiver)"
+msgstr "Paramètres de filtrage des étoiles (saisir la valeur 0 pour désactiver ces paramètres)"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, maxEllipse)
 #. +> trunk5
@@ -14433,7 +14433,7 @@ msgstr "Impossible de définir une trame."
 #: ekos/capture/capture.cpp:2629
 #, kde-format
 msgid "Failed to set binning."
-msgstr "Impossible de définir un groupement de pixels (binning)."
+msgstr "Impossible de définir un regroupement de pixels (binning)."
 
 #. +> trunk5
 #: ekos/capture/capture.cpp:2775 ekos/capture/capture.cpp:2843
@@ -15084,7 +15084,7 @@ msgstr "Décalage"
 #: ekos/capture/capture.ui:110
 #, kde-format
 msgid "Horizontal and Vertical binning"
-msgstr "Groupement (binning) vertical et horizontal"
+msgstr "Regroupement (binning) vertical et horizontal"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, filterEditB)
 #. +> trunk5
@@ -15224,7 +15224,7 @@ msgstr "O"
 #: ekos/capture/capture.ui:672
 #, kde-format
 msgid "Horizontal binning"
-msgstr "Groupement horizontal"
+msgstr "Regroupement horizontal"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_11)
 #. +> trunk5
@@ -15238,7 +15238,7 @@ msgstr "V"
 #: ekos/capture/capture.ui:707
 #, kde-format
 msgid "Vertical binning"
-msgstr "Groupement vertical"
+msgstr "Regroupement vertical"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, calibrationB)
 #. +> trunk5
@@ -17456,7 +17456,7 @@ msgstr "Position courante et absolue du moteur de mise au point"
 #: ekos/scheduler/scheduler.ui:350
 #, kde-format
 msgid "Steps:"
-msgstr "Étapes"
+msgstr "Positions"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, stopGotoB)
 #. +> trunk5
@@ -21642,7 +21642,7 @@ msgstr "Réactivation du débogage de connexion pour %1…"
 #: ekos/manager.cpp:2940
 #, kde-format
 msgid "Re-disabling debug logging for %1..."
-msgstr "Nouvelle désactivation de la journalisation de débogage pour %1…"
+msgstr "Désactivation de la journalisation de débogage pour %1…"
 
 #. i18n: ectx: property (title), widget (QGroupBox, profileGroup)
 #. +> trunk5
@@ -23526,7 +23526,7 @@ msgstr "Vérifier la position de l'image chaque"
 #: ekos/opsekos.ui:447
 #, kde-format
 msgid "Reset mount model before starting each job"
-msgstr "Réinitialiser l'alignement n étoiles avant le démarrage de chaque tâche"
+msgstr "Réinitialiser le modèle de monture avant le démarrage de chaque tâche"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_8)
 #. i18n: ectx: label, entry (AlignCheckThreshold), group (Scheduler)
@@ -23548,7 +23548,7 @@ msgstr "Réinitialiser la file d'attente si le delta d’images vérifiées dép
 #: ekos/opsekos.ui:471
 #, kde-format
 msgid "Reset mount model on alignment failure"
-msgstr "Réinitialiser l'alignement n étoiles suite à un échec d'alignement"
+msgstr "Réinitialiser le modèle de monture suite à un échec d'alignement"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_RealignAfterCalibrationFailure)
 #. +> trunk5
@@ -23673,7 +23673,7 @@ msgstr "Aperçu de l'écran de résumé"
 #: ekos/opsekos.ui:696
 #, kde-format
 msgid "DSLR"
-msgstr "APN"
+msgstr "Appareil photo numérique (APN)"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ForceDSLRPresets)
 #. +> trunk5
@@ -25797,7 +25797,7 @@ msgstr ""
 "<p>• Le paramètre &quot;Superposition&quot; contrôle la façon dont les tuiles sont chevauchées, son effet peut être vu avec la transparence. Les tuiles sont ensuite distribuées sous forme de grille à partir du paramètre &quot;Grille des tuiles&quot;. Elles sont rendues avec un vert transparent et correspondent au champ de la caméra à partir du paramètre &quot;Champ de vision de la caméra&quot;.</p>"
 " "
 "<p>• L'extension du champ de mosaïque correspond au paramètre « Champ de vision de la mosaïque » et est rendue avec un arrière-plan rouge pour vous aider à remplir les trous en ajustant le chevauchement.</p>"
-"<p>• Les options de tâches permettent d’exécuter l’alignement de la monture ou le réglage de la mise au point, en une fois à partir de plusieurs itérations seulement. Ceci vérifie ou ne vérifie pas les étapes de tâches de l'ordonnanceur. Vous pouvez les laisser à zéro si vous utilisez un alignement n étoiles dans « Alignement » ou configurer une nouvelle mise au point périodique dans « Acquisition »."
+"<p>• Les options de tâches permettent d’exécuter l’alignement de la monture ou le réglage de la mise au point, en une fois à partir de plusieurs itérations seulement. Ceci vérifie ou ne vérifie pas les étapes de tâches de l'ordonnanceur. Vous pouvez les laisser à zéro si vous utilisez un modèle de monture dans « Alignement » ou configurer une nouvelle mise au point périodique dans « Acquisition »."
 "<p>• Les chiffres en haut à droite dans les tuiles indiquent l’ordre dans lequel les tâches de l'ordonnanceur seront créées. L'acquisition des cibles est d’abord effectuée, d’ouest en est. Les numéros au centre indiquent les coordonnées de la cible de la tâche étant générée pour chaque tuile. Les nombres en bas indiquent l’angle de déplacement des tuiles par rapport au centre de la mosaïque.</p>"
 "<p>L’ordre d’action suggéré est le suivant :</p>"
 "<p>1. Charger ou saisir les informations relatives à l’équipement.<br/>"
@@ -29011,7 +29011,7 @@ msgstr "Échantillonnage adaptatif"
 #: fitsviewer/opsfits.ui:166 fitsviewer/opsfits.ui:176 kstars.kcfg:1768
 #, kde-format
 msgid "Set the coarseness of the preview shown when sliding the fitsviewer's stretch parameter sliders. 1 is full resolution, but can be slow, 4 would be coarse resolution and fast."
-msgstr "Définit la grossièreté de l’aperçu affiché lors du glissement des curseurs de paramètres d’étirement de l'afficheur FITS. Une valeur de 1 correspond à une pleine résolution, mais peut conduire à du ralentissement, une valeur de 4 correspond à une résolution grossière mais rapide."
+msgstr "Définir la grossièreté de l’aperçu affiché lors du glissement des curseurs de paramètres d’étirement de l'afficheur FITS. Une valeur de 1 correspond à une pleine résolution, mais peut conduire à du ralentissement, une valeur de 4 correspond à une résolution grossière mais rapide."
 
 #. i18n: ectx: property (text), widget (QLabel, stretchPreviewSamplingLabel)
 #. +> trunk5
@@ -35924,7 +35924,7 @@ msgstr "Définir la taille de la boîte pour choisir une étoile pour la mise au
 #: kstars.kcfg:1875
 #, kde-format
 msgid "Default CCD X binning in focus mode"
-msgstr "Taille en x du groupement de pixels du CCD par défaut en mode mise au point"
+msgstr "Taille en x du regroupement de pixels du CCD par défaut en mode mise au point"
 
 #. i18n: ectx: whatsthis, entry (FocusXBin), group (Focus)
 #. +> trunk5
@@ -35938,7 +35938,7 @@ msgstr "Positionner le binning horizontal de la caméra CCD en mode mise au poin
 #: kstars.kcfg:1880
 #, kde-format
 msgid "Default CCD Y binning in focus mode"
-msgstr "Taille en y du groupement de pixels du CCD par défaut en mode mise au point"
+msgstr "Taille en y du regroupement de pixels du CCD par défaut en mode mise au point"
 
 #. i18n: ectx: whatsthis, entry (FocusYBin), group (Focus)
 #. +> trunk5
@@ -36239,14 +36239,14 @@ msgstr "Spécifie le temps de pose de la caméra CCD en secondes quand on fait d
 #: kstars.kcfg:2039
 #, kde-format
 msgid "Default CCD binning index while in alignment mode"
-msgstr "L'indice de groupement de pixels CCD par défaut en mode alignement"
+msgstr "L'indice de regroupement de pixels CCD par défaut en mode alignement"
 
 #. i18n: ectx: whatsthis, entry (SolverBinningIndex), group (Align)
 #. +> trunk5
 #: kstars.kcfg:2040
 #, kde-format
 msgid "Set binning index of CCD camera while in alignment mode. Default values 0-3 corresponding to 1x1 to 4x4 binning. 4 is max binning."
-msgstr "Définir l’indice de groupement de pixels de la caméra CCD en mode d’alignement. Les valeurs par défaut 0 - 3  correspondent à un groupement de 1 x 1 à 4 x 4. Le groupement maximal est de 4."
+msgstr "Définir l’indice de regroupement de pixels de la caméra CCD en mode d’alignement. Les valeurs par défaut 0 - 3  correspondent à un regroupement de 1 x 1 à 4 x 4. Le regroupement maximal est de 4."
 
 #. i18n: ectx: label, entry (SolverCameraGain), group (Align)
 #. +> trunk5
@@ -78675,7 +78675,7 @@ msgstr "Surveillance du ciel numérisé de Sloan (SDSS)"
 #: options/opsadvanced.ui:945
 #, kde-format
 msgid "While sorting by percentage altitude, demote objects present in the Dobsonian hole"
-msgstr "Durant le tri par pourcentage d'élévation, dégrader les objets présents dans le troue de Dobson."
+msgstr "Durant le tri par pourcentage d'élévation, dégrader les objets présents dans le trou de Dobson."
 
 #. i18n: ectx: property (text), widget (QLabel, holeSizeLabel)
 #. +> trunk5
@@ -80147,7 +80147,7 @@ msgstr "Options d'accélération"
 #: options/opsterrain.ui:228 options/opsterrain.ui:238
 #, kde-format
 msgid "Set the coarseness of the terrain image rendered. 1 is full resolution, but can be slow, 6 or more would be coarse resolution and fast."
-msgstr "Défini la grossièreté de l’image de terrain rendue. Une valeur de 1 correspond à une pleine résolution, mais peut conduire à du ralentissement, une valeur de 6 ou plus correspond à une résolution grossière mais rapide."
+msgstr "Définir la grossièreté de l’image de terrain rendue. Une valeur de 1 correspond à une pleine résolution, mais peut conduire à du ralentissement, une valeur de 6 ou plus correspond à une résolution grossière mais rapide."
 
 #. i18n: ectx: property (text), widget (QLabel, terrainDownsamplingLabel)
 #. +> trunk5
