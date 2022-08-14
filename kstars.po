@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.6.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-03 09:08+0200\n"
-"PO-Revision-Date: 2022-08-14 17:28+0200\n"
+"PO-Revision-Date: 2022-08-14 17:36+0200\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -87872,7 +87872,7 @@ msgstr "Détails du télescope"
 #: tools/whatsinteresting/wiequipsettings.ui:90
 #, kde-format
 msgid "Vendor: "
-msgstr "Fabricant :"
+msgstr "Fabricant"
 
 #. i18n: ectx: property (text), widget (QLabel, vendorText)
 #. i18n: ectx: property (text), widget (QLabel, modelText)
@@ -87883,7 +87883,7 @@ msgstr "Fabricant :"
 #: tools/whatsinteresting/wiequipsettings.ui:128
 #, kde-format
 msgid "--        "
-msgstr "--\t "
+msgstr "--        "
 
 #. i18n: ectx: property (text), widget (QPushButton, saveNewScopeButton)
 #. +> trunk5
@@ -87904,7 +87904,7 @@ msgstr "Binoculaires"
 #: tools/whatsinteresting/wiequipsettings.ui:199
 #, kde-format
 msgid "Specify aperture:"
-msgstr "Spécifier l'ouverture :"
+msgstr "Spécifier l'ouverture"
 
 #. i18n: ectx: property (text), widget (QLabel, lpText)
 #. +> trunk5
