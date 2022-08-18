@@ -9,6 +9,10 @@ But: une interface professionnelle, francisée et épurée.
 
 Le fichier source se trouve à l'adresse http://websvn.kde.org/*checkout*/trunk/l10n-kf5/fr/messages/kstars/kstars.po
 
+Si on tombe sur un timeout (souvent), utiliser
+
+https://websvn.kde.org/*checkout*/trunk/l10n-support/fr/summit/messages/kstars/kstars.po
+
 ### Fichiers po de la documentation
 https://websvn.kde.org/trunk/l10n-support/fr/summit/docmessages/kstars/?sortby=date#dirlist
 
