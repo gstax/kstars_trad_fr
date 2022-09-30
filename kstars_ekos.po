@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos_3.6.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-22 10:31+0200\n"
+"POT-Creation-Date: 2022-09-30 09:03+0200\n"
 "PO-Revision-Date: 2022-06-01 07:04+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -59,8 +59,9 @@ msgstr "Fonctionnalités :"
 #. Tag: para
 #. +> trunk5
 #: ekos.docbook:19
-#, no-c-format
-msgid "Control your telescope, CCD (&amp; DSLRs), filter wheel, focuser, guider, adaptive optics unit, and any INDI-compatible auxiliary device from Ekos."
+#, fuzzy, no-c-format
+#| msgid "Control your telescope, CCD (&amp; DSLRs), filter wheel, focuser, guider, adaptive optics unit, and any INDI-compatible auxiliary device from Ekos."
+msgid "Control your telescope, Camera (&amp; DSLRs), filter wheel, focuser, guider, adaptive optics unit, and any INDI-compatible auxiliary device from Ekos."
 msgstr "Contrôle de télescope, de CDD (&amp; APN), de roue à filtres, de moteur de mise au point, de guide, de périphérique d'optique adaptative et de tout périphérique compatible avec le protocole INDI (Instrument Neutral Distributed Interface) directement depuis Ekos."
 
 #. Tag: para
