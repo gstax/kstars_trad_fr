@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.6.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-09-02 08:19+0200\n"
-"PO-Revision-Date: 2022-09-14 08:22+0200\n"
+"PO-Revision-Date: 2022-09-22 22:08+0200\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -7030,7 +7030,7 @@ msgstr "Contrôle du résolveur"
 #: ekos/align/align.ui:72
 #, kde-format
 msgid "Capture && Solve"
-msgstr "Acquisition && Résolution"
+msgstr "Acquérir && Résoudre"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, loadSlewB)
 #. +> trunk5
@@ -7456,7 +7456,7 @@ msgstr "Résultats de la solution"
 #: ekos/align/align.ui:876
 #, kde-format
 msgid "The results from Astrometric Solutions from the Capture and Solve Tool, the Load and Slew Tool, and the Mount Model Tool will be displayed below."
-msgstr "Les résultats des solutions d'astrométrie des outils « Acquisition & résolution », « Charger & Pointer » et « Modélisation de la monture » seront affichés ci-dessous."
+msgstr "Les résultats des solutions d'astrométrie des outils « Acquérir & résoudre », « Charger & Pointer » et « Modélisation de la monture » seront affichés ci-dessous."
 
 #. i18n: ectx: property (text), widget (QTableWidget, solutionTable)
 #. i18n: ectx: property (text), widget (QLabel, label_15)
@@ -15873,7 +15873,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Temps restant pour terminer la séquence active d'acquisition.</p>"
+"<p>Temps restant pour terminer la séquence active d'acquisition</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, gr_frameLabel)
@@ -15895,7 +15895,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Images acquises dans la séquence active.</p>"
+"<p>Images acquises dans la séquence active</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QRoundProgressBar, gr_overallProgressBar)
@@ -15908,7 +15908,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Pourcentage du total des images acquises.</p>"
+"<p>Pourcentage du total des images acquises</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, switchToTextButton)
@@ -21428,7 +21428,7 @@ msgstr "Le filtre %1 est connecté."
 #: ekos/manager.cpp:1568
 #, kde-format
 msgid "%1 focuser is online."
-msgstr "Le moteur de mise au point %1 est connecté."
+msgstr "Le moteur de mise au point pour le %1 est connecté."
 
 #. +> trunk5
 #: ekos/manager.cpp:1577
