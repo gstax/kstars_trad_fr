@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.6.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-18 10:29+0100\n"
-"PO-Revision-Date: 2022-11-20 13:49+0100\n"
+"PO-Revision-Date: 2022-11-20 20:58+0100\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -1591,13 +1591,13 @@ msgstr "Réinitialise l'animation à des pas de temps de 0, à partir de l'heure
 #. +> trunk5
 #: auxiliary/xplanetimageviewer.cpp:542
 #, kde-format
-msgid "Xplanet binary path is empty in config panel."
+msgid "XPlanet binary path is empty in config panel."
 msgstr "Le dossier de l'exécutable XPlanet est vide dans le panneau de configuration."
 
 #. +> trunk5
 #: auxiliary/xplanetimageviewer.cpp:550
 #, kde-format
-msgid "The configured Xplanet binary does not exist or is not executable."
+msgid "The configured XPlanet binary does not exist or is not executable."
 msgstr "L'exécutable XPlanet configuré n'existe pas ou est non exécutable."
 
 #. +> trunk5
@@ -1776,7 +1776,7 @@ msgstr ""
 #: catalogsdb/catalogsdb.cpp:818
 #, kde-format
 msgid "Invalid catalog file."
-msgstr "Fichier de catalogue non valide."
+msgstr "Fichier de catalogue non valable."
 
 #. +> trunk5
 #: catalogsdb/catalogsdb.cpp:825
@@ -2183,7 +2183,7 @@ msgstr "DEPARQUER"
 #: data/qml/mount/mountbox.qml:958 fitsviewer/fitsdebayer.ui:123
 #, kde-format, kde-kuit-format
 msgid "Status:"
-msgstr "Statut"
+msgstr "État"
 
 #. i18n: ectx: property (text), widget (QLabel, idlingStateLabel)
 #. i18n: ectx: property (text), widget (QLabel, guideStatus)
@@ -2821,7 +2821,7 @@ msgstr ""
 #: tools/scriptbuilder.cpp:928
 #, kde-format
 msgid "Invalid URL"
-msgstr "URL invalide"
+msgstr "URL non valable"
 
 #. +> trunk5
 #: dialogs/addlinkdialog.cpp:61
@@ -6935,7 +6935,7 @@ msgstr "Mise au point automatique après modification de filtre…"
 #: ekos/align/align.cpp:3490
 #, kde-format
 msgid "Invalid FOV."
-msgstr "Champ de vision invalide."
+msgstr "Champ de vision non valable"
 
 #. +> trunk5
 #: ekos/align/align.cpp:3625
@@ -6953,7 +6953,7 @@ msgstr "Exporter des points de solution"
 #: tools/scriptbuilder.cpp:927
 #, kde-format
 msgid "Invalid URL: %1"
-msgstr "URL invalide : %1"
+msgstr "URL non valable : %1"
 
 #. +> trunk5
 #: ekos/align/align.cpp:3657 ekos/align/mountmodel.cpp:400
@@ -7321,7 +7321,7 @@ msgstr "Regroupement"
 #: ekos/align/align.ui:594 ekos/focus/focus.ui:524 ekos/guide/guide.ui:161
 #, kde-format
 msgid "Show in FITS Viewer"
-msgstr "Montrer dans l'afficheur FITS"
+msgstr "Afficher dans l'afficheur FITS"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, alignDarkFrame)
 #. +> trunk5
@@ -10226,7 +10226,7 @@ msgstr "Le traitement des données WCS est terminé."
 #: ekos/align/polaralignmentassistant.cpp:1109
 #, kde-format
 msgid "WCS info is now valid. Capturing next frame..."
-msgstr "Les informations WCS sont maintenant valides. Acquisition de la prochaine trame…"
+msgstr "Les informations WCS sont maintenant valables. Acquisition de la prochaine trame…"
 
 #. +> trunk5
 #: ekos/align/polaralignmentassistant.cpp:1151
@@ -11746,7 +11746,7 @@ msgstr "%1/%2 images reçues."
 #: ekos/auxiliary/darklibrary.cpp:649
 #, kde-format
 msgid "Are you sure you want to delete all dark frames images and data?"
-msgstr "Voulez-vous vraiment supprimer tous les darks et données ?"
+msgstr "Voulez-vous vraiment supprimer tous les darks et données ?"
 
 #. +> trunk5
 #: ekos/auxiliary/darklibrary.cpp:1213
@@ -12235,7 +12235,7 @@ msgstr "Double clic pour charger le dark"
 #: ekos/auxiliary/darkprocessor.cpp:269 ekos/auxiliary/darkprocessor.cpp:277
 #, kde-format
 msgid "No suitable dark frames or defect maps found. Please run the Dark Library wizard in Capture module."
-msgstr "Aucun dark valide ou carte de défaut trouvé. Veuillez lancer l'assistant pour Bibliothèque Dark dans le module d'acquisition."
+msgstr "Aucun dark valable ou carte de défaut trouvé. Veuillez lancer l'assistant pour Bibliothèque Dark dans le module d'acquisition."
 
 #. i18n: ectx: property (text), widget (QCheckBox, fileFilterS)
 #. i18n: ectx: property (text), widget (QTableWidget, queueTable)
@@ -13602,7 +13602,7 @@ msgstr "magzero"
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:434
 #, kde-format
 msgid "The type of Convolution Filter that SEP will apply to the image prior to star extraction.  These filters are comparable to the included filters in a SExtractor installation, but here you have the flexibility to change the FWHM.  The Default filter is the fastest filter, but does NOT change with the FWHM setting, and so is best for small stars.  The Gaussian Filter is best for faint object detection.  The Mexican Hat filter is good in crowded star fields or in the vicinity of nebulae.  The Top Hat filter is good for extended, low brightness objects.  Note: The \"Custom\" filter selection is meant for testing purposes and should only be used by developers"
-msgstr "Le type de filtre de convolution que SEP va appliquer à l'image avant l'extraction de l'image. Ces filtres sont comparables aux filtres inclus dans un installation de SExtractor, mais ici vous avez la flexibilité de modifier le FWHM. Le filtre par défaut est le plus rapide mais ne modifie PAS le réglage de FWHM et est par conséquent le meilleur pour les petites étoiles. Le filtre gaussien est très performant pour détecter des objets très faibles. Le filtre Mexican Hat est bon pour les champs d'étoiles très chargés ou à proximité de nébuleuses. Le filtre Top Hat est bon pour les objets étendus et de faible luminosité. Note : le filtre personnalisé n'est utilisé que pour des tests et ne devrait être utilisé que par des développeurs."
+msgstr "Le type de filtre de convolution que SEP va appliquer à l'image avant l'extraction de l'image. Ces filtres sont comparables aux filtres inclus dans un installation de SExtractor, mais ici vous avez la flexibilité de modifier le FWHM. Le filtre par défaut est le plus rapide mais ne modifie PAS le réglage de FWHM et est par conséquent le meilleur pour les petites étoiles. Le filtre gaussien est très performant pour détecter des objets très faibles. Le filtre Mexican Hat est bon pour les champs d'étoiles très chargés ou à proximité de nébuleuses. Le filtre Top Hat est bon pour les objets étendus et de faible luminosité. Remarque : le filtre personnalisé n'est utilisé que pour des tests et ne devrait être utilisé que par des développeurs."
 
 #. i18n: ectx: property (text), item, widget (QComboBox, convFilter)
 #. +> trunk5
@@ -13896,7 +13896,7 @@ msgstr "Taille maximale"
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:781
 #, kde-format
 msgid "The maximum size of stars to include in the final list in pixels based on semi-major and semi-minor axes"
-msgstr "Taille maximale des étoiles, à inclure dans la liste finale en pixels, basée sur le demi-grand et le demi-petit axe."
+msgstr "Taille maximale des étoiles, à inclure dans la liste finale en pixels, fondée sur le demi-grand et le demi-petit axe."
 
 #. i18n: ectx: property (text), widget (QLabel, label_57)
 #. i18n: ectx: property (text), widget (QLabel, label_49)
@@ -13933,7 +13933,7 @@ msgstr "Conserver #"
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:847
 #, kde-format
 msgid "The number of stars to keep in the list after star extraction.  This parameter is based on magnitude and is most useful to speed up plate solving, such as in the Align Module."
-msgstr "Le nombre d’étoiles à conserver dans la liste après extraction. Ce paramètre est basé sur la magnitude. Il est le plus utile pour accélérer la résolution astrométrique dans le module d’alignement."
+msgstr "Le nombre d’étoiles à conserver dans la liste après extraction. Ce paramètre est fondé sur la magnitude. Il est le plus utile pour accélérer la résolution astrométrique dans le module d’alignement."
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, initialKeep)
 #. +> trunk5
@@ -14488,7 +14488,7 @@ msgstr "Séquence d'acquisition CCD terminée"
 #: ekos/capture/capture.cpp:2271 ekos/capture/capture.cpp:3610
 #, kde-format
 msgid "Executing pre capture script %1"
-msgstr "Exécution du script de pré-acquisition %1"
+msgstr "Exécution du script de préacquisition %1"
 
 #. +> trunk5
 #: ekos/capture/capture.cpp:2328
@@ -14627,7 +14627,7 @@ msgstr "Transfert de l'image"
 #: ekos/capture/capture.cpp:3573
 #, kde-format
 msgid "Executing pre job script %1"
-msgstr "Exécution du script de pré-acquisition %1"
+msgstr "Exécution du script de préacquisition %1"
 
 #. +> trunk5
 #: ekos/capture/capture.cpp:3677
@@ -14824,7 +14824,7 @@ msgstr "Impossible d'ouvrir le fichier"
 #: ekos/capture/capture.cpp:4757
 #, kde-format
 msgid "Warning: HFR-based autofocus is set but option \"Save Sequence HFR Value to File\" is not enabled. Current HFR value will not be written to sequence file."
-msgstr "Attention : la mise au point basée sur HFR est paramétrée mais l'option « Enregistrer la valeur de séquence HFR » est désactivée. La valeur courante de séquence HFR ne sera pas écrite dans le fichier de séquence."
+msgstr "Attention : la mise au point fondée sur HFR est paramétrée mais l'option « Enregistrer la valeur de séquence HFR » est désactivée. La valeur courante de séquence HFR ne sera pas écrite dans le fichier de séquence."
 
 #. +> trunk5
 #: ekos/capture/capture.cpp:4897
@@ -14836,7 +14836,7 @@ msgstr "File de séquences enregistrée dans %1"
 #: ekos/capture/capture.cpp:4921
 #, kde-format
 msgid "Are you sure you want to reset status of all jobs?"
-msgstr "Souhaitez-vous vraiment réinitialiser l'état de toutes les tâches ?"
+msgstr "Voulez-vous vraiment réinitialiser l'état de toutes les tâches ?"
 
 #. +> trunk5
 #: ekos/capture/capture.cpp:5118
@@ -14952,7 +14952,7 @@ msgstr "Erreur de calibration après le retournement au méridien. Annulation en
 #: ekos/capture/capture.cpp:5853
 #, kde-format
 msgid "Wall coordinates are invalid."
-msgstr "Les coordonnées du mur sont invalides."
+msgstr "Les coordonnées du mur ne sont pas valables."
 
 #. +> trunk5
 #: ekos/capture/capture.cpp:5962
@@ -15006,7 +15006,7 @@ msgstr "Image distante enregistrée dans %1"
 #: ekos/capture/capture.cpp:6176
 #, kde-format
 msgid "Pre capture script finished with code %1."
-msgstr "Le script de pré-acquisition s'est terminé avec le code %1."
+msgstr "Le script de préacquisition s'est terminé avec le code %1."
 
 #. +> trunk5
 #: ekos/capture/capture.cpp:6184
@@ -15117,7 +15117,7 @@ msgstr "Durée d'exposition écoulée. Redémarrage de l'exposition…"
 #: ekos/capture/capture.cpp:7194
 #, kde-format
 msgid "Are you sure you want to restart %1 camera driver?"
-msgstr "Souhaitez-vous vraiment relancer le pilote de la camera %1 ?"
+msgstr "Voulez-vous vraiment relancer le pilote de la camera %1 ?"
 
 #. +> trunk5
 #: ekos/capture/capture.cpp:7195
@@ -15859,7 +15859,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Appliquer automatiquement la soustraction de dark sur les images en aperçu, si un dark valide est disponible.</p>"
+"<p>Appliquer automatiquement la soustraction de dark sur les images en aperçu, si un dark valable est disponible.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, jobLabel)
@@ -16125,7 +16125,7 @@ msgstr "Réalisation d'un réalignement après retournement au méridien…"
 #: ekos/capture/capturepreviewwidget.cpp:173
 #, kde-format
 msgid "Do you really want to delete %1 from the file system?"
-msgstr "Souhaitez-vous vraiment supprimer %1 du système de fichiers ?"
+msgstr "Voulez-vous vraiment supprimer %1 du système de fichiers ?"
 
 #. +> trunk5
 #: ekos/capture/capturepreviewwidget.cpp:175
@@ -16368,7 +16368,7 @@ msgstr "Taille de pixel"
 #: ekos/capture/dslrinfodialog.cpp:39
 #, kde-format
 msgid "Invalid values. Please set all values."
-msgstr "Valeurs invalides. Veuillez définir toutes les valeurs."
+msgstr "Valeurs non valables. Veuillez définir toutes les valeurs."
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, Limits)
 #. +> trunk5
@@ -16490,7 +16490,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Définit l'angle de la position <span style=\" font-weight:600;\">désirée</span> de la cible pour la tâche des séquences. Cliquez sur OK et ajoutez une tâche de séquences dans la file de séquences. Quand la tâche est exécutée, l'angle de position est ajusté avec cette valeur, avant d'acquérir l'image.</p>"
+"<p>Définit l'angle de la position <span style=\"font-weight:600;\">désirée</span> de la cible pour la tâche des séquences. Cliquez sur Ok et ajoutez une tâche de séquences dans la file de séquences. Quand la tâche est exécutée, l'angle de position est ajusté avec cette valeur, avant d'acquérir l'image.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, targetPAGroup)
@@ -16625,7 +16625,7 @@ msgstr "Script de post-acquisition"
 #, kde-format
 msgctxt "@title:window"
 msgid "Pre Capture Script"
-msgstr "Script de pré-acquisition"
+msgstr "Script de préacquisition"
 
 #. +> trunk5
 #: ekos/capture/scriptsmanager.cpp:59
@@ -16663,7 +16663,7 @@ msgstr "Script exécutable"
 #: ekos/capture/scriptsmanager.ui:67
 #, kde-format
 msgid "Pre-Capture Script:"
-msgstr "Script de pré-acquisition"
+msgstr "Script de préacquisition"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. +> trunk5
@@ -18744,7 +18744,7 @@ msgstr "PHD2 : calibration en cours. Délai échu dans %1 s."
 #: ekos/guide/externalguide/phd2.cpp:702
 #, kde-format
 msgid "PHD2: Calibration turned to looping, failed."
-msgstr "PHD2 : la calibration est en train de boucler. Échec."
+msgstr "PHD2 : la calibration boucle. Échec."
 
 #. +> trunk5
 #: ekos/guide/externalguide/phd2.cpp:706
@@ -18786,7 +18786,7 @@ msgstr "PHD2 : temps d'exposition valable : « Auto »"
 #: ekos/guide/externalguide/phd2.cpp:885
 #, kde-format
 msgid "PHD2: Please set CCD and telescope parameters in PHD2, Pixel Scale is invalid."
-msgstr "PHD2 : veuillez définir les paramètres du CCD et du télescope dans PHD2. La taille du pixel est invalide."
+msgstr "PHD2 : veuillez définir les paramètres du CCD et du télescope dans PHD2. La taille du pixel est non valable."
 
 #. +> trunk5
 #: ekos/guide/externalguide/phd2.cpp:887
@@ -19010,7 +19010,7 @@ msgstr "Décalage totalement réussi."
 #: ekos/guide/guide.cpp:1627
 #, kde-format
 msgid "%1x%1 guide binning is not supported."
-msgstr "Le binning %1x%1 n’est pas supporté pour le guidage."
+msgstr "Le binning %1x%1 n’est pas autorisé pour le guidage."
 
 #. +> trunk5
 #: ekos/guide/guide.cpp:1649
@@ -20503,7 +20503,7 @@ msgid ""
 msgstr ""
 "<html><head/><body>"
 "<p><a href=\"https://ieeexplore.ieee.org/document/7105398\"><span style=\" text-decoration: underline; color:#007af4;\">Le processus de guidage Gaussien (PGG)</span></a>, <span style=\" font-style:italic;\">(c) 2014-2017 Max Planck Society</span>, est utilisé uniquement pour du guidage en AD.<br/>"
-"La plupart des paramètres peuvent être gardés avec leur valeur par défaut.<br/>"
+"La plupart des paramètres peuvent être conservés avec leur valeur par défaut.<br/>"
 " Ce processus peut être utilisé avec tous les algorithmes de détection d'étoiles mais il a été testé en profondeur avec l'algorithme recommandé<span style=\"font-weight:600; color:#8ae234;\"> SEP MultiStar</span>.<br/>"
 "Il combine une bonne correction dont l'agressivité est contrôlée avec <span style=\"font-weight:600; color:#8ae234;\">Contrôler le gain </span>et <span style=\"font-weight:600; color:#8ae234;\">Déplacement minimal</span>, avec une correction prédictive contrôlée par <span style=\"font-weight:600; color:#8ae234;\">Prédiction du gain</span>.</p>"
 "<p>Le paramètre le plus important est <span style=\" font-weight:600; color:#8ae234;\">Période Maximale</span>. Si vous pouvez le déterminer pour votre monture <br/>"
@@ -20933,7 +20933,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Ceci ajoute un terme de correction basé sur la moyenne des 50 écarts de guidage passés. Ainsi, si la déviation est toujours négative, ceci déclenchera une compensation. Il vaut mieux démarrer avec les valeurs 0,0 (pas d'effet) et utiliser seulement si nécessaire.</p>"
+"<p>Ceci ajoute un terme de correction fondé sur la moyenne des 50 écarts de guidage passés. Ainsi, si la déviation est toujours négative, ceci déclenchera une compensation. Il vaut mieux démarrer avec les valeurs 0,0 (pas d'effet) et utiliser seulement si nécessaire.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, l_12)
@@ -21105,7 +21105,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p> Si cette case est cochée et que le guide interne est exécuté, un fichier journal est enregistré dans le dossier de journalisation par défaut. Il ne s'agit pas d'un journal de débogage mais il est destiné en vue d'améliorer la journalisation et il peut être visualisé avec phd2logview.</p>"
+"<p> Si cette case est cochée et que le guide interne est exécuté, un fichier journal est enregistré dans le dossier de journalisation par défaut. Il ne s'agit pas d'un journal de débogage mais il est destiné en vue d'améliorer la journalisation et il peut être affiché avec phd2logview.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SaveGuideLog)
@@ -21602,7 +21602,7 @@ msgstr "Le GPS %1 est connecté."
 #: ekos/manager.cpp:1547
 #, kde-format
 msgid "%1 Dust cap is online."
-msgstr "Le bouchon anti-poussière %1 est connecté."
+msgstr "Le bouchon antipoussière %1 est connecté."
 
 #. +> trunk5
 #: ekos/manager.cpp:1554
@@ -22050,7 +22050,7 @@ msgstr "Un pilote GPS a été détecté. KStars, l'heure et la position de la mo
 #: ekos/mount/mount.cpp:380
 #, kde-format
 msgid "GPS is detected. Do you want to switch time and location source to GPS?"
-msgstr "Un GPS est détecté. Souhaitez-vous utiliser le GPS comme source de temps et de position ?"
+msgstr "Un GPS est détecté. Voulez-vous utiliser le GPS comme source de temps et de position ?"
 
 #. +> trunk5
 #: ekos/mount/mount.cpp:381
@@ -22129,7 +22129,7 @@ msgstr "Monture déjà parquée."
 #: ekos/mount/mount.cpp:1577
 #, kde-format
 msgid "Parking time cannot be in the past."
-msgstr "L'heure de parcage ne peut pas être dans le passé."
+msgstr "Impossible que l'heure de parcage soit dans le passé."
 
 #. +> trunk5
 #: ekos/mount/mount.cpp:1586
@@ -22705,7 +22705,7 @@ msgstr "&CW"
 #: ekos/observatory/observatory.ui:286
 #, kde-format
 msgid "Rotate counter clockwise"
-msgstr "Rotation dans le sens anti-horaire"
+msgstr "Rotation dans le sens antihoraire"
 
 #. i18n: ectx: property (text), widget (QPushButton, motionCCWButton)
 #. +> trunk5
@@ -22985,7 +22985,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p><span style=\" font-style:italic;\">Statut : inactif</span></p>"
+"<p><span style=\" font-style:italic;\">État : inactif</span></p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, weatherAlertDelayLabel)
@@ -23101,7 +23101,7 @@ msgstr "sens horaire"
 #: ekos/observatory/observatorydomemodel.cpp:125
 #, kde-format
 msgid "counter clockwise"
-msgstr "sens anti-horaire"
+msgstr "sens antihoraire"
 
 #. +> trunk5
 #: ekos/observatory/observatorydomemodel.cpp:125
@@ -23737,7 +23737,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>La valeur de seuil de HFR contrôle quand la mise au point automatique doit démarrer. Si la valeur mesurée dépasse ce seuil, une mise au point automatique est déclenchée. Si la valeur de seuil est zéro (par défaut), alors la meilleure valeur HFR de la mise au point automatique est utilisée pour établir une nouvelle valeur de seuil, après application du pourcentage de modification du seuil de HFR. Cette nouvelle valeur est utilisée pour les contrôles de processus de mise au point automatique. Si cette option est valide, la valeur de seuil est constante et est enregistrée dans le fichier de séquence.</p>"
+"<p>La valeur de seuil de HFR contrôle quand la mise au point automatique doit démarrer. Si la valeur mesurée dépasse ce seuil, une mise au point automatique est déclenchée. Si la valeur de seuil est zéro (par défaut), alors la meilleure valeur HFR de la mise au point automatique est utilisée pour établir une nouvelle valeur de seuil, après application du pourcentage de modification du seuil de HFR. Cette nouvelle valeur est utilisée pour les contrôles de processus de mise au point automatique. Si cette option est valable, la valeur de seuil est constante et est enregistrée dans le fichier de séquence.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SaveHFRToFile)
@@ -24219,7 +24219,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Ajouter des pilotes INDI distants à chaîner avec le serveur INDI local configuré dans ce profil. Formattez ce champ comme une liste de noms de pilotes, de noms d'hôtes/adresses, le port facultatif, séparée par des virgules :</p>"
+"<p>Ajouter des pilotes INDI distants à chaîner avec le serveur INDI local configuré dans ce profil. Formatez ce champ comme une liste de noms de pilotes, de noms d'hôtes/adresses, le port facultatif, séparée par des virgules :</p>"
 "<p><span style=\" font-weight:600;\">&quot;ZWO ASI120MC&quot;@192.168.1.50:8000</span><br/>"
 "Connecte la caméra à l'adresse 192.168.1.50, le port 8000,</p>"
 "<p><span style=\" font-weight:600;\">&quot;Monture EQMod&quot;@192.168.1.50</span><br/>"
@@ -24609,7 +24609,7 @@ msgstr ""
 #: ekos/profilewizard.ui:865
 #, kde-format
 msgid "Which INDI Server do you want to use?"
-msgstr "Quel serveur INDI souhaitez-vous utiliser ?"
+msgstr "Quel serveur INDI voulez-vous utiliser ?"
 
 #. i18n: ectx: property (text), widget (QPushButton, useInternalINDIB)
 #. +> trunk5
@@ -24643,7 +24643,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p><span style=\" font-weight:600;\">Astuce</span> : un serveur externe INDI peut être un <a href=\"http://www.cloudmakers.eu/indigoserver/\"><span style=\" text-decoration: underline; color:#007af4;\"> serveur INDI pour O-SX</span></a> ou un serveur INDI démarré localement et manuellement. En cas de doute, veuillez sélectionner un serveur INDI interne.</p>"
+"<p><span style=\" font-weight:600;\">Astuce</span> : un serveur externe INDI peut être un <a href=\"http://www.cloudmakers.eu/indigoserver/\"><span style=\" text-decoration: underline; color:#007af4;\"> serveur INDI pour OSX</span></a> ou un serveur INDI démarré localement et manuellement. En cas de doute, veuillez sélectionner un serveur INDI interne.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
@@ -24669,7 +24669,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Comment souhaitez-vous nommer votre profil ?</p>"
+"<p>Comment voulez-vous nommer votre profil ?</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLineEdit, profileNameEdit)
@@ -24689,7 +24689,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Quelle application de guidage souhaitez-vous utiliser ?</p>"
+"<p>Quelle application de guidage voulez-vous utiliser ?</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, useInternalGuiderR)
@@ -24729,7 +24729,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Souhaitez-vous sélectionner des services additionnels ?</p>"
+"<p>Voulez-vous sélectionner des services additionnels ?</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, useJoystickCheck)
@@ -26441,7 +26441,7 @@ msgstr "Alarme : le traitement pour la tâche « %1 » est impossible avec la
 #: ekos/scheduler/scheduler.cpp:5096
 #, kde-format
 msgid "Job '%1' is focusing."
-msgstr "La tâche « %1 » est en train de réaliser la mise au point."
+msgstr "La tâche « %1 » réalise la mise au point."
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:5146
@@ -26516,7 +26516,7 @@ msgstr "Attention : le fichier FITS de la cible de la tâche %1 n'existe pas."
 #: ekos/scheduler/scheduler.cpp:5426
 #, kde-format
 msgid "Warning: job '%1' loadAndSlew request received DBUS error: %2"
-msgstr "Attention : la requête %1 de la tâche loadAndSlew %1 a reçu l'erreur DBUS %2."
+msgstr "Attention : la requête %1 de la tâche loadAndSlew %1 a reçu l'erreur D-Bus %2."
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:5437
@@ -26535,21 +26535,21 @@ msgstr "La tâche %1 est en cours de la résolution %2."
 #: ekos/scheduler/scheduler.cpp:5459
 #, kde-format
 msgid "Warning: job '%1' setTargetCoords request received DBUS error: %2"
-msgstr "Attention : la requête de la tâche setTargetCoords %1 a reçu l'erreur DBUS %2."
+msgstr "Attention : la requête de la tâche setTargetCoords %1 a reçu l'erreur D-Bus %2."
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:5476
 #, kde-format
 #| msgid "Warning: job '%1' repositioning failed, marking terminated due to errors."
 msgid "Warning: job '%1' setTargetPositionAngle request received DBUS error: %2"
-msgstr "Attention : la requête de la tâche setTargetPositionAngle %1 a reçu l'erreur DBUS %2."
+msgstr "Attention : la requête de la tâche setTargetPositionAngle %1 a reçu l'erreur D-Bus %2."
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:5490
 #, kde-format
 #| msgid "Warning: job '%1' capture procedure failed, marking aborted."
 msgid "Warning: job '%1' captureAndSolve request received DBUS error: %2"
-msgstr "Attention : la requête de la tâche captureAndSolve %1 a reçu l'erreur DBUS %2."
+msgstr "Attention : la requête de la tâche captureAndSolve %1 a reçu l'erreur D-Bus %2."
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:5501
@@ -27562,7 +27562,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><body>"
-"<p>La restriction à l'horizon artificiel contraint l'altitude de la cible à être supérieure à celui-ci, s'il a été défini et activé. Voir le paragraphe « Horizon artificiel » dans le menu de configuration de kstars.</p>"
+"<p>La restriction à l'horizon artificiel contraint l'altitude de la cible à être supérieure à celui-ci, s'il a été défini et activé. Voir le paragraphe « Horizon artificiel » dans le menu de configuration de kStars.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, nightTime)
@@ -27582,7 +27582,7 @@ msgstr ""
 "<p>L'aube astronomique et le crépuscule pour la tache planifiée courante ou pour la date courante si aucune tâche n'est disponible.</p>"
 "<p> - la première valeur concerne <span style=\"font-weight:600;\">le crépuscule</span>, spécifiquement la prochaine heure locale où le Soleil sera plus haut que -18° d'altitude après le démarrage de la tâche.</p>"
 "<p>Un symbole d'avertissement indique que le Soleil ne descendra pas en dessous de la limite astronomique du crépuscule après le début du travail, et que les heures de l'aube et du crépuscule sont calculées à partir de son altitude minimale. Dans cette situation, la restriction crépusculaire empêche l'exécution du travail, à moins que les options Ekos Dawn Offset et Dusk Offset soient configurées de manière appropriée.</p>"
-"<p>Notez que l'option de décalage de pré-aube avance virtuellement l'aube par défaut de 30 minutes and évitera donc qu'une tâche ne démarre juste avant ce moment.</p>"
+"<p>Notez que l'option de décalage de préaube avance virtuellement l'aube par défaut de 30 minutes and évitera donc qu'une tâche ne démarre juste avant ce moment.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, shutdownGroupBox)
@@ -27825,10 +27825,10 @@ msgid ""
 "If aborted, the Scheduler missed the scheduled time or encountered transitory issues and will reschedule the job.\n"
 "If complete, the Scheduler verified that all sequence captures requested were stored, including repeats."
 msgstr ""
-"Statut courant de la tâche '%1', géré par le Planificateur.\n"
+"État courant de la tâche '%1', géré par le Planificateur.\n"
 "Si invalide, l'ordonnanceur ne pourra pas trouver une heure adéquate d'observation pour la cible.\n"
 "En cas d'abandon, l'ordonnanceur a manqué l'heure prévue ou a rencontré des problèmes transitoires et il reprogrammera la tâche.\n"
-"Si complété, l'ordonnanceur vérifie que toutes les séquences ont été sauvegardées, incluant les répétitions."
+"Si complété, l'ordonnanceur vérifie que toutes les séquences ont été enregistrées, incluant les répétitions."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerjob.cpp:419
@@ -27838,7 +27838,7 @@ msgid ""
 "A rising target is indicated with an arrow going up.\n"
 "A setting target is indicated with an arrow going down."
 msgstr ""
-"Hauteur actuelle de la cible de la tâche « %1 ». \n"
+"Hauteur actuelle de la cible de la tâche %1.\n"
 "Une cible montante est indiquée avec une flèche vers le haut.\n"
 "Une cible de réglage est indiquée avec une flèche descendante."
 
@@ -27850,7 +27850,7 @@ msgid ""
 "The altitude at startup, if available, is displayed too.\n"
 "Fixed time from user or culmination time is marked with a chronometer symbol. "
 msgstr ""
-"Temps de démarrage de la tâche « %1 », estimé par l'ordonnanceur.\n"
+"Temps de démarrage de la tâche %1, estimé par l'ordonnanceur.\n"
 "L'élévation au démarrage, si disponible, est également affichée.\n"
 "Un temps fixe à partir de l’heure de l'utilisateur ou de la culmination est marqué avec un symbole de chronomètre."
 
@@ -30412,7 +30412,7 @@ msgstr "Serveur INDI "
 #: indi/opsindi.ui:75
 #, kde-format
 msgid "Path to the indiserver binary"
-msgstr "Chemin de l'exécutable « indiserver »"
+msgstr "Emplacement de l'exécutable « indiserver »"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_indiDriversAreInternal)
 #. +> trunk5
@@ -30433,7 +30433,7 @@ msgstr "Dossier XML des pilotes INDI "
 #: indi/opsindi.ui:112
 #, kde-format
 msgid "Path to the INDI drivers XML directory"
-msgstr "Chemin vers le dossier des fichiers de configuration XML des pilotes INDI"
+msgstr "Emplacement vers le dossier des fichiers de configuration XML des pilotes INDI"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. +> trunk5
@@ -30684,7 +30684,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>\n"
-"<p>Nom du dossier des vidéos SER <b>distante</b>. Si le serveur INDI est actif localement, alors un dossier local peut être sélectionné. Cependant, si vous êtes connecté à un serveur INDI distant, alors le dossier doit être un dossier valide sur le système de fichiers distant ou il sera sauvé.</p>"
+"<p>Nom du dossier des vidéos SER <b>distante</b>. Si le serveur INDI est actif localement, alors un dossier local peut être sélectionné. Cependant, si vous êtes connecté à un serveur INDI distant, alors le dossier doit être un dossier valable sur le système de fichiers distant ou il sera sauvé.</p>"
 "\n"
 "<p>Les dossiers d'enregistrement peuvent contenir des token pour les rendre dynamiques :</p>"
 "\n"
@@ -34229,14 +34229,14 @@ msgstr "La couleur pour la boîte du CdV du résolveur dans le module d'aligneme
 #: kstars.kcfg:1084 xplanet/opsxplanet.cpp:21
 #, kde-format
 msgid "Internal or External XPlanet?"
-msgstr "Xplanet interne ou externe ?"
+msgstr "XPlanet interne ou externe ?"
 
 #. i18n: ectx: label, entry (XplanetPath), group (Xplanet)
 #. +> trunk5
 #: kstars.kcfg:1088
 #, kde-format
 msgid "Path to xplanet binary"
-msgstr "Emplacement de l'exécutable xplanet"
+msgstr "Emplacement de l'exécutable XPlanet"
 
 #. i18n: ectx: whatsthis, entry (XplanetPath), group (Xplanet)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_XplanetPath)
@@ -34244,7 +34244,7 @@ msgstr "Emplacement de l'exécutable xplanet"
 #: kstars.kcfg:1089 xplanet/opsxplanet.ui:70
 #, kde-format
 msgid "Xplanet binary path"
-msgstr "Emplacement de l'exécutable xplanet"
+msgstr "Emplacement de l'exécutable XPlanet"
 
 #. i18n: ectx: label, entry (XplanetUseFIFO), group (Xplanet)
 #. +> trunk5
@@ -34265,28 +34265,28 @@ msgstr "Option pour l'utilisation d'un fichier FIFO à la place d'un enregistrem
 #: kstars.kcfg:1098
 #, kde-format
 msgid "XPlanet timeout"
-msgstr "Attente maximale pour Xplanet"
+msgstr "Attente maximale pour XPlanet"
 
 #. i18n: ectx: whatsthis, entry (XplanetTimeout), group (Xplanet)
 #. +> trunk5
 #: kstars.kcfg:1099
 #, kde-format
 msgid "How long to wait for XPlanet before giving up in milliseconds"
-msgstr "Définit la durée d'attente pour Xplanet en millisecondes avant d'abandonner"
+msgstr "Définit la durée d'attente pour XPlanet en millisecondes avant d'abandonner"
 
 #. i18n: ectx: label, entry (XplanetAnimationDelay), group (Xplanet)
 #. +> trunk5
 #: kstars.kcfg:1103
 #, kde-format
 msgid "XPlanet animation delay"
-msgstr "Retard de l'animation pour Xplanet"
+msgstr "Retard de l'animation pour XPlanet"
 
 #. i18n: ectx: whatsthis, entry (XplanetAnimationDelay), group (Xplanet)
 #. +> trunk5
 #: kstars.kcfg:1104
 #, kde-format
 msgid "How long to pause between frames in the XPlanet Animation"
-msgstr "Durée de pause entre les trames dans l'animation Xplanet"
+msgstr "Durée de pause entre les trames dans l'animation XPlanet"
 
 #. i18n: ectx: label, entry (XplanetWidth), group (Xplanet)
 #. i18n: ectx: whatsthis, entry (XplanetWidth), group (Xplanet)
@@ -34294,7 +34294,7 @@ msgstr "Durée de pause entre les trames dans l'animation Xplanet"
 #: kstars.kcfg:1108 kstars.kcfg:1109
 #, kde-format
 msgid "Width of xplanet window"
-msgstr "Largeur de la fenêtre Xplanet"
+msgstr "Largeur de la fenêtre XPlanet"
 
 #. i18n: ectx: label, entry (XplanetHeight), group (Xplanet)
 #. i18n: ectx: whatsthis, entry (XplanetHeight), group (Xplanet)
@@ -34302,7 +34302,7 @@ msgstr "Largeur de la fenêtre Xplanet"
 #: kstars.kcfg:1113 kstars.kcfg:1114
 #, kde-format
 msgid "Height of xplanet window"
-msgstr "Hauteur de la fenêtre Xplanet"
+msgstr "Hauteur de la fenêtre XPlanet"
 
 #. i18n: ectx: label, entry (XplanetLabel), group (Xplanet)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_XplanetLabel)
@@ -34473,7 +34473,7 @@ msgstr "Latitude-Longitude"
 #: kstars.kcfg:1180
 #, kde-format
 msgid "Place the observer above the specified longitude and latitude"
-msgstr "Place l'observateur au-dessus des longitude et latitude indiquées"
+msgstr "Place l'observateur au-dessus de la longitude et de la latitude indiquée"
 
 #. i18n: ectx: label, entry (XplanetLatitude), group (Xplanet)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_XplanetLatitude)
@@ -36366,7 +36366,7 @@ msgstr "Exécutable du résolveur d'astrometry.net"
 #: kstars.kcfg:2131
 #, kde-format
 msgid "Path to astrometry.net solver location."
-msgstr "Chemin du fichier de résolution astrometry.net."
+msgstr "Emplacement du fichier de résolution astrometry.net"
 
 #. i18n: ectx: label, entry (AstrometryWCSInfo), group (Align)
 #. +> trunk5
@@ -36380,7 +36380,7 @@ msgstr "Exécutable wcsinfo d'astrometry.net"
 #: kstars.kcfg:2136
 #, kde-format
 msgid "Path to astrometry.net wcsinfo location."
-msgstr "Chemin du fichier des informations wcsinfo astronomy.net."
+msgstr "Emplacement du fichier des informations wcsinfo astronomy.net."
 
 #. i18n: ectx: label, entry (AstrometryConfFile), group (Align)
 #. +> trunk5
@@ -36394,21 +36394,21 @@ msgstr "Fichier de configuration d'astrometry.net"
 #: kstars.kcfg:2141
 #, kde-format
 msgid "Path to astrometry.net file location."
-msgstr "Chemin du fichier d'astrometry.net."
+msgstr "Emplacement du fichier d'astrometry.net"
 
 #. i18n: ectx: whatsthis, entry (SextractorBinary), group (Align)
 #. +> trunk5
 #: kstars.kcfg:2146
 #, kde-format
 msgid "Path to the Sextractor executable."
-msgstr "Chemin vers l'exécutable Sextractor."
+msgstr "Emplacement vers l'exécutable Sextractor"
 
 #. i18n: ectx: whatsthis, entry (WatneyBinary), group (Align)
 #. +> trunk5
 #: kstars.kcfg:2151
 #, kde-format
 msgid "Path to the Watney Solver executable."
-msgstr "Chemin vers l'exécutable du résolveur Watney."
+msgstr "Emplacement vers l'exécutable du résolveur Watney"
 
 #. i18n: ectx: label, entry (AstrometryAPIKey), group (Align)
 #. +> trunk5
@@ -70948,7 +70948,7 @@ msgstr "Terrain"
 #: kstarsactions.cpp:1138
 #, kde-format
 msgid "Xplanet"
-msgstr "Xplanet"
+msgstr "XPlanet"
 
 #. +> trunk5
 #: kstarsactions.cpp:1144
@@ -80883,13 +80883,13 @@ msgid ""
 "\n"
 "<p>Once you have selected field of view capture method, press <b>Next</b>.</p>"
 msgstr ""
-"<p>Sélectionnez la méthode de capture de champ de vision. Il existe 2 méthodes : manuelle et basée sur le cheminement d'étoiles.</p>"
+"<p>Sélectionnez la méthode d'acquisition de champ de vision. Il existe 2 méthodes : manuelle et fondée sur le cheminement d'étoiles.</p>"
 "\n"
-"<p>Par la <b>méthode manuelle</b> vous naviguez sur la carte du ciel pour trouver des objets intéressants, puis capturez plusieurs champs de vision.</p>"
+"<p>Par la <b>méthode manuelle</b> vous naviguez sur la carte du ciel pour trouver des objets intéressants, puis acquérez plusieurs champs de vision.</p>"
 "\n"
-"<p><b>La méthode par cheminement d'étoiles</b> capture automatiquement des images du champ de vision. C'est une fonction expérimentale.</p>"
+"<p><b>La méthode par cheminement d'étoiles</b> acquiert automatiquement des images du champ de vision. C'est une fonction expérimentale.</p>"
 "\n"
-"<p> Une fois sélectionnée la méthode de capture du champ de vision, appuyez sur <b>Suivant</b>.</p>"
+"<p> Une fois sélectionnée la méthode d'acquisition du champ de vision, appuyez sur <b>Suivant</b>.</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, typeLabel)
 #. +> trunk5
@@ -83186,7 +83186,7 @@ msgid ""
 "\t\n"
 msgstr ""
 "\t\t"
-"<p> La distance des étoiles les plus proches peuvent être mesurées par la méthode de la parallaxe. L'idée est exposée dans le projet Astro Info. Kstars affiche les distances de beaucoup d'étoiles dans la fenêtre de Détails. Pour y accéder, cliquez simplement droit sur l'étoile et choisissez \"Détails\" dans le menu pop-up.\n"
+"<p> La distance des étoiles les plus proches peuvent être mesurées par la méthode de la parallaxe. L'idée est exposée dans le projet Astro Info. Kstars affiche les distances de beaucoup d'étoiles dans la fenêtre de Détails. Pour y accéder, cliquez simplement droit sur l'étoile et choisissez « Détails » dans le menu pop-up.\n"
 "\t\t</p>"
 "\n"
 "\t\n"
@@ -83254,7 +83254,7 @@ msgid ""
 "\t\n"
 msgstr ""
 "\t\t"
-"<p>La meilleure façon d'observer un objet peu lumineux dans le ciel nocturne est de ne pas le regarder directement mais de regarder dans la région qui l'entoure ! Cette technique, appelée « vision décalée », fonctionne grâce à la façon dont les cellules à bâtonnets, qui sont sensibles à la lumière faible, sont placées sur la rétine de nos yeux.\n"
+"<p>La meilleure façon d'observer un objet peu lumineux dans le ciel nocturne est de ne pas le regarder directement mais de regarder dans la région qui l'entoure ! Cette technique, appelée « vision décalée », fonctionne grâce à la façon dont les cellules à bâtonnets, qui sont sensibles à la lumière faible, sont placées sur la rétine de nos yeux.\n"
 "\t\t</p>"
 "\n"
 "\t\n"
@@ -84565,19 +84565,19 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>L'horizon artificiel est utilisé pour définir les <span style=\" font-weight:600;\">régions</span> sur la carte du ciel qui sont <span style=\" font-style:italic;\">inaccessibles</span> depuis votre point d'observation (i.e. à cause d'arbres ou de bâtiments). Ces zones peuvent être au-dessus ou en dessous de segments de ligne que vous saisissez. Ces contraintes d'horizon artificiel sont tenues en compte par l'ordonnanceur pour démarrer ou arrêter une tâche.</p>"
+"<p>L'horizon artificiel est utilisé pour définir les <span style=\"font-weight:600;\">régions</span> sur la carte du ciel qui sont <span style=\"font-style:italic;\">inaccessibles</span> depuis votre point d'observation (i.e. à cause d'arbres ou de bâtiments). Ces zones peuvent être au-dessus ou en dessous de segments de ligne que vous saisissez. Ces contraintes d'horizon artificiel sont tenues en compte par l'ordonnanceur pour démarrer ou arrêter une tâche.</p>"
 "<ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\">"
-"<li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Pour dessiner <span style=\" font-weight:600;\">une région</span>, il faut placer une série de <span style=\" font-weight:600;\">points</span> (<span style=\" font-style:italic;\">au minimum</span> 2) qui délimite la zone.</li>"
+"<li style=\"margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Pour dessiner <span style=\"font-weight:600;\">une région</span>, il faut placer une série de <span style=\"font-weight:600;\">points</span> (<span style=\"font-style:italic;\">au minimum</span> 2) qui délimite la zone.</li>"
 "<ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\">"
-"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Le mode <span style=\" font-style:italic;\">plafond/fenêtre</span> permet de bloquer la zone au-dessus de la ligne (plafond) ou en dessous (fenêtre).</li>"
-"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Le bouton « + » ajoute une ligne dans le tableau de points et permet de saisir manuellement les coordonnée d'un point.</li>"
+"<li style=\"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Le mode <span style=\"font-style:italic;\">plafond/fenêtre</span> permet de bloquer la zone au-dessus de la ligne (plafond) ou en dessous (fenêtre).</li>"
+"<li style=\"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Le bouton « + » ajoute une ligne dans le tableau de points et permet de saisir manuellement les coordonnée d'un point.</li>"
 "  "
-"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> Vous pouvez également placer les points <span style=\" font-style:italic;\">directement sur la carte du ciel</span> en utilisant le bouton <span style=\" font-weight:600;\">Placer les points sur la carte du ciel</span>, en haut à droite.</li>"
+"<li style=\"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> Vous pouvez également placer les points <span style=\"font-style:italic;\">directement sur la carte du ciel</span> en utilisant le bouton <span style=\"font-weight:600;\">Placer les points sur la carte du ciel</span>, en haut à droite.</li>"
 "</ul>"
-"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Activez une région <span style=\" font-style:italic;\">en cochant sa case</span>. </li>"
-"<li style= \" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">La sélection d'une région affiche ses points sur la carte du ciel. </li>"
-"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Confirmez en cliquant sur <span style=\" font-style:italic;\">Appliquer</span>.</li>"
-"<li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Définir des régions est plus facile avec la fonction « Terrain d'arrière-plan ».</li>"
+"<li style=\"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Activez une région <span style=\"font-style:italic;\">en cochant sa case</span>. </li>"
+"<li style=\"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">La sélection d'une région affiche ses points sur la carte du ciel. </li>"
+"<li style=\"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Confirmez en cliquant sur <span style=\"font-style:italic;\">Appliquer</span>.</li>"
+"<li style=\"margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Définir des régions est plus facile avec la fonction « Terrain d'arrière-plan ».</li>"
 "</ul>"
 "</body></html>"
 
@@ -85954,7 +85954,7 @@ msgstr "L'annulation tronquera votre liste de souhaits."
 #: tools/observinglist.cpp:1107
 #, kde-format
 msgid "If you cancel this operation, your wishlist will be truncated and the following objects will be removed from the wishlist when you exit KStars. Are you sure this is okay?"
-msgstr "En annulant cette opération, votre liste de souhaits sera tronquée et les objets suivants seront retirés de la liste de souhaits en quittant KStars. Êtes-vous sûr que cela vous convient ?"
+msgstr "En annulant cette opération, votre liste de souhaits sera tronquée et les objets suivants seront retirés de la liste de souhaits en quittant KStars. Voulez-vous vraiment annuler ?"
 
 #. +> trunk5
 #: tools/observinglist.cpp:1149
@@ -88979,42 +88979,42 @@ msgstr "Les fichiers FIFO ne sont pas pris en charge par Windows"
 #, kde-format
 msgctxt "@title:window"
 msgid "Select XPlanet Config File"
-msgstr "Sélectionner le fichier de configuration de Xplanet"
+msgstr "Sélectionner le fichier de configuration de XPlanet"
 
 #. +> trunk5
 #: xplanet/opsxplanet.cpp:231
 #, kde-format
 msgctxt "@title:window"
 msgid "Select XPlanet Star Map File"
-msgstr "Sélectionnez un fichier de correspondance d'étoiles pour Xplanet"
+msgstr "Sélectionnez un fichier de correspondance d'étoiles pour XPlanet"
 
 #. +> trunk5
 #: xplanet/opsxplanet.cpp:244
 #, kde-format
 msgctxt "@title:window"
 msgid "Select XPlanet Arc File"
-msgstr "Sélectionner un fichier arc pour Xplanet"
+msgstr "Sélectionner un fichier arc pour XPlanet"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_xplanetIsInternal)
 #. +> trunk5
 #: xplanet/opsxplanet.ui:45
 #, kde-format
 msgid "Xplanet binary is internal to the application bundle"
-msgstr "L'exécutable de Xplanet est interne au groupe d'applications."
+msgstr "L'exécutable de XPlanet est interne au groupe d'applications."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabelXplanetPath)
 #. +> trunk5
 #: xplanet/opsxplanet.ui:55
 #, kde-format
 msgid "Xplanet path:"
-msgstr "Chemin de Xplanet"
+msgstr "Emplacement de XPlanet"
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_XplanetPath)
 #. +> trunk5
 #: xplanet/opsxplanet.ui:73
 #, kde-format
 msgid "Enter here the path of xplanet binary."
-msgstr "Saisissez ici le chemin de l'exécutable xplanet."
+msgstr "Saisissez ici l'emplacement de l'exécutable XPlanet."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabelXplanetGeometryX)
 #. +> trunk5
@@ -89035,7 +89035,7 @@ msgstr "Définit la largeur de la fenêtre"
 #: xplanet/opsxplanet.ui:107
 #, kde-format
 msgid "Set the width of the xplanet image"
-msgstr "Définir la largeur d'image de Xplanet"
+msgstr "Définir la largeur d'image de XPlanet"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_XplanetHeight)
 #. +> trunk5
@@ -89049,21 +89049,21 @@ msgstr "Définit la hauteur de la fenêtre"
 #: xplanet/opsxplanet.ui:133
 #, kde-format
 msgid "Set the height of the xplanet image"
-msgstr "Définir la hauteur d'image de Xplanet"
+msgstr "Définir la hauteur d'image de XPlanet"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_XplanetTimeout)
 #. +> trunk5
 #: xplanet/opsxplanet.ui:162
 #, kde-format
 msgid "The time KStars will wait for XPlanet to complete before giving up."
-msgstr "KStars attendra cette durée que Xplanet se termine avant d'abandonner."
+msgstr "KStars attendra cette durée que XPlanet se termine avant d'abandonner."
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. +> trunk5
 #: xplanet/opsxplanet.ui:169
 #, kde-format
 msgid "XPlanet timeout:"
-msgstr "Délai imparti pour Xplanet"
+msgstr "Délai imparti pour XPlanet"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk5
@@ -89096,7 +89096,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Si cette case est cochée, Xplanet utilisera un fichier FIFO dans le dossier /tmp pour sauvegarder temporairement les images Xplanet afin que KStars les charge et mette à jour la vue. Si cette option n'est pas cochée, Xplanet enregistrera les fichiers dans le dossier Xplanet du dossier de données de KStars. L'utilisation d'un fichier FIFO devrait éviter au disque dur des lectures/écritures excessives et peut offrir une amélioration des performances.</p>"
+"<p>Si cette case est cochée, XPlanet utilisera un fichier FIFO dans le dossier /tmp pour enregistrer temporairement les images XPlanet afin que KStars les charge et mette à jour la vue. Si cette option n'est pas cochée, XPlanet enregistrera les fichiers dans le dossier XPlanet du dossier de données de KStars. L'utilisation d'un fichier FIFO devrait éviter au disque dur des lectures/écritures excessives et peut offrir une amélioration des performances.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_XplanetUseFIFO)
@@ -89181,7 +89181,7 @@ msgstr "Carte des étoiles"
 #: xplanet/opsxplanet.ui:391
 #, kde-format
 msgid "Arc file:"
-msgstr "Fichier « arc »"
+msgstr "Fichier « Arc »"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_XplanetArcFilePath)
 #. +> trunk5
@@ -89230,14 +89230,14 @@ msgstr "Qualité JPEG"
 #: xplanet/opsxplanet.ui:530
 #, kde-format
 msgid "XPlanet requires maps in order to function properly.  It does not ship with a lot of planetary maps.  You need to download some in order to get the full benefits of XPlanet.  This is a good place to start: <a href=\"http://xplanet.sourceforge.net/maps.php\">http://xplanet.sourceforge.net/maps.php</a> "
-msgstr "Xplanet nécessite des cartes pour fonctionner correctement. Il n'est pas livré avec beaucoup de cartes planétaires. Vous devez en télécharger quelques-unes afin de profiter pleinement des avantages de Xplanet. Voici un bon point de départ : <a href=\"http://xplanet.sourceforge.net/maps.php\">http://xplanet.sourceforge.net/maps.php</a>."
+msgstr "XPlanet nécessite des cartes pour fonctionner correctement. Il n'est pas livré avec beaucoup de cartes planétaires. Vous devez en télécharger quelques-unes afin de profiter pleinement des avantages de XPlanet. Voici un bon point de départ : <a href=\"http://xplanet.sourceforge.net/maps.php\">http://xplanet.sourceforge.net/maps.php</a>."
 
 #. i18n: ectx: property (text), widget (QPushButton, openXPlanetMaps)
 #. +> trunk5
 #: xplanet/opsxplanet.ui:543
 #, kde-format
 msgid "XPlanet Planet Maps"
-msgstr "Cartes des planètes de Xplanet"
+msgstr "Cartes des planètes de XPlanet"
 
 #. i18n: ectx: attribute (title), widget (QWidget, XplanetTabLabel)
 #. +> trunk5
@@ -89356,7 +89356,7 @@ msgstr "Utiliser le fichier de marqueurs"
 #: xplanet/opsxplanet.ui:823
 #, kde-format
 msgid "Specify a file containing user defined marker data to display against the background stars."
-msgstr "Spécifiez un fichier contenant des données de marqueurs définies par l'utilisateur à afficher par rapport aux étoiles d'arrière-plan."
+msgstr "Spécifier un fichier contenant des données de marqueurs définies par l'utilisateur à afficher par rapport aux étoiles d'arrière-plan."
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_XplanetMarkerBounds)
 #. +> trunk5
@@ -89370,14 +89370,14 @@ msgstr "Écrire les limites de marqueurs dans un fichier"
 #: xplanet/opsxplanet.ui:833
 #, kde-format
 msgid "Write coordinates of the bounding box for each marker in a file."
-msgstr "Écrivez les coordonnées du volume englobant minimal pour chaque marqueur dans un fichier."
+msgstr "Écrire les coordonnées du volume englobant minimal pour chaque marqueur dans un fichier."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_XplanetMarkerBounds)
 #. +> trunk5
 #: xplanet/opsxplanet.ui:836
 #, kde-format
 msgid "Write marker bounds to:"
-msgstr "Écrivez les limites de marqueurs dans"
+msgstr "Écrire les limites de marqueurs dans"
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_XplanetLatLong)
 #. +> trunk5
@@ -89398,7 +89398,7 @@ msgstr "Rend le corps cible comme observé au-dessus de la latitude spécifiée 
 #: xplanet/opsxplanet.ui:910
 #, kde-format
 msgid " and longitude "
-msgstr " et longitude  "
+msgstr " et longitude "
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_XplanetLongitude)
 #. +> trunk5
