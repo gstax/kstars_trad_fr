@@ -2,10 +2,10 @@
 # steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_ekos-capture_3.6.0\n"
+"Project-Id-Version: kstars_ekos-capture_3.6.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-22 10:31+0200\n"
-"PO-Revision-Date: 2022-06-04 08:10+0200\n"
+"PO-Revision-Date: 2022-11-20 07:56+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -174,7 +174,7 @@ msgstr "<guilabel>ISO</guilabel> : spécifie la valeur ISO (seulement pour les 
 #: ekos-capture.docbook:97
 #, no-c-format
 msgid "<guilabel>Format</guilabel>: Specify capture save format. For all CCDs, only <guimenuitem>FITS</guimenuitem> option is available. For DSLR cameras, you can an additional option to save in <guimenuitem>Native</guimenuitem> format (&eg; RAW or JPEG)."
-msgstr "<guilabel>Format</guilabel> : spécifie le format d'enregistrement des images. Pour tous les CCD, seule l'option <guimenuitem>FITS</guimenuitem> est disponible. Pour les APN, vous pouvez enregistrer les images au format <guimenuitem>Natif</guimenuitem> (&cad; RAW ou JPEG, mais préférez RAW) en plus du format <guimenuitem>FITS</guimenuitem>."
+msgstr "<guilabel>Format</guilabel> : spécifie le format d'enregistrement des images. Pour tous les CCD, seule l'option <guimenuitem>FITS</guimenuitem> est disponible. Pour les APN, vous pouvez enregistrer les images au format <guimenuitem>Natif</guimenuitem> (c'est-à-dire RAW ou JPEG, mais préférez RAW) en plus du format <guimenuitem>FITS</guimenuitem>."
 
 #. Tag: para
 #. +> trunk5
@@ -286,7 +286,7 @@ msgstr "M45_Light_Rouge_002.fits"
 #: ekos-capture.docbook:179
 #, no-c-format
 msgid "If <guilabel>TS</guilabel> was checked, a timestamp will be appended to the filename, &eg;"
-msgstr "Si la case <guilabel>HD</guilabel> est cochée, un horodatage sera ajouté au nom de fichier, &cad; :"
+msgstr "Si la case <guilabel>HD</guilabel> est cochée, un horodatage sera ajouté au nom de fichier, c'est-à-dire :"
 
 #. Tag: para
 #. +> trunk5

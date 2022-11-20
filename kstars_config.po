@@ -9,7 +9,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_config_3.6.0\n"
+"Project-Id-Version: kstars_config_3.6.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-01 10:07+0200\n"
 "PO-Revision-Date: 2022-06-15 08:50+0200\n"
@@ -284,7 +284,7 @@ msgstr "Onglet Guides"
 #: config.docbook:183
 #, no-c-format
 msgid "The <guilabel>Guides</guilabel> page lets you toggle whether non-objects are displayed (&ie;, constellation lines, constellation names, the Milky Way contour)."
-msgstr "La page des <guilabel>Guides</guilabel> vous permet d'afficher ou non les non-objets (&cad; les lignes de constellations, leurs noms ou encore le contour de la Voie Lactée)."
+msgstr "La page des <guilabel>Guides</guilabel> vous permet d'afficher ou non les non-objets (c'est-à-dire les lignes de constellations, leurs noms ou encore le contour de la Voie Lactée)."
 
 #. Tag: primary
 #. +> trunk5
@@ -1039,7 +1039,7 @@ msgstr "Cela est utile si vous souhaitez apporter des modifications à un catalo
 #: config.docbook:640
 #, no-c-format
 msgid "Note however that this is not the recommended way to alter catalogs that are provided by the <ulink url=\"https://invent.kde.org/vboettcher/kstars-catalogs\">catalog packaging repository</ulink> &ie; the catalogs downloaded via the <menuchoice><guimenu>Data</guimenu><guimenuitem>Download New Data...</guimenuitem></menuchoice> menu item."
-msgstr "Veuillez noter que ce n'est pas la méthode recommandée pour modifier des catalogues qui sont fournit par le <ulink url=\"https://invent.kde.org/vboettcher/kstars-catalogs\">dépôt de paquets de catalogues</ulink>, &cad; les catalogues téléchargés via le menu <menuchoice><guimenu>Données</guimenu><guimenuitem>Télécharger de nouvelles données…</guimenuitem></menuchoice>."
+msgstr "Veuillez noter que ce n'est pas la méthode recommandée pour modifier des catalogues qui sont fournit par le <ulink url=\"https://invent.kde.org/vboettcher/kstars-catalogs\">dépôt de paquets de catalogues</ulink>, c'est-à-dire les catalogues téléchargés via le menu <menuchoice><guimenu>Données</guimenu><guimenuitem>Télécharger de nouvelles données…</guimenuitem></menuchoice>."
 
 #. Tag: guibutton
 #. +> trunk5
@@ -1641,7 +1641,7 @@ msgstr "<phrase>Fenêtre des guides</phrase>"
 #: config.docbook:1093
 #, no-c-format
 msgid "The <guilabel>Guides</guilabel> page lets you toggle whether non-objects are displayed (&ie;, constellation lines, constellation names, the Milky Way contour, the <link linkend=\"ai-cequator\">celestial equator</link>, <link linkend=\"ai-ecliptic\">the ecliptic</link>, <link linkend=\"ai-horizon\">the horizon line</link>, and the opaque ground). You can also choose a sky culture, whether you would like to see Latin constellation names, <acronym>IAU</acronym>-standard three-letter abbreviations, or constellation names using your local language."
-msgstr "L'onglet <guilabel>Guides</guilabel> vous permet de (dés)activer l'affichage des éléments qui ne sont pas des objets célestes (&cad; les lignes des constellations, les noms des constellations, le contour de la Voie Lactée, l'<link linkend=\"ai-cequator\">équateur céleste</link>, l'<link linkend=\"ai-ecliptic\">écliptique</link>, la <link linkend=\"ai-horizon\">ligne d'horizon</link> et le sol opaque). Vous pouvez aussi choisir si vous préférez voir les noms latins des constellations, les abréviations standard <acronym>IAU</acronym> à trois lettres ou les noms des constellations dans votre langue."
+msgstr "L'onglet <guilabel>Guides</guilabel> vous permet de (dés)activer l'affichage des éléments qui ne sont pas des objets célestes (c'est-à-dire les lignes des constellations, les noms des constellations, le contour de la Voie Lactée, l'<link linkend=\"ai-cequator\">équateur céleste</link>, l'<link linkend=\"ai-ecliptic\">écliptique</link>, la <link linkend=\"ai-horizon\">ligne d'horizon</link> et le sol opaque). Vous pouvez aussi choisir si vous préférez voir les noms latins des constellations, les abréviations standard <acronym>IAU</acronym> à trois lettres ou les noms des constellations dans votre langue."
 
 #. Tag: title
 #. +> trunk5

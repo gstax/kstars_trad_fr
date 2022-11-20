@@ -2,10 +2,10 @@
 # steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_ekos-guide_3.6.0\n"
+"Project-Id-Version: kstars_ekos-guide_3.6.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-09-17 10:18+0200\n"
-"PO-Revision-Date: 2022-06-05 14:28+0200\n"
+"PO-Revision-Date: 2022-11-20 07:53+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -265,7 +265,7 @@ msgstr "Préférez l'utilisation de câble ST4 entre la caméra guide et la mont
 #: ekos-guide.docbook:163
 #, no-c-format
 msgid "Select different filter (&eg; High contrast) and see if that makes a difference to bring down the noise."
-msgstr "Essayez différents filtres (&cad; à haut contraste) et voyez si cela permet de réduire le bruit."
+msgstr "Essayez différents filtres (c'est-à-dire à haut contraste) et voyez si cela permet de réduire le bruit."
 
 #. Tag: para
 #. +> trunk5
@@ -487,17 +487,17 @@ msgstr "Un graphique de dispersion peut être utilisé pour juger de la <emphasi
 #. Tag: title
 #. +> trunk5
 #: ekos-guide.docbook:307
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Guiding Rate"
 msgid "Guiding with GPG"
-msgstr "Taux de guidage"
+msgstr "Guidage avec GPG"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-guide.docbook:308
 #, no-c-format
 msgid "The internal guider can use predictive and adaptive guiding by enabling GPG guiding. This adaptively models the periodic error of the mount, and adds its predicted contribution to each guide pulse. Optionally, by enabling Dark Guiding, it can output the predicted corrections much faster than the guide camera exposure rate, effectively performing periodic error correction and allowing longer guide camera exposures."
-msgstr ""
+msgstr "Le guidage interne peut utiliser le guidage prédictif et adaptatif en activant le guidage avec GPG. Il utilise un modèle de l'erreur périodique de la monture et ajoute la contribution prédite à chaque impulsion du guidage. En activant l'option Guidage Dark, il peut générer les corrections prédites bien plus rapidement que le taux d'exposition de la caméra guide et ainsi réaliser les corrections de l'erreur périodique, permettant des durées d'exposition de la caméra guide bien plus importantes."
 
 #. Tag: title
 #. +> trunk5

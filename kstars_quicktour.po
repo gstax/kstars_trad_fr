@@ -8,7 +8,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_quicktour_3.6.0\n"
+"Project-Id-Version: kstars_quicktour_3.6.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-28 09:15+0200\n"
 "PO-Revision-Date: 2022-06-15 09:00+0200\n"
@@ -374,7 +374,7 @@ msgstr "La fenêtre contient la liste de (presque, voire <xref linkend=\"catalog
 #: quicktour.docbook:278
 #, no-c-format
 msgid "&kstars; provides another method for resolving the objects that are missing from any of its predefined catalogues, by using an internet connection. Thus, if you want to find an object that &kstars; is not aware of, you can easily do this by querying several professional astronomical databases as: SIMBAD, NED or VizieR. This can be done by entering the object's name and then press the <guibutton>or search the internet for <replaceable>ObjectName</replaceable></guibutton> button. After your object is found, you can use it exactly as any object that is already loaded into &kstars; (&ie; adding it to the Observing WishList). If the object was not found in the online databases, then a warning dialogue will pop-up. Once you resolve an object by using this method, it is stored in &kstars; database, so if you close &kstars; and open it again, your object will still be there."
-msgstr "&kstars; fournit une autre méthode pour résoudre les objets qui sont absents des catalogues prédéfinis, qui est d'utiliser une recherche en ligne. Ainsi, si vous souhaitez trouver un objet que &kstars; ne connaît pas, vous pouvez le faire facilement en questionnant plusieurs bases de données astronomiques comme SIMBAD, NED ou encore VizieR. Cela peut être fait en indiquant le nom de l'objet et ensuite en cliquant sur le bouton <guibutton>Chercher <replaceable>ObjectName</replaceable> sur Internet</guibutton>. Une fois l'objet trouvé, vous pouvez l'utiliser de la même manière que n'importe quel autre objet déjà chargé dans &kstars; (&cad; l'ajouter dans votre liste de souhaits). Si l'objet n'a pas été trouvé dans les bases de données en ligne, un message d'avertissement apparaîtra. Une fois qu'un objet a été trouvé par cette méthode, il sera ajouté à la base de données de &kstars; pour pouvoir être utilisé ultérieurement."
+msgstr "&kstars; fournit une autre méthode pour résoudre les objets qui sont absents des catalogues prédéfinis, qui est d'utiliser une recherche en ligne. Ainsi, si vous souhaitez trouver un objet que &kstars; ne connaît pas, vous pouvez le faire facilement en questionnant plusieurs bases de données astronomiques comme SIMBAD, NED ou encore VizieR. Cela peut être fait en indiquant le nom de l'objet et ensuite en cliquant sur le bouton <guibutton>Chercher <replaceable>ObjectName</replaceable> sur Internet</guibutton>. Une fois l'objet trouvé, vous pouvez l'utiliser de la même manière que n'importe quel autre objet déjà chargé dans &kstars; (c'est-à-dire l'ajouter dans votre liste de souhaits). Si l'objet n'a pas été trouvé dans les bases de données en ligne, un message d'avertissement apparaîtra. Une fois qu'un objet a été trouvé par cette méthode, il sera ajouté à la base de données de &kstars; pour pouvoir être utilisé ultérieurement."
 
 #. Tag: para
 #. +> trunk5

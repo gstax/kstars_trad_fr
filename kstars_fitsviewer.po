@@ -8,7 +8,7 @@
 # Xavier Besnard <xavier.besnard@neuf.fr>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_fitsviewer_3.6.0\n"
+"Project-Id-Version: kstars_fitsviewer_3.6.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-12 07:02+0200\n"
 "PO-Revision-Date: 2022-08-01 17:34+0200\n"
@@ -446,7 +446,7 @@ msgstr "Plusieurs filtres peuvent être appliqués pour améliorer l'image en in
 #: fitsviewer.docbook:110
 #, no-c-format
 msgid "When loading a bayered image, the viewer can automatically debayer the image if <emphasis>Auto Debayer</emphasis> is checked in the FITS Settings. The debayering operation fetches the bayer pattern (&eg; RGGB) from the FITS header. If none exists, you can alter the debayering algorithm and pattern from the <guimenu>File</guimenu> menu or by using the <keycombo>&Ctrl; <keycap>D</keycap></keycombo> shortcut."
-msgstr "Quand une image bayerisé est chargée, l'afficheur peur automatiquement la débayériser si le réglage FITS <quote>Auto débayerisation</quote> est coché. Cette opération lit le motif de Bayer (&cad; RGGB) dans l'en-tête FITS. Si aucun n'est trouvé, vous pouvez modifier l'algorithme et le motif dans le menu <guimenu>Fichier</guimenu> ou avec le raccourci <keycombo>&Ctrl; <keycap>D</keycap></keycombo>."
+msgstr "Quand une image bayerisé est chargée, l'afficheur peur automatiquement la débayériser si le réglage FITS <quote>Auto débayerisation</quote> est coché. Cette opération lit le motif de Bayer (c'est-à-dire RGGB) dans l'en-tête FITS. Si aucun n'est trouvé, vous pouvez modifier l'algorithme et le motif dans le menu <guimenu>Fichier</guimenu> ou avec le raccourci <keycombo>&Ctrl; <keycap>D</keycap></keycombo>."
 
 #. Tag: para
 #. +> trunk5
@@ -656,7 +656,7 @@ msgstr "Fournit des statistiques simples : moyenne, écart-type moyen et média
 #: fitsviewer.docbook:253
 #, no-c-format
 msgid "The user can either set the selection region by <keycombo>&Shift;<keycap>Left Click</keycap></keycombo> dragging or by choosing an entry from the drop down menu of the Toggle Selection Rectangle button. In addition to this, the user can translate the region by simple <keycap>Left Click</keycap> drag of the mouse. The statistics of the region are shown as a tooltip once the cursor is brought over the selection region. For smaller images, the statistics are updated instantly, and for larger images, the statistics are updated once the user releases the <keycap>Left Click</keycap> button after modification of the region."
-msgstr "L'utilisateur peut soit sélectionner une région en glissant le pointeur après un <keycombo>&Shift; <keycap>Clic gauche</keycap></keycombo> ou en choisissant une entrée du menu déroulant du bouton de sélection de rectangle. De plus, l'utilisateur peut translater la région d'un simple <keycap>Clic gauche</keycap> de la souris. Les statistiques de la région sont affichées en surimpression lors d'un survol de la région sélectionnée. Les statistiques sont mises à jour instantanément pour les petites images et pour les grandes images, celles-ci sont mises à jour au relâchement du <keycap>Clic gauche</keycap> après modification de la région."
+msgstr "L'utilisateur peut soit sélectionner une région en glissant le pointeur après un <keycombo>&Maj; <keycap>Clic gauche</keycap></keycombo> ou en choisissant une entrée du menu déroulant du bouton de sélection de rectangle. De plus, l'utilisateur peut translater la région d'un simple <keycap>Clic gauche</keycap> de la souris. Les statistiques de la région sont affichées en surimpression lors d'un survol de la région sélectionnée. Les statistiques sont mises à jour instantanément pour les petites images et pour les grandes images, celles-ci sont mises à jour au relâchement du <keycap>Clic gauche</keycap> après modification de la région."
 
 #. Tag: title
 #. +> trunk5
