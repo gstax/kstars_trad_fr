@@ -2,10 +2,10 @@
 # steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_ekos-guide_3.6.0\n"
+"Project-Id-Version: kstars_ekos-guide_3.6.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-22 10:31+0200\n"
-"PO-Revision-Date: 2022-06-05 14:28+0200\n"
+"POT-Creation-Date: 2022-09-17 10:18+0200\n"
+"PO-Revision-Date: 2022-11-20 07:53+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -13,6 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 20.12.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: title
 #. +> trunk5
@@ -264,7 +265,7 @@ msgstr "Préférez l'utilisation de câble ST4 entre la caméra guide et la mont
 #: ekos-guide.docbook:163
 #, no-c-format
 msgid "Select different filter (&eg; High contrast) and see if that makes a difference to bring down the noise."
-msgstr "Essayez différents filtres (&eg; à haut contraste) et voyez si cela permet de réduire le bruit."
+msgstr "Essayez différents filtres (c'est-à-dire à haut contraste) et voyez si cela permet de réduire le bruit."
 
 #. Tag: para
 #. +> trunk5
@@ -378,26 +379,26 @@ msgstr "<guilabel>PHD2</guilabel> : utilise PHD2 comme guidage externe. Si vous
 msgid "<guilabel>LinGuider</guilabel>: Use LinGuider as the external guider. If selected, specify the host and port of the LinGuider. Leave to default values if Ekos and LinGuider are running on the same machine."
 msgstr "<guilabel>LinGuider</guilabel> : utilise LinGuider comme guidage externe. Si vous sélectionnez cette option, il faut spécifier l'hôte et le port sur lequel tourne LinGuider. Laissez les valeurs par défaut si Ekos et LinGuider tournent sur la même machine."
 
+#. Tag: title
+#. +> trunk5
+#: ekos-guide.docbook:244
+#, no-c-format
+msgid "<title>Guiding Direction Control</title>"
+msgstr "<title>Contrôle de direction du guidage</title>"
+
 #. Tag: screeninfo
 #. +> trunk5
-#: ekos-guide.docbook:242
+#: ekos-guide.docbook:246
 #, no-c-format
 msgid "<screeninfo>Guiding Direction Control</screeninfo>"
 msgstr "<screeninfo>Contrôle de direction du guidage</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: ekos-guide.docbook:250
+#: ekos-guide.docbook:254
 #, no-c-format
 msgid "<phrase>Guiding Direction Control</phrase>"
 msgstr "<phrase>Contrôle de direction du guidage</phrase>"
-
-#. Tag: title
-#. +> trunk5
-#: ekos-guide.docbook:257
-#, no-c-format
-msgid "<title>Guiding Direction Control</title>"
-msgstr "<title>Contrôle de direction du guidage</title>"
 
 #. Tag: para
 #. +> trunk5
@@ -487,47 +488,62 @@ msgstr "Un graphique de dispersion peut être utilisé pour juger de la <emphasi
 #. +> trunk5
 #: ekos-guide.docbook:307
 #, no-c-format
+#| msgid "Guiding Rate"
+msgid "Guiding with GPG"
+msgstr "Guidage avec GPG"
+
+#. Tag: para
+#. +> trunk5
+#: ekos-guide.docbook:308
+#, no-c-format
+msgid "The internal guider can use predictive and adaptive guiding by enabling GPG guiding. This adaptively models the periodic error of the mount, and adds its predicted contribution to each guide pulse. Optionally, by enabling Dark Guiding, it can output the predicted corrections much faster than the guide camera exposure rate, effectively performing periodic error correction and allowing longer guide camera exposures."
+msgstr "Le guidage interne peut utiliser le guidage prédictif et adaptatif en activant le guidage avec GPG. Il utilise un modèle de l'erreur périodique de la monture et ajoute la contribution prédite à chaque impulsion du guidage. En activant l'option Guidage Dark, il peut générer les corrections prédites bien plus rapidement que le taux d'exposition de la caméra guide et ainsi réaliser les corrections de l'erreur périodique, permettant des durées d'exposition de la caméra guide bien plus importantes."
+
+#. Tag: title
+#. +> trunk5
+#: ekos-guide.docbook:314
+#, no-c-format
 msgid "PHD2 Support"
 msgstr "Gestion de PHD2"
 
 #. Tag: para
 #. +> trunk5
-#: ekos-guide.docbook:308
+#: ekos-guide.docbook:315
 #, no-c-format
 msgid "You can opt to select external PHD2 application to perform guiding instead of the built-in guider."
 msgstr "Vous pouvez choisir d'utiliser l'application externe PHD2 pour réaliser le guidage plutôt que d'utiliser le guidage intégré."
 
 #. Tag: screeninfo
 #. +> trunk5
-#: ekos-guide.docbook:312
+#: ekos-guide.docbook:319
 #, no-c-format
 msgid "<screeninfo>Ekos Guide PHD2 settings</screeninfo>"
 msgstr "<screeninfo>Réglages du guidage PHD2 Ekos</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: ekos-guide.docbook:320
+#: ekos-guide.docbook:327
 #, no-c-format
 msgid "<phrase>Ekos Guide PHD2 settings</phrase>"
 msgstr "<phrase>Réglages du guidage PHD2 Ekos</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: ekos-guide.docbook:325
+#: ekos-guide.docbook:332
 #, no-c-format
 msgid "If PHD2 is selected, the <guibutton>Connect</guibutton> and <guibutton>Disconnect</guibutton> buttons are enabled to allow you to establish a connection with the PHD2 server. You can control PHD2 exposure and DEC guide settings. When clicking <guibutton>Guide</guibutton>, PHD2 should perform all the required actions to start the guiding process. PHD2 <emphasis role=\"bold\">must</emphasis> be started and configured <emphasis>before</emphasis> Ekos."
 msgstr "Si PHD2 est sélectionné, les boutons <guibutton>Connexion</guibutton> et <guibutton>Déconnexion</guibutton> sont activés pour vous permettre d'établir la connexion avec le serveur PHD2. Vous pouvez contrôler la durée d'exposition de PHD2 et régler le guidage en DEC. Quand vous cliquez sur <guibutton>Guidage</guibutton>, PHD2 réalisera toutes les actions requises pour débuter la procédure de guidage. Veuillez noter que PHD2 <emphasis role=\"bold\">doit</emphasis> être démarré et configuré <emphasis>avant</emphasis> Ekos."
 
 #. Tag: para
 #. +> trunk5
-#: ekos-guide.docbook:328
+#: ekos-guide.docbook:335
 #, no-c-format
 msgid "After launching PHD2, select your INDI equipment and set their options. From Ekos, connect to PHD2 by clicking the <guibutton>Connect</guibutton> button. On startup, Ekos will attempt to automatically connect to PHD2. Once the connection is established, you may begin the guiding immediately by click on the <guibutton>Guide</guibutton> button. PHD2 shall perform calibration if necessary. If dithering is selected, PHD2 shall be commanded to dither given the offset pixels indicated and once guiding is settled and stable, the capture process in Ekos shall resume."
 msgstr "Après avoir démarré PHD2, sélectionnez votre matériel INDI et configurez les options. Vous pouvez vous connecter à PHD2 directement depuis Ekos en cliquant sur le bouton <guibutton>Connexion</guibutton>. Au démarrage Ekos tentera de se connecter automatiquement à PHD2. Une fois que la connexion est établie, vous pouvez débuter le guidage immédiatement en cliquant sur le bouton <guibutton>Guidage</guibutton>. PHD2 procédera à la calibration si nécessaire. Si les mini-déviations (dithering) sont activées, PHD2 enverra les commandes de mini-déviations données par le décalage des pixels et dès que le guidage est stabilisé et stable, Ekos pourra reprendre la procédure d'acquisition."
 
 #. Tag: para
 #. +> trunk5
-#: ekos-guide.docbook:332
+#: ekos-guide.docbook:339
 #, no-c-format
 msgid "Ekos saves a CSV guide log data that can be useful for analysis of the mount's performance under <filename>~/.local/share/kstars/guide_log.txt</filename>. This log is only available when using the built-in guider."
 msgstr "Ekos enregistre les données de guidage dans un fichier CSV (<filename>~/.local/share/kstars/guide_log.txt</filename>) qui pourra être utile pour analyser les performances de la montures. Ce fichier journal n'est disponible que pour le guidage interne."

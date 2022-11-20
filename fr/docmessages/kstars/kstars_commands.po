@@ -9,10 +9,10 @@
 # Xavier Besnard <xavier.besnard@neuf.fr>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_commands_3.6.0\n"
+"Project-Id-Version: kstars_commands_3.6.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-06-11 10:18+0200\n"
-"PO-Revision-Date: 2022-07-15 17:13+0200\n"
+"PO-Revision-Date: 2022-11-20 07:44+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -420,7 +420,7 @@ msgstr "(Dés)active le mode plein écran."
 #: commands.docbook:302
 #, no-c-format
 msgid "<shortcut> &Space; </shortcut> <guimenu>View</guimenu> <guimenuitem>Switch to Star Globe View / Switch to Horizontal View</guimenuitem>"
-msgstr "<shortcut> &Space; </shortcut> <guimenu>Affichage</guimenu> <guimenuitem>Passer à la vue du globe céleste (Coordonnées équatoriales) / Passer à la vue horizontale (Coordonnées azimutales)</guimenuitem>"
+msgstr "<shortcut> <keysym>Espace</keysym> </shortcut> <guimenu>Affichage</guimenu> <guimenuitem>Passer à la vue du globe céleste (Coordonnées équatoriales) / Passer à la vue horizontale (Coordonnées azimutales)</guimenuitem>"
 
 #. Tag: para
 #. +> trunk5
@@ -1998,7 +1998,7 @@ msgstr "Ajoute un nouvel élément d'observateur pour vos fichiers journaux d'ob
 #: commands.docbook:1357
 #, no-c-format
 msgid "&Space;"
-msgstr "&Space;"
+msgstr "<keysym>Espace</keysym>"
 
 #. Tag: keycap
 #. +> trunk5

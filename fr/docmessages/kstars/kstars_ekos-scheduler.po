@@ -2,10 +2,10 @@
 # steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_ekos_scheduler_3.6.0\n"
+"Project-Id-Version: kstars_ekos_scheduler_3.6.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-29 10:03+0200\n"
-"PO-Revision-Date: 2022-08-04 15:56+0200\n"
+"PO-Revision-Date: 2022-11-20 07:54+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -13,6 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 20.12.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: title
 #. +> trunk5
@@ -481,7 +482,7 @@ msgstr ""
 #: ekos-scheduler.docbook:268
 #, no-c-format
 msgid "The startup and shutdown scripts must be <emphasis>executable</emphasis> in order for Ekos to invoke them (&eg; use <userinput>chmod +x startup_script.py</userinput> to mark the script as executable). Ekos Scheduler enables truly simple robotic operation without the need of any human intervention in any step of the process. Without human presence, it becomes increasingly critical to gracefully recover from failures in any stage of the observation run. Using &plasma; notifications, the user can configure audible alarms and email notifications for the various events in the scheduler."
-msgstr "Les scripts doivent être <emphasis>exécutables</emphasis> pour qu'Ekos puisse les invoquer (&eg; utilisez la commande <userinput>chmod u+x startup_script.py</userinput> pour le rendre exécutable). L'ordonnanceur d'Ekos permet d'opérer un observatoire de manière complètement robotisée sans aucune intervention humaine. Il est donc critique que le système puisse se rétablir après des erreurs, et cela à n'importe quelle étape du processus d'observation. L'utilisation des notifications &plasma; permet de configurer des alarmes audibles et l'envoi automatique de courriels pour divers événements de l'ordonnanceur."
+msgstr "Les scripts doivent être <emphasis>exécutables</emphasis> pour qu'Ekos puisse les invoquer (c'est-à-dire utilisez la commande <userinput>chmod u+x startup_script.py</userinput> pour le rendre exécutable). L'ordonnanceur d'Ekos permet d'opérer un observatoire de manière complètement robotisée sans aucune intervention humaine. Il est donc critique que le système puisse se rétablir après des erreurs, et cela à n'importe quelle étape du processus d'observation. L'utilisation des notifications &plasma; permet de configurer des alarmes audibles et l'envoi automatique de courriels pour divers événements de l'ordonnanceur."
 
 #. Tag: title
 #. +> trunk5
@@ -628,7 +629,7 @@ msgstr "<phrase>Outil de mosaïque de l'ordonnanceur - grande rotation</phrase>"
 #: ekos-scheduler.docbook:369
 #, no-c-format
 msgid "<emphasis role=\"bold\">Adjust Grid</emphasis>: Adjust Grid center by manually entering the J2000 center or by dragging the center of the mosaic on the sky map."
-msgstr "<emphasis role=\"bold\">Ajustement de la grille</emphasis> : sélectionner la dimension des panneaux et le pourcentage de recouvrement. Le panneau de mosaïque est mise à jour en conséquence sur la carte du ciel." 
+msgstr "<emphasis role=\"bold\">Ajustement de la grille</emphasis> : sélectionner la dimension des panneaux et le pourcentage de recouvrement. Le panneau de mosaïque est mise à jour en conséquence sur la carte du ciel."
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -690,7 +691,7 @@ msgstr "Cliquer sur le bouton <guibutton>Créer les tâches</guibutton> pour gé
 
 #, no-c-format
 #~ msgid "Next, enter the desired <guilabel>overlap</guilabel> and number of horizontal and vertical <guilabel>mosaic grid</guilabel> panels (&eg; 2x2, 3x3, &etc;). The sky chart will update automatically after a short time, with target FOV calculated given the number of grid panes and your camera's FOV. By default, the percentage of the overlap among images is 5%, but you can change this value to your desired value. Changing the <guilabel>overlap</guilabel> will adjust the <guilabel>mosaic grid</guilabel> to cover the same area, while changing the <guilabel>mosaic grid</guilabel> will extend or shrink the mosaic area. To reset the extents of the mosaic field of view to the area expectedly covered by the grid, click <guibutton>Cover FOV</guibutton>."
-#~ msgstr "Ensuite, vous devez indiquer le <guilabel>chevauchement</guilabel> désiré et le nombre de panneaux horizontaux et verticaux de la <guilabel>grille de la mosaïque</guilabel> (&eg; 2x2, 3x3, &etc;). La carte du ciel se mettra automatiquement à jour après quelques secondes avec le champ de vision calculé étant donné le nombre de panneaux de la grille et le champ de vision de votre caméra. Par défaut, le pourcentage de recouvrement entre les images est de 5%, mais vous pouvez modifier cette valeur à votre guise. Changer le <guilabel>chevauchement</guilabel> ajustera la <guilabel>grille de la mosaïque</guilabel> pour couvrir la même surface, alors que changer la <guilabel>grille de la mosaïque</guilabel> augmentera ou diminuera la région de la mosaïque. Pour réinitialiser l'extension du champ de vision de la mosaïque à la région attendue couverte par la grille, cliquez sur le bouton <guibutton>Couvrir CdV</guibutton>."
+#~ msgstr "Ensuite, vous devez indiquer le <guilabel>chevauchement</guilabel> désiré et le nombre de panneaux horizontaux et verticaux de la <guilabel>grille de la mosaïque</guilabel> (&cad; 2x2, 3x3, &etc;). La carte du ciel se mettra automatiquement à jour après quelques secondes avec le champ de vision calculé étant donné le nombre de panneaux de la grille et le champ de vision de votre caméra. Par défaut, le pourcentage de recouvrement entre les images est de 5%, mais vous pouvez modifier cette valeur à votre guise. Changer le <guilabel>chevauchement</guilabel> ajustera la <guilabel>grille de la mosaïque</guilabel> pour couvrir la même surface, alors que changer la <guilabel>grille de la mosaïque</guilabel> augmentera ou diminuera la région de la mosaïque. Pour réinitialiser l'extension du champ de vision de la mosaïque à la région attendue couverte par la grille, cliquez sur le bouton <guibutton>Couvrir CdV</guibutton>."
 
 #, no-c-format
 #~ msgid "<screeninfo>Scheduler Mosaic Tool - Field of view</screeninfo>"

@@ -2,10 +2,10 @@
 # steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_ekos-align_3.6.0\n"
+"Project-Id-Version: kstars_ekos-align_3.6.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-22 10:31+0200\n"
-"PO-Revision-Date: 2022-04-13 15:11+0200\n"
+"PO-Revision-Date: 2022-11-20 07:53+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -13,6 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 20.12.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: title
 #. +> trunk5
@@ -75,7 +76,7 @@ msgstr "Le module Analyse enregistre et affiche ce qui s'est passé durant une s
 #: ekos-analyze.docbook:26
 #, no-c-format
 msgid "There are two main graphs, <guilabel>Timeline</guilabel> and <guilabel>Stats</guilabel>. They are coordinated&mdash;they always display the same time interval from the Ekos session, though the x-axis of the <guilabel>Timeline</guilabel> shows seconds elapsed from the start of the log, and <guilabel>Stats</guilabel> shows clock time. The x-axis can be zoomed in and out with the <guibutton>+/-</guibutton> button, mouse <mousebutton>wheel</mousebutton>, as well as with standard keyboard shortcuts (&eg; zoom-in == <keycombo>&Ctrl;<keycap>+</keycap></keycombo>) The x-axis can be panned with the scroll bar as well as with the left and right arrow keys. You can view your current imaging session, or review old sessions by loading <literal role=\"extension\">.analyze</literal> files using the <guilabel>Input</guilabel> dropdown. Checking <guilabel>Full Width</guilabel> displays all the data, and <guilabel>Latest</guilabel> displays the most recent data (you can control the width by zooming)."
-msgstr "Il y a deux graphiques principaux, <guilabel>Chronologie</guilabel> et <guilabel>Statistiques</guilabel>. Les deux sont synchronisés au sens où ils utilisent le même intervalle de temps de la session Ekos quoique l'axe de x du graphique <guilabel>Chronologie</guilabel> affiche les secondes depuis le début du fichier journal alors que le graphique des <guilabel>Statistiques</guilabel> montre le temps de l'horloge. Un zoom avant ou arrière est possible sur cet axe avec le bouton <guibutton>+/-</guibutton> ou la <mousebutton>molette</mousebutton> de la souris ou encore le raccourci clavier standard (&eg; zoom avant == <keycombo>&Ctrl;<keycap>+</keycap></keycombo>). L'axe temporel peut être déplacé avec la barre de défilement ou avec les touches flèches du clavier. Vous pouvez visualiser votre session courante ou revoir d'anciennes sessions en ouvrant les fichiers <literal role=\"extension\">.analyze</literal> avec la liste déroulante <guilabel>Entrée</guilabel>. En cochant la case <guilabel>Plein champ</guilabel>, vous verrez toutes les données alors que la case <guilabel>Dernier</guilabel> affichera les données les plus récentes (vous pouvez contrôler la largeur en zoomant)."
+msgstr "Il y a deux graphiques principaux, <guilabel>Chronologie</guilabel> et <guilabel>Statistiques</guilabel>. Les deux sont synchronisés au sens où ils utilisent le même intervalle de temps de la session Ekos quoique l'axe de x du graphique <guilabel>Chronologie</guilabel> affiche les secondes depuis le début du fichier journal alors que le graphique des <guilabel>Statistiques</guilabel> montre le temps de l'horloge. Un zoom avant ou arrière est possible sur cet axe avec le bouton <guibutton>+/-</guibutton> ou la <mousebutton>molette</mousebutton> de la souris ou encore le raccourci clavier standard (c'est-à-dire zoom avant == <keycombo>&Ctrl;<keycap>+</keycap></keycombo>). L'axe temporel peut être déplacé avec la barre de défilement ou avec les touches flèches du clavier. Vous pouvez visualiser votre session courante ou revoir d'anciennes sessions en ouvrant les fichiers <literal role=\"extension\">.analyze</literal> avec la liste déroulante <guilabel>Entrée</guilabel>. En cochant la case <guilabel>Plein champ</guilabel>, vous verrez toutes les données alors que la case <guilabel>Dernier</guilabel> affichera les données les plus récentes (vous pouvez contrôler la largeur en zoomant)."
 
 #. Tag: title
 #. +> trunk5

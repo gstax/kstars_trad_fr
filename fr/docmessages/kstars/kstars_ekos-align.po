@@ -2,10 +2,10 @@
 # steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_ekos_align_3.6.0\n"
+"Project-Id-Version: kstars_ekos_align_3.6.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-22 10:31+0200\n"
-"PO-Revision-Date: 2022-06-10 06:24+0200\n"
+"PO-Revision-Date: 2022-11-20 07:49+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -13,6 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 20.12.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: title
 #. +> trunk5
@@ -782,7 +783,7 @@ msgstr "<guilabel>Assistant d'alignement polaire</guilabel> : un outil simple d
 #: ekos-align.docbook:340
 #, no-c-format
 msgid "<guilabel>Legacy Polar Alignment Tool</guilabel>: Measure polar alignment error when a view of the celestial pole (&eg; Polaris for Northern Hemisphere) is not available."
-msgstr "<guilabel>Ancien outil d'alignement polaire</guilabel> : permet de mesurer les erreurs d'alignement polaire pour les situations où la vue d'un pôle céleste (&eg; Polaris pour l'hémisphère Nord) n'est pas possible."
+msgstr "<guilabel>Ancien outil d'alignement polaire</guilabel> : permet de mesurer les erreurs d'alignement polaire pour les situations où la vue d'un pôle céleste (c'est-à-dire Polaris pour l'hémisphère Nord) n'est pas possible."
 
 #. Tag: para
 #. +> trunk5
