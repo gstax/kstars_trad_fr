@@ -113,7 +113,8 @@ Cela créera le fichier kstars.pdf.
 * Points cardinaux : attention aux règles (p. ex (https://www.btb.termiumplus.gc.ca/redac-chap?lang=fra&lettr=chapsect3&info0=3.3.2)
 * Enlever tous les :
 * Pas de guillemets autour de Ekos et INDI 
-* En français l'apostrophe est le caractère U+2019 « ’ », et non U+0027 « ' » (qui correspond à celle sur mon clavier, même touche que le ?). Dans vim, on peut les trouver en faisant [\u0027], et on l'entre avec « Ctrl+K '9 ». 
+* En français l'apostrophe est le caractère U+2019 « ’ », et non U+0027 « ' » (qui correspond à celle sur mon clavier, même touche que le ?). Dans vim, on peut les trouver en faisant [\u0027], et on l'entre avec « Ctrl+K '9 ». Dans vim, on peut chercher et remplacer avec:
+:%s/[\u0027]/’/gc (en entrant directement Ctrl+k '9 dans la ligne ex)
 
 ## Glossaire
 
