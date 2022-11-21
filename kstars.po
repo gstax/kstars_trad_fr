@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.6.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-18 10:29+0100\n"
-"PO-Revision-Date: 2022-11-20 20:58+0100\n"
+"PO-Revision-Date: 2022-11-21 19:20+0100\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -7252,7 +7252,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Longueur focale fournie par le télescope actif en millimètres. Mettre à jour la longueur focale du télescope pour qu’elle corresponde à la longueur focale réelle afin d’accélérer la résolution astrométrique.</p>"
+"<p>Longueur focale fournie par le télescope actif en millimètres. Mettre à jour la longueur focale du télescope pour qu'elle corresponde à la longueur focale réelle afin d'accélérer la résolution astrométrique.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_16)
@@ -10761,13 +10761,13 @@ msgstr "Tâche"
 #: ekos/analyze/analyze.cpp:1720
 #, kde-format
 msgid "The \"Auto Compute HFR\" option in the KStars FITS options menu is not set. You won't get HFR values without it. Once you set it, newly captured images will have their HFRs computed."
-msgstr "L’option Calcul automatique du HFR dans le menu des options FITS de KStars n’est pas définie. Vous n’obtiendrez pas de valeurs HFR sans elle. Une fois que vous la sélectionnez, les images nouvellement acquises auront leurs HFR calculés."
+msgstr "L'option Calcul automatique du HFR dans le menu des options FITS de KStars n'est pas définie. Vous n'obtiendrez pas de valeurs HFR sans elle. Une fois que vous la sélectionnez, les images nouvellement acquises auront leurs HFR calculés."
 
 #. +> trunk5
 #: ekos/analyze/analyze.cpp:1736
 #, kde-format
 msgid "The \"Auto Compute HFR\" option in the KStars FITS options menu is not set. You won't get # stars in capture image values without it. Once you set it, newly captured images will have their stars detected."
-msgstr "L’option « Calcul automatique du HFR » dans le menu des options FITS de KStars n’est pas paramétrée. Vous n’obtiendrez pas # de valeur dans l'image acquise. Une fois paramétrées, les images nouvellement acquises verront leurs étoiles détectées."
+msgstr "L'option « Calcul automatique du HFR » dans le menu des options FITS de KStars n'est pas paramétrée. Vous n'obtiendrez pas # de valeur dans l'image acquise. Une fois paramétrées, les images nouvellement acquises verront leurs étoiles détectées."
 
 #. +> trunk5
 #: ekos/analyze/analyze.cpp:2371 ekos/auxiliary/ledstatuswidget.cpp:78
@@ -10948,7 +10948,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Pendant l’enregistrement en direct, conserver le dernier tracé. Les dernières actions réalisées par Ekos sont affichées sur le côté droit du tracé.</p>"
+"<p>Pendant l'enregistrement en direct, conserver le dernier tracé. Les dernières actions réalisées par Ekos sont affichées sur le côté droit du tracé.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, keepCurrentCB)
@@ -11012,7 +11012,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Heure de l'horloge pour le curseur de tracé des statistiques. S’il n’y a aucun curseur et que le dernier est cochée, alors, c’est l’heure de l’horloge à droite du tracé.</p>"
+"<p>Heure de l'horloge pour le curseur de tracé des statistiques. S'il n'y a aucun curseur et que le dernier est cochée, alors, c'est l'heure de l'horloge à droite du tracé.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, zoomOutB)
@@ -11051,7 +11051,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Tracer l’erreur de dérive en ascension droite (AD) en secondes d'arc.</p>"
+"<p>Tracer l'erreur de dérive en ascension droite (AD) en secondes d'arc.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, raCB)
@@ -11086,7 +11086,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Tracer l’erreur de dérive de déclinaison (DEC) en secondes d'arc.</p>"
+"<p>Tracer l'erreur de dérive de déclinaison (DEC) en secondes d'arc.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, decCB)
@@ -11168,7 +11168,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Tracer l’erreur de dérive combinée AD et DEC en secondes d'arc.</p>"
+"<p>Tracer l'erreur de dérive combinée AD et DEC en secondes d'arc.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, driftCB)
@@ -11309,7 +11309,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Tracer le rapport signal-bruit (SNR) de l’étoile de guidage.</p>"
+"<p>Tracer le rapport signal-bruit (SNR) de l'étoile de guidage.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, snrCB)
@@ -11342,7 +11342,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Tracer l’erreur de dérive d’ascension droite (AD) là où le telescope pointe.</p>"
+"<p>Tracer l'erreur de dérive d'ascension droite (AD) là où le telescope pointe.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, mountRaOut)
@@ -11355,7 +11355,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>L’ascension droite (AD) au format H:M:S où le télescope pointe.</p>"
+"<p>L'ascension droite (AD) au format H:M:S où le télescope pointe.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, mountDecCB)
@@ -11560,7 +11560,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Tracer le nombre d’étoiles détectées dans les images acquises.</p>"
+"<p>Tracer le nombre d'étoiles détectées dans les images acquises.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, medianCB)
@@ -11595,7 +11595,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Tracer l’excentricité médiane des étoiles dans les images acquises.</p>"
+"<p>Tracer l'excentricité médiane des étoiles dans les images acquises.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, eccentricityCB)
@@ -12097,7 +12097,7 @@ msgstr "Niveau d'agressivité. Augmenter cette valeur pour inclure plus de pixel
 #: ekos/auxiliary/darklibrary.ui:979
 #, kde-format
 msgid "Reset aggressiveness sliders to default values."
-msgstr "Réinitialiser les curseurs d’agressivité aux valeurs par défaut."
+msgstr "Réinitialiser les curseurs d'agressivité aux valeurs par défaut."
 
 #. i18n: ectx: property (text), widget (QPushButton, resetMapParametersB)
 #. i18n: ectx: property (text), widget (QPushButton, resetFrameB)
@@ -12194,7 +12194,7 @@ msgstr "°C"
 #: ekos/auxiliary/darklibrary.ui:1129 kstars.kcfg:1744
 #, kde-format
 msgid "Reuse dark frames from the dark library for this many days. If exceeded, a new dark frame shall be captured and stored for future use."
-msgstr "Réutiliser les darks de la bibliothèque de darks pendant ce nombre de jours. S’il est dépassé, un nouveau dark devra être acquis et enregistré pour une utilisation future."
+msgstr "Réutiliser les darks de la bibliothèque de darks pendant ce nombre de jours. S'il est dépassé, un nouveau dark devra être acquis et enregistré pour une utilisation future."
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. +> trunk5
@@ -13240,7 +13240,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Cet outil attribuera des noms <span style=\" font-style:italic;\">permanents</span> à vos périphériques <span style=\" font-weight:600;\">série vers USB</span> afin qu’ils soient plus faciles à connecter à l’avenir. </p>"
+"<p>Cet outil attribuera des noms <span style=\" font-style:italic;\">permanents</span> à vos périphériques <span style=\" font-weight:600;\">série vers USB</span> afin qu'ils soient plus faciles à connecter à l'avenir. </p>"
 "<p><br/>"
 "</p>"
 "<p>Cliquez sur <span style=\" font-weight:600;\">Suivant</span> pour continuer.</p>"
@@ -13478,7 +13478,7 @@ msgstr "Ceci vous permet de supprimer le profil actuellement sélectionné d'opt
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:260
 #, kde-format
 msgid "Saves this single profile to a separate file on your computer so that you can back it up or sent it to someone else."
-msgstr "Enregistre ce profil unique dans un fichier séparé sur votre ordinateur afin de sauvegarde ou l’envoyer à quelqu’un."
+msgstr "Enregistre ce profil unique dans un fichier séparé sur votre ordinateur afin de sauvegarde ou l'envoyer à quelqu'un."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, openProfile)
 #. +> trunk5
@@ -13492,7 +13492,7 @@ msgstr "Ouvre un profil à partir d'un fichier de votre ordinateur et le charge 
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:304
 #, kde-format
 msgid "Copies the current options profile so that you can either make a duplicate in this profile group or copy it into another profile group"
-msgstr "Copie le profil actuel d’options afin que vous puissiez soit faire un double dans ce groupe de profils ou le copier dans un autre groupe de profils"
+msgstr "Copie le profil actuel d'options afin que vous puissiez soit faire un double dans ce groupe de profils ou le copier dans un autre groupe de profils"
 
 #. i18n: ectx: property (toolTip), widget (QTextEdit, description)
 #. +> trunk5
@@ -13814,7 +13814,7 @@ msgstr "Paramètres de filtrage des étoiles (saisir la valeur 0 pour désactive
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:689
 #, kde-format
 msgid "The maximum ratio between the semi-major and semi-minor axes for stars to include (a/b), this will allow you to exclude elliptical sources like galaxies or badly distorted stars."
-msgstr "Le rapport maximal entre demi-grand axe et demi-petit axe, pour les étoiles à inclure (a/b). Cela vous permettra d’exclure les sources elliptiques comme les galaxies ou les étoiles fortement déformées."
+msgstr "Le rapport maximal entre demi-grand axe et demi-petit axe, pour les étoiles à inclure (a/b). Cela vous permettra d'exclure les sources elliptiques comme les galaxies ou les étoiles fortement déformées."
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, brightestPercent)
 #. +> trunk5
@@ -13933,14 +13933,14 @@ msgstr "Conserver #"
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:847
 #, kde-format
 msgid "The number of stars to keep in the list after star extraction.  This parameter is based on magnitude and is most useful to speed up plate solving, such as in the Align Module."
-msgstr "Le nombre d’étoiles à conserver dans la liste après extraction. Ce paramètre est fondé sur la magnitude. Il est le plus utile pour accélérer la résolution astrométrique dans le module d’alignement."
+msgstr "Le nombre d'étoiles à conserver dans la liste après extraction. Ce paramètre est fondé sur la magnitude. Il est le plus utile pour accélérer la résolution astrométrique dans le module d'alignement."
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, initialKeep)
 #. +> trunk5
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:857
 #, kde-format
 msgid "The number of stars to keep in the list initially.  This filter is based on the size of the stars.  It is primarily useful for speeding up star extraction with HFR such as in Focus, Guide, and HFR monitoring.  "
-msgstr "Nombre d’étoiles à conserver dans la liste initiale. Ce filtre repose sur la taille des étoiles. Il est principalement utile pour accélérer l'extraction d'étoiles avec HFR comme dans la mise au point, le guidage et la surveillance HFR.  "
+msgstr "Nombre d'étoiles à conserver dans la liste initiale. Ce filtre repose sur la taille des étoiles. Il est principalement utile pour accélérer l'extraction d'étoiles avec HFR comme dans la mise au point, le guidage et la surveillance HFR."
 
 #. i18n: ectx: property (text), widget (QLineEdit, initialKeep)
 #. +> trunk5
@@ -14133,7 +14133,7 @@ msgstr "Sous-échantillonnage automatique"
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:1053
 #, kde-format
 msgid "Check the indices in parallel by loading them simultaneously into memory? If the indices you are using take less than 2 GB of space, and you have at least as much physical memory as indices, you want this enabled."
-msgstr "Vérifier les indices en parallèle en les chargeant simultanément en mémoire ? Si les indices utilisés prennent moins de 2 Go d’espace et que vous avez au moins autant de mémoire physique, vous voulez que ceci soit activé."
+msgstr "Vérifier les indices en parallèle en les chargeant simultanément en mémoire ? Si les indices utilisés prennent moins de 2 Go d'espace et que vous avez au moins autant de mémoire physique, vous voulez que ceci soit activé."
 
 #. i18n: ectx: property (text), widget (QCheckBox, inParallel)
 #. +> trunk5
@@ -16311,7 +16311,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Veuillez fournir les informations requises ci-dessous. Il s’agit d’une configuration unique. Vous pouvez obtenir ces valeurs à partir du manuel de votre caméra ou de sources en ligne telles que la <a href=\"https://www.digicamdb.com/\"><span style=\" text-decoration : underline; color:#007af4;\">Base de données des appareils photo numériques</span></a>. </p>"
+"<p>Veuillez fournir les informations requises ci-dessous. Il s'agit d'une configuration unique. Vous pouvez obtenir ces valeurs à partir du manuel de votre caméra ou de sources en ligne telles que la <a href=\"https://www.digicamdb.com/\"><span style=\" text-decoration : underline; color:#007af4;\">Base de données des appareils photo numériques</span></a>. </p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_3)
@@ -17349,7 +17349,7 @@ msgstr "Le moteur de mise au point ne peut aller plus loin. Les limites du péri
 #: ekos/focus/focus.cpp:2745
 #, kde-format
 msgid "Unstable fluctuations. Try increasing initial step size or exposure time."
-msgstr "Fluctuations instables. Veuillez essayer d’augmenter la taille initiale du pas ou le temps d’exposition."
+msgstr "Fluctuations instables. Veuillez essayer d'augmenter la taille initiale du pas ou le temps d'exposition."
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:2755
@@ -17603,7 +17603,7 @@ msgstr "NA"
 #: ekos/focus/focus.ui:672 ekos/focus/focus.ui:691
 #, kde-format
 msgid "Delta temperature in Celsius. It is the difference between the last recorded temperature when autofocus was successful and the current source temperature."
-msgstr "Delta de température en Celsius. C’est la différence entre la dernière température enregistrée lors de la dernière mise au point automatique réussie et la température actuelle de la source."
+msgstr "Delta de température en Celsius. C'est la différence entre la dernière température enregistrée lors de la dernière mise au point automatique réussie et la température actuelle de la source."
 
 #. i18n: ectx: property (text), widget (QLabel, label_31)
 #. +> trunk5
@@ -17784,7 +17784,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Mesurer le « HFR » moyen de toutes les étoiles combinées dans une image complète. Cette méthode prend par défaut la détection centroïde, mais peut également utiliser la détection « SEP ». Sa performance diminue à mesure que le nombre d’étoiles augmente.</p>"
+"<p>Mesurer le « HFR » moyen de toutes les étoiles combinées dans une image complète. Cette méthode prend par défaut la détection centroïde, mais peut également utiliser la détection « SEP ». Sa performance diminue à mesure que le nombre d'étoiles augmente.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, focusUseFullField)
@@ -17940,7 +17940,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Combiner ce nombre de lignes dans le calcul de la moyenne maximale de Bahtinov. Une modification de cette valeur pourrait aider à faire correspondre de façon plus précise, les lignes de Bahtinov sur le modèle d’étoile.</p>"
+"<p>Combiner ce nombre de lignes dans le calcul de la moyenne maximale de Bahtinov. Une modification de cette valeur pourrait aider à faire correspondre de façon plus précise, les lignes de Bahtinov sur le modèle d'étoile.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, focusTolerance)
@@ -18194,7 +18194,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><corps>"
-"<p>Ce nombre multiplié par la taille de l’étape initiale est le nombre d’étapes vues de l’extérieur dont l’algorithme de mise au point linéaire s’éloigne de la position initiale à partir du début de la mise au point.</p>"
+"<p>Ce nombre multiplié par la taille de l'étape initiale est le nombre d'étapes vues de l'extérieur dont l'algorithme de mise au point linéaire s'éloigne de la position initiale à partir du début de la mise au point.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_27)
@@ -19010,7 +19010,7 @@ msgstr "Décalage totalement réussi."
 #: ekos/guide/guide.cpp:1627
 #, kde-format
 msgid "%1x%1 guide binning is not supported."
-msgstr "Le binning %1x%1 n’est pas autorisé pour le guidage."
+msgstr "Le binning %1x%1 n'est pas autorisé pour le guidage."
 
 #. +> trunk5
 #: ekos/guide/guide.cpp:1649
@@ -19665,7 +19665,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Définir la précision souhaitée de guidage dans le graphique de dérive. Le nombre représente le rayon du cercle concentrique vert en secondes d’arc.</p>"
+"<p>Définir la précision souhaitée de guidage dans le graphique de dérive. Le nombre représente le rayon du cercle concentrique vert en secondes d'arc.</p>"
 "</body></html>"
 
 #. +> trunk5
@@ -20297,7 +20297,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Lors de la réutilisation d’une calibration, inverse l’angle DEC si le côté du pied actuel diffère de celui de la calibration. Cela ne s’applique que lors de la réutilisation des calibrations. La valeur dont vous avez besoin est une propriété de votre monture qui devrait être étudiée.</p>"
+"<p>Lors de la réutilisation d'une calibration, inverse l'angle DEC si le côté du pied actuel diffère de celui de la calibration. Cela ne s'applique que lors de la réutilisation des calibrations. La valeur dont vous avez besoin est une propriété de votre monture qui devrait être étudiée.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ReverseDecOnPierSideChange)
@@ -20441,7 +20441,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Si cette option est cochée, le guidage automatique est annulé en cas d’échec du décalage. Sinon, il se poursuit normalement.</p>"
+"<p>Si cette option est cochée, le guidage automatique est annulé en cas d'échec du décalage. Sinon, il se poursuit normalement.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DitherFailAbortsAutoGuide)
@@ -20973,7 +20973,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Impulsion maximale de guidage générée par l'assistant de guidage et envoyée à la monture en secondes d’arc. L'assistant de guidage ne tentera pas de déplacer la monture plus que ce nombre de secondes d’arc à un moment donné.</p>"
+"<p>Impulsion maximale de guidage générée par l'assistant de guidage et envoyée à la monture en secondes d'arc. L'assistant de guidage ne tentera pas de déplacer la monture plus que ce nombre de secondes d'arc à un moment donné.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, l_14)
@@ -22098,7 +22098,7 @@ msgstr "Le retournement au méridien est inactif pendant l'alignement polaire."
 #: ekos/mount/mount.cpp:806
 #, kde-format
 msgid "Polar alignment motions finished, meridian flip activated."
-msgstr "Les déplacements d’alignement polaire sont terminés. Le retournement au méridien est activé."
+msgstr "Les déplacements d'alignement polaire sont terminés. Le retournement au méridien est activé."
 
 #. +> trunk5
 #: ekos/mount/mount.cpp:840
@@ -23300,7 +23300,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Ne pas autoriser que les tâches soient planifiés à moins de ce nombre de degrés avant la restriction d'élévation. L’exécution réelle se poursuit jusqu’à la limite d'élévation.</p>"
+"<p>Ne pas autoriser que les tâches soient planifiés à moins de ce nombre de degrés avant la restriction d'élévation. L'exécution réelle se poursuit jusqu'à la limite d'élévation.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, settingAltitudeCutoffLabel)
@@ -23476,7 +23476,7 @@ msgstr "Si la position de l'acquisition dépasse la position cible de plus de ce
 #: ekos/opsekos.ui:454
 #, kde-format
 msgid "Reset pipeline if verified image delta exceeds"
-msgstr "Réinitialiser la file d'attente si le delta d’images vérifiées dépasse"
+msgstr "Réinitialiser la file d'attente si le delta d'images vérifiées dépasse"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ResetMountModelOnAlignFail)
 #. +> trunk5
@@ -23620,7 +23620,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Forcer les temps d’exposition à s’aligner sur les préréglages d’exposition APN. Cela garantit des temps d’exposition précis pour les expositions inférieures à la seconde.</p>"
+"<p>Forcer les temps d'exposition à s'aligner sur les préréglages d'exposition APN. Cela garantit des temps d'exposition précis pour les expositions inférieures à la seconde.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ForceDSLRPresets)
@@ -23858,7 +23858,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>\n"
-"<p>Envoyez les paramètres actuels du site géographique de KStars vers les pilotes de périphériques, une fois qu’Ekos est en ligne.</p>"
+"<p>Envoyez les paramètres actuels du site géographique de KStars vers les pilotes de périphériques, une fois qu'Ekos est en ligne.</p>"
 "\n"
 "<p>Cette option ne doit être utilisée que lors de la connexion à un site géographique distant.</p>"
 "\n"
@@ -24762,7 +24762,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Si l’ordinateur distant est équipé d’un accès à « astrometry.net », il est possible d’exécuter le pilote d’astrométrie à distance et l’utiliser pour résoudre les images dans le module Alignement d'Ekos. </p>"
+"<p>Si l'ordinateur distant est équipé d'un accès à « astrometry.net », il est possible d'exécuter le pilote d'astrométrie à distance et l'utiliser pour résoudre les images dans le module Alignement d'Ekos. </p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, useRemoteAstrometryCheck)
@@ -25058,7 +25058,7 @@ msgstr "Ajuste la transparence des tuiles"
 #: ekos/scheduler/framingassistant.ui:415 ekos/scheduler/mosaic.ui:154
 #, kde-format
 msgid "Camera's rotation angle (East of North) in degrees. To measure the angle, solve an image and use the astrometry solver solution's rotation angle"
-msgstr "Angle de rotation de la caméra (à l'est du nord) en degrés. Pour mesurer l’angle, résolvez une image et utilisez l’angle de rotation de la solution du résolveur d’astrométrie."
+msgstr "Angle de rotation de la caméra (à l'est du nord) en degrés. Pour mesurer l'angle, résolvez une image et utilisez l'angle de rotation de la solution du résolveur d'astrométrie."
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk5
@@ -25752,21 +25752,21 @@ msgid ""
 msgstr ""
 "<html><head/><body>"
 "<p>Ce diagramme du ciel affiche la distribution prévue des tuiles de mosaïque.</p>"
-"<p><span style=\"font-style:italic;\">Remarque :</span> Cette version de l’outil « Mosaïque » utilise une projection plane simple et manque de précision lorsque la déclinaison est supérieure à 70 degrés. Veuillez chevaucher soigneusement les tuiles pour éviter des trous.</p>"
+"<p><span style=\"font-style:italic;\">Remarque :</span> Cette version de l'outil « Mosaïque » utilise une projection plane simple et manque de précision lorsque la déclinaison est supérieure à 70 degrés. Veuillez chevaucher soigneusement les tuiles pour éviter des trous.</p>"
 "<p>• Le paramètre &quot;Superposition&quot; contrôle la façon dont les tuiles sont chevauchées, son effet peut être vu avec la transparence. Les tuiles sont ensuite distribuées sous forme de grille à partir du paramètre &quot;Grille des tuiles&quot;. Elles sont rendues avec un vert transparent et correspondent au champ de la caméra à partir du paramètre &quot;Champ de vision de la caméra&quot;.</p>"
 " "
 "<p>• L'extension du champ de mosaïque correspond au paramètre « Champ de vision de la mosaïque » et est rendue avec un arrière-plan rouge pour vous aider à remplir les trous en ajustant le chevauchement.</p>"
-"<p>• Les options de tâches permettent d’exécuter l’alignement de la monture ou le réglage de la mise au point, en une fois à partir de plusieurs itérations seulement. Ceci vérifie ou ne vérifie pas les étapes de tâches de l'ordonnanceur. Vous pouvez les laisser à zéro si vous utilisez un modèle de monture dans « Alignement » ou configurer une nouvelle mise au point périodique dans « Acquisition »."
-"<p>• Les chiffres en haut à droite dans les tuiles indiquent l’ordre dans lequel les tâches de l'ordonnanceur seront créées. L'acquisition des cibles est d’abord effectuée, d’ouest en est. Les numéros au centre indiquent les coordonnées de la cible de la tâche étant générée pour chaque tuile. Les nombres en bas indiquent l’angle de déplacement des tuiles par rapport au centre de la mosaïque.</p>"
-"<p>L’ordre d’action suggéré est le suivant :</p>"
-"<p>1. Charger ou saisir les informations relatives à l’équipement.<br/>"
+"<p>• Les options de tâches permettent d'exécuter l'alignement de la monture ou le réglage de la mise au point, en une fois à partir de plusieurs itérations seulement. Ceci vérifie ou ne vérifie pas les étapes de tâches de l'ordonnanceur. Vous pouvez les laisser à zéro si vous utilisez un modèle de monture dans « Alignement » ou configurer une nouvelle mise au point périodique dans « Acquisition »."
+"<p>• Les chiffres en haut à droite dans les tuiles indiquent l'ordre dans lequel les tâches de l'ordonnanceur seront créées. L'acquisition des cibles est d'abord effectuée, d'ouest en est. Les numéros au centre indiquent les coordonnées de la cible de la tâche étant générée pour chaque tuile. Les nombres en bas indiquent l'angle de déplacement des tuiles par rapport au centre de la mosaïque.</p>"
+"<p>L'ordre d'action suggéré est le suivant :</p>"
+"<p>1. Charger ou saisir les informations relatives à l'équipement.<br/>"
 "2. Configurer le chevauchement des tuiles.<br/>"
 "3. Configurer l'extension de la mosaïque par ajustement de la grille.<br/>"
-"4. Ajuster les options d’alignement et de mise au point.<br/>"
+"4. Ajuster les options d'alignement et de mise au point.<br/>"
 "5. Sélectionner un dossier de sortie, où les listes de tâches de séquence et d'ordonnanceur seront écrites.<br/>"
 " 6. Enregistrez vos choix.</p>"
 "<p>Utiliser le pourcentage de chevauchement pour contrôler la zone sur laquelle les carreaux adjacents peuvent être collés :"
-"<p>• <span style=\"font-weight:600;\">0 - 10 %</span>  si vous prévoyez d’enregistrer vos trames sur un champ synthétique construit à partir d’étoiles du catalogue.</p>"
+"<p>• <span style=\"font-weight:600;\">0 - 10 %</span>  si vous prévoyez d'enregistrer vos trames sur un champ synthétique construit à partir d'étoiles du catalogue.</p>"
 "<p>• <span style=\"font-weight:600;\">10 - 20 %</span> si vous prévoyez de coller les trames adjacentes par alignement des étoiles dans leurs zones de ciel superposées.</p>"
 "<p>• <span style=\"font-weight:600;\">50 - 80 %</span> si vous prévoyez de traiter une seule pile avec les trames produites par les tâches de mosaïques.</p>"
 "<p align=\"justify\">Modifier la valeur de chevauchement met à jour immédiatement le nombre de tuiles afin de couvrir complètement le champ de la mosaïque. Les tuiles générées peuvent cependant couvrir un champ plus large que nécessaire. Pour cette raison, le chevauchement devrait être déterminé en priorité. Pour recalculer le champ couvert par la mosaïque, à partir du nombre de tuiles et du taux de recouvrement, cliquez « Couvrir le CdV ».</p>"
@@ -25933,7 +25933,7 @@ msgstr "Attention : les tâches « %1 » aux lignes %2 et %3 nécessitent pro
 #: ekos/scheduler/scheduler.cpp:1363
 #, kde-format
 msgid "Warning: job '%1' at row %2 might require a specific startup time or a different priority, as currently they will start in order of insertion in the table"
-msgstr "Avertissement : la tâche « %1 » à la ligne %2 peut nécessiter une heure de démarrage spécifique ou une priorité différente, car actuellement, ils commenceront dans l’ordre d’insertion dans la table."
+msgstr "Avertissement : la tâche « %1 » à la ligne %2 peut nécessiter une heure de démarrage spécifique ou une priorité différente, car actuellement, ils commenceront dans l'ordre d'insertion dans la table."
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:1549
@@ -26494,16 +26494,16 @@ msgstr "La tâche « %1 » se répète en boucle de façon infinie."
 #, kde-format
 msgid "Job '%1' stopping, reached completion time with #%2 batch done."
 msgid_plural "Job '%1' stopping, reached completion time with #%2 batches done."
-msgstr[0] "Arrêt de la tâche « %1 », temps d’achèvement atteint avec #%2 lot terminé."
-msgstr[1] "Arrêt de la tâche « %1 », temps d’achèvement atteint avec les #%2 lots terminés."
+msgstr[0] "Arrêt de la tâche « %1 », temps d'achèvement atteint avec #%2 lot terminé."
+msgstr[1] "Arrêt de la tâche « %1 », temps d'achèvement atteint avec les #%2 lots terminés."
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:5368
 #, kde-format
 msgid "Job '%1' completed #%2 batch before completion time, restarted."
 msgid_plural "Job '%1' completed #%2 batches before completion time, restarted."
-msgstr[0] "Tâche « %1 » terminée. #%2 lot avant le temps d’achèvement, redémarré."
-msgstr[1] "Tâche « %1 » terminée. #%2 lots avant le temps d’achèvement, redémarrés."
+msgstr[0] "Tâche « %1 » terminée. #%2 lot avant le temps d'achèvement, redémarré."
+msgstr[1] "Tâche « %1 » terminée. #%2 lots avant le temps d'achèvement, redémarrés."
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:5413
@@ -27110,7 +27110,7 @@ msgstr "Échec du résolveur : %1s %2"
 #: ekos/scheduler/scheduler.cpp:8474
 #, kde-format
 msgid "Captured frame is %1 arcminutes away from target, re-aligning..."
-msgstr "Trame acquise est à %1 minutes d’arc de la cible, réalignement en cours…"
+msgstr "Trame acquise est à %1 minutes d'arc de la cible, réalignement en cours…"
 
 #. i18n: ectx: property (title), widget (QGroupBox, jobSequenceGroup)
 #. +> trunk5
@@ -27529,7 +27529,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Les conditions météorologiques doivent demeurer sûres. Lorsqu'elles deviennent dangereuses, la procédure d’arrêt est démarrée.</p>"
+"<p>Les conditions météorologiques doivent demeurer sûres. Lorsqu'elles deviennent dangereuses, la procédure d'arrêt est démarrée.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, twilightCheck)
@@ -27542,7 +27542,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><corps>"
-"<p>La restriction du crépuscule limite l’exécution des tâches pendant l'obscurité astronomique. Utilisez les décalages du crépuscule et de l’aube dans les options de l'ordonnanceur Ekos pour ajuster l’intervalle.</p>"
+"<p>La restriction du crépuscule limite l'exécution des tâches pendant l'obscurité astronomique. Utilisez les décalages du crépuscule et de l'aube dans les options de l'ordonnanceur Ekos pour ajuster l'intervalle.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, twilightCheck)
@@ -27852,7 +27852,7 @@ msgid ""
 msgstr ""
 "Temps de démarrage de la tâche %1, estimé par l'ordonnanceur.\n"
 "L'élévation au démarrage, si disponible, est également affichée.\n"
-"Un temps fixe à partir de l’heure de l'utilisateur ou de la culmination est marqué avec un symbole de chronomètre."
+"Un temps fixe à partir de l'heure de l'utilisateur ou de la culmination est marqué avec un symbole de chronomètre."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerjob.cpp:439
@@ -27861,8 +27861,8 @@ msgid ""
 "Completion time for job '%1', as estimated by the Scheduler.\n"
 "You may specify a fixed time to limit duration of looping jobs. A warning symbol indicates the altitude at completion may cause the job to abort before completion.\n"
 msgstr ""
-"Temps de réalisation de la tâche « %1 », tel qu’estimé par l’ordonnanceur. \n"
-"Vous pouvez spécifier un temps fixe pour limiter la durée des tâches en boucle. Un symbole d'avertissement indique que l'élévation à la fin de la tâche peut entraîner la fin de la tâche avant son achèvement. \n"
+"Temps de réalisation de la tâche « %1 », tel qu'estimé par l'ordonnanceur.\n"
+"Vous pouvez spécifier un temps fixe pour limiter la durée des tâches en boucle. Un symbole d'avertissement indique que l'élévation à la fin de la tâche peut entraîner la fin de la tâche avant son achèvement.\n"
 
 #. +> trunk5
 #: ekos/scheduler/schedulerjob.cpp:449
@@ -27871,8 +27871,8 @@ msgid ""
 "Count of captures stored for job '%1', based on its sequence job.\n"
 "This is a summary, additional specific frame types may be required to complete the job."
 msgstr ""
-"Nombre d'images enregistrées pour la tâche « %1 », en fonction de la séquence de la tâche. \n"
-"Il s’agit d’un résumé, d’autres types de trames spécifiques peuvent être nécessaires pour terminer le travail."
+"Nombre d'images enregistrées pour la tâche « %1 », en fonction de la séquence de la tâche.\n"
+"Il s'agit d'un résumé, d'autres types de trames spécifiques peuvent être nécessaires pour terminer le travail."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerjob.cpp:458
@@ -29006,7 +29006,7 @@ msgstr "Échantillonnage adaptatif"
 #: fitsviewer/opsfits.ui:166 fitsviewer/opsfits.ui:176 kstars.kcfg:1752
 #, kde-format
 msgid "Set the coarseness of the preview shown when sliding the fitsviewer's stretch parameter sliders. 1 is full resolution, but can be slow, 4 would be coarse resolution and fast."
-msgstr "Définir la grossièreté de l’aperçu affiché lors du glissement des curseurs de paramètres d’étirement de l'afficheur FITS. Une valeur de 1 correspond à une pleine résolution, mais peut conduire à du ralentissement, une valeur de 4 correspond à une résolution grossière mais rapide."
+msgstr "Définir la grossièreté de l'aperçu affiché lors du glissement des curseurs de paramètres d'étirement de l'afficheur FITS. Une valeur de 1 correspond à une pleine résolution, mais peut conduire à du ralentissement, une valeur de 4 correspond à une résolution grossière mais rapide."
 
 #. i18n: ectx: property (text), widget (QLabel, stretchPreviewSamplingLabel)
 #. +> trunk5
@@ -29828,7 +29828,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Pour créer un <span style=\"font-weight:600;\">Alias</span> à partir d’un pilote existant, sélectionnez un pilote existant, puis modifiez uniquement <span style=\"font-weight:600;\">l’étiquette</span> et enfin, appuyez sur <span style=\"font-weight:600;\">Ajouter.</span></p>"
+"<p>Pour créer un <span style=\"font-weight:600;\">Alias</span> à partir d'un pilote existant, sélectionnez un pilote existant, puis modifiez uniquement <span style=\"font-weight:600;\">l'étiquette</span> et enfin, appuyez sur <span style=\"font-weight:600;\">Ajouter.</span></p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -30480,7 +30480,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>KStars est la source principale pour les réglages d’heure et de position. Tous les paramètres d’heure et de position des périphériques INDI sont synchronisés avec les paramètres de KStars.</p>"
+"<p>KStars est la source principale pour les réglages d'heure et de position. Tous les paramètres d'heure et de position des périphériques INDI sont synchronisés avec les paramètres de KStars.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_useKStarsSource)
@@ -31838,7 +31838,7 @@ msgid ""
 "         will be cached. Turning this value up yields better\n"
 "         performance at the cost of memory."
 msgstr ""
-"Les objets du ciel profond (CP) sont chargés à partir d’une base de données « sqlite » et \n"
+"Les objets du ciel profond (CP) sont chargés à partir d'une base de données « sqlite » et \n"
 "\t\tmis en cache dans la mémoire. Ce paramètre régule la quantité d'objets qui seront \n"
 "\t\tmis en cache. Le réglage de cette valeur conduit à de meilleures\n"
 "\t\tperformances au détriment de la consommation mémoire."
@@ -34397,7 +34397,7 @@ msgstr "Format de date"
 #. +> trunk5
 #: kstars.kcfg:1149
 #, kde-format, no-c-format
-msgid "Specify the format for the date/time label. This format string is passed to strftime(3). The default is \"%c %Z\", which shows the date, time, and time zone in the locale’s appropriate date and time representation."
+msgid "Specify the format for the date/time label. This format string is passed to strftime(3). The default is \"%c %Z\", which shows the date, time, and time zone in the locale's appropriate date and time representation."
 msgstr "Indiquer le format pour l'étiquette de date / d'heure. Cette chaîne de format est passée à « strftime » (3). La valeur par défaut est « %c %Z », affichant la date, l'heure et le fuseau horaire selon la représentation de date et d'heure correspondant aux paramètres régionaux."
 
 #. i18n: ectx: label, entry (XplanetLabelTL), group (Xplanet)
@@ -35328,7 +35328,7 @@ msgstr "Angle horaire en degrés par défaut pour réaliser un retournement au m
 #: kstars.kcfg:1577
 #, kde-format
 msgid "If the target hour angle exceeds this value, Ekos will command a meridian flip and if successful it will resume guiding and capture operations."
-msgstr "Si l’angle horaire de la cible dépasse cette valeur, Ekos commandera un retournement de méridien. Si cela réussit, alors, Ekos reprendra les opérations de guidage et d'acquisition."
+msgstr "Si l'angle horaire de la cible dépasse cette valeur, Ekos commandera un retournement de méridien. Si cela réussit, alors, Ekos reprendra les opérations de guidage et d'acquisition."
 
 #. i18n: ectx: label, entry (MaximumHaLimit), group (Mount)
 #. +> trunk5
@@ -35342,7 +35342,7 @@ msgstr "Limite maximale par défaut pour l'angle horaire."
 #: kstars.kcfg:1582
 #, kde-format
 msgid "Maximum limit for the hour angle of the telescope. If the hour angle of the telescope is above this limit, a meridian flip will be forced."
-msgstr "Limite maximale pour l’angle horaire du télescope. Si l’angle horaire du télescope est au-dessus de cette limite, un retournement du méridien sera forcé."
+msgstr "Limite maximale pour l'angle horaire du télescope. Si l'angle horaire du télescope est au-dessus de cette limite, un retournement du méridien sera forcé."
 
 #. i18n: ectx: label, entry (EnableHaLimit), group (Mount)
 #. +> trunk5
@@ -35433,7 +35433,7 @@ msgstr "Déviation maximale par défaut admissible pour le guidage"
 #: kstars.kcfg:1631
 #, kde-format
 msgid "If guide deviation exceeds this limit, the exposure will be automatically aborted and only resumed when the deviation is within this limit."
-msgstr "Si la déviation de guidage dépasse cette limite, l’exposition sera automatiquement abandonnée et reprise uniquement lorsque la déviation se situe dans cette limite."
+msgstr "Si la déviation de guidage dépasse cette limite, l'exposition sera automatiquement abandonnée et reprise uniquement lorsque la déviation se situe dans cette limite."
 
 #. i18n: ectx: label, entry (HFRDeviation), group (Capture)
 #. +> trunk5
@@ -35447,7 +35447,7 @@ msgstr "Déviation HFR maximale admissible par défaut"
 #: kstars.kcfg:1636
 #, kde-format
 msgid "If HFR deviation exceeds this limit, the autofocus routine will be automatically started."
-msgstr "Si la déviation HFR dépasse cette limite, la routine d'auto-focus sera automatiquement démarrée."
+msgstr "Si la déviation HFR dépasse cette limite, la routine de mise au point automatique sera automatiquement démarrée."
 
 #. i18n: ectx: label, entry (MaxFocusTemperatureDelta), group (Capture)
 #. +> trunk5
@@ -35538,7 +35538,7 @@ msgstr "Valeur ADU désirée du flat"
 #: kstars.kcfg:1679
 #, kde-format
 msgid "If set, Ekos will capture a few flat images to determine the optimal exposure time to achieve the desired ADU value."
-msgstr "Si cette option est choisie, Ekos acquerra quelques images planes afin de déterminer le temps optimal d’exposition pour atteindre la valeur ADU souhaitée."
+msgstr "Si cette option est choisie, Ekos acquerra quelques images planes afin de déterminer le temps optimal d'exposition pour atteindre la valeur ADU souhaitée."
 
 #. i18n: ectx: label, entry (CalibrationADUValueTolerance), group (Capture)
 #. +> trunk5
@@ -35559,14 +35559,14 @@ msgstr "Différence maximale entre les valeurs ADU mesurées et objectives pour 
 #: kstars.kcfg:1688
 #, kde-format
 msgid "Index of flat source option."
-msgstr "Index de l’option de source du flat."
+msgstr "Index de l'option de source du flat."
 
 #. i18n: ectx: label, entry (CalibrationFlatDurationIndex), group (Capture)
 #. +> trunk5
 #: kstars.kcfg:1692
 #, kde-format
 msgid "Index of flat duration option."
-msgstr "Index de l’option de durée du flat."
+msgstr "Index de l'option de durée du flat."
 
 #. i18n: ectx: label, entry (CalibrationWallAz), group (Capture)
 #. +> trunk5
@@ -35620,7 +35620,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Lorsque vous commencez à traiter une liste de séquences, réinitialisez tous les compteurs d'acquisition à zéro. L'ordonnanceur remplace cette option lorsque l’option « Mémoriser la progression de la tâche » est activée.</p>"
+"<p>Lorsque vous commencez à traiter une liste de séquences, réinitialisez tous les compteurs d'acquisition à zéro. L'ordonnanceur remplace cette option lorsque l'option « Mémoriser la progression de la tâche » est activée.</p>"
 "</body></html>"
 
 #. i18n: ectx: label, entry (FlatSyncFocus), group (Capture)
@@ -35684,7 +35684,7 @@ msgstr "Afficher chaque image de l'APN dans la fenêtre d'affichage des images."
 #: kstars.kcfg:1768
 #, kde-format
 msgid "Force exposure times to align with DSLR exposure presets. This insures accurate exposure times for sub-second exposures."
-msgstr "Forcer les durées d’exposition à s’aligner sur les préréglages d’exposition APN. Cela garantit des durées d’exposition précises pour les expositions inférieures à la seconde."
+msgstr "Forcer les durées d'exposition à s'aligner sur les préréglages d'exposition APN. Cela garantit des durées d'exposition précises pour les expositions inférieures à la seconde."
 
 #. i18n: ectx: label, entry (CaptureDirectory), group (Capture)
 #. +> trunk5
@@ -35796,7 +35796,7 @@ msgstr "Distance maximale de déplacement de la mise au point"
 #: kstars.kcfg:1831
 #, kde-format
 msgid "Set the maximum travel distance of an absolute focuser."
-msgstr "Définir la distance maximale de déplacement d’un moteur de mise au point absolu."
+msgstr "Définir la distance maximale de déplacement d'un moteur de mise au point absolu."
 
 #. i18n: ectx: label, entry (FocusOutSteps), group (Focus)
 #. +> trunk5
@@ -35810,7 +35810,7 @@ msgstr "Étapes initiales d'une mise au point vers l'extérieur"
 #: kstars.kcfg:1836
 #, kde-format
 msgid "Number of outward steps (this number multiplied by initial-step-size) the Linear Focus algorithm moves away from the initial position at the start of focusing."
-msgstr "Nombre d’étapes vers l’extérieur (ce nombre est multiplié par la taille initiale de l’étape). L’algorithme de mise au point linéaire s’éloigne de la position initiale au début de la mise au point."
+msgstr "Nombre d'étapes vers l'extérieur (ce nombre est multiplié par la taille initiale de l'étape). L'algorithme de mise au point linéaire s'éloigne de la position initiale au début de la mise au point."
 
 #. i18n: ectx: label, entry (FocusGain), group (Focus)
 #. +> trunk5
@@ -35884,7 +35884,7 @@ msgstr "Sous-tramer l'étoile de mise au point durant la procédure de mise au p
 #: kstars.kcfg:1865
 #, kde-format
 msgid "Measure average HFR from all stars combined in a full frame. This method defaults to the Centroid detection, but can use SEP detection too. Its performance decreases as the number of stars increases."
-msgstr "Mesurer la valeur moyenne du HFR de toutes les étoiles combinées dans une trame complète. Cette méthode utilise par défaut la détection centroïde, mais peut aussi utiliser la détection SEP. Sa performance diminue à mesure que le nombre d’étoiles augmente."
+msgstr "Mesurer la valeur moyenne du HFR de toutes les étoiles combinées dans une trame complète. Cette méthode utilise par défaut la détection centroïde, mais peut aussi utiliser la détection SEP. Sa performance diminue à mesure que le nombre d'étoiles augmente."
 
 #. i18n: ectx: label, entry (FocusFullFieldInnerRadius), group (Focus)
 #. +> trunk5
@@ -36160,7 +36160,7 @@ msgstr "Spécifie le temps de pose en secondes de la caméra pendant la résolut
 #, kde-format
 #| msgid "Default camera gain while in alignment mode"
 msgid "Default camera binning in alignment mode"
-msgstr "Binning par défaut de la caméra dans le mode d’alignement"
+msgstr "Binning par défaut de la caméra dans le mode d'alignement"
 
 #. i18n: ectx: label, entry (AlignGain), group (Align)
 #. +> trunk5
@@ -36168,7 +36168,7 @@ msgstr "Binning par défaut de la caméra dans le mode d’alignement"
 #, kde-format
 #| msgid "Default camera gain while in alignment mode"
 msgid "Default camera gain in alignment mode"
-msgstr "Gain par défaut de la caméra dans le mode d’alignement"
+msgstr "Gain par défaut de la caméra dans le mode d'alignement"
 
 #. i18n: ectx: label, entry (AlignISO), group (Align)
 #. +> trunk5
@@ -36176,7 +36176,7 @@ msgstr "Gain par défaut de la caméra dans le mode d’alignement"
 #, kde-format
 #| msgid "Default camera gain while in alignment mode"
 msgid "Default camera ISO in alignment mode"
-msgstr "ISO par défaut de la caméra dans le mode d’alignement"
+msgstr "ISO par défaut de la caméra dans le mode d'alignement"
 
 #. i18n: ectx: label, entry (AlignDarkFrame), group (Align)
 #. +> trunk5
@@ -36191,7 +36191,7 @@ msgstr "Prendre un dark et le soustraire avant l'exécution de l'opération d'as
 #, kde-format
 #| msgid "Default camera gain while in alignment mode"
 msgid "Default filter wheel filter in alignment mode"
-msgstr "Filtre par défaut de la roue à filtres le mode d’alignement"
+msgstr "Filtre par défaut de la roue à filtres le mode d'alignement"
 
 #. i18n: ectx: whatsthis, entry (AstrometryUseRotator), group (Align)
 #. +> trunk5
@@ -36205,7 +36205,7 @@ msgstr "Utiliser le rotateur lors de la réalisation du chargement et du balayag
 #: kstars.kcfg:2035
 #, kde-format
 msgid "Threshold between measured and FITS position angles in arcminutes to consider the load and slew operation successful."
-msgstr "Seuil entre les angles de position mesurés et FITS en minutes d’arc pour considérer comme réussis le chargement et l’opération de déplacement."
+msgstr "Seuil entre les angles de position mesurés et FITS en minutes d'arc pour considérer comme réussis le chargement et l'opération de déplacement."
 
 #. i18n: ectx: label, entry (SolverGotoOption), group (Align)
 #. +> trunk5
@@ -37607,7 +37607,7 @@ msgstr "État pertinent de la météo pour l'état d'observation."
 #: kstars.kcfg:2920
 #, kde-format
 msgid "Scale the sensor graph value axis to the values range."
-msgstr "Mettre l’axe des valeurs du graphique du capteur à l’échelle des valeurs."
+msgstr "Mettre l'axe des valeurs du graphique du capteur à l'échelle des valeurs."
 
 #. i18n: ectx: label, entry (ASTAPExecutable), group (ASTAP)
 #. +> trunk5
@@ -70866,7 +70866,7 @@ msgid ""
 "Due to a known issue in the kde frameworks, updating already downloaded items is currently not possible. <br>"
 " Please uninstall and reinstall them to update."
 msgstr ""
-"En raison d’un problème connu dans les environnements de développement de KDE, la mise à jour des éléments déjà téléchargés est actuellement impossible. <br>"
+"En raison d'un problème connu dans les environnements de développement de KDE, la mise à jour des éléments déjà téléchargés est actuellement impossible. <br>"
 "Veuillez les désinstaller et les réinstaller pour les mettre à jour."
 
 #. +> trunk5
@@ -72521,7 +72521,7 @@ msgid ""
 "No location service (GPS, cellular service, etc.) is available.\n"
 "Please, switch on the location service, and retry"
 msgstr ""
-"Aucun service de localisation (GPS, cellulaire, etc.) n’est disponible.\n"
+"Aucun service de localisation (GPS, cellulaire, etc.) n'est disponible.\n"
 "Veuillez basculer sur le service de localisation et réessayer."
 
 #. +> trunk5
@@ -78206,7 +78206,7 @@ msgstr "Ascension droite"
 #: oal/execute.ui:232
 #, kde-format
 msgid "Set Observing Notes for the Object:"
-msgstr "Définir des notes d’observation pour l’objet"
+msgstr "Définir des notes d'observation pour l'objet"
 
 #. i18n: ectx: property (text), widget (QPushButton, Slew)
 #. +> trunk5
@@ -78284,7 +78284,7 @@ msgstr "(magnitude)"
 #: oal/execute.ui:443
 #, kde-format
 msgid "Looks like you have not listed out your observers / equipment. Please hit Ctrl + 0 and Ctrl + 1 to fix this situation and come back here."
-msgstr "On dirait que vous n’avez pas dressé la liste de vos observateurs/équipement. Veuillez appuyer sur « CTRL » + « 0 » et « CTRL » + « 1 » pour corriger cette situation et revenir ici."
+msgstr "On dirait que vous n'avez pas dressé la liste de vos observateurs/équipement. Veuillez appuyer sur « CTRL » + « 0 » et « CTRL » + « 1 » pour corriger cette situation et revenir ici."
 
 #. i18n: ectx: property (text), widget (QPushButton, NextButton)
 #. +> trunk5
@@ -80293,7 +80293,7 @@ msgstr "Options d'accélération"
 #: options/opsterrain.ui:228 options/opsterrain.ui:238
 #, kde-format
 msgid "Set the coarseness of the terrain image rendered. 1 is full resolution, but can be slow, 6 or more would be coarse resolution and fast."
-msgstr "Définir la grossièreté de l’image de terrain rendue. Une valeur de 1 correspond à une pleine résolution, mais peut conduire à du ralentissement, une valeur de 6 ou plus correspond à une résolution grossière mais rapide."
+msgstr "Définir la grossièreté de l'image de terrain rendue. Une valeur de 1 correspond à une pleine résolution, mais peut conduire à du ralentissement, une valeur de 6 ou plus correspond à une résolution grossière mais rapide."
 
 #. i18n: ectx: property (text), widget (QLabel, terrainDownsamplingLabel)
 #. +> trunk5
@@ -80818,7 +80818,7 @@ msgstr "Définir les options d'acquisition de champ de vision pour les sauts d'�
 #: printing/pwizfovsh.ui:100
 #, kde-format
 msgid "Configure star hopper FOV capture: select object at which star hopping will begin, select FOV symbol and magnitude limit."
-msgstr "Configurer la capture du champ de vision pour étoiles filantes : sélectionnez l’objet) partir duquel commencera l'étoile filante, puis sélectionnez le symbole du champ de vision (CdV) et la limite de magnitude."
+msgstr "Configurer la capture du champ de vision pour étoiles filantes : sélectionnez l'objet) partir duquel commencera l'étoile filante, puis sélectionnez le symbole du champ de vision (CdV) et la limite de magnitude."
 
 #. i18n: ectx: property (text), widget (QLabel, label1)
 #. +> trunk5
@@ -85044,7 +85044,7 @@ msgstr "Mode de traitement par lots"
 #: tools/modcalcdaylength.ui:843
 #, kde-format
 msgid "Specify Dates for the Calculation in the Input File"
-msgstr "Spécifier les dates pour le calcul dans le fichier d’entrée"
+msgstr "Spécifier les dates pour le calcul dans le fichier d'entrée"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. +> trunk5
@@ -85572,7 +85572,7 @@ msgstr "1 Jan 2007  00:00"
 #: tools/modcalcvizequinox.ui:264
 #, kde-format
 msgid "Specify Years for the Calculation in the Input File"
-msgstr "Spécifier les années pour le calcul dans le fichier d’entrée"
+msgstr "Spécifier les années pour le calcul dans le fichier d'entrée"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk5
@@ -85865,8 +85865,8 @@ msgstr[1] "Ajout d'un lot : impossible de trouver les %1 objets"
 #, kde-format
 msgid "%1 object could not be found in the database or resolved, and hence could not be added. See the details for more."
 msgid_plural "%1 objects could not be found in the database or resolved, and hence could not be added. See the details for more."
-msgstr[0] "L'objet %1 n’a pas pu être trouvé dans la base de données ou n'as pas pu être résolu. Par conséquent, il n'a pu être ajouté. Veuillez consulter les informations détaillées."
-msgstr[1] "Les %1 objets n’ont pas pu être trouvés dans la base de données ou n'ont pas pu être résolus. Par conséquent, il n'ont pas pu être ajoutés. Veuillez consulter les informations détaillées."
+msgstr[0] "L'objet %1 n'a pas pu être trouvé dans la base de données ou n'as pas pu être résolu. Par conséquent, il n'a pu être ajouté. Veuillez consulter les informations détaillées."
+msgstr[1] "Les %1 objets n'ont pas pu être trouvés dans la base de données ou n'ont pas pu être résolus. Par conséquent, il n'ont pas pu être ajoutés. Veuillez consulter les informations détaillées."
 
 #. +> trunk5
 #: tools/observinglist.cpp:883
@@ -85922,7 +85922,7 @@ msgstr "Enregistrer la liste d'observations"
 #: tools/observinglist.cpp:1060
 #, kde-format
 msgid "Could not open the observing wishlist file %1 for writing. Your wishlist changes will not be saved. Check if the location is writable and not full."
-msgstr "Impossible d’ouvrir le fichier %1 de la liste des souhaits d’observation en écriture. Les modifications de cette liste ne seront pas enregistrées. Veuillez vérifier si l’emplacement est accessible en écriture et avec de l'espace disponible."
+msgstr "Impossible d'ouvrir le fichier %1 de la liste des souhaits d'observation en écriture. Les modifications de cette liste ne seront pas enregistrées. Veuillez vérifier si l'emplacement est accessible en écriture et avec de l'espace disponible."
 
 #. +> trunk5
 #: tools/observinglist.cpp:1061
@@ -87978,7 +87978,7 @@ msgstr "de l'ordre de %1% du champ de vision pour l'étoile sélectionnée"
 #: tools/starhopperdialog.cpp:64
 #, kde-format
 msgid "Star-hopper algorithm failed. If you're trying a large star hop, try using a smaller FOV or changing the source point"
-msgstr "L’algorithme « Star-hopper » a échoué. Si vous essayez un saut d’étoile important, essayez d’utiliser un champ de vision (CdV) plus petit ou de changer le point de la source."
+msgstr "L'algorithme « Star-hopper » a échoué. Si vous essayez un saut d'étoile important, essayez d'utiliser un champ de vision (CdV) plus petit ou de changer le point de la source."
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, StarHopperDialog)
 #. +> trunk5
@@ -88856,7 +88856,7 @@ msgstr "Augmenter l'échelle de temps"
 #: widgets/timeunitbox.cpp:30
 #, kde-format
 msgid "Increase time scale to the next largest unit"
-msgstr "Augmenter l’échelle de temps jusqu’à la prochaine plus grande unité"
+msgstr "Augmenter l'échelle de temps jusqu'à la prochaine plus grande unité"
 
 #. +> trunk5
 #: widgets/timeunitbox.cpp:40
@@ -88868,7 +88868,7 @@ msgstr "Diminuer l'échelle de temps"
 #: widgets/timeunitbox.cpp:41
 #, kde-format
 msgid "Decrease time scale to the next smallest unit"
-msgstr "Diminuer l’échelle de temps jusqu’à la prochaine plus petite unité"
+msgstr "Diminuer l'échelle de temps jusqu'à la prochaine plus petite unité"
 
 #. +> trunk5
 #: xplanet/opsxplanet.cpp:31
@@ -89299,7 +89299,7 @@ msgstr "Indiquez le format pour l'étiquette date/heure."
 #. +> trunk5
 #: xplanet/opsxplanet.ui:639
 #, kde-format, no-c-format
-msgid "Specify the format for the date/time label.  This format string is passed to strftime(3).  The default is \"%c %Z\", which shows the date, time, and time zone in the  locale’s  appropriate date and time representation."
+msgid "Specify the format for the date/time label.  This format string is passed to strftime(3).  The default is \"%c %Z\", which shows the date, time, and time zone in the  locale's  appropriate date and time representation."
 msgstr "Spécifiez le format pour l'étiquette date/heure. Cette chaîne de format est passée en paramètre à strftime(3). La valeur par défaut est « %c %Z », qui affiche la date, l'heure et le fuseau horaire dans la représentation de date et d'heure des paramètres régionaux."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabelXplanetFontSize)
@@ -89518,8 +89518,8 @@ msgstr "Sélectionnez la couleur de fond."
 #~ "Not available if option \"Sort jobs by Altitude and Priority\" is set."
 #~ msgstr ""
 #~ "Déplacer la tâche sélectionnée d'une ligne vers le haut de la liste.\n"
-#~ "L’ordre n’affecte que les tâches d’observation devant commencer en même temps.\n"
-#~ "Non disponible si l’option « Trier les tâches par Altitude et Priorité » est définie."
+#~ "L'ordre n'affecte que les tâches d'observation devant commencer en même temps.\n"
+#~ "Non disponible si l'option « Trier les tâches par Altitude et Priorité » est définie."
 
 #, kde-format
 #~ msgid ""
@@ -89527,9 +89527,9 @@ msgstr "Sélectionnez la couleur de fond."
 #~ "Order only affect observation jobs that are scheduled to start at the same time.\n"
 #~ "Not available if option \"Sort jobs by Altitude and Priority\" is set."
 #~ msgstr ""
-#~ "Déplacer la tâche sélectionnée d’une ligne vers le bas dans la liste.\n"
-#~ "L’ordre n’affecte que les tâches d’observation devant commencer au même moment.\n"
-#~ "Non disponible si l’option « Trier les tâches par Altitude et Priorité » est définie."
+#~ "Déplacer la tâche sélectionnée d'une ligne vers le bas dans la liste.\n"
+#~ "L'ordre n'affecte que les tâches d'observation devant commencer au même moment.\n"
+#~ "Non disponible si l'option « Trier les tâches par Altitude et Priorité » est définie."
 
 #, kde-format
 #~ msgid "Sort scheduler jobs by priority and altitude."
@@ -89657,11 +89657,11 @@ msgstr "Sélectionnez la couleur de fond."
 
 #, kde-format
 #~ msgid "Set binning index of CCD camera while in alignment mode. Default values 0-3 corresponding to 1x1 to 4x4 binning. 4 is max binning."
-#~ msgstr "Définir l’indice de regroupement de pixels de la caméra CCD en mode d’alignement. Les valeurs par défaut 0 - 3  correspondent à un regroupement de 1 x 1 à 4 x 4. Le regroupement maximal est de 4."
+#~ msgstr "Définir l'indice de regroupement de pixels de la caméra CCD en mode d'alignement. Les valeurs par défaut 0 - 3  correspondent à un regroupement de 1 x 1 à 4 x 4. Le regroupement maximal est de 4."
 
 #, kde-format
 #~ msgid "Set gain of camera while in alignment mode."
-#~ msgstr "Définir le gain de caméra pendant le mode d’alignement."
+#~ msgstr "Définir le gain de caméra pendant le mode d'alignement."
 
 #, kde-format
 #~ msgid "Index of telescope type to be used when solving an image. 0 for Primary, 1 for Guide"
@@ -90090,7 +90090,7 @@ msgstr "Sélectionnez la couleur de fond."
 
 #, kde-format
 #~ msgid "Re-estimates the new polar-alignment error after refresh exposures. Will help you see what your new polar alignment error is, but takes compute resources and can slow down the exposure rate."
-#~ msgstr "Réévalue la nouvelle erreur d’alignement polaire après rafraîchissement des acquisitions. Cela vous permettra d'évaluer votre nouvelle erreur d’alignement polaire. Cependant, cette action consomme des ressources de calcul et peut ralentir le taux d’exposition."
+#~ msgstr "Réévalue la nouvelle erreur d'alignement polaire après rafraîchissement des acquisitions. Cela vous permettra d'évaluer votre nouvelle erreur d'alignement polaire. Cependant, cette action consomme des ressources de calcul et peut ralentir le taux d'exposition."
 
 #, kde-format
 #~ msgid "Update PA Error"
