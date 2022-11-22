@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.6.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-18 10:29+0100\n"
-"PO-Revision-Date: 2022-11-21 19:20+0100\n"
+"PO-Revision-Date: 2022-11-22 07:54+0100\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -2821,7 +2821,7 @@ msgstr ""
 #: tools/scriptbuilder.cpp:928
 #, kde-format
 msgid "Invalid URL"
-msgstr "URL non valable"
+msgstr "URL mal formée"
 
 #. +> trunk5
 #: dialogs/addlinkdialog.cpp:61
@@ -4002,7 +4002,7 @@ msgstr "Ne se lève jamais"
 #, kde-format
 msgctxt "Not Applicable"
 msgid "N/A"
-msgstr "N/A"
+msgstr "n/d"
 
 #. +> trunk5
 #: dialogs/detaildialog.cpp:679 kstarslite/qml/dialogs/DetailsDialog.qml:47
@@ -6810,13 +6810,13 @@ msgstr "Pointage détecté, suspension de la résolution…"
 #: ekos/align/align.cpp:2705
 #, kde-format
 msgid "Syncing to RA (%1) DEC (%2)"
-msgstr "Synchronisation aux coordonnées : AD (%1)  DEC (%2)"
+msgstr "Synchronisation aux coordonnées : AD (%1) DEC (%2)"
 
 #. +> trunk5
 #: ekos/align/align.cpp:2728
 #, kde-format
 msgid "Slewing to target coordinates: RA (%1) DEC (%2)."
-msgstr "Pointage vers les coordonnées cibles : AD (%1)  DEC (%2)."
+msgstr "Pointage vers les coordonnées cibles : AD (%1) DEC (%2)."
 
 #. +> trunk5
 #: ekos/align/align.cpp:2741
@@ -6953,7 +6953,7 @@ msgstr "Exporter des points de solution"
 #: tools/scriptbuilder.cpp:927
 #, kde-format
 msgid "Invalid URL: %1"
-msgstr "URL non valable : %1"
+msgstr "URL mal formée : %1"
 
 #. +> trunk5
 #: ekos/align/align.cpp:3657 ekos/align/mountmodel.cpp:400
@@ -8304,7 +8304,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Chemin complet vers l'exécutable d'ASTAP</p>"
+"<p>Emplacement complet vers l'exécutable d'ASTAP</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_ASTAPSearchRadiusValue)
@@ -9779,14 +9779,14 @@ msgstr "22' - 30'"
 #: ekos/align/opsprograms.ui:17
 #, kde-format
 msgid "Load Typical Default Paths"
-msgstr "Charger les chemins standards par défaut"
+msgstr "Charger les emplacements standards par défaut"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, defaultPathSelector)
 #. +> trunk5
 #: ekos/align/opsprograms.ui:23
 #, kde-format
 msgid "Choose your current setup from the list to load the typical paths to those programs for your computer "
-msgstr "Sélectionner votre configuration courante à partir de la liste, pour charger des chemins vers ces programmes sur votre ordinateur."
+msgstr "Sélectionner votre configuration courante à partir de la liste, pour charger des emplacements vers ces programmes sur votre ordinateur."
 
 #. i18n: ectx: property (text), item, widget (QComboBox, defaultPathSelector)
 #. +> trunk5
@@ -9849,7 +9849,7 @@ msgstr "Exécutable de sextractor"
 #: ekos/align/opsprograms.ui:76
 #, kde-format
 msgid "Path to Sextractor binary file"
-msgstr "Chemin vers le fichier exécutable Sextractor"
+msgstr "Emplacement vers le fichier exécutable Sextractor"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #. +> trunk5
@@ -9884,7 +9884,7 @@ msgstr "wcsinfo"
 #: ekos/align/opsprograms.ui:122
 #, kde-format
 msgid "Astrometry.net solve-field binary path"
-msgstr "Chemin de l'exécutable du résolveur Astrometry.net"
+msgstr "Emplacement de l'exécutable du résolveur Astrometry.net"
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
 #. +> trunk5
@@ -9919,7 +9919,7 @@ msgstr "Exécutable de ASTAP"
 #: ekos/align/opsprograms.ui:162
 #, kde-format
 msgid "ASTAP Program binary path"
-msgstr "Chemin de l'exécutable de ASTAP"
+msgstr "Emplacement de l'exécutable de ASTAP"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
 #. +> trunk5
@@ -9940,7 +9940,7 @@ msgstr "Exécutable du résolveur Watney"
 #: ekos/align/opsprograms.ui:188
 #, kde-format
 msgid "Watney Program binary path"
-msgstr "Chemin de l'exécutable Watney"
+msgstr "Emplacement de l'exécutable Watney"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #. +> trunk5
@@ -16182,7 +16182,7 @@ msgstr "<gain>"
 #: ekos/capture/captureprocessoverlay.ui:227
 #, kde-format
 msgid "dd.mm.yyyy hh:mm"
-msgstr "dd.mm.yyyy  hh:mm"
+msgstr "dd.mm.yyyy hh:mm"
 
 #. i18n: ectx: property (text), widget (QLabel, historyCountsLabel)
 #. +> trunk5
@@ -17710,7 +17710,7 @@ msgstr ""
 #: ekos/scheduler/mosaic.ui:380
 #, kde-format, no-c-format
 msgid " %"
-msgstr " %"
+msgstr " % "
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, focusFullFieldOuterRadius)
 #. +> trunk5
@@ -24409,7 +24409,7 @@ msgid ""
 msgstr ""
 "<html><head/><body>"
 "<p>Bienvenue dans l'<span style=\" font-weight:600;\">assistant de profil d'Ekos.</span></p>"
-"<p>Ekos est une plateforme permettant de contrôler et d'automatiser un observatoire. Avec Ekos, vous pouvez procéder à l'acquisition d'images et de données scientifiques aisément. Cet assistant vous aidera à créer votre profil de matériel. Vous devrez renseigner un certain nombres d'informations de base.</p>"
+"<p>Ekos est une plate-forme permettant de contrôler et d'automatiser un observatoire. Avec Ekos, vous pouvez procéder à l'acquisition d'images et de données scientifiques aisément. Cet assistant vous aidera à créer votre profil de matériel. Vous devrez renseigner un certain nombres d'informations de base.</p>"
 "<p> Cliquez sur <span style=\" font-weight:600;\">Suivant</span> pour continuer.</p>"
 "</body></html>"
 
@@ -25754,7 +25754,6 @@ msgstr ""
 "<p>Ce diagramme du ciel affiche la distribution prévue des tuiles de mosaïque.</p>"
 "<p><span style=\"font-style:italic;\">Remarque :</span> Cette version de l'outil « Mosaïque » utilise une projection plane simple et manque de précision lorsque la déclinaison est supérieure à 70 degrés. Veuillez chevaucher soigneusement les tuiles pour éviter des trous.</p>"
 "<p>• Le paramètre &quot;Superposition&quot; contrôle la façon dont les tuiles sont chevauchées, son effet peut être vu avec la transparence. Les tuiles sont ensuite distribuées sous forme de grille à partir du paramètre &quot;Grille des tuiles&quot;. Elles sont rendues avec un vert transparent et correspondent au champ de la caméra à partir du paramètre &quot;Champ de vision de la caméra&quot;.</p>"
-" "
 "<p>• L'extension du champ de mosaïque correspond au paramètre « Champ de vision de la mosaïque » et est rendue avec un arrière-plan rouge pour vous aider à remplir les trous en ajustant le chevauchement.</p>"
 "<p>• Les options de tâches permettent d'exécuter l'alignement de la monture ou le réglage de la mise au point, en une fois à partir de plusieurs itérations seulement. Ceci vérifie ou ne vérifie pas les étapes de tâches de l'ordonnanceur. Vous pouvez les laisser à zéro si vous utilisez un modèle de monture dans « Alignement » ou configurer une nouvelle mise au point périodique dans « Acquisition »."
 "<p>• Les chiffres en haut à droite dans les tuiles indiquent l'ordre dans lequel les tâches de l'ordonnanceur seront créées. L'acquisition des cibles est d'abord effectuée, d'ouest en est. Les numéros au centre indiquent les coordonnées de la cible de la tâche étant générée pour chaque tuile. Les nombres en bas indiquent l'angle de déplacement des tuiles par rapport au centre de la mosaïque.</p>"
@@ -25770,7 +25769,7 @@ msgstr ""
 "<p>• <span style=\"font-weight:600;\">10 - 20 %</span> si vous prévoyez de coller les trames adjacentes par alignement des étoiles dans leurs zones de ciel superposées.</p>"
 "<p>• <span style=\"font-weight:600;\">50 - 80 %</span> si vous prévoyez de traiter une seule pile avec les trames produites par les tâches de mosaïques.</p>"
 "<p align=\"justify\">Modifier la valeur de chevauchement met à jour immédiatement le nombre de tuiles afin de couvrir complètement le champ de la mosaïque. Les tuiles générées peuvent cependant couvrir un champ plus large que nécessaire. Pour cette raison, le chevauchement devrait être déterminé en priorité. Pour recalculer le champ couvert par la mosaïque, à partir du nombre de tuiles et du taux de recouvrement, cliquez « Couvrir le CdV ».</p>"
-"<p align=\"justify\"> Lorsqu'on traite une seule pile <span style=\"font-weight:600;\">50%</span> et <span style=\"font-weight:600;\">75%</span> sont des valeurs de recouvrement intéressantes. Vous pouvez vouloir augmenter cette valeur légèrement en fonction de la rotation, appliquer un redimensionnement pendant l'acquisition ou avant l'empilement, ou évitez des effets de bords sur les flats. Si votre séquence contient une seule acquisition, configurez la mosaïque avec un minimum de 13 couches au centre de la mosaïque, ce qui permettra l'empilement avec la méthode winsorized sigma rejection. Exemple :</p>"
+"<p align=\"justify\">Lorsqu'on traite une seule pile <span style=\"font-weight:600;\">50%</span> et <span style=\"font-weight:600;\">75%</span> sont des valeurs de recouvrement intéressantes. Vous pouvez vouloir augmenter cette valeur légèrement en fonction de la rotation, appliquer un redimensionnement pendant l'acquisition ou avant l'empilement, ou évitez des effets de bords sur les flats. Si votre séquence contient une seule acquisition, configurez la mosaïque avec un minimum de 13 couches au centre de la mosaïque, ce qui permettra l'empilement avec la méthode winsorized sigma rejection. Exemple :</p>"
 "<p align=\"justify\">• Une mosaïque 5x5, avec un chevauchement de 80% aura 25 sous-trames à son centre.<br/>"
 "• Une mosaïque 4x4 avec un chevauchement de 75% aura 16 sous-trames à son centre.<br/>"
 "• Une mosaïque 3x3 avec un recouvrement de 66.6% aura 9 sous-trames en son centre, et exigera deux passes.</p>"
@@ -25787,7 +25786,7 @@ msgid ""
 msgstr ""
 "Liste de l'ordonnanceur de tâches.\n"
 "Cliquez pour sélectionner une tâche dans la liste.\n"
-"Faites un double-clic pour modifier une tâche avec les champs listés sur le côté gauche."
+"Double cliquez pour modifier une tâche avec les champs listés sur le côté gauche."
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:485
@@ -27342,7 +27341,7 @@ msgstr "&Répéter pendant"
 #: ekos/scheduler/scheduler.ui:1318
 #, kde-format
 msgid "dd/MM/yy hh:mm"
-msgstr "dd/MM/yy    hh:mm"
+msgstr "dd/MM/yy hh:mm"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, sequenceCompletionR)
 #. +> trunk5
@@ -27412,7 +27411,7 @@ msgstr "Conditions de démarrage de la tâche"
 #: ekos/scheduler/scheduler.ui:1459
 #, kde-format
 msgid "dd/MM hh:mm"
-msgstr "dd/MM   hh:mm"
+msgstr "dd/MM hh:mm"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, culminationConditionR)
 #. +> trunk5
@@ -27825,8 +27824,8 @@ msgid ""
 "If aborted, the Scheduler missed the scheduled time or encountered transitory issues and will reschedule the job.\n"
 "If complete, the Scheduler verified that all sequence captures requested were stored, including repeats."
 msgstr ""
-"État courant de la tâche '%1', géré par le Planificateur.\n"
-"Si invalide, l'ordonnanceur ne pourra pas trouver une heure adéquate d'observation pour la cible.\n"
+"État courant de la tâche %1, géré par le Planificateur.\n"
+"Si non valable, l'ordonnanceur ne pourra pas trouver une heure adéquate d'observation pour la cible.\n"
 "En cas d'abandon, l'ordonnanceur a manqué l'heure prévue ou a rencontré des problèmes transitoires et il reprogrammera la tâche.\n"
 "Si complété, l'ordonnanceur vérifie que toutes les séquences ont été enregistrées, incluant les répétitions."
 
@@ -27894,7 +27893,7 @@ msgid ""
 "Adjust the Lead Time in Ekos options to increase that duration and leave time for jobs to complete.\n"
 "Rearrange jobs to minimize that duration and optimize your imaging time."
 msgstr ""
-"Intervalle de temps séparant la tâche qui précède la tâche '%1'.\n"
+"Intervalle de temps séparant la tâche qui précède la tâche %1.\n"
 "Ajustez le délai limite dans les options d'Ekos pour augmenter cette durée et laisser du temps pour achever les tâches.\n"
 "Réarrangez les tâches pour minimiser cette durée et optimiser votre temps de capture."
 
@@ -27905,7 +27904,7 @@ msgid ""
 "Duration job '%1' will take to complete when started, as estimated by the Scheduler.\n"
 "Depends on the actions to be run, and the sequence job to be processed."
 msgstr ""
-"La durée de la tâche « %1 » sera calculée à son démarrage, selon l'estimation faite par l'ordonnanceur.\n"
+"La durée de la tâche %1 sera calculée à son démarrage, selon l'estimation faite par l'ordonnanceur.\n"
 "Dépend des actions à exécuter et de la tâche de la séquence à traiter."
 
 #. +> trunk5
@@ -28725,16 +28724,16 @@ msgstr "Afficheur FITS de KStars"
 #, kde-format
 msgid "HFR:%2 Ecc:%3 %1 star."
 msgid_plural "HFR:%2 Ecc:%3 %1 stars."
-msgstr[0] "HFR = %2     Ecc = %3    %1 étoile"
-msgstr[1] "HFR = %2     Ecc = %3    %1 étoiles"
+msgstr[0] "HFR = %2 Ecc = %3 %1 étoile"
+msgstr[1] "HFR = %2 Ecc = %3 %1 étoiles"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:379
 #, kde-format
 msgid "HFR:%2, %1 star."
 msgid_plural "HFR:%2, %1 stars."
-msgstr[0] "HFR = %2     %1 étoile"
-msgstr[1] "HFR = %2     %1 étoiles"
+msgstr[0] "HFR = %2 %1 étoile"
+msgstr[1] "HFR = %2 %1 étoiles"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:559
@@ -32299,7 +32298,7 @@ msgstr "Nom des indicateurs de champ de vision sélectionnés"
 #: kstars.kcfg:373
 #, kde-format
 msgid "The names of the currently selected field-of-view indicators. The list of defined FOV indicator names is listed in the \"Settings|FOV Symbols\" menu."
-msgstr "Les noms des indicateurs actuellement sélectionnés des champs de vision. La liste des noms définis des indicateurs des champs de vision définis se trouve dans le menu « Configuration -> Symboles des champ de vision »."
+msgstr "Les noms des indicateurs actuellement sélectionnés des champs de vision. La liste des noms définis des indicateurs des champs de vision définis se trouve dans le menu « Configuration / Symboles des champ de vision »."
 
 #. i18n: ectx: label, entry (FadePlanetTrails), group (View)
 #. +> trunk5
@@ -33728,14 +33727,14 @@ msgstr "Veuillez vérifier ceci si vous utilisez un grand télescope dobsonien. 
 #: kstars.kcfg:894
 #, kde-format
 msgid "This is the angular distance from the zenith, in degrees, below which you can easily point your telescope."
-msgstr "Ceci est la distance angulaire à partir du zénith, en degrés, en dessous duquel vous pouvez facilement pointer votre télescope."
+msgstr "Cela est la distance angulaire à partir du zénith, en degrés, en dessous duquel vous pouvez facilement pointer votre télescope."
 
 #. i18n: ectx: whatsthis, entry (ObsListHoleSize), group (ObservingList)
 #. +> trunk5
 #: kstars.kcfg:895
 #, kde-format
 msgid "This specifies the angular radius of the Dobsonian hole, i.e. the region where a large Dobsonian telescope cannot be pointed easily."
-msgstr "Ceci spécifie le rayon angulaire du trou dobsonien, c'est-à-dire la région où un grand télescope dobsonien ne peut pas être pointé facilement."
+msgstr "Cela spécifie le rayon angulaire du trou dobsonien, c'est-à-dire la région où un grand télescope dobsonien peine à se rendre."
 
 #. i18n: ectx: label, entry (ObsListCoverage), group (ObservingList)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_8)
@@ -34949,7 +34948,7 @@ msgstr "Journaliser les messages de débogage vers la sortie par défaut."
 #: kstars.kcfg:1353
 #, kde-format
 msgid "Checking this option causes KStars log debug messages to the default output used by the platform (e.g. Standard Error)."
-msgstr "La sélection de cette option force les messages de débogage du journal de KStars sur la sortie par défaut utilisée par la plateforme (par ex. erreur standard)."
+msgstr "La sélection de cette option force les messages de débogage du journal de KStars sur la sortie par défaut utilisée par la plate-forme (par ex. erreur standard)."
 
 #. i18n: ectx: label, entry (LogToFile), group (General)
 #. +> trunk5
@@ -37394,7 +37393,7 @@ msgstr "Faut-il utiliser le stockage hors-ligne pour charger HiPS ?"
 #: kstars.kcfg:2813
 #, kde-format
 msgid "HIPS offline full path."
-msgstr "Chemin local complet des images HiPS."
+msgstr "Emplacement local complet des images HiPS."
 
 #. i18n: ectx: label, entry (TerrainSource), group (Terrain)
 #. +> trunk5
@@ -70918,7 +70917,7 @@ msgstr "Il est impossible de trouver le serveur INDI. Veuillez vous assurer que 
 #: kstarsactions.cpp:716
 #, kde-format
 msgid "INDI Device Manager should only be used by advanced technical users. It cannot be used with Ekos. Do you still want to open INDI device manager?"
-msgstr "Le gestionnaire de périphériques INDI ne devrait être utilisé que par les utilisateurs techniques avancés. Il ne peut pas être utilisé avec Ekos. Voulez-vous vraiment ouvrir le gestionnaire de périphériques INDI ?"
+msgstr "Le gestionnaire de périphériques INDI ne devrait être utilisé que par les utilisateurs techniques avancés. Ne devrait pas être utilisé avec Ekos. Voulez-vous vraiment ouvrir le gestionnaire de périphériques INDI ?"
 
 #. +> trunk5
 #: kstarsactions.cpp:719
@@ -80928,7 +80927,7 @@ msgid ""
 "\n"
 "<p>When done, press <b>Next</b> button.</p>"
 msgstr ""
-"<p>Sélectionnez l'objet à observer. Vous pouvez le choisir depuis une liste d'objets, en cliquant sur le bouton<b>Choisir objet depuis une liste</b>  ou pointez le sur la carte du ciel en appuyant sur <b>Pointer objet sur la carter</b>. Après la localisation de l'objet, appuyez avec le bouton droit de la souris et choisir <b>Choisir cet objet</b> depuis le menu contextuel.</p>"
+"<p>Sélectionnez l'objet à observer. Vous pouvez le choisir depuis une liste d'objets, en cliquant sur le bouton <b>Choisir objet depuis une liste</b> ou pointez le sur la carte du ciel en appuyant sur <b>Pointer objet sur la carte</b>. Après la localisation de l'objet, appuyez avec le bouton droit de la souris et choisir <b>Choisir cet objet</b> depuis le menu contextuel.</p>"
 "\n"
 "<p>Une fois fait, appuyez sur <b>Suivant</b>.</p>"
 
@@ -80968,9 +80967,9 @@ msgid ""
 "\n"
 "<p>If you wish to change contents of printed document, click <b>Previous</b> button to get back to previous steps.</p>"
 msgstr ""
-"<p>Votre document est prêt pour l'impression. Cliquez sur <b>Prévisualisation impression </b> et <b>Imprimer</b>  pour imprimer. Vous pouvez aussi l'exporter vers un fichier.</p>"
+"<p>Votre document est prêt pour l'impression. Cliquez sur <b>Aperçu impression </b> et <b>Imprimer</b> pour imprimer. Vous pouvez aussi l'exporter vers un fichier.</p>"
 "\n"
-"<p>Si vous désirez modifié le contenu du document, cliquez sur <b>Précédent</b> pour revenir à l'étape précédente.</p>"
+"<p>Si vous désirez modifier le contenu du document, cliquez sur <b>Précédent</b> pour revenir à l'étape précédente.</p>"
 
 #. i18n: ectx: property (text), widget (QPushButton, previewButton)
 #. +> trunk5
@@ -82725,7 +82724,7 @@ msgid ""
 "\t\n"
 msgstr ""
 "\t\t"
-"<p>Par défaut, KStars est livré avec les catalogues d'objets du ciel profond NGC et IC.  Vous pouvez télécharger beaucoup plus de catalogues à partir de l'option Fichier->Télécharger de nouvelles données. Vous pouvez aussi créer vos propres catalogues personnalisés et les ajouter.\n"
+"<p>Par défaut, KStars est livré avec les catalogues d'objets du ciel profond NGC et IC. Vous pouvez télécharger beaucoup plus de catalogues à partir de l'option « Fichier / Télécharger de nouvelles données ». Vous pouvez aussi créer vos propres catalogues personnalisés et les ajouter.\n"
 "\t\t</p>"
 "\n"
 "\t\n"
@@ -82940,7 +82939,7 @@ msgid ""
 "\t\n"
 msgstr ""
 "\t\t"
-"<p>Si vous utilisé une caméra pour acquérir des images, vous pouvez créer un symbole de champ de vision (CdV) qui représentera le capteur à l'échelle. Vous pouvez ensuite ajuster l'orientation du symbole de CdV pour correspondre à l'orientation de votre caméra. Vous voyez ainsi ce que celle-ci enregistrera. L'éditeur de CdV est accessible à partir du menu Configuration-> Symbole CdV.\n"
+"<p>Si vous utilisé une caméra pour acquérir des images, vous pouvez créer un symbole de champ de vision (CdV) qui représentera le capteur à l'échelle. Vous pouvez ensuite ajuster l'orientation du symbole de CdV pour correspondre à l'orientation de votre caméra. Vous voyez ainsi ce que celle-ci enregistrera. L'éditeur de CdV est accessible à partir du menu « Configuration / Symbole CdV ».\n"
 "\t\t</p>"
 "\n"
 "\t\n"
@@ -83237,7 +83236,7 @@ msgid ""
 "\t\n"
 msgstr ""
 "\t\t"
-"<p>Edwin Hubble a fait les premières mesures qui ont montré que les galaxies lointaines s'éloignent de nous à très grande vitesse. C'était une preuve précoce de l'expansion de l'univers. Pour en savoir plus, consultez le projet AstroInfo dans le manuel KStars (Aide->Manuel KStars).\n"
+"<p>Edwin Hubble a fait les premières mesures qui ont montré que les galaxies lointaines s'éloignent de nous à très grande vitesse. C'était une preuve précoce de l'expansion de l'univers. Pour en savoir plus, consultez le projet AstroInfo dans le manuel KStars (Aide / Manuel KStars).\n"
 "\t\t</p>"
 "\n"
 "\t\n"
@@ -84571,7 +84570,6 @@ msgstr ""
 "<ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\">"
 "<li style=\"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Le mode <span style=\"font-style:italic;\">plafond/fenêtre</span> permet de bloquer la zone au-dessus de la ligne (plafond) ou en dessous (fenêtre).</li>"
 "<li style=\"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Le bouton « + » ajoute une ligne dans le tableau de points et permet de saisir manuellement les coordonnée d'un point.</li>"
-"  "
 "<li style=\"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> Vous pouvez également placer les points <span style=\"font-style:italic;\">directement sur la carte du ciel</span> en utilisant le bouton <span style=\"font-weight:600;\">Placer les points sur la carte du ciel</span>, en haut à droite.</li>"
 "</ul>"
 "<li style=\"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Activez une région <span style=\"font-style:italic;\">en cochant sa case</span>. </li>"
