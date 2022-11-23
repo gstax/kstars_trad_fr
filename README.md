@@ -114,7 +114,7 @@ Cela créera le fichier kstars.pdf.
 * Enlever tous les :
 * Pas de guillemets autour de Ekos et INDI 
 * En français l'apostrophe est le caractère U+2019 « ’ », et non U+0027 « ' » (qui correspond à celle sur mon clavier, même touche que le ?). Dans vim, on peut les trouver en faisant [\u0027], et on l'entre avec « Ctrl+K '9 ». Dans vim, on peut chercher et remplacer avec:
-  <code>:%s/[\u0027]/’/gc</code> (en entrant directement Ctrl+k '9 dans la ligne ex)
+  <code>:%s/[\u0027]/’/gc</code> (en entrant directement Ctrl+k '9 dans la ligne ex). Mais, car il y a toujours un mais, l'équipe de traduction de KDE a choisi l'inverse, à savoir l'apostrophe simple (U+0027). Donc, c'est <code>:%s/’/'/gc</code> qu'il faut faire.
 
 ## Glossaire
 
