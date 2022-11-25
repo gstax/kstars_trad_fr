@@ -307,14 +307,14 @@ msgstr "M45_Light_Rouge_002_2016-11-09T23-48-34.fits"
 #: ekos-capture.docbook:194
 #, no-c-format
 msgid "<guilabel>Script</guilabel>: Specify an <emphasis>optional</emphasis> script to be executed after each capture is complete. The full path of the script must be specified and it must executable. To denote success, the script must return zero as this would allow the sequence to continue. If a non-zero value is returned by the script, the sequence is aborted."
-msgstr "<guilabel>Script</guilabel> : spécifie un script facultatif à exécuter après chaque acquisition. Le chemin complet du script doit être indiqué et il doit être exécutable. Une valeur de zéro doit être retournée en cas de succès afin de permettre à la séquence de continuer. Si une valeur différente de zéro est retournée par le script, alors la séquence sera interrompue."
+msgstr "<guilabel>Script</guilabel> : spécifie un script facultatif à exécuter après chaque acquisition. L'emplacement complet du script doit être indiqué et il doit être exécutable. Une valeur de zéro doit être retournée en cas de succès afin de permettre à la séquence de continuer. Si une valeur différente de zéro est retournée par le script, alors la séquence sera interrompue."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:199
 #, no-c-format
 msgid "<guilabel>Directory</guilabel>: Local directory to save the sequence images to."
-msgstr "<guilabel>Répertoire</guilabel> : spécifie le dossier local d'enregistrement des images."
+msgstr "<guilabel>Dossier</guilabel> : spécifie le dossier local d'enregistrement des images."
 
 #. Tag: para
 #. +> trunk5

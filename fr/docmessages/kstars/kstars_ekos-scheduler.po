@@ -111,7 +111,7 @@ msgstr "Un <guilabel>fichier Fits</guilabel> facultatif : si vous spécifiez un
 #: ekos-scheduler.docbook:48
 #, no-c-format
 msgid "<guilabel>Sequence</guilabel> file: The sequence file is constructed in the Ekos <link linkend=\"ekos-capture\">Capture Module</link>. It contains the number of images to capture, filters, temperature settings, prefixes, download directory, &etc;"
-msgstr "Un fichier <guilabel>Séquence</guilabel> : le fichier est (préalablement) construit dans le <link linkend=\"ekos-capture\">module d'acquisition</link>. Il contient le nombre d'images à acquérir, les filtres à utiliser, les réglages de température, les préfixes, le répertoire d'enregistrement, &etc;."
+msgstr "Un fichier <guilabel>Séquence</guilabel> : le fichier est (préalablement) construit dans le <link linkend=\"ekos-capture\">module d'acquisition</link>. Il contient le nombre d'images à acquérir, les filtres à utiliser, les réglages de température, les préfixes, le dossier d'enregistrement, &etc;."
 
 #. Tag: para
 #. +> trunk5
@@ -391,7 +391,7 @@ msgstr "Un autre aspect critique des observatoires robotiques commandés à dist
 #: ekos-scheduler.docbook:242
 #, no-c-format
 msgid "<emphasis role=\"bold\">Ok</emphasis>: Weather conditions are clear and optimal for imaging."
-msgstr "<emphasis role=\"bold\">OK</emphasis> : les conditions sont claires et optimales pour imager."
+msgstr "<emphasis role=\"bold\">Ok</emphasis> : les conditions sont claires et optimales pour imager."
 
 #. Tag: para
 #. +> trunk5
@@ -426,7 +426,7 @@ msgstr "Comme chaque observatoire est unique, Ekos offre la possibilité à l'ut
 #: ekos-scheduler.docbook:264
 #, no-c-format
 msgid "Startup and shutdown scripts can be written any language that can be executed on the local machine. It must return 0 to report success, any other exist value is considered an error indicator. The script's standard output is also directed to Ekos logger window. The following is an sample demo startup script in Python:"
-msgstr "Les scripts peuvent être écrits dans n'importe quel language qui peut être exécuté sur la machine locale. Un script doit retourner la valeur 0 pour être considéré comme succès, tout autre valeur indique une erreur. La sortie standard du script est dirigée vers la fenêtre des fichiers journaux d'Ekos. Voici un exemple de script de démarrage écrit en Python :"
+msgstr "Les scripts peuvent être écrits dans n'importe quel langage qui peut être exécuté sur la machine locale. Un script doit retourner la valeur 0 pour être considéré comme succès, tout autre valeur indique une erreur. La sortie standard du script est dirigée vers la fenêtre des fichiers journaux d'Ekos. Voici un exemple de script de démarrage écrit en Python :"
 
 #. Tag: programlisting
 #. +> trunk5
@@ -482,7 +482,7 @@ msgstr ""
 #: ekos-scheduler.docbook:268
 #, no-c-format
 msgid "The startup and shutdown scripts must be <emphasis>executable</emphasis> in order for Ekos to invoke them (&eg; use <userinput>chmod +x startup_script.py</userinput> to mark the script as executable). Ekos Scheduler enables truly simple robotic operation without the need of any human intervention in any step of the process. Without human presence, it becomes increasingly critical to gracefully recover from failures in any stage of the observation run. Using &plasma; notifications, the user can configure audible alarms and email notifications for the various events in the scheduler."
-msgstr "Les scripts doivent être <emphasis>exécutables</emphasis> pour qu'Ekos puisse les invoquer (c'est-à-dire utilisez la commande <userinput>chmod u+x startup_script.py</userinput> pour le rendre exécutable). L'ordonnanceur d'Ekos permet d'opérer un observatoire de manière complètement robotisée sans aucune intervention humaine. Il est donc critique que le système puisse se rétablir après des erreurs, et cela à n'importe quelle étape du processus d'observation. L'utilisation des notifications &plasma; permet de configurer des alarmes audibles et l'envoi automatique de courriels pour divers événements de l'ordonnanceur."
+msgstr "Les scripts doivent être <emphasis>exécutables</emphasis> pour qu'Ekos puisse les invoquer (c'est-à-dire utilisez la commande <userinput>chmod u+x startup_script.py</userinput> pour le rendre exécutable). L'ordonnanceur d'Ekos permet d'opérer un observatoire de manière complètement robotisée sans aucune intervention humaine. Il est donc critique que le système puisse se rétablir après des erreurs, et cela à n'importe quelle étape du processus d'observation. L'utilisation des notifications &plasma; permet de configurer des alarmes audibles et l'envoi automatique de courriels pour divers évènements de l'ordonnanceur."
 
 #. Tag: title
 #. +> trunk5
@@ -548,7 +548,7 @@ msgstr "La seconde étape est gérée par des logiciels de traitement d'images c
 #: ekos-scheduler.docbook:309
 #, no-c-format
 msgid "The <guilabel>Mosaic Planner</guilabel> in the Ekos Scheduler will create multiple Scheduler jobs based on a central target. To toggle the planner, click on the <guibutton>Mosaic Planner</guibutton> button in Ekos Scheduler or KStars INDI toolbar as illustrated in the screenshot. The planner draws the Mosaic Panel directly unto the sky map. It is recommended to enable HiPS overlay for the best experience. The planner is composed of four stages:"
-msgstr "Le <guilabel>planificateur de mosaïques</guilabel> de l'ordonnanceur d'Ekos créera plusieurs tâches basées sur une cible centrale. Pour afficher le planificateur, cliquez sur le bouton <guibutton>Planificateur de mosaïques</guibutton> dans l'ordonnanceur d'Ekos ou sur la barre d'outils INDI de KStars comme illustré dans la capture d'écran. Le planificateur dessine la mosaïque directement sur la carte du ciel. Il est recommandé d'activer la superposition HiPS pour la meilleure expérience. Le planificateur est composé de quatre étapes :"
+msgstr "Le <guilabel>planificateur de mosaïques</guilabel> de l'ordonnanceur d'Ekos créera plusieurs tâches fondées sur une cible centrale. Pour afficher le planificateur, cliquez sur le bouton <guibutton>Planificateur de mosaïques</guibutton> dans l'ordonnanceur d'Ekos ou sur la barre d'outils INDI de KStars comme illustré dans la capture d'écran. Le planificateur dessine la mosaïque directement sur la carte du ciel. Il est recommandé d'activer la superposition HiPS pour la meilleure expérience. Le planificateur est composé de quatre étapes :"
 
 #. Tag: para
 #. +> trunk5
@@ -652,7 +652,7 @@ msgstr "<phrase>Ajustement de la grille</phrase>"
 #: ekos-scheduler.docbook:387
 #, no-c-format
 msgid "<emphasis role=\"bold\">Create Jobs</emphasis>: The final step is to select the sequence file and directory to store the images. Target field is automatically filled but may be changed as desired. Select the steps each scheduler job should execute in sequence (Track -> Focus -> Align -> Guide -> Capture), and adjust the frequency of automatic alignment and focus routines that must be executed during the mosaic operation. For example, if <guilabel>Align Every</guilabel> is set to 2 Scheduler Jobs, then the first job will run the astrometry alignment, while the second job will skip it. When the third job is executed, alignment is performed again and so forth."
-msgstr "<emphasis role=\"bold\">Création des tâches</emphasis> : l'étape finale consiste en la sélection du fichier séquence et le dossier d'enregistrement des images. Le champ cible est automatiquement renseigné mais peut être modifié à convenance. Sélectionner les différentes étapes de la tâche (Suivre -> Mise au point -> Alignement -> Guidage -> Acquisition) et régler la fréquence de rafraichissement de l'alignement et de la mise au point durant l'exécution de la tâche. Par exemple, si <guilabel>Aligner tous les</guilabel> est réglé à 2 tâches, alors la première tâche exécutera un alignement alors que la suivante ne l'exécutera pas. Et la troisième l'exécutera à nouveau et ainsi de suite."
+msgstr "<emphasis role=\"bold\">Création des tâches</emphasis> : l'étape finale consiste en la sélection du fichier séquence et le dossier d'enregistrement des images. Le champ cible est automatiquement renseigné mais peut être modifié à convenance. Sélectionner les différentes étapes de la tâche (Suivre -> Mise au point -> Alignement -> Guidage -> Acquisition) et régler la fréquence de rafraîchissement de l'alignement et de la mise au point durant l'exécution de la tâche. Par exemple, si <guilabel>Aligner tous les</guilabel> est réglé à 2 tâches, alors la première tâche exécutera un alignement alors que la suivante ne l'exécutera pas. Et la troisième l'exécutera à nouveau et ainsi de suite."
 
 #. Tag: screeninfo
 #. +> trunk5

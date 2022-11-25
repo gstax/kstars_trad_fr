@@ -286,7 +286,7 @@ msgstr "<emphasis role=\"bold\">Position relative</emphasis> : moteur de mise a
 #: ekos-focus.docbook:268
 #, no-c-format
 msgid "<emphasis role=\"bold\">Time Based</emphasis>: Time based focusers with no position feedback that adjust focus position by moving for a certain amount of time."
-msgstr "<emphasis role=\"bold\">Basé sur une durée</emphasis> : les moteurs de mise au point basés sur une durée n'ont pas de donnée de position mais ajuste la position de mise en se déplaçant pendant une certaine durée. "
+msgstr "<emphasis role=\"bold\">Fondé sur une durée</emphasis> : les moteurs de mise au point fondus sur une durée n'ont pas de donnée de position mais ajuste la position de mise en se déplaçant pendant une certaine durée. "
 
 #. Tag: para
 #. +> trunk5
@@ -300,7 +300,7 @@ msgstr "Débutez en choisissant un moteur de mise au point dans la liste déroul
 #: ekos-focus.docbook:276
 #, no-c-format
 msgid "For absolute focusers, you can set the ticks count in the Initial Steps Size field in the <link linkend=\"focus-mechanics\">Mechanics</link> tab. For absolute and relative focusers, the step size is in units of <emphasis>ticks</emphasis> and for simple, or time based, focusers, the step size is in <emphasis>milliseconds</emphasis>. The <guibutton>In</guibutton> and <guibutton>Out</guibutton> buttons can then be used to move the focuser by this number of ticks."
-msgstr "Pour les moteurs de mise au point à position absolue, vous pouvez régler le nombre initial d'encoches dans le champ Taille initiale de pas dans l'onglet <link linkend=\"focus-mechanics\">Mécaniques</link>. Les pas sont comptés en unité d'encoche pour les moteurs de mise au point à position absolue et relative et en <emphasis>millisecondes</emphasis> pour les moteurs simples ou basés sur le temps. Les boutons <guibutton>En avant</guibutton> et <guibutton>En arrière</guibutton> peuvent ensuite être utilisés pour déplacer le moteur de ce nombre de pas."
+msgstr "Pour les moteurs de mise au point à position absolue, vous pouvez régler le nombre initial d'encoches dans le champ Taille initiale de pas dans l'onglet <link linkend=\"focus-mechanics\">Mécaniques</link>. Les pas sont comptés en unité d'encoche pour les moteurs de mise au point à position absolue et relative et en <emphasis>millisecondes</emphasis> pour les moteurs simples ou fondés sur le temps. Les boutons <guibutton>En avant</guibutton> et <guibutton>En arrière</guibutton> peuvent ensuite être utilisés pour déplacer le moteur de ce nombre de pas."
 
 #. Tag: para
 #. +> trunk5
@@ -335,7 +335,7 @@ msgstr "Le bouton <guibutton>Mise au point automatique</guibutton> démarre l'ex
 #: ekos-focus.docbook:303
 #, no-c-format
 msgid "The <guibutton>Capture Image</guibutton> button will take a frame based on the current settings in the <guilabel>CCD and Filter Wheel</guilabel> group. The <guibutton>Start Framing</guibutton> button will start repeatedly capturing frames until the <guibutton>Stop</guibutton> button is pressed."
-msgstr "Le bouton <guibutton>Acquisition image</guibutton> démarre l'acquisition d'une image basée sur les réglages du <guilabel>CCD et de la roue à filtres</guilabel>. Le bouton <guibutton>En boucle</guibutton> démarre l'acquisition en boucle de trames jusqu'à ce que le bouton <guibutton>Arrêter</guibutton> est activé."
+msgstr "Le bouton <guibutton>Acquisition image</guibutton> démarre l'acquisition d'une image fondée sur les réglages du <guilabel>CCD et de la roue à filtres</guilabel>. Le bouton <guibutton>En boucle</guibutton> démarre l'acquisition en boucle de trames jusqu'à ce que le bouton <guibutton>Arrêter</guibutton> est activé."
 
 #. Tag: para
 #. +> trunk5
@@ -717,21 +717,21 @@ msgstr "<emphasis role=\"bold\">SEP</emphasis> : la bibliothèque intégrée d'
 #: ekos-focus.docbook:666
 #, no-c-format
 msgid "<emphasis role=\"bold\">Centroid</emphasis>: An extraction method based on estimating star mass around signal peaks."
-msgstr "<emphasis role=\"bold\">Centroïde</emphasis> : une méthode d'extraction basée sur une estimation de la masse de l'étoile autour du pic du signal."
+msgstr "<emphasis role=\"bold\">Centroïde</emphasis> : une méthode d'extraction fondée sur une estimation de la masse de l'étoile autour du pic du signal."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:671
 #, no-c-format
 msgid "<emphasis role=\"bold\">Gradient</emphasis>: A single source extraction model based on the Sobel filter."
-msgstr "<emphasis role=\"bold\">Gradient</emphasis> : une méthode d'extraction d'une source unique basée sur le filtre de Sobel."
+msgstr "<emphasis role=\"bold\">Gradient</emphasis> : une méthode d'extraction d'une source unique fondée sur le filtre de Sobel."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:676
 #, no-c-format
 msgid "<emphasis role=\"bold\">Threshold</emphasis>: A single source detection algorithm based on pixel values."
-msgstr "<emphasis role=\"bold\">Seuil</emphasis> : une méthode d'extraction d'une source unique basée sur la valeur des pixels."
+msgstr "<emphasis role=\"bold\">Seuil</emphasis> : une méthode d'extraction d'une source unique fondée sur la valeur des pixels."
 
 #. Tag: para
 #. +> trunk5
@@ -906,7 +906,7 @@ msgstr "Voici le panneau de configuration des paramètres de la mise au point m�
 #: ekos-focus.docbook:869
 #, no-c-format
 msgid "<guilabel>Initial Step size</guilabel>: This sets the step size to be used by various focus algorithms. For absolute and relative focusers this is the number of ticks; for timer based focusers this is the number of milliseconds."
-msgstr "<guilabel>Taille initiale du pas</guilabel> : règle la taille de pas utilisée par différents algorithmes de mise au point. Pour les moteurs de mises au point, cela correspond aux nombres d'encoches ; pour ceux basés sur le temps, cela correspond aux nombre de millisecondes."
+msgstr "<guilabel>Taille initiale du pas</guilabel> : règle la taille de pas utilisée par différents algorithmes de mise au point. Pour les moteurs de mises au point, cela correspond aux nombres d'encoches ; pour ceux fondés sur le temps, cela correspond aux nombre de millisecondes."
 
 #. Tag: para
 #. +> trunk5
@@ -1032,7 +1032,7 @@ msgstr "<phrase>Affichage de la mise au point</phrase>"
 #: ekos-focus.docbook:982
 #, no-c-format
 msgid "The focus display, displays a FITS viewer window onto the frame taken during the focus process. It displays the <guilabel>Annulus</guilabel> values superimposed on the image. All the stars detected by Ekos based on the selected parameters, have their HFR value displayed next to the associated star."
-msgstr "L'affichage de la mise au point affiche une fenêtre de l'afficheur FITS sur la trame prise durant la procédure de mise au point. Il affiche les valeur de l'<guilabel>anneau</guilabel> superposées sur l'image. Toutes les étoiles détectées par Ekos basées sur les paramètres sélectionnées ont leur HFR affichée à leur côté."
+msgstr "L'affichage de la mise au point affiche une fenêtre de l'afficheur FITS sur la trame prise durant la procédure de mise au point. Il affiche les valeur de l'<guilabel>anneau</guilabel> superposées sur l'image. Toutes les étoiles détectées par Ekos fondées sur les paramètres sélectionnées ont leur HFR affichée à leur côté."
 
 #. Tag: para
 #. +> trunk5
@@ -1228,7 +1228,7 @@ msgstr "Le réglage exact qui fonctionne le mieux pour un équipement astronomiq
 #: ekos-focus.docbook:1137
 #, no-c-format
 msgid "Start near to focus by manually finding focus. Use the <guibutton>Start Framing</guibutton> option and manually adjust focus to get to approximate focus."
-msgstr "Débutez près de la position de mise au point trouvée manuellement. L'option <guibutton>En boucle</guibutton> permet de visualiser la recherche manuelle d'une mise au point approximative."
+msgstr "Débutez près de la position de mise au point trouvée manuellement. L'option <guibutton>En boucle</guibutton> permet d'afficher la recherche manuelle d'une mise au point approximative."
 
 #. Tag: para
 #. +> trunk5

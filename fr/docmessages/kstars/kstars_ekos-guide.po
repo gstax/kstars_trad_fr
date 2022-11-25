@@ -328,7 +328,7 @@ msgstr "Une fois que la procédure de calibration s'est terminée avec succès, 
 #: ekos-guide.docbook:209
 #, no-c-format
 msgid "Ekos can utilize multiple algorithms to determine the center of mass of the guide star. By default, the <emphasis>smart</emphasis> algorithm is suited best for most situation. The <emphasis>fast</emphasis> algorithm is based on HFR calculations. You can try switching guiding algorithms if Ekos cannot keep of the guide star within the guiding square properly."
-msgstr "Ekos peut utiliser divers algorithmes pour déterminer le centre de masse de l'étoile guide. Par défaut, c'est l'algorithme <emphasis>Intelligent</emphasis> qui convient à la plupart des situations. L'algorithme <emphasis>Rapide</emphasis> est basé sur les calculs de HFR. Vous pouvez essayer de changer d'algorithme si Ekos ne parvient pas à garder correctement l'étoile guide dans le carré de guidage."
+msgstr "Ekos peut utiliser divers algorithmes pour déterminer le centre de masse de l'étoile guide. Par défaut, c'est l'algorithme <emphasis>Intelligent</emphasis> qui convient à la plupart des situations. L'algorithme <emphasis>Rapide</emphasis> est fondé sur les calculs de HFR. Vous pouvez essayer de changer d'algorithme si Ekos ne parvient pas à garder correctement l'étoile guide dans le carré de guidage."
 
 #. Tag: para
 #. +> trunk5
@@ -454,7 +454,7 @@ msgstr "Le graphique de la dérive est un outil très puissant pour surveiller l
 #: ekos-guide.docbook:289
 #, no-c-format
 msgid "You can pan and zoom the plot, and when hovering the mouse over the graph, a tooltip is displayed containing information about this specific point in time. It contains the guiding drift and any corrections made, in addition to the local time, this event was recorded. A vertical slider to the right of the image can be used to adjust the height of the secondary Y-axis for pulses corrections."
-msgstr "Vous pouvez déplacer le graphique ainsi que faire un zoom et lorsque vous survolez une zone, des infobulles apparaîtront contenant de l'information pour un moment spécifique. Elle contient la dérive et la correction effectuée et l'heure locale d'enregistrement de l'événement. Un curseur vertical à la droite de l'image permet d'ajuster la hauteur de l'axe Y secondaire qui affiche les impulsions de correction."
+msgstr "Vous pouvez déplacer le graphique ainsi que faire un zoom et lorsque vous survolez une zone, des infobulles apparaîtront contenant de l'information pour un moment spécifique. Elle contient la dérive et la correction effectuée et l'heure locale d'enregistrement de l'évènement. Un curseur vertical à la droite de l'image permet d'ajuster la hauteur de l'axe Y secondaire qui affiche les impulsions de correction."
 
 #. Tag: para
 #. +> trunk5
