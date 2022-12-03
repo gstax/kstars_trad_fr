@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos-capture_3.6.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-12-02 11:45+0100\n"
+"POT-Creation-Date: 2022-12-03 12:25+0100\n"
 "PO-Revision-Date: 2022-11-20 07:56+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -286,7 +286,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-capture.docbook:175
 #, no-c-format
-msgid "Arbitary text may also be included within the Format string, <emphasis role=\"bold\">except the % and \\ characters.</emphasis> The / path character can be used to define aribtary directories."
+msgid "Arbitrary text may also be included within the Format string, <emphasis role=\"bold\">except the % and \\ characters.</emphasis> The / path character can be used to define arbitrary directories."
 msgstr ""
 
 #. Tag: para
@@ -349,7 +349,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-capture.docbook:216
 #, no-c-format
-msgid "<emphasis role=\"bold\">%s*</emphasis> or <emphasis role=\"bold\">%sequence*</emphasis>: Placeholder %s* or %sequence: The image sequence identifier where * is the number of digits used (1-9). <emphasis role=\"bold\">This tag is mandatory and must be the last element in the format.</emphasis>"
+msgid "<emphasis role=\"bold\">%s*</emphasis> or <emphasis role=\"bold\">%sequence*</emphasis>: The image sequence identifier where * is the number of digits used (1-9). <emphasis role=\"bold\">This tag is mandatory and must be the last element in the format.</emphasis>"
 msgstr ""
 
 #. Tag: para
