@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.6.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-16 00:45+0000\n"
-"PO-Revision-Date: 2022-12-17 07:53+0100\n"
+"PO-Revision-Date: 2022-12-21 15:42+0100\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -20902,7 +20902,7 @@ msgstr ""
 "<html><head/><body><p>Active ou désactive la limite de l'angle horaire de la "
 "monture. Une fois activé, Ekos surveille l'angle horaire de la monture "
 "pendant sa rotation ou son suivi. Si celui-ci tourne/suit au delà de la "
-"limite et que l' état courant du côté de la butée ne le permet pas, alors il "
+"limite et que l'état courant du côté de la butée ne le permet pas, alors il "
 "recevra une commande d'arrêt et le suivi sera désactivé. Cela nécessite une "
 "monture fournissant correctement le côté de pied.</p></body></html>"
 
@@ -33523,7 +33523,7 @@ msgstr "Emplacement du dossier pour l'enregistrement des images."
 #, kde-format
 #| msgid "Add the filter name to the capture file name."
 msgid "How to format captured image filename."
-msgstr "Comment formatter le nom du fichier de l'image acquise."
+msgstr "Comment formater le nom du fichier de l'image acquise."
 
 #. i18n: ectx: label, entry (RemoteCaptureDirectory), group (Capture)
 #: kstars.kcfg:1779
@@ -70615,7 +70615,7 @@ msgstr "A&pparence"
 #, kde-format
 msgid "Adjust speed of zooming when scrolling in and out with the mouse wheel"
 msgstr ""
-"Ajuster la vitesse de zoom lors de l'usage de la roulette de souris en avant "
+"Ajuster la vitesse de zoom lors de l'usage de la molette de souris en avant "
 "ou arrière."
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
