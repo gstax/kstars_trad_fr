@@ -1,0 +1,141 @@
+--- kstars_new.po	2022-12-30 17:17:45.102239172 +0100
++++ kstars.po	2022-12-30 17:30:38.794185528 +0100
+@@ -22,7 +22,7 @@
+ "Project-Id-Version: kstars_3.6.1\n"
+ "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+ "POT-Creation-Date: 2022-12-29 00:48+0000\n"
+-"PO-Revision-Date: 2022-12-17 07:53+0100\n"
++"PO-Revision-Date: 2022-12-30 17:30+0100\n"
+ "Last-Translator: Steve <stax@ik.me>\n"
+ "Language-Team: French <kde-francophone@kde.org>\n"
+ "Language: fr\n"
+@@ -16032,19 +16032,18 @@
+ msgstr "Mise au point %2 de %1 ms…"
+ 
+ #: ekos/focus/focus.cpp:1475
+-#, fuzzy, kde-format
++#, kde-format
+ #| msgid "Focuser is not responding to commands. Aborting..."
+ msgid "Focuser is still timing out. Aborting..."
+ msgstr ""
+-"Le moteur de mise au point ne répond pas aux commandes. Annulation en cours…"
++"Le délai du moteur de mise au point expire encore. Annulation en cours…"
+ 
+ #: ekos/focus/focus.cpp:1482
+-#, fuzzy, kde-format
++#, kde-format
+ #| msgid "Focus motion timed out (%1). Focusing to %2 steps..."
+ msgid "Focus motion timed out (%1). Restarting focus driver %2"
+ msgstr ""
+-"Expiration du délai alloué à la mise au point automatique (%1). Procédure en "
+-"%2 étapes…"
++"Expiration du délai alloué à la mise au point automatique (%1). Redémarrage du pilote de mise au point %2"
+ 
+ #: ekos/focus/focus.cpp:1499
+ #, kde-format
+@@ -16070,13 +16069,13 @@
+ #: ekos/focus/focus.cpp:1521
+ #, kde-format
+ msgid "Attempting to reconnect focuser: %1"
+-msgstr ""
++msgstr "Tentative de reconnexion au moteur de mise au point : %1"
+ 
+ #: ekos/focus/focus.cpp:1530
+-#, fuzzy, kde-format
++#, kde-format
+ #| msgid "Capture error. Aborting..."
+ msgid "Cannot reconnect focuser: %1. Aborting..."
+-msgstr "Erreur d'acquisition. Annulation en cours…"
++msgstr "Reconnexion au moteur de mise au point impossible : %1. Annulation en cours…"
+ 
+ #: ekos/focus/focus.cpp:1580
+ #, kde-format
+@@ -16261,10 +16260,10 @@
+ msgstr "Erreur de mise au point, vérifiez le panneau INDI."
+ 
+ #: ekos/focus/focus.cpp:3039
+-#, fuzzy, kde-format
++#, kde-format
+ #| msgid "Auto focus on filter change..."
+ msgid "Simulate focuser comms failure..."
+-msgstr "Mise au point automatique après modification de filtre…"
++msgstr "Échec de la simulation de la mise au point automatique…"
+ 
+ #: ekos/focus/focus.cpp:3107 ekos/focus/focus.cpp:3159
+ #: ekos/focus/focus.cpp:3208 ekos/focus/focus.cpp:3240
+@@ -27023,48 +27022,48 @@
+ 
+ #. i18n: ectx: property (title), widget (QGroupBox, clippingBox)
+ #: fitsviewer/opsfits.ui:195
+-#, fuzzy, kde-format
++#, kde-format
+ #| msgid "Clipping"
+ msgid "Clipping Limits"
+-msgstr "Découpage"
++msgstr "Limites de découpage"
+ 
+ #. i18n: ectx: property (toolTip), widget (QLabel, clipping64KLabel)
+ #: fitsviewer/opsfits.ui:216
+ #, kde-format
+ msgid "Clipping value for 16-bit values."
+-msgstr ""
++msgstr "Valeur de découpage pour des valeurs en 16 octets."
+ 
+ #. i18n: ectx: property (text), widget (QLabel, clipping64KLabel)
+ #: fitsviewer/opsfits.ui:219
+-#, fuzzy, kde-format
++#, kde-format
+ #| msgid "T. threshold:"
+ msgid "16bit threshold:"
+-msgstr "Seuil de T°"
++msgstr "Seuil de 16 octets"
+ 
+ #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_Clipping64KValue)
+ #: fitsviewer/opsfits.ui:226
+ #, kde-format
+ msgid "64K Clipping value."
+-msgstr ""
++msgstr "Valeur de découpage en 64K"
+ 
+ #. i18n: ectx: property (toolTip), widget (QLabel, clipping256Label)
+ #: fitsviewer/opsfits.ui:242
+ #, kde-format
+ msgid "Clipping value for 8-bit values."
+-msgstr ""
++msgstr "Valeur de découpage pour des valeurs en 8 octets."
+ 
+ #. i18n: ectx: property (text), widget (QLabel, clipping256Label)
+ #: fitsviewer/opsfits.ui:245
+-#, fuzzy, kde-format
++#, kde-format
+ #| msgid "T. threshold:"
+ msgid "8Bit threshold:"
+-msgstr "Seuil de T°"
++msgstr "Seuil de 8 octets"
+ 
+ #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_Clipping256Value)
+ #: fitsviewer/opsfits.ui:252
+ #, kde-format
+ msgid "Byte Clipping value."
+-msgstr ""
++msgstr "Valeur de découpage par octet"
+ 
+ #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+ #: fitsviewer/opsfits.ui:273
+@@ -33560,14 +33559,14 @@
+ #, kde-format
+ msgid ""
+ "Min value of pixels marked as clipped in the fitsviewer for 16-bit images."
+-msgstr ""
++msgstr "Valeur minimale des pixels marqués comme découpés dans l'afficheur fits pour des images de 16 octets."
+ 
+ #. i18n: ectx: label, entry (Clipping256Value), group (Capture)
+ #: kstars.kcfg:1760
+ #, kde-format
+ msgid ""
+ "Min value of pixels marked as clipped in the fitsviewer for 8-bit images."
+-msgstr ""
++msgstr "Valeur minimale des pixels marqués comme découpés dans l'afficheur fits pour des images de 8 octets."
+ 
+ #. i18n: ectx: label, entry (AdaptiveSampling), group (Capture)
+ #: kstars.kcfg:1765
