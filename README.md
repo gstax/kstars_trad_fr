@@ -50,7 +50,7 @@ Plusieurs outils existent pour vérifier les fichiers.
 
 [Doc pology](https://community.kde.org/KDE_Localization/fr/pology)
 
-<code>i18nspector -l fr fichier.po</code> (doc)[https://i18nspector.readthedocs.io/en/stable/]
+<code>i18nspector -l fr fichier.po</code> [doc](https://i18nspector.readthedocs.io/en/stable/)
 
 Comme ce sont des fichiers pris dans la branche trunk, il faut rajouter ce drapeau aux fichiers po. Un script python le fait :
 
@@ -77,7 +77,7 @@ par
 pour tenir compte du nouveau fichier entities.user.
 
 Les fichiers css ne sont pas trouvés, j'ai donc créé un petit script bash pour corriger les chemins :
-<code>
+
 <code>./corriger_css.sh</code>
 
 Rem : ça s'est si l'on veut visualier avec un navigateur quelconque. On peut éviter cette étape en utilisant Konqueror.
