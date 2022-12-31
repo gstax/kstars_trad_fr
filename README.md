@@ -10,9 +10,9 @@ But: une interface professionnelle, francisée et épurée.
 Il se trouve ici : https://fr.l10n.kde.org/apps/pofiles.php#kstars
 
 
-ou ici, mais ne contient pas les tags trunk, donc il faut les ajouter avec le fichier python <name>.
+ou ci-dessous, mais ne contient pas les tags trunk, donc il faut les ajouter avec le fichier python <name>.
 
-Le fichier source se trouve à l'adresse http://websvn.kde.org/*checkout*/trunk/l10n-kf5/fr/messages/kstars/kstars.po
+http://websvn.kde.org/*checkout*/trunk/l10n-kf5/fr/messages/kstars/kstars.po
 
 Si on tombe sur un timeout (souvent), utiliser
 
