@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos_3.6.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-30 09:03+0200\n"
+"POT-Creation-Date: 2023-01-16 10:26+0100\n"
 "PO-Revision-Date: 2022-11-20 07:37+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -61,7 +61,6 @@ msgstr "Fonctionnalités :"
 #. +> trunk5
 #: ekos.docbook:19
 #, no-c-format
-#| msgid "Control your telescope, CCD (&amp; DSLRs), filter wheel, focuser, guider, adaptive optics unit, and any INDI-compatible auxiliary device from Ekos."
 msgid "Control your telescope, Camera (&amp; DSLRs), filter wheel, focuser, guider, adaptive optics unit, and any INDI-compatible auxiliary device from Ekos."
 msgstr "Contrôle de télescope, de caméra (&amp; APN), de roue à filtres, de moteur de mise au point, de guide, de périphérique d'optique adaptative et de tout périphérique compatible avec le protocole INDI (Instrument Neutral Distributed Interface) directement depuis Ekos."
 
@@ -96,8 +95,9 @@ msgstr "Mesure et correction des erreurs d'alignement polaire en utilisant le r�
 #. Tag: para
 #. +> trunk5
 #: ekos.docbook:44
-#, no-c-format
-msgid "Easy to use <ulink url=\"https://www.youtube.com/watch?v=sx6Zz9lNd5Q\">Polar Alignment Assistant</ulink> tool. A very quick and reliable tool to polar align your German Equatorial Mount!"
+#, fuzzy, no-c-format
+#| msgid "Easy to use <ulink url=\"https://www.youtube.com/watch?v=sx6Zz9lNd5Q\">Polar Alignment Assistant</ulink> tool. A very quick and reliable tool to polar align your German Equatorial Mount!"
+msgid "Easy to use Polar Alignment Assistant tool. A very quick and reliable tool to polar align your German Equatorial Mount!"
 msgstr "Un outil d'<ulink url=\"https://www.youtube.com/watch?v=sx6Zz9lNd5Q\">alignement polaire assisté</ulink> facile à utiliser. Un outil très rapide et fiable pour réaliser un alignement polaire précis d'une monture équatoriale allemande !"
 
 #. Tag: para
