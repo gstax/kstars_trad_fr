@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.6.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-01-02 00:52+0000\n"
-"PO-Revision-Date: 2023-01-02 14:53+0100\n"
+"PO-Revision-Date: 2023-01-02 16:13+0100\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -6972,7 +6972,7 @@ msgid ""
 "selected a City, press <b>Next</b>.</p>"
 msgstr ""
 "<p>Sélectionnez une ville proche de votre position à partir de la liste. "
-"Vous pouvez filter la liste par le nom de votre ville, région et pays. "
+"Vous pouvez filtrer la liste par le nom de votre ville, région et pays. "
 "</p><p>Une fois que vous avez sélectionné une ville, veuillez appuyer sur "
 "<b>Suivant</b>.</p>"
 
@@ -7257,7 +7257,7 @@ msgid ""
 "valid WCS."
 msgstr ""
 "Informations WCS mises à jour. Les images acquises dès maintenant "
-"possèderont des informations WCS valables."
+"posséderont des informations WCS valables."
 
 #. 
 #. +> trunk5
@@ -12521,7 +12521,7 @@ msgid ""
 "pointing.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Tracer l'erreur de dérive d'ascension droite (AD) là "
-"où le telescope pointe.</p></body></html>"
+"où le télescope pointe.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, mountRaOut)
 #. +> trunk5
@@ -15067,7 +15067,7 @@ msgid ""
 "A variable to store the fwhm in pixels used to generate the convolution "
 "filter for star detection."
 msgstr ""
-"Variable pour stocker fwhm en pixels, utilisé pour générer le filtre de "
+"Variable pour enregistrer la valeur fwhm en pixels, utilisé pour générer le filtre de "
 "convolution pour la détection d'étoiles."
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, magzero)
@@ -17477,8 +17477,8 @@ msgstr ""
 "right:0px; -qt-block-indent:0; text-indent:0px;\">Les tags réservés sont "
 "sensibles à la casse tant pour le forme courte que longue.</li><li "
 "style=\"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\">Le tage réservé %Datetime "
-"ne doit être utilisé que dans la partie du nom de fichier et non dans la "
+"right:0px; -qt-block-indent:0; text-indent:0px;\">L'étiquette réservée %Datetime "
+"ne doit être utilisée que dans la partie du nom de fichier et non dans la "
 "définition de l'emplacement.</li></ul></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, formatSuffixN)
@@ -19050,7 +19050,7 @@ msgstr "Mode"
 #, kde-format
 msgid "Connect to EkosLive on the Cloud. Requires Internet connection."
 msgstr ""
-"STEVESe connecter au service Ekos Live dans le Cloud. Ce service requiert "
+"Se connecter au service EkosLive dans le Cloud. Ce service requiert "
 "une connexion à Internet."
 
 #. i18n: ectx: property (text), widget (QRadioButton, ekosLiveOnlineR)
@@ -52882,7 +52882,7 @@ msgstr "Crestwood"
 #, kde-kuit-format
 msgctxt "City in Illinois USA"
 msgid "Creve Coeur"
-msgstr "Creve Coeur"
+msgstr "Crève Cœur"
 
 #. 
 #. +> trunk5
@@ -76234,7 +76234,7 @@ msgstr "Argentine"
 #, kde-kuit-format
 msgctxt "Country name"
 msgid "Armenia"
-msgstr "Armémie"
+msgstr "Arménie"
 
 #. 
 #. +> trunk5
@@ -95674,7 +95674,7 @@ msgstr "Région"
 #, kde-format
 msgctxt "Azimuth"
 msgid "Az"
-msgstr "Azimuth"
+msgstr "Azimut"
 
 #. 
 #. +> trunk5
@@ -97174,7 +97174,7 @@ msgid ""
 "Stars and objects whose names KStars does not know are not supported in the "
 "observing lists"
 msgstr ""
-"Les étoiles et objects que KStars ne connait pas ne sont pas prises en "
+"Les étoiles et objects que KStars ne connaît pas ne sont pas prises en "
 "charge dans les listes d'observation"
 
 #. 
