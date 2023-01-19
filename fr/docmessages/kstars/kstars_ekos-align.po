@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: kstars_ekos_align_3.6.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-01-17 09:36+0100\n"
-"PO-Revision-Date: 2022-11-20 07:49+0100\n"
+"PO-Revision-Date: 2023-01-19 09:56+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -83,7 +83,7 @@ msgstr "Il y a souvent une différence entre l'endroit où le télescope croit p
 #: ekos-align.docbook:29
 #, no-c-format
 msgid "Furthermore, Ekos provides a Polar Alignment Assistant Tool to correct polar alignment errors. It takes three images, slewing between the images, and calculates the offset between the mount axis and polar axis. It feeds back to the user the altitude and azimuth adjustments needed to align these axes. These images are typically taken near the celestial pole (Close to Polaris for Northern Hemisphere) but can work well taken from anywhere, usually starting near the meridian and slewing either East or West."
-msgstr ""
+msgstr "De plus, Ekos fournit un outil d'assistant d'alignement polaire pour corriger les erreurs d'alignement polaire. Il prend trois images, se déplace entre elles et calcule le décalage entre l'axe de la monture et l'axe polaire. Il renvoie ensuite à l'opérateur les ajustements en altitude et en azimut nécessaires pour aligner ces axes. Ces images sont typiquement prises près du pôle céleste (près de l'étoile polaire dans l'hémisphère nord) mais elles peuvent être également prises ailleurs, généralement près du méridien et bougeant vers l'est ou l'ouest."
 
 #. Tag: para
 #. +> trunk5
@@ -1091,15 +1091,15 @@ msgstr "Toutefois, même avec un monture alignée très soigneusement, vous souh
 #: ekos-align.docbook:556
 #, no-c-format
 msgid "Before starting the process, point the mount as close as possible to the celestial pole with the counterweights down. If you are living in the Northern Hemisphere, point it as close as possible to Polaris. If Polaris is not visible (&eg; blocked by trees or buildings) you may point elsewhere, preferably near the Meridian. Make sure there is at least 30-60 degrees of sky viewable in an arc East or West of the Meridian from the position you choose. Select the direction of free sky, the number of degrees for each of two slews, the mount slew speed, and whether the mount will be slewing automatically (recommended) or manually."
-msgstr ""
+msgstr "Avant le début de la procédure, pointez la monture aussi près que possible vers le pôle céleste avec le contre-poids vers le bas. Si vous habitez dans l'hémisphère nord, pointez vers l'étoile polaire Polaris. Si Polaris n'est pas visible (par exemple masquée par des arbres ou des bâtiments), vous pouvez pointer ailleurs mais de préférence vers le méridien. Assurez-vous qu'il y a au moins 30 à 60 degrés de ciel visible à l'est ou à l'ouest de la position choisie. Choisissez la direction du ciel libre, le nombre de degrés de déplacement pour chaque rotation, la vitesse de rotation et si la monture se déplace automatiquement (ce qui est recommandé) ou manuellement."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:559
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "The tool works by capturing and solving three images. After capturing each, the mount rotates by a fixed amount and another image is captured and solved."
 msgid "The tool works by capturing and solving three images. After capturing each, the mount rotates by the fixed amount you entered and another image is captured and solved. If you chose manual, you will need to slew the mount by roughly the angle chosen."
-msgstr "L'outil fonctionne en prenant et en résolvant trois images. Après chaque acquisition, la monture tourne d'une quantité fixe et une nouvelle image est prise et résolue."
+msgstr "L'outil fonctionne en prenant et en résolvant trois images. Après chaque acquisition, la monture tourne d'une quantité fixe et une nouvelle image est prise et résolue. Si vous choisissez le mode manuel, vous devrez tourner la monture de l'angle choisi."
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -1114,87 +1114,87 @@ msgstr "<screeninfo>Assistant d'alignement polaire</screeninfo>"
 #: ekos-align.docbook:577
 #, no-c-format
 msgid "Plate Solve Correction Scheme"
-msgstr ""
+msgstr "Schéma de correction de la résolution"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:579
 #, no-c-format
 msgid "The images below show the workflow when the <emphasis>Plate Solve</emphasis> correction technique is used. The image below shows a display after the 3 measurement images are captured and solved. It shows an error of almost 18' in altitude and that the mount's axis needs to be moved up. Similarly it shows an azimuth error of almost 15' and that the axis needs to be moved to the right (as viewed from behind the telescope)."
-msgstr ""
+msgstr "Les images affichées ci-dessous montrent le flux de travail quand la technique de correction de la <emphasis>résolution</emphasis> est utilisée. L'image ci-dessous montre l'affichage après que trois images aient été acquises et résolues. On voit une erreur de 18' en altitude et donc que l'axe de la monture doit être réajustée en fonction. On voit de même une erreur de 15' en azimut et un réajustement de l'axe de la monture vers la droite (vu de derrière le télescope)."
 
 #. Tag: phrase
 #. +> trunk5
 #: ekos-align.docbook:591
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<title>Polar Alignment Assistant</title>"
 msgid "Polar Alignment Assistant, Plate Solve Workflow 1"
-msgstr "<title>Assistant d'alignement polaire</title>"
+msgstr "Assistant d'alignement polaire, flux de travail 1 de la résolution "
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:595
 #, no-c-format
 msgid "If your error is low enough (&eg; less than an arc-minute) then you don't need to make any adjustments. Simply press stop and you're done."
-msgstr ""
+msgstr "Si l'erreur est suffisamment petite (&cad; moins d'une minute d'arc), il est inutile de faire des ajustements. Cliquez sur stop et c'est terminé."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:598
 #, no-c-format
 msgid "If you will be making corrections to your mount's axis, you should select the adjustment approach (we're using Plate Solve in this example), and how often the system should recapture images to re-measure the polar alignment error. The refresh interval should be frequent, but it doesn't make sense to make it faster that your CPU can capture and plate-solve the images. We're using 2s in this example. Then press the <guibutton>Refresh</guibutton> button to begin the correction process."
-msgstr ""
+msgstr "Si vous faites des corrections sur l'axe de votre monture, vous devriez choisir l'approche des ajustements (nous utilisons la résolution dans cet exemple) et précisez le rythme d'acquisition des images pour les mesures d'erreur de l'alignement polaire. L'intervalle de rafraîchissement devrait être fréquent mais il ne fait pas de sens de le rendre plus rapide que ce que le CPU est capable de faire pour les acquisitions et la résolution des images. Nous utilisons un intervalle de 2 secondes dans cet exemple. Ensuite cliquez sur le bouton <guibutton>Rafraîchissement</guibutton> pour démarrer la procédure de correction."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:601
 #, no-c-format
 msgid "The system will capture images, and re-estimate the polar alignment error after each image. You can try to reduce the error by adjusting the Altitude and Azimuth correction knobs on your mount. The image below shows the screen after the altitude error has been almost zeroed. See the difference between the <emphasis>Measured Error</emphasis> row, which shows the originally measured error after the original 3 captures, and the <emphasis>Updated Error</emphasis> row which shows the current error estimate."
-msgstr ""
+msgstr "Le système procédera à l'acquisition des images, puis ré-estimera l'erreur d'alignement polaire après chaque image. Vous pouvez essayer de diminuer ces erreurs en ajustant les molettes d'altitude et d'azimut de la monture. L'image ci-dessous montre l'écran après que l'erreur en altitude ait été réduite quasiment à zéro. Observez la différence sur la ligne <emphasis>Erreur mesurée</emphasis> qui montre l'erreur mesurée de départ après l'acquisition de trois images et la ligne de l'<emphasis>erreur mise à jour</emphasis> qui montre l'estimation de l'erreur actuelle."
 
 #. Tag: phrase
 #. +> trunk5
 #: ekos-align.docbook:613
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<title>Polar Alignment Assistant</title>"
 msgid "Polar Alignment Assistant, Plate Solve Workflow 2"
-msgstr "<title>Assistant d'alignement polaire</title>"
+msgstr "Assistant d'alignement polaire, flux de travail 2 de la résolution"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:617
 #, no-c-format
 msgid "Below the user has also adjust Azimuth to reduce the error further. Now the error is very low and the process is done. The user should press the stop button."
-msgstr ""
+msgstr "Ci-dessous, l'opérateur a aussi ajusté l'azimut afin de réduire encore plus l'erreur. Elle est maintenant très petite et la procédure est terminée. L'opérateur doit cliquer sur le bouton stop."
 
 #. Tag: phrase
 #. +> trunk5
 #: ekos-align.docbook:629
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<title>Polar Alignment Assistant</title>"
 msgid "Polar Alignment Assistant, Plate Solve Workflow 3"
-msgstr "<title>Assistant d'alignement polaire</title>"
+msgstr "Assistant d'alignement polaire, flux de travail 3 de la résolution"
 
 #. Tag: title
 #. +> trunk5
 #: ekos-align.docbook:635
 #, no-c-format
 msgid "Move Star Correction Scheme"
-msgstr ""
+msgstr "Schéma de correction de déplacement d'étoile"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:637
 #, no-c-format
 msgid "We also have an alternative schemes for correcting polar alignment. Two variations are <emphasis>Move Star &amp; Calc Error</emphasis> and <emphasis>Move Star</emphasis>. When you select this scheme, the system place a yellow/green/violet triangle on the screen. The triangle can be moved by clicking near a star, and the yellow/violet corner is moved to that star. In this scheme the user corrects polar alignment by first adjusting the mount's azimuth knob so that the selected star moves along the yellow side of the triangle. Once the star is near the next vertex, the azimuth knob should be adjusted so that the star moves along the green side of the triangle. Once the star is moved to the green/violet vertex, the mount is polar aligned, and the user can click <emphasis>stop</emphasis>."
-msgstr ""
+msgstr "Il existe un schéma alternatif pour corriger les erreurs d'alignement polaire. Les deux variations sont <emphasis>Déplacement d'étoile &amp; Calcul d'erreur</emphasis> et <emphasis>Déplacement d'étoile</emphasis>. En choisissant ce schéma, le système place un triangle jaune/vert/violet sur l'écran. Il peut être déplacé en cliquant près d'une étoile et le coin jaune/violet se déplace vers cette étoile. L'utilisateur corrige les erreurs d'alignement polaire en ajustant d'abord l'azimut de la monture afin que l'étoile sélectionnée se déplace le long du côté jaune du triangle. Une fois que l'étoile se trouve près du prochain sommet, l'azimut doit être ajusté pour l'étoile se déplace le long du côté vert du triangle. Une fois que l'étoile est sur le sommet vert/violet, la monture est alignée sur la polaire et l'opérateur peut cliquer sur le bouton <emphasis>stop</emphasis>."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:640
 #, no-c-format
 msgid "The difference between <emphasis>Move Star &amp; Calc Error</emphasis> and <emphasis>Move Star</emphasis> is that in the former, the system attempts to track the star the user has selected, and places a circle around that star. In that scheme it also attempts to update the <emphasis>Updated Err</emphasis> row. If the star tracking isn't reliable, simply ignore it or use the <emphasis> Move Star </emphasis>scheme and move the star by-eye until it's close to the final target. An example of using this technique is shown in this video: <ulink url=\"https://www.youtube.com/watch?v=iOp7hrxw0oU\">https://www.youtube.com/watch?v=iOp7hrxw0oU</ulink>"
-msgstr ""
+msgstr "La différence entre les deux méthodes réside dans le fait que dans la première le système tente de suivre l'étoile sélectionnée et place un cercle autour d'elle. Il tente également de mettre à jour la ligne <emphasis>Erreur mise à jour</emphasis>. Si le suivi de l'étoile n'est pas fiable, ignorez-le simplement ou utiliser le schéma <emphasis>Déplacement d'étoile</emphasis> et déplacez l'étoile visuellement jusqu'à ce qu'elle est près de la cible finale. Un exemple d'utilisation de cette technique est montré dans cette vidéo : <ulink url=\"https://www.youtube.com/watch?v=iOp7hrxw0oU\">https://www.youtube.com/watch?v=iOp7hrxw0oU</ulink>."
 
 #, no-c-format
 #~ msgid "Furthermore, Ekos provides two tools to measure and correct polar alignment errors:"
