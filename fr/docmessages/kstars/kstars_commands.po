@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: kstars_commands_3.6.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-06-11 10:18+0200\n"
-"PO-Revision-Date: 2022-11-20 07:44+0100\n"
+"PO-Revision-Date: 2023-01-19 13:57+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -392,7 +392,7 @@ msgstr "Restaure le réglage par défaut du zoom."
 #: commands.docbook:280
 #, no-c-format
 msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>Z</keycap></keycombo> </shortcut> <guimenu>View</guimenu> <guimenuitem>Zoom to Angular Size...</guimenuitem>"
-msgstr "<shortcut> <keycombo action=\"simul\">&Ctrl;&Maj;<keycap>Z</keycap></keycombo> </shortcut> <guimenu>Affichage</guimenu> <guimenuitem>Zoomer à la dimension angulaire…</guimenuitem>"
+msgstr "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>Z</keycap></keycombo> </shortcut> <guimenu>Affichage</guimenu> <guimenuitem>Zoomer à la dimension angulaire…</guimenuitem>"
 
 #. Tag: para
 #. +> trunk5
@@ -406,7 +406,7 @@ msgstr "Fait un zoom à l'angle de champ de vision spécifié."
 #: commands.docbook:291
 #, no-c-format
 msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>F</keycap></keycombo> </shortcut> <guimenu>View</guimenu> <guimenuitem>Full Screen Mode</guimenuitem>"
-msgstr "<shortcut> <keycombo action=\"simul\">&Ctrl;&Maj;<keycap>F</keycap></keycombo> </shortcut> <guimenu>Affichage</guimenu> <guimenuitem>Mode Plein écran</guimenuitem>"
+msgstr "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>F</keycap></keycombo> </shortcut> <guimenu>Affichage</guimenu> <guimenuitem>Mode Plein écran</guimenuitem>"
 
 #. Tag: para
 #. +> trunk5
@@ -434,7 +434,7 @@ msgstr "(Dés)active la vue des <link linkend=\"ai-skycoords\">systèmes de coor
 #: commands.docbook:316
 #, no-c-format
 msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>T</keycap></keycombo> </shortcut> <guimenu>View</guimenu> <guimenuitem>Show Terrain</guimenuitem>"
-msgstr "<shortcut> <keycombo action=\"simul\">&Ctrl;&Maj;<keycap>T</keycap></keycombo> </shortcut> <guimenu>Affichage</guimenu> <guimenuitem>Afficher le terrain</guimenuitem>"
+msgstr "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>T</keycap></keycombo> </shortcut> <guimenu>Affichage</guimenu> <guimenuitem>Afficher le terrain</guimenuitem>"
 
 #. Tag: para
 #. +> trunk5
@@ -567,7 +567,7 @@ msgstr "Menu Outils"
 #: commands.docbook:380
 #, no-c-format
 msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>C</keycap></keycombo> </shortcut> <guimenu>Tools</guimenu> <guimenuitem>Calculator</guimenuitem>"
-msgstr "<shortcut> <keycombo action=\"simul\">&Ctrl;&Maj;<keycap>C</keycap></keycombo> </shortcut> <guimenu>Outils</guimenu> <guimenuitem>Calculatrice</guimenuitem>"
+msgstr "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>C</keycap></keycombo> </shortcut> <guimenu>Outils</guimenu> <guimenuitem>Calculatrice</guimenuitem>"
 
 #. Tag: para
 #. +> trunk5
@@ -1627,7 +1627,7 @@ msgstr "Les touche fléchées"
 #: commands.docbook:1201
 #, no-c-format
 msgid "Use the arrow keys to pan the display. Holding down the &Shift; key doubles the scrolling speed."
-msgstr "Les flèches de votre clavier servent à déplacer l'écran. L'écran se déplacera plus rapidement si vous maintenez la touche &Maj; enfoncée en même temps."
+msgstr "Les flèches de votre clavier servent à déplacer l'écran. L'écran se déplacera plus rapidement si vous maintenez la touche &Shift; enfoncée en même temps."
 
 #. Tag: term
 #. +> trunk5
@@ -1655,7 +1655,7 @@ msgstr "&Ctrl;<keycap>Z</keycap>"
 #: commands.docbook:1217
 #, no-c-format
 msgid "&Ctrl;&Shift;<keycap>Z</keycap>"
-msgstr "&Ctrl;&Maj;<keycap>Z</keycap>"
+msgstr "&Ctrl;&Shift;<keycap>Z</keycap>"
 
 #. Tag: term
 #. +> trunk5
@@ -1963,7 +1963,7 @@ msgstr "Règle l'horloge de simulation sur une date et heure spécifiée."
 #: commands.docbook:1341
 #, no-c-format
 msgid "&Ctrl;&Shift;<keycap>F</keycap>"
-msgstr "&Ctrl;&Maj;<keycap>F</keycap>"
+msgstr "&Ctrl;&Shift;<keycap>F</keycap>"
 
 #. Tag: keycombo
 #. +> trunk5
@@ -2083,7 +2083,7 @@ msgstr "Commandes à partir du clavier"
 #: commands.docbook:1417
 #, no-c-format
 msgid "Each of the following keystrokes performs an action on the <firstterm>selected object</firstterm>. The selected object is the last object which was clicked on (identified in the status bar). Alternatively, if you hold down the &Shift; key, then the action is performed on the centered object instead."
-msgstr "Chacune des actions sur le clavier effectue une action sur l'<firstterm>objet sélectionné</firstterm>. L'objet sélectionné est le dernier objet sur lequel on a cliqué (identifié dans la barre d'état). Autrement, si vous maintenez enfoncée la touche <keycap>&Maj;</keycap>, l'action sera effectuée sur l'objet centré."
+msgstr "Chacune des actions sur le clavier effectue une action sur l'<firstterm>objet sélectionné</firstterm>. L'objet sélectionné est le dernier objet sur lequel on a cliqué (identifié dans la barre d'état). Autrement, si vous maintenez enfoncée la touche <keycap>&Shift;</keycap>, l'action sera effectuée sur l'objet centré."
 
 #. Tag: keycap
 #. +> trunk5
