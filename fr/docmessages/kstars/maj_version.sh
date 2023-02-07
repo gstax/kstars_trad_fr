@@ -4,7 +4,7 @@
 # on met un _ pour ne prendre que l'occurrence du fichier
 for i in *.po
 do
-  sed -i 's/_3.6.0/_3.6.1/g' $i
+  sed -i 's/_3.6.1/_3.6.3/g' $i
 done
 
 
