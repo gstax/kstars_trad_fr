@@ -9,10 +9,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_config_3.6.1\n"
+"Project-Id-Version: kstars_config_3.6.3\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-01 10:07+0200\n"
-"PO-Revision-Date: 2022-06-15 08:50+0200\n"
+"PO-Revision-Date: 2023-01-19 13:57+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -857,7 +857,7 @@ msgstr "Afin d'accélérer la consultation, tous les catalogues activés sont fu
 #: config.docbook:519
 #, no-c-format
 msgid "Currently, deduplication (the assignment of OIDs) is only supported by the tooling of the <ulink url=\"https://invent.kde.org/vboettcher/kstars-catalogs\">catalog packaging repository</ulink>. The aim of this tool-chain is to reproducibly build catalogs in a homogeneous environment. Every catalog is implemented <ulink url=\"https://invent.kde.org/vboettcher/kstars-catalogs/-/blob/master/catalogs/sharpless_2.py\"> as a python module</ulink> and provides standard methods to acquire data, parse it and find duplicates in other catalogs. All downloadable catalogs are implemented this way. If you'd like to make a catalog of your own available for &kstars;, it is recommended that you implement it as a package in the repository. The tooling provided there is so flexible, that it should work for you. For more information on how to do that see the <ulink url=\"https://protagon.space/catalogs/\">catalog repository documentation</ulink>. If you are not familiar with python programming you can request the addition of a catalog by opening a ticket in the repository or contacting <ulink url=\"https://invent.kde.org/vboettcher/kstars-catalogs/-/project_members\">the maintainers</ulink>. &kstars; provides also provides means to create custom catalogs by manually entering data or importing CSV tables, but those are less flexible and offer no deduplication."
-msgstr "Pour le moment, la déduplication (l'affectation des OID) n'est gérée que par les outils du <ulink url=\"https ://invent.kde/vboettcher/kstars-catalogs\">dépôt de paquets des catalogues</ulink>. Le but de cet ensemble d'outils est de pouvoir reproduire la compilation des catalogues dans un environnement homogène. Chaque catalogue est implémenté dans un  <ulink url=\"https://invent.kde.org/vboettcher/kstars-catalogs/-/blob/master/catalogs/sharpless_2.py\">module python</ulink> et fournit des méthodes standards pour acquérir des données, les analyser et trouver des doublons dans d'autres catalogues. Tous les catalogues téléchargeables sont implémentés de cette manière. Si vous voulez créer votre propre catalogue à mettre à disposition de &kstars;, il est fortement recommandé de le créer comme un paquet dans ce dépôt. Les outils à disposition sont tellement flexibles que cela devrait bien fonctionner pour vous. Pour davantage d'informations sur la manière de procéder, veuillez lire la <ulink url=\"https://protagon.space/catalogs/\">documentation sur les dépôts de catalogues</ulink>. Si vous n'êtes pas à l'aise avec la programmation en Python, vous pouvez demander l'ajout d'un catalogue en ouvrant un ticket sur la page du dépôt ou en contactant les <ulink url=\"https://invent.kde.org/vboettcher/kstars-catalogs/-/project_members\">gestionnaires</ulink>. &kstars; fournit aussi des moyens de créer des catalogues personnalisés en entrant manuellement les données ou en important des tables au format CSV mais cela est moins flexible et ne permet pas la déduplication."
+msgstr "Pour le moment, la déduplication (l'affectation des OID) n'est gérée que par les outils du <ulink url=\"https://invent.kde/vboettcher/kstars-catalogs\">dépôt de paquets des catalogues</ulink>. Le but de cet ensemble d'outils est de pouvoir reproduire la compilation des catalogues dans un environnement homogène. Chaque catalogue est implémenté dans un <ulink url=\"https://invent.kde.org/vboettcher/kstars-catalogs/-/blob/master/catalogs/sharpless_2.py\">module python</ulink> et fournit des méthodes standards pour acquérir des données, les analyser et trouver des doublons dans d'autres catalogues. Tous les catalogues téléchargeables sont implémentés de cette manière. Si vous voulez créer votre propre catalogue à mettre à disposition de &kstars;, il est fortement recommandé de le créer comme un paquet dans ce dépôt. Les outils à disposition sont tellement flexibles que cela devrait bien fonctionner pour vous. Pour davantage d'informations sur la manière de procéder, veuillez lire la <ulink url=\"https://protagon.space/catalogs/\">documentation sur les dépôts de catalogues</ulink>. Si vous n'êtes pas à l'aise avec la programmation en Python, vous pouvez demander l'ajout d'un catalogue en ouvrant un ticket sur la page du dépôt ou en contactant les <ulink url=\"https://invent.kde.org/vboettcher/kstars-catalogs/-/project_members\">gestionnaires</ulink>. &kstars; fournit aussi des moyens de créer des catalogues personnalisés en entrant manuellement les données ou en important des tables au format CSV mais cela est moins flexible et ne permet pas la déduplication."
 
 #. Tag: title
 #. +> trunk5
@@ -1704,7 +1704,7 @@ msgstr "De plus il existe d'autres options d'accélération pour obtenir la meil
 #: config.docbook:1136
 #, no-c-format
 msgid "You can toggle the terrain overlay on and off using a keyboard shortcut <keycombo>&Ctrl;&Shift;<keycap>T</keycap></keycombo> and the <menuchoice><guimenu>View</guimenu><guimenuitem>Show Terrain</guimenuitem></menuchoice> menu item."
-msgstr "Vous pouvez (dés)activer la superposition du terrain en utilisant le raccourci clavier <keycombo>&Ctrl;&Maj;<keycap>T</keycap></keycombo> ou avec le menu <menuchoice><guimenu>Affichage</guimenu> <guimenuitem>Afficher terrain</guimenuitem></menuchoice>."
+msgstr "Vous pouvez (dés)activer la superposition du terrain en utilisant le raccourci clavier <keycombo>&Ctrl;&Shift;<keycap>T</keycap></keycombo> ou avec le menu <menuchoice><guimenu>Affichage</guimenu> <guimenuitem>Afficher terrain</guimenuitem></menuchoice>."
 
 #. Tag: title
 #. +> trunk5
