@@ -116,14 +116,14 @@ msgstr "Bases"
 #: quicktour.docbook:80
 #, no-c-format
 msgid "Now that we have the time and location set, let us have a look around. You can pan the display using the arrow keys. If you hold down the &Shift; key before panning, the scrolling speed is increased. The display can also be panned by clicking and dragging with the mouse. Note that while the display is scrolling, not all objects are displayed. This is done to cut down on the <acronym>CPU</acronym> load of recomputing object positions, which makes the scrolling smoother (you can configure what gets hidden while scrolling in the <link linkend=\"config\">Configure - &kstars;</link> window). There are several ways to change the magnification (or <firstterm>Zoom level</firstterm>) of the display:"
-msgstr "Maintenant que votre position et votre heure sont ajustées, faisons le tour du propriétaire. Vous pouvez bouger l'image à l'aide des flèches sur votre clavier. L'image bougera deux fois plus vite si vous gardez enfoncée la touche &Shift;. Une autre façon de bouger l'image est de laisser enfoncé le bouton de la souris tout en la bougeant. Vous noterez que certains objets disparaissent temporairement lorsque l'image est bougée. Cela réduit la charge sur votre <acronym>processeur</acronym> et permet un défilement plus en douceur (vous pouvez configurer ce qui est caché pendant le déplacement dans la fenêtre de <link linkend=\"config\">Configuration de &kstars;</link>). Il y a plusieurs manières de changer le grossissement (ou <firstterm>Niveau de zoom</firstterm>) de l'affichage :"
+msgstr "Maintenant que votre position et votre heure sont ajustées, faisons le tour du propriétaire. Vous pouvez bouger l'image à l'aide des flèches sur votre clavier. L'image bougera deux fois plus vite si vous gardez enfoncée la touche &Maj;. Une autre façon de bouger l'image est de laisser enfoncé le bouton de la souris tout en la bougeant. Vous noterez que certains objets disparaissent temporairement lorsque l'image est bougée. Cela réduit la charge sur votre <acronym>processeur</acronym> et permet un défilement plus en douceur (vous pouvez configurer ce qui est caché pendant le déplacement dans la fenêtre de <link linkend=\"config\">Configuration de &kstars;</link>). Il y a plusieurs manières de changer le grossissement (ou <firstterm>Niveau de zoom</firstterm>) de l'affichage :"
 
 #. Tag: para
 #. +> trunk5
 #: quicktour.docbook:96
 #, no-c-format
 msgid "Use the <keycap>+</keycap> and <keycap>-</keycap> keys."
-msgstr "Utilisez les touches <keycap>&Ctrl;&Shift;+</keycap> et <keycap>&Ctrl;&Shift;-</keycap>."
+msgstr "Utilisez les touches <keycap>+</keycap> et <keycap>-</keycap>."
 
 # unreviewed-context
 #. Tag: para
@@ -543,7 +543,7 @@ msgstr "(Dés)activer la visibilité d'une courbe dans le ciel, montrant la trac
 #: quicktour.docbook:414
 #, no-c-format
 msgid "By holding down the &Shift; key, you can perform these actions on the centered object, rather than the selected object."
-msgstr "En maintenant enfoncée la touche &Shift;, on peut effectuer ces actions sur l'objet centré, plutôt que sur l'objet sélectionné."
+msgstr "En maintenant enfoncée la touche &Maj;, on peut effectuer ces actions sur l'objet centré, plutôt que sur l'objet sélectionné."
 
 #. Tag: title
 #. +> trunk5
