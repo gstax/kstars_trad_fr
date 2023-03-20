@@ -9,7 +9,7 @@
 # steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_indi_3.6.1\n"
+"Project-Id-Version: kstars_indi_3.6.3\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-11-17 09:39+0100\n"
 "PO-Revision-Date: 2022-04-11 16:20+0200\n"
@@ -293,7 +293,7 @@ msgstr "Contrôle des périphériques depuis la carte du ciel"
 #: indi.docbook:201
 #, no-c-format
 msgid "<guilabel>INDI Control Panel</guilabel>: The panel offers the user with all the features supported by a device."
-msgstr "<guilabel>Panneau de contrôle INDI</guilabel> : ce panneau de contrôle offre à l'utilisateur toutes les fonctions gérées par un périphérique."
+msgstr "<guilabel>Tableau de bord INDI</guilabel> : ce tableau de bord offre à l'utilisateur toutes les fonctions gérées par un périphérique."
 
 #. Tag: para
 #. +> trunk5
@@ -328,35 +328,35 @@ msgstr "<guilabel>Afficheur de journaux</guilabel> : les périphériques rappor
 #: indi.docbook:238
 #, no-c-format
 msgid "INDI Control Panel"
-msgstr "Panneau de contrôle INDI"
+msgstr "Tableau de bord INDI"
 
 #. Tag: para
 #. +> trunk5
 #: indi.docbook:248
 #, no-c-format
 msgid "You are not restricted on using one interface over another as they can be both used simultaneously. Actions from the <guilabel>Sky map</guilabel> are automatically reflected in the <guilabel>INDI Control Panel</guilabel> and vice versa."
-msgstr "Vous n'êtes pas limité à l'utilisation d'une interface par le chevauchement, car les deux peuvent être utilisées simultanément. Les actions de <guilabel>Carte du ciel</guilabel> sont reflétés automatiquement dans le <guilabel>Panneau de contrôle INDI</guilabel> et vice versa."
+msgstr "Vous n'êtes pas limité à l'utilisation d'une interface par le chevauchement, car les deux peuvent être utilisées simultanément. Les actions de <guilabel>Carte du ciel</guilabel> sont reflétés automatiquement dans le <guilabel>Tableau de bord INDI</guilabel> et vice versa."
 
 #. Tag: para
 #. +> trunk5
 #: indi.docbook:253
 #, no-c-format
 msgid "To connect to your telescope, you can either select <guimenuitem>Connect</guimenuitem> from your device popup menu or alternatively, you can press <guibutton>Connect</guibutton> under your device tab in the <guilabel>INDI Control Panel</guilabel>."
-msgstr "Pour connecter votre télescope, vous pouvez soit sélectionner <guimenuitem>Connecter</guimenuitem> du menu contextuel des périphériques, soit actionner <guibutton>Connecter</guibutton> sous votre onglet de périphérique dans le <guilabel>Panneau de contrôle INDI</guilabel>."
+msgstr "Pour connecter votre télescope, vous pouvez soit sélectionner <guimenuitem>Connecter</guimenuitem> du menu contextuel des périphériques, soit actionner <guibutton>Connecter</guibutton> sous votre onglet de périphérique dans le <guilabel>Tableau de bord INDI</guilabel>."
 
 #. Tag: para
 #. +> trunk5
 #: indi.docbook:258
 #, no-c-format
 msgid "By default, &kstars; will try to connect to the <constant>/dev/ttyS0</constant> port. To change the connection port, select the <menuchoice><guimenu>Tools</guimenu> <guisubmenu>Devices</guisubmenu> <guimenuitem>INDI Control Panel...</guimenuitem></menuchoice> menu item and change the port under your device tab."
-msgstr "Par défaut, &kstars; essayera de se connecter au port <constant>/dev/ttyS0</constant>. Pour changer le port de connexion, sélectionnez <menuchoice><guimenu>Outils</guimenu> <guisubmenu>Périphériques</guisubmenu> <guimenuitem>Panneau de contrôle INDI</guimenuitem></menuchoice> et changez le port sous l'onglet de votre périphérique."
+msgstr "Par défaut, &kstars; essayera de se connecter au port <constant>/dev/ttyS0</constant>. Pour changer le port de connexion, sélectionnez <menuchoice><guimenu>Outils</guimenu> <guisubmenu>Périphériques</guisubmenu> <guimenuitem>Tableau de bord INDI</guimenuitem></menuchoice> et changez le port sous l'onglet de votre périphérique."
 
 #. Tag: para
 #. +> trunk5
 #: indi.docbook:264
 #, no-c-format
 msgid "&kstars; automatically updates the telescope's longitude, latitude, and time based on current settings in &kstars;. You can enable/disable these using the <guilabel>INDI</guilabel> page from the <menuchoice><guimenu>Settings</guimenu> <guimenuitem>Configure &kstars;...</guimenuitem></menuchoice> menu item. Using the <guilabel>INDI</guilabel> page you can configure &kstars; to display or not INDI status messages in the status bar. By default INDI server port numbers have values between the range from 7624 to 9000, but you can easily change the range using the <guilabel>From:</guilabel> and <guilabel>To:</guilabel> text boxes from the <guilabel>Server Port</guilabel> section."
-msgstr "&kstars; met à jour automatiquement la longitude, la latitude et l'heure basés sur les réglages actuels de &kstars;. Vous pouvez les activer/désactiver en utilisant la page <guilabel>INDI</guilabel> dans le menu <menuchoice><guimenu>Configuration</guimenu> <guimenuitem>Configurer &kstars;</guimenuitem></menuchoice>. Dans la page <guilabel>INDI</guilabel>, vous pouvez indiquez à &kstars; d'afficher ou non les messages d'INDI dans la barre d'état. Par défaut, les numéros de port du serveur INDI se trouve dans la plage 7624 à 9000, mais vous pouvez facilement modifier cette plage en utilisant les boîtes de texte <guilabel>De</guilabel> et <guilabel>À</guilabel> de la section <guilabel>Port du serveur</guilabel>."
+msgstr "&kstars; met à jour automatiquement la longitude, la latitude et l'heure fondés sur les réglages actuels de &kstars;. Vous pouvez les activer/désactiver en utilisant la page <guilabel>INDI</guilabel> dans le menu <menuchoice><guimenu>Configuration</guimenu> <guimenuitem>Configurer &kstars;</guimenuitem></menuchoice>. Dans la page <guilabel>INDI</guilabel>, vous pouvez indiquez à &kstars; d'afficher ou non les messages d'INDI dans la barre d'état. Par défaut, les numéros de port du serveur INDI se trouve dans la plage 7624 à 9000, mais vous pouvez facilement modifier cette plage en utilisant les boîtes de texte <guilabel>De</guilabel> et <guilabel>À</guilabel> de la section <guilabel>Port du serveur</guilabel>."
 
 #. Tag: para
 #. +> trunk5
@@ -419,7 +419,7 @@ msgstr "Contrôle des CCD Vidéo"
 #: indi.docbook:309
 #, no-c-format
 msgid "You can run CCD and Video Capture devices from the <menuchoice><guimenu>Tools</guimenu> <guisubmenu>Devices</guisubmenu> <guimenuitem>Device Manager...</guimenuitem></menuchoice> menu item. Like all INDI devices, some of the device controls will be accessible from the skymap. The device can be controlled fully from the <guimenuitem>INDI Control Panel...</guimenuitem> item."
-msgstr "Vous pouvez lancer les périphériques d'acquisition CCD et vidéo depuis le menu <menuchoice><guimenu>Périphériques</guimenu> <guimenuitem>Gestionnaire de périphériques</guimenuitem></menuchoice>. Comme tous les périphériques INDI, certains des contrôles seront accessibles depuis la carte du ciel. Le périphérique peut être contrôlé pleinement depuis le <guimenuitem>Panneau de contrôle INDI…</guimenuitem>."
+msgstr "Vous pouvez lancer les périphériques d'acquisition CCD et vidéo depuis le menu <menuchoice><guimenu>Périphériques</guimenu> <guimenuitem>Gestionnaire de périphériques</guimenuitem></menuchoice>. Comme tous les périphériques INDI, certains des contrôles seront accessibles depuis la carte du ciel. Le périphérique peut être contrôlé pleinement depuis le <guimenuitem>Tableau de bord INDI…</guimenuitem>."
 
 #. Tag: para
 #. +> trunk5
@@ -475,14 +475,14 @@ msgstr "<guilabel>Serveur INDI</guilabel> : indiquez l'exécutable du serveur I
 #: indi.docbook:337
 #, no-c-format
 msgid "<guilabel>INDI drivers XML directory:</guilabel> Specify the &XML; directory where INDI drivers are located in your system. By default, &kstars; uses <quote>/usr/share/indi</quote> directory."
-msgstr "<guilabel>Répertoire XML des pilotes INDI</guilabel> : spécifie le répertoire &XML; sur votre système contenant les pilotes INDI. Par défaut &kstars; utilise le répertoire <quote>/usr/share/indi</quote>. "
+msgstr "<guilabel>Dossier XML des pilotes INDI</guilabel> : spécifie le dossier &XML; sur votre système contenant les pilotes INDI. Par défaut &kstars; utilise le dossier <quote>/usr/share/indi</quote>."
 
 #. Tag: para
 #. +> trunk5
 #: indi.docbook:338
 #, no-c-format
 msgid "<guilabel>Default FITS directory:</guilabel> Specify the directory where all captured FITS images will be saved to. If no directory is specified, images will be stored in <varname>$HOME</varname>."
-msgstr "<guilabel>Répertoire FITS par défaut : </guilabel> spécifie le dossier où toutes les images FITS seront enregistrées. S'il n'y a pas de répertoire spécifié, les images seront enregistrées dans <varname>$HOME</varname>."
+msgstr "<guilabel>Dossier FITS par défaut : </guilabel> spécifie le dossier où toutes les images FITS seront enregistrées. S'il n'y a pas de dossier spécifié, les images seront enregistrées dans <varname>$HOME</varname>."
 
 #. Tag: guilabel
 #. +> trunk5
@@ -552,7 +552,7 @@ msgstr "<guilabel>Fenêtre indépendante</guilabel> : rendre la fenêtre de l'<
 #: indi.docbook:358
 #, no-c-format
 msgid "<guilabel>Message notifications</guilabel>: Show INDI messages as desktop notifications instead of dialogs."
-msgstr "<guilabel>Notifications des messages</guilabel> : montrer les messages d'INDI comme des notifications du bureau plutôt que dans des boîtes de dialogue."
+msgstr "<guilabel>Notifications des messages</guilabel> : afficher les messages d'INDI comme des notifications du bureau plutôt que dans des boîtes de dialogue."
 
 #. Tag: guilabel
 #. +> trunk5
@@ -636,7 +636,7 @@ msgstr "Par exemple, tous les périphériques INDI partagent la <emphasis>propri
 #: indi.docbook:403
 #, no-c-format
 msgid "The INDI control panel offers many device properties not accessible from the sky map. The properties offered differ from one device to another. Nevertheless, all properties share common features that constrains how they are displayed and used:"
-msgstr "Le panneau de contrôle INDI offre beaucoup de propriétés de périphériques inaccessibles de la carte du ciel. Les propriétés offertes diffèrent d'un périphérique à l'autre. Néanmoins, toutes les propriétés partagent des fonctionnalités communes qui déterminent comment elles sont affichées et utilisées."
+msgstr "Le tableau de bord INDI offre beaucoup de propriétés de périphériques inaccessibles de la carte du ciel. Les propriétés offertes diffèrent d'un périphérique à l'autre. Néanmoins, toutes les propriétés partagent des fonctionnalités communes qui déterminent comment elles sont affichées et utilisées."
 
 #. Tag: para
 #. +> trunk5
@@ -860,7 +860,7 @@ msgstr "Client INDI"
 #: indi.docbook:534
 #, no-c-format
 msgid "After you add a host, right click on the host to <guimenuitem>Connect</guimenuitem> or <guimenuitem>Disconnect</guimenuitem>. If a connection is established, you can control the telescope from the <guilabel>Sky map</guilabel> or <guilabel>INDI Control Panel</guilabel> exactly as described in the <link linkend=\"indi-kstars-setup\">local/server</link> section. It is as easy at that."
-msgstr "Après que vous aurez ajouté un hôte, cliquez avec le bouton droit sur l'hôte à <guimenuitem>connecter</guimenuitem> ou <guimenuitem>déconnecter</guimenuitem>. Si une connexion est établie, vous pouvez contrôler le télescope depuis la <guilabel>Carte du ciel</guilabel> ou le <guilabel>panneau de contrôle INDI</guilabel> exactement comme décrit dans la section <link linkend=\"indi-kstars-setup\">local/serveur</link>. C'est aussi facile que ça."
+msgstr "Après que vous aurez ajouté un hôte, cliquez avec le bouton droit sur l'hôte à <guimenuitem>connecter</guimenuitem> ou <guimenuitem>déconnecter</guimenuitem>. Si une connexion est établie, vous pouvez contrôler le télescope depuis la <guilabel>Carte du ciel</guilabel> ou le <guilabel>tableau de bord INDI</guilabel> exactement comme décrit dans la section <link linkend=\"indi-kstars-setup\">local/serveur</link>. C'est aussi facile que ça."
 
 #. Tag: title
 #. +> trunk5
@@ -881,7 +881,7 @@ msgstr "Comme &kstars; vous permet de déployer un serveur INDI, vous pouvez lan
 #: indi.docbook:547
 #, no-c-format
 msgid "Since INDI is an independent backend component, you can run an INDI server on a host without &kstars;. INDI can be compiled separately to run on remote hosts. Furthermore, device drivers log messages to <constant>stderr</constant> and that can be helpful in a debugging situation. The syntax for INDI server is as following:"
-msgstr "Comme INDI est indépendant du composant d'arrière-plan, vous pouvez lancer un serveur INDI sur un hôte sans &kstars;. INDI peut être compilé séparément pour fonctionner sur des hôtes distants. De plus, les pilotes de périphériques écrivent dans un journal les messages dans <constant>stderr</constant>. Cela peut être utile pour les situations de recherche d'erreur. La syntaxe pour le serveur INDI est la suivante :"
+msgstr "Comme INDI est indépendant du moteur d'arrière-plan, vous pouvez lancer un serveur INDI sur un hôte sans &kstars;. INDI peut être compilé séparément pour fonctionner sur des hôtes distants. De plus, les pilotes de périphériques écrivent dans un journal les messages dans <constant>stderr</constant>. Cela peut être utile pour les situations de recherche d'erreur. La syntaxe pour le serveur INDI est la suivante :"
 
 #. Tag: para
 #. +> trunk5
@@ -1036,7 +1036,7 @@ msgstr "Quelles opérations &kstars; fournit-il pour contrôler le télescope ?
 #: indi.docbook:644
 #, no-c-format
 msgid "It depends on the particular telescope you're running, but the minimum three operations are <command>Slew</command>, <command>Track</command>, and <command>Sync</command>, which you can issue directly from the sky map. Your telescope must be aligned for those operations to perform correctly. Some telescopes offer you more operations like site management, slew modes, focusing, parking, and more. You can access the telescopes extended features from the <menuchoice><guimenu>Tools</guimenu> <guisubmenu>Devices</guisubmenu> <guimenuitem>INDI Control Panel...</guimenuitem></menuchoice> menu item."
-msgstr "Cela dépend du télescope que vous utilisez, mais les trois opérations minimales sont : <command>Pivoter</command>, <command>Suivre</command> et <command>Synchroniser</command>, que vous pouvez utiliser directement depuis la carte du ciel. Votre télescope doit être mis en station pour que ces opérations fonctionnent correctement. Certains télescopes fournissent davantage d'opérations comme la gestion des sites, les modes de pivotage, la mise au point, le stationnement, et plus encore. Vous pouvez accéder aux caractéristiques étendues des télescopes depuis le menu <menuchoice><guimenu>Outils</guimenu> <guisubmenu>Périphériques</guisubmenu> <guimenuitem>Panneau de contrôle INDI…</guimenuitem></menuchoice>."
+msgstr "Cela dépend du télescope que vous utilisez, mais les trois opérations minimales sont : <command>Pivoter</command>, <command>Suivre</command> et <command>Synchroniser</command>, que vous pouvez utiliser directement depuis la carte du ciel. Votre télescope doit être mis en station pour que ces opérations fonctionnent correctement. Certains télescopes fournissent davantage d'opérations comme la gestion des sites, les modes de pivotage, la mise au point, le stationnement, et plus encore. Vous pouvez accéder aux caractéristiques étendues des télescopes depuis le menu <menuchoice><guimenu>Outils</guimenu> <guisubmenu>Périphériques</guisubmenu> <guimenuitem>Tableau de bord INDI…</guimenuitem></menuchoice>."
 
 #. Tag: para
 #. +> trunk5
@@ -1113,7 +1113,7 @@ msgstr "vérifiez l'alimentation de votre télescope et assurez-vous que le cont
 #: indi.docbook:715
 #, no-c-format
 msgid "Select the <menuchoice><guimenu>Tools</guimenu> <guisubmenu>Devices</guisubmenu> <guimenuitem>INDI Control Panel...</guimenuitem></menuchoice> menu item and set the correct port in the <guilabel>INDI Control Panel</guilabel> dialog. The default device is <constant>/dev/ttyS0</constant>"
-msgstr "Sélectionner le menu <menuchoice><guimenu>Outils</guimenu> <guisubmenu>Périphériques</guisubmenu> <guimenuitem>Panneau de contrôle INDI…</guimenuitem></menuchoice>. Le périphérique par défaut est <constant>/dev/ttyS0</constant>."
+msgstr "Sélectionner le menu <menuchoice><guimenu>Outils</guimenu> <guisubmenu>Périphériques</guisubmenu> <guimenuitem>Tableau de bord INDI…</guimenuitem></menuchoice>. Le périphérique par défaut est <constant>/dev/ttyS0</constant>."
 
 #. Tag: para
 #. +> trunk5
@@ -1162,7 +1162,7 @@ msgstr "Le télescope est-il aligné ?"
 #: indi.docbook:753
 #, no-c-format
 msgid "Is the telescope alignment mode correct? Use <guilabel>INDI Control Panel</guilabel> to check and change these settings (<constant>Alt/Az,Polar, Land</constant>)."
-msgstr "Le mode d'alignement du télescope est-il correct ? Utilisez le <guilabel>panneau de contrôle INDI</guilabel> pour le vérifier et changez ces réglages (<constant>Alt/Az, Polar, Land</constant>)."
+msgstr "Le mode d'alignement du télescope est-il correct ? Utilisez le <guilabel>Tableau de bord INDI</guilabel> pour le vérifier et changez ces réglages (<constant>Alt/Az, Polar, Land</constant>)."
 
 #. Tag: para
 #. +> trunk5
