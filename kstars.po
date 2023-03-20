@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.6.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-01-13 10:40+0100\n"
-"PO-Revision-Date: 2023-01-19 08:56+0100\n"
+"PO-Revision-Date: 2023-03-10 06:36+0100\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -8225,7 +8225,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Le seuil de rotation en minutes d'arc lors de l'utilisation de Charger &amp; Pointer. Si la différence entre l'angle mesuré de la position et l'angle de la position FITS est sous ce seuil, alors le pointage est considérée comme réussie.</p>"
+"<p>Le seuil de rotation en minutes d'arc lors de l'utilisation de « Charger &amp; Pointer ». Si la différence entre l'angle mesuré de la position et l'angle de la position FITS est sous ce seuil, alors le pointage est considérée comme réussie.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AstrometryUseRotator)
@@ -8669,7 +8669,7 @@ msgstr "La mise à jour automatique de position est désactivée."
 #: ekos/align/opsastrometry.ui:557
 #, kde-format
 msgid "Do not use Sync when Slew to Target is selected. Use differential slewing to correct for discrepancies. This is useful on some mounts (e.g. Paramount)."
-msgstr "Ne pas utiliser la synchronisation quand Charger && Pointer est sélectionné. Veuillez utiliser la correction d'orientation pour traiter les écarts. Cela est utile pour certaines montures (par exemple, Paramount)."
+msgstr "Ne pas utiliser la synchronisation quand « Charger && Pointer » est sélectionné. Veuillez utiliser la correction d'orientation pour traiter les écarts. Cela est utile pour certaines montures (par exemple, Paramount)."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AstrometryDifferentialSlewing)
 #. +> trunk5
@@ -18555,7 +18555,7 @@ msgid ""
 "<p>This number multiplied by initial-step-size is number of outward steps the Linear Focus algorithm moves away from the initial position at the start of focusing.</p>"
 "</body></html>"
 msgstr ""
-"<html><corps>"
+"<html><body>"
 "<p>Ce nombre multiplié par la taille de l'étape initiale est le nombre d'étapes vues de l'extérieur dont l'algorithme de mise au point linéaire s'éloigne de la position initiale à partir du début de la mise au point.</p>"
 "</body></html>"
 
@@ -27875,7 +27875,7 @@ msgid ""
 "<p>The twilight restriction constrains jobs to execute in astronomical darkness. Use the dusk and dawn offsets in the Ekos Scheduler options to adjust the interval.</p>"
 "</body></html>"
 msgstr ""
-"<html><corps>"
+"<html><body>"
 "<p>La restriction du crépuscule limite l'exécution des tâches pendant l'obscurité astronomique. Utilisez les décalages du crépuscule et de l'aube dans les options de l'ordonnanceur Ekos pour ajuster l'intervalle.</p>"
 "</body></html>"
 
@@ -72557,7 +72557,7 @@ msgstr " Bienvenue dans KStars "
 #: widgets/infoboxwidget.cpp:111
 #, kde-format
 msgid "nothing"
-msgstr "rien"
+msgstr "vide"
 
 #. +> trunk5
 #: kstarsinit.cpp:914 kstarsliteinit.cpp:120

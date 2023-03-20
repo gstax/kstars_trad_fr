@@ -8,10 +8,10 @@
 # Xavier Besnard <xavier.besnard@neuf.fr>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_fitsviewer_3.6.3\n"
+"Project-Id-Version: kstars_fitsviewer_3.6.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-12 07:02+0200\n"
-"PO-Revision-Date: 2023-01-19 13:57+0100\n"
+"PO-Revision-Date: 2022-08-01 17:34+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -194,7 +194,7 @@ msgstr "Marquage d'étoiles : détecter et marquer les étoiles dans l'image."
 #: fitsviewer.docbook:59
 #, no-c-format
 msgid "Main Toolbar"
-msgstr "Barre principales"
+msgstr "Barre d'outils principales"
 
 #. Tag: para
 #. +> trunk5
@@ -306,7 +306,7 @@ msgstr "Afficher le quadrillage des pixels : bascule le quadrillage des pixels.
 #: fitsviewer.docbook:76
 #, no-c-format
 msgid "Show Equatorial Gridlines: Toggles Equatorial Grid if FITS contains a valid WCS header."
-msgstr "Afficher la grille équatoriale : bascule la grille équatoriale si le fichier FITS contient une en-tête WCS valable."
+msgstr "Afficher la grille équatoriale : bascule la grille équatoriale si le fichier FITS contient une en-tête WCS valide."
 
 #. Tag: para
 #. +> trunk5
@@ -320,7 +320,7 @@ msgstr "Afficher les objets dans l'image : identifie des objets tels que les é
 #: fitsviewer.docbook:78
 #, no-c-format
 msgid "Center Telescope: Toggle Center Telescope mode. When active and if the image contains a valid WCS header, clicking anywhere in the image triggers the telescope slewing to the clicked point."
-msgstr "Centrer le télescope : bascule le mode de centrage du télescope. Quand ce mode est activé et que l'image contient une en-tête WCS valable, un clic n'importe où dans l'image déclenche le pivotement du télescope vers le point cliqué."
+msgstr "Centrer le télescope : bascule le mode de centrage du télescope. Quand ce mode est activé et que l'image contient une en-tête WCS valide, un clic n'importe où dans l'image déclenche le pivotement du télescope vers le point cliqué."
 
 #. Tag: para
 #. +> trunk5
@@ -425,7 +425,7 @@ msgstr "Coordonnées cartésiennes : affiche et actualise la position courante 
 #: fitsviewer.docbook:100
 #, no-c-format
 msgid "Equatorial Coordinates: If the image contains a valid WCS header, the J2000 Right Ascension (RA) and declination (DE) values are displayed."
-msgstr "Coordonnées équatoriales : si l'image contient une en-tête WCS valable, l'ascension droite J2000 (AD) et la déclinaison (Déc) sont affichées."
+msgstr "Coordonnées équatoriales : si l'image contient une en-tête WCS valide, l'ascension droite J2000 (AD) et la déclinaison (Déc) sont affichées."
 
 #. Tag: para
 #. +> trunk5
@@ -656,7 +656,7 @@ msgstr "Fournit des statistiques simples : moyenne, écart-type moyen et média
 #: fitsviewer.docbook:253
 #, no-c-format
 msgid "The user can either set the selection region by <keycombo>&Shift;<keycap>Left Click</keycap></keycombo> dragging or by choosing an entry from the drop down menu of the Toggle Selection Rectangle button. In addition to this, the user can translate the region by simple <keycap>Left Click</keycap> drag of the mouse. The statistics of the region are shown as a tooltip once the cursor is brought over the selection region. For smaller images, the statistics are updated instantly, and for larger images, the statistics are updated once the user releases the <keycap>Left Click</keycap> button after modification of the region."
-msgstr "L'utilisateur peut soit sélectionner une région en glissant le pointeur après un <keycombo>&Maj;<keycap>Clic gauche</keycap></keycombo> ou en choisissant une entrée du menu déroulant du bouton de sélection de rectangle. De plus, l'utilisateur peut translater la région d'un simple <keycap>Clic gauche</keycap> de la souris. Les statistiques de la région sont affichées en surimpression lors d'un survol de la région sélectionnée. Les statistiques sont mises à jour instantanément pour les petites images et pour les grandes images, celles-ci sont mises à jour au relâchement du <keycap>Clic gauche</keycap> après modification de la région."
+msgstr "L'utilisateur peut soit sélectionner une région en glissant le pointeur après un <keycombo>&Maj; <keycap>Clic gauche</keycap></keycombo> ou en choisissant une entrée du menu déroulant du bouton de sélection de rectangle. De plus, l'utilisateur peut translater la région d'un simple <keycap>Clic gauche</keycap> de la souris. Les statistiques de la région sont affichées en surimpression lors d'un survol de la région sélectionnée. Les statistiques sont mises à jour instantanément pour les petites images et pour les grandes images, celles-ci sont mises à jour au relâchement du <keycap>Clic gauche</keycap> après modification de la région."
 
 #. Tag: title
 #. +> trunk5
@@ -754,7 +754,7 @@ msgstr "La barre flottante est automatiquement cachée dès que la souris quitte
 #: fitsviewer.docbook:327
 #, no-c-format
 msgid "3D Star Profile &amp; Data Visualization Tool"
-msgstr "Profil 3D de l'étoile &amp; outil d'affichage des données"
+msgstr "Profil 3D de l'étoile &amp; outil de visualisation des données"
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -775,7 +775,7 @@ msgstr "<phrase>Page principale du profil de l'étoile</phrase>"
 #: fitsviewer.docbook:341
 #, no-c-format
 msgid "The 3D data visualization tool can plot 3D graphs of the selected region of the image. This is particularly useful for astrophotographers who want to visualize the profile of a star they are considering focusing or guiding on. For scientists, it enables them to examine a cross-section of the data to understand the relative brightness of different objects in the image. Additionally, it empowers imagers who want to visually see what is going on in their data collection in a new way."
-msgstr "L'outil d'affichage de données 3D peut tracer un graphique 3D d'une région sélectionnée de l'image. Cela est particulièrement utile pour les astrophotographes qui souhaite afficher le profil d'une étoile qu'ils envisagent d'utiliser comme étoile guide. Pour les scientifiques, cela leurs permet d'étudier un échantillon des données pour comprendre la luminosité relative des différents objets de l'image. De plus, cela permet aux personnes qui souhaitent comprendre visuellement ce qui se passe dans leurs données d'une nouvelle manière."
+msgstr "L'outil de visualisation de données 3D peut tracer un graphique 3D d'une région sélectionnée de l'image. Cela est particulièrement utile pour les astrophotographes qui souhaite visualiser le profil d'une étoile qu'ils envisagent d'utiliser comme étoile guide. Pour les scientifiques, cela leurs permet d'étudier un échantillon des données pour comprendre la luminosité relative des différents objets de l'image. De plus, cela permet aux personnes qui souhaitent comprendre visuellement ce qui se passe dans leurs données d'une nouvelle manière."
 
 #. Tag: para
 #. +> trunk5
@@ -817,7 +817,7 @@ msgstr "<phrase>Barre d'outils du profil d'étoile 2</phrase>"
 #: fitsviewer.docbook:373
 #, no-c-format
 msgid "At the far left, the sample size combo box will let the user select the size of the image crop shown in the graph. This option is only available in the <guilabel>Summary Screen</guilabel>, the <link linkend=\"ekos-align\">Align Module</link>, and the FITS Viewer. The second combo box lets the user control whether they are selecting an individual item, or a row, or a column of pixels. The slice button will be enabled if the user selects <guimenuitem>Row</guimenuitem> or <guimenuitem>Column</guimenuitem>. It will put the graph in slice mode so that the user can see a cross-section view of the image. Third, is a checkbox that will open up two sliders that will let the user drag the slider to change the selection. This is extremely useful in the slide mode to change the selected point and to move the cross section around the graph. It is also useful in the normal view when in <guilabel>Explore Mode</guilabel> so that the user can zoom around the image examining the pixels."
-msgstr "Tout à gauche, la boîte d'échantillon permet à l'utilisateur de choisir la taille de l'image rognée affichée dans le graphe. Cette option n'est disponible que dans <guilabel>Écran résumé</guilabel>, le module <link linkend=\"ekos-align\">Alignement</link> et l'afficheur FITS. La deuxième boîte permet à l'utilisateur de contrôler s'il souhaite un élément individuel, un rangée ou une colonne de pixels. Le bouton Tranche sera activé si l'utilisateur sélectionne <guimenuitem>Rangée</guimenuitem> ou <guimenuitem>Colonne</guimenuitem>. Cela mettra le graphe en mode Tranche pour permettre à l'utilisateur de voir une vue transversale de l'image. Troisièmement, il y a une case à cocher qui ouvrira deux curseurs qui permettent de changer de sélection. Cela est extrêmement utile pour changer de point sélectionné et se déplacer dans la coupe transversale autour du graphe. Cela est aussi utile dans l'affichage normal du <guilabel>Mode exploration</guilabel> pour zoomer dans l'image et examiner les pixels. "
+msgstr "Tout à gauche, la boîte d'échantillon permet à l'utilisateur de choisir la taille du recadrage de l'image affichée dans le graphe. Cette option n'est disponible que dans <guilabel>Écran résumé</guilabel>, le module <link linkend=\"ekos-align\">Alignement</link> et l'afficheur FITS. La deuxième boîte permet à l'utilisateur de contrôler s'il souhaite un élément individuel, un rangée ou une colonne de pixels. Le bouton Tranche sera activé si l'utilisateur sélectionne <guimenuitem>Rangée</guimenuitem> ou <guimenuitem>Colonne</guimenuitem>. Cela mettra le graphe en mode Tranche pour permettre à l'utilisateur de voir une vue transversale de l'image. Troisièmement, il y a une case à cocher qui ouvrira deux curseurs qui permettent de changer de sélection. Cela est extrêmement utile pour changer de point sélectionné et se déplacer dans la coupe transversale autour du graphe. Cela est aussi utile dans l'affichage normal du <guilabel>Mode exploration</guilabel> pour zoomer dans l'image et examiner les pixels. "
 
 #. Tag: screeninfo
 #. +> trunk5
