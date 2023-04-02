@@ -36,7 +36,7 @@ msgstr "Donation"
 #. +> trunk5
 #: content/_index.md:0
 msgid "KStars - Desktop Planetarium"
-msgstr "KStars - Planetarium de bureau"
+msgstr "KStars - Planétarium de bureau"
 
 #. +> trunk5
 #: content/_index.md:0
@@ -81,28 +81,28 @@ msgstr "Choisissez votre cas d'application pour voir ce que KStars peut faire po
 #. +> trunk5
 #: content/features.md:11
 msgid "[Education](#features-for-educators)"
-msgstr "[Éducation](#features-for-educators)"
+msgstr "[Éducation]{#features-for-educators}"
 
 #. +> trunk5
 #: content/features.md:12
 msgid "[Astrophotography](#features-for-imaging--astrophotography)"
-msgstr "[Astrophotographie](#features-for-imaging--astrophotography)"
+msgstr "[Astrophotographie]{#features-for-imaging--astrophotography}"
 
 #. +> trunk5
 #: content/features.md:13
 msgid "[Visual Observation](#features-for-visual-observation)"
-msgstr "[Observation visuelle](#features-for-visual-observation)"
+msgstr "[Observation visuelle]{#features-for-visual-observation}"
 
 #. +> trunk5
 #: content/features.md:14
 msgid "[Astronomy Enthusiasts](#features-for-any-astronomy-enthusiast)"
-msgstr "[Passionnés d'astronomie](#features-for-any-astronomy-enthusiast)"
+msgstr "[Passionnés d'astronomie]{#features-for-any-astronomy-enthusiast}"
 
 #. +> trunk5
 #: content/features.md:16
 #| msgid "[Education](#features-for-educators)"
 msgid "Features for Educators {#features-for-educators}"
-msgstr "Fonctionnalités pour formateurs (#features-for-educators)"
+msgstr "Fonctionnalités pour formateurs {#features-for-educators}"
 
 #. +> trunk5
 #: content/features.md:17
@@ -165,7 +165,7 @@ msgstr "(Dés)activer les effets de lentilles gravitationnelles autour du Soleil
 #: content/features.md:29
 #| msgid "Switch to equatorial coordinates, set simulation rate to 1 year, double click on a star to keep it in focus, and zoom in to see the effects of aberration of light"
 msgid "Switch to equatorial coordinates, set simulation rate to 1 year, double click on a star to keep it in focus, and zoom in to see the effects of aberration of light."
-msgstr "Basculer vers les coordonnées équatoriales, fixer le taux de simulation à une année, double-cliquer sur une étoile pour la garder en ligne de mire et zoomer pour se rendre compte des effets d'aberration de la lumière."
+msgstr "Basculer vers les coordonnées équatoriales, fixer le taux de simulation à une année, double-cliquer sur une étoile pour la conserver en ligne de mire et zoomer pour se rendre compte des effets d'aberration de la lumière."
 
 #. +> trunk5
 #: content/features.md:30
@@ -176,7 +176,7 @@ msgstr "Basculer vers les coordonnées équatoriales, fixer le taux de simulatio
 #: content/features.md:31
 #| msgid "Set the time to the distant future to see how the constellations change shape due to the proper motions of stars (prominent in Gemini, for example)"
 msgid "Set the time to the distant future to see how the constellations change shape due to the proper motions of stars (prominent in Gemini, for example)."
-msgstr "Régler l'heure dans un futur distant pour voir comment la forme des constellations change en fonction du mouvement propre des étoiles (important pour Gemini par exemple)i."
+msgstr "Régler l'heure dans un futur distant pour voir comment la forme des constellations change en fonction du mouvement propre des étoiles (important pour Gemini par exemple)."
 
 #. +> trunk5
 #: content/features.md:32
@@ -204,7 +204,7 @@ msgstr "KStars parle votre langue - il y a de fortes chances de trouver une trad
 #: content/features.md:37
 #| msgid "[Astrophotography](#features-for-imaging--astrophotography)"
 msgid "Features for Imaging / Astrophotography {#features-for-imaging--astrophotography}"
-msgstr "Fonctionnalités pour l'astrophotographie (#features-for-imaging--astrophotography)"
+msgstr "Fonctionnalités pour l'astrophotographie {#features-for-imaging--astrophotography}"
 
 #. +> trunk5
 #: content/features.md:38
@@ -225,7 +225,7 @@ msgstr "Utilisez la calculatrice de champ de vue pour calculer le champ de vue d
 #. +> trunk5
 #: content/features.md:42
 msgid "[Ekos](https://indilib.org/about/ekos.html), KStars' astrophotography suite, provides a complete astrophotography workflow within KStars. Ekos can help with polar alignment, focusing, auto-guiding, and capture."
-msgstr "[Ekos](https://indilib.org/about/ekos.html), la suite astrophotographique de KStars fournit un flux de travail complet pour l'astrophotographie directement dans KStars. Ekos est d'une précieuse aide pour l'alignement polaire, la mise au point, le guidage automatique et l'acquisition."
+msgstr "[Ekos](https://indilib.org/about/ekos.html), la suite d'astrophotographie de KStars fournit un flux de travail complet pour l'astrophotographie directement dans KStars. Ekos est d'une précieuse aide pour l'alignement polaire, la mise au point, le guidage automatique et l'acquisition."
 
 #. +> trunk5
 #: content/features.md:43
@@ -241,7 +241,7 @@ msgstr "Calculer les conjonctions entre les objets célestes pour trouver les me
 #: content/features.md:47
 #| msgid "[Visual Observation](#features-for-visual-observation)"
 msgid "Features for Visual Observation {#features-for-visual-observation}"
-msgstr "Fonctionnalités pour l'observation visuelle (#features-for-visual-observation)"
+msgstr "Fonctionnalités pour l'observation visuelle {#features-for-visual-observation}"
 
 #. +> trunk5
 #: content/features.md:48
@@ -317,7 +317,7 @@ msgstr "L'interface avec XPlanet permet d'afficher des vue des planètes à n'im
 #: content/features.md:65
 #| msgid "[Astronomy Enthusiasts](#features-for-any-astronomy-enthusiast)"
 msgid "Features for any astronomy enthusiast! {#features-for-any-astronomy-enthusiast}"
-msgstr "Fonctionnalités pour le passionnés d'astronomie (#features-for-any-astronomy-enthusiast)"
+msgstr "Fonctionnalités pour le passionnés d'astronomie {#features-for-any-astronomy-enthusiast}"
 
 #. +> trunk5
 #: content/features.md:66
@@ -709,7 +709,7 @@ msgstr "Jetez un œil à ces autres programmes d'astronomie libres"
 #. +> trunk5
 #: content/users.md:17
 msgid "[Stellarium](https://www.stellarium.org/): Stellarium has the most aesthetic rendering of the sky map. Ideal for giving public shows. Has a larger star catalog than KStars. It can distort images for projection on fish-eye planetarium projectors."
-msgstr "[Stellarium](https://www.stellarium.org/) : Stellarium offre la présentation la plus esthétique d'une carte du ciel. Idéal pour des présentations publiques. Possède un catalogue d'étoiles plus étoffé que KStars. Il peut déformer les images pour une projection sur des projecteurs de planétariums fish-eye."
+msgstr "[Stellarium](https://www.stellarium.org/) : Stellarium offre la présentation la plus esthétique d'une carte du ciel. Idéal pour des présentations publiques. Possède un catalogue d'étoiles plus étoffé que KStars. Il peut déformer les images pour une projection sur des projecteurs de planétariums fisheye."
 
 #. +> trunk5
 #: content/users.md:18
