@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kstars-kde-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-12 11:56+0100\n"
-"PO-Revision-Date: 2023-03-21 08:36+0100\n"
+"POT-Creation-Date: 2023-03-24 09:48+0100\n"
+"PO-Revision-Date: 2023-03-29 09:54+0200\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: KDE Francophone <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -100,8 +100,9 @@ msgstr "[Passionnés d'astronomie](#features-for-any-astronomy-enthusiast)"
 
 #. +> trunk5
 #: content/features.md:16
-msgid "Features for Educators"
-msgstr "Fonctionnalités pour formateurs"
+#| msgid "[Education](#features-for-educators)"
+msgid "Features for Educators {#features-for-educators}"
+msgstr "Fonctionnalités pour formateurs (#features-for-educators)"
 
 #. +> trunk5
 #: content/features.md:17
@@ -115,28 +116,33 @@ msgstr "Voici ce que vous pouvez faire avec KStars pour explorer l'astronomie et
 
 #. +> trunk5
 #: content/features.md:21
-msgid "Change your geographic location to see how the view of the sky changes with latitude"
-msgstr "Modifier votre position géographique pour voir comment le ciel change avec la latitude"
+#| msgid "Change your geographic location to see how the view of the sky changes with latitude"
+msgid "Change your geographic location to see how the view of the sky changes with latitude."
+msgstr "Modifier votre position géographique pour voir comment le ciel change avec la latitude."
 
 #. +> trunk5
 #: content/features.md:22
-msgid "Understand the difference between sidereal days and solar days by changing the speed of simulation"
-msgstr "Comprendre la différence entre les jours sidéraux et jours solaires en changeant la vitesse de la simulation"
+#| msgid "Understand the difference between sidereal days and solar days by changing the speed of simulation"
+msgid "Understand the difference between sidereal days and solar days by changing the speed of simulation."
+msgstr "Comprendre la différence entre les jours sidéraux et jours solaires en changeant la vitesse de la simulation."
 
 #. +> trunk5
 #: content/features.md:23
-msgid "Attach trails to planets and set a high simulation rate to see their trajectories as they perform retrograde motion"
-msgstr "Attacher des trainées aux planètes et choisir un taux de simulation plus élevé pour voir leur trajectoire et leur mouvement rétrograde"
+#| msgid "Attach trails to planets and set a high simulation rate to see their trajectories as they perform retrograde motion"
+msgid "Attach trails to planets and set a high simulation rate to see their trajectories as they perform retrograde motion."
+msgstr "Attacher des trainées aux planètes et choisir un taux de simulation plus élevé pour voir leur trajectoire et leur mouvement rétrograde."
 
 #. +> trunk5
 #: content/features.md:24
-msgid "When technical terms are underlined in blue, click on them to bring up an explanation from the included AstroInfo project"
-msgstr "Les termes techniques soulignés en bleu sont cliquables et affichent une explication provenant du projet AstroInfo"
+#| msgid "When technical terms are underlined in blue, click on them to bring up an explanation from the included AstroInfo project"
+msgid "When technical terms are underlined in blue, click on them to bring up an explanation from the included AstroInfo project."
+msgstr "Les termes techniques soulignés en bleu sont cliquables et affichent une explication provenant du projet AstroInfo."
 
 #. +> trunk5
 #: content/features.md:25
-msgid "Explore coordinate systems by switching between equatorial and horizontal coordinates, and perform coordinate conversions in the KStars Astrocalculator"
-msgstr "Explorer les systèmes de coordonnées en basculant entre les coordonnées équatoriales et horizontales, et réaliser des conversions de coordonnées dans la calculatrice de KStars"
+#| msgid "Explore coordinate systems by switching between equatorial and horizontal coordinates, and perform coordinate conversions in the KStars Astrocalculator"
+msgid "Explore coordinate systems by switching between equatorial and horizontal coordinates, and perform coordinate conversions in the KStars Astrocalculator."
+msgstr "Explorer les systèmes de coordonnées en basculant entre les coordonnées équatoriales et horizontales, et réaliser des conversions de coordonnées dans la calculatrice de KStars."
 
 #. +> trunk5
 #: content/features.md:26
@@ -145,18 +151,21 @@ msgstr "En apprendre davantage sur divers sujets d'astronomie et d'astrophysique
 
 #. +> trunk5
 #: content/features.md:27
-msgid "Set the time ahead by a couple 1000 years to see the effects of precession"
-msgstr "Avancer l'heure de plusieurs milliers d'années pour voir les effets de la précession"
+#| msgid "Set the time ahead by a couple 1000 years to see the effects of precession"
+msgid "Set the time ahead by a couple 1000 years to see the effects of precession."
+msgstr "Avancer l'heure de plusieurs milliers d'années pour voir les effets de la précession."
 
 #. +> trunk5
 #: content/features.md:28
-msgid "Switch on and switch off gravitational lensing effects around the sun to understand Eddington's experiment"
-msgstr "(Dés)activer les effets de lentilles gravitationnelles autour du Soleil pour comprendre l'expérience d'Eddigton"
+#| msgid "Switch on and switch off gravitational lensing effects around the sun to understand Eddington's experiment"
+msgid "Switch on and switch off gravitational lensing effects around the sun to understand Eddington's experiment."
+msgstr "(Dés)activer les effets de lentilles gravitationnelles autour du Soleil pour comprendre l'expérience d'Eddigton."
 
 #. +> trunk5
 #: content/features.md:29
-msgid "Switch to equatorial coordinates, set simulation rate to 1 year, double click on a star to keep it in focus, and zoom in to see the effects of aberration of light"
-msgstr "Basculer vers les coordonnées équatoriales, fixer le taux de simulation à une année, double-cliquer sur une étoile pour la garder en ligne de mire et zoomer pour se rendre compte des effets d'aberration de la lumière"
+#| msgid "Switch to equatorial coordinates, set simulation rate to 1 year, double click on a star to keep it in focus, and zoom in to see the effects of aberration of light"
+msgid "Switch to equatorial coordinates, set simulation rate to 1 year, double click on a star to keep it in focus, and zoom in to see the effects of aberration of light."
+msgstr "Basculer vers les coordonnées équatoriales, fixer le taux de simulation à une année, double-cliquer sur une étoile pour la garder en ligne de mire et zoomer pour se rendre compte des effets d'aberration de la lumière."
 
 #. +> trunk5
 #: content/features.md:30
@@ -165,8 +174,9 @@ msgstr "Basculer vers les coordonnées équatoriales, fixer le taux de simulatio
 
 #. +> trunk5
 #: content/features.md:31
-msgid "Set the time to the distant future to see how the constellations change shape due to the proper motions of stars (prominent in Gemini, for example)"
-msgstr "Régler l'heure dans un futur distant pour voir comment la forme des constellations change en fonction du mouvement propre des étoiles (important pour Gemini par exemple)"
+#| msgid "Set the time to the distant future to see how the constellations change shape due to the proper motions of stars (prominent in Gemini, for example)"
+msgid "Set the time to the distant future to see how the constellations change shape due to the proper motions of stars (prominent in Gemini, for example)."
+msgstr "Régler l'heure dans un futur distant pour voir comment la forme des constellations change en fonction du mouvement propre des étoiles (important pour Gemini par exemple)i."
 
 #. +> trunk5
 #: content/features.md:32
@@ -175,8 +185,9 @@ msgstr "Un clic droit sur n'importe quel objet ouvre la vue Détails qui permet 
 
 #. +> trunk5
 #: content/features.md:33
-msgid "Obtain sky survey images for any location from the right-click context menu"
-msgstr "Obtenir des images de relevés célestes pour n'importe quelle position à partir du menu contextuel"
+#| msgid "Obtain sky survey images for any location from the right-click context menu"
+msgid "Obtain sky survey images for any location from the right-click context menu."
+msgstr "Obtenir des images de relevés célestes pour n'importe quelle position à partir du menu contextuel."
 
 #. +> trunk5
 #: content/features.md:34
@@ -191,8 +202,9 @@ msgstr "KStars parle votre langue - il y a de fortes chances de trouver une trad
 
 #. +> trunk5
 #: content/features.md:37
-msgid "Features for Imaging / Astrophotography"
-msgstr "Fonctionnalités pour l'imagerie et l'astrophotographie"
+#| msgid "[Astrophotography](#features-for-imaging--astrophotography)"
+msgid "Features for Imaging / Astrophotography {#features-for-imaging--astrophotography}"
+msgstr "Fonctionnalités pour l'astrophotographie (#features-for-imaging--astrophotography)"
 
 #. +> trunk5
 #: content/features.md:38
@@ -206,8 +218,9 @@ msgstr "La gestion complète d'[INDI](/indi/) permet à KStars de contrôler pre
 
 #. +> trunk5
 #: content/features.md:41
-msgid "Use the FOV calculator to calculate the field-of-view of your imaging setup"
-msgstr "Utilisez la calculatrice de champ de vue pour calculer le champ de vue de votre équipement d'imagerie"
+#| msgid "Use the FOV calculator to calculate the field-of-view of your imaging setup"
+msgid "Use the FOV calculator to calculate the field-of-view of your imaging setup."
+msgstr "Utilisez la calculatrice de champ de vue pour calculer le champ de vue de votre équipement d'imagerie."
 
 #. +> trunk5
 #: content/features.md:42
@@ -226,8 +239,9 @@ msgstr "Calculer les conjonctions entre les objets célestes pour trouver les me
 
 #. +> trunk5
 #: content/features.md:47
-msgid "Features for Visual Observation"
-msgstr "Fonctionnalités pour l'observation visuelle"
+#| msgid "[Visual Observation](#features-for-visual-observation)"
+msgid "Features for Visual Observation {#features-for-visual-observation}"
+msgstr "Fonctionnalités pour l'observation visuelle (#features-for-visual-observation)"
 
 #. +> trunk5
 #: content/features.md:48
@@ -301,8 +315,9 @@ msgstr "L'interface avec XPlanet permet d'afficher des vue des planètes à n'im
 
 #. +> trunk5
 #: content/features.md:65
-msgid "Features for any astronomy enthusiast!"
-msgstr "Fonctionnalités pour tout passionné d'astronomie !"
+#| msgid "[Astronomy Enthusiasts](#features-for-any-astronomy-enthusiast)"
+msgid "Features for any astronomy enthusiast! {#features-for-any-astronomy-enthusiast}"
+msgstr "Fonctionnalités pour le passionnés d'astronomie (#features-for-any-astronomy-enthusiast)"
 
 #. +> trunk5
 #: content/features.md:66
@@ -355,9 +370,10 @@ msgid "Print high-quality, highly customizable, star charts with multiple charts
 msgstr "Impression de haute qualité et personnalisation de graphiques d'étoiles dans de multiples niveaux de zoom pour chaque objet."
 
 #. +> trunk5
-#: content/features.md:82 content/features.md:106
-msgid "Full fledged astrophotography suite [Ekos](https://indilib.org/about/ekos.html) for a smooth imaging workflow"
-msgstr "Suite complète d'astrophotographie [Ekos](https://indilib.org/about/ekos.html) pour un flux de travail d'imagerie facilité"
+#: content/features.md:82
+#| msgid "Full fledged astrophotography suite [Ekos](https://indilib.org/about/ekos.html) for a smooth imaging workflow"
+msgid "Full fledged astrophotography suite [Ekos](https://indilib.org/about/ekos.html) for a smooth imaging workflow."
+msgstr "Suite complète d'astrophotographie [Ekos](https://indilib.org/about/ekos.html) pour un flux de travail d'imagerie facilité."
 
 #. +> trunk5
 #: content/features.md:83
@@ -371,7 +387,8 @@ msgstr "Choix du symbole de champ de vue calculé à partie de votre oculaire et
 
 #. +> trunk5
 #: content/features.md:85
-msgid "Generate the locations of Jupiter's moons for the near future and near past and plot them as shown in professional astronomical ephemerides."
+#| msgid "Generate the locations of Jupiter's moons for the near future and near past and plot them as shown in professional astronomical ephemerides."
+msgid "Generate the positions of Jupiter's moons for the near future and near past and plot them as shown in professional astronomical ephemerides."
 msgstr "Calcul des positions des lunes de Jupiter dans un proche passé et futur et les tracer comme dans les éphémérides professionnels."
 
 #. +> trunk5
@@ -463,6 +480,11 @@ msgstr "Contrôle de télescope et d'équipement"
 #: content/features.md:105
 msgid "[Integration with INDI providing support for a wide range of astronomy instruments](/indi/)"
 msgstr "[Intégration avec INDI fournissant la gestion d'un grand ensemble d'instruments d'astronomie](/indi/)"
+
+#. +> trunk5
+#: content/features.md:106
+msgid "Full fledged astrophotography suite [Ekos](https://indilib.org/about/ekos.html) for a smooth imaging workflow"
+msgstr "Suite complète d'astrophotographie [Ekos](https://indilib.org/about/ekos.html) pour un flux de travail d'imagerie facilité"
 
 #. +> trunk5
 #: content/features.md:108
