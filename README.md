@@ -9,6 +9,8 @@ But: une interface professionnelle, francisée et épurée.
 
 Il se trouve ici : https://fr.l10n.kde.org/apps/pofiles.php#kstars
 
+mais plutôt ici https://l10n.kde.org/stats/gui/trunk-kf5/team/fr/kstars/
+
 
 ou ci-dessous, mais ne contient pas les tags trunk, donc il faut les ajouter avec le fichier python <name>.
 
