@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_config_3.6.3\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-05-20 11:18+0200\n"
+"POT-Creation-Date: 2023-05-21 10:28+0200\n"
 "PO-Revision-Date: 2023-01-19 13:57+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -2137,7 +2137,7 @@ msgstr ""
 #. +> trunk5
 #: config.docbook:1459
 #, no-c-format
-msgid "First, pick the coordinate system that matches your mount. For an equatorially mounted instrument, switch to the Equatorial Coordinate mode in the <guimenu>View</guimenu> menu. The option to toggle the coordinate system should read <guilabel>Switch to Horizonal View (Horizontal Coordinates)</guilabel> when the current mode is Equatorial Coordinates. For an altazimuth-mounted instrument or naked-eye viewing, switch to Horizontal Coordinates, so that the option in the <guimenu>View</guimenu> menu reads <guilabel>Switch to Star Globe View (Equatorial Coordinates)</guilabel>. This sets the base coordinate system used to render the sky map, and also sets the reference for the orientation of the skymap: zenith or north."
+msgid "First, pick the coordinate system that matches your mount. For an equatorially mounted instrument, switch to the Equatorial Coordinate mode in the <guimenu>View</guimenu> menu. The option to toggle the coordinate system should read <guilabel>Switch to Horizontal View (Horizontal Coordinates)</guilabel> when the current mode is Equatorial Coordinates. For an altazimuth-mounted instrument or naked-eye viewing, switch to Horizontal Coordinates, so that the option in the <guimenu>View</guimenu> menu reads <guilabel>Switch to Star Globe View (Equatorial Coordinates)</guilabel>. This sets the base coordinate system used to render the sky map, and also sets the reference for the orientation of the skymap: zenith or north."
 msgstr ""
 
 #. Tag: para
@@ -2200,7 +2200,7 @@ msgstr ""
 #. +> trunk5
 #: config.docbook:1476
 #, no-c-format
-msgid "Eyepiece of a Dobsonian telescope: Choose Horizontal Coordinates, and in the <menuchoice><guimenu>View</guimenu><guisubmenu>Skymap Orientation</guisubmenu></menuchoice> submenue, select <guilabel>Zenith Down</guilabel> and check the <guilabel>Erect observer correction</guilabel> option. Then adjust the orientation manually once to match your telescope eyepiece view, and it should henceforth track it correctly."
+msgid "Eyepiece of a Dobsonian telescope: Choose Horizontal Coordinates, and in the <menuchoice><guimenu>View</guimenu><guisubmenu>Skymap Orientation</guisubmenu></menuchoice> submenu, select <guilabel>Zenith Down</guilabel> and check the <guilabel>Erect observer correction</guilabel> option. Then adjust the orientation manually once to match your telescope eyepiece view, and it should henceforth track it correctly."
 msgstr ""
 
 #. Tag: chapter
