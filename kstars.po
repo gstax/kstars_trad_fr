@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.6.4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-05-10 00:42+0000\n"
-"PO-Revision-Date: 2023-05-17 07:21+0200\n"
+"PO-Revision-Date: 2023-05-24 07:32+0200\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -11607,7 +11607,7 @@ msgstr "Procédure terminée."
 #, kde-format
 #| msgid "Changing filter to %1..."
 msgid "Problem changing filter to %1..."
-msgstr "Problème lord du changement de filtre pour %1…"
+msgstr "Problème lors du changement de filtre pour %1…"
 
 #: ekos/auxiliary/filtermanager.cpp:1347
 #, kde-format
@@ -16390,7 +16390,7 @@ msgstr "Point de départ de la mise au point adaptative, pas d'élévation enreg
 #: ekos/focus/focus.cpp:1388
 #, kde-format
 msgid "Adaptive start point, very large altitude delta, ignoring"
-msgstr "Point de départ de la mise au point adaptative, delta d'élévation trop trop grand, ignoré"
+msgstr "Point de départ de la mise au point adaptative, delta d'élévation trop grand, ignoré"
 
 #: ekos/focus/focus.cpp:1398
 #, kde-format
@@ -16829,7 +16829,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"La quatrième étape consiste à régler les paramètres restants du moeur de mise au point à des valeurs raisonnables. Le conseiller suggérera des valeurs pour quatre catégories de paramètes. Vérifiez la boîte de dialogue de mise à jour associée et acceptez ces recommandations en cliquant sur Mise à jour des paramètres.\n"
+"La quatrième étape consiste à régler les paramètres restants du moteur de mise au point à des valeurs raisonnables. Le conseiller suggérera des valeurs pour quatre catégories de paramètres. Vérifiez la boîte de dialogue de mise à jour associée et acceptez ces recommandations en cliquant sur Mise à jour des paramètres.\n"
 "1. Propriétés de la caméra - assurez-vous que le gain est réglé correctement, p.ex. Gain unitaire.\n"
 "2. Onglet des réglages : ils ont tous des recommandations.\n"
 "3. Onglet du processus : ils ont tous des recommandations.\n"
@@ -17250,7 +17250,7 @@ msgstr ""
 msgid ""
 "<html><head/><body><p>Minimum focuser movement when using Adaptive Focus.</"
 "p></body></html>"
-msgstr "<html><head/><body><p>Déplacement minimal du moteur de mise au point lord de l'utilisation de la mise au point adaptative.</p></body></html>"
+msgstr "<html><head/><body><p>Déplacement minimal du moteur de mise au point lors de l'utilisation de la mise au point adaptative.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: ekos/focus/focus.ui:1319
@@ -18062,7 +18062,7 @@ msgid ""
 "be effective but is predictable in the number of steps taken. This walk is "
 "experimental.</p><p><br/></p></body></html>"
 msgstr ""
-"<html><head/><body><p>Choisissez le type de course pour le moteur de mise au point pour l'algorithme <span style=\"font-weight:600;\">Linéaire 1 passe</span>. Pour <span style=\"font-wight:600;\">Linéaire</span>, seul <span style=\"font-wight:600;\">Classique</span> est disponible.</p><p><span style=\"font-wight:600;\">Classique</span> : Pas extérieur &quot; Multiple de pas extérieur&quot;, prend une trame et ensuite se déplace vers l'intérieur à un taux constant de taille de pas en prenant une trame et en l'analysant à chaque étape. Le point exact d'arrêt de la passe dépend des données, ainsi cette méthode tolère un point de départ plus éloigné de la position de mise au point, mais au prix de davantage d'étapes.</p><p><span style=\"font-wight:600;\">Étapes fixes</span> : le moteur se déplace de la moitié de &quot;Nombre de pas&quot;, prend une trame et ensuite se déplace d'exactement &quot;Nombre de pas&quot;. Cette méthode nécessite de débuter près de la position de mise au point pour être efficace mais au bénéfice d'être prévisible en nombre d'étapes. Cette méthode est encore expérimentale.</p><p><span style=\"font-wight:600;\">Mélange CFZ</span> : cette méthode est similaire à <span style=\"font-wight:600;\">Étapes fixes</span> sauf qu'elle prend la moitié d'étapes près de la position de mise au point pour essayer de donner plus de poids pour les points proches de la position de mise au point. Comme pour la méthode <span style=\"font-wight:600;\">Étapes Fixes</span>, il faut débuter près de la position de mise au point pour qu'elle soit efficace mais elle est également prévisible en ce qui concerne le nombre d'étapes. Cette méthode est encore expérimentale.</p><p><br/></p></body></html>"
+"<html><head/><body><p>Choisissez le type de course pour le moteur de mise au point pour l'algorithme <span style=\"font-weight:600;\">Linéaire 1 passe</span>. Pour <span style=\"font-weight:600;\">Linéaire</span>, seul <span style=\"font-wight:600;\">Classique</span> est disponible.</p><p><span style=\"font-wight:600;\">Classique</span> : Pas extérieur &quot; Multiple de pas extérieur&quot;, prend une trame et ensuite se déplace vers l'intérieur à un taux constant de taille de pas en prenant une trame et en l'analysant à chaque étape. Le point exact d'arrêt de la passe dépend des données, ainsi cette méthode tolère un point de départ plus éloigné de la position de mise au point, mais au prix de davantage d'étapes.</p><p><span style=\"font-wight:600;\">Étapes fixes</span> : le moteur se déplace de la moitié de &quot;Nombre de pas&quot;, prend une trame et ensuite se déplace d'exactement &quot;Nombre de pas&quot;. Cette méthode nécessite de débuter près de la position de mise au point pour être efficace mais au bénéfice d'être prévisible en nombre d'étapes. Cette méthode est encore expérimentale.</p><p><span style=\"font-wight:600;\">Mélange CFZ</span> : cette méthode est similaire à <span style=\"font-wight:600;\">Étapes fixes</span> sauf qu'elle prend la moitié d'étapes près de la position de mise au point pour essayer de donner plus de poids pour les points proches de la position de mise au point. Comme pour la méthode <span style=\"font-wight:600;\">Étapes Fixes</span>, il faut débuter près de la position de mise au point pour qu'elle soit efficace mais elle est également prévisible en ce qui concerne le nombre d'étapes. Cette méthode est encore expérimentale.</p><p><br/></p></body></html>"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, focusWalk)
 #. i18n: ectx: property (text), item, widget (QComboBox, focusCFZAlgorithm)
@@ -18148,7 +18148,7 @@ msgid ""
 "movements initiated by the Focus module.</p><p>Typically either Focuser "
 "Backlash or AF Overscan is set.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Fournit un surbalayage de jeu pour les mouvements vers l'extérieur durant la mise au point automatique. Cela est en plus du jeu fournit par le pilote du périphérique réglé dans le champ de jeu du pilote. Mettre zéro pour désactiver.</p><p>Si réglé, le surbalayage est appliqué à tous les mouvements du moteur de mise au point initié par le module de mise au point.</p><p>Typiquement, soit le jeu du moteur de mise au point soit le surbalayage est appliqué."
+"<html><head/><body><p>Fournit un surbalayage de jeu pour les mouvements vers l'extérieur durant la mise au point automatique. Cela est en plus du jeu fournit par le pilote du périphérique réglé dans le champ de jeu du pilote. Mettre zéro pour désactiver.</p><p>Si réglé, le surbalayage est appliqué à tous les mouvements du moteur de mise au point initié par le module de mise au point.</p><p>Typiquement, soit le jeu du moteur de mise au point soit le surbalayage est appliqué.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, focusMaxTravel)
 #: ekos/focus/focus.ui:2391
@@ -18350,7 +18350,7 @@ msgid ""
 msgstr ""
 "<html><head/><body><p>Réglez la <span style=\" font-"
 "family:'Arial','Helvetica','sans-serif'; font-size:medium; color:#000000; "
-"background-color:#ffffff;\">tolerance de mise au point </span>τ<span style=\" font-"
+"background-color:#ffffff;\">tolérance de mise au point </span>τ<span style=\" font-"
 "family:'Arial','Helvetica','sans-serif'; font-size:medium; color:#000000; "
 "background-color:#ffffff;\"> comme un pourcentage de la visibilité totale.</span></p></"
 "body></html>"
@@ -18399,7 +18399,7 @@ msgid ""
 "and convert this to microns. Note how many steps you have moved the focuser. "
 "The step size = distance_in_microns / number_steps.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Réglez la taille de pas (en microns) de votre moteur de mise au point. Pour calculer cela, déplacez le du début jusqu'à la fin de sa course en faisant attention de ne pas le forcer au-delà de ses limite. Mesurez cette distance le plus précisément possible et convertissez-la en microns. Notez également le nombre de pas. La taille de pas vaut distance_en_microns/nombre_pas.</p></body></html>"
+"<html><head/><body><p>Réglez la taille de pas (en microns) de votre moteur de mise au point. Pour calculer cela, déplacez le du début jusqu'à la fin de sa course en faisant attention de ne pas le forcer au-delà de ses limites. Mesurez cette distance le plus précisément possible et convertissez-la en microns. Notez également le nombre de pas. La taille de pas vaut distance_en_microns/nombre_pas.</p></body></html>"
 
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, focusCFZStepSize)
 #: ekos/focus/focus.ui:2881
@@ -18624,7 +18624,7 @@ msgid ""
 "Take a focus frame and zoom in on the fitsviewer to see whether stars appear "
 "as stars or donuts.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Une bonne vapeur de départ est 5. Une exception à cela est si vous avez un télescope ayant une obstruction au centre qui change les étoiles en une forme de beignets lorsqu'elles sont défocalisées. Quand cela arrive, le système aura de la peine à les identifier correctement. Pour éviter cette situation, réduisez soit la taille de pas soit le nombre de pas.</p><p>Pour vérifier cette situation, commencez à la position de mise au point puis déplacez-vous par pas de &quot;taille de pas&quot; * %quot;nombre de pas&quot;. Prenez ensuite une trame de mise au point et zoomez dans l'afficheur FITS pour voir si les étoiles apparaissent comme des points ou des beignets.</p></body></html>"
+"<html><head/><body><p>Une bonne valeur de départ est 5. Une exception à cela est si vous avez un télescope ayant une obstruction au centre qui change les étoiles en une forme de beignets lorsqu'elles sont défocalisées. Quand cela arrive, le système aura de la peine à les identifier correctement. Pour éviter cette situation, réduisez soit la taille de pas soit le nombre de pas.</p><p>Pour vérifier cette situation, commencez à la position de mise au point puis déplacez-vous par pas de &quot;taille de pas&quot; * %quot;nombre de pas&quot;. Prenez ensuite une trame de mise au point et zoomez dans l'afficheur FITS pour voir si les étoiles apparaissent comme des points ou des beignets.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, focusAdvSettingsLabel)
 #: ekos/focus/focus.ui:3186
@@ -35050,7 +35050,7 @@ msgstr "Réinitialiser le modèle de pointage après le retournement au méridie
 #, kde-format
 #| msgid "Flips the mount when reaching the meridian, if supported."
 msgid "Use Forced meridian flips if supported."
-msgstr "Utilise les retournement au méridien forcés, si pris en charge."
+msgstr "Utilise les retournements au méridien forcés, si pris en charge."
 
 #. i18n: ectx: label, entry (CalibrationADUValue), group (Capture)
 #: kstars.kcfg:1721
@@ -35560,7 +35560,7 @@ msgstr "S'il faut affiner la courbe de régression en éliminant les valeurs abe
 #: kstars.kcfg:1972
 #, kde-format
 msgid "How many frames to average over at each step in the Autofocus process."
-msgstr "Le nombres de trames à utiliser pour la moyenne dans le processus de mise au point automatique."
+msgstr "Le nombre de trames à utiliser pour la moyenne dans le processus de mise au point automatique."
 
 #. i18n: ectx: label, entry (FocusMultiRowAverage), group (Focus)
 #: kstars.kcfg:1976
