@@ -9,16 +9,10 @@ But: une interface professionnelle, francisée et épurée.
 
 Il se trouve ici : https://fr.l10n.kde.org/apps/pofiles.php#kstars
 
-mais plutôt ici https://l10n.kde.org/stats/gui/trunk-kf5/team/fr/kstars/
+Le lien direct est http://websvn.kde.org/*checkout*/trunk/l10n-support/fr/summit/messages/kstars/kstars.po
 
+Ce fichier contient les balises trunk5 à garder.
 
-ou ci-dessous, mais ne contient pas les tags trunk, donc il faut les ajouter avec le fichier python <name>.
-
-http://websvn.kde.org/*checkout*/trunk/l10n-kf5/fr/messages/kstars/kstars.po
-
-Si on tombe sur un timeout (souvent), utiliser
-
-https://websvn.kde.org/*checkout*/trunk/l10n-support/fr/summit/messages/kstars/kstars.po
 
 ### Fichiers po de la documentation
 https://websvn.kde.org/trunk/l10n-support/fr/summit/docmessages/kstars/?sortby=date#dirlist
