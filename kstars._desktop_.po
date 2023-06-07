@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdeedu\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-17 00:55+0000\n"
+"POT-Creation-Date: 2023-05-29 12:01+0200\n"
 "PO-Revision-Date: 2022-12-31 16:36+0100\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -25,449 +25,517 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Environment: kde\n"
 "X-Accelerator-Marker: \n"
-"X-Text-Markup: \n"
+"X-Environment: kde\n"
 "X-Generator: Lokalize 21.04.2\n"
+"X-Text-Markup: \n"
 
+#. +> trunk5
 #: kstars/kstars.notifyrc:4
 msgctxt "Comment"
 msgid "KStars"
 msgstr "KStars"
 
-#: kstars/kstars.notifyrc:36
+#. +> trunk5
+#: kstars/kstars.notifyrc:38
 msgctxt "Name"
 msgid "Focus started"
 msgstr "Démarrage de la mise au point"
 
-#: kstars/kstars.notifyrc:61
+#. +> trunk5
+#: kstars/kstars.notifyrc:65
 msgctxt "Comment"
 msgid "Autofocus operation started"
 msgstr "Démarrage de l'opération de mise au point automatique"
 
-#: kstars/kstars.notifyrc:87
+#. +> trunk5
+#: kstars/kstars.notifyrc:93
 msgctxt "Name"
 msgid "Autofocus Success"
 msgstr "Succès de l'opération de mise au point automatique"
 
-#: kstars/kstars.notifyrc:112
+#. +> trunk5
+#: kstars/kstars.notifyrc:120
 msgctxt "Comment"
 msgid "Autofocus operation completed successfully"
 msgstr "Opération de mise au point automatique terminée avec succès"
 
-#: kstars/kstars.notifyrc:140
+#. +> trunk5
+#: kstars/kstars.notifyrc:150
 msgctxt "Name"
 msgid "Autofocus Failure"
 msgstr "Échec de l'opération de mise au point automatique"
 
-#: kstars/kstars.notifyrc:165
+#. +> trunk5
+#: kstars/kstars.notifyrc:177
 msgctxt "Comment"
 msgid "Autofocus operation failed with errors"
 msgstr "Échec de l'opération de mise au point automatique avec des erreurs"
 
-#: kstars/kstars.notifyrc:193
+#. +> trunk5
+#: kstars/kstars.notifyrc:207
 msgctxt "Name"
 msgid "Alignment Success"
 msgstr "Succès de l'alignement"
 
-#: kstars/kstars.notifyrc:218
+#. +> trunk5
+#: kstars/kstars.notifyrc:234
 msgctxt "Comment"
 msgid "Astrometry alignment completed successfully"
 msgstr "Opération d'alignement d'astrométrie terminée avec succès"
 
-#: kstars/kstars.notifyrc:247
+#. +> trunk5
+#: kstars/kstars.notifyrc:265
 msgctxt "Name"
 msgid "Alignment Failure"
 msgstr "Échec de l'alignement"
 
-#: kstars/kstars.notifyrc:273
+#. +> trunk5
+#: kstars/kstars.notifyrc:293
 msgctxt "Comment"
 msgid "Astrometry alignment failed with errors"
 msgstr "Échec de l'opération d'alignement d'astrométrie"
 
-#: kstars/kstars.notifyrc:302
+#. +> trunk5
+#: kstars/kstars.notifyrc:324
 msgctxt "Name"
 msgid "Calibration Success"
 msgstr "Calibration réalisée avec succès"
 
-#: kstars/kstars.notifyrc:330
+#. +> trunk5
+#: kstars/kstars.notifyrc:354
 msgctxt "Comment"
 msgid "Guiding calibration completed successfully"
 msgstr "Calibration du guidage terminée avec succès"
 
-#: kstars/kstars.notifyrc:358
+#. +> trunk5
+#: kstars/kstars.notifyrc:384
 msgctxt "Name"
 msgid "Calibration Failure"
 msgstr "Échec de la calibration"
 
-#: kstars/kstars.notifyrc:385
+#. +> trunk5
+#: kstars/kstars.notifyrc:413
 msgctxt "Comment"
 msgid "Guiding calibration failed with errors"
 msgstr "Échec de la calibration du guidage avec des erreurs"
 
-#: kstars/kstars.notifyrc:412
+#. +> trunk5
+#: kstars/kstars.notifyrc:442
 msgctxt "Name"
 msgid "Guiding Failure"
 msgstr "Échec du guidage"
 
-#: kstars/kstars.notifyrc:437
+#. +> trunk5
+#: kstars/kstars.notifyrc:469
 msgctxt "Comment"
 msgid "Autoguiding failed with errors"
 msgstr "Échec du guidage automatique avec des erreurs"
 
-#: kstars/kstars.notifyrc:465
+#. +> trunk5
+#: kstars/kstars.notifyrc:499
 msgctxt "Name"
 msgid "Capture Success"
 msgstr "Acquisition réalisée avec succès"
 
-#: kstars/kstars.notifyrc:490
+#. +> trunk5
+#: kstars/kstars.notifyrc:526
 msgctxt "Comment"
 msgid "CCD Capture completed successfully"
 msgstr "Acquisition CCD terminée avec succès"
 
-#: kstars/kstars.notifyrc:518
+#. +> trunk5
+#: kstars/kstars.notifyrc:556
 msgctxt "Name"
 msgid "Capture Failure"
 msgstr "Échec de l'acquisition"
 
-#: kstars/kstars.notifyrc:543
+#. +> trunk5
+#: kstars/kstars.notifyrc:583
 msgctxt "Comment"
 msgid "CCD capture failed with errors"
 msgstr "Échec de l'acquisition CCD avec des erreurs"
 
-#: kstars/kstars.notifyrc:571
+#. +> trunk5
+#: kstars/kstars.notifyrc:613
 msgctxt "Name"
 msgid "FITS Received"
 msgstr "Données FITS reçues"
 
-#: kstars/kstars.notifyrc:596
+#. +> trunk5
+#: kstars/kstars.notifyrc:640
 msgctxt "Comment"
 msgid "FITS file is received"
 msgstr "Le fichier FITS a été reçu"
 
-#: kstars/kstars.notifyrc:624
+#. +> trunk5
+#: kstars/kstars.notifyrc:670
 msgctxt "Name"
 msgid "Weather Warning"
 msgstr "Alarme météo"
 
-#: kstars/kstars.notifyrc:650
+#. +> trunk5
+#: kstars/kstars.notifyrc:698
 msgctxt "Comment"
 msgid "Weather conditions in warning zone"
 msgstr "Conditions météo dans la zone d'alarme"
 
-#: kstars/kstars.notifyrc:677
+#. +> trunk5
+#: kstars/kstars.notifyrc:727
 msgctxt "Name"
 msgid "Weather Alert"
 msgstr "Alerte météo"
 
-#: kstars/kstars.notifyrc:703
+#. +> trunk5
+#: kstars/kstars.notifyrc:755
 msgctxt "Comment"
 msgid "Weather conditions are critical. Observatory shutdown is imminent"
-msgstr ""
-"Les conditions météo sont critiques. L'arrêt de l'observatoire est imminent."
+msgstr "Les conditions météo sont critiques. L'arrêt de l'observatoire est imminent."
 
-#: kstars/kstars.notifyrc:730
+#. +> trunk5
+#: kstars/kstars.notifyrc:784
 msgctxt "Name"
 msgid "Observatory Startup"
 msgstr "Démarrage de l'observatoire"
 
-#: kstars/kstars.notifyrc:755
+#. +> trunk5
+#: kstars/kstars.notifyrc:811
 msgctxt "Comment"
 msgid "Observatory is in the startup process"
 msgstr "L'observatoire a lancé le processus de démarrage"
 
-#: kstars/kstars.notifyrc:781
+#. +> trunk5
+#: kstars/kstars.notifyrc:839
 msgctxt "Name"
 msgid "Observatory Shutdown"
 msgstr "Arrêt de l'observatoire"
 
-#: kstars/kstars.notifyrc:806
+#. +> trunk5
+#: kstars/kstars.notifyrc:866
 msgctxt "Comment"
 msgid "Observatory is in the shutdown process"
 msgstr "L'observatoire a lancé le processus d'arrêt"
 
-#: kstars/kstars.notifyrc:833
+#. +> trunk5
+#: kstars/kstars.notifyrc:895
 msgctxt "Name"
 msgid "Scheduler Aborted"
 msgstr "Interruption de l'ordonnanceur"
 
-#: kstars/kstars.notifyrc:858
+#. +> trunk5
+#: kstars/kstars.notifyrc:922
 msgctxt "Name"
 msgid "Slew Started"
 msgstr "Pivotage démarré"
 
-#: kstars/kstars.notifyrc:881
+#. +> trunk5
+#: kstars/kstars.notifyrc:947
 msgctxt "Comment"
 msgid "Mount is slewing to target location"
 msgstr "La monture pivote vers l'emplacement ciblé"
 
-#: kstars/kstars.notifyrc:906
+#. +> trunk5
+#: kstars/kstars.notifyrc:974
 msgctxt "Name"
 msgid "Slew Completed"
 msgstr "Pivotage terminé"
 
-#: kstars/kstars.notifyrc:929
+#. +> trunk5
+#: kstars/kstars.notifyrc:999
 msgctxt "Comment"
 msgid "Mount arrived at target location"
 msgstr "La monture est arrivé à l'emplacement ciblé"
 
-#: kstars/kstars.notifyrc:954
+#. +> trunk5
+#: kstars/kstars.notifyrc:1026
 msgctxt "Name"
 msgid "Mount Aborted"
 msgstr "Interruption de la monture"
 
-#: kstars/kstars.notifyrc:976
+#. +> trunk5
+#: kstars/kstars.notifyrc:1050
 msgctxt "Comment"
 msgid "Mount motion was aborted"
 msgstr "Le déplacement de la monture a été interrompu"
 
-#: kstars/kstars.notifyrc:999
+#. +> trunk5
+#: kstars/kstars.notifyrc:1075
 msgctxt "Name"
 msgid "Mount Parking"
 msgstr "Parcage de la monture"
 
-#: kstars/kstars.notifyrc:1020
+#. +> trunk5
+#: kstars/kstars.notifyrc:1098
 msgctxt "Comment"
 msgid "Mount parking is in progress"
 msgstr "Le parcage de la monture est en cours"
 
-#: kstars/kstars.notifyrc:1043
+#. +> trunk5
+#: kstars/kstars.notifyrc:1123
 msgctxt "Name"
 msgid "Parking Mount Completed"
 msgstr "Parcage de la monture terminé"
 
-#: kstars/kstars.notifyrc:1064
+#. +> trunk5
+#: kstars/kstars.notifyrc:1146
 msgctxt "Comment"
 msgid "Mount parked"
 msgstr "Monture parquée"
 
-#: kstars/kstars.notifyrc:1087
+#. +> trunk5
+#: kstars/kstars.notifyrc:1171
 msgctxt "Name"
 msgid "Mount parking failed"
 msgstr "Échec du parcage de la monture"
 
-#: kstars/kstars.notifyrc:1108
+#. +> trunk5
+#: kstars/kstars.notifyrc:1194
 msgctxt "Comment"
 msgid "Mount parking failed"
 msgstr "Échec du parcage de la monture"
 
-#: kstars/kstars.notifyrc:1131
+#. +> trunk5
+#: kstars/kstars.notifyrc:1219
 msgctxt "Name"
 msgid "Mount unparked"
 msgstr "Monture déparquée"
 
-#: kstars/kstars.notifyrc:1151
+#. +> trunk5
+#: kstars/kstars.notifyrc:1241
 msgctxt "Comment"
 msgid "Mount unparked"
 msgstr "Monture déparquée"
 
-#: kstars/kstars.notifyrc:1173
+#. +> trunk5
+#: kstars/kstars.notifyrc:1265
 msgctxt "Name"
 msgid "Dome Parking"
 msgstr "Fermeture du dôme"
 
-#: kstars/kstars.notifyrc:1193
+#. +> trunk5
+#: kstars/kstars.notifyrc:1287
 msgctxt "Comment"
 msgid "Parking dome is in progress"
 msgstr "La fermeture du dôme est en cours"
 
-#: kstars/kstars.notifyrc:1215
+#. +> trunk5
+#: kstars/kstars.notifyrc:1311
 msgctxt "Name"
 msgid "Dome Parked"
 msgstr "Dôme fermé"
 
-#: kstars/kstars.notifyrc:1235
+#. +> trunk5
+#: kstars/kstars.notifyrc:1333
 msgctxt "Comment"
 msgid "Parking dome is complete"
 msgstr "La fermeture du dôme est terminée"
 
-#: kstars/kstars.notifyrc:1257
+#. +> trunk5
+#: kstars/kstars.notifyrc:1357
 msgctxt "Name"
 msgid "Dome Unparking"
 msgstr "Ouverture du dôme"
 
-#: kstars/kstars.notifyrc:1277
+#. +> trunk5
+#: kstars/kstars.notifyrc:1379
 msgctxt "Comment"
 msgid "Unparking dome is in progress"
 msgstr "L'ouverture du dôme est en cours"
 
-#: kstars/kstars.notifyrc:1299
+#. +> trunk5
+#: kstars/kstars.notifyrc:1403
 msgctxt "Name"
 msgid "Dome unparked"
 msgstr "Dôme ouvert"
 
-#: kstars/kstars.notifyrc:1319
+#. +> trunk5
+#: kstars/kstars.notifyrc:1425
 msgctxt "Comment"
 msgid "Unparking dome is complete"
 msgstr "L'ouverture du dôme est terminée"
 
-#: kstars/kstars.notifyrc:1341
+#. +> trunk5
+#: kstars/kstars.notifyrc:1449
 msgctxt "Name"
 msgid "Filter Wheel Changed"
 msgstr "Roue à filtre changée"
 
-#: kstars/kstars.notifyrc:1365
+#. +> trunk5
+#: kstars/kstars.notifyrc:1475
 msgctxt "Name"
 msgid "Video Recording Started"
 msgstr "Démarrage de l'enregistrement vidéo"
 
-#: kstars/kstars.notifyrc:1390
+#. +> trunk5
+#: kstars/kstars.notifyrc:1502
 msgctxt "Name"
 msgid "Video Recording Stopped"
 msgstr "Arrêt de l'enregistrement vidéo"
 
-#: kstars/kstars.notifyrc:1415
+#. +> trunk5
+#: kstars/kstars.notifyrc:1529
 msgctxt "Name"
 msgid "Meridian Flip Started"
 msgstr "Démarrage du retournement au méridien"
 
-#: kstars/kstars.notifyrc:1438
+#. +> trunk5
+#: kstars/kstars.notifyrc:1554
 msgctxt "Name"
 msgid "Meridian Flip Completed"
 msgstr "Retournement au méridien terminé"
 
-#: kstars/kstars.notifyrc:1461
+#. +> trunk5
+#: kstars/kstars.notifyrc:1579
 msgctxt "Name"
 msgid "Meridian Flip Failed"
 msgstr "Échec du retournement au méridien"
 
-#: kstars/kstars.notifyrc:1484
+#. +> trunk5
+#: kstars/kstars.notifyrc:1604
 msgctxt "Name"
 msgid "Motion Started"
 msgstr "Démarrage du déplacement"
 
-#: kstars/kstars.notifyrc:1506
+#. +> trunk5
+#: kstars/kstars.notifyrc:1628
 msgctxt "Comment"
 msgid "Mount manual motion started"
 msgstr "Démarrage du déplacement manuel de la monture"
 
-#: kstars/kstars.notifyrc:1529
+#. +> trunk5
+#: kstars/kstars.notifyrc:1653
 msgctxt "Name"
 msgid "Motion Completed"
 msgstr "Déplacement terminé"
 
-#: kstars/kstars.notifyrc:1551
+#. +> trunk5
+#: kstars/kstars.notifyrc:1677
 msgctxt "Comment"
 msgid "Mount manual motion completed"
 msgstr "Déplacement manuel de la monture terminé"
 
-#: kstars/kstars.notifyrc:1573
+#. +> trunk5
+#: kstars/kstars.notifyrc:1701
 msgctxt "Name"
 msgid "INDI Server Message"
 msgstr "Message du serveur INDI"
 
-#: kstars/kstars.notifyrc:1596
+#. +> trunk5
+#: kstars/kstars.notifyrc:1727
 msgctxt "Comment"
 msgid "INDI Server Message (it must be enabled in INDI section of Settings)"
-msgstr ""
-"Message du serveur INDI (il doit être activé dans la section INDI "
-"des paramètres)"
+msgstr "Message du serveur INDI (il doit être activé dans la section INDI des paramètres)"
 
-#: kstars/kstars.notifyrc:1620
+#. +> trunk5
+#: kstars/kstars.notifyrc:1753
 msgctxt "Name"
 msgid "Scheduled Ekos job started"
 msgstr "Démarrage de la tâche planifiée Ekos"
 
-#: kstars/kstars.notifyrc:1642
+#. +> trunk5
+#: kstars/kstars.notifyrc:1777
 msgctxt "Comment"
 msgid "A scheduled Ekos job is started"
 msgstr "Une tâche planifiée Ekos a démarré"
 
-#: kstars/kstars.notifyrc:1666
+#. +> trunk5
+#: kstars/kstars.notifyrc:1803
 msgctxt "Name"
 msgid "Scheduled Ekos job failed"
 msgstr "Échec de la tâche planifiée Ekos"
 
-#: kstars/kstars.notifyrc:1688
+#. +> trunk5
+#: kstars/kstars.notifyrc:1828
 msgctxt "Comment"
 msgid "A scheduled Ekos job is failed"
 msgstr "Échec de la tâche planifiée Ekos"
 
-#: kstars/kstars.notifyrc:1712
+#. +> trunk5
+#: kstars/kstars.notifyrc:1855
 msgctxt "Name"
 msgid "Imaging in scheduled Ekos job started"
 msgstr "L'acquisition a démarré pour la tâche planifiée Ekos"
 
-#: kstars/kstars.notifyrc:1731
+#. +> trunk5
+#: kstars/kstars.notifyrc:1876
 msgctxt "Comment"
 msgid "An image sequence capture is started in a scheduled Ekos job"
-msgstr ""
-"Une acquisition de séquence d'images a démarré avec une tâche planifiée Ekos"
+msgstr "Une acquisition de séquence d'images a démarré avec une tâche planifiée Ekos"
 
-#: kstars/kstars.notifyrc:1752
+#. +> trunk5
+#: kstars/kstars.notifyrc:1899
 msgctxt "Name"
 msgid "Imaging in scheduled Ekos job finished"
 msgstr "L'acquisition est terminée pour la tâche planifiée Ekos"
 
-#: kstars/kstars.notifyrc:1771
+#. +> trunk5
+#: kstars/kstars.notifyrc:1920
 msgctxt "Comment"
 msgid "An image sequence capture is finished in a scheduled Ekos job"
-msgstr ""
-"Une acquisition de séquence d'images est terminée avec une tâche planifiée "
-"Ekos"
+msgstr "Une acquisition de séquence d'images est terminée avec une tâche planifiée Ekos"
 
-#: kstars/kstars.notifyrc:1792
+#. +> trunk5
+#: kstars/kstars.notifyrc:1943
 msgctxt "Name"
 msgid "Telescope is synced in a scheduled Ekos job"
 msgstr "Le télescope est synchronisé avec une tâche planifiée Ekos"
 
-#: kstars/kstars.notifyrc:1812
+#. +> trunk5
+#: kstars/kstars.notifyrc:1965
 msgctxt "Comment"
-msgid ""
-"The telescope is synced before tracking a new target in a scheduled Ekos job"
-msgstr ""
-"Le télescope est synchronisé avant de poursuivre une nouvelle cible avec une "
-"tâche planifiée Ekos"
+msgid "The telescope is synced before tracking a new target in a scheduled Ekos job"
+msgstr "Le télescope est synchronisé avant de poursuivre une nouvelle cible avec une tâche planifiée Ekos"
 
-#: kstars/kstars.notifyrc:1834
+#. +> trunk5
+#: kstars/kstars.notifyrc:1988
 msgctxt "Name"
 msgid "Captured image received"
 msgstr "Image acquise reçue"
 
-#: kstars/kstars.notifyrc:1859
+#. +> trunk5
+#: kstars/kstars.notifyrc:2016
 msgctxt "Name"
 msgid "Known Issue"
 msgstr "Problèmes connus"
 
+#. +> trunk5
 #: kstars/org.kde.kstars.desktop:8 snap/gui/org.kde.kstars.desktop:7
 msgctxt "Comment"
 msgid "Desktop Planetarium"
 msgstr "Un planétarium sur votre bureau"
 
+#. +> trunk5
 #: kstars/org.kde.kstars.desktop:79 snap/gui/org.kde.kstars.desktop:78
 msgctxt "Name"
 msgid "KStars"
 msgstr "KStars"
 
+#. +> trunk5
 #: kstars/org.kde.kstars.desktop:148 snap/gui/org.kde.kstars.desktop:147
 msgctxt "GenericName"
 msgid "Desktop Planetarium"
 msgstr "Un planétarium sur votre bureau"
 
+#. +> trunk5
 #: org.kde.kf5auth.kstars.actions:2
 msgctxt "Name"
 msgid "Save Astrometry Index File to a write protected directory"
-msgstr ""
-"Enregistrer le fichier d'index d'astrométrie vers un dossier protégé en "
-"écriture"
+msgstr "Enregistrer le fichier d'index d'astrométrie vers un dossier protégé en écriture"
 
-#: org.kde.kf5auth.kstars.actions:24
+#. +> trunk5
+#: org.kde.kf5auth.kstars.actions:25
 msgctxt "Description"
-msgid ""
-"KStars is attempting to save an Astrometry Index File to a directory owned "
-"by root"
-msgstr ""
-"KStars est en attente d'enregistrement d'un fichier d'index d'astrométrie "
-"vers un dossier propriété du superutilisateur"
+msgid "KStars is attempting to save an Astrometry Index File to a directory owned by root"
+msgstr "KStars est en attente d'enregistrement d'un fichier d'index d'astrométrie vers un dossier propriété du superutilisateur"
 
-#: org.kde.kf5auth.kstars.actions:50
+#. +> trunk5
+#: org.kde.kf5auth.kstars.actions:52
 msgctxt "Name"
 msgid "Remove an Astrometry Index File Set"
 msgstr "Supprimer un ensemble de fichiers d'index d'astrométrie"
 
-#: org.kde.kf5auth.kstars.actions:72
+#. +> trunk5
+#: org.kde.kf5auth.kstars.actions:76
 msgctxt "Description"
 msgid "KStars is attempting to remove Astrometry Index Files owned by root"
-msgstr ""
-"KStars est en attente de suppression de fichiers d'index d'astrométrie, "
-"propriétés du superutilisateur"
+msgstr "KStars est en attente de suppression de fichiers d'index d'astrométrie, propriétés du superutilisateur"
