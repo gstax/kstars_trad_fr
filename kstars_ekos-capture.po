@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos-capture_3.6.5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-12-03 12:25+0100\n"
+"POT-Creation-Date: 2023-06-20 10:41+0200\n"
 "PO-Revision-Date: 2023-06-03 11:11+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -558,316 +558,265 @@ msgstr "Fonctionnalité d'enregistrement"
 #. +> trunk5
 #: ekos-capture.docbook:362
 #, no-c-format
-msgid "Filter Settings"
-msgstr "Réglages des filtres"
-
-#. Tag: screeninfo
-#. +> trunk5
-#: ekos-capture.docbook:365
-#, no-c-format
-msgid "<screeninfo>Filter Queue</screeninfo>"
-msgstr "<screeninfo>File d'attente des filtres</screeninfo>"
-
-#. Tag: phrase
-#. +> trunk5
-#: ekos-capture.docbook:373
-#, no-c-format
-msgid "<phrase>Filter Queue</phrase>"
-msgstr "<phrase>Filtre d'attente des filtres</phrase>"
-
-#. Tag: para
-#. +> trunk5
-#: ekos-capture.docbook:378
-#, no-c-format
-msgid "Click the filter icon <inlinemediaobject><imageobject><imagedata fileref=\"view-filter.png\" format=\"PNG\"/></imageobject></inlinemediaobject> next to the filter wheel selection box to open the filter settings dialog. If you are using filters that are not parafocal with each other and require a specific amount of focus offsets in order to get them into proper then set all the relative focus offsets in the dialog."
-msgstr "Cliquez sur l'icône du filtre <inlinemediaobject><imageobject><imagedata fileref=\"view-filter.png\" format=\"PNG\"/></imageobject></inlinemediaobject> pour ouvrir la boîte de dialogue de réglages des filtres. Si vous utilisez des filtres qui ne sont pas tous parfocaux entre eux et requièrent par conséquent des réglages de mise au point différents, vous pouvez configurer ces réglages dans cette fenêtre."
-
-#. Tag: para
-#. +> trunk5
-#: ekos-capture.docbook:381
-#, no-c-format
-msgid "Configure settings for each filter individually:"
-msgstr "Configuration individuelle des réglages de chaque filtre :"
-
-#. Tag: para
-#. +> trunk5
-#: ekos-capture.docbook:386
-#, no-c-format
-msgid "<guilabel>Filter</guilabel>: Filter Name."
-msgstr "<guilabel>Filtre</guilabel> : spécifie le nom du filtre."
-
-#. Tag: para
-#. +> trunk5
-#: ekos-capture.docbook:391
-#, no-c-format
-msgid "<guilabel>Exposure</guilabel>: Set exposure time used when performing focus under this filter. By default, it is set to 1 second."
-msgstr "<guilabel>Exposition</guilabel> : spécifie la durée d'exposition lors de la réalisation de la mise au point avec ce filtre. Par défaut, cette valeur vaut une seconde."
-
-#. Tag: para
-#. +> trunk5
-#: ekos-capture.docbook:396
-#, no-c-format
-msgid "<guilabel>Offset</guilabel>: Set relative offsets. Ekos will command a focus offset change if there is a difference between the current and target filter offsets. For example, given the values in the example image, if the current filter is set to <emphasis>Red</emphasis> and next filter is <emphasis>Green</emphasis>, then Ekos shall command the focuser to Focus In by +300 ticks. Relative positive focus offsets denote Focus Out while negative values denote Focus In."
-msgstr "<guilabel>Décalage</guilabel> : spécifie les décalages relatifs. Ekos déclenchera une mise au point avec ce décalage s'il existe une différence entre le décalage du filtre courant et le filtre cible. Par exemple avec les données de l'image, si le filtre courant est le <emphasis>Rouge</emphasis> et que le prochain filtre est le <emphasis>Vert</emphasis>, alors Ekos commandera au moteur de mise au point de rentrer de +300 crans. Des décalages relatifs de mise au point positifs indique un déplacement vers l'extérieur alors que des valeurs négatives indiquent un mouvement vers l'intérieur."
-
-#. Tag: para
-#. +> trunk5
-#: ekos-capture.docbook:401
-#, no-c-format
-msgid "<guilabel>Auto Focus</guilabel>: Check this option to initial AutoFocus process whenever the filter is changed to this filter."
-msgstr "<guilabel>Mise au point automatique</guilabel> : sélectionnez cette option pour déclencher une mise au point automatique lorsque le filtre est changé pour ce filtre."
-
-#. Tag: para
-#. +> trunk5
-#: ekos-capture.docbook:406
-#, no-c-format
-msgid "<guilabel>Lock Filter</guilabel>: Set which filter should be set and <emphasis>locked</emphasis> when performing autofocus for this filter."
-msgstr "<guilabel>Verrouiller le filtre</guilabel> : spécifie le filtre à configurer et à <emphasis>verrouiller</emphasis> quand la mise au point automatique est réalisée pour ce filtre."
-
-#. Tag: para
-#. +> trunk5
-#: ekos-capture.docbook:411
-#, no-c-format
-msgid "Let's take an example. Suppose the capture sequence is running and the current filter is <guilabel>Green</guilabel>, so the relative offset is already set to +300. The next image in the sequence uses Hydrogen Alpha (H_Alpha) so before Ekos captures the next frame, the following actions take place:"
-msgstr "Prenons un exemple. Supposons qu'une séquence d'acquisitions est en cours et que le filtre courant est le <guilabel>Vert</guilabel>, ainsi le décalage relatif est de +300. La prochaine image de la séquence utilise le filtre d'hydrogène alpha (Hα), donc avant qu'Ekos prenne la prochaine trame, les actions suivantes seront réalisées :"
-
-#. Tag: para
-#. +> trunk5
-#: ekos-capture.docbook:416
-#, no-c-format
-msgid "Since Luminosity is specified as the locked filter and auto-focus is checked, the filter is changed to Luminosity."
-msgstr "Comme la luminosité est spécifiée comme étant le filtre verrouillé et que la mise au point automatique est activée, le filtre est changé en luminosité."
-
-#. Tag: para
-#. +> trunk5
-#: ekos-capture.docbook:421
-#, no-c-format
-msgid "A focus offset is -300 is applied since the prior filter <guilabel>Green</guilabel> was moved +300 previously."
-msgstr "Un décalage de mise au point de -300 est appliqué puisque le filtre précédent <guilabel>Vert</guilabel> avait été déplacé à +300 auparavant."
-
-#. Tag: para
-#. +> trunk5
-#: ekos-capture.docbook:426
-#, no-c-format
-msgid "Auto Focus process is initiated."
-msgstr "La procédure de mise au point automatique est initialisée."
-
-#. Tag: para
-#. +> trunk5
-#: ekos-capture.docbook:431
-#, no-c-format
-msgid "Once Auto Focus is complete, the filter is changed to H_Alpha."
-msgstr "Dès qu'elle est terminée, le filtre est changé en Hα."
-
-#. Tag: para
-#. +> trunk5
-#: ekos-capture.docbook:436
-#, no-c-format
-msgid "A focus offset of -1200 is applied."
-msgstr "Un décalage de mise au point de -1200 est appliqué."
-
-#. Tag: para
-#. +> trunk5
-#: ekos-capture.docbook:441
-#, no-c-format
-msgid "Capture sequence is resumed."
-msgstr "La séquence d'acquisition reprend."
-
-#. Tag: title
-#. +> trunk5
-#: ekos-capture.docbook:449
-#, no-c-format
 msgid "FITS Viewer"
 msgstr "Afficheur FITS"
 
 #. Tag: para
 #. +> trunk5
-#: ekos-capture.docbook:451
+#: ekos-capture.docbook:364
 #, no-c-format
 msgid "Captured images are displayed in &kstars; FITS Viewer tool, and also in the summary screen. Set options related to how the images are displayed in the viewer."
 msgstr "Les images sont affichées dans l'outil d'affichage de &kstars; ainsi que dans l'écran de résumé. Vous pouvez spécifier les options d'affichage de l'afficheur."
 
 #. Tag: para
 #. +> trunk5
-#: ekos-capture.docbook:456
+#: ekos-capture.docbook:369
 #, no-c-format
 msgid "<guilabel>Auto Dark</guilabel>: You can capture an image and auto dark subtract it by checking this option. Note that this option is only applicable when using <guilabel>Preview</guilabel>, you cannot use it in batch mode sequence queue."
 msgstr "<guilabel>Dark automatique</guilabel> : vous pouvez soustraire automatiquement un Dark d'une image en cochant cette option. Veuillez noter que cette option n'est disponible que lors de l'utilisation de l'<guilabel>aperçu</guilabel>. Il n'est pas possible de l'utiliser en mode traitements par lots."
 
 #. Tag: para
 #. +> trunk5
-#: ekos-capture.docbook:461
+#: ekos-capture.docbook:374
 #, no-c-format
 msgid "<guilabel>Effects</guilabel>: Image enhancement filter to be applied to the image after capture."
 msgstr "<guilabel>Effets</guilabel> : filtre d'amélioration d'une image à appliquer après son acquisition."
 
 #. Tag: title
 #. +> trunk5
-#: ekos-capture.docbook:469
+#: ekos-capture.docbook:382
 #, no-c-format
 msgid "<title>Rotator Settings</title>"
 msgstr "<title>Réglages du rotateur</title>"
 
 #. Tag: screeninfo
 #. +> trunk5
-#: ekos-capture.docbook:472
+#: ekos-capture.docbook:385
 #, no-c-format
 msgid "<screeninfo>Rotator Settings</screeninfo>"
 msgstr "<screeninfo>Réglages du rotateur</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: ekos-capture.docbook:480
+#: ekos-capture.docbook:393
 #, no-c-format
 msgid "<phrase>Rotator Settings</phrase>"
 msgstr "<phrase>Réglages du rotateur</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: ekos-capture.docbook:485
+#: ekos-capture.docbook:398
 #, no-c-format
 msgid "Field Rotators are supported in INDI &amp; Ekos. The rotator angle is the raw angle reported by the rotator and is not necessary the <ulink url=\"https://en.wikipedia.org/wiki/Position_angle\">Position Angle</ulink>. A Position Angle of <emphasis>zero</emphasis> indicates that the frame top (indicated by small arrow) is pointing <emphasis>directly</emphasis> at the pole. The position angle is expressed as E of N (East of North), so 90 degrees PA indicates the frame <emphasis>top</emphasis> points 90 degrees away (counter-clockwise) from the pole. Check <ulink url=\"https://nustarsoc.caltech.edu/NuSTAR_Public/NuSTAROperationSite/file/NuSTAR-PA.pdf\">examples</ulink> for various PAs."
 msgstr "Les rotateurs de champs sont gérés par INDI et Ekos. L'angle du rotateur est l'angle rapporté par le rotateur mais n'est pas nécessairement <ulink url=\"https://fr.wikipedia.org/wiki/Angle_de_position\">l'angle de position</ulink>. Un angle de position de zéro indique que le haut d'une trame (repéré par une petite flèche) pointe <emphasis>directement</emphasis> vers le pôle. L'angle de position est exprimé en degrés de l'est par rapport au nord, ainsi, un angle de position de 90 indique que le <emphasis>haut</emphasis> d'une trame pointe à 90 degrés (sens antihoraire) du pôle. Quelques <ulink url=\"http://www.dibonsmith.com/orbits.htm\">exemples</ulink> d'angle de position d'étoiles binaires."
 
 #. Tag: para
 #. +> trunk5
-#: ekos-capture.docbook:488
+#: ekos-capture.docbook:401
 #, no-c-format
 msgid "To calibrate the Position Angle (PA), capture and solve an image in the <link linkend=\"ekos-align\">Ekos Align module</link>. An <emphasis>offset</emphasis> and a <emphasis>multiplier</emphasis> are applied to the raw angle to produce the position angle. The Ekos Rotator dialog permits direct control of the raw angle and also the PA. The offset and multiplier can be changed manually to synchronize the rotator's raw angle with the actual PA. Check <guilabel>Sync FOV to PA</guilabel> to rotate the current Field of View (FOV) indicator on the Sky Map with the PA value as you change it in the dialog."
 msgstr "Afin de calibrer l'angle de position (AP), prenez une image et resolvez-là dans le <link linkend=\"ekos-align\">module d'alignement</link> d'Ekos. Un <emphasis>décalage</emphasis> et un <emphasis>coefficient multiplicateur</emphasis> sont appliqués à l'angle brute pour calculer l'angle de position. La boîte de dialogue du rotateur d'Ekos permet un contrôle direct de l'angle brut et de l'angle de position. Le décalage et le coefficient multiplicateur peuvent être modifiés manuellement afin de synchroniser l'angle brute du rotateur avec l'angle de position actuel. Cochez <guilabel>Synchroniser CdV vers AP</guilabel> pour effectuer la rotation de l'indicateur du champ de vision courant sur la carte du ciel avec la valeur d'angle de position."
 
 #. Tag: phrase
 #. +> trunk5
-#: ekos-capture.docbook:498
+#: ekos-capture.docbook:411
 #, no-c-format
 msgid "Rotator settings"
 msgstr "Réglages du rotateur"
 
 #. Tag: para
 #. +> trunk5
-#: ekos-capture.docbook:503
+#: ekos-capture.docbook:416
 #, no-c-format
 msgid "Each capture job may be assigned different rotator angles, but be aware that this would cause guiding to abort as it would lose track of the guide star when rotating. Therefore, for most sequences, the rotator angle is kept the same for all capture jobs."
 msgstr "On peut assigner à chaque tâche d'acquisition un angle de rotation différent mais soyez conscient que cela peut causer l'interruption du guidage puisque l'étoile guide sera perdue pendant la rotation. Ainsi, pour la plupart des séquences, l'angle du rotateur est identique pour toutes les tâches d'acquisition."
 
 #. Tag: title
 #. +> trunk5
-#: ekos-capture.docbook:509
+#: ekos-capture.docbook:422
 #, no-c-format
 msgid "Calibration Frames"
 msgstr "Trames de calibration"
 
 #. Tag: screeninfo
 #. +> trunk5
-#: ekos-capture.docbook:512
+#: ekos-capture.docbook:425
 #, no-c-format
 msgid "<screeninfo>Calibration settings</screeninfo>"
 msgstr "<screeninfo>Réglages de la calibration</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: ekos-capture.docbook:520
+#: ekos-capture.docbook:433
 #, no-c-format
 msgid "<phrase>Calibration settings</phrase>"
 msgstr "<phrase>Réglages de la calibration</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: ekos-capture.docbook:524
+#: ekos-capture.docbook:437
 #, no-c-format
 msgid "For Flat Field frames, you can set calibration options in order to automate the process. The calibration options are designed to facilitate automatic unattended flat field frame capture. It can also be used for dark and bias frames if desired. If your camera is equipped with a mechanical shutter, then it is not necessary to set calibration settings unless you want to close the dust cover to ensure no light at all passes through the optical tube. For flat fields, you must specify the flat field light source, and then specify the duration of the flat field frame. The duration can be either manual or based on ADU calculations."
 msgstr "Pour les trames de champ uniforme (Flat), vous pouvez régler les options de calibration pour automatiser le processus. Ces options sont conçues pour faciliter l'acquisition automatique des trames de champ uniforme. Elles peuvent également être utilisées pour l'acquisition des trames Dark et Bias. Si votre caméra possède un obturateur mécanique, il n'est pas nécessaire de régler ces options sauf si vous souhaitez fermer le bouchon antipoussière pour vous assurer qu'aucune lumière ne passe dans le tube optique. Pour les Flats, vous devez spécifier la source de lumière, puis une durée d'exposition. La durée peut être spécifiée soit manuellement soit fondé sur un calcul d'ADU (Analog Digital Unit ou pas de quantification)."
 
 #. Tag: para
 #. +> trunk5
-#: ekos-capture.docbook:529
+#: ekos-capture.docbook:442
 #, no-c-format
 msgid "Flat Field Source"
 msgstr "Source de lumière pour le Flat"
 
 #. Tag: para
 #. +> trunk5
-#: ekos-capture.docbook:533
+#: ekos-capture.docbook:446
 #, no-c-format
 msgid "<guilabel>Manual</guilabel>: The flat light source is manual."
 msgstr "<guilabel>Manuel</guilabel> : la source de lumière est manuelle."
 
 #. Tag: para
 #. +> trunk5
-#: ekos-capture.docbook:537
+#: ekos-capture.docbook:450
 #, no-c-format
 msgid "<guilabel>Dust Cover with Built-In Flat Light</guilabel>: If using a dust cover with builtin light source (&eg; FlipFlat). For dark and bias frames, close the dust cap before proceeding. For flat frames, close the dust cap and turn on the light source."
 msgstr "<guilabel>Bouchon antipoussière avec source de lumière intégrée</guilabel> : pour l'utilisation de ce type d'appareil (p. ex. FlipFlat). Pour les trames Dark et Bias, veillez à fermer le bouchon antipoussière avant de commencer. Pour les trames Flat, fermez le bouchon antipoussière et allumez la source de lumière."
 
 #. Tag: para
 #. +> trunk5
-#: ekos-capture.docbook:541
+#: ekos-capture.docbook:454
 #, no-c-format
 msgid "<guilabel>Dust Cover with External Flat Light</guilabel>: If using a dust cover with an external flat light source. For dark and bias frames, close the dust cap before proceeding. For flat frames, open the dust cap and turn on the light source. The external flat light source location is presumed to be the parking location."
 msgstr "<guilabel>Bouchon antipoussière avec source de lumière externe</guilabel> : pour l'utilisation de bouchon antipoussière avec source de lumière externe. Pour les trames Dark et Bias, veuillez à fermer le bouchon antipoussière avant de commencer. Pour les trames Flat, fermez le bouchon antipoussière et allumer la source de lumière. L'emplacement de la source externe de lumière pour les Flats est présumée être la position de parcage."
 
 #. Tag: para
 #. +> trunk5
-#: ekos-capture.docbook:545
+#: ekos-capture.docbook:458
 #, no-c-format
 msgid "<guilabel>Wall</guilabel>: Light source is a panel on the observatory wall. Specify the Azimuth and Altitude coordinates of the panel and the mount shall slew there before capturing the flat field frames. If the light panel is controllable from INDI, Ekos shall turn it on/off as required."
 msgstr "<guilabel>Mur</guilabel> : la source de lumière est un panneau placé contre un mur. Spécifier les coordonnées d'azimut et d'altitude du panneau et la monture pivotera dans cette direction avant de débuter l'acquisition des trames de Flats. Si le panneau de lumière est contrôlable par INDI, Ekos se chargera de l'allumer et de l'éteindre."
 
 #. Tag: para
 #. +> trunk5
-#: ekos-capture.docbook:549
+#: ekos-capture.docbook:462
 #, no-c-format
 msgid "<guilabel>Dawn/Dusk</guilabel>: Currently unsupported."
 msgstr "<guilabel>Aube/Crépuscule</guilabel> : non géré actuellement."
 
 #. Tag: para
 #. +> trunk5
-#: ekos-capture.docbook:556
+#: ekos-capture.docbook:469
 #, no-c-format
 msgid "Flat Field Duration"
 msgstr "Durée d'exposition de l'acquisition de Flat"
 
 #. Tag: para
 #. +> trunk5
-#: ekos-capture.docbook:560
+#: ekos-capture.docbook:473
 #, no-c-format
 msgid "<guilabel>Manual</guilabel>: Duration is as specified in the Sequence Queue."
 msgstr "<guilabel>Manuelle</guilabel> : la durée est spécifiée dans la file d'attente de la séquence."
 
 #. Tag: para
 #. +> trunk5
-#: ekos-capture.docbook:564
+#: ekos-capture.docbook:477
 #, no-c-format
 msgid "<guilabel>ADU</guilabel>: Duration is variable until specified ADU is met."
 msgstr "<guilabel>ADU</guilabel> : la durée est variable jusqu'à que la valeur ADU soit atteinte."
 
 #. Tag: para
 #. +> trunk5
-#: ekos-capture.docbook:571
+#: ekos-capture.docbook:484
 #, no-c-format
 msgid "Before the calibration capture process is started, you can request Ekos to park the mount and/or dome. Depending on your flat source selection above, Ekos will use the appropriate flat light source before starting flat frames capture. If ADU is specified, Ekos begins by capturing a couple of preview images to establish the curve required to achieve the desired ADU count. Once an appropriate value is calculated, another capture is taken and ADU is recounted until a satisfactory value is achieved."
 msgstr "Avant le début de la procédure d'acquisition de la calibration, vous pouvez demander à Ekos de parquer la monture et/ou le dôme. Selon la sélection de la source de Flat ci-dessus, Ekos va utiliser la source de lumière appropriée pour les Flats avant de commencer l'acquisition des trames de Flat. Si une valeur ADU est spécifiée, Ekos commence par prendre une série d'images pour établir la courbe nécessaire pour atteindre la valeur ADU souhaitée. Une fois que cette valeur est calculée, une nouvelle image est prise et l'ADU est recalculée jusqu'à ce que la valeur souhaitée soit atteinte."
 
 #. Tag: title
 #. +> trunk5
-#: ekos-capture.docbook:577
+#: ekos-capture.docbook:490
 #, no-c-format
 msgid "Video Tutorials"
 msgstr "Tutoriels vidéos"
 
 #. Tag: phrase
 #. +> trunk5
-#: ekos-capture.docbook:585
+#: ekos-capture.docbook:498
 #, no-c-format
 msgid "<phrase>Capture</phrase>"
 msgstr "<phrase>Acquisition</phrase>"
 
 #. Tag: phrase
 #. +> trunk5
-#: ekos-capture.docbook:596
+#: ekos-capture.docbook:509
 #, no-c-format
 msgid "Filter Wheels"
 msgstr "Roues à filtres"
+
+#, no-c-format
+#~ msgid "Filter Settings"
+#~ msgstr "Réglages des filtres"
+
+#, no-c-format
+#~ msgid "<screeninfo>Filter Queue</screeninfo>"
+#~ msgstr "<screeninfo>File d'attente des filtres</screeninfo>"
+
+#, no-c-format
+#~ msgid "<phrase>Filter Queue</phrase>"
+#~ msgstr "<phrase>Filtre d'attente des filtres</phrase>"
+
+#, no-c-format
+#~ msgid "Click the filter icon <inlinemediaobject><imageobject><imagedata fileref=\"view-filter.png\" format=\"PNG\"/></imageobject></inlinemediaobject> next to the filter wheel selection box to open the filter settings dialog. If you are using filters that are not parafocal with each other and require a specific amount of focus offsets in order to get them into proper then set all the relative focus offsets in the dialog."
+#~ msgstr "Cliquez sur l'icône du filtre <inlinemediaobject><imageobject><imagedata fileref=\"view-filter.png\" format=\"PNG\"/></imageobject></inlinemediaobject> pour ouvrir la boîte de dialogue de réglages des filtres. Si vous utilisez des filtres qui ne sont pas tous parfocaux entre eux et requièrent par conséquent des réglages de mise au point différents, vous pouvez configurer ces réglages dans cette fenêtre."
+
+#, no-c-format
+#~ msgid "Configure settings for each filter individually:"
+#~ msgstr "Configuration individuelle des réglages de chaque filtre :"
+
+#, no-c-format
+#~ msgid "<guilabel>Filter</guilabel>: Filter Name."
+#~ msgstr "<guilabel>Filtre</guilabel> : spécifie le nom du filtre."
+
+#, no-c-format
+#~ msgid "<guilabel>Exposure</guilabel>: Set exposure time used when performing focus under this filter. By default, it is set to 1 second."
+#~ msgstr "<guilabel>Exposition</guilabel> : spécifie la durée d'exposition lors de la réalisation de la mise au point avec ce filtre. Par défaut, cette valeur vaut une seconde."
+
+#, no-c-format
+#~ msgid "<guilabel>Offset</guilabel>: Set relative offsets. Ekos will command a focus offset change if there is a difference between the current and target filter offsets. For example, given the values in the example image, if the current filter is set to <emphasis>Red</emphasis> and next filter is <emphasis>Green</emphasis>, then Ekos shall command the focuser to Focus In by +300 ticks. Relative positive focus offsets denote Focus Out while negative values denote Focus In."
+#~ msgstr "<guilabel>Décalage</guilabel> : spécifie les décalages relatifs. Ekos déclenchera une mise au point avec ce décalage s'il existe une différence entre le décalage du filtre courant et le filtre cible. Par exemple avec les données de l'image, si le filtre courant est le <emphasis>Rouge</emphasis> et que le prochain filtre est le <emphasis>Vert</emphasis>, alors Ekos commandera au moteur de mise au point de rentrer de +300 crans. Des décalages relatifs de mise au point positifs indique un déplacement vers l'extérieur alors que des valeurs négatives indiquent un mouvement vers l'intérieur."
+
+#, no-c-format
+#~ msgid "<guilabel>Auto Focus</guilabel>: Check this option to initial AutoFocus process whenever the filter is changed to this filter."
+#~ msgstr "<guilabel>Mise au point automatique</guilabel> : sélectionnez cette option pour déclencher une mise au point automatique lorsque le filtre est changé pour ce filtre."
+
+#, no-c-format
+#~ msgid "<guilabel>Lock Filter</guilabel>: Set which filter should be set and <emphasis>locked</emphasis> when performing autofocus for this filter."
+#~ msgstr "<guilabel>Verrouiller le filtre</guilabel> : spécifie le filtre à configurer et à <emphasis>verrouiller</emphasis> quand la mise au point automatique est réalisée pour ce filtre."
+
+#, no-c-format
+#~ msgid "Let's take an example. Suppose the capture sequence is running and the current filter is <guilabel>Green</guilabel>, so the relative offset is already set to +300. The next image in the sequence uses Hydrogen Alpha (H_Alpha) so before Ekos captures the next frame, the following actions take place:"
+#~ msgstr "Prenons un exemple. Supposons qu'une séquence d'acquisitions est en cours et que le filtre courant est le <guilabel>Vert</guilabel>, ainsi le décalage relatif est de +300. La prochaine image de la séquence utilise le filtre d'hydrogène alpha (Hα), donc avant qu'Ekos prenne la prochaine trame, les actions suivantes seront réalisées :"
+
+#, no-c-format
+#~ msgid "Since Luminosity is specified as the locked filter and auto-focus is checked, the filter is changed to Luminosity."
+#~ msgstr "Comme la luminosité est spécifiée comme étant le filtre verrouillé et que la mise au point automatique est activée, le filtre est changé en luminosité."
+
+#, no-c-format
+#~ msgid "A focus offset is -300 is applied since the prior filter <guilabel>Green</guilabel> was moved +300 previously."
+#~ msgstr "Un décalage de mise au point de -300 est appliqué puisque le filtre précédent <guilabel>Vert</guilabel> avait été déplacé à +300 auparavant."
+
+#, no-c-format
+#~ msgid "Auto Focus process is initiated."
+#~ msgstr "La procédure de mise au point automatique est initialisée."
+
+#, no-c-format
+#~ msgid "Once Auto Focus is complete, the filter is changed to H_Alpha."
+#~ msgstr "Dès qu'elle est terminée, le filtre est changé en Hα."
+
+#, no-c-format
+#~ msgid "A focus offset of -1200 is applied."
+#~ msgstr "Un décalage de mise au point de -1200 est appliqué."
+
+#, no-c-format
+#~ msgid "Capture sequence is resumed."
+#~ msgstr "La séquence d'acquisition reprend."
 
 #~ msgid "<guilabel>Prefix</guilabel>: Specify the prefix to append to the generated filename. You may also append the frame type, filter, expose duration, and ISO 8601 timestamp. For example, if you specify Prefix as <userinput>M45</userinput> and checked the Type and Filter checkboxes, and assuming your filter was set to <guimenuitem>Red</guimenuitem> and your frame type is <guimenuitem>Light</guimenuitem>, the generated file names will be as follows:"
 #~ msgstr "<guilabel>Préfixe</guilabel> : spécifie le préfixe à ajouter au nom généré. Vous pouvez également ajouter le type de trame, le filtre, la durée d'exposition et l'horodatage au format ISO 8601. Par exemple, si vous spécifiez un préfixe <userinput>M45</userinput> et cochez les cases Type et Filtre avec un filtre <guimenuitem>Rouge</guimenuitem> et un type <guimenuitem>Light</guimenuitem>, le nom généré ressemblera à :"
