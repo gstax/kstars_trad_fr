@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos-focus_3.6.5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-06-20 10:41+0200\n"
+"POT-Creation-Date: 2023-06-21 10:12+0200\n"
 "PO-Revision-Date: 2023-06-03 10:46+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team:  French <kde-francophone@kde.org>\n"
@@ -97,7 +97,7 @@ msgstr "Après qu'Ekos ait traité une image, il sélectionne l'étoile la plus 
 #: ekos-focus.docbook:55
 #, fuzzy, no-c-format
 #| msgid "Ekos supports 4 different focus algorithms: Iterative, Polynominal, Linear and Linear 1 Pass."
-msgid "Ekos supports 4 different focus algorithms: Linear 1 Pass, Linear, Iterative, Polynominal. Linear 1 Pass is the recommended algorithm."
+msgid "Ekos supports 4 different focus algorithms: Linear 1 Pass, Linear, Iterative, Polynomial. Linear 1 Pass is the recommended algorithm."
 msgstr "Ekos propose 4 algorithmes différents de mise au point : Itératif, Polynomial, Linéaire et Linéaire 1 passe."
 
 #. Tag: para
@@ -663,7 +663,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-focus.docbook:561
 #, no-c-format
-msgid "Correcting image tilt: especially large sensors are very sensitive to incorrect distance and tilting of the sensor. In such cases, the image shows aberration, expecially in the image corners. If all corners show the same effect, the distance needs to be corrected. If the aberrations in the corners differ, this is typically the result of a tilted sensor."
+msgid "Correcting image tilt: especially large sensors are very sensitive to incorrect distance and tilting of the sensor. In such cases, the image shows aberration, especially in the image corners. If all corners show the same effect, the distance needs to be corrected. If the aberrations in the corners differ, this is typically the result of a tilted sensor."
 msgstr ""
 
 #. Tag: para
@@ -1040,7 +1040,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-focus.docbook:865
 #, no-c-format
-msgid "<guilabel>PSF</guilabel>: If <guilabel>Measure</guilabel> is set to FWHM, then the PSF widget can be selected for use in fitting a surface to the star. At pressent just Gaussian is supported."
+msgid "<guilabel>PSF</guilabel>: If <guilabel>Measure</guilabel> is set to FWHM, then the PSF widget can be selected for use in fitting a surface to the star. At present just Gaussian is supported."
 msgstr ""
 
 #. Tag: para
@@ -1579,7 +1579,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-focus.docbook:1250
 #, no-c-format
-msgid "For a refractor this is how far the drawtube moves when the focuser is moved by 1 tick. You might be able to get this value from the spefication of your focuser (how many ticks for a complete revolution of your focuser) and the thread pitch of your telescope drawtube along with any gearing involved."
+msgid "For a refractor this is how far the drawtube moves when the focuser is moved by 1 tick. You might be able to get this value from the specification of your focuser (how many ticks for a complete revolution of your focuser) and the thread pitch of your telescope drawtube along with any gearing involved."
 msgstr ""
 
 #. Tag: para
@@ -1820,7 +1820,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-focus.docbook:1407
 #, no-c-format
-msgid "In order to use this feature it is necessary to work out the relative focus position between all filters that you wish to use this functionality for. For examplke, if Lum and Red have the same focus position (they are parfocal) but Green focuses 300 ticks further out than Lum (or Red) then setup Offsets for Lum, Red and Grren as 0, 0, 300 as shown above. If a sequence is created to take 10 subframes of Lum, then 10 Red, then 10 Green, then at the start, since Lum has <guilabel>Auto Focus</guilabel> checked, an Autofocus will be run on Lum and the 10 subs taken. Capture will then switch filters to Red. Since Red has <guilabel>Auto Focus</guilabel> unchecked no Autofocus will happen and Ekos will look to the Offsets between Red and Lum. In this case 0 - 0 = 0. So the focuser will not be moved and Copture will take 10 subs of Red. Then Capture will swap from Red to Green. Again, Green has <guilabel>Auto Focus</guilabel> unchecked no Autofocus will happen and Ekos will look to the Offsets between Green and Red. In this case 300 - 0 = 300. So Focus will adjust the focus position by +300 (move the focuser out by 300 ticks). Capture will then take the 10 Green subs."
+msgid "In order to use this feature it is necessary to work out the relative focus position between all filters that you wish to use this functionality for. For example, if Lum and Red have the same focus position (they are parfocal) but Green focuses 300 ticks further out than Lum (or Red) then setup Offsets for Lum, Red and Grren as 0, 0, 300 as shown above. If a sequence is created to take 10 subframes of Lum, then 10 Red, then 10 Green, then at the start, since Lum has <guilabel>Auto Focus</guilabel> checked, an Autofocus will be run on Lum and the 10 subs taken. Capture will then switch filters to Red. Since Red has <guilabel>Auto Focus</guilabel> unchecked no Autofocus will happen and Ekos will look to the Offsets between Red and Lum. In this case 0 - 0 = 0. So the focuser will not be moved and Capture will take 10 subs of Red. Then Capture will swap from Red to Green. Again, Green has <guilabel>Auto Focus</guilabel> unchecked no Autofocus will happen and Ekos will look to the Offsets between Green and Red. In this case 300 - 0 = 300. So Focus will adjust the focus position by +300 (move the focuser out by 300 ticks). Capture will then take the 10 Green subs."
 msgstr ""
 
 #. Tag: para
@@ -2313,7 +2313,7 @@ msgstr "Pour certains algorithmes, Ekos dessinera également une courbe de régr
 #. +> trunk5
 #: ekos-focus.docbook:1774
 #, no-c-format
-msgid "The units of the y-axis depend on the selected focus Measure. For example, for HFR, the y-axis will either be in Pixels or Arc Sseconds depending on how <guilabel>Display Units</guilabel> is set."
+msgid "The units of the y-axis depend on the selected focus Measure. For example, for HFR, the y-axis will either be in Pixels or Arc seconds depending on how <guilabel>Display Units</guilabel> is set."
 msgstr ""
 
 #. Tag: para
@@ -2833,7 +2833,7 @@ msgstr "<phrase>Procédure de mise au point</phrase>"
 #. +> trunk5
 #: ekos-focus.docbook:2068
 #, no-c-format
-msgid "Currently Ekos supports a simple linear relationship between temperature, or altitude, and ticks. In the future, if there is demand, more sophisticated relationships could be supported. A linear relationship will deliver the majority of the benefit of AF and is fairly straight-forward to adminster. More complex relationships could be more accurate but come with more complex administration. Note also that more complex focus point vs temperature relationships will likely be more or less linear for small changes in temperature."
+msgid "Currently Ekos supports a simple linear relationship between temperature, or altitude, and ticks. In the future, if there is demand, more sophisticated relationships could be supported. A linear relationship will deliver the majority of the benefit of AF and is fairly straight-forward to administer. More complex relationships could be more accurate but come with more complex administration. Note also that more complex focus point vs temperature relationships will likely be more or less linear for small changes in temperature."
 msgstr ""
 
 #. Tag: para
@@ -2854,7 +2854,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-focus.docbook:2086
 #, no-c-format
-msgid "A simple approach is to start with a small amount of data, say 1 night and use this to calculate, say the Ticks / degree C. Run with this and adjust it over time as you collect more data. A way to check how well AF is performing would be to use Analyze to review how AF had moved the focus over 1 hour. If things are spot on, then where ever AF had positioned the focuser after 1 hour would match the Autofocus result. Where there is a discrepancy, it will be because of randomness in the Autofocus result and miscalibration in the AF <guilabel>Ticks / °C</guilabel>. By doing this regularly you will build knowledge of your equipment and be able to fine tune AF. Below is a screenshot of Analze configured for Focus where you can see how Focus position changes throughout the imaging session:"
+msgid "A simple approach is to start with a small amount of data, say 1 night and use this to calculate, say the Ticks / degree C. Run with this and adjust it over time as you collect more data. A way to check how well AF is performing would be to use Analyze to review how AF had moved the focus over 1 hour. If things are spot on, then where ever AF had positioned the focuser after 1 hour would match the Autofocus result. Where there is a discrepancy, it will be because of randomness in the Autofocus result and miscalibration in the AF <guilabel>Ticks / °C</guilabel>. By doing this regularly you will build knowledge of your equipment and be able to fine tune AF. Below is a screenshot of Analyze configured for Focus where you can see how Focus position changes throughout the imaging session:"
 msgstr ""
 
 #. Tag: screeninfo
