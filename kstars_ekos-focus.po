@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos-focus_3.6.5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-06-21 10:12+0200\n"
+"POT-Creation-Date: 2023-06-23 10:16+0200\n"
 "PO-Revision-Date: 2023-06-03 10:46+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team:  French <kde-francophone@kde.org>\n"
@@ -997,7 +997,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-focus.docbook:835
 #, no-c-format
-msgid "<emphasis role=\"bold\"># Stars</emphasis>: This ia an experimental feature that calculates the number of stars in the image and uses this number as the focus measure. The idea is that as you move nearer focus so more stars become detectable."
+msgid "<emphasis role=\"bold\"># Stars</emphasis>: This is an experimental feature that calculates the number of stars in the image and uses this number as the focus measure. The idea is that as you move nearer focus so more stars become detectable."
 msgstr ""
 
 #. Tag: para
@@ -1091,7 +1091,7 @@ msgstr "Testez pour trouver une valeur appropriée mais un bon point de départ 
 #. +> trunk5
 #: ekos-focus.docbook:899
 #, no-c-format
-msgid "<guilabel>Refine Curve Fit</guilabel>: This is an experimental option only available with the Linear 1 Pass focus algorithm and Curve Fits of Hyperbola and Parabola. If this option is checked then at the end of the sweep of datapoints, Ekos fits a curve and measures the R². It then applies Peirce's Criterion based on Gould's methodology for outlier identification. See <ulink url=\"https://en.wikipedia.org/wiki/Peirce%27s_criterion\">Peirce's Criterian</ulink> for details incl Peirce's original paper and Gould's paper which are both referenced in the notes. If Peirce's Criterion detects 1 or more outliers then another curve fit is attempted with the outliers removed. Again the R² is calculated and compared with the original curve fit R². If the R² is better, then the latest run is used, if not, the original curve fit (with the outliers included) is used."
+msgid "<guilabel>Refine Curve Fit</guilabel>: This is an experimental option only available with the Linear 1 Pass focus algorithm and Curve Fits of Hyperbola and Parabola. If this option is checked then at the end of the sweep of datapoints, Ekos fits a curve and measures the R². It then applies Peirce's Criterion based on Gould's methodology for outlier identification. See <ulink url=\"https://en.wikipedia.org/wiki/Peirce%27s_criterion\">Peirce's Criterion</ulink> for details incl Peirce's original paper and Gould's paper which are both referenced in the notes. If Peirce's Criterion detects 1 or more outliers then another curve fit is attempted with the outliers removed. Again the R² is calculated and compared with the original curve fit R². If the R² is better, then the latest run is used, if not, the original curve fit (with the outliers included) is used."
 msgstr ""
 
 #. Tag: para
@@ -1494,7 +1494,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-focus.docbook:1199
 #, no-c-format
-msgid "<guilabel>Tolerance</guilabel>: This is used by Classic and Wavwfront algorithms and is a scaling factor between 0 and 1."
+msgid "<guilabel>Tolerance</guilabel>: This is used by Classic and Wavefront algorithms and is a scaling factor between 0 and 1."
 msgstr ""
 
 #. Tag: para
@@ -1813,14 +1813,14 @@ msgstr ""
 #. +> trunk5
 #: ekos-focus.docbook:1403
 #, no-c-format
-msgid "<emphasis role=\"bold\">Use Offsets</emphasis>: It is possible to use filter offsets to adjust focus when swapping between filters, without running Autofocus. This requires some setup work ahead of time but has the advantage of reduciung the number of Autofocus runs and therefore reducing the time spent autofocusing."
+msgid "<emphasis role=\"bold\">Use Offsets</emphasis>: It is possible to use filter offsets to adjust focus when swapping between filters, without running Autofocus. This requires some setup work ahead of time but has the advantage of reducing the number of Autofocus runs and therefore reducing the time spent autofocusing."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1407
 #, no-c-format
-msgid "In order to use this feature it is necessary to work out the relative focus position between all filters that you wish to use this functionality for. For example, if Lum and Red have the same focus position (they are parfocal) but Green focuses 300 ticks further out than Lum (or Red) then setup Offsets for Lum, Red and Grren as 0, 0, 300 as shown above. If a sequence is created to take 10 subframes of Lum, then 10 Red, then 10 Green, then at the start, since Lum has <guilabel>Auto Focus</guilabel> checked, an Autofocus will be run on Lum and the 10 subs taken. Capture will then switch filters to Red. Since Red has <guilabel>Auto Focus</guilabel> unchecked no Autofocus will happen and Ekos will look to the Offsets between Red and Lum. In this case 0 - 0 = 0. So the focuser will not be moved and Capture will take 10 subs of Red. Then Capture will swap from Red to Green. Again, Green has <guilabel>Auto Focus</guilabel> unchecked no Autofocus will happen and Ekos will look to the Offsets between Green and Red. In this case 300 - 0 = 300. So Focus will adjust the focus position by +300 (move the focuser out by 300 ticks). Capture will then take the 10 Green subs."
+msgid "In order to use this feature it is necessary to work out the relative focus position between all filters that you wish to use this functionality for. For example, if Lum and Red have the same focus position (they are parfocal) but Green focuses 300 ticks further out than Lum (or Red) then setup Offsets for Lum, Red and Green as 0, 0, 300 as shown above. If a sequence is created to take 10 subframes of Lum, then 10 Red, then 10 Green, then at the start, since Lum has <guilabel>Auto Focus</guilabel> checked, an Autofocus will be run on Lum and the 10 subs taken. Capture will then switch filters to Red. Since Red has <guilabel>Auto Focus</guilabel> unchecked no Autofocus will happen and Ekos will look to the Offsets between Red and Lum. In this case 0 - 0 = 0. So the focuser will not be moved and Capture will take 10 subs of Red. Then Capture will swap from Red to Green. Again, Green has <guilabel>Auto Focus</guilabel> unchecked no Autofocus will happen and Ekos will look to the Offsets between Green and Red. In this case 300 - 0 = 300. So Focus will adjust the focus position by +300 (move the focuser out by 300 ticks). Capture will then take the 10 Green subs."
 msgstr ""
 
 #. Tag: para
@@ -2320,7 +2320,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-focus.docbook:1777
 #, no-c-format
-msgid "If <guilabel>Refine Curve Fit</guilabel> is selected, Focus will check for and potentially exclude outlying datapoonts. In this case datapoints 1, 5 and 7 were excluded."
+msgid "If <guilabel>Refine Curve Fit</guilabel> is selected, Focus will check for and potentially exclude outlying datapoints. In this case datapoints 1, 5 and 7 were excluded."
 msgstr ""
 
 #. Tag: para
@@ -2464,7 +2464,7 @@ msgstr "Courbe en V"
 #: ekos-focus.docbook:1828
 #, fuzzy, no-c-format
 #| msgid "Focus V-Curve Timeseries"
-msgid "Focus V-Curve Fourierj"
+msgid "Focus V-Curve Fourier"
 msgstr "Courbe en V de la mise au point comme série temporelle"
 
 #. Tag: para
