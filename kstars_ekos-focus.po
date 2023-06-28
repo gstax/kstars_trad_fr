@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos-focus_3.6.5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-06-23 10:16+0200\n"
+"POT-Creation-Date: 2023-06-27 09:47+0200\n"
 "PO-Revision-Date: 2023-06-03 10:46+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team:  French <kde-francophone@kde.org>\n"
@@ -1487,7 +1487,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-focus.docbook:1186
 #, no-c-format
-msgid "<emphasis role=\"bold\">Gold</emphasis>: This method is based on work done by Gold Astro and presented <ulink url=\"http://www.goldastro.com/goldfocus/ncfz.php\">here</ulink>."
+msgid "<emphasis role=\"bold\">Gold</emphasis>: This method is based on work done by Gold Astro and presented <ulink url=\"https://www.goldastro.com/goldfocus/ncfz.php\">here</ulink>."
 msgstr ""
 
 #. Tag: para
@@ -1515,7 +1515,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-focus.docbook:1206
 #, no-c-format
-msgid "<guilabel>Tolerance (τ)</guilabel>: This is used by the Gold algorithm and is a focus tolerance as a percentage of total seeing. The Gold website suggests 3-5% for a good focuser or 1-2% for a top quality focuser. See the <ulink url=\"http://www.goldastro.com/goldfocus/ncfz.php\">Gold Astro website</ulink> for more details."
+msgid "<guilabel>Tolerance (τ)</guilabel>: This is used by the Gold algorithm and is a focus tolerance as a percentage of total seeing. The Gold website suggests 3-5% for a good focuser or 1-2% for a top quality focuser. See the <ulink url=\"https://www.goldastro.com/goldfocus/ncfz.php\">Gold Astro website</ulink> for more details."
 msgstr ""
 
 #. Tag: para
@@ -1557,7 +1557,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-focus.docbook:1237
 #, no-c-format
-msgid "<guilabel>FWHM (θ)</guilabel>: This is used by the Gold Algorithm and is the total seeing. This is the combined contribution of the diffraction limit of your telescope and the astronomical seeing. The <ulink url=\"http://www.goldastro.com/goldfocus/ncfz.php\">Gold Astro website</ulink> describes how you might approximate the total once you have values for the individual contributions."
+msgid "<guilabel>FWHM (θ)</guilabel>: This is used by the Gold Algorithm and is the total seeing. This is the combined contribution of the diffraction limit of your telescope and the astronomical seeing. The <ulink url=\"https://www.goldastro.com/goldfocus/ncfz.php\">Gold Astro website</ulink> describes how you might approximate the total once you have values for the individual contributions."
 msgstr ""
 
 #. Tag: para
