@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos_scheduler_3.6.5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-07-05 08:10+0200\n"
+"POT-Creation-Date: 2023-07-06 09:16+0200\n"
 "PO-Revision-Date: 2022-11-20 07:54+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -68,7 +68,7 @@ msgstr "Introduction"
 #. +> trunk5
 #: ekos-scheduler.docbook:23
 #, no-c-format
-msgid "The Ekos Scheduler is an important component of you imaging workflow. It connects to INDI, starts and stops all the other Ekos modules, schedules jobs according to their constraints and priorities, monitors those jobs as they execute, and then safely brings down the system when jobs are done, or before dawn. Whether you are running multi-day imaging sessions for multiple targets, or simplying trying to image a single target for a few hours, it is advisable to have the Scheduler control your imaging sessions."
+msgid "The Ekos Scheduler is an important component of your imaging workflow. It connects to INDI, starts and stops all the other Ekos modules, schedules jobs according to their constraints and priorities, monitors those jobs as they execute, and then safely brings down the system when jobs are done, or before dawn. Whether you are running multi-day imaging sessions for multiple targets, or simply trying to image a single target for a few hours, it is advisable to have the Scheduler control your imaging sessions."
 msgstr ""
 
 #. Tag: title
@@ -83,7 +83,7 @@ msgstr "Ordonnanceur d'Ekos"
 #. +> trunk5
 #: ekos-scheduler.docbook:29
 #, no-c-format
-msgid "The heart of the Scheduler is a table displaying the list of Scheduler jobs the user wants to run. Associated with each jobs are attributes (mostly described in the settings section below). The attributes describe the name of the job, where the telescope should be pointed when imaging that job, a description of what types of images should be captured, constraints about when the jobs should run (e.g. altitude, twilight, moon, landscape blockages, etc), things that need to be done before and after the job is run, and strategies for dealing with errors."
+msgid "The heart of the Scheduler is a table displaying the list of Scheduler jobs the user wants to run. Associated with each jobs are attributes (mostly described in the settings section below). The attributes describe the name of the job, where the telescope should be pointed when imaging that job, a description of what types of images should be captured, constraints about when the jobs should run (&eg; altitude, twilight, moon, landscape blockages, &etc;), things that need to be done before and after the job is run, and strategies for dealing with errors."
 msgstr ""
 
 #. Tag: para
@@ -139,14 +139,14 @@ msgstr ""
 #. +> trunk5
 #: ekos-scheduler.docbook:66
 #, no-c-format
-msgid "The Scheduler regularly plans (an re-plans) which jobs should be run, and when. It can start executing a given job, and then later preempt that job for a new one. It can become idle if no jobs can be run (e.g. in daylight), and sleep until such a time that it becomes active again. Its aim is to keep the equipment as busy as possible, while respecting the scheduler-table's priorities. Here's how it works."
+msgid "The Scheduler regularly plans (and re-plans) which jobs should be run, and when. It can start executing a given job, and then later preempt that job for a new one. It can become idle if no jobs can be run (&eg; in daylight), and sleep until such a time that it becomes active again. Its aim is to keep the equipment as busy as possible, while respecting the scheduler-table's priorities. Here's how it works."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:69
 #, no-c-format
-msgid "When the scheduler starts (or when it replans, which it does every second while active), it looks through the entire list of jobs, starting at the highest priority job, and working its way down to the lowest priority one if necessary. When it finds a job that can run, it starts that job, possibly preempting the currently running job. A jobs can run if it's constraints are met, e.g. the target is not blocked by the local terrain, it meets the minimum altitude constraint, it has not already completed all the desired imaging, ..."
+msgid "When the scheduler starts (or when it replans, which it does every second while active), it looks through the entire list of jobs, starting at the highest priority job, and working its way down to the lowest priority one if necessary. When it finds a job that can run, it starts that job, possibly preempting the currently running job. A jobs can run if its constraints are met, &eg; the target is not blocked by the local terrain, it meets the minimum altitude constraint, it has not already completed all the desired imaging, ..."
 msgstr ""
 
 #. Tag: para
@@ -160,7 +160,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-scheduler.docbook:75
 #, no-c-format
-msgid "The scheduling algorithm described in the above paragraph is known as the Greedy Scheduling algorithm. It is the recommended one to use. In previous versions of Ekos, there was another \"Classic scheduling algorithm\" which is currently being phased out. That scheme could not preempt running jobs, and thus did not makes as much use of the equipment as the Greedy Algorithm."
+msgid "The scheduling algorithm described in the above paragraph is known as the Greedy Scheduling algorithm. It is the recommended one to use. In previous versions of Ekos, there was another \"Classic scheduling algorithm\" which is currently being phased out. That scheme could not preempt running jobs, and thus did not make as much use of the equipment as the Greedy Algorithm."
 msgstr ""
 
 #. Tag: title
@@ -337,21 +337,21 @@ msgstr ""
 #. +> trunk5
 #: ekos-scheduler.docbook:173
 #, no-c-format
-msgid "Normally the (Greedy) scheduler's job priority is set by the row the job is listed in the Scheduler's job table. Jobs on rows closer to the top run with higher priority than jobs lower down. Thus, if a job on row 2 (Job2) uses <guilabel>Repeat Until Terminated</guilabel>, and that job's running constraints are satisfied, a lower down job (e.g. Job3) will not be scheduled to run."
+msgid "Normally the (Greedy) scheduler's job priority is set by the row the job is listed in the Scheduler's job table. Jobs on rows closer to the top run with higher priority than jobs lower down. Thus, if a job on row 2 (Job2) uses <guilabel>Repeat Until Terminated</guilabel>, and that job's running constraints are satisfied, a lower down job (&eg; Job3) will not be scheduled to run."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:176
 #, no-c-format
-msgid "If you wish to alternate jobs, you can assign each of the jobs the same <guilabel>group</guilabel> name, and give the jobs one of the repeating finish conditions (e.g. Repeat for N times, or Repeat Until Terminated). With that setup, jobs in the same group will cede to each other if they have completed more 'Repeat Iterations' than the other job. So, if Job2 with group \"MyGroup\" completes its 2nd iteration, and Job3 with the same group name has only completed 0 or 1 iterations, when the time comes to schedule Job2, Job3 will run instead."
+msgid "If you wish to alternate jobs, you can assign each of the jobs the same <guilabel>group</guilabel> name, and give the jobs one of the repeating finish conditions (&eg; Repeat for N times, or Repeat Until Terminated). With that setup, jobs in the same group will cede to each other if they have completed more 'Repeat Iterations' than the other job. So, if Job2 with group \"MyGroup\" completes its 2nd iteration, and Job3 with the same group name has only completed 0 or 1 iterations, when the time comes to schedule Job2, Job3 will run instead."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:178
 #, no-c-format
-msgid "Practically speaking, imagine you had a 6-panel mosaic you wanted to alternate. You might give all of those jobs the same group name, make them all e.g. \"Repeat for 5 times\". Then, they would run in lock-step. The cadence of job switching would be controlled by the length of the sequence file assigned to each of those jobs. You wouldn't want to make the cadence too short (e.g. capturing one 2-minute image), as there is overhead in switching jobs. For instance, starting jobs may involved aligning, starting guiding, and even focusing."
+msgid "Practically speaking, imagine you had a 6-panel mosaic you wanted to alternate. You might give all of those jobs the same group name, make them all &eg; \"Repeat for 5 times\". Then, they would run in lock-step. The cadence of job switching would be controlled by the length of the sequence file assigned to each of those jobs. You wouldn't want to make the cadence too short (&eg; capturing one 2-minute image), as there is overhead in switching jobs. For instance, starting jobs may involved aligning, starting guiding, and even focusing."
 msgstr ""
 
 #. Tag: title
@@ -365,7 +365,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-scheduler.docbook:184
 #, no-c-format
-msgid "There is a checkbox and number input right below the Schuduler jobs table that allows you to repeat the entire schedule N times. This can be used to alternate a few jobs. You can just list the jobs on the scheduler, set it to repeat N times, and the jobs will repeat. However, this change is incompatible with 'Remember job progress (above) and unavailable if Remember Job Progress is checked. (Note: Remember Job Progress is recommended.)"
+msgid "There is a checkbox and number input right below the Scheduler jobs table that allows you to repeat the entire schedule N times. This can be used to alternate a few jobs. You can just list the jobs on the scheduler, set it to repeat N times, and the jobs will repeat. However, this change is incompatible with 'Remember job progress (above) and unavailable if Remember Job Progress is checked. (Note: Remember Job Progress is recommended.)"
 msgstr ""
 
 #. Tag: title
