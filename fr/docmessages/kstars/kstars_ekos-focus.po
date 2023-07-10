@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: kstars_ekos-focus_3.6.5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-06-20 10:41+0200\n"
-"PO-Revision-Date: 2023-07-10 16:41+0200\n"
+"PO-Revision-Date: 2023-07-10 18:43+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team:  French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -613,7 +613,7 @@ msgstr "<guilabel>Stabilisation du guide</guilabel> : cette option est utilisé
 #: ekos-focus.docbook:524
 #, no-c-format
 msgid "The next set of radio button controls relate to <emphasis role=\"bold\">Masking Options</emphasis> to be used when in <guilabel>Full Field</guilabel> mode."
-msgstr "L'ensemble suivant de boutons radio est associé aux <emhasis role=\"bold\">Options de masquage</emphasis> qui sont utilisées dans le mode <guilabele>Plein champ</guilabele>. "
+msgstr "L'ensemble suivant de boutons radio est associé aux <emphasis role=\"bold\">Options de masquage</emphasis> qui sont utilisées dans le mode <guilabel>Plein champ</guilabel>. "
 
 #. Tag: para
 #. +> trunk5
@@ -756,7 +756,7 @@ msgstr "<guilabel>Déplacement totale maximal</guilabel> : la valeur totale max
 #: ekos-focus.docbook:636
 #, no-c-format
 msgid "If the Max Total Move is reached then <guilabel>Adaptive Focus</guilabel> is unchecked until manually re-checked by the user."
-msgstr "Dès que cette valeur est atteinte, l'option <guilabel>Mise au point adaptative</guilbale> est décochée jusqu'à une intervention manuelle de l'opérateur."
+msgstr "Dès que cette valeur est atteinte, l'option <guilabel>Mise au point adaptative</guilabel> est décochée jusqu'à une intervention manuelle de l'opérateur."
 
 #. Tag: title
 #. +> trunk5
@@ -1724,7 +1724,7 @@ msgstr "<guilabel>Paramètres de l'onglet du processus</guilabel> : ce sont les
 #: ekos-focus.docbook:1341
 #, no-c-format
 msgid "<guilabel>Mechanics Tab Parameters</guilabel>: This sets the parameters in the <link linkend=\"focus-mechanics\">Focus Mechanics</link> pane of the Focus screen. By hovering the mouse over this label you can see in the tooltip what values Focus Advisor is recommending."
-msgstr "<guilabel>Paramètres de l'onglet de la mécanique</guilbael> : ce sont les paramètres du panneau de la <link linkend=\"focus-mechanics\">Mécanique de la mise au point</link> de l'écran de mise au point. En survolant cette étiquette avec la souris, vous pouvez voir dans l'info-bulle les valeurs recommandées par le conseiller de mise au point."
+msgstr "<guilabel>Paramètres de l'onglet de la mécanique</guilabel> : ce sont les paramètres du panneau de la <link linkend=\"focus-mechanics\">Mécanique de la mise au point</link> de l'écran de mise au point. En survolant cette étiquette avec la souris, vous pouvez voir dans l'info-bulle les valeurs recommandées par le conseiller de mise au point."
 
 #. Tag: para
 #. +> trunk5
@@ -1807,7 +1807,7 @@ msgstr "<emphasis role=\"bold\">Mise au point automatique pour filtre bloqué</e
 #: ekos-focus.docbook:1398
 #, no-c-format
 msgid "To use a filter in this way, check <guilabel>Auto Focus</guilabel>, specify the <guilabel>Lock Filter</guilabel> to use and make sure that the Offsets for this filter and the <guilabel>Lock Filter</guilabel> are set."
-msgstr "Pour utiliser un filtre de cette manière, cochez <guilabel>Mise au point automatique</guilabel>, spécifiez le <guilabel>Filtre bloqué</guilabel> à utiliser et veillez que le décalage pour ce filtre et <guilabel>Filtre bloqué> sont réglés."
+msgstr "Pour utiliser un filtre de cette manière, cochez <guilabel>Mise au point automatique</guilabel>, spécifiez le <guilabel>Filtre bloqué</guilabel> à utiliser et veillez que le décalage pour ce filtre et <guilabel>Filtre bloqué</guilabel> sont réglés."
 
 #. Tag: para
 #. +> trunk5
@@ -1920,7 +1920,7 @@ msgstr "<guilabel>Pas / °Alt</guilabel> : le nombre de pas de déplacement du 
 #: ekos-focus.docbook:1476
 #, no-c-format
 msgid "<guilabel>Wavelength</guilabel>: The center of the passband of the filter in nanometers. This is used in some Critical Focus Zone (CFZ) calculations in Focus."
-msgstr "<guilabele>Longueur d'onde</guilabel> : le centre de la bande de passage du filtre en nanomètres. Cette grandeur est utilisée dans certains calculs de la CFZ du module de Mise au point."
+msgstr "<guilabel>Longueur d'onde</guilabel> : le centre de la bande de passage du filtre en nanomètres. Cette grandeur est utilisée dans certains calculs de la CFZ du module de Mise au point."
 
 #. Tag: para
 #. +> trunk5
