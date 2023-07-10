@@ -17,6 +17,14 @@ Ce fichier contient les balises trunk5 à garder.
 ### Fichiers po de la documentation
 https://websvn.kde.org/trunk/l10n-support/fr/summit/docmessages/kstars/?sortby=date#dirlist
 
+Ne pas oublier les images, sans quoi la compilation ne fonctionnera pas.
+
+Elles se trouve ici : https://websvn.kde.org/trunk/l10n-kf5/fr/docs/kstars/kstars/
+
+Pour cloner le répertoire en local :
+
+<code>svn co https://websvn.kde.org/trunk/l10n-kf5/fr/docs/kstars/kstars/</code>
+
 ### KDE en français
 Un [glossaire de KDE](https://fr.l10n.kde.org/dict/).
 
