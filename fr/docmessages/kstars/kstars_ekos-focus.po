@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: kstars_ekos-focus_3.6.5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-07-07 08:29+0200\n"
-"PO-Revision-Date: 2023-07-11 06:52+0200\n"
+"PO-Revision-Date: 2023-07-27 14:56+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team:  French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -649,7 +649,7 @@ msgstr "La vérification de la mise au point sur toute la surface du capteur : 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:561
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Correcting image tilt: especially large sensors are very sensitive to incorrect distance and tilting of the sensor. In such cases, the image shows aberration, expecially in the image corners. If all corners show the same effect, the distance needs to be corrected. If the aberrations in the corners differ, this is typically the result of a tilted sensor."
 msgid "Correcting image tilt: especially large sensors are very sensitive to incorrect distance and tilting of the sensor. In such cases, the image shows aberration, especially in the image corners. If all corners show the same effect, the distance needs to be corrected. If the aberrations in the corners differ, this is typically the result of a tilted sensor."
 msgstr "La correction de l'inclinaison de l'image : les grands capteurs sont particulièrement sensibles à une distance et une inclinaison du capteur. Dans de tels cas, l'image présente une aberration, surtout dans les coins. Si tous les coins sont touchés par le même effet, alors il est nécessaire de corriger les distances. Si ces aberrations sont différentes dans les coins, cela est typique d'une inclinaison du capteur."
@@ -979,7 +979,7 @@ msgstr "Attendez-vous que le FWHM soit environ le double du HFR de l'étoile."
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:835
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<emphasis role=\"bold\"># Stars</emphasis>: This ia an experimental feature that calculates the number of stars in the image and uses this number as the focus measure. The idea is that as you move nearer focus so more stars become detectable."
 msgid "<emphasis role=\"bold\"># Stars</emphasis>: This is an experimental feature that calculates the number of stars in the image and uses this number as the focus measure. The idea is that as you move nearer focus so more stars become detectable."
 msgstr "<emphasis role=\"bold\"># étoiles</emphasis> : c'est encore une fonctionnalité expérimentale qui calcule le nombre d'étoiles de l'image et utilise ce nombre pour une mesure de la mise au point. L'idée est qu'en s'approchant de plus en plus de la position de mise au point, davantage d'étoiles deviendront détectables."
@@ -1022,7 +1022,7 @@ msgstr "Cette méthode est relativement nouvelle dans la communauté astronomiqu
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:865
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guilabel>PSF</guilabel>: If <guilabel>Measure</guilabel> is set to FWHM, then the PSF widget can be selected for use in fitting a surface to the star. At pressent just Gaussian is supported."
 msgid "<guilabel>PSF</guilabel>: If <guilabel>Measure</guilabel> is set to FWHM, then the PSF widget can be selected for use in fitting a surface to the star. At present just Gaussian is supported."
 msgstr "<guilabel>PSF</guilabel> : si <guilabel>Mesure</guilabel> est réglé à FWHM, alors le widget PSF peut être sélectionné pour être utilisé pour appliquer la régression de la surface à l'étoile. Pour le moment seule la méthode gaussienne est gérée."
@@ -1072,10 +1072,10 @@ msgstr "Testez pour trouver une valeur appropriée mais un bon point de départ 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:899
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guilabel>Refine Curve Fit</guilabel>: This is an experimental option only available with the Linear 1 Pass focus algorithm and Curve Fits of Hyperbola and Parabola. If this option is checked then at the end of the sweep of datapoints, Ekos fits a curve and measures the R². It then applies Peirce's Criterion based on Gould's methodology for outlier identification. See <ulink url=\"https://en.wikipedia.org/wiki/Peirce%27s_criterion\">Peirce's Criterian</ulink> for details incl Peirce's original paper and Gould's paper which are both referenced in the notes. If Peirce's Criterion detects 1 or more outliers then another curve fit is attempted with the outliers removed. Again the R² is calculated and compared with the original curve fit R². If the R² is better, then the latest run is used, if not, the original curve fit (with the outliers included) is used."
 msgid "<guilabel>Refine Curve Fit</guilabel>: This is an experimental option only available with the Linear 1 Pass focus algorithm and Curve Fits of Hyperbola and Parabola. If this option is checked then at the end of the sweep of datapoints, Ekos fits a curve and measures the R². It then applies Peirce's Criterion based on Gould's methodology for outlier identification. See <ulink url=\"https://en.wikipedia.org/wiki/Peirce%27s_criterion\">Peirce's Criterion</ulink> for details incl Peirce's original paper and Gould's paper which are both referenced in the notes. If Peirce's Criterion detects 1 or more outliers then another curve fit is attempted with the outliers removed. Again the R² is calculated and compared with the original curve fit R². If the R² is better, then the latest run is used, if not, the original curve fit (with the outliers included) is used."
-msgstr "<guilabel>Affiner la courbe de régression</guilabel> : cette option est encore expérimentale et n'est disponible qu'avec l'algorithme de mise au point linéaire à 1 passe et le type de courbe hyperbole et parabole. Si cette option est cochée et à la fin du balayage de l'ensemble de points, Ekos calcule la courbe de régression et le mesure le R^2. Le critère de Peirce fondé sur la méthode de Gould est ensuite appliqué pour identifier les points aberrants. Veuillez consulter <ulink url=\"https://en.wikipedia.org/wiki/Peirce%27s_criterion\">Peirce's Criterian</ulink> pour les détails (inclus les articles originaux de Peirce et de Gould qui sont référencés dans les notes). Si le critère de Peirce détecte au moins une valeur aberrante, alors une nouvelle courbe est calculée sans ces valeurs aberrantes. Le R² est calculé à nouveau et comparé à l'ancien. S'il est meilleur, la dernière passe est utilisée et sinon, c'est la première (avec les valeurs aberrantes) qui est utilisée."
+msgstr "<guilabel>Affiner la courbe de régression</guilabel> : cette option est encore expérimentale et n'est disponible qu'avec l'algorithme de mise au point linéaire à 1 passe et le type de courbe hyperbole et parabole. Si cette option est cochée et à la fin du balayage de l'ensemble de points, Ekos calcule la courbe de régression et mesure le R². Le critère de Peirce fondé sur la méthode de Gould est ensuite appliqué pour identifier les points aberrants. Veuillez consulter la page sur <ulink url=\"https://en.wikipedia.org/wiki/Peirce%27s_criterion\">critère de Peirce</ulink> pour les détails (inclus les articles originaux de Peirce et de Gould qui sont référencés dans les notes). Si le critère de Peirce détecte au moins une valeur aberrante, alors une nouvelle courbe est calculée sans ces valeurs aberrantes. Le R² est calculé à nouveau et comparé à l'ancien. S'il est meilleur, la dernière passe est utilisée et sinon, c'est la première (avec les valeurs aberrantes) qui est utilisée."
 
 #. Tag: para
 #. +> trunk5
@@ -1250,7 +1250,7 @@ msgstr "<emphasis role=\"bold\">Mélange CFZ</emphasis> : cette option expérim
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1031
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "The difference between CFZ Shuffle and Fixed Steps is that near the center of the sweep (which should be around the Critical Focus Zone (CFZ) the algorithm takes steps of half the specified size."
 msgid "The difference between CFZ Shuffle and Fixed Steps is that near the center of the sweep (which should be around the Critical Focus Zone (CFZ)) the algorithm takes steps of half the specified size."
 msgstr "La différence entre Mélange CFZ et Pas fixes réside dans le fait que près du centre de la solution (qui devrait être près de la zone critique de mise au point CFZ), l'algorithme utilisera des pas de la moitié de la taille initiale."
@@ -1454,7 +1454,7 @@ msgstr "<emphasis role=\"bold\">Front d'onde</emphasis> : l'équation utilisée
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1186
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<emphasis role=\"bold\">Gold</emphasis>: This method is based on work done by Gold Astro and presented <ulink url=\"http://www.goldastro.com/goldfocus/ncfz.php\">here</ulink>."
 msgid "<emphasis role=\"bold\">Gold</emphasis>: This method is based on work done by Gold Astro and presented <ulink url=\"https://www.goldastro.com/goldfocus/ncfz.php\">here</ulink>."
 msgstr "<emphasis role=\"bold\">Gold</emphasis> : cette méthode est fondée sur le travail de Gold Astro qui est présenté <ulink url=\"http://www.goldastro.com/goldfocus/ncfz.php\">ici</ulink>."
@@ -1462,7 +1462,7 @@ msgstr "<emphasis role=\"bold\">Gold</emphasis> : cette méthode est fondée su
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1199
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guilabel>Tolerance</guilabel>: This is used by Classic and Wavwfront algorithms and is a scaling factor between 0 and 1."
 msgid "<guilabel>Tolerance</guilabel>: This is used by Classic and Wavefront algorithms and is a scaling factor between 0 and 1."
 msgstr "<guilabel>Tolérance</guilabel> : cette valeur est utilisée par les algorithmes Classique et Front d'onde est un facteur d'échelle dont la valeur est comprise entre 0 et 1."
@@ -1484,7 +1484,7 @@ msgstr "Pour l'algorithme du front d'onde, certains suggèrent la valeur 1/3 ou 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1206
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guilabel>Tolerance (τ)</guilabel>: This is used by the Gold algorithm and is a focus tolerance as a percentage of total seeing. The Gold website suggests 3-5% for a good focuser or 1-2% for a top quality focuser. See the <ulink url=\"http://www.goldastro.com/goldfocus/ncfz.php\">Gold Astro website</ulink> for more details."
 msgid "<guilabel>Tolerance (τ)</guilabel>: This is used by the Gold algorithm and is a focus tolerance as a percentage of total seeing. The Gold website suggests 3-5% for a good focuser or 1-2% for a top quality focuser. See the <ulink url=\"https://www.goldastro.com/goldfocus/ncfz.php\">Gold Astro website</ulink> for more details."
 msgstr "<guilabel>Tolérance (τ)</guilabel> : cette valeur est utilisée pour l'algorithme Gold et est une tolérance de la mise au point exprimée comme un pourcentage de la qualité totale du ciel (seeing). Le site web de Gold suggère une valeur de 3 à 5 % pour un bon moteur de mise au point et 1 à 2 % pour les meilleurs moteurs. Pour davantage d'information, veuillez consulter le <ulink url=\"http://www.goldastro.com/goldfocus/ncfz.php\">site web de Gold Astro</ulink>."
@@ -1527,7 +1527,7 @@ msgstr "<guilabel>Ratio de la focale (f)</guilabel> : c'est le ratio de la foca
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1237
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guilabel>FWHM (θ)</guilabel>: This is used by the Gold Algorithm and is the total seeing. This is the combined contribution of the diffraction limit of your telescope and the astronomical seeing. The <ulink url=\"http://www.goldastro.com/goldfocus/ncfz.php\">Gold Astro website</ulink> describes how you might approximate the total once you have values for the individual contributions."
 msgid "<guilabel>FWHM (θ)</guilabel>: This is used by the Gold Algorithm and is the total seeing. This is the combined contribution of the diffraction limit of your telescope and the astronomical seeing. The <ulink url=\"https://www.goldastro.com/goldfocus/ncfz.php\">Gold Astro website</ulink> describes how you might approximate the total once you have values for the individual contributions."
 msgstr "<guilabel>FWHM (θ)</guilabel> : cette valeur est utilisée par l'algorithme Gold et est la qualité totale du ciel (seeing). C'est la contribution combinée de la limite de diffraction de votre télescope et de la qualité astronomique du ciel (seeing). Le <ulink url=\"http://www.goldastro.com/goldfocus/ncfz.php\">site web de Gold Astro</ulink> décrit la manière d'approximer ce total une fois les contributions individuelles obtenues."
@@ -1549,7 +1549,7 @@ msgstr "<guilabel>Taille de pas</guilabel> : cette valeur doit être indiquée 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1250
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "For a refractor this is how far the drawtube moves when the focuser is moved by 1 tick. You might be able to get this value from the spefication of your focuser (how many ticks for a complete revolution of your focuser) and the thread pitch of your telescope drawtube along with any gearing involved."
 msgid "For a refractor this is how far the drawtube moves when the focuser is moved by 1 tick. You might be able to get this value from the specification of your focuser (how many ticks for a complete revolution of your focuser) and the thread pitch of your telescope drawtube along with any gearing involved."
 msgstr "Pour un réfracteur, c'est la distance de déplacement du tube quand le moteur de mise au point se déplace d'un pas. Vous pouvez peut-être obtenir cette valeur des spécifications de votre moteur de mise au point (le nombre de pas pour un tour complet du moteur) et du pas de filetage de votre télescope ainsi que de tout autre engrenage impliqué dans le mouvement."
@@ -1564,7 +1564,7 @@ msgstr "Alternativement, vous pouvez mesurer la distance totale de mouvement de 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1257
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Other types of telescope will have other ways to adjust the focal plane, for example, by moving the primary or secondary mirrors. You will need to either get the Step Size from the documentation for your equipment of work out how to measure it in a way that are consistent with that described above."
 msgid "Other types of telescope will have other ways to adjust the focal plane, for example, by moving the primary or secondary mirrors. You will need to either get the Step Size from the documentation for your equipment or work out how to measure it in a way that are consistent with that described above."
 msgstr "Les autres types de télescope ont une autre manière d'ajuster le plan focal, comme par exemple, en en déplaçant les miroirs primaires et secondaires. Vous devrez obtenir la taille de pas de la documentation ou trouver comment la mesurer en tenant compte de ce qui a été décrit ci-dessus."
@@ -1775,7 +1775,7 @@ msgstr "Pour utiliser un filtre de cette manière, cochez <guilabel>Mise au poin
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1403
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<emphasis role=\"bold\">Use Offsets</emphasis>: It is possible to use filter offsets to adjust focus when swapping between filters, without running Autofocus. This requires some setup work ahead of time but has the advantage of reduciung the number of Autofocus runs and therefore reducing the time spent autofocusing."
 msgid "<emphasis role=\"bold\">Use Offsets</emphasis>: It is possible to use filter offsets to adjust focus when swapping between filters, without running Autofocus. This requires some setup work ahead of time but has the advantage of reducing the number of Autofocus runs and therefore reducing the time spent autofocusing."
 msgstr "<emphasis role=\"bold\">Utiliser décalages</emphasis> : il est possible d'utiliser des décalages pour les filtres pour ajuster la mise au point quand on permute les filtres sans exécuter de mise au point automatique. Cela nécessite un peu de travail préparatoire mais a l'avantage de réduire le nombre d'exécution de mise au point automatique et par conséquent le temps consacré à ces opérations."
@@ -1783,7 +1783,7 @@ msgstr "<emphasis role=\"bold\">Utiliser décalages</emphasis> : il est possibl
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1407
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "In order to use this feature it is necessary to work out the relative focus position between all filters that you wish to use this functionality for. For examplke, if Lum and Red have the same focus position (they are parfocal) but Green focuses 300 ticks further out than Lum (or Red) then setup Offsets for Lum, Red and Grren as 0, 0, 300 as shown above. If a sequence is created to take 10 subframes of Lum, then 10 Red, then 10 Green, then at the start, since Lum has <guilabel>Auto Focus</guilabel> checked, an Autofocus will be run on Lum and the 10 subs taken. Capture will then switch filters to Red. Since Red has <guilabel>Auto Focus</guilabel> unchecked no Autofocus will happen and Ekos will look to the Offsets between Red and Lum. In this case 0 - 0 = 0. So the focuser will not be moved and Copture will take 10 subs of Red. Then Capture will swap from Red to Green. Again, Green has <guilabel>Auto Focus</guilabel> unchecked no Autofocus will happen and Ekos will look to the Offsets between Green and Red. In this case 300 - 0 = 300. So Focus will adjust the focus position by +300 (move the focuser out by 300 ticks). Capture will then take the 10 Green subs."
 msgid "In order to use this feature it is necessary to work out the relative focus position between all filters that you wish to use this functionality for. For example, if Lum and Red have the same focus position (they are parfocal) but Green focuses 300 ticks further out than Lum (or Red) then setup Offsets for Lum, Red and Green as 0, 0, 300 as shown above. If a sequence is created to take 10 subframes of Lum, then 10 Red, then 10 Green, then at the start, since Lum has <guilabel>Auto Focus</guilabel> checked, an Autofocus will be run on Lum and the 10 subs taken. Capture will then switch filters to Red. Since Red has <guilabel>Auto Focus</guilabel> unchecked no Autofocus will happen and Ekos will look to the Offsets between Red and Lum. In this case 0 - 0 = 0. So the focuser will not be moved and Capture will take 10 subs of Red. Then Capture will swap from Red to Green. Again, Green has <guilabel>Auto Focus</guilabel> unchecked no Autofocus will happen and Ekos will look to the Offsets between Green and Red. In this case 300 - 0 = 300. So Focus will adjust the focus position by +300 (move the focuser out by 300 ticks). Capture will then take the 10 Green subs."
 msgstr "Pour utiliser cette fonctionnalité, il est nécessaire de déterminer les positions relatives de mise au point entre chaque filtre que vous souhaitez utiliser. Par exemple si les filtres de luminance et rouge ont la même position de mise au point (ils sont parfocales) mais que la position de mise au point du filtre vert se trouve 300 pas plus loin que le filtre de luminance (ou rouge), alors les décalages seront respectivement de 0, 0 et 300. Si une séquence est créée pour prendre 10 poses de luminance, puis 10 de rouge et 10 de vert, alors au départ (puisque <guilabel>Mise au point automatique</guilabel> est cochée) sera exécutée une mise au point automatique avec le filtre de luminance et ensuite 10 poses seront prises. Le module Acquisition changera ensuite de filtre pour le rouge. Comme ce filtre n'a pas la case <guilabel>Mise au point automatique</guilabel> cochée, il n'y aura pas de mise au point automatique et Ekos va vérifier le décalage entre le rouge et la luminance. Dans ce cas, on aura 0 - 0 = 0. Par conséquent le moteur de mise au point de se déplacera pas et 10 poses de rouge seront prises. Puis le filtre passera du rouge au vert. Comme l'option n'est pas non plus cochée, il n'y aura pas de mise au point automatique et Ekos vérifiera le décalage entre le vert et le rouge. Maintenant, 300 - 0 = 300. Le moteur de mise au point se déplacera de 300 pas vers l'extérieur et 10 poses de vert seront prises."
@@ -2267,15 +2267,15 @@ msgstr "Pour certains algorithmes, Ekos dessinera également une courbe de régr
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1774
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "The units of the y-axis depend on the selected focus Measure. For example, for HFR, the y-axis will either be in Pixels or Arc Sseconds depending on how <guilabel>Display Units</guilabel> is set."
 msgid "The units of the y-axis depend on the selected focus Measure. For example, for HFR, the y-axis will either be in Pixels or Arc seconds depending on how <guilabel>Display Units</guilabel> is set."
-msgstr "Les unités de l'axe y dépendent de la mesure de mise au point sélectionnée. Par exemple pour le HFR, l'unité de l'axe y sera soit des pixels soit des secondes d'arc dépendant du réglage de <guilabel>Afficher unités</guilabel>."
+msgstr "Les unités de l'axe vertical dépendent de la mesure de mise au point sélectionnée. Par exemple pour le HFR, l'unité de l'axe vertical sera soit des pixels soit des secondes d'arc dépendant du réglage de <guilabel>Afficher unités</guilabel>."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1777
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "If <guilabel>Refine Curve Fit</guilabel> is selected, Focus will check for and potentially exclude outlying datapoonts. In this case datapoints 1, 5 and 7 were excluded."
 msgid "If <guilabel>Refine Curve Fit</guilabel> is selected, Focus will check for and potentially exclude outlying datapoints. In this case datapoints 1, 5 and 7 were excluded."
 msgstr "Si <guilabel>Affiner courbe de régression</guilabel> est sélectionné, le module de mise au point vérifiera les points aberrants et les exclura si nécessaire. Dans ce cas, les points 1, 5 et 7 ont été exclus."
@@ -2704,7 +2704,7 @@ msgstr "La MaPA permet actuellement de prendre en compte deux dimensions environ
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2028
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Temperature. All the components of the imaging system will be affected by changes in ambient temperature. The most obvious will be the telescope tube. Typically this will expand as temperature increases and contract as it descreases. This will affect the focus point. But also the optical path the light from the imaged target takes through the atmosphere and through the imaging components of the telescope will be affected by temperature and therefore will affect the focus point."
 msgid "Temperature. All the components of the imaging system will be affected by changes in ambient temperature. The most obvious will be the telescope tube. Typically this will expand as temperature increases and contract as it decreases. This will affect the focus point. But also the optical path the light from the imaged target takes through the atmosphere and through the imaging components of the telescope will be affected by temperature and therefore will affect the focus point."
 msgstr "Température. Tous les composants du système d'imagerie seront touchés par un changement de la température ambiante. Le plus évident concerne le tube du télescope. Il va se dilater avec une augmentation de température et se contracter avec une diminution, ce qui va modifier la position du point focal. Mais l'atmosphère traversée entre la cible et les composants du télescope seront également modifiés et impacteront la position du point focal."
@@ -2719,7 +2719,7 @@ msgstr "Il est essentiel d'avoir une bonne source de température disponible pou
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2037
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Where the temperature source is located is, of course, upto the user. Given the changes in temperature effect many components it is not obvious where the best location would be. Some experimentation may be required to get the best results but as a guide, the source should be near the imaging train but not near any heating effect of electrical equipment that would say, heat the temperature source but not the optical train. Consistency of location is likely to be important."
 msgid "Where the temperature source is located is, of course, up to the user. Given the changes in temperature effect many components it is not obvious where the best location would be. Some experimentation may be required to get the best results but as a guide, the source should be near the imaging train but not near any heating effect of electrical equipment that would say, heat the temperature source but not the optical train. Consistency of location is likely to be important."
 msgstr "La position de la source de température est laissée au choix de l'opérateur. Mais comme le changement de température a un effet sur plusieurs composants, il n'est de loin pas évident de trouver le meilleur endroit. Il peut s'avérer utile de tester plusieurs endroits pour trouver le meilleur, mais l'idée est de positionner la sonde de température plutôt près du train optique et surtout pas près d'un équipement électronique qui chaufferait la sonde mais pas le tube du télescope. La constance de la position est également importante."
@@ -2769,7 +2769,7 @@ msgstr "<phrase>Fichier journal de mise au point automatique</phrase>"
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2068
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Currently Ekos supports a simple linear relationship between temperature, or altitude, and ticks. In the future, if there is demand, more sophisticated relationships could be supported. A linear relationship will deliver the majority of the benefit of AF and is fairly straight-forward to adminster. More complex relationships could be more accurate but come with more complex administration. Note also that more complex focus point vs temperature relationships will likely be more or less linear for small changes in temperature."
 msgid "Currently Ekos supports a simple linear relationship between temperature, or altitude, and ticks. In the future, if there is demand, more sophisticated relationships could be supported. A linear relationship will deliver the majority of the benefit of AF and is fairly straight-forward to administer. More complex relationships could be more accurate but come with more complex administration. Note also that more complex focus point vs temperature relationships will likely be more or less linear for small changes in temperature."
 msgstr "Actuellement Ekos utilise une simple relation linéaire entre la température ou l'altitude et le nombre de pas. Dans le futur et s'il y a de la demande, on pourrait voir des relations plus sophistiquées. Une relation linéaire fournit la majeure partie des bénéfices de la MaPA et est facile à utiliser. Il existe des relations bien plus complexes qui fournissent des résultats plus précis mais sont bien moins faciles à utiliser. Veuillez noter que les relations plus complexes entre la position de mise au point et la température se comportent de manière plus ou moins linéaire pour les petits changements de température."
@@ -2791,7 +2791,7 @@ msgstr "Vous devrez vous assurer que la position de mise au point est reproducti
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2086
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "A simple approach is to start with a small amount of data, say 1 night and use this to calculate, say the Ticks / degree C. Run with this and adjust it over time as you collect more data. A way to check how well AF is performing would be to use Analyze to review how AF had moved the focus over 1 hour. If things are spot on, then where ever AF had positioned the focuser after 1 hour would match the Autofocus result. Where there is a discrepancy, it will be because of randomness in the Autofocus result and miscalibration in the AF <guilabel>Ticks / °C</guilabel>. By doing this regularly you will build knowledge of your equipment and be able to fine tune AF. Below is a screenshot of Analze configured for Focus where you can see how Focus position changes throughout the imaging session:"
 msgid "A simple approach is to start with a small amount of data, say 1 night and use this to calculate, say the Ticks / degree C. Run with this and adjust it over time as you collect more data. A way to check how well AF is performing would be to use Analyze to review how AF had moved the focus over 1 hour. If things are spot on, then where ever AF had positioned the focuser after 1 hour would match the Autofocus result. Where there is a discrepancy, it will be because of randomness in the Autofocus result and miscalibration in the AF <guilabel>Ticks / °C</guilabel>. By doing this regularly you will build knowledge of your equipment and be able to fine tune AF. Below is a screenshot of Analyze configured for Focus where you can see how Focus position changes throughout the imaging session:"
 msgstr "Une approche simple est de commencer avec peu de données, disons une nuit, et les utiliser pour calculer la valeur de <guilabel>Pas / °C</guilabel>. Ensuite utilisez cette valeur pour vos sessions d'observations et ajustez-là au fur et à mesure que vous accumulez plus de données. Une manière de vérifier si la MaPA se comporte bien est d'utiliser le module Analyse pour étudier comment la MaPA a déplacé la position de mise au point sur une heure. Si tout se passe bien, alors la position de MaPA après une heure doit correspondre au résultat d'une mise au point automatique. S'il y a une différence, elle proviendra d'aléas de la mise au point automatique et d'une mauvaise calibration de la valeur de <guilabel>Pas / °C</guilabel>. En faisant cela régulièrement, vous développerez la connaissance de votre équipement et pourrez affiner la MaPA. Dans la capture d'écran ci-dessous, vous pouvez voir la configuration du module Analyse pour la mise au point et voir comment la position de mise au point change au courant de la session d'imagerie : "
