@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: kstars_ekos-capture_3.6.5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-06-20 10:41+0200\n"
-"PO-Revision-Date: 2023-07-10 16:28+0200\n"
+"PO-Revision-Date: 2023-08-01 17:07+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -286,14 +286,14 @@ msgstr "Une étiquette est identifiée par le caractère %. Toutes les étiquett
 #: ekos-capture.docbook:175
 #, no-c-format
 msgid "Arbitrary text may also be included within the Format string, <emphasis role=\"bold\">except the % and \\ characters.</emphasis> The / path character can be used to define arbitrary directories."
-msgstr "Du texte libre peur être inclus dans la chaîne format, <emphasis role=\"bold\">sauf les caractères % et \\</emphasis>. Le caractère d'emplacement / peut être utilisé pour définir des dossiers arbitraires."
+msgstr "Du texte libre peur être inclus dans la chaîne format, <emphasis role=\"bold\">sauf les caractères % et \\</emphasis>. Le caractère d'emplacement / peut être utilisé pour définir des dossiers arbitraires."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:178
 #, no-c-format
 msgid "Note: Tags are case sensitive in both their short and long forms."
-msgstr "Note : les étiquettes sont sensibles à la casse dans leur forme courte et longue."
+msgstr "Remarque : les étiquettes sont sensibles à la casse dans leur forme courte et longue."
 
 #. Tag: para
 #. +> trunk5
@@ -496,7 +496,7 @@ msgstr "<title>File d'attente des séquences</title>"
 #: ekos-capture.docbook:314
 #, no-c-format
 msgid "Sequence Queue is the primary hub of the Ekos Capture Module. This is where you can plan and execute jobs using the sequence queue built-in powerful editor. To add a job, simply select all the parameters from the capture and file settings as indicated above. Once you selected your desired parameters, click on the add button <inlinemediaobject><imageobject><imagedata fileref=\"list-add.png\" format=\"PNG\"/></imageobject></inlinemediaobject> in the sequence queue to add it to the queue."
-msgstr "La file d'attente des séquences est la plateforme principale du module d'acquisition d'Ekos. C'est l'endroit où vous planifiez et exécutez les tâches en utilisant le puissant ordonnanceur intégré. Pour ajouter une tâche, il suffit de sélectionner tous les paramètres des réglages de l'acquisition et du nommage de fichier comme indiqué ci-dessus. Ensuite, cliquez sur le bouton d'ajout <inlinemediaobject><imageobject><imagedata fileref=\"list-add.png\" format=\"PNG\"/></imageobject></inlinemediaobject> de la file d'attente des séquences pour l'ajouter à la file d'attente."
+msgstr "La file d'attente des séquences est la plate-forme principale du module d'acquisition d'Ekos. C'est l'endroit où vous planifiez et exécutez les tâches en utilisant le puissant ordonnanceur intégré. Pour ajouter une tâche, il suffit de sélectionner tous les paramètres des réglages de l'acquisition et du nommage de fichier comme indiqué ci-dessus. Ensuite, cliquez sur le bouton d'ajout <inlinemediaobject><imageobject><imagedata fileref=\"list-add.png\" format=\"PNG\"/></imageobject></inlinemediaobject> de la file d'attente des séquences pour l'ajouter à la file d'attente."
 
 #. Tag: screeninfo
 #. +> trunk5

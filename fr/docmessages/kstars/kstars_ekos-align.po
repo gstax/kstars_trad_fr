@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: kstars_ekos_align_3.6.5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-01-17 09:36+0100\n"
-"PO-Revision-Date: 2023-07-10 18:44+0200\n"
+"PO-Revision-Date: 2023-08-01 17:04+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -1143,7 +1143,7 @@ msgstr "Si l'erreur est suffisamment petite (moins d'une minute d'arc), il est i
 #: ekos-align.docbook:598
 #, no-c-format
 msgid "If you will be making corrections to your mount's axis, you should select the adjustment approach (we're using Plate Solve in this example), and how often the system should recapture images to re-measure the polar alignment error. The refresh interval should be frequent, but it doesn't make sense to make it faster that your CPU can capture and plate-solve the images. We're using 2s in this example. Then press the <guibutton>Refresh</guibutton> button to begin the correction process."
-msgstr "Si vous faites des corrections sur l'axe de votre monture, vous devriez choisir l'approche des ajustements (nous utilisons la résolution dans cet exemple) et précisez le rythme d'acquisition des images pour les mesures d'erreur de l'alignement polaire. L'intervalle de rafraîchissement devrait être fréquent mais il ne fait pas de sens de le rendre plus rapide que ce que le CPU est capable de faire pour les acquisitions et la résolution des images. Nous utilisons un intervalle de 2 secondes dans cet exemple. Ensuite cliquez sur le bouton <guibutton>Rafraîchissement</guibutton> pour démarrer la procédure de correction."
+msgstr "Si vous faites des corrections sur l'axe de votre monture, vous devriez choisir l'approche des ajustements (nous utilisons la résolution dans cet exemple) et précisez le rythme d'acquisition des images pour les mesures d'erreur de l'alignement polaire. L'intervalle de rafraîchissement devrait être fréquent mais il ne fait pas de sens de le rendre plus rapide que ce que le processeur est capable de faire pour les acquisitions et la résolution des images. Nous utilisons un intervalle de 2 secondes dans cet exemple. Ensuite cliquez sur le bouton <guibutton>Rafraîchissement</guibutton> pour démarrer la procédure de correction."
 
 #. Tag: para
 #. +> trunk5

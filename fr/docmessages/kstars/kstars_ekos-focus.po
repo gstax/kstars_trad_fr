@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: kstars_ekos-focus_3.6.5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-07-07 08:29+0200\n"
-"PO-Revision-Date: 2023-08-01 10:07+0200\n"
+"PO-Revision-Date: 2023-08-01 17:17+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team:  French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -630,7 +630,7 @@ msgstr "<guilabel>Masque annulaire</guilabel> : cette option fournit deux champ
 #: ekos-focus.docbook:546
 #, no-c-format
 msgid "<guilabel>Mosaic Mask</guilabel>: A 3x3 mosaic is composed with tiles from the image center, its corners and from the edges. This option is useful if you want to inspect the optics performance - you might know this from the PixInsight Aberration Inspector script. The tile size can be configured in percent of the frame width, with the spacer value specifying the space between the tiles."
-msgstr "<guilabel>Masque de mosaïque</guilabel> : une mosaïque 3x3 est composée de tuiles du centre de l'image, de ses coins et de ses côtés. Cette option est utile si vous souhaitez inspecter la performance des optiques - vous connaissez peut-être ceci du script de l'inspecteur d'aberrations de PixInsight. La taille des tuiles peut être configurée en pourcent de la largeur de l'image avec la valeur de l'écartement spécifiant l'espace entre les tuiles."
+msgstr "<guilabel>Masque de mosaïque</guilabel> : une mosaïque 3x3 est composée de tuiles du centre de l'image, de ses coins et de ses côtés. Cette option est utile si vous souhaitez inspecter la performance des optiques - vous connaissez peut-être ceci du script de l'inspecteur d'aberrations de PixInsight. La taille des tuiles peut être configurée en pourcent de la largeur de l'image avec la valeur du séparateur spécifiant l'espace entre les tuiles."
 
 #. Tag: para
 #. +> trunk5
@@ -666,7 +666,7 @@ msgstr "La collimation des télescopes de Newton : l'inspection des images à u
 #: ekos-focus.docbook:579
 #, no-c-format
 msgid "The next set of controls relate to <emphasis role=\"bold\">Adaptive Focus</emphasis>. This is an experimental feature in Ekos. The idea here is to keep the telescope focused by adapting the focuser position based on changes in environmental conditions without having to perform a full Autofocus run. See the <link linkend=\"focus-adaptive\">Adaptive Focus</link> section for more details."
-msgstr "L'ensemble suivant de boutons est associé à la <emphasis role=\"bold\">mise au point adaptative</emphasis>. C'est une fonctionnalité encore expérimentale. L'idée ici est de garder la mise au point au point du télescope en adaptant la position du moteur de mise au point en fonction de conditions environnementales sans avoir à lancer une procédure complète de mise au point automatique. Voir la section <link linkend=\"focus-adaptive\">Mise au point adaptative</link> pour davantage de détails."
+msgstr "L'ensemble suivant de boutons est associé à la <emphasis role=\"bold\">mise au point adaptative</emphasis>. C'est une fonctionnalité encore expérimentale. L'idée ici est de conserver la mise au point au point du télescope en adaptant la position du moteur de mise au point en fonction de conditions environnementales sans avoir à lancer une procédure complète de mise au point automatique. Voir la section <link linkend=\"focus-adaptive\">Mise au point adaptative</link> pour davantage de détails."
 
 #. Tag: para
 #. +> trunk5
@@ -771,7 +771,7 @@ msgstr "<phrase>Procédure de mise au point</phrase>"
 #: ekos-focus.docbook:662
 #, no-c-format
 msgid "This is the Focus Process parameters pane. Widgets are only displayed if they are relevant to the selections made."
-msgstr "Cela est le tableau de bord des réglages du processus de mise au point. Les widgets ne sont affichés que dans les cas pertinents."
+msgstr "Cela est le tableau de bord des réglages du processus de mise au point. Les composants graphiques ne sont affichés que dans les cas pertinents."
 
 #. Tag: para
 #. +> trunk5
@@ -1025,7 +1025,7 @@ msgstr "Cette méthode est relativement nouvelle dans la communauté astronomiqu
 #, no-c-format
 #| msgid "<guilabel>PSF</guilabel>: If <guilabel>Measure</guilabel> is set to FWHM, then the PSF widget can be selected for use in fitting a surface to the star. At pressent just Gaussian is supported."
 msgid "<guilabel>PSF</guilabel>: If <guilabel>Measure</guilabel> is set to FWHM, then the PSF widget can be selected for use in fitting a surface to the star. At present just Gaussian is supported."
-msgstr "<guilabel>PSF</guilabel> : si <guilabel>Mesure</guilabel> est réglé à FWHM, alors le widget PSF peut être sélectionné pour être utilisé pour appliquer la régression de la surface à l'étoile. Pour le moment seule la méthode gaussienne est gérée."
+msgstr "<guilabel>PSF</guilabel> : si <guilabel>Mesure</guilabel> est réglé à FWHM, alors le composant graphique PSF peut être sélectionné pour être utilisé pour appliquer la régression de la surface à l'étoile. Pour le moment seule la méthode gaussienne est gérée."
 
 #. Tag: para
 #. +> trunk5
@@ -1110,7 +1110,7 @@ msgstr "<guilabel>Seuil</guilabel> : la valeur en pourcentage du seuil est util
 #: ekos-focus.docbook:931
 #, no-c-format
 msgid "If <guilabel>Detection</guilabel> is set to Bahtinov then the following additional widgets are available:"
-msgstr "Si <guilabel>Détection</guilabel> est positionné à Bahtinov, alors les widgets additionnels sont disponibles :"
+msgstr "Si <guilabel>Détection</guilabel> est positionné à Bahtinov, alors les composants graphiques additionnels sont disponibles :"
 
 #. Tag: para
 #. +> trunk5
@@ -1138,7 +1138,7 @@ msgstr "<guilabel>Taille du noyau</guilabel> : la taille du noyau du flou gauss
 #: ekos-focus.docbook:952
 #, no-c-format
 msgid "If <guilabel>Algorithm</guilabel> is set to Linear or Iterative then the following additional widget is available:"
-msgstr "Si <guilabel>Algorithme</guilabel> est positionné à Linéaire ou Itératif, alors les widgets additionnels sont disponibles :"
+msgstr "Si <guilabel>Algorithme</guilabel> est positionné à Linéaire ou Itératif, alors les composants graphiques additionnels sont disponibles :"
 
 #. Tag: para
 #. +> trunk5
@@ -1870,14 +1870,14 @@ msgstr "<guilabel>Dernière altitude de mise au point (°Alt)</guilabel> : l'al
 #: ekos-focus.docbook:1466
 #, no-c-format
 msgid "<guilabel>Ticks / °C</guilabel>: The number of ticks to move the focuser when the temperature changes by 1°C. For example, if focus moves out by 5 ticks when temperature increases by 1°C, set this field to 5. If focus moves in by 5 ticks when temperature increases by 1°C, set this field to -5."
-msgstr "<guilabel>Pas / °C</guilabel> : le nombre de pas de déplacement du moteur de mise au point quand la température change de 1°C. Par exemple, s'il doit se déplacer de 5 pas pour une augmentation de 1°C, cette valeur vaudra 5. Si la mise au point se fait vers l'intérieur de 5 pas pour une augmentation de 1°C, ce champ vaudra -5."
+msgstr "<guilabel>Pas / °C</guilabel> : le nombre de pas de déplacement du moteur de mise au point quand la température change de 1°C. Par exemple, s'il doit se déplacer de 5 pas pour une augmentation de 1°C, cette valeur vaudra 5. Si la mise au point se fait vers l'intérieur de 5 pas pour une augmentation de 1°C, ce champ vaudra -5."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1471
 #, no-c-format
 msgid "<guilabel>Ticks / °Alt</guilabel>: The number of ticks to move the focuser when the altitude changes by 1°Alt. For example, if focus moves out by 0.5 tick when altitude increases by 1°Alt, set this field to 0.5. If focus moves in by 0.5 tick when altitude increases by 1°Alt, set this field to -0.5."
-msgstr "<guilabel>Pas / °Alt</guilabel> : le nombre de pas de déplacement du moteur de mise au point quand l'altitude change de 1°. Par exemple, s'il se déplace vers l'extérieur de 0.5 pas quand l'altitude augmente de 1°Alt, cette valeur vaudra 0.5. Si la mise au point se fait vers l'intérieur de 0.5 quand l'altitude augmente de 1°, ce vaudra -0.5"
+msgstr "<guilabel>Pas / °Alt</guilabel> : le nombre de pas de déplacement du moteur de mise au point quand l'altitude change de 1°. Par exemple, s'il se déplace vers l'extérieur de 0.5 pas quand l'altitude augmente de 1°Alt, cette valeur vaudra 0.5. Si la mise au point se fait vers l'intérieur de 0.5 quand l'altitude augmente de 1°, ce vaudra -0.5"
 
 #. Tag: para
 #. +> trunk5
@@ -1996,7 +1996,7 @@ msgstr "Cliquez sur le bouton <guilabel>Construction des décalages</guilabel> d
 #: ekos-focus.docbook:1556
 #, no-c-format
 msgid "Note: This utility should not be run during an imaging session as it takes exclusive control of the Focus process whilst it is running."
-msgstr "Note : cet utilitaire ne devrait pas être exécuté pendant une session d'acquisition car il prend le contrôle exclusif du processus de mise au point pendant son exécution."
+msgstr "Remarque : cet utilitaire ne devrait pas être exécuté pendant une session d'acquisition car il prend le contrôle exclusif du processus de mise au point pendant son exécution."
 
 #. Tag: para
 #. +> trunk5
@@ -2073,7 +2073,7 @@ msgstr "Nouveau décalage : le décalage calculé pour le filtre Lum, e.g. pour
 #: ekos-focus.docbook:1629
 #, no-c-format
 msgid "Save: Check to save the offset for this filter when the <guilabel>Save</guilabel> button is pressed. The default is to check these boxes but unchecking allows a value to be ignored whilst saving other filters."
-msgstr "Enregistrer : Cochez pour enregistrer le décalage pour ce filtre quand le bouton <guilabel>Enregistrer</guilabel> est cliqué."
+msgstr "Enregistrer : cochez pour enregistrer le décalage pour ce filtre quand le bouton <guilabel>Enregistrer</guilabel> est cliqué."
 
 #. Tag: para
 #. +> trunk5
@@ -2743,7 +2743,7 @@ msgstr "Pour utiliser la MaPA, vous devez d'abord choisir si vous souhaitez une 
 #: ekos-focus.docbook:2054
 #, no-c-format
 msgid "The first step is to workout the <guilabel>Ticks / °C</guilabel> and/or <guilabel>Ticks / °Alt</guilabel> for your equipment. To do this there is an existing utility in Ekos whereby when Focus logging is enabled, in addition to adding focus messages to the debug log, every time an Autofocus run completes, information is written to a text file in a directory called focuslogs located in the same place as the debug logs directory. The files are called “autofocus-(datetime).txt”. The data written are: date, time, position, temperature, filter, HFR, altitude. This data will need to be analysed outside of Ekos to determine the <guilabel>Ticks / °C</guilabel> and if required the <guilabel>Ticks / °Alt</guilabel>."
-msgstr "La première étape est de déterminer les valeurs de <guilabel>Pas / °C</guilabel> et/ou <guilabel>Pas / °Alt</guilabel> de votre équipement. Pour ce faire il existe un utilitaire dans Ekos qui permet d'enregistrer les données de mises au point et les messages liés pour chaque processus de mise au point automatique. Cette information est écrite dans un fichier texte qui se trouve dans un dossier nommé focuslogs au même emplacement que le dossier des fichiers journaux de débogage. Ces fichiers sont nommés autofocus-(datetime).txt. Les données écrites sont la date, l'heure, la position, la température, le filtre, le HFR et l'altitude. Ces données devront être analysées séparément de Ekos afin de déterminer la valeur de <guilabel>Pas / °C</guilabel> et si requis celle de <guilabel>Pas / °Alt</guilabel>."
+msgstr "La première étape est de déterminer les valeurs de <guilabel>Pas / °C</guilabel> et/ou <guilabel>Pas / °Alt</guilabel> de votre équipement. Pour ce faire il existe un utilitaire dans Ekos qui permet d'enregistrer les données de mises au point et les messages liés pour chaque processus de mise au point automatique. Cette information est écrite dans un fichier texte qui se trouve dans un dossier nommé focuslogs au même emplacement que le dossier des fichiers journaux de débogage. Ces fichiers sont nommés autofocus-(datetime).txt. Les données écrites sont la date, l'heure, la position, la température, le filtre, le HFR et l'altitude. Ces données devront être analysées séparément de Ekos afin de déterminer la valeur de <guilabel>Pas / °C</guilabel> et si requis celle de <guilabel>Pas / °Alt</guilabel>."
 
 #. Tag: para
 #. +> trunk5
@@ -2770,7 +2770,7 @@ msgstr "<phrase>Fichier journal de mise au point automatique</phrase>"
 #. +> trunk5
 #: ekos-focus.docbook:2068
 #, no-c-format
-#| msgid "Currently Ekos supports a simple linear relationship between temperature, or altitude, and ticks. In the future, if there is demand, more sophisticated relationships could be supported. A linear relationship will deliver the majority of the benefit of AF and is fairly straight-forward to adminster. More complex relationships could be more accurate but come with more complex administration. Note also that more complex focus point vs temperature relationships will likely be more or less linear for small changes in temperature."
+#| msgid "Currently Ekos supports a simple linear relationship between temperature, or altitude, and ticks. In the future, if there is demand, more sophisticated relationships could be supported. A linear relationship will deliver the majority of the benefit of AF and is fairly straight-forward to adminster. More complex relationships could be more accurate but come with more complex administration. eote also that more complex focus point vs temperature relationships will likely be more or less linear for small changes in temperature."
 msgid "Currently Ekos supports a simple linear relationship between temperature, or altitude, and ticks. In the future, if there is demand, more sophisticated relationships could be supported. A linear relationship will deliver the majority of the benefit of AF and is fairly straight-forward to administer. More complex relationships could be more accurate but come with more complex administration. Note also that more complex focus point vs temperature relationships will likely be more or less linear for small changes in temperature."
 msgstr "Actuellement Ekos utilise une simple relation linéaire entre la température ou l'altitude et le nombre de pas. Dans le futur et s'il y a de la demande, on pourrait voir des relations plus sophistiquées. Une relation linéaire fournit la majeure partie des bénéfices de la MaPA et est facile à utiliser. Il existe des relations bien plus complexes qui fournissent des résultats plus précis mais sont bien moins faciles à utiliser. Veuillez noter que les relations plus complexes entre la position de mise au point et la température se comportent de manière plus ou moins linéaire pour les petits changements de température."
 
@@ -2779,7 +2779,7 @@ msgstr "Actuellement Ekos utilise une simple relation linéaire entre la tempér
 #: ekos-focus.docbook:2074
 #, no-c-format
 msgid "A way to get a value for <guilabel>Ticks / °C</guilabel> would be to take the data from the autofocus-(datetime).txt files from a few nights of observing into a spreadsheet and graph focus position against temperature for each filter. Review the data and remove any outliers and plot a line of best fit. Use the line to get <guilabel>Ticks / °C</guilabel>. If you intend to adapt for altitude as well as temperature, then it would be better to use a set of data at similar altitude when calibrating temperature. Then its possible to calculate the effect of Temperature and remove this from the data when calculating the effect of Altitude."
-msgstr "Une manière d'obtenir ces valeurs est d'entrer ces données prises sur plusieurs nuits dans un tableur et de dessiner le graphique de la position de mise au point en fonction de la température pour chaque filtre. Passez en revue les données et éliminez les valeurs aberrantes puis faites une régression linéaire sur ces données. Elle vous donnera la valeur de <guilabel>Pas / °C</guilabel>. Si votre intention est de faire pareil pour l'altitude, il sera probablement plus efficace d'utiliser un ensemble de données d'altitudes similaires pour la calibration de la température. Il sera ainsi possible de calculer l'effet dû à la température et de la soustraire des données pour le calcul de l'effet dû à l'altitude."
+msgstr "Une manière d'obtenir ces valeurs est de saisir ces données prises sur plusieurs nuits dans un tableur et de dessiner le graphique de la position de mise au point en fonction de la température pour chaque filtre. Passez en revue les données et éliminez les valeurs aberrantes puis faites une régression linéaire sur ces données. Elle vous donnera la valeur de <guilabel>Pas / °C</guilabel>. Si votre intention est de faire pareil pour l'altitude, il sera probablement plus efficace d'utiliser un ensemble de données d'altitudes similaires pour la calibration de la température. Il sera ainsi possible de calculer l'effet dû à la température et de la soustraire des données pour le calcul de l'effet dû à l'altitude."
 
 #. Tag: para
 #. +> trunk5
@@ -2794,7 +2794,7 @@ msgstr "Vous devrez vous assurer que la position de mise au point est reproducti
 #, no-c-format
 #| msgid "A simple approach is to start with a small amount of data, say 1 night and use this to calculate, say the Ticks / degree C. Run with this and adjust it over time as you collect more data. A way to check how well AF is performing would be to use Analyze to review how AF had moved the focus over 1 hour. If things are spot on, then where ever AF had positioned the focuser after 1 hour would match the Autofocus result. Where there is a discrepancy, it will be because of randomness in the Autofocus result and miscalibration in the AF <guilabel>Ticks / °C</guilabel>. By doing this regularly you will build knowledge of your equipment and be able to fine tune AF. Below is a screenshot of Analze configured for Focus where you can see how Focus position changes throughout the imaging session:"
 msgid "A simple approach is to start with a small amount of data, say 1 night and use this to calculate, say the Ticks / degree C. Run with this and adjust it over time as you collect more data. A way to check how well AF is performing would be to use Analyze to review how AF had moved the focus over 1 hour. If things are spot on, then where ever AF had positioned the focuser after 1 hour would match the Autofocus result. Where there is a discrepancy, it will be because of randomness in the Autofocus result and miscalibration in the AF <guilabel>Ticks / °C</guilabel>. By doing this regularly you will build knowledge of your equipment and be able to fine tune AF. Below is a screenshot of Analyze configured for Focus where you can see how Focus position changes throughout the imaging session:"
-msgstr "Une approche simple est de commencer avec peu de données, disons une nuit, et les utiliser pour calculer la valeur de <guilabel>Pas / °C</guilabel>. Ensuite utilisez cette valeur pour vos sessions d'observations et ajustez-là au fur et à mesure que vous accumulez plus de données. Une manière de vérifier si la MaPA se comporte bien est d'utiliser le module Analyse pour étudier comment la MaPA a déplacé la position de mise au point sur une heure. Si tout se passe bien, alors la position de MaPA après une heure doit correspondre au résultat d'une mise au point automatique. S'il y a une différence, elle proviendra d'aléas de la mise au point automatique et d'une mauvaise calibration de la valeur de <guilabel>Pas / °C</guilabel>. En faisant cela régulièrement, vous développerez la connaissance de votre équipement et pourrez affiner la MaPA. Dans la capture d'écran ci-dessous, vous pouvez voir la configuration du module Analyse pour la mise au point et voir comment la position de mise au point change au courant de la session d'imagerie : "
+msgstr "Une approche simple est de commencer avec peu de données, disons une nuit, et les utiliser pour calculer la valeur de <guilabel>Pas / °C</guilabel>. Ensuite utilisez cette valeur pour vos sessions d'observations et ajustez-là au fur et à mesure que vous accumulez plus de données. Une manière de vérifier si la MaPA se comporte bien est d'utiliser le module Analyse pour étudier comment la MaPA a déplacé la position de mise au point sur une heure. Si tout se passe bien, alors la position de MaPA après une heure doit correspondre au résultat d'une mise au point automatique. S'il y a une différence, elle proviendra d'aléas de la mise au point automatique et d'une mauvaise calibration de la valeur de <guilabel>Pas / °C</guilabel>. En faisant cela régulièrement, vous développerez la connaissance de votre équipement et pourrez affiner la MaPA. Dans la capture d'écran ci-dessous, vous pouvez voir la configuration du module Analyse pour la mise au point et voir comment la position de mise au point change au courant de la session d'imagerie : "
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -2822,7 +2822,7 @@ msgstr "Une fois votre valeur obtenue, vous pouvez la configurer dans la fenêtr
 #: ekos-focus.docbook:2104
 #, no-c-format
 msgid "The screenshot at the top of this section shows an example. <guilabel>Ticks / °C</guilabel> is set to 9. Autofocus ran and it solved at 36580 at 10C. Then a simple sequence of 5 subframes was run. The temperature was firstly set to 9C then to 8C. After each subframe completed, Ekos performed an adaptive focus run and where there was a temperature change it calculates the number of ticks to move the focuser. In this example, the focuser was moved inward by 9 ticks on 2 separate occasions, starting at 36580, before moving to 36571 and then to 36562 as shown on the Focus Tab in the Current Position widget and in the message box."
-msgstr "La capture d'écran au haut de cette section illustre un exemple. La valeur <guilabel>Pas / °C</guilabel> est réglée à 9. La mise au point automatique a été exécutée et la résolution s'est faite à la position 36580 à la température de 10 °C. Ensuite une simple séquence de 5 poses a été lancée. La température était d'abord réglée à 9 °C puis à 8 °C. À la fin de chaque pose Ekos a réalisé une MaPA et quand il y avait un changement de température, il a calculé le nombre de pas de déplacement du moteur de mise au point. Ici le moteur s'est déplacé vers l'intérieur de 0 pas à deux occasions, commençant à la position 36580, avant de se déplacer à la position 36571 puis 36562 comme montré dans l'onglet de mise au point dans le widget de la position actuelle et dans la boîte de messages."
+msgstr "La capture d'écran au haut de cette section illustre un exemple. La valeur <guilabel>Pas / °C</guilabel> est réglée à 9. La mise au point automatique a été exécutée et la résolution s'est faite à la position 36580 à la température de 10 °C. Ensuite une simple séquence de 5 poses a été lancée. La température était d'abord réglée à 9 °C puis à 8 °C. À la fin de chaque pose Ekos a réalisé une MaPA et quand il y avait un changement de température, il a calculé le nombre de pas de déplacement du moteur de mise au point. Ici le moteur s'est déplacé vers l'intérieur de 0 pas à deux occasions, commençant à la position 36580, avant de se déplacer à la position 36571 puis 36562 comme montré dans l'onglet de mise au point dans le composant graphique de la position actuelle et dans la boîte de messages."
 
 #. Tag: title
 #. +> trunk5
