@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: kstars_ekos-focus_3.6.5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-07-07 08:29+0200\n"
-"PO-Revision-Date: 2023-07-27 14:56+0200\n"
+"PO-Revision-Date: 2023-08-01 09:41+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team:  French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -357,7 +357,7 @@ msgstr "Le bouton <guibutton>Mise au point automatique</guibutton> démarre l'ex
 #: ekos-focus.docbook:309
 #, no-c-format
 msgid "The <guibutton>Capture Image</guibutton> button will take a frame based on the current settings in the <link linkend=\"focus-ccd-filter-wheel\"> Camera &amp; Filter Wheel Group</link>. The <guibutton>Start Framing</guibutton> button will start repeatedly capturing frames until the <guibutton>Stop</guibutton> button is pressed."
-msgstr "Le bouton <guibutton>Acquisition image</guibutton> démarre l'acquisition d'une image fondée sur les réglages actuels du <link linked=\"focus-ccd-filter-wheel\">groupe APN et roue à filtres</link>. Le bouton <guibutton>En boucle</guibutton> démarre l'acquisition en boucle de trames jusqu'à ce que le bouton <guibutton>Arrêter</guibutton> soit activé."
+msgstr "Le bouton <guibutton>Acquisition image</guibutton> démarre l'acquisition d'une image fondée sur les réglages actuels du <link linkend=\"focus-ccd-filter-wheel\">groupe APN et roue à filtres</link>. Le bouton <guibutton>En boucle</guibutton> démarre l'acquisition en boucle de trames jusqu'à ce que le bouton <guibutton>Arrêter</guibutton> soit activé."
 
 #. Tag: para
 #. +> trunk5
@@ -609,7 +609,7 @@ msgstr "L'ensemble suivant de boutons radio est associé aux <emphasis role=\"bo
 #: ekos-focus.docbook:526
 #, no-c-format
 msgid "The effect of Masking Options can be seen on the <link linkend=\"focus-display\">FITS Viewer</link>."
-msgstr "L'effet des options de masquage peut être vu dans <link linked=\"focus-display\">l'afficheur FITS</link>."
+msgstr "L'effet des options de masquage peut être vu dans <link linkend=\"focus-display\">l'afficheur FITS</link>."
 
 #. Tag: para
 #. +> trunk5
@@ -666,7 +666,7 @@ msgstr "La collimation des télescopes de Newton : l'inspection des images à u
 #: ekos-focus.docbook:579
 #, no-c-format
 msgid "The next set of controls relate to <emphasis role=\"bold\">Adaptive Focus</emphasis>. This is an experimental feature in Ekos. The idea here is to keep the telescope focused by adapting the focuser position based on changes in environmental conditions without having to perform a full Autofocus run. See the <link linkend=\"focus-adaptive\">Adaptive Focus</link> section for more details."
-msgstr "L'ensemble suivant de boutons est associé à la <emphasis role=\"bold\">mise au point adaptative</emphasis>. C'est une fonctionnalité encore expérimentale. L'idée ici est de garder la mise au point au point du télescope en adaptant la position du moteur de mise au point en fonction de conditions environnementales sans avoir à lancer une procédure complète de mise au point automatique. Voir la section <link linked=\"bold\">Mise au point adaptative</link> pour davantage de détails."
+msgstr "L'ensemble suivant de boutons est associé à la <emphasis role=\"bold\">mise au point adaptative</emphasis>. C'est une fonctionnalité encore expérimentale. L'idée ici est de garder la mise au point au point du télescope en adaptant la position du moteur de mise au point en fonction de conditions environnementales sans avoir à lancer une procédure complète de mise au point automatique. Voir la section <link linkend=\"bold\">Mise au point adaptative</link> pour davantage de détails."
 
 #. Tag: para
 #. +> trunk5
@@ -680,7 +680,7 @@ msgstr "Par exemple, la position de mise au point va varier en fonction de la te
 #: ekos-focus.docbook:590
 #, no-c-format
 msgid "In order to use <emphasis role=\"bold\">Adaptive Focus</emphasis> it is necessary to setup some data for your system. In particular you need to tell Ekos how many ticks (and in which direction) to move the focuser when the environmental conditions change. This is covered in the <link linkend=\"focus-filter-settings\">Filter Settings</link> popup. The popup is launched by clicking the filter icon <inlinemediaobject><imageobject><imagedata fileref=\"view-filter.png\" format=\"PNG\"/></imageobject></inlinemediaobject>."
-msgstr "Afin d'utiliser la <emphasis role=\"bold\">mise au point adaptative</emphasis> il est nécessaire de régler certaines données de votre système. Vous devez en particulier indiquer à Ekos le nombre de pas (et dans quelle direction) de déplacement lorsque les conditions environnementales changent. Cela est expliqué dans la fenêtre popup du <link linked=\"focus-filter-settings\">réglages du filtre</link>. Cette fenêtre est ouverte en cliquant sur l'icône du filtre <inlinemediaobject><imageobject><imagedata fileref=\"view-filter.png\" format=\"PNG\"/></imageobject></inlinemediaobject>."
+msgstr "Afin d'utiliser la <emphasis role=\"bold\">mise au point adaptative</emphasis> il est nécessaire de régler certaines données de votre système. Vous devez en particulier indiquer à Ekos le nombre de pas (et dans quelle direction) de déplacement lorsque les conditions environnementales changent. Cela est expliqué dans la fenêtre popup du <link linkend=\"focus-filter-settings\">réglages du filtre</link>. Cette fenêtre est ouverte en cliquant sur l'icône du filtre <inlinemediaobject><imageobject><imagedata fileref=\"view-filter.png\" format=\"PNG\"/></imageobject></inlinemediaobject>."
 
 #. Tag: para
 #. +> trunk5
