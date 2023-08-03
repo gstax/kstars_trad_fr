@@ -114,6 +114,13 @@ Cela créera le fichier kstars.pdf.
 * \def\DBKlocale{en}. Le nom des tables, sections etc… sont en anglais. 
 * pas de Babel ?
 
+## Traduction du site ouebe
+
+Il se trouve [ici](https://kstars.kde.org/fr/).
+
+Et le po est [ici](https://websvn.kde.org/trunk/l10n-support/fr/summit/messages/websites-kstars-kde-org/).
+
+
 
 ## Bonnes pratiques
 
