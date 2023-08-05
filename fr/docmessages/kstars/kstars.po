@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_3.6.5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-06-20 10:41+0200\n"
-"PO-Revision-Date: 2023-08-01 16:56+0200\n"
+"POT-Creation-Date: 2023-07-28 09:48+0200\n"
+"PO-Revision-Date: 2023-06-21 19:50+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -244,23 +244,22 @@ msgstr "&Jason.Harris; et l'équipe de &kstars;"
 #. +> trunk5
 #: index.docbook:219
 #, no-c-format
-#| msgid "2023-02-01"
-msgid "2023-06-01"
-msgstr "01/06/2023"
+msgid "2023-08-01"
+msgstr "2023-08-01"
 
 #. Tag: releaseinfo
 #. +> trunk5
 #: index.docbook:220
 #, no-c-format
-msgid "3.6.5"
-msgstr "3.6.5"
+msgid "3.6.6"
+msgstr "3.6.6"
 
 #. Tag: para
 #. +> trunk5
 #: index.docbook:223
 #, no-c-format
 msgid "&kstars; is free, open source, cross-platform Astronomy Software. It provides an accurate graphical simulation of the night sky, from any location on Earth, at any date and time. The display includes up to 100 million stars, 13,000 deep-sky objects,all 8 planets, the Sun and Moon, and thousands of comets, asteroids, supernovae, and satellites. For students and teachers, it supports adjustable simulation speeds in order to view phenomena that happen over long timescales, the &kstars; Astrocalculator to predict conjunctions, and many common astronomical calculations. For the amateur astronomer, it provides an observation planner, a sky calendar tool, and an FOV editor to calculate field of view of equipment and display them. Find out interesting objects in the <quote>What's up Tonight</quote> tool, plot altitude vs. time graphs for any object, print high-quality sky charts, and gain access to lots of information and resources to help you explore the universe! HiPS all-sky progressive overlay provide stunning views from numerous surveys spanning the whole electromagnetic spectrum. Included with &kstars; is Ekos astrophotography suite, a complete astrophotography solution that can control all INDI devices including numerous telescopes, CCDs, DSLRs, focusers, filters, and a lot more. Ekos supports highly accurate tracking using online and offline astrometry solver, autofocus and autoguiding capabilities, and capture of single or multiple images using the powerful built in sequence manager."
-msgstr "&kstars; est une plate-forme d'astronomie gratuite et libre. Elle fournit une simulation graphique précise du ciel de nuit de tout endroit sur Terre ainsi qu'à n'importe quelle date et heure. L'affichage inclut plus de 100 millions d'étoiles, 13000 objets du ciel profond, les 8 planètes, le Soleil, la Lune et des milliers de comètes, d'astéroïdes, de supernovae et de satellites. Pour les étudiants et les professeurs, elle gère des vitesses de simulation ajustables afin de voir des phénomènes qui s'étendent sur de longues périodes ; la calculatrice astronomique de &kstars; permet de prédire les conjonctions et plein d'autres calculs astronomiques courants. Pour l'astronome amateur, elle fournit un planificateur d'observations, un outil d'agenda du ciel ainsi qu'un outil permettant de calculer le champ de vision de tout équipement et de l'afficher. L'outil <quote>Dans le ciel cette nuit</quote> présente les objets intéressants observables ; on peut également tracer la courbe du l'élévation, selon l'heure, de tout objet, imprimer des tableau du ciel de haute qualité et avoir accès à énormément d'information et de resources pour vous aider à explorer l'univers ! La superposition progressive de tout le ciel HiPS offre une vue spectaculaire de tout le spectre électromagnétique. &kstars; inclut la suite Ekos d'astrophotographie qui est une solution complète pour le contrôle de périphérique INDI incluant des montures, des CCD, des APN, des moteurs de mise au point, des roues à filtres et bien plus encore. Ekos permet un suivi hautement précis en utilisant des résolveurs locaux ou en ligne, la mise au point automatique et des capacités d'autoguidage, ainsi que l'acquisition de trame simple ou multiples en utilisant le gestionnaire de séquence intégré."
+msgstr "&kstars; est une plateforme d'astronomie gratuite et libre. Elle fournit une simulation graphique précise du ciel de nuit de tout endroit sur Terre ainsi qu'à n'importe quelle date et heure. L'affichage inclut plus de 100 millions d'étoiles, 13000 objets du ciel profond, les 8 planètes, le Soleil, la Lune et des milliers de comètes, d'astéroïdes, de supernovae et de satellites. Pour les étudiants et les professeurs, elle gère des vitesses de simulation ajustables afin de voir des phénomènes qui s'étendent sur de longues périodes ; la calculatrice astronomique de &kstars; permet de prédire les conjonctions et plein d'autres calculs astronomiques courants. Pour l'astronome amateur, elle fournit un planificateur d'observations, un outil d'agenda du ciel ainsi qu'un outil permettant de calculer le champ de vision de tout équipement et de l'afficher. L'outil <quote>Dans le ciel cette nuit</quote> présente les objets intéressants observables ; on peut également tracer la courbe du l'élévation, selon l'heure, de tout objet, imprimer des tableau du ciel de haute qualité et avoir accès à énormément d'information et de resources pour vous aider à explorer l'univers ! La superposition progressive de tout le ciel HiPS offre une vue spectaculaire de tout le spectre électromagnétique. &kstars; inclut la suite Ekos d'astrophotographie qui est une solution complète pour le contrôle de périphérique INDI incluant des montures, des CCD, des APN, des moteurs de mise au point, des roues à filtres et bien plus encore. Ekos permet un suivi hautement précis en utilisant des résolveurs locaux ou en ligne, la mise au point automatique et des capacités d'autoguidage, ainsi que l'acquisition de trame simple ou multiples en utilisant le gestionnaire de séquence intégré."
 
 #. Tag: keyword
 #. +> trunk5
@@ -316,7 +315,7 @@ msgstr "Cependant, &kstars; est plus qu'un simple simulateur de ciel nocturne. L
 #: index.docbook:258
 #, no-c-format
 msgid "From an object's popup menu, you can open its <link linkend=\"tool-details\">Detailed Information Window</link>, where you can examine positional data about the object, and query a huge treasury of online databases for professional-grade astronomical data and literature references about the object. You can even attach your own Internet links, images and text notes, making &kstars; a graphical front-end to your observing logs and your personal astronomical notebook."
-msgstr "Depuis le menu contextuel d'un objet, vous pouvez lancer sa <link linkend=\"tool-details\">fenêtre d'informations détaillées</link>, où vous pouvez examiner les données de position sur l'objet, et interroger un énorme trésor de bases de données en ligne pour les données astronomiques de qualité professionnelles et les références de la littérature sur l'objet. Vous pouvez même attacher vos propres liens Internet, des images et des notes de texte, faisant de &kstars; une interface graphique à vos propres journaux d'observation et votre calepin astronomique personnel."
+msgstr "Depuis le menu contextuel d'un objet, vous pouvez lancer sa <link linkend=\"tool-details\">fenêtre d'informations détaillées</link>, où vous pouvez examiner les données positionnelles sur l'objet, et interroger un énorme trésor de bases de données en ligne pour les données astronomiques de qualité professionnelles et les références de la littérature sur l'objet. Vous pouvez même attacher vos propres liens Internet, des images et des notes de texte, faisant de &kstars; une interface graphique à vos propres journaux d'observation et votre calepin astronomique personnel."
 
 #. Tag: para
 #. +> trunk5
@@ -372,7 +371,7 @@ msgstr "Nous sommes intéressés par vos remarques ; veuillez envoyer tout bogu
 #: index.docbook:293
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
-msgstr "<para>Traduction française par l'équipe de traduction francophone de KDE <email>kde-francophone@kde.org</email></para>"
+msgstr "<para>Traduction française : l'équipe de traduction francophone de KDE <email>kde-francophone@kde.org</email></para>"
 
 #. Tag: chapter
 #. +> trunk5
