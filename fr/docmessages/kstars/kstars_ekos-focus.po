@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: kstars_ekos-focus_3.6.5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-07-29 10:42+0200\n"
-"PO-Revision-Date: 2023-08-01 17:17+0200\n"
+"PO-Revision-Date: 2023-08-05 11:52+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team:  French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -265,7 +265,7 @@ msgstr "<guibutton>Bouton Modifier</guibutton> : affiche la boîte de dialogue 
 #: ekos-focus.docbook:234
 #, no-c-format
 msgid "Focus parameters are saved per Optical Train automatically."
-msgstr ""
+msgstr "Les paramètres de mise au point sont enregistrés par train optique automatiquement."
 
 #. Tag: title
 #. +> trunk5
@@ -335,28 +335,28 @@ msgstr "Pour les moteurs de mise au point à position absolue et relative, l'uni
 #: ekos-focus.docbook:292
 #, no-c-format
 msgid "The Steps fields has 2 parts:"
-msgstr ""
+msgstr "Les champs de pas ont 2 parties :"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:295
 #, no-c-format
 msgid "<emphasis role=\"bold\">Left Hand Steps</emphasis>: Current focuser position. This is output only and is updated as the focuser moves to reflect the current position."
-msgstr ""
+msgstr "<emphasis role=\"bold\">Pas gauches</emphasis> : position actuelle du moteur de mise au point. Ce n'est que de l'affichage et est rafraîchi en même temps que le moteur de mise au point se déplace."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:300
 #, no-c-format
 msgid "<emphasis role=\"bold\">Right Hand Steps</emphasis>: This is input and allows the user to enter a desired position. When the <guibutton>Goto</guibutton> button is pressed, the focuser is moved from its current position to the position indicated in this field."
-msgstr ""
+msgstr "<emphasis role=\"bold\">Pas droites</emphasis> : c'est une valeur en entrée que l'opérateur peut modifier pour obtenir une position particulière. Lorsque que le bouton <guibutton>Goto</guibutton> est cliqué, le moteur de mise au point se déplacera depuis la position actuelle jusqu'à la position saisie en entrée."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:306
 #, no-c-format
 msgid "On startup, the Left Hand Steps will show the current focuser position. The Right Hand Steps field is defaulted from the Optical Train saved settings. This is useful, for example, if you have several Optical Trains that use the same focuser but solve at different positions. In this case, the Right Hand Steps will contain the last persisted value for this field for the selected Optical Train. So, after swapping equipment and selecting the Optical Train, if the user presses the <guibutton>Goto</guibutton> button then the focuser will be moved to a good place to start focusing from."
-msgstr ""
+msgstr "Au départ, la valeur Pas gauches affichera la position actuelle du moteur de mise au point. Le champ Pas droite prendra comme valeur par défaut celle du train optique enregistré dans les réglages. Cela est utile par exemple lorsque vous avez plusieurs trains optiques qui utilisent le même moteur de mise au point mais dont la position de la mise au point est différente. Dans ce cas, la valeur Pas gauche sera celle de la dernière valeur pour le train optique sélectionné. Ainsi, après avoir changé de matériel et choisi le train optique adéquat, un clic sur le bouton <guibutton>Goto</guibutton> entraînera le moteur de mise au point à une position qui sera un bon point de départ."
 
 #. Tag: para
 #. +> trunk5
@@ -2017,17 +2017,17 @@ msgstr "Remarque : cet utilitaire ne devrait pas être exécuté pendant une se
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1574
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "To start with, configure settings for each filter in the table in the Filter Settings popup and then launch Build Filter Offsets. The popup is launched with a table of filters."
 msgid "To start with, configure settings for each filter in the table in the Filter Settings popup and then launch Build Filter Offsets. The popup is launched with a table of data with the following columns."
-msgstr "Pour commencer, configurer les réglages pour chaque filtre dans la table de la boîte de dialogue des réglages de filtre, puis lancer l'outil. La boîte de dialogue apparaît avec une table de filtres."
+msgstr "Pour commencer, configurer les réglages pour chaque filtre dans la table de la boîte de dialogue des réglages de filtre, puis lancer l'outil. La boîte de dialogue apparaît avec une table de filtres avec les colonnes suivantes."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1580
 #, no-c-format
 msgid "<guilabel>Filter</guilabel>: Filter Name. The first filter has an \"*\" after the filter name, \"Lum *\" in the above example. This means that Lum is the reference filter against which offsets for other filters will be measured. Double click another Filter Name to make that filter the reference filter."
-msgstr ""
+msgstr "<guilabel>Filtre</guilabel> : le nom du filtre. Le premier filtre a un « * » après son nom, « Lum * » dans l'exemple ci-dessus. Cela signifie que Lum est le filtre de référence par rapport auquel les décalages pour les autres filtres seront mesurés. Double-cliquez sur un autre nom de filtre pour qu'il devienne le filtre de référence."
 
 #. Tag: para
 #. +> trunk5
@@ -2046,10 +2046,10 @@ msgstr "<guilabel>Bloquer le Filtre</guilabel> : le filtre bloqué actuel."
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1597
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guilabel># Focus Runs</guilabel>: The number of focus runs for this filter. The default is 5. To exclude a filter from the process set this field to zero."
 msgid "<guilabel># Focus Runs</guilabel>: The number of focus runs for this filter. The default is 5. To exclude a filter from the process set this field to zero. Note, the reference filter must have at least 1 run."
-msgstr "<guilabel># d'exécution de mise au point</guilabel> : le nombre d'exécution de mise au point pour ce filtre. La valeur par défaut est de 5. Pour exclure un filtre de ce processus, mettez 0."
+msgstr "<guilabel># de passes de mise au point</guilabel> : le nombre de passes de mise au point pour ce filtre. La valeur par défaut est de 5. Pour exclure un filtre de ce processus, mettez 0. Remarque : le filtre de référence doit avoir au moins une passe."
 
 #. Tag: para
 #. +> trunk5
@@ -2070,15 +2070,15 @@ msgstr "Cliquez sur le bouton <guilabel>Arrêter</guilabel> pour arrêter le pro
 #: ekos-focus.docbook:1610
 #, no-c-format
 msgid "Toggle the <guilabel>Adapt Focus</guilabel> checkbox at any point in the processing to switch between measured Autofocus results and results after Adaptive Focus adjustments have been applied. See the <link linkend=\"focus-adaptive\">Adaptive Focus</link> section for more details on what Adaptive Focus is."
-msgstr ""
+msgstr "Vous pouvez inverser la case à cocher <guilabel>Mise au point adaptative</guilabel> à tout moment du processus pour basculer entre les résultats de la mise au point automatique et les résultats après que les ajustements de la mise au point adaptative aient été appliqués. Voyez la section de la <link linkend=\"focus-adaptive\">Mise au point adaptative</link> pour davantage d'explications sur cette thématique."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1615
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Let's take an example where we have 4 filters: Lum, Sii, Ha and Oiii. We have run the process with 5 runs for Lum, Sii and Ha and 0 for Oiii (effectively excluding this filter from the process). In this case 8 extra columns have been created in the table."
 msgid "Let's take an example where we have 7 filters: Lum, Red, Green, Blue, Sii, Ha and Oiii. The 8th slot in the filter wheel is marked as Blank. The process has completed 5 runs for all filters, 0 for Blank (effectively excluding Blank from the process). In this case 8 extra columns have been created in the table."
-msgstr "Prenons un exemple où nous avons 4 filtres : Lum, Sii, Ha et Oiii. Nous avons lancé le processus 5 fois pour Lum, Sii et Ha et 0 fois pour Oiii (ce qui exclut ce filtre du processus). Dans ce cas, 8 colonnes supplémentaires ont été créées dans la table."
+msgstr "Prenons un exemple où nous avons 4 filtres : Lum, Rouge, Vert, Bleu, Sii, Ha et Oiii. La 8e position de la roue à filtre est marquée Vide. Nous avons lancé le processus 5 fois pour tous les filtres et 0 fois pour Vide (ce qui exclut ce filtre du processus). Dans ce cas, 8 colonnes supplémentaires ont été créées dans la table."
 
 #. Tag: para
 #. +> trunk5
@@ -2111,34 +2111,34 @@ msgstr "Enregistrer : cochez pour enregistrer le décalage pour ce filtre quand
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1658
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "At this stage, it is recommended to review the AF runs to make sure they are all good. For example, lets assume we are unhappy with the 5th AF run on Ha. In this case we could either:"
 msgid "At this stage, it is recommended to review the AF runs to make sure they are all good. For example, lets assume we are unhappy with the 2nd AF run on Oiii. In this case we could either:"
-msgstr "À ce stade il est recommandé de passer en revue les mises au point automatiques pour s'assurer qu'elles sont toutes bonnes. Par exemple faisons l'hypothèse que nous ne sommes pas satisfaits par la 5e mise au point automatique pour le filtre Ha. Dans ce cas, on pourrait soit :"
+msgstr "À ce stade il est recommandé de passer en revue les mises au point automatiques pour s'assurer qu'elles sont toutes bonnes. Par exemple faisons l'hypothèse que nous ne sommes pas satisfaits par la 2e mise au point automatique pour le filtre Oiii. Dans ce cas, on pourrait soit :"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1663
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Edit AF Run 5 and set the value to whatever value you want."
 msgid "Edit AF Run 2 and set the value to whatever value we want."
-msgstr "Modifier cette 5e exécution pour indiquer une valeur attendue."
+msgstr "Modifier cette 2e passe pour indiquer une valeur attendue."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1666
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Edit the New Offset column and set the value."
 msgid "Edit the New Offset column and set the value directly (bypassing the logic to calculate it)."
-msgstr "Modifier la colonne du nouveau décalage pour y mettre la bonne valeur."
+msgstr "Modifier la colonne du nouveau décalage pour y mettre directement la bonne valeur (en contournant ainsi la logique utilisée pour la calculer)."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1669
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Discard the AF Run 5 by setting the value to 0 (see below). In this case, the Average and New Offset for Ha is recalculated based on AF Run 1-4."
 msgid "Discard the AF Run 2 by setting the value to 0 (see below). In this case, the Average and New Offset for Oiii is recalculated based on AF Runs 1, 3, 4, 5. In the example below the new Average and New Offsets are calculated and displayed."
-msgstr "Supprimer cette 5e exécution en mettant la valeur à 0 (voir ci-dessous). Dans ce cas, la moyenne et le nouveau décalage pour le filtre Ha seront recalculés avec les exécutions 1 à 4."
+msgstr "Supprimer cette 2e passe en mettant la valeur à 0 (voir ci-dessous). Dans ce cas, la moyenne et le nouveau décalage pour le filtre Oiii seront recalculées basées sur les passes 1, 3, 4 et 5, ce qui est affiché dans l'exemple ci-dessous."
 
 #. Tag: para
 #. +> trunk5
@@ -2166,70 +2166,70 @@ msgstr "Fermer : l'outil de construction de décalage de filtre sera fermé SAN
 #: ekos-focus.docbook:1703
 #, no-c-format
 msgid "If the <guilabel>Adapt Focus</guilabel> box is checked, the AF Runs are updated for Adaptive Focus. See the <link linkend=\"focus-adaptive\">Adaptive Focus</link> section for more details on the theory of Adaptive Focus. The first AF run (in this example AF Run 1 on Lum) is the basis for the Adaptations. So the temperature and altitude of AF Run 1 on Lum is used as the basis for all the other AF Runs and the data is adapted back to what the AF solution would have been, had it been run at the temperature and altitude of AF Run 1 on Lum."
-msgstr ""
+msgstr "Si la case à cocher <guilabel>Mise au point adaptative</guilabel> a été cochée, les passes de mises au point automatiques sont mises à jour pour la mise au point adaptative. Voyer la section de la <link linkend=\"focus-adaptive\">Mise au point adaptative</link> pour davantage d'explications sur cette thématique. La première passe de mise au point automatique (dans cet exemple, celle sur la Lum) est la base pour les ajustements. Ainsi la température et l'altitude de cette passe forment la base pour toutes les autres passes et les données sont adaptées en retour aux mises au point automatiques suivantes comme si elles avaient eu lieu aux mêmes conditions de température et d'altitude que cette première passe.."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1710
 #, no-c-format
 msgid "In this example, Adaptive Focus is setup for Altitude adjustments on the Red filter only in Filter Settings. So the Adapted AF Run values are the same as the unadapted values for all the other filters."
-msgstr ""
+msgstr "Dans cet exemple, la mise au point adaptative n'est réglée que pour les ajustements en altitude pour le filtre Rouge. Ainsi les valeurs des passes suivantes seront les mêmes que les valeurs non-ajustées pour tous les autres filtres."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1728
 #, no-c-format
 msgid "If you hover the mouse over an AF Run it will show a tooltip Adaptive Focus Explainer. In the example, the mouse is hovering over AF Run 1 on Red. The 1st row of the Explainer shows the measured Autofocus result for that run (36683), adaptations for Temperature (0.0C) and Altitude (0.2 degrees Alt). The 2nd row of the Explainer shows the Adaptations: 206 total, 0 temperature, 205.9 altitude. The 3rd row shows the Adapted Position of 36889."
-msgstr ""
+msgstr "En survolant la passe de mise au point automatique avec la souris, une fenêtre d'aide sera affichée. Dans cet exemple, la souris survole la passe 1 du filtre Rouge. La première ligne affiche le résultat des mesures de la mise au point automatique pour cette passe (36683), les ajustements pour la température (0.0°C) et l'altitude (0.2 degrés Alt). La deuxième ligne affiche les ajustements : 206 au total, 0 pour la température et 205.9 pour l'altitude. La troisième ligne affiche la position 36889."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1734
 #, no-c-format
 msgid "The user can toggle between Adapt Focus or raw values. Whichever values are displayed in the grid will be the values that are saved."
-msgstr ""
+msgstr "L'opérateur peut basculer entre les valeurs de la mise au point adaptative et les valeurs brutes. Les valeurs affichées seront celles qui seront enregistrées."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1737
 #, no-c-format
 msgid "Here are some tips for using this utility:"
-msgstr ""
+msgstr "Voici quelques astuces pour utiliser cet outils :"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1740
 #, no-c-format
 msgid "Start by making sure the area of the sky you are running Build Filter Offsets on works well for Autofocus. Aiming high in the sky will result in shooting through less atmosphere with smaller, tighter stars. Make sure there are enough stars in the frame. Avoid Meridian Flips during the process. Track the same area during the process so each run is using more or less the same set of stars. Although the facility to use Adapt Focus is available to adjust for environmental changes such as temperature and altitude try to minimise these changes over the course of running the utility by selecting an appropriate area of the sky."
-msgstr ""
+msgstr "Commencez par vous assurer que l'endroit du ciel où vous souhaitez utiliser l'outil produit de bons résultats pour la mise au point automatique. Un pointage haut dans le ciel permet d'imager à travers moins d'atmosphère et permettra d'avoir des étoiles plus petites et fines. Assurez-vous également d'avoir suffisamment d'étoiles dans le champ. Évitez également un retournement au méridien durant le processus. Pointez une zone identique durant le processus pour que chaque passe utilise plus ou moins le même ensemble d'étoiles. En effet, bien que cet outil permette d'ajuster les variables de température et d'altitude, il fonctionne mieux lorsque ces variables ne changent pas trop durant les différentes passes."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1747
 #, no-c-format
 msgid "Make sure your equipment is in thermal equilibrium before starting. Calculate roughly how long the utility will take which is the total number of AF runs * time for a single AF run. Try to make sure that the conditions will remain as consistent as possible during this time, e.g. there is enough time before dawn, the moon won't affect focusing of some images more than others, the target won't drop below your horizon during the process, etc."
-msgstr ""
+msgstr "Assurez-vous que votre matériel se trouve en état d'équilibre thermique avant de commencer. Estimez le temps nécessaire à l'outil qui est le nombre total de passes multiplié par la durée d'une seule passe, et assurez-vous que les conditions resteront aussi stables que possible durant cette période, c'est à dire qu'il reste assez de temps avant l'aurore, que la Lune n'affectera pas plus la mise au point sur certaines étoiles que sur d'autres, que la cible ne descendra pas sous votre horizon durant le processus, etc."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1752
 #, no-c-format
 msgid "Configure the utility for # Focus Runs (5 is a good start), reference filter (e.g. Lum) and Adapt Focus setting. Run the utility to completion."
-msgstr ""
+msgstr "Réglez le nombre de passes (5 est un bon départ), le filtre de référence (par exemple Lum) et les réglages de la mise au point adaptative. Ensuite lancez l'outil jusqu'à achèvement."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1755
 #, no-c-format
 msgid "Review the results. For each filter review each AF run looking for outliers. For each outlier decide what to do, e.g. remove from processing by setting to 0. If there are filters for which you are unhappy with the results, uncheck the Save checkbox for those filters."
-msgstr ""
+msgstr "Vérifiez les résultats. Recherchez des valeurs aberrantes pour chaque filtre. Si vous en trouvez, décidez de ce que vous allez en faire, par exemple les supprimer du traitement en mettant 0. S'il y a des filtres avec lesquels vous n'êtes pas satisfaits des résultats, décochez la case Enregistrer pour ceux-ci."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1759
 #, no-c-format
 msgid "When happy, press Save to save the filter offsets to Filter Settings for future use."
-msgstr ""
+msgstr "Une fois satisfait, cliquez sur Enregistrer pour enregistrer les décalages de filtres dans les réglages de filtres pour les futures utilisations."
 
 #. Tag: title
 #. +> trunk5
@@ -2780,7 +2780,7 @@ msgstr "Ekos prend en charge le concept de mise au point adaptative (MaPA). Sans
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2090
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "The idea of AF is to adjust focus as environmental factors change to try to take each subframe as close as possible to optimum focus. The effect is like performing an Autofocus run before but without the overhead of doing the run."
 msgid "The idea of AF is to adjust focus as environmental factors change to try to take each subframe as close as possible to optimum focus. Ideally, the effect of Adaptive Focus is like performing an Autofocus run before each subframe but without the overhead of actually doing the run."
 msgstr "L'idée derrière la mise au point adaptative est d'ajuster la mise au point en tenant compte des changements de facteurs environnementaux pour essayer de prendre des poses le plus près possible de la position optimale. L'effet est similaire à une mise au point automatique mais sans la charge de la faire vraiment."
@@ -2928,10 +2928,10 @@ msgstr "La capture d'écran au haut de cette section illustre un exemple. La val
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2193
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guilabel>Build Offsets</guilabel>: Press the <guibutton>Build Offsets</guibutton> button to launch the <link linkend=\"build-filter-offsets\">Build Offsets</link> popup."
 msgid "The Adaptive Focus concept has been built into the <link linkend=\"build-filter-offsets\">Build Offsets</link> tool."
-msgstr "<guilabel>Construction des décalages</guilabel> : cliquez sur le bouton <guilabel>Construction des décalages</guilabel> pour lancer la boîte de dialogue <link linkend=\"build-filter-offsets\">Construction des décalages</link>."
+msgstr "Le concept de la mise au point adaptative a été implémenté dans l'outil de <link linkend=\"build-filter-offsets\">Construction des décalages</link>."
 
 #. Tag: title
 #. +> trunk5
