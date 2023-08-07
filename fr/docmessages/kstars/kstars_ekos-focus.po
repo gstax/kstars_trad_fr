@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: kstars_ekos-focus_3.6.5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-07-29 10:42+0200\n"
-"PO-Revision-Date: 2023-08-05 11:52+0200\n"
+"PO-Revision-Date: 2023-08-07 15:44+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team:  French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -181,14 +181,14 @@ msgstr "Si le moteur de mise au point se comporte de manière irrégulière, c'e
 #: ekos-focus.docbook:131
 #, no-c-format
 msgid "<emphasis role=\"bold\">Iterative</emphasis>: In the Iterative algorithm, Ekos operates iteratively by moving in discrete steps, decided initially by the user-configurable step size and later by the slope of the V-Curve, to get closer to the optimal focus position where it then changes gears and performs smaller, finer moves to reach the optimal focus. The focus process stops when the measured HFR is within the configurable tolerance of the minimum recorded HFR in the process. In other words, whenever the process starts searching for a solution within a narrowly limited range, it checks if the current HFR is within % difference compared to the minimum HFR recorded, and if this condition is met then the Autofocus process is considered successful. The default value is set to 1% and is sufficient for most situations. The Step options specify the number of initial ticks the focuser has to move. If the image is severely out of focus, we set the step size high (i.e. greater than 250). On the other hand, if the focus is close to optimal focus, we set the step size to a more reasonable range (less than 50). It takes trial and error to find the best starting tick, but Ekos only uses that for the first focus motion, as all subsequent motions depend on the V-Curve slope calculations. Key features include:"
-msgstr "<emphasis role=\"bold\">Itératif</emphasis> : dans cet algorithme, Ekos fonctionne de manière itérative en se déplaçant par pas discret, dont la valeur initiale a été décidée par l'utilisateur et ensuite par la pente de la courbe en V, pour être le plus près possible de la position optimale de la mise au point où il diminue ensuite la taille des pas pour se rapprocher encore plus de la position optimale. La procédure s'arrête quand le HFR mesuré se trouve dans une plage de tolérance configurable du HFR minimum enregistré. En d'autres termes, quand la procédure cherche une solution dans une plage étroite, il vérifie si le HFR courant est dans une plage de tolérance acceptable comparé au HFR minimum enregistré et si cette condition est remplie, la procédure de mise au point est considérée comme réussie. La valeur de tolérance par défaut est réglé à 1% et est suffisante pour la plupart des situations. Les options de pas spécifient le nombre initial d'encoches pour le déplacement du moteur. Si l'image est loin de la mise au point, on augmente ce nombre (c'est-à-dire plus grand que 250). Sinon, si la position de mise au point est proche de la position optimale, on réduit cette valeur à environ 50. C'est un processus d'essais et d'erreurs pour trouver la bonne valeur de départ, mais Ekos ne l'utilise que pour le premier déplacement de mise au point, tous les suivants dépendant de la pente de la courbe en V. Les fonctionnalités principales incluent : "
+msgstr "<emphasis role=\"bold\">Itératif</emphasis> : dans cet algorithme, Ekos fonctionne de manière itérative en se déplaçant par pas discret, dont la valeur initiale a été décidée par l'utilisateur et ensuite par la pente de la courbe en V, pour être le plus près possible de la position optimale de la mise au point où il diminue ensuite la taille des pas pour se rapprocher encore plus de la position optimale. La procédure s'arrête quand le HFR mesuré se trouve dans une plage de tolérance configurable du HFR minimum enregistré. En d'autres termes, quand la procédure cherche une solution dans une plage étroite, il vérifie si le HFR courant est dans une plage de tolérance acceptable comparé au HFR minimum enregistré et si cette condition est remplie, la procédure de mise au point est considérée comme réussie. La valeur de tolérance par défaut est réglé à 1% et est suffisante pour la plupart des situations. Les options de pas spécifient le nombre initial de pas pour le déplacement du moteur. Si l'image est loin de la mise au point, on augmente ce nombre (c'est-à-dire plus grand que 250). Au contraire, si la position de mise au point est proche de la position optimale, on réduit cette valeur à environ 50. C'est un processus d'essais et d'erreurs pour trouver la bonne valeur de départ, mais Ekos ne l'utilise que pour le premier déplacement de mise au point, tous les suivants dépendant de la pente de la courbe en V. Les fonctionnalités principales incluent : "
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:154 ekos-focus.docbook:181
 #, no-c-format
 msgid "The algorithm relies on the focuser having well controlled backlash."
-msgstr "L'algorithme repose sur un jeu (backlash) du moteur de mise au point bien contrôlé."
+msgstr "L'algorithme repose sur un jeu du moteur de mise au point bien contrôlé."
 
 #. Tag: para
 #. +> trunk5
@@ -202,14 +202,14 @@ msgstr "L'algorithme peut être rapide en utilisant un nombre minimum d'étapes.
 #: ekos-focus.docbook:164
 #, no-c-format
 msgid "The algorithm works on a \"good enough\" paradigm whereby it stops when the HFR is within % Tolerance of the perceived minimum."
-msgstr "L'algorithme fonctionne grâce à un paradigme « acceptable » selon lequel il s'arrête quand le HFR se trouve dans un certain pourcentage de tolérance du minimum perçu."
+msgstr "L'algorithme fonctionne grâce à un paradigme « acceptable » selon lequel il s'arrête quand le HFR se trouve dans une plage de % de tolérance du minimum perçu."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:172
 #, no-c-format
 msgid "<emphasis role=\"bold\">Polynomial</emphasis>: In the Polynomial algorithm, the process starts off in Iterative mode, but once we cross to the other side of the V-Curve (once HFR values start increasing again after decreasing for a while), then Ekos performs quadratic curve fitting to find a solution that predicts the minimum possible HFR position. Key features include:"
-msgstr "<emphasis role=\"bold\">Polynomial</emphasis> : avec cet algorithme, la procédure débute en mode Itératif mais une fois que l'on franchit l'autre côté de la courbe en V (quand les valeurs HFR recommencent d'augmenter après avoir diminué pour un moment), Ekos commence un calcul de régression polynomial afin de trouver une solution qui prédit la position HFR minimale. Les fonctionnalités principales incluent : "
+msgstr "<emphasis role=\"bold\">Polynomial</emphasis> : dans cet algorithme, la procédure débute en mode Itératif mais une fois que l'on franchit l'autre côté de la courbe en V (quand les valeurs HFR recommencent d'augmenter après avoir diminué pour un moment), Ekos commence un calcul de régression polynomial afin de trouver une solution qui prédit la position HFR minimale. Les fonctionnalités principales incluent : "
 
 #. Tag: para
 #. +> trunk5
@@ -244,7 +244,7 @@ msgstr "Réglages du train optique"
 #: ekos-focus.docbook:217
 #, no-c-format
 msgid "The Optical Train group displays the currently selected Optical Train. By default this will be the primary imaging train, but other trains can be selected. The group consists of:"
-msgstr "Le groupe du train optique affiche le train optique actuellement sélectionné. C'est par défaut le train d'acquisition primaire mais d'autres trains peuvent être sélectionnée. Il consiste en :"
+msgstr "Le groupe du train optique affiche le train optique actuellement sélectionné. C'est par défaut le train d'acquisition primaire mais d'autres trains peuvent être sélectionnés. Il consiste en :"
 
 #. Tag: para
 #. +> trunk5
@@ -265,7 +265,7 @@ msgstr "<guibutton>Bouton Modifier</guibutton> : affiche la boîte de dialogue 
 #: ekos-focus.docbook:234
 #, no-c-format
 msgid "Focus parameters are saved per Optical Train automatically."
-msgstr "Les paramètres de mise au point sont enregistrés par train optique automatiquement."
+msgstr "Les paramètres de mise au point de chaque train optique sont automatiquement enregistrés."
 
 #. Tag: title
 #. +> trunk5
@@ -314,21 +314,21 @@ msgstr "<emphasis role=\"bold\">Position relative</emphasis> : moteur de mise a
 #: ekos-focus.docbook:275
 #, no-c-format
 msgid "<emphasis role=\"bold\">Time Based</emphasis>: Time based focusers with no position feedback that adjust focus position by moving for a certain amount of time."
-msgstr "<emphasis role=\"bold\">Fondé sur une durée</emphasis> : les moteurs de mise au point fondus sur une durée n'ont pas de donnée de position mais ajuste la position de mise en se déplaçant pendant une certaine durée."
+msgstr "<emphasis role=\"bold\">Fondé sur une durée</emphasis> : les moteurs de mise au point fondés sur une durée n'ont pas de donnée de position mais ajuste la position de mise au point en se déplaçant pendant une certaine durée."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:281
 #, no-c-format
 msgid "The <guibutton>Focuser</guibutton> field contains the focuser in the attached Optical Train."
-msgstr "Le champ <guibutton>Moteur de mise au point</guibutton> contient le moteur de mise au point pour le train optique attaché."
+msgstr "Le champ <guibutton>Moteur de mise au point</guibutton> contient le moteur de mise au point du train optique actuel."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:284
 #, no-c-format
 msgid "For absolute and relative focusers, the step size is in units of <emphasis>ticks</emphasis> and for simple, or time based, focusers, the step size is in <emphasis>milliseconds</emphasis>. The <guibutton>In</guibutton> and <guibutton>Out</guibutton> buttons can then be used to move the focuser by the number of ticks defined in the <guibutton>Initial Step Size</guibutton> field in the <link linkend=\"focus-mechanics\">Mechanics</link> tab."
-msgstr "Pour les moteurs de mise au point à position absolue et relative, l'unité est le <emphasis>pas</emphasis> et en <emphasis>millisecondes</emphasis> pour les moteurs simples ou fondés sur le temps. Les boutons <guibutton>En avant</guibutton> et <guibutton>En arrière</guibutton> peuvent ensuite être utilisés pour déplacer le moteur de ce nombre de pas défini dans le champ <guibutton>Taille initiale de pas</guibutton> dans l'onglet <link linkend=\"focus-mechanics\">Mécaniques</link>."
+msgstr "Pour les moteurs de mise au point à position absolue et relative, l'unité est le <emphasis>pas</emphasis> et les <emphasis>millisecondes</emphasis> pour les moteurs simples ou fondés sur le temps. Les boutons <guibutton>En avant</guibutton> et <guibutton>En arrière</guibutton> peuvent ensuite être utilisés pour déplacer le moteur de ce nombre de pas défini dans le champ <guibutton>Taille initiale de pas</guibutton> dans l'onglet <link linkend=\"focus-mechanics\">Mécaniques</link>."
 
 #. Tag: para
 #. +> trunk5
@@ -342,21 +342,21 @@ msgstr "Les champs de pas ont 2 parties :"
 #: ekos-focus.docbook:295
 #, no-c-format
 msgid "<emphasis role=\"bold\">Left Hand Steps</emphasis>: Current focuser position. This is output only and is updated as the focuser moves to reflect the current position."
-msgstr "<emphasis role=\"bold\">Pas gauches</emphasis> : position actuelle du moteur de mise au point. Ce n'est que de l'affichage et est rafraîchi en même temps que le moteur de mise au point se déplace."
+msgstr "<emphasis role=\"bold\">Champ gauche</emphasis> : position actuelle du moteur de mise au point. Ce n'est que de l'affichage et est rafraîchi en même temps que le moteur de mise au point se déplace."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:300
 #, no-c-format
 msgid "<emphasis role=\"bold\">Right Hand Steps</emphasis>: This is input and allows the user to enter a desired position. When the <guibutton>Goto</guibutton> button is pressed, the focuser is moved from its current position to the position indicated in this field."
-msgstr "<emphasis role=\"bold\">Pas droites</emphasis> : c'est une valeur en entrée que l'opérateur peut modifier pour obtenir une position particulière. Lorsque que le bouton <guibutton>Goto</guibutton> est cliqué, le moteur de mise au point se déplacera depuis la position actuelle jusqu'à la position saisie en entrée."
+msgstr "<emphasis role=\"bold\">Champ droite</emphasis> : c'est une valeur en entrée que l'opérateur peut modifier pour obtenir une position particulière. Lorsque que le bouton <guibutton>Goto</guibutton> est cliqué, le moteur de mise au point se déplacera depuis la position actuelle jusqu'à la position saisie en entrée."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:306
 #, no-c-format
 msgid "On startup, the Left Hand Steps will show the current focuser position. The Right Hand Steps field is defaulted from the Optical Train saved settings. This is useful, for example, if you have several Optical Trains that use the same focuser but solve at different positions. In this case, the Right Hand Steps will contain the last persisted value for this field for the selected Optical Train. So, after swapping equipment and selecting the Optical Train, if the user presses the <guibutton>Goto</guibutton> button then the focuser will be moved to a good place to start focusing from."
-msgstr "Au départ, la valeur Pas gauches affichera la position actuelle du moteur de mise au point. Le champ Pas droite prendra comme valeur par défaut celle du train optique enregistré dans les réglages. Cela est utile par exemple lorsque vous avez plusieurs trains optiques qui utilisent le même moteur de mise au point mais dont la position de la mise au point est différente. Dans ce cas, la valeur Pas gauche sera celle de la dernière valeur pour le train optique sélectionné. Ainsi, après avoir changé de matériel et choisi le train optique adéquat, un clic sur le bouton <guibutton>Goto</guibutton> entraînera le moteur de mise au point à une position qui sera un bon point de départ."
+msgstr "Au départ, la valeur du champ de gauche affichera la position actuelle du moteur de mise au point. Le champ droite prendra comme valeur par défaut celle du train optique enregistré dans les réglages. Cela est utile par exemple lorsque vous avez plusieurs trains optiques qui utilisent le même moteur de mise au point mais dont la position de la mise au point est différente. Dans ce cas, la valeur du champ de gauche sera celle de la dernière valeur pour le train optique sélectionné. Ainsi, après avoir changé de matériel et choisi le train optique adéquat, un clic sur le bouton <guibutton>Goto</guibutton> entraînera le moteur de mise au point à une position qui sera un bon point de départ."
 
 #. Tag: para
 #. +> trunk5
@@ -377,21 +377,21 @@ msgstr "Le bouton <guibutton>Arrêter mouvement</guibutton> arrête le mouvement
 #: ekos-focus.docbook:320
 #, no-c-format
 msgid "The <guibutton>Auto Focus</guibutton> button starts an Autofocus run. The <guibutton>Stop</guibutton> button is used to stop the run."
-msgstr "Le bouton <guibutton>Mise au point automatique</guibutton> démarre l'exécution de la procédure de mise au point automatique. Le bouton <guibutton>Stop</guibutton> l'arrête."
+msgstr "Le bouton <guibutton>Mise au point automatique</guibutton> démarre l'exécution de la procédure de mise au point automatique. Le bouton <guibutton>Arrêter</guibutton> l'arrête."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:324
 #, no-c-format
 msgid "The <guibutton>Capture Image</guibutton> button will take a frame based on the current settings in the <link linkend=\"focus-ccd-filter-wheel\"> Camera &amp; Filter Wheel Group</link>. The <guibutton>Start Framing</guibutton> button will start repeatedly capturing frames until the <guibutton>Stop</guibutton> button is pressed."
-msgstr "Le bouton <guibutton>Acquisition image</guibutton> démarre l'acquisition d'une image fondée sur les réglages actuels du <link linkend=\"focus-ccd-filter-wheel\">groupe APN et roue à filtres</link>. Le bouton <guibutton>En boucle</guibutton> démarre l'acquisition en boucle de trames jusqu'à ce que le bouton <guibutton>Arrêter</guibutton> soit activé."
+msgstr "Le bouton <guibutton>Acquisition image</guibutton> démarre l'acquisition d'une image dont les réglages actuels proviennent de <link linkend=\"focus-ccd-filter-wheel\">groupe APN et roue à filtres</link>. Le bouton <guibutton>En boucle</guibutton> démarre l'acquisition en boucle jusqu'à ce que le bouton <guibutton>Arrêter</guibutton> soit cliqué."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:330
 #, no-c-format
 msgid "Some of the focus algorithms will attempt to cope with being started away from the point of optimum focus, but for predictable results, it is best to start from a position of being approximately in focus. For first time setup, <guibutton>Start Framing</guibutton> can be used along with the <guibutton>In</guibutton> and <guibutton>Out</guibutton> buttons to adjust the focus position to roughly minimize the HFR of the stars in the captured images. When Framing is used in this way, the <link linkend=\"focus-v-curve\">V-Curve</link> graph changes to show a time series of frames and their associated HFRs. This makes the framing process much easier to perform."
-msgstr "Certains algorithmes de mise au point essaient de se débrouiller quand la procédure débute loin de la position optimale de mise au point. Néanmoins, il est toujours mieux de débuter d'une position proche de la mise au point. Pour les premiers réglages, l'utilisation de l'acquisition <guibutton>En boucle</guibutton> et des boutons <guibutton>En avant</guibutton> et <guibutton>En arrière</guibutton> simplifie la recherche de la position de mise au point en cherchant un HFR grossier des images acquises. Lorsque l'acquisition en boucle est utilisée de cette manière, le graphique de la <link linkend=\"focus-v-curve\">courbe en V</link> est modifié pour afficher une série temporelle des trames et leur valeur de HFR associée. Cela rend la procédure beaucoup plus simple à réaliser."
+msgstr "Certains algorithmes de mise au point essaient de se débrouiller quand la procédure débute loin de la position optimale de mise au point. Néanmoins, il est toujours mieux de débuter d'une position proche de la mise au point. Pour les premiers réglages, l'utilisation de l'acquisition <guibutton>En boucle</guibutton> et des boutons <guibutton>En avant</guibutton> et <guibutton>En arrière</guibutton> simplifie la recherche de la position de mise au point en cherchant un HFR grossier des images. Lorsque l'acquisition en boucle est utilisée de cette manière, le graphique de la <link linkend=\"focus-v-curve\">courbe en V</link> est modifié pour afficher une série temporelle des images et leur valeur de HFR associée. Cela rend la procédure beaucoup plus simple à réaliser."
 
 #. Tag: para
 #. +> trunk5
@@ -426,7 +426,7 @@ msgstr "<phrase>Caméra de mise au point &amp; roue à filtres</phrase>"
 #: ekos-focus.docbook:364
 #, no-c-format
 msgid "This section of parameters deals with the Camera and Filter settings to use when focusing."
-msgstr "Cette partie de paramètres gèrent les réglages de la caméra et des filtres à utiliser lors de la mise au point."
+msgstr "Cette section de paramètres gèrent les réglages de la caméra et des filtres à utiliser lors de la mise au point."
 
 #. Tag: para
 #. +> trunk5
@@ -447,14 +447,14 @@ msgstr "<guilabel>Exp</guilabel> : la durée d'exposition en secondes."
 #: ekos-focus.docbook:375
 #, no-c-format
 msgid "The <guibutton>Toggle Full Screen</guibutton> button pops the window displaying the focus frame out to a separate window. Pressing it again returns it within the focus window."
-msgstr "Le bouton <guibutton>Mode plein écran</guibutton> ouvre une fenêtre séparée affichant la trame de mise au point. Un nouveau clic bascule vers l'affichage intégré."
+msgstr "Le bouton <guibutton>Mode plein écran</guibutton> ouvre une fenêtre séparée affichant l'image de mise au point. Un nouveau clic bascule vers l'affichage intégré."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:381
 #, no-c-format
 msgid "The <guibutton>Show in FITS Viewer</guibutton> button pops-up a separate FITS Viewer window to display the focus frame, in addition to the focus frame displayed within the focus window."
-msgstr "Le bouton <guibutton>Afficher dans l'afficheur FITS</guibutton> ouvre une fenêtre séparée de l'afficheur FITS pour l'affichage de la trame de mise au point, en plus de celle affichée dans la fenêtre de mise au point."
+msgstr "Le bouton <guibutton>Afficher dans l'afficheur FITS</guibutton> ouvre une fenêtre séparée de l'afficheur FITS pour l'affichage de l'image de mise au point, en plus de celle affichée dans la fenêtre de mise au point."
 
 #. Tag: para
 #. +> trunk5
@@ -496,14 +496,14 @@ msgstr "<guilabel>ISO</guilabel> : règle l'ISO de la caméra utilisée pour la
 #: ekos-focus.docbook:422
 #, no-c-format
 msgid "The third row of controls deals with the Temperature Source and Filter, if there is one:"
-msgstr "La troisième ligne de boutons de contrôle gère la source de température et les filtre, s'il en existe une :"
+msgstr "La troisième ligne de boutons de contrôle gère la source de température et les filtres :"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:427
 #, no-c-format
 msgid "<guilabel>TS</guilabel>: Select the temperature source from the dropdown. Underneath are displayed the current temperature from the selected temperature source and the change in temperature between when the last successful Autofocus run completed and the current temperature. It is common practice to redo focus after significant temperature changes that alter the telescope's focus point."
-msgstr "<guilabel>TS</guilabel> : choisissez la source de température depuis la liste déroulante. La température courante est affichée juste en dessous ainsi que la variation de température depuis la dernière mise au point automatique. C'est une pratique courante de relancer une mise au point quand la température varie significativement puisque cela altère la position de mise au point du télescope."
+msgstr "<guilabel>TS</guilabel> : choisissez la source de température depuis la liste déroulante. La température actuelle est affichée juste en dessous ainsi que la variation de température depuis la dernière mise au point automatique. C'est une pratique courante de relancer une mise au point quand la température varie significativement puisque cela altère la position de mise au point du télescope."
 
 #. Tag: para
 #. +> trunk5
@@ -524,7 +524,7 @@ msgstr "La mise au point sera probablement plus aisée à obtenir en choisissant
 #: ekos-focus.docbook:448
 #, no-c-format
 msgid "<guibutton>Reset</guibutton> button will reset the focusing subframe to full frame."
-msgstr "Le bouton <guibutton>Réinitialiser</guibutton> permet de réinitialiser la sous-trame de mise au point en une trame complète."
+msgstr "Le bouton <guibutton>Réinitialiser</guibutton> permet de réinitialiser les réglages."
 
 #. Tag: title
 #. +> trunk5
@@ -552,28 +552,28 @@ msgstr "<phrase>Réglages de la mise au point</phrase>"
 #: ekos-focus.docbook:471
 #, no-c-format
 msgid "Next are 5 tabbed panes of parameters. These parameters are retained between sessions. First up is the Settings pane."
-msgstr "Ensuite sont affichés cinq onglets de panneau de réglages. Ces paramètres sont conservés entre sessions. Le premier est le panneau de réglages."
+msgstr "Ensuite il y a cinq onglets contenant des panneaux de réglages. Ces paramètres sont conservés entre les sessions. Le premier est le panneau de Réglages."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:476
 #, no-c-format
 msgid "<guilabel>Auto Select Star</guilabel>: This setting is only relevant if <guilabel>Sub Frame</guilabel> is selected. In this case if <guilabel>Auto Select Star</guilabel> is selected then Ekos will select the star to use for focus; otherwise the user will have to manually select the star using FitsViewer."
-msgstr "<guilabel>Sélection automatique d'étoile</guilabel> : ce réglage n'est pertinent que si <guilabel>Sous-trame</guilabel> est sélectionné. Dans ce cas, Ekos sélectionnera automatiquement une étoile pour la mise au point ; dans le cas contraire, l'opérateur devra choisir lui-même l'étoile en utilisant l'afficheur Fits."
+msgstr "<guilabel>Sélection automatique d'étoile</guilabel> : ce réglage n'est activé que si <guilabel>Sous-trame</guilabel> est sélectionné. Dans ce cas, Ekos sélectionnera automatiquement une étoile pour la mise au point ; dans le cas contraire, l'opérateur devra choisir lui-même l'étoile en utilisant l'afficheur FITS."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:483
 #, no-c-format
 msgid "<guilabel>Suspend Guiding</guilabel>: Set this option to suspend guiding during an Autofocus run. The purpose of this is to prevent guiding from having problems with defocused stars during the focus process where, for example, the guide scope is attached to the main telescope using an OAG."
-msgstr "<guilabel>Suspendre le guidage</guilabel> : cocher cette option pour suspendre le guidage durant la procédure de mise au point automatique. La raison est de prévenir le guidage d'avoir des problèmes avec des étoiles dont la mise au point n'est pas faite lors de la procédure de mise au point, comme par exemple avec un guide hors axe (OAG) monté sur le télescope primaire."
+msgstr "<guilabel>Suspendre le guidage</guilabel> : cochez cette option pour suspendre le guidage durant la procédure de mise au point automatique. La raison est de prévenir le guidage d'avoir des problèmes avec des étoiles dont la mise au point n'est pas faite lors de la procédure de mise au point, comme par exemple avec un guide hors axe (OAG) monté sur le télescope primaire."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:491
 #, no-c-format
 msgid "<guilabel>Dark Frame</guilabel>: Check this option to perform dark-frame subtraction. This option can be useful in noisy images, where a pretaken dark is subtracted from the focus image before further processing."
-msgstr "<guilabel>Trame Dark</guilabel> : cochez cette option pour réaliser une soustraction d'une trame Dark. Cette option peut être utile pour les images contenant beaucoup de bruit où un Dark est soustrait de l'image de mise au point avant tout autre traitement."
+msgstr "<guilabel>Trame Dark</guilabel> : cochez cette option pour réaliser une soustraction d'une trame Dark. Cette option peut être utile pour les images contenant beaucoup de bruit où un Dark préalablement acquis est soustrait de l'image de mise au point avant tout autre traitement."
 
 #. Tag: para
 #. +> trunk5
@@ -594,14 +594,14 @@ msgstr "Les trames Dark sont utilisées pour la mise au point, l'alignement et l
 #: ekos-focus.docbook:505
 #, no-c-format
 msgid "<guilabel>Full Field</guilabel>: Select to use the full field of the camera. In this mode, focus will automatically select multiple stars for use in an Autofocus run. The alternative to this is <guilabel>Sub Frame</guilabel>."
-msgstr "<guilabel>Champ plein</guilabel> : utilise le champ plein de l'appareil. Dans ce mode, la mise au point va automatiquement sélectionner plusieurs étoiles pour la procédure de mise au point automatique. Une alternative à cela est <guilabel>Sous-trame</guilabel>."
+msgstr "<guilabel>Plein Champ</guilabel> : utilise le plein champ de l'appareil. Dans ce mode, la mise au point va automatiquement sélectionner plusieurs étoiles pour la procédure de mise au point automatique. Une alternative à cela est <guilabel>Sous-trame</guilabel>."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:511
 #, no-c-format
 msgid "<guilabel>Sub Frame</guilabel>: Select to use a single star for the Autofocus process. The alternative to this is <guilabel>Full Field</guilabel> where multiple stars will be used by Autofocus. Depending on the setting of <guilabel>Auto Select Star</guilabel> either the user or Ekos will select the star."
-msgstr "<guilabel>Sous-trame</guilabel> : sélectionner pour utiliser une seule étoile pour la procédure de mise au point automatique. Une alternative à cela est d'utiliser <guilabel>Champ plein</guilabel> où plusieurs étoiles seront utilisées. Selon les réglages de <guilabel>Sélection automatique d'étoile</guilabel>, soit l'opérateur aura à choisir l'étoile soit Ekos s'en chargera."
+msgstr "<guilabel>Sous-trame</guilabel> : sélectionner pour utiliser une seule étoile pour la procédure de mise au point automatique. Une alternative à cela est d'utiliser <guilabel>Plein Champ</guilabel> où plusieurs étoiles seront utilisées. Selon les réglages de <guilabel>Sélection automatique d'étoile</guilabel>, soit l'opérateur aura à choisir l'étoile soit Ekos s'en chargera."
 
 #. Tag: para
 #. +> trunk5
@@ -615,7 +615,7 @@ msgstr "<guilabel>Taille de la boîte</guilabel> : règle la taille de la boît
 #: ekos-focus.docbook:526
 #, no-c-format
 msgid "<guilabel>Display Units</guilabel>: Select the units for display on the Autofocus V-Curve when HFR or FWHM is selected. <emphasis role=\"bold\">Pixels</emphasis> and <emphasis role=\"bold\">Arc Seconds</emphasis> are supported."
-msgstr "<guilabel>Afficher les unités</guilabel> : sélectionner les unités à afficher sur la courbe en V de la procédure de mise au point automatique quand la méthode HFR ou FWHM est sélectionnée."
+msgstr "<guilabel>Afficher les unités</guilabel> : sélectionnez les unités à afficher sur la courbe en V de la procédure de mise au point automatique quand la méthode HFR ou FWHM est sélectionnée."
 
 #. Tag: para
 #. +> trunk5
@@ -650,14 +650,14 @@ msgstr "<guilabel>Utiliser toutes les étoiles pour la mise au point</guilabel>�
 #: ekos-focus.docbook:549
 #, no-c-format
 msgid "<guilabel>Ring Mask</guilabel>: This option provides two input fields that together define a doughnut over the FOV of the camera. Stars falling outside of the doughnut are discounted from processing. Setting an inner value above 0% causes stars in the centre of the FOV to be discarded. This could be useful to avoid using stars in the target of the image (for example a galaxy) for focusing purposes. Setting an outer value below 100% causes stars in the edges of the FOV to be discarded during focusing. This could be useful if you do not have a flat field out to the edges of your FOV."
-msgstr "<guilabel>Masque annulaire</guilabel> : cette option fournit deux champs d'entrée qui définissent une surface en forme de beignet recouvrant le champ de vue de l'appareil. Les étoiles en dehors de cette région ne sont pas prise en compte dans le traitement. En réglant la valeur intérieure au dessus de 0 %, les étoiles au centre du CdV sont rejetées. Cela peut être utile pour éviter d'utiliser des étoiles de la cible de l'image (par exemple une galaxie) pour la procédure de mise au point. En réglant la valeur extérieure sous 100 %, les étoiles se trouvant sur les bords du CdV sont rejetées. Cela peut être utile si vous ne disposez pas d'une image flat allant jusqu'aux coins du CdV."
+msgstr "<guilabel>Masque annulaire</guilabel> : cette option fournit deux champs d'entrée qui définissent une surface en forme de beignet recouvrant le champ de vue (CdV) de l'appareil. Les étoiles en dehors de cette région ne sont pas prise en compte dans le traitement. En réglant la valeur intérieure au dessus de 0 %, les étoiles au centre du CdV sont rejetées. Cela peut être utile pour éviter d'utiliser des étoiles de la cible de l'image (par exemple une galaxie) pour la procédure de mise au point. En réglant la valeur extérieure sous 100 %, les étoiles se trouvant sur les bords du CdV sont rejetées. Cela peut être utile si vous ne disposez pas d'une image flat allant jusqu'aux coins du CdV."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:561
 #, no-c-format
 msgid "<guilabel>Mosaic Mask</guilabel>: A 3x3 mosaic is composed with tiles from the image center, its corners and from the edges. This option is useful if you want to inspect the optics performance - you might know this from the PixInsight Aberration Inspector script. The tile size can be configured in percent of the frame width, with the spacer value specifying the space between the tiles."
-msgstr "<guilabel>Masque de mosaïque</guilabel> : une mosaïque 3x3 est composée de tuiles du centre de l'image, de ses coins et de ses côtés. Cette option est utile si vous souhaitez inspecter la performance des optiques - vous connaissez peut-être ceci du script de l'inspecteur d'aberrations de PixInsight. La taille des tuiles peut être configurée en pourcent de la largeur de l'image avec la valeur du séparateur spécifiant l'espace entre les tuiles."
+msgstr "<guilabel>Masque de mosaïque</guilabel> : une mosaïque 3x3 est composée de tuiles du centre de l'image, de ses coins et de ses côtés. Cette option est utile si vous souhaitez inspecter la performance des optiques (vous connaissez peut-être ceci du script de l'inspecteur d'aberrations de PixInsight). La taille des tuiles peut être configurée en pourcent de la largeur de l'image avec la valeur du séparateur spécifiant l'espace entre les tuiles."
 
 #. Tag: para
 #. +> trunk5
@@ -678,21 +678,21 @@ msgstr "La vérification de la mise au point sur toute la surface du capteur : 
 #: ekos-focus.docbook:576
 #, no-c-format
 msgid "Correcting image tilt: especially large sensors are very sensitive to incorrect distance and tilting of the sensor. In such cases, the image shows aberration, especially in the image corners. If all corners show the same effect, the distance needs to be corrected. If the aberrations in the corners differ, this is typically the result of a tilted sensor."
-msgstr "La correction de l'inclinaison de l'image : les grands capteurs sont particulièrement sensibles à une distance et une inclinaison du capteur. Dans de tels cas, l'image présente une aberration, surtout dans les coins. Si tous les coins sont touchés par le même effet, alors il est nécessaire de corriger les distances. Si ces aberrations sont différentes dans les coins, cela est typique d'une inclinaison du capteur."
+msgstr "La correction de l'inclinaison de l'image : les grands capteurs sont particulièrement sensibles à une distance et une inclinaison du capteur. Dans de tels cas, l'image présente une aberration, surtout dans les coins. Si tous les coins sont touchés par le même effet, alors il est alors nécessaire de corriger les distances. Si ces aberrations sont différentes dans les coins, cela est typique d'une inclinaison du capteur."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:583
 #, no-c-format
 msgid "Collimating Newtonians: inspecting frames in a defocused state is typically used for collimating Newtonians. See, for example, Tommy Nawratil's <ulink url=\"https://teleskop-austria.at/information/pdf/JUS_Photonewton_Collimation_Primer_EN.pdf\"> The Photonewton Collimation Primer</ulink> for more details."
-msgstr "La collimation des télescopes de Newton : l'inspection des images à une position légèrement hors mise au point est typiquement utilisée pour régler ces télescopes. Référez-vous par exemple à l'article de Tommy Nawratil <ulink url=\"https://teleskop-austria.at/information/pdf/JUS_Photonewton_Collimation_Primer_EN.pdf\">The Photonewton Collimation Primer</ulink> pour davantage de détails."
+msgstr "La collimation des télescopes de Newton : l'inspection des images à une position légèrement éloignée de la mise au point est typiquement utilisée pour régler ces télescopes. Référez-vous par exemple à l'article de Tommy Nawratil <ulink url=\"https://teleskop-austria.at/information/pdf/JUS_Photonewton_Collimation_Primer_EN.pdf\">The Photonewton Collimation Primer</ulink> pour davantage de détails."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:594
 #, no-c-format
 msgid "The next set of controls relate to <emphasis role=\"bold\">Adaptive Focus</emphasis>. This is an experimental feature in Ekos. The idea here is to keep the telescope focused by adapting the focuser position based on changes in environmental conditions without having to perform a full Autofocus run. See the <link linkend=\"focus-adaptive\">Adaptive Focus</link> section for more details."
-msgstr "L'ensemble suivant de boutons est associé à la <emphasis role=\"bold\">mise au point adaptative</emphasis>. C'est une fonctionnalité encore expérimentale. L'idée ici est de conserver la mise au point au point du télescope en adaptant la position du moteur de mise au point en fonction de conditions environnementales sans avoir à lancer une procédure complète de mise au point automatique. Voir la section <link linkend=\"focus-adaptive\">Mise au point adaptative</link> pour davantage de détails."
+msgstr "L'ensemble suivant de boutons est associé à la <emphasis role=\"bold\">mise au point adaptative</emphasis>. C'est une fonctionnalité encore expérimentale. L'idée ici est de conserver la mise au point du télescope en adaptant la position du moteur de mise au point en fonction de conditions environnementales sans avoir à lancer une procédure complète de mise au point automatique. Voir la section <link linkend=\"focus-adaptive\">Mise au point adaptative</link> pour davantage de détails."
 
 #. Tag: para
 #. +> trunk5
@@ -727,21 +727,21 @@ msgstr "<guilabel>Mise au point adaptative</guilabel> : sélectionnez cette opt
 #: ekos-focus.docbook:620
 #, no-c-format
 msgid "<guilabel>Min Move</guilabel>: The minimum Adaptive Focus movement allowed."
-msgstr "<guilabel>Itération</guilabel> : le nombre de points utilisés jusqu'ici."
+msgstr "<guilabel>Déplacement minimale</guilabel> : le déplacement minimale de la mise au point adaptative autorisé."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:624
 #, no-c-format
 msgid "<guilabel>Adapt Start Pos</guilabel>: Check to allow Adaptive Focus to calculate the start position for an Autofocus run. The starting position is the last good solve position for the selected filter, adapted for environmental changes."
-msgstr "<guilabel>Masque de mosaïque</guilabel> : une mosaïque 3x3 est composée de tuiles du centre de l'image, de ses coins et de ses côtés. Cette option est utile si vous souhaitez inspecter la performance des optiques - vous connaissez peut-être ceci du script de l'inspecteur d'aberrations de PixInsight."
+msgstr "<guilabel>Position de départ</guilabel> : cochez pour permettre à la mise au point adaptative de calculer la position de départ d'une passe de mise au point automatique. Cette position est la dernière position de bonne résolution pour un filtre donné, adaptées aux changements de conditions."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:628
 #, no-c-format
 msgid "For example, if the current focuser position is 1000, temperature = 4C, and if the Red filter is selected (last good focus position for Red is 990 @ 5C and Ekos is configured to move +3 <guilabel>Ticks / °C</guilabel>). Then, if Adapt Start Pos is off, Autofocus will start at 1000. If Adapt Start Pos is on, Autofocus will start at 990 + (5 - 4) * 3 = 993."
-msgstr "Par exemple, si la position actuelle du moteur de mise au point est 1000, la température de 4°C et que le filtre rouge est sélectionné (la dernière bonne position de mise au point pour le filtre rouge est 990 à 5°C et Ekos est configuré pour se déplacer de °3 <guilabel>Pas/°C</guilabel>), alors si l'option de position de départ est à Off, le moteur de mise au point automatique démarrera à 1000. Si elle est à On, elle démarrera à 990+(5-4)*3=993."
+msgstr "Par exemple, si la position actuelle du moteur de mise au point est 1000, la température de 4°C et que le filtre rouge est sélectionné (la dernière bonne position de mise au point pour le filtre rouge est 990 à 5°C et Ekos est configuré pour se déplacer de °3 <guilabel>Pas / °C</guilabel>), alors si l'option de position de départ est à Off, le moteur de mise au point automatique démarrera à 1000. Si elle est à On, elle démarrera à 990+(5-4)*3=993."
 
 #. Tag: para
 #. +> trunk5
@@ -755,7 +755,7 @@ msgstr "Cette fonctionnalité est utile pour s'assurer que le moteur de mise au 
 #: ekos-focus.docbook:638
 #, no-c-format
 msgid "It is possible to use this feature on its own without Adaptive Focus. Just set the checkbox and leave the ticks per degree C set to zero. This way the Autofocus start position will be filter dependent and will start each Autofocus run at the focus point of the last successful Autofocus run for that filter."
-msgstr "Il est possible d'utiliser cette fonctionnalité seule sans la mise au point automatique. Il suffit pour cela de cocher la case et laisser la valeur de pas/°C à zéro. Ainsi la position de départ de la mise au point automatique sera dépendante du filtre utilisé et démarrera chaque processus à la position de mise au point de la dernière position réussie pour le filtre en question."
+msgstr "Il est possible d'utiliser cette fonctionnalité seule sans la mise au point automatique. Il suffit pour cela de cocher la case et laisser la valeur de Pas / °C à zéro. Ainsi la position de départ de la mise au point automatique sera dépendante du filtre utilisé et démarrera chaque processus à la position de mise au point de la dernière position réussie pour le filtre en question."
 
 #. Tag: para
 #. +> trunk5
@@ -937,7 +937,7 @@ msgstr "Il n'est plus recommandé d'utiliser cette courbe."
 #: ekos-focus.docbook:810
 #, no-c-format
 msgid "<guilabel>Measure</guilabel>: Select Measure to use in the focus process. The following are available:"
-msgstr "<guilabel>Mesure</guilabel> : choisissez cette mesure pour la procédure de mise au point automatique. Les options suivantes sont disponibles :"
+msgstr "<guilabel>Mesure</guilabel> : choisissez une mesure pour la procédure de mise au point automatique. Les options suivantes sont disponibles :"
 
 #. Tag: para
 #. +> trunk5
@@ -1035,7 +1035,7 @@ msgstr "<emphasis role=\"bold\">Fourier</emphasis> : cette méthode utilise une
 #: ekos-focus.docbook:868
 #, no-c-format
 msgid "This follows the main idea suggested by Tan and Schulz in their paper: <ulink url=\"https://arxiv.org/pdf/2201.12466.pdf\">A Fourier method for the determination of focus for telescopes with stars</ulink>. Please note that this paper makes other processing suggestions beyond the idea of using Fourier Transforms that are not included within Ekos"
-msgstr "Cette méthode implémente l'idée principale de Tan et Schulz dans leur papier <ulink url=\"https://arxiv.org/pdf/2201.12466.pdf\">A Fourier method for the determination of focus for telescopes with stars</ulink>. Veuillez noter que d'autres idées sont formulées dans ce papier mais ne sont pas inclues dans Ekos."
+msgstr "Cette méthode implémente l'idée principale de Tan et Schulz dans leur papier <ulink url=\"https://arxiv.org/pdf/2201.12466.pdf\">A Fourier method for the determination of focus for telescopes with stars</ulink>. Veuillez noter que d'autres idées sont formulées dans ce papier mais ne sont pas implémentées dans Ekos."
 
 #. Tag: para
 #. +> trunk5
@@ -1049,14 +1049,14 @@ msgstr "Cette méthode est relativement nouvelle dans la communauté astronomiqu
 #: ekos-focus.docbook:880
 #, no-c-format
 msgid "<guilabel>PSF</guilabel>: If <guilabel>Measure</guilabel> is set to FWHM, then the PSF widget can be selected for use in fitting a surface to the star. At present just Gaussian is supported."
-msgstr "<guilabel>PSF</guilabel> : si <guilabel>Mesure</guilabel> est réglé à FWHM, alors le composant graphique PSF peut être sélectionné pour être utilisé pour appliquer la régression de la surface à l'étoile. Pour le moment seule la méthode gaussienne est gérée."
+msgstr "<guilabel>PSF</guilabel> : si <guilabel>Mesure</guilabel> est réglé à FWHM, alors le composant graphique PSF peut être sélectionné pour être utilisé pour appliquer la régression de la surface à l'étoile. Pour le moment seule la méthode gaussienne est proposée."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:886
 #, no-c-format
 msgid "<guilabel>Use Weights</guilabel>: This is only available with the Linear 1 Pass focus algorithm and Curve Fits of Hyperbola and Parabola. It requires Full Field to be selected. The option calculates the standard deviation of star Measure and uses the square of this (mathematically the variance) as a weighting in the curve fitting process. The advantage of this is that datapoints with less reliable data and therefore larger HFR standard deviations will be given less weight than more reliable datapoints. If this option is unchecked, and for all other curve fitting where the option is not allowed, all datapoints are given equal weight in the curve fitting process."
-msgstr "<guilabel>Utiliser les poids</guilabel> : cette option est encore expérimentale et n'est disponible qu'avec l'algorithme de mise au point linéaire à 1 passe et le type de courbe hyperbole et parabole. Elle nécessite l'option Champ complet. Elle calcule la déviation standard du HFR des étoiles et utilise le carré de cette valeur (la variance mathématique) comme poids pour la courbe de régression. L'avantage de cette méthode est que les points moins fiables, de déviation standard du HFR plus grande, auront un poids plus petit que les points plus fiables. Si cette option n'est pas cochée, et pour toutes les courbes de régression n'autorisant pas cette option, tous les points auront un poids identique dans le calcul de régression."
+msgstr "<guilabel>Utiliser les poids</guilabel> : cette option est encore expérimentale et n'est disponible qu'avec l'algorithme de mise au point linéaire à 1 passe et le type de courbe hyperbole et parabole. Elle nécessite l'option Plein Champ. Elle calcule la déviation standard du HFR des étoiles et utilise le carré de cette valeur (la variance mathématique) comme poids pour la courbe de régression. L'avantage de cette méthode est que les points moins fiables, de déviation standard du HFR plus grande, auront un poids plus petit que les points plus fiables. Si cette option n'est pas cochée, et pour toutes les courbes de régression n'autorisant pas cette option, tous les points auront un poids identique dans le calcul de régression."
 
 #. Tag: para
 #. +> trunk5
@@ -1084,7 +1084,7 @@ msgstr "Voir le <link linkend=\"Levenberg-Marquardt\">résolveur de Levenberg-Ma
 #: ekos-focus.docbook:902
 #, no-c-format
 msgid "<guilabel>R² Limit</guilabel>: This is only available with the Linear 1 Pass focus algorithm and Curve Fits of Hyperbola and Parabola. As part of the Linear 1 Pass algorithm, the degree to which the curve fits the datapoints, or <link linkend=\"Coefficient_of_Determination\">Coefficient of Determination, R²</link>, is calculated. This option allows a minimum acceptable value of R² to be defined that is compared to the value obtained from the curve fitting process. If the minimum value has not been achieved then Autofocus will rerun. Only one rerun will be performed and even if the minimum R² has not been met the second time, the Autofocus run will still be deemed successful."
-msgstr "<guilabel>Limite r²</guilabel> : cette option est encore expérimentale et n'est disponible qu'avec l'algorithme de mise au point linéaire à 1 passe et le type de courbe hyperbole et parabole. Faisant partie de l'algorithme linéaire à 1 passe, le degré de la courbe de régression, ou <link linkend=\"Coefficient_of_Determination\">coefficient de détermination R²</link> est calculé. Cette option permet de définir une valeur minimale acceptable pour R² qui est comparée à la valeur obtenue par la régression. Si la valeur minimale n'a pas été atteinte, alors la procédure de mise au point automatique est relancée. Néanmoins, une seule relance du processus sera réalisée et même si le minimum de R² n'a pas été atteinte, le processus de mise au point automatique sera considérée comme étant un succès."
+msgstr "<guilabel>Limite R²</guilabel> : cette option est encore expérimentale et n'est disponible qu'avec l'algorithme de mise au point linéaire à 1 passe et le type de courbe hyperbole et parabole. Faisant partie de l'algorithme linéaire à 1 passe, le degré de la courbe de régression, ou <link linkend=\"Coefficient_of_Determination\">coefficient de détermination R²</link> est calculé. Cette option permet de définir une valeur minimale acceptable pour R² qui est comparée à la valeur obtenue par la régression. Si la valeur minimale n'a pas été atteinte, alors la procédure de mise au point automatique est relancée. Néanmoins, une seule relance du processus sera réalisée et même si le minimum de R² n'a pas été atteinte, le processus de mise au point automatique sera considérée comme étant un succès."
 
 #. Tag: para
 #. +> trunk5
@@ -1098,7 +1098,7 @@ msgstr "Testez pour trouver une valeur appropriée mais un bon point de départ 
 #: ekos-focus.docbook:914
 #, no-c-format
 msgid "<guilabel>Refine Curve Fit</guilabel>: This is an experimental option only available with the Linear 1 Pass focus algorithm and Curve Fits of Hyperbola and Parabola. If this option is checked then at the end of the sweep of datapoints, Ekos fits a curve and measures the R². It then applies Peirce's Criterion based on Gould's methodology for outlier identification. See <ulink url=\"https://en.wikipedia.org/wiki/Peirce%27s_criterion\">Peirce's Criterion</ulink> for details incl Peirce's original paper and Gould's paper which are both referenced in the notes. If Peirce's Criterion detects 1 or more outliers then another curve fit is attempted with the outliers removed. Again the R² is calculated and compared with the original curve fit R². If the R² is better, then the latest run is used, if not, the original curve fit (with the outliers included) is used."
-msgstr "<guilabel>Affiner la courbe de régression</guilabel> : cette option est encore expérimentale et n'est disponible qu'avec l'algorithme de mise au point linéaire à 1 passe et le type de courbe hyperbole et parabole. Si cette option est cochée et à la fin du balayage de l'ensemble de points, Ekos calcule la courbe de régression et mesure le R². Le critère de Peirce fondé sur la méthode de Gould est ensuite appliqué pour identifier les points aberrants. Veuillez consulter la page sur <ulink url=\"https://en.wikipedia.org/wiki/Peirce%27s_criterion\">critère de Peirce</ulink> pour les détails (inclus les articles originaux de Peirce et de Gould qui sont référencés dans les notes). Si le critère de Peirce détecte au moins une valeur aberrante, alors une nouvelle courbe est calculée sans ces valeurs aberrantes. Le R² est calculé à nouveau et comparé à l'ancien. S'il est meilleur, la dernière passe est utilisée et sinon, c'est la première (avec les valeurs aberrantes) qui est utilisée."
+msgstr "<guilabel>Affiner la courbe de régression</guilabel> : cette option est encore expérimentale et n'est disponible qu'avec l'algorithme de mise au point linéaire à 1 passe et le type de courbe hyperbole et parabole. Si cette option est cochée et à la fin du balayage de l'ensemble de points, Ekos calcule la courbe de régression et mesure le R². Le critère de Peirce fondé sur la méthode de Gould est ensuite appliqué pour identifier les points aberrants. Veuillez consulter la page sur le <ulink url=\"https://en.wikipedia.org/wiki/Peirce%27s_criterion\">critère de Peirce</ulink> pour les détails (inclus les articles originaux de Peirce et de Gould qui sont référencés dans les notes). Si le critère de Peirce détecte au moins une valeur aberrante, alors une nouvelle courbe est calculée sans ces valeurs aberrantes. Le R² est calculé à nouveau et comparé à l'ancien. S'il est meilleur, la dernière passe est utilisée et sinon, c'est la première (avec les valeurs aberrantes) qui est utilisée."
 
 #. Tag: para
 #. +> trunk5
@@ -1112,7 +1112,7 @@ msgstr "Les valeurs aberrantes sont clairement indiquées sur la courbe en V gr�
 #: ekos-focus.docbook:928
 #, no-c-format
 msgid "<guilabel>Average over</guilabel>: Number of frames to capture at each datapoint. It is usually sensible to start with 1 but increasing this will result in an averaging process for the star Measure selected."
-msgstr "<guilabel>Moyenner</guilabel> : nombre de trames à acquérir pour chaque point de données. Il est généralement raisonnable de commencer à 1 mais l'augmentation de ce nombre résultera dans un processus de calcul de la moyenne pour la mesure des étoiles sélectionnées."
+msgstr "<guilabel>Moyenner sur</guilabel> : nombre d'images à acquérir pour chaque point de données. Il est généralement raisonnable de commencer à 1 mais l'augmentation de ce nombre résultera dans un processus de calcul de la moyenne pour la mesure des étoiles sélectionnées."
 
 #. Tag: para
 #. +> trunk5
@@ -1182,7 +1182,7 @@ msgstr "Veuillez noter que si cette valeur est trop faible, il est possible que 
 #: ekos-focus.docbook:988
 #, no-c-format
 msgid "<title>Focus Mechanics</title>"
-msgstr "<title>Mise au point mécanique</title>"
+msgstr "<title>Mécanique de la mise au point</title>"
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -1190,7 +1190,7 @@ msgstr "<title>Mise au point mécanique</title>"
 #: ekos-focus.docbook:1193 ekos-focus.docbook:1204
 #, no-c-format
 msgid "<screeninfo>Focus Mechanics</screeninfo>"
-msgstr "<screeninfo>Mise au point mécanique</screeninfo>"
+msgstr "<screeninfo>Mécanique de la mise au point</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
@@ -1198,14 +1198,14 @@ msgstr "<screeninfo>Mise au point mécanique</screeninfo>"
 #: ekos-focus.docbook:1195 ekos-focus.docbook:1206
 #, no-c-format
 msgid "<phrase>Focus Mechanics</phrase>"
-msgstr "<phrase>Mise au point mécanique</phrase>"
+msgstr "<phrase>Mécanique de la mise au point</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1004
 #, no-c-format
 msgid "This is the Focus Mechanics parameters pane."
-msgstr "Voici le panneau de configuration des paramètres de la mise au point mécanique."
+msgstr "Voici le panneau de configuration des paramètres de l'aspect mécanique de la mise au point."
 
 #. Tag: para
 #. +> trunk5
@@ -1282,14 +1282,14 @@ msgstr "La différence entre Mélange CFZ et Pas fixes réside dans le fait que 
 #: ekos-focus.docbook:1054
 #, no-c-format
 msgid "<guilabel>Focuser Settle</guilabel>: The number of seconds to wait, after moving the focuser, before starting the next capture. The purpose is to stop any vibrations in the optical train from affecting the next frame."
-msgstr "<guilabel>Stabilisation du moteur de mise au point</guilabel> : règle le nombre de secondes à attendre après déplacement du moteur de mise au point et avant de débuter une nouvelle acquisition. La raison est d'éviter toute vibration du train optique qui pourrait affecter la prochaine trame."
+msgstr "<guilabel>Stabilisation du moteur de mise au point</guilabel> : règle le nombre de secondes à attendre après déplacement du moteur de mise au point et avant de débuter une nouvelle acquisition. La raison est d'éviter toute vibration du train optique qui pourrait affecter la prochaine image."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1060
 #, no-c-format
 msgid "<guilabel>Initial Step size</guilabel>: This sets the step size to be used by various focus algorithms. For absolute and relative focusers this is the number of ticks; for timer based focusers this is the number of milliseconds."
-msgstr "<guilabel>Taille initiale du pas</guilabel> : règle la taille de pas utilisée par différents algorithmes de mise au point. Pour les moteurs de mises au point, cela correspond aux nombres d'encoches ; pour ceux fondés sur le temps, cela correspond aux nombre de millisecondes."
+msgstr "<guilabel>Taille initiale du pas</guilabel> : règle la taille de pas utilisée par différents algorithmes de mise au point. Pour les moteurs de mises au point, cela correspond aux nombres de pas ; pour ceux fondés sur le temps, cela correspond aux nombres de millisecondes."
 
 #. Tag: para
 #. +> trunk5
@@ -1310,7 +1310,7 @@ msgstr "<guilabel>Nombre de pas</guilabel> : utilisé par l'algorithme linéair
 #: ekos-focus.docbook:1078
 #, no-c-format
 msgid "<guilabel>Max Travel</guilabel>: Puts bounds on the amount of travel from the current focuser position that is permitted by the Autofocus algorithms. The purpose is to protect the focuser from travelling too far and potentially damaging itself. On the other hand, the value needs to be big enough to allow sufficient focuser motion to permit the auto focus runs to complete."
-msgstr "<guilabel>Déplacement Max</guilabel> : place des bornes sur le déplacement depuis la position courante qui est autorisé pour l'algorithme de mise au point automatique. La raison est d'éviter que le moteur de se déplacer trop et ainsi le protège de s'endommager. Toutefois, il faut que la valeur soit assez grande pour permettre au moteur de se déplacer suffisamment pour terminer la procédure de mise au point automatique."
+msgstr "<guilabel>Déplacement Max</guilabel> : place des bornes sur le déplacement depuis la position courante qui est autorisé pour l'algorithme de mise au point automatique. La raison est d'éviter que le moteur de se déplace trop et ainsi le protège de s'endommager. Toutefois, il faut que la valeur soit assez grande pour permettre au moteur de se déplacer suffisamment pour terminer la procédure de mise au point automatique."
 
 #. Tag: para
 #. +> trunk5
@@ -1443,7 +1443,7 @@ msgstr "L'idée de l'onglet CFZ est de débuter avec les données du train optiq
 #: ekos-focus.docbook:1168
 #, no-c-format
 msgid "If the <guilabel>Display</guilabel> box is checked then the CFZ is drawn on the V-Curve after Autofocus successfully completes."
-msgstr "Si la case <guilabel>Affichage</guilabel> est cochée alors la CFZ est dessinée sur la courbe en V après que la procédure de mise au point ait été terminée avec succès."
+msgstr "Si la case <guilabel>Affichage</guilabel> est cochée alors la CFZ est dessinée sur la courbe en V après que la procédure de mise au point ce soit terminée avec succès."
 
 #. Tag: para
 #. +> trunk5
@@ -1485,7 +1485,7 @@ msgstr "<emphasis role=\"bold\">Gold</emphasis> : cette méthode est fondée su
 #: ekos-focus.docbook:1214
 #, no-c-format
 msgid "<guilabel>Tolerance</guilabel>: This is used by Classic and Wavefront algorithms and is a scaling factor between 0 and 1."
-msgstr "<guilabel>Tolérance</guilabel> : cette valeur est utilisée par les algorithmes Classique et Front d'onde est un facteur d'échelle dont la valeur est comprise entre 0 et 1."
+msgstr "<guilabel>Tolérance</guilabel> : cette valeur est utilisée par les algorithmes Classique et Front d'onde et est un facteur d'échelle dont la valeur est comprise entre 0 et 1."
 
 #. Tag: para
 #. +> trunk5
@@ -1506,7 +1506,7 @@ msgstr "Pour l'algorithme du front d'onde, certains suggèrent la valeur 1/3 ou 
 #: ekos-focus.docbook:1221
 #, no-c-format
 msgid "<guilabel>Tolerance (τ)</guilabel>: This is used by the Gold algorithm and is a focus tolerance as a percentage of total seeing. The Gold website suggests 3-5% for a good focuser or 1-2% for a top quality focuser. See the <ulink url=\"https://www.goldastro.com/goldfocus/ncfz.php\">Gold Astro website</ulink> for more details."
-msgstr "<guilabel>Tolérance (τ)</guilabel> : cette valeur est utilisée pour l'algorithme Gold et est une tolérance de la mise au point exprimée comme un pourcentage de la qualité totale du ciel (seeing). Le site web de Gold suggère une valeur de 3 à 5 % pour un bon moteur de mise au point et 1 à 2 % pour les meilleurs moteurs. Pour davantage d'information, veuillez consulter le <ulink url=\"http://www.goldastro.com/goldfocus/ncfz.php\">site web de Gold Astro</ulink>."
+msgstr "<guilabel>Tolérance (τ)</guilabel> : cette valeur est utilisée pour l'algorithme Gold et est une tolérance de la mise au point exprimée comme un pourcentage de la qualité totale du ciel (seeing). Le site web de Gold suggère une valeur de 3 à 5 % pour un bon moteur de mise au point et 1 à 2 % pour les meilleurs moteurs. Pour davantage d'informations, veuillez consulter le <ulink url=\"http://www.goldastro.com/goldfocus/ncfz.php\">site web de Gold Astro</ulink>."
 
 #. Tag: para
 #. +> trunk5
@@ -1527,21 +1527,21 @@ msgstr "<guilabel>Réinitialiser le train optique</guilabel> : cliquez sur ce b
 #: ekos-focus.docbook:1237
 #, no-c-format
 msgid "<guilabel>Wavelength (λ)</guilabel>: This is the light wavelength to use. It is defaulted from the currently used filter. Remember to set this up in <link linkend=\"focus-filter-settings\">Filter Settings</link> for your filters."
-msgstr "<guilabel>Longueur d'onde (λ)</guilabel> : c'est la longueur d'onde de la lumière à utiliser. Elle obtient sa valeur du filtre actuellement utilisé. N'oubliez pas de régler ceci dans les <link linkend=\"focus-filter-settings\">Réglages de filtres</link> de vos filtres."
+msgstr "<guilabel>Longueur d'onde (λ)</guilabel> : c'est la longueur d'onde de la lumière à utiliser. Sa valeur est obtenue du filtre actuellement utilisé. N'oubliez pas de régler ceci dans les <link linkend=\"focus-filter-settings\">Réglages de filtres</link> de vos filtres."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1242
 #, no-c-format
 msgid "<guilabel>Aperture (A)</guilabel>: This is the aperture of the telescope in mm. It is defaulted from the currently connected Optical Train."
-msgstr "<guilabel>Ouverture (A)</guilabel> : c'est l'ouverture du télescope en mm. Elle obtient cette valeur du train optique actuellement utilisé."
+msgstr "<guilabel>Ouverture (A)</guilabel> : c'est l'ouverture du télescope en mm. Sa valeur est obtenue du train optique actuellement utilisé."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1247
 #, no-c-format
 msgid "<guilabel>Focal Ratio (f)</guilabel>: This is the focal ratio of the telescope. It is defaulted from the currently connected Optical Train."
-msgstr "<guilabel>Ratio de la focale (f)</guilabel> : c'est le ratio de la focale du télescope. Elle obtient sa valeur du train optique actuellement utilisé."
+msgstr "<guilabel>Ratio de la focale (f)</guilabel> : c'est le ratio de la focale du télescope. Sa valeur est obtenue du train optique actuellement utilisé."
 
 #. Tag: para
 #. +> trunk5
@@ -1583,7 +1583,7 @@ msgstr "Alternativement, vous pouvez mesurer la distance totale de mouvement de 
 #: ekos-focus.docbook:1272
 #, no-c-format
 msgid "Other types of telescope will have other ways to adjust the focal plane, for example, by moving the primary or secondary mirrors. You will need to either get the Step Size from the documentation for your equipment or work out how to measure it in a way that are consistent with that described above."
-msgstr "Les autres types de télescope ont une autre manière d'ajuster le plan focal, comme par exemple, en en déplaçant les miroirs primaires et secondaires. Vous devrez obtenir la taille de pas de la documentation ou trouver comment la mesurer en tenant compte de ce qui a été décrit ci-dessus."
+msgstr "Les autres types de télescope ont une autre manière d'ajuster le plan focal, comme par exemple, en déplaçant les miroirs primaires et secondaires. Vous devrez obtenir la taille de pas de la documentation ou trouver comment la mesurer en tenant compte de ce qui a été décrit ci-dessus."
 
 #. Tag: para
 #. +> trunk5
@@ -1632,7 +1632,7 @@ msgstr "Ceci est le panneau du conseiller de mise au point. C'est une fonctionna
 #: ekos-focus.docbook:1310
 #, no-c-format
 msgid "The purpose of Focus Advisor is to help people struggling to use the Focus module within Ekos. The Focus module is functionally rich and contains a lot of parameters that need to be set self-consistently to achieve good results. Focus Advisor is designed to help with basic parameter setup that should achieve focus. It is not designed to achieve the best possible focus for your equipment; you will have to experiment with your setup to achieve that. But Focus Advisor provides a place to start that experimentation."
-msgstr "Le but de ce conseiller de mise au point est d'aider les personnes qui ont des difficultés d'utiliser le module de mise au point d'Ekos. Ce module est riche en fonctionnalités et contient beaucoup de paramètres qui doivent être réglés de manière cohérente entre eux pour donner de bons résultats. Le conseiller est conçu pour aider à régler les paramètres de base pour obtenir la mise au point, mais n'est néanmoins pas conçu pour obtenir la meilleure mise au point possible pour votre équipement ; il sera donc nécessaire d'expérimenter avec votre montage pour obtenir cela. Mais cela est un bon point de départ pour ces tests."
+msgstr "Le but de ce conseiller de mise au point est d'aider les personnes qui ont des difficultés pour utiliser le module de mise au point d'Ekos. Ce module est riche en fonctionnalités et contient beaucoup de paramètres qui doivent être réglés de manière cohérente entre eux pour donner de bons résultats. Le conseiller est conçu pour aider à régler les paramètres de base pour obtenir la mise au point, mais n'est néanmoins pas conçu pour obtenir la meilleure mise au point possible pour votre équipement ; il sera donc nécessaire d'expérimenter avec votre montage pour obtenir cela. Mais cela est un bon point de départ pour ces tests."
 
 #. Tag: para
 #. +> trunk5
@@ -1653,7 +1653,7 @@ msgstr "Si le conseiller de mise au point ne donne pas de bons résultats, pourq
 #: ekos-focus.docbook:1319
 #, no-c-format
 msgid "When you click on the Focus Advisor pane it works out a series of parameter recommendations based on the Optical Train you are using in Focus."
-msgstr "En cliquant sur le panneau du conseiller de mise au point, une série de paramètres est recommandée, fondée sur le train optique que vous êtes en train d'utiliser dans le module de mise au point."
+msgstr "En cliquant sur l'onglet du conseiller de mise au point, une série de paramètres est recommandée, fondée sur le train optique que vous êtes en train d'utiliser dans le module de mise au point."
 
 #. Tag: para
 #. +> trunk5
@@ -1723,7 +1723,7 @@ msgstr "<guilabel>Aide</guilabel> : cliquez sur ce bouton pour obtenir de l'aid
 #: ekos-focus.docbook:1366
 #, no-c-format
 msgid "<guilabel>Update Params</guilabel>: Press this button to accept the Focus Advisor recommendations and update the Focus parameters where the associated <guilabel>Update</guilabel> checkbox is checked.."
-msgstr "<guilabel>Mise à jour des paramètres</guilabel> : cliquez sur ce bouton pour accepter les recommandations du conseiller de mise au point et mettre à jour les paramètres quand la case à cocher associée <guilabel>Mise à jour</guilabel> est cochée…"
+msgstr "<guilabel>Mettre à jour les paramètres</guilabel> : cliquez sur ce bouton pour accepter les recommandations du conseiller de mise au point et mettre à jour les paramètres quand la case à cocher associée <guilabel>Mise à jour</guilabel> est cochée…"
 
 #. Tag: title
 #. +> trunk5
@@ -1779,28 +1779,28 @@ msgstr "Cochez <guilabel>Mise au point automatique</guilabel> pour utiliser le f
 #: ekos-focus.docbook:1406
 #, no-c-format
 msgid "<emphasis role=\"bold\">Autofocus on Lock Filter</emphasis>: It is possible to specify a Lock filter to use when it is required to focus this filter. For example, if the Ha filter is used and an Autofocus run required, it is possible to run Autofocus using the Lum filter and then, when complete, adjust the focus position by an Offset value corresponding to the predetermined focus difference between the Lum and Ha filters (100 ticks in this example). This is useful when, for example, it is difficult to focus some filters directly without excessively long exposure times. Note that this locked filter approach may also be used in the <link linkend=\"ekos-align\">Alignment Module</link> whenever it performs a capture for astrometry."
-msgstr "<emphasis role=\"bold\">Mise au point automatique pour filtre bloqué</emphasis> : il est possible de spécifier un filtre bloqué quand il est requis d'utiliser ce filtre pour la mise au point. Par exemple, si un filtre Ha est utilisé et qu'une mise au point automatique est nécessaire, il est possible de lancer une mise au point automatique avec le filtre de luminance et une fois fait, d'ajuster la position de la mise au point en décalant la position d'une valeur correspondant à la différence de position entre les mises au point du filtre Ha et du filtre de luminance (100 pas dans cet exemple). Cela est utile quand, par exemple, il est difficile d'effectuer de mettre au point avec certains filtres qui demandent des durées d'exposition excessivement longues. Veuillez noter que cette approche peut également être utilisée avec le <link linkend=\"ekos-align\">module d'alignement</link> pour une résolution astrométrique."
+msgstr "<emphasis role=\"bold\">Mise au point automatique pour filtre verrouillé</emphasis> : il est possible de spécifier un filtre verrouillé quand il est requis d'utiliser ce filtre pour la mise au point. Par exemple, si un filtre Ha est utilisé et qu'une mise au point automatique est nécessaire, il est possible de lancer une mise au point automatique avec le filtre de luminance et une fois fait, d'ajuster la position de la mise au point en décalant la position d'une valeur correspondant à la différence de position entre les mises au point du filtre Ha et du filtre de luminance (100 pas dans cet exemple). Cela est utile quand, par exemple, il est difficile d'effectuer de mettre au point avec certains filtres qui demandent des durées d'exposition excessivement longues. Veuillez noter que cette approche peut également être utilisée avec le <link linkend=\"ekos-align\">module d'alignement</link> pour une résolution astrométrique."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1413
 #, no-c-format
 msgid "To use a filter in this way, check <guilabel>Auto Focus</guilabel>, specify the <guilabel>Lock Filter</guilabel> to use and make sure that the Offsets for this filter and the <guilabel>Lock Filter</guilabel> are set."
-msgstr "Pour utiliser un filtre de cette manière, cochez <guilabel>Mise au point automatique</guilabel>, spécifiez le <guilabel>Filtre bloqué</guilabel> à utiliser et veillez que le décalage pour ce filtre et <guilabel>Filtre bloqué</guilabel> sont réglés."
+msgstr "Pour utiliser un filtre de cette manière, cochez <guilabel>Mise au point automatique</guilabel>, spécifiez le <guilabel>Filtre verrouillé</guilabel> à utiliser et veillez que le décalage entre ce filtre et le <guilabel>Filtre verrouillé</guilabel> est bien réglé."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1418
 #, no-c-format
 msgid "<emphasis role=\"bold\">Use Offsets</emphasis>: It is possible to use filter offsets to adjust focus when swapping between filters, without running Autofocus. This requires some setup work ahead of time but has the advantage of reducing the number of Autofocus runs and therefore reducing the time spent autofocusing."
-msgstr "<emphasis role=\"bold\">Utiliser décalages</emphasis> : il est possible d'utiliser des décalages pour les filtres pour ajuster la mise au point quand on permute les filtres sans exécuter de mise au point automatique. Cela nécessite un peu de travail préparatoire mais a l'avantage de réduire le nombre d'exécution de mise au point automatique et par conséquent le temps consacré à ces opérations."
+msgstr "<emphasis role=\"bold\">Utiliser décalages</emphasis> : il est possible d'utiliser des décalages pour les filtres pour ajuster la mise au point quand on permute les filtres sans exécuter de mise au point automatique. Cela nécessite un peu de travail préparatoire mais a l'avantage de réduire le nombre de passes de mise au point automatique et par conséquent le temps consacré à ces opérations."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1422
 #, no-c-format
 msgid "In order to use this feature it is necessary to work out the relative focus position between all filters that you wish to use this functionality for. For example, if Lum and Red have the same focus position (they are parfocal) but Green focuses 300 ticks further out than Lum (or Red) then setup Offsets for Lum, Red and Green as 0, 0, 300 as shown above. If a sequence is created to take 10 subframes of Lum, then 10 Red, then 10 Green, then at the start, since Lum has <guilabel>Auto Focus</guilabel> checked, an Autofocus will be run on Lum and the 10 subs taken. Capture will then switch filters to Red. Since Red has <guilabel>Auto Focus</guilabel> unchecked no Autofocus will happen and Ekos will look to the Offsets between Red and Lum. In this case 0 - 0 = 0. So the focuser will not be moved and Capture will take 10 subs of Red. Then Capture will swap from Red to Green. Again, Green has <guilabel>Auto Focus</guilabel> unchecked no Autofocus will happen and Ekos will look to the Offsets between Green and Red. In this case 300 - 0 = 300. So Focus will adjust the focus position by +300 (move the focuser out by 300 ticks). Capture will then take the 10 Green subs."
-msgstr "Pour utiliser cette fonctionnalité, il est nécessaire de déterminer les positions relatives de mise au point entre chaque filtre que vous souhaitez utiliser. Par exemple si les filtres de luminance et rouge ont la même position de mise au point (ils sont parfocales) mais que la position de mise au point du filtre vert se trouve 300 pas plus loin que le filtre de luminance (ou rouge), alors les décalages seront respectivement de 0, 0 et 300. Si une séquence est créée pour prendre 10 poses de luminance, puis 10 de rouge et 10 de vert, alors au départ (puisque <guilabel>Mise au point automatique</guilabel> est cochée) sera exécutée une mise au point automatique avec le filtre de luminance et ensuite 10 poses seront prises. Le module Acquisition changera ensuite de filtre pour le rouge. Comme ce filtre n'a pas la case <guilabel>Mise au point automatique</guilabel> cochée, il n'y aura pas de mise au point automatique et Ekos va vérifier le décalage entre le rouge et la luminance. Dans ce cas, on aura 0 - 0 = 0. Par conséquent le moteur de mise au point de se déplacera pas et 10 poses de rouge seront prises. Puis le filtre passera du rouge au vert. Comme l'option n'est pas non plus cochée, il n'y aura pas de mise au point automatique et Ekos vérifiera le décalage entre le vert et le rouge. Maintenant, 300 - 0 = 300. Le moteur de mise au point se déplacera de 300 pas vers l'extérieur et 10 poses de vert seront prises."
+msgstr "Pour utiliser cette fonctionnalité, il est nécessaire de déterminer les positions relatives de mise au point entre chaque filtre que vous souhaitez utiliser. Par exemple si les filtres de luminance et rouge ont la même position de mise au point (ils sont parfocales) mais que la position de mise au point du filtre vert se trouve 300 pas plus loin que le filtre de luminance (ou rouge), alors les décalages seront respectivement de 0, 0 et 300. Si une séquence est créée pour prendre 10 poses de luminance, puis 10 de rouge et 10 de vert, alors au départ (puisque <guilabel>Mise au point automatique</guilabel> est cochée) sera exécutée une mise au point automatique avec le filtre de luminance et ensuite 10 poses seront prises. Le module Acquisition changera ensuite de filtre pour le rouge. Comme ce filtre n'a pas la case <guilabel>Mise au point automatique</guilabel> cochée, il n'y aura pas de mise au point automatique et Ekos va vérifier le décalage entre le rouge et la luminance. Dans ce cas, on aura 0 - 0 = 0. Par conséquent le moteur de mise au point ne se déplacera pas et 10 poses de rouge seront prises. Puis le filtre passera du rouge au vert. Comme l'option n'est pas non plus cochée, il n'y aura pas de mise au point automatique et Ekos vérifiera le décalage entre le vert et le rouge. Maintenant, 300 - 0 = 300. Le moteur de mise au point se déplacera de 300 pas vers l'extérieur et 10 poses de vert seront prises."
 
 #. Tag: para
 #. +> trunk5
@@ -1842,7 +1842,7 @@ msgstr "<guilabel>Durée d'exposition</guilabel> : réglage de la durée d'expo
 #: ekos-focus.docbook:1453
 #, no-c-format
 msgid "<guilabel>Offset</guilabel>: Set relative offsets. Ekos will command a focus offset change if there is a difference between the current and target filter offsets. For example, given the values in the example image, if the current filter is set to <emphasis>Red</emphasis> and next filter is <emphasis>Green</emphasis>, then Ekos shall command the focuser to Focus In by +300 ticks. Relative positive focus offsets denote Focus Out while negative values denote Focus In."
-msgstr "<guilabel>Décalage</guilabel> : réglage des décalages relatifs. Ekos modifiera le décalage de position de mise au point s'il y a une différence entre le filtre actuel et le filtre cible. Par exemple et étant donner les valeurs dans l'image d'exemple, si le filtre actuel est <emphasis>Rouge</emphasis> et le prochain filtre est le <emphasis>Vert</emphasis>, alors Ekos indiquera au moteur de mise au point de se déplacer de +300 pas. Les valeurs positives sont pour un déplacement vers l'extérieur alors que les négatives sont pour un déplacement vers l'intérieur."
+msgstr "<guilabel>Décalage</guilabel> : réglage des décalages relatifs. Ekos modifiera le décalage de position de mise au point s'il y a une différence entre le filtre actuel et le filtre cible. Par exemple et étant donné les valeurs dans l'image d'exemple, si le filtre actuel est <emphasis>Rouge</emphasis> et le prochain filtre est le <emphasis>Vert</emphasis>, alors Ekos indiquera au moteur de mise au point de se déplacer de +300 pas. Les valeurs positives représentent un déplacement vers l'extérieur alors que les négatives représentent pour un déplacement vers l'intérieur."
 
 #. Tag: para
 #. +> trunk5
@@ -1856,7 +1856,7 @@ msgstr "<guilabel>Mise au point automatique</guilabel> : cochez cette option po
 #: ekos-focus.docbook:1464
 #, no-c-format
 msgid "<guilabel>Lock Filter</guilabel>: Set which filter should be set and <emphasis>locked</emphasis> when performing autofocus for this filter. \"--\" indicates no Lock Filter. It is not allowed to next filters more than 1 deep, i.e. Red cannot be locked to Blue which is itself locked to Green. A filter cannot be locked to itself."
-msgstr "<guilabel>Filtre bloqué</guilabel> : indique quel filtre devrait être choisi et <emphasis>bloqué</emphasis> lors d'une mise au point automatique. \"--\" indique qu'aucun filtre n'est bloqué. Il n'est pas autorisé de bloquer plus d'un filtre et un filtre ne peut pas être bloqué à lui-même."
+msgstr "<guilabel>Filtre verrouillé</guilabel> : indique quel filtre devrait être choisi et <emphasis>verrouillé</emphasis> lors d'une mise au point automatique. \"--\" indique qu'aucun filtre n'est verrouillé. Il n'est pas autorisé de verrouiller plus d'un filtre et un filtre ne peut pas être verrouillé à lui-même."
 
 #. Tag: para
 #. +> trunk5
@@ -1919,21 +1919,21 @@ msgstr "<guilabel>Construction des décalages</guilabel> : cliquez sur le bouto
 #: ekos-focus.docbook:1503
 #, no-c-format
 msgid "<guilabel>Capture flats at the same focus as lights</guilabel>: When checked, flats will be taken at the <guilabel>Last AF Solution</guilabel> focuser position."
-msgstr "<guilabel>Acquisition des flats à la même mise au point que les brutes</guilabel> : quand cochées, les flats seront acquis à la position du moteur de mise au point de la <guilabel>Dernière solution de mise au point automatique</guilabel>."
+msgstr "<guilabel>Acquisition des flats à la même mise au point que les brutes</guilabel> : en cochant cette case, les flats seront acquis à la position du moteur de mise au point de la <guilabel>Dernière solution de mise au point automatique</guilabel>."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1508
 #, no-c-format
 msgid "Let's take an example. If we have a capture sequence starting with Lum -> Red -> Green -> Blue -> Sii -> Ha -> Oiii using the setup in the Filter Settings popup:"
-msgstr "Prenons un exemple. Si nous avons une séquence d'acquisition débutant avec Lum -> Rouge -> Vert -> Bleu -> Sii -> Ha - Oiii qui utilise les réglages de la boîte de dialogue des réglages de filtres :"
+msgstr "Prenons un exemple. Si nous avons une séquence d'acquisition débutant avec Lum -> Rouge -> Vert -> Bleu -> Sii -> Ha ->  Oiii qui utilise les réglages de la boîte de dialogue des réglages de filtres :"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:1512
 #, no-c-format
 msgid "Lum: The Lum filter is configured to Autofocus initially so an Autofocus run is performed, then the Lum sequence runs."
-msgstr "Lum : le filtre Lum est configuré pour exécuter une mise au point automatique, ce qui est fait, puis la séquence Lum déamarre."
+msgstr "Lum : le filtre Lum est configuré pour exécuter une mise au point automatique, ce qui est fait, puis la séquence Lum démarre."
 
 #. Tag: para
 #. +> trunk5
@@ -2020,7 +2020,7 @@ msgstr "Remarque : cet utilitaire ne devrait pas être exécuté pendant une se
 #, no-c-format
 #| msgid "To start with, configure settings for each filter in the table in the Filter Settings popup and then launch Build Filter Offsets. The popup is launched with a table of filters."
 msgid "To start with, configure settings for each filter in the table in the Filter Settings popup and then launch Build Filter Offsets. The popup is launched with a table of data with the following columns."
-msgstr "Pour commencer, configurer les réglages pour chaque filtre dans la table de la boîte de dialogue des réglages de filtre, puis lancer l'outil. La boîte de dialogue apparaît avec une table de filtres avec les colonnes suivantes."
+msgstr "Pour commencer, configurer les réglages pour chaque filtre dans la table de la boîte de dialogue des réglages de filtres, puis lancer l'outil. La boîte de dialogue apparaît avec une table de filtres avec les colonnes suivantes :"
 
 #. Tag: para
 #. +> trunk5
@@ -2041,7 +2041,7 @@ msgstr "<guilabel>Décalage</guilabel> : le décalage actuel."
 #: ekos-focus.docbook:1592
 #, no-c-format
 msgid "<guilabel>Lock Filter</guilabel>: The current Lock filter."
-msgstr "<guilabel>Bloquer le Filtre</guilabel> : le filtre bloqué actuel."
+msgstr "<guilabel>Verrouiller le filtre</guilabel> : le filtre verrouillé actuel."
 
 #. Tag: para
 #. +> trunk5
@@ -2078,7 +2078,7 @@ msgstr "Vous pouvez inverser la case à cocher <guilabel>Mise au point adaptativ
 #, no-c-format
 #| msgid "Let's take an example where we have 4 filters: Lum, Sii, Ha and Oiii. We have run the process with 5 runs for Lum, Sii and Ha and 0 for Oiii (effectively excluding this filter from the process). In this case 8 extra columns have been created in the table."
 msgid "Let's take an example where we have 7 filters: Lum, Red, Green, Blue, Sii, Ha and Oiii. The 8th slot in the filter wheel is marked as Blank. The process has completed 5 runs for all filters, 0 for Blank (effectively excluding Blank from the process). In this case 8 extra columns have been created in the table."
-msgstr "Prenons un exemple où nous avons 4 filtres : Lum, Rouge, Vert, Bleu, Sii, Ha et Oiii. La 8e position de la roue à filtre est marquée Vide. Nous avons lancé le processus 5 fois pour tous les filtres et 0 fois pour Vide (ce qui exclut ce filtre du processus). Dans ce cas, 8 colonnes supplémentaires ont été créées dans la table."
+msgstr "Prenons un exemple où nous avons 7 filtres : Lum, Rouge, Vert, Bleu, Sii, Ha et Oiii. La 8e position de la roue à filtre est marquée Vide. Nous avons lancé le processus 5 fois pour tous les filtres et 0 fois pour Vide (ce qui exclut ce filtre du processus). Dans ce cas, 8 colonnes supplémentaires ont été créées dans la table."
 
 #. Tag: para
 #. +> trunk5
@@ -2166,7 +2166,7 @@ msgstr "Fermer : l'outil de construction de décalage de filtre sera fermé SAN
 #: ekos-focus.docbook:1703
 #, no-c-format
 msgid "If the <guilabel>Adapt Focus</guilabel> box is checked, the AF Runs are updated for Adaptive Focus. See the <link linkend=\"focus-adaptive\">Adaptive Focus</link> section for more details on the theory of Adaptive Focus. The first AF run (in this example AF Run 1 on Lum) is the basis for the Adaptations. So the temperature and altitude of AF Run 1 on Lum is used as the basis for all the other AF Runs and the data is adapted back to what the AF solution would have been, had it been run at the temperature and altitude of AF Run 1 on Lum."
-msgstr "Si la case à cocher <guilabel>Mise au point adaptative</guilabel> a été cochée, les passes de mises au point automatiques sont mises à jour pour la mise au point adaptative. Voyer la section de la <link linkend=\"focus-adaptive\">Mise au point adaptative</link> pour davantage d'explications sur cette thématique. La première passe de mise au point automatique (dans cet exemple, celle sur la Lum) est la base pour les ajustements. Ainsi la température et l'altitude de cette passe forment la base pour toutes les autres passes et les données sont adaptées en retour aux mises au point automatiques suivantes comme si elles avaient eu lieu aux mêmes conditions de température et d'altitude que cette première passe.."
+msgstr "Si la case à cocher <guilabel>Mise au point adaptative</guilabel> a été cochée, les passes de mises au point automatiques sont mises à jour pour la mise au point adaptative. Voyez la section de la <link linkend=\"focus-adaptive\">Mise au point adaptative</link> pour davantage d'explications sur cette thématique. La première passe de mise au point automatique (dans cet exemple, celle sur la Lum) est la base pour les ajustements. Ainsi la température et l'altitude de cette passe forment la base pour toutes les autres passes et les données sont adaptées en retour aux mises au point automatiques suivantes comme si elles avaient eu lieu aux mêmes conditions de température et d'altitude que cette première passe."
 
 #. Tag: para
 #. +> trunk5
@@ -2208,7 +2208,7 @@ msgstr "Commencez par vous assurer que l'endroit du ciel où vous souhaitez util
 #: ekos-focus.docbook:1747
 #, no-c-format
 msgid "Make sure your equipment is in thermal equilibrium before starting. Calculate roughly how long the utility will take which is the total number of AF runs * time for a single AF run. Try to make sure that the conditions will remain as consistent as possible during this time, e.g. there is enough time before dawn, the moon won't affect focusing of some images more than others, the target won't drop below your horizon during the process, etc."
-msgstr "Assurez-vous que votre matériel se trouve en état d'équilibre thermique avant de commencer. Estimez le temps nécessaire à l'outil qui est le nombre total de passes multiplié par la durée d'une seule passe, et assurez-vous que les conditions resteront aussi stables que possible durant cette période, c'est à dire qu'il reste assez de temps avant l'aurore, que la Lune n'affectera pas plus la mise au point sur certaines étoiles que sur d'autres, que la cible ne descendra pas sous votre horizon durant le processus, etc."
+msgstr "Assurez-vous que votre matériel se trouve en état d'équilibre thermique avant de commencer. Estimez le temps nécessaire à l'outil (qui est le nombre total de passes multiplié par la durée d'une seule passe), et assurez-vous que les conditions resteront aussi stables que possible durant cette période, c'est à dire qu'il reste assez de temps avant l'aurore, que la Lune n'affectera pas plus la mise au point sur certaines étoiles que sur d'autres, que la cible ne descendra pas sous votre horizon durant le processus, etc."
 
 #. Tag: para
 #. +> trunk5
@@ -2257,7 +2257,7 @@ msgstr "<phrase>Affichage de la mise au point</phrase>"
 #: ekos-focus.docbook:1781
 #, no-c-format
 msgid "The focus display, displays a FITS viewer window onto the frame taken during the focus process. If <guilabel>Ring Mask</guilabel> is selected, then the mask is drawn on the image. All the stars detected by Ekos based on the selected parameters, have their HFR value displayed next to the associated star (unless Measure is set to FWHM)."
-msgstr "L'affichage de la mise au point affiche une fenêtre de l'afficheur FITS sur la trame prise durant la procédure de mise au point. Si <guilabel>Masque annulaire</guilabel> est sélectionné, alors le masque est dessiné sur l'image. Toutes les étoiles détectées par Ekos fondées sur les paramètres sélectionnées ont leur HFR affichée à leur côté (sauf si Mesure est réglé à FWHM)."
+msgstr "L'affichage de la mise au point affiche une fenêtre de l'afficheur FITS sur l'image prise durant la procédure de mise au point. Si <guilabel>Masque annulaire</guilabel> est sélectionné, alors le masque est dessiné sur l'image. Toutes les étoiles détectées par Ekos fondées sur les paramètres sélectionnées ont leur HFR affichée à leur côté (sauf si Mesure est réglé à FWHM)."
 
 #. Tag: para
 #. +> trunk5
@@ -2313,7 +2313,7 @@ msgstr "<guibutton>(Dés)active étirement</guibutton> : (dés)active l'étirem
 #: ekos-focus.docbook:1812
 #, no-c-format
 msgid "<guibutton>Toggle Crosshairs</guibutton>: Toggle crosshairs on or off."
-msgstr "<guibutton>(dés)active mire</guibutton> : (dés)active la mire."
+msgstr "<guibutton>(Dés)active mire</guibutton> : (dés)active la mire."
 
 #. Tag: para
 #. +> trunk5
@@ -2369,7 +2369,7 @@ msgstr "La courbe en V affiche la mesure de la mise au point (axe y), p. ex. le 
 #: ekos-focus.docbook:1853
 #, no-c-format
 msgid "For certain algorithms, Ekos will also draw a curve of best fit through the datapoints. If <guilabel>Use Weights</guilabel> is selected then error bars are indicated on each datapoint that correspond to the standard deviation in measured value."
-msgstr "Pour certains algorithmes, Ekos dessinera également une courbe de régression des points. Si l'option <guilabel>Utiliser Poids</guilabel> est sélectionnée, des barres d'erreurs sont indiquées qui correspondent à la déviation standard mesurée en unité liée."
+msgstr "Pour certains algorithmes, Ekos dessinera également une courbe de régression des points. Si l'option <guilabel>Utiliser Poids</guilabel> est sélectionnée, des barres d'erreurs sont indiquées qui correspondent à la déviation standard mesurée en unité mesurée."
 
 #. Tag: para
 #. +> trunk5
@@ -2523,7 +2523,7 @@ msgstr "Courbe en V de la mise au point avec Fourier"
 #: ekos-focus.docbook:1912
 #, no-c-format
 msgid "When Framing, the graph format changes to that of a \"time series\" where horizontal axis denotes the frame number. This is to aid you in the framing process as you can see how Measure, in this case HFR, changes between frames."
-msgstr "Lors d'acquisitions en boucle, le format du graphique est modifié en une série temporelle où l'axe horizontal représente le numéro de la trame. Cela peut vous aider dans ce processus puisque vous pouvez voir comment la mesure, ici HFR, change entre les trames."
+msgstr "Lors d'acquisitions en boucle, le format du graphique est modifié en une série temporelle où l'axe horizontal représente le numéro de l'image. Cela peut vous aider dans ce processus puisque vous pouvez voir comment la mesure, ici HFR, change entre les images."
 
 #. Tag: para
 #. +> trunk5
@@ -2775,7 +2775,7 @@ msgstr "<phrase>Mise au point adaptative</phrase>"
 #: ekos-focus.docbook:2084
 #, no-c-format
 msgid "Ekos support the concept of Adaptive Focus (AF). Without AF, a typical imaging plan would start with an Autofocus run then a sequence of subframes, then an Autofocus run, etc. The Autofocus runs would be triggered by a number of factors such as time, filter change, temperature change, etc. So basically as a sequence runs subframes are being taken slightly away from optimum focus until a threshold (e.g. temperature change) triggers an Autofocus run."
-msgstr "Ekos prend en charge le concept de mise au point adaptative (MaPA). Sans MaPA, une session typique d'imagerie débuterait avec une mise au point automatique, puis une séquence de poses, puis une autre mise au point automatique, etc. Les mises au point automatiques sont déclenchées par plusieurs facteurs tels que le temps, un changement de filtre, un changement de température, etc. Ainsi, essentiellement, une séquence lance la prise de poses qui sont légèrement hors de la position optimale de mise au point jusqu'à ce que l'un de ces facteurs déclenchent une mise au point automatique."
+msgstr "Ekos prend en charge le concept de mise au point adaptative (MaPA). Sans MaPA, une session typique d'imagerie débuterait avec une mise au point automatique, puis une séquence de poses, puis une autre mise au point automatique, etc. Les mises au point automatiques sont déclenchées par plusieurs facteurs tels que l'heure, un changement de filtre, un changement de température, etc. Ainsi, essentiellement, une séquence lance la prise de poses qui sont légèrement hors de la position optimale de mise au point jusqu'à ce que l'un de ces facteurs déclenchent une mise au point automatique."
 
 #. Tag: para
 #. +> trunk5
@@ -2797,14 +2797,14 @@ msgstr "La MaPA est complémentaire aux différents déclencheurs de mise au poi
 #: ekos-focus.docbook:2100
 #, no-c-format
 msgid "So how do you know if AF would be useful for your setup or not? Perhaps the simplest way would be to examine subframes just after an Autofocus and compare them with subframes just before the next Autofocus. Can you see a difference in focus? If you have a setup where the focus point is tolerant of environmental changes between Autofocus runs then AF may not add anything to your images; if however you have a setup that is sensitive to environmental changes and the frequency of Autofocus runs is a compromise between quality and imaging time then AF ought to improve the quality of your subframes."
-msgstr "Mais comment savoir si la MaPA est utile avec mon équipement ? Peut-être que la méthode la plus simple est d'étudier les images prises juste après une mise au point automatique et de les comparer avec des images prises juste avant la prochaine mise au point automatique. Pouvez-vous voir une différence de netteté ? Si vous possédez un équipement dont le point focal est tolérant aux changements environnementaux entre des mises au point automatiques, alors la MaPA ne va probablement rien vous apporter de substantiel ; dans le cas contraire où la fréquence de mise au point automatique est un compromis entre la qualité des images et le temps d'imagerie, alors il se peut bien que la MaPA va améliorer la qualité des images."
+msgstr "Mais comment savoir si la MaPA est utile avec son équipement ? Peut-être que la méthode la plus simple est d'étudier les images prises juste après une mise au point automatique et de les comparer avec des images prises juste avant la prochaine mise au point automatique. Pouvez-vous voir une différence de netteté ? Si vous possédez un équipement dont le point focal est tolérant aux changements environnementaux entre des mises au point automatiques, alors la MaPA ne va probablement rien vous apporter de substantiel ; dans le cas contraire où la fréquence de mise au point automatique est un compromis entre la qualité des images et le temps d'imagerie, alors il se peut bien que la MaPA va améliorer la qualité des images."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2107
 #, no-c-format
 msgid "AF currently supports two environmental dimensions: Temperature and Altitude (of the imaged target):"
-msgstr "La MaPA permet actuellement de prendre en compte deux dimensions environnementales : la température et l'altitude de la cible :"
+msgstr "La MaPA permet actuellement de prendre en compte deux variables environnementales : la température et l'altitude de la cible :"
 
 #. Tag: para
 #. +> trunk5
@@ -2839,7 +2839,7 @@ msgstr "Altitude. Quelques opérateurs rapportent que la position du point focal
 #: ekos-focus.docbook:2132
 #, no-c-format
 msgid "To use AF you need to work out firstly whether you want to adapt for Temperature, Altitude or both. If you are new to AF it is recommended to start with Temperature and once you have that working, determine whether your setup would benefit from adding Altitude."
-msgstr "Pour utiliser la MaPA, vous devez d'abord choisir si vous souhaitez une adaptation par rapport à la température, l'altitude ou les deux. Si vous débutez avec la MaPA, il est recommandé de commencer avec la température et une fois que ça fonctionne, décidez si votre équipement bénéficierait d'utiliser l'altitude également."
+msgstr "Pour utiliser la MaPA, vous devez d'abord choisir si vous souhaitez une adaptation par rapport à la température, l'altitude ou les deux. Si vous débutez avec la MaPA, il est recommandé de commencer avec la température et une fois que ça fonctionne, déterminer si votre équipement bénéficierait d'utiliser l'altitude également."
 
 #. Tag: para
 #. +> trunk5
@@ -2881,7 +2881,7 @@ msgstr "Actuellement Ekos utilise une simple relation linéaire entre la tempér
 #: ekos-focus.docbook:2156
 #, no-c-format
 msgid "A way to get a value for <guilabel>Ticks / °C</guilabel> would be to take the data from the autofocus-(datetime).txt files from a few nights of observing into a spreadsheet and graph focus position against temperature for each filter. Review the data and remove any outliers and plot a line of best fit. Use the line to get <guilabel>Ticks / °C</guilabel>. If you intend to adapt for altitude as well as temperature, then it would be better to use a set of data at similar altitude when calibrating temperature. Then its possible to calculate the effect of Temperature and remove this from the data when calculating the effect of Altitude."
-msgstr "Une manière d'obtenir ces valeurs est de saisir ces données prises sur plusieurs nuits dans un tableur et de dessiner le graphique de la position de mise au point en fonction de la température pour chaque filtre. Passez en revue les données et éliminez les valeurs aberrantes puis faites une régression linéaire sur ces données. Elle vous donnera la valeur de <guilabel>Pas / °C</guilabel>. Si votre intention est de faire pareil pour l'altitude, il sera probablement plus efficace d'utiliser un ensemble de données d'altitudes similaires pour la calibration de la température. Il sera ainsi possible de calculer l'effet dû à la température et de la soustraire des données pour le calcul de l'effet dû à l'altitude."
+msgstr "Une manière d'obtenir ces valeurs est de saisir ces données prises sur plusieurs nuits dans un tableur et de dessiner le graphique de la position de mise au point en fonction de la température et cela pour chaque filtre. Passez en revue les données et éliminez les valeurs aberrantes puis faites une régression linéaire sur ces données. Elle vous donnera la valeur de <guilabel>Pas / °C</guilabel>. Si votre intention est de faire pareil pour l'altitude, il sera probablement plus efficace d'utiliser un ensemble de données d'altitudes similaires pour la calibration de la température. Il sera ainsi possible de calculer l'effet dû à la température et de la soustraire des données pour le calcul de l'effet dû à l'altitude."
 
 #. Tag: para
 #. +> trunk5
@@ -2895,7 +2895,7 @@ msgstr "Vous devrez vous assurer que la position de mise au point est reproducti
 #: ekos-focus.docbook:2168
 #, no-c-format
 msgid "A simple approach is to start with a small amount of data, say 1 night and use this to calculate, say the Ticks / degree C. Run with this and adjust it over time as you collect more data. A way to check how well AF is performing would be to use Analyze to review how AF had moved the focus over 1 hour. If things are spot on, then where ever AF had positioned the focuser after 1 hour would match the Autofocus result. Where there is a discrepancy, it will be because of randomness in the Autofocus result and miscalibration in the AF <guilabel>Ticks / °C</guilabel>. By doing this regularly you will build knowledge of your equipment and be able to fine tune AF. Below is a screenshot of Analyze configured for Focus where you can see how Focus position changes throughout the imaging session:"
-msgstr "Une approche simple est de commencer avec peu de données, disons une nuit, et les utiliser pour calculer la valeur de <guilabel>Pas / °C</guilabel>. Ensuite utilisez cette valeur pour vos sessions d'observations et ajustez-là au fur et à mesure que vous accumulez plus de données. Une manière de vérifier si la MaPA se comporte bien est d'utiliser le module Analyse pour étudier comment la MaPA a déplacé la position de mise au point sur une heure. Si tout se passe bien, alors la position de MaPA après une heure doit correspondre au résultat d'une mise au point automatique. S'il y a une différence, elle proviendra d'aléas de la mise au point automatique et d'une mauvaise calibration de la valeur de <guilabel>Pas / °C</guilabel>. En faisant cela régulièrement, vous développerez la connaissance de votre équipement et pourrez affiner la MaPA. Dans la capture d'écran ci-dessous, vous pouvez voir la configuration du module Analyse pour la mise au point et voir comment la position de mise au point change au courant de la session d'imagerie : "
+msgstr "Une approche simple est de commencer avec peu de données, disons une nuit, et les utiliser pour calculer la valeur de <guilabel>Pas / °C</guilabel>. Ensuite utilisez cette valeur pour vos sessions d'observations et ajustez-là au fur et à mesure que vous accumulez plus de données. Une manière de vérifier si la MaPA se comporte bien est d'utiliser le module Analyse pour étudier comment la MaPA a déplacé la position de mise au point sur une heure. Si tout se passe bien, alors la position de MaPA après une heure doit correspondre au résultat d'une mise au point automatique. S'il y a une différence, elle proviendra d'aléas de la mise au point automatique et d'une mauvaise calibration de la valeur de <guilabel>Pas / °C</guilabel>. En faisant cela régulièrement, vous développerez la connaissance de votre équipement et pourrez affiner la MaPA. Dans la capture d'écran ci-dessous, vous pouvez voir la configuration du module Analyse pour la mise au point et voir comment la position de mise au point change au cours de la session d'imagerie : "
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -2959,7 +2959,7 @@ msgstr "Il y a une option pour régler la « limite R² » dans l'onglet des r
 #: ekos-focus.docbook:2216
 #, no-c-format
 msgid "Setting an R² Limit could be useful for unattended observation if the focus run produces a bad result for a 1-off reason. Obviously if the reason is not transitory then rerunning will not improve anything."
-msgstr "Régler une limite pour R² peut être utile pour les observatoires automatisés si la procédure de mise au point donne de mauvais résultats pour une raison ponctuelle. Évidemment, si la raison n'est pas transitoire, une relance du processus n'apportera aucun gain."
+msgstr "Régler une limite pour R² peut être utile pour les observatoires automatisés si la procédure de mise au point donne de mauvais résultats pour une raison isolée. Évidemment, si la raison n'est pas transitoire, une relance du processus n'apportera aucun gain."
 
 #. Tag: para
 #. +> trunk5
