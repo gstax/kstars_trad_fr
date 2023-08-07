@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: kstars_ekos-guide_3.6.5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-08-03 13:27+0200\n"
-"PO-Revision-Date: 2023-08-05 15:13+0200\n"
+"PO-Revision-Date: 2023-08-07 16:08+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -70,7 +70,7 @@ msgstr "Introduction"
 #, no-c-format
 #| msgid "Ekos Guide Module enables autoguiding capability using either the powerful built-in guider, or at your option, external guiding via <ulink url=\"https://openphdguiding.org/\">PHD2</ulink> or <ulink url=\"https://sourceforge.net/projects/linguider/\">lin_guider</ulink>. Using the internal guiding, guider CCD frames are captured and sent to Ekos for analysis. Depending on the deviations of the guide star from its lock position, guiding pulses corrections are sent to your mount <guilabel>Via</guilabel> any device that supports ST4 ports. Alternatively, you may send the corrections to your mount <emphasis>directly</emphasis>, if supported by the mount driver. Most of the &GUI; options in the Guide Module are well documented so just hover your mouse over an item and a tooltip will popup with helpful information."
 msgid "The Ekos Guide Module performs autoguiding using either the powerful built-in guider, or at your option, external guiding via <ulink url=\"https://openphdguiding.org/\">PHD2</ulink> or <ulink url=\"https://sourceforge.net/projects/linguider/\">lin_guider</ulink>. Using the internal guiding, guider camera frames are captured and sent to Ekos for analysis. Depending on the deviations of the stars from their lock positions, guiding pulses corrections are sent to your mount's RA and DEC axes motors. Most of the &GUI; options in the Guide Module are well documented so just hover your mouse over an item and a tooltip will popup with helpful information."
-msgstr "Le module de guidage d'Ekos permet le guidage en utilisant soit le puissant guidage interne ou un guidage externe comme <ulink url=\"https://openguiding.org/\">PHD2</ulink> ou encore <ulink url=\"https://sourceforge.net/projects/linguider/\">lin_guider</ulink>. Lors de l'utilisation du guidage interne, des trames CCD de guidage sont prises et envoyées à Ekos pour analyse. Selon les déviations de l'étoile guide par rapport à sa position de verrouillage, des impulsions de correction sont envoyées aux axes d'ascension droite et de déclinaison de la monture. La plupart des options qui se trouve dans le module de guidage sont bien documentées, il vous suffit de survoler un élément et une infobulle apparaîtra contenant de l'information très utile."
+msgstr "Le module de guidage d'Ekos permet le guidage en utilisant soit le puissant guidage interne ou un guidage externe comme <ulink url=\"https://openguiding.org/\">PHD2</ulink> ou encore <ulink url=\"https://sourceforge.net/projects/linguider/\">lin_guider</ulink>. Lors de l'utilisation du guidage interne, des images de guidage sont prises et envoyées à Ekos pour analyse. Selon les déviations de l'étoile guide par rapport à sa position de verrouillage, des impulsions de correction sont envoyées aux axes d'ascension droite et de déclinaison de la monture. La plupart des options qui se trouve dans le module de guidage sont bien documentées, il vous suffit de survoler un élément et une infobulle apparaîtra contenant de l'information détaillée."
 
 #. Tag: title
 #. +> trunk5
@@ -100,7 +100,7 @@ msgstr "<phrase>Sélection du profil de guidage d'Ekos</phrase>"
 #: ekos-guide.docbook:43
 #, no-c-format
 msgid "To perform guiding, you need (one time) to select a Guider in the Profile Editor for the profile you will be using. In the profile editor, choose Internal for the Ekos internal guider, or PHD2."
-msgstr "Pour réaliser le guidage, vous devez (une seule fois) choisir un guide dans l'éditeur de profils pour le profil que vous allez utiliser. Choisissez Interne pour le guidage interne d'Ekos ou PHD2."
+msgstr "Pour réaliser le guidage, vous devez (une seule fois) choisir un guide dans l'éditeur de profils pour le profil que vous allez utiliser. Choisissez Interne pour le guidage interne d'Ekos, ou PHD2 pour utiliser cet outil."
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -130,7 +130,7 @@ msgstr "Pour réaliser le guidage, vous devez également régler le train optiqu
 #: ekos-guide.docbook:62
 #, no-c-format
 msgid "Please look at the main guider page shown at the start of this Guider section. There are many parameters that also can be adjusted, some of which are listed below."
-msgstr "Veuillez vous référer à la page principale de guidage en début de section sur le guidage. Il existe de nombreux autres paramètres qui peuvent être réglés, donc certains sont énumérés ci-dessous."
+msgstr "Veuillez vous référer à la page principale de guidage en début de section sur le guidage. Il existe de nombreux autres paramètres qui peuvent être réglés, dont certains sont énumérés ci-dessous."
 
 #. Tag: para
 #. +> trunk5
@@ -243,7 +243,7 @@ msgstr "<guilabel>Réutiliser la calibration</guilabel> : il existe deux cases 
 #: ekos-guide.docbook:140
 #, no-c-format
 msgid "<guilabel>Reverse DEC...</guilabel>: It is also important to check or un-check (it is mount dependent) \"Reverse DEC on pier-side change when re-using calibration\". To find out the right setting for your mount, you need to successfully calibrate on one pier side, make sure guiding is working well on that side, then switch to the other side. Guide for a minute or two. If DEC runs away, then you probably have the wrong setting for the \"Reverse DEC...\" checkbox."
-msgstr "<guilabel>Inverser la déclinaison…</guilabel> : il est également de cocher ou décocher cette option selon le type de monture. Pour découvrir le réglage adéquat pour votre monture, vous devez avoir une calibration réussie d'un côté du pied, vous assurer que le guidage fonctionne bien de ce côté, puis passer à l'autre côté. Ensuite guider pendant une minute ou deux. Si vous observez une dérive de la déclinaison, c'est que vous avez probablement le mauvais réglage pour cette option."
+msgstr "<guilabel>Inverser la déclinaison…</guilabel> : il est également important de cocher ou décocher cette option selon le type de monture. Pour découvrir le réglage adéquat pour votre monture, vous devez avoir une calibration réussie d'un côté du pied, vous assurer que le guidage fonctionne bien de ce côté, puis passer à l'autre côté. Ensuite guider pendant une minute ou deux. Si vous observez une dérive de la déclinaison, c'est que vous avez probablement le mauvais réglage pour cette option."
 
 #. Tag: para
 #. +> trunk5
@@ -265,7 +265,7 @@ msgstr "Pour (re)calibrer, effacer les données de calibration sur la page princ
 #, no-c-format
 #| msgid "Ekos begins the calibration process by sending pulses to move the mount in RA and DEC. If the calibration process fails due to short drift, try increasing the pulse duration. To clear calibration, click the trash bin icon next to the <guibutton>Guide</guibutton> button."
 msgid "Ekos begins the calibration process by sending pulses to move the mount in RA and DEC. It pulses out the RA axis, then pulses it back in. After that it moves a little in DEC to clear and backlash that might exist, and then pulses out and back in for DEC. To view this graphically, click on the \"Calibration Plot\" subtab on the main guiding page."
-msgstr "Ekos débute la procédure de calibration en envoyant des impulsions à la monture pour la déplacer en AD et en DEC. D'abord à l'extérieur de l'axe AD, puis vers l'intérieur. Ensuite, il fait pareil en DEC pour compenser un éventuel jeu. Cela peut être visualiser graphiquement en cliquant sur « Afficher calibration » de la page principal de guidage."
+msgstr "Ekos débute la procédure de calibration en envoyant des impulsions à la monture pour la déplacer en AD et en DEC. D'abord à l'extérieur de l'axe AD, puis vers l'intérieur. Ensuite, il fait pareil en DEC pour compenser un éventuel jeu. Cela peut être visualisé graphiquement en cliquant sur « Afficher calibration » de la page principal de guidage."
 
 #. Tag: title
 #. +> trunk5
@@ -317,7 +317,7 @@ msgstr "Essayez les valeurs par défaut des paramètres de détection d'étoiles
 #, no-c-format
 #| msgid "<guilabel>Better Polar Alignment</guilabel>: This is critical to the success of any astrophotography session. Perform a quick polar alignment with a polar scope (if available) or by using Ekos <link linkend=\"ekos-align-polaralignment\">Polar Alignment procedure</link> in the <guilabel>Align</guilabel> module."
 msgid "<guilabel>Better Polar Alignment</guilabel>: This is critical to the success of any astrophotography session. Use the Ekos <link linkend=\"ekos-align-polaralignment\">Polar Alignment procedure</link> in the <guilabel>Align</guilabel> module."
-msgstr "<guilabel>Meilleur alignement polaire</guilabel> : c'est un point critique pour assurer le succès de toute session d'astrophotographie. Utilisez la <link linkend=\"ekos-align-polaralignment\">procédure d'alignement polaire</link> d'Ekos du module d'<guilabel>alignement</guilabel> d'Ekos."
+msgstr "<guilabel>Meilleur alignement polaire</guilabel> : c'est un point critique pour assurer le succès de toute session d'imagerie. Utilisez la <link linkend=\"ekos-align-polaralignment\">procédure d'alignement polaire</link> d'Ekos du module d'<guilabel>alignement</guilabel> d'Ekos."
 
 #. Tag: para
 #. +> trunk5
@@ -360,7 +360,7 @@ msgstr "<phrase>Réglages du guidage</phrase>"
 #, no-c-format
 #| msgid "Once the calibration process is completed successfully, the guiding shall begin automatically hereafter. The guiding performance is displayed in the <guilabel>Drift Graphics</guilabel> region where <guilabel>Green</guilabel> reflects deviations in RA and <guilabel>Blue</guilabel> deviations in DEC. The colors of the RA/DE lines can be changed in <link linkend=\"colors\">&kstars; color scheme</link> in &kstars; settings dialog. The vertical axis denotes the deviation in arcsecs from the guide star central position and the horizontal axis denotes time. You can hover over the line to get the exact deviation at this particular point in time. Furthermore, you can also zoom and drag/pan the graph to inspect a specific region of the graph."
 msgid "Once the calibration process is completed successfully, guiding begins automatically. The guiding performance is displayed in the <guilabel>Drift Graphics</guilabel> region where <guilabel>Green</guilabel> reflects deviations in RA and <guilabel>Blue</guilabel> deviations in DEC. The colors of the RA/DE lines can be changed in <link linkend=\"colors\">&kstars; color scheme</link> in &kstars; settings dialog. The vertical axis denotes the deviation in arcsecs from the lock position and the horizontal axis denotes time. You can hover over the line to get the exact deviation at this particular point in time. You can also zoom and drag/pan the graph to inspect a specific region of the graph. Another convenient place to examine guiding performance is in the Analyze tab."
-msgstr "Une fois que la procédure de calibration s'est terminée avec succès, le guidage débutera automatiquement. Les performances de guidage sont affichées dans le <guilabel>graphique de la dérive</guilabel> où la déviation en AD est tracée en <guilabel>vert</guilabel> et la déviation en DEC en <guilabel>bleu</guilabel>. Ces couleurs peuvent être modifiées dans le <link linkend=\"colors\">schéma de couleurs de &kstars;</link> dans &kstars;. L'axe vertical désigne la déviation en secondes d'arc de la position de verrouillage et l'axe horizontal représente le temps. Vous pouvez survoler les lignes pour connaître les déviations exactes à chaque instant. De plus, vous pouvez zoomer et déplacer le graphique pour inspecter une zone particulière. Un autre endroit pratique pour analyser les performances de guidage et l'onglet Analyser."
+msgstr "Une fois que la procédure de calibration s'est terminée avec succès, le guidage débutera automatiquement. Les performances de guidage sont affichées dans le <guilabel>graphique de la dérive</guilabel> où la déviation en AD est tracée en <guilabel>vert</guilabel> et la déviation en DEC en <guilabel>bleu</guilabel>. Ces couleurs peuvent être modifiées dans le <link linkend=\"colors\">schéma de couleurs de &kstars;</link> dans &kstars;. L'axe vertical désigne la déviation en secondes d'arc de la position de verrouillage et l'axe horizontal représente le temps. Vous pouvez survoler les lignes pour connaître les déviations exactes à chaque instant. De plus, vous pouvez zoomer et déplacer le graphique pour inspecter une zone particulière. Un autre endroit pratique pour analyser les performances de guidage se trouve dans l'onglet Analyser."
 
 #. Tag: para
 #. +> trunk5
@@ -426,7 +426,7 @@ msgstr "<phrase>Réglages des déviations</phrase>"
 #, no-c-format
 #| msgid "To enable automatic dithering between frames, make sure to check the <guilabel>Dither</guilabel> checkbox. By default, Ekos should dither (&ie; move) the guiding box by up to 3 pixels after each frame captured in <link linkend=\"ekos-capture\">Ekos Capture Module</link>. The motion duration and direction are randomized. Since the guiding performance can oscillate immediately after dithering, you can set the appropriate <guilabel>Settle</guilabel> duration to wait after dither is complete before resuming the capture process. In rare cases where the dithering process can get stuck in an endless loop, set the appropriate <guilabel>Timeout</guilabel> to abort the process. But even if dithering fails, you can select whether this failure should terminate the autoguiding process or not. Toggle <guilabel>Abort Autoguide on failure</guilabel> to select the desired behavior."
 msgid "To enable automatic dithering between frames, make sure to check the <guilabel>Dither</guilabel> checkbox. By default, Ekos should dither (&ie; move) the guiding box by up to 3 pixels after every N frames captured in <link linkend=\"ekos-capture\">Ekos Capture Module</link>. The motion duration and direction are randomized. Since the guiding performance can oscillate immediately after dithering, you can set the appropriate <guilabel>Settle</guilabel> duration to wait after dither is complete before resuming the capture process. In rare cases where the dithering process can get stuck in an endless loop, set the appropriate <guilabel>Timeout</guilabel> to abort the process. But even if dithering fails, you can select whether this failure should terminate the autoguiding process or not. Toggle <guilabel>Abort Autoguide on failure</guilabel> to select the desired behavior."
-msgstr "Pour activer les mini-déviations (dithering) automatiques entre les trames, assurez-vous de cocher la case <guilabel>Déviations</guilabel>. Par défaut, Ekos déplacera la boîte de guidage jusqu'à trois pixels après chaque N acquisition dans le <link linkend=\"ekos-capture\">module d'acquisition</link>. La durée de déplacement et sa direction sont aléatoires. Comme la performance de guidage peut osciller juste après le déplacement, vous pouvez configurer une durée de <guilabel>stabilisation</guilabel> avant la poursuite de la procédure d'acquisition. Dans les rares cas où la procédure de mini-déviations se bloque dans une boucle sans fin, vous pouvez configurer un <guilabel>délai maximal</guilabel> adéquat pour annuler la procédure. Mais même dans ce cas, vous pouvez choisir si cet échec doit mettre fin à la procédure de guidage automatique ou non. L'option <guilabel>Abandonner guidage automatique si échec</guilabel> permet de configurer le comportement souhaité."
+msgstr "Pour activer les mini-déviations (dithering) automatiques entre les poses, assurez-vous de cocher la case <guilabel>Déviations</guilabel>. Par défaut, Ekos déplacera la boîte de guidage jusqu'à trois pixels après chaque N acquisitions dans le <link linkend=\"ekos-capture\">module d'acquisition</link>. La durée de déplacement et sa direction sont aléatoires. Comme la performance de guidage peut osciller juste après le déplacement, vous pouvez configurer une durée de <guilabel>stabilisation</guilabel> avant la poursuite de la procédure d'acquisition. Dans les rares cas où la procédure de mini-déviations se bloque dans une boucle sans fin, vous pouvez configurer un <guilabel>délai maximal</guilabel> adéquat pour annuler la procédure. Mais même dans ce cas, vous pouvez choisir si cet échec doit mettre fin à la procédure de guidage automatique ou non. L'option <guilabel>Abandonner guidage automatique si échec</guilabel> permet de configurer le comportement souhaité."
 
 #. Tag: para
 #. +> trunk5
@@ -541,7 +541,7 @@ msgstr "<phrase>Guidage avec GPG</phrase>"
 #: ekos-guide.docbook:322
 #, no-c-format
 msgid "With GPG guiding, the internal guider uses predictive and adaptive guiding for the RA axis. This adaptively models the periodic error of the mount, and adds its predicted contribution to each guide pulse."
-msgstr "Avec le guidage avec GPG, le guide interne utilise un guidage prédictif et adaptatif pour l'axe en ascension droite. Cela crée un modèle adaptatif de l'erreur périodique de la monture et ajoute la contribution prédite à chaque impulsion."
+msgstr "Avec le guidage avec GPG (Gaussian Process Guider), le guide interne utilise un guidage prédictif et adaptatif pour l'axe en ascension droite seulement. Cela crée un modèle adaptatif de l'erreur périodique de la monture et ajoute la contribution prédite à chaque impulsion."
 
 #. Tag: para
 #. +> trunk5
