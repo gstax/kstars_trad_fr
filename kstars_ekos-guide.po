@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos-guide_3.6.6\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-03 13:27+0200\n"
+"POT-Creation-Date: 2023-08-06 10:41+0200\n"
 "PO-Revision-Date: 2023-08-07 16:08+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -68,7 +68,6 @@ msgstr "Introduction"
 #. +> trunk5
 #: ekos-guide.docbook:23
 #, no-c-format
-#| msgid "Ekos Guide Module enables autoguiding capability using either the powerful built-in guider, or at your option, external guiding via <ulink url=\"https://openphdguiding.org/\">PHD2</ulink> or <ulink url=\"https://sourceforge.net/projects/linguider/\">lin_guider</ulink>. Using the internal guiding, guider CCD frames are captured and sent to Ekos for analysis. Depending on the deviations of the guide star from its lock position, guiding pulses corrections are sent to your mount <guilabel>Via</guilabel> any device that supports ST4 ports. Alternatively, you may send the corrections to your mount <emphasis>directly</emphasis>, if supported by the mount driver. Most of the &GUI; options in the Guide Module are well documented so just hover your mouse over an item and a tooltip will popup with helpful information."
 msgid "The Ekos Guide Module performs autoguiding using either the powerful built-in guider, or at your option, external guiding via <ulink url=\"https://openphdguiding.org/\">PHD2</ulink> or <ulink url=\"https://sourceforge.net/projects/linguider/\">lin_guider</ulink>. Using the internal guiding, guider camera frames are captured and sent to Ekos for analysis. Depending on the deviations of the stars from their lock positions, guiding pulses corrections are sent to your mount's RA and DEC axes motors. Most of the &GUI; options in the Guide Module are well documented so just hover your mouse over an item and a tooltip will popup with helpful information."
 msgstr "Le module de guidage d'Ekos permet le guidage en utilisant soit le puissant guidage interne ou un guidage externe comme <ulink url=\"https://openguiding.org/\">PHD2</ulink> ou encore <ulink url=\"https://sourceforge.net/projects/linguider/\">lin_guider</ulink>. Lors de l'utilisation du guidage interne, des images de guidage sont prises et envoyées à Ekos pour analyse. Selon les déviations de l'étoile guide par rapport à sa position de verrouillage, des impulsions de correction sont envoyées aux axes d'ascension droite et de déclinaison de la monture. La plupart des options qui se trouve dans le module de guidage sont bien documentées, il vous suffit de survoler un élément et une infobulle apparaîtra contenant de l'information détaillée."
 
@@ -83,7 +82,6 @@ msgstr "Réglage"
 #. +> trunk5
 #: ekos-guide.docbook:31
 #, no-c-format
-#| msgid "<screeninfo>Ekos Guide Module</screeninfo>"
 msgid "<screeninfo>Ekos Profile Guider Selection</screeninfo>"
 msgstr "<screeninfo>Sélection du profil de guidage d'Ekos</screeninfo>"
 
@@ -91,7 +89,6 @@ msgstr "<screeninfo>Sélection du profil de guidage d'Ekos</screeninfo>"
 #. +> trunk5
 #: ekos-guide.docbook:39
 #, no-c-format
-#| msgid "<phrase>Ekos Guide Module</phrase>"
 msgid "<phrase>Ekos Profile Guider Selection</phrase>"
 msgstr "<phrase>Sélection du profil de guidage d'Ekos</phrase>"
 
@@ -106,7 +103,6 @@ msgstr "Pour réaliser le guidage, vous devez (une seule fois) choisir un guide 
 #. +> trunk5
 #: ekos-guide.docbook:47
 #, no-c-format
-#| msgid "<screeninfo>Ekos Guide Module</screeninfo>"
 msgid "<screeninfo>Ekos Guider Optical Train</screeninfo>"
 msgstr "<screeninfo>Train optique du guide d'Ekos</screeninfo>"
 
@@ -114,7 +110,6 @@ msgstr "<screeninfo>Train optique du guide d'Ekos</screeninfo>"
 #. +> trunk5
 #: ekos-guide.docbook:55
 #, no-c-format
-#| msgid "<phrase>Ekos Guide Module</phrase>"
 msgid "<phrase>Ekos Guider Optical Train</phrase>"
 msgstr "<phrase>Train optique du guide d'Ekos</phrase>"
 
@@ -150,7 +145,6 @@ msgstr "<guilabel>Regroupement de pixels</guilabel> : le regroupement de pixels
 #. +> trunk5
 #: ekos-guide.docbook:77
 #, no-c-format
-#| msgid "<guilabel>Box</guilabel>: Size of the box enclosing the guide star. Select a suitable size that is neither too large or too small for the selected star."
 msgid "<guilabel>Box</guilabel>: This only is applicable to guide algorithms other than MultiStar, and MultiStar is the recommended guiding scheme. Size of the box enclosing the guide star. Select a suitable size that is neither too large or too small for the selected star."
 msgstr "<guilabel>Boîte</guilabel> : cette option n'est valable que pour les algorithmes différents de Étoiles Multiples, qui est celui recommandé. Elle représente la taille de la boîte entourant l'étoile guide. Sélectionnez une taille adaptée qui ne doit être ni trop grande ni trop petite pour l'étoile sélectionnée."
 
@@ -263,7 +257,6 @@ msgstr "Pour (re)calibrer, effacer les données de calibration sur la page princ
 #. +> trunk5
 #: ekos-guide.docbook:153
 #, no-c-format
-#| msgid "Ekos begins the calibration process by sending pulses to move the mount in RA and DEC. If the calibration process fails due to short drift, try increasing the pulse duration. To clear calibration, click the trash bin icon next to the <guibutton>Guide</guibutton> button."
 msgid "Ekos begins the calibration process by sending pulses to move the mount in RA and DEC. It pulses out the RA axis, then pulses it back in. After that it moves a little in DEC to clear and backlash that might exist, and then pulses out and back in for DEC. To view this graphically, click on the \"Calibration Plot\" subtab on the main guiding page."
 msgstr "Ekos débute la procédure de calibration en envoyant des impulsions à la monture pour la déplacer en AD et en DEC. D'abord à l'extérieur de l'axe AD, puis vers l'intérieur. Ensuite, il fait pareil en DEC pour compenser un éventuel jeu. Cela peut être visualisé graphiquement en cliquant sur « Afficher calibration » de la page principal de guidage."
 
@@ -271,7 +264,6 @@ msgstr "Ekos débute la procédure de calibration en envoyant des impulsions à 
 #. +> trunk5
 #: ekos-guide.docbook:157
 #, no-c-format
-#| msgid "Calibration"
 msgid "Calibration Failures"
 msgstr "Échecs de la calibration"
 
@@ -300,7 +292,6 @@ msgstr "Mise au point de l'appareil de guidage"
 #. +> trunk5
 #: ekos-guide.docbook:173
 #, no-c-format
-#| msgid "Leave algorithm to the default value (<guimenuitem>Smart</guimenuitem>)."
 msgid "Leave algorithm to the default value (<guimenuitem>SEP MultiStar</guimenuitem>) in the Guide Option tab."
 msgstr "Laissez l'algorithme à sa valeur par défaut (<guimenuitem>SEP Étoiles multiples</guimenuitem>) dans l'onglet des options de guidage."
 
@@ -315,7 +306,6 @@ msgstr "Essayez les valeurs par défaut des paramètres de détection d'étoiles
 #. +> trunk5
 #: ekos-guide.docbook:183
 #, no-c-format
-#| msgid "<guilabel>Better Polar Alignment</guilabel>: This is critical to the success of any astrophotography session. Perform a quick polar alignment with a polar scope (if available) or by using Ekos <link linkend=\"ekos-align-polaralignment\">Polar Alignment procedure</link> in the <guilabel>Align</guilabel> module."
 msgid "<guilabel>Better Polar Alignment</guilabel>: This is critical to the success of any astrophotography session. Use the Ekos <link linkend=\"ekos-align-polaralignment\">Polar Alignment procedure</link> in the <guilabel>Align</guilabel> module."
 msgstr "<guilabel>Meilleur alignement polaire</guilabel> : c'est un point critique pour assurer le succès de toute session d'imagerie. Utilisez la <link linkend=\"ekos-align-polaralignment\">procédure d'alignement polaire</link> d'Ekos du module d'<guilabel>alignement</guilabel> d'Ekos."
 
@@ -358,7 +348,6 @@ msgstr "<phrase>Réglages du guidage</phrase>"
 #. +> trunk5
 #: ekos-guide.docbook:216
 #, no-c-format
-#| msgid "Once the calibration process is completed successfully, the guiding shall begin automatically hereafter. The guiding performance is displayed in the <guilabel>Drift Graphics</guilabel> region where <guilabel>Green</guilabel> reflects deviations in RA and <guilabel>Blue</guilabel> deviations in DEC. The colors of the RA/DE lines can be changed in <link linkend=\"colors\">&kstars; color scheme</link> in &kstars; settings dialog. The vertical axis denotes the deviation in arcsecs from the guide star central position and the horizontal axis denotes time. You can hover over the line to get the exact deviation at this particular point in time. Furthermore, you can also zoom and drag/pan the graph to inspect a specific region of the graph."
 msgid "Once the calibration process is completed successfully, guiding begins automatically. The guiding performance is displayed in the <guilabel>Drift Graphics</guilabel> region where <guilabel>Green</guilabel> reflects deviations in RA and <guilabel>Blue</guilabel> deviations in DEC. The colors of the RA/DE lines can be changed in <link linkend=\"colors\">&kstars; color scheme</link> in &kstars; settings dialog. The vertical axis denotes the deviation in arcsecs from the lock position and the horizontal axis denotes time. You can hover over the line to get the exact deviation at this particular point in time. You can also zoom and drag/pan the graph to inspect a specific region of the graph. Another convenient place to examine guiding performance is in the Analyze tab."
 msgstr "Une fois que la procédure de calibration s'est terminée avec succès, le guidage débutera automatiquement. Les performances de guidage sont affichées dans le <guilabel>graphique de la dérive</guilabel> où la déviation en AD est tracée en <guilabel>vert</guilabel> et la déviation en DEC en <guilabel>bleu</guilabel>. Ces couleurs peuvent être modifiées dans le <link linkend=\"colors\">schéma de couleurs de &kstars;</link> dans &kstars;. L'axe vertical désigne la déviation en secondes d'arc de la position de verrouillage et l'axe horizontal représente le temps. Vous pouvez survoler les lignes pour connaître les déviations exactes à chaque instant. De plus, vous pouvez zoomer et déplacer le graphique pour inspecter une zone particulière. Un autre endroit pratique pour analyser les performances de guidage se trouve dans l'onglet Analyser."
 
@@ -408,7 +397,6 @@ msgstr "Déviations"
 #. +> trunk5
 #: ekos-guide.docbook:247
 #, no-c-format
-#| msgid "<screeninfo>Guide Settings</screeninfo>"
 msgid "<screeninfo>Dithering Settings</screeninfo>"
 msgstr "<screeninfo>Réglages des déviations</screeninfo>"
 
@@ -416,7 +404,6 @@ msgstr "<screeninfo>Réglages des déviations</screeninfo>"
 #. +> trunk5
 #: ekos-guide.docbook:255
 #, no-c-format
-#| msgid "<phrase>Guide Settings</phrase>"
 msgid "<phrase>Dithering Settings</phrase>"
 msgstr "<phrase>Réglages des déviations</phrase>"
 
@@ -424,7 +411,6 @@ msgstr "<phrase>Réglages des déviations</phrase>"
 #. +> trunk5
 #: ekos-guide.docbook:259
 #, no-c-format
-#| msgid "To enable automatic dithering between frames, make sure to check the <guilabel>Dither</guilabel> checkbox. By default, Ekos should dither (&ie; move) the guiding box by up to 3 pixels after each frame captured in <link linkend=\"ekos-capture\">Ekos Capture Module</link>. The motion duration and direction are randomized. Since the guiding performance can oscillate immediately after dithering, you can set the appropriate <guilabel>Settle</guilabel> duration to wait after dither is complete before resuming the capture process. In rare cases where the dithering process can get stuck in an endless loop, set the appropriate <guilabel>Timeout</guilabel> to abort the process. But even if dithering fails, you can select whether this failure should terminate the autoguiding process or not. Toggle <guilabel>Abort Autoguide on failure</guilabel> to select the desired behavior."
 msgid "To enable automatic dithering between frames, make sure to check the <guilabel>Dither</guilabel> checkbox. By default, Ekos should dither (&ie; move) the guiding box by up to 3 pixels after every N frames captured in <link linkend=\"ekos-capture\">Ekos Capture Module</link>. The motion duration and direction are randomized. Since the guiding performance can oscillate immediately after dithering, you can set the appropriate <guilabel>Settle</guilabel> duration to wait after dither is complete before resuming the capture process. In rare cases where the dithering process can get stuck in an endless loop, set the appropriate <guilabel>Timeout</guilabel> to abort the process. But even if dithering fails, you can select whether this failure should terminate the autoguiding process or not. Toggle <guilabel>Abort Autoguide on failure</guilabel> to select the desired behavior."
 msgstr "Pour activer les mini-déviations (dithering) automatiques entre les poses, assurez-vous de cocher la case <guilabel>Déviations</guilabel>. Par défaut, Ekos déplacera la boîte de guidage jusqu'à trois pixels après chaque N acquisitions dans le <link linkend=\"ekos-capture\">module d'acquisition</link>. La durée de déplacement et sa direction sont aléatoires. Comme la performance de guidage peut osciller juste après le déplacement, vous pouvez configurer une durée de <guilabel>stabilisation</guilabel> avant la poursuite de la procédure d'acquisition. Dans les rares cas où la procédure de mini-déviations se bloque dans une boucle sans fin, vous pouvez configurer un <guilabel>délai maximal</guilabel> adéquat pour annuler la procédure. Mais même dans ce cas, vous pouvez choisir si cet échec doit mettre fin à la procédure de guidage automatique ou non. L'option <guilabel>Abandonner guidage automatique si échec</guilabel> permet de configurer le comportement souhaité."
 
@@ -516,7 +502,6 @@ msgstr "Un graphique de dispersion peut être utilisé pour juger de la <emphasi
 #. +> trunk5
 #: ekos-guide.docbook:308
 #, no-c-format
-#| msgid "<title>Guide</title>"
 msgid "<title>Guiding with GPG</title>"
 msgstr "<title>Guidage avec GPG</title>"
 
@@ -524,7 +509,6 @@ msgstr "<title>Guidage avec GPG</title>"
 #. +> trunk5
 #: ekos-guide.docbook:310
 #, no-c-format
-#| msgid "Guiding"
 msgid "GPG Guiding"
 msgstr "Guidage avec GPG"
 
@@ -532,7 +516,6 @@ msgstr "Guidage avec GPG"
 #. +> trunk5
 #: ekos-guide.docbook:318
 #, no-c-format
-#| msgid "<phrase>Guide Settings</phrase>"
 msgid "<phrase>Guiding with GPG</phrase>"
 msgstr "<phrase>Guidage avec GPG</phrase>"
 
@@ -546,8 +529,9 @@ msgstr "Avec le guidage avec GPG (Gaussian Process Guider), le guide interne uti
 #. Tag: para
 #. +> trunk5
 #: ekos-guide.docbook:325
-#, no-c-format
-msgid "The main settings to consider are Major Period and Estimate Period. If you know the worm period for your mount, perhaps by examining <ulink url=\"g/phd2/wiki/Mount-Worm-Period-Info\">this table</ulink>, then uncheck Estimate Period, and enter your known Major Period. If not, then check Estimate Period. Intra-frame dark guiding can be used to \"spread out the GPG prediction. For instance, if you guide at 5s, you can set the dark guiding interval to 1s and its prediction is pulsed every second, but the guiding drift correction would be sent every 5s. In this way, it outputs the predicted corrections much faster than the guide camera exposure rate, effectively performing periodic error correction and allowing longer guide camera exposures. All the other parameters are best left to defaults."
+#, fuzzy, no-c-format
+#| msgid "The main settings to consider are Major Period and Estimate Period. If you know the worm period for your mount, perhaps by examining <ulink url=\"g/phd2/wiki/Mount-Worm-Period-Info\">this table</ulink>, then uncheck Estimate Period, and enter your known Major Period. If not, then check Estimate Period. Intra-frame dark guiding can be used to \"spread out the GPG prediction. For instance, if you guide at 5s, you can set the dark guiding interval to 1s and its prediction is pulsed every second, but the guiding drift correction would be sent every 5s. In this way, it outputs the predicted corrections much faster than the guide camera exposure rate, effectively performing periodic error correction and allowing longer guide camera exposures. All the other parameters are best left to defaults."
+msgid "The main settings to consider are Major Period and Estimate Period. If you know the worm period for your mount, perhaps by examining <ulink url=\"https://github.com/OpenPHDGuiding/phd2/wiki/Mount-Worm-Period-Info\">this table</ulink>, then uncheck Estimate Period and enter your known Major Period. If not, then check Estimate Period. Intra-frame dark guiding can be used to \"spread out the GPG prediction. For instance, if you guide at 5s, you can set the dark guiding interval to 1s and its prediction is pulsed every second, but the guiding drift correction would be sent every 5s. In this way, it outputs the predicted corrections much faster than the guide camera exposure rate, effectively performing periodic error correction and allowing longer guide camera exposures. All the other parameters are best left to defaults."
 msgstr "Les réglages principaux à considérer sont Période Principale et Période Estimée. Si vous connaissez la période hélicoïdale de votre monture, peut-être en analysant cette <ulink url=\"g/phd2/wiki/Mount-Worm-Period-Info\">table</ulink>, décochez Période Estimée et saisissez la valeur de Période Principale. Dans le cas contraire, cochez Période Estimée. Le guidage avec les trames Dark peut être utilisé pour diffuser les prédictions GPG. Par exemple, si vous guider avec une durée de 5 secondes, vous pouvez régler l'intervalle de guidage de Dark à 1 seconde, ainsi les prédictions d'impulsions sont envoyées chaque seconde, tout en ayant des corrections de déviation de guidage envoyés chaque 5 secondes. Ainsi, les prédictions de corrections sont envoyées bien plus rapidement que le taux d'exposition de l'appareil, réalisant ainsi des corrections d'erreurs périodiques et permettant de plus longues poses de l'appareil guide. Tous les autres paramètres restent inchangés."
 
 #. Tag: title
@@ -561,7 +545,6 @@ msgstr "Trames Dark"
 #. +> trunk5
 #: ekos-guide.docbook:331
 #, no-c-format
-#| msgid "Dark frames are <emphasis>immensely</emphasis> helpful in reducing noises in your guide frames. It is highly recommended to take dark frames before you begin and calibration or guiding procedure. To take a dark frame, check the <guilabel>Dark</guilabel> checkbox and then click <guibutton>Capture</guibutton>. For the first time this is performed, Ekos will ask you about your camera shutter. If your camera does not have a shutter, then Ekos will warn you anytime you take a dark frame to cover your camera/telescope before proceeding with the capture. On the other hand, if the camera already includes a shutter, then Ekos will directly proceed with taking the dark frame. All dark frames are automatically saved to Ekos Dark Frame Library. By default, the Dark Library keeps reusing dark frames for 30 days after which it will capture new dark frames. This value is configurable and can be adjusted in <link linkend=\"ekos\">Ekos settings</link> in the &kstars; settings dialog."
 msgid "Dark frames can be helpful to reduce noise in your guide frames. If you choose to use this option, then it is recommended that you take dark frames before you begin your calibration or guiding procedure. To take a dark frame, check the <guilabel>Dark</guilabel> checkbox and then click <guibutton>Capture</guibutton>. For the first time this is performed, Ekos will ask you about your camera shutter. If your camera does not have a shutter, then Ekos will warn you anytime you take a dark frame to cover your camera/telescope before proceeding with the capture. On the other hand, if the camera already includes a shutter, then Ekos will directly proceed with taking the dark frame. All dark frames are automatically saved to Ekos Dark Frame Library. By default, the Dark Library keeps reusing dark frames for 30 days after which it will capture new dark frames. This value is configurable and can be adjusted in <link linkend=\"ekos\">Ekos settings</link> in the &kstars; settings dialog."
 msgstr "Les trames Dark sont utiles pour aider à réduire le bruit des trames de guidage. Si vous choisissez cette option, il est hautement recommandé d'en prendre avec de commencer la calibration et la procédure de guidage. Pour prendre une trame Dark, cochez la case <guilabel>Dark</guilabel> et ensuite cliquez sur le bouton <guibutton>Acquisition</guibutton>. La première fois que vous réaliserez cela, Ekos vous demandera si votre caméra possède un obturateur et si ce n'est pas le cas, il vous avertira de couvrir votre caméra ou télescope avant le début de l'acquisition. Si votre caméra en possède un, alors Ekos procédera directement à l'acquisition des trames Dark. Toutes les trames Dark seront automatiquement enregistrées dans la bibliothèque de Dark. Par défaut ces trames seront utilisées pendant 30 jours après quoi une nouvelle série sera prise. Cette durée peut être configurée dans <link linkend=\"ekos\">Configuration Ekos</link> dans la boîte de dialogue de la configuration de &kstars;."
 
@@ -625,7 +608,6 @@ msgstr "Si PHD2 est sélectionné, les boutons <guibutton>Connexion</guibutton> 
 #. +> trunk5
 #: ekos-guide.docbook:374
 #, no-c-format
-#| msgid "After launching PHD2, select your INDI equipment and set their options. From Ekos, connect to PHD2 by clicking the <guibutton>Connect</guibutton> button. On startup, Ekos will attempt to automatically connect to PHD2. Once the connection is established, you may begin the guiding immediately by click on the <guibutton>Guide</guibutton> button. PHD2 shall perform calibration if necessary. If dithering is selected, PHD2 shall be commanded to dither given the offset pixels indicated and once guiding is settled and stable, the capture process in Ekos shall resume."
 msgid "After launching PHD2, select your INDI equipment and set their options. From Ekos, connect to PHD2 by clicking the <guibutton>Connect</guibutton> button. On startup, Ekos will attempt to automatically connect to PHD2. Once the connection is established, you may begin the guiding immediately by click on the <guibutton>Guide</guibutton> button. PHD2 performs calibration if necessary. If dithering is selected, PHD2 is commanded to dither given the offset pixels indicated, and once guiding is settled and stable, the capture process in Ekos resumes."
 msgstr "Après avoir démarré PHD2, sélectionnez votre matériel INDI et configurez les options. Vous pouvez vous connecter à PHD2 directement depuis Ekos en cliquant sur le bouton <guibutton>Connexion</guibutton>. Au démarrage Ekos tentera de se connecter automatiquement à PHD2. Une fois que la connexion est établie, vous pouvez débuter le guidage immédiatement en cliquant sur le bouton <guibutton>Guidage</guibutton>. PHD2 procédera à la calibration si nécessaire. Si les mini-déviations (dithering) sont activées, PHD2 enverra les commandes de mini-déviations données par le décalage des pixels et dès que le guidage est stabilisé et stable, Ekos pourra reprendre la procédure d'acquisition."
 
@@ -633,7 +615,6 @@ msgstr "Après avoir démarré PHD2, sélectionnez votre matériel INDI et confi
 #. +> trunk5
 #: ekos-guide.docbook:379
 #, no-c-format
-#| msgid "Guiding"
 msgid "Guiding Logs"
 msgstr "Journaux de guidage"
 
@@ -641,7 +622,6 @@ msgstr "Journaux de guidage"
 #. +> trunk5
 #: ekos-guide.docbook:380
 #, no-c-format
-#| msgid "Ekos saves a CSV guide log data that can be useful for analysis of the mount's performance under <filename>~/.local/share/kstars/guide_log.txt</filename>. This log is only available when using the built-in guider."
 msgid "Ekos' internal guider saves a CSV guide log in PHD2 format data that can be useful for analysis of the mount's performance. In Linux this is stored under <filename>~/.local/share/kstars/guidelogs/</filename>. This log is only available when using Ekos' internal guider. It should be compatible with <ulink url=\"https://openphdguiding.org/phd2-log-viewer/\">PHD2's guide log viewer</ulink>."
 msgstr "Ekos enregistre les données de guidage dans un fichier CSV au format PHD2 qui peut être utile pour analyser les performances de la monture. Sous Linux, elles sont enregistrées sous (<filename>~/.local/share/kstars/guide_log.txt</filename>). Ce fichier journal n'est disponible que pour le guidage interne et devrait être compatible avec l'utilitaire de <ulink url=\"https://openphdguiding.org/phd2-log-viewer/\">visualisation des fichiers journaux de guidage de PHD2</ulink>."
 
