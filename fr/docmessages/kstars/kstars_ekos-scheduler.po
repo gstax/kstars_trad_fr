@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: kstars_ekos_scheduler_3.6.6\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-07-06 09:16+0200\n"
-"PO-Revision-Date: 2023-08-09 18:19+0200\n"
+"PO-Revision-Date: 2023-08-01 17:21+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -84,7 +84,7 @@ msgstr "Table de l'ordonnanceur"
 #: ekos-scheduler.docbook:29
 #, no-c-format
 msgid "The heart of the Scheduler is a table displaying the list of Scheduler jobs the user wants to run. Associated with each jobs are attributes (mostly described in the settings section below). The attributes describe the name of the job, where the telescope should be pointed when imaging that job, a description of what types of images should be captured, constraints about when the jobs should run (&eg; altitude, twilight, moon, landscape blockages, &etc;), things that need to be done before and after the job is run, and strategies for dealing with errors."
-msgstr "Le cœur de l'ordonnanceur est une table affichant la liste des tâches prévues par l'opérateur. À chaque tâche est associée des attributs (décrits dans la section de configuration ci-dessous). Les attributs sont le nom de la tâche, la position vers laquelle le télescope doit pointer pour cette tâche, une description des types d'images à acquérir, les contraintes de la tâche (par exemple l'altitude, le crépuscule, la lune, les obstructions du paysage, &etc;), ainsi que toutes les choses qui doivent être accomplies avant et après la tâche, ainsi que les stratégies à adopter en cas d'erreurs."
+msgstr "Le cœur de l'ordonnanceur est une table affichant la liste des tâches prévues par l'opérateur. À chaque tâche est associée des attributs (décrits dans la section de configuration ci-dessous). Les attributs sont le nom de la tâche, la position vers laquelle le télescope doit pointer pour cette tâche, une description des types d'images à acquérir, les contraintes de la tâche (&pex; l'altitude, le crépuscule, la lune, les obstructions du paysage, &etc;), ainsi que toutes les choses qui doivent être accomplies avant et après la tâche, ainsi que les stratégies à adopter en cas d'erreurs."
 
 #. Tag: para
 #. +> trunk5
@@ -140,14 +140,14 @@ msgstr "La table ci-dessus dresse la liste des tâches par ordre de priorité, a
 #: ekos-scheduler.docbook:66
 #, no-c-format
 msgid "The Scheduler regularly plans (and re-plans) which jobs should be run, and when. It can start executing a given job, and then later preempt that job for a new one. It can become idle if no jobs can be run (&eg; in daylight), and sleep until such a time that it becomes active again. Its aim is to keep the equipment as busy as possible, while respecting the scheduler-table's priorities. Here's how it works."
-msgstr "L'ordonnanceur revoit régulièrement l'ordre des tâches et le moment où elles doivent être lancées. Il peut lancer une tâche puis plus tard, temporairement la mettre en pause en faveur d'une autre. Il peut devenir inactif si aucune tâche ne peut être lancée (par exemple durant le jour) et rester dans cet état jusqu'à ce qu'une tâche peut être lancée. Le but est de conserver l'équipement le plus occupé possible tout en respectant les priorités de la table. Voici comment il fonctionne."
+msgstr "L'ordonnanceur revoit régulièrement l'ordre des tâches et le moment où elles doivent être lancées. Il peut lancer une tâche puis plus tard, temporairement la mettre en pause en faveur d'une autre. Il peut devenir inactif si aucune tâche ne peut être lancée (&pex; durant le jour) et rester dans cet état jusqu'à ce qu'une tâche peut être lancée. Le but est de conserver l'équipement le plus occupé possible tout en respectant les priorités de la table. Voici comment il fonctionne."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:69
 #, no-c-format
 msgid "When the scheduler starts (or when it replans, which it does every second while active), it looks through the entire list of jobs, starting at the highest priority job, and working its way down to the lowest priority one if necessary. When it finds a job that can run, it starts that job, possibly preempting the currently running job. A jobs can run if its constraints are met, &eg; the target is not blocked by the local terrain, it meets the minimum altitude constraint, it has not already completed all the desired imaging, ..."
-msgstr "Quand l'ordonnanceur démarre (ou quand il revoit ses plans, ce qu'il fait toutes les secondes quand il est actif), il passe à travers toute la liste de tâches, en commençant par celle de plus haute priorité, jusqu'à celle de plus basse priorité. Quand il trouve une tâche qui peut être lancée, il le fait, même s'il doit même en pause une tâche en cours. Une tâche peut être lancée que si elle rempli toutes les contraintes, par exemple la cible n'est pas bloquée par l'environnement (un arbre par exemple) et qu'elle satisfait la contrainte d'altitude minimale ou encore qu'elle n'a pas terminé toutes les acquisitions souhaitées."
+msgstr "Quand l'ordonnanceur démarre (ou quand il revoit ses plans, ce qu'il fait toutes les secondes quand il est actif), il passe à travers toute la liste de tâches, en commençant par celle de plus haute priorité, jusqu'à celle de plus basse priorité. Quand il trouve une tâche qui peut être lancée, il le fait, même s'il doit même en pause une tâche en cours. Une tâche peut être lancée que si elle rempli toutes les contraintes, &pex;, la cible n'est pas bloquée par l'environnement (un arbre par exemple) et qu'elle satisfait la contrainte d'altitude minimale ou encore qu'elle n'a pas terminé toutes les acquisitions souhaitées."
 
 #. Tag: para
 #. +> trunk5
@@ -338,21 +338,21 @@ msgstr "Cette fonctionnalité permet d'exécuter deux ordonnanceurs ou plus avec
 #: ekos-scheduler.docbook:173
 #, no-c-format
 msgid "Normally the (Greedy) scheduler's job priority is set by the row the job is listed in the Scheduler's job table. Jobs on rows closer to the top run with higher priority than jobs lower down. Thus, if a job on row 2 (Job2) uses <guilabel>Repeat Until Terminated</guilabel>, and that job's running constraints are satisfied, a lower down job (&eg; Job3) will not be scheduled to run."
-msgstr "La priorité de l'ordonnanceur Greedy est normalement déterminée par la position de la ligne dans la table des tâches. Celles se trouvant vers le haut ont une priorité plus haute que celle vers le bas de la table. Ainsi, si une tâche est sur la ligne 2 (tâche 2) et dont l'option <guilabel>Répéter jusqu'à achèvement</guilabel> est activée, et que toutes les contraintes sont satisfaites, une tâche plus bas dans la liste (par exemple la tâche 3) ne sera pas prévue pour exécution."
+msgstr "La priorité de l'ordonnanceur Greedy est normalement déterminée par la position de la ligne dans la table des tâches. Celles se trouvant vers le haut ont une priorité plus haute que celle vers le bas de la table. Ainsi, si une tâche est sur la ligne 2 (tâche 2) et dont l'option <guilabel>Répéter jusqu'à achèvement</guilabel> est activée, et que toutes les contraintes sont satisfaites, une tâche plus bas dans la liste (&pex; tâche 3) ne sera pas prévue pour exécution."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:176
 #, no-c-format
 msgid "If you wish to alternate jobs, you can assign each of the jobs the same <guilabel>group</guilabel> name, and give the jobs one of the repeating finish conditions (&eg; Repeat for N times, or Repeat Until Terminated). With that setup, jobs in the same group will cede to each other if they have completed more 'Repeat Iterations' than the other job. So, if Job2 with group \"MyGroup\" completes its 2nd iteration, and Job3 with the same group name has only completed 0 or 1 iterations, when the time comes to schedule Job2, Job3 will run instead."
-msgstr "Si vous souhaitez alterner les tâches, vous pouvez attribuer chaque tâche au même nom de <guilabel>groupe</guilabel> et donner aux tâches une des conditions d'achèvement (par exemple Répéter N fois ou Répéter jusqu'à achèvement). Ainsi configurées, les tâches dans le même groupe laisseront la place aux autres tâches si elles ont terminées plus d'itérations que les autre autres tâches. Ainsi si la tâche 2 du groupe « MonGroupe » termine sa deuxième itération et que la tâche 3 du même groupe n'a terminé que 0 ou 1 itération, quand viendra le moment de programmer la tâche 2, ce sera la tâche 3 qui sera exécutée."
+msgstr "Si vous souhaitez alterner les tâches, vous pouvez attribuer chaque tâche au même nom de <guilabel>groupe</guilabel> et donner aux tâches une des conditions d'achèvement (&pex; Répéter N fois ou Répéter jusqu'à achèvement). Ainsi configurées, les tâches dans le même groupe laisseront la place aux autres tâches si elles ont terminées plus d'itérations que les autre autres tâches. Ainsi si la tâche 2 du groupe « MonGroupe » termine sa deuxième itération et que la tâche 3 du même groupe n'a terminé que 0 ou 1 itération, quand viendra le moment de programmer la tâche 2, ce sera la tâche 3 qui sera exécutée."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:178
 #, no-c-format
 msgid "Practically speaking, imagine you had a 6-panel mosaic you wanted to alternate. You might give all of those jobs the same group name, make them all &eg; \"Repeat for 5 times\". Then, they would run in lock-step. The cadence of job switching would be controlled by the length of the sequence file assigned to each of those jobs. You wouldn't want to make the cadence too short (&eg; capturing one 2-minute image), as there is overhead in switching jobs. For instance, starting jobs may involved aligning, starting guiding, and even focusing."
-msgstr "Dans la pratique, imaginez que vous une mosaïque à 6 panneaux que vous souhaitez alterner. Vous pouvez mettre chaque tâche dans le même groupe et les faire se répéter par exemple 5 fois. Ensuite, elles s'exécuteront en pas fixe. La cadence de changement sera contrôlée par la longueur du fichier de séquence attribué à chaque tâche. Vous ne voulez pas avoir une cadence trop courte (par exemple, pose de 2 minutes), parce que les changements impliquent plusieurs opérations telles que l'alignement, le guidage et la mise au point."
+msgstr "Dans la pratique, imaginez que vous une mosaïque à 6 panneaux que vous souhaitez alterner. Vous pouvez mettre chaque tâche dans le même groupe et les faire se répéter par exemple 5 fois. Ensuite, elles s'exécuteront en pas fixe. La cadence de changement sera contrôlée par la longueur du fichier de séquence attribué à chaque tâche. Vous ne voulez pas avoir une cadence trop courte (&pex; pose de 2 minutes), parce que les changements impliquent plusieurs opérations telles que l'alignement, le guidage et la mise au point."
 
 #. Tag: title
 #. +> trunk5
@@ -710,7 +710,6 @@ msgstr ""
 #. +> trunk5
 #: ekos-scheduler.docbook:384
 #, no-c-format
-#| msgid "The startup and shutdown scripts must be <emphasis>executable</emphasis> in order for Ekos to invoke them (&eg; use <userinput>chmod +x startup_script.py</userinput> to mark the script as executable). Ekos Scheduler enables truly simple robotic operation without the need of any human intervention in any step of the process. Without human presence, it becomes increasingly critical to gracefully recover from failures in any stage of the observation run. Using &plasma; notifications, the user can configure audible alarms and email notifications for the various events in the scheduler."
 msgid "The startup and shutdown scripts must be <emphasis>executable</emphasis> in order for Ekos to invoke them (&eg; use <userinput>chmod +x startup_script.py</userinput> to mark the script as executable). Ekos Scheduler enables truly simple robotic operation without the need of any human intervention in any step of the process. Without human presence, it becomes increasingly critical to gracefully recover from failures in any stage of the observation run. Using &plasma; notifications, the user can configure audible alarms and email notifications for the various events in the Scheduler."
 msgstr "Les scripts doivent être <emphasis>exécutables</emphasis> pour qu'Ekos puisse les invoquer (c'est-à-dire utilisez la commande <userinput>chmod u+x startup_script.py</userinput> pour le rendre exécutable). L'ordonnanceur d'Ekos permet d'opérer un observatoire de manière complètement robotisée sans aucune intervention humaine. Il est donc critique que le système puisse se rétablir après des erreurs, et cela à n'importe quelle étape du processus d'observation. L'utilisation des notifications &plasma; permet de configurer des alarmes audibles et l'envoi automatique de courriels pour divers évènements de l'ordonnanceur."
 
