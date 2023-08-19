@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_config_3.6.6\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-17 08:50+0200\n"
+"POT-Creation-Date: 2023-08-18 10:46+0200\n"
 "PO-Revision-Date: 2023-07-10 16:26+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -1817,7 +1817,7 @@ msgstr ""
 #. +> trunk5
 #: config.docbook:1203
 #, no-c-format
-msgid "Plate solving these images can sometimes be difficult. That is because at this point the system has no information as to the scale or position to look, and thus it is a blind solve. To improve your chance for success, you can enter an approxiate RA/DEC center sky position into the RA and DEC columns for the row you are trying to solve. You can also add an image scale, in arcseconds-per-pixel. You can add a default scale to the right of the Solve button in the box labelled <guilabel>Default a-s/px</guilabel> so that all solving attempts use this scale by default. You can also add a scale directly into the table-row-column, which would override the default. You can choose which StellarSolver profile the solver uses (these profiles can be edited in Ekos' align tab). Finally, you can adjust the solver's <guilabel>Timeout</guilabel> in seconds."
+msgid "Plate solving these images can sometimes be difficult. That is because at this point the system has no information as to the scale or position to look, and thus it is a blind solve. To improve your chance for success, you can enter an approximate RA/DEC center sky position into the RA and DEC columns for the row you are trying to solve. You can also add an image scale, in arcseconds-per-pixel. You can add a default scale to the right of the Solve button in the box labeled <guilabel>Default a-s/px</guilabel> so that all solving attempts use this scale by default. You can also add a scale directly into the table-row-column, which would override the default. You can choose which StellarSolver profile the solver uses (these profiles can be edited in Ekos' align tab). Finally, you can adjust the solver's <guilabel>Timeout</guilabel> in seconds."
 msgstr ""
 
 #. Tag: para
