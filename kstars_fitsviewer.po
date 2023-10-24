@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_fitsviewer_3.6.6\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-22 18:03+0200\n"
+"POT-Creation-Date: 2023-10-23 10:13+0200\n"
 "PO-Revision-Date: 2023-07-10 16:26+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -560,7 +560,7 @@ msgstr ""
 #. +> trunk5
 #: fitsviewer.docbook:169
 #, no-c-format
-msgid "Midtones Value: The midtones value which controls the brightness of the iamge can be manually entered (scale is 0 to 1.0, even for integer pixel values)."
+msgid "Midtones Value: The midtones value which controls the brightness of the image can be manually entered (scale is 0 to 1.0, even for integer pixel values)."
 msgstr ""
 
 #. Tag: para
@@ -876,278 +876,294 @@ msgstr ""
 #. +> trunk5
 #: fitsviewer.docbook:303
 #, no-c-format
-msgid "Image: For any image where stars were detected, if the Mark Stars button is activated above the image display, <screenshot> <screeninfo> FITS Viewer Mark Stars Button </screeninfo> <mediaobject> <imageobject> <imagedata fileref=\"fitsviewer-mark-stars.png\" format=\"PNG\"/> </imageobject> <textobject> <phrase>FITS Viewer Mark Stars Button</phrase> </textobject> </mediaobject> </screenshot> then the detected stars are circled in red."
+msgid "Image: For any image where stars were detected, if the Mark Stars button is activated above the image display, then the detected stars are circled in red."
 msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5
+#: fitsviewer.docbook:305
+#, fuzzy, no-c-format
+#| msgid "<screeninfo>FITS Viewer embedded</screeninfo>"
+msgid "<screeninfo>FITS Viewer Mark Stars Button</screeninfo>"
+msgstr "<screeninfo>Afficheur FITS intégré</screeninfo>"
+
+#. Tag: phrase
+#. +> trunk5
+#: fitsviewer.docbook:313
+#, fuzzy, no-c-format
+#| msgid "<phrase>FITS Viewer embedded</phrase>"
+msgid "<phrase>FITS Viewer Mark Stars Button</phrase>"
+msgstr "<phrase>Afficheur FITS intégré</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: fitsviewer.docbook:320
+#: fitsviewer.docbook:319
 #, no-c-format
 msgid "Using this tool the user can try and debug solving issues as follows."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: fitsviewer.docbook:324
+#: fitsviewer.docbook:323
 #, no-c-format
 msgid "He/she might have the KStars -> Settings -> Developer -> <link linkend=\"developer\">Save Failed Align Images checkbox</link> enabled."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: fitsviewer.docbook:325
+#: fitsviewer.docbook:324
 #, no-c-format
 msgid "Then a difficult image (for whom alignment failed) <link linkend=\"developer\">could be located</link> and loaded into the fitsviewer."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: fitsviewer.docbook:326
+#: fitsviewer.docbook:325
 #, no-c-format
 msgid "The image could be inspected to see if there were obvious visual issues."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: fitsviewer.docbook:327
+#: fitsviewer.docbook:326
 #, no-c-format
 msgid "Clicking Solve in this tool for that image would show how many stars were detected, and the user could then decide if it is a star detection issue and experiment with adjusting the profile or star-detection parameters."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: fitsviewer.docbook:329
+#: fitsviewer.docbook:328
 #, no-c-format
 msgid "The user could manually upload the image to astrometry.net to get scale and position values (or just see if it is a problematic image)."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: fitsviewer.docbook:331
+#: fitsviewer.docbook:330
 #, no-c-format
 msgid "The user could experiment with Use Position and Use Scale, using accurate values for those constraints (or disabling them) to see if those were the problem, or adjust the parameters in the align profile being used."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
-#: fitsviewer.docbook:333
+#: fitsviewer.docbook:332
 #, no-c-format
 msgid "To inspect or modify the profile, the user would open the align tab in Ekos, go to the Options menu, select the StellarSolver Options tab, make sure the right Options profile is selected, and click the pencil to view or edit that profile."
 msgstr ""
 
 #. Tag: title
 #. +> trunk5
-#: fitsviewer.docbook:339
+#: fitsviewer.docbook:338
 #, no-c-format
 msgid "Embedded FITS Viewer"
 msgstr "Afficheur FITS intégré"
 
 #. Tag: screeninfo
 #. +> trunk5
-#: fitsviewer.docbook:341
+#: fitsviewer.docbook:340
 #, no-c-format
 msgid "<screeninfo>FITS Viewer embedded</screeninfo>"
 msgstr "<screeninfo>Afficheur FITS intégré</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: fitsviewer.docbook:349
+#: fitsviewer.docbook:348
 #, no-c-format
 msgid "<phrase>FITS Viewer embedded</phrase>"
 msgstr "<phrase>Afficheur FITS intégré</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: fitsviewer.docbook:353
+#: fitsviewer.docbook:352
 #, no-c-format
 msgid "In Ekos <link linkend=\"ekos-focus\">Focus</link>, <link linkend=\"ekos-guide\">Guide</link>, and <link linkend=\"ekos-align\">Align</link> modules, captured images are displayed in the embedded FITS Viewer. The embedded viewer includes a <emphasis>floating bar</emphasis> that can be used to perform several functions:"
 msgstr "Dans les modules de <link linkend=\"ekos-focus\">mise au point</link>, de <link linkend=\"ekos-guide\">guidage</link> et d'<link linkend=\"ekos-align\">alignement</link>, les images acquises sont affichées dans l'afficheur FITS intégré. Il inclut une <emphasis>barre flottante</emphasis> qui peut être utilisée pour effectuer plusieurs fonctions :"
 
 #. Tag: para
 #. +> trunk5
-#: fitsviewer.docbook:358
+#: fitsviewer.docbook:357
 #, no-c-format
 msgid "Zoom Out"
 msgstr "Zoom arrière"
 
 #. Tag: para
 #. +> trunk5
-#: fitsviewer.docbook:363
+#: fitsviewer.docbook:362
 #, no-c-format
 msgid "Zoom In"
 msgstr "Zoom avant"
 
 #. Tag: para
 #. +> trunk5
-#: fitsviewer.docbook:368
+#: fitsviewer.docbook:367
 #, no-c-format
 msgid "Default Zoom"
 msgstr "Zoom par défaut"
 
 #. Tag: para
 #. +> trunk5
-#: fitsviewer.docbook:373
+#: fitsviewer.docbook:372
 #, no-c-format
 msgid "Zoom To Fit"
 msgstr "Zoom pour ajuster"
 
 #. Tag: para
 #. +> trunk5
-#: fitsviewer.docbook:378
+#: fitsviewer.docbook:377
 #, no-c-format
 msgid "Toggle Cross Hairs"
 msgstr "Basculer le réticule"
 
 #. Tag: para
 #. +> trunk5
-#: fitsviewer.docbook:383
+#: fitsviewer.docbook:382
 #, no-c-format
 msgid "Toggle Pixel Gridlines"
 msgstr "Basculer la grille de pixel"
 
 #. Tag: para
 #. +> trunk5
-#: fitsviewer.docbook:388
+#: fitsviewer.docbook:387
 #, no-c-format
 msgid "Toggle Detected Stars: Highlight detected stars with red circles."
 msgstr "Afficher les étoiles détectées : mise en valeur des étoiles détectées avec des cercles rouges."
 
 #. Tag: para
 #. +> trunk5
-#: fitsviewer.docbook:393
+#: fitsviewer.docbook:392
 #, no-c-format
 msgid "Star Profile: View detailed 3D star profile."
 msgstr "Profile d'étoile : affiche le profile 3D détaillé de l'étoile."
 
 #. Tag: para
 #. +> trunk5
-#: fitsviewer.docbook:398
+#: fitsviewer.docbook:397
 #, no-c-format
 msgid "The floating bar is automatically hidden once the mouse leaves the embedded viewer area. You can use the mouse to pan and zoom just like the standalone FITS Viewer tool. The green tracking box can be used to select a specific star or region within the image, for example, to select a guide star."
 msgstr "La barre flottante est automatiquement cachée dès que la souris quitte la zone de l'afficheur intégré. Vous pouvez utiliser la souris pour déplacer et zoomer comme avec l'outil de l'afficheur FITS. La boîte de suivi verte peut être utilisée pour sélectionner une étoile particulière ou une région de l'image, par exemple pour choisir une étoile guide."
 
 #. Tag: title
 #. +> trunk5
-#: fitsviewer.docbook:404
+#: fitsviewer.docbook:403
 #, no-c-format
 msgid "3D Star Profile &amp; Data Visualization Tool"
 msgstr "Profil 3D de l'étoile &amp; outil d'affichage des données"
 
 #. Tag: screeninfo
 #. +> trunk5
-#: fitsviewer.docbook:406
+#: fitsviewer.docbook:405
 #, no-c-format
 msgid "<screeninfo>Star Profile main page</screeninfo>"
 msgstr "<screeninfo>Page principale du profil de l'étoile</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: fitsviewer.docbook:414
+#: fitsviewer.docbook:413
 #, no-c-format
 msgid "<phrase>Star Profile main page</phrase>"
 msgstr "<phrase>Page principale du profil de l'étoile</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: fitsviewer.docbook:418
+#: fitsviewer.docbook:417
 #, no-c-format
 msgid "The 3D data visualization tool can plot 3D graphs of the selected region of the image. This is particularly useful for astrophotographers who want to visualize the profile of a star they are considering focusing or guiding on. For scientists, it enables them to examine a cross-section of the data to understand the relative brightness of different objects in the image. Additionally, it empowers imagers who want to visually see what is going on in their data collection in a new way."
 msgstr "L'outil d'affichage de données 3D peut tracer un graphique 3D d'une région sélectionnée de l'image. Cela est particulièrement utile pour les astrophotographes qui souhaite afficher le profil d'une étoile qu'ils envisagent d'utiliser comme étoile guide. Pour les scientifiques, cela leurs permet d'étudier un échantillon des données pour comprendre la luminosité relative des différents objets de l'image. De plus, cela permet aux personnes qui souhaitent comprendre visuellement ce qui se passe dans leurs données d'une nouvelle manière."
 
 #. Tag: para
 #. +> trunk5
-#: fitsviewer.docbook:421
+#: fitsviewer.docbook:420
 #, no-c-format
 msgid "To use the new feature, the user needs to select the <guiicon>View Star Profile</guiicon> icon in one of the Ekos Module Views, or in the FITS Viewer. Then, the region selected in the green tracking box will show up in the 3D graph as shown above. The user will then have one of the following toolbars at the bottom."
 msgstr "Pour utiliser cette nouvelle fonctionnalité, l'utilisateur doit sélectionner l'icône <guiicon>Voir profil de l'étoile</guiicon> dans une des vues des modules Ekos ou directement dans l'afficheur FITS. Ensuite la région sélectionnée dans la boîte de suivi verte apparaîtra dans le graphe 3d comme montré ci-dessus. L'utilisateur aura ensuite une des barre suivantes d'outils en bas."
 
 #. Tag: screeninfo
 #. +> trunk5
-#: fitsviewer.docbook:425
+#: fitsviewer.docbook:424
 #, no-c-format
 msgid "<screeninfo>Star Profile toolbar 1</screeninfo>"
 msgstr "<screeninfo>Barre d'outils du profil d'étoile 1</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: fitsviewer.docbook:433
+#: fitsviewer.docbook:432
 #, no-c-format
 msgid "<phrase>Star Profile toolbar 1</phrase>"
 msgstr "<phrase>Barre d'outils du profil d'étoile 1</phrase>"
 
 #. Tag: screeninfo
 #. +> trunk5
-#: fitsviewer.docbook:438
+#: fitsviewer.docbook:437
 #, no-c-format
 msgid "<screeninfo>Star Profile toolbar 2</screeninfo>"
 msgstr "<screeninfo>Barre d'outils du profil d'étoile 2</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: fitsviewer.docbook:446
+#: fitsviewer.docbook:445
 #, no-c-format
 msgid "<phrase>Star Profile toolbar 2</phrase>"
 msgstr "<phrase>Barre d'outils du profil d'étoile 2</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: fitsviewer.docbook:450
+#: fitsviewer.docbook:449
 #, no-c-format
 msgid "At the far left, the sample size combo box will let the user select the size of the image crop shown in the graph. This option is only available in the <guilabel>Summary Screen</guilabel>, the <link linkend=\"ekos-align\">Align Module</link>, and the FITS Viewer. The second combo box lets the user control whether they are selecting an individual item, or a row, or a column of pixels. The slice button will be enabled if the user selects <guimenuitem>Row</guimenuitem> or <guimenuitem>Column</guimenuitem>. It will put the graph in slice mode so that the user can see a cross-section view of the image. Third, is a checkbox that will open up two sliders that will let the user drag the slider to change the selection. This is extremely useful in the slide mode to change the selected point and to move the cross section around the graph. It is also useful in the normal view when in <guilabel>Explore Mode</guilabel> so that the user can zoom around the image examining the pixels."
 msgstr "Tout à gauche, la boîte d'échantillon permet à l'utilisateur de choisir la taille de l'image rognée affichée dans le graphe. Cette option n'est disponible que dans <guilabel>Écran résumé</guilabel>, le module <link linkend=\"ekos-align\">Alignement</link> et l'afficheur FITS. La deuxième boîte permet à l'utilisateur de contrôler s'il souhaite un élément individuel, un rangée ou une colonne de pixels. Le bouton Tranche sera activé si l'utilisateur sélectionne <guimenuitem>Rangée</guimenuitem> ou <guimenuitem>Colonne</guimenuitem>. Cela mettra le graphe en mode Tranche pour permettre à l'utilisateur de voir une vue transversale de l'image. Troisièmement, il y a une case à cocher qui ouvrira deux curseurs qui permettent de changer de sélection. Cela est extrêmement utile pour changer de point sélectionné et se déplacer dans la coupe transversale autour du graphe. Cela est aussi utile dans l'affichage normal du <guilabel>Mode exploration</guilabel> pour zoomer dans l'image et examiner les pixels. "
 
 #. Tag: screeninfo
 #. +> trunk5
-#: fitsviewer.docbook:454
+#: fitsviewer.docbook:453
 #, no-c-format
 msgid "<screeninfo>Star Profile, examine pixels</screeninfo>"
 msgstr "<screeninfo>Profil d'étoile, examiner les pixels</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: fitsviewer.docbook:462
+#: fitsviewer.docbook:461
 #, no-c-format
 msgid "<phrase>Star Profile, examine pixels</phrase>"
 msgstr "<phrase> Profil d'étoile, examiner les pixels</phrase>"
 
 #. Tag: para
 #. +> trunk5
-#: fitsviewer.docbook:466
+#: fitsviewer.docbook:465
 #, no-c-format
 msgid "Then the user has the <guilabel>Zoom To</guilabel> combo box, which the user can use to zoom the graph to different preset locations. Next is the combo box that lets the user select the color scheme of the graph. Then are the HFR and the Peak checkboxes, which will both turn on the HFR and Peak labels on each found star in the image, but will also display one of them at the bottom of the screen. And finally comes the Scaling checkbox, which enables the <guilabel>Scaling</guilabel> Side Panel. There are three sliders in that panel, one to control the minimum value displayed on the graph or <quote>black point</quote>, one to control the maximum value displayed in the graph or the <quote>white point</quote>, and a third that is disabled by default that lets the user control the cutoff value for data displayed on the graph."
 msgstr "Ensuite l'utilisateur a la boîte <guilabel>Zoomer vers</guilabel> qui permet de zoomer vers des endroits préréglés. Puis il y a la boîte de choix de la couleur du graphe. Ensuite, les cases à cocher pour activer les étiquettes pour l'HFR et le pic pour chaque étoile de l'image mais affichera aussi l'une d'entre elles au bas de l'écran. Et enfin il y a la case à cocher des échelles qui active le panneau latéral <guilabel>Échelles</guilabel>. Il y a trois curseurs dans ce panneau, un pour contrôle la valeur minimale affichée sur le graphe ou le <quote>point noir</quote>, un pour la valeur maximale affichée sur le graphe ou le <quote>point blanc</quote> et le troisième qui est désactivé par défaut et qui contrôle la valeur limite des données à afficher sur le graphe."
 
 #. Tag: screeninfo
 #. +> trunk5
-#: fitsviewer.docbook:470
+#: fitsviewer.docbook:469
 #, no-c-format
 msgid "Star Profile vertical page"
 msgstr "Page vertical du profil de l'étoile"
 
 #. Tag: phrase
 #. +> trunk5
-#: fitsviewer.docbook:478
+#: fitsviewer.docbook:477
 #, no-c-format
 msgid "Star Profile vertical"
 msgstr "Vertical du profil de l'étoile"
 
 #. Tag: para
 #. +> trunk5
-#: fitsviewer.docbook:482
+#: fitsviewer.docbook:481
 #, no-c-format
 msgid "This third slider is very useful to get really big peaks out of the way so you can study the finer details in the image. There is a checkbox at the top to enable/disable the cutoff slider. And finally at the bottom of the sliders is the <guibutton>Auto scale</guibutton> button. This will auto scale the sliders as you sample different areas in the image. It will not only optimize the display of the data but will also affect the minimum and maximum points of the slider. If you disable auto scale, then as you sample different parts of the image, they will be displayed at the same scale. A particularly useful way to use this is to select an area of your image using auto scale, tweak the min, max, and cutoff sliders to your liking, and then turn off the auto scale feature to explore other areas of the graph."
 msgstr "Ce troisième curseur est vraiment utile pour se débarrasser des gros pics afin d'étudier les détails de l'image. Il y a une case à cocher en haut pour activer ou désactiver le curseur de la limite. Et enfin, juste en dessous du curseur il y a le bouton <guibutton>Échelle automatique</guibutton>. Cela ajustera les curseurs alors que vous parcourez les différentes régions de l'image. Cela ne fera pas qu'optimiser l'affichage des données mais affectera aussi les points minimaux et maximaux du curseur. Si vous désactivez la mise à l'échelle automatique, alors toutes les parties de l'image seront affichées à la même échelle. Une manière particulièrement utile d'utiliser cette fonction est de choisir une partie de l'image avec la mise à l'échelle automatique activée, puis de fignoler les réglages des trois curseurs, et enfin de désactiver la mise à l'échelle automatique pour explorer les autres parties de l'image."
 
 #. Tag: screeninfo
 #. +> trunk5
-#: fitsviewer.docbook:486
+#: fitsviewer.docbook:485
 #, no-c-format
 msgid "<screeninfo>Star Profile final page</screeninfo>"
 msgstr "<screeninfo>Page finale du profile de l'image</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
-#: fitsviewer.docbook:494
+#: fitsviewer.docbook:493
 #, no-c-format
 msgid "<phrase>Star Profile final page</phrase>"
 msgstr "<phrase>Page finale du profil de l'étoile</phrase>"
