@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.6.6\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-18 09:04+0200\n"
-"PO-Revision-Date: 2023-09-14 15:58+0200\n"
+"PO-Revision-Date: 2023-10-28 16:18+0100\n"
 "Last-Translator: Xavier BESNARD <xavier.besnard@neuf.fr>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -7666,6 +7666,9 @@ msgid ""
 "<p>To disable rotation validation, uncheck the &quot;Automatic and Manual Rotator Control&quot; in &quot;StellarSolver Options&quot;.</p>"
 "</body></html>"
 msgstr ""
+"<html><head/><body>"
+"<p>Pour désactiver la validation de la rotation, décochez &quote;Contrôle automatique et manuel du rotateur&quote; dans les options de &quote;StellarSolver&quote;.</p>"
+"</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, currentRotationL)
 #. +> trunk5
@@ -8318,15 +8321,15 @@ msgstr "Parcage auto"
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_AstrometryUseRotator)
 #. +> trunk5
 #: ekos/align/opsalign.ui:275
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Automatic && Manual Rotator Control"
 msgid "Automatic and Manual Rotator Control"
-msgstr "Contrôle du rotateur automatique et manuel"
+msgstr "Contrôle automatique et manuel du rotateur"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #. +> trunk5
 #: ekos/align/opsalign.ui:284
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Rotator threshold in arc-minutes when using Load &amp; Slew. If the difference between measured position angle and FITS position angle is below this value, the Load &amp; Slew operation is considered successful.</p>"
@@ -8337,13 +8340,13 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Le seuil de rotation en minutes d'arc lors de l'utilisation de Charger &amp; Pointer. Si la différence entre l'angle mesuré de la position et l'angle de la position FITS est sous ce seuil, alors le pointage est considérée comme réussie.</p>"
+"<p>Le seuil de rotation en minutes d'arc lors de l'utilisation de Charger &amp; Pointer. Si la différence entre l'angle mesuré de la position et l'angle de la position FITS est sous ce seuil, alors l'opération [Charger et Pointer] est considérée comme réussie.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk5
 #: ekos/align/opsalign.ui:287
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Threshold:"
 msgid "Threshold: "
 msgstr "Seuil"
@@ -8351,7 +8354,7 @@ msgstr "Seuil"
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, kcfg_AstrometryRotatorThreshold)
 #. +> trunk5
 #: ekos/align/opsalign.ui:306
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Raw rotator Angle</p>"
@@ -8362,13 +8365,13 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Angle brut du rotateur</p>"
+"<p>Seuil de déviation de l'angle de rotation</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_3)
 #. +> trunk5
 #: ekos/align/opsalign.ui:326
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p><span style=\" font-weight:600;\">Initial Step Size</span> in ticks to cause a noticeable change in HFR value. For timer based focuser, it is the initial time in milliseconds to move the focuser inward or outward</p>"
@@ -8379,14 +8382,14 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p><span style=\"font-weight:600;\">Taille initiale de pas</span> pouvant produire une modification visible de la valeur « HFR ». Pour la gestion de mise au point utilisant un minuteur, c'est le temps initial en millisecondes pour déplacer le gestionnaire de mise au point vers l'intérieur ou vers l'extérieur."
+"<p><span style=\"font-weight:600;\">La politique de retournement</span> détermine le comportement du rotateur après un retournement ou si le résultat d'une image de référence résolue indique un côté différent du pied par rapport au côté actuel de la monture."
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. +> trunk5
 #: ekos/align/opsalign.ui:329
 #, kde-format
 msgid "Flip Policy: "
-msgstr ""
+msgstr "Politique de retournement"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_AstrometryFlipRotationAllowed)
 #. +> trunk5
@@ -8398,19 +8401,23 @@ msgid ""
 "<p>Most modern astronomic image processing applications can handle &quot;flipped&quot; images.</p>"
 "</body></html>"
 msgstr ""
+"<html><head/><body>"
+"<p><span style=\" font-weight:600;\">L'option Préserver l'angle de rotation</span> conserve la position du rotateur. Le rotateur reste inactif et donc l'appareil est virtuellement tourné de 180°.</p>"
+"<p>La plupart des applications modernes d'astrophotographie gère les images retournées.</p>"
+"</body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_AstrometryFlipRotationAllowed)
 #. +> trunk5
 #: ekos/align/opsalign.ui:339
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Rotator Angle"
 msgid "Preserve rotator angle"
-msgstr "Angle du rotateur"
+msgstr "Conserver l'angle du rotateur"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, FlipRotationNotAllowed)
 #. +> trunk5
 #: ekos/align/opsalign.ui:353
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p><span style=\" font-weight:600;\">Initial Step Size</span> in ticks to cause a noticeable change in HFR value. For timer based focuser, it is the initial time in milliseconds to move the focuser inward or outward</p>"
@@ -8421,15 +8428,15 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p><span style=\"font-weight:600;\">Taille initiale de pas</span> pouvant produire une modification visible de la valeur « HFR ». Pour la gestion de mise au point utilisant un minuteur, c'est le temps initial en millisecondes pour déplacer le gestionnaire de mise au point vers l'intérieur ou vers l'extérieur."
+"<p><span style=\"font-weight:600;\">L'option Conserver l'angle de position</span> conserve l'angle de position de l'appareil. Le rotateur tourne toujours l'appareil vers l'angle de position original de l'appareil et donc l'image montrera l'arrangement original de l'étoile."
 
 #. i18n: ectx: property (text), widget (QRadioButton, FlipRotationNotAllowed)
 #. +> trunk5
 #: ekos/align/opsalign.ui:356
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Position angle:"
 msgid "Preserve position angle"
-msgstr "Angle de position :"
+msgstr "Conserver l'angle de position"
 
 #. +> trunk5
 #: ekos/align/opsastap.cpp:41
@@ -15072,7 +15079,7 @@ msgstr "Options de calibration"
 #. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox)
 #. +> trunk5
 #: ekos/capture/calibrationoptions.ui:37
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Select which telescope to use when performing Field of View calculations.</p>"
@@ -15083,16 +15090,16 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Sélectionner le télescope à utiliser pour réaliser les calculs de champ de vision.</p>"
+"<p>Sélectionnez l'action à réaliser avant l'acquisition d'une image Bias/Dark/Flat.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. +> trunk5
 #: ekos/capture/calibrationoptions.ui:40
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Calibration Options"
 msgid "Calibration Pre-Actions"
-msgstr "Options de calibration"
+msgstr "Actions avant la calibration"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, gotoWallC)
 #. +> trunk5
@@ -15104,10 +15111,10 @@ msgstr "Pointer la monture vers les coordonnées d'azimut/hauteur avant de prend
 #. i18n: ectx: property (text), widget (QCheckBox, gotoWallC)
 #. +> trunk5
 #: ekos/capture/calibrationoptions.ui:66
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Wall"
 msgid "Goto Wall"
-msgstr "Mur"
+msgstr "Aller au mur"
 
 #. i18n: ectx: property (text), widget (QCheckBox, parkMountC)
 #. i18n: ectx: property (text), widget (QCheckBox, parkMountCheck)
@@ -15462,7 +15469,7 @@ msgstr "Refroidissement désactivé"
 
 #. +> trunk5
 #: ekos/capture/capture.cpp:3145
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Temperature ramp celcius per minute"
 #| msgid "Ramp (C/min):"
 msgctxt "Maximum temperature variation over time when regulating."
@@ -15471,20 +15478,23 @@ msgstr "Pente (°C/min)"
 
 #. +> trunk5
 #: ekos/capture/capture.cpp:3151
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Maximum temperature change per minute when cooling or warming the camera. Set zero to disable."
 msgid ""
 "<html><body>"
 "<p>Maximum temperature change per minute when cooling or warming the camera. Set zero to disable."
 "<p>This setting is read from and stored in the INDI camera driver configuration.</body></html>"
-msgstr "Variation maximale de température par minute lors du refroidissement ou du réchauffement de l'appareil. Mettre zéro pour désactiver."
+msgstr ""
+"<html><body>"
+"<p>Variation maximale de température par minute lors du refroidissement ou du réchauffement de l'appareil. Mettre zéro pour désactiver.</p>"
+"<p>Ce réglage et lu et enregistré dans la configuration du pilote INDI de l'appareil.</p></body></html>"
 
 #. +> trunk5
 #: ekos/capture/capture.cpp:3156
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "Temperature threshold above which regulation triggers."
 msgid "Threshold (°C):"
-msgstr "Freehold"
+msgstr "Seuil (°C)"
 
 #. +> trunk5
 #: ekos/capture/capture.cpp:3162
@@ -15494,6 +15504,9 @@ msgid ""
 "<p>Maximum difference between camera and target temperatures triggering regulation."
 "<p>This setting is read from and stored in the INDI camera driver configuration.</body></html>"
 msgstr ""
+"<html><body" 
+"<p>La différence maximale entre la température de l'appareil et la cible déclenchant la régulation.</p>"
+"<p>Ce réglage est lu et enregistré dans la configuration du pilote INDI de l'appareil.</p>"
 
 #. +> trunk5
 #: ekos/capture/capture.cpp:3175
@@ -17582,10 +17595,10 @@ msgstr "Ekos fera une nouvelle mise au point dès que possible. La dernière pro
 
 #. +> trunk5
 #: ekos/capture/rotatorsettings.cpp:117
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Mosaic file %1 saved successfully."
 msgid "Initial rotator angle %1° is read in successfully."
-msgstr "Le fichier de mosaïque %1 a été correctement enregistré."
+msgstr "L'angle initial du rotateur %1 a été correctement lu."
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. +> trunk5
@@ -17637,17 +17650,17 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, FlipPolicy)
 #. +> trunk5
 #: ekos/capture/rotatorsettings.ui:212
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Rotator Angle"
 msgid "Preserve Rotator Angle"
-msgstr "Angle du rotateur"
+msgstr "Conserver l'angle du rotateur"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, FlipPolicy)
 #. +> trunk5
 #: ekos/capture/rotatorsettings.ui:217
-#, fuzzy, kde-format
+#, kde-format
 msgid "Preserve Position Angle"
-msgstr "Angle de position"
+msgstr "Conserver l'angle de position"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #. +> trunk5
@@ -17698,7 +17711,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, label_6)
 #. +> trunk5
 #: ekos/capture/rotatorsettings.ui:333
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>To create an <span style=\" font-weight:600;\">Alias</span> from an existing driver, select an existing driver and then only change the <span style=\" font-weight:600;\">Label </span>then press<span style=\" font-weight:600;\"> Add.</span></p>"
@@ -17710,16 +17723,17 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Pour créer un <span style=\"font-weight:600;\">Alias</span> à partir d'un pilote existant, sélectionnez un pilote existant, puis modifiez uniquement <span style=\"font-weight:600;\">l'étiquette</span> et enfin, appuyez sur <span style=\"font-weight:600;\">Ajouter.</span></p>"
+"<p><span style=\" font-weight:600;\">La politique de retournement</span> détermine le comportement du rotateur après un retournement ou si le résultat d'une image de référence résolue est du côté opposé à la position actuelle du pied.</p>"
+"<p>La politique de retournement peut être configurée dans les <span style=\" font-weight:600;\">options d'alignement</span><span style=\" font-size:12pt;\"> dans les réglages du rotateur.</span></p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. +> trunk5
 #: ekos/capture/rotatorsettings.ui:336
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Flip view"
 msgid "Flip Policy"
-msgstr "Affichage renversé"
+msgstr "Politique de retournement"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, RotatorAngle)
 #. +> trunk5
@@ -17803,7 +17817,7 @@ msgstr "Inverser la direction du rotateur"
 #. i18n: ectx: property (text), widget (QPushButton, AlignOptions)
 #. +> trunk5
 #: ekos/capture/rotatorsettings.ui:570
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Alignment Options"
 msgid "Align Options"
 msgstr "Options d'alignement"
@@ -30797,10 +30811,10 @@ msgstr "Le fichier FITS actuel comporte des changements non enregistrés. Voulez
 #. i18n: ectx: property (windowTitle), widget (QDialog, PlateSolveUI)
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:131 fitsviewer/platesolve.ui:14
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Plate Solve"
 msgid "Plate Solving"
-msgstr "Résolveur"
+msgstr "Résolution"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:142
@@ -30842,63 +30856,63 @@ msgstr "Fichier enregistré dans %1"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:632
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Waiting..."
 msgid "Extracting..."
-msgstr "En attente…"
+msgstr "Extraction…"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:650
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Settling..."
 msgid "Solving..."
-msgstr "Stabilisation…"
+msgstr "Résolution…"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:663
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Solver timed out: %1s %2"
 msgid "Extractor timed out: %1s"
-msgstr "Fin du délai imparti au résolveur : %1s %2"
+msgstr "Le délai d'extraction a été atteint : %1s"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:672
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Solver failed: %1s %2"
 msgid "Extractor failed: %1s"
-msgstr "Échec du résolveur : %1s %2"
+msgstr "Échec de l'extraction : %1s"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:681
 #, kde-format
 msgid "Extracted %1 stars (%2 unfiltered) in %3s"
-msgstr ""
+msgstr "Extrait %1 étoiles (%2 non filtrées) en %3s"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:728
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Solver timed out: %1s %2"
 msgid "Solver timed out: %1s"
-msgstr "Fin du délai imparti au résolveur : %1s %2"
+msgstr "Fin du délai imparti au résolveur : %1s"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:733
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Solver failed: %1s %2"
 msgid "Solver failed: %1s"
-msgstr "Échec du résolveur : %1s %2"
+msgstr "Échec du résolveur : %1s"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:822
 #, kde-format
 msgid "Warning! This tool only supports the internal StellarSolver solver."
-msgstr ""
+msgstr "Attention ! Cet outil ne gère que le résolveur interne StellarSolver."
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:823
 #, kde-format
 msgid "Change to that in the Ekos Align options menu."
-msgstr ""
+msgstr "Modifiez cela dans le menu des options d'alignement d'Ekos"
 
 #. +> trunk5
 #: fitsviewer/fitsview.cpp:506 fitsviewer/fitsview.cpp:516
@@ -31670,62 +31684,62 @@ msgstr "Découpage de StellarSolver"
 #: fitsviewer/platesolve.ui:47
 #, kde-format
 msgid "Plate solve the image using the parameters below."
-msgstr ""
+msgstr "Résoudre les images en utilisant les paramètres ci-dessous"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, kcfg_FitsSolverImageScaleUnits)
 #. +> trunk5
 #: fitsviewer/platesolve.ui:101
 #, kde-format
 msgid "<p>The units of the imager scale bounds."
-msgstr ""
+msgstr "<p>Les unités des bords de l'image mis à l'échelle</p>."
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_FitsSolverImageScaleUnits)
 #. +> trunk5
 #: fitsviewer/platesolve.ui:108
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Image width:"
 msgid "image width º"
-msgstr "Largeur d'image"
+msgstr "Largeur de l'image en °"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_FitsSolverImageScaleUnits)
 #. +> trunk5
 #: fitsviewer/platesolve.ui:113
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Image width:"
 msgid "image width '"
-msgstr "Largeur d'image"
+msgstr "Largeur de l'image en '"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_FitsSolverImageScaleUnits)
 #. +> trunk5
 #: fitsviewer/platesolve.ui:118
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "arcsec"
 msgid "arcsec/pixel"
-msgstr "secondes d'arc"
+msgstr "secondes d'arc/pixel"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_FitsSolverUsePosition)
 #. +> trunk5
 #: fitsviewer/platesolve.ui:139
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Set estimated position to speed up astrometry solver as it does not have to search in other areas of the sky."
 msgid "Use the given position to speed up astrometry solver as it does not have to search in other areas of the sky."
-msgstr "Définir une position estimée pour accélérer le résolveur d'astrométrie, n'ayant pas à rechercher dans d'autres zones du ciel."
+msgstr "Utiliser la position donnée pour accélérer le résolveur d'astrométrie, n'ayant pas à rechercher dans d'autres zones du ciel."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, UpdatePosition)
 #. +> trunk5
 #: fitsviewer/platesolve.ui:164
 #, kde-format
 msgid "Set the approximate RA/DEC positions using the center position of the SkyMap."
-msgstr ""
+msgstr "Régler les positions en AD/DEC approximatives en utilisant la position centrale de la carte du ciel."
 
 #. i18n: ectx: property (toolTip), widget (QLabel, FitsSolverAngleLabel)
 #. i18n: ectx: property (toolTip), widget (QLabel, FitsSolverAngle)
 #. +> trunk5
 #: fitsviewer/platesolve.ui:315 fitsviewer/platesolve.ui:331
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Rotation magnitude in degrees"
 msgid "The solved rotation angle in degrees."
-msgstr "Ampleur de la rotation en degrés"
+msgstr "L'angle de rotation résolue en degrés"
 
 #. i18n: ectx: property (text), widget (QLabel, FitsSolverAngleLabel)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1a)
@@ -37700,10 +37714,10 @@ msgstr "Enregistrer les images d'alignement interne sur le disque ?"
 #. i18n: ectx: label, entry (SaveFailedAlignImages), group (General)
 #. +> trunk5
 #: kstars.kcfg:1433
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Save Internal Align images on disk?"
 msgid "Save Failed Align images on disk?"
-msgstr "Enregistrer les images d'alignement interne sur le disque ?"
+msgstr "Faut-il enregistrer les images d'alignement échouées sur le disque ?"
 
 #. i18n: ectx: whatsthis, entry (GuideLogging), group (General)
 #. +> trunk5
@@ -37862,45 +37876,45 @@ msgstr "Décalage verticale de la superposition HiPS"
 #. i18n: ectx: label, entry (FitsSolverProfile), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1526
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Options Profile for Solving."
 msgid "Options Profile for Fitsviewer Solving."
-msgstr "Options du profil pour le résolveur."
+msgstr "Options du profil pour le résolveur d'afficheur Fits."
 
 #. i18n: ectx: label, entry (FitsSolverUseScale), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1530
 #, kde-format
 msgid "Use scale for Fitsviewer Solving."
-msgstr ""
+msgstr "Utiliser l'échelle pour la résolution de l'afficheur Fits"
 
 #. i18n: ectx: label, entry (FitsSolverUsePosition), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1534
 #, kde-format
 msgid "Use position for Fitsviewer Solving."
-msgstr ""
+msgstr "Utiliser la position pour la résolution de l'afficheur Fits"
 
 #. i18n: ectx: label, entry (FitsSolverScale), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1538
 #, kde-format
 msgid "Scale to use with Fitsviewer Solving."
-msgstr ""
+msgstr "Échelle à utiliser pour la résolution de l'afficheur Fits"
 
 #. i18n: ectx: label, entry (FitsSolverImageScaleUnits), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1542
 #, kde-format
 msgid "Scale units to use with Fitsviewer Solving."
-msgstr ""
+msgstr "Unités d'échelle à utiliser pour la résolution de l'afficheur Fits"
 
 #. i18n: ectx: label, entry (FitsSolverRadius), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1546
 #, kde-format
 msgid "Radius in position (degrees) to use with Fitsviewer Solving."
-msgstr ""
+msgstr "Angle (en degrés) à utiliser pour la résolution de l'afficheur Fits"
 
 #. i18n: ectx: label, entry (BortleClass), group (WISettings)
 #. +> trunk5
@@ -38367,10 +38381,10 @@ msgstr "Différence maximale entre les valeurs ADU mesurées et objectives pour 
 #. i18n: ectx: label, entry (CalibrationPreActionIndex), group (Capture)
 #. +> trunk5
 #: kstars.kcfg:1818
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Altitude of calibration wall location."
 msgid "ORed list of calibration pre-actions."
-msgstr "Hauteur de l'emplacement du mur de calibration."
+msgstr "Liste rouge d'actions avant la calibration.."
 
 #. i18n: ectx: label, entry (CalibrationFlatDurationIndex), group (Capture)
 #. +> trunk5
@@ -39272,7 +39286,7 @@ msgstr "Seuil entre les angles de position mesurés et FITS en minutes d'arc pou
 #: kstars.kcfg:2313
 #, kde-format
 msgid "PA 180° rotation for rotator is accepted after mount flip."
-msgstr ""
+msgstr "Une rotation de l'angle de position de 180° est acceptée après un retournement de la monture."
 
 #. i18n: ectx: label, entry (SolverGotoOption), group (Align)
 #. +> trunk5
@@ -82650,7 +82664,7 @@ msgstr "Enregistrer les images d'alignement"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SaveFailedAlignImages)
 #. +> trunk5
 #: options/opsdeveloper.ui:70
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Save Internal Align frames. Only enable to troubleshoot align by examining frames. This can consume some extra storage space.</p>"
@@ -82661,16 +82675,16 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Enregistrer les trames internes de l'alignement. Activer uniquement pour dépanner l'assistant d'alignement par l'examen des trames. Cela peut consommer un grand volume d'enregistrement.</p>"
+"<p>Enregistrer les trames échouées de l'alignement. Activer uniquement pour dépanner l'assistant d'alignement par l'examen des trames. Cela peut consommer un grand volume d'enregistrement.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SaveFailedAlignImages)
 #. +> trunk5
 #: options/opsdeveloper.ui:73
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Save Align Images"
 msgid "Save Failed Align Images"
-msgstr "Enregistrer les images d'alignement"
+msgstr "Enregistrer les images d'alignement échouées"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowCLines)
 #. +> trunk5
@@ -83075,7 +83089,7 @@ msgstr "Dossier des images de superposition"
 #. i18n: ectx: property (toolTip), widget (QPushButton, refreshB)
 #. +> trunk5
 #: options/opsimageoverlay.ui:165
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Current data of the weather sensors. Click on the sensor name to display its data over time.</p>"
@@ -83086,7 +83100,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Données courantes concernant les capteurs de météo. Veuillez cliquer sur le nom d'un capteur pour l'affichage de ses données en temps réel.</p>"
+"<p>Rafraîchir à partir du dossier des images de superpositions. Ajouter les images ajoutées à ce dossier et supprimer celles qui ne sont plus présentes.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, solveButton)
@@ -84869,7 +84883,7 @@ msgstr "%1 déjà résolue. Omission."
 #: skycomponents/imageoverlaycomponent.cpp:774
 #, kde-format
 msgid "Reloading. Image overlays temporarily disabled."
-msgstr ""
+msgstr "Rechargement. L'image de superposition est temporairement déactivée."
 
 #. +> trunk5
 #: skycomponents/imageoverlaycomponent.cpp:793
