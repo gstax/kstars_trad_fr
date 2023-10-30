@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_config_3.6.6\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-22 18:03+0200\n"
+"POT-Creation-Date: 2023-10-23 10:13+0200\n"
 "PO-Revision-Date: 2023-10-21 06:27+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -343,7 +343,6 @@ msgstr "Page de superposition d'image"
 #. +> trunk5
 #: config.docbook:213
 #, no-c-format
-#| msgid "<primary>Catalogs</primary>"
 msgid "<primary>Image Overlays</primary>"
 msgstr "<primary>Superposition d'image</primary>"
 
@@ -351,7 +350,6 @@ msgstr "<primary>Superposition d'image</primary>"
 #. +> trunk5
 #: config.docbook:214
 #, no-c-format
-#| msgid "The <guilabel>Supernovae</guilabel> page allows you to manage how supernovae are displayed by &kstars;."
 msgid "The <guilabel>Image Overlays</guilabel> page allows you to add and manage your own images that will be displayed in the skymap."
 msgstr "La page de <guilabel>Superposition d'image</guilabel> permet d'ajouter et de gérer vos propres images qui peuvent être affichées dans la carte du ciel."
 
@@ -1743,7 +1741,6 @@ msgstr "Vous pouvez (dés)activer la superposition du terrain en utilisant le ra
 #. +> trunk5
 #: config.docbook:1163
 #, no-c-format
-#| msgid "<title>Catalogs</title>"
 msgid "<title>Image Overlays</title>"
 msgstr "<title>Superposition d'images</title>"
 
@@ -1751,7 +1748,6 @@ msgstr "<title>Superposition d'images</title>"
 #. +> trunk5
 #: config.docbook:1165
 #, no-c-format
-#| msgid "<screeninfo>Terrain Window</screeninfo>"
 msgid "<screeninfo>Image Overlays on SkyMap</screeninfo>"
 msgstr "<screeninfo>Superposition d'image sur la carte du ciel</screeninfo>"
 
@@ -1759,7 +1755,6 @@ msgstr "<screeninfo>Superposition d'image sur la carte du ciel</screeninfo>"
 #. +> trunk5
 #: config.docbook:1171
 #, no-c-format
-#| msgid "<phrase>Satellites Window</phrase>"
 msgid "<phrase>Image Overlays on SkyMap</phrase>"
 msgstr "<phrase>Superposition d'image sur la carte du ciel</phrase>"
 
@@ -1774,7 +1769,6 @@ msgstr "Les images de superposition sont des images personnalisées (typiquement
 #. +> trunk5
 #: config.docbook:1184
 #, no-c-format
-#| msgid "<screeninfo>Terrain Window</screeninfo>"
 msgid "<screeninfo>Image Overlays Window</screeninfo>"
 msgstr "<screeninfo>Fenêtre de superposition d'image</screeninfo>"
 
@@ -1782,7 +1776,6 @@ msgstr "<screeninfo>Fenêtre de superposition d'image</screeninfo>"
 #. +> trunk5
 #: config.docbook:1190
 #, no-c-format
-#| msgid "<phrase>Terrain Window</phrase>"
 msgid "<phrase>Image Overlays Window</phrase>"
 msgstr "<phrase>Fenêtre de superposition d'image</phrase>"
 
