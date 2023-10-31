@@ -9,7 +9,7 @@ But: une interface professionnelle, francisée et épurée.
 
 Il se trouve ici : https://fr.l10n.kde.org/apps/pofiles.php#kstars
 
-Le lien direct est [http://websvn.kde.org/*checkout*/trunk/l10n-support/fr/summit/messages/kstars/kstars.po](https://websvn.kde.org/trunk/l10n-support/fr/summit/messages/kstars/kstars.po?view=co)
+Le lien direct est [https://websvn.kde.org/trunk/l10n-support/fr/summit/messages/kstars/kstars.po?view=co](https://websvn.kde.org/trunk/l10n-support/fr/summit/messages/kstars/kstars.po?view=co)
 
 Ce fichier contient les balises trunk5 à garder.
 
