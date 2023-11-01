@@ -24,8 +24,8 @@ msgstr ""
 "Project-Id-Version: kstars_3.6.7\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-31 13:55+0100\n"
-"PO-Revision-Date: 2023-10-28 17:27+0200\n"
-"Last-Translator: Xavier BESNARD <xavier.besnard@neuf.fr>\n"
+"PO-Revision-Date: 2023-11-01 06:41+0100\n"
+"Last-Translator: stax <stax@ik.me>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -13710,7 +13710,7 @@ msgstr "Train optique"
 #. i18n: ectx: property (toolTip), widget (QLabel, scopeLabel)
 #. +> trunk5
 #: ekos/auxiliary/opticaltrains.ui:149
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Select the scope or lens used in the optical train.</p>"
@@ -13723,14 +13723,14 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Sélectionner le télescope ou l'objectif à utiliser dans le train optique.</p>"
+"<p>Sélectionner le télescope ou l'objectif à utiliser dans le train optique. Sélection requise pour tous les trains.</p>"
 "<p>Pour ajouter, modifier ou supprimer un élément optique, cliquez sur le bouton <span style=\"font-weight:600;\">Télescope &amp; Objectif.</span></p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, scopeLabel)
 #. +> trunk5
 #: ekos/auxiliary/opticaltrains.ui:152
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Sequence: <span style=\" color:#ff0000;\">*</span></p>"
@@ -13741,7 +13741,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Séquence <span style=\" color:#ff0000;\">*</span></p>"
+"<p>Télescope/Objectif <span style=\" color:#ff0000;\">*</span></p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, mountLabel)
@@ -13762,7 +13762,7 @@ msgstr "Monture"
 #. i18n: ectx: property (toolTip), widget (QLabel, cameraLabel)
 #. +> trunk5
 #: ekos/auxiliary/opticaltrains.ui:185
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Select the imaging camera for this optical train.</p>"
@@ -13773,13 +13773,13 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Sélectionner la caméra principale pour ce train optique.</p>"
+"<p>Sélectionner la caméra principale pour ce train optique. Sélection requise pour tous les trains optiques.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, cameraLabel)
 #. +> trunk5
 #: ekos/auxiliary/opticaltrains.ui:188
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Target: <span style=\" color:#ff0000;\">*</span></p>"
@@ -13790,7 +13790,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Cible <span style=\" color:#ff0000;\">*</span></p>"
+"<p>Appareil <span style=\" color:#ff0000;\">*</span></p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, dustCapLlabel)
@@ -17971,7 +17971,7 @@ msgstr "Pointage terminé vers la position du mur, arrêt du suivi."
 
 #. +> trunk5
 #: ekos/capture/sequencejobstate.cpp:483
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Slew to wall position complete, stop tracking."
 msgid "Slew to wall position complete, tracking stopped."
 msgstr "Pointage terminé vers la position du mur, arrêt du suivi."
@@ -31736,10 +31736,10 @@ msgstr "Régler les positions en AD/DEC approximatives en utilisant la position 
 #. i18n: ectx: property (toolTip), widget (QLabel, FitsSolverAngle)
 #. +> trunk5
 #: fitsviewer/platesolve.ui:315 fitsviewer/platesolve.ui:331
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "The solved rotation angle in degrees."
 msgid "The solved image position angle, East of North (degrees)."
-msgstr "L'angle de rotation résolue en degrés"
+msgstr "L'angle de position de l'image résolue, à l'est du nord (en degrés)"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, FitsSolverProfileLabel)
 #. i18n: ectx: property (toolTip), widget (QComboBox, kcfg_FitsSolverProfile)
