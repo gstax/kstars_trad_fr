@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_config_3.6.6\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-22 18:03+0200\n"
-"PO-Revision-Date: 2023-10-21 06:27+0200\n"
+"POT-Creation-Date: 2023-10-23 10:13+0200\n"
+"PO-Revision-Date: 2023-11-01 06:52+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -1768,7 +1768,7 @@ msgstr "<phrase>Superposition d'image sur la carte du ciel</phrase>"
 #: config.docbook:1177
 #, no-c-format
 msgid "Image overlays are custom images (typically <literal role=\"extension\">.jpg</literal>) that are rendered onto the skymap over stars and other skymap items, but below the terrain. These images are added by you, the user, a sort of personal sky catalog. If configured properly, these personal images can be displayed almost perfectly aligned with other objects in the sky."
-msgstr "Les images de superposition sont des images personnalisées (typiquement <literal role=\"extention\">.jpg</literal>) placées sur la carte du ciel par-dessus les étoiles et les autres éléments de la carte du ciel, mais sous le terrain. Elles sont ajoutées par vous, l'utilisateur, comme une sorte de catalogue personnel. Elles peuvent être alignées presque parfaitement avec les autres objets du ciel si configurées correctement."
+msgstr "Les images de superposition sont des images personnalisées (typiquement <literal role=\"extension\">.jpg</literal>) placées sur la carte du ciel par-dessus les étoiles et les autres éléments de la carte du ciel, mais sous le terrain. Elles sont ajoutées par vous, l'utilisateur, comme une sorte de catalogue personnel. Elles peuvent être alignées presque parfaitement avec les autres objets du ciel si configurées correctement."
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -1798,14 +1798,14 @@ msgstr "La page de <guilabel>Superposition d'image</guilabel> vous permet de dé
 #: config.docbook:1199
 #, no-c-format
 msgid "Each time it starts up, &kstars; looks for new image overlay images in a special directory, parallel to the logs directory, named <literal>imageOverlays</literal>. On Linux this can be found in <filename class=\"directory\">~/.local/share/kstars/imageOverlays</filename>. The exact location for your system can be found by clicking the <guibutton>Overlay Directory</guibutton> button near the top of the <guilabel>Image Overlays</guilabel> config page shown at the top of this section. To start, add your images to that directory. Ideally, for performance reasons these aren't massive files, but probably images with widths 1000 or 2000 should be fine. To add additional images in the future, add them to the same directory and click the refresh button or restart &kstars;. To remove overlays, remove them from the directory and click the refresh button or restart &kstars;."
-msgstr "À chaque démarrage, &kstars; recherche la présence de nouvelles images de superposition d'image dans un dossier spécial, en parallèle au dossier de fichiers journaux, nommé <literal>imageOverlays</litéreal>. Sur les système Linux, les images se trouvent dans <filename class=\"directory\">~/.local/share/kstars/imageOverlays</filename>. L'emplacement exact pour votre système peut être trouvé en cliquant sur le bouton <guibutton>Dossier de superposition</guibutton> près du haut de la page de configuration <guilabel>Superposition d'image</guilabel> affiché au début de cette section. Pour commencer, ajoutez vos images à ce dossier. Pour des raisons de performance, elles ne devraient pas être trop lourdes mais des images de largeur de 1000 ou 2000 pixels devraient convenir. Pour ajouter d'autres images dans le futur, ajoutez-les dans ce même dossier et cliquez sur le bouton d'actualisation ou redémarrez &kstars;. Pour les supprimer, effacez-les de ce dossier et cliquez sur bouton d'actualisation ou redémarrez &kstars;."
+msgstr "À chaque démarrage, &kstars; recherche la présence de nouvelles images de superposition d'image dans un dossier spécial, en parallèle au dossier de fichiers journaux, nommé <literal>imageOverlays</literal>. Sur les systèmes Linux, les images se trouvent dans <filename class=\"directory\">~/.local/share/kstars/imageOverlays</filename>. L'emplacement exact pour votre système peut être trouvé en cliquant sur le bouton <guibutton>Dossier de superposition</guibutton> près du haut de la page de configuration <guilabel>Superposition d'image</guilabel> affiché au début de cette section. Pour commencer, ajoutez vos images à ce dossier. Pour des raisons de performance, elles ne devraient pas être trop lourdes mais des images de largeur de 1000 ou 2000 pixels devraient convenir. Pour ajouter d'autres images dans le futur, ajoutez-les dans ce même dossier et cliquez sur le bouton d'actualisation ou redémarrez &kstars;. Pour les supprimer, effacez-les de ce dossier et cliquez sur bouton d'actualisation ou redémarrez &kstars;."
 
 #. Tag: para
 #. +> trunk5
 #: config.docbook:1209
 #, no-c-format
 msgid "Start &kstars; once you have images in the <literal>imageOverlays</literal> directory. If you then go to the <guilabel>Image Overlays</guilabel> config page, you should see the new files listed in the table. The new images will show their status as <guilabel>Unprocessed</guilabel>. Only images whose status is <guilabel>OK</guilabel> are displayed on the SkyMap. That is because &kstars; needs to know the sky location, size, and orientation for these images before it can display them. To change the status to <guilabel>OK</guilabel> you need to plate-solve the images or add the required information manually--see below."
-msgstr "Démarrez &kstars; une fois que vos images sont dans le dossier <literal>imagesOverlays</litéreal>. En vous rendant sur la page de configuration de la <guilabel>Superposition d'image</guilabel>, vous devriez voir les nouveaux fichiers dans la table. Leur statut sera <guilabel>Unprocessed</guilabel>. Seules les images de statut <guilabel>Ok</guilabel> sont affichées sur la carte du ciel. La raison en est que &kstars; a besoin de connaître la position du ciel, la taille et l'orientation de ces images pour pouvoir les afficher. Pour modifier le statut en <guilabel>Ok</guilabel>, il faut effectuer une résolution astrométrique ou ajouter manuellement l'information requise, voir ci-dessous."
+msgstr "Démarrez &kstars; une fois que vos images sont dans le dossier <literal>imagesOverlays</literal>. En vous rendant sur la page de configuration de la <guilabel>Superposition d'image</guilabel>, vous devriez voir les nouveaux fichiers dans la table. Leur statut sera <guilabel>Unprocessed</guilabel>. Seules les images de statut <guilabel>Ok</guilabel> sont affichées sur la carte du ciel. La raison en est que &kstars; a besoin de connaître la position du ciel, la taille et l'orientation de ces images pour pouvoir les afficher. Pour modifier le statut en <guilabel>Ok</guilabel>, il faut effectuer une résolution astrométrique ou ajouter manuellement l'information requise, voir ci-dessous."
 
 #. Tag: para
 #. +> trunk5
@@ -2164,26 +2164,42 @@ msgstr ""
 #. +> trunk5
 #: config.docbook:1501
 #, no-c-format
-msgid ""
-"The images that can be saved are "
-"<itemizedlist> "
-"<listitem>"
-"<para> all focus images, </para>"
-"</listitem>"
-" "
-"<listitem>"
-"<para> all guider images, </para>"
-"</listitem>"
-" "
-"<listitem>"
-"<para> all align images, and </para>"
-"</listitem>"
-" "
-"<listitem>"
-"<para> align images where the plate-solving failed. </para>"
-"</listitem>"
-" </itemizedlist>"
-" The images are all saved in folders parallel to the main logging directory. They are in folders named guide, autofocus, align, and align/failed."
+msgid "The images that can be saved are"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: config.docbook:1504
+#, no-c-format
+msgid "all focus images,"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: config.docbook:1507
+#, no-c-format
+msgid "all guider images,"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: config.docbook:1510
+#, no-c-format
+msgid "all align images, and"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: config.docbook:1513
+#, no-c-format
+msgid "align images where the plate-solving failed."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: config.docbook:1516
+#, no-c-format
+msgid "The images are all saved in folders parallel to the main logging directory. They are in folders named guide, autofocus, align, and align/failed."
 msgstr ""
 
 #. Tag: title
