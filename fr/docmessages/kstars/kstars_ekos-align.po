@@ -1,11 +1,11 @@
-# Translation to Fench
-# steve <stax@ik.me>, 2022.
+# Translation to French
+# steve <stax@ik.me>, 2022, 2023.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_ekos_align_3.6.6\n"
+"Project-Id-Version: kstars_ekos_align_3.6.7\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-25 10:01+0200\n"
-"PO-Revision-Date: 2023-08-01 17:04+0200\n"
+"PO-Revision-Date: 2023-11-18 09:41+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -67,23 +67,23 @@ msgstr "<phrase>Module d'alignement d'Ekos</phrase>"
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:23
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Ekos Alignment Module enables highly accurate GOTOs to within sub-arcseconds accuracy and can measure and correct polar alignment errors. This is possible thanks to the astrometry.net solver. Ekos begins by capturing an image of a star field, feeding that image to <ulink url=\"https://astrometry.net\">astrometry.net</ulink> solver, and getting the central coordinates (RA, DEC) of the image. The solver essentially performs a pattern recognition against a catalog of millions of stars. Once the coordinates are determined, the true pointing of the telescope is known."
 msgid "The Ekos Alignment Module enables highly accurate GOTOs and can measure and correct polar alignment errors. This is possible thanks to third-party plate-solving technology. The main plate-solving software used is the StellarSolver package, which itself makes use of the offline (and online) astrometry.net, ASTAP and Watney solvers. Ekos begins by capturing an image of a star field, feeding that image to the chosen solver (e.g. see <ulink url=\"https://astrometry.net\">astrometry.net</ulink>, <ulink url=\"https://github.com/rlancaste/stellarsolver\">StellarSolver</ulink> or <ulink url=\"https://www.hnsky.org/astap\">ASTAP</ulink>), and gets in return the central coordinates (RA, DEC), scale, and orientation of the image. The solver essentially performs pattern recognition against a catalog of millions of stars. Once the coordinates are determined, the true pointing of the telescope is known."
-msgstr "Le module d'alignement d'Ekos permet des GOTO hautement précis avec une précision inférieure à la seconde d'arc et peut mesurer et corriger les erreurs d'alignement polaire. Cela est possible grâce au résolveur astrometry.net. Ekos commence par acquérir une image d'un champ d'étoile qui est ensuite transmise à <ulink url=\"https://astrometry.net\">astrometry.net</ulink> qui calculera ses coordonnées centrales (AD et DEC). Le résolveur réalise essentiellement une reconnaissance de motifs à l'aide d'un catalogue de millions d'étoiles. Une fois que ces coordonnées sont déterminées, le vrai pointage du télescope est connu."
+msgstr "Le module d'alignement d'Ekos permet des GOTO hautement précis et peut mesurer et corriger les erreurs d'alignement polaire. Cela est possible grâce aux technologies tierce de résolution. L'application principale de résolution utilisée est StellarSolver qui utilise elle-même la version hors ligne (et en ligne) de astrometry.net, ASTAP et les résolveurs Watney. Ekos commence par acquérir une image d'un champ d'étoiles qui est ensuite transmise au résolveur choisi (voir p. ex. <ulink url=\"https://astrometry.net\">astrometry.net</ulink>, <ulink url=\"https://github.com/rlancaste/stellarsolver\">StellarSolver</ulink> ou <ulink url=\"https://www.hnsky.org/astap\">ASTAP</ulink>) et obtiendra les coordonnées centrales (AD et DEC), l'échelle et l'orientation de l'image. Le résolveur réalise essentiellement une reconnaissance de motifs à l'aide d'un catalogue de millions d'étoiles. Une fois que ces coordonnées sont déterminées, le vrai pointage du télescope est connu."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:26
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Often, there is a discrepancy between where the telescope thinks it is looking at and where it is truly pointing. The magnitude of this discrepancy can range from a few arcminutes to a couple of degrees. Ekos can then correct the discrepancy by either syncing to the new coordinates, or by slewing the mount to the desired target originally requested."
 msgid "Often, there is a discrepancy between where the telescope thinks it is looking at and where it is truly pointing. The magnitude of this discrepancy can range from a few arcminutes to a couple of degrees. Ekos can correct the discrepancy by syncing to the new coordinates, and then slewing the mount to the desired target originally requested."
-msgstr "Il y a souvent une différence entre l'endroit où le télescope croit pointer et où il pointe vraiment. L'importance de cette différence peut varier de quelques minutes d'arc à quelques degrés. Ekos peut ensuite corriger cette différence soit en synchronisant aux nouvelles coordonnées ou en pivotant vers la cible demandée à l'origine."
+msgstr "Il y a souvent une différence entre l'endroit où le télescope croit pointer et où il pointe vraiment. L'importance de cette différence peut varier de quelques minutes d'arc à quelques degrés. Ekos peut corriger cette différence en synchronisant aux nouvelles coordonnées et ensuite en pivotant vers la cible demandée à l'origine."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:29
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Furthermore, Ekos provides a Polar Alignment Assistant Tool to correct polar alignment errors. It takes three images, slewing between the images, and calculates the offset between the mount axis and polar axis. It feeds back to the user the altitude and azimuth adjustments needed to align these axes. These images are typically taken near the celestial pole (Close to Polaris for Northern Hemisphere) but can work well taken from anywhere, usually starting near the meridian and slewing either East or West."
 msgid "Ekos also provides a Polar Alignment Assistant Tool to correct polar alignment errors. It takes three images, slewing between the images, and calculates the offset between the mount axis and polar axis. It feeds back to the user the altitude and azimuth adjustments needed to align these axes. These images are typically taken near the celestial pole (close to Polaris for Northern Hemisphere) but can work well taken from anywhere, usually starting near the meridian and slewing either East or West."
 msgstr "De plus, Ekos fournit un outil d'assistant d'alignement polaire pour corriger les erreurs d'alignement polaire. Il prend trois images, se déplace entre elles et calcule le décalage entre l'axe de la monture et l'axe polaire. Il renvoie ensuite à l'opérateur les ajustements en altitude et en azimut nécessaires pour aligner ces axes. Ces images sont typiquement prises près du pôle céleste (près de l'étoile polaire dans l'hémisphère nord) mais elles peuvent être également prises ailleurs, généralement près du méridien et bougeant vers l'est ou l'ouest."
@@ -100,7 +100,7 @@ msgstr "Vous avez besoin au minimum d'une caméra CCD ou d'une webcam et d'un t�
 #: ekos-align.docbook:38
 #, no-c-format
 msgid "Typical use"
-msgstr ""
+msgstr "Utilisation typique"
 
 #. Tag: para
 #. +> trunk5
@@ -114,46 +114,46 @@ msgstr "Avec le module d'alignement d'Ekos, l'alignement de la monture sur une, 
 #: ekos-align.docbook:44
 #, no-c-format
 msgid "Start KStars and Ekos and connect to INDI."
-msgstr ""
+msgstr "Démarrez KStars et Ekos et établir la connexion avec INDI."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:49
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Set your mount to its home position (usually the NCP for equatorial mounts)."
 msgid "Unpark your mount from its home position (usually the NCP for equatorial mounts)."
-msgstr "Placez votre monture en position de parcage (généralement pointée vers un pôle céleste pour les montures équatoriales)."
+msgstr "Déparquez votre monture de sa position initiale (généralement pointée vers le pôle céleste nord pour les montures équatoriales)."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:54
 #, no-c-format
 msgid "Slew to a nearby bright star using the slew telescope command in the SkyMap using the <guilabel>Slew the telescope to the mouse-pointer position</guilabel> command."
-msgstr ""
+msgstr "Pivotez vers une étoile brillante en utilisant la commande de pivotage du télescope de la carte du ciel avec la commande <guilabel>Pivoter le télescope vers la position de la souris</guilabel>."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:59
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Select <guilabel>Slew to Target</guilabel> in the <guilabel>Solver Action</guilabel>."
 msgid "Select <guilabel>Slew to Target</guilabel> in the <guilabel>Solver Action</guilabel> on the Align page."
-msgstr "Sélectionnez <guilabel>Pivoter vers cible</guilabel> pour l'option <guilabel>Action du résolveur</guilabel>."
+msgstr "Sélectionnez <guilabel>Pivoter vers cible</guilabel> pour l'option <guilabel>Action du résolveur</guilabel> du module Alignement."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:64
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "After slew is complete, click <guibutton>Capture &amp; Solve</guibutton>."
 msgid "After slew is complete, click <guibutton>Capture &amp; Solve</guibutton> on the Align page."
-msgstr "Après que le pivotage soit terminé, cliquez sur le bouton <guibutton>Acquisition &amp; Résolution</guibutton>."
+msgstr "Après que le pivotage soit terminé, cliquez sur le bouton <guibutton>Acquisition &amp; Résolution</guibutton> du module Alignement."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:69
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "If the solver is successful, Ekos will sync and then slew to the star. The results are displayed in the <guilabel>Solution Results</guilabel> tab along with a bullseye diagram that shows the offset the reported telescope coordinates (&ie; where the telescope <emphasis>thinks</emphasis> it is looking at) vs. its actual position in the sky as determined by the solver."
 msgid "Align will capture an image and try to solve it. If the solver is successful, Ekos will send a sync command to the mount and then slew to the star. The results are displayed in the <guilabel>Solution Results</guilabel> tab along with a bullseye diagram that shows the offset the reported telescope coordinates (&ie; where the telescope <emphasis>thinks</emphasis> it is looking vs. its actual pointing position in the sky as determined by the solver). Align will stop if it is within the desired error tolerance, otherwise it will repeat the Slew/Capture/Solve/Sync process until it is within tolerance."
-msgstr "Si la résolution est un succès, Ekos va se synchroniser et ensuite pivoter vers l'étoile. Les résultats sont affichés dans l'onglet <guilabel>Résultats de la solution</guilabel> ainsi que dans un diagramme qui montre le décalage entre les coordonnées rapportées du télescope (c'est-à-dire où le télescope <emphasis>croit</emphasis> qu'il pointe) et la position actuelle dans le ciel déterminée par le résolveur."
+msgstr "Le module Alignement procédera à l'acquisition d'une image et essaiera de la résoudre. Si la résolution est un succès, Ekos va se synchroniser et ensuite pivoter vers l'étoile. Les résultats sont affichés dans l'onglet <guilabel>Résultats de la solution</guilabel> ainsi que dans un diagramme qui montre le décalage entre les coordonnées rapportées du télescope (c'est-à-dire où le télescope <emphasis>croit</emphasis> qu'il pointe) et la position actuelle dans le ciel déterminée par le résolveur. L'alignement s'arrêtera s'il se trouve dans la tolérance désirée, sinon la procédure répétera les opérations de pivotage/acquisition/résolution/synchronisation jusqu'à se trouver dans la tolérance désirée."
 
 #. Tag: para
 #. +> trunk5
@@ -186,306 +186,306 @@ msgstr "<guilabel>Rien</guilabel> : résolution de l'image et affichage des coo
 #. Tag: title
 #. +> trunk5
 #: ekos-align.docbook:95
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Solver Options"
 msgid "Configure StellarSolver Options"
-msgstr "Options du résolveur"
+msgstr "Configuration des options du résolveur"
 
 #. Tag: screeninfo
 #. +> trunk5
 #: ekos-align.docbook:97
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Solver Settings</screeninfo>"
 msgid "<screeninfo>StellarSolver Options</screeninfo>"
-msgstr "<screeninfo>Réglages du résolveur</screeninfo>"
+msgstr "<screeninfo>Options du résolveur</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: ekos-align.docbook:105
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Solver Settings</phrase>"
 msgid "<phrase>StellarSolver Options</phrase>"
-msgstr "<phrase>Réglages du résolveur</phrase>"
+msgstr "<phrase>Options du résolveur</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:109
 #, no-c-format
 msgid "To use the solvers, you must first configure the StellarSolver options. The above page is displayed when clicking on the <guilabel>Options</guilabel> button on the lower right of the Align page, then selecting the <guilabel>StellarSolver Options</guilabel> tab. Start with the <guilabel>Builtin method for solver</guilabel> <guilabel>Source Extraction method</guilabel> so that each solver uses its preferred star-extraction code. For <guilabel>Solving Method</guilabel> we recommend choosing <guilabel>Internal Solver</guilabel> to use StellarSolver's copy of the Astrometry.net code, or choose <guilabel>Local ASTAP</guilabel> if you prefer that. The online astrometry solver is accurate, but can take a long time to solve because of all the data transfer required. For <guilabel>Options Profile</guilabel>, start with the <guilabel>1-Default</guilabel> profile."
-msgstr ""
+msgstr "Pour utiliser les résolveurs, il faut d'abord configurer les options de StellarSolver. La page ci-dessus est affichée en cliquant sur le bouton <guilabel>Options</guilabel> situé en bas à droite du module Alignement, puis en sélectionnant l'onglet <guilabel>Options de StellarSolver</guilabel>. Commencez avec la méthode interne du résolveur nommé <guilabel>Méthode d'extraction des sources</guilabel> afin que chaque résolveur puisse utiliser son code préféré d'extraction d'étoiles. Pour <guilabel>Méthode d'extraction</guilabel>, nous recommandons de choisir <guilabel>Résolveur internet</guilabel> pour utiliser le code de Astrometry.net dédié à StellarSolver ou choisissez <guilabel>ASTAP local</guilabel> si vous préférez utiliser cela. Le résolveur en ligne est précis mais prend du temps puisqu'il faut télécharger toutes les données. Pour <guilabel>Options du profil</guilabel>, démarrez avec le profil <guilabel>1-Default</guilabel>."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:112
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guilabel>WCS</guilabel>: World-Coordinate-System is a system for embedding equatorial coordinate information within the image. Therefore, when you view the image, you can hover it and view the coordinate for each pixel. You can also click anywhere in the image and command to the telescope to slew there. It is highly recommended to keep this option on."
 msgid "There are two other minor options. <guilabel>WCS</guilabel> or World-Coordinate-System is a system for embedding equatorial coordinate information within the image. When you view a solved image, you can hover it and view the coordinate for each pixel. You can also click anywhere in the image and command to the telescope to slew there. It is highly recommended to keep this option on. <guilabel>Overlay</guilabel> overlays captured images unto the sky map of &kstars;."
-msgstr "<guilabel>WCS</guilabel> : le système de coordonnées mondiales (World-Coordinate-System) est un mécanisme permettant d'intégrer les coordonnées équatoriales à une image. Ainsi, lors de l'affichage d'une image, un survol affiche les coordonnées de chaque pixel. Vous pouvez également cliquer n'importe où dans l'image et ordonner au télescope de pivoter vers ce point. Il est hautement recommandé de conserver cette option. Veuillez noter que cela ne fonctionne que pour les images FITS (les images brutes des APN ne permettent pas ce mécanisme)."
+msgstr "Il existe deux autres options mineures. <guilabel>WCS</guilabel> : le système de coordonnées mondiales (World-Coordinate-System) est un mécanisme permettant d'intégrer les coordonnées équatoriales à une image. Ainsi, lors de l'affichage d'une image, un survol affiche les coordonnées de chaque pixel. Vous pouvez également cliquer n'importe où dans l'image et ordonner au télescope de pivoter vers ce point. Il est hautement recommandé de conserver cette option activée. L'option <guilabel>Superposition</guilabel> permet de superposer les images acquises sur la carte du ciel de &kstars;."
 
 #. Tag: title
 #. +> trunk5
 #: ekos-align.docbook:118
 #, no-c-format
 msgid "Configure StellarSolver External Programs"
-msgstr ""
+msgstr "Configuration des programmes externes de StellarSolver"
 
 #. Tag: screeninfo
 #. +> trunk5
 #: ekos-align.docbook:120
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Solver Settings</screeninfo>"
 msgid "<screeninfo>StellarSolver External Programs</screeninfo>"
-msgstr "<screeninfo>Réglages du résolveur</screeninfo>"
+msgstr "<screeninfo>Programmes externes de StellarSolver</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: ekos-align.docbook:128
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Solver Settings</phrase>"
 msgid "<phrase>StellarSolver External Programs</phrase>"
-msgstr "<phrase>Réglages du résolveur</phrase>"
+msgstr "<phrase>Programmes externes de StellarSolver</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:132
 #, no-c-format
 msgid "This is only required if you choose one of the external programs for your <guilabel>Solving Method</guilabel>. If you choose <guilabel>Internal Solver</guilabel>, then it is not necessary."
-msgstr ""
+msgstr "Cela n'est obligatoire que si vous choisissez des programmes externes pour votre <guilabel>Méthode de résolution</guilabel>. Si vous choisissez <guilabel>Résolveur interne</guilabel>, cela n'est pas nécessaire."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:135
 #, no-c-format
 msgid "You will need to make sure the paths are correct for the solver you choose. The top menu item <guilabel>select to load one of the default sets</guilabel> usually configures the boxes correctly."
-msgstr ""
+msgstr "Il faudra vous assurer que les chemins sont corrects pour le résolveur que vous avez choisi. L'option du menu du haut <guilabel>Sélectionner pour charger un des ensembles par défaut</guilabel> configure généralement les boîtes correctement."
 
 #. Tag: title
 #. +> trunk5
 #: ekos-align.docbook:141
 #, no-c-format
 msgid "Configure StellarSolver Scale and Position"
-msgstr ""
+msgstr "Configurer l'échelle et la position pour StellarSolver"
 
 #. Tag: screeninfo
 #. +> trunk5
 #: ekos-align.docbook:143
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Solver Settings</screeninfo>"
 msgid "<screeninfo>StellarSolver Scale and Position</screeninfo>"
-msgstr "<screeninfo>Réglages du résolveur</screeninfo>"
+msgstr "<screeninfo>Échelle et position pour StellarSolver</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: ekos-align.docbook:151
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Solver Settings</phrase>"
 msgid "<phrase>StellarSolver Scale and Position</phrase>"
-msgstr "<phrase>Réglages du résolveur</phrase>"
+msgstr "<phrase>Échelle et position pour StellarSolver</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:155
 #, no-c-format
 msgid "This page tells Ekos whether you want to constrain your plate-solving search by scale or position."
-msgstr ""
+msgstr "Cette page indique à Ekos si vous souhaitez contraindre la résolution en tenant compte de l'échelle et de la position."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:157
 #, no-c-format
 msgid "Scale can be the image width in degrees (<guilabel>dw</guilabel>), the image width in arc-minutes (<guilabel>aw</guilabel>), or the pixel width in arc-seconds (<guilabel>app</guilabel>). All should work, but arc-seconds per pixel is recommended. Typically you want to use this constraint for faster solving, so we recommend you check this box. The system doesn't require that the scale be exactly right--it allows deviations of 10-20%. However, frequently issues related to solving are due to an inaccurate scale being used. Therefore, if you have plate-solving problems, you may want to uncheck <guilabel>Use Scale</guilabel> until those issues are resolved. This will likely result in longer solving times. <guilabel>Auto-update</guilabel> will automatically fill the scale box with the scale found in the most-recent successful solve."
-msgstr ""
+msgstr "L'échelle peut être la largeur de l'image en degrés (<guilabel>dw</guilabel>), en minutes d'arc (<guilabel>aw</guilabel>) ou en pixels en secondes d'arc (<guilabel>app</guilabel>). Toutes devraient fonctionner mais secondes d'arc par pixel est recommandé. Vous souhaitez typiquement utiliser cette contrainte pour accélérer la résolution, ainsi nous vous recommandons de cocher cette case. Le système ne requiert pas l'échelle d'être parfaitement correcte, il permet une déviation de 10 à 20%. Toutefois, les problèmes de résolution sont souvent liés à l'utilisation d'une échelle imprécise. Par conséquent, si vous rencontrez des problèmes de résolution, vous pouvez décocher cette case jusqu'à avoir résolu ces problèmes. Le résultat sera un allongement du temps de résolution. <guilabel>Mise à jour automatique</guilabel> mettra à jour l'échelle avec la valeur de la résolution réussie la plus récente."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:158
 #, no-c-format
 msgid "The RA and DEC positions are usually filled in from the position the telescope thinks it is pointing. Naturally, the system doesn't require an exactly correct positional constraint--afterall the purpose of plate-solving is to find that position. The maximum distance in degrees from the specified position to the actual position is given by the <guilabel>Radius</guilabel> field. Plate-solving will fail if the specified position is further away. Typically you want to enable <guilabel>Use Position</guilabel> for faster solving, so we recommend you check this box. However, frequently issues related to solving are due to using a poor positional estimate (e.g. the telescope is significantly misaligned). Therefore, if you have plate-solving problems, you may want to uncheck <guilabel>Use Position</guilabel> until those issues are resolved. As mentioned, this will result in longer solving times. <guilabel>Auto-update</guilabel> will fill the position box with the position found in the most-recent successful solve. However, a slew will update the position to the position where the telescope thinks it is pointing after the slew."
-msgstr ""
+msgstr "Les positions en AD et DEC sont généralement prises de la position vers laquelle le télescope croit qu'il pointe. Comme la raison première de la résolution est de trouver l'exacte position, le système n'a évidemment pas besoin d'une position exact pour la résolution. La distance maximale en degrés de la position spécifiée et la position actuelle est indiqué dans le champ <guilabel>Rayon</guilabel>. La résolution échouera si la position spécifiée est plus loin. Vous souhaitez typiquement activer <guilabel>Utiliser position</guilabel> pour accélérer la résolution, et nous vous recommandons de le faire. Toutefois, de fréquents problèmes de résolution sont liés à une estimation très imprécise de la position (&ie; le télescope est très mal aligné). Ainsi, si vous rencontrez des problèmes de résolution, vous pouvez décocher cette case jusqu'à avoir résolu ces problèmes. Comme déjà mentionné, cela va allonger la durée de résolution. <guilabel>Mise à jour automatique</guilabel> mettra à jour la position avec la position de la résolution réussie la plus récente. Mais un pivotage déclenchera une mise à jour de la position où le télescope pense qu'il pointe."
 
 #. Tag: title
 #. +> trunk5
 #: ekos-align.docbook:163
 #, no-c-format
 msgid "Configure StellarSolver Profiles"
-msgstr ""
+msgstr "Configuration des profils pour StellarSolver"
 
 #. Tag: screeninfo
 #. +> trunk5
 #: ekos-align.docbook:165
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Solver Settings</screeninfo>"
 msgid "<screeninfo>StellarSolver Profiles</screeninfo>"
-msgstr "<screeninfo>Réglages du résolveur</screeninfo>"
+msgstr "<screeninfo>Profils pour StellarSolver</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: ekos-align.docbook:173
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Solver Settings</phrase>"
 msgid "<phrase>StellarSolver Profiles</phrase>"
-msgstr "<phrase>Réglages du résolveur</phrase>"
+msgstr "<phrase>Profils pour StellarSolver</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:177
 #, no-c-format
 msgid "This applies if you are using the (recommended) <guilabel>Internal Solver</guilabel> <guilabel>Solving Method</guilabel>."
-msgstr ""
+msgstr "Cela s'applique si vous utilisez la <guilabel>Méthode de résolution</guilabel> (recommandée) du <guilabel>Résolveur interne</guilabel>."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:179
 #, no-c-format
 msgid "You can choose an <guilabel>Options Profile</guilabel> on the <guilabel>StellarSolver Options</guilabel> tab. Profiles are simply collections of parameters to configure the performance of the star-extraction and plate-solving system inside of StellarSolver. The <guilabel>1-Default</guilabel> profile is the recommended one to start with. There are a few other possible profiles such as <guilabel>Large Scale Solving</guilabel>, <guilabel>Small Scale Solving</guilabel>, and <guilabel>Single Thread Solving</guilabel>."
-msgstr ""
+msgstr "Vous pouvez choisir les <guilabel>Options de profil</guilabel> dans l'onglet <guilabel>Options de StellarSolver</guilabel>. Les profils sont simplement une collection de paramètres pour la configuration de l'extraction d'étoiles et leur résolution du système StellarSolver. Le profil <guilabel>1-Default</guilabel> est celui recommandé pour démarrer. Il en existe d'autres comme <guilabel>Large Scale Solving</guilabel>, <guilabel>Small Scale Solving</guilabel> et <guilabel>Single Thread Solving</guilabel>."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:181
 #, no-c-format
 msgid "In the <guilabel>Align Options Profile Editor</guilabel> tab you can view and edit profiles. There are many parameters, most of which you need not change to solve issues. There are 3 types of parameters."
-msgstr ""
+msgstr "Les <guilabel>Options d'alignement du modificateur de profils</guilabel> permettent de visualiser et modifier les profils. Il existe de nombreux paramètres dont la plupart n'ont pas besoin d'être modifié pour résoudre les problèmes. Il y a trois types de paramètres."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:184
 #, no-c-format
 msgid "The top section labelled <guilabel>Sextractor Parameters</guilabel> (with column headings <guilabel>Extraction Parameters</guilabel>, <guilabel>Deblending Params</guilabel>, and <guilabel>Photometry Params</guilabel>) are star extraction parameters--that is those that help find stars in your image."
-msgstr ""
+msgstr "La partie supérieures intitulée <guilabel>Paramètres Sextractor</guilabel> (avec les colonnes <guilabel>Paramètres d'extraction</guilabel>, <guilabel>Paramètres de dissociation</guilabel> et <guilabel>Paramètres de photométrie</guilabel>) gère la phase d'extraction -- celle qui permet de trouver les étoiles dans une image."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:185
 #, no-c-format
 msgid "The second section labelled <guilabel>Star Filtering Parameters</guilabel> filters/reduces the number of stars extracted before sending the list to either the plate-solver (when aligning or polar-aligning), or to autofocus or the internal guider (when just a list of stars is needed)."
-msgstr ""
+msgstr "La deuxième partie intitulée <guilabel>Paramètres de filtrage d'étoiles</guilabel> gère le filtrage ou la réduction du nombre d'étoiles extraites avant d'envoyer cette liste soit au résolveur (lors d'un alignement ou d'un alignement sur la Polaire) soit à la mise au point automatique ou encore au guidage interne (quand seule une liste d'étoiles est nécessaire)."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:186
 #, no-c-format
 msgid "The third section labelled Astrometry Parameters adjusts the performance of plate solving."
-msgstr ""
+msgstr "La troisième et dernière partie intitulée <guilabel>Paramètres d'astrométrie</guilabel> permet d'ajuster la qualité de la résolution."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:188
 #, no-c-format
 msgid "All the input fields have tooltips that are displayed if you hover your mouse over the input box."
-msgstr ""
+msgstr "Tous les champs affichent des infobulles quand le curseur de la souris passe par-dessus."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:190
 #, no-c-format
 msgid "You can make changes to the values and save the profile if you like, or restore the profile's original values."
-msgstr ""
+msgstr "Vous pouvez modifier les valeurs et enregistrer le profile à votre convenance ou rétablir les valeurs par défaut du profil."
 
 #. Tag: title
 #. +> trunk5
 #: ekos-align.docbook:193
 #, no-c-format
 msgid "Star-Extraction Parameters"
-msgstr ""
+msgstr "Paramètres de l'extraction d'étoiles"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:194
 #, no-c-format
 msgid "The column headings are links to the Sextractor manual which is the main source for these parameters. View those links to find details on all the parameters. We will touch upon some of the parameters you might consider adjusting. However, it's probably best not to get into the weeds of modifying most of these values."
-msgstr ""
+msgstr "Les intitulés des colonnes sont des liens vers le manuel de Sextractor qui est la source d'information principale pour ces paramètres. Visitez ces liens pour obtenir davantage de détails sur ces paramètres. Nous allons aborder quelqu'uns de ces paramètres qu'il pourrait être intéressant d'ajuster. Toutefois, il est probablement judicieux de garder les valeurs par défaut de la plupart de ces paramètres."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:198
 #, no-c-format
 msgid "<guilabel>Thresh Multiple</guilabel> and <guilabel>Thresh Offset</guilabel> relate to how sensitive the system will be to pixel values. The level of the background is multiplied by <guilabel>Thresh Multiple</guilabel> and then <guilabel>Thresh Offset</guilabel> is added to that. If a pixel's value exceeds the result, then it may be used to detect a star. Therefore, lower values (especially for multiple) may cause even dim pixels to be detected as stars. Higher values will reduce the number of stars detected."
-msgstr ""
+msgstr "Les paramètres <guilabel>Multiple du seuil</guilabel> et <guilabel>Décalage du seuil</guilabel> sont associés à la sensibilité du système liée à la valeur des pixels. Le niveau du fond du ciel est multiplié par <guilabel>Multiple du seuil</guilabel>, puis on ajoute <guilabel>Décalage du seuil</guilabel>. Si la valeur d'un pixel dépasse le résultat alors il peut être utilisé pour détecter une étoile. Ainsi, les valeurs faibles (en particulier du multiple) auront tendance à ce que les pixels très faibles seront interprétés comme faisant partie d'une étoile. Au contraire, de grandes valeurs réduiront le nombre d'étoiles détectées."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:199
 #, no-c-format
 msgid "<guilabel>Min Area</guilabel> is the minimum area for a star detection--area is in square pixels where all pixels have higher-than-threshold pixel values. If you are detecting small noise spikes as stars, you might want to increase this. If you are not detecting desired smaller real stars, perhaps your <guilabel>Min Area</guilabel> is too high."
-msgstr ""
+msgstr "Le paramètre <guilabel>Aire minimale</guilabel> représente la surface minimale pour la détection d'étoiles, c'est un carré de pixels où tous les pixels ont une valeur supérieur à un seuil défini. Si de petites pointes de bruit sont détectées comme des étoiles, il faudra probablement augmenter la valeur de ce paramètres. À l'inverse, si vous ne détectez pas les petites étoiles souhaitées, il faudra réduire la valeur de ce paramètre."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:200
 #, no-c-format
 msgid "<guilabel>Conv FWHM</guilabel> should be adjusted to roughly the seeing in your area in pixels. The image is smoothed by this amount before star detection is initiated."
-msgstr ""
+msgstr "Le paramètre <guilabel>FWHM Convolution</guilabel> (en pixels) devrait être ajusté à peu près à la qualité de votre ciel (seeing). L'image est lissée de cette quantité avant que la détection d'étoiles soient exécutées."
 
 #. Tag: title
 #. +> trunk5
 #: ekos-align.docbook:205
 #, no-c-format
 msgid "Star-Filtering Parameters"
-msgstr ""
+msgstr "Paramètres de filtrage d'étoiles"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:206
 #, no-c-format
 msgid "This filtering is done for the sake of speed mostly, as well as for removing clipped stars, or very elliptical objects which might be galaxies. We will touch upon some of the parameters you might consider adjusting. Zero values for these parameters disable the filter. However, once again it's probably best not to get into the weeds of modifying most of these values."
-msgstr ""
+msgstr "Le filtrage d'étoile est principalement réalisé pour des questions de vitesse de traitement, mais également pour supprimer les étoiles sectionnées ou les objets très elliptiques qui peuvent être des galaxies. Une valeur de zéro désactive le filtrage. Toutefois et à nouveau, il est raisonnable de ne pas modifier les valeurs par défaut de ces paramètres."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:210
 #, no-c-format
 msgid "<guilabel>Initial Keep</guilabel> and <guilabel>Stars Keep #</guilabel> relates to the number of stars returned by the system. The system will initially run its detection algorithm and find some number of possible detections. It will filter that list, keeping only the <guilabel>Initial Keep</guilabel> brightest stars. It will then run the rest of the filtering, including computing the HFR of all those stars and finally only return a list of <guilabel>Stars Keep #</guilabel> stars. None of the uses (alignment, autofocus, guiding) of StellarSolver require thousands of stars to be able to do their job, and the more stars processed the slower the operation. An initial list of 1000 stars and a few hundred returned stars should be sufficient for most applications."
-msgstr ""
+msgstr "Les paramètres <guilabel>Conserver initial</guilabel> et <guilabel># d'étoiles à conserver</guilabel> gèrent le nombre d'étoiles conservées par le système. Il va d'abord exécuter son algorithme de détection et trouver un certain nombre d'étoiles. Il filtrera ensuite cette liste en ne gardant que le nombre <guilabel>Conserver initial</guilabel> d'étoiles brillantes. Il exécutera ensuite la suite du filtrage ce qui inclut le calcul du HFR de toutes les étoiles et renverra enfin une liste de <guilabel># d'étoiles à conserver</guilabel> d'étoiles. Aucune utilisation de StellarSolver (alignement, mise au point automatique, guidage) ne requiert des millier d'étoiles pour fonctionner et plus le nombre d'étoiles à traiter est grand, plus grand sera le temps de traitement. Une liste initiale de mille étoiles pour quelques centaines utilisées devrait être suffisant pour la plupart des utilisations."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:211
 #, no-c-format
 msgid "<guilabel>Max Size</guilabel> and <guilabel>Min Size</guilabel> filter stars by their sizes (pixel diameters), and are similar in usage to <guilabel>Min Area</guilabel> above."
-msgstr ""
+msgstr "Les paramètres <guilabel>Taille maximale</guilabel> et <guilabel>Taille minimale</guilabel> filtrent les étoiles par rapport à leur taille (diamètre en pixels) et sont similaires dans leur utilisation au paramètre <guilabel>Aire minimale</guilabel> discutée ci-dessus."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:212
 #, no-c-format
 msgid "<guilabel>Max Ellipse</guilabel> specifies how elliptical a star can be before being removed. 2 would mean the larger axis could be twice as large as the smaller axis."
-msgstr ""
+msgstr "Le paramètre <guilabel>Ellipse maximale</guilabel> spécifie la forme elliptique maximale d'une étoile avant d'être retirée. Une valeur de 2 signifie que le grand axe est le double du petit axe."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:213
 #, no-c-format
 msgid "<guilabel>Cut Brightest</guilabel> and <guilabel>Cut Dimmest</guilabel> remove the X% brightest or dimmest stars from consideration. <guilabel>Sat Limit</guilabel> removes stars whose pixel values exceed that percentage of the maximum pixel value--to remove saturated stars."
-msgstr ""
+msgstr "Les paramètres <guilabel>Supprimer les plus brillantes</guilabel> et <guilabel>Supprimer les moins brillantes</guilabel> permettent de supprimer les X% d'étoiles les plus brillantes ou moins brillantes. Le paramètre <guilabel>Limite de saturation</guilabel> permet de supprimer les étoiles dont la valeur de pixel dépasse ce pourcentage de la valeur maximale de ce pixel, supprimant ainsi les étoiles saturées."
 
 #. Tag: title
 #. +> trunk5
 #: ekos-align.docbook:218
 #, no-c-format
 msgid "Plate-Solving Parameters"
-msgstr ""
+msgstr "Paramètres de résolution"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:219
 #, no-c-format
 msgid "These plate-solving parameters mostly relate to computation resources."
-msgstr ""
+msgstr "Ces paramètres gèrent principalement les ressources de calcul."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:223
 #, no-c-format
 msgid "<guilabel>Search Radius</guilabel> is the distance from the position estimate in degrees that may be searched if <guilabel>Use Position</guilabel> is checked."
-msgstr ""
+msgstr "Le paramètre <guilabel>Rayon de recherche</guilabel> représente la distance de la position estimée en degrés de la zone de recherche si le paramètre <guilabel>Utiliser position</guilabel> est activé."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:224
 #, no-c-format
 msgid "<guilabel>Maximum Time</guilabel> is the maximum number of seconds that the plate-solving will run before it times out."
-msgstr ""
+msgstr "Le paramètre <guilabel>Durée maximale</guilabel> est le nombre maximal de secondes de résolution avant le délai d'expiration."
 
 #. Tag: title
 #. +> trunk5
@@ -499,7 +499,7 @@ msgstr "Téléchargement des fichiers index"
 #: ekos-align.docbook:231
 #, no-c-format
 msgid "Index files are required if you choose the <guilabel>Internal Solver</guilabel> or <guilabel>Local Astrometry</guilabel> <guilabel>Solving Method</guilabel>."
-msgstr ""
+msgstr "Les fichiers index sont requis si vous choisissez les méthodes de résolution <guilabel>Résolveur interne</guilabel> ou <guilabel>Astrométrie locale</guilabel>."
 
 #. Tag: para
 #. +> trunk5
@@ -987,17 +987,17 @@ msgstr "Il est recommandé d'utiliser un gestionnaire de téléchargement comme 
 #. Tag: title
 #. +> trunk5
 #: ekos-align.docbook:405
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Get astrometry.net"
 msgid "Optionally get astrometry.net"
-msgstr "Obtenir astrometry.net"
+msgstr "Obtenir optionnellement astrometry.net"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:407
 #, no-c-format
 msgid "This is only required if you choose the <guilabel>Local Astrometry</guilabel> option for <guilabel>Source Extraction Method</guilabel> which is no longer recommended."
-msgstr ""
+msgstr "Cela n'est requis que si vous choisissez <guilabel>Astrométrie locale</guilabel> comme <guilabel>Méthode d'extraction des sources</guilabel>, ce qui n'est plus recommandé."
 
 #. Tag: para
 #. +> trunk5
@@ -1114,22 +1114,22 @@ msgstr "Comment les utiliser ?"
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:483
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Ekos Align Module offers multiple functions to aid you in achieving accurate GOTOs. Start with your mount in home position with the telescope tube looking directly at the celestial pole. For users in Northern Hemisphere, point the telescope as close as possible to Polaris. It is not necessary to perform 2 or 3 star alignments, but it can be useful for some mount types. Make sure your camera is focused and stars are resolved."
 msgid "Ekos Align Module offers multiple functions to aid you in achieving accurate GOTOs. For some mounts it is useful to start your session with your mount in home position with the telescope tube looking directly at the celestial pole. For users in Northern Hemisphere, point the telescope as close as possible to Polaris. It is not necessary to perform 2 or 3 star alignments, but it can be useful for some mount types. Make sure your camera is focused."
-msgstr "Le module d'alignement d'Ekos propose de multiples fonctions pour vous aider à réaliser des pointages GOTO précis. Commencez avec votre monture en position parquée (home position), c'est-à-dire pointant directement vers le pôle céleste. Pour les utilisateurs de l'hémisphère Nord, pointez le télescope aussi près que possible vers l'étoile polaire Polaris. Il n'est pas nécessaire de faire un alignement sur deux ou trois étoiles bien que ça peut être utile pour certains types de montures. Assurez-vous que la mise au point de votre caméra soit réalisée et que les étoiles soient bien résolues."
+msgstr "Le module d'alignement d'Ekos propose de multiples fonctions pour vous aider à réaliser des pointages GOTO précis. Pour certaines montures, commencez avec votre monture en position parquée (home position), c'est-à-dire pointant directement vers le pôle céleste. Pour les utilisateurs de l'hémisphère Nord, pointez le télescope aussi près que possible vers l'étoile polaire Polaris. Il n'est pas nécessaire de faire un alignement sur deux ou trois étoiles bien que ça peut être utile pour certains types de montures. Assurez-vous que la mise au point de votre caméra soit réalisée et que les étoiles soient bien résolues."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:486
 #, no-c-format
 msgid "At the top left of the Align page you can find two solver commands, and two actions to take given the solver solution."
-msgstr ""
+msgstr "En haut à gauche de la page Alignement vous trouverez deux commandes de résolution ainsi que deux actions à entreprendre selon la solution de la résolution."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:491
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guilabel>Capture &amp; Solve</guilabel>: Capture an image and determine what region in the sky the telescope is exactly looking at. The astrometry results include the equatorial coordinates (RA &amp; DEC) of the center of the captured image in addition to pixel scale and field rotation. Depending on the Solver Action settings, the results can be used to Sync the mount or Sync and then Slew to the target location. For example, suppose you slewed the mount to Vega then used <emphasis>Capture &amp; Solve</emphasis>. If the actual telescope location is different from Vega, it will be first synced to the solved coordinate and then Ekos shall command the mount to slew to Vega. After slew is complete, the Alignment module will repeat Capture &amp; Solve process again until the error between reported and actual position falls below the accuracy thresholds (30 arcseconds by default)."
 msgid "<guilabel>Capture &amp; Solve</guilabel>: Capture an image and determine exactly where in the sky the telescope is pointing. The astrometry results include the equatorial coordinates (RA &amp; DEC) of the center of the captured image and the pixel scale and field rotation. Depending on the Solver Action settings, the results can be used to Sync the mount or Sync and then Slew to the target location. For example, suppose you slewed the mount to Vega then used <emphasis>Capture &amp; Solve</emphasis>. If the actual telescope location is different from Vega, it will be first synced to the solved coordinate and then Ekos shall command the mount to slew to Vega. After slew is complete, the Alignment module will repeat Capture &amp; Solve process again until the error between reported and actual position falls below the accuracy thresholds (30 arcseconds by default)."
 msgstr "<guilabel>Acquisition &amp; pointage</guilabel> : commencez par acquérir une image et déterminez la région du ciel où le télescope pointe. Les résultats de l'astrométrie incluent les coordonnées équatoriales (AD &amp; DEC) du centre de l'image, ainsi que l'échelle de pixel et la rotation du champ. Selon les réglages des actions du résolveur, les résultats peuvent être utilisés pour synchroniser la monture ou synchroniser et ensuite pointer vers l'endroit de la cible. Par exemple, supposons que vous avez pointé la monture vers Vega et qu'ensuite vous avez utilisé la fonction <emphasis>Acquisition &amp; Résoudre</emphasis>. Si la position actuelle du télescope est différente de Vega, alors il commencera par se synchroniser aux coordonnées résolues et ensuite Ekos donnera l'ordre à la monture de pointer vers Vega. Après que la rotation soit terminée, le module d'alignement relancera le processus d'<emphasis>Acquisition &amp; Résoudre</emphasis> jusqu'à ce que l'erreur entre la position rapportée et la position actuelle soit plus faible que le seuil de précision préalablement défini (par défaut 30 secondes d'arc). "
@@ -1144,7 +1144,7 @@ msgstr "<guilabel>Charger &amp; Pivoter</guilabel> : charger une image FITS ou 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:502
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<emphasis role=\"bold\">Never</emphasis> solve an image at or near the celestial pole (unless Ekos Polar Alignment Assistant Tool is used). Slew at least 20 degrees away from the celestial pole before solving the first image. Solving very close to the poles will make your mount pointing worse so avoid it."
 msgid "<emphasis role=\"bold\">Never</emphasis> solve an image at or near the celestial pole (unless Ekos Polar Alignment Assistant Tool is used). Slew at least 20 degrees away from the celestial pole before solving the first image. Solving very close to the poles will make your mount pointing worse, so avoid it."
 msgstr "Ne <emphasis role=\"bold\">Jamais</emphasis> résoudre une image proche du pôle céleste (sauf quand l'outil d'assistance à l'alignement polaire est utilisé). Pivoter à au moins 20 degrés du pôle céleste avant de commencer à résoudre la première image. Une résolution trop proche des pôles péjore le pointage de la monture, alors évitez-là."
@@ -1159,24 +1159,24 @@ msgstr "Réglages de l'alignement"
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:510
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Before you begin the alignment process, select the desired CCD &amp; Telescope. You can explore astrometry.net options that are passed to the astrometry.net solver each time an image is captured:"
 msgid "Before you begin the alignment process, select the desired optical train. You can explore astrometry.net options that are passed to the astrometry.net solver each time an image is captured:"
-msgstr "Avant de démarrer la procédure d'alignement polaire, il faut sélectionner le télescope et le CCD. Vous pouvez explorer les options d'astrometry.net qui sont passées au résolveur à chaque acquisition d'image :"
+msgstr "Avant de démarrer la procédure d'alignement polaire, il faut sélectionner le bon tain optique. Vous pouvez explorer les options d'astrometry.net qui sont passées au résolveur à chaque acquisition d'image :"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:515
 #, no-c-format
 msgid "<guilabel>Accuracy</guilabel>: Acceptable difference between the desired target position and the solved coordinates from the captured image. If the difference exceeds this many arc-seconds, then the system will continue to capture, solve and slew until the solved position is close enough to the target position."
-msgstr ""
+msgstr "<guilabel>Précision</guilabel> : différence acceptable entre la position souhaitée de la cible et les coordonnées obtenues de la résolution de l'image acquise. Si cette différence dépasse cette valeur en secondes d'arc, le système poursuivra les acquisitions, la résolution et le pivotement jusqu'à trouver une position assez proche de la position de la cible."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:520
 #, no-c-format
 msgid "<guilabel>Train</guilabel>: Select the Optical Train which will be used to capture the image to be aligned. It is also used to compute the image scale."
-msgstr ""
+msgstr "<guilabel>Train</guilabel> : sélectionnez le train optique qui sera utilisé pour l'acquisition de l'image pour l'alignement. Également utilisé pour calculer l'échelle de l'image."
 
 #. Tag: para
 #. +> trunk5
@@ -1188,32 +1188,32 @@ msgstr "<guilabel>Exposition</guilabel> : durée d'exposition en secondes."
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:530
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guilabel>Bin Y</guilabel>: Set vertical binning of the CCD."
 msgid "<guilabel>Bin</guilabel>: The binning of the image before solving."
-msgstr "<guilabel>Bin Y</guilabel> : réglage du groupement de pixels vertical du CCD."
+msgstr "<guilabel>Bin</guilabel> : réglage du groupement de pixels vertical du CCD."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:535
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guilabel>Bin Y</guilabel>: Set vertical binning of the CCD."
 msgid "<guilabel>Gain/ISO</guilabel>: The camera gain or ISO."
-msgstr "<guilabel>Bin Y</guilabel> : réglage du groupement de pixels vertical du CCD."
+msgstr "<guilabel>Gain/ISO</guilabel> : le gain ou l'ISO de l'appareil"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:540
 #, no-c-format
 msgid "<guilabel>Filter/Use Current</guilabel>: The filter to use when capturing the image. <guilabel>Use Current</guilabel> uses whatever filter is currently active."
-msgstr ""
+msgstr "<guilabel>Filtre/Utiliser actuel</guilabel> : le filtre à utiliser pour l'acquisition de l'image. <guilabel>Utiliser actuel</guilabel> utilise le filtre actuellement activé."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:545
 #, no-c-format
 msgid "<guilabel>Dark</guilabel>: Whether to use the dark-image subtraction scheme before analyzing the captured image."
-msgstr ""
+msgstr "<guilabel>Dark</guilabel> : indique s'il faut soustraire l'image Dark avant l'analyse de l'image acquise."
 
 #. Tag: title
 #. +> trunk5
@@ -1281,7 +1281,7 @@ msgstr "Avant le début de la procédure, pointez la monture aussi près que pos
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:594
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "The tool works by capturing and solving three images. After capturing each, the mount rotates by the fixed amount you entered and another image is captured and solved. If you chose manual, you will need to slew the mount by roughly the angle chosen."
 msgid "The tool works by capturing and solving three images. After capturing each, the mount rotates by the fixed amount you entered and another image is captured and solved. If you choose manual, you will need to slew the mount by roughly the angle chosen."
 msgstr "L'outil fonctionne en prenant et en résolvant trois images. Après chaque acquisition, la monture tourne d'une quantité fixe et une nouvelle image est prise et résolue. Si vous choisissez le mode manuel, vous devrez tourner la monture de l'angle choisi."
