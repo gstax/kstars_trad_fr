@@ -7,10 +7,10 @@
 # steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_fitsviewer_3.6.6\n"
+"Project-Id-Version: kstars_fitsviewer_3.6.7\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-23 10:13+0200\n"
-"PO-Revision-Date: 2023-07-10 16:26+0200\n"
+"PO-Revision-Date: 2023-11-18 14:03+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -44,18 +44,18 @@ msgstr "Afficheur FITS"
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:7
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "The Flexible Image Transport System (FITS) is the standard format for representing images and data in Astronomy."
 msgid "FITS, or Flexible Image Transport System, is the standard format for representing images and data in Astronomy. The &kstars; FITS Viewer is a tool to view those images. It is not designed for editing of FITS Images."
-msgstr "FITS (Flexible Image Transport System) est le format standard pour représenter les images et les données en astronomie."
+msgstr "FITS (Flexible Image Transport System) est le format standard pour représenter les images et les données en astronomie. L'afficheur FITS de &kstars; permet de visualiser ces images. Il n'est pas conçu pour modifier les images FITS."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:9
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "The &kstars; FITS Viewer tool is automatically invoked when new images are received from the camera. It is primarily used to view and examine FITS data. It is not designed for editing of FITS Images. To open a FITS file, select the <menuchoice><guimenu>File</guimenu> <guimenuitem>Open Image...</guimenuitem></menuchoice> menu item, or press <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo>."
 msgid "The FITS Viewer can be automatically invoked for images received from the camera. It can also be invoked directly from the main &kstars; menu. To open a FITS file, select the <menuchoice><guimenu>File</guimenu> <guimenuitem>Open Image...</guimenuitem></menuchoice> menu item, or press <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo>."
-msgstr "L'outil d'affichage FITS de &kstars; est intégré avec l'infrastructure <link linkend=\"indi\">INDI</link> permettant un affichage fluide et la manipulation des images FITS. Pour ouvrir un fichier FITS, sélectionnez depuis le menu <menuchoice><guimenu>Fichier</guimenu> <guimenuitem>Ouvrir FITS…</guimenuitem></menuchoice> ou appuyez sur <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo>."
+msgstr "L'outil d'affichage FITS peut s'utiliser automatiquement pour visualiser les images reçues de l'appareil. Il peut aussi être lancé directement depuis le menu principal de &kstars;. Pour ouvrir un fichier FITS, sélectionnez depuis le menu <menuchoice><guimenu>Fichier</guimenu> <guimenuitem>Ouvrir FITS…</guimenuitem></menuchoice> ou appuyez sur <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo>."
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -76,38 +76,38 @@ msgstr "Outil d'affichage FITS"
 #: fitsviewer.docbook:26
 #, no-c-format
 msgid "The above diagram illustrates the FITS Viewer main work area and window. There is also a hidden area that can be exposed by moving the mouse over the 6 small dots on the left side (about center of the image vertically) and pressing and holding the mouse, sliding it over to the right a bit."
-msgstr ""
+msgstr "Le diagramme ci-dessus illustre l'endroit principal de travail de l'afficheur FITS ainsi que sa fenêtre. Il existe également un endroit caché qui peut être présenté en déplaçant la souris sur les 6 petits points sur le côté gauche (à peu près au centre de l'image) et en cliquant et gardant le bouton de la souris enfoncé et en la déplaçant un peu vers la droite."
 
 #. Tag: screeninfo
 #. +> trunk5
 #: fitsviewer.docbook:29
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "The FITS Viewer Tool"
 msgid "The FITS Viewer Tool with sliding panel open"
-msgstr "L'outil d'affichage FITS"
+msgstr "L'outil d'affichage FITS avec le panneau glissant ouvert"
 
 #. Tag: phrase
 #. +> trunk5
 #: fitsviewer.docbook:35
 #, no-c-format
 msgid "FITS Viewer Tool with sliding panel open"
-msgstr ""
+msgstr "L'outil d'affichage FITS avec le panneau glissant ouvert"
 
 #. Tag: title
 #. +> trunk5
 #: fitsviewer.docbook:41
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Main Toolbar"
 msgid "Main Controls"
-msgstr "Barre principales"
+msgstr "Contrôles principaux"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:43
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "The above diagram illustrates the FITS Viewer work area and window. The tool provides basic functions for image display. FITS data depth is preserved throughout all processing, open, and save functions. While the tool adhere to the FITS standard, it does not support all possible FITS features:"
 msgid "The various controls and displays for the FITS Viewer are shown below. The tool provides basic functions for image display. While the tool adhere to the FITS standard, it does not support all possible FITS features:"
-msgstr "Le diagramme ci-dessus illustre la zone de travail et la fenêtre de l'afficheur FITS. L'outil fournit les fonctions de base pour l'affichage des images. La profondeur des données FITS est préservée durant tout le processus, ainsi que les fonctions d'ouverture et d'enregistrement. Bien que l'outil adhère au standard FITS, il ne prend pas en charge touttes les fonctionnalités possibles de FITS :"
+msgstr "Les différents boutons et affichages pour l'afficheur FITS sont montrés ci-dessous. L'outil fournit les fonctions de base pour l'affichage des images. Bien qu'il respecte les standards FITS, il ne gère pas toutes les fonctionnalités possibles :"
 
 #. Tag: para
 #. +> trunk5
@@ -147,7 +147,7 @@ msgstr "Fichier"
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:54
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Standard Open, Save, and Save As actions."
 msgid "Standard Open, Save, and Save As."
 msgstr "Actions standards Ouvrir, Enregistrer et Enregistrer sous."
@@ -227,14 +227,14 @@ msgstr "Marquage d'étoiles : détecter et marquer les étoiles dans l'image."
 #: fitsviewer.docbook:71 fitsviewer.docbook:94
 #, no-c-format
 msgid "Show Clipping: Display in red which stars have pixels that appear to be clipped."
-msgstr ""
+msgstr "Afficher coupage : affiche en rouge les étoiles dont certains pixels sont coupés."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:76
 #, no-c-format
 msgid "Main Toolbar"
-msgstr "Barre principales"
+msgstr "Barre principale"
 
 #. Tag: para
 #. +> trunk5
@@ -409,15 +409,15 @@ msgstr "Statistiques : affiche les statistiques de l'image telles que valeurs m
 #: fitsviewer.docbook:107
 #, no-c-format
 msgid "Plate Solving: A tool plate-solve the loaded image. This is useful to debug plate-solving issues."
-msgstr ""
+msgstr "Résolution : un outil pour résoudre les images chargés. Cela est utile pour déboguer les problèmes de résolution."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:108
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Histogram: Displays image histogram with controls to adjust the minimum and maximum values for each channel. Both linear and logarithmic scalings are available to apply to the image."
 msgid "Histogram: Displays image histogram with controls to adjust the minimum and maximum values for each channel. Both linear and logarithmic scalings are available to apply to the image. This is somewhat redundant with the below-image histogram and may be removed in the future."
-msgstr "Histogramme : affiche l'histogramme de l'image avec la possibilité d'ajuster les valeurs minimum et maximum pour chaque canal. Les échelles linéaires et logarithmiques sont disponibles pour application à l'image."
+msgstr "Histogramme : affiche l'histogramme de l'image avec la possibilité d'ajuster les valeurs minimum et maximum pour chaque canal. Les échelles linéaires et logarithmiques sont disponibles pour application à l'image. Toutefois, cela est redondant avec l'histogramme ci-dessous et sera probablement supprimé dans le futur."
 
 #. Tag: para
 #. +> trunk5
@@ -438,43 +438,43 @@ msgstr "Images récentes : affiche les images récemment ouvertes. Un clic sur 
 #: fitsviewer.docbook:113
 #, no-c-format
 msgid "Image Display Area."
-msgstr ""
+msgstr "Zone d'affichage de l'image"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:115
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Image Display Area. Hovering over the image will update the status bar values accordingly."
 msgid "Mouse: Hovering over the image will update the status bar values accordingly."
-msgstr "Aire d'affichage de l'image. Le survol de l'image par la souris indiquera les valeurs en conséquence."
+msgstr "Souris : le survol de l'image par la souris indiquera les valeurs en conséquence."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:116
 #, no-c-format
 msgid "Mouse: Hovering over the image will move a cursor in the histogram display below the image, if that histogram is activated."
-msgstr ""
+msgstr "Souris : un survol de l'image déplacera un curseur dans l'histogramme affiché sous l'image, si cette histogramme est activé."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:117
 #, no-c-format
 msgid "Control key: Holding down the control key and then moving the mouse will show a magnified portion of the image."
-msgstr ""
+msgstr "Touche Contrôle : en maintenant enfoncée la touche Contrôle et ensuite en déplaçant la souris, une portion agrandie de l'image apparaîtra."
 
 #. Tag: screeninfo
 #. +> trunk5
 #: fitsviewer.docbook:119
 #, no-c-format
 msgid "The Magnifier in the FITS Viewer"
-msgstr ""
+msgstr "La loupe dans l'afficheur FITS"
 
 #. Tag: phrase
 #. +> trunk5
 #: fitsviewer.docbook:125
 #, no-c-format
 msgid "The magnifier in the FITS Viewer"
-msgstr ""
+msgstr "La loupe dans l'afficheur FITS"
 
 #. Tag: para
 #. +> trunk5
@@ -507,127 +507,127 @@ msgstr "Sélectionnez des statistiques"
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:147
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "The user can either set the selection region by <keycombo>&Shift;<keycap>Left Click</keycap></keycombo> dragging or by choosing an entry from the drop down menu of the Toggle Selection Rectangle button. In addition to this, the user can translate the region by simple <keycap>Left Click</keycap> drag of the mouse. The statistics of the region are shown as a tooltip once the cursor is brought over the selection region. For smaller images, the statistics are updated instantly, and for larger images, the statistics are updated once the user releases the <keycap>Left Click</keycap> button after modification of the region."
 msgid "The user can either set the selection region by <keycombo>&Shift;<keycap>Left Click</keycap></keycombo> dragging (when the selection statistics is activated) or by choosing an entry from the drop down menu of the Toggle Selection Rectangle button. In addition to this, the user can translate the region by simple <keycap>Left Click</keycap> drag of the mouse. The statistics of the region are shown as a tooltip once the cursor is brought over the selection region. For smaller images, the statistics are updated instantly, and for larger images, the statistics are updated once the user releases the <keycap>Left Click</keycap> button after modification of the region."
-msgstr "L'utilisateur peut soit sélectionner une région en glissant le pointeur après un <keycombo>&Maj;<keycap>Clic gauche</keycap></keycombo> ou en choisissant une entrée du menu déroulant du bouton de sélection de rectangle. De plus, l'utilisateur peut translater la région d'un simple <keycap>Clic gauche</keycap> de la souris. Les statistiques de la région sont affichées en surimpression lors d'un survol de la région sélectionnée. Les statistiques sont mises à jour instantanément pour les petites images et pour les grandes images, celles-ci sont mises à jour au relâchement du <keycap>Clic gauche</keycap> après modification de la région."
+msgstr "L'utilisateur peut soit sélectionner une région en glissant le pointeur après un <keycombo>&Maj;<keycap>Clic gauche</keycap></keycombo> (quand les statistiques sont activées) ou en choisissant une entrée du menu déroulant du bouton de sélection de rectangle. De plus, l'utilisateur peut translater la région d'un simple <keycap>Clic gauche</keycap> de la souris. Les statistiques de la région sont affichées en surimpression lors d'un survol de la région sélectionnée. Les statistiques sont mises à jour instantanément pour les petites images et pour les grandes images, celles-ci sont mises à jour au relâchement du <keycap>Clic gauche</keycap> après modification de la région."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:153
 #, no-c-format
 msgid "Stretching Controls"
-msgstr ""
+msgstr "Boutons d'étirement"
 
 #. Tag: screeninfo
 #. +> trunk5
 #: fitsviewer.docbook:155
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Star Profile main page</screeninfo>"
 msgid "<screeninfo>The Stretch Controls in the FITS Viewer</screeninfo>"
-msgstr "<screeninfo>Page principale du profil de l'étoile</screeninfo>"
+msgstr "<screeninfo>Boutons d'étirement de l'afficheur FITS</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: fitsviewer.docbook:161
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Star Profile, examine pixels</phrase>"
 msgid "<phrase>The Stretch Controls in the FITS Viewer</phrase>"
-msgstr "<phrase> Profil d'étoile, examiner les pixels</phrase>"
+msgstr "<phrase>Boutons d'étirement de l'afficheur FITS</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:165
 #, no-c-format
 msgid "Near the bottom of the window are controls for stretching the image and displaying its histogram. They are described below from left to right."
-msgstr ""
+msgstr "Près du bas de la fenêtre se trouvent les boutons pour étirer l'image et afficher l'histogramme. Ils sont décrits ci-dessous de gauche à droite."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:167
 #, no-c-format
 msgid "Enable Stretching: On the very left of this display is a button that enables or disables stretching."
-msgstr ""
+msgstr "Activer l'étirement : le bouton pour activer l'étirement se trouve tout à gauche."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:168
 #, no-c-format
 msgid "Shadow Value: The value below which pixels are displayed as black can be manually entered (scale is 0 to 1.0, even for integer pixel values)."
-msgstr ""
+msgstr "Point noir : la valeur sous laquelle les pixels seront affichés en noir peut être manuellement saisie (l'échelle va de 0 à 1.0, même pour des valeurs entières de pixels)."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:169
 #, no-c-format
 msgid "Midtones Value: The midtones value which controls the brightness of the image can be manually entered (scale is 0 to 1.0, even for integer pixel values)."
-msgstr ""
+msgstr "Ton moyen : la valeur du ton moyen qui contrôle la brillance de l'image peut être manuellement saisie (l'échelle va de 0 à 1.0, même pour des valeurs entières de pixels)."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:170
 #, no-c-format
 msgid "Highlights Value: The value above which pixels are displayed as white can be manually entered (scale is 0 to 1.0, even for integer pixel values)."
-msgstr ""
+msgstr "Point blanc : la valeur au-dessus de laquelle les pixels seront affichés en blanc peut être manuellement saisie (l'échelle va de 0 à 1.0, même pour des valeurs entières de pixels)."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:171
 #, no-c-format
 msgid "Show Histogram: A button that displays or hides the image histogram is to the right of the highlights number box."
-msgstr ""
+msgstr "Afficher histogramme : le bouton pour afficher/cacher l'histogramme de l'image se trouve à la droite de la boîte affichant le point blanc."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:172
 #, no-c-format
 msgid "Auto Stretch: A button (magic wand icon) that will automatically create a pleasing stretch is found on the right. It is disabled if the stretch is already at the automatically computed value."
-msgstr ""
+msgstr "Auto-étirement : le bouton (baguette magique) d'auto-étirement se trouve à droite. Il est désactivé si l'étirement est déjà à la valeur calculée."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:174
 #, no-c-format
 msgid "In addition, there are sliders that can be used to adjust the Shadow, Midtones and Highlights values. Adjusting them will change the values displayed."
-msgstr ""
+msgstr "De plus, il y a des curseurs qui permettent d'ajuster les valeurs de point noir, de ton moyen et de point blanc. Les valeurs modifiées sont affichées."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:177
 #, no-c-format
 msgid "The histogram, if it is enabled, may be zoomed by using the mouse's scroll wheel, and panned by dragging with the mouse. A cursor in the histogram shows the position of the pixel in the image under the mouse."
-msgstr ""
+msgstr "L'histogramme, si activé, peut être agrandi avec la molette de la souris et déplacé en glissant la souris. Une croix dans l'histogramme affiche la position du pixel de l'image sous le curseur de la souris."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:181
 #, no-c-format
 msgid "Status Bar"
-msgstr ""
+msgstr "Barre d'état"
 
 #. Tag: screeninfo
 #. +> trunk5
 #: fitsviewer.docbook:183
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>FITS Viewer embedded</screeninfo>"
 msgid "<screeninfo>The Status Display in the FITS Viewer</screeninfo>"
-msgstr "<screeninfo>Afficheur FITS intégré</screeninfo>"
+msgstr "<screeninfo>L'affichage de l'état dans l'afficheur FITS</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: fitsviewer.docbook:189
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>FITS Viewer embedded</phrase>"
 msgid "<phrase>The Status Display in the FITS Viewer</phrase>"
-msgstr "<phrase>Afficheur FITS intégré</phrase>"
+msgstr "<phrase>L'affichage de l'état dans l'afficheur FITS</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:193
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Status Bar: From right to left, the following status indicators are available:"
 msgid "From right to left, the following status indicators are available:"
-msgstr "Barre d'état : les indicateurs d'état suivant sont (droite vers gauche) :"
+msgstr "De droite à gauche, les indicateurs d'état suivant sont :"
 
 #. Tag: para
 #. +> trunk5
@@ -639,54 +639,54 @@ msgstr "Indicateur de chargement : la LED devient jaune quand une image est en 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:196
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Resolution: Image resolution in pixels."
 msgid "Resolution: Image resolution in pixels. 4656x3520 in the screenshot above."
-msgstr "Résolution : la résolution de l'image en pixels."
+msgstr "Résolution : la résolution de l'image en pixels. 4656x3520 dans la capture d'écran ci-dessus"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:197
 #, no-c-format
 msgid "Zoom Percentage. 13% above."
-msgstr ""
+msgstr "Pourcentage de zoom. 13 % ci-dessus"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:198
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Cartesian Coordinates: Displays and updates the current mouse position as you hover over the image. It include the X and Y position in addition to the current value."
 msgid "Cartesian Coordinates: Displays and updates the current mouse position as you hover over the image. X:769 Y:3508 above."
-msgstr "Coordonnées cartésiennes : affiche et actualise la position courante de la souris en passant au-dessus de l'image. Cela inclut la position en X et en Y ainsi que la valeur courante."
+msgstr "Coordonnées cartésiennes : affiche et actualise la position courante de la souris en survolant l'image. X:769 Y:3508 ci-dessus."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:199
 #, no-c-format
 msgid "Pixel Value: Value of the pixel under the mouse. 1,792 above."
-msgstr ""
+msgstr "Valeur du pixel : valeur du pixel sous la souris. 1792 ci-dessus"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:200
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Equatorial Coordinates: If the image contains a valid WCS header, the J2000 Right Ascension (RA) and declination (DE) values are displayed."
 msgid "Equatorial Coordinates: If the image contains a valid WCS header, the J2000 Right Ascension (RA) and declination (DE) values are displayed. 13h 14' 22\" 42 37' 35\" above."
-msgstr "Coordonnées équatoriales : si l'image contient une en-tête WCS valable, l'ascension droite J2000 (AD) et la déclinaison (Déc) sont affichées."
+msgstr "Coordonnées équatoriales : si l'image contient une en-tête WCS valable, l'ascension droite J2000 (AD) et la déclinaison (Déc) sont affichées. 13h 14' 22\" 42 37' 35\" ci-dessus"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:201
 #, no-c-format
 msgid "Image Stats: Displays the HFR, Eccentricity and number of stars if computed. HFR:1.96 Ecc:0.43 143 stars above."
-msgstr ""
+msgstr "Statistiques de l'image : affiche le HFR, l'excentricité et le nombre d'étoiles si calculées. HFR:1.96 Ecc:0.43 143 étoiles ci-dessus"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:202
 #, no-c-format
 msgid "Clipped Stars: If Show Clipping is activated in the main toolbar, it displays the number of possibly clipped pixels. Clip:403 above."
-msgstr ""
+msgstr "Étoiles coupées : si l'option Afficher coupage est activée dans la barre d'outils principale, le nombre de pixels possiblement coupés est affiché. Clip : 403 ci-dessus"
 
 #. Tag: para
 #. +> trunk5
@@ -805,151 +805,151 @@ msgstr "Fournit des statistiques simples pour les valeurs minimales et maximales
 #: fitsviewer.docbook:279
 #, no-c-format
 msgid "<title>FITS Viewer Solver</title>"
-msgstr ""
+msgstr "<title>Résolveur de l'afficheur FITS</title>"
 
 #. Tag: screeninfo
 #. +> trunk5
 #: fitsviewer.docbook:281
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>FITS Viewer embedded</screeninfo>"
 msgid "<screeninfo>FITS Viewer Solver</screeninfo>"
-msgstr "<screeninfo>Afficheur FITS intégré</screeninfo>"
+msgstr "<screeninfo>Résolveur de l'afficheur FITS</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: fitsviewer.docbook:289
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>FITS Viewer embedded</phrase>"
 msgid "<phrase>FITS Viewer Solver</phrase>"
-msgstr "<phrase>Afficheur FITS intégré</phrase>"
+msgstr "<phrase>Résolveur de l'afficheur FITS</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:293
 #, no-c-format
 msgid "The FITS Viewer Solver is used to plate-solve the image loaded in the FITS Viewer's tab. It only works with the internal StellarSolver. You get the RA and DEC coordinates for the center of the image, the image's scale, the angle of rotation, and the number of stars detected in the image. Its main use case is debugging plate-solving issues in Ekos, though the information displayed can be generally useful. The controls and displays are described below."
-msgstr ""
+msgstr "Le résolveur de l'afficheur FITS est utilisé pour résoudre l'image chargée dans l'onglet de l'afficheur FITS. Cela ne fonctionne qu'avec StellarSolver. Vous obtenez les coordonnées en AD et DEC du centre de l'image, son échelle, l'angle de rotation et le nombre d'étoiles détectées. Son utilisation principale est le débogage de problème dans Ekos, bien que l'information affichée peut être utile. Les boutons et affichage sont décrits ci-dessous."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:297
 #, no-c-format
 msgid "Solve Button. Pressing this button starts plate solving. When the system is plate solving, the button becomes an abort button."
-msgstr ""
+msgstr "Bouton Résoudre. Appuyer sur ce bouton déclenche la résolution. En cours de résolution, ce bouton devient un bouton Interrompre."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:298
 #, no-c-format
 msgid "Scale: Checking the Use Scale checkbox constrains the solver to use approximately the pixel or image scale given. The scale is entered in the box and the units for the scale can be chosen from image width in degrees, image width in arc-minutes, and arc-seconds per pixel. When a solve successfully completes, it replaces the value in the box with solution's scale."
-msgstr ""
+msgstr "Échelle : la case à cocher Utiliser Échelle force le résolveur à utiliser approximativement l'échelle indiquée de l'image ou du pixel. Elle est saisie dans la boîte et ses unités sont soit des degrés, soit la largeur de l'image en minutes d'arc ou en secondes d'arc par pixel. Quand une résolution aboutit, la valeur dans la boîte est remplacée par l'échelle de la solution."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:299
 #, no-c-format
 msgid "Position: Checking the Use Position checkbox constrains the solver to search near the RA and DEC coordinates given. The extent of the search is given by the user in the Radius box in degrees. Note that RA is input in hours-minutes-seconds, e.g. 13h, and DEC is input in degrees-minutes-seconds, e.g. 85. When a solve successfully completes, it replaces the value in the RA and DEC boxes with solution's coordinates. In addition it fills in the Angle field with the solutions angle value in degrees."
-msgstr ""
+msgstr "Position : la case à cocher Utiliser Position force le résolveur à chercher près des coordonnées en AD et DEC données. L'étendue de la recherche est donnée par l'utilisateur dans la boîte Rayon, en degrés. Veuillez noter que l'AD doit être donnée en heures-minutes-secondes, par exemple 13h, et la DEC en degrés-minutes-secondes, par exemple 85. Quand une résolution aboutit, les valeurs de la boîte sont remplacées par les coordonnées de la solution. De plus, le champ Angle sera rempli par la solution de l'angle en degrés."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:300
 #, no-c-format
 msgid "Use SkyMap Position: There is a button just below the Use Position checkbox that fills in RA and DEC boxes with the current center of the SkyMap display."
-msgstr ""
+msgstr "Utiliser Position de la carte du ciel : ce bouton, situé juste sous la boîte Utiliser Position rempli les boîtes AD et DEC avec les coordonnées actuelles du centre de la carte du ciel."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:301
 #, no-c-format
 msgid "Profile: The Profile menu selects which StellarSolver preset, among those used in the Ekos Align module, should be used for plate solving. This is further discussed below."
-msgstr ""
+msgstr "Profil : le menu Profil permet de choisir un préréglage pour StellarSolver parmi ceux utilisés dans le module Alignement et qui sera utilisé pour la résolution. Ce point est discuté plus en détails ci-dessous."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:302
 #, no-c-format
 msgid "Solution: The Solution section will display the number of stars found and the time taken to solve. The solution values for RA, DEC, Scale and Angle are displayed in those boxes above."
-msgstr ""
+msgstr "Solution : la section Solution affiche le nombre d'étoiles trouvé et le temps pris pour la résolution. Les valeurs de la solution pour l'AD, la DEC, l'échelle et l'angle sont affichées dans les boîtes supérieurs."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:303
 #, no-c-format
 msgid "Image: For any image where stars were detected, if the Mark Stars button is activated above the image display, then the detected stars are circled in red."
-msgstr ""
+msgstr "Image : avec le bouton Marquer Étoile activé au-dessus de l'affichage de l'image, les étoiles détectées seront entourées de rouge."
 
 #. Tag: screeninfo
 #. +> trunk5
 #: fitsviewer.docbook:305
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>FITS Viewer embedded</screeninfo>"
 msgid "<screeninfo>FITS Viewer Mark Stars Button</screeninfo>"
-msgstr "<screeninfo>Afficheur FITS intégré</screeninfo>"
+msgstr "<screeninfo>Bouton de marquage d'étoiles de l'afficheur FITS</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: fitsviewer.docbook:313
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>FITS Viewer embedded</phrase>"
 msgid "<phrase>FITS Viewer Mark Stars Button</phrase>"
-msgstr "<phrase>Afficheur FITS intégré</phrase>"
+msgstr "<phrase>Bouton de marquage d'étoiles de l'afficheur FITS</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:319
 #, no-c-format
 msgid "Using this tool the user can try and debug solving issues as follows."
-msgstr ""
+msgstr "Cet outil permet à l'utilisateur de corriger les erreurs de résolution."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:323
 #, no-c-format
 msgid "He/she might have the KStars -> Settings -> Developer -> <link linkend=\"developer\">Save Failed Align Images checkbox</link> enabled."
-msgstr ""
+msgstr "La case à cocher KStars -> Réglages -> Développeur - <link linkend=\"developer\">Enregistrer les images d'alignement en échec</link>."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:324
 #, no-c-format
 msgid "Then a difficult image (for whom alignment failed) <link linkend=\"developer\">could be located</link> and loaded into the fitsviewer."
-msgstr ""
+msgstr "Une image difficile (dont l'alignement a échoué) <link linkend=\"developer\">pourrait être retrouvée</link> et chargée dans l'afficheur FITS."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:325
 #, no-c-format
 msgid "The image could be inspected to see if there were obvious visual issues."
-msgstr ""
+msgstr "Cette image pourra être inspectée afin de déterminer s'il y existe des problèmes évidents."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:326
 #, no-c-format
 msgid "Clicking Solve in this tool for that image would show how many stars were detected, and the user could then decide if it is a star detection issue and experiment with adjusting the profile or star-detection parameters."
-msgstr ""
+msgstr "En cliquant sur Résoudre dans cet outil montrera le nombre d'étoiles détectées et l'utilisateur pourra ensuite décider si le problème se situe au niveau de la détection et essayer avec d'autres paramètres."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:328
 #, no-c-format
 msgid "The user could manually upload the image to astrometry.net to get scale and position values (or just see if it is a problematic image)."
-msgstr ""
+msgstr "L'utilisateur pourrait également téléverser cette image sur le site astrometry.net pour obtenir l'échelle et la position (ou simplement voir si cette image est problématique)."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:330
 #, no-c-format
 msgid "The user could experiment with Use Position and Use Scale, using accurate values for those constraints (or disabling them) to see if those were the problem, or adjust the parameters in the align profile being used."
-msgstr ""
+msgstr "Il pourrait modifier la valeur des paramètres Utiliser Position et Utiliser Échelle pour utiliser des valeurs très précises pour ces contraintes (ou simplement les désactiver) pour voir si ce sont ces valeurs qui posent problème ou les ajuster dans le profil d'alignement utilisé."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:332
 #, no-c-format
 msgid "To inspect or modify the profile, the user would open the align tab in Ekos, go to the Options menu, select the StellarSolver Options tab, make sure the right Options profile is selected, and click the pencil to view or edit that profile."
-msgstr ""
+msgstr "Pour inspecter ou modifier le profil, l'utilisateur se rendra sur l'onglet Alignement d'Ekos, et, dans le menu des options, sélectionnera les options pour StellarSolver, en faisant attention que les bonnes options du profil sont bien sélectionnées et cliquera sur le stylo pour l'afficher ou le modifier."
 
 #. Tag: title
 #. +> trunk5
