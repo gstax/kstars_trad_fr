@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kstars_fitsviewer_3.6.7\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-23 10:13+0200\n"
-"PO-Revision-Date: 2023-11-18 14:03+0100\n"
+"PO-Revision-Date: 2023-11-19 07:52+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -47,7 +47,7 @@ msgstr "Afficheur FITS"
 #, no-c-format
 #| msgid "The Flexible Image Transport System (FITS) is the standard format for representing images and data in Astronomy."
 msgid "FITS, or Flexible Image Transport System, is the standard format for representing images and data in Astronomy. The &kstars; FITS Viewer is a tool to view those images. It is not designed for editing of FITS Images."
-msgstr "FITS (Flexible Image Transport System) est le format standard pour représenter les images et les données en astronomie. L'afficheur FTIS de &kstars; permet de visualiser ces images. Il n'est pas conçu pour modifier les images FITS."
+msgstr "FITS (Flexible Image Transport System) est le format standard pour représenter les images et les données en astronomie. L'afficheur FITS de &kstars; permet de visualiser ces images. Il n'est pas conçu pour modifier les images FITS."
 
 #. Tag: para
 #. +> trunk5
@@ -234,7 +234,7 @@ msgstr "Afficher coupage : affiche en rouge les étoiles dont certains pixels s
 #: fitsviewer.docbook:76
 #, no-c-format
 msgid "Main Toolbar"
-msgstr "Barre principales"
+msgstr "Barre principale"
 
 #. Tag: para
 #. +> trunk5
@@ -596,14 +596,14 @@ msgstr "De plus, il y a des curseurs qui permettent d'ajuster les valeurs de poi
 #: fitsviewer.docbook:177
 #, no-c-format
 msgid "The histogram, if it is enabled, may be zoomed by using the mouse's scroll wheel, and panned by dragging with the mouse. A cursor in the histogram shows the position of the pixel in the image under the mouse."
-msgstr "L'histogramme, si activé, peut être agrandi avec la molette de la souris et déplacé en glissant la souris. Une crois dans l'histogramme affiche la position du pixel de l'image sous le curseur de la souris."
+msgstr "L'histogramme, si activé, peut être agrandi avec la molette de la souris et déplacé en glissant la souris. Une croix dans l'histogramme affiche la position du pixel de l'image sous le curseur de la souris."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:181
 #, no-c-format
 msgid "Status Bar"
-msgstr "Bar d'état"
+msgstr "Barre d'état"
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -642,7 +642,7 @@ msgstr "Indicateur de chargement : la LED devient jaune quand une image est en 
 #, no-c-format
 #| msgid "Resolution: Image resolution in pixels."
 msgid "Resolution: Image resolution in pixels. 4656x3520 in the screenshot above."
-msgstr "Résolution : la résolution de l'image en pixels. 4656x3510 dans la capture d'écran ci-dessus"
+msgstr "Résolution : la résolution de l'image en pixels. 4656x3520 dans la capture d'écran ci-dessus"
 
 #. Tag: para
 #. +> trunk5
@@ -679,14 +679,14 @@ msgstr "Coordonnées équatoriales : si l'image contient une en-tête WCS valab
 #: fitsviewer.docbook:201
 #, no-c-format
 msgid "Image Stats: Displays the HFR, Eccentricity and number of stars if computed. HFR:1.96 Ecc:0.43 143 stars above."
-msgstr "Statistiques de l'images : affiche le HFR, l'excentricité et le nombre d'étoiles si calculées. HFR:1.96 Ecc:0.43 143 étoiles ci-dessus"
+msgstr "Statistiques de l'image : affiche le HFR, l'excentricité et le nombre d'étoiles si calculées. HFR:1.96 Ecc:0.43 143 étoiles ci-dessus"
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:202
 #, no-c-format
 msgid "Clipped Stars: If Show Clipping is activated in the main toolbar, it displays the number of possibly clipped pixels. Clip:403 above."
-msgstr "Étoiles coupées : si l'option Afficher coupage est activée dans la barre d'outils principale, le nombre de pixels possiblement coupés est affichés. Clip : 403 ci-dessus"
+msgstr "Étoiles coupées : si l'option Afficher coupage est activée dans la barre d'outils principale, le nombre de pixels possiblement coupés est affiché. Clip : 403 ci-dessus."
 
 #. Tag: para
 #. +> trunk5
@@ -856,7 +856,7 @@ msgstr "Position : la case à cocher Utiliser Position force le résolveur à c
 #: fitsviewer.docbook:300
 #, no-c-format
 msgid "Use SkyMap Position: There is a button just below the Use Position checkbox that fills in RA and DEC boxes with the current center of the SkyMap display."
-msgstr "Utiliser Position de la carte du ciel : ce bouton, situé juste sous la boîte Utiliser Position rempli les boîte AD et DEC avec les coordonnées actuelles du centre de la carte du ciel."
+msgstr "Utiliser Position de la carte du ciel : ce bouton, situé juste sous la boîte Utiliser Position rempli les boîtes AD et DEC avec les coordonnées actuelles du centre de la carte du ciel."
 
 #. Tag: para
 #. +> trunk5
