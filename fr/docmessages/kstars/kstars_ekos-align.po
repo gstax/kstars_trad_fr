@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: kstars_ekos_align_3.6.7\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-25 10:01+0200\n"
-"PO-Revision-Date: 2023-11-18 09:41+0100\n"
+"PO-Revision-Date: 2023-11-19 07:46+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -294,14 +294,14 @@ msgstr "Cette page indique à Ekos si vous souhaitez contraindre la résolution 
 #: ekos-align.docbook:157
 #, no-c-format
 msgid "Scale can be the image width in degrees (<guilabel>dw</guilabel>), the image width in arc-minutes (<guilabel>aw</guilabel>), or the pixel width in arc-seconds (<guilabel>app</guilabel>). All should work, but arc-seconds per pixel is recommended. Typically you want to use this constraint for faster solving, so we recommend you check this box. The system doesn't require that the scale be exactly right--it allows deviations of 10-20%. However, frequently issues related to solving are due to an inaccurate scale being used. Therefore, if you have plate-solving problems, you may want to uncheck <guilabel>Use Scale</guilabel> until those issues are resolved. This will likely result in longer solving times. <guilabel>Auto-update</guilabel> will automatically fill the scale box with the scale found in the most-recent successful solve."
-msgstr "L'échelle peut être la largeur de l'image en degrés (<guilabel>dw</guilabel>), en minutes d'arc (<guilabel>aw</guilabel>) ou en pixels en secondes d'arc (<guilabel>app</guilabel>). Toutes devraient fonctionner mais secondes d'arc par pixel est recommandé. Vous souhaitez typiquement utiliser cette contrainte pour accélérer la résolution, ainsi nous vous recommandons de cocher cette case. Le système ne requiert pas l'échelle d'être parfaitement correcte, il permet une déviation de 10 à 20%. Toutefois, les problèmes de résolution sont souvent liés à l'utilisation d'une échelle imprécise. Par conséquent, si vous rencontrez des problèmes de résolution, vous pouvez décocher cette case jusqu'à avoir résolu ces problèmes. Le résultat sera un allongement du temps de résolution. <guilabel>Mise à jour automatique</guilabel> mettra à jour l'échelle avec la valeur de la résolution réussie la plus récente."
+msgstr "L'échelle peut être la largeur de l'image en degrés (<guilabel>dw</guilabel>), en minutes d'arc (<guilabel>aw</guilabel>) ou en pixels en secondes d'arc (<guilabel>app</guilabel>). Toutes devraient fonctionner mais secondes d'arc par pixel est recommandée. Vous souhaitez typiquement utiliser cette contrainte pour accélérer la résolution, ainsi nous vous recommandons de cocher cette case. Le système ne requiert pas l'échelle d'être parfaitement correcte, il permet une déviation de 10 à 20 %. Toutefois, les problèmes de résolution sont souvent liés à l'utilisation d'une échelle imprécise. Par conséquent, si vous rencontrez des problèmes de résolution, vous pouvez décocher cette case jusqu'à avoir résolu ces problèmes. Le résultat sera un allongement du temps de résolution. <guilabel>Mise à jour automatique</guilabel> mettra à jour l'échelle avec la valeur de la résolution réussie la plus récente."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-align.docbook:158
 #, no-c-format
 msgid "The RA and DEC positions are usually filled in from the position the telescope thinks it is pointing. Naturally, the system doesn't require an exactly correct positional constraint--afterall the purpose of plate-solving is to find that position. The maximum distance in degrees from the specified position to the actual position is given by the <guilabel>Radius</guilabel> field. Plate-solving will fail if the specified position is further away. Typically you want to enable <guilabel>Use Position</guilabel> for faster solving, so we recommend you check this box. However, frequently issues related to solving are due to using a poor positional estimate (e.g. the telescope is significantly misaligned). Therefore, if you have plate-solving problems, you may want to uncheck <guilabel>Use Position</guilabel> until those issues are resolved. As mentioned, this will result in longer solving times. <guilabel>Auto-update</guilabel> will fill the position box with the position found in the most-recent successful solve. However, a slew will update the position to the position where the telescope thinks it is pointing after the slew."
-msgstr "Les positions en AD et DEC sont généralement prises de la position vers laquelle le télescope croit qu'il pointe. Comme la raison première de la résolution est de trouver l'exacte position, le système n'a évidemment pas besoin d'une position exact pour la résolution. La distance maximale en degrés de la position spécifiée et la position actuelle est indiqué dans le champ <guilabel>Rayon</guilabel>. La résolution échouera si la position spécifiée est plus loin. Vous souhaitez typiquement activer <guilabel>Utiliser position</guilabel> pour accélérer la résolution, et nous vous recommandons de le faire. Toutefois, de fréquents problèmes de résolution sont liés à une estimation très imprécise de la position (&ie; le télescope est très mal aligné). Ainsi, si vous rencontrez des problèmes de résolution, vous pouvez décocher cette case jusqu'à avoir résolu ces problèmes. Comme déjà mentionné, cela va allonger la durée de résolution. <guilabel>Mise à jour automatique</guilabel> mettra à jour la position avec la position de la résolution réussie la plus récente. Mais un pivotage déclenchera une mise à jour de la position où le télescope pense qu'il pointe."
+msgstr "Les positions en AD et DEC sont généralement prises de la position vers laquelle le télescope croit qu'il pointe. Comme la raison première de la résolution est de trouver l'exacte position, le système n'a évidemment pas besoin d'une position exacte pour la résolution. La distance maximale en degrés de la position spécifiée et la position actuelle est indiqué dans le champ <guilabel>Rayon</guilabel>. La résolution échouera si la position spécifiée est plus loin. Vous souhaitez typiquement activer <guilabel>Utiliser position</guilabel> pour accélérer la résolution, et nous vous recommandons de le faire. Toutefois, de fréquents problèmes de résolution sont liés à une estimation très imprécise de la position (&ie; le télescope est très mal aligné). Ainsi, si vous rencontrez des problèmes de résolution, vous pouvez décocher cette case jusqu'à avoir résolu ces problèmes. Comme déjà mentionné, cela va allonger la durée de résolution. <guilabel>Mise à jour automatique</guilabel> mettra à jour la position avec la position de la résolution réussie la plus récente. Mais un pivotage déclenchera une mise à jour de la position où le télescope pense qu'il pointe."
 
 #. Tag: title
 #. +> trunk5
@@ -352,7 +352,7 @@ msgstr "Les <guilabel>Options d'alignement du modificateur de profils</guilabel>
 #: ekos-align.docbook:184
 #, no-c-format
 msgid "The top section labelled <guilabel>Sextractor Parameters</guilabel> (with column headings <guilabel>Extraction Parameters</guilabel>, <guilabel>Deblending Params</guilabel>, and <guilabel>Photometry Params</guilabel>) are star extraction parameters--that is those that help find stars in your image."
-msgstr "La partie supérieures intitulée <guilabel>Paramètres Sextractor</guilabel> (avec les colonnes <guilabel>Paramètres d'extraction</guilabel>, <guilabel>Paramètres de dissociation</guilabel> et <guilabel>Paramètres de photométrie</guilabel>) gère la phase d'extraction -- celle qui permet de trouver les étoiles dans une image."
+msgstr "La partie supérieure intitulée <guilabel>Paramètres Sextractor</guilabel> (avec les colonnes <guilabel>Paramètres d'extraction</guilabel>, <guilabel>Paramètres de dissociation</guilabel> et <guilabel>Paramètres de photométrie</guilabel>) gère la phase d'extraction -- celle qui permet de trouver les étoiles dans une image."
 
 #. Tag: para
 #. +> trunk5
@@ -380,7 +380,7 @@ msgstr "Tous les champs affichent des infobulles quand le curseur de la souris p
 #: ekos-align.docbook:190
 #, no-c-format
 msgid "You can make changes to the values and save the profile if you like, or restore the profile's original values."
-msgstr "Vous pouvez modifier les valeurs et enregistrer le profile à votre convenance ou rétablir les valeurs par défaut du profil."
+msgstr "Vous pouvez modifier les valeurs et enregistrer le profil à votre convenance ou rétablir les valeurs par défaut du profil."
 
 #. Tag: title
 #. +> trunk5
@@ -408,7 +408,7 @@ msgstr "Les paramètres <guilabel>Multiple du seuil</guilabel> et <guilabel>Déc
 #: ekos-align.docbook:199
 #, no-c-format
 msgid "<guilabel>Min Area</guilabel> is the minimum area for a star detection--area is in square pixels where all pixels have higher-than-threshold pixel values. If you are detecting small noise spikes as stars, you might want to increase this. If you are not detecting desired smaller real stars, perhaps your <guilabel>Min Area</guilabel> is too high."
-msgstr "Le paramètre <guilabel>Aire minimale</guilabel> représente la surface minimale pour la détection d'étoiles, c'est un carré de pixels où tous les pixels ont une valeur supérieur à un seuil défini. Si de petites pointes de bruit sont détectées comme des étoiles, il faudra probablement augmenter la valeur de ce paramètres. À l'inverse, si vous ne détectez pas les petites étoiles souhaitées, il faudra réduire la valeur de ce paramètre."
+msgstr "Le paramètre <guilabel>Aire minimale</guilabel> représente la surface minimale pour la détection d'étoiles, c'est un carré de pixels où tous les pixels ont une valeur supérieure à un seuil défini. Si de petites pointes de bruit sont détectées comme des étoiles, il faudra probablement augmenter la valeur de ce paramètres. À l'inverse, si vous ne détectez pas les petites étoiles souhaitées, il faudra réduire la valeur de ce paramètre."
 
 #. Tag: para
 #. +> trunk5
@@ -436,7 +436,7 @@ msgstr "Le filtrage d'étoile est principalement réalisé pour des questions de
 #: ekos-align.docbook:210
 #, no-c-format
 msgid "<guilabel>Initial Keep</guilabel> and <guilabel>Stars Keep #</guilabel> relates to the number of stars returned by the system. The system will initially run its detection algorithm and find some number of possible detections. It will filter that list, keeping only the <guilabel>Initial Keep</guilabel> brightest stars. It will then run the rest of the filtering, including computing the HFR of all those stars and finally only return a list of <guilabel>Stars Keep #</guilabel> stars. None of the uses (alignment, autofocus, guiding) of StellarSolver require thousands of stars to be able to do their job, and the more stars processed the slower the operation. An initial list of 1000 stars and a few hundred returned stars should be sufficient for most applications."
-msgstr "Les paramètres <guilabel>Conserver initial</guilabel> et <guilabel># d'étoiles à conserver</guilabel> gèrent le nombre d'étoiles conservées par le système. Il va d'abord exécuter son algorithme de détection et trouver un certain nombre d'étoiles. Il filtrera ensuite cette liste en ne gardant que le nombre <guilabel>Conserver initial</guilabel> d'étoiles brillantes. Il exécutera ensuite la suite du filtrage ce qui inclut le calcul du HFR de toutes les étoiles et renverra enfin une liste de <guilabel># d'étoiles à conserver</guilabel> d'étoiles. Aucune utilisation de StellarSolver (alignement, mise au point automatique, guidage) ne requiert des millier d'étoiles pour fonctionner et plus le nombre d'étoiles à traiter est grand, plus grand sera le temps de traitement. Une liste initiale de mille étoiles pour quelques centaines utilisées devrait être suffisant pour la plupart des utilisations."
+msgstr "Les paramètres <guilabel>Conserver initial</guilabel> et <guilabel># d'étoiles à conserver</guilabel> gèrent le nombre d'étoiles conservées par le système. Il va d'abord exécuter son algorithme de détection et trouver un certain nombre d'étoiles. Il filtrera ensuite cette liste en ne gardant que le nombre <guilabel>Conserver initial</guilabel> d'étoiles brillantes. Il exécutera ensuite la suite du filtrage ce qui inclut le calcul du HFR de toutes les étoiles et renverra enfin une liste de <guilabel># d'étoiles à conserver</guilabel> d'étoiles. Aucune utilisation de StellarSolver (alignement, mise au point automatique, guidage) ne requiert des milliers d'étoiles pour fonctionner et plus le nombre d'étoiles à traiter est grand, plus grand sera le temps de traitement. Une liste initiale de mille étoiles pour quelques centaines utilisées devrait être suffisant pour la plupart des utilisations."
 
 #. Tag: para
 #. +> trunk5
@@ -457,7 +457,7 @@ msgstr "Le paramètre <guilabel>Ellipse maximale</guilabel> spécifie la forme e
 #: ekos-align.docbook:213
 #, no-c-format
 msgid "<guilabel>Cut Brightest</guilabel> and <guilabel>Cut Dimmest</guilabel> remove the X% brightest or dimmest stars from consideration. <guilabel>Sat Limit</guilabel> removes stars whose pixel values exceed that percentage of the maximum pixel value--to remove saturated stars."
-msgstr "Les paramètres <guilabel>Supprimer les plus brillantes</guilabel> et <guilabel>Supprimer les moins brillantes</guilabel> permettent de supprimer les X% d'étoiles les plus brillantes ou moins brillantes. Le paramètre <guilabel>Limite de saturation</guilabel> permet de supprimer les étoiles dont la valeur de pixel dépasse ce pourcentage de la valeur maximale de ce pixel, supprimant ainsi les étoiles saturées."
+msgstr "Les paramètres <guilabel>Supprimer les plus brillantes</guilabel> et <guilabel>Supprimer les moins brillantes</guilabel> permettent de supprimer les X % d'étoiles les plus brillantes ou moins brillantes. Le paramètre <guilabel>Limite de saturation</guilabel> permet de supprimer les étoiles dont la valeur de pixel dépasse ce pourcentage de la valeur maximale de ce pixel, supprimant ainsi les étoiles saturées."
 
 #. Tag: title
 #. +> trunk5
@@ -1162,7 +1162,7 @@ msgstr "Réglages de l'alignement"
 #, no-c-format
 #| msgid "Before you begin the alignment process, select the desired CCD &amp; Telescope. You can explore astrometry.net options that are passed to the astrometry.net solver each time an image is captured:"
 msgid "Before you begin the alignment process, select the desired optical train. You can explore astrometry.net options that are passed to the astrometry.net solver each time an image is captured:"
-msgstr "Avant de démarrer la procédure d'alignement polaire, il faut sélectionner le bon tain optique. Vous pouvez explorer les options d'astrometry.net qui sont passées au résolveur à chaque acquisition d'image :"
+msgstr "Avant de démarrer la procédure d'alignement polaire, il faut sélectionner le bon train optique. Vous pouvez explorer les options d'astrometry.net qui sont passées au résolveur à chaque acquisition d'image :"
 
 #. Tag: para
 #. +> trunk5
