@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos-capture_3.6.7\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-30 12:02+0100\n"
+"POT-Creation-Date: 2023-12-01 10:19+0100\n"
 "PO-Revision-Date: 2023-08-01 17:07+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -770,14 +770,14 @@ msgstr ""
 #. +> trunk5
 #: ekos-capture.docbook:509
 #, no-c-format
-msgid "The implementation of this process does not consider the strength (magnitude or flux) of the intended target, nor does it consider other factors which may cause an astrophotographer to choose a alternate sub-exposure time. These other factors may include: the storage requirements and extended post-processing time for a large number of short exposures, the impacts of external factors that might occur in very long exposures, such as tracking / guiding performance, changes in weather conditions which may disrupt seeing conditions, intrusions from air traffic or passing satellites."
+msgid "The implementation of this process does not consider the strength (magnitude or flux) of the intended target, nor does it consider other factors which may cause an astrophotographer to choose an alternate sub-exposure time. These other factors may include: the storage requirements and extended post-processing time for a large number of short exposures, the impacts of external factors that might occur in very long exposures, such as tracking / guiding performance, changes in weather conditions which may disrupt seeing conditions, intrusions from air traffic or passing satellites."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:512
 #, no-c-format
-msgid "Approaches to imaging can vary greatly in the selection of exposure times, and number of sub-exposures used for integration. A well accepted approach for imaging deep-sky objects utilizes long exposures, requires good guiding, good to excellent seeing conditions, and would typically employ filtering to reduce the effects of light polution. At the other extreme are approaches such as speckle imaging techniques (commonly 'lucky imaging'), which utilize many hundreds to many thousands of extremely short exposures in an attempt to eliminate the effects of light pollution, poor seeing conditions, and poor guiding. Choices made for values of certain inputs to the exposure calculator will vary depending upon which imaging approach is being employed."
+msgid "Approaches to imaging can vary greatly in the selection of exposure times, and number of sub-exposures used for integration. A well accepted approach for imaging deep-sky objects utilizes long exposures, requires good guiding, good to excellent seeing conditions, and would typically employ filtering to reduce the effects of light pollution. At the other extreme are approaches such as speckle imaging techniques (commonly 'lucky imaging'), which utilize many hundreds to many thousands of extremely short exposures in an attempt to eliminate the effects of light pollution, poor seeing conditions, and poor guiding. Choices made for values of certain inputs to the exposure calculator will vary depending upon which imaging approach is being employed."
 msgstr ""
 
 #. Tag: para
@@ -805,14 +805,14 @@ msgstr ""
 #. +> trunk5
 #: ekos-capture.docbook:524
 #, no-c-format
-msgid "All light scattered in the backgound sky is considered to be light pollution regardless of its source, so the effects of moonlight should be considered as \"natural\" light pollution. But weather conditions can also impact Sky Quality, as humidity or cloud cover can reflect and scatter any source of light through the atmosphere"
+msgid "All light scattered in the background sky is considered to be light pollution regardless of its source, so the effects of moonlight should be considered as \"natural\" light pollution. But weather conditions can also impact Sky Quality, as humidity or cloud cover can reflect and scatter any source of light through the atmosphere"
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:526
 #, no-c-format
-msgid "A <ulink url=\"https://en.wikipedia.org/wiki/Sky_quality_meter\">Sky Quality Meter (SQM)</ulink> can provide the most accurate reading of sky quality if used during an imaging session, but an estimated value from sky quality surveys may also be found on the web at sites such as <ulink url=\"https://www.lightpollutionmap.info/\">www.lightpollutionmap.info</ulink> or <ulink url=\"https://clearoutside.com/\">www.clearoutside.com</ulink>. But these on-line sources for estimated light pollution genearrly do not account for the effects of moonlight or local weather conditions. So the values from light pollution web sites should only be considered as a “best case scenario” for a cloudless night during a new moon."
+msgid "A <ulink url=\"https://en.wikipedia.org/wiki/Sky_quality_meter\">Sky Quality Meter (SQM)</ulink> can provide the most accurate reading of sky quality if used during an imaging session, but an estimated value from sky quality surveys may also be found on the web at sites such as <ulink url=\"https://www.lightpollutionmap.info/\">www.lightpollutionmap.info</ulink> or <ulink url=\"https://clearoutside.com/\">www.clearoutside.com</ulink>. But these on-line sources for estimated light pollution generally do not account for the effects of moonlight or local weather conditions. So the values from light pollution web sites should only be considered as a “best case scenario” for a cloudless night during a new moon."
 msgstr ""
 
 #. Tag: para
@@ -1107,7 +1107,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-capture.docbook:649
 #, no-c-format
-msgid "The table provides a quick reference for finding the appoximate number of sub-exposures that might be completed for a given number of hours in a imaging session. But some functions that consume time are not included in this time calculation. For example, USB based cameras typically take some time for data transmission, or if the user has selected automatic dithering, additional time will be consumed in the imaging process, which is not included in this time calculation."
+msgid "The table provides a quick reference for finding the approximate number of sub-exposures that might be completed for a given number of hours in a imaging session. But some functions that consume time are not included in this time calculation. For example, USB based cameras typically take some time for data transmission, or if the user has selected automatic dithering, additional time will be consumed in the imaging process, which is not included in this time calculation."
 msgstr ""
 
 #. Tag: para
@@ -1121,14 +1121,14 @@ msgstr ""
 #. +> trunk5
 #: ekos-capture.docbook:653
 #, no-c-format
-msgid "<guimenuitem>Graph</guimenuitem>: An interactive graph allows the user to visualize the relative change in potential quality for integrated images with various counts of sub-exposures applied in image stacking. This graph can be navigated through the adjustment of the time/noise ratio value; adjusting this value will recompute the quantity of sub-exposures required for the integrated image to acheive that specified time/noise ratio."
+msgid "<guimenuitem>Graph</guimenuitem>: An interactive graph allows the user to visualize the relative change in potential quality for integrated images with various counts of sub-exposures applied in image stacking. This graph can be navigated through the adjustment of the time/noise ratio value; adjusting this value will recompute the quantity of sub-exposures required for the integrated image to achieve that specified time/noise ratio."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:656
 #, no-c-format
-msgid "In the selection of a Time/Noise ratio for the calculation of the count of stacked exposures, the user might want consider the incremental change to the poterntial quailty of the image from an addtional sub-exposure. To help a user assess the value of increasing the number of sub-exposures for integration; the tool includes a calculaton of the slope for the selected point on the time/noise curve (the user interface uses a delta symbol to present this value). This delta value represents the change in potential quality that will result from the addition or subtraction of a single sub-exposure."
+msgid "In the selection of a Time/Noise ratio for the calculation of the count of stacked exposures, the user might want consider the incremental change to the potential quality of the image from an additional sub-exposure. To help a user assess the value of increasing the number of sub-exposures for integration; the tool includes a calculation of the slope for the selected point on the time/noise curve (the user interface uses a delta symbol to present this value). This delta value represents the change in potential quality that will result from the addition or subtraction of a single sub-exposure."
 msgstr ""
 
 #. Tag: para
@@ -1191,7 +1191,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-capture.docbook:686
 #, no-c-format
-msgid "For an integration using the 30 second sub-exposures we find that 637 sub-exposures would be required to achieve a time/noise ratio of 80. So a total integration time of 5.31 hours is required with these shorter exposures to acheive the same time/noise ratio in the integrated image."
+msgid "For an integration using the 30 second sub-exposures we find that 637 sub-exposures would be required to achieve a time/noise ratio of 80. So a total integration time of 5.31 hours is required with these shorter exposures to achieve the same time/noise ratio in the integrated image."
 msgstr ""
 
 #. Tag: phrase
