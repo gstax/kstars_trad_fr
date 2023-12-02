@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: kstars_config_3.6.7\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-23 10:13+0200\n"
-"PO-Revision-Date: 2023-11-19 07:47+0100\n"
+"PO-Revision-Date: 2023-11-12 16:24+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -1847,7 +1847,7 @@ msgstr "La boîte <guilabel>Dimension maximale de l'image</guilabel> permet de v
 #: config.docbook:1260
 #, no-c-format
 msgid "The <guilabel>Center SkyMap on selection</guilabel> checkbox allows you to easily navigate to the overlay images without directly manipulating the SkyMap. With this enabled, you select a row in the overlay table (&ie;, by clicking on the filename field) and the skymap is moved to that image if the image's status is <guilabel>OK</guilabel>. At that point you can move from one image to the next with &Up; and &Down; arrow keyboard commands."
-msgstr "La boîte à cocher <guilabel>Center la carte du ciel à la sélection</guilabel> permet de naviguer facilement vers les images de superposition dans devoir manipuler la carte du ciel. Lorsque que cette option est activée, il suffit de sélectionner une ligne dans la table de superposition (&ie; en cliquant sur le champ de nom de fichier) et la carte du ciel est déplacée vers cette image si son statut est <guilabel>Ok</guilabel>. Vous pouvez ensuite passer d'une image à l'autre à l'aide des flèches &Up; et &Down; du clavier."
+msgstr "La boîte à cocher <guilabel>Center la carte du ciel à la sélection</guilabel> permet de naviguer facilement vers les images de superposition sans devoir manipuler la carte du ciel. Lorsque que cette option est activée, il suffit de sélectionner une ligne dans la table de superposition (&ie; en cliquant sur le champ de nom de fichier) et la carte du ciel est déplacée vers cette image si son statut est <guilabel>Ok</guilabel>. Vous pouvez ensuite passer d'une image à l'autre à l'aide des flèches &Up; et &Down; du clavier."
 
 #. Tag: title
 #. +> trunk5
@@ -2200,7 +2200,7 @@ msgstr "toutes les images qui ont échoué à la résolution."
 #: config.docbook:1516
 #, no-c-format
 msgid "The images are all saved in folders parallel to the main logging directory. They are in folders named guide, autofocus, align, and align/failed."
-msgstr "Ces images sont enregistrées dans des dossiers situés au même niveau que le dossier des fichiers journaux. Leur nom sont guide, autofocus, align et align/failed."
+msgstr "Ces images sont enregistrées dans des dossiers situés au même niveau que le dossier des fichiers journaux. Leurs noms sont guide, autofocus, align et align/failed."
 
 #. Tag: title
 #. +> trunk5
