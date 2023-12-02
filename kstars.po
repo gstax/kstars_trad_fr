@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.6.7\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-28 11:13+0100\n"
-"PO-Revision-Date: 2023-12-02 06:39+0100\n"
+"PO-Revision-Date: 2023-12-02 07:03+0100\n"
 "Last-Translator: stax <stax@ik.me>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -6737,7 +6737,7 @@ msgstr "La résolution a échoué. Nouvel essai sans la contrainte d'échelle."
 #: ekos/align/align.cpp:2331
 #, kde-format
 msgid "Solver failed. Retrying without position constraint."
-msgstr "La résolution a échoué. Nouvel essai sans la contrainte de position"
+msgstr "La résolution a échoué. Nouvel essai sans la contrainte de position."
 
 #. +> trunk5
 #: ekos/align/align.cpp:2339
@@ -18511,13 +18511,13 @@ msgstr "Delta depuis le centre de la tuile en micromètres."
 #, kde-format
 #| msgid "Minimum number of stars detected for SEP MultiStar to initialize."
 msgid "Min / max number of stars detected in the focus run"
-msgstr "Nombre Min / Max du nombre d'étoiles détectées dans la passe de mise au point."
+msgstr "Nombre Min / Max d'étoiles détectées dans la passe de mise au point."
 
 #. +> trunk5
 #: ekos/focus/aberrationinspector.cpp:105
 #, kde-format
 msgid "Check to exclude row from calculations"
-msgstr "Cochez pour exclure la ligne des calculs"
+msgstr "Cochez pour exclure cette ligne des calculs"
 
 #. +> trunk5
 #: ekos/focus/aberrationinspector.cpp:565
@@ -39979,7 +39979,7 @@ msgstr "L'ensemble de tuiles à utiliser dans l'inspecteur d'aberration."
 #: kstars.kcfg:2220
 #, kde-format
 msgid "Show Max Min labels on Aberration Inspector graph."
-msgstr "Afficher les étiquettes Man Min sur le graphique de l'inspecteur d'aberration."
+msgstr "Afficher les étiquettes Max Min sur le graphique de l'inspecteur d'aberration."
 
 #. i18n: ectx: label, entry (abInsShowCFZ), group (Focus)
 #. +> trunk5
@@ -40028,14 +40028,14 @@ msgstr "Thème du graphique 3D de l'inspecteur d'aberration."
 #: kstars.kcfg:2246
 #, kde-format
 msgid "Aberration Inspector 3D graphic show labels."
-msgstr "Affichage des étiquettes sur graphique 3D de l'inspecteur d'aberration."
+msgstr "Affichage des étiquettes sur le graphique 3D de l'inspecteur d'aberration."
 
 #. i18n: ectx: label, entry (abInsSensor), group (Focus)
 #. +> trunk5
 #: kstars.kcfg:2250
 #, kde-format
 msgid "Aberration Inspector 3D graphic show sensor."
-msgstr "Affichage du capteur sur graphique 3D de l'inspecteur d'aberration."
+msgstr "Affichage du capteur sur le graphique 3D de l'inspecteur d'aberration."
 
 #. i18n: ectx: label, entry (abInsPetzvalWire), group (Focus)
 #. +> trunk5
@@ -40952,7 +40952,7 @@ msgstr "Lors du traitement d'une tâche planifiée, reprendre la séquence en d�
 #: kstars.kcfg:2863
 #, kde-format
 msgid "When true, the scheduler tries to run lower priority jobs when no higher priority job can run. Recommended."
-msgstr "Si vrai, l'ordonnanceur essaie d'exécuter les tâches de priorité inférieur quand aucune tâche de priorité plus haute ne peut être exécutée. Recommandé."
+msgstr "Si vrai, l'ordonnanceur essaie d'exécuter les tâches de priorité inférieure quand aucune tâche de priorité supérieure ne peut être exécutée. Recommandé."
 
 #. i18n: ectx: label, entry (LeadTime), group (Scheduler)
 #. +> trunk5
