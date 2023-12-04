@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos-focus_3.6.7\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-02 09:58+0100\n"
+"POT-Creation-Date: 2023-12-03 13:20+0100\n"
 "PO-Revision-Date: 2023-08-16 07:09+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team:  French <kde-francophone@kde.org>\n"
@@ -2879,8 +2879,9 @@ msgstr "Actuellement Ekos utilise une simple relation linéaire entre la tempér
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2161
-#, no-c-format
-msgid "A way to get a value for <guilabel>Ticks / °C</guilabel> would be to take the data from the autofocus-(datetime).txt files from a few nights of observing into a spreadsheet and graph focus position against temperature for each filter. Review the data and remove any outliers and plot a line of best fit. Use the line to get <guilabel>Ticks / °C</guilabel>. If you intend to adapt for altitude as well as temperature, then it would be better to use a set of data at similar altitude when calibrating temperature. Then its possible to calculate the effect of Temperature and remove this from the data when calculating the effect of Altitude."
+#, fuzzy, no-c-format
+#| msgid "A way to get a value for <guilabel>Ticks / °C</guilabel> would be to take the data from the autofocus-(datetime).txt files from a few nights of observing into a spreadsheet and graph focus position against temperature for each filter. Review the data and remove any outliers and plot a line of best fit. Use the line to get <guilabel>Ticks / °C</guilabel>. If you intend to adapt for altitude as well as temperature, then it would be better to use a set of data at similar altitude when calibrating temperature. Then its possible to calculate the effect of Temperature and remove this from the data when calculating the effect of Altitude."
+msgid "A way to get a value for <guilabel>Ticks / °C</guilabel> would be to take the data from the autofocus-(datetime).txt files from a few nights of observing into a spreadsheet and graph focus position against temperature for each filter. Review the data and remove any outliers and plot a line of best fit. Use the line to get <guilabel>Ticks / °C</guilabel>. If you intend to adapt for altitude as well as temperature, then it would be better to use a set of data at similar altitude when calibrating temperature. Then it's possible to calculate the effect of Temperature and remove this from the data when calculating the effect of Altitude."
 msgstr "Une manière d'obtenir ces valeurs est de saisir ces données prises sur plusieurs nuits dans un tableur et de dessiner le graphique de la position de mise au point en fonction de la température et cela pour chaque filtre. Passez en revue les données et éliminez les valeurs aberrantes puis faites une régression linéaire sur ces données. Elle vous donnera la valeur de <guilabel>Pas / °C</guilabel>. Si votre intention est de faire pareil pour l'altitude, il sera probablement plus efficace d'utiliser un ensemble de données d'altitudes similaires pour la calibration de la température. Il sera ainsi possible de calculer l'effet dû à la température et de la soustraire des données pour le calcul de l'effet dû à l'altitude."
 
 #. Tag: para
@@ -3184,14 +3185,14 @@ msgstr ""
 #. +> trunk5
 #: ekos-focus.docbook:2399
 #, no-c-format
-msgid "Note the amount of adjustment, e.g. how far to turn bolts, and the sense, counterwise or counter-clockwise, will vary by equipment and must be discovered by the user by trial and error. Always follow the recommendations of the tilt / backfocus device manufacturer."
+msgid "Note the amount of adjustment, e.g. how far to turn bolts, and the sense, clockwise or counter-clockwise, will vary by equipment and must be discovered by the user by trial and error. Always follow the recommendations of the tilt / backfocus device manufacturer."
 msgstr ""
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2403
 #, no-c-format
-msgid "Each time Aberration Inspector is run it lauches a new dialog with the run number appended to the title. This way several runs can be performed and the results compared. Note, however, that the dialog holds a lot of data (roughtly 10x the amount of a standard Autofocus run). The system resources associated with this are released when the dialog is closed. For this reason on lower powered machines, once the tool has been used, it is recommended to close all Aberration Inspector dialogs before imaging."
+msgid "Each time Aberration Inspector is run it launches a new dialog with the run number appended to the title. This way several runs can be performed and the results compared. Note, however, that the dialog holds a lot of data (roughly 10x the amount of a standard Autofocus run). The system resources associated with this are released when the dialog is closed. For this reason on lower powered machines, once the tool has been used, it is recommended to close all Aberration Inspector dialogs before imaging."
 msgstr ""
 
 #. Tag: para
@@ -3411,7 +3412,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-focus.docbook:2535
 #, no-c-format
-msgid "Note that whilst its possible to exclude tiles and still get calculated values, if the data is poor quality then it is recommended to rerun Aberration Inspector rather than persist with poor quality data."
+msgid "Note that whilst it's possible to exclude tiles and still get calculated values, if the data is poor quality then it is recommended to rerun Aberration Inspector rather than persist with poor quality data."
 msgstr ""
 
 #. Tag: para
@@ -3594,7 +3595,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-focus.docbook:2653
 #, no-c-format
-msgid "Slice: A 2D slice throught the 3D graphic is displayed."
+msgid "Slice: A 2D slice through the 3D graphic is displayed."
 msgstr ""
 
 #. Tag: para
@@ -3645,7 +3646,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-focus.docbook:2687
 #, no-c-format
-msgid "The 3D graphic is not essential to using Aberration Inspector. All relevent information is displayed in the <link linkend=\"aberration-inspector-table\">Table</link> and <link linkend=\"aberration-inspector-results\">Results</link> sections of the dialog. Its purpose is to aid the user in undertanding Aberration Inspector and to orient themselves with the information the tool provides."
+msgid "The 3D graphic is not essential to using Aberration Inspector. All relevant information is displayed in the <link linkend=\"aberration-inspector-table\">Table</link> and <link linkend=\"aberration-inspector-results\">Results</link> sections of the dialog. Its purpose is to aid the user in understanding Aberration Inspector and to orient themselves with the information the tool provides."
 msgstr ""
 
 #, no-c-format

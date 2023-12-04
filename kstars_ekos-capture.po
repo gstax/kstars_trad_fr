@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos-capture_3.6.7\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-01 10:19+0100\n"
+"POT-Creation-Date: 2023-12-03 13:20+0100\n"
 "PO-Revision-Date: 2023-08-01 17:07+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -1107,7 +1107,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-capture.docbook:649
 #, no-c-format
-msgid "The table provides a quick reference for finding the approximate number of sub-exposures that might be completed for a given number of hours in a imaging session. But some functions that consume time are not included in this time calculation. For example, USB based cameras typically take some time for data transmission, or if the user has selected automatic dithering, additional time will be consumed in the imaging process, which is not included in this time calculation."
+msgid "The table provides a quick reference for finding the approximate number of sub-exposures that might be completed for a given number of hours in an imaging session. But some functions that consume time are not included in this time calculation. For example, USB based cameras typically take some time for data transmission, or if the user has selected automatic dithering, additional time will be consumed in the imaging process, which is not included in this time calculation."
 msgstr ""
 
 #. Tag: para
@@ -1163,7 +1163,7 @@ msgstr ""
 #. +> trunk5
 #: ekos-capture.docbook:671
 #, no-c-format
-msgid "Part of the value of using a Time/Noise ratio as the input for the calculation of the required number of sub-exposures is that it should tend to compensate for the differences in relative noise for sub-exposures of various lengths. A shorter sub-exposure would have a lower time/noise ratio, so it has less capacity to improve a integrated image. Therefore, a disproportionately higher number of short exposures are needed to achieve a given time/noise ratio in an integrated image."
+msgid "Part of the value of using a Time/Noise ratio as the input for the calculation of the required number of sub-exposures is that it should tend to compensate for the differences in relative noise for sub-exposures of various lengths. A shorter sub-exposure would have a lower time/noise ratio, so it has less capacity to improve an integrated image. Therefore, a disproportionately higher number of short exposures are needed to achieve a given time/noise ratio in an integrated image."
 msgstr ""
 
 #. Tag: para
