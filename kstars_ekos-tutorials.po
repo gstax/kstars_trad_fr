@@ -1,6 +1,6 @@
 # Translation to French
-# steve <stax@ik.me>, 2022.
 # SPDX-FileCopyrightText: 2023 Xavier BESNARD <xavier.besnard@neuf.fr>
+# steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos-tutorial_3.6.7\n"
@@ -55,64 +55,33 @@ msgstr "Afficheur"
 #. +> trunk5
 #: ekos-tutorials.docbook:10
 #, no-c-format
-msgid ""
-"StellarMate is shipped with a VNC Server. This enables you to access the"
-" whole StellarMate desktop remotely. To connect to VNC, you can either use a"
-" Desktop/Mobile VNC Client, or simply via any browser."
-msgstr ""
-"StellarMate est distribué avec un serveur VNC. Cela vous permet d'accéder à"
-" distance au bureau StellarMate. La connexion à VNC se fait soit via un"
-" client VNC depuis votre bureau ou votre mobile soit simplement grâce à un"
-" navigateur."
+msgid "StellarMate is shipped with a VNC Server. This enables you to access the whole StellarMate desktop remotely. To connect to VNC, you can either use a Desktop/Mobile VNC Client, or simply via any browser."
+msgstr "StellarMate est distribué avec un serveur VNC. Cela vous permet d'accéder à distance au bureau StellarMate. La connexion à VNC se fait soit via un client VNC depuis votre bureau ou votre mobile soit simplement grâce à un navigateur."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-tutorials.docbook:13
 #, no-c-format
-msgid ""
-"The VNC address is: <userinput>https://<replaceable>stellarmate_hostname<"
-"/replaceable>:6080/vnc.html</userinput>"
-msgstr ""
-"L'adresse VNC est : <userinput>https://<replaceable>stellarmate_hostname<"
-"/replaceable>:6080/vnc.html</userinput>."
+msgid "The VNC address is: <userinput>https://<replaceable>stellarmate_hostname</replaceable>:6080/vnc.html</userinput>"
+msgstr "L'adresse VNC est : <userinput>https://<replaceable>stellarmate_hostname</replaceable>:6080/vnc.html</userinput>."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-tutorials.docbook:16
 #, no-c-format
-msgid ""
-"Where <replaceable>stellarmate_hostname</replaceable> is the actual hostname"
-" (or IP address) of your unit and 6080 is the port. If you do not know the"
-" unit hostname, you can find the hostname in your StellarMate App."
-msgstr ""
-"Où <replaceable>stellarmate-hostname</replaceable> est le nom d'hôte (ou"
-" l'adresse IP) de votre appareil et 6080 le numéro du port. Si vous ne"
-" connaissez pas le nom d'hôte de votre appareil, vous pouvez le trouver dans"
-" l'application StellarMate."
+msgid "Where <replaceable>stellarmate_hostname</replaceable> is the actual hostname (or IP address) of your unit and 6080 is the port. If you do not know the unit hostname, you can find the hostname in your StellarMate App."
+msgstr "Où <replaceable>stellarmate-hostname</replaceable> est le nom d'hôte (ou l'adresse IP) de votre appareil et 6080 le numéro du port. Si vous ne connaissez pas le nom d'hôte de votre appareil, vous pouvez le trouver dans l'application StellarMate."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-tutorials.docbook:19
 #, no-c-format
-msgid ""
-"You can use <ulink url=\"https://www.realvnc.com/download/viewer/\">Real VNC<"
-"/ulink> which is available on all platforms to access stellarmate."
-msgstr ""
-"Vous pouvez utiliser l'application <ulink"
-" url=\"https://www.realvnc.com/download/viewer/\">Real VNC</ulink> qui est"
-" disponible pour toutes les plate-formes pour accéder à StellarMate."
+msgid "You can use <ulink url=\"https://www.realvnc.com/download/viewer/\">Real VNC</ulink> which is available on all platforms to access stellarmate."
+msgstr "Vous pouvez utiliser l'application <ulink url=\"https://www.realvnc.com/download/viewer/\">Real VNC</ulink> qui est disponible pour toutes les plate-formes pour accéder à StellarMate."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-tutorials.docbook:22
 #, no-c-format
-msgid ""
-"Once you access StellarMate, you can use it like any full-fledged computer."
-" The default username is <userinput>stellarmate</userinput> and the default"
-" password is <userinput>smate</userinput>."
-msgstr ""
-"Une fois que vous êtes sur StellarMate, vous pouvez l'utiliser comme"
-" n'importe quel véritable ordinateur. L'identifiant par défaut est <userinput"
-">stellarmate</userinput> et le mot de passe par défaut est <userinput>smate<"
-"/userinput>."
-
+msgid "Once you access StellarMate, you can use it like any full-fledged computer. The default username is <userinput>stellarmate</userinput> and the default password is <userinput>smate</userinput>."
+msgstr "Une fois que vous êtes sur StellarMate, vous pouvez l'utiliser comme n'importe quel véritable ordinateur. L'identifiant par défaut est <userinput>stellarmate</userinput> et le mot de passe par défaut est <userinput>smate</userinput>."
