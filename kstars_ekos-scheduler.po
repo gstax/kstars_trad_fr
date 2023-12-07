@@ -1,6 +1,6 @@
 # Traduction de kstars_ekos-scheduler en français
-# steve <stax@ik.me>, 2022 2023.
 # SPDX-FileCopyrightText: 2023 Xavier BESNARD <xavier.besnard@neuf.fr>
+# steve <stax@ik.me>, 2022 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos_scheduler_3.6.7\n"
@@ -69,23 +69,8 @@ msgstr "Introduction"
 #. +> trunk5
 #: ekos-scheduler.docbook:23
 #, no-c-format
-msgid ""
-"The Ekos Scheduler is an important component of your imaging workflow. It"
-" connects to INDI, starts and stops all the other Ekos modules, schedules"
-" jobs according to their constraints and priorities, monitors those jobs as"
-" they execute, and then safely brings down the system when jobs are done, or"
-" before dawn. Whether you are running multi-day imaging sessions for multiple"
-" targets, or simply trying to image a single target for a few hours, it is"
-" advisable to have the Scheduler control your imaging sessions."
-msgstr ""
-"L'ordonnanceur d'Ekos est un composant important dans le flux de travail de"
-" l'imagerie. Il se connecte à INDI, démarre et arrête tous les autres modules"
-" d'Ekos, organise les tâches en tenant compte des contraintes et priorités,"
-" les surveille lorsqu'elles sont exécutées et arrête le système de manière"
-" sécurisée quand elles sont terminées ou avant l'aube. Que vous imagiez"
-" plusieurs cibles sur plusieurs nuits ou simplement une seule cible pendant"
-" quelques heures, il est conseillé d'utiliser l'ordonnanceur pour contrôler"
-" les sessions d'imagerie."
+msgid "The Ekos Scheduler is an important component of your imaging workflow. It connects to INDI, starts and stops all the other Ekos modules, schedules jobs according to their constraints and priorities, monitors those jobs as they execute, and then safely brings down the system when jobs are done, or before dawn. Whether you are running multi-day imaging sessions for multiple targets, or simply trying to image a single target for a few hours, it is advisable to have the Scheduler control your imaging sessions."
+msgstr "L'ordonnanceur d'Ekos est un composant important dans le flux de travail de l'imagerie. Il se connecte à INDI, démarre et arrête tous les autres modules d'Ekos, organise les tâches en tenant compte des contraintes et priorités, les surveille lorsqu'elles sont exécutées et arrête le système de manière sécurisée quand elles sont terminées ou avant l'aube. Que vous imagiez plusieurs cibles sur plusieurs nuits ou simplement une seule cible pendant quelques heures, il est conseillé d'utiliser l'ordonnanceur pour contrôler les sessions d'imagerie."
 
 #. Tag: title
 #. +> trunk5
@@ -98,89 +83,43 @@ msgstr "Table de l'ordonnanceur"
 #. +> trunk5
 #: ekos-scheduler.docbook:29
 #, no-c-format
-msgid ""
-"The heart of the Scheduler is a table displaying the list of Scheduler jobs"
-" the user wants to run. Associated with each jobs are attributes (mostly"
-" described in the settings section below). The attributes describe the name"
-" of the job, where the telescope should be pointed when imaging that job, a"
-" description of what types of images should be captured, constraints about"
-" when the jobs should run (&eg; altitude, twilight, moon, landscape"
-" blockages, &etc;), things that need to be done before and after the job is"
-" run, and strategies for dealing with errors."
-msgstr ""
-"Le cœur de l'ordonnanceur est une table affichant la liste des tâches prévues"
-" par l'opérateur. À chaque tâche est associée des attributs (décrits dans la"
-" section de configuration ci-dessous). Les attributs sont le nom de la tâche,"
-" la position vers laquelle le télescope doit pointer pour cette tâche, une"
-" description des types d'images à acquérir, les contraintes de la tâche (p."
-" ex. l'altitude, le crépuscule, la lune, les obstructions du paysage, &etc;),"
-" ainsi que toutes les choses qui doivent être accomplies avant et après la"
-" tâche, ainsi que les stratégies à adopter en cas d'erreurs."
+msgid "The heart of the Scheduler is a table displaying the list of Scheduler jobs the user wants to run. Associated with each jobs are attributes (mostly described in the settings section below). The attributes describe the name of the job, where the telescope should be pointed when imaging that job, a description of what types of images should be captured, constraints about when the jobs should run (&eg; altitude, twilight, moon, landscape blockages, &etc;), things that need to be done before and after the job is run, and strategies for dealing with errors."
+msgstr "Le cœur de l'ordonnanceur est une table affichant la liste des tâches prévues par l'opérateur. À chaque tâche est associée des attributs (décrits dans la section de configuration ci-dessous). Les attributs sont le nom de la tâche, la position vers laquelle le télescope doit pointer pour cette tâche, une description des types d'images à acquérir, les contraintes de la tâche (p. ex. l'altitude, le crépuscule, la lune, les obstructions du paysage, &etc;), ainsi que toutes les choses qui doivent être accomplies avant et après la tâche, ainsi que les stratégies à adopter en cas d'erreurs."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:32
 #, no-c-format
-msgid ""
-"You can add, delete, modify or change the order of rows in the Scheduler"
-" table."
-msgstr ""
-"Vous pouvez ajouter, supprimer, modifier ou changer l'ordre des tâches dans"
-" la tables de l'ordonnanceur."
+msgid "You can add, delete, modify or change the order of rows in the Scheduler table."
+msgstr "Vous pouvez ajouter, supprimer, modifier ou changer l'ordre des tâches dans la tables de l'ordonnanceur."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:37
 #, no-c-format
-msgid ""
-"You can add a Scheduler job row into the table by clicking the <guilabel>+<"
-"/guilabel> control above the table, if all required attributes are filled out"
-" (name, position, and sequence file)."
-msgstr ""
-"Vous pouvez ajouter une ligne de tâche dans l'ordonnanceur en cliquant sur le"
-" bouton <guilabel>+</guilabel> au-dessus de la table, si tous les attributs"
-" requis sont renseignées (nom, position et fichier de séquence)."
+msgid "You can add a Scheduler job row into the table by clicking the <guilabel>+</guilabel> control above the table, if all required attributes are filled out (name, position, and sequence file)."
+msgstr "Vous pouvez ajouter une ligne de tâche dans l'ordonnanceur en cliquant sur le bouton <guilabel>+</guilabel> au-dessus de la table, si tous les attributs requis sont renseignées (nom, position et fichier de séquence)."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:42
 #, no-c-format
-msgid ""
-"If you click on a row, you can then click the <guilabel>-</guilabel> control"
-" above the table to delete that row."
-msgstr ""
-"Si une ligne est sélectionnée, vous pouvez la supprimer en cliquant sur le"
-" bouton <guilabel>-</guilabel> au-dessus de la table."
+msgid "If you click on a row, you can then click the <guilabel>-</guilabel> control above the table to delete that row."
+msgstr "Si une ligne est sélectionnée, vous pouvez la supprimer en cliquant sur le bouton <guilabel>-</guilabel> au-dessus de la table."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:48
 #, no-c-format
-msgid ""
-"If you click on a row, you can then click the <guilabel>^</guilabel> or <"
-"guilabel>v</guilabel> controls to move those rows up or down in the job list."
-msgstr ""
-"En cliquant sur une ligne, vous pouvez la monter avec le bouton <guilabel>^<"
-"/guilabel> ou la descendre avec le bouton <guilabel>v</guilabel> dans la"
-" liste de tâches."
+msgid "If you click on a row, you can then click the <guilabel>^</guilabel> or <guilabel>v</guilabel> controls to move those rows up or down in the job list."
+msgstr "En cliquant sur une ligne, vous pouvez la monter avec le bouton <guilabel>^</guilabel> ou la descendre avec le bouton <guilabel>v</guilabel> dans la liste de tâches."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:54
 #, no-c-format
-msgid ""
-"If you double click on a row, the attributes of that job are filled in to the"
-" various settings on the Scheduler page. You can then change one or more of"
-" those attributes, and then click the checkmark above the table (after your"
-" double-click, the <guilabel>+</guilabel> became a <guilabel>checkmark<"
-"/guilabel>), and the new attributes are assigned to that job."
-msgstr ""
-"En double-cliquant sur une ligne, les attributs de cette tâche seront"
-" renseignés avec les différents réglages de la page de l'ordonnanceur. Vous"
-" pouvez ensuite modifier un ou plusieurs attributs et ensuite cliquer sur la"
-" coche au-dessus de la table (après avoir double-cliqué, le bouton <guilabel"
-">+</guilabel> devint une <guilabel>coche</guilabel>), et les nouveaux"
-" attributs seront assignées à cette tâche."
+msgid "If you double click on a row, the attributes of that job are filled in to the various settings on the Scheduler page. You can then change one or more of those attributes, and then click the checkmark above the table (after your double-click, the <guilabel>+</guilabel> became a <guilabel>checkmark</guilabel>), and the new attributes are assigned to that job."
+msgstr "En double-cliquant sur une ligne, les attributs de cette tâche seront renseignés avec les différents réglages de la page de l'ordonnanceur. Vous pouvez ensuite modifier un ou plusieurs attributs et ensuite cliquer sur la coche au-dessus de la table (après avoir double-cliqué, le bouton <guilabel>+</guilabel> devint une <guilabel>coche</guilabel>), et les nouveaux attributs seront assignées à cette tâche."
 
 #. Tag: title
 #. +> trunk5
@@ -193,104 +132,43 @@ msgstr "Algorithme de l'ordonnanceur"
 #. +> trunk5
 #: ekos-scheduler.docbook:63
 #, no-c-format
-msgid ""
-"The Scheduler table (above) lists jobs in order of priority, with higher jobs"
-" (on lower-numbered rows) having higher priority than jobs further down the"
-" list (with higher-numbered rows)."
-msgstr ""
-"La table ci-dessus dresse la liste des tâches par ordre de priorité, avec les"
-" tâches plus haute (de numéro de ligne plus basse) ayant la plus haute"
-" priorité que celles plus bas dans la liste (de numéro de ligne plus haut)."
+msgid "The Scheduler table (above) lists jobs in order of priority, with higher jobs (on lower-numbered rows) having higher priority than jobs further down the list (with higher-numbered rows)."
+msgstr "La table ci-dessus dresse la liste des tâches par ordre de priorité, avec les tâches plus haute (de numéro de ligne plus basse) ayant la plus haute priorité que celles plus bas dans la liste (de numéro de ligne plus haut)."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:66
 #, no-c-format
-msgid ""
-"The Scheduler regularly plans (and re-plans) which jobs should be run, and"
-" when. It can start executing a given job, and then later preempt that job"
-" for a new one. It can become idle if no jobs can be run (&eg; in daylight),"
-" and sleep until such a time that it becomes active again. Its aim is to keep"
-" the equipment as busy as possible, while respecting the scheduler-table's"
-" priorities. Here's how it works."
-msgstr ""
-"L'ordonnanceur revoit régulièrement l'ordre des tâches et le moment où elles"
-" doivent être lancées. Il peut lancer une tâche puis plus tard,"
-" temporairement la mettre en pause en faveur d'une autre. Il peut devenir"
-" inactif si aucune tâche ne peut être lancée (p. ex. durant le jour) et"
-" rester dans cet état jusqu'à ce qu'une tâche peut être lancée. Le but est de"
-" conserver l'équipement le plus occupé possible tout en respectant les"
-" priorités de la table. Voici comment il fonctionne."
+msgid "The Scheduler regularly plans (and re-plans) which jobs should be run, and when. It can start executing a given job, and then later preempt that job for a new one. It can become idle if no jobs can be run (&eg; in daylight), and sleep until such a time that it becomes active again. Its aim is to keep the equipment as busy as possible, while respecting the scheduler-table's priorities. Here's how it works."
+msgstr "L'ordonnanceur revoit régulièrement l'ordre des tâches et le moment où elles doivent être lancées. Il peut lancer une tâche puis plus tard, temporairement la mettre en pause en faveur d'une autre. Il peut devenir inactif si aucune tâche ne peut être lancée (p. ex. durant le jour) et rester dans cet état jusqu'à ce qu'une tâche peut être lancée. Le but est de conserver l'équipement le plus occupé possible tout en respectant les priorités de la table. Voici comment il fonctionne."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:69
 #, no-c-format
-msgid ""
-"When the scheduler starts (or when it replans, which it does every second"
-" while active), it looks through the entire list of jobs, starting at the"
-" highest priority job, and working its way down to the lowest priority one if"
-" necessary. When it finds a job that can run, it starts that job, possibly"
-" preempting the currently running job. A jobs can run if its constraints are"
-" met, &eg; the target is not blocked by the local terrain, it meets the"
-" minimum altitude constraint, it has not already completed all the desired"
-" imaging, ..."
-msgstr ""
-"Quand l'ordonnanceur démarre (ou quand il revoit ses plans, ce qu'il fait"
-" toutes les secondes quand il est actif), il passe à travers toute la liste"
-" de tâches, en commençant par celle de plus haute priorité, jusqu'à celle de"
-" plus basse priorité. Quand il trouve une tâche qui peut être lancée, il le"
-" fait, même s'il doit même en pause une tâche en cours. Une tâche peut être"
-" lancée que si elle rempli toutes les contraintes, p. ex., la cible n'est pas"
-" bloquée par l'environnement (un arbre par exemple) et qu'elle satisfait la"
-" contrainte d'altitude minimale ou encore qu'elle n'a pas terminé toutes les"
-" acquisitions souhaitées."
+msgid "When the scheduler starts (or when it replans, which it does every second while active), it looks through the entire list of jobs, starting at the highest priority job, and working its way down to the lowest priority one if necessary. When it finds a job that can run, it starts that job, possibly preempting the currently running job. A jobs can run if its constraints are met, &eg; the target is not blocked by the local terrain, it meets the minimum altitude constraint, it has not already completed all the desired imaging, ..."
+msgstr "Quand l'ordonnanceur démarre (ou quand il revoit ses plans, ce qu'il fait toutes les secondes quand il est actif), il passe à travers toute la liste de tâches, en commençant par celle de plus haute priorité, jusqu'à celle de plus basse priorité. Quand il trouve une tâche qui peut être lancée, il le fait, même s'il doit même en pause une tâche en cours. Une tâche peut être lancée que si elle rempli toutes les contraintes, p. ex., la cible n'est pas bloquée par l'environnement (un arbre par exemple) et qu'elle satisfait la contrainte d'altitude minimale ou encore qu'elle n'a pas terminé toutes les acquisitions souhaitées."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:72
 #, no-c-format
-msgid ""
-"The algorithm shows its projected next start times and stop times for all job"
-" in the Scheduler table. It also shows its estimate of times jobs will run"
-" during the next 48 hours in the log panel at the bottom of the window. See"
-" the screenshot of the scheduler window at the top of this section."
-msgstr ""
-"L'algorithme montre l'heure projetée de départ et d'arrêt pour toutes les"
-" tâches de la table de l'ordonnanceur. Il affiche également une estimation de"
-" la durée d'exécution pour les 48 prochaines heures dans le panneau de"
-" journalisation situé au bas de la fenêtre. Veuillez voir la capture d'écran"
-" au début de cette section."
+msgid "The algorithm shows its projected next start times and stop times for all job in the Scheduler table. It also shows its estimate of times jobs will run during the next 48 hours in the log panel at the bottom of the window. See the screenshot of the scheduler window at the top of this section."
+msgstr "L'algorithme montre l'heure projetée de départ et d'arrêt pour toutes les tâches de la table de l'ordonnanceur. Il affiche également une estimation de la durée d'exécution pour les 48 prochaines heures dans le panneau de journalisation situé au bas de la fenêtre. Veuillez voir la capture d'écran au début de cette section."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:75
 #, fuzzy, no-c-format
 #| msgid "The scheduling algorithm described in the above paragraph is known as the Greedy Scheduling algorithm. It is the recommended one to use. In previous versions of Ekos, there was another \"Classic scheduling algorithm\" which is currently being phased out. That scheme could not preempt running jobs, and thus did not make as much use of the equipment as the Greedy Algorithm."
-msgid ""
-"The scheduling algorithm described in the above paragraph is known as the"
-" Greedy Scheduling algorithm. It is the recommended one to use. In previous"
-" versions of Ekos, there was another \"Classic scheduling algorithm\" which"
-" is no longer in Ekos. That scheme could not preempt running jobs, and thus"
-" did not make as much use of the equipment as the Greedy Algorithm."
-msgstr ""
-"L'algorithme décrit ci-dessus est connu comme l'algorithme Greedy. C'est"
-" celui qui est recommandé. Dans des versions précédentes d'Ekos, il y avait"
-" un autre algorithme, nommé Classique, qui est en phase d'être abandonnée. Il"
-" ne pouvait pas mettre en pause une tâche en faveur d'une autre et donc"
-" n'optimisait pas l'équipement autant que l'algorithme Greedy."
+msgid "The scheduling algorithm described in the above paragraph is known as the Greedy Scheduling algorithm. It is the recommended one to use. In previous versions of Ekos, there was another \"Classic scheduling algorithm\" which is no longer in Ekos. That scheme could not preempt running jobs, and thus did not make as much use of the equipment as the Greedy Algorithm."
+msgstr "L'algorithme décrit ci-dessus est connu comme l'algorithme Greedy. C'est celui qui est recommandé. Dans des versions précédentes d'Ekos, il y avait un autre algorithme, nommé Classique, qui est en phase d'être abandonnée. Il ne pouvait pas mettre en pause une tâche en faveur d'une autre et donc n'optimisait pas l'équipement autant que l'algorithme Greedy."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:78
 #, no-c-format
-msgid ""
-"There is a checkbox option in the scheduler options menu called <guilabel>Use"
-" greedy scheduling</guilabel> which defaults to being checked. The system"
-" works as described above when it is checked. When it is unchecked the"
-" scheduler is prevented from scheduling lower priority jobs when uncompleted"
-" higher priority jobs cannot run. This results in less efficient use of the"
-" system, but may give you more control over scheduling."
+msgid "There is a checkbox option in the scheduler options menu called <guilabel>Use greedy scheduling</guilabel> which defaults to being checked. The system works as described above when it is checked. When it is unchecked the scheduler is prevented from scheduling lower priority jobs when uncompleted higher priority jobs cannot run. This results in less efficient use of the system, but may give you more control over scheduling."
 msgstr ""
 
 #. Tag: title
@@ -304,16 +182,8 @@ msgstr "Fichiers séquences (.esq)"
 #. +> trunk5
 #: ekos-scheduler.docbook:84
 #, no-c-format
-msgid ""
-"The scheduler table with its list of jobs and attributes can be saved onto"
-" disk and read back in. It writes an .esq file. Controls for writing the"
-" current Scheduler table to disk, and reading back other .esq files are"
-" located above the table to the right."
-msgstr ""
-"La table de l'ordonnanceur avec sa liste de tâches peut être enregistrée sur"
-" le disque dur pour pouvoir être réimportée plus tard. Les boutons pour cela"
-" ainsi que pour importer d'autres fichiers de séquence se trouvent au-dessus"
-" de la table sur la droite."
+msgid "The scheduler table with its list of jobs and attributes can be saved onto disk and read back in. It writes an .esq file. Controls for writing the current Scheduler table to disk, and reading back other .esq files are located above the table to the right."
+msgstr "La table de l'ordonnanceur avec sa liste de tâches peut être enregistrée sur le disque dur pour pouvoir être réimportée plus tard. Les boutons pour cela ainsi que pour importer d'autres fichiers de séquence se trouvent au-dessus de la table sur la droite."
 
 #. Tag: title
 #. +> trunk5
@@ -326,16 +196,8 @@ msgstr "Réglages"
 #. +> trunk5
 #: ekos-scheduler.docbook:90
 #, no-c-format
-msgid ""
-"Ekos Scheduler provides a simple interface to aid the user in setting the"
-" conditions and constraints required for an Scheduler job. You must select"
-" the <guilabel>Target</guilabel>, its coordinates, and the <guilabel"
-">Sequence</guilabel> before you can add a job to the Scheduler."
-msgstr ""
-"L'ordonnanceur d'Ekos propose une interface simple pour aider l'utilisateur à"
-" configurer les conditions et les contraintes requises pour une tâche"
-" d'observation. Pour ajouter une tâche, il faut d'abord choisir une cible et"
-" ses coordonnées ainsi que le fichier de séquence."
+msgid "Ekos Scheduler provides a simple interface to aid the user in setting the conditions and constraints required for an Scheduler job. You must select the <guilabel>Target</guilabel>, its coordinates, and the <guilabel>Sequence</guilabel> before you can add a job to the Scheduler."
+msgstr "L'ordonnanceur d'Ekos propose une interface simple pour aider l'utilisateur à configurer les conditions et les contraintes requises pour une tâche d'observation. Pour ajouter une tâche, il faut d'abord choisir une cible et ses coordonnées ainsi que le fichier de séquence."
 
 #. Tag: para
 #. +> trunk5
@@ -348,144 +210,64 @@ msgstr "Chaque tâche de l'ordonnanceur est composée de :"
 #. +> trunk5
 #: ekos-scheduler.docbook:98
 #, no-c-format
-msgid ""
-"<guilabel>Target name and coordinates</guilabel>: Select target from the <"
-"link linkend=\"findobjects\">Find Dialog</link> or <guibutton>Add</guibutton>"
-" it from <link linkend=\"tool-obsplanner\">Observation Planner</link>. You"
-" can also enter a custom name. Coordinates can also be copied from the SkyMap"
-" using the button just to the right of the coordinates."
-msgstr ""
-"<guilabel>Nom de la cible et ses coordonnées</guilabel> : sélectionnez la"
-" cible depuis la <link linkend=\"findobjects\">Boîte de recherche</link> ou <"
-"guibutton>Ajouter</guibutton> la cible depuis le <link"
-" linkend=\"tool-obsplanner\">Planificateur d'observation</link>. Vous pouvez"
-" également indiquer un nom personnalisé. Les coordonnées peuvent également"
-" être copiées à partir de la carte du ciel en utilisant le bouton situé à la"
-" droite des coordonnées."
+msgid "<guilabel>Target name and coordinates</guilabel>: Select target from the <link linkend=\"findobjects\">Find Dialog</link> or <guibutton>Add</guibutton> it from <link linkend=\"tool-obsplanner\">Observation Planner</link>. You can also enter a custom name. Coordinates can also be copied from the SkyMap using the button just to the right of the coordinates."
+msgstr "<guilabel>Nom de la cible et ses coordonnées</guilabel> : sélectionnez la cible depuis la <link linkend=\"findobjects\">Boîte de recherche</link> ou <guibutton>Ajouter</guibutton> la cible depuis le <link linkend=\"tool-obsplanner\">Planificateur d'observation</link>. Vous pouvez également indiquer un nom personnalisé. Les coordonnées peuvent également être copiées à partir de la carte du ciel en utilisant le bouton situé à la droite des coordonnées."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:103
 #, no-c-format
-msgid ""
-"Optional <guilabel>PA</guilabel>: The position angle (or image rotation) can"
-" be specified for systems with camera rotation hardware."
-msgstr ""
-"Le <guilabel>AP</guilabel> facultatif : l'angle de position (ou rotation de"
-" l'image) peut être indiquée pour les appareils possédant la capacité"
-" physique de tourner l'appareil."
+msgid "Optional <guilabel>PA</guilabel>: The position angle (or image rotation) can be specified for systems with camera rotation hardware."
+msgstr "Le <guilabel>AP</guilabel> facultatif : l'angle de position (ou rotation de l'image) peut être indiquée pour les appareils possédant la capacité physique de tourner l'appareil."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:108
 #, no-c-format
-msgid ""
-"Optional <guilabel>FITS File</guilabel>: If a FITS file is specified, the"
-" astrometry solver solves the file and use the central RA/DEC as the target"
-" coordinates."
-msgstr ""
-"Un <guilabel>fichier Fits</guilabel> facultatif : si vous spécifiez un"
-" fichier FITS, le résolveur astrométrique résoudra le fichier et utilisera la"
-" position centrale en AD et DEC comme coordonnées cibles."
+msgid "Optional <guilabel>FITS File</guilabel>: If a FITS file is specified, the astrometry solver solves the file and use the central RA/DEC as the target coordinates."
+msgstr "Un <guilabel>fichier Fits</guilabel> facultatif : si vous spécifiez un fichier FITS, le résolveur astrométrique résoudra le fichier et utilisera la position centrale en AD et DEC comme coordonnées cibles."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:113
 #, no-c-format
-msgid ""
-"<guilabel>Sequence</guilabel> file: The sequence file is constructed in the"
-" Ekos <link linkend=\"ekos-capture\">Capture Module</link>. It has a list of"
-" capture specifications, where each spec details the number of images to"
-" capture, which filter to use, the exposure length, the gain, file naming"
-" details, temperature settings, prefixes, download directory, &etc;"
-msgstr ""
-"Un fichier <guilabel>Séquence</guilabel> : le fichier est (préalablement)"
-" construit dans le <link linkend=\"ekos-capture\">module d'acquisition</link"
-">. Il contient une liste de spécifications pour l'acquisition où chacune"
-" détaille le nombre d'images à acquérir, les filtres à utiliser, la durée"
-" d'exposition, le gain, les détails de nommage du fichier, les réglages de"
-" température, les préfixes, le dossier d'enregistrement, &etc;."
+msgid "<guilabel>Sequence</guilabel> file: The sequence file is constructed in the Ekos <link linkend=\"ekos-capture\">Capture Module</link>. It has a list of capture specifications, where each spec details the number of images to capture, which filter to use, the exposure length, the gain, file naming details, temperature settings, prefixes, download directory, &etc;"
+msgstr "Un fichier <guilabel>Séquence</guilabel> : le fichier est (préalablement) construit dans le <link linkend=\"ekos-capture\">module d'acquisition</link>. Il contient une liste de spécifications pour l'acquisition où chacune détaille le nombre d'images à acquérir, les filtres à utiliser, la durée d'exposition, le gain, les détails de nommage du fichier, les réglages de température, les préfixes, le dossier d'enregistrement, &etc;."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:118
 #, no-c-format
-msgid ""
-"<guilabel>Profile</guilabel>: Select which equipment profile to utilize when"
-" starting Ekos. If Ekos &amp; INDI are already started and online, this"
-" selection is ignored."
-msgstr ""
-"<guilabel>Profil</guilabel> : spécifie le profil d'équipement à utiliser au"
-" démarrage d'Ekos. Si Ekos &amp; INDI sont déjà démarrés, cette option est"
-" ignorée."
+msgid "<guilabel>Profile</guilabel>: Select which equipment profile to utilize when starting Ekos. If Ekos &amp; INDI are already started and online, this selection is ignored."
+msgstr "<guilabel>Profil</guilabel> : spécifie le profil d'équipement à utiliser au démarrage d'Ekos. Si Ekos &amp; INDI sont déjà démarrés, cette option est ignorée."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:123
 #, no-c-format
-msgid ""
-"<guilabel>Steps</guilabel>: The user selects what steps should be taken at"
-" the start of the job. The possibilities are: (1) Start mount tracking, (2)"
-" autofocus, (3) run a plate solving alignment, (4) start the auto-guider. One"
-" or more can be chosen."
-msgstr ""
-"<guilabel>Étapes</guilabel> : l'opérateur choisit les étapes au démarrage de"
-" la tâche. Les possibilités sont 1) Démarrer le suivi, 2) La mise au point"
-" automatique, 3) Le lancement de la procédure d'alignement par la résolution,"
-" 4) Le démarrage du guidage automatique. Une ou plusieurs de ces étapes"
-" peuvent être sélectionnées."
+msgid "<guilabel>Steps</guilabel>: The user selects what steps should be taken at the start of the job. The possibilities are: (1) Start mount tracking, (2) autofocus, (3) run a plate solving alignment, (4) start the auto-guider. One or more can be chosen."
+msgstr "<guilabel>Étapes</guilabel> : l'opérateur choisit les étapes au démarrage de la tâche. Les possibilités sont 1) Démarrer le suivi, 2) La mise au point automatique, 3) Le lancement de la procédure d'alignement par la résolution, 4) Le démarrage du guidage automatique. Une ou plusieurs de ces étapes peuvent être sélectionnées."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:128
 #, no-c-format
-msgid ""
-"<guilabel>Startup Conditions</guilabel>: Conditions that must be met <"
-"emphasis role=\"bold\">before</emphasis> the Scheduler job is started."
-" Currently, the user may select to start as soon as possible, <guimenuitem"
-">ASAP</guimenuitem>, or when the target is near or past culmination, or at a"
-" specific time."
-msgstr ""
-"<guilabel>Conditions de démarrage</guilabel> : spécifie les conditions qui"
-" doivent être satisfaites <emphasis role=\"bold\">avant</emphasis> que la"
-" tâche ne soit démarrée. Présentement, l'utilisateur peut choisir de démarrer"
-" aussi vite que possible (<guimenuitem>ASAP</guimenuitem>), ou quand la cible"
-" est près ou a passé la culmination ou enfin à une heure spécifique."
+msgid "<guilabel>Startup Conditions</guilabel>: Conditions that must be met <emphasis role=\"bold\">before</emphasis> the Scheduler job is started. Currently, the user may select to start as soon as possible, <guimenuitem>ASAP</guimenuitem>, or when the target is near or past culmination, or at a specific time."
+msgstr "<guilabel>Conditions de démarrage</guilabel> : spécifie les conditions qui doivent être satisfaites <emphasis role=\"bold\">avant</emphasis> que la tâche ne soit démarrée. Présentement, l'utilisateur peut choisir de démarrer aussi vite que possible (<guimenuitem>ASAP</guimenuitem>), ou quand la cible est près ou a passé la culmination ou enfin à une heure spécifique."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:133
 #, no-c-format
-msgid ""
-"<guilabel>Constraints</guilabel>: These are conditions that must be met <"
-"emphasis role=\"bold\">at all times</emphasis> during the Scheduler job"
-" execution process. These include minimum target altitude, minimum moon"
-" separation, twilight observation, artificial horizon altitude constraints,"
-" and weather monitoring."
-msgstr ""
-"<guilabel>Contraintes</guilabel> : ce sont des conditions qui doivent être"
-" remplies <emphasis role=\"bold\">à tout moment</emphasis> durant le"
-" processus d'exécution des tâches. Cela inclut l'altitude minimum de la"
-" cible, l'élongation minimale de la Lune, l'observation du crépuscule, les"
-" contraintes d'altitude des horizons artificiels et enfin les conditions"
-" météorologiques."
+msgid "<guilabel>Constraints</guilabel>: These are conditions that must be met <emphasis role=\"bold\">at all times</emphasis> during the Scheduler job execution process. These include minimum target altitude, minimum moon separation, twilight observation, artificial horizon altitude constraints, and weather monitoring."
+msgstr "<guilabel>Contraintes</guilabel> : ce sont des conditions qui doivent être remplies <emphasis role=\"bold\">à tout moment</emphasis> durant le processus d'exécution des tâches. Cela inclut l'altitude minimum de la cible, l'élongation minimale de la Lune, l'observation du crépuscule, les contraintes d'altitude des horizons artificiels et enfin les conditions météorologiques."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:138
 #, no-c-format
-msgid ""
-"<guilabel>Completion Conditions</guilabel>: Conditions that trigger"
-" completion of the Scheduler job. The default selection is to simply mark the"
-" Scheduler job as complete once the sequence process is complete. Additional"
-" conditions enable the user to repeat the sequence process a number of times"
-" or indefinitely, or up until a specific time."
-msgstr ""
-"<guilabel>Condition d'achèvement</guilabel> : spécifie les conditions"
-" d'achèvement de la tâche d'observation. La sélection par défaut est de noter"
-" la tâche comme étant terminée une fois que le processus est achevé. Des"
-" conditions additionnelles permettent à l'utilisateur de répéter la séquence"
-" un certain nombre de fois ou indéfiniment ou jusqu'à une heure spécifique."
+msgid "<guilabel>Completion Conditions</guilabel>: Conditions that trigger completion of the Scheduler job. The default selection is to simply mark the Scheduler job as complete once the sequence process is complete. Additional conditions enable the user to repeat the sequence process a number of times or indefinitely, or up until a specific time."
+msgstr "<guilabel>Condition d'achèvement</guilabel> : spécifie les conditions d'achèvement de la tâche d'observation. La sélection par défaut est de noter la tâche comme étant terminée une fois que le processus est achevé. Des conditions additionnelles permettent à l'utilisateur de répéter la séquence un certain nombre de fois ou indéfiniment ou jusqu'à une heure spécifique."
 
 #. Tag: title
 #. +> trunk5
@@ -498,14 +280,8 @@ msgstr "Autres options"
 #. +> trunk5
 #: ekos-scheduler.docbook:146
 #, no-c-format
-msgid ""
-"There are several other options to control how the Scheduler behaves. These"
-" are found in the general KStars Settings menu, shown below, in its Ekos tab"
-" and Scheduler sub-tab."
-msgstr ""
-"Il existe plusieurs autres options pour contrôler le comportement de"
-" l'ordonnanceur. Elles se trouvent dans le menu de réglage de KStars, affiché"
-" ci-dessous, dans l'onglet Ekos et le sous-onglet de l'ordonnanceur."
+msgid "There are several other options to control how the Scheduler behaves. These are found in the general KStars Settings menu, shown below, in its Ekos tab and Scheduler sub-tab."
+msgstr "Il existe plusieurs autres options pour contrôler le comportement de l'ordonnanceur. Elles se trouvent dans le menu de réglage de KStars, affiché ci-dessous, dans l'onglet Ekos et le sous-onglet de l'ordonnanceur."
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -532,55 +308,15 @@ msgstr "Se souvenir de la progression de la tâche"
 #. +> trunk5
 #: ekos-scheduler.docbook:164
 #, no-c-format
-msgid ""
-"Among the settings shown above, one important one is known as <guilabel"
-">Remember job progress</guilabel>. When this box is checked and a job is"
-" running, the Scheduler looks at the job's images already captured on disk,"
-" and doesn't re-capture the ones that are already there. The benefit is that"
-" if a job is restarted, or re-run another night, or if multiple jobs are"
-" being run together, stopping and starting when they are runnable, then jobs"
-" re-start right where they left off. This works well with the <guilabel"
-">Repeat until terminated</guilabel> job-completion option. If <guilabel"
-">Remember job progress</guilabel> is unchecked, jobs would restart from the"
-" start of their sequence specification each time, which probably isn't what"
-" you want. Unfortunately, if the images are not stored on the same computer"
-" that Ekos is running on, then this feature doesn't work and the jobs restart"
-" from their beginning."
-msgstr ""
-"Parmi les réglages ci-dessus, un est particulièrement important et connu sous"
-" le nom <guilabel>Se souvenir de la progression de la tâche</guilabel>. Quand"
-" cette case est cochée, l'ordonnanceur parcourt la liste des images déjà"
-" enregistrée sur le disque dur et fait en sorte de ne pas les acquérir à"
-" nouveau. L'intérêt est que si une tâche est redémarrée, ou relancée une"
-" autre nuit, ou si plusieurs tâches sont exécutées ensemble, l'arrêt et le"
-" démarrage des tâches reprendra là où elles s'étaient arrêtées. Cela"
-" fonctionne bien avec l'option <guilabel>Répéter jusqu'à terminé</guilabel>."
-" Si elle n'était pas cochée, les tâches recommenceraient au début de la"
-" séquence, ce qui n'est probablement pas ce que vous souhaitez. Cependant, si"
-" les images ne sont pas enregistrées sur le même ordonnateur qui exécute"
-" Ekos, cette fonctionnalité ne fonctionne pas et les tâches redémarreront"
-" depuis le début."
+msgid "Among the settings shown above, one important one is known as <guilabel>Remember job progress</guilabel>. When this box is checked and a job is running, the Scheduler looks at the job's images already captured on disk, and doesn't re-capture the ones that are already there. The benefit is that if a job is restarted, or re-run another night, or if multiple jobs are being run together, stopping and starting when they are runnable, then jobs re-start right where they left off. This works well with the <guilabel>Repeat until terminated</guilabel> job-completion option. If <guilabel>Remember job progress</guilabel> is unchecked, jobs would restart from the start of their sequence specification each time, which probably isn't what you want. Unfortunately, if the images are not stored on the same computer that Ekos is running on, then this feature doesn't work and the jobs restart from their beginning."
+msgstr "Parmi les réglages ci-dessus, un est particulièrement important et connu sous le nom <guilabel>Se souvenir de la progression de la tâche</guilabel>. Quand cette case est cochée, l'ordonnanceur parcourt la liste des images déjà enregistrée sur le disque dur et fait en sorte de ne pas les acquérir à nouveau. L'intérêt est que si une tâche est redémarrée, ou relancée une autre nuit, ou si plusieurs tâches sont exécutées ensemble, l'arrêt et le démarrage des tâches reprendra là où elles s'étaient arrêtées. Cela fonctionne bien avec l'option <guilabel>Répéter jusqu'à terminé</guilabel>. Si elle n'était pas cochée, les tâches recommenceraient au début de la séquence, ce qui n'est probablement pas ce que vous souhaitez. Cependant, si les images ne sont pas enregistrées sur le même ordonnateur qui exécute Ekos, cette fonctionnalité ne fonctionne pas et les tâches redémarreront depuis le début."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:167
 #, no-c-format
-msgid ""
-"A possibly confusing side-effect of <guilabel>Remember job progress</guilabel"
-"> is that if you've run a job using the (default) Sequence Completion finish"
-" condition, and it has captured all its images, and now you want to run the"
-" job again, the Scheduler won't schedule the job because it believes that all"
-" the images have already been captured. You'd either need to move those"
-" images elsewhere on disk, or change the finish condition to Repeat for N"
-" Times, or Repeat Until Terminated."
-msgstr ""
-"Un effet secondaire de cette option et qui peut créer de la confusion est que"
-" si une tâche est lancée avec la condition Terminer la séquence et que toutes"
-" les images ont été acquises, et que vous souhaitez relancer cette tâche,"
-" l'ordonnanceur ne programmera pas cette tâche car il croit que toutes les"
-" images ont déjà été acquises. Pour éviter cela, il faudra soit déplacer les"
-" images ailleurs sur le disque ou modifier la condition d'achèvement de"
-" tâches à N fois ou Répéter jusqu'à achèvement."
+msgid "A possibly confusing side-effect of <guilabel>Remember job progress</guilabel> is that if you've run a job using the (default) Sequence Completion finish condition, and it has captured all its images, and now you want to run the job again, the Scheduler won't schedule the job because it believes that all the images have already been captured. You'd either need to move those images elsewhere on disk, or change the finish condition to Repeat for N Times, or Repeat Until Terminated."
+msgstr "Un effet secondaire de cette option et qui peut créer de la confusion est que si une tâche est lancée avec la condition Terminer la séquence et que toutes les images ont été acquises, et que vous souhaitez relancer cette tâche, l'ordonnanceur ne programmera pas cette tâche car il croit que toutes les images ont déjà été acquises. Pour éviter cela, il faudra soit déplacer les images ailleurs sur le disque ou modifier la condition d'achèvement de tâches à N fois ou Répéter jusqu'à achèvement."
 
 #. Tag: title
 #. +> trunk5
@@ -593,84 +329,29 @@ msgstr "Répétitions de groupe"
 #. +> trunk5
 #: ekos-scheduler.docbook:173
 #, no-c-format
-msgid ""
-"This feature allows you to run two or more scheduler jobs at roughly the same"
-" priority, such that if they were both runnable, they would progress at"
-" roughly the same rate. This may be applicable, for example, to jobs imaging"
-" the multiple tiles in a mosaic, but is generally applicable to any set of"
-" jobs."
-msgstr ""
-"Cette fonctionnalité permet d'exécuter deux ordonnanceurs ou plus avec"
-" approximativement la même priorité, de telle sorte que si chacun peut être"
-" exécuté, il progresserait plus ou moins à la même vitesse. Cela peut être"
-" utile, par exemple, si vous imager une mosaïque avec plusieurs tuiles, mais"
-" est généralement utilisable pour n'importe quel groupe de tâches."
+msgid "This feature allows you to run two or more scheduler jobs at roughly the same priority, such that if they were both runnable, they would progress at roughly the same rate. This may be applicable, for example, to jobs imaging the multiple tiles in a mosaic, but is generally applicable to any set of jobs."
+msgstr "Cette fonctionnalité permet d'exécuter deux ordonnanceurs ou plus avec approximativement la même priorité, de telle sorte que si chacun peut être exécuté, il progresserait plus ou moins à la même vitesse. Cela peut être utile, par exemple, si vous imager une mosaïque avec plusieurs tuiles, mais est généralement utilisable pour n'importe quel groupe de tâches."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:176
 #, no-c-format
-msgid ""
-"Normally the (Greedy) scheduler's job priority is set by the row the job is"
-" listed in the Scheduler's job table. Jobs on rows closer to the top run with"
-" higher priority than jobs lower down. Thus, if a job on row 2 (Job2) uses <"
-"guilabel>Repeat Until Terminated</guilabel>, and that job's running"
-" constraints are satisfied, a lower down job (&eg; Job3) will not be"
-" scheduled to run."
-msgstr ""
-"La priorité de l'ordonnanceur Greedy est normalement déterminée par la"
-" position de la ligne dans la table des tâches. Celles se trouvant vers le"
-" haut ont une priorité plus haute que celle vers le bas de la table. Ainsi,"
-" si une tâche est sur la ligne 2 (tâche 2) et dont l'option <guilabel>Répéter"
-" jusqu'à achèvement</guilabel> est activée, et que toutes les contraintes"
-" sont satisfaites, une tâche plus bas dans la liste (p. ex. tâche 3) ne sera"
-" pas prévue pour exécution."
+msgid "Normally the (Greedy) scheduler's job priority is set by the row the job is listed in the Scheduler's job table. Jobs on rows closer to the top run with higher priority than jobs lower down. Thus, if a job on row 2 (Job2) uses <guilabel>Repeat Until Terminated</guilabel>, and that job's running constraints are satisfied, a lower down job (&eg; Job3) will not be scheduled to run."
+msgstr "La priorité de l'ordonnanceur Greedy est normalement déterminée par la position de la ligne dans la table des tâches. Celles se trouvant vers le haut ont une priorité plus haute que celle vers le bas de la table. Ainsi, si une tâche est sur la ligne 2 (tâche 2) et dont l'option <guilabel>Répéter jusqu'à achèvement</guilabel> est activée, et que toutes les contraintes sont satisfaites, une tâche plus bas dans la liste (p. ex. tâche 3) ne sera pas prévue pour exécution."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:179
 #, no-c-format
-msgid ""
-"If you wish to alternate jobs, you can assign each of the jobs the same <"
-"guilabel>group</guilabel> name, and give the jobs one of the repeating finish"
-" conditions (&eg; Repeat for N times, or Repeat Until Terminated). With that"
-" setup, jobs in the same group will cede to each other if they have completed"
-" more 'Repeat Iterations' than the other job. So, if Job2 with group"
-" \"MyGroup\" completes its 2nd iteration, and Job3 with the same group name"
-" has only completed 0 or 1 iterations, when the time comes to schedule Job2,"
-" Job3 will run instead."
-msgstr ""
-"Si vous souhaitez alterner les tâches, vous pouvez attribuer chaque tâche au"
-" même nom de <guilabel>groupe</guilabel> et donner aux tâches une des"
-" conditions d'achèvement (p. ex. Répéter N fois ou Répéter jusqu'à"
-" achèvement). Ainsi configurées, les tâches dans le même groupe laisseront la"
-" place aux autres tâches si elles ont terminées plus d'itérations que les"
-" autre autres tâches. Ainsi si la tâche 2 du groupe « MonGroupe » termine sa"
-" deuxième itération et que la tâche 3 du même groupe n'a terminé que 0 ou 1"
-" itération, quand viendra le moment de programmer la tâche 2, ce sera la"
-" tâche 3 qui sera exécutée."
+msgid "If you wish to alternate jobs, you can assign each of the jobs the same <guilabel>group</guilabel> name, and give the jobs one of the repeating finish conditions (&eg; Repeat for N times, or Repeat Until Terminated). With that setup, jobs in the same group will cede to each other if they have completed more 'Repeat Iterations' than the other job. So, if Job2 with group \"MyGroup\" completes its 2nd iteration, and Job3 with the same group name has only completed 0 or 1 iterations, when the time comes to schedule Job2, Job3 will run instead."
+msgstr "Si vous souhaitez alterner les tâches, vous pouvez attribuer chaque tâche au même nom de <guilabel>groupe</guilabel> et donner aux tâches une des conditions d'achèvement (p. ex. Répéter N fois ou Répéter jusqu'à achèvement). Ainsi configurées, les tâches dans le même groupe laisseront la place aux autres tâches si elles ont terminées plus d'itérations que les autre autres tâches. Ainsi si la tâche 2 du groupe « MonGroupe » termine sa deuxième itération et que la tâche 3 du même groupe n'a terminé que 0 ou 1 itération, quand viendra le moment de programmer la tâche 2, ce sera la tâche 3 qui sera exécutée."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:181
 #, no-c-format
-msgid ""
-"Practically speaking, imagine you had a 6-panel mosaic you wanted to"
-" alternate. You might give all of those jobs the same group name, make them"
-" all &eg; \"Repeat for 5 times\". Then, they would run in lock-step. The"
-" cadence of job switching would be controlled by the length of the sequence"
-" file assigned to each of those jobs. You wouldn't want to make the cadence"
-" too short (&eg; capturing one 2-minute image), as there is overhead in"
-" switching jobs. For instance, starting jobs may involved aligning, starting"
-" guiding, and even focusing."
-msgstr ""
-"Dans la pratique, imaginez que vous une mosaïque à 6 panneaux que vous"
-" souhaitez alterner. Vous pouvez mettre chaque tâche dans le même groupe et"
-" les faire se répéter par exemple 5 fois. Ensuite, elles s'exécuteront en pas"
-" fixe. La cadence de changement sera contrôlée par la longueur du fichier de"
-" séquence attribué à chaque tâche. Vous ne voulez pas avoir une cadence trop"
-" courte (p. ex. pose de 2 minutes), parce que les changements impliquent"
-" plusieurs opérations telles que l'alignement, le guidage et la mise au point."
+msgid "Practically speaking, imagine you had a 6-panel mosaic you wanted to alternate. You might give all of those jobs the same group name, make them all &eg; \"Repeat for 5 times\". Then, they would run in lock-step. The cadence of job switching would be controlled by the length of the sequence file assigned to each of those jobs. You wouldn't want to make the cadence too short (&eg; capturing one 2-minute image), as there is overhead in switching jobs. For instance, starting jobs may involved aligning, starting guiding, and even focusing."
+msgstr "Dans la pratique, imaginez que vous une mosaïque à 6 panneaux que vous souhaitez alterner. Vous pouvez mettre chaque tâche dans le même groupe et les faire se répéter par exemple 5 fois. Ensuite, elles s'exécuteront en pas fixe. La cadence de changement sera contrôlée par la longueur du fichier de séquence attribué à chaque tâche. Vous ne voulez pas avoir une cadence trop courte (p. ex. pose de 2 minutes), parce que les changements impliquent plusieurs opérations telles que l'alignement, le guidage et la mise au point."
 
 #. Tag: title
 #. +> trunk5
@@ -683,21 +364,8 @@ msgstr "Répétez toutes les tâches"
 #. +> trunk5
 #: ekos-scheduler.docbook:187
 #, no-c-format
-msgid ""
-"There is a checkbox and number input right below the Scheduler jobs table"
-" that allows you to repeat the entire schedule N times. This can be used to"
-" alternate a few jobs. You can just list the jobs on the scheduler, set it to"
-" repeat N times, and the jobs will repeat. However, this change is"
-" incompatible with 'Remember job progress (above) and unavailable if Remember"
-" Job Progress is checked. (Note: Remember Job Progress is recommended.)"
-msgstr ""
-"Il existe une case à cocher et un champ nombre juste sous la table de tâches"
-" qui permet de répéter la programmation entière N fois. Cela peut être"
-" utilisé pour alterner quelques tâches. Il suffit de lister les tâches sur"
-" l'ordonnanceur, régler pour répéter N fois et les tâches se répéteront."
-" Toutefois, ce changement est incompatible avec l'option « Se souvenir de la"
-" progression » et indisponible si cette option est cochée. (Remarque : cette"
-" option est recommandée)."
+msgid "There is a checkbox and number input right below the Scheduler jobs table that allows you to repeat the entire schedule N times. This can be used to alternate a few jobs. You can just list the jobs on the scheduler, set it to repeat N times, and the jobs will repeat. However, this change is incompatible with 'Remember job progress (above) and unavailable if Remember Job Progress is checked. (Note: Remember Job Progress is recommended.)"
+msgstr "Il existe une case à cocher et un champ nombre juste sous la table de tâches qui permet de répéter la programmation entière N fois. Cela peut être utilisé pour alterner quelques tâches. Il suffit de lister les tâches sur l'ordonnanceur, régler pour répéter N fois et les tâches se répéteront. Toutefois, ce changement est incompatible avec l'option « Se souvenir de la progression » et indisponible si cette option est cochée. (Remarque : cette option est recommandée)."
 
 #. Tag: title
 #. +> trunk5
@@ -724,16 +392,8 @@ msgstr "<phrase>Ordonnanceur + Planificateur</phrase>"
 #. +> trunk5
 #: ekos-scheduler.docbook:208
 #, no-c-format
-msgid ""
-"The description above only tackles the <emphasis role=\"bold\">Data"
-" Acquisition</emphasis> stage of the observatory workflow. The overall"
-" procedure typically utilized in an observatory can be summarized in three"
-" primary stages:"
-msgstr ""
-"La description ci-dessus n'aborde que l'étape d'<emphasis role=\"bold\""
-">acquisition de données</emphasis> du déroulement d'une observation. La"
-" procédure complète dans un observatoire peut être résumée par les trois"
-" étapes principales :"
+msgid "The description above only tackles the <emphasis role=\"bold\">Data Acquisition</emphasis> stage of the observatory workflow. The overall procedure typically utilized in an observatory can be summarized in three primary stages:"
+msgstr "La description ci-dessus n'aborde que l'étape d'<emphasis role=\"bold\">acquisition de données</emphasis> du déroulement d'une observation. La procédure complète dans un observatoire peut être résumée par les trois étapes principales :"
 
 #. Tag: para
 #. +> trunk5
@@ -768,8 +428,7 @@ msgstr "Procédure de démarrage"
 #: ekos-scheduler.docbook:232
 #, no-c-format
 msgid "Startup procedure is unique to each observatory but may include:"
-msgstr ""
-"La procédure de démarrage est unique à chaque observatoire mais peut inclure :"
+msgstr "La procédure de démarrage est unique à chaque observatoire mais peut inclure :"
 
 #. Tag: para
 #. +> trunk5
@@ -831,21 +490,8 @@ msgstr "&etc;"
 #. +> trunk5
 #: ekos-scheduler.docbook:277
 #, no-c-format
-msgid ""
-"Ekos Scheduler only initiates the startup procedure once the startup time for"
-" the first Scheduler job is close (default <emphasis>lead</emphasis> time is"
-" 5 minutes before <emphasis>startup</emphasis> time). Once the startup"
-" procedure is completed successfully, the scheduler picks the Scheduler job"
-" target and starts the sequence process. If a startup script is specified, it"
-" shall be executed first."
-msgstr ""
-"L'ordonnanceur d'Ekos n'initialise la procédure de démarrage que lorsque"
-" l'heure de début de la première observation est proche (le <emphasis>délai<"
-"/emphasis> par défaut est de 5 minutes avant l'heure de <emphasis>démarrage<"
-"/emphasis>). Une fois que la procédure de démarrage s'est terminée avec"
-" succès, l'ordonnanceur sélectionne la tâche d'observation et démarre le"
-" processus de séquence. Si un script de démarrage est spécifié, il sera"
-" exécuté en premier."
+msgid "Ekos Scheduler only initiates the startup procedure once the startup time for the first Scheduler job is close (default <emphasis>lead</emphasis> time is 5 minutes before <emphasis>startup</emphasis> time). Once the startup procedure is completed successfully, the scheduler picks the Scheduler job target and starts the sequence process. If a startup script is specified, it shall be executed first."
+msgstr "L'ordonnanceur d'Ekos n'initialise la procédure de démarrage que lorsque l'heure de début de la première observation est proche (le <emphasis>délai</emphasis> par défaut est de 5 minutes avant l'heure de <emphasis>démarrage</emphasis>). Une fois que la procédure de démarrage s'est terminée avec succès, l'ordonnanceur sélectionne la tâche d'observation et démarre le processus de séquence. Si un script de démarrage est spécifié, il sera exécuté en premier."
 
 #. Tag: title
 #. +> trunk5
@@ -858,105 +504,64 @@ msgstr "Acquisition de données"
 #. +> trunk5
 #: ekos-scheduler.docbook:284
 #, no-c-format
-msgid ""
-"Depending the on the user selection, the typical workflow proceeds as follows:"
-msgstr ""
-"Selon la sélection de l'utilisateur, un déroulement typique se déroule ainsi :"
+msgid "Depending the on the user selection, the typical workflow proceeds as follows:"
+msgstr "Selon la sélection de l'utilisateur, un déroulement typique se déroule ainsi :"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:289
 #, no-c-format
-msgid ""
-"Slew mount to target. If a FITS file was specified, it first solves the files"
-" and slew to the file coordinates."
-msgstr ""
-"Pivotage de la monture vers la cible. Si un fichier FITS a été spécifié, il"
-" sera résolu et la monture pivotera vers les coordonnées de la position."
+msgid "Slew mount to target. If a FITS file was specified, it first solves the files and slew to the file coordinates."
+msgstr "Pivotage de la monture vers la cible. Si un fichier FITS a été spécifié, il sera résolu et la monture pivotera vers les coordonnées de la position."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:294
 #, no-c-format
-msgid ""
-"Auto-focus target. The autofocus process automatically selects the best star"
-" in the frame and runs the autofocus algorithm against it."
-msgstr ""
-"Mise au point de la cible. Le processus de mise au point automatique"
-" sélectionne automatiquement la meilleure étoile de la trame et exécute"
-" l'algorithme de mise au point."
+msgid "Auto-focus target. The autofocus process automatically selects the best star in the frame and runs the autofocus algorithm against it."
+msgstr "Mise au point de la cible. Le processus de mise au point automatique sélectionne automatiquement la meilleure étoile de la trame et exécute l'algorithme de mise au point."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:299
 #, no-c-format
 msgid "Perform plate solving, sync mount, and slew to target coordinates."
-msgstr ""
-"Réalise la résolution, synchronise la monture et pivote vers les coordonnées"
-" de la cible."
+msgstr "Réalise la résolution, synchronise la monture et pivote vers les coordonnées de la cible."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:304
 #, no-c-format
-msgid ""
-"Perform post-alignment focusing since the frame might have moved during the"
-" plate solving process."
-msgstr ""
-"Réalise une mise au point après l'alignement puisque la trame peut avoir"
-" bouger durant le processus de résolution."
+msgid "Perform post-alignment focusing since the frame might have moved during the plate solving process."
+msgstr "Réalise une mise au point après l'alignement puisque la trame peut avoir bouger durant le processus de résolution."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:309
 #, no-c-format
-msgid ""
-"Perform calibration and start auto-guiding: The calibration process"
-" automatically selects the best guide star, performs calibration, and starts"
-" the autoguide process."
-msgstr ""
-"Réalisation de la calibration et démarrage de l'autoguidage : le processus de"
-" calibration sélectionne automatiquement la meilleure étoile guide, réalise"
-" la calibration et démarre le processus d'autoguidage."
+msgid "Perform calibration and start auto-guiding: The calibration process automatically selects the best guide star, performs calibration, and starts the autoguide process."
+msgstr "Réalisation de la calibration et démarrage de l'autoguidage : le processus de calibration sélectionne automatiquement la meilleure étoile guide, réalise la calibration et démarre le processus d'autoguidage."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:314
 #, no-c-format
-msgid ""
-"Load the sequence file in the <link linkend=\"ekos-capture\">Capture module<"
-"/link> and start the imaging process."
-msgstr ""
-"Charge le fichier de séquence dans le module d'<link linkend=\"ekos-capture\""
-">acquisition</link> et démarre l'acquisition."
+msgid "Load the sequence file in the <link linkend=\"ekos-capture\">Capture module</link> and start the imaging process."
+msgstr "Charge le fichier de séquence dans le module d'<link linkend=\"ekos-capture\">acquisition</link> et démarre l'acquisition."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:319
 #, no-c-format
-msgid ""
-"Coordinate module issues, such as failures in guiding or alignment. They may"
-" result is Scheduler job suspensions and rescheduling."
-msgstr ""
-"Coordonne les problème de module telle que l'échec du guidage ou de"
-" l'alignement. Cela risque de conduire à la suspension des tâches et à une"
-" nouvelle programmation."
+msgid "Coordinate module issues, such as failures in guiding or alignment. They may result is Scheduler job suspensions and rescheduling."
+msgstr "Coordonne les problème de module telle que l'échec du guidage ou de l'alignement. Cela risque de conduire à la suspension des tâches et à une nouvelle programmation."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:324
 #, no-c-format
-msgid ""
-"Note--some of the inter-module interactions are initiated by the modules"
-" themselves, but are monitored by the Scheduler. These include meridian"
-" flips, autofocus runs initiated by temperature change or timer expiration,"
-" and minimum guiding deviation requirements for capture."
-msgstr ""
-"Veuillez noter que certaines interactions entre modules sont initiées par les"
-" modules eux-même mais sont surveillées par l'ordonnanceur. Cela inclut le"
-" retournement au méridien, les mises au point automatiques déclenchées par"
-" une variation de température ou l'expiration d'un minuteur ainsi que les"
-" conditions de déviation minimale du guidage pour l'acquisition."
+msgid "Note--some of the inter-module interactions are initiated by the modules themselves, but are monitored by the Scheduler. These include meridian flips, autofocus runs initiated by temperature change or timer expiration, and minimum guiding deviation requirements for capture."
+msgstr "Veuillez noter que certaines interactions entre modules sont initiées par les modules eux-même mais sont surveillées par l'ordonnanceur. Cela inclut le retournement au méridien, les mises au point automatiques déclenchées par une variation de température ou l'expiration d'un minuteur ainsi que les conditions de déviation minimale du guidage pour l'acquisition."
 
 #. Tag: title
 #. +> trunk5
@@ -969,43 +574,22 @@ msgstr "<title>Arrêt</title>"
 #. +> trunk5
 #: ekos-scheduler.docbook:333
 #, no-c-format
-msgid ""
-"Once the Scheduler job is completed successfully, the scheduler selects the"
-" next Scheduler job. If no job can be scheduled at this time, the mount is"
-" parked until a next job can run. Furthermore, if the next job is not due for"
-" a user-configurable time limit, the scheduler performs a <emphasis"
-">preemptive</emphasis> shutdown to preserve resources and performs the"
-" startup procedure again when the target is due."
-msgstr ""
-"Une fois que la tâche s'est terminée avec succès, l'ordonnanceur choisit la"
-" prochaine tâche. Si l'heure programmée de la prochaine tâche n'est pas"
-" encore proche, la monture est parquée jusqu'à ce que la prochaine tâche soit"
-" prête. De plus si la prochaine tâche programmée n'est pas proche dans une"
-" limite de temps configurable par l'utilisateur, l'ordonnanceur réalise une"
-" extinction <emphasis>anticipée</emphasis> pour préserver les resources et"
-" réalisera la procédure de démarrage quand la tâche sera prête."
+msgid "Once the Scheduler job is completed successfully, the scheduler selects the next Scheduler job. If no job can be scheduled at this time, the mount is parked until a next job can run. Furthermore, if the next job is not due for a user-configurable time limit, the scheduler performs a <emphasis>preemptive</emphasis> shutdown to preserve resources and performs the startup procedure again when the target is due."
+msgstr "Une fois que la tâche s'est terminée avec succès, l'ordonnanceur choisit la prochaine tâche. Si l'heure programmée de la prochaine tâche n'est pas encore proche, la monture est parquée jusqu'à ce que la prochaine tâche soit prête. De plus si la prochaine tâche programmée n'est pas proche dans une limite de temps configurable par l'utilisateur, l'ordonnanceur réalise une extinction <emphasis>anticipée</emphasis> pour préserver les resources et réalisera la procédure de démarrage quand la tâche sera prête."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:336
 #, no-c-format
-msgid ""
-"If an unrecoverable error occurs, the observatory initiates shutdown"
-" procedure. If there is a shutdown script, it will be executed last."
-msgstr ""
-"Si une erreur irrécupérable se produit, l'observatoire initie une procédure"
-" d'arrêt. S'il existe un script d'arrêt, celui-ci sera exécuté en dernier."
+msgid "If an unrecoverable error occurs, the observatory initiates shutdown procedure. If there is a shutdown script, it will be executed last."
+msgstr "Si une erreur irrécupérable se produit, l'observatoire initie une procédure d'arrêt. S'il existe un script d'arrêt, celui-ci sera exécuté en dernier."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:339
 #, no-c-format
-msgid ""
-"The following video demonstrates an earlier version of the scheduler, but the"
-" basic principles still apply today:"
-msgstr ""
-"La vidéo suivante illustre l'utilisation de l'ordonnanceur, et même si elle"
-" date un peu, les principes de base restent d'actualité :"
+msgid "The following video demonstrates an earlier version of the scheduler, but the basic principles still apply today:"
+msgstr "La vidéo suivante illustre l'utilisation de l'ordonnanceur, et même si elle date un peu, les principes de base restent d'actualité :"
 
 #. Tag: phrase
 #. +> trunk5
@@ -1025,60 +609,29 @@ msgstr "Surveillance de la météo"
 #. +> trunk5
 #: ekos-scheduler.docbook:356
 #, no-c-format
-msgid ""
-"Another critical feature of any remotely operated robotic observatory is"
-" weather monitoring. For weather updates, Ekos relies on the selected INDI"
-" weather driver to continuously monitor the weather conditions. For"
-" simplicity sake, the weather conditions can be summed in three states:"
-msgstr ""
-"Un autre aspect critique des observatoires robotiques commandés à distance"
-" est la surveillance de la météo. Ekos s'appuie sur le pilote météo d'INDI"
-" sélectionné pour surveiller en continu les conditions météorologiques. Par"
-" souci de simplicité, les conditions météorologiques se résument en trois"
-" états :"
+msgid "Another critical feature of any remotely operated robotic observatory is weather monitoring. For weather updates, Ekos relies on the selected INDI weather driver to continuously monitor the weather conditions. For simplicity sake, the weather conditions can be summed in three states:"
+msgstr "Un autre aspect critique des observatoires robotiques commandés à distance est la surveillance de la météo. Ekos s'appuie sur le pilote météo d'INDI sélectionné pour surveiller en continu les conditions météorologiques. Par souci de simplicité, les conditions météorologiques se résument en trois états :"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:361
 #, no-c-format
-msgid ""
-"<emphasis role=\"bold\">Ok</emphasis>: Weather conditions are clear and"
-" optimal for imaging."
-msgstr ""
-"<emphasis role=\"bold\">Ok</emphasis> : les conditions sont claires et"
-" optimales pour imager."
+msgid "<emphasis role=\"bold\">Ok</emphasis>: Weather conditions are clear and optimal for imaging."
+msgstr "<emphasis role=\"bold\">Ok</emphasis> : les conditions sont claires et optimales pour imager."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:366
 #, no-c-format
-msgid ""
-"<emphasis role=\"bold\">Warning</emphasis>: Weather conditions are not clear,"
-" seeing is subpar, or partially obstructed and not suitable for imaging. Any"
-" further imaging process is suspended until the weather improves. Warning"
-" weather status does not pose any danger to the observatory equipment so the"
-" observatory is kept operational. The exact behavior to take under Warning"
-" status can be configured."
-msgstr ""
-"<emphasis role=\"bold\">Avertissement</emphasis> : les conditions ne sont pas"
-" claires, la visibilité (seeing) est sous optimale ou partiellement obstruée"
-" et inadaptée pour imager. Tout processus d'acquisition est suspendu en"
-" attendant une amélioration. Cet état d'avertissement n'implique pas de"
-" danger pour le matériel de l'observatoire, ainsi il reste opérationnel. Les"
-" mesures exactes à prendre lors d'état d'avertissement peuvent être"
-" configurées."
+msgid "<emphasis role=\"bold\">Warning</emphasis>: Weather conditions are not clear, seeing is subpar, or partially obstructed and not suitable for imaging. Any further imaging process is suspended until the weather improves. Warning weather status does not pose any danger to the observatory equipment so the observatory is kept operational. The exact behavior to take under Warning status can be configured."
+msgstr "<emphasis role=\"bold\">Avertissement</emphasis> : les conditions ne sont pas claires, la visibilité (seeing) est sous optimale ou partiellement obstruée et inadaptée pour imager. Tout processus d'acquisition est suspendu en attendant une amélioration. Cet état d'avertissement n'implique pas de danger pour le matériel de l'observatoire, ainsi il reste opérationnel. Les mesures exactes à prendre lors d'état d'avertissement peuvent être configurées."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:371
 #, no-c-format
-msgid ""
-"<emphasis role=\"bold\">Alert</emphasis>: Weather conditions are detrimental"
-" to the observatory safety and shutdown must be initiated as soon as possible."
-msgstr ""
-"<emphasis role=\"bold\">Alerte</emphasis> : les conditions sont"
-" préjudiciables à la sécurité de l'observatoire et un arrêt doit être initié"
-" le plus rapidement possible."
+msgid "<emphasis role=\"bold\">Alert</emphasis>: Weather conditions are detrimental to the observatory safety and shutdown must be initiated as soon as possible."
+msgstr "<emphasis role=\"bold\">Alerte</emphasis> : les conditions sont préjudiciables à la sécurité de l'observatoire et un arrêt doit être initié le plus rapidement possible."
 
 #. Tag: title
 #. +> trunk5
@@ -1091,39 +644,15 @@ msgstr "Scripts de démarrage &amp; d'arrêt"
 #. +> trunk5
 #: ekos-scheduler.docbook:380
 #, no-c-format
-msgid ""
-"Due to the uniqueness of each observatory, Ekos enables the user to select"
-" startup and shutdown scripts. The scripts take care of any necessary"
-" procedures that must take place on startup and shutdown stages. On startup,"
-" Ekos executes the startup scripts and only proceeds to the remainder of the"
-" startup procedure (unpark dome/unpark mount) if the script completes"
-" successfully. Conversely, the shutdown procedure begins with parking the"
-" mount &amp; dome before executing the shutdown script as the final procedure."
-msgstr ""
-"Comme chaque observatoire est unique, Ekos offre la possibilité à"
-" l'utilisateur de choisir ses scripts de démarrage et d'arrêt. Les scripts"
-" s'occupent de toute procédure qui doivent être activée au démarrage et à"
-" l'arrêt. Ekos exécute le script et continue la procédure (déparcage du dôme"
-" et de la monture) qu'en cas de succès de l'exécution du script. Inversement,"
-" la procédure d'arrêt commence par parquer la monture et le dôme avant"
-" d'exécuter le script d'arrêt qui termine la procédure."
+msgid "Due to the uniqueness of each observatory, Ekos enables the user to select startup and shutdown scripts. The scripts take care of any necessary procedures that must take place on startup and shutdown stages. On startup, Ekos executes the startup scripts and only proceeds to the remainder of the startup procedure (unpark dome/unpark mount) if the script completes successfully. Conversely, the shutdown procedure begins with parking the mount &amp; dome before executing the shutdown script as the final procedure."
+msgstr "Comme chaque observatoire est unique, Ekos offre la possibilité à l'utilisateur de choisir ses scripts de démarrage et d'arrêt. Les scripts s'occupent de toute procédure qui doivent être activée au démarrage et à l'arrêt. Ekos exécute le script et continue la procédure (déparcage du dôme et de la monture) qu'en cas de succès de l'exécution du script. Inversement, la procédure d'arrêt commence par parquer la monture et le dôme avant d'exécuter le script d'arrêt qui termine la procédure."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:383
 #, no-c-format
-msgid ""
-"Startup and shutdown scripts can be written any language that can be executed"
-" on the local machine. It must return 0 to report success, any other exist"
-" value is considered an error indicator. The script's standard output is also"
-" directed to Ekos logger window. The following is an sample demo startup"
-" script in Python:"
-msgstr ""
-"Les scripts peuvent être écrits dans n'importe quel langage qui peut être"
-" exécuté sur la machine locale. Un script doit retourner la valeur 0 pour"
-" être considéré comme succès, tout autre valeur indique une erreur. La sortie"
-" standard du script est dirigée vers la fenêtre des fichiers journaux d'Ekos."
-" Voici un exemple de script de démarrage écrit en Python :"
+msgid "Startup and shutdown scripts can be written any language that can be executed on the local machine. It must return 0 to report success, any other exist value is considered an error indicator. The script's standard output is also directed to Ekos logger window. The following is an sample demo startup script in Python:"
+msgstr "Les scripts peuvent être écrits dans n'importe quel langage qui peut être exécuté sur la machine locale. Un script doit retourner la valeur 0 pour être considéré comme succès, tout autre valeur indique une erreur. La sortie standard du script est dirigée vers la fenêtre des fichiers journaux d'Ekos. Voici un exemple de script de démarrage écrit en Python :"
 
 #. Tag: programlisting
 #. +> trunk5
@@ -1178,26 +707,8 @@ msgstr ""
 #. +> trunk5
 #: ekos-scheduler.docbook:387
 #, no-c-format
-msgid ""
-"The startup and shutdown scripts must be <emphasis>executable</emphasis> in"
-" order for Ekos to invoke them (&eg; use <userinput>chmod +x"
-" startup_script.py</userinput> to mark the script as executable). Ekos"
-" Scheduler enables truly simple robotic operation without the need of any"
-" human intervention in any step of the process. Without human presence, it"
-" becomes increasingly critical to gracefully recover from failures in any"
-" stage of the observation run. Using &plasma; notifications, the user can"
-" configure audible alarms and email notifications for the various events in"
-" the Scheduler."
-msgstr ""
-"Les scripts doivent être <emphasis>exécutables</emphasis> pour qu'Ekos puisse"
-" les invoquer (c'est-à-dire utilisez la commande <userinput>chmod u+x"
-" startup_script.py</userinput> pour le rendre exécutable). L'ordonnanceur"
-" d'Ekos permet d'opérer un observatoire de manière complètement robotisée"
-" sans aucune intervention humaine. Il est donc critique que le système puisse"
-" se rétablir après des erreurs, et cela à n'importe quelle étape du processus"
-" d'observation. L'utilisation des notifications &plasma; permet de configurer"
-" des alarmes audibles et l'envoi automatique de courriels pour divers"
-" évènements de l'ordonnanceur."
+msgid "The startup and shutdown scripts must be <emphasis>executable</emphasis> in order for Ekos to invoke them (&eg; use <userinput>chmod +x startup_script.py</userinput> to mark the script as executable). Ekos Scheduler enables truly simple robotic operation without the need of any human intervention in any step of the process. Without human presence, it becomes increasingly critical to gracefully recover from failures in any stage of the observation run. Using &plasma; notifications, the user can configure audible alarms and email notifications for the various events in the Scheduler."
+msgstr "Les scripts doivent être <emphasis>exécutables</emphasis> pour qu'Ekos puisse les invoquer (c'est-à-dire utilisez la commande <userinput>chmod u+x startup_script.py</userinput> pour le rendre exécutable). L'ordonnanceur d'Ekos permet d'opérer un observatoire de manière complètement robotisée sans aucune intervention humaine. Il est donc critique que le système puisse se rétablir après des erreurs, et cela à n'importe quelle étape du processus d'observation. L'utilisation des notifications &plasma; permet de configurer des alarmes audibles et l'envoi automatique de courriels pour divers évènements de l'ordonnanceur."
 
 #. Tag: title
 #. +> trunk5
@@ -1224,137 +735,50 @@ msgstr "<phrase>Planificateur de mosaïques</phrase>"
 #. +> trunk5
 #: ekos-scheduler.docbook:407
 #, no-c-format
-msgid ""
-"Hubble-like super wide field images of <ulink"
-" url=\"http://darkskyart.com/?page_id=96\">galaxies</ulink> and nebulae are"
-" truly awe-inspiring, and while it takes great skills to obtain such images"
-" and process them; many notable names in the field of astrophotography employ"
-" gear that is not <emphasis>vastly</emphasis> different from yours or mine. I"
-" emphasize <emphasis>vastly</emphasis> because some do indeed have impressive"
-" equipment and dedicated observatories worth tens of the thousands of"
-" dollars. Nevertheless, many amateurs can obtain stellar wide-field images by"
-" combining smaller images into a single grand mosaic."
-msgstr ""
-"Les images super grand champ du télescope spacial Hubble de <ulink"
-" url=\"http://darkskyart.com/?page_id=96\">galaxies</ulink> ou de nébuleuses"
-" sont source d'émerveillement. Bien que des compétences pointues soient"
-" nécessaires pour obtenir de telles images et les traiter, les grands noms en"
-" astrophotographie emploient du matériel qui n'est pas <emphasis>très"
-" éloigné</emphasis> du vôtre ou du mien. Je souligne <emphasis>très éloigné<"
-"/emphasis> parce certains ont en effet du matériel très impressionnant et des"
-" observatoires dédiés valant une fortune. Néanmoins, beaucoup d'amateurs"
-" peuvent obtenir des images grand champ en combinant plusieurs petites images"
-" en une seule et grande mosaïque."
+msgid "Hubble-like super wide field images of <ulink url=\"http://darkskyart.com/?page_id=96\">galaxies</ulink> and nebulae are truly awe-inspiring, and while it takes great skills to obtain such images and process them; many notable names in the field of astrophotography employ gear that is not <emphasis>vastly</emphasis> different from yours or mine. I emphasize <emphasis>vastly</emphasis> because some do indeed have impressive equipment and dedicated observatories worth tens of the thousands of dollars. Nevertheless, many amateurs can obtain stellar wide-field images by combining smaller images into a single grand mosaic."
+msgstr "Les images super grand champ du télescope spacial Hubble de <ulink url=\"http://darkskyart.com/?page_id=96\">galaxies</ulink> ou de nébuleuses sont source d'émerveillement. Bien que des compétences pointues soient nécessaires pour obtenir de telles images et les traiter, les grands noms en astrophotographie emploient du matériel qui n'est pas <emphasis>très éloigné</emphasis> du vôtre ou du mien. Je souligne <emphasis>très éloigné</emphasis> parce certains ont en effet du matériel très impressionnant et des observatoires dédiés valant une fortune. Néanmoins, beaucoup d'amateurs peuvent obtenir des images grand champ en combinant plusieurs petites images en une seule et grande mosaïque."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:410
 #, no-c-format
-msgid ""
-"We are often limited by our camera+telescope Field of View (FOV). By"
-" increasing FOV by means of a focal reducer or a shorter tube, we gain a"
-" larger sky coverage at the expense of spatial resolution. At the same time,"
-" many attractive wide-field targets span multiple FOVs across the sky."
-" Without any changes to your astrophotography gear, it is possible to create"
-" a super mosaic image <emphasis>stitched</emphasis> together from several"
-" smaller images. There are two major steps to accomplish a super mosaic image:"
-msgstr ""
-"Nous sommes souvent limités par le champ de vision de l'ensemble caméra et"
-" télescope. En augmentant le champ de vision à l'aide d'un réducteur de"
-" focale ou un tube plus court, on obtient une couverture du ciel plus"
-" importante au coût d'une diminution de la résolution spatiale. En même"
-" temps, beaucoup de cibles grand champ couvrent plusieurs champs de vision"
-" dans le ciel. Sans aucune modification de votre matériel, il est possible de"
-" créer une super mosaïque en <emphasis>joignant</emphasis> ensemble plusieurs"
-" images plus petites. Il y a deux étapes principales pour accomplir une"
-" mosaïque :"
+msgid "We are often limited by our camera+telescope Field of View (FOV). By increasing FOV by means of a focal reducer or a shorter tube, we gain a larger sky coverage at the expense of spatial resolution. At the same time, many attractive wide-field targets span multiple FOVs across the sky. Without any changes to your astrophotography gear, it is possible to create a super mosaic image <emphasis>stitched</emphasis> together from several smaller images. There are two major steps to accomplish a super mosaic image:"
+msgstr "Nous sommes souvent limités par le champ de vision de l'ensemble caméra et télescope. En augmentant le champ de vision à l'aide d'un réducteur de focale ou un tube plus court, on obtient une couverture du ciel plus importante au coût d'une diminution de la résolution spatiale. En même temps, beaucoup de cibles grand champ couvrent plusieurs champs de vision dans le ciel. Sans aucune modification de votre matériel, il est possible de créer une super mosaïque en <emphasis>joignant</emphasis> ensemble plusieurs images plus petites. Il y a deux étapes principales pour accomplir une mosaïque :"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:415
 #, no-c-format
-msgid ""
-"Capture multiple images spanning the target with some overlap between images."
-" The overlap is necessary to enable the processing software from aligning and"
-" joining the sub-images."
-msgstr ""
-"Acquérir plusieurs images couvrant la cible qui se chevauchent partiellement."
-" Le chevauchement est nécessaire pour permettre au logiciel de traitement"
-" d'aligner et de joindre les petites images."
+msgid "Capture multiple images spanning the target with some overlap between images. The overlap is necessary to enable the processing software from aligning and joining the sub-images."
+msgstr "Acquérir plusieurs images couvrant la cible qui se chevauchent partiellement. Le chevauchement est nécessaire pour permettre au logiciel de traitement d'aligner et de joindre les petites images."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:420
 #, no-c-format
-msgid ""
-"Process the images and <emphasis>stitch</emphasis> them into a super mosaic"
-" image."
-msgstr ""
-"Traiter les images et les <emphasis>joindre</emphasis> ensemble pour créer la"
-" mosaïque."
+msgid "Process the images and <emphasis>stitch</emphasis> them into a super mosaic image."
+msgstr "Traiter les images et les <emphasis>joindre</emphasis> ensemble pour créer la mosaïque."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:425
 #, no-c-format
-msgid ""
-"The 2nd step is handled by image processing applications such as <ulink"
-" url=\"https://pixinsight.com\">PixInsight</ulink>, among others, and will"
-" not be the topic of discussion here. The first step can be accomplished in"
-" Ekos Scheduler where it creates a mosaic suitable for your equipment and in"
-" accordance with the desired field of view. Not only Ekos creates the mosaic"
-" panels for your target, but it also constructs the corresponding observatory"
-" jobs required to capture all the images. This greatly facilitates the"
-" logistics of capturing many images with different filters and calibration"
-" frames across a wide area of the sky."
-msgstr ""
-"La seconde étape est gérée par des logiciels de traitement d'images comme <"
-"ulink url=\"https://pixinsight.com\">PixInsight</ulink> ou autres, mais cela"
-" ne sera pas le sujet ici. La première étape peut être accomplie par"
-" l'ordonnanceur d'Ekos qui permet l'acquisition d'images appropriée à votre"
-" équipement et qui couvre le champ de vision désiré. Ekos crée non seulement"
-" les panneaux pour votre cible mais il construit également les tâches"
-" nécessaires pour acquérir toutes les images. Cela facilite grandement la"
-" logistique d'acquisition d'images de différents filtres et trames de"
-" calibration d'une vaste région du ciel."
+msgid "The 2nd step is handled by image processing applications such as <ulink url=\"https://pixinsight.com\">PixInsight</ulink>, among others, and will not be the topic of discussion here. The first step can be accomplished in Ekos Scheduler where it creates a mosaic suitable for your equipment and in accordance with the desired field of view. Not only Ekos creates the mosaic panels for your target, but it also constructs the corresponding observatory jobs required to capture all the images. This greatly facilitates the logistics of capturing many images with different filters and calibration frames across a wide area of the sky."
+msgstr "La seconde étape est gérée par des logiciels de traitement d'images comme <ulink url=\"https://pixinsight.com\">PixInsight</ulink> ou autres, mais cela ne sera pas le sujet ici. La première étape peut être accomplie par l'ordonnanceur d'Ekos qui permet l'acquisition d'images appropriée à votre équipement et qui couvre le champ de vision désiré. Ekos crée non seulement les panneaux pour votre cible mais il construit également les tâches nécessaires pour acquérir toutes les images. Cela facilite grandement la logistique d'acquisition d'images de différents filtres et trames de calibration d'une vaste région du ciel."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:428
 #, no-c-format
-msgid ""
-"The <guilabel>Mosaic Planner</guilabel> in the Ekos Scheduler will create"
-" multiple Scheduler jobs based on a central target. To toggle the planner,"
-" click on the <guibutton>Mosaic Planner</guibutton> button in Ekos Scheduler"
-" or KStars INDI toolbar as illustrated in the screenshot. The planner draws"
-" the Mosaic Panel directly unto the sky map. It is recommended to enable HiPS"
-" overlay for the best experience. The planner is composed of four stages:"
-msgstr ""
-"Le <guilabel>planificateur de mosaïques</guilabel> de l'ordonnanceur d'Ekos"
-" créera plusieurs tâches fondées sur une cible centrale. Pour afficher le"
-" planificateur, cliquez sur le bouton <guibutton>Planificateur de mosaïques<"
-"/guibutton> dans l'ordonnanceur d'Ekos ou sur la barre d'outils INDI de"
-" KStars comme illustré dans la capture d'écran. Le planificateur dessine la"
-" mosaïque directement sur la carte du ciel. Il est recommandé d'activer la"
-" superposition HiPS pour la meilleure expérience. Le planificateur est"
-" composé de quatre étapes :"
+msgid "The <guilabel>Mosaic Planner</guilabel> in the Ekos Scheduler will create multiple Scheduler jobs based on a central target. To toggle the planner, click on the <guibutton>Mosaic Planner</guibutton> button in Ekos Scheduler or KStars INDI toolbar as illustrated in the screenshot. The planner draws the Mosaic Panel directly unto the sky map. It is recommended to enable HiPS overlay for the best experience. The planner is composed of four stages:"
+msgstr "Le <guilabel>planificateur de mosaïques</guilabel> de l'ordonnanceur d'Ekos créera plusieurs tâches fondées sur une cible centrale. Pour afficher le planificateur, cliquez sur le bouton <guibutton>Planificateur de mosaïques</guibutton> dans l'ordonnanceur d'Ekos ou sur la barre d'outils INDI de KStars comme illustré dans la capture d'écran. Le planificateur dessine la mosaïque directement sur la carte du ciel. Il est recommandé d'activer la superposition HiPS pour la meilleure expérience. Le planificateur est composé de quatre étapes :"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:433
 #, no-c-format
-msgid ""
-"<emphasis role=\"bold\">Confirm Equipment</emphasis>: Ekos attempts to load"
-" equipment settings from INDI. If unsuccessful, you need to enter your"
-" equipment settings including your telescope focal length in addition to"
-" camera's width, height, and pixel dimensions. The settings are saved for"
-" future sessions."
-msgstr ""
-"<emphasis role=\"bold\">Confirmation du matériel</emphasis> : le logiciel"
-" Ekos tente de charger les réglages du matériel depuis INDI. En cas d'échec,"
-" il faut saisir les paramètres du matériel tels que longueur focale du"
-" télescope, les dimensions du capteur CCD (largeur, hauteur, taille des"
-" pixels). Ces réglages seront enregistrés pour les sessions futures."
+msgid "<emphasis role=\"bold\">Confirm Equipment</emphasis>: Ekos attempts to load equipment settings from INDI. If unsuccessful, you need to enter your equipment settings including your telescope focal length in addition to camera's width, height, and pixel dimensions. The settings are saved for future sessions."
+msgstr "<emphasis role=\"bold\">Confirmation du matériel</emphasis> : le logiciel Ekos tente de charger les réglages du matériel depuis INDI. En cas d'échec, il faut saisir les paramètres du matériel tels que longueur focale du télescope, les dimensions du capteur CCD (largeur, hauteur, taille des pixels). Ces réglages seront enregistrés pour les sessions futures."
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -1374,31 +798,8 @@ msgstr "<phrase>Confirmer le matériel</phrase>"
 #. +> trunk5
 #: ekos-scheduler.docbook:451
 #, no-c-format
-msgid ""
-"<emphasis role=\"bold\">Adjust Grid</emphasis>: Select the mosaic panel"
-" dimension and overlap percentage. The Mosaic Panel is updated accordingly on"
-" the sky map. Adjust the Position Angle to match the desired mosaic"
-" orientation in the sky. If the Position Angle is different from your"
-" camera's usual orientation, you may need to rotate the camera either"
-" manually or via a mechanized rotator when the scheduler jobs are executed."
-" Tile transparency is automatically calculated by default but may be turned"
-" off and adjusted manually. To compute the mosaic field from the number of"
-" tiles, click the <guibutton>Cover FOV</guibutton> button. The mosaic panel"
-" can be centered in the sky map by clicking on the <guibutton>Recenter<"
-"/guibutton> button."
-msgstr ""
-"<emphasis role=\"bold\">Ajustement de la grille</emphasis> : sélectionner la"
-" dimension des panneaux et le pourcentage de recouvrement. Le panneau de"
-" mosaïque est mis à jour en conséquence sur la carte du ciel. Ajuster l'angle"
-" de position pour correspondre à l'orientation désirée de la mosaïque dans le"
-" ciel. Si l'angle de position est différent de l'orientation usuelle de la"
-" caméra, il faudra soit tourner la caméra manuellement soit avec un rotateur"
-" mécanique lorsque les tâches seront exécutées. La transparence des tuiles"
-" est par défaut automatiquement calculée mais peut être désactivée et ajustée"
-" manuellement. Pour calculer le champ de la mosaïque à partir du nombre de"
-" tuiles, cliquer sur le bouton <guibutton>Couvrir CdV</guibutton>. La"
-" mosaïque peut être centrée sur la carte du ciel en cliquant sur le bouton <"
-"guibutton>Recentrer</guibutton>."
+msgid "<emphasis role=\"bold\">Adjust Grid</emphasis>: Select the mosaic panel dimension and overlap percentage. The Mosaic Panel is updated accordingly on the sky map. Adjust the Position Angle to match the desired mosaic orientation in the sky. If the Position Angle is different from your camera's usual orientation, you may need to rotate the camera either manually or via a mechanized rotator when the scheduler jobs are executed. Tile transparency is automatically calculated by default but may be turned off and adjusted manually. To compute the mosaic field from the number of tiles, click the <guibutton>Cover FOV</guibutton> button. The mosaic panel can be centered in the sky map by clicking on the <guibutton>Recenter</guibutton> button."
+msgstr "<emphasis role=\"bold\">Ajustement de la grille</emphasis> : sélectionner la dimension des panneaux et le pourcentage de recouvrement. Le panneau de mosaïque est mis à jour en conséquence sur la carte du ciel. Ajuster l'angle de position pour correspondre à l'orientation désirée de la mosaïque dans le ciel. Si l'angle de position est différent de l'orientation usuelle de la caméra, il faudra soit tourner la caméra manuellement soit avec un rotateur mécanique lorsque les tâches seront exécutées. La transparence des tuiles est par défaut automatiquement calculée mais peut être désactivée et ajustée manuellement. Pour calculer le champ de la mosaïque à partir du nombre de tuiles, cliquer sur le bouton <guibutton>Couvrir CdV</guibutton>. La mosaïque peut être centrée sur la carte du ciel en cliquant sur le bouton <guibutton>Recentrer</guibutton>."
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -1418,70 +819,22 @@ msgstr "<phrase>Sélection de la grille</phrase>"
 #. +> trunk5
 #: ekos-scheduler.docbook:467
 #, no-c-format
-msgid ""
-"A large overlap will make frame stitching easier during post-processing, but"
-" it requires more panes to cover the desired extent. However, if you already"
-" know the minimal amount of sub-frames your rejection algorithm will use"
-" during post-processing, you may want to increase the overlap to attain that"
-" amount on the areas covered by multiple panes. For instance, a 4x4 mosaic"
-" grid with 75% overlap has 16 sub-frames covering the central intersection,"
-" which is enough for Winsorized Sigma rejection. Although the resulting stack"
-" does not have the same height on all parts of the final frame, this method"
-" gives you control on signal-to-noise ratio and allows you to provide context"
-" to your target while exposing a relatively low number of captures."
-msgstr ""
-"Un grand chevauchement rendra la jointure des trames plus facile durant le"
-" traitement mais requiert davantage de panneaux pour couvrir la zone"
-" souhaitée. Toutefois, si vous connaissez déjà la quantité minimale de trames"
-" qui seront utilisée par l'algorithme de rejet durant la phase de"
-" post-traitement, vous pouvez vouloir augmenter le chevauchement pour"
-" atteindre cette quantité sur les zones couvertes par de multiples panneaux."
-" Par exemple, une grille de mosaïque 4x4 avec 75% de chevauchement possède 16"
-" sous-trames couvrant l'intersection centrale, ce qui est suffisant pour"
-" l'algorithme de rejet Winsorized Sigma. Bien que l'empilement résultant"
-" n'ait pas la même hauteur sur toutes les parties de la trame finale, cette"
-" méthode vous donne le contrôle sur le rapport signal sur bruit et vous"
-" permet de donner du contexte à votre cible tout en devant faire un nombre"
-" relativement bas d'acquisitions."
+msgid "A large overlap will make frame stitching easier during post-processing, but it requires more panes to cover the desired extent. However, if you already know the minimal amount of sub-frames your rejection algorithm will use during post-processing, you may want to increase the overlap to attain that amount on the areas covered by multiple panes. For instance, a 4x4 mosaic grid with 75% overlap has 16 sub-frames covering the central intersection, which is enough for Winsorized Sigma rejection. Although the resulting stack does not have the same height on all parts of the final frame, this method gives you control on signal-to-noise ratio and allows you to provide context to your target while exposing a relatively low number of captures."
+msgstr "Un grand chevauchement rendra la jointure des trames plus facile durant le traitement mais requiert davantage de panneaux pour couvrir la zone souhaitée. Toutefois, si vous connaissez déjà la quantité minimale de trames qui seront utilisée par l'algorithme de rejet durant la phase de post-traitement, vous pouvez vouloir augmenter le chevauchement pour atteindre cette quantité sur les zones couvertes par de multiples panneaux. Par exemple, une grille de mosaïque 4x4 avec 75% de chevauchement possède 16 sous-trames couvrant l'intersection centrale, ce qui est suffisant pour l'algorithme de rejet Winsorized Sigma. Bien que l'empilement résultant n'ait pas la même hauteur sur toutes les parties de la trame finale, cette méthode vous donne le contrôle sur le rapport signal sur bruit et vous permet de donner du contexte à votre cible tout en devant faire un nombre relativement bas d'acquisitions."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:470
 #, no-c-format
-msgid ""
-"The large number drawn in the corner of each grid pane represents the order"
-" in which panes will be captured. The default S-shaped choice (west-east then"
-" alternating high-low/low-high moves), ensures minimal movement of the mount"
-" during observation. Uncheck <guilabel>Minimum mount move</guilabel> to"
-" revert to west-east/high-low movement only. The coordinates of each pane are"
-" rendered in their center as degrees, minutes and seconds. Finally, the angle"
-" each pane rotates from the center of the mosaic is displayed at the bottom."
-" If your field of view is large, or if your mosaic is located close to a"
-" celestial pole, you may observe that rendered panes start rotating visibly"
-" due their horizontal position or high declination. Use the <guilabel"
-">overlap</guilabel> to ensure panes cover the desired frame extents properly."
-msgstr ""
-"Le grand nombre dessiné dans le coin de chaque panneau de la grille"
-" représente l'ordre dans lequel chaque panneau sera traité. Le choix par"
-" défaut de la forme d'un S (ouest-est puis en alternance haut-bas/bas-haut)"
-" assure un mouvement minimal de la monture durant l'observation. Décochez <"
-"guilabel>Mouvement minimum de la monture</guilabel> pour inverser le"
-" comportement en ouest-est/haut-bas. Les coordonnées de chaque panneau (en"
-" degrés minutes et secondes) sont affichées en leur centre. Finalement"
-" l'angle de rotation de chaque panneau depuis le centre de la mosaïque est"
-" affiché en bas. Si votre champ de vision est grand ou si votre mosaïque se"
-" trouve près d'un pôle céleste, vous pourrez observer une rotation visible"
-" due à la position horizontale ou à une déclinaison importante. Veuillez"
-" utiliser <guilabel>Chevauchement</guilabel> pour vous assurer que les"
-" panneaux couvrent la zone correctement."
+msgid "The large number drawn in the corner of each grid pane represents the order in which panes will be captured. The default S-shaped choice (west-east then alternating high-low/low-high moves), ensures minimal movement of the mount during observation. Uncheck <guilabel>Minimum mount move</guilabel> to revert to west-east/high-low movement only. The coordinates of each pane are rendered in their center as degrees, minutes and seconds. Finally, the angle each pane rotates from the center of the mosaic is displayed at the bottom. If your field of view is large, or if your mosaic is located close to a celestial pole, you may observe that rendered panes start rotating visibly due their horizontal position or high declination. Use the <guilabel>overlap</guilabel> to ensure panes cover the desired frame extents properly."
+msgstr "Le grand nombre dessiné dans le coin de chaque panneau de la grille représente l'ordre dans lequel chaque panneau sera traité. Le choix par défaut de la forme d'un S (ouest-est puis en alternance haut-bas/bas-haut) assure un mouvement minimal de la monture durant l'observation. Décochez <guilabel>Mouvement minimum de la monture</guilabel> pour inverser le comportement en ouest-est/haut-bas. Les coordonnées de chaque panneau (en degrés minutes et secondes) sont affichées en leur centre. Finalement l'angle de rotation de chaque panneau depuis le centre de la mosaïque est affiché en bas. Si votre champ de vision est grand ou si votre mosaïque se trouve près d'un pôle céleste, vous pourrez observer une rotation visible due à la position horizontale ou à une déclinaison importante. Veuillez utiliser <guilabel>Chevauchement</guilabel> pour vous assurer que les panneaux couvrent la zone correctement."
 
 #. Tag: screeninfo
 #. +> trunk5
 #: ekos-scheduler.docbook:474
 #, no-c-format
 msgid "<screeninfo>Scheduler Mosaic Tool - Large rotation</screeninfo>"
-msgstr ""
-"<screeninfo>Outil de mosaïque de l'ordonnanceur - grande rotation</screeninfo>"
+msgstr "<screeninfo>Outil de mosaïque de l'ordonnanceur - grande rotation</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
@@ -1494,14 +847,8 @@ msgstr "<phrase>Outil de mosaïque de l'ordonnanceur - grande rotation</phrase>"
 #. +> trunk5
 #: ekos-scheduler.docbook:488
 #, no-c-format
-msgid ""
-"<emphasis role=\"bold\">Adjust Grid</emphasis>: Adjust Grid center by"
-" manually entering the J2000 center or by dragging the center of the mosaic"
-" on the sky map."
-msgstr ""
-"<emphasis role=\"bold\">Ajustement de la grille</emphasis> : sélectionner la"
-" dimension des panneaux et le pourcentage de recouvrement. Le panneau de"
-" mosaïque est mise à jour en conséquence sur la carte du ciel."
+msgid "<emphasis role=\"bold\">Adjust Grid</emphasis>: Adjust Grid center by manually entering the J2000 center or by dragging the center of the mosaic on the sky map."
+msgstr "<emphasis role=\"bold\">Ajustement de la grille</emphasis> : sélectionner la dimension des panneaux et le pourcentage de recouvrement. Le panneau de mosaïque est mise à jour en conséquence sur la carte du ciel."
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -1521,40 +868,15 @@ msgstr "<phrase>Ajustement de la grille</phrase>"
 #. +> trunk5
 #: ekos-scheduler.docbook:506
 #, no-c-format
-msgid ""
-"<emphasis role=\"bold\">Create Jobs</emphasis>: The final step is to select"
-" the sequence file and directory to store the images. Target field may be"
-" automatically filled but may be changed as desired. Select the steps each"
-" scheduler job should execute in sequence (Track -> Focus -> Align -> Guide -"
-"> Capture), and adjust the frequency of automatic alignment and focus"
-" routines that must be executed during the mosaic operation. For example, if"
-" <guilabel>Align Every</guilabel> is set to 2 Scheduler Jobs, then the first"
-" job will run the astrometry alignment, while the second job will skip it."
-" When the third job is executed, alignment is performed again and so forth."
-msgstr ""
-"<emphasis role=\"bold\">Création des tâches</emphasis> : l'étape finale"
-" consiste en la sélection du fichier séquence et le dossier d'enregistrement"
-" des images. Le champ cible est automatiquement renseigné mais peut être"
-" modifié à convenance. Sélectionner les différentes étapes de la tâche"
-" (Suivre / Mise au point / Alignement / Guidage / Acquisition) et régler la"
-" fréquence de rafraîchissement de l'alignement et de la mise au point durant"
-" l'exécution de la tâche. Par exemple, si <guilabel>Aligner tous les<"
-"/guilabel> est réglé à 2 tâches, alors la première tâche exécutera un"
-" alignement alors que la suivante ne l'exécutera pas. Et la troisième"
-" l'exécutera à nouveau et ainsi de suite."
+msgid "<emphasis role=\"bold\">Create Jobs</emphasis>: The final step is to select the sequence file and directory to store the images. Target field may be automatically filled but may be changed as desired. Select the steps each scheduler job should execute in sequence (Track -> Focus -> Align -> Guide -> Capture), and adjust the frequency of automatic alignment and focus routines that must be executed during the mosaic operation. For example, if <guilabel>Align Every</guilabel> is set to 2 Scheduler Jobs, then the first job will run the astrometry alignment, while the second job will skip it. When the third job is executed, alignment is performed again and so forth."
+msgstr "<emphasis role=\"bold\">Création des tâches</emphasis> : l'étape finale consiste en la sélection du fichier séquence et le dossier d'enregistrement des images. Le champ cible est automatiquement renseigné mais peut être modifié à convenance. Sélectionner les différentes étapes de la tâche (Suivre / Mise au point / Alignement / Guidage / Acquisition) et régler la fréquence de rafraîchissement de l'alignement et de la mise au point durant l'exécution de la tâche. Par exemple, si <guilabel>Aligner tous les</guilabel> est réglé à 2 tâches, alors la première tâche exécutera un alignement alors que la suivante ne l'exécutera pas. Et la troisième l'exécutera à nouveau et ainsi de suite."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:509
 #, no-c-format
-msgid ""
-"If you want the different mosaic tile jobs to alternate, then fill in the"
-" group name with an identifier that all the tile jobs will share, and select"
-" a repeating completion condition."
-msgstr ""
-"Si vous souhaitez alterner les différentes tâches d'acquisition des tuiles de"
-" la mosaïque, saisissez un nom de groupe comme identifiant que chaque tâche"
-" partagera et sélectionnez une condition d'achèvement répétée."
+msgid "If you want the different mosaic tile jobs to alternate, then fill in the group name with an identifier that all the tile jobs will share, and select a repeating completion condition."
+msgstr "Si vous souhaitez alterner les différentes tâches d'acquisition des tuiles de la mosaïque, saisissez un nom de groupe comme identifiant que chaque tâche partagera et sélectionnez une condition d'achèvement répétée."
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -1574,14 +896,8 @@ msgstr "<phrase>Création des tâches</phrase>"
 #. +> trunk5
 #: ekos-scheduler.docbook:527
 #, no-c-format
-msgid ""
-"Click <guibutton>Create Jobs</guibutton> to generate mosaic scheduler jobs"
-" and add them to the schedule queue. You can further edit the jobs"
-" individually, as you would normal Scheduler jobs."
-msgstr ""
-"Cliquez sur le bouton <guibutton>Créer les tâches</guibutton> pour générer"
-" les tâches d'ordonnancement de mosaïque et les ajouter à la file d'attente."
-" Vous pouvez ensuite les modifier individuellement, comme pour toute tâche."
+msgid "Click <guibutton>Create Jobs</guibutton> to generate mosaic scheduler jobs and add them to the schedule queue. You can further edit the jobs individually, as you would normal Scheduler jobs."
+msgstr "Cliquez sur le bouton <guibutton>Créer les tâches</guibutton> pour générer les tâches d'ordonnancement de mosaïque et les ajouter à la file d'attente. Vous pouvez ensuite les modifier individuellement, comme pour toute tâche."
 
 #, no-c-format
 #~ msgid "Ekos Scheduler is an indispensable arsenal in building your robotic observatory. A Robotic observatory is an observatory composed of several subsystems that are orchestrated together to achieve a set of scientific objectives without human intervention. It is the only Ekos module that does not require Ekos to be started as it is utilized to <emphasis>start</emphasis> and <emphasis>stop</emphasis> Ekos. It is designed to be straightforward and intuitive. However, the scheduler should only be used after you mastered Ekos and knows all the quirks of your equipment. Since the complete process is automated, including focus, guiding, and meridian flip, all equipment should be thoroughly used with Ekos and all their parameters and settings adjusted to achieve the best result."
@@ -1642,4 +958,3 @@ msgstr ""
 #, no-c-format
 #~ msgid "With Ekos Scheduler, multi-night imaging is greatly facilitated and creating super mosaics has never been so easy."
 #~ msgstr "Avec l'ordonnanceur d'Ekos, l'acquisition sur plusieurs nuits est grandement facilitée et la création de super grandes mosaïques n'a jamais été aussi facile."
-
