@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_config_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-23 10:13+0200\n"
+"POT-Creation-Date: 2023-12-06 11:29+0100\n"
 "PO-Revision-Date: 2023-12-09 16:17+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -214,7 +214,6 @@ msgstr "<phrase>Fenêtre de configuration de &kstars;</phrase>"
 #. +> trunk5
 #: config.docbook:143
 #, no-c-format
-#| msgid "The <guilabel>Configure - &kstars;</guilabel> window is divided into twelve pages: <guilabel>Catalogs</guilabel>, <guilabel>Solar System</guilabel>, <guilabel>Satellites</guilabel>, <guilabel>Supernovae</guilabel>, <guilabel>Guides</guilabel>, <guilabel>Terrain</guilabel>, <guilabel>Colors</guilabel>, <guilabel>FITS</guilabel>, <guilabel>INDI</guilabel>, <guilabel>Ekos</guilabel>, <guilabel>Xplanet</guilabel> and <guilabel>Advanced</guilabel>."
 msgid "The <guilabel>Configure - &kstars;</guilabel> window is divided into fourteen pages: <guilabel>Catalogs</guilabel>, <guilabel>Solar System</guilabel>, <guilabel>Satellites</guilabel>, <guilabel>Supernovae</guilabel>, <guilabel>Guides</guilabel>, <guilabel>Terrain</guilabel>, <guilabel>Image Overlays</guilabel>, <guilabel>Colors</guilabel>, <guilabel>FITS</guilabel>, <guilabel>INDI</guilabel>, <guilabel>Ekos</guilabel>, <guilabel>Xplanet</guilabel>, <guilabel>Advanced</guilabel> and <guilabel>Developer</guilabel>."
 msgstr "La fenêtre <guilabel>Configuration de &kstars;</guilabel> est divisée en quatorze pages : <guilabel>Catalogues</guilabel>, <guilabel>Système solaire</guilabel>, <guilabel>Satellites</guilabel>, <guilabel>Supernovae</guilabel>, <guilabel>Guides</guilabel>, <guilabel>Terrain</guilabel>, <guilabel>Superposition d'image</guilabel>, <guilabel>Couleurs</guilabel>, <guilabel>FITS</guilabel>, <guilabel>INDI</guilabel>, <guilabel>Ekos</guilabel>, <guilabel>Xplanet</guilabel>, <guilabel>Avancé</guilabel> et <guilabel>Développeurs</guilabel>."
 
@@ -343,7 +342,6 @@ msgstr "Page de superposition d'image"
 #. +> trunk5
 #: config.docbook:213
 #, no-c-format
-#| msgid "<primary>Catalogs</primary>"
 msgid "<primary>Image Overlays</primary>"
 msgstr "<primary>Superposition d'image</primary>"
 
@@ -351,7 +349,6 @@ msgstr "<primary>Superposition d'image</primary>"
 #. +> trunk5
 #: config.docbook:214
 #, no-c-format
-#| msgid "The <guilabel>Supernovae</guilabel> page allows you to manage how supernovae are displayed by &kstars;."
 msgid "The <guilabel>Image Overlays</guilabel> page allows you to add and manage your own images that will be displayed in the skymap."
 msgstr "La page de <guilabel>Superposition d'image</guilabel> permet d'ajouter et de gérer vos propres images qui peuvent être affichées dans la carte du ciel."
 
@@ -393,8 +390,9 @@ msgstr "Pour une explication détaillée des options sur <guilabel>INDI</guilabe
 #. Tag: para
 #. +> trunk5
 #: config.docbook:240
-#, no-c-format
-msgid "For detailed explanation of <guilabel>Ekos</guilabel> astrophotography suite, see the <link linkend=\"tool-ekos\">Ekos section of this manual</link>."
+#, fuzzy, no-c-format
+#| msgid "For detailed explanation of <guilabel>Ekos</guilabel> astrophotography suite, see the <link linkend=\"tool-ekos\">Ekos section of this manual</link>."
+msgid "For detailed explanation of <guilabel>Ekos</guilabel> astrophotography suite, see the <link linkend=\"ekos\">Ekos section of this manual</link>."
 msgstr "Pour une explication détaillée des options sur <guilabel>Ekos</guilabel>, veuillez vous reporter à la section <link linkend=\"tool-ekos\">Section Ekos</link> de ce manuel."
 
 #. Tag: secondary
@@ -1743,7 +1741,6 @@ msgstr "Vous pouvez (dés)activer la superposition du terrain en utilisant le ra
 #. +> trunk5
 #: config.docbook:1163
 #, no-c-format
-#| msgid "<title>Catalogs</title>"
 msgid "<title>Image Overlays</title>"
 msgstr "<title>Superposition d'images</title>"
 
@@ -1751,7 +1748,6 @@ msgstr "<title>Superposition d'images</title>"
 #. +> trunk5
 #: config.docbook:1165
 #, no-c-format
-#| msgid "<screeninfo>Terrain Window</screeninfo>"
 msgid "<screeninfo>Image Overlays on SkyMap</screeninfo>"
 msgstr "<screeninfo>Superposition d'image sur la carte du ciel</screeninfo>"
 
@@ -1759,7 +1755,6 @@ msgstr "<screeninfo>Superposition d'image sur la carte du ciel</screeninfo>"
 #. +> trunk5
 #: config.docbook:1171
 #, no-c-format
-#| msgid "<phrase>Satellites Window</phrase>"
 msgid "<phrase>Image Overlays on SkyMap</phrase>"
 msgstr "<phrase>Superposition d'image sur la carte du ciel</phrase>"
 
@@ -1774,7 +1769,6 @@ msgstr "Les images de superposition sont des images personnalisées (typiquement
 #. +> trunk5
 #: config.docbook:1184
 #, no-c-format
-#| msgid "<screeninfo>Terrain Window</screeninfo>"
 msgid "<screeninfo>Image Overlays Window</screeninfo>"
 msgstr "<screeninfo>Fenêtre de superposition d'image</screeninfo>"
 
@@ -1782,7 +1776,6 @@ msgstr "<screeninfo>Fenêtre de superposition d'image</screeninfo>"
 #. +> trunk5
 #: config.docbook:1190
 #, no-c-format
-#| msgid "<phrase>Terrain Window</phrase>"
 msgid "<phrase>Image Overlays Window</phrase>"
 msgstr "<phrase>Fenêtre de superposition d'image</phrase>"
 
@@ -1999,8 +1992,9 @@ msgstr "<phrase>Fenêtre Ekos</phrase>"
 #. Tag: para
 #. +> trunk5
 #: config.docbook:1383
-#, no-c-format
-msgid "Ekos is an astrophotography suite, a complete astrophotography solution that can control all INDI devices including numerous telescopes, CCDs, DSLRs, focusers, filters, and a lot more. Ekos supports highly accurate tracking using online and offline astrometry solver, autofocus and autoguiding capabilities, and capture of single or multiple images using the powerful built in sequence manager. For detailed explanation of <guilabel>Ekos</guilabel>, see the <link linkend=\"tool-ekos\">Ekos section of this manual</link>."
+#, fuzzy, no-c-format
+#| msgid "Ekos is an astrophotography suite, a complete astrophotography solution that can control all INDI devices including numerous telescopes, CCDs, DSLRs, focusers, filters, and a lot more. Ekos supports highly accurate tracking using online and offline astrometry solver, autofocus and autoguiding capabilities, and capture of single or multiple images using the powerful built in sequence manager. For detailed explanation of <guilabel>Ekos</guilabel>, see the <link linkend=\"tool-ekos\">Ekos section of this manual</link>."
+msgid "Ekos is an astrophotography suite, a complete astrophotography solution that can control all INDI devices including numerous telescopes, CCDs, DSLRs, focusers, filters, and a lot more. Ekos supports highly accurate tracking using online and offline astrometry solver, autofocus and autoguiding capabilities, and capture of single or multiple images using the powerful built in sequence manager. For detailed explanation of <guilabel>Ekos</guilabel>, see the <link linkend=\"ekos\">Ekos section of this manual</link>."
 msgstr "Ekos est une suite d'astrophotographie complète qui permet de contrôler tout périphérique INDI tels que des montures, des CCD, des APN, des moteurs de mise au point, des roues à filtres et bien plus encore. Ekos gère le suivi de haute précision en utilisant des résolveurs en ligne et hors ligne, la mise au point automatique et l'autoguidage ainsi que l'acquisition d'images unique ou multiple en utilisant le puissant gestionnaire de séquences. Pour des explications détaillées d'<guilabel>Ekos</guilabel>, veuillez lire la <link linkend=\"tool-ekos\">section Ekos de ce manuel</link>."
 
 #. Tag: title
@@ -2133,7 +2127,6 @@ msgstr "Développeurs"
 #. +> trunk5
 #: config.docbook:1484
 #, no-c-format
-#| msgid "<screeninfo>Colors Window</screeninfo>"
 msgid "<screeninfo>Developer Window</screeninfo>"
 msgstr "<screeninfo>Fenêtre pour développeurs</screeninfo>"
 
@@ -2141,7 +2134,6 @@ msgstr "<screeninfo>Fenêtre pour développeurs</screeninfo>"
 #. +> trunk5
 #: config.docbook:1490
 #, no-c-format
-#| msgid "<phrase>Colors Window</phrase>"
 msgid "<phrase>Developer Window</phrase>"
 msgstr "<phrase>Fenêtre pour développeurs</phrase>"
 
@@ -2149,7 +2141,6 @@ msgstr "<phrase>Fenêtre pour développeurs</phrase>"
 #. +> trunk5
 #: config.docbook:1496
 #, no-c-format
-#| msgid "Colors page"
 msgid "Developer page"
 msgstr "Pages développeurs"
 

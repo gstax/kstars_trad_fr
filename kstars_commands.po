@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_commands_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-11 10:18+0200\n"
+"POT-Creation-Date: 2023-12-06 11:29+0100\n"
 "PO-Revision-Date: 2023-08-03 16:05+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -67,8 +67,9 @@ msgstr "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo
 #. Tag: para
 #. +> trunk5
 #: commands.docbook:20
-#, no-c-format
-msgid "Open a image in the FITS Viewer tool."
+#, fuzzy, no-c-format
+#| msgid "Open a image in the FITS Viewer tool."
+msgid "Open an image in the FITS Viewer."
 msgstr "Ouvre une image dans l'outil d'affichage FITS."
 
 #. Tag: menuchoice
@@ -753,8 +754,9 @@ msgstr "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>K</keycap></keycombo
 #. Tag: para
 #. +> trunk5
 #: commands.docbook:552
-#, no-c-format
-msgid "Opens <link linkend=\"tool-ekos\">Ekos</link>, a complete and powerful tool for astrophotography. With Ekos, you can align and guide your telescope, focus your CCD, and capture images using an easy intuitive interface."
+#, fuzzy, no-c-format
+#| msgid "Opens <link linkend=\"tool-ekos\">Ekos</link>, a complete and powerful tool for astrophotography. With Ekos, you can align and guide your telescope, focus your CCD, and capture images using an easy intuitive interface."
+msgid "Opens <link linkend=\"ekos\">Ekos</link>, a complete and powerful tool for astrophotography. With Ekos, you can align and guide your telescope, focus your CCD, and capture images using an easy intuitive interface."
 msgstr "Ouvre Ekos, un outil complet et puissant pour l'astrophotographie. Avec Ekos vous pouvez aligner et guider votre télescope, ajuster la mise au point de votre CCD et procéder à l'acquisition d'images en utilisant une interface facile et intuitive."
 
 #. Tag: menuchoice
@@ -2200,7 +2202,6 @@ msgstr "&Ctrl;<keycap>M</keycap>"
 #. +> trunk5
 #: commands.docbook:1469
 #, no-c-format
-#| msgid "Open the <guilabel>Set Coordinates Manually</guilabel> tool, for specifying RA/Dec or Az/Alt coordinates on which to center."
 msgid "Open the <guilabel>Set Coordinates Manually</guilabel> tool, for specifying RA/Dec or Az/Alt coordinates on which to center. The tool defaults to <link linkend=\"ai-epoch\">J2000 epoch</link> for the RA/Dec."
 msgstr "Ouvre l'outil <guilabel>Définir les coordonnées manuellement</guilabel> pour spécifier les coordonnées « AD / DEC » ou « Az / Alt » sur lesquelles centrer. L'outil applique par défaut une <link linkend=\"ai-epoch\">époque « J2000 »</link> pour « AD / DEC »."
 
