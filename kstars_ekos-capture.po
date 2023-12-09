@@ -1,20 +1,19 @@
 # Translation to French
-# SPDX-FileCopyrightText: 2023 Xavier BESNARD <xavier.besnard@neuf.fr>
 # steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_ekos-capture_3.6.7\n"
+"Project-Id-Version: kstars_ekos-capture_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-06 11:29+0100\n"
-"PO-Revision-Date: 2023-12-06 19:59+0100\n"
-"Last-Translator: Xavier BESNARD <xavier.besnard@neuf.fr>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2023-12-01 10:19+0100\n"
+"PO-Revision-Date: 2023-12-09 16:11+0100\n"
+"Last-Translator: steve <stax@ik.me>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.08.3\n"
+"X-Generator: Lokalize 20.12.0\n"
 
 #. Tag: title
 #. +> trunk5
@@ -322,7 +321,7 @@ msgstr "<emphasis role=\"bold\">%D</emphasis> ou <emphasis role=\"bold\">%Dateti
 #: ekos-capture.docbook:196
 #, no-c-format
 msgid "<emphasis role=\"bold\">%T</emphasis> or <emphasis role=\"bold\">%Type</emphasis>: The frame type &eg; 'Light', 'Bias', 'Dark', 'Flat'..."
-msgstr "<emphasis role=\"bold\">%T</emphasis> ou <emphasis role=\"bold\">%Type</emphasis>: le type de trame, par exemple « Clair », « Biaisé », « Sombre », « Plat », etc."
+msgstr "<emphasis role=\"bold\">%T</emphasis> ou <emphasis role=\"bold\">%Type</emphasis>: le type de trame, par exemple 'Light', 'Bias', 'Dark', 'Flat'…"
 
 #. Tag: para
 #. +> trunk5
@@ -532,7 +531,7 @@ msgstr "Les séquences peuvent être enregistrées dans un fichier au format &XM
 #: ekos-capture.docbook:338
 #, no-c-format
 msgid "<emphasis role=\"bold\">Job Progress</emphasis>: Ekos is designed to execute and resume the sequence over multiple nights if required. Therefore, if <guilabel>Remember Job Progress</guilabel> option is enabled in <link linkend=\"ekos\">Ekos Options</link>, Ekos shall scan the file system to count how many images are already completed and will resume the sequence from where it was left off. If this default behavior is not desired, simply turn off <guilabel>Remember Job Progress</guilabel> under options."
-msgstr "<emphasis role=\"bold\">Progression des tâches</emphasis> : le logiciel Ekos est conçu pour exécuter les séquences sur plusieurs nuits si nécessaire. Ainsi, si l'option <guilabel>Se rappeler de la progression des tâches</guilabel> est activée dans les <link linkend=\"ekos\">options pour Ekos</link>, Ekos fera un scan du système de fichiers pour déterminer le nombre d'images déjà présentes et terminées et reprendra la séquence au point où il s'était arrêté. Si ce n'est pas le comportement désiré, vous pouvez simplement désactiver cette option."
+msgstr "<emphasis role=\"bold\">Progression des tâches</emphasis> : Ekos est conçu pour exécuter les séquences sur plusieurs nuits si nécessaire. Ainsi, si l'option <guilabel>Se rappeler de la progression des tâches</guilabel> est activée dans les <link linkend=\"ekos\">options d'Ekos</link>, Ekos fera un scan du système de fichiers pour déterminer le nombre d'images déjà présentes et terminées et reprendra la séquence au point où il s'était arrêté. Si ce n'est pas le comportement désiré, vous pouvez simplement désactiver cette option."
 
 #. Tag: para
 #. +> trunk5
@@ -565,9 +564,8 @@ msgstr "Afficheur FITS"
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:364
-#, fuzzy, no-c-format
-#| msgid "Captured images are displayed in &kstars; FITS Viewer tool, and also in the summary screen. Set options related to how the images are displayed in the viewer."
-msgid "Captured images are displayed in &kstars; FITS Viewer, and also in the summary screen. Set options related to how the images are displayed in the viewer."
+#, no-c-format
+msgid "Captured images are displayed in &kstars; FITS Viewer tool, and also in the summary screen. Set options related to how the images are displayed in the viewer."
 msgstr "Les images sont affichées dans l'outil d'affichage de &kstars; ainsi que dans l'écran de résumé. Vous pouvez spécifier les options d'affichage de l'afficheur."
 
 #. Tag: para
@@ -736,472 +734,472 @@ msgstr "Avant le début de la procédure d'acquisition de la calibration, vous p
 #: ekos-capture.docbook:489
 #, no-c-format
 msgid "Exposure Calculator"
-msgstr ""
+msgstr "Calculateur d'exposition"
 
 #. Tag: screeninfo
 #. +> trunk5
 #: ekos-capture.docbook:491
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Ekos Capture</screeninfo>"
 msgid "<screeninfo>Exposure calculator</screeninfo>"
-msgstr "<screeninfo>Acquisition Ekos</screeninfo>"
+msgstr "<screeninfo>Calculateur d'exposition</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: ekos-capture.docbook:499
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Ekos Capture</phrase>"
 msgid "<phrase>Exposure calculator</phrase>"
-msgstr "<phrase>Acquisition Ekos</phrase>"
+msgstr "<phrase>Calculateur d'exposition</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:503
 #, no-c-format
 msgid "The exposure calculator is an implementation of a calculation process presented by Dr. Robin Glover in 2019. This calculation process seeks to establish a sub-exposure time which considers two sources of noise in an image: camera read noise, and noise from background sky brightness (light pollution). The effects of camera thermal noise on images is not considered in this calculation. (Note: Since his presentation in 2019, Dr. Glover has enhanced his calculation process to incorporate the effects of sensor quantum efficiency, and sensor pixel size. At this time, the KStars implementation lacks those features.)"
-msgstr ""
+msgstr "Le calculateur d'exposition est une implémentation d'un traitement de calcul présenté par le Dr. Robin Glover en 2019. Il cherche à établir le temps d'exposition en considérant deux sources de bruit d'une image : le bruit de lecture de l'appareil et le bruit de la pollution lumineuse. Les effets du bruit thermique de l'appareil sur les images ne sont pas pris en considération dans ce calcul. (Remarque : depuis sa présentation en 2019, le Dr. Glover a amélioré son calcul en tenant compte de l'efficacité quantique du capteur et la taille des pixels. Pour le moment, KStars ne tient pas compte de ces améliorations)."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:506
 #, no-c-format
 msgid "The concept in Dr. Glover's calculation is to provide a sufficiently long exposure so that the effects of camera read-noise are overwhelmed by the signal coming from the target, but not so long an exposure that the effects of light pollution rise to levels which would overwhelm the signal from the target."
-msgstr ""
+msgstr "L'idée principal du calcul est de fournir un temps d'exposition suffisamment long pour que le bruit de lecture de l'appareil soit largement dépassé par le signal provenant de la cible mais pas trop long pour éviter que le bruit de la pollution lumineuse ne dépasse pas le signal de la cible."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:509
 #, no-c-format
 msgid "The implementation of this process does not consider the strength (magnitude or flux) of the intended target, nor does it consider other factors which may cause an astrophotographer to choose an alternate sub-exposure time. These other factors may include: the storage requirements and extended post-processing time for a large number of short exposures, the impacts of external factors that might occur in very long exposures, such as tracking / guiding performance, changes in weather conditions which may disrupt seeing conditions, intrusions from air traffic or passing satellites."
-msgstr ""
+msgstr "Cette implémentation ne considère pas la force (magnitude ou flux) de la cible, ni d'autres facteurs qui pourraient inciter l'astrophotographe à choisir une durée d'exposition différente. Ces autres facteurs peuvent inclure : les exigences en terme de stockage et le temps supplémentaire de post-traitement dû au nombre important de trames de faible durée d'exposition, les impacts de facteurs externes qui se produiront pour les très longues expositions tels que les performances de suivi et de guidage, les modifications des conditions météorologiques, les intrusions du traffic aérien ou encore le passage de satellites artificiels."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:512
 #, no-c-format
 msgid "Approaches to imaging can vary greatly in the selection of exposure times, and number of sub-exposures used for integration. A well accepted approach for imaging deep-sky objects utilizes long exposures, requires good guiding, good to excellent seeing conditions, and would typically employ filtering to reduce the effects of light pollution. At the other extreme are approaches such as speckle imaging techniques (commonly 'lucky imaging'), which utilize many hundreds to many thousands of extremely short exposures in an attempt to eliminate the effects of light pollution, poor seeing conditions, and poor guiding. Choices made for values of certain inputs to the exposure calculator will vary depending upon which imaging approach is being employed."
-msgstr ""
+msgstr "Les approches à l'imagerie peuvent considérablement varier quant au choix des durées d'exposition et le nombre de trames utilisées pour l'intégration. Une approche largement acceptée pour l'imagerie d'objets du ciel profond implique de longues durées d'exposition qui nécessitent un bon guidage, des conditions de visibilité excellente et emploierait typiquement l'utilisation de filtres pour réduire les effets de la pollution lumineuse. À l'autre extrême, des approches utilisant des techniques rapides (nommées communément « imagerie chanceuse ») en prenant des centaines voir des milliers de trames de durée très courtes dans l'espoir d'éliminer les effets de la pollution lumineuse, ainsi que de mauvaises conditions de visibilité et de guidage. Les choix des valeurs des paramètres du calculateur d'exposition dépendront de l'approche utilisée."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:516
 #, no-c-format
 msgid "Exposure Calculator Inputs"
-msgstr ""
+msgstr "Valeurs en entrée du calculateur d'exposition"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:520
 #, no-c-format
 msgid "<guilabel>Sky Quality</guilabel>: The <guimenu>Sky Quality selector</guimenu> sets the measurement of the magnitude per square arc-second of the background sky."
-msgstr ""
+msgstr "<guilabel>Qualité du ciel</guilabel> : le <guimenu>sélecteur de qualité du ciel</guimenu> règle la mesure de la magnitude par secondes d'arc au carré du fond du ciel."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:522
 #, no-c-format
 msgid "The range for Sky Quality is from 22 for the darkest skies, to 16 for the brightest (most light-polluted) skies. The magnitude scale is non-linear; it is a logarithmic scale based on the 5th root of 100. So 5 steps on the scale represent a change in brightness by a factor of 100. (A Sky Quality of 17 is 100 times as bright as a Sky Quality of 22. Each full integer step on the scale is a change by a factor of approximately 2.512.). <ulink url=\"https://en.wikipedia.org/wiki/Light_pollution\">Wikipedia Sky Brightness</ulink> <ulink url=\"https://en.wikipedia.org/wiki/Light_pollution\">Wikipedia Light Pollution</ulink>"
-msgstr ""
+msgstr "La plage de valeurs pour la qualité du ciel va de 22 pour les ciels les plus noirs à 16 pour les plus brillants (principalement pollué par la lumière). L'échelle de magnitude est non-linéaire ; c'est une échelle logarithmique basée sur la racine cinquième de 100. Ainsi, 5 pas sur cette échelle représente un changement en magnitude d'un facteur 100. (Une qualité du ciel de 17 est 100 fois plus lumineuse qu'une qualité du ciel de 22. Chaque entier représente un changement d'environ 2.512.). Voir <ulink url=\"https://en.wikipedia.org/wiki/Light_pollution\">Wikipedia Sky Brightness</ulink> et <ulink url=\"https://fr.wikipedia.org/wiki/Pollution_lumineuse\">Pollution lumineuse</ulink>."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:524
 #, no-c-format
 msgid "All light scattered in the background sky is considered to be light pollution regardless of its source, so the effects of moonlight should be considered as \"natural\" light pollution. But weather conditions can also impact Sky Quality, as humidity or cloud cover can reflect and scatter any source of light through the atmosphere"
-msgstr ""
+msgstr "Toute lumière diffusée dans le fond du ciel est considérée comme de la pollution lumineuse quelque ce soit sa source, ainsi la « lumière » de la lune peut être considérée comme de la pollution lumineuse « naturelle ». Mais les conditions météorologiques peuvent également impacter la qualité du ciel ; ainsi, l'humidité ou la couverture nuageuse peuvent réfléchir ou diffuser toute source de lumière à travers l'atmosphère."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:526
 #, no-c-format
 msgid "A <ulink url=\"https://en.wikipedia.org/wiki/Sky_quality_meter\">Sky Quality Meter (SQM)</ulink> can provide the most accurate reading of sky quality if used during an imaging session, but an estimated value from sky quality surveys may also be found on the web at sites such as <ulink url=\"https://www.lightpollutionmap.info/\">www.lightpollutionmap.info</ulink> or <ulink url=\"https://clearoutside.com/\">www.clearoutside.com</ulink>. But these on-line sources for estimated light pollution generally do not account for the effects of moonlight or local weather conditions. So the values from light pollution web sites should only be considered as a “best case scenario” for a cloudless night during a new moon."
-msgstr ""
+msgstr "Un appareil de mesure de la qualité du ciel, en anglais <ulink url=\"https://en.wikipedia.org/wiki/Sky_quality_meter\">Sky Quality Meter (SQM)</ulink> permet d'obtenir la mesure la plus précise de la qualité du ciel durant une session d'imagerie mais d'autres sources sur Internet, comme <ulink url=\"https://www.lightpollutionmap.info/\">www.lightpollutionmap.info</ulink> ou <ulink url=\"https://clearoutside.com/\">www.clearoutside.com</ulink> permettent d'obtenir une valeur estimée. Mais ces sources sur Internet ne tiennent en général pas compte des effets de la « lumière » de la Lune et des conditions météorologiques locales. Elles ne représentent donc que le cas idéal d'une nuit sans nuage et à la nouvelle Lune."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:529
 #, no-c-format
 msgid "If a light pollution map value is used for the input value of SQM, but imaging will be performed with a partial moon, then a decrease in the input of the SQM value should be applied in the calculator. Moonlight can be overwhelming; at a location where a light pollution map showed an SQM value of 19.63. An SQM reading was made on a night with a waxing crescent, shortly before half-moon, (moon age 5.4, and KStars moon magnitude = -10). The SQM reading at zenith showed the sky to be much brighter with measured value of 18.48. A reading taken on a night with a waxing gibbous, shortly before a full moon, (moon age 12.4, and KStars moon magnitude = -12). The SQM reading at zenith showed a measured SQM value of 15.95."
-msgstr ""
+msgstr "Si une valeur provenant d'une carte de pollution lumineuse est utilisée comme valeur d'entrée de la qualité du ciel mais que la session d'imagerie est réalisé durant une lune partielle, il faudra diminuer cette valeur dans le calculateur d'exposition. L'impact de la « lumière » de la lune peut être très important ; par exemple, pour une valeur de 19.63 sur une carte, une lecture avec un appareil de mesure durant une lune croissante juste avant la demi-lune (âge la lune de 5.4 et magnitude dans KStars de -10), donne un résultat au zénith de 18.48, ce qui est bien plus brillant. De même, par une lune gibbeuse, juste après la pleine lune (âge la lune de 12.4 et magnitude dans KStars de -12), une lecture donne 15.95, ce qui est encore plus brillant."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:531
 #, no-c-format
 msgid "The value of Sky Quality has a drastic impact on the calculated exposure because of the logarithmic scale involved. An image taken from a location with heavy light pollution (a low sky quality value), especially when filtering is not applied, may result in a very short exposure time to prevent light pollution from overwhelming the target signal. An image taken from a location with very little light pollution (a high Sky Quality value) may result in an sub-exposure time of several hours."
-msgstr ""
+msgstr "La valeur de la qualité du ciel a un impact radical sur le temps d'exposition calculé en raison de l'échelle logarithmique. Une image prise depuis un endroit avec forte pollution lumineuse (donc une qualité du ciel basse), et particulièrement si aucun filtre n'est utilisé, aboutira à des durées d'exposition très faibles pour prévenir la pollution lumineuse de noyer le signal de la cible. Au contraire, une image prise dans d'excellentes conditions de qualité du ciel, impliquera des durées d'exposition de plusieurs heures."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:534
 #, no-c-format
 msgid "<guilabel>Focal Ratio</guilabel>: The selector for <guimenu>Focal Ratio</guimenu> set the value from the optical train, which is needed for the evaluation of light gathering capability."
-msgstr ""
+msgstr "<guilabel>Rapport F/D</guilabel> : le sélecteur pour ce <guimenu>rapport de focale</guimenu> règle la valeur à partir du train optique qui est nécessaire pour l'évaluation de la facilité à obtenir la lumière."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:536
 #, no-c-format
 msgid "The value of the focal ratio of the optic has a direct effect on the exposure calculation. A lower focal ratio is considered to be a \"faster optic\" as it has a greater light gathering capability than an optic with a longer focal ratio. So the exposure calculation will be reduced when a lower focal ratio is used, and increased when a higher focal ratio is used."
-msgstr ""
+msgstr "Cette valeur a un effet direct sur le calcul de la durée d'exposition. Un petit rapport est considéré comme une « optique rapide » puisqu'il permet d'obtenir beaucoup plus de lumière qu'une optique de rapport plus grand. Ainsi la durée d'exposition sera diminuée avec une optique de rapport faible et augmentée avec une optique de rapport plus grand."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:538
 #, no-c-format
 msgid "The user might consider making a slight adjustment to the input value of the focal ratio to compensate for the efficiency or for obstructions in the optic."
-msgstr ""
+msgstr "Il peut être intéressant d'ajuster légèrement cette valeur pour compenser le rendement ou les obstructions dans les optiques."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:540
 #, no-c-format
 msgid "For example, two optics of the same focal ratio, a refractor (with no obstruction) and a reflector (with a secondary mirror obstruction) would be treated as equivalent optics in the computations. One way that a user might compensate for this would be to make an adjustment to the focal ratio input value to compensate for the efficiency of the optic. A refractor is generally considered to have an efficiency of about 94%, a reflector is generally considered to have an efficiency of about 78%."
-msgstr ""
+msgstr "Prenons par exemple deux optiques de même rapport F/D, un réfracteur (sans obstruction) et un réflecteur (avec une obstruction dû au miroir secondaire) ; ces deux optiques seraient traitées de manière équivalentes dans les calculs. On pourrait compenser l'efficacité optique différente en tenant compte du fait qu'un réfracteur a une efficacité d'environ 94% alors que celle d'un réflecteur est d'environ 78%."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:542
 #, no-c-format
 msgid "An effective / adjusted focal ratio value for a refractor = Optic Focal Ratio / 0.94"
-msgstr ""
+msgstr "La compensation sera calculée pour un réfracteur ainsi : (rapport F/D) / 0.94."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:543
 #, no-c-format
 msgid "An effective / adjusted focal ratio value for a reflector = Optic Focal Ratio / 0.78"
-msgstr ""
+msgstr "Et pour un réflecteur : (Rapport F/D) / 0.78."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:544
 #, no-c-format
 msgid "These adjustments slightly increase the focal ratio, and therefore slightly reduce the computed light gathering capability considered in the calculation."
-msgstr ""
+msgstr "Ces ajustements augmentent un tout petit peu le rapport F/D et ainsi réduisent un peu l'efficacité de capture de lumière dans les calculs."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:547
 #, no-c-format
 msgid "<guilabel>Filter Bandwidth</guilabel>: The selector for <guimenu>Filter Bandwidth</guimenu> sets the value for the bandwidth (in nanometers), and should be reduced from the default value of 300 when a filter is included in the optical train. The inclusion of filters in the optic train will greatly effect the exposure calculation. The value ranges from 300, for imaging without any filter, down to 2.8 for an extreme narrow-band filter."
-msgstr ""
+msgstr "<guilabel>Largeur de bande du filtre</guilabel> : le sélecteur <guimenu>Largeur de bande du filtre</guimenu> règle la valeur de largeur de bande (en nanomètres) et devrait être réduit de la valeur par défaut de 300 quand un filtre est ajouté au train optique. L'ajout de filtres dans le train optique affectera grandement la durée d'exposition. La plage de valeur part de 300 pour une imagerie sans filtre jusqu'à 2.8 pour un filtre à bande très étroite."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:549
 #, no-c-format
 msgid "Filters fall generally into two categories: single band, or multi-band. The bandwidth for a single band filter should be relatively easy to determine or estimate. Generally a Red, Green or Blue filter is considered to have a bandwidth of 100 nanometers. Documentation of narrow-band filters will frequently state the bandwidth (usually in the range of 3 to 12 nm). But the bandwidth of multi-band astronomy filters, such as light-pollution filters, or filters specifically designed for use on nebulae may be more difficult to determine as their transmission profiles can be far more complex."
-msgstr ""
+msgstr "Les filtres tombent généralement dans deux catégories : bande simple et multi-bande. La largeur de bande pour un filtre à bande simple devrait être relativement simple à déterminer ou à estimer. En général, un filtre rouge, vert ou bleu possède une largeur de 100 nanomètres. La documentation des filtres multi-bande contient généralement la largeur de bande (habituellement entre 3 et 12 nm). Mais les largeurs de bande des filtre multi-bande tels que les filtres anti-pollution lumineuses ou ceux spécifiquement conçus pour les nébuleuses peuvent être bien plus difficiles à déterminer puisque leur profil de transmission sont bien plus complexes."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:550
 #, no-c-format
 msgid "Even within the bands that filters are intended to pass, filters are not 100% efficient. So a user of the calculator might wish to slightly reduce the value of the filter bandwidth to compensate for this. Example: if a filter is presumed to have a bandwidth of 100 nm but its transmission efficiency is only 92%, then a value of 92 might better represent this filter, and result in a slightly more accurate exposure calculation."
-msgstr ""
+msgstr "Les filtres ne sont pas 100% efficaces même dans les bandes qu'ils sont censés utiliser. Par conséquent, l'utilisateur du calculateur souhaitera légèrement réduire la valeur de la largeur de bande pour compenser cela. Par exemple, pour un filtre qui est censé posséder une largeur de bande de 100 nm mais dont l'efficacité de transmission n'est que de 92%, une valeur de 92 représentera probablement mieux ce filtre et conduira à une durée d'exposition un peu plus précise."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:553
 #, no-c-format
 msgid "The value of the filter bandwidth has an inverse effect on the exposure calculation. An unfiltered exposure would use the max value of 300 for the filter bandwidth (representing visible spectrum of 300 nanometers), and will produce the shortest exposure time calculation. An extreme narrow-band filter, (for example a 3 nanometer bandwidth), will produce the longest exposure time."
-msgstr ""
+msgstr "La valeur de la largeur de bande du filtre a un effet inversement proportionnel à la durée d'exposition. Une image prise sans filtre utilisera la valeur de 300 (ce qui représente le spectre visible de 300 nanomètres) et produira le temps d'exposition le plus court. À l'inverse, l'utilisation d'un filtre très étroit (par exemple 3 nanomètres) produira une durée d'exposition bien plus longue."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:557
 #, no-c-format
 msgid "<guilabel>Camera</guilabel>: The exposure calculation requires a value for the read noise of the camera. Camera read noise is an electronic noise that occurs at the completion of an exposure as the camera is measuring the analog voltage values of the pixels and converting these measurements into digital values. Read noise is not effected by the length of an exposure."
-msgstr ""
+msgstr "<guilabel>Appareil</guilabel> : le calcul de la durée d'exposition requiert de connaître la valeur du bruit de lecture de l'appareil. Ce bruit apparaît à la fin d'une exposition et provient du fait que l'appareil mesure des valeurs analogiques de la tension des pixels et les convertit ensuite en valeurs digitales. Ce bruit de lecture n'est pas affecté par la durée d'exposition."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:559
 #, no-c-format
 msgid "Camera sensors are one of two types: \"Charge Coupled Device\" (CCD) or \"Complementary Metal-Oxide Semiconductor\" (CMOS). For the exposure calculation the main difference between these sensor types is that CCD sensors do not have a variable gain setting that would impact the read noise; so a CCD sensor will have a single constant value for its read noise. A CMOS sensor does have a variable gain (or ISO value), and changes to that setting usually result in a change to the read noise."
-msgstr ""
+msgstr "Les appareils ont des capteurs de deux types : CCD (Charge Coupled Device) et CMOS (Complementary Metal-Oxide Semiconductor). La différence principale en ce qui concerne le calcul de la durée d'exposition est que les capteurs CCD ne possèdent pas de réglages du gain qui affecte le bruit de lecture ; ainsi, les capteurs CCD n'ont qu'une seule valeur constante pour leur bruit de lecture. Les capteurs CMOS ont un gain variable (ou valeur ISO) et une modification de ce paramètre affecte en général le bruit de lecture."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:560
 #, no-c-format
 msgid "The exposure calculator relies upon the selection of a camera data file so that it can access an appropriate read noise value for use in the calculation. The camera selection drop down allows the user to select an appropriate camera data file. For a CCD camera the file will only hold a single read noise value, but for a CMOS camera the file includes a table (or a few tables) of values which relate the gain or ISO value to a read noise value. Do not be confused by \"CCD\" appearing in the names of many dedicated astrophotography cameras, most of these cameras are using CMOS sensors."
-msgstr ""
+msgstr "Le calculateur d'exposition repose sur la connaissance des données de l'appareil pour pouvoir accéder à une valeur adéquate du bruit de lecture à utiliser dans le calcul. La liste déroulante permet de choisir le fichier approprié à l'appareil. Pour les appareils CCD, le fichier ne contient qu'une seule valeur mais pour les appareils CMOS, le fichier inclut une table (ou plusieurs) de valeurs qui associe le gain ou l'ISO à un bruit de lecture. No soyez pas déconcerté par le « CCD » apparaissant dans le nom de beaucoup d'appareils dédiés à l'astrophotographie car la plupart utilisent des capteurs CMOS."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:562
 #, no-c-format
 msgid "The camera data files provided in KStars contain values which are transcribed from manufacturers technical documentation. But actual read noise values for a camera may vary from the published data; so a user may which to utilize a tool that can determine the read noise values for their specific camera. Dr. Glover provides a sensor analysis tool in his MS-Windows based product SharpCap <ulink url=\"https://www.sharpcap.co.uk/sharpcap/features/sensor-analysis\">SharpCap Sensor Analysis</ulink> The specific data from such a tool can be used to create a customized camera data file for use with the KStars exposure calculator."
-msgstr ""
+msgstr "Les fichiers de données des appareils inclus dans KStars contiennent des valeurs traduites de la documentation techniques des constructeurs. Toutefois, les valeurs réelles du bruit de lecture peuvent varier des valeurs publiées ; ainsi, un utilisateur voudra éventuellement utiliser un outil dédié pour déterminer les vraies valeurs de bruit de lecture de leur appareil. Le Dr Glover fournit un outil d'analyse de capteur dans son outil <ulink url=\"https://www.sharpcap.co.uk/sharpcap/features/sensor-analysis\">SharpCap Sensor Analysis</ulink>. Les données obtenues par cet outil peuvent être utilisées pour créer un fichier personnalisé de données liées à un appareil et pourra être ensuite utilisé avec le calculateur d'exposition de KStars."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:565
 #, no-c-format
 msgid "<guilabel>Read Mode</guilabel>: Some cameras manufactured by QHY have the capability to function in multiple modes. These modes alter the read noise values, so the camera data files for these cameras include multiple read noise tables. When using one of these multi-mode cameras the Read Mode dropdown will become enabled, and allow the user to select the read mode table that would correspond to the mode in which the camera will be operated for imaging."
-msgstr ""
+msgstr "<guilabel>Mode lecture</guilabel> : certains appareils de la marque QHY ont la possibilité de fonctionner en plusieurs modes. Ces modes modifient les valeurs de bruit de lecture et ainsi les fichiers de données de ces appareils incluent plusieurs tables de bruit de lecture. Lors de l'utilisation de ce type d'appareils multi-modes, la liste déroulante deviendra active et permettra à l'utilisateur de choisir la table correspondante au mode utilisé par l'appareil pour l'imagerie."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:568
 #, no-c-format
 msgid "<guimenuitem>Exposure Time Graph</guimenuitem>: The calculator will present a graph of the potential exposure times determined from the inputs. In the case of CMOS based cameras, this graph will resemble the underlying read noise data from the camera, but is transformed into an exposure time over the range of possible gain or ISO values. In the case of CCD based cameras, the graph will be a simple bar, because the read noise of a CCD sensor is invariable."
-msgstr ""
+msgstr "<guilabel>Graphique de la durée d'exposition</guilabel> : le calculateur affiche un graphique des durées d'exposition potentielles déterminées par les paramètres d'entrée. Dans le cas des appareils à capteur CMOS, ce graphique ressemblera aux données de lecture de l'appareil mais sera transformé en durée d'exposition en fonction des différents gains ou ISO possibles. Pour les appareils CCD, le graphique sera une simple bar puisque le bruit de lecture est invariable."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:573
 #, no-c-format
 msgid "<guilabel>Gain / ISO Selection</guilabel>: For cameras with CMOS sensors, a Gain or ISO value can be selected. A Gain control will appear for cameras that allow a gain selection, and an ISO selection drop down will appear for DSLR cameras. Adjusting the gain / ISO value will move a selection indicator laterally along the exposure time graph to show how the selected gain value will effect the calculated exposure time."
-msgstr ""
+msgstr "<guilabel>Gain / ISO</guilabel> : les appareils ayant un capteur CMOS, une valeur de gain ou d'ISO peut être sélectionnée. Un bouton de contrôle de gain permet la sélection de gain et une liste déroulante permet ce choix pour les APN. L'ajustement de ces valeurs déplace un indicateur situé latéralement du graphique de durée d'exposition pour indiquer l'effet de ces valeurs sur la durée d'exposition."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:575
 #, no-c-format
 msgid "CMOS based cameras tend to have high read noise at low gain / ISO values, and the read noise diminishes as the Gain / ISO value is increased. So a user might be tempted to select a higher gain value in an attempt to reduce the amount of read noise. But the camera full well capacity would typically be highest when gain / ISO values are lowest. A greater full well capacity provides a greater dynamic range in the image."
-msgstr ""
+msgstr "Les appareils à capteur CMOS ont tendance à avoir un bruit de lecture élevé pour des valeurs de gain/ISO faibles, le bruit de lecture diminuant avec une augmentation du gain/ISO. L'utilisateur sera ainsi tenté de monter le gain/ISO pour réduire le bruit de lecture. Mais la pleine capacité de l'appareil est typiquement plus élevée pour des les gains les plus faibles. Les pleines capacités les plus élevées fournissent une plage dynamique de l'image plus large."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:576
 #, no-c-format
 msgid "Selection of a gain / ISO value would be dependent upon the imaging technique being employed. When a long exposure is desired (as with 'typical' DSO imaging), then a low gain / ISO value would usually be preferred to achieve a greater dynamic range in the image. But if a speckle technique ('lucky imaging') is being used, the exposure times would be so low that reducing read noise becomes critical, in such a case the user would likely prioritize a low read noise in the sub-exposures, and will likely need to select a high gain/ISO value."
-msgstr ""
+msgstr "Le choix d'un gain/ISO dépend de la technique d'imagerie utilisée. Pour les longues durées d'exposition (typiquement utilisées pour l'imagerie du ciel profond), une valeur de gain/ISO faible est préférée afin d'obtenir une plage dynamique plus grande. Mais pour l'imagerie à très courte pose, la réduction du bruit de lecture devient si critique qu'elle devient la priorité et il devient ainsi préférable d'utiliser une valeur de gain/ISO élevée."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:578
 #, no-c-format
 msgid "Some cameras may show a smooth progressive curve in the read-noise over the range of gain values, other cameras may have very pronounced steps (and other anomalies) in their read-noise. These pronounced steps are usually the result of electronic mode switching within the camera. In cases where the graph shows a pronounced step, the user may wish to select a gain value which is at the bottom of that step. This may provide a reduced read noise, and result in a shorter exposure without a significant loss in dynamic range when compared to an image shot at a gain selection that is at the top of that step. But caution is needed when selecting a gain near a “step” on the graph. Some posts on forums indicate that the read-noise data provided by manufacturer documentation may not be exact. The actual “switch” in read-noise may be at a slightly higher or lower gain value, so it is recommended to avoid selecting a gain value that is at a step in read noise."
-msgstr ""
+msgstr "Certains appareils présentent une courbe de bruit de lecture en fonction du gain très lisse, alors que d'autres en ont une en forme d'escalier (et d'autres anomalies). Ces derniers résultent en général de modes de basculement de l'électronique interne. Dans ces cas, il est préférable de choisir une valeur correspondant au bas d'une marche. Il y aura ainsi un bruit réduit et permettra une durée d'exposition plus courte sans perte significative de la plage dynamique comparée à un choix de gain situé sur le haut de la marche. Mais il faut faire attention pour les valeurs « près » d'une marche. Certains posts sur des forums spécialisés indiquent que les données de bruits de lecture fournies par les constructeurs ne seraient pas tout à fait exactes. Le basculement réel du bruit de lecture pourrait être légèrement plus élevé ou plus faible et il est ainsi recommandé d'éviter de choisir une valeur qui se trouve sur une marche."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:581
 #, no-c-format
 msgid "When using data from camera manufacturer documentation, avoid selecting a gain near a step"
-msgstr ""
+msgstr "Évitez d'utiliser une valeur de gain près d'une marche quand vous vous basez sur la documentation du constructeur."
 
 #. Tag: phrase
 #. +> trunk5
 #: ekos-capture.docbook:587
 #, no-c-format
 msgid "Avoid selecting gain near a step"
-msgstr ""
+msgstr "Évitez de choisir une valeur de gain près d'une marche"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:591
 #, no-c-format
 msgid "Instead, shift the gain selection away from the step"
-msgstr ""
+msgstr "Choisissez plutôt une valeur éloignée d'une marche"
 
 #. Tag: phrase
 #. +> trunk5
 #: ekos-capture.docbook:597
 #, no-c-format
 msgid "Shift gain away from such steps"
-msgstr ""
+msgstr "Éloignez-vous de telles marches"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:603
 #, no-c-format
 msgid "<guilabel>Noise Increase %</guilabel>: The <guimenu>'Noise Increase %'</guimenu> selector controls a factor used in Dr Glover's equation. This value will alter the relative balance between the two sources of noise in the sub-exposure. As a general rule, Dr Glover had recommended using a value of 5%, but lowering it to 2% when the computed exposure time is considered to be too short."
-msgstr ""
+msgstr "<guilabel>% d'augmentation du bruit</guilabel> : le sélecteur <guimenu>% d'augmentation du bruit</guimenu> est un paramètre utilisé dans l'équation du Dr Glover. Cette valeur modifie l'équilibre relatif entre les deux sources de bruit de l'image. Le Dr Glover recommande d'utiliser une valeur de 5% mais de la diminuer à 2% lorsque la durée d'exposition est considérée trop courte."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:605
 #, no-c-format
 msgid "The perspective of the \"increase\" is a relative increase in read-noise compared to noise from light pollution. It may seem counter-intuitive, but raising the value of 'Noise Increase %' will reduce the exposure time, reducing the noise from light pollution (and reducing the target signal), so the 'increase' means a relative increase in the effect of the read noise compared with the pollution noise. Lowering the value of 'Noise Increase %' will increase the exposure time, and will allow more noise from light pollution, (and more target signal), into the exposure. This effectively reduces the relative impact of read-noise."
-msgstr ""
+msgstr "Augmentation signifie ici une augmentation relative entre le bruit de lecture et celui de la pollution lumineuse. Cela peut paraître contre-intuitif, mais augmenter cette valeur diminue la durée d'exposition, diminuant ainsi le bruit de la pollution lumineuse (diminuant aussi le signal de la cible), ainsi augmenter signifie une augmentation relative de l'effet de bruit de lecture comparée au bruit de la pollution lumineuse. Au contraire, diminuer cette valeur augmente la durée d'exposition et ainsi le bruit de la pollution lumineuse (augmentant aussi le signal de la cible), ce qui a pour effet de réduire l'impact du bruit de lecture."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:606
 #, no-c-format
 msgid "In this implementation of the calculator, the value for the 'Noise Increase %' can be set to in a very broad range to allow a user a greater range for experimentation. But a user should recognize that large changes to this value can have undesired consequences. Forcing an exposure time down may cause the exposure to carry a relatively heavy burden from read noise, and would reduce the quality of the sub-exposure, (the ratio of exposure time to total noise will fall). As a result a significantly higher number of exposures for integration would be needed to achieve an acceptable level of quality. Forcing an exposure time up to long exposure might cause the exposure to have excessive noise from light pollution."
-msgstr ""
+msgstr "L'implémentation du calculateur permet de choisir des valeurs de « % d'augmentation du bruit » dans une très grande plage pour permettre à l'utilisateur d'expérimenter cet outil. Mais il devra s'attendre à obtenir des effets indésirables s'il teste avec des valeurs trop grandes. En forçant pour obtenir des durée d'exposition faibles, l'effet du bruit de lecture risque de devenir trop important et réduire ainsi la qualité des images. Au contraire, il risque d'augmenter l'effet de la pollution lumineuse."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:607
 #, no-c-format
 msgid "The value selected for the 'noise increase %' is also one which is dependent upon the imaging technique being employed. When a speckle technique ('lucky imaging') is being employed, the user will likely need to force the exposure time down to an extremely short duration (sub-second exposures are standard with this technique). So the user may need to drastically raise the value of 'noise increase %' to reduce the time of the sub-exposure down to the durations demanded by this technique."
-msgstr ""
+msgstr "Ce paramètre dépend également de la technique d'imagerie utilisée. Pour la technique d'imagerie rapide, il faudra certainement forcer la durée d'exposition vers le bas, typiquement vers des durée sous la seconde, ce qui implique d'augmenter drastiquement ce paramètre."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:613
 #, no-c-format
 msgid "Exposure Calculator Results"
-msgstr ""
+msgstr "Résultats du calculateur"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:617
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guilabel>Exposure</guilabel>: Specify exposure duration in seconds."
 msgid "<guilabel>Exposure Time (sec)</guilabel>: The calculated duration of an exposure."
-msgstr "<guilabel>Durée d'exposition</guilabel> : spécifie la durée d'exposition en secondes."
+msgstr "<guilabel>Durée d'exposition (s)</guilabel> : spécifie la durée d'exposition."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:621
 #, no-c-format
 msgid "<guilabel>Pollution Electrons</guilabel>: The calculated number of light pollution electrons per pixel impacting the exposure."
-msgstr ""
+msgstr "<guilabel>Électrons de pollution</guilabel> : le nombre calculé d'électrons de pollution par pixel impactant la durée d'exposition."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:625
 #, no-c-format
 msgid "<guilabel>Shot Noise</guilabel>: The calculated noise from light pollution impacting the exposure."
-msgstr ""
+msgstr "<guilabel>Bruit de l'image</guilabel> : le bruit calculé de la pollution lumineuse impactant la durée d'exposition."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:629
 #, no-c-format
 msgid "<guilabel>Total Noise</guilabel>: The calculated noise from both light pollution and image sensor read noise impacting the exposure."
-msgstr ""
+msgstr "<guilabel>Bruit total</guilabel> : le bruit calculé provenant de la pollution lumineuse et du bruit de lecture impactant la durée d'exposition."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:631
 #, no-c-format
 msgid "<emphasis role=\"bold\">Recognize the relationship of exposure time to total noise</emphasis>: The ratio of exposure time to exposure total noise can be thought of as a measurement of a potential quality for the exposure. Short exposures will contain a high amount of noise relative to their exposure time, so a shorter exposure would tend to be of relatively lower quality. Short exposures may still be viable, but a disproportionately higher number of short sub-exposures will be needed for integration to achieve an image of a desired quality."
-msgstr ""
+msgstr "<emphasis role=\"bold\">Interprétation du rapport durée d'exposition sur bruit total</emphasis> : ce nombre peut être interprété comme une mesure de la qualité potentielle d'une durée d'exposition. Les durées d'exposition courtes contiennent beaucoup de bruit par rapport à la durée d'exposition, et ainsi seront de moindre qualité. Elles restent viables mais il faudra un nombre proportionnellement trop important de prises à empiler pour obtenir une image de qualité acceptable."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:639
 #, no-c-format
 msgid "Stacking / Image Integration Information"
-msgstr ""
+msgstr "Information sur l'empilement des images"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:640
 #, no-c-format
 msgid "The value of image stacking is that as images are stacked, the accumulation of exposure time and the data that represents the target signal is increased proportionally with the added number of images being integrated, but the increase in noise is disproportionally lower. As a result, the quality of integrated images can be seen as curve which starts with a good “yield” when the first few sub-exposures are integrated, but this curve has diminishing returns as the number of sub-exposures being integrated is increased."
-msgstr ""
+msgstr "Cette valeur informe sur l'effet bénéfique d'empiler les images sur l'acquisition du signal de la cible. Le résultat est une courbe indiquant la qualité de l'empilement des images en fonction du nombre d'images, la qualité diminuant avec le nombre d'images."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:643
 #, no-c-format
 msgid "Ideally a desired signal to noise ratio (SNR) would be used for the measure of the level of quality of an image, but the exposure calculator does not possess an ability to recognize the strength of the signal from an intended imaging target, so it cannot calculate an estimated signal to noise ratio. So the level of quality to be specified in the stacking calculation is the integration time in seconds divided by the calculated noise in the integrated image, (a “Time/Noise Ratio”). For the purposes of the calculation, the “Time/Noise Ratio” can be considered as a partial analog to a signal to noise ratio. But the user must recognize that a specified time to noise ratio is not an absolute measure of the quality of all integrated images from all targets because a signal strength (magnitude or flux) is not part of this calculation."
-msgstr ""
+msgstr "Idéalement, un rapport signal sur bruit (SNR) devrait être utilisé pour mesurer le niveau de qualité des images, mais le calculateur ne permet pas de reconnaître la force du signal d'une image cible et ne peut ainsi pas calculer ce rapport. Le niveau de qualité dans le calcul d'empilement est la durée d'intégration en secondes divisée par le bruit. Ce rapport « Durée/bruit »> peut être considéré comme une analogie grossière du rapport signal sur bruit. Mais l'utilisateur doit garder en tête que le rapport « Durée/bruit » n'est pas une mesure absolue de la qualité de l'empilement des images de toutes les cibles puisque la force du signal (magnitude ou flux) ne fait pas partie du calcul."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:647
 #, no-c-format
 msgid "<guimenuitem>Table</guimenuitem>: A table provides details for stacking based upon the number of hours planned for imaging."
-msgstr ""
+msgstr "<guimenu>Table</guimenu> : un tableau fournit les détails de l'empilement en fonction du nombre d'heures planifiée pour l'imagerie."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:649
 #, no-c-format
-msgid "The table provides a quick reference for finding the approximate number of sub-exposures that might be completed for a given number of hours in an imaging session. But some functions that consume time are not included in this time calculation. For example, USB based cameras typically take some time for data transmission, or if the user has selected automatic dithering, additional time will be consumed in the imaging process, which is not included in this time calculation."
-msgstr ""
+msgid "The table provides a quick reference for finding the approximate number of sub-exposures that might be completed for a given number of hours in a imaging session. But some functions that consume time are not included in this time calculation. For example, USB based cameras typically take some time for data transmission, or if the user has selected automatic dithering, additional time will be consumed in the imaging process, which is not included in this time calculation."
+msgstr "Ce tableau fournit une indication rapide pour trouver le nombre idéal de trames à utiliser pour un nombre d'heures donné pour une session d'imagerie. Mais certaines étapes qui consomment beaucoup de temps ne sont pas inclues dans le calcul de la durée d'exposition. Par exemple, les appareils connectés via un câble USB prennent beaucoup de temps à transmettre les données. Ou encore le décalage automatique entre les prises. Ces étapes ajoutent du temps au processus d'imagerie et ne sont pas inclues dans le calcul."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:650
 #, no-c-format
 msgid "The far right column of the table shows the calculated time/noise ratio of the integrated (stacked) image that would be produced."
-msgstr ""
+msgstr "La colonne tout à droite indique le rapport « Durée/bruit » de l'image empilée qui sera produite."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:653
 #, no-c-format
 msgid "<guimenuitem>Graph</guimenuitem>: An interactive graph allows the user to visualize the relative change in potential quality for integrated images with various counts of sub-exposures applied in image stacking. This graph can be navigated through the adjustment of the time/noise ratio value; adjusting this value will recompute the quantity of sub-exposures required for the integrated image to achieve that specified time/noise ratio."
-msgstr ""
+msgstr "<guimenuitem>Graphique</guimenuitem> : un graphique interactif permet à l'utilisateur de visualiser les changements relatifs de la qualité potentielle des images empilées en fonction du nombre de trames utilisées pour l'empilement. En faisant varier ce rapport, le nombre de trames sera recalculée pour que l'image empilée atteigne ce rapport « Durée/bruit »."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:656
 #, no-c-format
 msgid "In the selection of a Time/Noise ratio for the calculation of the count of stacked exposures, the user might want consider the incremental change to the potential quality of the image from an additional sub-exposure. To help a user assess the value of increasing the number of sub-exposures for integration; the tool includes a calculation of the slope for the selected point on the time/noise curve (the user interface uses a delta symbol to present this value). This delta value represents the change in potential quality that will result from the addition or subtraction of a single sub-exposure."
-msgstr ""
+msgstr "Lors du choix du rapport Durée/Bruit pour le calcul du nombre de trames idéal à empiler, l'utilisateur souhaitera considérer le changement incrémental à la qualité potentielle de l'image d'une trame supplémentaire. Pour l'aider, l'outil inclut un calcul de la pente du point sélectionné sur la courbe de la durée en fonction du bruit (cette valeur est représentée par un symbole delta sur l'interface graphique). Ce delta représente la variation dans la qualité potentielle en ajoutant ou en soustrayant une trame."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:658
 #, no-c-format
 msgid "As one should expect, at the low-end of exposure counts (when a low value for the Time/Noise Ratio is input), the delta value will be relatively high, so the addition of one image will provide a relatively large improvement to the integrated image. But as a user increases the value for the Time/Noise Ratio, more images will be included for integration, and the delta value will fall, indicating that there is less to be gained from adding more sub-exposures."
-msgstr ""
+msgstr "Comme on peut s'y attendre, pour des petites valeurs du rapport Durée/Bruit, le delta sera relativement élevé, et ainsi l'ajout d'une trame aura un impact important sur l'image empilée. Mais en augmentant le rapport Durée/Bruit, davantage de trames seront inclues dan l'empilement et la valeur du delta va diminuer, indiquant que l'ajout de plus de trames devient de moins en moins intéressant."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:660
 #, no-c-format
 msgid "The default value for the time / noise ratio is set to 80. This value should not be construed in any way as an optimal value; it was simply chosen as a somewhat average value. A user should consider a few factors when adjusting the value of the time / noise ratio: 1) the strength of the target object, 2) the time / noise ratio of the calculated sub-exposure, 3) the limitations of time for imaging and processing, and limitations of storage capacity for the images."
-msgstr ""
+msgstr "La valeur par défaut pour le rapport Durée/Bruit est de 80. Cette valeur de devrait pas être considérée comme une valeur optimale. Elle a simplement été choisie comme une valeur moyenne. L'utilisateur doit tenir compte de plusieurs facteurs pour l'ajuster. 1) La brillance de l'objet cible, 2) le rapport Durée/Bruit des trames calculées et 3) la contrainte de temps pour la session d'imagerie et de traitement, ainsi que de la taille du médium d'enregistrement des images."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:663
 #, no-c-format
 msgid "For a strong target, (example, Orion Nebula with magnitude 4), would provide a relatively strong signal. On such a target, the value for the Time/Noise Ratio might be reduced and the computation of sub-exposures, may still produce an image with a very good signal to noise ratio. A much weaker target (example, Thor’s Helmet, magnitude 11), might require a higher time/noise ratio to compensate for the relatively weak target signal."
-msgstr ""
+msgstr "Les cibles brillantes (par exemple la nébuleuse d'Orion de magnitude 4) fournissent un signal relativement fort. Pour de telles cibles, le rapport Durée/Bruit peut être réduite et le calcul des trames produira toujours une images avec un très bon rapport Signal/Bruit. Les cibles plus faibles (par exemple le Bouclier de Thor de magnitude 11) nécessitent un rapport Durée/Bruit plus élevé pour compenser le signal relativement faible."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:667
 #, no-c-format
 msgid "Depending on the various inputs and imaging conditions, the potential quality of a sub-exposure can vary greatly. In poor sky quality with little or no filtering, the computed sub-exposure time will naturally be short to avoid an overwhelming noise from light pollution, and the exposure time relative to the computed noise will be low (a low time/noise ratio). To achieve a high quality integrated image from low time/noise ratio sub-exposures may require thousands sub-exposures. If the user is concerned about imaging and processing time or storage capacity; then a higher time/noise ratio would needed to reduce the quantity of sub-exposures. Conversely, when input conditions result in a sub-exposure with a long exposure time relative to the computed noise (as with narrow-band imaging), the result is a sub-exposure with a very high time/noise ratio. In such cases the default value of 80, might result in very few sub-exposures for the integration. But the delta value will be quite high, indicating that raising the time-noise ratio will greatly improve the potential quality of the integrated image."
-msgstr ""
+msgstr "Selon les différentes valeurs en entrée et les conditions d'imagerie, la qualité potentielle peut grandement varier. Dans des conditions de qualité de ciel mauvaise, la durée calculé des trames sera naturellement courte pour éviter l'effet important de bruit venant de la pollution lumineuse. Si la durée d'imagerie et de traitement, ainsi que la taille d'enregistrement des images sont des paramètres importants pour l'utilisateur, une augmentation du rapport Durée/Bruit sera nécessaire pour réduite la quantité de trames. À l'inverse, quand les conditions sont bonnes et que le rapport résulte en des trames de longues durées par rapport au bruit calculé (dans l'imagerie à filtre étroit par exemple), le résultat sera des trames avec un rapport Durée/Bruit très grand. Dans ce cas, la valeur par défaut de 80 conduira à peu de trames pour l'empilement. Mais la valeur delta sera plutôt haute, indiquant qu'augmenter le rapport Durée/Bruit améliorera de beaucoup la qualité potentielle de l'image empilée."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:671
 #, no-c-format
-msgid "Part of the value of using a Time/Noise ratio as the input for the calculation of the required number of sub-exposures is that it should tend to compensate for the differences in relative noise for sub-exposures of various lengths. A shorter sub-exposure would have a lower time/noise ratio, so it has less capacity to improve an integrated image. Therefore, a disproportionately higher number of short exposures are needed to achieve a given time/noise ratio in an integrated image."
-msgstr ""
+msgid "Part of the value of using a Time/Noise ratio as the input for the calculation of the required number of sub-exposures is that it should tend to compensate for the differences in relative noise for sub-exposures of various lengths. A shorter sub-exposure would have a lower time/noise ratio, so it has less capacity to improve a integrated image. Therefore, a disproportionately higher number of short exposures are needed to achieve a given time/noise ratio in an integrated image."
+msgstr "L'intérêt d'utiliser le rapport Durée/Bruit comme paramètre d'entrée pour le calcul du nombre idéal de trames est de compenser la différence de bruit relative lors de l'utilisation de trames de durée différentes. Les trames de petites durées ont un rapport Durée/Bruit plus petit et possède ainsi une moindre capacité à améliorer l'image empilée. Ainsi un nombre disproportionné de courtes expositions est nécessaire pour obtenir un rapport Durée/Bruit défini de l'image empilée."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:674
 #, no-c-format
 msgid "As an example, consider the calculation of the number of sub-exposures required when two sub-exposures times were compared: a 300 second sub-exposure vs a 30 second sub-exposure. The 300 second sub-exposure had a calculated noise of 22.1, resulting in a sub-exposure time/noise ratio of 13.6. When the 'noise increase %' is raised to force the exposure time down to 30 seconds, we see a calculated noise of 9.47, resulting in a much lower sub-exposure time/noise ratio of 3.2. The 300 second exposure is of significantly higher potential quality than the 30 second exposure. We will demand the default time/noise ratio of 80 for integration in both of these cases."
-msgstr ""
+msgstr "Prenons l'exemple du calcul du nombre de trames nécessaires en comparant deux durées de trames différentes : une trame de 300 secondes et une trame de 30 secondes. Celle de 300 secondes a un rapport calculé de 22.1 résultant en un rapport Durée/Bruit de 13.6. Quand le paramètre « % d'augmentation du bruit » est augmenté pour forcer la durée d'exposition à 30 secondes, on obtient une durée calculée de 9.47, ce qui donne un rapport Durée/Bruit de 3.2. Celle de 300 secondes a une qualité potentielle légèrement supérieure que celle de 30 secondes. On utilise le rapport Durée/Bruit par défaut de 80."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:676
 #, no-c-format
 msgid "For an integration using the 300 second sub-exposures we find that 34 sub-exposures are required to achieve a time/noise ratio of 80. So a total integration time of 2.83 hours is required."
-msgstr ""
+msgstr "Pour l'empilement des trames de 300 secondes, on trouve que 34 trames sont nécessaires pour obtenir le rapport Durée/Bruit de 80. Ce qui donne une durée totale d'exposition de 2.83 heures."
 
 #. Tag: phrase
 #. +> trunk5
 #: ekos-capture.docbook:683
 #, no-c-format
 msgid "300 Second sub-exposure"
-msgstr ""
+msgstr "Trames de 300 secondes"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:686
 #, no-c-format
 msgid "For an integration using the 30 second sub-exposures we find that 637 sub-exposures would be required to achieve a time/noise ratio of 80. So a total integration time of 5.31 hours is required with these shorter exposures to achieve the same time/noise ratio in the integrated image."
-msgstr ""
+msgstr "Pour l'empilement des trames de 30 secondes, on trouve que 637 trames sont nécessaires pour obtenir le rapport Durée/Bruit de 80. Ce qui donne une durée totale d'exposition de 5.31 heures avec ces trames plus courtes pour obtenir le même rapport Durée/Bruit de l'image empilée."
 
 #. Tag: phrase
 #. +> trunk5
 #: ekos-capture.docbook:692
 #, no-c-format
 msgid "30 Second sub-exposure"
-msgstr ""
+msgstr "Trame de 30 secondes"
 
 #. Tag: title
 #. +> trunk5

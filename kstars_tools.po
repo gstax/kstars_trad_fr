@@ -8,9 +8,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_tools_3.6.7\n"
+"Project-Id-Version: kstars_tools_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-06 11:29+0100\n"
+"POT-Creation-Date: 2021-07-22 10:31+0200\n"
 "PO-Revision-Date: 2023-02-07 14:07+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -95,28 +95,33 @@ msgstr "Affichage du système solaire"
 #. +> trunk5
 #: tools.docbook:17
 #, no-c-format
-msgid "Jupiter Moons Tool"
-msgstr "Outil des lunes de Jupiter"
+msgid "Ekos"
+msgstr "Ekos"
 
 #. Tag: link
 #. +> trunk5
 #: tools.docbook:18
 #, no-c-format
+msgid "Jupiter Moons Tool"
+msgstr "Outil des lunes de Jupiter"
+
+#. Tag: link
+#. +> trunk5
+#: tools.docbook:19
+#, no-c-format
 msgid "Observation Planner"
 msgstr "Planificateur d'observation"
 
+#. Tag: link
+#. +> trunk5
+#: tools.docbook:20
+#, no-c-format
+msgid "FITS Viewer"
+msgstr "Afficheur FITS"
+
 #. Tag: chapter
 #. +> trunk5
-#: tools.docbook:19
-#, fuzzy, no-c-format
-#| msgid "&tool-details; &tool-calculator; &tool-altvstime; &tool-eyepieceview; &tool-whatsup; &tool-scriptbuilder; &tool-solarsys; &tool-ekos; &tool-jmoons; &tool-obsplanner; &tool-fitsviewer;"
-msgid "&tool-details; &tool-calculator; &tool-altvstime; &tool-eyepieceview; &tool-whatsup; &tool-scriptbuilder; &tool-solarsys; &tool-jmoons; &tool-obsplanner;"
+#: tools.docbook:21
+#, no-c-format
+msgid "&tool-details; &tool-calculator; &tool-altvstime; &tool-eyepieceview; &tool-whatsup; &tool-scriptbuilder; &tool-solarsys; &tool-ekos; &tool-jmoons; &tool-obsplanner; &tool-fitsviewer;"
 msgstr "&tool-details; &tool-calculator; &tool-altvstime; &tool-eyepieceview; &tool-whatsup; &tool-scriptbuilder; &tool-solarsys; &tool-ekos; &tool-jmoons; &tool-obsplanner; &tool-fitsviewer;"
-
-#, no-c-format
-#~ msgid "Ekos"
-#~ msgstr "Ekos"
-
-#, no-c-format
-#~ msgid "FITS Viewer"
-#~ msgstr "Afficheur FITS"

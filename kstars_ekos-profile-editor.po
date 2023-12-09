@@ -1,19 +1,18 @@
 # Translation to French
-# SPDX-FileCopyrightText: 2023 Xavier BESNARD <xavier.besnard@neuf.fr>
 # steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_ekos-profile-editor_3.6.7\n"
+"Project-Id-Version: kstars_ekos-profile-editor_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-29 10:03+0200\n"
-"PO-Revision-Date: 2023-12-06 13:08+0100\n"
-"Last-Translator: Xavier BESNARD <xavier.besnard@neuf.fr>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2022-08-04 15:12+0200\n"
+"Last-Translator: steve <stax@ik.me>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 23.08.3\n"
+"X-Generator: Lokalize 20.12.0\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: title
@@ -77,7 +76,7 @@ msgstr "Vous pouvez définir des profils pour votre matériel et leur mode de co
 #: ekos-profile-editor.docbook:30
 #, no-c-format
 msgid "<guilabel>Connection Mode</guilabel>: Ekos can be started either locally or remotely. Local mode is when Ekos is running in the same machine as INDI server, &ie; all the devices are connected directly to the machine. If you run INDI server on a remote machine (for example, on a Raspberry PI), you need to set the INDI server host and port."
-msgstr "<guilabel>Mode de connexion</guilabel> : le logiciel Ekos peut être démarré soit en local soit à distance. Le mode en local est quand Ekos tourne sur la même machine que le serveur INDI, c'est-à-dire tous les périphériques sont connectés directement (physiquement) à la machine. Si vous exécutez le serveur INDI sur une machine distante (par exemple sur un Raspberry PI), vous devez configurer l'adresse de l'hôte du serveur INDI ainsi que son port d'écoute."
+msgstr "<guilabel>Mode de connexion</guilabel> : Ekos peut être démarré soit en local soit à distance. Le mode en local est quand Ekos tourne sur la même machine que le serveur INDI, c'est-à-dire tous les périphériques sont connectés directement (physiquement) à la machine. Si vous exécutez le serveur INDI sur une machine distante (par exemple sur un Raspberry PI), vous devez configurer l'adresse de l'hôte du serveur INDI ainsi que son port d'écoute."
 
 #. Tag: para
 #. +> trunk5
@@ -98,7 +97,7 @@ msgstr "<guilabel>Sélecteur de port</guilabel> : cochez cette option pour acti
 #: ekos-profile-editor.docbook:45
 #, no-c-format
 msgid "<guilabel>Site Info</guilabel>: Optionally, you can check the <guilabel>Site Info</guilabel> checkbox and Ekos will load the <emphasis role=\"bold\">current</emphasis> city and timezone whenever is Ekos is started with this profile. This can be useful when connecting to the remote geographic site so that Ekos is in sync location and time wise."
-msgstr "<guilabel>Informations sur la position</guilabel> : sélectionnez cette option si vous souhaitez que Ekos charge les données de position et de fuseau horaire <emphasis role=\"bold\">courantes</emphasis> au démarrage avec ce profil. Cela peut être utile lorsque vous vous connectez à un emplacement géographiquement distant et pour que Ekos puisse se synchroniser."
+msgstr "<guilabel>Informations sur la position</guilabel> : sélectionnez cette option si vous souhaitez qu'Ekos charge les données de position et de fuseau horaire <emphasis role=\"bold\">courantes</emphasis> au démarrage avec ce profil. Cela peut être utile lorsque vous vous connectez à un emplacement géographiquement distant et pour qu'Ekos puisse se synchroniser."
 
 #. Tag: para
 #. +> trunk5
@@ -119,7 +118,7 @@ msgstr "<guilabel>Gestionnaire Web INDI</guilabel> : le gestionnaire web de Ste
 #: ekos-profile-editor.docbook:60
 #, no-c-format
 msgid "<guilabel>Device Selection</guilabel>: Select your devices from each category. Please note that if you have a CCD with a guide head, you can leave the guider drop-down menu <emphasis>blank</emphasis> as Ekos will auto-detect the guide head from the CCD camera. Similarly, if your CCD includes embedded filter wheel support, then you do <emphasis>not</emphasis> need to specify the filter wheel device in the filter drop-down menu."
-msgstr "<guilabel>Sélection de périphériques</guilabel> : sélection de périphériques par catégories. Veuillez noter que si vous possédez un CCD avec un guide, vous pouvez laisser <emphasis>vide</emphasis> la liste déroulante du guide puisque Ekos détectera automatiquement le guide depuis le CCD. De même, si votre CCD intègre une roue à filtres, vous ne devez <emphasis>pas</emphasis> spécifier de périphérique de roue à filtres dans le menu de la liste déroulante."
+msgstr "<guilabel>Sélection de périphériques</guilabel> : sélection de périphériques par catégories. Veuillez noter que si vous possédez un CCD avec un guide, vous pouvez laisser <emphasis>vide</emphasis> la liste déroulante du guide puisqu'Ekos détectera automatiquement le guide depuis le CCD. De même, si votre CCD intègre une roue à filtres, vous ne devez <emphasis>pas</emphasis> spécifier de périphérique de roue à filtres dans le menu de la liste déroulante."
 
 #. Tag: para
 #. +> trunk5
@@ -156,7 +155,7 @@ msgstr "Démarrer &amp; Arrêter INDI"
 #: ekos-profile-editor.docbook:88
 #, no-c-format
 msgid "Start and Stop INDI services. Once INDI server is established, INDI Control Panel will be displayed. Here you can change some driver options such as which port the device is connected to &etc;"
-msgstr "Démarrer et arrêter les services « INDI ». Le tableau de bord « INDI » sera affiché dès que le serveur « INDI » aura démarré. Vous pouvez modifier ici quelques options des pilotes comme les ports de connexion &etc;"
+msgstr "Démarrer et arrêter les services INDI. Le tableau de bord d'INDI sera affiché dès que le serveur INDI aura démarré. Vous pouvez modifier ici quelques options des pilotes comme les ports de connexion &etc;"
 
 #. Tag: term
 #. +> trunk5
@@ -170,7 +169,7 @@ msgstr "Connecter &amp; Déconnecter les périphériques"
 #: ekos-profile-editor.docbook:96
 #, no-c-format
 msgid "Connect to INDI server. Based on the devices connected, Ekos modules (CCD, Focus, Guide, &etc;) will be established and available to use."
-msgstr "Connexion au serveur INDI. Selon les périphériques connectés, les modules de Ekos (CCD, Mise au point, Guidage, &etc;) seront démarrés et prêt à être utilisés."
+msgstr "Connexion au serveur INDI. Selon les périphériques connectés, les modules EKOS (CCD, Mise au point, Guidage, &etc;) seront démarrés et prêt à être utilisés."
 
 #. Tag: para
 #. +> trunk5

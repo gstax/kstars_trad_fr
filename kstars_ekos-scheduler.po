@@ -1,19 +1,18 @@
 # Traduction de kstars_ekos-scheduler en français
-# SPDX-FileCopyrightText: 2023 Xavier BESNARD <xavier.besnard@neuf.fr>
 # steve <stax@ik.me>, 2022 2023.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_ekos_scheduler_3.6.7\n"
+"Project-Id-Version: kstars_ekos_scheduler_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-12 12:51+0100\n"
-"PO-Revision-Date: 2023-12-06 18:25+0100\n"
-"Last-Translator: Xavier BESNARD <xavier.besnard@neuf.fr>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2023-12-09 15:56+0100\n"
+"Last-Translator: steve <stax@ik.me>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 23.08.3\n"
+"X-Generator: Lokalize 20.12.0\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: title
@@ -159,7 +158,7 @@ msgstr "L'algorithme montre l'heure projetée de départ et d'arrêt pour toutes
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:75
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "The scheduling algorithm described in the above paragraph is known as the Greedy Scheduling algorithm. It is the recommended one to use. In previous versions of Ekos, there was another \"Classic scheduling algorithm\" which is currently being phased out. That scheme could not preempt running jobs, and thus did not make as much use of the equipment as the Greedy Algorithm."
 msgid "The scheduling algorithm described in the above paragraph is known as the Greedy Scheduling algorithm. It is the recommended one to use. In previous versions of Ekos, there was another \"Classic scheduling algorithm\" which is no longer in Ekos. That scheme could not preempt running jobs, and thus did not make as much use of the equipment as the Greedy Algorithm."
 msgstr "L'algorithme décrit ci-dessus est connu comme l'algorithme Greedy. C'est celui qui est recommandé. Dans des versions précédentes d'Ekos, il y avait un autre algorithme, nommé Classique, qui est en phase d'être abandonnée. Il ne pouvait pas mettre en pause une tâche en faveur d'une autre et donc n'optimisait pas l'équipement autant que l'algorithme Greedy."
@@ -169,7 +168,7 @@ msgstr "L'algorithme décrit ci-dessus est connu comme l'algorithme Greedy. C'es
 #: ekos-scheduler.docbook:78
 #, no-c-format
 msgid "There is a checkbox option in the scheduler options menu called <guilabel>Use greedy scheduling</guilabel> which defaults to being checked. The system works as described above when it is checked. When it is unchecked the scheduler is prevented from scheduling lower priority jobs when uncompleted higher priority jobs cannot run. This results in less efficient use of the system, but may give you more control over scheduling."
-msgstr ""
+msgstr "Il y a une option à cocher dans le menu des options de l'ordonnanceur nommée <guilabel>Utiliser l'ordonnanceur Greedy</guilabel> qui est cochée par défaut. Le système fonctionne comme décrit ci-dessus quand elle est cochée. Lorsqu'elle est décochée, le système est empêché de traiter les tâches de plus basse priorité si les tâches de plus haute priorité ne peuvent être exécutées. L'efficacité de l'utilisation du système est moindre mais donne davantage de contrôle sur l'ordonnanceur."
 
 #. Tag: title
 #. +> trunk5
@@ -688,7 +687,7 @@ msgstr ""
 "import time\n"
 "import sys\n"
 "\n"
-"print « Mise sous tension de l'observatoire&hellip; »\n"
+"print \"Mise sous tension de l'observatoire&hellip;\"\n"
 "sys.stdout.flush()\n"
 "\n"
 "time.sleep(5)\n"
@@ -778,7 +777,7 @@ msgstr "Le <guilabel>planificateur de mosaïques</guilabel> de l'ordonnanceur d'
 #: ekos-scheduler.docbook:433
 #, no-c-format
 msgid "<emphasis role=\"bold\">Confirm Equipment</emphasis>: Ekos attempts to load equipment settings from INDI. If unsuccessful, you need to enter your equipment settings including your telescope focal length in addition to camera's width, height, and pixel dimensions. The settings are saved for future sessions."
-msgstr "<emphasis role=\"bold\">Confirmation du matériel</emphasis> : le logiciel Ekos tente de charger les réglages du matériel depuis INDI. En cas d'échec, il faut saisir les paramètres du matériel tels que longueur focale du télescope, les dimensions du capteur CCD (largeur, hauteur, taille des pixels). Ces réglages seront enregistrés pour les sessions futures."
+msgstr "<emphasis role=\"bold\">Confirmation du matériel</emphasis> : Ekos tente de charger les réglages du matériel depuis INDI. En cas d'échec, il faut saisir les paramètres du matériel tels que longueur focale du télescope, les dimensions du capteur CCD (largeur, hauteur, taille des pixels). Ces réglages seront enregistrés pour les sessions futures."
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -869,7 +868,7 @@ msgstr "<phrase>Ajustement de la grille</phrase>"
 #: ekos-scheduler.docbook:506
 #, no-c-format
 msgid "<emphasis role=\"bold\">Create Jobs</emphasis>: The final step is to select the sequence file and directory to store the images. Target field may be automatically filled but may be changed as desired. Select the steps each scheduler job should execute in sequence (Track -> Focus -> Align -> Guide -> Capture), and adjust the frequency of automatic alignment and focus routines that must be executed during the mosaic operation. For example, if <guilabel>Align Every</guilabel> is set to 2 Scheduler Jobs, then the first job will run the astrometry alignment, while the second job will skip it. When the third job is executed, alignment is performed again and so forth."
-msgstr "<emphasis role=\"bold\">Création des tâches</emphasis> : l'étape finale consiste en la sélection du fichier séquence et le dossier d'enregistrement des images. Le champ cible est automatiquement renseigné mais peut être modifié à convenance. Sélectionner les différentes étapes de la tâche (Suivre / Mise au point / Alignement / Guidage / Acquisition) et régler la fréquence de rafraîchissement de l'alignement et de la mise au point durant l'exécution de la tâche. Par exemple, si <guilabel>Aligner tous les</guilabel> est réglé à 2 tâches, alors la première tâche exécutera un alignement alors que la suivante ne l'exécutera pas. Et la troisième l'exécutera à nouveau et ainsi de suite."
+msgstr "<emphasis role=\"bold\">Création des tâches</emphasis> : l'étape finale consiste en la sélection du fichier séquence et le dossier d'enregistrement des images. Le champ cible est automatiquement renseigné mais peut être modifié à convenance. Sélectionner les différentes étapes de la tâche (Suivre -> Mise au point -> Alignement -> Guidage -> Acquisition) et régler la fréquence de rafraîchissement de l'alignement et de la mise au point durant l'exécution de la tâche. Par exemple, si <guilabel>Aligner tous les</guilabel> est réglé à 2 tâches, alors la première tâche exécutera un alignement alors que la suivante ne l'exécutera pas. Et la troisième l'exécutera à nouveau et ainsi de suite."
 
 #. Tag: para
 #. +> trunk5

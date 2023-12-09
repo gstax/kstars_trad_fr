@@ -5,37 +5,33 @@
 # Ludovic Grossard <grossard@kde.org>, 2002, 2003, 2004, 2007, 2012, 2013.
 # Stanislas Zeller <uncensored.assault@gmail.com>, 2008.
 # steve <stax@ik.me>, 2022.
-# SPDX-FileCopyrightText: 2023 Xavier BESNARD <xavier.besnard@neuf.fr>
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_quicktour_3.6.7\n"
+"Project-Id-Version: kstars_quicktour_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-06 11:29+0100\n"
-"PO-Revision-Date: 2023-12-06 14:09+0100\n"
-"Last-Translator: Xavier BESNARD <xavier.besnard@neuf.fr>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2021-07-28 09:15+0200\n"
+"PO-Revision-Date: 2023-07-10 16:24+0200\n"
+"Last-Translator: steve <stax@ik.me>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.08.3\n"
 
 #. Tag: title
 #. +> trunk5
 #: quicktour.docbook:2
-#, fuzzy, no-c-format
-#| msgid "A Quick Tour of &kstars;"
-msgid "A Quick Tour of the &kstars; Skymap"
+#, no-c-format
+msgid "A Quick Tour of &kstars;"
 msgstr "Un survol de &kstars;"
 
 #. Tag: para
 #. +> trunk5
 #: quicktour.docbook:4
-#, fuzzy, no-c-format
-#| msgid "This chapter presents a guided tour of &kstars;, introducing many of its important features."
-msgid "This chapter presents a guided tour of the &kstars; skymap, introducing many of its important features."
+#, no-c-format
+msgid "This chapter presents a guided tour of &kstars;, introducing many of its important features."
 msgstr "Ce chapitre propose une visite guidée de &kstars; et introduit beaucoup de concepts et fonctionnalités importantes."
 
 #. Tag: screeninfo
@@ -57,7 +53,7 @@ msgstr "Fenêtre principale"
 #: quicktour.docbook:23
 #, no-c-format
 msgid "The above screenshot shows a typical view of the &kstars; program. You can see the sky display centered on Betelgeuse, the brightest star in the constellation Orion. Stars are displayed with <link linkend=\"ai-colorandtemp\">realistic colors</link> and relative brightnesses. In three corners of the sky display, there are on-screen text labels displaying data on the current time (<quote>LT: 3:08:30 AM EEST Wednesday, July 6, 2016</quote>), the current Geographic Location (<quote>Bucharest, Romania</quote>), and the current object in the center of the display (<quote>Focused on: Betelgeuse (alpha Orionis)</quote>). Above the sky display, there are two toolbars. The main toolbar contains shortcuts for <link linkend=\"kstars-menus\">menu functions</link>, as well as a time-step widget which controls how fast the simulation clock runs. The view toolbar contains buttons that toggle the display of different kinds of objects in the sky. At the bottom of the window, there is a status bar which displays the name of any object you click on, and the <link linkend=\"ai-skycoords\">sky coordinates</link> (both Right Ascension/Declination and Azimuth/Altitude) of the mouse cursor."
-msgstr "La capture d'écran ci-dessus affiche une vue typique du programme &kstars;. On peut voir l'affichage du ciel centré sur Bételgeuse, l'étoile la plus brillante dans la constellation d'Orion. Les étoiles sont présentées avec des <link linkend=\"ai-colorandtemp\">couleurs réalistes</link> et une brillance relative. Dans trois coins de l'affichage du ciel, il y a des étiquettes affichant des informations sur l'heure actuelle (<quote>Heure locale : 20:16:20 h mercredi, 04 mai 2022</quote>), la position géographique actuelle (<quote>Pic du Midi (observatoire du), Hautes-Pyrénées, France</quote>) et l'objet actuel au centre de l'affichage (<quote>Bételgeuse (α Orionis)</quote>). Au-dessus de l'affichage du ciel, se trouvent deux barres d'outils. La barre principale contient des raccourcis pour les <link linkend=\"kstars-menus\">fonctions de menus</link>, ainsi qu'un composant graphique de pas temporel contrôlant la vitesse de l'horloge de simulation. La barre d'affichage contient des boutons qui activent l'affichage de différentes sortes d'objets dans le ciel. Au bas de la fenêtre se trouve une barre d'état affichant le nom de l'objet sur lequel vous avez cliqué et les <link linkend=\"ai-skycoords\">coordonnées célestes</link> (à la fois l'ascension droite et la déclinaison ainsi que l'azimut et l'élévation) du pointeur de la souris."
+msgstr "La capture d'écran ci-dessus affiche une vue typique du programme &kstars;. On peut voir l'affichage du ciel centré sur Bételgeuse, l'étoile la plus brillante dans la constellation d'Orion. Les étoiles sont présentées avec des <link linkend=\"ai-colorandtemp\">couleurs réalistes</link> et une brillance relative. Dans trois coins de l'affichage du ciel, il y a des étiquettes affichant des informations sur l'heure actuelle (<quote>Heure locale : 20:16:20 h mercredi, 4 mai 2022</quote>), la position géographique actuelle (<quote>Pic du Midi (obs. du), Hautes-Pyrénées, France</quote>) et l'objet actuel au centre de l'affichage (<quote>Bételgeuse (α Orionis)</quote>). Au-dessus de l'affichage du ciel, se trouvent deux barres d'outils. La barre principale contient des raccourcis pour les <link linkend=\"kstars-menus\">fonctions de menus</link>, ainsi qu'un composant graphique de pas temporel contrôlant la vitesse de l'horloge de simulation. La barre d'affichage contient des boutons qui activent l'affichage de différentes sortes d'objets dans le ciel. Au bas de la fenêtre se trouve une barre d'état affichant le nom de l'objet sur lequel vous avez cliqué et les <link linkend=\"ai-skycoords\">coordonnées célestes</link> (à la fois l'ascension droite et la déclinaison ainsi que l'azimut et l'élévation) du pointeur de la souris."
 
 #. Tag: title
 #. +> trunk5
@@ -235,7 +231,7 @@ msgstr "Survol"
 #: quicktour.docbook:168
 #, no-c-format
 msgid "&kstars; displays thousands of celestial objects: stars, planets, comets, asteroids, clusters, nebulae and galaxies. You can interact with displayed objects to perform actions on them or obtain more information about them. Clicking on an object will identify it in the status bar, and simply hovering the mouse cursor on an object will label it temporarily in the map. Double-clicking will recenter the display on the object and begin tracking it (so that it will remain centered as time passes). <mousebutton>Right</mousebutton> clicking an object opens the object's popup menu, which provides more options."
-msgstr "&kstars; affiche des milliers d'objets célestes : étoiles, planètes, comètes, astéroïdes, amas, nébuleuses et galaxies. Vous pouvez interagir avec les objets affichés et réaliser des actions sur eux ou obtenir plus d'informations à leur propos. En cliquant sur un objet, il s'identifie dans la barre d'état, et simplement en le survolant avec le pointeur de souris, un libellé s'affichera temporairement sur la carte. En double-cliquant, l'affichage se recentrera sur l'objet et commencera un suivi (de telle manière qu'il restera centré quand le temps s'écoulera). Un clic du bouton <mousebutton>droit</mousebutton> sur un objet fera apparaître un menu contextuel qui proposera d'autres options."
+msgstr "&kstars; affiche des milliers d'objets célestes : étoiles, planètes, comètes, astéroïdes, amas, nébuleuses et galaxies. Vous pouvez interagir avec les objets affichés et réaliser des actions sur eux ou obtenir plus d'informations à leur propos. En cliquant sur un objet, il s'identifie dans la barre d'état, et simplement en le survolant avec la souris, un libellé s'affichera temporairement sur la carte. En double-cliquant, l'affichage se recentrera sur l'objet et commencera un suivi (de telle manière qu'il restera centré quand le temps s'écoulera). Un clic du bouton <mousebutton>droit</mousebutton> sur un objet fera apparaître un menu contextuel qui proposera d'autres options."
 
 #. Tag: title
 #. +> trunk5
@@ -378,7 +374,7 @@ msgstr "La fenêtre contient la liste de (presque, voire <xref linkend=\"catalog
 #: quicktour.docbook:278
 #, no-c-format
 msgid "&kstars; provides another method for resolving the objects that are missing from any of its predefined catalogues, by using an internet connection. Thus, if you want to find an object that &kstars; is not aware of, you can easily do this by querying several professional astronomical databases as: SIMBAD, NED or VizieR. This can be done by entering the object's name and then press the <guibutton>or search the internet for <replaceable>ObjectName</replaceable></guibutton> button. After your object is found, you can use it exactly as any object that is already loaded into &kstars; (&ie; adding it to the Observing WishList). If the object was not found in the online databases, then a warning dialogue will pop-up. Once you resolve an object by using this method, it is stored in &kstars; database, so if you close &kstars; and open it again, your object will still be there."
-msgstr "&kstars; fournit une autre méthode pour résoudre les objets qui sont absents des catalogues prédéfinis, qui est d'utiliser une recherche en ligne. Ainsi, si vous souhaitez trouver un objet que &kstars; ne connaît pas, vous pouvez le faire facilement en questionnant plusieurs bases de données astronomiques comme SIMBAD, NED ou encore VizieR. Cela peut être fait en indiquant le nom de l'objet et ensuite en cliquant sur le bouton <guibutton>Chercher <replaceable>ObjectName</replaceable> sur Internet</guibutton>. Une fois l'objet trouvé, vous pouvez l'utiliser de la même manière que n'importe quel autre objet déjà chargé dans &kstars; (c'est-à-dire l'ajouter dans votre liste de souhaits). Si il a été impossible de trouver l'objet dans les bases de données en ligne, un message d'avertissement apparaîtra. Une fois qu'un objet a été trouvé par cette méthode, il sera ajouté à la base de données de &kstars; pour pouvoir être utilisé ultérieurement."
+msgstr "&kstars; fournit une autre méthode pour résoudre les objets qui sont absents des catalogues prédéfinis, qui est d'utiliser une recherche en ligne. Ainsi, si vous souhaitez trouver un objet que &kstars; ne connaît pas, vous pouvez le faire facilement en questionnant plusieurs bases de données astronomiques comme SIMBAD, NED ou encore VizieR. Cela peut être fait en indiquant le nom de l'objet et ensuite en cliquant sur le bouton <guibutton>Chercher <replaceable>ObjectName</replaceable> sur Internet</guibutton>. Une fois l'objet trouvé, vous pouvez l'utiliser de la même manière que n'importe quel autre objet déjà chargé dans &kstars; (c'est-à-dire l'ajouter dans votre liste de souhaits). Si l'objet n'a pas été trouvé dans les bases de données en ligne, un message d'avertissement apparaîtra. Une fois qu'un objet a été trouvé par cette méthode, il sera ajouté à la base de données de &kstars; pour pouvoir être utilisé ultérieurement."
 
 #. Tag: para
 #. +> trunk5
@@ -559,7 +555,6 @@ msgstr "Fin de la visite"
 #. Tag: para
 #. +> trunk5
 #: quicktour.docbook:425
-#, fuzzy, no-c-format
-#| msgid "This concludes the tour of &kstars;, although we have only scratched the surface of the available features. &kstars; includes many useful <link linkend=\"tools\">astronomy tools</link>, it can directly <link linkend=\"indi\">control your telescope</link>, and it offers a wide variety of <link linkend=\"config\">configuration and customization options</link>. In addition, this Handbook includes the <link linkend=\"astroinfo\">AstroInfo Project</link>, a series of short, interlinked articles explaining some of the celestial and astrophysical concepts behind &kstars;."
-msgid "This concludes the tour of the &kstars; skymap, although we have only scratched the surface of the available features. &kstars; includes many useful <link linkend=\"tools\">astronomy tools</link>, it can directly <link linkend=\"indi\">control your telescope</link>, and it offers a wide variety of <link linkend=\"config\">configuration and customization options</link>. In addition, this Handbook includes the <link linkend=\"astroinfo\">AstroInfo Project</link>, a series of short, interlinked articles explaining some of the celestial and astrophysical concepts behind &kstars;."
+#, no-c-format
+msgid "This concludes the tour of &kstars;, although we have only scratched the surface of the available features. &kstars; includes many useful <link linkend=\"tools\">astronomy tools</link>, it can directly <link linkend=\"indi\">control your telescope</link>, and it offers a wide variety of <link linkend=\"config\">configuration and customization options</link>. In addition, this Handbook includes the <link linkend=\"astroinfo\">AstroInfo Project</link>, a series of short, interlinked articles explaining some of the celestial and astrophysical concepts behind &kstars;."
 msgstr "Ceci conclut la visite de &kstars;, bien que nous ayons à peine égratigné la surface des fonctionnalités disponibles. &kstars; inclut beaucoup d'<link linkend=\"tools\">outils astronomiques</link>, il peut contrôler directement <link linkend=\"indi\">votre télescope</link>, et il offre une grande variété d'options de <link linkend=\"config\">configuration et de personnalisation</link>. De plus, ce manuel inclut le <link linkend=\"astroinfo\">Projet AstroInfo</link>, une série de petits articles liés entre eux, expliquant certains des concepts célestes et astrophysiques qui sous-tendent &kstars;."

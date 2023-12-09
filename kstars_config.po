@@ -6,22 +6,21 @@
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2012, 2013.
 # xavier <ktranslator31@yahoo.fr>, 2012.
 # steve <stax@ik.me>, 2022, 2023.
-# SPDX-FileCopyrightText: 2023 Xavier BESNARD <xavier.besnard@neuf.fr>
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_config_3.6.7\n"
+"Project-Id-Version: kstars_config_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-06 11:29+0100\n"
-"PO-Revision-Date: 2023-12-06 21:22+0100\n"
-"Last-Translator: Xavier BESNARD <xavier.besnard@neuf.fr>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2023-10-23 10:13+0200\n"
+"PO-Revision-Date: 2023-12-09 16:17+0100\n"
+"Last-Translator: steve <stax@ik.me>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.08.3\n"
+"X-Generator: Lokalize 20.12.0\n"
 
 #. Tag: title
 #. +> trunk5
@@ -215,6 +214,7 @@ msgstr "<phrase>Fenêtre de configuration de &kstars;</phrase>"
 #. +> trunk5
 #: config.docbook:143
 #, no-c-format
+#| msgid "The <guilabel>Configure - &kstars;</guilabel> window is divided into twelve pages: <guilabel>Catalogs</guilabel>, <guilabel>Solar System</guilabel>, <guilabel>Satellites</guilabel>, <guilabel>Supernovae</guilabel>, <guilabel>Guides</guilabel>, <guilabel>Terrain</guilabel>, <guilabel>Colors</guilabel>, <guilabel>FITS</guilabel>, <guilabel>INDI</guilabel>, <guilabel>Ekos</guilabel>, <guilabel>Xplanet</guilabel> and <guilabel>Advanced</guilabel>."
 msgid "The <guilabel>Configure - &kstars;</guilabel> window is divided into fourteen pages: <guilabel>Catalogs</guilabel>, <guilabel>Solar System</guilabel>, <guilabel>Satellites</guilabel>, <guilabel>Supernovae</guilabel>, <guilabel>Guides</guilabel>, <guilabel>Terrain</guilabel>, <guilabel>Image Overlays</guilabel>, <guilabel>Colors</guilabel>, <guilabel>FITS</guilabel>, <guilabel>INDI</guilabel>, <guilabel>Ekos</guilabel>, <guilabel>Xplanet</guilabel>, <guilabel>Advanced</guilabel> and <guilabel>Developer</guilabel>."
 msgstr "La fenêtre <guilabel>Configuration de &kstars;</guilabel> est divisée en quatorze pages : <guilabel>Catalogues</guilabel>, <guilabel>Système solaire</guilabel>, <guilabel>Satellites</guilabel>, <guilabel>Supernovae</guilabel>, <guilabel>Guides</guilabel>, <guilabel>Terrain</guilabel>, <guilabel>Superposition d'image</guilabel>, <guilabel>Couleurs</guilabel>, <guilabel>FITS</guilabel>, <guilabel>INDI</guilabel>, <guilabel>Ekos</guilabel>, <guilabel>Xplanet</guilabel>, <guilabel>Avancé</guilabel> et <guilabel>Développeurs</guilabel>."
 
@@ -343,6 +343,7 @@ msgstr "Page de superposition d'image"
 #. +> trunk5
 #: config.docbook:213
 #, no-c-format
+#| msgid "<primary>Catalogs</primary>"
 msgid "<primary>Image Overlays</primary>"
 msgstr "<primary>Superposition d'image</primary>"
 
@@ -350,6 +351,7 @@ msgstr "<primary>Superposition d'image</primary>"
 #. +> trunk5
 #: config.docbook:214
 #, no-c-format
+#| msgid "The <guilabel>Supernovae</guilabel> page allows you to manage how supernovae are displayed by &kstars;."
 msgid "The <guilabel>Image Overlays</guilabel> page allows you to add and manage your own images that will be displayed in the skymap."
 msgstr "La page de <guilabel>Superposition d'image</guilabel> permet d'ajouter et de gérer vos propres images qui peuvent être affichées dans la carte du ciel."
 
@@ -391,9 +393,8 @@ msgstr "Pour une explication détaillée des options sur <guilabel>INDI</guilabe
 #. Tag: para
 #. +> trunk5
 #: config.docbook:240
-#, fuzzy, no-c-format
-#| msgid "For detailed explanation of <guilabel>Ekos</guilabel> astrophotography suite, see the <link linkend=\"tool-ekos\">Ekos section of this manual</link>."
-msgid "For detailed explanation of <guilabel>Ekos</guilabel> astrophotography suite, see the <link linkend=\"ekos\">Ekos section of this manual</link>."
+#, no-c-format
+msgid "For detailed explanation of <guilabel>Ekos</guilabel> astrophotography suite, see the <link linkend=\"tool-ekos\">Ekos section of this manual</link>."
 msgstr "Pour une explication détaillée des options sur <guilabel>Ekos</guilabel>, veuillez vous reporter à la section <link linkend=\"tool-ekos\">Section Ekos</link> de ce manuel."
 
 #. Tag: secondary
@@ -429,7 +430,7 @@ msgstr "La page <guilabel>Avancé</guilabel> fournit un contrôle fin des compor
 #: config.docbook:263
 #, no-c-format
 msgid "The <guilabel>Developer</guilabel> page allows you to enable or disable a few options mostly useful for developers or for folks looking to help debug issues. Currently these are enabling the saving of images during Ekos's autofocus, guiding and alignment."
-msgstr "La page de <guilabel>Développeurs</guilabel> permet d'activer ou de désactiver quelques options surtout utiles pour les développeurs ou pour les personnes qui souhaitent aider à déterrer les bogues. Actuellement elles activent l'enregistrement des images des processus de mise au point automatique, de guidage et d'alignement."
+msgstr "La page des <guilabel>Développeurs</guilabel> permet d'activer ou de désactiver quelques options surtout utiles pour les développeurs ou pour les personnes qui souhaitent aider à déterrer les bogues. Actuellement elles activent l'enregistrement des images des processus de mise au point automatique, de guidage et d'alignement."
 
 #. Tag: title
 #. +> trunk5
@@ -1742,6 +1743,7 @@ msgstr "Vous pouvez (dés)activer la superposition du terrain en utilisant le ra
 #. +> trunk5
 #: config.docbook:1163
 #, no-c-format
+#| msgid "<title>Catalogs</title>"
 msgid "<title>Image Overlays</title>"
 msgstr "<title>Superposition d'images</title>"
 
@@ -1749,6 +1751,7 @@ msgstr "<title>Superposition d'images</title>"
 #. +> trunk5
 #: config.docbook:1165
 #, no-c-format
+#| msgid "<screeninfo>Terrain Window</screeninfo>"
 msgid "<screeninfo>Image Overlays on SkyMap</screeninfo>"
 msgstr "<screeninfo>Superposition d'image sur la carte du ciel</screeninfo>"
 
@@ -1756,6 +1759,7 @@ msgstr "<screeninfo>Superposition d'image sur la carte du ciel</screeninfo>"
 #. +> trunk5
 #: config.docbook:1171
 #, no-c-format
+#| msgid "<phrase>Satellites Window</phrase>"
 msgid "<phrase>Image Overlays on SkyMap</phrase>"
 msgstr "<phrase>Superposition d'image sur la carte du ciel</phrase>"
 
@@ -1770,6 +1774,7 @@ msgstr "Les images de superposition sont des images personnalisées (typiquement
 #. +> trunk5
 #: config.docbook:1184
 #, no-c-format
+#| msgid "<screeninfo>Terrain Window</screeninfo>"
 msgid "<screeninfo>Image Overlays Window</screeninfo>"
 msgstr "<screeninfo>Fenêtre de superposition d'image</screeninfo>"
 
@@ -1777,6 +1782,7 @@ msgstr "<screeninfo>Fenêtre de superposition d'image</screeninfo>"
 #. +> trunk5
 #: config.docbook:1190
 #, no-c-format
+#| msgid "<phrase>Terrain Window</phrase>"
 msgid "<phrase>Image Overlays Window</phrase>"
 msgstr "<phrase>Fenêtre de superposition d'image</phrase>"
 
@@ -1799,14 +1805,14 @@ msgstr "À chaque démarrage, &kstars; recherche la présence de nouvelles image
 #: config.docbook:1209
 #, no-c-format
 msgid "Start &kstars; once you have images in the <literal>imageOverlays</literal> directory. If you then go to the <guilabel>Image Overlays</guilabel> config page, you should see the new files listed in the table. The new images will show their status as <guilabel>Unprocessed</guilabel>. Only images whose status is <guilabel>OK</guilabel> are displayed on the SkyMap. That is because &kstars; needs to know the sky location, size, and orientation for these images before it can display them. To change the status to <guilabel>OK</guilabel> you need to plate-solve the images or add the required information manually--see below."
-msgstr "Démarrez &kstars; une fois que vos images sont dans le dossier <literal>imagesOverlays</literal>. En vous rendant sur la page de configuration de la <guilabel>Superposition d'image</guilabel>, vous devriez voir les nouveaux fichiers dans la table. Leur état sera <guilabel>Unprocessed</guilabel>. Seules les images avec état <guilabel>Ok</guilabel> sont affichées sur la carte du ciel. La raison en est que &kstars; a besoin de connaître la position du ciel, la taille et l'orientation de ces images pour pouvoir les afficher. Pour modifier l'état en <guilabel>Ok</guilabel>, il faut effectuer une résolution astrométrique ou ajouter manuellement l'information requise, voir ci-dessous."
+msgstr "Démarrez &kstars; une fois que vos images sont dans le dossier <literal>imagesOverlays</literal>. En vous rendant sur la page de configuration de la <guilabel>Superposition d'image</guilabel>, vous devriez voir les nouveaux fichiers dans la table. Leur statut sera <guilabel>Unprocessed</guilabel>. Seules les images de statut <guilabel>Ok</guilabel> sont affichées sur la carte du ciel. La raison en est que &kstars; a besoin de connaître la position du ciel, la taille et l'orientation de ces images pour pouvoir les afficher. Pour modifier le statut en <guilabel>Ok</guilabel>, il faut effectuer une résolution astrométrique ou ajouter manuellement l'information requise, voir ci-dessous."
 
 #. Tag: para
 #. +> trunk5
 #: config.docbook:1217
 #, no-c-format
 msgid "To prepare your images for display, you need to plate-solve the images (one time only). To do this, find an image in the table, click on its filename, and then click <guibutton>Solve</guibutton> below the table. The <guibutton>Solve</guibutton> button's label should switch to <guibutton>Cancel</guibutton> during the solve, and then when completed successfully, the solved parameters are displayed in the table and the status is changed to <guilabel>OK</guilabel>. A successful plate-solve's information is stored in the user database so that solving doesn't need to be repeated. The solved image should from then on appear in its proper position in the SkyMap. You can plate-solve multiple images in a single operation by clicking on the first image's filename, then holding down the &Shift; key and clicking on another filename. All the image files between the filenames should be selected. Then clicking <guibutton>Solve</guibutton> will attempt to solve them all. However, &kstars; will not attempt to plate-solve images whose status is <guilabel>OK</guilabel>, it will skip those images. (If you wish to re-plate-solve images with status <guilabel>OK</guilabel>, then manually change their status to <guilabel>Unprocessed</guilabel> and click <guibutton>Solve</guibutton>). It is possible that if you select several images, a few of them will not be successfully solved."
-msgstr "La préparation des images pour l'affichage implique de les résoudre (une seule fois). Pour cela, choisissez une image dans la table, cliquez sur nom et cliquez sur le bouton <guibutton>Résoudre</guibutton> sous la table. L'étiquette de ce bouton changera en <guibutton>Annuler</guibutton> durant la résolution, et en cas de succès, les paramètres de résolution seront affichées dans la table et l'état passe à <guilabel>Ok</guilabel>. Cette information est enregistrée dans la base de données de l'utilisateur afin de ne pas devoir répéter la résolution. Les images résolues apparaîtront dès lors à leur correcte position sur la carte du ciel. Vous pouvez résoudre plusieurs images en une seule opération en cliquant sur le nom de la première image puis en cliquant sur d'autres nom de fichier en maintenant la touche &Maj; enfoncée. Toutes les images entre ces deux devraient être sélectionnées. Puis en cliquant sur le bouton <guibutton>Résoudre</guibutton>, toutes les images tenteront d'être résolues. Toutefois &kstars; ignorera les images avec état <guilabel>Ok</guilabel>. (Si vous souhaitez les résoudre à nouveau, modifiez vous-même leur état en <guilabel>Unprocessed</guilabel>, puis cliquez sur <guibutton>Résoudre</guibutton>). Il est possible qu'en sélectionnant plusieurs images, certaines échouent à être résolues."
+msgstr "La préparation des images pour l'affichage implique de les résoudre (une seule fois). Pour cela, choisissez une image dans la table, cliquez sur nom et cliquez sur le bouton <guibutton>Résoudre</guibutton> sous la table. L'étiquette de ce bouton changera en <guibutton>Annuler</guibutton> durant la résolution, et en cas de succès, les paramètres de résolution seront affichées dans la table et le statut passe à <guilabel>Ok</guilabel>. Cette information est enregistrée dans la base de données de l'utilisateur afin de ne pas devoir répéter la résolution. Les images résolues apparaîtront dès lors à leur correcte position sur la carte du ciel. Vous pouvez résoudre plusieurs images en une seule opération en cliquant sur le nom de la première image puis en cliquant sur d'autres nom de fichier en maintenant la touche Maj enfoncée. Toutes les images entre ces deux devraient être sélectionnées. Puis en cliquant sur le bouton <guibutton>Résoudre</guibutton>, toutes les images tenteront d'être résolues. Toutefois &kstars; ignorera les images de statut <guilabel>Ok</guilabel>. (Si vous souhaitez les résoudre à nouveau, modifiez vous-même leur état en <guilabel>Unprocessed</guilabel>, puis cliquez sur <guibutton>Résoudre</guibutton>.) Il est possible qu'en sélectionnant plusieurs images, certaines échouent à être résolues."
 
 #. Tag: para
 #. +> trunk5
@@ -1820,7 +1826,7 @@ msgstr "La résolution de ces images peut se révéler difficile. En effet, le s
 #: config.docbook:1242
 #, no-c-format
 msgid "If you have problematic images that won't solve, you can still display them by manually entering the values (that the solver didn't find) into the table. They are the RA, DEC, arcsecond-per-pixel, orientation angle, and east-to-the-right (or West-to-the-right) settings. Once you have done that, you can then change the status to <guilabel>OK</guilabel> and &kstars; will save these values to the user database as if they had been automatically solved."
-msgstr "Si vous avez quelques images problématiques que vous n'arrivez pas à résoudre, vous pouvez quand même les afficher en saisissant vous-même les valeurs dans la table. Ces valeurs sont l'AD et la DEC en secondes d'arc par pixel, l'angle d'orientation et les réglages par rapport à l'est ou à l'ouest. Une fois fait, modifiez l'état à <guilabel>Ok</guilabel> et &kstars; enregistrera ces valeurs dans la base de données de l'utilisateur comme si elles avaient été résolues automatiquement."
+msgstr "Si vous avez quelques images problématiques que vous n'arrivez pas à résoudre, vous pouvez quand même les afficher en saisissant vous-même les valeurs dans la table. Ces valeurs sont l'AD et la DEC en secondes d'arc par pixel, l'angle d'orientation et les réglages par rapport à l'est ou à l'ouest. Une fois fait, modifiez le statut à <guilabel>Ok</guilabel> et &kstars; enregistrera ces valeurs dans la base de données de l'utilisateur comme si elles avaient été résolues automatiquement."
 
 #. Tag: para
 #. +> trunk5
@@ -1834,14 +1840,14 @@ msgstr "Il y a quelques autres contrôles sur la page de réglages de <guilabel>
 #: config.docbook:1253
 #, no-c-format
 msgid "The <guilabel>Maximum image dimension:</guilabel> spinbox allows you to vary the maximum image dimension used for images. That is, if you place images that are, for example, 5000 pixels wide into the <literal>imageOverlays</literal> directory, but this input box's value is 1000, then the 5000-pixel-images will be read in, but then downsampled to 1000-pixels-wide before display. This is done to reduce the memory footprint and cpu usage of this feature. It would be more efficient to add image files with the desired image width."
-msgstr "La boîte <guilabel>Dimension maximale de l'image</guilabel> permet de varier la dimension maximale des images utilisée pour les images. Ainsi, si vous mettez des images, par exemple, de 5000 pixels de large dans le dossier <literal>imageOverlays</literal> mais que la valeur d'entrée de la boîte est de 1000 pixels, ces images seront lues mais réduites à la taille de 1000 pixels avant d'être affichées. Cela est effectué afin de réduire l'empreinte mémoire et la charge du processeur pour cette fonctionnalité. Mais il serait plus efficace d'ajouter des images de largeur souhaitée directement."
+msgstr "La boîte <guilabel>Dimension maximale de l'image</guilabel> permet de varier la dimension maximale des images utilisée pour les images. Ainsi, si vous mettez des images, par exemple, de 5000 pixels de large dans le dossier <literal>imageOverlays</literal> mais que la valeur d'entrée de la boîte est de 1000 pixels, ces images seront lues mais réduites à la taille de 1000 pixels avant d'être affichées. Cela est effectué afin de réduire l'empreinte mémoire et la charge du cpu de cette fonctionnalité. Mais il serait plus efficace d'ajouter des images de largeur souhaitée directement."
 
 #. Tag: para
 #. +> trunk5
 #: config.docbook:1260
 #, no-c-format
 msgid "The <guilabel>Center SkyMap on selection</guilabel> checkbox allows you to easily navigate to the overlay images without directly manipulating the SkyMap. With this enabled, you select a row in the overlay table (&ie;, by clicking on the filename field) and the skymap is moved to that image if the image's status is <guilabel>OK</guilabel>. At that point you can move from one image to the next with &Up; and &Down; arrow keyboard commands."
-msgstr "La boîte à cocher <guilabel>Center la carte du ciel à la sélection</guilabel> permet de naviguer facilement vers les images de superposition sans devoir manipuler la carte du ciel. Lorsque que cette option est activée, il suffit de sélectionner une ligne dans la table de superposition (&cad; en cliquant sur le champ de nom de fichier) et la carte du ciel est déplacée vers cette image si son état est <guilabel>Ok</guilabel>. Vous pouvez ensuite passer d'une image à l'autre à l'aide des flèches &Up; et &Down; du clavier."
+msgstr "La boîte à cocher <guilabel>Center la carte du ciel à la sélection</guilabel> permet de naviguer facilement vers les images de superposition sans devoir manipuler la carte du ciel. Lorsque que cette option est activée, il suffit de sélectionner une ligne dans la table de superposition (c'est à dire en cliquant sur le champ de nom de fichier) et la carte du ciel est déplacée vers cette image si son statut est <guilabel>Ok</guilabel>. Vous pouvez ensuite passer d'une image à l'autre à l'aide des flèches Up et Down du clavier."
 
 #. Tag: title
 #. +> trunk5
@@ -1993,9 +1999,8 @@ msgstr "<phrase>Fenêtre Ekos</phrase>"
 #. Tag: para
 #. +> trunk5
 #: config.docbook:1383
-#, fuzzy, no-c-format
-#| msgid "Ekos is an astrophotography suite, a complete astrophotography solution that can control all INDI devices including numerous telescopes, CCDs, DSLRs, focusers, filters, and a lot more. Ekos supports highly accurate tracking using online and offline astrometry solver, autofocus and autoguiding capabilities, and capture of single or multiple images using the powerful built in sequence manager. For detailed explanation of <guilabel>Ekos</guilabel>, see the <link linkend=\"tool-ekos\">Ekos section of this manual</link>."
-msgid "Ekos is an astrophotography suite, a complete astrophotography solution that can control all INDI devices including numerous telescopes, CCDs, DSLRs, focusers, filters, and a lot more. Ekos supports highly accurate tracking using online and offline astrometry solver, autofocus and autoguiding capabilities, and capture of single or multiple images using the powerful built in sequence manager. For detailed explanation of <guilabel>Ekos</guilabel>, see the <link linkend=\"ekos\">Ekos section of this manual</link>."
+#, no-c-format
+msgid "Ekos is an astrophotography suite, a complete astrophotography solution that can control all INDI devices including numerous telescopes, CCDs, DSLRs, focusers, filters, and a lot more. Ekos supports highly accurate tracking using online and offline astrometry solver, autofocus and autoguiding capabilities, and capture of single or multiple images using the powerful built in sequence manager. For detailed explanation of <guilabel>Ekos</guilabel>, see the <link linkend=\"tool-ekos\">Ekos section of this manual</link>."
 msgstr "Ekos est une suite d'astrophotographie complète qui permet de contrôler tout périphérique INDI tels que des montures, des CCD, des APN, des moteurs de mise au point, des roues à filtres et bien plus encore. Ekos gère le suivi de haute précision en utilisant des résolveurs en ligne et hors ligne, la mise au point automatique et l'autoguidage ainsi que l'acquisition d'images unique ou multiple en utilisant le puissant gestionnaire de séquences. Pour des explications détaillées d'<guilabel>Ekos</guilabel>, veuillez lire la <link linkend=\"tool-ekos\">section Ekos de ce manuel</link>."
 
 #. Tag: title
@@ -2128,6 +2133,7 @@ msgstr "Développeurs"
 #. +> trunk5
 #: config.docbook:1484
 #, no-c-format
+#| msgid "<screeninfo>Colors Window</screeninfo>"
 msgid "<screeninfo>Developer Window</screeninfo>"
 msgstr "<screeninfo>Fenêtre pour développeurs</screeninfo>"
 
@@ -2135,6 +2141,7 @@ msgstr "<screeninfo>Fenêtre pour développeurs</screeninfo>"
 #. +> trunk5
 #: config.docbook:1490
 #, no-c-format
+#| msgid "<phrase>Colors Window</phrase>"
 msgid "<phrase>Developer Window</phrase>"
 msgstr "<phrase>Fenêtre pour développeurs</phrase>"
 
@@ -2142,6 +2149,7 @@ msgstr "<phrase>Fenêtre pour développeurs</phrase>"
 #. +> trunk5
 #: config.docbook:1496
 #, no-c-format
+#| msgid "Colors page"
 msgid "Developer page"
 msgstr "Pages développeurs"
 

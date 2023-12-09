@@ -1,19 +1,18 @@
 # Translation to French
-# SPDX-FileCopyrightText: 2023 Xavier BESNARD <xavier.besnard@neuf.fr>
 # steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_ekos-align_3.6.7\n"
+"Project-Id-Version: kstars_ekos-align_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-01-11 11:49+0100\n"
-"PO-Revision-Date: 2023-12-05 20:30+0100\n"
-"Last-Translator: Xavier BESNARD <xavier.besnard@neuf.fr>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2023-01-19 10:24+0100\n"
+"Last-Translator: steve <stax@ik.me>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 23.08.3\n"
+"X-Generator: Lokalize 20.12.0\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: title
@@ -70,7 +69,7 @@ msgstr "Introduction"
 #: ekos-analyze.docbook:23
 #, no-c-format
 msgid "The Analyze Module records and displays what happened in an imaging session. That is, it does not control any if your imaging, but rather reviews what occurred. Sessions are stored in an <filename class=\"directory\">analyze</filename> folder, a sister folder to the main logging folder. The <literal role=\"extension\">.analyze</literal> files written there can be loaded into the <guilabel>Analyze</guilabel> tab to be viewed. <guilabel>Analyze</guilabel> also can display data from the current imaging session."
-msgstr "Le module « Analyse » enregistre et affiche ce qui s'est passé durant une session d'acquisition. C'est-à-dire qu'il ne contrôle pas la session mais plutôt analyse ce qui s'y est passé. Les sessions sont enregistrées dans le dossier <filename class=\"directory\">analyze</filename> qui se trouve dans le même dossier que le dossier contenant les fichiers journaux. Les fichiers <literal role=\"extension\">.analyze</literal> enregistrés peuvent être chargés dans l'onglet <guilabel>Analyse</guilabel> pour affichage. Le module <guilabel>Analyse</guilabel> peut également afficher les données de la session d'acquisition courante."
+msgstr "Le module Analyse enregistre et affiche ce qui s'est passé durant une session d'acquisition. C'est-à-dire qu'il ne contrôle pas la session mais plutôt analyse ce qui s'y est passé. Les sessions sont enregistrées dans le dossier <filename class=\"directory\">analyze</filename> qui se trouve dans le même dossier que le dossier contenant les fichiers journaux. Les fichiers <literal role=\"extension\">.analyze</literal> enregistrés peuvent être chargés dans l'onglet <guilabel>Analyse</guilabel> pour affichage. Le module <guilabel>Analyse</guilabel> peut également afficher les données de la session d'acquisition courante."
 
 #. Tag: para
 #. +> trunk5
@@ -100,7 +99,7 @@ msgstr "Chronologie"
 #, no-c-format
 #| msgid "Timeline shows the major Ekos processes, and when they were active. For instance, the <guilabel>Capture</guilabel> line shows when images were taken (green sections) and when imaging was aborted (red sections). Clicking on a green section gives information about that image, and double clicking on one brings up the image taken then in a fitsviewer, if it is available."
 msgid "Timeline shows the major Ekos processes, and when they were active. For instance, the <guilabel>Capture</guilabel> line shows when images were taken (wither green for RGB or color-coded by the filter) and when imaging was aborted (shown as red sections). Clicking on a capture section gives information about that image, and double clicking on one brings up the image taken then in a fitsviewer, if it is available."
-msgstr "Le graphique Chronologie affiche les processus principaux de Ekos et quand ils étaient actifs. Par exemple, la ligne <guilabel>Acquisition</guilabel> montre le moment où une image a été prise (verte pour RGB ou une couleur liée au filtre utilisé)) et quand l'acquisition a été arrêtée (en rouge). En cliquant sur une section d'acquisition, vous obtiendrez de l'information sur cette image et en double-cliquant vous ferez apparaître l'image dans l'afficheur « FITS », s'il est disponible."
+msgstr "Le graphique Chronologie affiche les processus principaux d'Ekos et quand ils étaient actifs. Par exemple, la ligne <guilabel>Acquisition</guilabel> montre le moment où une image a été prise (verte pour RGB ou une couleur liée au filtre utilisé)) et quand l'acquisition a été arrêtée (en rouge). En cliquant sur une section d'acquisition, vous obtiendrez de l'information sur cette image et en double-cliquant vous ferez apparaître l'image dans l'afficheur FITS, s'il est disponible."
 
 #. Tag: para
 #. +> trunk5
@@ -129,7 +128,7 @@ msgstr "Statistiques"
 #, no-c-format
 #| msgid "A variety of statistics can be displayed on the <guilabel>Stats</guilabel> graph. There are too many for all to be shown in a readable way, so select among them with the checkboxes. A reasonable way to start might be to use <guilabel>rms</guilabel>, <guilabel>snr</guilabel> (using the internal guider with SEP Multistar), and <guilabel>hfr</guilabel> (if you have auto-compute HFR in the FITS options). Experiment with others. The axis shown (0-5) is appropriate only for ra/dec error, drift, rms, pulses, and hfr. These may be y-axis scaled (awkwardly) using the mouse <mousebutton>wheel</mousebutton>, but the other graphs cannot be scaled. To reset y-axis zooming, right-click on the Stats plot. Clicking on the graph fills in the values of the displayed statistics. This graph is zoomed and panned horizontally in coordination with the timeline."
 msgid "A variety of statistics can be displayed on the <guilabel>Statistics</guilabel> graph. There are too many for all to be shown in a readable way, so select among them with the checkboxes. A reasonable way to start might be to use <guilabel>rms</guilabel>, <guilabel>snr</guilabel> (using the internal guider with SEP Multistar), and <guilabel>hfr</guilabel> (if you have auto-compute HFR in the FITS options). Experiment with others."
-msgstr "Toute une série de statistiques peut être affichée sur le graphique <guilabel>Statistiques</guilabel>. Elles sont trop nombreuses pour être toutes affichées de manière lisible, donc il vaut mieux en choisir un nombre réduit. Un bon choix est de commencer avec <guilabel>rms</guilabel>, <guilabel>snr</guilabel> (en utilisant le guidage interne avec le SEP multi-étoiles) et <guilabel>hfr</guilabel> (si vous avez sélectionné l'option de calcul automatique du HFR dans les options « FITS »). Vous pouvez tester les autres également."
+msgstr "Toute une série de statistiques peut être affichée sur le graphique <guilabel>Statistiques</guilabel>. Elles sont trop nombreuses pour être toutes affichées de manière lisible, donc il vaut mieux en choisir un nombre réduit. Un bon choix est de commencer avec <guilabel>rms</guilabel>, <guilabel>snr</guilabel> (en utilisant le guidage interne avec le SEP mutlistars) et <guilabel>hfr</guilabel> (si vous avez sélectionné l'option de calcul automatique du HFR dans les options FITS). Vous pouvez tester les autres également."
 
 #. Tag: para
 #. +> trunk5

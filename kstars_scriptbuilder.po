@@ -6,22 +6,20 @@
 # Stanislas Zeller <uncensored.assault@gmail.com>, 2008.
 # xavier <ktranslator31@yahoo.fr>, 2012.
 # steve <stax@ik.me>, 2022.
-# SPDX-FileCopyrightText: 2023 Xavier BESNARD <xavier.besnard@neuf.fr>
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_scriptbuilder_3.6.7\n"
+"Project-Id-Version: kstars_scriptbuilder_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-28 09:15+0200\n"
-"PO-Revision-Date: 2023-12-05 23:18+0100\n"
-"Last-Translator: Xavier BESNARD <xavier.besnard@neuf.fr>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2023-02-07 14:05+0100\n"
+"Last-Translator: steve <stax@ik.me>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.08.3\n"
 
 #. Tag: title
 #. +> trunk5
@@ -49,7 +47,7 @@ msgstr "Construction de scripts"
 #: scriptbuilder.docbook:7
 #, no-c-format
 msgid "&kde; applications can be controlled externally from another program, from a console prompt, or from a shell script using the Inter-process communication protocol (&DBus;). &kstars; takes advantage of this feature to allow rather complex behaviors to be scripted and played back at any time. This can be used, for example, to create a classroom demo to illustrate an astronomical concept."
-msgstr "Les applications &kstars; peuvent être pilotées de l'extérieur par un autre programme, depuis une invite de console ou depuis un script shell en utilisant le protocole de communication inter-processus (&DBus;). &kstars; utilise cette fonction pour permettre à des comportements plutôt complexes d'être traités par scripts et rejoués à n'importe quel moment. Ceci peut être utilisé par exemple pour créer une démonstration en salle de classe pour illustrer un concept astronomique."
+msgstr "Les applications &kstars; peuvent être pilotées de l'extérieur par un autre programme, depuis une invite de console ou depuis un script shell en utilisant le protocole de communication interprocessus (&DBus;). &kstars; utilise cette fonction pour permettre à des comportements plutôt complexes d'être traités par scripts et rejoués à n'importe quel moment. Ceci peut être utilisé par exemple pour créer une démonstration en salle de classe pour illustrer un concept astronomique."
 
 #. Tag: para
 #. +> trunk5
@@ -127,7 +125,7 @@ msgstr "Pour illustrer l'utilisation du constructeur de scripts, nous présenton
 #: scriptbuilder.docbook:90
 #, no-c-format
 msgid "If we are going to track the Moon, we will need to point the display at it first. The <firstterm>lookToward</firstterm> function is used to do this. Highlight this function in the Function Browser, and note the documentation displayed in the panel below the Browser. Press the <guibutton>Add Function</guibutton> button to add this function to the Current Script box. The Function Arguments panel will now contain a combobox labeled <quote>Dir</quote>, short for direction. This is the direction in which the display should be pointed. The combobox contains only the cardinal compass points, not the Moon or any other objects. You can either enter <quote>Moon</quote> in the box manually, or press the <guibutton>Object...</guibutton> button to use the <guilabel>Find Object...</guilabel> window to select the Moon from the list of named objects. Note that, as usual, centering on an object automatically engages object-tracking mode, so there is no need to add the <firstterm>setTracking</firstterm> function after lookToward."
-msgstr "Si nous voulons suivre la Lune, nous aurons besoin de pointer l'affichage dessus d'abord. La fonction <firstterm>lookToward</firstterm> est utilisée pour faire cela. Surlignez cette fonction dans le navigateur de fonctions et notez la documentation affichée dans le panneau au-dessous. Actionnez le bouton <guibutton>Ajouter une fonction</guibutton> pour ajouter cette fonction à la zone de script courante. Le panneau des paramètres de fonctions comportera maintenant une liste combinée libellée <quote>Dir</quote>, abréviation de direction. C'est la direction dans laquelle l'affichage doit être pointé. La liste combinée ne contient que les points cardinaux, pas la Lune ni d'autres objets. Vous pouvez soit écrire <quote>Lune</quote> dans la zone à la main, soit actionner le bouton <guibutton>Objet…</guibutton> pour utiliser la fenêtre de <guilabel>recherche d'objet</guilabel> pour sélectionner la Lune dans la liste des objets nommés. Veuillez noter que, comme d'habitude, un centrage sur un objet engage automatiquement le mode de suivi, de telle manière qu'il n'y a pas besoin d'ajouter la fonction <firstterm>setTracking</firstterm> après lookToward."
+msgstr "Si nous voulons suivre la Lune, nous aurons besoin de pointer l'affichage dessus d'abord. La fonction <firstterm>lookToward</firstterm> est utilisée pour faire cela. Surlignez cette fonction dans le navigateur de fonctions et notez la documentation affichée dans le panneau au-dessous. Actionnez le bouton <guibutton>Ajouter une fonction</guibutton> pour ajouter cette fonction à la zone de script courante. Le panneau des paramètres de fonctions comportera maintenant une liste combinée libellée <quote>Dir</quote>, abréviation de direction. C'est la direction dans laquelle l'affichage doit être pointé. La liste combinée ne contient que les points cardinaux, pas la Lune ni d'autres objets. Vous pouvez soit écrire <quote>Lune</quote> dans la zone à la main, soit actionner le bouton <guibutton>Objet…</guibutton> pour utiliser la fenêtre de <guilabel>recherche d'objet</guilabel> pour sélectionner la Lune dans la liste des objets nommés. Notez que, comme d'habitude, un centrage sur un objet engage automatiquement le mode de suivi, de telle manière qu'il n'y a pas besoin d'ajouter la fonction <firstterm>setTracking</firstterm> après lookToward."
 
 #. Tag: para
 #. +> trunk5
@@ -164,7 +162,7 @@ msgstr "En fait, tout n'est pas fini. Nous devons probablement nous assurer que 
 #: scriptbuilder.docbook:148
 #, no-c-format
 msgid "One more step: changing UseAltAz at the end of the script does us no good; we need this to be changed before anything else happens. So, make sure this function is highlighted in the Current Script box, and press the <guibutton>Move Up</guibutton> button until it is the first function."
-msgstr "Une dernière étape : le changement de « UseALtAz » à la fin du script n'est pas bon ; nous avons besoin de le changer avant que quelque chose d'autre n'arrive. Ainsi, assurez-vous que cette fonction est surlignée dans la zone de script courant et actionnez le bouton <guibutton>Monter</guibutton> jusqu'à ce que ce soit la première fonction."
+msgstr "Une dernière étape : le changement d'UseALtAz à la fin du script n'est pas bon ; nous avons besoin de le changer avant que quelque chose d'autre n'arrive. Ainsi, assurez-vous que cette fonction est surlignée dans la zone de script courant et actionnez le bouton <guibutton>Monter</guibutton> jusqu'à ce que ce soit la première fonction."
 
 #. Tag: para
 #. +> trunk5

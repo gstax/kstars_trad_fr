@@ -1,25 +1,23 @@
 # translation of kstars_parallax.po to french
 # traduction de kstars_parallax.po en Français
 #
-# SPDX-FileCopyrightText: 2023 Xavier BESNARD <xavier.besnard@neuf.fr>
 # Gérard Delafond <gerard@delafond.org>, 2002, 2003.
 # Ludovic Grossard <grossard@kde.org>, 2002, 2003, 2004.
 # xavier <ktranslator31@yahoo.fr>, 2012.
 # steve <stax@ik.me>, 2022
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_parallax_3.6.7\n"
+"Project-Id-Version: kstars_parallax_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-03-29 11:17+0200\n"
-"PO-Revision-Date: 2023-12-05 18:07+0100\n"
-"Last-Translator: Xavier BESNARD <xavier.besnard@neuf.fr>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2023-02-07 14:04+0100\n"
+"Last-Translator: steve <stax@ik.me>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.08.3\n"
 
 #. Tag: author
 #. +> trunk5
@@ -99,6 +97,6 @@ msgid ""
 "<para>Astronomers like this unit so much that they now use <quote>kiloparsecs</quote> to measure galaxy-scale distances, and <quote>Megaparsecs</quote> to measure intergalactic distances, even though these distances are much too large to have an actual, observable parallax. Other methods are required to determine these distances</para>"
 "</footnote>."
 msgstr ""
-"Pendant une période de 6 mois, la Terre a bougé de la moitié de son orbite autour du Soleil ; dans cette période, sa position a changé de 2 <firstterm>Unités Astronomiques</firstterm> (abrégé UA ; 1 UA est la distance de la Terre au Soleil, soit environ 150 millions de kilomètres). Cela semble être une très grande distance, mais même l'étoile la plus proche est à environ 40 <emphasis>trillions</emphasis> de kilomètres. De ce fait, la parallaxe annuelle est très petite, typiquement plus petite qu'un <firstterm>parsec</firstterm>, qui fait seulement 1 / 3600 degré. Une unité pratique de distance pour les étoiles proches est le <firstterm>parsec</firstterm>, qui est l'abréviation de <quote>parallax arcsecond</quote>. Un parsec est la distance qu'une étoile aurait si son angle de parallaxe observé était d'une seconde d'arc. Il est égal à 3,26 années-lumière, soit 31 trillions de kilomètres<footnote>"
+"Pendant une période de 6 mois, la Terre a bougé de la moitié de son orbite autour du Soleil ; dans cette période, sa position a changé de 2 <firstterm>Unités astronomiques</firstterm> (abrégé UA ; 1 UA est la distance de la Terre au Soleil, soit environ 150 millions de kilomètres). Cela semble être une très grande distance, mais même l'étoile la plus proche est à environ 40 <emphasis>trillions</emphasis> de kilomètres. De ce fait, la parallaxe annuelle est très petite, typiquement plus petite qu'un <firstterm>parsec</firstterm>, qui fait seulement 1/3600 degré. Une unité pratique de distance pour les étoiles proches est le <firstterm>parsec</firstterm>, qui est l'abréviation de <quote>parallax arcsecond</quote>. Un parsec est la distance qu'une étoile aurait si son angle de parallaxe observé était d'une seconde d'arc. Il est égal à 3,26 années-lumière, soit 31 trillions de kilomètres<footnote>"
 "<para>Les astronomes aiment tellement cette unité qu'il utilisent maintenant le <quote>Kiloparsec</quote> pour mesurer les distances à l'échelle des galaxies et le <quote>Mégaparsec</quote> pour mesurer les distances intergalactiques, même si ces distances sont bien trop énormes pour avoir une vraie parallaxe observable. D'autres méthodes sont nécessaires pour déterminer ces distances.</para>"
 "</footnote>."

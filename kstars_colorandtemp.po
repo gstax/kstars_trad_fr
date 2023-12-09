@@ -1,25 +1,23 @@
 # translation of kstars_colorandtemp.po to french
 # traduction de kstars_colorandtemp.po en Français
 #
-# SPDX-FileCopyrightText: 2023 Xavier BESNARD <xavier.besnard@neuf.fr>
 # Gérard Delafond <gerard@delafond.org>, 2002,2003.
 # Ludovic Grossard <grossard@kde.org>, 2002, 2004, 2012.
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2012.
 # steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_colorandtemp_3.6.7\n"
+"Project-Id-Version: kstars_colorandtemp_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-03-29 11:17+0200\n"
-"PO-Revision-Date: 2023-12-05 19:02+0100\n"
-"Last-Translator: Xavier BESNARD <xavier.besnard@neuf.fr>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2022-06-15 08:40+0200\n"
+"Last-Translator: steve <stax@ik.me>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.08.3\n"
 
 #. Tag: author
 #. +> trunk5
@@ -54,7 +52,7 @@ msgstr "<seealso>Radiation du corps noir</seealso> <seealso>Échelle de magnitud
 #: colorandtemp.docbook:19
 #, no-c-format
 msgid "Stars appear to be exclusively white at first glance. But if we look carefully, we can notice a range of colors: blue, white, red, and even gold. In the winter constellation of Orion, a beautiful contrast is seen between the red Betelgeuse at Orion's \"armpit\" and the blue Bellatrix at the shoulder. What causes stars to exhibit different colors remained a mystery until two centuries ago, when Physicists gained enough understanding of the nature of light and the properties of matter at immensely high temperatures."
-msgstr "Les étoiles apparaissent être exclusivement blanches au premier coup d'œil. Mais si nous regardons attentivement, nous pouvons noter une plage de couleurs : bleu, blanc, rouge et même doré. Dans la constellation d'hiver d'Orion, un beau contraste se voit entre la rouge Bételgeuse au coude d'Orion et la bleue Bellatrix à l'épaule. Ce qui fait que les étoiles montrent différentes couleurs resta longtemps un mystère jusqu'à il y a deux siècles, quand les physiciens eurent suffisamment de compréhension de la nature de la lumière et des propriétés de la matière aux très hautes températures."
+msgstr "Les étoiles apparaissent être exclusivement blanches au premier coup d'œil. Mais si nous regardons attentivement, nous pouvons noter une plage de couleurs : bleu, blanc, rouge et même doré. Dans la constellation d'hiver d'Orion, un beau contraste se voit entre la rouge Betelgeuse au coude d'Orion et la bleue Bellatrix à l'épaule. Ce qui fait que les étoiles montrent différentes couleurs resta longtemps un mystère jusqu'à il y a deux siècles, quand les physiciens eurent suffisamment de compréhension de la nature de la lumière et des propriétés de la matière aux très hautes températures."
 
 #. Tag: para
 #. +> trunk5
@@ -96,7 +94,7 @@ msgstr "Cette méthode simple est correcte en théorie mais il est impossible de
 #: colorandtemp.docbook:83
 #, no-c-format
 msgid "An alternative method utilizes photometry to measure the intensity of light passing through different filters. Each filter allows <emphasis>only</emphasis> a specific part of the spectrum of light to pass through while rejecting all others. A widely used photometric system is called the <firstterm>Johnson UBV system</firstterm>. It employs three bandpass filters: U (\"Ultra-violet\"), B (\"Blue\"), and V (\"Visible\"); each occupying different regions of the electromagnetic spectrum."
-msgstr "Une méthode alternative utilise la photométrie pour mesurer l'intensité de la lumière passant à travers différents filtres. Chaque filtre autorise <emphasis>seulement</emphasis> une partie spécifique du spectre lumineux à passer et rejette toutes les autres. Un système photométrique largement utilisé est nommé <firstterm>le système Johnson « UBV »</firstterm>. Il emploie trois filtres de bande passante : régions U (<quote>Ultra-violet</quote>), B (<quote>Bleu</quote>), et V (<quote>Visible</quote>), chacun occupant une région différente du spectre électromagnétique."
+msgstr "Une méthode alternative utilise la photométrie pour mesurer l'intensité de la lumière passant à travers différents filtres. Chaque filtre autorise <emphasis>seulement</emphasis> une partie spécifique du spectre lumineux à passer et rejette toutes les autres. Un système photométrique largement utilisé est nommé <firstterm>le système Johnson UBV</firstterm>. Il emploie trois filtres de bande passante : régions U (<quote>Ultra-violet</quote>), B (<quote>Bleu</quote>), et V (<quote>Visible</quote>), chacun occupant une région différente du spectre électromagnétique."
 
 #. Tag: para
 #. +> trunk5
@@ -117,7 +115,7 @@ msgstr "Par exemple, l'étoile Bellatrix dans Orion a un Fb/Fv = 1,22 qui indiqu
 #: colorandtemp.docbook:120
 #, no-c-format
 msgid "We can repeat this analysis for the star Betelgeuse. Its Fb/Fv and Fu/Fb ratios are 0.15 and 0.18, respectively, so it is brightest in V and dimmest in U. So, the spectral peak of Betelgeuse must be somewhere in the range of the V filter, or at an even longer wavelength. The surface temperature of Betelgeuse is only 2,400 Kelvin."
-msgstr "Nous pouvons répéter cette analyse pour l'étoile Bételgeuse. Ses rapports Fb/Fv et Fu/Fb sont respectivement 0,15 et 0,18 et ainsi elle est plus lumineuse en V et plus sombre en U. Son pic spectral doit donc être quelque part dans la zone du filtre V, ou même à une longueur d'onde plus grande. La température de surface de Bételgeuse est seulement 2 400 degrés Kelvin."
+msgstr "Nous pouvons répéter cette analyse pour l'étoile Betelgeuse. Ses rapports Fb/Fv et Fu/Fb sont respectivement 0,15 et 0,18 et ainsi elle est plus lumineuse en V et plus sombre en U. Son pic spectral doit donc être quelque part dans la zone du filtre V, ou même à une longueur d'onde plus grande. La température de surface de Betelgeuse est seulement 2 400 degrés Kelvin."
 
 #. Tag: para
 #. +> trunk5
@@ -138,7 +136,7 @@ msgstr "B - V = -2.5 log (Fb/Fv) = -2.5 log (1.22) = -0.22"
 #: colorandtemp.docbook:140
 #, no-c-format
 msgid "Similarly, the color index for red Betelgeuse is"
-msgstr "De même, l'indice de couleur pour la rouge Bételgeuse est"
+msgstr "De même, l'indice de couleur pour la rouge Betelgeuse est"
 
 #. Tag: para
 #. +> trunk5

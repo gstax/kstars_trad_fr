@@ -1,21 +1,19 @@
 # Translation to French
-# SPDX-FileCopyrightText: 2023 Xavier BESNARD <xavier.besnard@neuf.fr>
 # xavier <ktranslator31@yahoo.fr>, 2012.
 # steve <stax@ik.me>, 2022
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_obsplanner_3.6.7\n"
+"Project-Id-Version: kstars_obsplanner_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-06 11:29+0100\n"
-"PO-Revision-Date: 2023-12-06 18:09+0100\n"
-"Last-Translator: Xavier BESNARD <xavier.besnard@neuf.fr>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2021-07-29 08:59+0200\n"
+"PO-Revision-Date: 2023-02-07 14:04+0100\n"
+"Last-Translator: steve <stax@ik.me>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.08.3\n"
 
 #. Tag: author
 #. +> trunk5
@@ -99,21 +97,21 @@ msgstr "L'image de la galaxie est maintenant supprimée"
 #: obsplanner.docbook:66
 #, no-c-format
 msgid "You can add more objects by pressing the <guibutton>Find Object</guibutton> button. It will open the <guilabel>Find Object</guilabel> tool which provides two accurate methods for sorting out the items, depending on what criteria you want to use. You can filter the list by objects type: Any, Stars, Solar System, Clusters (Globular and Open), Nebulae (Gaseous and Planetary), Galaxies, Comets, Asteroids, Constellations, Supernovae or Satellites. You can also filter the objects list by name. Enter the name of desired object in the <guilabel>Filter by name</guilabel> text box."
-msgstr "Vous pouvez ajouter plus d'objets en appuyant sur le bouton <guibutton>Trouver un objet</guibutton>. Cela ouvrira l'outil <guilabel>Trouver un objet</guilabel> qui fournit deux méthodes précises pour filtrer les éléments selon plusieurs critères. Vous pouvez filtrer la liste des objets par type : avec Quelconque, Étoiles, Système solaire, Amas (globulaires ou ouverts), Nébuleuses (gazeuses ou planétaires), Galaxies, Comètes, Astéroïdes, Constellations, Supernova ou encore Satellites. Vous pouvez aussi filtrer par nom. Indiquez le nom de l'objet souhaité dans la boîte <guilabel>Filtrer par nom</guilabel>."
+msgstr "Vous pouvez ajouter plus d'objets en appuyant sur le bouton <guibutton>Trouver un objet</guibutton>. Cela ouvrira l'outil <guilabel>Trouver un objet</guilabel> qui fournit deux méthodes précises pour filtrer les éléments selon plusieurs critères. Vous pouvez filtrer la liste des objets par type : Quelconque, Étoiles, Système solaire, Amas (globulaires ou ouverts), Nébuleuses (gazeuses ou planétaires), Galaxies, Comètes, Astéroïdes, Constellations, Supernovae ou encore Satellites. Vous pouvez aussi filtrer par nom. Indiquez le nom de l'objet souhaité dans la boîte <guilabel>Filtrer par nom</guilabel>."
 
 #. Tag: para
 #. +> trunk5
 #: obsplanner.docbook:75
 #, no-c-format
 msgid "Inside Observation Planner window you can see the <quote>Altitude vs Time</quote> widget (AltvsTime), which shows you how the altitude of a selected object varies over time."
-msgstr "Dans la fenêtre du planificateur d'observations vous verrez le composant graphique <quote>Altitude selon l'heure</quote>(AltvsTime») affichant comment l'altitude d'un objet varie avec le temps."
+msgstr "Dans la fenêtre du planificateur d'observations vous verrez le tracé <quote>Altitude selon l'heure</quote> qui montre comment l'altitude d'un objet varie avec le temps."
 
 #. Tag: para
 #. +> trunk5
 #: obsplanner.docbook:78
 #, no-c-format
 msgid "Below the AltvsTime widget, there is a text box in that you can add observing notes for current sky object."
-msgstr "En dessous du composant graphique « AltvsTime », vous pouvez ajouter des notes d'observations dans une zone de saisie de texte pour l'objet courant du ciel."
+msgstr "Vous pouvez ajouter des notes d'observations sous cette fenêtre dans la boîte de texte."
 
 #. Tag: para
 #. +> trunk5
@@ -167,9 +165,8 @@ msgstr "Vous pouvez choisir la date de l'observation et l'endroit où vous allez
 #. Tag: para
 #. +> trunk5
 #: obsplanner.docbook:141
-#, fuzzy, no-c-format
-#| msgid "You can choose the treshold of magnitude for the objects to be shown. In astronomy, absolute magnitude (also known as absolute visual magnitude when measured in the standard V photometric band) measures a celestial object&apos;s intrinsic brightness."
-msgid "You can choose the threshold of magnitude for the objects to be shown. In astronomy, absolute magnitude (also known as absolute visual magnitude when measured in the standard V photometric band) measures a celestial object&apos;s intrinsic brightness."
+#, no-c-format
+msgid "You can choose the treshold of magnitude for the objects to be shown. In astronomy, absolute magnitude (also known as absolute visual magnitude when measured in the standard V photometric band) measures a celestial object&apos;s intrinsic brightness."
 msgstr "Vous pouvez choisir le seuil de magnitude pour les objets qui doivent être affichés. En astronomie, la magnitude absolue (connue aussi comme magnitude visuelle absolue quand elle est mesurée dans la bande photométrique standard V) mesure la luminosité intrinsèque d'un objet céleste."
 
 #. Tag: para
@@ -191,7 +188,7 @@ msgstr "Vous pouvez aussi accéder au <guilabel>DCN</guilabel> (Dans le ciel cet
 #: obsplanner.docbook:174
 #, no-c-format
 msgid "Another way of adding objects to your observation plan is using the newly introduced <guibutton>Batch Add</guibutton> will open up a text box where you can type many objects to add in one shot to the observation planner. Any objects not in the &kstars; database already will be resolved using SIMBAD Astronomical Database (provided this has been enabled in the Settings) and added to the database. The entire process of adding objects is slow and may take a while, and you can watch the progress in the Status Bar. Any objects that could not be found are then listed in an error message, so you can identify and fix the errors. Usually this may be because SIMBAD expects a different way of specifying the object (&eg; Sim 147 instead of Simeis 147). This new feature allows you to easily scrape data from observing lists on the web &etc; and add them to your workflow in &kstars;."
-msgstr "Une autre manière d'ajouter des objets à votre plan d'observation est d'utiliser la nouvelle fonctionnalité <guibutton>Traitement par lots</guibutton> qui ouvrira une boîte de texte où vous pouvez saisir autant d'objets que vous le souhaitez qui seront ajoutés d'un coup à votre plan d'observation. Tout objet qui ne serait pas déjà dans &kstars; sera cherché dans la base de données astronomique « SIMBAD » (à condition d'avoir été activée dans la configuration) et ajouté dans la base de données. Toute cette procédure d'ajout d'objets est lente et peut prendre du temps et vous pouvez voir son avancement dans la barre d'état. Tout objet impossible de trouver sera listé dans un message d'erreur afin de pouvoir l'identifier et le corriger. C'est généralement dû à un problème de nomenclature non géré par SIMBAD (c'est-à-dire Sim 147 plutôt que Simeis 147). Cette nouvelle fonctionnalité vous permet de facilement réutiliser une liste trouvée sur le web afin de l'ajouter à votre flux de travail dans &kstars;."
+msgstr "Une autre manière d'ajouter des objets à votre plan d'observation est d'utiliser la nouvelle fonctionnalité <guibutton>Traitement par lots</guibutton> qui ouvrira une boîte de texte où vous pouvez saisir autant d'objets que vous le souhaitez qui seront ajoutés d'un coup à votre plan d'observation. Tout objet qui ne serait pas déjà dans &kstars; sera cherché dans la base de données astronomique SIMBAD (à condition d'avoir été activée dans la configuration) et ajouté dans la base de données. Toute cette procédure d'ajout d'objets est lente et peut prendre du temps et vous pouvez voir son avancement dans la barre d'état. Tout objet impossible de trouver sera listé dans un message d'erreur afin de pouvoir l'identifier et le corriger. C'est généralement dû à un problème de nomenclature non géré par SIMBAD (c'est-à-dire Sim 147 plutôt que Simeis 147). Cette nouvelle fonctionnalité vous permet de facilement réutiliser une liste trouvée sur le web afin de l'ajouter à votre flux de travail dans &kstars;."
 
 #. Tag: para
 #. +> trunk5

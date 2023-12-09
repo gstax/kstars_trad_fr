@@ -5,21 +5,19 @@
 # Gérard Delafond <gerard@delafond.org>, 2002, 2003, 2004.
 # Ludovic Grossard <grossard@kde.org>, 2002, 2004, 2013.
 # steve <stax@ik.me>, 2022.
-# SPDX-FileCopyrightText: 2023 Xavier BESNARD <xavier.besnard@neuf.fr>
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_precession_3.6.7\n"
+"Project-Id-Version: kstars_precession_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-22 10:31+0200\n"
-"PO-Revision-Date: 2023-12-05 15:12+0100\n"
-"Last-Translator: Xavier BESNARD <xavier.besnard@neuf.fr>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2022-06-10 06:21+0200\n"
+"Last-Translator: steve <stax@ik.me>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.08.3\n"
 
 #. Tag: author
 #. +> trunk5
@@ -82,4 +80,4 @@ msgstr "La manière la plus facile de voir la précession est d'observer le <lin
 #: precession.docbook:41
 #, no-c-format
 msgid "We will now demonstrate Precession by changing the Date to a very remote year, and observing that the location of the Celestial Pole is no longer near Polaris. Open the <guilabel>Set Time</guilabel> window (<keycombo action=\"simul\">&Ctrl;<keycap>S</keycap></keycombo>), and set the date to the year 8000 (currently, &kstars; cannot handle dates much more remote than this, but this date is sufficient for our purposes). Notice that the sky display is now centered at a point between the constellations Cygnus and Cepheus. Verify that this is actually the pole by slewing left and right: the sky rotates about this point; in the year 8000, the North celestial pole will no longer be near Polaris."
-msgstr "Nous allons maintenant démontrer le phénomène de précession en indiquant une date très lointaine et en notant que le pôle céleste sera désormais plus éloigné de Polaris. Ouvrez la fenêtre <guilabel>Ajuster l'heure</guilabel> (<keycombo action=\"simul\">&Ctrl;<keycap>S</keycap></keycombo>), et tapez la date 8 000 (c'est à peu près le plus loin que &kstars; puisse aller présentement, mais cela suffira pour notre démonstration). Remarquez que l'image est maintenant centrée sur un point qui se trouve entre les constellations du Cygne et de Céphée. Vérifiez qu'il s'agit bel et bien du pôle céleste et ajustant vers la gauche ou vers la droite avec les flèches du clavier : en effet, le ciel tourne autour de ce point ; donc, en l'an 8 000, le pôle céleste nord ne se trouvera plus aux côtés de Polaris."
+msgstr "Nous allons maintenant démontrer le phénomène de précession en indiquant une date très lointaine et en notant que le pôle céleste sera désormais plus éloigné de Polaris. Ouvrez la fenêtre <guilabel>Ajuster l'heure</guilabel> (<keycombo action=\"simul\">&Ctrl;<keycap>S</keycap></keycombo>), et tapez la date 8 000 (c'est à peu près le plus loin que &kstars; puisse aller présentement, mais cela suffira pour notre démonstration). Remarquez que l'image est maintenant centrée sur un point qui se trouve entre les constellations Cygnus et Cepheus. Vérifiez qu'il s'agit bel et bien du pôle céleste et ajustant vers la gauche ou vers la droite avec les flèches du clavier : en effet, le ciel tourne autour de ce point ; donc, en l'an 8 000, le pôle céleste nord ne se trouvera plus aux côtés de Polaris."

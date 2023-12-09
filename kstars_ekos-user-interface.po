@@ -1,19 +1,18 @@
 # Traduction de kstars_ekos-user-interface.po en français
-# SPDX-FileCopyrightText: 2023 Xavier BESNARD <xavier.besnard@neuf.fr>
 # steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_ekos-user-interface_3.6.7\n"
+"Project-Id-Version: kstars_ekos-user-interface_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-03-29 11:17+0200\n"
-"PO-Revision-Date: 2023-12-06 12:59+0100\n"
-"Last-Translator: Xavier BESNARD <xavier.besnard@neuf.fr>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2022-06-15 08:56+0200\n"
+"Last-Translator: steve <stax@ik.me>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 23.08.3\n"
+"X-Generator: Lokalize 20.12.0\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: title
@@ -133,7 +132,7 @@ msgstr "Module Configuration et résumé"
 #: ekos-user-interface.docbook:73
 #, no-c-format
 msgid "As its name suggests, this is where you will create and manage your equipment profile, and connect to your devices. It also provides a summary view where the capture progress along with the focus &amp; guide operations is displayed in a compact format to convey the most important information relevant to the user."
-msgstr "Ainsi que suggéré par son nom, c'est ici que vous allez créer et gérer le profil de votre matériel et vous connecter aux périphériques. Il fournit aussi une vue résumant la procédure d'acquisition, de mise au point et de guidage dans un format synthétique afin de transmettre les informations les plus importantes à l'utilisateur."
+msgstr "Ainsi que suggéré par son nom, c'est ici que vous allez créer et gérer le profil de votre matériel et vous connecter aux périphériques. Il fournit aussi une vue résumant la procédure d'acquisition, de mise au point et de guidage dans un format compact afin de transmettre les informations les plus importantes à l'utilisateur."
 
 #. Tag: term
 #. +> trunk5
@@ -147,7 +146,7 @@ msgstr "<term>Module Ordonnanceur</term>"
 #: ekos-user-interface.docbook:81
 #, no-c-format
 msgid "After mastering Ekos, users are encouraged to learn how to use the Scheduler module since it facilitates the complete observation process greatly. It enables you to select multiple targets, specify which conditions and requirements to be met, and what frames are required for capture. Afterwards the scheduler intelligently calculates the best observation time for each object and then proceed to control the complete observatory from startup to shutdown."
-msgstr "Après la prise en main de Ekos, les utilisateurs sont encouragés à utiliser le module Ordonnanceur puisqu'il facilite grandement tout le processus d'observation. Il vous permet de choisir plusieurs cibles, de spécifier les conditions à respecter et les trames nécessaires à l'acquisition. Cela fait, l'ordonnanceur calcule le meilleur horaire d'observation pour chaque objet et ensuite prend le contrôle total de la session d'observation, du début jusqu'à la fin."
+msgstr "Après la prise en main d'Ekos, les utilisateurs sont encouragés à utiliser le module Ordonnanceur puisqu'il facilite grandement tout le processus d'observation. Il vous permet de choisir plusieurs cibles, de spécifier les conditions à respecter et les trames nécessaires à l'acquisition. Cela fait, l'ordonnanceur calcule le meilleur horaire d'observation pour chaque objet et ensuite prend le contrôle total de la session d'observation, du début jusqu'à la fin."
 
 #. Tag: term
 #. +> trunk5

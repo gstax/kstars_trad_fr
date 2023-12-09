@@ -1,6 +1,5 @@
 # traduction de kstars_commands.po en Français
 # translation of kstars_commands.po to french
-# SPDX-FileCopyrightText: 2023 Xavier BESNARD <xavier.besnard@neuf.fr>
 # Ludovic Grossard <grossard@kde.org>, 2004, 2005, 2007, 2012, 2013.
 # Delafond <gerard@delafond.org>, 2005.
 # Bieuzent Cyrille <bieuzent@gmail.com>, 2009.
@@ -9,18 +8,18 @@
 # steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_commands_3.6.7\n"
+"Project-Id-Version: kstars_commands_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-06 11:29+0100\n"
-"PO-Revision-Date: 2023-12-06 20:58+0100\n"
-"Last-Translator: Xavier BESNARD <xavier.besnard@neuf.fr>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2022-06-11 10:18+0200\n"
+"PO-Revision-Date: 2023-08-03 16:05+0200\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.08.3\n"
+"X-Generator: Lokalize 22.04.3\n"
 
 #. Tag: title
 #. +> trunk5
@@ -68,9 +67,8 @@ msgstr "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo
 #. Tag: para
 #. +> trunk5
 #: commands.docbook:20
-#, fuzzy, no-c-format
-#| msgid "Open a image in the FITS Viewer tool."
-msgid "Open an image in the FITS Viewer."
+#, no-c-format
+msgid "Open a image in the FITS Viewer tool."
 msgstr "Ouvre une image dans l'outil d'affichage FITS."
 
 #. Tag: menuchoice
@@ -755,9 +753,8 @@ msgstr "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>K</keycap></keycombo
 #. Tag: para
 #. +> trunk5
 #: commands.docbook:552
-#, fuzzy, no-c-format
-#| msgid "Opens <link linkend=\"tool-ekos\">Ekos</link>, a complete and powerful tool for astrophotography. With Ekos, you can align and guide your telescope, focus your CCD, and capture images using an easy intuitive interface."
-msgid "Opens <link linkend=\"ekos\">Ekos</link>, a complete and powerful tool for astrophotography. With Ekos, you can align and guide your telescope, focus your CCD, and capture images using an easy intuitive interface."
+#, no-c-format
+msgid "Opens <link linkend=\"tool-ekos\">Ekos</link>, a complete and powerful tool for astrophotography. With Ekos, you can align and guide your telescope, focus your CCD, and capture images using an easy intuitive interface."
 msgstr "Ouvre Ekos, un outil complet et puissant pour l'astrophotographie. Avec Ekos vous pouvez aligner et guider votre télescope, ajuster la mise au point de votre CCD et procéder à l'acquisition d'images en utilisant une interface facile et intuitive."
 
 #. Tag: menuchoice
@@ -1290,7 +1287,7 @@ msgstr "<guimenu>Configuration</guimenu> <guisubmenu>Modèles de couleurs</guisu
 #: commands.docbook:833
 #, no-c-format
 msgid "This submenu contains all of the defined color schemes: Classic, Star Chart, Night Vision and Moonless Night. It can also include your custom color schemes. Select any item to set that color scheme."
-msgstr "Ce sous-menu contient tous les modèles de couleurs : dont, Classique, Carte d'étoiles, Vision nocturne et Nuit sans Lune. Elle peut aussi inclure vos propres modèles de couleurs. En sélectionnant un élément, le modèle de couleur se met en place."
+msgstr "Ce sous-menu contient tous les modèles de couleurs : Classique, Carte d'étoiles, Vision nocturne et Nuit sans Lune. Elle peut aussi inclure vos propres modèles de couleurs. En sélectionnant un élément, le modèle de couleur se met en place."
 
 #. Tag: menuchoice
 #. +> trunk5
@@ -1496,7 +1493,7 @@ msgstr "<guimenuitem>Centrer et Suivre</guimenuitem> : centre l'image sur cet e
 #: commands.docbook:1036
 #, no-c-format
 msgid "<guimenuitem>Add flag...</guimenuitem>: Open &kstars; <quote>Flag manager</quote> window. Here you can manage your flags and use some of &kstars; features. When <quote>Flag manager</quote> window is open for a selected object, <guilabel>Right ascension</guilabel> and <guilabel>Declination</guilabel> text boxes will be automatically filled with the coordinate values of the selected object on the Sky Map. Besides these two text boxes, you can set the <guilabel>Epoch</guilabel>, add a <guilabel>Label</guilabel>, set the <guilabel>Label color</guilabel> or even add an <guilabel>Icon</guilabel>. To add custom icons, just add images in <filename class=\"directory\">`qtpaths --paths GenericDataLocation`/kstars/</filename>. File names must begin with the <quote>flag</quote> keyword. For example, the file <quote>flagSmall_red_cross.gif</quote> will be shown as Small red cross in the combo box. After you set up the information of the new flag, you can add it to the flags list using the <guibutton>Add</guibutton> button. You may also change flags details (&ie; RA/Dec, label or icon) and then save the new ones by pressing the <guibutton>Save changes</guibutton> button. Using the Flag manager, you can easily center an object in Map or in Telescope, by pressing <guibutton>Center in Map</guibutton> or <guibutton>Center in Telescope</guibutton> button. In order to delete a value from the list, just select it in the list and then press <guibutton>Delete</guibutton> button. Your flags are saved after you close current session and thus you will be able to see them everytime you will use &kstars; again."
-msgstr "Fenêtre <guimenuitem>Ajouter drapeau</guimenuitem> : Ouvrir le <quote>Gestionnaire de drapeaux</quote>. Vous pouvez gérer ici vos drapeaux et utiliser quelques fonctionnalités de &kstars;. Quand la fenêtre de <quote>Gestionnaire de drapeaux</quote> est ouverte pour un objet sélectionné, les boîtes pour l'<guilabel>ascension droite</guilabel> et la <guilabel>déclinaison</guilabel> seront automatiquement remplies avec les coordonnées de l'objet sélectionné dans la carte du ciel. Outre ces deux boîtes, vous pouvez régler l<guilabel>Epoch</guilabel>, ajouter une <guilabel>étiquette</guilabel>, ajuster la <guilabel>couleur de l'étiquette</guilabel> et même ajouter une <guilabel>icône</guilabel>. Pour ajouter des icônes personnalisées, il suffit d'ajouter des images dans le dossier <filename class=\"directory\">`qtpaths --paths GenericDataLocation`/kstars</filename>. Les noms de fichier doivent commencer par le mot clé <quote>flag</quote>. Par exemple, le fichier <quote>flagSmall_red_cross.gif</quote> sera affiché comme Small red cross dans la boîte. Après avoir spécifié l'information du nouveau drapeau, vous pouvez l'ajouter à la liste de drapeaux en utilisant le bouton <guibutton>Ajouter</guibutton>. Vous pouvez aussi modifier les détails du drapeau (c'est-à-dire AD / DEC, l'étiquette ou l'icône) et ensuite les enregistrer avec le bouton <guibutton>Enregistrer les changements</guibutton>. Avec le gestionnaire de drapeaux, vous pouvez facilement centrer un objet dans la carte ou dans le télescope en cliquant sut le bouton <guibutton>Centrer sur la carte</guibutton> ou <guibutton>Centrer dans le télescope</guibutton>. Pour supprimer une entrée dans la liste, sélectionner le simplement dans la liste et cliquez sur le bouton <guibutton>Supprimer</guibutton>. Vos drapeaux sont enregistrés après la fermeture de la session et vous pourrez ainsi les voir chaque fois que vous ouvrirez &kstars; à nouveau."
+msgstr "Fenêtre <guimenuitem>Ajouter drapeau</guimenuitem> : Ouvrir le <quote>Gestionnaire de drapeaux</quote>. Vous pouvez gérer ici vos drapeaux et utiliser quelques fonctionnalités de &kstars;. Quand la fenêtre de <quote>Gestionnaire de drapeaux</quote> est ouverte pour un objet sélectionné, les boîtes pour l'<guilabel>ascension droite</guilabel> et la <guilabel>déclinaison</guilabel> seront automatiquement remplies avec les coordonnées de l'objet sélectionné dans la carte du ciel. Outre ces deux boîtes, vous pouvez régler l<guilabel>Epoch</guilabel>, ajouter une <guilabel>étiquette</guilabel>, ajuster la <guilabel>couleur de l'étiquette</guilabel> et même ajouter une <guilabel>icône</guilabel>. Pour ajouter des icônes personnalisées, il suffit d'ajouter des images dans le dossier <filename class=\"directory\">`qtpaths --paths GenericDataLocation`/kstars</filename>. Les noms de fichier doivent commencer par le mot-clé <quote>flag</quote>. Par exemple, le fichier <quote>flagSmall_red_cross.gif</quote> sera affiché comme Small red cross dans la boîte. Après avoir spécifié l'information du nouveau drapeau, vous pouvez l'ajouter à la liste de drapeaux en utilisant le bouton <guibutton>Ajouter</guibutton>. Vous pouvez aussi modifier les détails du drapeau (c'est-à-dire AD/DEC, l'étiquette ou l'icône) et ensuite les enregistrer avec le bouton <guibutton>Enregistrer les changements</guibutton>. Avec le gestionnaire de drapeaux, vous pouvez facilement centrer un objet dans la carte ou dans le télescope en cliquant sut le bouton <guibutton>Centrer sur la carte</guibutton> ou <guibutton>Centrer dans le télescope</guibutton>. Pour supprimer une entrée dans la liste, sélectionner le simplement dans la liste et cliquez sur le bouton <guibutton>Supprimer</guibutton>. Vos drapeaux sont enregistrés après la fermeture de la session et vous pourrez ainsi les voir chaque fois que vous ouvrirez &kstars; à nouveau."
 
 #. Tag: para
 #. +> trunk5
@@ -1692,7 +1689,7 @@ msgstr "<keycap>1</keycap> : Mercure"
 #: commands.docbook:1227
 #, no-c-format
 msgid "<keycap>2</keycap>: Venus"
-msgstr "<keycap>2</keycap> : Vénus"
+msgstr "<keycap>2</keycap> : Venus"
 
 #. Tag: para
 #. +> trunk5
@@ -2203,6 +2200,7 @@ msgstr "&Ctrl;<keycap>M</keycap>"
 #. +> trunk5
 #: commands.docbook:1469
 #, no-c-format
+#| msgid "Open the <guilabel>Set Coordinates Manually</guilabel> tool, for specifying RA/Dec or Az/Alt coordinates on which to center."
 msgid "Open the <guilabel>Set Coordinates Manually</guilabel> tool, for specifying RA/Dec or Az/Alt coordinates on which to center. The tool defaults to <link linkend=\"ai-epoch\">J2000 epoch</link> for the RA/Dec."
 msgstr "Ouvre l'outil <guilabel>Définir les coordonnées manuellement</guilabel> pour spécifier les coordonnées « AD / DEC » ou « Az / Alt » sur lesquelles centrer. L'outil applique par défaut une <link linkend=\"ai-epoch\">époque « J2000 »</link> pour « AD / DEC »."
 

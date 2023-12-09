@@ -1,19 +1,18 @@
 # Translation to French
-# SPDX-FileCopyrightText: 2023 Xavier BESNARD <xavier.besnard@neuf.fr>
 # steve <stax@ik.me>, 2022, 2023.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_ekos_align_3.6.7\n"
+"Project-Id-Version: kstars_ekos_align_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-25 10:01+0200\n"
-"PO-Revision-Date: 2023-12-06 21:08+0100\n"
-"Last-Translator: Xavier BESNARD <xavier.besnard@neuf.fr>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2023-12-09 16:18+0100\n"
+"Last-Translator: steve <stax@ik.me>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 23.08.3\n"
+"X-Generator: Lokalize 20.12.0\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: title
@@ -108,7 +107,7 @@ msgstr "Utilisation typique"
 #: ekos-align.docbook:39
 #, no-c-format
 msgid "Using Ekos Alignment Module, aligning your mount using the controller's 1, 2, or 3 star alignment is <emphasis>not</emphasis> strictly necessary, though for some mounts it is recommended to perform a rough 1 or 2 star alignment before using Ekos alignment module. If you are using EQMod, you can start using Ekos alignment module right away. A typical workflow for GOTO alignment involves the following steps:"
-msgstr "Avec le module d'alignement de Ekos, l'alignement de la monture sur une, deux ou trois étoiles avec la commande de la monture n'est <emphasis>pas</emphasis> strictement nécessaire, mais pour certaines montures, il peut être recommandé de réaliser un alignement sommaire sur une ou deux étoiles avant d'utiliser le module d'alignement de Ekos. Mais si vous utiliser EQMod, vous pouvez commencer d'utiliser tout de suite le module d'alignement. Une marche à suivre typique pour les alignement GOTO implique les étapes suivantes :"
+msgstr "Avec le module d'alignement d'Ekos, l'alignement de la monture sur une, deux ou trois étoiles avec la commande de la monture n'est <emphasis>pas</emphasis> strictement nécessaire, mais pour certaines montures, il peut être recommandé de réaliser un alignement sommaire sur une ou deux étoiles avant d'utiliser le module d'alignement d'Ekos. Mais si vous utiliser EQMod, vous pouvez commencer d'utiliser tout de suite le module d'alignement. Une marche à suivre typique pour les alignement GOTO implique les étapes suivantes :"
 
 #. Tag: para
 #. +> trunk5
@@ -302,7 +301,7 @@ msgstr "L'échelle peut être la largeur de l'image en degrés (<guilabel>dw</gu
 #: ekos-align.docbook:158
 #, no-c-format
 msgid "The RA and DEC positions are usually filled in from the position the telescope thinks it is pointing. Naturally, the system doesn't require an exactly correct positional constraint--afterall the purpose of plate-solving is to find that position. The maximum distance in degrees from the specified position to the actual position is given by the <guilabel>Radius</guilabel> field. Plate-solving will fail if the specified position is further away. Typically you want to enable <guilabel>Use Position</guilabel> for faster solving, so we recommend you check this box. However, frequently issues related to solving are due to using a poor positional estimate (e.g. the telescope is significantly misaligned). Therefore, if you have plate-solving problems, you may want to uncheck <guilabel>Use Position</guilabel> until those issues are resolved. As mentioned, this will result in longer solving times. <guilabel>Auto-update</guilabel> will fill the position box with the position found in the most-recent successful solve. However, a slew will update the position to the position where the telescope thinks it is pointing after the slew."
-msgstr "Les positions en AD et DEC sont généralement prises de la position vers laquelle le télescope croit qu'il pointe. Comme la raison première de la résolution est de trouver l'exacte position, le système n'a évidemment pas besoin d'une position exacte pour la résolution. La distance maximale en degrés de la position spécifiée et la position actuelle est indiqué dans le champ <guilabel>Rayon</guilabel>. La résolution échouera si la position spécifiée est plus loin. Vous souhaitez typiquement activer <guilabel>Utiliser position</guilabel> pour accélérer la résolution, et nous vous recommandons de le faire. Toutefois, de fréquents problèmes de résolution sont liés à une estimation très imprécise de la position (&cad; le télescope est très mal aligné). Ainsi, si vous rencontrez des problèmes de résolution, vous pouvez décocher cette case jusqu'à avoir résolu ces problèmes. Comme déjà mentionné, cela va allonger la durée de résolution. <guilabel>Mise à jour automatique</guilabel> mettra à jour la position avec la position de la résolution réussie la plus récente. Mais un pivotage déclenchera une mise à jour de la position où le télescope pense qu'il pointe."
+msgstr "Les positions en AD et DEC sont généralement prises de la position vers laquelle le télescope croit qu'il pointe. Comme la raison première de la résolution est de trouver l'exacte position, le système n'a évidemment pas besoin d'une position exacte pour la résolution. La distance maximale en degrés de la position spécifiée et la position actuelle est indiqué dans le champ <guilabel>Rayon</guilabel>. La résolution échouera si la position spécifiée est plus loin. Vous souhaitez typiquement activer <guilabel>Utiliser position</guilabel> pour accélérer la résolution, et nous vous recommandons de le faire. Toutefois, de fréquents problèmes de résolution sont liés à une estimation très imprécise de la position (le télescope est très mal aligné). Ainsi, si vous rencontrez des problèmes de résolution, vous pouvez décocher cette case jusqu'à avoir résolu ces problèmes. Comme déjà mentionné, cela va allonger la durée de résolution. <guilabel>Mise à jour automatique</guilabel> mettra à jour la position avec la position de la résolution réussie la plus récente. Mais un pivotage déclenchera une mise à jour de la position où le télescope pense qu'il pointe."
 
 #. Tag: title
 #. +> trunk5
@@ -346,7 +345,7 @@ msgstr "Vous pouvez choisir les <guilabel>Options de profil</guilabel> dans l'on
 #: ekos-align.docbook:181
 #, no-c-format
 msgid "In the <guilabel>Align Options Profile Editor</guilabel> tab you can view and edit profiles. There are many parameters, most of which you need not change to solve issues. There are 3 types of parameters."
-msgstr "Les <guilabel>Options d'alignement du modificateur de profils</guilabel> permettent d'afficher et de modifier les profils. Il existe de nombreux paramètres dont la plupart n'ont pas besoin d'être modifié pour résoudre les problèmes. Il y a trois types de paramètres."
+msgstr "Les <guilabel>Options d'alignement du modificateur de profils</guilabel> permettent de visualiser et modifier les profils. Il existe de nombreux paramètres dont la plupart n'ont pas besoin d'être modifié pour résoudre les problèmes. Il y a trois types de paramètres."
 
 #. Tag: para
 #. +> trunk5
@@ -395,7 +394,7 @@ msgstr "Paramètres de l'extraction d'étoiles"
 #: ekos-align.docbook:194
 #, no-c-format
 msgid "The column headings are links to the Sextractor manual which is the main source for these parameters. View those links to find details on all the parameters. We will touch upon some of the parameters you might consider adjusting. However, it's probably best not to get into the weeds of modifying most of these values."
-msgstr "Les intitulés des colonnes sont des liens vers le manuel de Sextractor qui est la source d'information principale pour ces paramètres. Visitez ces liens pour obtenir davantage de détails sur ces paramètres. Nous allons aborder quelques uns de ces paramètres qu'il pourrait être intéressant d'ajuster. Toutefois, il est probablement judicieux de conserver les valeurs par défaut de la plupart de ces paramètres."
+msgstr "Les intitulés des colonnes sont des liens vers le manuel de Sextractor qui est la source d'information principale pour ces paramètres. Visitez ces liens pour obtenir davantage de détails sur ces paramètres. Nous allons aborder quelqu'uns de ces paramètres qu'il pourrait être intéressant d'ajuster. Toutefois, il est probablement judicieux de garder les valeurs par défaut de la plupart de ces paramètres."
 
 #. Tag: para
 #. +> trunk5
@@ -1321,7 +1320,7 @@ msgstr "Assistant d'alignement polaire, flux de travail 1 de la résolution"
 #: ekos-align.docbook:630
 #, no-c-format
 msgid "If your error is low enough (&eg; less than an arc-minute) then you don't need to make any adjustments. Simply press stop and you're done."
-msgstr "Si l'erreur est suffisamment petite (moins d'une minute d'arc), il est inutile de faire des ajustements. Cliquez sur « Arrêt » et c'est terminé."
+msgstr "Si l'erreur est suffisamment petite (moins d'une minute d'arc), il est inutile de faire des ajustements. Cliquez sur stop et c'est terminé."
 
 #. Tag: para
 #. +> trunk5
@@ -1349,7 +1348,7 @@ msgstr "Assistant d'alignement polaire, flux de travail 2 de la résolution"
 #: ekos-align.docbook:652
 #, no-c-format
 msgid "Below the user has also adjust Azimuth to reduce the error further. Now the error is very low and the process is done. The user should press the stop button."
-msgstr "Ci-dessous, l'opérateur a aussi ajusté l'azimut afin de réduire encore plus l'erreur. Elle est maintenant très petite et la procédure est terminée. L'opérateur doit cliquer sur le bouton « Arrêt »."
+msgstr "Ci-dessous, l'opérateur a aussi ajusté l'azimut afin de réduire encore plus l'erreur. Elle est maintenant très petite et la procédure est terminée. L'opérateur doit cliquer sur le bouton stop."
 
 #. Tag: phrase
 #. +> trunk5
@@ -1370,7 +1369,7 @@ msgstr "Schéma de correction de déplacement d'étoile"
 #: ekos-align.docbook:672
 #, no-c-format
 msgid "We also have an alternative schemes for correcting polar alignment. Two variations are <emphasis>Move Star &amp; Calc Error</emphasis> and <emphasis>Move Star</emphasis>. When you select this scheme, the system place a yellow/green/violet triangle on the screen. The triangle can be moved by clicking near a star, and the yellow/violet corner is moved to that star. In this scheme the user corrects polar alignment by first adjusting the mount's azimuth knob so that the selected star moves along the yellow side of the triangle. Once the star is near the next vertex, the azimuth knob should be adjusted so that the star moves along the green side of the triangle. Once the star is moved to the green/violet vertex, the mount is polar aligned, and the user can click <emphasis>stop</emphasis>."
-msgstr "Il existe un schéma alternatif pour corriger les erreurs d'alignement polaire. Les deux variations sont <emphasis>Déplacement d'étoile &amp; Calcul d'erreur</emphasis> et <emphasis>Déplacement d'étoile</emphasis>. En choisissant ce schéma, le système place un triangle jaune/vert/violet sur l'écran. Il peut être déplacé en cliquant près d'une étoile et le coin jaune/violet se déplace vers cette étoile. L'utilisateur corrige les erreurs d'alignement polaire en ajustant d'abord l'azimut de la monture afin que l'étoile sélectionnée se déplace le long du côté jaune du triangle. Une fois que l'étoile se trouve près du prochain sommet, l'azimut doit être ajusté pour l'étoile se déplace le long du côté vert du triangle. Une fois que l'étoile est sur le sommet vert/violet, la monture est alignée sur la polaire et l'opérateur peut cliquer sur le bouton <emphasis>Arrêt</emphasis>."
+msgstr "Il existe un schéma alternatif pour corriger les erreurs d'alignement polaire. Les deux variations sont <emphasis>Déplacement d'étoile &amp; Calcul d'erreur</emphasis> et <emphasis>Déplacement d'étoile</emphasis>. En choisissant ce schéma, le système place un triangle jaune/vert/violet sur l'écran. Il peut être déplacé en cliquant près d'une étoile et le coin jaune/violet se déplace vers cette étoile. L'utilisateur corrige les erreurs d'alignement polaire en ajustant d'abord l'azimut de la monture afin que l'étoile sélectionnée se déplace le long du côté jaune du triangle. Une fois que l'étoile se trouve près du prochain sommet, l'azimut doit être ajusté pour l'étoile se déplace le long du côté vert du triangle. Une fois que l'étoile est sur le sommet vert/violet, la monture est alignée sur la polaire et l'opérateur peut cliquer sur le bouton <emphasis>stop</emphasis>."
 
 #. Tag: para
 #. +> trunk5
