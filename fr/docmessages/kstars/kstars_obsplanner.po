@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_obsplanner_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-29 08:59+0200\n"
+"POT-Creation-Date: 2023-12-06 11:29+0100\n"
 "PO-Revision-Date: 2023-02-07 14:04+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -165,8 +165,9 @@ msgstr "Vous pouvez choisir la date de l'observation et l'endroit où vous allez
 #. Tag: para
 #. +> trunk5
 #: obsplanner.docbook:141
-#, no-c-format
-msgid "You can choose the treshold of magnitude for the objects to be shown. In astronomy, absolute magnitude (also known as absolute visual magnitude when measured in the standard V photometric band) measures a celestial object&apos;s intrinsic brightness."
+#, fuzzy, no-c-format
+#| msgid "You can choose the treshold of magnitude for the objects to be shown. In astronomy, absolute magnitude (also known as absolute visual magnitude when measured in the standard V photometric band) measures a celestial object&apos;s intrinsic brightness."
+msgid "You can choose the threshold of magnitude for the objects to be shown. In astronomy, absolute magnitude (also known as absolute visual magnitude when measured in the standard V photometric band) measures a celestial object&apos;s intrinsic brightness."
 msgstr "Vous pouvez choisir le seuil de magnitude pour les objets qui doivent être affichés. En astronomie, la magnitude absolue (connue aussi comme magnitude visuelle absolue quand elle est mesurée dans la bande photométrique standard V) mesure la luminosité intrinsèque d'un objet céleste."
 
 #. Tag: para
