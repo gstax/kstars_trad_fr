@@ -65,6 +65,11 @@ Comme ce sont des fichiers pris dans la branche trunk, il faut rajouter ce drape
 
 <code>python3 add_trunk.py fichier.po</code>
 
+### Récupération depuis le svn avec git
+<code> git svn rebase</code>
+
+est l'équivalent de <code>git pull</code>
+
 ### Création des docbook
 
 <code>cd /home/steve/sources/l10n-scripty></code> <br/>
