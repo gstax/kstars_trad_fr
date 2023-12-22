@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: kstars_ekos-focus_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-12-03 13:20+0100\n"
-"PO-Revision-Date: 2023-08-16 07:09+0200\n"
+"PO-Revision-Date: 2023-12-22 17:04+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team:  French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -382,10 +382,10 @@ msgstr "Le bouton <guibutton>Mise au point automatique</guibutton> démarre l'ex
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:324
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "The <guibutton>Auto Focus</guibutton> button starts an Autofocus run. The <guibutton>Stop</guibutton> button is used to stop the run."
 msgid "The <guibutton>Inspector</guibutton> button starts an <link linkend=\"focus-aberration-inspector\">Aberration Inspector</link> run. The <guibutton>Stop</guibutton> button is used to stop the run."
-msgstr "Le bouton <guibutton>Mise au point automatique</guibutton> démarre l'exécution de la procédure de mise au point automatique. Le bouton <guibutton>Arrêter</guibutton> l'arrête."
+msgstr "Le bouton <guibutton>Inspecteur</guibutton> démarre l'exécution de <link linkend=\"focus-aberration-inspector\">l'inspecteur d'aberration</link>. Le bouton <guibutton>Arrêter</guibutton> l'arrête."
 
 #. Tag: para
 #. +> trunk5
@@ -2879,7 +2879,7 @@ msgstr "Actuellement Ekos utilise une simple relation linéaire entre la tempér
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2161
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "A way to get a value for <guilabel>Ticks / °C</guilabel> would be to take the data from the autofocus-(datetime).txt files from a few nights of observing into a spreadsheet and graph focus position against temperature for each filter. Review the data and remove any outliers and plot a line of best fit. Use the line to get <guilabel>Ticks / °C</guilabel>. If you intend to adapt for altitude as well as temperature, then it would be better to use a set of data at similar altitude when calibrating temperature. Then its possible to calculate the effect of Temperature and remove this from the data when calculating the effect of Altitude."
 msgid "A way to get a value for <guilabel>Ticks / °C</guilabel> would be to take the data from the autofocus-(datetime).txt files from a few nights of observing into a spreadsheet and graph focus position against temperature for each filter. Review the data and remove any outliers and plot a line of best fit. Use the line to get <guilabel>Ticks / °C</guilabel>. If you intend to adapt for altitude as well as temperature, then it would be better to use a set of data at similar altitude when calibrating temperature. Then it's possible to calculate the effect of Temperature and remove this from the data when calculating the effect of Altitude."
 msgstr "Une manière d'obtenir ces valeurs est de saisir ces données prises sur plusieurs nuits dans un tableur et de dessiner le graphique de la position de mise au point en fonction de la température et cela pour chaque filtre. Passez en revue les données et éliminez les valeurs aberrantes puis faites une régression linéaire sur ces données. Elle vous donnera la valeur de <guilabel>Pas / °C</guilabel>. Si votre intention est de faire pareil pour l'altitude, il sera probablement plus efficace d'utiliser un ensemble de données d'altitudes similaires pour la calibration de la température. Il sera ainsi possible de calculer l'effet dû à la température et de la soustraire des données pour le calcul de l'effet dû à l'altitude."
@@ -3034,620 +3034,620 @@ msgstr "Pour le moment le résolveur est utilisé pour interpoler une courbe hyp
 #. Tag: title
 #. +> trunk5
 #: ekos-focus.docbook:2295
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<title>Adaptive Focus</title>"
 msgid "<title>Aberration Inspector</title>"
-msgstr "<title>Mise au point adaptative</title>"
+msgstr "<title>Inspecteur d'aberration</title>"
 
 #. Tag: screeninfo
 #. +> trunk5
 #: ekos-focus.docbook:2298
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Adaptive Focus</screeninfo>"
 msgid "<screeninfo>Aberration Inspector</screeninfo>"
-msgstr "<screeninfo>Mise au point adaptative</screeninfo>"
+msgstr "<screeninfo>Inspecteur d'aberration</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: ekos-focus.docbook:2306
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Adaptive Focus</phrase>"
 msgid "<phrase>Aberration Inspector</phrase>"
-msgstr "<phrase>Mise au point adaptative</phrase>"
+msgstr "<phrase>Inspecteur d'aberration</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2311
 #, no-c-format
 msgid "The Aberration Inspector is a tool that makes use of Autofocus to analyze backfocus and sensor tilt in the connected optical train."
-msgstr ""
+msgstr "L'inspecteur d'aberration est un outil utilisant la mise au point automatique pour analyser le backfocus et l'inclinaison du capteur du train optique."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2313
 #, no-c-format
 msgid "To run Aberration Inspector press the Inspector button on the focus screen located next to the Autofocus button. See <link linkend=\"focus-focuser-group\">Focuser Group</link> for more details. The following criteria must be met in order for the tool to work:"
-msgstr ""
+msgstr "Pour exécuter l'inspecteur d'aberration, veuillez cliquer sur le bouton de l'inspecteur du module de mise au point situé près du bouton de mise au point automatique. Reportez-vous au <link linkend=\"focus-focuser-group\">Groupe de mise au point</link> pour davantage de détails. Les critères suivants doivent être remplis pour que l'outil fonctionne :"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2319
 #, no-c-format
 msgid "The focuser must be an absolute focuser."
-msgstr ""
+msgstr "Le moteur de mise au point doit être de type absolu."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2323
 #, no-c-format
 msgid "The focus algorithm must be Linear 1 Pass."
-msgstr ""
+msgstr "L'algorithme de mise au point doit être Linéaire 1 passe."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2327
 #, no-c-format
 msgid "A mosaic mask must be applied."
-msgstr ""
+msgstr "Un masque de mosaïque doit avoir été appliqué."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2331
 #, no-c-format
 msgid "Focuser step size needs to be setup. It is the number of microns the focal plane moves for 1 focuser tick. This is setup in the CFZ parameters tab. See the <link linkend=\"focus-cfz\">CFZ section</link> for more details."
-msgstr ""
+msgstr "La taille de pas du moteur de mise au point doit être réglé. Il correspond au nombre de microns d'un pas de déplacement. Cela est réglé dans l'onglet CFZ. Reportez-vous à la <link linkend=\"focus-cfz\">section CFZ</link> pour davantage de détails."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2338
 #, no-c-format
 msgid "When the Inspector button is pressed, AutoFocus will run, but in addition, for each datapoint, extra information is captured for later use by Aberration Inspector. Once Autofocus completes, the Aberration Inspector dialog is displayed."
-msgstr ""
+msgstr "Lorsque le bouton de l'Inspecteur est cliqué, une exécution de la mise au point automatique sera lancée, mais, en plus, pour chaque point, de l'information supplémentaire sera enregistrée pour une utilisation ultérieure par l'Inspecteur. La fenêtre de l'Inspecteur sera affichée dès que la mise au point automatique sera terminée."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2342
 #, no-c-format
 msgid "To initially setup to use the tool it is recommended to do the following:"
-msgstr ""
+msgstr "Le réglage initial pour l'utilisation de cet outil nécessite les points suivants :"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2346
 #, no-c-format
 msgid "Point to a part of the sky where Autofocus solves well. Typically this would be high in the sky away from any obstacles. Choose somewhere with lots of stars such as the Milky Way. The reason this is more important for Aberration Inspector than Autofocus is that focus analysis needs to be performed for each tile in the mosaic. Therefore, it is important that each tile has enough stars to perform accurate Autofocus."
-msgstr ""
+msgstr "Pointer vers une région du ciel connue pour obtenir une bonne résolution. C'est typiquement haut dans le ciel sans obstacle où il y a beaucoup d'étoiles, comme la voie Lactée. La raison pour laquelle il est plus important pour l'inspecteur d'aberration que pour la mise au point automatique d'avoir un ciel très étoilé et que l'analyse de mise au point doit être réalisée pour chaque tuile de la mosaïque. Il faut donc que chaque tuile ait assez d'étoiles pour réaliser une mise au point précise."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2353
 #, no-c-format
 msgid "Run Autofocus a couple of times to ensure it is solving correctly and that you have a good set of stars in each mosaic tile. Whilst most focus parameters can be used it is recommended to use the parameters that work best for Autofocus with your equipment. The reason for this is that Aberration Inspector needs be focus solve each mosaic tile and not just the sensor as a whole."
-msgstr ""
+msgstr "Exécuter la mise au point automatique plusieurs fois pour s'assurer que la résolution se fasse correctement et qu'il y ait assez d'étoiles par tuile. Bien que la plupart des paramètres peuvent être utilisés, il est recommandé d'utiliser les paramètres de mise au point automatique qui fonctionnent le mieux avec votre équipement. La raison est que l'Inspecteur d'aberration doit réaliser une résolution pour chaque tuile et pas seulement pour le capteur en entier."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2360
 #, no-c-format
 msgid "A mosaic mask must be applied. Some experimentation will be required to set this up optimally for your equipment. The configuration parameter to adjust is the tile size which is the size of tile as a percentage of sensor width. The higher the percentage, the bigger each tile, e.g. for a 4:3 sensor using a tile size of 25% means each tile is 8% of the sensor's area. Using a tile size of 10% means each tile is 1% of the sensor's area. The bigger the area the more stars will be present and the better the focus algorithm will solve. However, the purpose of the Aberration Inspector is to provide information on aberrations (backfocus and tilt) across the sensor, so ideally the information for each tile would be specific to as small an area as possible."
-msgstr ""
+msgstr "Un masque de mosaïque doit être appliqué. Un peu d'expérimentation sera probablement nécessaire pour trouver le réglage optimal pour votre équipement. Le paramètre a ajusté est la taille de la tuile qui est un pourcentage de la largeur du capteur. Ainsi, plus ce pourcentage est grand et plus la tuile sera grande ; par exemple, pour un capteur 4:3 et une tuile de taille 25%, cela signifie que chaque tuile représente 8% de la surface du capteur. Pour 10%, chaque tuile représente 1% de la surface du capteur. Plus la surface est grande et plus grand sera le nombre d'étoile et meilleure sera la résolution. Toutefois, la raison d'être de l'Inspecteur d'aberration est de fournir de l'information sur l'aberration (backfocus et inclinaison) du capteur, et par conséquent l'information pour chaque tuile sera aussi petite que la surface de la tuile."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2368
 #, no-c-format
 msgid "The sweet spot for tile size is as small a value as possible that still contains enough stars to solve well in each tile."
-msgstr ""
+msgstr "La meilleur taille de tuile est la plus petite possible qui permet une résolution pour chaque tuile."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2373
 #, no-c-format
 msgid "The Aberration Inspector can be used in conjunction with a device to adjust tilt and / or backfocus. The method to do this is an iterative approach, like for example, collimating a telescope. The steps are:"
-msgstr ""
+msgstr "L'inspecteur d'aberration peut être utilisé conjointement avec un périphérique permettant d'ajuster l'inclinaison et/ou le backfocus. La méthode est itérative comme par exemple la collimation du télescope. Les étapes sont :"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2378
 #, no-c-format
 msgid "Run the Aberration Inspector and obtain results."
-msgstr ""
+msgstr "Exécuter l'Inspecteur d'aberration et obtenir des résultats."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2382
 #, no-c-format
 msgid "Inspect the results and make sure they are good, e.g. number of stars in each tile is sufficient and the R² is acceptable for all relevant tiles."
-msgstr ""
+msgstr "Inspectez les résultats et assurez-vous qu'ils soient bon, c'est-à-dire que le nombre d'étoiles dans chaque tuile est suffisant et que le R² soit acceptable pour chaque tuile."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2387
 #, no-c-format
 msgid "Adjust tilt and / or backfocus using your device, based on Aberration Inspector results."
-msgstr ""
+msgstr "Ajustez l'inclinaison et/ou le backfocus en utilisant votre périphérique, en se référant aux résultats obtenus."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2391
 #, no-c-format
 msgid "Re-run Aberration Inspector. It will launch another dialog. Check results as before. If the tilt and / or backfocus is getting better then the adjustment was made in the correct sense; if not reverse the sense and retry. Use the feedback from the previous adjustment for the next adjustment."
-msgstr ""
+msgstr "Relancez l'Inspecteur d'aberration. Cela ouvrira une nouvelle fenêtre. Vérifiez les résultats comme précédemment. Si l'inclinaison et/ou le backfocus s'améliorent, cela signifie que les corrections vont dans le bon sens. Dans le cas contraire, inversez le sens et réessayez. Utilisez le retour de l'ajustement précédent pour le prochain ajustement."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2397
 #, no-c-format
 msgid "Repeat the above process until the limit of sensitivity of the equipment is reached."
-msgstr ""
+msgstr "Répétez la procédure jusqu'à parvenir aux limites de votre équipement."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2399
 #, no-c-format
 msgid "Note the amount of adjustment, e.g. how far to turn bolts, and the sense, clockwise or counter-clockwise, will vary by equipment and must be discovered by the user by trial and error. Always follow the recommendations of the tilt / backfocus device manufacturer."
-msgstr ""
+msgstr "Notez la valeur de l'ajustement, c'est-à-dire le nombre de tours, le sens (horaire ou anti-horaire). Ces réglages dépendent de votre équipement et doivent être trouvés par tâtonnements."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2403
 #, no-c-format
 msgid "Each time Aberration Inspector is run it launches a new dialog with the run number appended to the title. This way several runs can be performed and the results compared. Note, however, that the dialog holds a lot of data (roughly 10x the amount of a standard Autofocus run). The system resources associated with this are released when the dialog is closed. For this reason on lower powered machines, once the tool has been used, it is recommended to close all Aberration Inspector dialogs before imaging."
-msgstr ""
+msgstr "À chaque exécution de l'Inspecteur, une fenêtre s'ouvre et affiche le nombre d'exécution pour chaque tuile. Ainsi, plusieurs exécutions peuvent être réalisées et les résultats comparés. Veuillez toutefois noter la grande quantité de données (environ 10x celle d'une mise au point automatique). Les ressources système associées sont affichées une fois la fenêtre fermée. Il est ainsi recommandé, pour les machines de faibles ressources, de fermer toutes les fenêtres de l'inspecteur avant de commencer d'imager."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2409
 #, no-c-format
 msgid "The following sections describe the sections of the Aberration Inspector dialog."
-msgstr ""
+msgstr "Les sections suivantes décrivent les parties de la fenêtre de l'inspecteur d'aberration."
 
 #. Tag: title
 #. +> trunk5
 #: ekos-focus.docbook:2412
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<title>Adaptive Focus</title>"
 msgid "<title>Aberration Inspector V-Curve</title>"
-msgstr "<title>Mise au point adaptative</title>"
+msgstr "<title>Courbe en V de l'inspecteur d'aberration</title>"
 
 #. Tag: screeninfo
 #. +> trunk5
 #: ekos-focus.docbook:2415
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Focus V-Curve</screeninfo>"
 msgid "<screeninfo>Aberration Inspector V-Curve</screeninfo>"
-msgstr "<screeninfo>Courbe en V de la mise au point</screeninfo>"
+msgstr "<screeninfo>Courbe en V de l'inspecteur d'aberration</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: ekos-focus.docbook:2423
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Focus V-Curve</phrase>"
 msgid "<phrase>Aberration Inspector V-Curve</phrase>"
-msgstr "<phrase>Courbe en V de la mise au point</phrase>"
+msgstr "<phrase>Courbe en V de l'inspecteur d'aberration</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2428
 #, no-c-format
 msgid "At the top of the dialog are some controls, followed by the V-Curve. The controls are:"
-msgstr ""
+msgstr "En haut de la fenêtre se trouvent quelques boutons suivi par la courbe en V. Ce sont :"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2432
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guilabel>Filter</guilabel>: Filter Name."
 msgid "<guilabel>Tiles</guilabel>: Three options are available:"
-msgstr "<guilabel>Filtre</guilabel> : nom du filtre"
+msgstr "<guilabel>Tuiles</guilabel> : trois options sont disponibles :"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2435
 #, no-c-format
 msgid "All: All 9 tiles are displayed."
-msgstr ""
+msgstr "Tout : les 9 tuiles sont affichées"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2438
 #, no-c-format
 msgid "Centre and outer corners: The centre and 4 corner tiles are displayed."
-msgstr ""
+msgstr "Centre et coins : la tuile du centre et les 4 tuiles de coins sont affichés."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2441
 #, no-c-format
 msgid "Centre and inner diamond: The centre and 4 inner diamond tiles are displayed."
-msgstr ""
+msgstr "Centre et losanges intérieurs : la tuile du centre et les 4 tuiles des losanges intérieurs sont affichés."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2446
 #, no-c-format
 msgid "<guilabel>Labels</guilabel>: Checkbox toggles focus point labels on the V-Curve."
-msgstr ""
+msgstr "<guilabel>Étiquettes</guilabel> : case à cocher qui affiche/masque les étiquettes des points de la courbe en V."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2449
 #, no-c-format
 msgid "<guilabel>CFZ</guilabel>: Checkbox toggles whether the CFZ moustache is displayed on the V-Curve."
-msgstr ""
+msgstr "<guilabel>CFZ</guilabel> : case à cocher qui affiche/masque la zone CFZ sur la courbe en V."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2452
 #, no-c-format
 msgid "<guilabel>Optimise Tile Centres</guilabel>: If unchecked, the geometrical centre of the tile is used; if checked, the centre of the tile is calculated as an average of the star positions within the tile. Whilst theoretically more accurate to check this option, it is likely to have a significant impact only if the number of stars is small."
-msgstr ""
+msgstr "<guilabel>Optimiser les centres des tuiles</guilabel> : si décoché, le centre géométrique de la tuile est utilisé. Si coché, le centre de la tuile est calculé comme étant la moyenne des positions des étoiles de la tuile. Bien que théoriquement plus plus précis, cette option a un impact important que pour les tuiles n'ayant que très peu d'étoiles."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2458
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guilabel>Filter</guilabel>: Select the filter to use."
 msgid "<guilabel>Close</guilabel>: Close the Aberration Inspector dialog."
-msgstr "<guilabel>Filtre</guilabel> : choix du filtre à utiliser"
+msgstr "<guilabel>Fermer</guilabel> : fermer la boîte de dialogue de l'inspecteur d'aberration"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2462
 #, no-c-format
 msgid "The V-Curve is similar to the V-Curve on the main Focus tab, except each tile is represented by its own curve. The number of curves is determined by the setting of the <guilabel>Tiles</guilabel> combobox. The x-axis displays the focuser position and the y-axis the measure (e.g. HFR) used by Autofocus. Each curve has its own colour and 2 character identifier as displayed in the legend."
-msgstr ""
+msgstr "La courbe en V est similaire à celle affichée dans l'onglet de la mise au point, sauf que chaque tuile possède sa propre courbe. Le nombre de courbes est déterminé par le réglage des <guilabel>Tuiles</guilabel>. L'axe x affiche la position du moteur de mise au point et l'axe y affiche la mesure (p.ex. le HFR) utilisé par la mise au point automatique. Chaque courbe a sa propre couleur et est identifiée par 2 caractères affichés dans la légende."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2467
 #, no-c-format
 msgid "Hover the mouse over a curve minimum to see more information about that curve."
-msgstr ""
+msgstr "Un survol du minimum de la courbe affiche davantage d'informations sur cette courbe."
 
 #. Tag: title
 #. +> trunk5
 #: ekos-focus.docbook:2471
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<title>Adaptive Focus</title>"
 msgid "<title>Aberration Inspector Table</title>"
-msgstr "<title>Mise au point adaptative</title>"
+msgstr "<title>Tableau de l'inspecteur d'aberration</title>"
 
 #. Tag: screeninfo
 #. +> trunk5
 #: ekos-focus.docbook:2474
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Focus Analyze</screeninfo>"
 msgid "<screeninfo>Aberration Inspector Table</screeninfo>"
-msgstr "<screeninfo>Analyse de la mise au point</screeninfo>"
+msgstr "<screeninfo>Tableau de l'inspecteur d'aberration</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: ekos-focus.docbook:2482
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Focus Analyze</phrase>"
 msgid "<phrase>Aberration Inspector Table</phrase>"
-msgstr "<phrase>Analyse de la mise au point</phrase>"
+msgstr "<phrase>Tableau de l'inspecteur d'aberration</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2487
 #, no-c-format
 msgid "The table displays information pertinent to each tile as selected by the <guilabel>Tiles</guilabel> setting."
-msgstr ""
+msgstr "Le tableau affiche l'information pertinente pour chaque tuile sélectionnée avec le paramètre <guilabel>Tuiles</guilabel>."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2490
 #, no-c-format
 msgid "A tooltip like graphic is displayed when the mouse is hovered over either of the leftmost 2 columns. The graphic displays a picture of the sensor scaled to the dimensions of the sensor. Overlayed on the sensor are the tiles as selected by the <guilabel>Tiles</guilabel> setting. The tiles are scaled appropriately for the tile settings. Each tile is labelled with the Tile Name and the tile corresponding to the row that the mouse is hovering over, is highlighted in the colour of that tile."
-msgstr ""
+msgstr "Une boîte d'aide est affichée lors d'un survol de la souris sur les deux colonnes les plus à gauche. Le graphique affiche une image du capteur à l'échelle de dimensions du capteur. Les tuiles sont superposées au capteur tel que spécifié par le paramètres <guilabel>Tuiles</guilabel>. Elles sont dimensionnées selon ce réglage. Chaque tuile est étiquetée de son nom et la tuile correspondant à la ligne survolée par la souris est colorée de la même couleur que la tuile."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2496
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "The following controls are available:"
 msgid "The following columns are displayed:"
-msgstr "Les boutons de contrôle suivants sont disponibles :"
+msgstr "Les colonnes suivantes sont affichées :"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2500
 #, no-c-format
 msgid "<guilabel>Tile</guilabel>: The 1 or 2 character name of the tile, e.g. TL = Top Left, C = Centre, etc."
-msgstr ""
+msgstr "<guilabel>Tuile</guilabel> : le nom de la tuile résumé en 1 ou 2 caractères, par exemple TL = Top Left, C = Centre, etc."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2504
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guilabel>Iteration</guilabel>: The number of datapoints taken so far."
 msgid "<guilabel>Description</guilabel>: Tile Description, e.g. Top Left, Centre, etc."
-msgstr "<guilabel>Itération</guilabel> : le nombre de points utilisés jusqu'ici."
+msgstr "<guilabel>Description</guilabel> : la description de la tuile, par exemple Top Left, Centre, etc."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2507
 #, no-c-format
 msgid "<guilabel>Solution</guilabel>: The focus solution. This matches the solution on the V_Curve."
-msgstr ""
+msgstr "<guilabel>Solution</guilabel> : la solution de mise au point. Correspond à la solution de la courbe en V."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2510
 #, no-c-format
 msgid "<guilabel>Delta (ticks)</guilabel>: This is the delta of the solution for the current table row from the solution of the Centre tile. The Delta of the Centre row will, of course, be zero."
-msgstr ""
+msgstr "<guilabel>Delta (pas)</guilabel> : différence entre la solution de la table actuelle et du centre de la tuile. La différence de la ligne du Centre sera bien sûr de zéro."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2514
 #, no-c-format
 msgid "<guilabel>Delta (μm)</guilabel>: This is Delta (ticks) converted to microns using the step size in microns as specified in the CFZ Focus tab."
-msgstr ""
+msgstr "<guilabel>Delta (μm)</guilabel> : différence convertie en microns à l'aide de la taille de pas en microns telle que spécifiée dans la partie CFZ de l'onglet Mise au point."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2518
 #, no-c-format
 msgid "<guilabel>Num Stars</guilabel>: This shows the min / max number of stars detected during the Autofocus run. Usually, the minimum number would be a far out of focus datapoint and the max number would be the in focus datapoint."
-msgstr ""
+msgstr "<guilabel>Nombre d'étoiles</guilabel> : affiche le nombre minimal et maximal d'étoiles détectées durant l'exécution de la mise au point automatique. Normalement, le nombre minimal doit se trouver loin de la position de mise au point, alors que le maximum doit être à la position de mise au point."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2523
 #, no-c-format
 msgid "<guilabel>R²</guilabel>: R-squared of the curve fit for this tile. See <link linkend=\"Coefficient_of_Determination\">Coefficient of Determination</link> for more details."
-msgstr ""
+msgstr "<guilabel>R²</guilabel> : la valeur R² de la courbe de régression pour cette tuile. Voyez <link linkend=\"Coefficient_of_Determination\">Coefficient de détermination</link> pour davantage de détails."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2527
 #, no-c-format
 msgid "<guilabel>Exclude</guilabel>: Checkbox to include / exclude this tile in calculations. By default, if a tile has been curve fitted it will be included; if a tile was not curve fitted then it will be excluded. In addition, the user may decide that a particular tile may contain poor quality data, for example the R² is low; or the number of stars is low. In this case the Exclude can be checked and this row will be excluded from calculations. Note that by excluding some rows, some calculations may not be performed. If the Centre tile is excluded, no calculations can be performed."
-msgstr ""
+msgstr "<guilabel>Exclure</guilabel> : case à cocher pour inclure/exclure cette tuile des calculs. Par défaut, chaque tuile ayant réussi la régression sera inclue. En cas d'échec, elle ne sera pas inclue. De plus, l'utilisateur peut décider qu'une tuile ne contient pas assez d'information de qualité (R² petit ou trop peu d'étoiles) et ainsi l'exclure des calculs. Veuillez noter qu'en excluant des tuiles, certains calculs ne seront pas réalisés. Si la tuile du centre est exclue, aucun calcul ne peut être réalisé."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2535
 #, no-c-format
 msgid "Note that whilst it's possible to exclude tiles and still get calculated values, if the data is poor quality then it is recommended to rerun Aberration Inspector rather than persist with poor quality data."
-msgstr ""
+msgstr "Notez également que bien qu'il soit possible d'exclure des tuiles et d'obtenir des valeurs, si les données sont vraiment mauvaises, il est fortement recommandé de relancer l'Inspecteur d'aberration plutôt que de persister avec ces mauvaises données."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2541
 #, no-c-format
 msgid "The recommended approach is to check the table for quality data and once achieved, move onto analysing the <link linkend=\"aberration-inspector-results\">Aberration Inspector Results</link>."
-msgstr ""
+msgstr "L'approche recommandée est de vérifier le tableau pour obtenir de bonnes données et une fois fait, d'analyser les <link linkend=\"aberration-inspector-results\">Résultats de l'Inspecteur d'aberration</link>."
 
 #. Tag: title
 #. +> trunk5
 #: ekos-focus.docbook:2546
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<title>Adaptive Focus</title>"
 msgid "<title>Aberration Inspector Results</title>"
-msgstr "<title>Mise au point adaptative</title>"
+msgstr "<title>Résultats de l'inspecteur d'aberration</title>"
 
 #. Tag: screeninfo
 #. +> trunk5
 #: ekos-focus.docbook:2549
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Adaptive Focus</screeninfo>"
 msgid "<screeninfo>Aberration Inspector Results</screeninfo>"
-msgstr "<screeninfo>Mise au point adaptative</screeninfo>"
+msgstr "<screeninfo>Résultats de l'inspecteur d'aberration</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: ekos-focus.docbook:2557
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Adaptive Focus</phrase>"
 msgid "<phrase>Aberration Inspector Results</phrase>"
-msgstr "<phrase>Mise au point adaptative</phrase>"
+msgstr "<phrase>Résultats de l'inspecteur d'aberration</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2562
 #, no-c-format
 msgid "The calculation results are displayed in this section, based on the data displayed in the table:"
-msgstr ""
+msgstr "Les résultats des calculs sont affichés dans cette section, fondés sur les données affichées dans la table :"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2566
 #, no-c-format
 msgid "<guilabel>Backfocus Δ</guilabel>: This is the value of the Backfocus delta. The nearer to perfect backfocus, the lower the backfocus delta. Note that the Backfocus delta gives a clue as to how far out the Backfocus is, in terms of scale and direction, but is not the amount by which the sensor needs to be moved. The relationship between backfocus Delta and how far to move the sensor will vary with the equipment used, and needs to be worked out by the user."
-msgstr ""
+msgstr "<guilabel>Δ du backfocus</guilabel> : la valeur du delta du backfocus. Le meilleur backfocus est obtenu pour des deltas petits. Veuillez noter que cette valeur donne une indication sur le positionnement du backfocus en terme d'échelle et de direction, mais n'est en aucun cas une mesure de la quantité à déplacer le capteur. La relation entre ces deux grandeurs dépend de l'équipement et nécessite d'être trouver par l'utilisateur."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2572
 #, no-c-format
 msgid "The field gives the sense of the backfocus movement required to improve backfocus: either move the sensor nearer to the field flattener (telescope) or move it further away."
-msgstr ""
+msgstr "Le champ donne le sens de mouvement du backfocus nécessaire à l'améliorer ; il faut soit le rapprocher du correcteur de champ du télescope, soit l'en éloigner."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2576
 #, no-c-format
 msgid "<guilabel>Left-Right Tilt</guilabel>: Gives the Left to Right tilt in microns and as a percentage."
-msgstr ""
+msgstr "<guilabel>Inclinaison gauche-droite</guilabel> : indique l'inclinaison gauche-droite en microns et en pourcentage."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2580
 #, no-c-format
 msgid "<guilabel>Top-Bottom Tilt</guilabel>: Gives the Top to Bottom tilt in microns and as a percentage"
-msgstr ""
+msgstr "<guilabel>Inclinaison haut-bas</guilabel> : indique l'inclinaison haut-bas en microns et en pourcentage."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2584
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guilabel>CFZ</guilabel>: This is calculated CFZ in microns and in ticks."
 msgid "<guilabel>Total Tilt</guilabel>: The diagonal tilt in microns and as a percentage."
-msgstr "<guilabel>CFZ</guilabel> : c'est la CFZ calculée en microns et en pas"
+msgstr "<guilabel>Inclinaison totale</guilabel> : l'inclinaison diagonale en microns et en pourcentage"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2588
 #, no-c-format
 msgid "The smaller the backfocus delta the nearer the sensor is to perfect backfocus. If the field flattner does not flatten the field all the way to the edges of the sensor then this will be visible by switching the Tiles option between \"Centre and outer corners\" and \"Centre and inner diamond\". If the backfocus delta results are consistent when the Tiles option is changed then this indicates that the field flattener is working to the corners of the sensor."
-msgstr ""
+msgstr "À nouveau, plus le delta est petit et plus le capteur est près du backfocus parfait. Si l'aplatisseur de champ n'aplatit pas le champ jusque dans les coins du capteur, il est possible de voir cela en positionnant l'option de « Centre et coins extérieurs » à « Centre et losanges intérieurs ». Si les résultats du backfocus sont cohérents entre ces deux options, cela signifie que l'aplatisseur de champ fait bien son travail jusqu'aux coins du capteur."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2594
 #, no-c-format
 msgid "There will always be some backfocus delta at least because of noise in the observation data. The important thing is that when in focus, stars are circular in all parts of the sensor."
-msgstr ""
+msgstr "Il y aura toujours un peu de backfocus, et cela est dû au bruit contenu dans les données. La chose importante est qu'en position de mise au point, les étoiles sont circulaires sur toute la surface du capteur."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2597
 #, no-c-format
 msgid "The smaller the tilt percentages, the nearer the sensor is to being flat to the plane of light from the flattener / telescope. As with backfocus delta, there is always going to be some noise in the data, which will present as tilt. The important thing is that when in focus the star sizes are consistent across all parts of the sensor."
-msgstr ""
+msgstr "Plus le pourcentage d'inclinaison est petit et plus le capteur est parallèle au plan de la lumière provenant de l'aplatisseur et du télescope. Comme pour le delta du backfocus, il y aura toujours un peu de bruit dans les données, ce qui sera présenté comme du bruit. Le point important est la taille des étoiles qui doit être cohérente sur toute la surface du capteur."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2602
 #, no-c-format
 msgid "Because of the nature of the backfocus delta and tilt calculations, one will affect the other so it will probably be better to try and adjust both together, in small increments, rather than trying to perfect one in isolation, before adjusting the other."
-msgstr ""
+msgstr "Comme ces deux grandeurs sont liées dans les calculs, l'une affectera l'autre et il sera ainsi plus judicieux d'ajuster les deux grandeurs en même temps, par petite touche, plutôt que d'essayer d'ajuster parfaitement l'une avant d'ajuster l'autre."
 
 #. Tag: title
 #. +> trunk5
 #: ekos-focus.docbook:2608
 #, no-c-format
 msgid "<title>Aberration Inspector 3D Graphic</title>"
-msgstr ""
+msgstr "<title>Graphique 3D de l'Inspecteur d'aberration</title>"
 
 #. Tag: screeninfo
 #. +> trunk5
 #: ekos-focus.docbook:2611
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Adaptive Focus</screeninfo>"
 msgid "<screeninfo>Aberration Inspector 3D Graphic</screeninfo>"
-msgstr "<screeninfo>Mise au point adaptative</screeninfo>"
+msgstr "<screeninfo>Graphique 3D de l'inspecteur d'aberration</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: ekos-focus.docbook:2619
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Adaptive Focus</phrase>"
 msgid "<phrase>Aberration Inspector 3D Graphic</phrase>"
-msgstr "<phrase>Mise au point adaptative</phrase>"
+msgstr "<phrase>Graphique 3D de l'inspecteur d'aberration</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2624
 #, no-c-format
 msgid "The 3D graphic displays the sensor tilted as per the <link linkend=\"aberration-inspector-results\">Aberration Inspector Results</link>. To help visualise the Petzval surface (see <ulink url=\"https://en.wikipedia.org/wiki/Petzval_field_curvature\">Petzval Field Curvature</ulink> for more details) of light coming out of the telescope and incident on the sensor the surface is also modelled. The higher the backfocus error, the more curved the Petzval surface."
-msgstr ""
+msgstr "Le graphique 3D affiche le capteur incliné selon les <link linkend=\"aberration-inspector-results\">résultats de l'Inspecteur d'aberration</link>. Pour faciliter la visualisation de la surface de Petzval (voir <ulink url=\"https://en.wikipedia.org/wiki/Petzval_field_curvature\">Petzval Field Curvature</ulink> pour davantage de détails) de la lumière provenant du télescope sur le capteur, la surface du capteur est également modélisée. Plus l'erreur de backfocus est importante et plus la surface de Petzval sera courbée."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2631
 #, no-c-format
 msgid "The graphic can be zoomed and rotated using gestures. To zoom use pinch. To rotate use touch-and-move."
-msgstr ""
+msgstr "Le graphique peut être zoomer et tourner à l'aide de mouvements. Pour zoomer, il faut pincer et pour tourner, il faut toucher et déplacer."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2634
 #, no-c-format
 msgid "The graphic has a Simulation Mode that allows backfocus and tilt to be adjusted by the sliders. The effect on the sensor's tilt and Petzval surface is displayed in the graphic."
-msgstr ""
+msgstr "Le graphique possède un mode de simulation permettant d'ajuster le backfocus et l'inclinaison à l'aide de curseurs. L'effet de l'inclinaison du capteur et de la surface de Petzval est affiché sur le graphique."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2637
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "The following controls are available:"
 msgid "The following options are available for the graphic:"
-msgstr "Les boutons de contrôle suivants sont disponibles :"
+msgstr "Les options suivantes sont disponibles pour le graphiqe"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2641
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "If <guilabel>Detection</guilabel> is set to Bahtinov then the following additional widgets are available:"
 msgid "<guilabel>Selection</guilabel>: The following options are available:"
-msgstr "Si <guilabel>Détection</guilabel> est positionné à Bahtinov, alors les composants graphiques additionnels sont disponibles :"
+msgstr "<guilabel>Sélection</guilabel> : les options suivantes sont disponibles :" 
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2645
 #, no-c-format
 msgid "None: No selection is possible."
-msgstr ""
+msgstr "Aucun : aucune sélection possible"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2649
 #, no-c-format
 msgid "Item: A datapoint may be selected and data values are displayed."
-msgstr ""
+msgstr "Point : un point peut être sélectionné et ses valeurs affichées."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2653
 #, no-c-format
 msgid "Slice: A 2D slice through the 3D graphic is displayed."
-msgstr ""
+msgstr "Tranche : une tranche 2D du graphique 3D est affichée."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2659
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guilabel>Stars</guilabel>: The number of stars used for the most recent datapoint."
 msgid "<guilabel>Theme</guilabel>: A number of colour themes are available."
-msgstr "<guilabel>Étoiles</guilabel> : le nombre d'étoiles utilisé pour le dernier point."
+msgstr "<guilabel>Thème</guilabel> : un certain nombre de thèmes de couleurs est disponible."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2663
 #, no-c-format
 msgid "<guilabel>Labels</guilabel>: Checkbox to show / hide tile labels on the graphic."
-msgstr ""
+msgstr "<guilabel>Étiquettes</guilabel> : case à cocher pour afficher/masquer les étiquettes des tuiles sur le graphique."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2667
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guilabel>Filter</guilabel>: Select the filter to use."
 msgid "<guilabel>Sensor</guilabel>: Checkbox to show / hide the sensor."
-msgstr "<guilabel>Filtre</guilabel> : choix du filtre à utiliser"
+msgstr "<guilabel>Capteur</guilabel> : case à cocher pour afficher/masquer le capteur."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2671
 #, no-c-format
 msgid "<guilabel>Petzval Wire</guilabel>: Checkbox to show / hide the Petzval surface as a graphic wire."
-msgstr ""
+msgstr "<guilabel>Câble de Petzval</guilabel> : case à cocher pour afficher/masquer la surface de Petzval comme un câble de Petzval."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2675
 #, no-c-format
 msgid "<guilabel>Petzval Surface</guilabel>: Checkbox to show / hide the Petzval surface."
-msgstr ""
+msgstr "<guilabel>Surface de Petzval</guilabel> : case à cocher pour afficher/masquer la surface de Petzval."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2679
 #, no-c-format
 msgid "<guilabel>Sim Mode</guilabel>: Checkbox to toggle Simulation Mode on / off. When off, the graphic displays the sensor and Petzval surface based on the calculated results of the Aberration Inspector run. When on, the sliders for Backfocus, Left-to-Right tilt and Top-to-Bottom tilt are activated, and these can be dragged by the user to adjust the graphic. Hover the mouse over each slider to see the tooltips describing what each slider does."
-msgstr ""
+msgstr "<guilabel>Mode simulation</guilabel> : case à cocher pour (dés)activer le mode simulation. Quand décoché, le graphique affiche le capteur et la surface de Petzval selon les résultats calculés par l'Inspecteur d'aberration. Quand coché, les curseurs du backfocus et des inclinaisons sont activés et peuvent être modifiés par l'utilisateur. Un survol par la souris des curseurs décrit leur fonctionnalité."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2687
 #, no-c-format
 msgid "The 3D graphic is not essential to using Aberration Inspector. All relevant information is displayed in the <link linkend=\"aberration-inspector-table\">Table</link> and <link linkend=\"aberration-inspector-results\">Results</link> sections of the dialog. Its purpose is to aid the user in understanding Aberration Inspector and to orient themselves with the information the tool provides."
-msgstr ""
+msgstr "Le graphique 3D n'est pas essentiel pour l'utilisation de l'Inspecteur d'aberration. Toute l'information pertinente est affichée dans la section <link linkend=\"aberration-inspector-table\">Tableau</link> et <link linkend=\"aberration-inspector-results\">Résultats</link>. Son intérêt réside surtout dans l'aide qu'il apporte à l'utilisateur pour la compréhension de l'Inspecteur d'aberration et de l'orienter vers l'information que fournit l'outil."
 
 #, no-c-format
 #~ msgid "The Steps fields will initially contain the starting point in ticks for the focuser. As the focuser moves, the left field will update to reflect the focuser's current position. The right field will initially contain the starting position of the focuser but will update each time a successful Autofocus run completes, to keep a last good focus position. In addition you can set the right field to whatever value you like, and use the <guibutton>Goto</guibutton> button to move the focuser to this position."
