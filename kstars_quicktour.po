@@ -4,14 +4,14 @@
 # Gérard Delafond <gerard@delafond.org>, 2002,2003, 2004, 2005.
 # Ludovic Grossard <grossard@kde.org>, 2002, 2003, 2004, 2007, 2012, 2013.
 # Stanislas Zeller <uncensored.assault@gmail.com>, 2008.
-# steve <stax@ik.me>, 2022.
+# steve <stax@ik.me>, 2022, 2023
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_quicktour_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-12-06 11:29+0100\n"
-"PO-Revision-Date: 2023-07-10 16:24+0200\n"
+"PO-Revision-Date: 2023-12-22 10:09+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -23,18 +23,18 @@ msgstr ""
 #. Tag: title
 #. +> trunk5
 #: quicktour.docbook:2
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "A Quick Tour of &kstars;"
 msgid "A Quick Tour of the &kstars; Skymap"
-msgstr "Un survol de &kstars;"
+msgstr "Un survol de la carte du ciel de &kstars;"
 
 #. Tag: para
 #. +> trunk5
 #: quicktour.docbook:4
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "This chapter presents a guided tour of &kstars;, introducing many of its important features."
 msgid "This chapter presents a guided tour of the &kstars; skymap, introducing many of its important features."
-msgstr "Ce chapitre propose une visite guidée de &kstars; et introduit beaucoup de concepts et fonctionnalités importantes."
+msgstr "Ce chapitre propose une visite guidée de la carte du ciel de &kstars; et introduit beaucoup de concepts et fonctionnalités importantes."
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -557,7 +557,7 @@ msgstr "Fin de la visite"
 #. Tag: para
 #. +> trunk5
 #: quicktour.docbook:425
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "This concludes the tour of &kstars;, although we have only scratched the surface of the available features. &kstars; includes many useful <link linkend=\"tools\">astronomy tools</link>, it can directly <link linkend=\"indi\">control your telescope</link>, and it offers a wide variety of <link linkend=\"config\">configuration and customization options</link>. In addition, this Handbook includes the <link linkend=\"astroinfo\">AstroInfo Project</link>, a series of short, interlinked articles explaining some of the celestial and astrophysical concepts behind &kstars;."
 msgid "This concludes the tour of the &kstars; skymap, although we have only scratched the surface of the available features. &kstars; includes many useful <link linkend=\"tools\">astronomy tools</link>, it can directly <link linkend=\"indi\">control your telescope</link>, and it offers a wide variety of <link linkend=\"config\">configuration and customization options</link>. In addition, this Handbook includes the <link linkend=\"astroinfo\">AstroInfo Project</link>, a series of short, interlinked articles explaining some of the celestial and astrophysical concepts behind &kstars;."
-msgstr "Ceci conclut la visite de &kstars;, bien que nous ayons à peine égratigné la surface des fonctionnalités disponibles. &kstars; inclut beaucoup d'<link linkend=\"tools\">outils astronomiques</link>, il peut contrôler directement <link linkend=\"indi\">votre télescope</link>, et il offre une grande variété d'options de <link linkend=\"config\">configuration et de personnalisation</link>. De plus, ce manuel inclut le <link linkend=\"astroinfo\">Projet AstroInfo</link>, une série de petits articles liés entre eux, expliquant certains des concepts célestes et astrophysiques qui sous-tendent &kstars;."
+msgstr "Cela conclut la visite de la carte du ciel de &kstars;, bien que nous ayons à peine égratigné la surface des fonctionnalités disponibles. &kstars; inclut beaucoup d'<link linkend=\"tools\">outils astronomiques</link>, il peut contrôler directement <link linkend=\"indi\">votre télescope</link>, et il offre une grande variété d'options de <link linkend=\"config\">configuration et de personnalisation</link>. De plus, ce manuel inclut le <link linkend=\"astroinfo\">Projet AstroInfo</link>, une série de petits articles liés entre eux, expliquant certains des concepts célestes et astrophysiques qui sous-tendent &kstars;."
