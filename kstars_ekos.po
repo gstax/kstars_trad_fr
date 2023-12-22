@@ -1,11 +1,11 @@
 # Translation to French
-# steve <stax@ik.me>, 2022.
+# steve <stax@ik.me>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-12-06 11:29+0100\n"
-"PO-Revision-Date: 2023-01-19 09:58+0100\n"
+"PO-Revision-Date: 2023-12-22 10:47+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -25,10 +25,10 @@ msgstr "<title>Ekos</title>"
 #. Tag: primary
 #. +> trunk5
 #: ekos.docbook:3
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<secondary>Ekos</secondary>"
 msgid "<primary>Ekos</primary>"
-msgstr "<secondary>Ekos</secondary>"
+msgstr "<primary>Ekos</primary>"
 
 #. Tag: para
 #. +> trunk5
@@ -82,7 +82,7 @@ msgstr "Charger &amp; Pivoter : chargement d'une image FITS, pivotement vers le
 #. Tag: para
 #. +> trunk5
 #: ekos.docbook:37
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Measure &amp; Correct Polar Alignment errors using astromety.net solver."
 msgid "Measure &amp; Correct Polar Alignment errors using astrometry.net solver."
 msgstr "Mesure et correction des erreurs d'alignement polaire en utilisant le résolveur astrometry.net."
