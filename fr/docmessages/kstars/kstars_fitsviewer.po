@@ -4,13 +4,13 @@
 # Ludovic Grossard <grossard@kde.org>, 2005, 2007, 2012.
 # Stanislas Zeller <uncensored.assault@gmail.com>, 2008.
 # Joëlle Cornavin <jcornavin@laposte.net>, 2011.
-# steve <stax@ik.me>, 2022.
+# steve <stax@ik.me>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_fitsviewer_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-12-06 11:29+0100\n"
-"PO-Revision-Date: 2023-11-19 07:52+0100\n"
+"PO-Revision-Date: 2023-12-22 10:39+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -23,18 +23,18 @@ msgstr ""
 #. Tag: title
 #. +> trunk5
 #: fitsviewer.docbook:2
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<acronym>FITS</acronym> Viewer Tool"
 msgid "<acronym>FITS</acronym> Viewer"
-msgstr "Outil d'affichage <acronym>FITS</acronym>"
+msgstr "Afficheur <acronym>FITS</acronym>"
 
 #. Tag: primary
 #. +> trunk5
 #: fitsviewer.docbook:3
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>FITS Viewer Solver</phrase>"
 msgid "<primary>FITS Viewer</primary>"
-msgstr "<phrase>Résolveur de l'afficheur FITS</phrase>"
+msgstr "<phrase>Afficheur FITS</phrase>"
 
 #. Tag: para
 #. +> trunk5
@@ -53,18 +53,18 @@ msgstr "L'outil d'affichage FITS peut s'utiliser automatiquement pour visualiser
 #. Tag: screeninfo
 #. +> trunk5
 #: fitsviewer.docbook:13
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "The FITS Viewer Tool"
 msgid "The FITS Viewer"
-msgstr "L'outil d'affichage FITS"
+msgstr "L'afficheur FITS"
 
 #. Tag: phrase
 #. +> trunk5
 #: fitsviewer.docbook:19
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>FITS Viewer Solver</phrase>"
 msgid "<phrase>FITS Viewer</phrase>"
-msgstr "<phrase>Résolveur de l'afficheur FITS</phrase>"
+msgstr "<phrase>L'afficheur FITS</phrase>"
 
 #. Tag: para
 #. +> trunk5
@@ -76,18 +76,18 @@ msgstr "Le diagramme ci-dessus illustre l'endroit principal de travail de l'affi
 #. Tag: screeninfo
 #. +> trunk5
 #: fitsviewer.docbook:27
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "The FITS Viewer Tool with sliding panel open"
 msgid "The FITS Viewer with sliding panel open"
-msgstr "L'outil d'affichage FITS avec le panneau glissant ouvert"
+msgstr "L'afficheur FITS avec le panneau glissant ouvert"
 
 #. Tag: phrase
 #. +> trunk5
 #: fitsviewer.docbook:33
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "FITS Viewer Tool with sliding panel open"
 msgid "FITS Viewer with sliding panel open"
-msgstr "L'outil d'affichage FITS avec le panneau glissant ouvert"
+msgstr "L'afficheur FITS avec le panneau glissant ouvert"
 
 #. Tag: title
 #. +> trunk5
@@ -1016,10 +1016,10 @@ msgstr "Profile d'étoile : affiche le profile 3D détaillé de l'étoile."
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:395
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "The floating bar is automatically hidden once the mouse leaves the embedded viewer area. You can use the mouse to pan and zoom just like the standalone FITS Viewer tool. The green tracking box can be used to select a specific star or region within the image, for example, to select a guide star."
 msgid "The floating bar is automatically hidden once the mouse leaves the embedded viewer area. You can use the mouse to pan and zoom just like the standalone FITS Viewer. The green tracking box can be used to select a specific star or region within the image, for example, to select a guide star."
-msgstr "La barre flottante est automatiquement cachée dès que la souris quitte la zone de l'afficheur intégré. Vous pouvez utiliser la souris pour déplacer et zoomer comme avec l'outil de l'afficheur FITS. La boîte de suivi verte peut être utilisée pour sélectionner une étoile particulière ou une région de l'image, par exemple pour choisir une étoile guide."
+msgstr "La barre flottante est automatiquement cachée dès que la souris quitte la zone de l'afficheur intégré. Vous pouvez utiliser la souris pour déplacer et zoomer comme avec l'afficheur FITS. La boîte de suivi verte peut être utilisée pour sélectionner une étoile particulière ou une région de l'image, par exemple pour choisir une étoile guide."
 
 #. Tag: title
 #. +> trunk5

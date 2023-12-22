@@ -5,13 +5,13 @@
 # Bieuzent Cyrille <bieuzent@gmail.com>, 2009.
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2012, 2013.
 # xavier <ktranslator31@yahoo.fr>, 2012.
-# steve <stax@ik.me>, 2022.
+# steve <stax@ik.me>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_commands_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-12-06 11:29+0100\n"
-"PO-Revision-Date: 2023-08-03 16:05+0200\n"
+"PO-Revision-Date: 2023-12-22 10:41+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -67,10 +67,10 @@ msgstr "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo
 #. Tag: para
 #. +> trunk5
 #: commands.docbook:20
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Open a image in the FITS Viewer tool."
 msgid "Open an image in the FITS Viewer."
-msgstr "Ouvre une image dans l'outil d'affichage FITS."
+msgstr "Ouvre une image dans l'afficheur FITS."
 
 #. Tag: menuchoice
 #. +> trunk5
@@ -754,10 +754,10 @@ msgstr "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>K</keycap></keycombo
 #. Tag: para
 #. +> trunk5
 #: commands.docbook:552
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Opens <link linkend=\"tool-ekos\">Ekos</link>, a complete and powerful tool for astrophotography. With Ekos, you can align and guide your telescope, focus your CCD, and capture images using an easy intuitive interface."
 msgid "Opens <link linkend=\"ekos\">Ekos</link>, a complete and powerful tool for astrophotography. With Ekos, you can align and guide your telescope, focus your CCD, and capture images using an easy intuitive interface."
-msgstr "Ouvre Ekos, un outil complet et puissant pour l'astrophotographie. Avec Ekos vous pouvez aligner et guider votre télescope, ajuster la mise au point de votre CCD et procéder à l'acquisition d'images en utilisant une interface facile et intuitive."
+msgstr "Ouvre <link linkend=\"ekos\">Ekos</link>, un outil complet et puissant pour l'astrophotographie. Avec Ekos vous pouvez aligner et guider votre télescope, ajuster la mise au point de votre CCD et procéder à l'acquisition d'images en utilisant une interface facile et intuitive."
 
 #. Tag: menuchoice
 #. +> trunk5

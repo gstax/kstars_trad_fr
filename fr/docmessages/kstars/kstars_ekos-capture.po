@@ -1,11 +1,11 @@
 # Translation to French
-# steve <stax@ik.me>, 2022.
+# steve <stax@ik.me>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos-capture_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-12-06 11:29+0100\n"
-"PO-Revision-Date: 2023-12-09 16:11+0100\n"
+"PO-Revision-Date: 2023-12-22 10:45+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -564,10 +564,10 @@ msgstr "Afficheur FITS"
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:364
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Captured images are displayed in &kstars; FITS Viewer tool, and also in the summary screen. Set options related to how the images are displayed in the viewer."
 msgid "Captured images are displayed in &kstars; FITS Viewer, and also in the summary screen. Set options related to how the images are displayed in the viewer."
-msgstr "Les images sont affichées dans l'outil d'affichage de &kstars; ainsi que dans l'écran de résumé. Vous pouvez spécifier les options d'affichage de l'afficheur."
+msgstr "Les images sont affichées dans l'afficheur FITS de &kstars; ainsi que dans l'écran de résumé. Vous pouvez spécifier les options d'affichage de l'afficheur."
 
 #. Tag: para
 #. +> trunk5
@@ -1104,7 +1104,7 @@ msgstr "<guimenu>Table</guimenu> : un tableau fournit les détails de l'empilem
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:649
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "The table provides a quick reference for finding the approximate number of sub-exposures that might be completed for a given number of hours in a imaging session. But some functions that consume time are not included in this time calculation. For example, USB based cameras typically take some time for data transmission, or if the user has selected automatic dithering, additional time will be consumed in the imaging process, which is not included in this time calculation."
 msgid "The table provides a quick reference for finding the approximate number of sub-exposures that might be completed for a given number of hours in an imaging session. But some functions that consume time are not included in this time calculation. For example, USB based cameras typically take some time for data transmission, or if the user has selected automatic dithering, additional time will be consumed in the imaging process, which is not included in this time calculation."
 msgstr "Ce tableau fournit une indication rapide pour trouver le nombre idéal de trames à utiliser pour un nombre d'heures donné pour une session d'imagerie. Mais certaines étapes qui consomment beaucoup de temps ne sont pas inclues dans le calcul de la durée d'exposition. Par exemple, les appareils connectés via un câble USB prennent beaucoup de temps à transmettre les données. Ou encore le décalage automatique entre les prises. Ces étapes ajoutent du temps au processus d'imagerie et ne sont pas inclues dans le calcul."
@@ -1161,7 +1161,7 @@ msgstr "Selon les différentes valeurs en entrée et les conditions d'imagerie, 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:671
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Part of the value of using a Time/Noise ratio as the input for the calculation of the required number of sub-exposures is that it should tend to compensate for the differences in relative noise for sub-exposures of various lengths. A shorter sub-exposure would have a lower time/noise ratio, so it has less capacity to improve a integrated image. Therefore, a disproportionately higher number of short exposures are needed to achieve a given time/noise ratio in an integrated image."
 msgid "Part of the value of using a Time/Noise ratio as the input for the calculation of the required number of sub-exposures is that it should tend to compensate for the differences in relative noise for sub-exposures of various lengths. A shorter sub-exposure would have a lower time/noise ratio, so it has less capacity to improve an integrated image. Therefore, a disproportionately higher number of short exposures are needed to achieve a given time/noise ratio in an integrated image."
 msgstr "L'intérêt d'utiliser le rapport Durée/Bruit comme paramètre d'entrée pour le calcul du nombre idéal de trames est de compenser la différence de bruit relative lors de l'utilisation de trames de durée différentes. Les trames de petites durées ont un rapport Durée/Bruit plus petit et possède ainsi une moindre capacité à améliorer l'image empilée. Ainsi un nombre disproportionné de courtes expositions est nécessaire pour obtenir un rapport Durée/Bruit défini de l'image empilée."
