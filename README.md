@@ -66,6 +66,12 @@ Comme ce sont des fichiers pris dans la branche trunk, il faut rajouter ce drape
 <code>python3 add_trunk.py fichier.po</code>
 
 ### Récupération depuis le svn avec git
+
+7 janvier 2024 :
+
+J'ai dû revenir à une solution (temporaire) sans aller taper directement
+dans le svn avec 'git svn rebase'. Trop de problèmes
+
 <code> git svn rebase</code>
 
 est l'équivalent de <code>git pull</code>
