@@ -72,13 +72,13 @@ Comme ce sont des fichiers pris dans la branche trunk, il faut rajouter ce drape
 J'ai dû revenir à une solution (temporaire) sans aller taper directement
 dans le svn avec 'git svn rebase'. Trop de problèmes. 
 
-/*
+ /*
 
 <code> git svn rebase</code>
 
 est l'équivalent de <code>git pull</code>
 
-*/
+ */
 
 ### Création des docbook
 
