@@ -25,6 +25,8 @@ Pour cloner le répertoire en local :
 
 <code>svn co https://websvn.kde.org/trunk/l10n-kf5/fr/docs/kstars/kstars/</code>
 
+Ensuite, un <code>svn update</code> devrait mettre à jour.
+
 ### KDE en français
 Un [glossaire de KDE](https://fr.l10n.kde.org/dict/).
 
