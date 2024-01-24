@@ -1,11 +1,11 @@
 # Translation to French
-# steve <stax@ik.me>, 2022, 2023.
+# steve <stax@ik.me>, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos-capture_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-01-16 10:37+0100\n"
-"PO-Revision-Date: 2024-01-13 20:05+0100\n"
+"PO-Revision-Date: 2024-01-24 14:41+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -545,7 +545,7 @@ msgstr "Pour modifier une tâche, il faut double cliquer sur son nom. Remarquez 
 #: ekos-capture.docbook:347
 #, no-c-format
 msgid "<emphasis role=\"bold\">Editing running jobs</emphasis>: When Capture is running, or when the Scheduler is running, you cannot edit the sequence queue or a .esq file on disk using the Capture tab. However, the scheduler tab does have a Capture Sequence Editor tool that can be used to edit .esl files on disk, or create new ones."
-msgstr ""
+msgstr "<emphasis role=\"bold\">Modification de tâches en cours</emphasis> : lorsque le processus d'acquisition est en cours, ou quand l'ordonnanceur est actif, il n'est pas possible de modifier la file d'attente de séquences, ou de modifier un fichier .esq en utilisant l'onglet d'acquisition. Toutefois, l'onglet de l'ordonnanceur possède un outil permettant la modification ou la création de fichiers .esl."
 
 #. Tag: para
 #. +> trunk5
@@ -830,10 +830,10 @@ msgstr "<guilabel>Qualité du ciel</guilabel> : le <guimenu>sélecteur de quali
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:553
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "The range for Sky Quality is from 22 for the darkest skies, to 16 for the brightest (most light-polluted) skies. The magnitude scale is non-linear; it is a logarithmic scale based on the 5th root of 100. So 5 steps on the scale represent a change in brightness by a factor of 100. (A Sky Quality of 17 is 100 times as bright as a Sky Quality of 22. Each full integer step on the scale is a change by a factor of approximately 2.512.). <ulink url=\"https://en.wikipedia.org/wiki/Light_pollution\">Wikipedia Sky Brightness</ulink> <ulink url=\"https://en.wikipedia.org/wiki/Light_pollution\">Wikipedia Light Pollution</ulink>"
 msgid "The range for Sky Quality is from 22 for the darkest skies, to 16 for the brightest (most light-polluted) skies. The magnitude scale is non-linear; it is a logarithmic scale based on the 5th root of 100. So 5 steps on the scale represent a change in brightness by a factor of 100. (A Sky Quality of 17 is 100 times as bright as a Sky Quality of 22. Each full integer step on the scale is a change by a factor of approximately 2.512.). <ulink url=\"https://en.wikipedia.org/wiki/Sky_brightness\">Wikipedia Sky Brightness</ulink> <ulink url=\"https://en.wikipedia.org/wiki/Light_pollution\">Wikipedia Light Pollution</ulink>"
-msgstr "La plage de valeurs pour la qualité du ciel va de 22 pour les ciels les plus noirs à 16 pour les plus brillants (principalement pollué par la lumière). L'échelle de magnitude est non-linéaire ; c'est une échelle logarithmique basée sur la racine cinquième de 100. Ainsi, 5 pas sur cette échelle représente un changement en magnitude d'un facteur 100. (Une qualité du ciel de 17 est 100 fois plus lumineuse qu'une qualité du ciel de 22. Chaque entier représente un changement d'environ 2.512.). Voir <ulink url=\"https://en.wikipedia.org/wiki/Light_pollution\">Wikipedia Sky Brightness</ulink> et <ulink url=\"https://fr.wikipedia.org/wiki/Pollution_lumineuse\">Pollution lumineuse</ulink>."
+msgstr "La plage de valeurs pour la qualité du ciel va de 22 pour les ciels les plus noirs à 16 pour les plus brillants (principalement pollué par la lumière). L'échelle de magnitude est non-linéaire ; c'est une échelle logarithmique basée sur la racine cinquième de 100. Ainsi, 5 pas sur cette échelle représente un changement en magnitude d'un facteur 100. (Une qualité du ciel de 17 est 100 fois plus lumineuse qu'une qualité du ciel de 22. Chaque entier représente un changement d'environ 2.512.). Voir <ulink url=\"https://en.wikipedia.org/wiki/Sky_brightness\">Wikipedia Sky Brightness</ulink> et <ulink url=\"https://fr.wikipedia.org/wiki/Pollution_lumineuse\">Pollution lumineuse</ulink>."
 
 #. Tag: para
 #. +> trunk5
@@ -866,7 +866,7 @@ msgstr "La valeur de la qualité du ciel a un impact radical sur le temps d'expo
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:565
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<guilabel>Focal Ratio</guilabel>: The selector for <guimenu>Focal Ratio</guimenu> set the value from the optical train, which is needed for the evaluation of light gathering capability."
 msgid "<guilabel>Focal Ratio</guilabel>: The selector for <guimenu>Focal Ratio</guimenu> sets the value from the optical train, which is needed for the evaluation of light gathering capability."
 msgstr "<guilabel>Rapport F/D</guilabel> : le sélecteur pour ce <guimenu>rapport de focale</guimenu> règle la valeur à partir du train optique qui est nécessaire pour l'évaluation de la facilité à obtenir la lumière."
@@ -1189,7 +1189,7 @@ msgstr "Les cibles brillantes (par exemple la nébuleuse d'Orion de magnitude 4)
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:698
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Depending on the various inputs and imaging conditions, the potential quality of a sub-exposure can vary greatly. In poor sky quality with little or no filtering, the computed sub-exposure time will naturally be short to avoid an overwhelming noise from light pollution, and the exposure time relative to the computed noise will be low (a low time/noise ratio). To achieve a high quality integrated image from low time/noise ratio sub-exposures may require thousands sub-exposures. If the user is concerned about imaging and processing time or storage capacity; then a higher time/noise ratio would needed to reduce the quantity of sub-exposures. Conversely, when input conditions result in a sub-exposure with a long exposure time relative to the computed noise (as with narrow-band imaging), the result is a sub-exposure with a very high time/noise ratio. In such cases the default value of 80, might result in very few sub-exposures for the integration. But the delta value will be quite high, indicating that raising the time-noise ratio will greatly improve the potential quality of the integrated image."
 msgid "Depending on the various inputs and imaging conditions, the potential quality of a sub-exposure can vary greatly. In poor sky quality with little or no filtering, the computed sub-exposure time will naturally be short to avoid an overwhelming noise from light pollution, and the exposure time relative to the computed noise will be low (a low time/noise ratio). To achieve a high quality integrated image from low time/noise ratio sub-exposures may require thousands sub-exposures. If the user is concerned about imaging and processing time or storage capacity; then a higher time/noise ratio would needed to reduce the quantity of sub-exposures. Conversely, when input conditions result in a sub-exposure with a long exposure time relative to the computed noise (as with narrow-band imaging), the result may be a sub-exposure with a very high time/noise ratio. In such cases the default value of 80, might result in very few sub-exposures for the integration. But the delta value will be quite high, indicating that raising the time-noise ratio will greatly improve the potential quality of the integrated image."
 msgstr "Selon les différentes valeurs en entrée et les conditions d'imagerie, la qualité potentielle peut grandement varier. Dans des conditions de qualité de ciel mauvaise, la durée calculé des trames sera naturellement courte pour éviter l'effet important de bruit venant de la pollution lumineuse. Si la durée d'imagerie et de traitement, ainsi que la taille d'enregistrement des images sont des paramètres importants pour l'utilisateur, une augmentation du rapport Durée/Bruit sera nécessaire pour réduite la quantité de trames. À l'inverse, quand les conditions sont bonnes et que le rapport résulte en des trames de longues durées par rapport au bruit calculé (dans l'imagerie à filtre étroit par exemple), le résultat sera des trames avec un rapport Durée/Bruit très grand. Dans ce cas, la valeur par défaut de 80 conduira à peu de trames pour l'empilement. Mais la valeur delta sera plutôt haute, indiquant qu'augmenter le rapport Durée/Bruit améliorera de beaucoup la qualité potentielle de l'image empilée."
