@@ -1,11 +1,11 @@
 # Traduction de kstars_ekos-scheduler en français
-# steve <stax@ik.me>, 2022 2023.
+# steve <stax@ik.me>, 2022 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos_scheduler_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-01-16 10:37+0100\n"
-"PO-Revision-Date: 2023-12-09 15:56+0100\n"
+"PO-Revision-Date: 2024-02-03 08:47+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -172,18 +172,18 @@ msgstr "Il y a une option à cocher dans le menu des options de l'ordonnanceur n
 #. Tag: title
 #. +> trunk5
 #: ekos-scheduler.docbook:83
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "Scheduler Files (.esq)"
 msgid "Scheduler Files (.esl)"
-msgstr "Fichiers séquences (.esq)"
+msgstr "Fichiers séquences (.esl)"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:84
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "The scheduler table with its list of jobs and attributes can be saved onto disk and read back in. It writes an .esq file. Controls for writing the current Scheduler table to disk, and reading back other .esq files are located above the table to the right."
 msgid "The scheduler table with its list of jobs and attributes can be saved onto disk and read back in. It writes an .esl file. Controls for writing the current Scheduler table to disk, and reading back other .esl files are located above the table to the right."
-msgstr "La table de l'ordonnanceur avec sa liste de tâches peut être enregistrée sur le disque dur pour pouvoir être réimportée plus tard. Les boutons pour cela ainsi que pour importer d'autres fichiers de séquence se trouvent au-dessus de la table sur la droite."
+msgstr "La table de l'ordonnanceur avec sa liste de tâches peut être enregistrée sur le disque dur pour pouvoir être réimportée plus tard. Ces données sont enregistrées dans un fichier .esl. Les boutons pour cela ainsi que pour importer d'autres fichiers .esl de séquence se trouvent au-dessus de la table sur la droite."
 
 #. Tag: title
 #. +> trunk5
@@ -372,73 +372,73 @@ msgstr "Il existe une case à cocher et un champ nombre juste sous la table de t
 #: ekos-scheduler.docbook:193
 #, no-c-format
 msgid "Editing running jobs"
-msgstr ""
+msgstr "En cours de modification des tâches actives"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:194
 #, no-c-format
 msgid "It is possible to edit the scheduler's job table, and attributes of individual jobs, while the scheduler is running. As always, you double click on a job, change the desired attributes, and click the checkbox to finalize the change. If you edit the running job it will be restarted (i.e. the startup steps (slew, focus, align, guide) will be re-done. You can also move jobs up and down in priority, add new jobs, or deleted existing ones. You cannot delete the running job."
-msgstr ""
+msgstr "Il est possible de modifier la table de tâches et les attributs des tâches individuelles pendant que l'ordonnanceur est actif. Comme toujours, il faut double-cliquer sur une tâche, modifier les attributs et cliquer sur la case à cocher pour enregistrer les modifications. Si vous modifiez une tâche active, celle-ci sera redémarrée (les étapes initiales (rotation, mise au point, alignement, guidage) seront relancées. Vous pouvez également déplacer les tâches pour modifier les priorités, ajouter de nouvelles tâches ou en supprimer. Vous ne pouvez pas supprimer une tâche active."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:197
 #, no-c-format
 msgid "One important attribute of scheduler jobs is their sequence file (.esq) which controls the capture module while the job is running. For example, it sets number of captures, filters used, gain/ISO, etc. The .esq is normally created and edited in the capture tab, but that cannot be done while the scheduler is running. If you desire to make changes to a .esq file while the scheduler is running, or create a new one, the scheduler provides a tool called the Capture Sequence Editor."
-msgstr ""
+msgstr "Un attribut important des tâches de l'ordonnanceur est leur fichier de séquence (.esq) qui contrôle le module d'acquisition pendant que la tâche est active. Par exemple, il règle le nombre d'acquisitions, les filtres utilisés, le gain/ISO, etc. Le fichier .esq est normalement créé et modifié dans l'onglet d'acquisition, mais cela ne peut pas être fait pendant que l'ordonnanceur est actif. Si vous souhaitez modifier un fichier .esq pendant que l'ordonnanceur est actif, ou en créer un nouveau, il faut utiliser l'outil de modification de la séquence d'acquisition."
 
 #. Tag: title
 #. +> trunk5
 #: ekos-scheduler.docbook:201
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<title>Scheduler</title>"
 msgid "<title>Capture Sequence Editor</title>"
-msgstr "<title>Ordonnanceur</title>"
+msgstr "<title>Modificateur de séquences d'acquisition</title>"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:202
 #, no-c-format
 msgid "The Capture Sequence Editor is a tool to create and edit capture sequence files (.esq) which can be started by clicking the edit (pencil) icon just above the scheduler table. A screenshot is shown below."
-msgstr ""
+msgstr "Le Modificateur de séquence d'acquisition est un outil pour créer et modifier les fichiers (.esq) de séquences d'acquisition qui peut être démarré en cliquant sur l'icône en forme de crayon juste au-dessus de la table de l'ordonnanceur. Une capture d'écran est montrée ci-dessous."
 
 #. Tag: screeninfo
 #. +> trunk5
 #: ekos-scheduler.docbook:206
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<screeninfo>Create Jobs</screeninfo>"
 msgid "<screeninfo>Capture Sequence Editor</screeninfo>"
-msgstr "<screeninfo>Création des tâches</screeninfo>"
+msgstr "<screeninfo>Modificateur de séquences d'acquisition</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: ekos-scheduler.docbook:214
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "<phrase>Create Jobs</phrase>"
 msgid "<phrase>Capture Sequence Editor</phrase>"
-msgstr "<phrase>Création des tâches</phrase>"
+msgstr "<phrase>Modificateur de séquences d'acquisition</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:218
 #, no-c-format
 msgid "The editor is very similar in use and layout to the capture tab--though it is missing all the controls to actually capture image. You edit jobs the same way you do in capture, and load or save sequence queues the same way too (though there are additional Load and Save-To buttons provided in the editor)."
-msgstr ""
+msgstr "Cet outil est très similaire à l'utilisation et dans sa forme à l'onglet d'acquisition, bien qu'il manque tous les boutons pour l'acquisition proprement dit. Les tâches sont modifiées de la même manière que les acquisitions, ainsi que le chargement et l'enregistrement des files de séquences (mais il y a des boutons de chargement et d'enregistrement additionnels)."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:222
 #, no-c-format
 msgid "It is important to understand that capture sequences rely to some extent on the filterwheel and camera being used (e.g. the filter names, the possible ISO values, ...). The Capture Sequence Editor, which is not connected to the device drivers, does not have direct access to this information. Instead, the editor uses the values from the last time the capture tab connected to its devices. Thus, it may not make sense to try and create a .esq file for a different camera or filterwheel than the last one connected-to. You may need to wait until your scheduler job is completed and edit that .esq directly in the capture tab."
-msgstr ""
+msgstr "Il est important de noter que les séquences d'acquisitions dépendent dans une certaine mesure de la roue à filtre et de l'appareil utilisé (p. ex. les noms de filtre, les valeur d'ISO possible, …). Cet outil, qui n'est pas connecté aux pilotes de périphériques, n'a pas accès à cette information. Au contraire, il utilise les valeurs de la dernière connexion des périphériques à l'onglet d'acquisition. Il ne fait ainsi pas de sens de créer un fichier .esq pour un appareil ou une roue à filtres différents que celui utilisé lors de la dernière connexion. Il faudra attendre que la tâche de la séquence soit terminée et modifier le fichier .esl directement dans l'onglet d'acquisition."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:224
 #, no-c-format
 msgid "It is also recommended that you don't overwrite .esq files when scheduler jobs are currently using those same files. (It is OK if the scheduler is running, but not running that job.) This can get the scheduler and capture modules out of sync, as they read the files at different times. Instead, you can save to a different filename and then edit the scheduler job to use the new .esq filename."
-msgstr ""
+msgstr "Il est également recommandé de ne pas écraser les fichiers .esq pendant que les tâches de l'ordonnanceur utilisent ces mêmes fichiers. (C'est OK de le faire pendant que l'ordonnanceur est en cours mais pas si cette tâche particulière est en exécution). En effet, cela désynchroniserait l'ordonnanceur et les modules d'acquisition, puisqu'ils lisent ces fichiers à des moments différents. Vous devriez plutôt enregistrer sous un nom différent et ensuite modifier la tâche pour utiliser ce nouveau fichier .esq."
 
 #. Tag: title
 #. +> trunk5
