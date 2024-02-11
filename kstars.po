@@ -16,16 +16,17 @@
 # Sebastien Renard <renard@kde.org>, 2013.
 # Simon Depiets <sdepiets@gmail.com>, 2018, 2019, 2020.
 # MORELLI <robert.morelli@laposte.net>, 2022.
-# Steve <stax@ik.me>, 2022, 2023.
 # Thomas Vergnaud <thomas.vergnaud@mailo.eu>, 2023.
 # Johnny Jazeix <jazeix@gmail.com>, 2023.
+# Steve <stax@ik.me>, 2022, 2023, 2024.
+
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_3.6.7\n"
+"Project-Id-Version: kstars_3.6.9\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-09 09:12+0100\n"
-"PO-Revision-Date: 2024-01-21 21:16+0100\n"
-"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"PO-Revision-Date: 2024-02-11 13:01+0100\n"
+"Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -6626,14 +6627,14 @@ msgstr "Impossible de faire une acquisition pendant qu'une exposition du CCD est
 
 #. +> trunk5
 #: ekos/align/align.cpp:1508
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Cannot capture while rotator is busy. Retrying in %1 seconds..."
 msgid "Cannot capture while rotator is busy: Time delay estimate started..."
-msgstr "Impossible de faire une acquisition pendant que le rotateur est occupé. Nouvel essai dans %1 secondes…"
+msgstr "Impossible de faire une acquisition pendant que le rotateur est occupé. Temporisation estimée débutée…"
 
 #. +> trunk5
 #: ekos/align/align.cpp:1522
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Cannot capture while rotator is busy. Retrying in %1 seconds..."
 msgid "Cannot capture while rotator is busy: Retrying in %1 seconds..."
 msgstr "Impossible de faire une acquisition pendant que le rotateur est occupé. Nouvel essai dans %1 secondes…"
@@ -7248,7 +7249,7 @@ msgstr "Stabilisation"
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #. +> trunk5
 #: ekos/align/align.ui:338
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Accuracy"
 msgid "Accuracy:"
 msgstr "Précision"
@@ -7408,10 +7409,10 @@ msgstr "Regroupement"
 #. i18n: ectx: property (toolTip), widget (QPushButton, showFITSViewerB)
 #. +> trunk5
 #: ekos/align/align.ui:584 ekos/focus/focus.ui:673 ekos/guide/guide.ui:166
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show in FITS Viewer"
 msgid "Show in FITS Viewer..."
-msgstr "Afficher dans l'afficheur FITS"
+msgstr "Afficher dans l'afficheur FITS…"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, alignDarkFrame)
 #. +> trunk5
@@ -7523,10 +7524,10 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, alignUseCurrentFilter)
 #. +> trunk5
 #: ekos/align/align.ui:746
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "use current"
 msgid "Use current"
-msgstr "utiliser actuel"
+msgstr "Utiliser actuel"
 
 #. i18n: ectx: property (title), widget (QGroupBox, stellarSolverOptionsGroup)
 #. +> trunk5
@@ -11341,7 +11342,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label2)
 #. +> trunk5
 #: ekos/analyze/analyze.ui:338
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Guide: "
 msgid "Guide:"
 msgstr "Guide"
@@ -11359,7 +11360,7 @@ msgstr "Monture"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk5
 #: ekos/analyze/analyze.ui:374
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Capture"
 msgid "Capture:"
 msgstr "Acquisition"
@@ -12588,7 +12589,7 @@ msgstr "Regroupement de pixels"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk5
 #: ekos/auxiliary/darklibrary.ui:213
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Exp. Range:"
 msgid "Exp. range:"
 msgstr "Plage d'exposition"
@@ -12604,7 +12605,7 @@ msgstr "Pas"
 #. i18n: ectx: property (text), widget (QLabel, temperatureLabel)
 #. +> trunk5
 #: ekos/auxiliary/darklibrary.ui:256
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "T. Range:"
 msgid "T. range:"
 msgstr "Plage de température"
@@ -12667,7 +12668,7 @@ msgstr "Taille du pas en secondes"
 #. i18n: ectx: property (text), widget (QLabel, label_13)
 #. +> trunk5
 #: ekos/auxiliary/darklibrary.ui:382
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Total Time:"
 msgid "Total time:"
 msgstr "Temps total"
@@ -12706,7 +12707,7 @@ msgstr "Durée d'exposition maximale en secondes."
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #. +> trunk5
 #: ekos/auxiliary/darklibrary.ui:464
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Total Images:"
 msgid "Total images:"
 msgstr "Total Images"
@@ -12778,7 +12779,7 @@ msgstr "Médiane"
 #. i18n: ectx: property (text), widget (QLabel, label_20)
 #. +> trunk5
 #: ekos/auxiliary/darklibrary.ui:783
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Std. Deviation:"
 msgid "Std. deviation:"
 msgstr "Écart-type"
@@ -12793,7 +12794,7 @@ msgstr "Pixels défectueux"
 #. i18n: ectx: property (text), widget (QLabel, label_21)
 #. +> trunk5
 #: ekos/auxiliary/darklibrary.ui:827
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Hot Pixels"
 msgid "Hot pixels:"
 msgstr "Pixels chauds"
@@ -12809,7 +12810,7 @@ msgstr "Pixels détectés après un filtrage d'agressivité"
 #. i18n: ectx: property (text), widget (QLabel, label_22)
 #. +> trunk5
 #: ekos/auxiliary/darklibrary.ui:847
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Cold Pixels"
 msgid "Cold pixels:"
 msgstr "Pixels froids"
@@ -13340,7 +13341,7 @@ msgstr "Avez-vous des problèmes avec Ekos ? Veuillez activer la journalisation
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. +> trunk5
 #: ekos/auxiliary/opslogs.ui:133
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Ekos"
 msgid "Ekos:"
 msgstr "Ekos"
@@ -13475,7 +13476,7 @@ msgstr "Enregistrer l'activité du module d'acquisition de Ekos"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. +> trunk5
 #: ekos/auxiliary/opslogs.ui:295
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Astrometry"
 msgid "Astrometry:"
 msgstr "Astrométrie"
@@ -13527,7 +13528,7 @@ msgstr "Observatoire"
 #. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_VerboseLogging)
 #. +> trunk5
 #: ekos/auxiliary/opslogs.ui:338
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Enable verbose debug output"
 msgid "Enable verbose debug output level"
 msgstr "Activer la sortie de débogage détaillé"
@@ -13593,7 +13594,7 @@ msgstr "Avez-vous des problèmes avec les pilotes INDI ? Veuillez activer la jo
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #. +> trunk5
 #: ekos/auxiliary/opslogs.ui:410
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Drivers"
 msgid "Drivers:"
 msgstr "Pilotes"
@@ -13694,10 +13695,10 @@ msgstr "Messages INDI dans la &barre d'état"
 #. i18n: ectx: property (text), widget (QPushButton, showLogsB)
 #. +> trunk5
 #: ekos/auxiliary/opslogs.ui:529
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Open Logs Directory"
 msgid "Open Logs Directory..."
-msgstr "Ouvrir le dossier des journaux"
+msgstr "Ouvrir le dossier des journaux…"
 
 #. +> trunk5
 #: ekos/auxiliary/opticaltrainmanager.cpp:139
@@ -13854,7 +13855,7 @@ msgstr "Sélectionner un capuchon anti-poussière si existant (p. ex. FlipFlat).
 #. i18n: ectx: property (text), widget (QLabel, dustCapLlabel)
 #. +> trunk5
 #: ekos/auxiliary/opticaltrains.ui:209
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Dust Cap:"
 msgid "Dust cap:"
 msgstr "Capuchon anti-poussière"
@@ -13893,7 +13894,7 @@ msgstr "Sélectionner une boîte à flat si existante (p. ex. FlipFlat)."
 #. i18n: ectx: property (text), widget (QLabel, lightBoxLabel)
 #. +> trunk5
 #: ekos/auxiliary/opticaltrains.ui:265
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Light Box:"
 msgid "Light box:"
 msgstr "Boîte à flat"
@@ -13916,7 +13917,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, filterLabel)
 #. +> trunk5
 #: ekos/auxiliary/opticaltrains.ui:278
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Filter Wheel:"
 msgid "Filter wheel:"
 msgstr "Roue à filtres"
@@ -13943,7 +13944,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, guiderLabel)
 #. +> trunk5
 #: ekos/auxiliary/opticaltrains.ui:301
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Guide Via:"
 msgid "Guide via:"
 msgstr "Guider via "
@@ -14000,10 +14001,10 @@ msgstr "Télescopes && Objectifs"
 #. i18n: ectx: property (toolTip), widget (QPushButton, resetB)
 #. +> trunk5
 #: ekos/auxiliary/opticaltrains.ui:430
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Reset frame"
 msgid "Reset train"
-msgstr "Réinitialiser la trame"
+msgstr "Réinitialiser le train"
 
 #. +> trunk5
 #: ekos/auxiliary/portselector.cpp:64
@@ -14444,7 +14445,7 @@ msgstr "Enregistre votre paramétrage courant des profils de ce groupe, à un au
 #. i18n: ectx: property (toolTip), widget (QPushButton, loadDefaults)
 #. +> trunk5
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:172
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Loads the default set of profiles, clearing any modifications or custom profiles. "
 msgid "Loads the default set of profiles, clearing any modifications or custom profiles."
 msgstr "Charge le paramétrage par défaut des profils, en supprimant toutes modifications et profils personnalisés."
@@ -14930,7 +14931,7 @@ msgstr "Conserver #"
 #. i18n: ectx: property (toolTip), widget (QLineEdit, keepNum)
 #. +> trunk5
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:847
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "The number of stars to keep in the list after star extraction.  This parameter is based on magnitude and is most useful to speed up plate solving, such as in the Align Module."
 msgid "The number of stars to keep in the list after star extraction. This parameter is based on magnitude and is most useful to speed up plate solving, such as in the Align Module."
 msgstr "Le nombre d'étoiles à conserver dans la liste après extraction. Ce paramètre est fondé sur la magnitude. Il est le plus utile pour accélérer la résolution astrométrique dans le module d'alignement."
@@ -14938,7 +14939,7 @@ msgstr "Le nombre d'étoiles à conserver dans la liste après extraction. Ce pa
 #. i18n: ectx: property (toolTip), widget (QLineEdit, initialKeep)
 #. +> trunk5
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:857
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "The number of stars to keep in the list initially.  This filter is based on the size of the stars.  It is primarily useful for speeding up star extraction with HFR such as in Focus, Guide, and HFR monitoring.  "
 msgid "The number of stars to keep in the list initially. This filter is based on the size of the stars.  It is primarily useful for speeding up star extraction with HFR such as in Focus, Guide, and HFR monitoring."
 msgstr "Nombre d'étoiles à conserver dans la liste initiale. Ce filtre repose sur la taille des étoiles. Il est principalement utile pour accélérer l'extraction d'étoiles avec HFR comme dans la mise au point, le guidage et la surveillance HFR."
@@ -15275,6 +15276,8 @@ msgid ""
 "<b><font color=\"red\">Please run the Capture tab connected to INDI with your desired camera/filterbank at least once before using the Sequence Editor. </font></b>"
 "<p>"
 msgstr ""
+"<b><font color=\"red\">Veuillez ouvrir l'onglet d'acquisition connecté à INDI avec votre appareil et banque de filtres souhaités au moins une fois avant d'utiliser le Modificateur de séquences.</font></b>"
+"<p>"
 
 #. +> trunk5
 #: ekos/capture/capture.cpp:136
@@ -15285,12 +15288,16 @@ msgid ""
 "It is not recommended to overwrite a sequence file currently running, please rename it instead.</p>"
 "<p>"
 msgstr ""
+"<b>Utilisation des attributs de l'appareil et de la roue à filtres d'une session d'acquisition débutée à %1.<br>"
+"<p>Si vous souahitez utiliser d'autres appareils et banques de filtres, veuillez modifier la séquence en utilisant l'onglet d'acquisition.</br>"
+"Il n'est pas recommandé de modifier un fichier de séquences en cours d'utilisaion, veuillez plustôt le renommer."
+"<p>"
 
 #. +> trunk5
 #: ekos/capture/capture.cpp:290 ekos/capture/capture.cpp:292
 #, kde-format
 msgid "Capture Sequence Editor: %1"
-msgstr ""
+msgstr "Modificateur de séquence d'acquisition : %1"
 
 #. +> trunk5
 #: ekos/capture/capture.cpp:450 ekos/capture/capture.cpp:2588
@@ -15833,7 +15840,7 @@ msgstr "Contrôle du rotateur"
 #. i18n: ectx: property (toolTip), widget (QPushButton, exposureCalcB)
 #. +> trunk5
 #: ekos/capture/capture.ui:801
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Optimal sub-exposure calculator</p>"
@@ -15844,7 +15851,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Calculatrice de durée d'exposition optimale</p>"
+"<p>Calculatrice de durée d'exposition</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_15)
@@ -16224,34 +16231,34 @@ msgstr "Réinitialiser l'état de toutes les tâches"
 #. i18n: ectx: property (toolTip), widget (QPushButton, observerB)
 #. +> trunk5
 #: ekos/capture/capture.ui:1740
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Select Observer"
 msgid "Select Observer..."
-msgstr "Sélectionner un observateur"
+msgstr "Sélectionner un observateur…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, queueLoadB)
 #. +> trunk5
 #: ekos/capture/capture.ui:1781
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Load capture sequence from file"
 msgid "Load Capture Sequence from File..."
-msgstr "Charger la séquence d'acquisition à partir d'un fichier"
+msgstr "Charger la séquence d'acquisition à partir d'un fichier…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, queueSaveB)
 #. +> trunk5
 #: ekos/capture/capture.ui:1815
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Save capture sequence as ..."
 msgid "Save Capture Sequence..."
-msgstr "Enregistrer la séquence d'acquisition comme…"
+msgstr "Enregistrer la séquence d'acquisition…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, queueSaveAsB)
 #. +> trunk5
 #: ekos/capture/capture.ui:1849
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Save capture sequence as ..."
 msgid "Save Capture Sequence As..."
-msgstr "Enregistrer la séquence d'acquisition comme…"
+msgstr "Enregistrer la séquence d'acquisition…"
 
 #. i18n: ectx: property (text), widget (QTableWidget, queueTable)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -16296,26 +16303,26 @@ msgstr "ISO/Gain"
 #. i18n: ectx: property (toolTip), widget (QPushButton, previewB)
 #. +> trunk5
 #: ekos/capture/capture.ui:1946
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Capture a preview"
 msgid "Capture a Preview..."
-msgstr "Acquérir un aperçu"
+msgstr "Acquérir un aperçu…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, loopB)
 #. +> trunk5
 #: ekos/capture/capture.ui:1987
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Start framing (looping)"
 msgid "Start Framing (Looping)..."
-msgstr "Démarrer les trames (en boucle)"
+msgstr "Démarrer l'acquisition de trames (en boucle)…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, liveVideoB)
 #. +> trunk5
 #: ekos/capture/capture.ui:2025 ekos/focus/focus.ui:698
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Live Video"
 msgid "Live Video..."
-msgstr "Vidéo en temps réel"
+msgstr "Vidéo en temps réel…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, startB)
 #. +> trunk5
@@ -16348,10 +16355,10 @@ msgstr "Créer et gérer la bibliothèque de Dark"
 #. i18n: ectx: property (text), widget (QPushButton, darkLibraryB)
 #. +> trunk5
 #: ekos/capture/capture.ui:2174
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Darks"
 msgid "Darks..."
-msgstr "Darks"
+msgstr "Darks…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, limitsB)
 #. +> trunk5
@@ -16363,10 +16370,10 @@ msgstr "Configurer les limites du guide et de la mise au point"
 #. i18n: ectx: property (text), widget (QPushButton, limitsB)
 #. +> trunk5
 #: ekos/capture/capture.ui:2184
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Limits"
 msgid "Limits..."
-msgstr "Limites"
+msgstr "Limites…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, scriptManagerB)
 #. +> trunk5
@@ -16378,10 +16385,10 @@ msgstr "Gérer les scripts de séquences"
 #. i18n: ectx: property (text), widget (QPushButton, scriptManagerB)
 #. +> trunk5
 #: ekos/capture/capture.ui:2200
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Scripts"
 msgid "Scripts..."
-msgstr "Scripts "
+msgstr "Scripts…"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, darkB)
 #. +> trunk5
@@ -16399,7 +16406,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, jobLabel)
 #. +> trunk5
 #: ekos/capture/capture.ui:2248
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "total remaining:"
 msgid "Total remaining:"
 msgstr "Durée totale restante"
@@ -16466,26 +16473,26 @@ msgstr "\""
 #. i18n: ectx: property (toolTip), widget (QPushButton, esqLoadB)
 #. +> trunk5
 #: ekos/capture/capture.ui:2443
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Load capture sequence from file"
 msgid "Load a new sequence file"
-msgstr "Charger la séquence d'acquisition à partir d'un fichier"
+msgstr "Charger une nouvelle séquence d'acquisition à partir d'un fichier"
 
 #. i18n: ectx: property (text), widget (QPushButton, esqLoadB)
 #. +> trunk5
 #: ekos/capture/capture.ui:2446
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Loading..."
 msgid "Load..."
-msgstr "Téléchargement en cours…"
+msgstr "Charger…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, esqSaveAsB)
 #. +> trunk5
 #: ekos/capture/capture.ui:2465
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Unable to open sequence file %1"
 msgid "Save to a new sequence file"
-msgstr "Impossible d'ouvrir le fichier de séquence %1"
+msgstr "Enregistrer dans un nouveau fichier de séquences"
 
 #. i18n: ectx: property (text), widget (QPushButton, esqSaveAsB)
 #. i18n: ectx: property (text), widget (QPushButton, AddPreset)
@@ -16642,10 +16649,10 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, frameInfoLabel)
 #. +> trunk5
 #: ekos/capture/capturecountswidget.ui:463
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Type and filter (if present) of the currently active capture. "
 msgid "Type and filter (if present) of the currently active capture."
-msgstr "Type et filtre (si présent) de l'acquisition courante active. "
+msgstr "Type et filtre (si présent) de l'acquisition courante active."
 
 #. i18n: ectx: property (text), widget (QLabel, overallLabel)
 #. +> trunk5
@@ -17394,10 +17401,10 @@ msgstr "Valeurs non valables. Veuillez définir toutes les valeurs."
 #. i18n: ectx: property (windowTitle), widget (QDialog, ExposureCalculatorDialog)
 #. +> trunk5
 #: ekos/capture/exposurecalculator/exposurecalculatordialog.ui:32
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Sub-Exposure Calculator"
 msgid "Exposure Calculator"
-msgstr "Calculatrice du temps d'exposition des trames"
+msgstr "Calculatrice du temps d'exposition"
 
 #. i18n: ectx: property (text), widget (QLabel, SQMLabel)
 #. +> trunk5
@@ -17717,7 +17724,7 @@ msgstr "Annuler la séquence si la dérive de guidage dépasse cette valeur N fo
 #. i18n: ectx: property (toolTip), widget (QSpinBox, limitDitherFrequencyN)
 #. +> trunk5
 #: ekos/capture/limits.ui:83
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>If selected, the shutter needs to be open for the observatory status being &quot;READY&quot;.</p>"
@@ -17728,13 +17735,13 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Si cette option est sélectionnée, l'obturateur doit être ouvert pour que l'état d'observation soit &quot;PRÊT&quot;.</p>"
+"<p>Si le décalage de pixels (dithering) global est activé, décaler toutes les N trames pour cette tâche. Réglez à 0 pour utiliser la fréquence globale de décalage.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, limitGuideDeviationS)
 #. +> trunk5
 #: ekos/capture/limits.ui:134
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Abort if Guide Deviation >"
 msgid "Abort if guide deviation >:"
 msgstr "Annuler si la déviation du guide est >"
@@ -17749,10 +17756,10 @@ msgstr "Démarrer l'acquisition uniquement si l'écart en guidage est inférieur
 #. i18n: ectx: property (text), widget (QCheckBox, startGuiderDriftS)
 #. +> trunk5
 #: ekos/capture/limits.ui:150
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Only Start if Guide Deviation <"
 msgid "Only start if guide deviation <:"
-msgstr "Démarrer si la déviation de guidage est <"
+msgstr "Ne démarrer que si la déviation de guidage est inférieure à "
 
 #. i18n: ectx: property (text), widget (QLabel, limitGuideDeviationLabel)
 #. +> trunk5
@@ -17764,10 +17771,10 @@ msgstr "fois consécutives"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk5
 #: ekos/capture/limits.ui:177
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Dithering error"
 msgid "Dither per job every:"
-msgstr "Erreur de décalage"
+msgstr "Décaler par tâche chaque "
 
 #. i18n: ectx: property (title), widget (QGroupBox, focusGroupBox)
 #. +> trunk5
@@ -17779,7 +17786,7 @@ msgstr "Conditions de mise au point"
 #. i18n: ectx: property (toolTip), widget (QComboBox, limitFocusHFRAlgorithm)
 #. +> trunk5
 #: ekos/capture/limits.ui:193
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Select the type of curve to fit to the data:</p>"
@@ -17802,42 +17809,44 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Sélectionner le type de courbes de régression :</p>"
+"<p>L'algorithme de vérification HFR</p>"
 "<ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\">"
-"<li style=\"margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\"font-weight:600;\">Quadratique</span> : utilise une régression polynomiale de degrés 2. C'est l'option par défaut actuelle et actuellement la seule option pour tous les algorithmes excepté l'algorithme linéaire à 1 passe.</li>"
-"<li style=\"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\"font-weight:600;\">Hyperbolique</span> : utilise une régression hyperbolique. Actuellement seulement disponible pour l'algorithme linéaire à 1 passe.</li>"
-"<li style=\"margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\"font-weight:600;\">Parabolique</span> : utilise une régression parabolique. Actuellement seulement disponible pour l'algorithme linéaire à 1 passe.</li>"
+"<li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Dernière mise au point automatique</span> : c'est l'algorithme par défaut qui utilise la valeur HFR obtenue de la mise au point automatique la plus récente comme référence pour la vérification.</li>"
+"</ul>"
+"<ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\">"
+"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Constante</span> : cet algorithme permet à l'utilisateur d'utiliser une valeur constante pour la vérification.</li>"
+"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Mesure relative</span> : cet algorithme réunit des données des vérifications de la mise au point automatique et du HFR, les trie dans une liste séquencée et utilise la valeur médiane comme référence pour la prochaine vérification.</li>"
 "</ul>"
 "</body></html>"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, limitFocusHFRAlgorithm)
 #. +> trunk5
 #: ekos/capture/limits.ui:200
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Auto focus:"
 msgid "Last Autofocus"
-msgstr "Mise au point automatique"
+msgstr "Dernière au point automatique"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, limitFocusHFRAlgorithm)
 #. +> trunk5
 #: ekos/capture/limits.ui:205
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Fixed DEC"
 msgid "Fixed"
-msgstr "DEC fixée"
+msgstr "Corrigée"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, limitFocusHFRAlgorithm)
 #. +> trunk5
 #: ekos/capture/limits.ui:210
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Measure:"
 msgid "Median Measure"
-msgstr "Mesure"
+msgstr "Mesure médiane"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, limitFocusDeltaTS)
 #. +> trunk5
 #: ekos/capture/limits.ui:259
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Perform autofocus when the change in temperature since last focus exceeded this limit</p>"
@@ -17848,21 +17857,21 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Réaliser une mise au point automatique quand le changement de température depuis la dernière mise au point dépasse cette limite.</p>"
+"<p>Cochez pour réaliser une mise au point automatique quand le changement de température depuis la dernière mise au point dépasse cette limite. La température de référence est réinitialisée à chaque mise au point automatique.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, limitFocusDeltaTS)
 #. +> trunk5
 #: ekos/capture/limits.ui:262
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Autofocus if ΔT°  >"
 msgid "Refocus if ΔT°  >:"
-msgstr "Mise au point automatique si ΔT° >"
+msgstr "Nouvelle mise au point si ΔT° >"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, meridianRefocusS)
 #. +> trunk5
 #: ekos/capture/limits.ui:269
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Perform autofocus after meridian flip</p>"
@@ -17873,7 +17882,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Réaliser une mise au point automatique après un retournement au méridien.</p>"
+"<p>Cochez pour réaliser une mise au point automatique après un retournement au méridien.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, meridianRefocusS)
@@ -17886,7 +17895,7 @@ msgstr "Réinitialiser la mise au point après le retournement au méridien."
 #. i18n: ectx: property (toolTip), widget (QCheckBox, limitRefocusS)
 #. +> trunk5
 #: ekos/capture/limits.ui:282
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Check to apply Adaptive focus to Autofocus runs.</p>"
@@ -17897,13 +17906,13 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Cochez pour appliquer la mise au point adaptative aux passes de mise au point automatique.</p>"
+"<p>Cochez pour forcer une mise au point automatique toutes les N minutes. Le minuteur est réinitialisé après chaque mise au point automatique.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, limitRefocusS)
 #. +> trunk5
 #: ekos/capture/limits.ui:285
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Refocus every"
 msgid "Refocus every:"
 msgstr "Refaire une mise au point toutes les "
@@ -17911,7 +17920,7 @@ msgstr "Refaire une mise au point toutes les "
 #. i18n: ectx: property (toolTip), widget (QCheckBox, limitFocusHFRS)
 #. +> trunk5
 #: ekos/capture/limits.ui:295
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Check to display the CFZ on the V-curve after a successful Autofocus run.</p>"
@@ -17922,7 +17931,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Cochez pour afficher la CFZ sur la courbe en V après une passe réussie de la mise au point automatique.</p>"
+"<p>Cochez pour réaliser une vérification du HFR entre les trames. La vérification peut déclencher une mise au point automatique.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, limitFocusHFRS)
@@ -17930,7 +17939,7 @@ msgstr ""
 #: ekos/capture/limits.ui:298
 #, kde-format
 msgid "Refocus on ΔHFR.  Use:"
-msgstr ""
+msgstr "Nouvelle mise au point avec ΔHFR. Utilisez :"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_11)
 #. +> trunk5
@@ -17942,15 +17951,15 @@ msgstr "Exécuter une vérification HFR en suivant après ce certain nombre de t
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #. +> trunk5
 #: ekos/capture/limits.ui:308
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Refocus every"
 msgid "Check every:"
-msgstr "Refaire une mise au point toutes les "
+msgstr "Vérifier toutes les "
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, limitFocusHFRCheckFrames)
 #. +> trunk5
 #: ekos/capture/limits.ui:318
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Averaged HFR value from the last frame.</p>"
@@ -17961,13 +17970,13 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Valeur moyenne du HFR pour la dernière trame</p>"
+"<p>Réaliser une vérification du HFR après cette quantité de trames.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, limitFocusHFRThresholdPercentage)
 #. +> trunk5
 #: ekos/capture/limits.ui:331
-#, fuzzy, kde-format, no-c-format
+#, kde-format, no-c-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Drag the slider to adjust the scale of the Corrections Graphs relative to the scale of the drift graphs.</p>"
@@ -17978,7 +17987,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Faire glisser le curseur pour ajuster l'échelle des graphiques des corrections vers l'échelle des graphiques de dérives.</p>"
+"<p>Spécifiez le % à appliquer à la valeur de vérification du HFR appropriée à l'algorithme sélectionné, afin de l'utiliser comme seuil pour démarrer la vérification du HFR.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, limitFocusHFRThresholdLabel)
@@ -18005,14 +18014,17 @@ msgid ""
 "<p>The HFR Check value in pixels. This is an output field when Last Autofocus or Relative Measure is selected, and an input field for Fixed.  In all cases,  the user can override the system generated value.</p>"
 "</body></html>"
 msgstr ""
+"<html><head/><body>"
+"<p>La valeur de vérification HFR en pixels. Cela est un champ de sortie quand l'option Dernière mise au point automatique ou Mesure relative est sélectionnée, et un champ en entreée pour Constante. L'utilisateur peut dans tous les cas écraser la valeur générée par le système.</p>"
+"</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk5
 #: ekos/capture/limits.ui:413
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "frames"
 msgid "frames.   HFR:"
-msgstr "trames"
+msgstr "trames. HFR :"
 
 #. +> trunk5
 #: ekos/capture/refocusstate.cpp:35
@@ -18321,7 +18333,7 @@ msgstr "Gestionnaire de scripts"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk5
 #: ekos/capture/scriptsmanager.ui:22
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Pre-Job Script:"
 msgid "Pre-job script:"
 msgstr "Script d'initialisation de la tâche"
@@ -18340,7 +18352,7 @@ msgstr "Script exécutable"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk5
 #: ekos/capture/scriptsmanager.ui:67
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Pre-Capture Script:"
 msgid "Pre-capture script:"
 msgstr "Script de pré-acquisition"
@@ -18348,7 +18360,7 @@ msgstr "Script de pré-acquisition"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. +> trunk5
 #: ekos/capture/scriptsmanager.ui:112
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Post-Capture Script:"
 msgid "Post-capture script:"
 msgstr "Script de post-acquisition"
@@ -18356,7 +18368,7 @@ msgstr "Script de post-acquisition"
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk5
 #: ekos/capture/scriptsmanager.ui:157
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Post-Job Script:"
 msgid "Post-job script:"
 msgstr "Script de clôture de la tâche"
@@ -18364,10 +18376,10 @@ msgstr "Script de clôture de la tâche"
 #. i18n: ectx: property (windowTitle), widget (QDialog, SequenceEditorUI)
 #. +> trunk5
 #: ekos/capture/sequenceeditorui.ui:20
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Pause Sequence"
 msgid "Capture Sequence Editor"
-msgstr "Mettre la séquence en pause"
+msgstr "Modificateur de séquence d'acquisition"
 
 #. +> trunk5
 #: ekos/capture/sequencejob.cpp:24 ekos/ekos.h:71 ekos/ekos.h:119
@@ -19300,10 +19312,10 @@ msgstr ""
 
 #. +> trunk5
 #: ekos/focus/adaptivefocus.cpp:152
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Adaptive Focus moving from %1 to %2"
 msgid "Adaptive Focus: No movement (below threshold)"
-msgstr "La mise au point adaptative se déplace de %1 vers %2"
+msgstr "Mise au point adaptative : pas de mouvement (sous le seuil)"
 
 #. +> trunk5
 #: ekos/focus/adaptivefocus.cpp:163
@@ -19319,29 +19331,29 @@ msgstr "Mise au point adaptative suspendue. Le mouvement total dépasserait la l
 
 #. +> trunk5
 #: ekos/focus/adaptivefocus.cpp:179
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Adaptive Focus moving from %1 to %2"
 msgid "Adaptive Focus: Moving from %1 to %2 (TempΔ %3"
-msgstr "La mise au point adaptative se déplace de %1 vers %2"
+msgstr "Mise au point adaptative : déplacement de %1 vers %2 (Δ Temp %3" 
 
 #. +> trunk5
 #: ekos/focus/adaptivefocus.cpp:180
 #, kde-format
 msgid "; AltΔ %1"
-msgstr ""
+msgstr " ; Δ alt %1 "
 
 #. +> trunk5
 #: ekos/focus/adaptivefocus.cpp:181
 #, kde-format
 msgid ")"
-msgstr ""
+msgstr ")"
 
 #. +> trunk5
 #: ekos/focus/adaptivefocus.cpp:181
-#, fuzzy, kde-format
+#, kde-format
 #| msgid " Error: %1"
 msgid "; Pos Error %1)"
-msgstr "Erreur: %1"
+msgstr " ; erreur de position %1)"
 
 #. +> trunk5
 #: ekos/focus/adaptivefocus.cpp:197
@@ -19460,18 +19472,18 @@ msgstr "Multiple du pas extérieur"
 #. i18n: ectx: property (text), widget (QLabel, focusAdvSettingsLabel)
 #. +> trunk5
 #: ekos/focus/advisor.ui:105
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Settings Tab Parameters"
 msgid "Settings Parameters"
-msgstr "Paramètres de l'onglet Configuration"
+msgstr "Paramètres de configuration"
 
 #. i18n: ectx: property (text), widget (QLabel, focusAdvProcessLabel)
 #. +> trunk5
 #: ekos/focus/advisor.ui:128
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Process Tab Parameters"
 msgid "Process Parameters"
-msgstr "Paramètres de l'onglet Traitement"
+msgstr "Paramètres de traitement"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, focusAdvReset)
 #. +> trunk5
@@ -19517,10 +19529,10 @@ msgstr "Conseiller de mise au point"
 #. i18n: ectx: property (text), widget (QLabel, focusAdvMechanicsLabel)
 #. +> trunk5
 #: ekos/focus/advisor.ui:180
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Mechanics Tab Parameters"
 msgid "Mechanics Parameters"
-msgstr "Paramètres de l'onglet Mécanique"
+msgstr "Paramètres mécanique"
 
 #. i18n: ectx: property (text), widget (QLabel, label_32)
 #. +> trunk5
@@ -19545,10 +19557,10 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QDialog, focusCFZDialog)
 #. +> trunk5
 #: ekos/focus/cfz.ui:14
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Focus: "
 msgid "Focus CFZ"
-msgstr "Mise au point"
+msgstr "CFZ de la mise au point"
 
 #. i18n: ectx: property (text), widget (QLabel, focusCFZTauLabel)
 #. +> trunk5
@@ -19594,7 +19606,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, focusCFZDisplayVCurve)
 #. +> trunk5
 #: ekos/focus/cfz.ui:141
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Display"
 msgid "Display:"
 msgstr "Affichage"
@@ -19675,7 +19687,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_37)
 #. +> trunk5
 #: ekos/focus/cfz.ui:264
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Step Size:</p>"
@@ -19692,7 +19704,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_19)
 #. +> trunk5
 #: ekos/focus/cfz.ui:280
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "CFZ Camera:"
 msgid "CFZ camera:"
 msgstr "Caméra CFZ"
@@ -19802,7 +19814,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QPushButton, resetToOTB)
 #. +> trunk5
 #: ekos/focus/cfz.ui:447
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Reset Wavelength,  Aperture,  Focal Ratio to values from the currently selected filter and optical train</p>"
@@ -19813,7 +19825,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Attribuer les valeurs de longueur d'onde, d'ouverture et de focale à partir de celles du filtre et du train optique actuellement sélectionnés.</p>"
+"<p>Réinitialiser les valeurs de longueur d'onde, d'ouverture et de focale à partir de celles du filtre et du train optique actuellement sélectionnés.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, resetToOTB)
@@ -19826,10 +19838,10 @@ msgstr "Réinitialiser à OT"
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #. +> trunk5
 #: ekos/focus/cfz.ui:463
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Focal Ratio (f):"
 msgid "Focal ratio (f):"
-msgstr "Ratio de focale (f)"
+msgstr "Rapport de focale (f)"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, focusCFZAlgorithm)
 #. +> trunk5
@@ -19957,10 +19969,10 @@ msgstr "Configuration"
 #. i18n: ectx: property (windowTitle), widget (QWidget, OpsFocusSettings)
 #. +> trunk5
 #: ekos/focus/focus.cpp:186 ekos/focus/opsfocussettings.ui:14
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Settings"
 msgid "Focus Settings"
-msgstr "Configuration"
+msgstr "Configuration de la mise au point"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:190
@@ -19971,10 +19983,10 @@ msgstr "Traitement"
 #. i18n: ectx: property (windowTitle), widget (QWidget, OpsFocusProcess)
 #. +> trunk5
 #: ekos/focus/focus.cpp:190 ekos/focus/opsfocusprocess.ui:14
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Focus SEP Profiles"
 msgid "Focus Process"
-msgstr "Profils de mise au point SEP"
+msgstr "Processus de mise au point"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:194
@@ -19985,10 +19997,10 @@ msgstr "Mécanique"
 #. i18n: ectx: property (windowTitle), widget (QWidget, OpsFocusMechanics)
 #. +> trunk5
 #: ekos/focus/focus.cpp:194 ekos/focus/opsfocusmechanics.ui:14
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Mechanics"
 msgid "Focus Mechanics"
-msgstr "Mécanique"
+msgstr "Mécanique de la mise au point"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:890
@@ -20022,10 +20034,10 @@ msgstr "La mise au point automatique est déjà en cours. Annulation de la deman
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:1002
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Discarding Autofocus start request - AdjustFocus in progress."
 msgid "Autofocus start request - Waiting 10sec for AdjustFocus to complete."
-msgstr "Rejet de la requête de démarrage de la mise au point automatique - AdjustFocus en cours"
+msgstr "Requête de démarrage de la mise au point automatique - 10 secondes d'attente pour que l'ajustement de la mise au point soit terminée."
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:1010
@@ -20035,10 +20047,10 @@ msgstr "Rejet de la requête de démarrage de la mise au point automatique - Adj
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:1019
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Discarding Autofocus start request - AdaptiveFocus in progress."
 msgid "Autofocus start request - Waiting 10sec for AdaptiveFocus to complete."
-msgstr "Rejet de la requête de mise au point automatique . AdaptativeFocus en cours"
+msgstr "Requête de la mise au point automatique - 10 secondes d'attente pour que la mise au point adaptative soit terminée."
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:1027
@@ -20102,31 +20114,31 @@ msgstr "Erreur : perte de connexion à la roue à filtres."
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:1561
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Go to an absolute focus position"
 msgid "At minimum focus position %1..."
-msgstr "Aller à une position absolue"
+msgstr "À la position de mise au point minimale %1…"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:1572
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Solving with blind image position..."
 msgid "Moving to minimum focus position %1..."
-msgstr "Résolution avec une position d'image en aveugle…"
+msgstr "Déplacement vers la position de mise au point minimale %1…"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:1581
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Go to an absolute focus position"
 msgid "At maximum focus position %1..."
-msgstr "Aller à une position absolue"
+msgstr "À la position de mise au point maximale %1…"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:1592
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Go to an absolute focus position"
 msgid "Moving to maximum focus position %1..."
-msgstr "Aller à une position absolue"
+msgstr "Déplacement vers la position maximale de mise au point %1…"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:1611
@@ -20443,9 +20455,9 @@ msgstr "Aucune étoile sélectionnée. Annulation…"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:4560
-#, fuzzy, kde-format
+#, kde-format
 msgid "Focuser already at %1..."
-msgstr "Mise au point vers l'extérieur..."
+msgstr "Le moteur de mise au point se trouve déjà à la position %1…"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:4672
@@ -20458,7 +20470,7 @@ msgstr "Trame de mise au point"
 #: ekos/focus/focus.cpp:5014
 #, kde-format
 msgid "Capturing image again..."
-msgstr "Nouvelle acquisition d'image…"
+msgstr "Nouvelle acquisition d'une image…"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:5029
@@ -20519,7 +20531,7 @@ msgstr "Vous possédez un télescope ayant une obstruction centrale, donc soyez 
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:6591
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "\n"
 #| "\n"
@@ -20547,9 +20559,9 @@ msgstr ""
 "\n"
 "La quatrième étape consiste à régler les paramètres restants du moteur de mise au point à des valeurs raisonnables. Le conseiller suggérera des valeurs pour quatre catégories de paramètres. Vérifiez la boîte de dialogue de mise à jour associée et acceptez ces recommandations en cliquant sur Mise à jour des paramètres.\n"
 "1. Propriétés de la caméra - assurez-vous que le gain est réglé correctement, p.ex. Gain unitaire.\n"
-"2. Onglet des réglages : ils ont tous des recommandations.\n"
-"3. Onglet du processus : ils ont tous des recommandations.\n"
-"4. Onglet de la mécanique : la taille de pas et le multiple de pas extérieur sont gérés comme ci-dessus.\n"
+"2. Réglages de la mise au point : ils ont tous des recommandations.\n"
+"3. Réglage du processus de mise au point : ils ont tous des recommandations.\n"
+"4. Réglage de la mécanique de mise au point : la taille de pas et le multiple de pas extérieur sont gérés comme ci-dessus.\n"
 "\n"
 "Déplacez le moteur vers une position de mise au point approximative et choisissez un filtre à large bande, p. ex. la luminance.\n"
 "Vous êtes maintenant prêt pour débuter la procédure de mise au point."
@@ -20564,7 +20576,7 @@ msgstr "Démarrer l'acquisition des trames en boucle"
 #. i18n: ectx: property (toolTip), widget (QPushButton, focusOutB)
 #. +> trunk5
 #: ekos/focus/focus.ui:193
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Zoom out for the X-Axis.</p>"
@@ -20576,7 +20588,8 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Zoom arrière sur l'axe des X.</p>"
+"<p>Mise au point extérieur </p>"
+"<p>Pour les télescope Schmidt-Cassegrain, c'est généralement CW.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, captureB)
@@ -20641,7 +20654,7 @@ msgstr "Position courante et absolue du moteur de mise au point"
 #. i18n: ectx: property (toolTip), widget (QPushButton, focusInB)
 #. +> trunk5
 #: ekos/focus/focus.ui:423
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Zoom in for the X-Axis.</p>"
@@ -20653,7 +20666,8 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Zoom avant sur l'axe des X.</p>"
+"<p>Mise au point intérieure </p>"
+"<p>Pour les télescope Schmidt-Cassegrain, c'est généralement CCW.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, absTicksSpin)
@@ -20682,10 +20696,10 @@ msgstr "Sélectionner une source de température pour le moteur de mise au point
 #. i18n: ectx: property (toolTip), widget (QPushButton, filterManagerB)
 #. +> trunk5
 #: ekos/focus/focus.ui:605
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Filter Settings"
 msgid "Filter Settings..."
-msgstr "Réglages des filtres"
+msgstr "Réglages du filtre…"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, temperatureSourceLabel)
 #. +> trunk5
@@ -21412,7 +21426,7 @@ msgstr "Fourier"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, focusRefineCurveFit)
 #. +> trunk5
 #: ekos/focus/opsfocusprocess.ui:259
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Check to run an outlier pass when all datapoints have been taken. The pass uses Peirce's Criteria for outlier threshold detection. If there are outliers, these are removed and curve fitting rerun. If the R² is improved by the process then this new dataset is used and outliers highlighted on the v-curve. This is an experimental feature.</p>"
@@ -21423,7 +21437,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Cochez pour lancer le traitement des valeurs aberrantes quand toutes les données ont été enregistrées. Ce traitement utilise le critère de Peirce pour le seuil de détection de ces valeurs. S'il en existe, elles seront supprimées et l'ajustement de courbe relancé. Si R² est amélioré, ce nouveau jeu de données sera utilisé et les valeurs aberrantes seront affichées sur la courbe en V. Cette fonctionnalité est encore expérimentale.</p>"
+"<p>Cochez pour lancer le traitement des valeurs aberrantes quand toutes les données ont été enregistrées. Ce traitement utilise le critère de Peirce pour le seuil de détection de ces valeurs. S'il en existe, elles seront supprimées et l'ajustement de courbe relancé. Si R² est amélioré, ce nouveau jeu de données sera utilisé et les valeurs aberrantes seront affichées sur la courbe en V.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, focusRefineCurveFit)
@@ -21685,22 +21699,26 @@ msgid ""
 "<p>This is a currently an experimental feature that should be used with caution.</p>"
 "</body></html>"
 msgstr ""
+"<html><head/><body>"
+"<p>Cochez pour utiliser la fonctionnalité de Donut Busting. À utiliser avec des télescopes ayant une obstruction centrale qui crée des étoiles en forme de donut lorsque loin de la mise au point.</p>"
+"<p>C'est une fonctionnalité encore expérimentale et devrait être utilisé avec précaution.</p>"
+"</body></html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, focusDonut)
 #. +> trunk5
 #: ekos/focus/opsfocusprocess.ui:639
 #, kde-format
 msgid "Donut Buster (WARNING: Experimental Feature)"
-msgstr ""
+msgstr "Donut Buster (ATTENTION : fonctionnalité expériementale)"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk5
 #: ekos/focus/opsfocusprocess.ui:657
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Time Factor"
 msgid "Time Dilation Factor:"
-msgstr "Facteur de temps"
+msgstr "Facteur de dilatation du temps"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, focusTimeDilation)
 #. +> trunk5
@@ -21712,6 +21730,10 @@ msgid ""
 "<p>Set to 1 to disable this option.</p>"
 "</body></html>"
 msgstr ""
+"<html><head/><body>"
+"<p>Les points les plus éloignés ont leur durée d'exposition augmentée de ce facteur. La durée d'exposition des points en-dedans de la mise au point n'est pas augmentée. Les points intermédiaires voient leur durée d'exposition modifiée de manière appropriée.</p>"
+"<p>Réglez à 1 pour désactiver cette option.</p>"
+"</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, focusAutoStarEnabled)
 #. +> trunk5
@@ -21889,7 +21911,7 @@ msgstr "Secondes d'arc"
 #: ekos/focus/opsfocussettings.ui:242
 #, kde-format
 msgid "Mask"
-msgstr ""
+msgstr "Masque"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, focusMosaicMaskRB)
 #. +> trunk5
@@ -22886,7 +22908,7 @@ msgstr "Axe d'ascension droite du guidage"
 #. i18n: ectx: property (text), widget (QLabel, l_9)
 #. +> trunk5
 #: ekos/guide/guide.ui:431
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Directions"
 msgid "Directions:"
 msgstr "Directions"
@@ -22943,10 +22965,10 @@ msgstr "128"
 #. i18n: ectx: property (toolTip), widget (QPushButton, manualPulseB)
 #. +> trunk5
 #: ekos/guide/guide.ui:504
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Manual Pulse"
 msgid "Manual Pulse..."
-msgstr "Pulsation manuelle"
+msgstr "Pulsation manuelle…"
 
 #. i18n: ectx: property (title), widget (QGroupBox, infoGroupScope)
 #. +> trunk5
@@ -22993,7 +23015,7 @@ msgstr "Informations de guidage"
 #. i18n: ectx: property (text), widget (QLabel, l_17)
 #. +> trunk5
 #: ekos/guide/guide.ui:748
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Pulse Length (ms)"
 msgid "Pulse length (ms):"
 msgstr "Durée d'impulsion (ms)"
@@ -23001,7 +23023,7 @@ msgstr "Durée d'impulsion (ms)"
 #. i18n: ectx: property (text), widget (QLabel, l_16)
 #. +> trunk5
 #: ekos/guide/guide.ui:755
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Guiding Delta \""
 msgid "Guiding delta \":"
 msgstr "Delta de guidage (sec)"
@@ -23044,7 +23066,7 @@ msgstr "Erreur RMS de guidage"
 #. i18n: ectx: property (text), widget (QLabel, l_17b)
 #. +> trunk5
 #: ekos/guide/guide.ui:831
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "RMS\" (RA/DEC)"
 msgid "RMS\" (RA/DEC):"
 msgstr "RMS\" (AD / DEC)"
@@ -23066,10 +23088,10 @@ msgstr "Erreur RMS en DEC du guidage"
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. +> trunk5
 #: ekos/guide/guide.ui:871
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Total RMS\""
 msgid "Total RMS\":"
-msgstr "Total RMS\""
+msgstr "RMS total"
 
 #. i18n: ectx: property (text), widget (QLabel, l_TotalRMS)
 #. i18n: ectx: property (text), widget (QLabel, l_SNR)
@@ -23082,7 +23104,7 @@ msgstr "xxx"
 #. i18n: ectx: property (text), widget (QLabel, label_7b)
 #. +> trunk5
 #: ekos/guide/guide.ui:891
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Guide SNR"
 msgid "Guide SNR:"
 msgstr "Rapport signal/bruit (SNR) du guide"
@@ -25416,18 +25438,18 @@ msgstr "Profil"
 #. i18n: ectx: property (toolTip), widget (QPushButton, addProfileB)
 #. +> trunk5
 #: ekos/manager.ui:167
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Add profile"
 msgid "Add profile..."
-msgstr "Ajouter un profil"
+msgstr "Ajouter un profil…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, editProfileB)
 #. +> trunk5
 #: ekos/manager.ui:204
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Edit profile"
 msgid "Edit profile..."
-msgstr "Modifier un profil"
+msgstr "Modifier un profil…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, deleteProfileB)
 #. +> trunk5
@@ -25446,10 +25468,10 @@ msgstr "Pilotes personnalisés…"
 #. i18n: ectx: property (toolTip), widget (QPushButton, wizardProfileB)
 #. +> trunk5
 #: ekos/manager.ui:300
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Launch Ekos Profile Wizard"
 msgid "Launch Ekos Profile Wizard..."
-msgstr "Lancer l'assistant de profil Ekos"
+msgstr "Lancer l'assistant de profil Ekos…"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #. +> trunk5
@@ -25461,10 +25483,10 @@ msgstr "2. Démarrer et/ou Arrêter Ekos"
 #. i18n: ectx: property (toolTip), widget (QPushButton, ekosLiveB)
 #. +> trunk5
 #: ekos/manager.ui:392
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Ekos Live"
 msgid "Ekos Live..."
-msgstr "Ekos Live"
+msgstr "Ekos Live…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, indiControlPanelB)
 #. +> trunk5
@@ -25476,7 +25498,7 @@ msgstr "Tableau de bord INDI…"
 #. i18n: ectx: property (toolTip), widget (QPushButton, portSelectorB)
 #. +> trunk5
 #: ekos/manager.ui:450
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Devices Port Selector</p>"
@@ -25487,31 +25509,31 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Sélecteur de ports de périphérique.</p>"
+"<p>Sélecteur de ports de périphérique…</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, optionsB)
 #. +> trunk5
 #: ekos/manager.ui:479
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Ekos Options"
 msgid "Ekos Options..."
-msgstr "Options Ekos"
+msgstr "Options Ekos…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, logsB)
 #. +> trunk5
 #: ekos/manager.ui:505
 #, kde-format
 msgid "Logs to diagnose issues with Ekos and INDI."
-msgstr ""
+msgstr "Fichiers journaux pour diagnostiquer les problèmes Ekos et INDI."
 
 #. i18n: ectx: property (text), widget (QPushButton, logsB)
 #. +> trunk5
 #: ekos/manager.ui:508
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show Logs..."
 msgid "Logs..."
-msgstr "Afficher les journaux…"
+msgstr "Fichiers journaux…"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #. +> trunk5
@@ -25672,10 +25694,10 @@ msgstr "Retournement au méridien dans %1."
 
 #. +> trunk5
 #: ekos/manager/meridianflipstate.cpp:253
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Meridian flip failed - time too short, pier side unknown."
 msgid "Assuming meridian flip completed, but pier side unknown."
-msgstr "Impossible d'effectuer un retournement au méridien. Trop peu de temps. Côté de la butée inconnu."
+msgstr "Retournement au méridien supposément terminé, mais le côté du pied est inconnu."
 
 #. +> trunk5
 #: ekos/manager/meridianflipstate.cpp:277
@@ -25892,14 +25914,14 @@ msgstr "Démarrage de la mise en sécurité automatique…"
 #: ekos/mount/mount.ui:161
 #, kde-format
 msgid "DEC:"
-msgstr "DEC :"
+msgstr "DEC"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #. +> trunk5
 #: ekos/mount/mount.ui:198
 #, kde-format
 msgid "ALT:"
-msgstr ""
+msgstr "ALT"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_9)
 #. +> trunk5
@@ -25920,7 +25942,7 @@ msgstr "Heure sidérale locale"
 #: ekos/mount/mount.ui:232
 #, kde-format
 msgid "LST:"
-msgstr ""
+msgstr "LST"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, executeMeridianFlip)
 #. +> trunk5
@@ -25938,7 +25960,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, executeMeridianFlip)
 #. +> trunk5
 #: ekos/mount/mount.ui:278
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Flip if HA >"
 msgid "Flip if HA >:"
 msgstr "Retourner si AH >"
@@ -25990,7 +26012,7 @@ msgstr "Purger toutes les configurations"
 #. i18n: ectx: property (text), widget (QLabel, label_12)
 #. +> trunk5
 #: ekos/mount/mount.ui:447
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Park At:"
 msgid "Park at:"
 msgstr "Parquer à "
@@ -26108,7 +26130,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, enableAltitudeLimits)
 #. +> trunk5
 #: ekos/mount/mount.ui:843
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Enable Alt Limits"
 msgid "Enable Alt limits"
 msgstr "Activer les limites d'altitude"
@@ -26178,7 +26200,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, enableHaLimit)
 #. +> trunk5
 #: ekos/mount/mount.ui:929
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Enable HA Limits"
 msgid "Enable HA limits"
 msgstr "Activer les limites AH"
@@ -27199,15 +27221,15 @@ msgstr "Lors du calcul de position après des acquisitions, la calculer toutes l
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. +> trunk5
 #: ekos/opsekos.ui:476
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Verify captured image position every"
 msgid "Verify captured image position every:"
-msgstr "Vérifier la position de l'image chaque"
+msgstr "Vérifier la position de l'image chaque "
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ResetMountModelBeforeJob)
 #. +> trunk5
 #: ekos/opsekos.ui:483
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Reset mount model before starting each job"
 msgid "Reset mount model before starting each job:"
 msgstr "Réinitialiser le modèle de monture avant le démarrage de chaque tâche"
@@ -27223,10 +27245,10 @@ msgstr "Si la position de l'acquisition dépasse la position cible de plus de ce
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #. +> trunk5
 #: ekos/opsekos.ui:500
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Reset pipeline if verified image delta exceeds"
 msgid "Reset pipeline if verified image delta exceeds:"
-msgstr "Réinitialiser la file d'attente si le delta d'images vérifiées dépasse"
+msgstr "Réinitialiser la file d'attente si le delta d'images vérifiées dépasse "
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ResetMountModelOnAlignFail)
 #. +> trunk5
@@ -27321,14 +27343,17 @@ msgid ""
 "<p>Minimal duration of a meridian flip in seconds. Increase this value if Ekos reports that a meridian flip has failed because the pier side did not change. A good estimation for this value is at least 50% of the typical duration of a meridian flip.</p>"
 "</body></html>"
 msgstr ""
+"<html><head/><body>"
+"<p>Durée minimale d'un retournement au méridien en secondes. Augmentez cette valeur su Ekos rapporte un échec parce que le côté du pied n'a pas changé. Une bonne estimation pour cette valeur est au moins 50% de la durée typique d'un retournement au méridien.</p>"
+"</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_17)
 #. +> trunk5
 #: ekos/opsekos.ui:701
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Meridian flip in %1"
 msgid "Minimal meridian flip duration: "
-msgstr "Retournement au méridien dans %1."
+msgstr "durée minimale du retournement au méridien"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AlwaysResetSequenceWhenStarting)
 #. +> trunk5
@@ -29441,7 +29466,7 @@ msgstr ""
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:168
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Current status of job '%1', managed by the Scheduler.\n"
 #| "If invalid, the Scheduler was not able to find a proper observation time for the target.\n"
@@ -29453,14 +29478,14 @@ msgid ""
 "If aborted, the Scheduler missed the scheduled time or encountered transitory issues and will reschedule the job.\n"
 "If complete, the Scheduler verified that all sequence captures requested were stored, including repeats."
 msgstr ""
-"État courant de la tâche %1, géré par le Planificateur.\n"
+"État courant de la tâche, géréie par le Planificateur.\n"
 "Si non valable, l'ordonnanceur ne pourra pas trouver une heure adéquate d'observation pour la cible.\n"
 "En cas d'abandon, l'ordonnanceur a manqué l'heure prévue ou a rencontré des problèmes transitoires et il reprogrammera la tâche.\n"
 "Si complété, l'ordonnanceur vérifie que toutes les séquences ont été enregistrées, incluant les répétitions."
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:173
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Current altitude of the target of job '%1'.\n"
 #| "A rising target is indicated with an arrow going up.\n"
@@ -29470,13 +29495,13 @@ msgid ""
 "A rising target is indicated with an arrow going up.\n"
 "A setting target is indicated with an arrow going down."
 msgstr ""
-"Hauteur actuelle de la cible de la tâche %1.\n"
+"Hauteur actuelle de la cible de la tâche.\n"
 "Une cible montante est indiquée avec une flèche vers le haut.\n"
 "Une cible de réglage est indiquée avec une flèche descendante."
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:177
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Startup time for job '%1', as estimated by the Scheduler.\n"
 #| "The altitude at startup, if available, is displayed too.\n"
@@ -29486,13 +29511,13 @@ msgid ""
 "The altitude at startup, if available, is displayed too.\n"
 "Fixed time from user or culmination time is marked with a chronometer symbol."
 msgstr ""
-"Temps de démarrage de la tâche %1, estimé par l'ordonnanceur.\n"
+"Durée de démarrage de la tâche, estimée par l'ordonnanceur.\n"
 "L'élévation au démarrage, si disponible, est également affichée.\n"
 "Un temps fixe à partir de l'heure de l'utilisateur ou de la culmination est marqué avec un symbole de chronomètre."
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:181
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Completion time for job '%1', as estimated by the Scheduler.\n"
 #| "You may specify a fixed time to limit duration of looping jobs. A warning symbol indicates the altitude at completion may cause the job to abort before completion.\n"
@@ -29500,12 +29525,12 @@ msgid ""
 "Completion time for the job, as estimated by the Scheduler.\n"
 "You may specify a fixed time to limit duration of looping jobs. A warning symbol indicates the altitude at completion may cause the job to abort before completion.\n"
 msgstr ""
-"Temps de réalisation de la tâche « %1 », tel qu'estimé par l'ordonnanceur.\n"
+"Durée de réalisation de la tâche, tel qu'estimée par l'ordonnanceur.\n"
 "Vous pouvez spécifier un temps fixe pour limiter la durée des tâches en boucle. Un symbole d'avertissement indique que l'élévation à la fin de la tâche peut entraîner la fin de la tâche avant son achèvement.\n"
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:185
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Count of captures stored for job '%1', based on its sequence job.\n"
 #| "This is a summary, additional specific frame types may be required to complete the job."
@@ -29513,7 +29538,7 @@ msgid ""
 "Count of captures stored for the job, based on its sequence job.\n"
 "This is a summary, additional specific frame types may be required to complete the job."
 msgstr ""
-"Nombre d'images enregistrées pour la tâche « %1 », en fonction de la séquence de la tâche.\n"
+"Nombre d'images enregistrées pour la tâche, en fonction de la séquence de la tâche.\n"
 "Il s'agit d'un résumé, d'autres types de trames spécifiques peuvent être nécessaires pour terminer le travail."
 
 #. +> trunk5
@@ -29658,10 +29683,10 @@ msgstr "%1 %2 %3"
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:1198
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Bad RA string entered for %1. Reset to original value."
 msgid "Stop editing of job #%1, resetting to original value."
-msgstr "Valeur incorrecte de l'AD pour %1. Réinitialisation à la valeur d'origine."
+msgstr "Arrêt de la modification de la tâche %1, réinitialisation à la valeur d'origine."
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:1216
@@ -30030,18 +30055,18 @@ msgstr "Saisir les coordonnées avec le centre de la carte du ciel."
 #. i18n: ectx: property (toolTip), widget (QPushButton, mosaicB)
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:884
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Open the Mosaic Planner"
 msgid "Open the Mosaic Planner..."
-msgstr "Ouvrir le planificateur de mosaïque"
+msgstr "Ouvrir le planificateur de mosaïque…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, editSequenceB)
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:912
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Save capture sequence as ..."
 msgid "Capture Sequence File Editor..."
-msgstr "Enregistrer la séquence d'acquisition comme…"
+msgstr "Modificateur du fichier de séquence d'acquisition…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, queueAppendB)
 #. +> trunk5
@@ -30072,15 +30097,15 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QPushButton, queueSaveB)
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:1025
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Save schedule as..."
 msgid "Save Schedule..."
-msgstr "Enregistrer le planning comme…"
+msgstr "Enregistrer le planning…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, queueSaveAsB)
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:1059
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Save schedule as..."
 msgid "Save Schedule As..."
 msgstr "Enregistrer le planning comme…"
@@ -30117,7 +30142,7 @@ msgstr "Mettre l'ordonnanceur en pause"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, repeatSequenceCB)
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:1240
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Repeat all scheduled jobs as soon as all jobs have been completed. This option is only available if the &quot;Remember job progress&quot; option in Ekos &gt; Scheduler is not selected.</p>"
@@ -30128,7 +30153,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Répéter toutes les tâches planifiées dès que toutes les tâches sont terminées. Cette option n'est disponible que si l'option &quot;Se rappeler de la progression de la tâche&quot; dans Ekos n'est pas sélectionnée</p>"
+"<p>Répéter toutes les tâches planifiées dès que toutes les tâches sont terminées. Cette option n'est disponible que si l'option <span style=\"font-weight:700;\">Se rappeler de la progression de la tâche</span> dans le planificateur d'Ekos n'est <span style=\" font-weight:700;\">pas</span> sélectionnée.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, repeatSequenceCB)
@@ -30168,7 +30193,7 @@ msgstr "Conditions de fin de la tâche"
 #. i18n: ectx: property (text), widget (QRadioButton, schedulerRepeatSequences)
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:1348
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Repeat for"
 msgid "&Repeat for:"
 msgstr "&Répéter pendant"
@@ -30190,7 +30215,7 @@ msgstr "Finir la tâche à une heure et date données."
 #. i18n: ectx: property (text), widget (QRadioButton, schedulerUntil)
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:1408
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Repeat &until"
 msgid "Repeat &until:"
 msgstr "Répéter j&usqu'à"
@@ -30212,17 +30237,17 @@ msgstr "dd/MM hh:mm"
 #. i18n: ectx: property (toolTip), widget (QRadioButton, startupTimeConditionR)
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:1521
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "start the job on the specified date and time"
 msgid "Start the job on the specified date and time"
-msgstr "Démarre la tâche à l'heure et à la date spécifiée."
+msgstr "Démarre la tâche à l'heure et à la date spécifiée"
 
 #. i18n: ectx: property (text), widget (QRadioButton, startupTimeConditionR)
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:1524
 #, kde-format
 msgid "O&n:"
-msgstr ""
+msgstr "O&n"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, asapConditionR)
 #. +> trunk5
@@ -30255,7 +30280,7 @@ msgstr "La séparation de la lune doit rester égale ou supérieure à cette val
 #. i18n: ectx: property (text), widget (QCheckBox, schedulerMoonSeparation)
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:1615
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Moon  > "
 msgid "Moon  >: "
 msgstr "Lune > "
@@ -30270,7 +30295,7 @@ msgstr "L'altitude de l'objet doit rester égale ou supérieure à cette valeur.
 #. i18n: ectx: property (text), widget (QCheckBox, schedulerAltitude)
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:1634
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Alt > "
 msgid "Alt >: "
 msgstr "Altitude > "
@@ -30312,10 +30337,10 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, schedulerTwilight)
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:1713
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Twilight"
 msgid "Twilight:"
-msgstr "Aube"
+msgstr "Crépuscule"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, schedulerHorizon)
 #. +> trunk5
@@ -30507,7 +30532,7 @@ msgstr "Traiter les erreurs comme des annulations."
 #. i18n: ectx: property (text), widget (QCheckBox, errorHandlingRescheduleErrorsCB)
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:2072
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Re-schedule errors"
 msgid "Re-schedule errors:"
 msgstr "Erreurs de replanification"
@@ -30584,13 +30609,13 @@ msgstr "Échec de la tâche Ekos (%1)"
 #: ekos/scheduler/schedulermodulestate.cpp:144
 #, kde-format
 msgid "Cannot delete currently running job '%1'."
-msgstr ""
+msgstr "Impossible de supprimer la tâche en cours d'exécution : %1."
 
 #. +> trunk5
 #: ekos/scheduler/schedulermodulestate.cpp:150
 #, kde-format
 msgid "Cannot delete job. Scheduler state: %1"
-msgstr ""
+msgstr "Impossible de supprimer la tâche. État du planificateur : %1"
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:47
@@ -32248,10 +32273,10 @@ msgstr "Détecter les étoiles dans cette image"
 
 #. +> trunk5
 #: fitsviewer/fitsview.cpp:2480
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "View Star Profile"
 msgid "View Star Profile..."
-msgstr "Afficher le profil d'une étoile"
+msgstr "Afficher le profil de l'étoile…"
 
 #. +> trunk5
 #: fitsviewer/fitsview.cpp:2490 fitsviewer/fitsviewer.cpp:239
@@ -32342,10 +32367,10 @@ msgstr "Retourner verticalement"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:132 kstarsinit.cpp:160
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Open Logs Directory"
 msgid "Open/Blink Directory"
-msgstr "Ouvrir le dossier des journaux"
+msgstr "Ouvrir le dossier"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:151
@@ -32383,45 +32408,45 @@ msgstr "Zoomer pour ajuster"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:272
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Next >"
 msgid "Next Tab"
-msgstr "Suivant >"
+msgstr "Onglet suivant"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:277
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Previous Year"
 msgid "Previous Tab"
-msgstr "Année précédente"
+msgstr "Onglet précédent"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:282
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Objects in Image"
 msgid "Next Blink Image"
-msgstr "Objets dans une image"
+msgstr "Image clignotante suivante"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:287
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Preview image"
 msgid "Previous Blink Image"
-msgstr "Aperçu de l'image"
+msgstr "Image clignotante précédente"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:292
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Zoom in"
 msgid "Zoom all tabs in"
-msgstr "Zoom avant"
+msgstr "Zoom avant de tous les onglets"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:297
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Zoom out"
 msgid "Zoom all tabs out"
-msgstr "Zoom arrière"
+msgstr "Zoom arrière de tous ls onglets"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:302 fitsviewer/fitsviewer.cpp:1560
@@ -32509,12 +32534,12 @@ msgstr "Superposition HiPS"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:866
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@title:window"
 #| msgid "Select Jobs Directory"
 msgctxt "@title:window"
 msgid "Blink Top Directory"
-msgstr "Sélectionner le dossier des tâches"
+msgstr "Faire clignoter le dossier racine"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:994
@@ -32709,7 +32734,7 @@ msgstr "Rend la fenêtre d'affichage FITS indépendante de la fenêtre principal
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk5
 #: fitsviewer/opsfits.ui:134
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "HiPS Opacity:"
 msgid "HiPS opacity:"
 msgstr "Opacité de la superposition HiPS"
@@ -32717,7 +32742,7 @@ msgstr "Opacité de la superposition HiPS"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk5
 #: fitsviewer/opsfits.ui:141
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "HiPS Offset:"
 msgid "HiPS offset:"
 msgstr "Décalage de la superposition HiPS"
@@ -32988,7 +33013,7 @@ msgstr "Activer le découpage pour StellarSolver. Découpe l'image en plusieurs 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_StellarSolverPartition)
 #. +> trunk5
 #: fitsviewer/opsfits.ui:482
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "StellarSolver Partitioning"
 msgid "StellarSolver partitioning"
 msgstr "Découpage de StellarSolver"
@@ -33257,10 +33282,10 @@ msgstr "Zoome l'affichage sur les positions présélectionnées."
 
 #. +> trunk5
 #: fitsviewer/starprofileviewer.cpp:182
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "ZoomTo:"
 msgid "ZoomTo"
-msgstr "Zoomer vers :"
+msgstr "Zoomer vers "
 
 #. +> trunk5
 #: fitsviewer/starprofileviewer.cpp:183
@@ -33612,50 +33637,50 @@ msgstr "Impossible de trouver « dcraw » et « cjpeg ». Veuillez installer
 #. i18n: ectx: property (windowTitle), widget (QDialog, collimationOptions)
 #. +> trunk5
 #: indi/collimationOptions.ui:20
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Constellation Name Options"
 msgid "Collimation Overlay Options"
-msgstr "Options des noms de constellations"
+msgstr "Options de collimation de la superposition"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, addB)
 #. +> trunk5
 #: indi/collimationOptions.ui:55
 #, kde-format
 msgid "Create a new Collimation Overlay Element"
-msgstr ""
+msgstr "Créer un nouvel élément de superposition de la collimation"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, removeB)
 #. +> trunk5
 #: indi/collimationOptions.ui:78
 #, kde-format
 msgid "Delete the selected Collimation Overlay Element"
-msgstr ""
+msgstr "Supprimer l'élément de superposition de la collimation sélectionné"
 
 #. i18n: ectx: property (toolTip), widget (QListWidget, elementNamesList)
 #. +> trunk5
 #: indi/collimationOptions.ui:123
 #, kde-format
 msgid "Collimation Overlay Element name (double click to edit)"
-msgstr ""
+msgstr "Nom de l'élément de superposition de la collimation (double-cliquer pour modifier)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, elementConfigBox)
 #. +> trunk5
 #: indi/collimationOptions.ui:143
 #, kde-format
 msgid "Collimation Overlay Element"
-msgstr ""
+msgstr "Élément de superposition de la collimation"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, enableLabel)
 #. +> trunk5
 #: indi/collimationOptions.ui:164
 #, kde-format
 msgid "Select whether this Element is enabled or not"
-msgstr ""
+msgstr "Indiquer si cet élément est activé ou non"
 
 #. i18n: ectx: property (text), widget (QLabel, enableLabel)
 #. +> trunk5
 #: indi/collimationOptions.ui:167
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Enable"
 msgid "Enable:"
 msgstr "Activer"
@@ -33663,31 +33688,31 @@ msgstr "Activer"
 #. i18n: ectx: property (text), widget (QPushButton, renameB)
 #. +> trunk5
 #: indi/collimationOptions.ui:192
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Filename"
 msgid "Rename"
-msgstr "Nom du fichier"
+msgstr "Renommer"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, nameLabel)
 #. +> trunk5
 #: indi/collimationOptions.ui:211
 #, kde-format
 msgid "Enter a name for this Collimation Overlay Element. If left empty a name will be generated based on the Type selected."
-msgstr ""
+msgstr "Indiquez un nom pour cet élément de superposition de la collimation. Si vide, un nom sera généré fondé sur le type sélectionné."
 
 #. i18n: ectx: property (toolTip), widget (QLabel, colourLabel)
 #. +> trunk5
 #: indi/collimationOptions.ui:231
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Select color for the FOV symbol"
 msgid "Select color for the Element"
-msgstr "Sélectionner la couleur de l'indicateur de champ de vision"
+msgstr "Sélectionner la couleur pour cet élément"
 
 #. i18n: ectx: property (text), widget (QLabel, offsetYLabel)
 #. i18n: ectx: property (text), widget (QLabel, sizeYLabel)
 #. +> trunk5
 #: indi/collimationOptions.ui:263 indi/collimationOptions.ui:399
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Y"
 msgid "Y"
@@ -33696,83 +33721,83 @@ msgstr "Y"
 #. i18n: ectx: property (whatsThis), widget (KColorButton, colourButton)
 #. +> trunk5
 #: indi/collimationOptions.ui:293
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "The color for the constellation names."
 msgid "Select a color for the Collimation Overlay Element."
-msgstr "La couleur employée pour les noms de constellations."
+msgstr "Choisissez une couleur pour l'élément de superposition de la collimation."
 
 #. i18n: ectx: property (toolTip), widget (QLabel, thicknessLabel)
 #. +> trunk5
 #: indi/collimationOptions.ui:310
 #, kde-format
 msgid "Set the line thickness used to draw the element."
-msgstr ""
+msgstr "Réglez l'épaisseur de la line utilisée pour dessiner l'élément."
 
 #. i18n: ectx: property (text), widget (QLabel, thicknessLabel)
 #. +> trunk5
 #: indi/collimationOptions.ui:313
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Whiteness"
 msgid "Thickness:"
-msgstr "Blancheur"
+msgstr "Épaisseur"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, offsetLabel)
 #. +> trunk5
 #: indi/collimationOptions.ui:329
 #, kde-format
 msgid "Set the Element's offset from its Anchor. For an Anchor Element this is from the center of the image."
-msgstr ""
+msgstr "Indiquez le décalage de l'élément par rapport à son ancre (à partir du centre de l'image)."
 
 #. i18n: ectx: property (toolTip), widget (QLabel, sizeLabel)
 #. +> trunk5
 #: indi/collimationOptions.ui:339
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Set the width of the xplanet image"
 msgid "Set the size of the Element"
-msgstr "Définir la largeur d'image de XPlanet"
+msgstr "Définir la taille de l'élément"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, linkXYB)
 #. +> trunk5
 #: indi/collimationOptions.ui:389
 #, kde-format
 msgid "Link X & Y sizes"
-msgstr ""
+msgstr "Lier les tailles X et Y"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, typeLabel)
 #. +> trunk5
 #: indi/collimationOptions.ui:424
 #, kde-format
 msgid "Select the type of Collimation Overlay Element"
-msgstr ""
+msgstr "Définir le type de l'élément de superposition de la collimation"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, countLabel)
 #. +> trunk5
 #: indi/collimationOptions.ui:437
 #, kde-format
 msgid "Select number of occurrences of the object type within this element"
-msgstr ""
+msgstr "Définir le nombre d'occurrences de ce type d'objet à l'intérieur de cet élément."
 
 #. i18n: ectx: property (toolTip), widget (QLabel, rotationLabel)
 #. +> trunk5
 #: indi/collimationOptions.ui:459
 #, kde-format
 msgid "If there is more than one occurrence set the base rotation angle."
-msgstr ""
+msgstr "S'il existe plus d'une occurrence, veuillez régler l'angle de rotation de base."
 
 #. i18n: ectx: property (toolTip), widget (QLabel, pcdLabel)
 #. +> trunk5
 #: indi/collimationOptions.ui:487
 #, kde-format
 msgid "Set the Pitch Circle Diameter where there are multiple occurrences (Count >1)"
-msgstr ""
+msgstr "Définir le diamètre du cercle où il y a plusieurs occurrences (pour un nombre > 1)"
 
 #. i18n: ectx: property (text), widget (QLabel, pcdLabel)
 #. +> trunk5
 #: indi/collimationOptions.ui:490
 #, kde-format
 msgid "PCD:"
-msgstr ""
+msgstr "PCD"
 
 #. +> trunk5
 #: indi/customdrivers.cpp:106
@@ -34611,10 +34636,10 @@ msgstr "Carte du ciel"
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useExternalSkyMap)
 #. +> trunk5
 #: indi/opsindi.ui:349
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "external Sky Map (experimental)"
 msgid "External Sky Map (experimental)"
-msgstr "carte du ciel externe (expérimental)"
+msgstr "Carte du ciel externe (expérimental)"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, indiServerGroup)
 #. +> trunk5
@@ -34671,15 +34696,15 @@ msgstr "Réticule du &télescope"
 #: indi/opsindi.ui:541
 #, kde-format
 msgid "Open INDI window on EKOS startup"
-msgstr ""
+msgstr "Ouvrir la fenêtre INDI au démarrage d'Ekos"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_showINDIwindowInitially)
 #. +> trunk5
 #: indi/opsindi.ui:544
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "INDI window width"
 msgid "INDI window on startup"
-msgstr "Largeur de la fenêtre « INDI »"
+msgstr "Fenêtre INDI au démarrage"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_messageNotificationINDI)
 #. i18n: ectx: whatsthis, entry (messageNotificationINDI), group (indi)
@@ -34721,7 +34746,7 @@ msgstr "Enregistrer le flux durant la durée spécifiée en secondes."
 #. i18n: ectx: property (text), widget (QRadioButton, recordDurationR)
 #. +> trunk5
 #: indi/recordingoptions.ui:40
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Duration"
 msgid "Duration:"
 msgstr "Durée"
@@ -34831,9 +34856,9 @@ msgstr "Enregistrer le flux jusqu'à ce que ce nombre de trames soient acquises.
 #. i18n: ectx: property (text), widget (QRadioButton, recordFramesR)
 #. +> trunk5
 #: indi/recordingoptions.ui:166
-#, fuzzy, kde-format
+#, kde-format
 msgid "Frames:"
-msgstr "Image"
+msgstr "Trames"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, recordUntilStoppedR)
 #. +> trunk5
@@ -34845,7 +34870,7 @@ msgstr "Enregistrer le flux jusqu'à son arrêt manuel"
 #. i18n: ectx: property (text), widget (QRadioButton, recordUntilStoppedR)
 #. +> trunk5
 #: indi/recordingoptions.ui:194
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Until Stopped"
 msgid "Until stopped"
 msgstr "Jusqu'à l'arrêt"
@@ -34916,7 +34941,7 @@ msgstr "Flux vidéo"
 #. i18n: ectx: property (toolTip), widget (QPushButton, recordB)
 #. +> trunk5
 #: indi/streamform.ui:58
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Start recording"
 msgid "Start Recording"
 msgstr "Démarrer l'enregistrement"
@@ -34924,15 +34949,15 @@ msgstr "Démarrer l'enregistrement"
 #. i18n: ectx: property (toolTip), widget (QPushButton, optionsB)
 #. +> trunk5
 #: indi/streamform.ui:86
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Recording Options"
 msgid "Recording Options..."
-msgstr "Options d'enregistrement"
+msgstr "Options d'enregistrement…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, resetFrameB)
 #. +> trunk5
 #: indi/streamform.ui:114
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Reset frame"
 msgid "Reset Frame"
 msgstr "Réinitialiser la trame"
@@ -34940,7 +34965,7 @@ msgstr "Réinitialiser la trame"
 #. i18n: ectx: property (toolTip), widget (QPushButton, debayerB)
 #. +> trunk5
 #: indi/streamform.ui:143
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Toggle debayer"
 msgid "Toggle Debayer"
 msgstr "(Dés)activer le filtre de Bayer"
@@ -34948,18 +34973,18 @@ msgstr "(Dés)activer le filtre de Bayer"
 #. i18n: ectx: property (toolTip), widget (QPushButton, collimationB)
 #. +> trunk5
 #: indi/streamform.ui:165
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Toggle constellation lines"
 msgid "Toggle Collimation Overlay"
-msgstr "(Dés)active les lignes des constellations"
+msgstr "(Dés)active la superposition de la collimation"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, collimationOptionsB)
 #. +> trunk5
 #: indi/streamform.ui:193
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Constellation Name Options"
 msgid "Collimation Overlay Options..."
-msgstr "Options des noms de constellations"
+msgstr "Options de superposition de la collimation…"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, zoomLevelCombo)
 #. +> trunk5
@@ -35007,7 +35032,7 @@ msgstr "Durée des trames vidéo exprimée en secondes."
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk5
 #: indi/streamform.ui:329
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Frame (s)"
 msgid "Frame(s):"
 msgstr "Trame(s)"
@@ -36035,15 +36060,15 @@ msgstr "(Dés)active l'affichage des messages INDI dans la barre d'état."
 #: kstars.kcfg:197
 #, kde-format
 msgid "Show the INDI window on startup?"
-msgstr ""
+msgstr "Faut-il afficher la fenêtre INDI au démarrage ?"
 
 #. i18n: ectx: whatsthis, entry (showINDIwindowInitially), group (indi)
 #. +> trunk5
 #: kstars.kcfg:198
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "INDI window width"
 msgid "Show the INDI window when starting EKOS."
-msgstr "Largeur de la fenêtre « INDI »"
+msgstr "Afficher la fenêtre INDI au démarrage d'Ekos"
 
 #. i18n: ectx: label, entry (SaveFocusImages), group (indi)
 #. +> trunk5
@@ -39775,7 +39800,7 @@ msgstr "Si la déviation de guidage dépasse cette limite avant le démarrage de
 #: kstars.kcfg:1766
 #, kde-format
 msgid "Set global dither frequency to this value when starting a job. Set 0 to use global value."
-msgstr ""
+msgstr "Réglez la fréquence globale de décalage à cette valeur au lancement d'une tâche. Réglez à 0 pour utiliser une valeur globale."
 
 #. i18n: ectx: label, entry (HFRDeviation), group (Capture)
 #. +> trunk5
@@ -39989,10 +40014,10 @@ msgstr "Augmenter la valeur HFR de mise au point automatique de ce gain en pourc
 #. i18n: ectx: whatsthis, entry (HFRCheckAlgorithm), group (Capture)
 #. +> trunk5
 #: kstars.kcfg:1871
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "In-sequence HFR check:"
 msgid "Algorithm for In Sequence HFR Check"
-msgstr "Vérification HFR après "
+msgstr "Algorithme de vérification HFR durant la séquence"
 
 #. i18n: ectx: label, entry (InSequenceCheckFrames), group (Capture)
 #. +> trunk5
@@ -40083,7 +40108,7 @@ msgstr "Couvrir ou découvrir le temps maximum pour les échanges avec le téles
 #: kstars.kcfg:1926
 #, kde-format
 msgid "Minimal duration of a meridian flip."
-msgstr ""
+msgstr "Durée minimale d'un retournement au méridien."
 
 #. i18n: ectx: label, entry (CapturePosition), group (Capture)
 #. +> trunk5
@@ -40097,56 +40122,56 @@ msgstr "Calculer une position après les acquisitions."
 #: kstars.kcfg:1934
 #, kde-format
 msgid "Camera frame types when using stand-alone esq editor."
-msgstr ""
+msgstr "Types de trame de l'appareil lors de l'utilisation du modificateur esq."
 
 #. i18n: ectx: label, entry (CaptureStandAloneFormats), group (Capture)
 #. +> trunk5
 #: kstars.kcfg:1938
 #, kde-format
 msgid "Camera frame formats when using stand-alone esq editor."
-msgstr ""
+msgstr "Formats de trame de l'appareil lors de l'utilisation du modificateur esq."
 
 #. i18n: ectx: label, entry (CaptureStandAloneEncodings), group (Capture)
 #. +> trunk5
 #: kstars.kcfg:1942
 #, kde-format
 msgid "Camera frame encodings when using stand-alone esq editor."
-msgstr ""
+msgstr "Encodage de trame de l'appareil lors de l'utilisation du modificateur esq."
 
 #. i18n: ectx: label, entry (CaptureStandAloneISOs), group (Capture)
 #. +> trunk5
 #: kstars.kcfg:1946
 #, kde-format
 msgid "Camera ISOs when using stand-alone esq editor."
-msgstr ""
+msgstr "ISO de l'appareil lors de l'utilisation du modificateur esq."
 
 #. i18n: ectx: label, entry (CaptureStandAloneISOIndex), group (Capture)
 #. +> trunk5
 #: kstars.kcfg:1950
 #, kde-format
 msgid "Camera ISO choice when using stand-alone esq editor."
-msgstr ""
+msgstr "Choix ISO de l'appareil lors de l'utilisation du modificateur esq."
 
 #. i18n: ectx: label, entry (CaptureStandAloneFilters), group (Capture)
 #. +> trunk5
 #: kstars.kcfg:1954
 #, kde-format
 msgid "Filter names when using stand-alone esq editor."
-msgstr ""
+msgstr "Noms du filtre lors de l'utilisation du modificateur esq."
 
 #. i18n: ectx: label, entry (CaptureStandAloneWHGO), group (Capture)
 #. +> trunk5
 #: kstars.kcfg:1958
 #, kde-format
 msgid "Width,Height of sensor size remembered for stand-alone esq editor, and Gain/Offset keywords."
-msgstr ""
+msgstr "Largeur et hauteur du capteur enregistrés pour le modificateur esq, ainsi que les mots-clé du gain et du décalage."
 
 #. i18n: ectx: label, entry (CaptureStandAloneTimestamp), group (Capture)
 #. +> trunk5
 #: kstars.kcfg:1962
 #, kde-format
 msgid "Local time that the CaptureStandAlone options were set."
-msgstr ""
+msgstr "Heure locale des options d'acquisition."
 
 #. i18n: ectx: whatsthis, entry (AbsTicksSpin), group (Focus)
 #. +> trunk5
@@ -40256,24 +40281,24 @@ msgstr "Mesurer la valeur moyenne du HFR de toutes les étoiles combinées dans 
 #. i18n: ectx: label, entry (FocusNoMaskRB), group (Focus)
 #. +> trunk5
 #: kstars.kcfg:2013
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Job #%1 changes applied."
 msgid "No mask is applied."
-msgstr "Les modifications ont été appliquées pour la tâche #%1."
+msgstr "Aucun masque appliqué"
 
 #. i18n: ectx: label, entry (focusRingMaskRB), group (Focus)
 #. +> trunk5
 #: kstars.kcfg:2017
 #, kde-format
 msgid "A ring mask is applied."
-msgstr ""
+msgstr "Un masque anneau est appliqué"
 
 #. i18n: ectx: label, entry (focusMosaicMaskRB), group (Focus)
 #. +> trunk5
 #: kstars.kcfg:2021
 #, kde-format
 msgid "A mosaic mask is applied."
-msgstr ""
+msgstr "Un masque de mosaïque est appliqué."
 
 #. i18n: ectx: label, entry (FocusFullFieldInnerRadius), group (Focus)
 #. +> trunk5
@@ -40469,14 +40494,14 @@ msgstr "Pourcentage relatif de l'intensité du pixel du bord du centroïde par r
 #: kstars.kcfg:2127
 #, kde-format
 msgid "Whether to use Donut Busting functionality during Autofocus."
-msgstr ""
+msgstr "S'il faut utiliser la fonctionnalité de Donut Busting pour la mise au point automatique."
 
 #. i18n: ectx: label, entry (FocusTimeDilation), group (Focus)
 #. +> trunk5
 #: kstars.kcfg:2131
 #, kde-format
 msgid "Factor to multiply focus exposure by for out of focus frames when using Donut Buster."
-msgstr ""
+msgstr "Facteur de multiplication pour la durée d'exposition pour les trames hors mise au point lors de l'utilisation du Donut Busting."
 
 #. i18n: ectx: label, entry (FocusGaussianKernelSize), group (Focus)
 #. +> trunk5
@@ -41876,14 +41901,14 @@ msgstr "Case à cocher par défaut de l'ordonnanceur pour le démarrage du suivi
 #: kstars.kcfg:3024
 #, kde-format
 msgid "Execute this script when starting the scheduler."
-msgstr ""
+msgstr "Exécuter ce script au démarrage de l'ordonnanceur."
 
 #. i18n: ectx: label, entry (SchedulerShutdownScript), group (Scheduler)
 #. +> trunk5
 #: kstars.kcfg:3027
 #, kde-format
 msgid "Execute this script when shutting down the scheduler."
-msgstr ""
+msgstr "Exécuter ce script à l'arrêt de l'ordonnanceur."
 
 #. i18n: ectx: label, entry (SchedulerFocusStep), group (Scheduler)
 #. +> trunk5
@@ -41958,10 +41983,10 @@ msgstr "Case à cocher par défaut de l'ordonnanceur sur les contraintes du cré
 #. i18n: ectx: label, entry (SchedulerCompleteSequences), group (Scheduler)
 #. +> trunk5
 #: kstars.kcfg:3070
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "The observation job is completed when the sequence is complete."
 msgid "Scheduler is complete once all sequences are complete."
-msgstr "La tâche d'observation est terminée avec la fin de la séquence."
+msgstr "L'ordonnanceur est terminé une fois que toutes les séquences sont terminées."
 
 #. i18n: ectx: label, entry (SchedulerRepeatSequences), group (Scheduler)
 #. +> trunk5
@@ -41973,25 +41998,25 @@ msgstr "Redémarrer les séquences dès que toutes les séquences sont terminée
 #. i18n: ectx: label, entry (SchedulerUntilTerminated), group (Scheduler)
 #. +> trunk5
 #: kstars.kcfg:3078
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Record stream until manually stopped"
 msgid "Restart sequences until manually terminated."
-msgstr "Enregistrer le flux jusqu'à son arrêt manuel"
+msgstr "Redémarrer les séquences jusqu'à ce qu'elles soient manuellement terminées."
 
 #. i18n: ectx: label, entry (SchedulerUntil), group (Scheduler)
 #. +> trunk5
 #: kstars.kcfg:3082
 #, kde-format
 msgid "Loop sequences until specific time is up."
-msgstr ""
+msgstr "Lancer les séquences en boucles jusqu'à ce que le temps indiqué est atteint."
 
 #. i18n: ectx: label, entry (SchedulerUntilValue), group (Scheduler)
 #. +> trunk5
 #: kstars.kcfg:3086
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Limit how many times the scheduler should execute all sequences."
 msgid "Time when scheduler should stop repeating sequences."
-msgstr "Limiter le nombre d'exécution de toutes les séquences du planificateur."
+msgstr "Heure à laquelle le planificateur devrait arrêter de répéter les séquences."
 
 #. i18n: ectx: label, entry (SchedulerExecutionSequencesLimit), group (Scheduler)
 #. +> trunk5
@@ -76303,10 +76328,10 @@ msgstr "Télécharge de nouvelles données"
 
 #. +> trunk5
 #: kstarsinit.cpp:156
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Open Image..."
 msgid "Open Image(s)..."
-msgstr "Ouvrir une image…"
+msgstr "Ouvrir une(des) image(s)…"
 
 #. +> trunk5
 #: kstarsinit.cpp:165
@@ -84790,7 +84815,7 @@ msgstr "Dimension maximale de l'image superposée. (Les grandes images seront r�
 #. i18n: ectx: property (text), widget (QLabel, imageOverlayMaxDimensionLabel)
 #. +> trunk5
 #: options/opsimageoverlay.ui:95
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Maximum image dimension"
 msgid "Maximum image dimension:"
 msgstr "Dimension maximale de l'image"
@@ -84805,10 +84830,10 @@ msgstr "Ouvrir le dossier des images superposées. Copiez ou déplacez les image
 #. i18n: ectx: property (text), widget (QPushButton, imageOverlayShowDirButton)
 #. +> trunk5
 #: options/opsimageoverlay.ui:146
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Overlay Directory"
 msgid "Overlay Directory..."
-msgstr "Dossier des images de superposition"
+msgstr "Dossier des images de superposition…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, refreshB)
 #. +> trunk5
@@ -84852,10 +84877,10 @@ msgstr "Échelle par défaut en minutes d'arc par pixel à utiliser pour la rés
 #. i18n: ectx: property (text), widget (QLabel, imageOverlayScaleLabel)
 #. +> trunk5
 #: options/opsimageoverlay.ui:274
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Default a-s/px"
 msgid "Default a-s/px:"
-msgstr "Minutes d'arc par pixel par défaut."
+msgstr "Secondes d'arc par pixel par défaut"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, imageOverlayTimeoutLabel)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_ImageOverlayTimeout)
@@ -84868,7 +84893,7 @@ msgstr "Délai (en secondes) pour la résolution de l'image superposée."
 #. i18n: ectx: property (text), widget (QLabel, imageOverlayTimeoutLabel)
 #. +> trunk5
 #: options/opsimageoverlay.ui:315
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Time out:"
 msgid "Timeout:"
 msgstr "Délai limite"
@@ -85448,7 +85473,7 @@ msgstr "Définir la limite de magnitude concernant les alertes des supernovas"
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk5
 #: options/opssupernovae.ui:113
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Download URL"
 msgid "Download URL:"
 msgstr "URL de téléchargement"
@@ -85456,7 +85481,7 @@ msgstr "URL de téléchargement"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. +> trunk5
 #: options/opssupernovae.ui:120
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Age (days)"
 msgid "Age (days):"
 msgstr "Âge (jours)"
@@ -93190,7 +93215,7 @@ msgstr "Tester le script"
 #. i18n: ectx: property (whatsThis), widget (QPushButton, RunButton)
 #. +> trunk5
 #: tools/scriptbuilder.ui:200
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Executes the script in the KStars main window.  You may want to reposition the Script Builder tool so that the Sky map is visible.  "
 msgid "Executes the script in the KStars main window. You may want to reposition the Script Builder tool so that the Sky map is visible."
 msgstr "Exécute le script dans la fenêtre principale de KStars. Vous pouvez être amené à repositionner l'outil « Constructeur de scripts » pour que la carte du ciel soit visible."
@@ -93205,7 +93230,7 @@ msgstr "Script actuel"
 #. i18n: ectx: property (whatsThis), widget (QListWidget, ScriptListBox)
 #. +> trunk5
 #: tools/scriptbuilder.ui:279
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "This shows the list of commands present in the current working script.  Highlighting any command will present a widget where you can specify its arguments below.  Use the action buttons at right to copy, remove, or change the position of the selected command.  "
 msgid "This shows the list of commands present in the current working script. Highlighting any command will present a widget where you can specify its arguments below. Use the action buttons at right to copy, remove, or change the position of the selected command."
 msgstr "Cet élément affiche la liste des commandes présentes dans le script en cours d'exécution. Le surlignage de n'importe quelle commande présentera un composant graphique où vous pourrez spécifier ses arguments en dessous. Utilisez les boutons d'action à droite pour copier, supprimer ou changer la position de la commande sélectionnée."
@@ -94846,7 +94871,7 @@ msgstr "Si cette case est cochée, affiche une étiquette dans le coin supérieu
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_XplanetLabel)
 #. +> trunk5
 #: xplanet/opsxplanet.ui:784
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show label"
 msgid "Show label:"
 msgstr "Afficher l'étiquette"
@@ -94903,7 +94928,7 @@ msgstr "Écrire les limites de marqueurs dans"
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_XplanetLatLong)
 #. +> trunk5
 #: xplanet/opsxplanet.ui:884
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Place the observer above latitude "
 msgid "Place the observer above latitude: "
 msgstr "Placer l'observateur au-dessus de la latitude "
@@ -94918,7 +94943,7 @@ msgstr "Rend le corps cible comme observé au-dessus de la latitude spécifiée 
 #. i18n: ectx: property (text), widget (QLabel, textLabelXplanetLongitude)
 #. +> trunk5
 #: xplanet/opsxplanet.ui:910
-#, fuzzy, kde-format
+#, kde-format
 #| msgid " and longitude "
 msgid " and longitude: "
 msgstr " et longitude "
