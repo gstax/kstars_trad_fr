@@ -19,12 +19,11 @@
 # Thomas Vergnaud <thomas.vergnaud@mailo.eu>, 2023.
 # Johnny Jazeix <jazeix@gmail.com>, 2023.
 # Steve <stax@ik.me>, 2022, 2023, 2024.
-
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_3.6.9\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-09 09:12+0100\n"
+"POT-Creation-Date: 2024-02-11 11:28+0100\n"
 "PO-Revision-Date: 2024-02-11 13:01+0100\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -651,8 +650,8 @@ msgstr "Annuler"
 #. +> trunk5
 #: auxiliary/ksmessagebox.h:39 auxiliary/ksnotification.h:42
 #: ekos/analyze/analyze.cpp:139 ekos/analyze/analyze.cpp:141
-#: ekos/capture/sequencejob.cpp:24 ekos/manager.cpp:1094 ekos/manager.cpp:1109
-#: ekos/manager.cpp:1139 ekos/scheduler/scheduler.cpp:1384
+#: ekos/capture/sequencejob.cpp:24 ekos/manager.cpp:1096 ekos/manager.cpp:1111
+#: ekos/manager.cpp:1141 ekos/scheduler/scheduler.cpp:1384
 #: fitsviewer/solveInfo.ui:86 indi/indidome.cpp:22 indi/indidustcap.cpp:18
 #: indi/indimount.cpp:33 kstarsactions.cpp:489 kstarsactions.cpp:497
 #: kstarsactions.cpp:507 skycomponents/imageoverlaycomponent.cpp:523
@@ -2216,12 +2215,12 @@ msgstr "État"
 #. +> trunk5
 #: data/qml/mount/mountbox.qml:1054 ekos/align/polaralignmentassistant.cpp:28
 #: ekos/analyze/analyze.cpp:127 ekos/analyze/analyze.cpp:146
-#: ekos/analyze/analyze.cpp:3041 ekos/auxiliary/buildfilteroffsets.cpp:153
+#: ekos/analyze/analyze.cpp:3061 ekos/auxiliary/buildfilteroffsets.cpp:153
 #: ekos/auxiliary/darklibrary.cpp:46 ekos/auxiliary/ledstatuswidget.cpp:19
 #: ekos/auxiliary/ledstatuswidget.cpp:27 ekos/capture/sequencejob.cpp:24
 #: ekos/ekos.h:20 ekos/ekos.h:71 ekos/ekos.h:118 ekos/ekos.h:138
 #: ekos/ekos.h:161 ekos/ekos.h:198 ekos/guide/guidestatewidget.ui:38
-#: ekos/manager.cpp:598 ekos/manager/guidemanager.cpp:135
+#: ekos/manager.cpp:600 ekos/manager/guidemanager.cpp:135
 #: ekos/manager/guidemanager.ui:117 ekos/scheduler/scheduler.cpp:1377
 #: ekos/scheduler/scheduler.cpp:2040 ekos/scheduler/scheduler.ui:1279
 #: indi/indidome.cpp:20 indi/indidustcap.cpp:17 indi/indimount.cpp:31
@@ -2828,11 +2827,10 @@ msgstr ""
 #. +> trunk5
 #: dialogs/addlinkdialog.cpp:60 ekos/align/align.cpp:3902
 #: ekos/align/mountmodel.cpp:265 ekos/align/mountmodel.cpp:391
-#: ekos/analyze/analyze.cpp:1255 ekos/capture/capture.cpp:2223
-#: ekos/capture/capture.cpp:2311 ekos/guide/guidedriftgraph.cpp:477
-#: ekos/scheduler/scheduler.cpp:1759 ekos/scheduler/scheduler.cpp:1855
-#: fitsviewer/fitstab.cpp:501 tools/scriptbuilder.cpp:832
-#: tools/scriptbuilder.cpp:930
+#: ekos/capture/capture.cpp:2223 ekos/capture/capture.cpp:2311
+#: ekos/guide/guidedriftgraph.cpp:477 ekos/scheduler/scheduler.cpp:1759
+#: ekos/scheduler/scheduler.cpp:1855 fitsviewer/fitstab.cpp:501
+#: tools/scriptbuilder.cpp:832 tools/scriptbuilder.cpp:930
 #, kde-format
 msgid "Invalid URL"
 msgstr "URL mal formée"
@@ -4041,7 +4039,7 @@ msgid "Advanced"
 msgstr "Avancé"
 
 #. +> trunk5
-#: dialogs/detaildialog.cpp:781 ekos/analyze/analyze.cpp:539
+#: dialogs/detaildialog.cpp:781 ekos/analyze/analyze.cpp:541
 #: kstarslite/qml/dialogs/DetailsDialog.qml:55
 #: kstarslite/qml/dialogs/DetailsDialog.qml:453
 #, kde-kuit-format, kde-format
@@ -6628,14 +6626,12 @@ msgstr "Impossible de faire une acquisition pendant qu'une exposition du CCD est
 #. +> trunk5
 #: ekos/align/align.cpp:1508
 #, kde-format
-#| msgid "Cannot capture while rotator is busy. Retrying in %1 seconds..."
 msgid "Cannot capture while rotator is busy: Time delay estimate started..."
 msgstr "Impossible de faire une acquisition pendant que le rotateur est occupé. Temporisation estimée débutée…"
 
 #. +> trunk5
 #: ekos/align/align.cpp:1522
 #, kde-format
-#| msgid "Cannot capture while rotator is busy. Retrying in %1 seconds..."
 msgid "Cannot capture while rotator is busy: Retrying in %1 seconds..."
 msgstr "Impossible de faire une acquisition pendant que le rotateur est occupé. Nouvel essai dans %1 secondes…"
 
@@ -6811,10 +6807,10 @@ msgid "Solver aborted after %1 seconds."
 msgstr "La résolution a été annulée après %1 secondes."
 
 #. +> trunk5
-#: ekos/align/align.cpp:2569 ekos/capture/capture.cpp:1758
-#: ekos/focus/focus.cpp:4030 ekos/guide/guide.cpp:1143 ekos/manager.cpp:1929
-#: ekos/mount/mount.cpp:829 ekos/observatory/observatory.cpp:952
-#: ekos/scheduler/scheduler.cpp:562
+#: ekos/align/align.cpp:2569 ekos/analyze/analyze.cpp:3716
+#: ekos/capture/capture.cpp:1758 ekos/focus/focus.cpp:4030
+#: ekos/guide/guide.cpp:1143 ekos/manager.cpp:1933 ekos/mount/mount.cpp:829
+#: ekos/observatory/observatory.cpp:952 ekos/scheduler/scheduler.cpp:562
 #, kde-format
 msgctxt "log entry; %1 is the date, %2 is the text"
 msgid "%1 %2"
@@ -7250,7 +7246,6 @@ msgstr "Stabilisation"
 #. +> trunk5
 #: ekos/align/align.ui:338
 #, kde-format
-#| msgid "Accuracy"
 msgid "Accuracy:"
 msgstr "Précision"
 
@@ -7410,7 +7405,6 @@ msgstr "Regroupement"
 #. +> trunk5
 #: ekos/align/align.ui:584 ekos/focus/focus.ui:673 ekos/guide/guide.ui:166
 #, kde-format
-#| msgid "Show in FITS Viewer"
 msgid "Show in FITS Viewer..."
 msgstr "Afficher dans l'afficheur FITS…"
 
@@ -7525,7 +7519,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/align/align.ui:746
 #, kde-format
-#| msgid "use current"
 msgid "Use current"
 msgstr "Utiliser actuel"
 
@@ -9127,7 +9120,7 @@ msgstr "Ajoute un dossier où seront enregistrés les fichiers d'index"
 #. i18n: ectx: property (text), widget (QCheckBox, eastRAGuideEnabled)
 #. i18n: ectx: property (text), widget (QCheckBox, northDECGuideEnabled)
 #. +> trunk5
-#: ekos/align/opsastrometryindexfiles.ui:256 ekos/analyze/analyze.ui:199
+#: ekos/align/opsastrometryindexfiles.ui:256 ekos/analyze/analyze.ui:215
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:213
 #: ekos/capture/exposurecalculator/exposurecalculatordialog.ui:565
 #: ekos/guide/guide.ui:304 ekos/guide/guide.ui:456
@@ -9149,7 +9142,7 @@ msgstr "Supprimer un emplacement de fichiers d'index"
 #. i18n: ectx: property (text), widget (QCheckBox, westRAGuideEnabled)
 #. i18n: ectx: property (text), widget (QCheckBox, southDECGuideEnabled)
 #. +> trunk5
-#: ekos/align/opsastrometryindexfiles.ui:266 ekos/analyze/analyze.ui:247
+#: ekos/align/opsastrometryindexfiles.ui:266 ekos/analyze/analyze.ui:263
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:235 ekos/guide/guide.ui:314
 #: ekos/guide/guide.ui:466 kstarslite/qml/indi/modules/MotionControl.qml:264
 #, kde-kuit-format, kde-format
@@ -10810,7 +10803,7 @@ msgstr "Erreur estimée d'alignement d'azimut polaire après les derniers ajuste
 #. +> trunk5
 #: ekos/align/polaralignmentassistant.ui:806
 #: ekos/align/polaralignmentassistant.ui:809 ekos/auxiliary/darklibrary.ui:575
-#: ekos/manager.cpp:143 ekos/manager.cpp:232 ekos/manager.cpp:606
+#: ekos/manager.cpp:143 ekos/manager.cpp:232 ekos/manager.cpp:608
 #: ekos/observatory/observatorydomemodel.cpp:132
 #: ekos/observatory/observatorydomemodel.cpp:135
 #: kstarslite/qml/indi/INDIControlPanel.qml:166
@@ -10827,7 +10820,7 @@ msgstr "Démarrer"
 #. i18n: ectx: attribute (title), widget (QWidget, captureTab)
 #. +> trunk5
 #: ekos/align/polaralignwidget.ui:37 ekos/align/polaralignwidget.ui:157
-#: ekos/align/polaralignwidget.ui:277 ekos/analyze/analyze.cpp:2058
+#: ekos/align/polaralignwidget.ui:277 ekos/analyze/analyze.cpp:2078
 #: ekos/auxiliary/opslogs.ui:285 ekos/capture/capturepreviewwidget.ui:79
 #: ekos/guide/guide.ui:137 ekos/opsekos.ui:551
 #, kde-format
@@ -10950,19 +10943,19 @@ msgid "Tracking"
 msgstr "En cours de suivi"
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:512 ekos/analyze/analyze.cpp:524
+#: ekos/analyze/analyze.cpp:514 ekos/analyze/analyze.cpp:526
 #, kde-format
 msgid "Current Session"
 msgstr "Session actuelle"
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:513
+#: ekos/analyze/analyze.cpp:515
 #, kde-format
 msgid "Read from File"
 msgstr "Lire depuis le fichier"
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:514
+#: ekos/analyze/analyze.cpp:516
 #, kde-format
 msgid "Set alternative image-file base directory"
 msgstr "Dossier racine alternatif pour les fichiers d'images"
@@ -10971,37 +10964,44 @@ msgstr "Dossier racine alternatif pour les fichiers d'images"
 #. translates "analyze" to "analyse" for the English UK locale, but we need to keep it ".analyze"
 #. because that's what how the files are named.
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:538
+#: ekos/analyze/analyze.cpp:540
 #, kde-format
 msgctxt "@title:window"
 msgid "Select input file"
 msgstr "Sélectionner un fichier d'entrée"
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:539
+#: ekos/analyze/analyze.cpp:541
 #, kde-format
 msgid "All Files (*)"
 msgstr "Tous les fichiers (*)"
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:559
+#: ekos/analyze/analyze.cpp:561
 #, kde-format
 msgid "Set an alternate base directory for your captured images"
 msgstr "Définir un dossier racine alternatif pour vos images"
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:1254
+#: ekos/analyze/analyze.cpp:1260
 #, kde-format
 msgid "Could not find image file: %1"
 msgstr "Impossible de trouver le fichier image : %1"
+
+#. +> trunk5
+#: ekos/analyze/analyze.cpp:1263
+#, fuzzy, kde-format
+#| msgid "Cannot load to memory: %1"
+msgid "Cannot display temporary image file: %1"
+msgstr "Changement en mémoire impossible : %1"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FocusLogging)
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #. i18n: ectx: property (text), widget (QCheckBox, focusStepCheck)
 #. i18n: ectx: property (text), widget (QCheckBox, schedulerFocusStep)
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:2059 ekos/auxiliary/opslogs.ui:377
-#: ekos/manager.cpp:2058 ekos/manager/focusmanager.ui:101
+#: ekos/analyze/analyze.cpp:2079 ekos/auxiliary/opslogs.ui:377
+#: ekos/manager.cpp:2064 ekos/manager/focusmanager.ui:101
 #: ekos/scheduler/framingassistant.ui:1490 ekos/scheduler/scheduler.ui:442
 #: fitsviewer/fitscommon.h:15 fitsviewer/fitsviewer.cpp:467
 #, kde-format
@@ -11011,7 +11011,7 @@ msgstr "Mise au point"
 #. i18n: ectx: property (text), widget (QCheckBox, alignStepCheck)
 #. i18n: ectx: property (text), widget (QCheckBox, schedulerAlignStep)
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:2060 ekos/manager.cpp:2032
+#: ekos/analyze/analyze.cpp:2080 ekos/manager.cpp:2038
 #: ekos/scheduler/framingassistant.ui:1262 ekos/scheduler/scheduler.ui:395
 #: fitsviewer/fitscommon.h:16 fitsviewer/fitsviewer.cpp:475
 #, kde-format
@@ -11023,8 +11023,8 @@ msgstr "Alignement"
 #. i18n: ectx: property (text), widget (QCheckBox, guideStepCheck)
 #. i18n: ectx: property (text), widget (QCheckBox, schedulerGuideStep)
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:2061 ekos/auxiliary/opslogs.ui:120
-#: ekos/guide/guide.cpp:58 ekos/guide/guide.ui:263 ekos/manager.cpp:2217
+#: ekos/analyze/analyze.cpp:2081 ekos/auxiliary/opslogs.ui:120
+#: ekos/guide/guide.cpp:58 ekos/guide/guide.ui:263 ekos/manager.cpp:2223
 #: ekos/scheduler/framingassistant.ui:1226 ekos/scheduler/scheduler.ui:417
 #: fitsviewer/fitscommon.h:15 fitsviewer/fitsviewer.cpp:471
 #, kde-format
@@ -11032,7 +11032,7 @@ msgid "Guide"
 msgstr "Guidage"
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:2062
+#: ekos/analyze/analyze.cpp:2082
 #, kde-format
 msgid "Flip"
 msgstr "Retourner"
@@ -11041,33 +11041,33 @@ msgstr "Retourner"
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_MountLogging)
 #. i18n: ectx: property (text), widget (QLabel, mountLabel)
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:2063 ekos/auxiliary/opslogs.ui:77
-#: ekos/auxiliary/opslogs.ui:420 ekos/manager.cpp:2142 ekos/manager.ui:665
+#: ekos/analyze/analyze.cpp:2083 ekos/auxiliary/opslogs.ui:77
+#: ekos/auxiliary/opslogs.ui:420 ekos/manager.cpp:2148 ekos/manager.ui:665
 #, kde-format
 msgid "Mount"
 msgstr "Monture"
 
 #. i18n: ectx: property (text), widget (QLabel, jobLabel)
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:2064 ekos/capture/capturecountswidget.ui:473
+#: ekos/analyze/analyze.cpp:2084 ekos/capture/capturecountswidget.ui:473
 #, kde-format
 msgid "Job"
 msgstr "Tâche"
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:2322
+#: ekos/analyze/analyze.cpp:2342
 #, kde-format
 msgid "The \"Auto Compute HFR\" option in the KStars FITS options menu is not set. You won't get HFR values without it. Once you set it, newly captured images will have their HFRs computed."
 msgstr "L'option Calcul automatique du HFR dans le menu des options FITS de KStars n'est pas définie. Vous n'obtiendrez pas de valeurs HFR sans elle. Une fois que vous la sélectionnez, les images nouvellement acquises auront leurs HFR calculés."
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:2338
+#: ekos/analyze/analyze.cpp:2358
 #, kde-format
 msgid "The \"Auto Compute HFR\" option in the KStars FITS options menu is not set. You won't get # stars in capture image values without it. Once you set it, newly captured images will have their stars detected."
 msgstr "L'option « Calcul automatique du HFR » dans le menu des options FITS de KStars n'est pas paramétrée. Vous n'obtiendrez pas # de valeur dans l'image acquise. Une fois paramétrées, les images nouvellement acquises verront leurs étoiles détectées."
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:3043 ekos/auxiliary/ledstatuswidget.cpp:78
+#: ekos/analyze/analyze.cpp:3063 ekos/auxiliary/ledstatuswidget.cpp:78
 #: ekos/capture/sequencejob.cpp:24 ekos/ekos.h:21 ekos/ekos.h:72
 #: ekos/ekos.h:119 ekos/ekos.h:139 ekos/ekos.h:199
 #: ekos/scheduler/scheduler.cpp:1383
@@ -11076,114 +11076,114 @@ msgid "Aborted"
 msgstr "Interrompu"
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:3045 ekos/ekos.h:22
+#: ekos/analyze/analyze.cpp:3065 ekos/ekos.h:22
 #, kde-format
 msgid "Connected"
 msgstr "Connecté"
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:3047 ekos/ekos.h:23
+#: ekos/analyze/analyze.cpp:3067 ekos/ekos.h:23
 #, kde-format
 msgid "Disconnected"
 msgstr "Déconnecté"
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:3049 ekos/auxiliary/ledstatuswidget.cpp:68
+#: ekos/analyze/analyze.cpp:3069 ekos/auxiliary/ledstatuswidget.cpp:68
 #: ekos/ekos.h:24 ekos/ekos.h:71 ekos/scheduler/scheduler.cpp:2054
 #, kde-format
 msgid "Capturing"
 msgstr "Acquisition en cours"
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:3051 ekos/ekos.h:25
+#: ekos/analyze/analyze.cpp:3071 ekos/ekos.h:25
 #, kde-format
 msgid "Looping"
 msgstr "En boucle"
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:3053 ekos/ekos.h:26
+#: ekos/analyze/analyze.cpp:3073 ekos/ekos.h:26
 #, kde-format
 msgid "Subtracting"
 msgstr "Soustraction"
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:3055 ekos/ekos.h:27
+#: ekos/analyze/analyze.cpp:3075 ekos/ekos.h:27
 #, kde-format
 msgid "Subframing"
 msgstr "Sous-trame"
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:3057 ekos/ekos.h:28
+#: ekos/analyze/analyze.cpp:3077 ekos/ekos.h:28
 #, kde-format
 msgid "Selecting star"
 msgstr "Sélection d'une étoile"
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:3059 ekos/ekos.h:29 ekos/ekos.h:74
+#: ekos/analyze/analyze.cpp:3079 ekos/ekos.h:29 ekos/ekos.h:74
 #, kde-format
 msgid "Calibrating"
 msgstr "Calibrage en cours"
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:3061 ekos/ekos.h:30
+#: ekos/analyze/analyze.cpp:3081 ekos/ekos.h:30
 #, kde-format
 msgid "Calibration error"
 msgstr "Erreur de calibration"
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:3063 ekos/ekos.h:31
+#: ekos/analyze/analyze.cpp:3083 ekos/ekos.h:31
 #, kde-format
 msgid "Calibrated"
 msgstr "Calibré"
 
 #. i18n("Calibrating");
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:3065 ekos/ekos.h:32
+#: ekos/analyze/analyze.cpp:3085 ekos/ekos.h:32
 #: ekos/scheduler/scheduler.cpp:2052
 #, kde-format
 msgid "Guiding"
 msgstr "Guidage"
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:3067 ekos/auxiliary/ledstatuswidget.cpp:33
+#: ekos/analyze/analyze.cpp:3087 ekos/auxiliary/ledstatuswidget.cpp:33
 #: ekos/ekos.h:33 ekos/ekos.h:72 ekos/ekos.h:141
 #, kde-format
 msgid "Suspended"
 msgstr "Suspendu"
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:3069 ekos/ekos.h:34
+#: ekos/analyze/analyze.cpp:3089 ekos/ekos.h:34
 #, kde-format
 msgid "Reacquiring"
 msgstr "Nouvelle acquisition en cours"
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:3071 ekos/ekos.h:35 ekos/ekos.h:73
+#: ekos/analyze/analyze.cpp:3091 ekos/ekos.h:35 ekos/ekos.h:73
 #, kde-format
 msgid "Dithering"
 msgstr "Décalage"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, ManualDither)
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:3073 ekos/ekos.h:36 ekos/guide/manualdither.ui:14
+#: ekos/analyze/analyze.cpp:3093 ekos/ekos.h:36 ekos/guide/manualdither.ui:14
 #, kde-format
 msgid "Manual Dithering"
 msgstr "Décalage manuel"
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:3075 ekos/ekos.h:37
+#: ekos/analyze/analyze.cpp:3095 ekos/ekos.h:37
 #, kde-format
 msgid "Dithering error"
 msgstr "Erreur de décalage"
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:3077 ekos/ekos.h:38
+#: ekos/analyze/analyze.cpp:3097 ekos/ekos.h:38
 #, kde-format
 msgid "Dithering successful"
 msgstr "Décalage réussi"
 
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:3079 ekos/ekos.h:39
+#: ekos/analyze/analyze.cpp:3099 ekos/ekos.h:39
 #, kde-format
 msgid "Settling"
 msgstr "Stabilisation"
@@ -11274,9 +11274,37 @@ msgstr "Aide…"
 msgid "Statistics"
 msgstr "Statistiques"
 
+#. i18n: ectx: property (toolTip), widget (QPushButton, prevSessionB)
+#. +> trunk5
+#: ekos/analyze/analyze.ui:202
+#, fuzzy, kde-format
+#| msgid ""
+#| "<html><head/><body>"
+#| "<p>Select the input for the plots. This can be the current Ekos session, or it can be read from a file.</p>"
+#| "</body></html>"
+msgid ""
+"<html><head/><body>"
+"<p>Move from the selected session to its previous session (on its left). Keyboard: control-left.</p>"
+"</body></html>"
+msgstr ""
+"<html><head/><body>"
+"<p>Sélectionner l'entrée pour les tracés. Cela peut être la session courante Ekos ou être lu à partir d'un fichier.</p>"
+"</body></html>"
+
+#. i18n: ectx: property (text), widget (QPushButton, prevSessionB)
+#. i18n: ectx: property (text), widget (QPushButton, focusDetailPrevButton)
+#. i18n: ectx: property (text), widget (QPushButton, guideDetailPrevButton)
+#. i18n: ectx: property (text), widget (QPushButton, previousButton)
+#. +> trunk5
+#: ekos/analyze/analyze.ui:205 ekos/manager/focusmanager.ui:267
+#: ekos/manager/guidemanager.ui:415 printing/foveditordialog.ui:115
+#, kde-format
+msgid "<"
+msgstr "<"
+
 #. i18n: ectx: property (toolTip), widget (QPushButton, zoomInB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:196
+#: ekos/analyze/analyze.ui:212
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11289,7 +11317,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, cursorTimeOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:212
+#: ekos/analyze/analyze.ui:228
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11302,7 +11330,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, cursorClockTimeOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:231
+#: ekos/analyze/analyze.ui:247
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11315,7 +11343,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, zoomOutB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:244
+#: ekos/analyze/analyze.ui:260
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11326,9 +11354,37 @@ msgstr ""
 "<p>Faire un zoom arrière suivant l'axe des X sur les tracés de la frise chronologique et des statistiques. Affichera donc une période de temps plus grande.</p>"
 "</body></html>"
 
+#. i18n: ectx: property (toolTip), widget (QPushButton, nextSessionB)
+#. +> trunk5
+#: ekos/analyze/analyze.ui:276
+#, fuzzy, kde-format
+#| msgid ""
+#| "<html><head/><body>"
+#| "<p>Current data of the weather sensors. Click on the sensor name to display its data over time.</p>"
+#| "</body></html>"
+msgid ""
+"<html><head/><body>"
+"<p>Move from the selected session to its next session (on its right). Keyboard: control-right.</p>"
+"</body></html>"
+msgstr ""
+"<html><head/><body>"
+"<p>Données courantes concernant les capteurs de météo. Veuillez cliquer sur le nom d'un capteur pour l'affichage de ses données en temps réel.</p>"
+"</body></html>"
+
+#. i18n: ectx: property (text), widget (QPushButton, nextSessionB)
+#. i18n: ectx: property (text), widget (QPushButton, focusDetailNextButton)
+#. i18n: ectx: property (text), widget (QPushButton, guideDetailNextButton)
+#. i18n: ectx: property (text), widget (QPushButton, nextButton)
+#. +> trunk5
+#: ekos/analyze/analyze.ui:279 ekos/manager/focusmanager.ui:339
+#: ekos/manager/guidemanager.ui:503 printing/foveditordialog.ui:122
+#, kde-format
+msgid ">"
+msgstr ">"
+
 #. i18n: ectx: property (toolTip), widget (QScrollBar, analyzeSB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:296
+#: ekos/analyze/analyze.ui:328
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11341,9 +11397,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label2)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:338
+#: ekos/analyze/analyze.ui:370
 #, kde-format
-#| msgid "Guide: "
 msgid "Guide:"
 msgstr "Guide"
 
@@ -11351,7 +11406,7 @@ msgstr "Guide"
 #. i18n: ectx: property (text), widget (QLabel, mountLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:356 ekos/auxiliary/opticaltrains.ui:163
+#: ekos/analyze/analyze.ui:388 ekos/auxiliary/opticaltrains.ui:163
 #: ekos/profileeditor.ui:658
 #, kde-format
 msgid "Mount:"
@@ -11359,15 +11414,14 @@ msgstr "Monture"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:374
+#: ekos/analyze/analyze.ui:406
 #, kde-format
-#| msgid "Capture"
 msgid "Capture:"
 msgstr "Acquisition"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, raCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:387
+#: ekos/analyze/analyze.ui:419
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11381,14 +11435,14 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, raCB)
 #. i18n: ectx: property (text), widget (QCheckBox, mountRaCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:393 ekos/analyze/analyze.ui:798
+#: ekos/analyze/analyze.ui:425 ekos/analyze/analyze.ui:830
 #, kde-format
 msgid "ra"
 msgstr "ad"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, raOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:406
+#: ekos/analyze/analyze.ui:438
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11398,7 +11452,7 @@ msgstr "<p>L'erreur de dérive de l'ascension droite AD en secondes d'arc. Cliqu
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, decCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:428
+#: ekos/analyze/analyze.ui:460
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11413,15 +11467,15 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, decPulseCB)
 #. i18n: ectx: property (text), widget (QCheckBox, mountDecCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:434 ekos/analyze/analyze.ui:522
-#: ekos/analyze/analyze.ui:845
+#: ekos/analyze/analyze.ui:466 ekos/analyze/analyze.ui:554
+#: ekos/analyze/analyze.ui:877
 #, kde-format
 msgid "dec"
 msgstr "dec"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, decOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:447
+#: ekos/analyze/analyze.ui:479
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11431,7 +11485,7 @@ msgstr "<p>Affiche l'erreur de dérive de la déclinaison DEC en secondes d'arc.
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, raPulseCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:469
+#: ekos/analyze/analyze.ui:501
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11444,14 +11498,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, raPulseCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:475
+#: ekos/analyze/analyze.ui:507
 #, kde-format
 msgid "ra pulse"
 msgstr "Impulsion AD"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, raPulseOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:488
+#: ekos/analyze/analyze.ui:520
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11464,7 +11518,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, decPulseCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:516
+#: ekos/analyze/analyze.ui:548
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11477,7 +11531,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, decPulseOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:535
+#: ekos/analyze/analyze.ui:567
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11490,7 +11544,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, driftCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:563
+#: ekos/analyze/analyze.ui:595
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11503,14 +11557,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, driftCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:569
+#: ekos/analyze/analyze.ui:601
 #, kde-format
 msgid "drift"
 msgstr "Dérive"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, driftOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:582
+#: ekos/analyze/analyze.ui:614
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11520,7 +11574,7 @@ msgstr "<p>L'erreur de dérive en AD et DEC combinée. Cliquez ici pour afficher
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, rmsCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:610
+#: ekos/analyze/analyze.ui:642
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11534,14 +11588,14 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, rmsCB)
 #. i18n: ectx: property (text), widget (QCheckBox, rmsCCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:616 ekos/analyze/analyze.ui:1291
+#: ekos/analyze/analyze.ui:648 ekos/analyze/analyze.ui:1323
 #, kde-format
 msgid "rms"
 msgstr "rms"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, rmsOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:629
+#: ekos/analyze/analyze.ui:661
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11554,7 +11608,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, skyBgCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:657
+#: ekos/analyze/analyze.ui:689
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11567,14 +11621,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, skyBgCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:663
+#: ekos/analyze/analyze.ui:695
 #, kde-format
 msgid "sky"
 msgstr "ciel"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, skyBgOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:676
+#: ekos/analyze/analyze.ui:708
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11587,7 +11641,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, numStarsCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:698
+#: ekos/analyze/analyze.ui:730
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11605,7 +11659,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_23)
 #. i18n: ectx: property (text), widget (QLabel, label_25)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:704 ekos/analyze/analyze.ui:1121
+#: ekos/analyze/analyze.ui:736 ekos/analyze/analyze.ui:1153
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:812
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:874 ekos/guide/opsguide.ui:434
 #: ekos/guide/opsguide.ui:540
@@ -11615,7 +11669,7 @@ msgstr "étoiles"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, numStarsOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:717
+#: ekos/analyze/analyze.ui:749
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11628,7 +11682,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, snrCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:745
+#: ekos/analyze/analyze.ui:777
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11641,14 +11695,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, snrCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:751
+#: ekos/analyze/analyze.ui:783
 #, kde-format
 msgid "snr"
 msgstr "snr"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, snrOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:764
+#: ekos/analyze/analyze.ui:796
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11661,7 +11715,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, mountRaCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:792
+#: ekos/analyze/analyze.ui:824
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11674,7 +11728,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, mountRaOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:817
+#: ekos/analyze/analyze.ui:849
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11687,7 +11741,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, mountDecCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:839
+#: ekos/analyze/analyze.ui:871
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11700,7 +11754,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, mountDecOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:864
+#: ekos/analyze/analyze.ui:896
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11713,7 +11767,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, azCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:886
+#: ekos/analyze/analyze.ui:918
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11726,14 +11780,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, azCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:892
+#: ekos/analyze/analyze.ui:924
 #, kde-format
 msgid "az"
 msgstr "az"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, azOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:905
+#: ekos/analyze/analyze.ui:937
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11746,7 +11800,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, altCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:933
+#: ekos/analyze/analyze.ui:965
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11759,14 +11813,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, altCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:939
+#: ekos/analyze/analyze.ui:971
 #, kde-format
 msgid "alt"
 msgstr "alt"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, altOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:952
+#: ekos/analyze/analyze.ui:984
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11779,7 +11833,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, pierSideCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:980
+#: ekos/analyze/analyze.ui:1012
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11792,14 +11846,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, pierSideCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:986
+#: ekos/analyze/analyze.ui:1018
 #, kde-format
 msgid "side"
 msgstr "côté"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, pierSideOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:999
+#: ekos/analyze/analyze.ui:1031
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11812,7 +11866,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, mountHaCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1027
+#: ekos/analyze/analyze.ui:1059
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11825,14 +11879,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, mountHaCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1033
+#: ekos/analyze/analyze.ui:1065
 #, kde-format
 msgid "ha"
 msgstr "ah"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, mountHaOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1052
+#: ekos/analyze/analyze.ui:1084
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11845,7 +11899,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, hfrCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1074
+#: ekos/analyze/analyze.ui:1106
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11858,14 +11912,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, hfrCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1080
+#: ekos/analyze/analyze.ui:1112
 #, kde-format
 msgid "hfr"
 msgstr "hfr"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, hfrOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1093
+#: ekos/analyze/analyze.ui:1125
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11878,7 +11932,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, numCaptureStarsCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1115
+#: ekos/analyze/analyze.ui:1147
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11891,7 +11945,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, numCaptureStarsOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1134
+#: ekos/analyze/analyze.ui:1166
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11904,7 +11958,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, medianCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1156
+#: ekos/analyze/analyze.ui:1188
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11917,14 +11971,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, medianCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1162
+#: ekos/analyze/analyze.ui:1194
 #, kde-format
 msgid "median"
 msgstr "Médiane"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, medianOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1175
+#: ekos/analyze/analyze.ui:1207
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11937,7 +11991,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, eccentricityCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1197
+#: ekos/analyze/analyze.ui:1229
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11950,14 +12004,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, eccentricityCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1203
+#: ekos/analyze/analyze.ui:1235
 #, kde-format
 msgid "ecc"
 msgstr "ECC"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, eccentricityOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1216
+#: ekos/analyze/analyze.ui:1248
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11970,7 +12024,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, temperatureCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1238
+#: ekos/analyze/analyze.ui:1270
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11983,14 +12037,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, temperatureCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1244
+#: ekos/analyze/analyze.ui:1276
 #, kde-format
 msgid "temp"
 msgstr "Temp"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, temperatureOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1257
+#: ekos/analyze/analyze.ui:1289
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -12003,7 +12057,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, rmsCCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1285
+#: ekos/analyze/analyze.ui:1317
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -12016,7 +12070,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, rmsCOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1304
+#: ekos/analyze/analyze.ui:1336
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -12029,7 +12083,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, targetDistanceCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1332
+#: ekos/analyze/analyze.ui:1364
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -12042,14 +12096,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, targetDistanceCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1338
+#: ekos/analyze/analyze.ui:1370
 #, kde-format
 msgid "dist a-s"
 msgstr "dist a-s"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, targetDistanceOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1351
+#: ekos/analyze/analyze.ui:1383
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -12062,7 +12116,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, focusPositionCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1379
+#: ekos/analyze/analyze.ui:1411
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -12075,14 +12129,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, focusPositionCB)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1385
+#: ekos/analyze/analyze.ui:1417
 #, kde-format
 msgid "focus"
 msgstr "Mise au point"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, focusPositionOut)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1398
+#: ekos/analyze/analyze.ui:1430
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -12096,7 +12150,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, detailsCB)
 #. i18n: ectx: property (text), widget (QPushButton, DetailsButton)
 #. +> trunk5
-#: ekos/analyze/analyze.ui:1417
+#: ekos/analyze/analyze.ui:1449
 #: kstarslite/qml/modules/menus/ContextMenu.qml:71 tools/starhopperdialog.ui:39
 #, kde-kuit-format, kde-format
 msgid "Details"
@@ -12590,7 +12644,6 @@ msgstr "Regroupement de pixels"
 #. +> trunk5
 #: ekos/auxiliary/darklibrary.ui:213
 #, kde-format
-#| msgid "Exp. Range:"
 msgid "Exp. range:"
 msgstr "Plage d'exposition"
 
@@ -12606,7 +12659,6 @@ msgstr "Pas"
 #. +> trunk5
 #: ekos/auxiliary/darklibrary.ui:256
 #, kde-format
-#| msgid "T. Range:"
 msgid "T. range:"
 msgstr "Plage de température"
 
@@ -12669,7 +12721,6 @@ msgstr "Taille du pas en secondes"
 #. +> trunk5
 #: ekos/auxiliary/darklibrary.ui:382
 #, kde-format
-#| msgid "Total Time:"
 msgid "Total time:"
 msgstr "Temps total"
 
@@ -12708,14 +12759,13 @@ msgstr "Durée d'exposition maximale en secondes."
 #. +> trunk5
 #: ekos/auxiliary/darklibrary.ui:464
 #, kde-format
-#| msgid "Total Images:"
 msgid "Total images:"
 msgstr "Total Images"
 
 #. i18n: ectx: property (format), widget (QProgressBar, darkProgress)
 #. +> trunk5
 #: ekos/auxiliary/darklibrary.ui:550
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid "%v/%m"
 msgstr "%v/%m"
 
@@ -12780,7 +12830,6 @@ msgstr "Médiane"
 #. +> trunk5
 #: ekos/auxiliary/darklibrary.ui:783
 #, kde-format
-#| msgid "Std. Deviation:"
 msgid "Std. deviation:"
 msgstr "Écart-type"
 
@@ -12795,7 +12844,6 @@ msgstr "Pixels défectueux"
 #. +> trunk5
 #: ekos/auxiliary/darklibrary.ui:827
 #, kde-format
-#| msgid "Hot Pixels"
 msgid "Hot pixels:"
 msgstr "Pixels chauds"
 
@@ -12811,7 +12859,6 @@ msgstr "Pixels détectés après un filtrage d'agressivité"
 #. +> trunk5
 #: ekos/auxiliary/darklibrary.ui:847
 #, kde-format
-#| msgid "Cold Pixels"
 msgid "Cold pixels:"
 msgstr "Pixels froids"
 
@@ -13342,7 +13389,6 @@ msgstr "Avez-vous des problèmes avec Ekos ? Veuillez activer la journalisation
 #. +> trunk5
 #: ekos/auxiliary/opslogs.ui:133
 #, kde-format
-#| msgid "Ekos"
 msgid "Ekos:"
 msgstr "Ekos"
 
@@ -13477,7 +13523,6 @@ msgstr "Enregistrer l'activité du module d'acquisition de Ekos"
 #. +> trunk5
 #: ekos/auxiliary/opslogs.ui:295
 #, kde-format
-#| msgid "Astrometry"
 msgid "Astrometry:"
 msgstr "Astrométrie"
 
@@ -13519,7 +13564,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ObservatoryLogging)
 #. i18n: ectx: property (windowTitle), widget (QWidget, Observatory)
 #. +> trunk5
-#: ekos/auxiliary/opslogs.ui:328 ekos/manager.cpp:2257
+#: ekos/auxiliary/opslogs.ui:328 ekos/manager.cpp:2263
 #: ekos/observatory/observatory.ui:14
 #, kde-format
 msgid "Observatory"
@@ -13529,7 +13574,6 @@ msgstr "Observatoire"
 #. +> trunk5
 #: ekos/auxiliary/opslogs.ui:338
 #, kde-format
-#| msgid "Enable verbose debug output"
 msgid "Enable verbose debug output level"
 msgstr "Activer la sortie de débogage détaillé"
 
@@ -13595,7 +13639,6 @@ msgstr "Avez-vous des problèmes avec les pilotes INDI ? Veuillez activer la jo
 #. +> trunk5
 #: ekos/auxiliary/opslogs.ui:410
 #, kde-format
-#| msgid "Drivers"
 msgid "Drivers:"
 msgstr "Pilotes"
 
@@ -13696,7 +13739,6 @@ msgstr "Messages INDI dans la &barre d'état"
 #. +> trunk5
 #: ekos/auxiliary/opslogs.ui:529
 #, kde-format
-#| msgid "Open Logs Directory"
 msgid "Open Logs Directory..."
 msgstr "Ouvrir le dossier des journaux…"
 
@@ -13856,7 +13898,6 @@ msgstr "Sélectionner un capuchon anti-poussière si existant (p. ex. FlipFlat).
 #. +> trunk5
 #: ekos/auxiliary/opticaltrains.ui:209
 #, kde-format
-#| msgid "Dust Cap:"
 msgid "Dust cap:"
 msgstr "Capuchon anti-poussière"
 
@@ -13895,7 +13936,6 @@ msgstr "Sélectionner une boîte à flat si existante (p. ex. FlipFlat)."
 #. +> trunk5
 #: ekos/auxiliary/opticaltrains.ui:265
 #, kde-format
-#| msgid "Light Box:"
 msgid "Light box:"
 msgstr "Boîte à flat"
 
@@ -13918,7 +13958,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/auxiliary/opticaltrains.ui:278
 #, kde-format
-#| msgid "Filter Wheel:"
 msgid "Filter wheel:"
 msgstr "Roue à filtres"
 
@@ -13945,7 +13984,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/auxiliary/opticaltrains.ui:301
 #, kde-format
-#| msgid "Guide Via:"
 msgid "Guide via:"
 msgstr "Guider via "
 
@@ -14002,7 +14040,6 @@ msgstr "Télescopes && Objectifs"
 #. +> trunk5
 #: ekos/auxiliary/opticaltrains.ui:430
 #, kde-format
-#| msgid "Reset frame"
 msgid "Reset train"
 msgstr "Réinitialiser le train"
 
@@ -14446,7 +14483,6 @@ msgstr "Enregistre votre paramétrage courant des profils de ce groupe, à un au
 #. +> trunk5
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:172
 #, kde-format
-#| msgid "Loads the default set of profiles, clearing any modifications or custom profiles. "
 msgid "Loads the default set of profiles, clearing any modifications or custom profiles."
 msgstr "Charge le paramétrage par défaut des profils, en supprimant toutes modifications et profils personnalisés."
 
@@ -14845,7 +14881,7 @@ msgstr "Le pourcentage des étoiles les plus faibles à supprimer de la liste."
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:726
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:798
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:819 ekos/capture/limits.ui:368
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid "%"
 msgstr "%"
 
@@ -14932,7 +14968,6 @@ msgstr "Conserver #"
 #. +> trunk5
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:847
 #, kde-format
-#| msgid "The number of stars to keep in the list after star extraction.  This parameter is based on magnitude and is most useful to speed up plate solving, such as in the Align Module."
 msgid "The number of stars to keep in the list after star extraction. This parameter is based on magnitude and is most useful to speed up plate solving, such as in the Align Module."
 msgstr "Le nombre d'étoiles à conserver dans la liste après extraction. Ce paramètre est fondé sur la magnitude. Il est le plus utile pour accélérer la résolution astrométrique dans le module d'alignement."
 
@@ -14940,7 +14975,6 @@ msgstr "Le nombre d'étoiles à conserver dans la liste après extraction. Ce pa
 #. +> trunk5
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:857
 #, kde-format
-#| msgid "The number of stars to keep in the list initially.  This filter is based on the size of the stars.  It is primarily useful for speeding up star extraction with HFR such as in Focus, Guide, and HFR monitoring.  "
 msgid "The number of stars to keep in the list initially. This filter is based on the size of the stars.  It is primarily useful for speeding up star extraction with HFR such as in Focus, Guide, and HFR monitoring."
 msgstr "Nombre d'étoiles à conserver dans la liste initiale. Ce filtre repose sur la taille des étoiles. Il est principalement utile pour accélérer l'extraction d'étoiles avec HFR comme dans la mise au point, le guidage et la surveillance HFR."
 
@@ -15289,7 +15323,7 @@ msgid ""
 "<p>"
 msgstr ""
 "<b>Utilisation des attributs de l'appareil et de la roue à filtres d'une session d'acquisition débutée à %1.<br>"
-"<p>Si vous souahitez utiliser d'autres appareils et banques de filtres, veuillez modifier la séquence en utilisant l'onglet d'acquisition.</br>"
+"<p>Si vous souaiatez utiliser d'autres appareils et banques de filtres, veuillez modifier la séquence en utilisant l'onglet d'acquisition.</br>"
 "Il n'est pas recommandé de modifier un fichier de séquences en cours d'utilisaion, veuillez plustôt le renommer."
 "<p>"
 
@@ -15841,10 +15875,6 @@ msgstr "Contrôle du rotateur"
 #. +> trunk5
 #: ekos/capture/capture.ui:801
 #, kde-format
-#| msgid ""
-#| "<html><head/><body>"
-#| "<p>Optimal sub-exposure calculator</p>"
-#| "</body></html>"
 msgid ""
 "<html><head/><body>"
 "<p>Exposure calculator</p>"
@@ -15931,7 +15961,7 @@ msgstr ""
 #. i18n: ectx: property (prefix), widget (QSpinBox, formatSuffixN)
 #. +> trunk5
 #: ekos/capture/capture.ui:970
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid "_%s"
 msgstr "_%s"
 
@@ -15945,7 +15975,7 @@ msgstr "Réinitialiser le format de la configuration à la valeur par défaut"
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel1_7)
 #. +> trunk5
 #: ekos/capture/capture.ui:1027
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid ""
 "<html><head/><body>"
 "<p>Target is the name of the targetted object.</p>"
@@ -15995,7 +16025,7 @@ msgstr "Cible"
 #. i18n: ectx: property (toolTip), widget (QLabel, formatLabel)
 #. +> trunk5
 #: ekos/capture/capture.ui:1110
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid ""
 "<html><head/><body>"
 "<p>Format is used to define the image file names by the use of placeholder tags.</p>"
@@ -16232,7 +16262,6 @@ msgstr "Réinitialiser l'état de toutes les tâches"
 #. +> trunk5
 #: ekos/capture/capture.ui:1740
 #, kde-format
-#| msgid "Select Observer"
 msgid "Select Observer..."
 msgstr "Sélectionner un observateur…"
 
@@ -16240,7 +16269,6 @@ msgstr "Sélectionner un observateur…"
 #. +> trunk5
 #: ekos/capture/capture.ui:1781
 #, kde-format
-#| msgid "Load capture sequence from file"
 msgid "Load Capture Sequence from File..."
 msgstr "Charger la séquence d'acquisition à partir d'un fichier…"
 
@@ -16248,7 +16276,6 @@ msgstr "Charger la séquence d'acquisition à partir d'un fichier…"
 #. +> trunk5
 #: ekos/capture/capture.ui:1815
 #, kde-format
-#| msgid "Save capture sequence as ..."
 msgid "Save Capture Sequence..."
 msgstr "Enregistrer la séquence d'acquisition…"
 
@@ -16256,7 +16283,6 @@ msgstr "Enregistrer la séquence d'acquisition…"
 #. +> trunk5
 #: ekos/capture/capture.ui:1849
 #, kde-format
-#| msgid "Save capture sequence as ..."
 msgid "Save Capture Sequence As..."
 msgstr "Enregistrer la séquence d'acquisition…"
 
@@ -16304,7 +16330,6 @@ msgstr "ISO/Gain"
 #. +> trunk5
 #: ekos/capture/capture.ui:1946
 #, kde-format
-#| msgid "Capture a preview"
 msgid "Capture a Preview..."
 msgstr "Acquérir un aperçu…"
 
@@ -16312,7 +16337,6 @@ msgstr "Acquérir un aperçu…"
 #. +> trunk5
 #: ekos/capture/capture.ui:1987
 #, kde-format
-#| msgid "Start framing (looping)"
 msgid "Start Framing (Looping)..."
 msgstr "Démarrer l'acquisition de trames (en boucle)…"
 
@@ -16320,7 +16344,6 @@ msgstr "Démarrer l'acquisition de trames (en boucle)…"
 #. +> trunk5
 #: ekos/capture/capture.ui:2025 ekos/focus/focus.ui:698
 #, kde-format
-#| msgid "Live Video"
 msgid "Live Video..."
 msgstr "Vidéo en temps réel…"
 
@@ -16356,7 +16379,6 @@ msgstr "Créer et gérer la bibliothèque de Dark"
 #. +> trunk5
 #: ekos/capture/capture.ui:2174
 #, kde-format
-#| msgid "Darks"
 msgid "Darks..."
 msgstr "Darks…"
 
@@ -16371,7 +16393,6 @@ msgstr "Configurer les limites du guide et de la mise au point"
 #. +> trunk5
 #: ekos/capture/capture.ui:2184
 #, kde-format
-#| msgid "Limits"
 msgid "Limits..."
 msgstr "Limites…"
 
@@ -16386,7 +16407,6 @@ msgstr "Gérer les scripts de séquences"
 #. +> trunk5
 #: ekos/capture/capture.ui:2200
 #, kde-format
-#| msgid "Scripts"
 msgid "Scripts..."
 msgstr "Scripts…"
 
@@ -16407,7 +16427,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/capture/capture.ui:2248
 #, kde-format
-#| msgid "total remaining:"
 msgid "Total remaining:"
 msgstr "Durée totale restante"
 
@@ -16474,7 +16493,6 @@ msgstr "\""
 #. +> trunk5
 #: ekos/capture/capture.ui:2443
 #, kde-format
-#| msgid "Load capture sequence from file"
 msgid "Load a new sequence file"
 msgstr "Charger une nouvelle séquence d'acquisition à partir d'un fichier"
 
@@ -16482,7 +16500,6 @@ msgstr "Charger une nouvelle séquence d'acquisition à partir d'un fichier"
 #. +> trunk5
 #: ekos/capture/capture.ui:2446
 #, kde-format
-#| msgid "Loading..."
 msgid "Load..."
 msgstr "Charger…"
 
@@ -16490,7 +16507,6 @@ msgstr "Charger…"
 #. +> trunk5
 #: ekos/capture/capture.ui:2465
 #, kde-format
-#| msgid "Unable to open sequence file %1"
 msgid "Save to a new sequence file"
 msgstr "Enregistrer dans un nouveau fichier de séquences"
 
@@ -16650,7 +16666,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/capture/capturecountswidget.ui:463
 #, kde-format
-#| msgid "Type and filter (if present) of the currently active capture. "
 msgid "Type and filter (if present) of the currently active capture."
 msgstr "Type et filtre (si présent) de l'acquisition courante active."
 
@@ -17402,7 +17417,6 @@ msgstr "Valeurs non valables. Veuillez définir toutes les valeurs."
 #. +> trunk5
 #: ekos/capture/exposurecalculator/exposurecalculatordialog.ui:32
 #, kde-format
-#| msgid "Sub-Exposure Calculator"
 msgid "Exposure Calculator"
 msgstr "Calculatrice du temps d'exposition"
 
@@ -17608,7 +17622,7 @@ msgstr "Graphique du temps d'exposition potentiel"
 #. i18n: ectx: property (text), widget (QLabel, allowableNoiseLabel)
 #. +> trunk5
 #: ekos/capture/exposurecalculator/exposurecalculatordialog.ui:769
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid "Noise Increase %"
 msgstr "Augmentation du bruit %"
 
@@ -17725,10 +17739,6 @@ msgstr "Annuler la séquence si la dérive de guidage dépasse cette valeur N fo
 #. +> trunk5
 #: ekos/capture/limits.ui:83
 #, kde-format
-#| msgid ""
-#| "<html><head/><body>"
-#| "<p>If selected, the shutter needs to be open for the observatory status being &quot;READY&quot;.</p>"
-#| "</body></html>"
 msgid ""
 "<html><head/><body>"
 "<p>If global dither is enabled, then dither every N number of frames for this job. Set to 0 to use global dither frequency.</p>"
@@ -17742,7 +17752,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/capture/limits.ui:134
 #, kde-format
-#| msgid "Abort if Guide Deviation >"
 msgid "Abort if guide deviation >:"
 msgstr "Annuler si la déviation du guide est >"
 
@@ -17757,7 +17766,6 @@ msgstr "Démarrer l'acquisition uniquement si l'écart en guidage est inférieur
 #. +> trunk5
 #: ekos/capture/limits.ui:150
 #, kde-format
-#| msgid "Only Start if Guide Deviation <"
 msgid "Only start if guide deviation <:"
 msgstr "Ne démarrer que si la déviation de guidage est inférieure à "
 
@@ -17772,7 +17780,6 @@ msgstr "fois consécutives"
 #. +> trunk5
 #: ekos/capture/limits.ui:177
 #, kde-format
-#| msgid "Dithering error"
 msgid "Dither per job every:"
 msgstr "Décaler par tâche chaque "
 
@@ -17787,15 +17794,6 @@ msgstr "Conditions de mise au point"
 #. +> trunk5
 #: ekos/capture/limits.ui:193
 #, kde-format
-#| msgid ""
-#| "<html><head/><body>"
-#| "<p>Select the type of curve to fit to the data:</p>"
-#| "<ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\">"
-#| "<li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Quadratic</span>: Uses a polynomial fit of degree 2. This is currently the default option and currently the only option for all Algorithms except Linear 1 Pass.</li>"
-#| "<li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Hyperbola</span>: Fits a hyperbola to the data points. This is currently only available for the Linear 1 Pass Algorithm.</li>"
-#| "<li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Parabola</span>: Fits a parabola to the data points. This is currently only available for the Linear 1 Pass Algorithm.</li>"
-#| "</ul>"
-#| "</body></html>"
 msgid ""
 "<html><head/><body>"
 "<p>The HFR Check algorithm:</p>"
@@ -17823,7 +17821,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/capture/limits.ui:200
 #, kde-format
-#| msgid "Auto focus:"
 msgid "Last Autofocus"
 msgstr "Dernière au point automatique"
 
@@ -17831,7 +17828,6 @@ msgstr "Dernière au point automatique"
 #. +> trunk5
 #: ekos/capture/limits.ui:205
 #, kde-format
-#| msgid "Fixed DEC"
 msgid "Fixed"
 msgstr "Corrigée"
 
@@ -17839,7 +17835,6 @@ msgstr "Corrigée"
 #. +> trunk5
 #: ekos/capture/limits.ui:210
 #, kde-format
-#| msgid "Measure:"
 msgid "Median Measure"
 msgstr "Mesure médiane"
 
@@ -17847,10 +17842,6 @@ msgstr "Mesure médiane"
 #. +> trunk5
 #: ekos/capture/limits.ui:259
 #, kde-format
-#| msgid ""
-#| "<html><head/><body>"
-#| "<p>Perform autofocus when the change in temperature since last focus exceeded this limit</p>"
-#| "</body></html>"
 msgid ""
 "<html><head/><body>"
 "<p>Check to force an Autofocus when the change in temperature since last focus exceeded this value.  Reference temperature is reset at each Autofocus.</p>"
@@ -17864,7 +17855,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/capture/limits.ui:262
 #, kde-format
-#| msgid "Autofocus if ΔT°  >"
 msgid "Refocus if ΔT°  >:"
 msgstr "Nouvelle mise au point si ΔT° >"
 
@@ -17872,10 +17862,6 @@ msgstr "Nouvelle mise au point si ΔT° >"
 #. +> trunk5
 #: ekos/capture/limits.ui:269
 #, kde-format
-#| msgid ""
-#| "<html><head/><body>"
-#| "<p>Perform autofocus after meridian flip</p>"
-#| "</body></html>"
 msgid ""
 "<html><head/><body>"
 "<p>Check to force an Autofocus after a Meridian Flip.</p>"
@@ -17896,10 +17882,6 @@ msgstr "Réinitialiser la mise au point après le retournement au méridien."
 #. +> trunk5
 #: ekos/capture/limits.ui:282
 #, kde-format
-#| msgid ""
-#| "<html><head/><body>"
-#| "<p>Check to apply Adaptive focus to Autofocus runs.</p>"
-#| "</body></html>"
 msgid ""
 "<html><head/><body>"
 "<p>Check to force an Autofocus every N minutes.  Timer is reset at each Autofocus.</p>"
@@ -17913,7 +17895,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/capture/limits.ui:285
 #, kde-format
-#| msgid "Refocus every"
 msgid "Refocus every:"
 msgstr "Refaire une mise au point toutes les "
 
@@ -17921,10 +17902,6 @@ msgstr "Refaire une mise au point toutes les "
 #. +> trunk5
 #: ekos/capture/limits.ui:295
 #, kde-format
-#| msgid ""
-#| "<html><head/><body>"
-#| "<p>Check to display the CFZ on the V-curve after a successful Autofocus run.</p>"
-#| "</body></html>"
 msgid ""
 "<html><head/><body>"
 "<p>Check to perform an HFR Check between Subframes.  The Check may result in an Autofocus.</p>"
@@ -17952,7 +17929,6 @@ msgstr "Exécuter une vérification HFR en suivant après ce certain nombre de t
 #. +> trunk5
 #: ekos/capture/limits.ui:308
 #, kde-format
-#| msgid "Refocus every"
 msgid "Check every:"
 msgstr "Vérifier toutes les "
 
@@ -17960,10 +17936,6 @@ msgstr "Vérifier toutes les "
 #. +> trunk5
 #: ekos/capture/limits.ui:318
 #, kde-format
-#| msgid ""
-#| "<html><head/><body>"
-#| "<p>Averaged HFR value from the last frame.</p>"
-#| "</body></html>"
 msgid ""
 "<html><head/><body>"
 "<p>Run HFR check after this many sub-frames.</p>"
@@ -17977,10 +17949,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/capture/limits.ui:331
 #, kde-format, no-c-format
-#| msgid ""
-#| "<html><head/><body>"
-#| "<p>Drag the slider to adjust the scale of the Corrections Graphs relative to the scale of the drift graphs.</p>"
-#| "</body></html>"
 msgid ""
 "<html><head/><body>"
 "<p>Specify the % to apply to the HFR Check value appropriate to the selected algorithm, to use as the threshold to perform the HFR Check.</p>"
@@ -18015,14 +17983,13 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>La valeur de vérification HFR en pixels. Cela est un champ de sortie quand l'option Dernière mise au point automatique ou Mesure relative est sélectionnée, et un champ en entreée pour Constante. L'utilisateur peut dans tous les cas écraser la valeur générée par le système.</p>"
+"<p>La valeur de vérification HFR en pixels. Cela est un champ de sortie quand l'option Dernière mise au point automatique ou Mesure relative est sélectionnée, et un champ en entrée pour Constante. L'utilisateur peut dans tous les cas écraser la valeur générée par le système.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk5
 #: ekos/capture/limits.ui:413
 #, kde-format
-#| msgid "frames"
 msgid "frames.   HFR:"
 msgstr "trames. HFR :"
 
@@ -18334,7 +18301,6 @@ msgstr "Gestionnaire de scripts"
 #. +> trunk5
 #: ekos/capture/scriptsmanager.ui:22
 #, kde-format
-#| msgid "Pre-Job Script:"
 msgid "Pre-job script:"
 msgstr "Script d'initialisation de la tâche"
 
@@ -18353,7 +18319,6 @@ msgstr "Script exécutable"
 #. +> trunk5
 #: ekos/capture/scriptsmanager.ui:67
 #, kde-format
-#| msgid "Pre-Capture Script:"
 msgid "Pre-capture script:"
 msgstr "Script de pré-acquisition"
 
@@ -18361,7 +18326,6 @@ msgstr "Script de pré-acquisition"
 #. +> trunk5
 #: ekos/capture/scriptsmanager.ui:112
 #, kde-format
-#| msgid "Post-Capture Script:"
 msgid "Post-capture script:"
 msgstr "Script de post-acquisition"
 
@@ -18369,7 +18333,6 @@ msgstr "Script de post-acquisition"
 #. +> trunk5
 #: ekos/capture/scriptsmanager.ui:157
 #, kde-format
-#| msgid "Post-Job Script:"
 msgid "Post-job script:"
 msgstr "Script de clôture de la tâche"
 
@@ -18377,7 +18340,6 @@ msgstr "Script de clôture de la tâche"
 #. +> trunk5
 #: ekos/capture/sequenceeditorui.ui:20
 #, kde-format
-#| msgid "Pause Sequence"
 msgid "Capture Sequence Editor"
 msgstr "Modificateur de séquence d'acquisition"
 
@@ -19313,7 +19275,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/focus/adaptivefocus.cpp:152
 #, kde-format
-#| msgid "Adaptive Focus moving from %1 to %2"
 msgid "Adaptive Focus: No movement (below threshold)"
 msgstr "Mise au point adaptative : pas de mouvement (sous le seuil)"
 
@@ -19332,9 +19293,8 @@ msgstr "Mise au point adaptative suspendue. Le mouvement total dépasserait la l
 #. +> trunk5
 #: ekos/focus/adaptivefocus.cpp:179
 #, kde-format
-#| msgid "Adaptive Focus moving from %1 to %2"
 msgid "Adaptive Focus: Moving from %1 to %2 (TempΔ %3"
-msgstr "Mise au point adaptative : déplacement de %1 vers %2 (Δ Temp %3" 
+msgstr "Mise au point adaptative : déplacement de %1 vers %2 (Δ Temp %3"
 
 #. +> trunk5
 #: ekos/focus/adaptivefocus.cpp:180
@@ -19351,7 +19311,6 @@ msgstr ")"
 #. +> trunk5
 #: ekos/focus/adaptivefocus.cpp:181
 #, kde-format
-#| msgid " Error: %1"
 msgid "; Pos Error %1)"
 msgstr " ; erreur de position %1)"
 
@@ -19473,7 +19432,6 @@ msgstr "Multiple du pas extérieur"
 #. +> trunk5
 #: ekos/focus/advisor.ui:105
 #, kde-format
-#| msgid "Settings Tab Parameters"
 msgid "Settings Parameters"
 msgstr "Paramètres de configuration"
 
@@ -19481,7 +19439,6 @@ msgstr "Paramètres de configuration"
 #. +> trunk5
 #: ekos/focus/advisor.ui:128
 #, kde-format
-#| msgid "Process Tab Parameters"
 msgid "Process Parameters"
 msgstr "Paramètres de traitement"
 
@@ -19530,7 +19487,6 @@ msgstr "Conseiller de mise au point"
 #. +> trunk5
 #: ekos/focus/advisor.ui:180
 #, kde-format
-#| msgid "Mechanics Tab Parameters"
 msgid "Mechanics Parameters"
 msgstr "Paramètres mécanique"
 
@@ -19558,7 +19514,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/focus/cfz.ui:14
 #, kde-format
-#| msgid "Focus: "
 msgid "Focus CFZ"
 msgstr "CFZ de la mise au point"
 
@@ -19607,7 +19562,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/focus/cfz.ui:141
 #, kde-format
-#| msgid "Display"
 msgid "Display:"
 msgstr "Affichage"
 
@@ -19688,10 +19642,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/focus/cfz.ui:264
 #, kde-format
-#| msgid ""
-#| "<html><head/><body>"
-#| "<p>Step Size:</p>"
-#| "</body></html>"
 msgid ""
 "<html><head/><body>"
 "<p>Step size:</p>"
@@ -19705,7 +19655,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/focus/cfz.ui:280
 #, kde-format
-#| msgid "CFZ Camera:"
 msgid "CFZ camera:"
 msgstr "Caméra CFZ"
 
@@ -19734,7 +19683,7 @@ msgstr ""
 #: ekos/focus/opsfocusprocess.ui:615 ekos/focus/opsfocussettings.ui:323
 #: ekos/focus/opsfocussettings.ui:357 ekos/focus/opsfocussettings.ui:417
 #: ekos/scheduler/framingassistant.ui:879
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid " %"
 msgstr " % "
 
@@ -19815,10 +19764,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/focus/cfz.ui:447
 #, kde-format
-#| msgid ""
-#| "<html><head/><body>"
-#| "<p>Reset Wavelength,  Aperture,  Focal Ratio to values from the currently selected filter and optical train</p>"
-#| "</body></html>"
 msgid ""
 "<html><head/><body>"
 "<p>Reset Wavelength,  Aperture,  Focal ratio to values from the currently selected filter and optical train</p>"
@@ -19839,7 +19784,6 @@ msgstr "Réinitialiser à OT"
 #. +> trunk5
 #: ekos/focus/cfz.ui:463
 #, kde-format
-#| msgid "Focal Ratio (f):"
 msgid "Focal ratio (f):"
 msgstr "Rapport de focale (f)"
 
@@ -19970,7 +19914,6 @@ msgstr "Configuration"
 #. +> trunk5
 #: ekos/focus/focus.cpp:186 ekos/focus/opsfocussettings.ui:14
 #, kde-format
-#| msgid "Settings"
 msgid "Focus Settings"
 msgstr "Configuration de la mise au point"
 
@@ -19984,7 +19927,6 @@ msgstr "Traitement"
 #. +> trunk5
 #: ekos/focus/focus.cpp:190 ekos/focus/opsfocusprocess.ui:14
 #, kde-format
-#| msgid "Focus SEP Profiles"
 msgid "Focus Process"
 msgstr "Processus de mise au point"
 
@@ -19998,7 +19940,6 @@ msgstr "Mécanique"
 #. +> trunk5
 #: ekos/focus/focus.cpp:194 ekos/focus/opsfocusmechanics.ui:14
 #, kde-format
-#| msgid "Mechanics"
 msgid "Focus Mechanics"
 msgstr "Mécanique de la mise au point"
 
@@ -20035,7 +19976,6 @@ msgstr "La mise au point automatique est déjà en cours. Annulation de la deman
 #. +> trunk5
 #: ekos/focus/focus.cpp:1002
 #, kde-format
-#| msgid "Discarding Autofocus start request - AdjustFocus in progress."
 msgid "Autofocus start request - Waiting 10sec for AdjustFocus to complete."
 msgstr "Requête de démarrage de la mise au point automatique - 10 secondes d'attente pour que l'ajustement de la mise au point soit terminée."
 
@@ -20048,7 +19988,6 @@ msgstr "Rejet de la requête de démarrage de la mise au point automatique - Adj
 #. +> trunk5
 #: ekos/focus/focus.cpp:1019
 #, kde-format
-#| msgid "Discarding Autofocus start request - AdaptiveFocus in progress."
 msgid "Autofocus start request - Waiting 10sec for AdaptiveFocus to complete."
 msgstr "Requête de la mise au point automatique - 10 secondes d'attente pour que la mise au point adaptative soit terminée."
 
@@ -20115,28 +20054,24 @@ msgstr "Erreur : perte de connexion à la roue à filtres."
 #. +> trunk5
 #: ekos/focus/focus.cpp:1561
 #, kde-format
-#| msgid "Go to an absolute focus position"
 msgid "At minimum focus position %1..."
 msgstr "À la position de mise au point minimale %1…"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:1572
 #, kde-format
-#| msgid "Solving with blind image position..."
 msgid "Moving to minimum focus position %1..."
 msgstr "Déplacement vers la position de mise au point minimale %1…"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:1581
 #, kde-format
-#| msgid "Go to an absolute focus position"
 msgid "At maximum focus position %1..."
 msgstr "À la position de mise au point maximale %1…"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:1592
 #, kde-format
-#| msgid "Go to an absolute focus position"
 msgid "Moving to maximum focus position %1..."
 msgstr "Déplacement vers la position maximale de mise au point %1…"
 
@@ -20532,17 +20467,6 @@ msgstr "Vous possédez un télescope ayant une obstruction centrale, donc soyez 
 #. +> trunk5
 #: ekos/focus/focus.cpp:6591
 #, kde-format
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "The fourth step is to set the remaining focus parameters to sensible values. Focus Advisor will suggest values for 4 categories of parameters. Check the associated Update box to accept these recommendations and press Update Params.\n"
-#| "1. Camera Properties - Note you need to ensure Gain is set appropriately, e.g. unity gain.\n"
-#| "2. Settings Tab: These all have recommendations.\n"
-#| "3. Process Tab: These all have recommendations.\n"
-#| "4. Mechanics Tab: Note Step Size and Out Step Multiple are dealt with above.\n"
-#| "\n"
-#| "Now move the focuser to approximate focus and select a broadband filter, e.g. Luminance\n"
-#| "You are now ready to start an Autofocus run."
 msgid ""
 "\n"
 "\n"
@@ -20577,10 +20501,6 @@ msgstr "Démarrer l'acquisition des trames en boucle"
 #. +> trunk5
 #: ekos/focus/focus.ui:193
 #, kde-format
-#| msgid ""
-#| "<html><head/><body>"
-#| "<p>Zoom out for the X-Axis.</p>"
-#| "</body></html>"
 msgid ""
 "<html><head/><body>"
 "<p>Focus Out. </p>"
@@ -20589,7 +20509,7 @@ msgid ""
 msgstr ""
 "<html><head/><body>"
 "<p>Mise au point extérieur </p>"
-"<p>Pour les télescope Schmidt-Cassegrain, c'est généralement CW.</p>"
+"<p>Pour les télescopes Schmidt-Cassegrain, c'est généralement CW.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, captureB)
@@ -20655,10 +20575,6 @@ msgstr "Position courante et absolue du moteur de mise au point"
 #. +> trunk5
 #: ekos/focus/focus.ui:423
 #, kde-format
-#| msgid ""
-#| "<html><head/><body>"
-#| "<p>Zoom in for the X-Axis.</p>"
-#| "</body></html>"
 msgid ""
 "<html><head/><body>"
 "<p>Focus In. </p>"
@@ -20667,7 +20583,7 @@ msgid ""
 msgstr ""
 "<html><head/><body>"
 "<p>Mise au point intérieure </p>"
-"<p>Pour les télescope Schmidt-Cassegrain, c'est généralement CCW.</p>"
+"<p>Pour les télescopes Schmidt-Cassegrain, c'est généralement CCW.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, absTicksSpin)
@@ -20697,7 +20613,6 @@ msgstr "Sélectionner une source de température pour le moteur de mise au point
 #. +> trunk5
 #: ekos/focus/focus.ui:605
 #, kde-format
-#| msgid "Filter Settings"
 msgid "Filter Settings..."
 msgstr "Réglages du filtre…"
 
@@ -20898,25 +20813,25 @@ msgid "Called newMeasurement after a solution was found."
 msgstr "Appel à une nouvelle mesure une fois la solution trouvée."
 
 #. +> trunk5
-#: ekos/focus/focusalgorithms.cpp:803
+#: ekos/focus/focusalgorithms.cpp:804
 #, kde-format
 msgid "Failed to fit curve to data."
 msgstr "L'ajustement de la courbe aux données a échoué."
 
 #. +> trunk5
-#: ekos/focus/focusalgorithms.cpp:955
+#: ekos/focus/focusalgorithms.cpp:956
 #, kde-format
 msgid "Solution found."
 msgstr "Solution trouvée."
 
 #. +> trunk5
-#: ekos/focus/focusalgorithms.cpp:999
+#: ekos/focus/focusalgorithms.cpp:1000
 #, kde-format
 msgid "Too many steps."
 msgstr "Trop d'étapes."
 
 #. +> trunk5
-#: ekos/focus/focusalgorithms.cpp:1028
+#: ekos/focus/focusalgorithms.cpp:1029
 #, kde-format
 msgid "Solution lies outside max travel."
 msgstr "La solution est en dehors de la course maximale."
@@ -21427,10 +21342,6 @@ msgstr "Fourier"
 #. +> trunk5
 #: ekos/focus/opsfocusprocess.ui:259
 #, kde-format
-#| msgid ""
-#| "<html><head/><body>"
-#| "<p>Check to run an outlier pass when all datapoints have been taken. The pass uses Peirce's Criteria for outlier threshold detection. If there are outliers, these are removed and curve fitting rerun. If the R² is improved by the process then this new dataset is used and outliers highlighted on the v-curve. This is an experimental feature.</p>"
-#| "</body></html>"
 msgid ""
 "<html><head/><body>"
 "<p>Check to run an outlier pass when all datapoints have been taken. The pass uses Peirce's Criteria for outlier threshold detection. If there are outliers, these are removed and curve fitting rerun. If the R² is improved by the process then this new dataset is used and outliers highlighted on the v-curve. </p>"
@@ -21471,7 +21382,7 @@ msgstr "Utiliser des poids"
 #. i18n: ectx: property (toolTip), widget (QComboBox, focusAlgorithm)
 #. +> trunk5
 #: ekos/focus/opsfocusprocess.ui:291
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid ""
 "<html><head/><body>"
 "<p>Select focus process algorithm:</p>"
@@ -21715,8 +21626,6 @@ msgstr "Donut Buster (ATTENTION : fonctionnalité expériementale)"
 #. +> trunk5
 #: ekos/focus/opsfocusprocess.ui:657
 #, kde-format
-#| msgctxt "string from libindi, used in the config dialog"
-#| msgid "Time Factor"
 msgid "Time Dilation Factor:"
 msgstr "Facteur de dilatation du temps"
 
@@ -21936,7 +21845,7 @@ msgstr "Masque de la mosaïque"
 #. i18n: ectx: property (toolTip), widget (QRadioButton, focusRingMaskRB)
 #. +> trunk5
 #: ekos/focus/opsfocussettings.ui:273
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid ""
 "<html><head/><body>"
 "<p>During Full Field focusing, this controls the size of an Annulus centred at the middle of the sensor to include for processing. Set inner % to zero to include the centre of the sensor and set outer % to 100 to include the outer edges of the sensor. </p>"
@@ -22016,7 +21925,7 @@ msgstr "Utilisez toutes les étoiles pour la mise au point"
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, focusFullFieldOuterRadius)
 #. +> trunk5
 #: ekos/focus/opsfocussettings.ui:411
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid ""
 "<html><head/><body>"
 "<p>Diameter of the outer circle to be excluded from focusing. The diameter is given as percentage of the image diagonal. Set to 100% to include the outer edges of the sensor. </p>"
@@ -22373,9 +22282,10 @@ msgstr "PHD2 : étoile sélectionnée."
 
 #. +> trunk5
 #: ekos/guide/externalguide/phd2.cpp:656
-#, kde-format
-msgid "PHD2: Guiding resumed."
-msgstr "PHD2 : reprise du guidage."
+#, fuzzy, kde-format
+#| msgid "Dithering successful"
+msgid "PHD2: Dithering succesdsful."
+msgstr "Décalage réussi"
 
 #. +> trunk5
 #: ekos/guide/externalguide/phd2.cpp:661
@@ -22909,7 +22819,6 @@ msgstr "Axe d'ascension droite du guidage"
 #. +> trunk5
 #: ekos/guide/guide.ui:431
 #, kde-format
-#| msgid "Directions"
 msgid "Directions:"
 msgstr "Directions"
 
@@ -22966,7 +22875,6 @@ msgstr "128"
 #. +> trunk5
 #: ekos/guide/guide.ui:504
 #, kde-format
-#| msgid "Manual Pulse"
 msgid "Manual Pulse..."
 msgstr "Pulsation manuelle…"
 
@@ -23016,7 +22924,6 @@ msgstr "Informations de guidage"
 #. +> trunk5
 #: ekos/guide/guide.ui:748
 #, kde-format
-#| msgid "Pulse Length (ms)"
 msgid "Pulse length (ms):"
 msgstr "Durée d'impulsion (ms)"
 
@@ -23024,7 +22931,6 @@ msgstr "Durée d'impulsion (ms)"
 #. +> trunk5
 #: ekos/guide/guide.ui:755
 #, kde-format
-#| msgid "Guiding Delta \""
 msgid "Guiding delta \":"
 msgstr "Delta de guidage (sec)"
 
@@ -23067,7 +22973,6 @@ msgstr "Erreur RMS de guidage"
 #. +> trunk5
 #: ekos/guide/guide.ui:831
 #, kde-format
-#| msgid "RMS\" (RA/DEC)"
 msgid "RMS\" (RA/DEC):"
 msgstr "RMS\" (AD / DEC)"
 
@@ -23089,7 +22994,6 @@ msgstr "Erreur RMS en DEC du guidage"
 #. +> trunk5
 #: ekos/guide/guide.ui:871
 #, kde-format
-#| msgid "Total RMS\""
 msgid "Total RMS\":"
 msgstr "RMS total"
 
@@ -23105,7 +23009,6 @@ msgstr "xxx"
 #. +> trunk5
 #: ekos/guide/guide.ui:891
 #, kde-format
-#| msgid "Guide SNR"
 msgid "Guide SNR:"
 msgstr "Rapport signal/bruit (SNR) du guide"
 
@@ -25064,135 +24967,135 @@ msgid "Logging"
 msgstr "Journalisation"
 
 #. +> trunk5
-#: ekos/manager.cpp:366
+#: ekos/manager.cpp:368
 #, kde-format
 msgid "Analyze"
 msgstr "Analyse"
 
 #. +> trunk5
-#: ekos/manager.cpp:630
+#: ekos/manager.cpp:632
 #, kde-format
 msgctxt "@title:window"
 msgid "Ekos"
 msgstr "Ekos"
 
 #. +> trunk5
-#: ekos/manager.cpp:835 ekos/manager.cpp:861
+#: ekos/manager.cpp:837 ekos/manager.cpp:863
 #, kde-format
 msgid "Ekos requires at least one CCD or Guider to operate."
 msgstr "Ekos requiert au moins un CCD ou un guide pour fonctionner."
 
 #. +> trunk5
-#: ekos/manager.cpp:923
+#: ekos/manager.cpp:925
 #, kde-format
 msgid "Ekos detected that PTP Camera is running and may prevent a Canon or Nikon camera from connecting to Ekos. Do you want to quit PTP Camera now?"
 msgstr "Ekos a détecté que la caméra PTP est en fonctionnement et peut empêcher une caméra Canon ou Nikon de se connecter à Ekos. Voulez-vous vraiment quitter la caméra PTP maintenant ?"
 
 #. +> trunk5
-#: ekos/manager.cpp:924
+#: ekos/manager.cpp:926
 #, kde-format
 msgid "PTP Camera"
 msgstr "Appareil PTP"
 
 #. +> trunk5
-#: ekos/manager.cpp:939
+#: ekos/manager.cpp:941
 #, kde-format
 msgid "Starting INDI services..."
 msgstr "Démarrage des services INDI…"
 
 #. +> trunk5
-#: ekos/manager.cpp:970
+#: ekos/manager.cpp:972
 #, kde-format
 msgid "Ekos detected an instance of INDI server running. Do you wish to shut down the existing instance before starting a new one?"
 msgstr "Ekos a détecté qu'une instance du serveur INDI est en fonctionnement. Voulez-vous vraiment fermer l'instance existante avant d'en démarrer une nouvelle ?"
 
 #. i18n: ectx: property (title), widget (QGroupBox, indiServerGroup)
 #. +> trunk5
-#: ekos/manager.cpp:972 indi/opsindi.ui:375
+#: ekos/manager.cpp:974 indi/opsindi.ui:375
 #, kde-format
 msgid "INDI Server"
 msgstr "Serveur INDI"
 
 #. +> trunk5
-#: ekos/manager.cpp:987
+#: ekos/manager.cpp:989
 #, kde-format
 msgid "Connecting to remote INDI server at %1 on port %2 ..."
 msgstr "Connexion au serveur INDI distant à %1 sur le port %2…"
 
 #. +> trunk5
-#: ekos/manager.cpp:1007
+#: ekos/manager.cpp:1009
 #, kde-format
 msgid "Failed to start profile on remote INDI Web Manager."
 msgstr "Impossible de démarrer le profil pour le gestionnaire Internet distant INDI."
 
 #. +> trunk5
-#: ekos/manager.cpp:1011
+#: ekos/manager.cpp:1013
 #, kde-format
 msgid "Starting profile on remote INDI Web Manager..."
 msgstr "Démarrage d'un profil sur le gestionnaire Internet d'un serveur distant INDI…"
 
 #. +> trunk5
-#: ekos/manager.cpp:1024
+#: ekos/manager.cpp:1026
 #, kde-format
 msgid "Establishing communication with remote INDI Web Manager..."
 msgstr "Établissement de la communication avec le gestionnaire Internet distant INDI…"
 
 #. +> trunk5
-#: ekos/manager.cpp:1044
+#: ekos/manager.cpp:1046
 #, kde-format
 msgid "Warning: INDI Web Manager is not online."
 msgstr "Attention : le gestionnaire Internet d'un serveur distant INDI n'est pas disponible."
 
 #. +> trunk5
-#: ekos/manager.cpp:1067
+#: ekos/manager.cpp:1069
 #, kde-format
 msgid "INDI services started on port %1."
 msgstr "Démarrage des services INDI sur le port %1."
 
 #. +> trunk5
-#: ekos/manager.cpp:1070
+#: ekos/manager.cpp:1072
 #, kde-format
 msgid "INDI services started on port %1. Please connect devices."
 msgstr "Démarrage des services INDI sur le port %1. Veuillez connecter les périphériques."
 
 #. +> trunk5
-#: ekos/manager.cpp:1075
+#: ekos/manager.cpp:1077
 #, kde-format
 msgid "INDI services started. Connection to remote INDI server %1:%2 is successful. Waiting for devices..."
 msgstr "Démarrage des services INDI. La connexion au serveur INDI distant %1:%2 a été réalisée avec succès. En attente des périphériques…"
 
 #. +> trunk5
-#: ekos/manager.cpp:1085
+#: ekos/manager.cpp:1087
 #, kde-format
 msgid "Failed to connect to local INDI server %1:%2"
 msgstr "Impossible de se connecter au serveur INDI local %1:%2"
 
 #. +> trunk5
-#: ekos/manager.cpp:1087
+#: ekos/manager.cpp:1089
 #, kde-format
 msgid "Failed to connect to remote INDI server %1:%2"
 msgstr "Impossible de se connecter au serveur INDI distant %1:%2"
 
 #. +> trunk5
-#: ekos/manager.cpp:1100
+#: ekos/manager.cpp:1102
 #, kde-format
 msgid "Lost connection to local INDI server %1:%2"
 msgstr "Perte de connexion au serveur INDI local %1:%2"
 
 #. +> trunk5
-#: ekos/manager.cpp:1102
+#: ekos/manager.cpp:1104
 #, kde-format
 msgid "Lost connection to remote INDI server %1:%2"
 msgstr "Perte de connexion au serveur INDI distant %1:%2"
 
 #. +> trunk5
-#: ekos/manager.cpp:1179
+#: ekos/manager.cpp:1181
 #, kde-format
 msgid "Failed to connect to %1. Please ensure device is connected and powered on."
 msgstr "La connexion à %1 a échoué. Veuillez vous assurer que le périphérique est connecté et alimenté."
 
 #. +> trunk5
-#: ekos/manager.cpp:1181
+#: ekos/manager.cpp:1183
 #, kde-format
 msgid ""
 "Failed to connect to \n"
@@ -25203,7 +25106,7 @@ msgstr ""
 "Veuillez vous assurer que le périphérique est connecté et alimenté."
 
 #. +> trunk5
-#: ekos/manager.cpp:1209
+#: ekos/manager.cpp:1211
 #, kde-format
 msgid ""
 "Unable to establish:\n"
@@ -25215,14 +25118,14 @@ msgstr ""
 "Veuillez vous assurer que le périphérique est connecté et alimenté."
 
 #. +> trunk5
-#: ekos/manager.cpp:1213 ekos/manager.cpp:1221 ekos/manager.cpp:1251
-#: ekos/manager.cpp:1259
+#: ekos/manager.cpp:1215 ekos/manager.cpp:1223 ekos/manager.cpp:1253
+#: ekos/manager.cpp:1261
 #, kde-format
 msgid "Ekos startup error"
 msgstr "Erreur au démarrage Ekos"
 
 #. +> trunk5
-#: ekos/manager.cpp:1217
+#: ekos/manager.cpp:1219
 #, kde-format
 msgid ""
 "Unable to establish the following devices:\n"
@@ -25234,7 +25137,7 @@ msgstr ""
 "Veuillez vous assurer que chaque périphérique est connecté et alimenté."
 
 #. +> trunk5
-#: ekos/manager.cpp:1247
+#: ekos/manager.cpp:1249
 #, kde-format
 msgid ""
 "Unable to remotely establish:\n"
@@ -25245,7 +25148,7 @@ msgstr ""
 "Veuillez vous assurer que votre périphérique est connecté et alimenté."
 
 #. +> trunk5
-#: ekos/manager.cpp:1255
+#: ekos/manager.cpp:1257
 #, kde-format
 msgid ""
 "Unable to remotely establish the following devices:\n"
@@ -25257,37 +25160,37 @@ msgstr ""
 "Veuillez vous assurer que chaque périphérique est connecté et alimenté."
 
 #. +> trunk5
-#: ekos/manager.cpp:1310
+#: ekos/manager.cpp:1312
 #, kde-format
 msgid "Connecting INDI devices..."
 msgstr "Connexion aux périphériques INDI…"
 
 #. +> trunk5
-#: ekos/manager.cpp:1321
+#: ekos/manager.cpp:1323
 #, kde-format
 msgid "Disconnecting INDI devices..."
 msgstr "Déconnexion des périphériques INDI…"
 
 #. +> trunk5
-#: ekos/manager.cpp:1359
+#: ekos/manager.cpp:1361
 #, kde-format
 msgid "INDI services stopped."
 msgstr "Services INDI arrêtés."
 
 #. +> trunk5
-#: ekos/manager.cpp:1433
+#: ekos/manager.cpp:1435
 #, kde-format
 msgid "Remote devices established."
 msgstr "Connexion établie avec les périphériques distants."
 
 #. +> trunk5
-#: ekos/manager.cpp:1435
+#: ekos/manager.cpp:1437
 #, kde-format
 msgid "Remote devices established. Please connect devices."
 msgstr "Connexion établie avec les périphériques distants. Veuillez connecter les périphériques."
 
 #. +> trunk5
-#: ekos/manager.cpp:1496
+#: ekos/manager.cpp:1498
 #, kde-format
 msgid ""
 "%1 failed to connect.\n"
@@ -25297,123 +25200,123 @@ msgstr ""
 "Veuillez vous assurer que le périphérique est connecté et alimenté."
 
 #. +> trunk5
-#: ekos/manager.cpp:1503
+#: ekos/manager.cpp:1505
 #, kde-format
 msgid "%1 is disconnected."
 msgstr "Le périphérique %1 est déconnecté."
 
 #. +> trunk5
-#: ekos/manager.cpp:1522 ekos/manager.cpp:1531 ekos/manager.cpp:1564
+#: ekos/manager.cpp:1524 ekos/manager.cpp:1533 ekos/manager.cpp:1566
 #: indi/indistd.cpp:689
 #, kde-format
 msgid "%1 is online."
 msgstr "Le périphérique %1 est connecté."
 
 #. +> trunk5
-#: ekos/manager.cpp:1539
+#: ekos/manager.cpp:1541
 #, kde-format
 msgid "%1 filter is online."
 msgstr "Le filtre %1 est connecté."
 
 #. +> trunk5
-#: ekos/manager.cpp:1548
+#: ekos/manager.cpp:1550
 #, kde-format
 msgid "%1 focuser is online."
 msgstr "Le moteur de mise au point %1 est connecté."
 
 #. +> trunk5
-#: ekos/manager.cpp:1555
+#: ekos/manager.cpp:1557
 #, kde-format
 msgid "Rotator %1 is online."
 msgstr "Le rotateur %1 est connecté."
 
 #. +> trunk5
-#: ekos/manager.cpp:1571
+#: ekos/manager.cpp:1573
 #, kde-format
 msgid "%1 Weather is online."
 msgstr "La météo %1 est connectée."
 
 #. +> trunk5
-#: ekos/manager.cpp:1578
+#: ekos/manager.cpp:1580
 #, kde-format
 msgid "%1 GPS is online."
 msgstr "Le GPS %1 est connecté."
 
 #. +> trunk5
-#: ekos/manager.cpp:1587
+#: ekos/manager.cpp:1589
 #, kde-format
 msgid "%1 Dust cap is online."
 msgstr "Le bouchon anti-poussière %1 est connecté."
 
 #. +> trunk5
-#: ekos/manager.cpp:1594
+#: ekos/manager.cpp:1596
 #, kde-format
 msgid "%1 Light box is online."
 msgstr "La boîte à lumière %1 est connectée."
 
 #. +> trunk5
-#: ekos/manager.cpp:1732
+#: ekos/manager.cpp:1734
 #, kde-format
 msgid "%1 is offline."
 msgstr "Le périphérique %1 est déconnecté."
 
 #. +> trunk5
-#: ekos/manager.cpp:1979
+#: ekos/manager.cpp:1985
 #, kde-format
 msgctxt "Charge-Coupled Device"
 msgid "CCD"
 msgstr "CCD"
 
 #. +> trunk5
-#: ekos/manager.cpp:2274
+#: ekos/manager.cpp:2280
 #, kde-format
 msgid "Guider port from %1 is ready."
 msgstr "Le port du guide depuis %1 est prêt."
 
 #. +> trunk5
-#: ekos/manager.cpp:2463
+#: ekos/manager.cpp:2469
 #, kde-format
 msgid "Are you sure you want to delete the profile?"
 msgstr "Voulez-vous vraiment supprimer le profil ?"
 
 #. +> trunk5
-#: ekos/manager.cpp:2464
+#: ekos/manager.cpp:2470
 #, kde-format
 msgid "Confirm Delete"
 msgstr "Confirmer la suppression"
 
 #. +> trunk5
-#: ekos/manager.cpp:2516
+#: ekos/manager.cpp:2522
 #, kde-format
 msgid "Site location updated to %1."
 msgstr "Position du site mis à jour à %1."
 
 #. +> trunk5
-#: ekos/manager.cpp:2518
+#: ekos/manager.cpp:2524
 #, kde-format
 msgid "Failed to update site location to %1. City not found."
 msgstr "Impossible de mettre à jour la position à %1. Impossible de trouver la ville."
 
 #. +> trunk5
-#: ekos/manager.cpp:2778
+#: ekos/manager.cpp:2784
 #, kde-format
 msgid "Enabling debug logging for %1..."
 msgstr "Activation du journal de débogage pour %1…"
 
 #. +> trunk5
-#: ekos/manager.cpp:2786
+#: ekos/manager.cpp:2792
 #, kde-format
 msgid "Disabling debug logging for %1..."
 msgstr "Désactivation du débogage pour la connexion de %1…"
 
 #. +> trunk5
-#: ekos/manager.cpp:2814
+#: ekos/manager.cpp:2820
 #, kde-format
 msgid "Re-enabling debug logging for %1..."
 msgstr "Réactivation du débogage de connexion pour %1…"
 
 #. +> trunk5
-#: ekos/manager.cpp:2826
+#: ekos/manager.cpp:2832
 #, kde-format
 msgid "Re-disabling debug logging for %1..."
 msgstr "Désactivation de la journalisation de débogage pour %1…"
@@ -25439,7 +25342,6 @@ msgstr "Profil"
 #. +> trunk5
 #: ekos/manager.ui:167
 #, kde-format
-#| msgid "Add profile"
 msgid "Add profile..."
 msgstr "Ajouter un profil…"
 
@@ -25447,7 +25349,6 @@ msgstr "Ajouter un profil…"
 #. +> trunk5
 #: ekos/manager.ui:204
 #, kde-format
-#| msgid "Edit profile"
 msgid "Edit profile..."
 msgstr "Modifier un profil…"
 
@@ -25469,7 +25370,6 @@ msgstr "Pilotes personnalisés…"
 #. +> trunk5
 #: ekos/manager.ui:300
 #, kde-format
-#| msgid "Launch Ekos Profile Wizard"
 msgid "Launch Ekos Profile Wizard..."
 msgstr "Lancer l'assistant de profil Ekos…"
 
@@ -25484,7 +25384,6 @@ msgstr "2. Démarrer et/ou Arrêter Ekos"
 #. +> trunk5
 #: ekos/manager.ui:392
 #, kde-format
-#| msgid "Ekos Live"
 msgid "Ekos Live..."
 msgstr "Ekos Live…"
 
@@ -25499,10 +25398,6 @@ msgstr "Tableau de bord INDI…"
 #. +> trunk5
 #: ekos/manager.ui:450
 #, kde-format
-#| msgid ""
-#| "<html><head/><body>"
-#| "<p>Devices Port Selector</p>"
-#| "</body></html>"
 msgid ""
 "<html><head/><body>"
 "<p>Devices Port Selector...</p>"
@@ -25516,7 +25411,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/manager.ui:479
 #, kde-format
-#| msgid "Ekos Options"
 msgid "Ekos Options..."
 msgstr "Options Ekos…"
 
@@ -25531,7 +25425,6 @@ msgstr "Fichiers journaux pour diagnostiquer les problèmes Ekos et INDI."
 #. +> trunk5
 #: ekos/manager.ui:508
 #, kde-format
-#| msgid "Show Logs..."
 msgid "Logs..."
 msgstr "Fichiers journaux…"
 
@@ -25578,16 +25471,6 @@ msgstr "Options avancées Ekos"
 msgid "Options..."
 msgstr "Options…"
 
-#. i18n: ectx: property (text), widget (QPushButton, focusDetailPrevButton)
-#. i18n: ectx: property (text), widget (QPushButton, guideDetailPrevButton)
-#. i18n: ectx: property (text), widget (QPushButton, previousButton)
-#. +> trunk5
-#: ekos/manager/focusmanager.ui:267 ekos/manager/guidemanager.ui:415
-#: printing/foveditordialog.ui:115
-#, kde-format
-msgid "<"
-msgstr "<"
-
 #. i18n: ectx: property (toolTip), widget (FocusProfilePlot, profilePlot)
 #. +> trunk5
 #: ekos/manager/focusmanager.ui:275
@@ -25602,16 +25485,6 @@ msgstr "Profil de focus HFR "
 #, kde-format
 msgid "Focus star"
 msgstr "Étoile de mise au point"
-
-#. i18n: ectx: property (text), widget (QPushButton, focusDetailNextButton)
-#. i18n: ectx: property (text), widget (QPushButton, guideDetailNextButton)
-#. i18n: ectx: property (text), widget (QPushButton, nextButton)
-#. +> trunk5
-#: ekos/manager/focusmanager.ui:339 ekos/manager/guidemanager.ui:503
-#: printing/foveditordialog.ui:122
-#, kde-format
-msgid ">"
-msgstr ">"
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
 #. +> trunk5
@@ -25695,7 +25568,6 @@ msgstr "Retournement au méridien dans %1."
 #. +> trunk5
 #: ekos/manager/meridianflipstate.cpp:253
 #, kde-format
-#| msgid "Meridian flip failed - time too short, pier side unknown."
 msgid "Assuming meridian flip completed, but pier side unknown."
 msgstr "Retournement au méridien supposément terminé, mais le côté du pied est inconnu."
 
@@ -25961,7 +25833,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/mount/mount.ui:278
 #, kde-format
-#| msgid "Flip if HA >"
 msgid "Flip if HA >:"
 msgstr "Retourner si AH >"
 
@@ -26013,7 +25884,6 @@ msgstr "Purger toutes les configurations"
 #. +> trunk5
 #: ekos/mount/mount.ui:447
 #, kde-format
-#| msgid "Park At:"
 msgid "Park at:"
 msgstr "Parquer à "
 
@@ -26131,7 +26001,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/mount/mount.ui:843
 #, kde-format
-#| msgid "Enable Alt Limits"
 msgid "Enable Alt limits"
 msgstr "Activer les limites d'altitude"
 
@@ -26201,7 +26070,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/mount/mount.ui:929
 #, kde-format
-#| msgid "Enable HA Limits"
 msgid "Enable HA limits"
 msgstr "Activer les limites AH"
 
@@ -27222,7 +27090,6 @@ msgstr "Lors du calcul de position après des acquisitions, la calculer toutes l
 #. +> trunk5
 #: ekos/opsekos.ui:476
 #, kde-format
-#| msgid "Verify captured image position every"
 msgid "Verify captured image position every:"
 msgstr "Vérifier la position de l'image chaque "
 
@@ -27230,7 +27097,6 @@ msgstr "Vérifier la position de l'image chaque "
 #. +> trunk5
 #: ekos/opsekos.ui:483
 #, kde-format
-#| msgid "Reset mount model before starting each job"
 msgid "Reset mount model before starting each job:"
 msgstr "Réinitialiser le modèle de monture avant le démarrage de chaque tâche"
 
@@ -27246,7 +27112,6 @@ msgstr "Si la position de l'acquisition dépasse la position cible de plus de ce
 #. +> trunk5
 #: ekos/opsekos.ui:500
 #, kde-format
-#| msgid "Reset pipeline if verified image delta exceeds"
 msgid "Reset pipeline if verified image delta exceeds:"
 msgstr "Réinitialiser la file d'attente si le delta d'images vérifiées dépasse "
 
@@ -27337,21 +27202,20 @@ msgstr "Réglage du guidage"
 #. i18n: ectx: property (toolTip), widget (QLabel, label_17)
 #. +> trunk5
 #: ekos/opsekos.ui:698
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid ""
 "<html><head/><body>"
 "<p>Minimal duration of a meridian flip in seconds. Increase this value if Ekos reports that a meridian flip has failed because the pier side did not change. A good estimation for this value is at least 50% of the typical duration of a meridian flip.</p>"
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Durée minimale d'un retournement au méridien en secondes. Augmentez cette valeur su Ekos rapporte un échec parce que le côté du pied n'a pas changé. Une bonne estimation pour cette valeur est au moins 50% de la durée typique d'un retournement au méridien.</p>"
+"<p>Durée minimale d'un retournement au méridien en secondes. Augmentez cette valeur si Ekos rapporte un échec parce que le côté du pied n'a pas changé. Une bonne estimation pour cette valeur est au moins 50% de la durée typique d'un retournement au méridien.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_17)
 #. +> trunk5
 #: ekos/opsekos.ui:701
 #, kde-format
-#| msgid "Meridian flip in %1"
 msgid "Minimal meridian flip duration: "
 msgstr "durée minimale du retournement au méridien"
 
@@ -29467,18 +29331,13 @@ msgstr ""
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:168
 #, kde-format
-#| msgid ""
-#| "Current status of job '%1', managed by the Scheduler.\n"
-#| "If invalid, the Scheduler was not able to find a proper observation time for the target.\n"
-#| "If aborted, the Scheduler missed the scheduled time or encountered transitory issues and will reschedule the job.\n"
-#| "If complete, the Scheduler verified that all sequence captures requested were stored, including repeats."
 msgid ""
 "Current status of the job, managed by the Scheduler.\n"
 "If invalid, the Scheduler was not able to find a proper observation time for the target.\n"
 "If aborted, the Scheduler missed the scheduled time or encountered transitory issues and will reschedule the job.\n"
 "If complete, the Scheduler verified that all sequence captures requested were stored, including repeats."
 msgstr ""
-"État courant de la tâche, géréie par le Planificateur.\n"
+"État courant de la tâche, géré par le Planificateur.\n"
 "Si non valable, l'ordonnanceur ne pourra pas trouver une heure adéquate d'observation pour la cible.\n"
 "En cas d'abandon, l'ordonnanceur a manqué l'heure prévue ou a rencontré des problèmes transitoires et il reprogrammera la tâche.\n"
 "Si complété, l'ordonnanceur vérifie que toutes les séquences ont été enregistrées, incluant les répétitions."
@@ -29486,10 +29345,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:173
 #, kde-format
-#| msgid ""
-#| "Current altitude of the target of job '%1'.\n"
-#| "A rising target is indicated with an arrow going up.\n"
-#| "A setting target is indicated with an arrow going down."
 msgid ""
 "Current altitude of the target of the job.\n"
 "A rising target is indicated with an arrow going up.\n"
@@ -29502,10 +29357,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:177
 #, kde-format
-#| msgid ""
-#| "Startup time for job '%1', as estimated by the Scheduler.\n"
-#| "The altitude at startup, if available, is displayed too.\n"
-#| "Fixed time from user or culmination time is marked with a chronometer symbol. "
 msgid ""
 "Startup time of the job, as estimated by the Scheduler.\n"
 "The altitude at startup, if available, is displayed too.\n"
@@ -29518,9 +29369,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:181
 #, kde-format
-#| msgid ""
-#| "Completion time for job '%1', as estimated by the Scheduler.\n"
-#| "You may specify a fixed time to limit duration of looping jobs. A warning symbol indicates the altitude at completion may cause the job to abort before completion.\n"
 msgid ""
 "Completion time for the job, as estimated by the Scheduler.\n"
 "You may specify a fixed time to limit duration of looping jobs. A warning symbol indicates the altitude at completion may cause the job to abort before completion.\n"
@@ -29531,9 +29379,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:185
 #, kde-format
-#| msgid ""
-#| "Count of captures stored for job '%1', based on its sequence job.\n"
-#| "This is a summary, additional specific frame types may be required to complete the job."
 msgid ""
 "Count of captures stored for the job, based on its sequence job.\n"
 "This is a summary, additional specific frame types may be required to complete the job."
@@ -29684,7 +29529,6 @@ msgstr "%1 %2 %3"
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:1198
 #, kde-format
-#| msgid "Bad RA string entered for %1. Reset to original value."
 msgid "Stop editing of job #%1, resetting to original value."
 msgstr "Arrêt de la modification de la tâche %1, réinitialisation à la valeur d'origine."
 
@@ -30056,7 +29900,6 @@ msgstr "Saisir les coordonnées avec le centre de la carte du ciel."
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:884
 #, kde-format
-#| msgid "Open the Mosaic Planner"
 msgid "Open the Mosaic Planner..."
 msgstr "Ouvrir le planificateur de mosaïque…"
 
@@ -30064,7 +29907,6 @@ msgstr "Ouvrir le planificateur de mosaïque…"
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:912
 #, kde-format
-#| msgid "Save capture sequence as ..."
 msgid "Capture Sequence File Editor..."
 msgstr "Modificateur du fichier de séquence d'acquisition…"
 
@@ -30098,7 +29940,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:1025
 #, kde-format
-#| msgid "Save schedule as..."
 msgid "Save Schedule..."
 msgstr "Enregistrer le planning…"
 
@@ -30106,7 +29947,6 @@ msgstr "Enregistrer le planning…"
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:1059
 #, kde-format
-#| msgid "Save schedule as..."
 msgid "Save Schedule As..."
 msgstr "Enregistrer le planning comme…"
 
@@ -30143,10 +29983,6 @@ msgstr "Mettre l'ordonnanceur en pause"
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:1240
 #, kde-format
-#| msgid ""
-#| "<html><head/><body>"
-#| "<p>Repeat all scheduled jobs as soon as all jobs have been completed. This option is only available if the &quot;Remember job progress&quot; option in Ekos &gt; Scheduler is not selected.</p>"
-#| "</body></html>"
 msgid ""
 "<html><head/><body>"
 "<p>Repeat all scheduled jobs as soon as all jobs have been completed. This option is only available if the <span style=\" font-weight:700;\">Remember Job Progress</span> option in Ekos  Scheduler settings is <span style=\" font-weight:700;\">not</span> selected.</p>"
@@ -30194,7 +30030,6 @@ msgstr "Conditions de fin de la tâche"
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:1348
 #, kde-format
-#| msgid "&Repeat for"
 msgid "&Repeat for:"
 msgstr "&Répéter pendant"
 
@@ -30216,7 +30051,6 @@ msgstr "Finir la tâche à une heure et date données."
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:1408
 #, kde-format
-#| msgid "Repeat &until"
 msgid "Repeat &until:"
 msgstr "Répéter j&usqu'à"
 
@@ -30238,7 +30072,6 @@ msgstr "dd/MM hh:mm"
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:1521
 #, kde-format
-#| msgid "start the job on the specified date and time"
 msgid "Start the job on the specified date and time"
 msgstr "Démarre la tâche à l'heure et à la date spécifiée"
 
@@ -30281,7 +30114,6 @@ msgstr "La séparation de la lune doit rester égale ou supérieure à cette val
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:1615
 #, kde-format
-#| msgid "Moon  > "
 msgid "Moon  >: "
 msgstr "Lune > "
 
@@ -30296,7 +30128,6 @@ msgstr "L'altitude de l'objet doit rester égale ou supérieure à cette valeur.
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:1634
 #, kde-format
-#| msgid "Alt > "
 msgid "Alt >: "
 msgstr "Altitude > "
 
@@ -30338,7 +30169,6 @@ msgstr ""
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:1713
 #, kde-format
-#| msgid "Twilight"
 msgid "Twilight:"
 msgstr "Crépuscule"
 
@@ -30533,7 +30363,6 @@ msgstr "Traiter les erreurs comme des annulations."
 #. +> trunk5
 #: ekos/scheduler/scheduler.ui:2072
 #, kde-format
-#| msgid "Re-schedule errors"
 msgid "Re-schedule errors:"
 msgstr "Erreurs de replanification"
 
@@ -32274,7 +32103,6 @@ msgstr "Détecter les étoiles dans cette image"
 #. +> trunk5
 #: fitsviewer/fitsview.cpp:2480
 #, kde-format
-#| msgid "View Star Profile"
 msgid "View Star Profile..."
 msgstr "Afficher le profil de l'étoile…"
 
@@ -32368,7 +32196,6 @@ msgstr "Retourner verticalement"
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:132 kstarsinit.cpp:160
 #, kde-format
-#| msgid "Open Logs Directory"
 msgid "Open/Blink Directory"
 msgstr "Ouvrir le dossier"
 
@@ -32409,44 +32236,38 @@ msgstr "Zoomer pour ajuster"
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:272
 #, kde-format
-#| msgid "Next >"
 msgid "Next Tab"
 msgstr "Onglet suivant"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:277
 #, kde-format
-#| msgid "Previous Year"
 msgid "Previous Tab"
 msgstr "Onglet précédent"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:282
 #, kde-format
-#| msgid "Objects in Image"
 msgid "Next Blink Image"
 msgstr "Image clignotante suivante"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:287
 #, kde-format
-#| msgid "Preview image"
 msgid "Previous Blink Image"
 msgstr "Image clignotante précédente"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:292
 #, kde-format
-#| msgid "Zoom in"
 msgid "Zoom all tabs in"
 msgstr "Zoom avant de tous les onglets"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:297
 #, kde-format
-#| msgid "Zoom out"
 msgid "Zoom all tabs out"
-msgstr "Zoom arrière de tous ls onglets"
+msgstr "Zoom arrière de tous les onglets"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:302 fitsviewer/fitsviewer.cpp:1560
@@ -32535,8 +32356,6 @@ msgstr "Superposition HiPS"
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:866
 #, kde-format
-#| msgctxt "@title:window"
-#| msgid "Select Jobs Directory"
 msgctxt "@title:window"
 msgid "Blink Top Directory"
 msgstr "Faire clignoter le dossier racine"
@@ -32735,7 +32554,6 @@ msgstr "Rend la fenêtre d'affichage FITS indépendante de la fenêtre principal
 #. +> trunk5
 #: fitsviewer/opsfits.ui:134
 #, kde-format
-#| msgid "HiPS Opacity:"
 msgid "HiPS opacity:"
 msgstr "Opacité de la superposition HiPS"
 
@@ -32743,7 +32561,6 @@ msgstr "Opacité de la superposition HiPS"
 #. +> trunk5
 #: fitsviewer/opsfits.ui:141
 #, kde-format
-#| msgid "HiPS Offset:"
 msgid "HiPS offset:"
 msgstr "Décalage de la superposition HiPS"
 
@@ -32977,7 +32794,7 @@ msgstr "Calculer automatiquement HFR"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_QuickHFR)
 #. +> trunk5
 #: fitsviewer/opsfits.ui:433
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid "When computing the HFR, run it quickly by only looking at 25% of the image."
 msgstr "Lors du calcul du HFR, l'exécuter rapidement en n'utilisant que 25 % de l'image."
 
@@ -33014,7 +32831,6 @@ msgstr "Activer le découpage pour StellarSolver. Découpe l'image en plusieurs 
 #. +> trunk5
 #: fitsviewer/opsfits.ui:482
 #, kde-format
-#| msgid "StellarSolver Partitioning"
 msgid "StellarSolver partitioning"
 msgstr "Découpage de StellarSolver"
 
@@ -33283,7 +33099,6 @@ msgstr "Zoome l'affichage sur les positions présélectionnées."
 #. +> trunk5
 #: fitsviewer/starprofileviewer.cpp:182
 #, kde-format
-#| msgid "ZoomTo:"
 msgid "ZoomTo"
 msgstr "Zoomer vers "
 
@@ -33638,7 +33453,6 @@ msgstr "Impossible de trouver « dcraw » et « cjpeg ». Veuillez installer
 #. +> trunk5
 #: indi/collimationOptions.ui:20
 #, kde-format
-#| msgid "Constellation Name Options"
 msgid "Collimation Overlay Options"
 msgstr "Options de collimation de la superposition"
 
@@ -33681,7 +33495,6 @@ msgstr "Indiquer si cet élément est activé ou non"
 #. +> trunk5
 #: indi/collimationOptions.ui:167
 #, kde-format
-#| msgid "Enable"
 msgid "Enable:"
 msgstr "Activer"
 
@@ -33689,7 +33502,6 @@ msgstr "Activer"
 #. +> trunk5
 #: indi/collimationOptions.ui:192
 #, kde-format
-#| msgid "Filename"
 msgid "Rename"
 msgstr "Renommer"
 
@@ -33704,7 +33516,6 @@ msgstr "Indiquez un nom pour cet élément de superposition de la collimation. S
 #. +> trunk5
 #: indi/collimationOptions.ui:231
 #, kde-format
-#| msgid "Select color for the FOV symbol"
 msgid "Select color for the Element"
 msgstr "Sélectionner la couleur pour cet élément"
 
@@ -33713,8 +33524,6 @@ msgstr "Sélectionner la couleur pour cet élément"
 #. +> trunk5
 #: indi/collimationOptions.ui:263 indi/collimationOptions.ui:399
 #, kde-format
-#| msgctxt "string from libindi, used in the config dialog"
-#| msgid "Y"
 msgid "Y"
 msgstr "Y"
 
@@ -33722,7 +33531,6 @@ msgstr "Y"
 #. +> trunk5
 #: indi/collimationOptions.ui:293
 #, kde-format
-#| msgid "The color for the constellation names."
 msgid "Select a color for the Collimation Overlay Element."
 msgstr "Choisissez une couleur pour l'élément de superposition de la collimation."
 
@@ -33737,8 +33545,6 @@ msgstr "Réglez l'épaisseur de la line utilisée pour dessiner l'élément."
 #. +> trunk5
 #: indi/collimationOptions.ui:313
 #, kde-format
-#| msgctxt "string from libindi, used in the config dialog"
-#| msgid "Whiteness"
 msgid "Thickness:"
 msgstr "Épaisseur"
 
@@ -33753,7 +33559,6 @@ msgstr "Indiquez le décalage de l'élément par rapport à son ancre (à partir
 #. +> trunk5
 #: indi/collimationOptions.ui:339
 #, kde-format
-#| msgid "Set the width of the xplanet image"
 msgid "Set the size of the Element"
 msgstr "Définir la taille de l'élément"
 
@@ -34637,7 +34442,6 @@ msgstr "Carte du ciel"
 #. +> trunk5
 #: indi/opsindi.ui:349
 #, kde-format
-#| msgid "external Sky Map (experimental)"
 msgid "External Sky Map (experimental)"
 msgstr "Carte du ciel externe (expérimental)"
 
@@ -34702,7 +34506,6 @@ msgstr "Ouvrir la fenêtre INDI au démarrage d'Ekos"
 #. +> trunk5
 #: indi/opsindi.ui:544
 #, kde-format
-#| msgid "INDI window width"
 msgid "INDI window on startup"
 msgstr "Fenêtre INDI au démarrage"
 
@@ -34747,7 +34550,6 @@ msgstr "Enregistrer le flux durant la durée spécifiée en secondes."
 #. +> trunk5
 #: indi/recordingoptions.ui:40
 #, kde-format
-#| msgid "Duration"
 msgid "Duration:"
 msgstr "Durée"
 
@@ -34871,7 +34673,6 @@ msgstr "Enregistrer le flux jusqu'à son arrêt manuel"
 #. +> trunk5
 #: indi/recordingoptions.ui:194
 #, kde-format
-#| msgid "Until Stopped"
 msgid "Until stopped"
 msgstr "Jusqu'à l'arrêt"
 
@@ -34942,7 +34743,6 @@ msgstr "Flux vidéo"
 #. +> trunk5
 #: indi/streamform.ui:58
 #, kde-format
-#| msgid "Start recording"
 msgid "Start Recording"
 msgstr "Démarrer l'enregistrement"
 
@@ -34950,7 +34750,6 @@ msgstr "Démarrer l'enregistrement"
 #. +> trunk5
 #: indi/streamform.ui:86
 #, kde-format
-#| msgid "Recording Options"
 msgid "Recording Options..."
 msgstr "Options d'enregistrement…"
 
@@ -34958,7 +34757,6 @@ msgstr "Options d'enregistrement…"
 #. +> trunk5
 #: indi/streamform.ui:114
 #, kde-format
-#| msgid "Reset frame"
 msgid "Reset Frame"
 msgstr "Réinitialiser la trame"
 
@@ -34966,7 +34764,6 @@ msgstr "Réinitialiser la trame"
 #. +> trunk5
 #: indi/streamform.ui:143
 #, kde-format
-#| msgid "Toggle debayer"
 msgid "Toggle Debayer"
 msgstr "(Dés)activer le filtre de Bayer"
 
@@ -34974,7 +34771,6 @@ msgstr "(Dés)activer le filtre de Bayer"
 #. +> trunk5
 #: indi/streamform.ui:165
 #, kde-format
-#| msgid "Toggle constellation lines"
 msgid "Toggle Collimation Overlay"
 msgstr "(Dés)active la superposition de la collimation"
 
@@ -34982,7 +34778,6 @@ msgstr "(Dés)active la superposition de la collimation"
 #. +> trunk5
 #: indi/streamform.ui:193
 #, kde-format
-#| msgid "Constellation Name Options"
 msgid "Collimation Overlay Options..."
 msgstr "Options de superposition de la collimation…"
 
@@ -35033,7 +34828,6 @@ msgstr "Durée des trames vidéo exprimée en secondes."
 #. +> trunk5
 #: indi/streamform.ui:329
 #, kde-format
-#| msgid "Frame (s)"
 msgid "Frame(s):"
 msgstr "Trame(s)"
 
@@ -36066,7 +35860,6 @@ msgstr "Faut-il afficher la fenêtre INDI au démarrage ?"
 #. +> trunk5
 #: kstars.kcfg:198
 #, kde-format
-#| msgid "INDI window width"
 msgid "Show the INDI window when starting EKOS."
 msgstr "Afficher la fenêtre INDI au démarrage d'Ekos"
 
@@ -38600,7 +38393,7 @@ msgstr "Chaîne de planète"
 #. i18n: ectx: whatsthis, entry (XplanetLabelString), group (Xplanet)
 #. +> trunk5
 #: kstars.kcfg:1186
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid "Specify the text of the first line of the label. By default, it says something like \"Looking at Earth\". Any instances of %t will be replaced by the target name, and any instances of %o will be replaced by the origin name."
 msgstr "Spécifiez le texte de la première ligne de l'étiquette. Par défaut, il indique un message tel que « Observation de la Terre ». Toute instance de « %t » sera remplacée par le nom de la cible et toute instance de « %o » sera remplacée par le nom de l'origine."
 
@@ -38645,7 +38438,7 @@ msgstr "Format de date"
 #. i18n: ectx: whatsthis, entry (XplanetDateFormat), group (Xplanet)
 #. +> trunk5
 #: kstars.kcfg:1201
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid "Specify the format for the date/time label. This format string is passed to strftime(3). The default is \"%c %Z\", which shows the date, time, and time zone in the locale’s appropriate date and time representation."
 msgstr "Indiquer le format pour l'étiquette de date/heure. Cette chaîne de format est passée à « strftime » (3). La valeur par défaut est « %c %Z », affichant la date, l'heure et le fuseau horaire selon la représentation de date et d'heure correspondant aux paramètres régionaux."
 
@@ -39371,7 +39164,7 @@ msgstr "Calculer automatiquement les HFR des images FITS."
 #. i18n: ectx: label, entry (QuickHFR), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1499
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid "Compute the HFRs of normal images quickly by looking at the center 25% only."
 msgstr "Calculer les HFR des images normales rapidement en regardant 25 % du centre seulement."
 
@@ -40015,7 +39808,6 @@ msgstr "Augmenter la valeur HFR de mise au point automatique de ce gain en pourc
 #. +> trunk5
 #: kstars.kcfg:1871
 #, kde-format
-#| msgid "In-sequence HFR check:"
 msgid "Algorithm for In Sequence HFR Check"
 msgstr "Algorithme de vérification HFR durant la séquence"
 
@@ -40164,7 +39956,7 @@ msgstr "Noms du filtre lors de l'utilisation du modificateur esq."
 #: kstars.kcfg:1958
 #, kde-format
 msgid "Width,Height of sensor size remembered for stand-alone esq editor, and Gain/Offset keywords."
-msgstr "Largeur et hauteur du capteur enregistrés pour le modificateur esq, ainsi que les mots-clé du gain et du décalage."
+msgstr "Largeur et hauteur du capteur enregistrées pour le modificateur esq, ainsi que les mots-clé du gain et du décalage."
 
 #. i18n: ectx: label, entry (CaptureStandAloneTimestamp), group (Capture)
 #. +> trunk5
@@ -40282,7 +40074,6 @@ msgstr "Mesurer la valeur moyenne du HFR de toutes les étoiles combinées dans 
 #. +> trunk5
 #: kstars.kcfg:2013
 #, kde-format
-#| msgid "Job #%1 changes applied."
 msgid "No mask is applied."
 msgstr "Aucun masque appliqué"
 
@@ -40310,7 +40101,7 @@ msgstr "Rayon intérieur du champ complet."
 #. i18n: ectx: whatsthis, entry (FocusFullFieldInnerRadius), group (Focus)
 #. +> trunk5
 #: kstars.kcfg:2026
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid "During full field focusing, stars which are inside this percentage of the frame are filtered out of HFR calculation (default 0%). Detection algorithms may also have an inherent filter."
 msgstr "Pendant la mise au point de plein champ, les étoiles se trouvant à l'intérieur de ce pourcentage de la trame sont filtrées hors du calcul HFR (0 % par défaut). Les algorithmes de détection peuvent également avoir un filtre inhérent."
 
@@ -40324,7 +40115,7 @@ msgstr "Rayon extérieur du champ complet."
 #. i18n: ectx: whatsthis, entry (FocusFullFieldOuterRadius), group (Focus)
 #. +> trunk5
 #: kstars.kcfg:2031
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid "During full field focusing, stars which are outside this percentage of the frame are filtered out of HFR calculation (default 100%). Detection algorithms may also have an inherent filter."
 msgstr "Lors de la mise au point en plein champ, les étoiles étant en dehors de ce pourcentage de la trame sont filtrées en dehors du calcul HFR (100 % par défaut). Les algorithmes de détection peuvent également avoir un filtre inhérent."
 
@@ -41984,7 +41775,6 @@ msgstr "Case à cocher par défaut de l'ordonnanceur sur les contraintes du cré
 #. +> trunk5
 #: kstars.kcfg:3070
 #, kde-format
-#| msgid "The observation job is completed when the sequence is complete."
 msgid "Scheduler is complete once all sequences are complete."
 msgstr "L'ordonnanceur est terminé une fois que toutes les séquences sont terminées."
 
@@ -41999,7 +41789,6 @@ msgstr "Redémarrer les séquences dès que toutes les séquences sont terminée
 #. +> trunk5
 #: kstars.kcfg:3078
 #, kde-format
-#| msgid "Record stream until manually stopped"
 msgid "Restart sequences until manually terminated."
 msgstr "Redémarrer les séquences jusqu'à ce qu'elles soient manuellement terminées."
 
@@ -42014,7 +41803,6 @@ msgstr "Lancer les séquences en boucles jusqu'à ce que le temps indiqué est a
 #. +> trunk5
 #: kstars.kcfg:3086
 #, kde-format
-#| msgid "Limit how many times the scheduler should execute all sequences."
 msgid "Time when scheduler should stop repeating sequences."
 msgstr "Heure à laquelle le planificateur devrait arrêter de répéter les séquences."
 
@@ -76329,7 +76117,6 @@ msgstr "Télécharge de nouvelles données"
 #. +> trunk5
 #: kstarsinit.cpp:156
 #, kde-format
-#| msgid "Open Image..."
 msgid "Open Image(s)..."
 msgstr "Ouvrir une(des) image(s)…"
 
@@ -84816,7 +84603,6 @@ msgstr "Dimension maximale de l'image superposée. (Les grandes images seront r�
 #. +> trunk5
 #: options/opsimageoverlay.ui:95
 #, kde-format
-#| msgid "Maximum image dimension"
 msgid "Maximum image dimension:"
 msgstr "Dimension maximale de l'image"
 
@@ -84831,7 +84617,6 @@ msgstr "Ouvrir le dossier des images superposées. Copiez ou déplacez les image
 #. +> trunk5
 #: options/opsimageoverlay.ui:146
 #, kde-format
-#| msgid "Overlay Directory"
 msgid "Overlay Directory..."
 msgstr "Dossier des images de superposition…"
 
@@ -84878,7 +84663,6 @@ msgstr "Échelle par défaut en minutes d'arc par pixel à utiliser pour la rés
 #. +> trunk5
 #: options/opsimageoverlay.ui:274
 #, kde-format
-#| msgid "Default a-s/px"
 msgid "Default a-s/px:"
 msgstr "Secondes d'arc par pixel par défaut"
 
@@ -84894,7 +84678,6 @@ msgstr "Délai (en secondes) pour la résolution de l'image superposée."
 #. +> trunk5
 #: options/opsimageoverlay.ui:315
 #, kde-format
-#| msgid "Time out:"
 msgid "Timeout:"
 msgstr "Délai limite"
 
@@ -85474,7 +85257,6 @@ msgstr "Définir la limite de magnitude concernant les alertes des supernovas"
 #. +> trunk5
 #: options/opssupernovae.ui:113
 #, kde-format
-#| msgid "Download URL"
 msgid "Download URL:"
 msgstr "URL de téléchargement"
 
@@ -85482,7 +85264,6 @@ msgstr "URL de téléchargement"
 #. +> trunk5
 #: options/opssupernovae.ui:120
 #, kde-format
-#| msgid "Age (days)"
 msgid "Age (days):"
 msgstr "Âge (jours)"
 
@@ -90555,7 +90336,7 @@ msgstr "Phase"
 #. i18n: ectx: property (text), widget (QLabel, LunarPhase)
 #. +> trunk5
 #: tools/modcalcdaylength.ui:736
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid "Waxing gibbous (75%)"
 msgstr "Lune gibbeuse (75 %)"
 
@@ -93216,7 +92997,6 @@ msgstr "Tester le script"
 #. +> trunk5
 #: tools/scriptbuilder.ui:200
 #, kde-format
-#| msgid "Executes the script in the KStars main window.  You may want to reposition the Script Builder tool so that the Sky map is visible.  "
 msgid "Executes the script in the KStars main window. You may want to reposition the Script Builder tool so that the Sky map is visible."
 msgstr "Exécute le script dans la fenêtre principale de KStars. Vous pouvez être amené à repositionner l'outil « Constructeur de scripts » pour que la carte du ciel soit visible."
 
@@ -93231,7 +93011,6 @@ msgstr "Script actuel"
 #. +> trunk5
 #: tools/scriptbuilder.ui:279
 #, kde-format
-#| msgid "This shows the list of commands present in the current working script.  Highlighting any command will present a widget where you can specify its arguments below.  Use the action buttons at right to copy, remove, or change the position of the selected command.  "
 msgid "This shows the list of commands present in the current working script. Highlighting any command will present a widget where you can specify its arguments below. Use the action buttons at right to copy, remove, or change the position of the selected command."
 msgstr "Cet élément affiche la liste des commandes présentes dans le script en cours d'exécution. Le surlignage de n'importe quelle commande présentera un composant graphique où vous pourrez spécifier ses arguments en dessous. Utilisez les boutons d'action à droite pour copier, supprimer ou changer la position de la commande sélectionnée."
 
@@ -94007,7 +93786,7 @@ msgstr "Affiche la fraction d'illumination de la Lune pour la date sélectionné
 #. i18n: ectx: property (text), widget (QLabel, MoonIllumLabel)
 #. +> trunk5
 #: tools/wutdialog.ui:333
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid "Moon illum: 42%"
 msgstr "Illum. lunaire : 42 %"
 
@@ -94815,7 +94594,7 @@ msgstr "Indiquez le texte de la première ligne de l'étiquette."
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_XplanetLabelString)
 #. +> trunk5
 #: xplanet/opsxplanet.ui:622
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid "Specify the text of the first line of the label. By default, it says something like \"Looking at Earth\".  Any instances of %t will be replaced by the target name, and any instances of %o will be replaced by the origin name."
 msgstr "Spécifiez le texte de la première ligne de l'étiquette. Par défaut, il indique un message tel que « Observe la Terre ». Toute instance de « %t » sera remplacée par le nom de la cible et toute instance de « %o » sera remplacée par le nom de l'origine."
 
@@ -94836,7 +94615,7 @@ msgstr "Indiquez le format pour l'étiquette date/heure."
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_XplanetDateFormat)
 #. +> trunk5
 #: xplanet/opsxplanet.ui:639
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid "Specify the format for the date/time label.  This format string is passed to strftime(3).  The default is \"%c %Z\", which shows the date, time, and time zone in the  locale’s  appropriate date and time representation."
 msgstr "Spécifiez le format pour l'étiquette date/heure. Cette chaîne de format est passée en paramètre à strftime(3). La valeur par défaut est « %c %Z », qui affiche la date, l'heure et le fuseau horaire dans la représentation de date et d'heure des paramètres régionaux."
 
@@ -94872,7 +94651,6 @@ msgstr "Si cette case est cochée, affiche une étiquette dans le coin supérieu
 #. +> trunk5
 #: xplanet/opsxplanet.ui:784
 #, kde-format
-#| msgid "Show label"
 msgid "Show label:"
 msgstr "Afficher l'étiquette"
 
@@ -94929,7 +94707,6 @@ msgstr "Écrire les limites de marqueurs dans"
 #. +> trunk5
 #: xplanet/opsxplanet.ui:884
 #, kde-format
-#| msgid "Place the observer above latitude "
 msgid "Place the observer above latitude: "
 msgstr "Placer l'observateur au-dessus de la latitude "
 
@@ -94944,7 +94721,6 @@ msgstr "Rend le corps cible comme observé au-dessus de la latitude spécifiée 
 #. +> trunk5
 #: xplanet/opsxplanet.ui:910
 #, kde-format
-#| msgid " and longitude "
 msgid " and longitude: "
 msgstr " et longitude "
 
@@ -95038,6 +94814,10 @@ msgstr "Couleur de l'arrière plan"
 #, kde-format
 msgid "Set the color for the background."
 msgstr "Sélectionnez la couleur de fond."
+
+#, kde-format
+#~ msgid "PHD2: Guiding resumed."
+#~ msgstr "PHD2 : reprise du guidage."
 
 #, kde-format
 #~ msgid "No job running"
