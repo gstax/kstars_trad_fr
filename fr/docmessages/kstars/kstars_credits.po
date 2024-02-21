@@ -1,10 +1,10 @@
 # translation of kstars_credits.po to french
 # traduction de kstars_credits.po en Français
 #
+# SPDX-FileCopyrightText: 2012, 2024 Xavier Besnard <xavier.besnard@kde.org>
 # Ludovic Grossard <grossard@kde.org>, 2002, 2004, 2012.
 # Gérard Delafond <gerard@delafond.org>, 2002,2003.
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2012.
-# SPDX-FileCopyrightText: 2012, 2024 Xavier Besnard <xavier.besnard@kde.org>
 # steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
@@ -13,7 +13,7 @@ msgstr ""
 "POT-Creation-Date: 2021-07-22 10:31+0200\n"
 "PO-Revision-Date: 2024-01-22 21:25+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
-"Language-Team: \n"
+"Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,12 +39,8 @@ msgstr "&kstars;"
 #. +> trunk5
 #: credits.docbook:5
 #, no-c-format
-msgid ""
-"Program copyright 2001-2021 The &kstars; Team <email>mutlaqja@ikarustech.com<"
-"/email>"
-msgstr ""
-"Programme sous copyright 2001-2023 L'équipe de &kstars; <email"
-">mutlaqja@ikarustech.com</email>"
+msgid "Program copyright 2001-2021 The &kstars; Team <email>mutlaqja@ikarustech.com</email>"
+msgstr "Programme sous copyright 2001-2023 L'équipe de &kstars; <email>mutlaqja@ikarustech.com</email>"
 
 #. Tag: para
 #. +> trunk5
@@ -134,7 +130,6 @@ msgstr "Akarsh Simha <email>akarsh.simha@kdemail.net</email>"
 #. +> trunk5
 #: credits.docbook:34
 #, no-c-format
-#| msgid "Jérôme Sonrier <email>jsid@emor3j.fr.eu.org</email>"
 msgid "Jerome Sonrier <email>jsid@emor3j.fr.eu.org</email>"
 msgstr "Jerome Sonrier <email>jsid@emor3j.fr.eu.org</email>"
 
@@ -198,24 +193,15 @@ msgstr "Sources de données :"
 #. +> trunk5
 #: credits.docbook:57
 #, no-c-format
-msgid ""
-"Object catalogs and planet position tables: <ulink"
-" url=\"http://adc.gsfc.nasa.gov\">NASA Astronomical Data Center</ulink>"
-msgstr ""
-"Catalogues d'objets et tables de position des étoiles : <ulink"
-" url=\"http://adc.gsfc.nasa.gov\">Centre de données astronomiques de la NASA<"
-"/ulink>"
+msgid "Object catalogs and planet position tables: <ulink url=\"http://adc.gsfc.nasa.gov\">NASA Astronomical Data Center</ulink>"
+msgstr "Catalogues d'objets et tables de position des étoiles : <ulink url=\"http://adc.gsfc.nasa.gov\">Centre de données astronomiques de la NASA</ulink>"
 
 #. Tag: para
 #. +> trunk5
 #: credits.docbook:62
 #, no-c-format
-msgid ""
-"Detailed credit information for all of the images used in the program is"
-" presented in the file README.images"
-msgstr ""
-"Les informations de remerciement pour toutes les images utilisées dans le"
-" programme sont présentées dans le fichier README.images."
+msgid "Detailed credit information for all of the images used in the program is presented in the file README.images"
+msgstr "Les informations de remerciement pour toutes les images utilisées dans le programme sont présentées dans le fichier README.images."
 
 #. Tag: para
 #. +> trunk5
@@ -228,11 +214,8 @@ msgstr "Références :"
 #. +> trunk5
 #: credits.docbook:71
 #, no-c-format
-msgid ""
-"<quote>Practical Astronomy With Your Calculator</quote> by Peter Duffet-Smith"
-msgstr ""
-"<quote>Astronomie pratique avec votre calculatrice</quote> par Peter"
-" Duffet-Smith"
+msgid "<quote>Practical Astronomy With Your Calculator</quote> by Peter Duffet-Smith"
+msgstr "<quote>Astronomie pratique avec votre calculatrice</quote> par Peter Duffet-Smith"
 
 #. Tag: para
 #. +> trunk5
@@ -245,45 +228,22 @@ msgstr "<quote>Algorithmes astronomiques</quote> par Jean Meeus"
 #. +> trunk5
 #: credits.docbook:78
 #, no-c-format
-msgid ""
-"Special thanks: To the &kde; and &Qt; developers for providing the world with"
-" a peerless set of free <acronym>API</acronym> libraries. To the &kdevelop;"
-" team, for their excellent <acronym>IDE</acronym>, which made developing"
-" &kstars; so much easier and more fun. To everyone on the &kdevelop; message"
-" board, the &kde; mailing lists, and on irc.kde.org, for answering our"
-" frequent questions. Thank you to &Anne-Marie.Mahfouf;, for inviting &kstars;"
-" to join the &kde;-Edu module. Finally, thanks to everyone who has submitted"
-" bug reports and other feedback. Thank you, everyone."
-msgstr ""
-"Remerciements spéciaux aux développeurs de &kde; et de &Qt; pour offrir au"
-" monde des bibliothèques <acronym>API</acronym> libres de qualité hors-pair."
-" À l'équipe de <application>KDevelop</application> pour leur excellent <"
-"acronym>IDE</acronym> qui a rendu le développement de &kstars; plus facile et"
-" agréable. À tout le monde du forum de <application>KDevelop</application>, à"
-" la liste de diffusion de &kde; et sur irc.kde.org pour les réponses aux"
-" fréquentes questions. Merci à Anne-Marie Mahfouf pour avoir invité &kstars;"
-" à rejoindre le module &kde;-Edu. Enfin, à tous ceux qui ont fait part de"
-" bogues et autres retours. Merci à tous."
+msgid "Special thanks: To the &kde; and &Qt; developers for providing the world with a peerless set of free <acronym>API</acronym> libraries. To the &kdevelop; team, for their excellent <acronym>IDE</acronym>, which made developing &kstars; so much easier and more fun. To everyone on the &kdevelop; message board, the &kde; mailing lists, and on irc.kde.org, for answering our frequent questions. Thank you to &Anne-Marie.Mahfouf;, for inviting &kstars; to join the &kde;-Edu module. Finally, thanks to everyone who has submitted bug reports and other feedback. Thank you, everyone."
+msgstr "Remerciements spéciaux aux développeurs de &kde; et de &Qt; pour offrir au monde des bibliothèques <acronym>API</acronym> libres de qualité hors-pair. À l'équipe de <application>KDevelop</application> pour leur excellent <acronym>IDE</acronym> qui a rendu le développement de &kstars; plus facile et agréable. À tout le monde du forum de <application>KDevelop</application>, à la liste de diffusion de &kde; et sur irc.kde.org pour les réponses aux fréquentes questions. Merci à Anne-Marie Mahfouf pour avoir invité &kstars; à rejoindre le module &kde;-Edu. Enfin, à tous ceux qui ont fait part de bogues et autres retours. Merci à tous."
 
 #. Tag: para
 #. +> trunk5
 #: credits.docbook:89
 #, no-c-format
-msgid ""
-"Documentation copyright 2001-2021 &Jason.Harris; and the &kstars; Team <email"
-">kstars-devel AT kde.org</email>"
-msgstr ""
-"Documentation copyright 2001-2023 &Jason.Harris; et l'équipe de &kstars; <"
-"email>kstars-devel AT kde.org</email>"
+msgid "Documentation copyright 2001-2021 &Jason.Harris; and the &kstars; Team <email>kstars-devel AT kde.org</email>"
+msgstr "Documentation copyright 2001-2023 &Jason.Harris; et l'équipe de &kstars; <email>kstars-devel AT kde.org</email>"
 
 #. Tag: trans_comment
 #. +> trunk5
 #: credits.docbook:94
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
-msgstr ""
-"<para>Traduction française par l'équipe de traduction francophone de kde <"
-"email>kde-francophone@kde.org</email></para>"
+msgstr "<para>Traduction française par l'équipe de traduction francophone de kde <email>kde-francophone@kde.org</email></para>"
 
 #. Tag: chapter
 #. +> trunk5
@@ -291,4 +251,3 @@ msgstr ""
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr "&underFDL; &underGPL;"
-

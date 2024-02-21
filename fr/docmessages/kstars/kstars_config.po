@@ -4,23 +4,23 @@
 # Gérard Delafond <gerard@delafond.org>, 2002,2003, 2004.
 # Ludovic Grossard <grossard@kde.org>, 2002, 2003, 2004, 2012.
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2012, 2013.
-# Xavier Besnard <xavier.besnard@kde.org>, 2012.
+# SPDX-FileCopyrightText: 2012, 2024 Xavier Besnard <xavier.besnard@kde.org>
 # steve <stax@ik.me>, 2022, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_config_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-06 11:29+0100\n"
-"PO-Revision-Date: 2023-12-22 10:43+0100\n"
-"Last-Translator: steve <stax@ik.me>\n"
+"POT-Creation-Date: 2024-02-20 07:57+0100\n"
+"PO-Revision-Date: 2024-02-01 19:05+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Lokalize 23.08.4\n"
 
 #. Tag: title
 #. +> trunk5
@@ -215,7 +215,7 @@ msgstr "<phrase>Fenêtre de configuration de &kstars;</phrase>"
 #: config.docbook:143
 #, no-c-format
 msgid "The <guilabel>Configure - &kstars;</guilabel> window is divided into fourteen pages: <guilabel>Catalogs</guilabel>, <guilabel>Solar System</guilabel>, <guilabel>Satellites</guilabel>, <guilabel>Supernovae</guilabel>, <guilabel>Guides</guilabel>, <guilabel>Terrain</guilabel>, <guilabel>Image Overlays</guilabel>, <guilabel>Colors</guilabel>, <guilabel>FITS</guilabel>, <guilabel>INDI</guilabel>, <guilabel>Ekos</guilabel>, <guilabel>Xplanet</guilabel>, <guilabel>Advanced</guilabel> and <guilabel>Developer</guilabel>."
-msgstr "La fenêtre <guilabel>Configuration de &kstars;</guilabel> est divisée en quatorze pages : <guilabel>Catalogues</guilabel>, <guilabel>Système solaire</guilabel>, <guilabel>Satellites</guilabel>, <guilabel>Supernovae</guilabel>, <guilabel>Guides</guilabel>, <guilabel>Terrain</guilabel>, <guilabel>Superposition d'image</guilabel>, <guilabel>Couleurs</guilabel>, <guilabel>FITS</guilabel>, <guilabel>INDI</guilabel>, <guilabel>Ekos</guilabel>, <guilabel>Xplanet</guilabel>, <guilabel>Avancé</guilabel> et <guilabel>Développeurs</guilabel>."
+msgstr "La fenêtre <guilabel>Configuration de &kstars;</guilabel> est divisée en quatorze pages : <guilabel>Catalogues</guilabel>, <guilabel>Système solaire</guilabel>, <guilabel>Satellites</guilabel>, <guilabel>Supernova</guilabel>, <guilabel>Guides</guilabel>, <guilabel>Terrain</guilabel>, <guilabel>Superposition d'image</guilabel>, <guilabel>Couleurs</guilabel>, <guilabel>FITS</guilabel>, <guilabel>INDI</guilabel>, <guilabel>Ekos</guilabel>, <guilabel>XPlanet</guilabel>, <guilabel>Avancé</guilabel> et <guilabel>Développeurs</guilabel>."
 
 #. Tag: secondary
 #. +> trunk5
@@ -264,14 +264,14 @@ msgstr "L'onglet des <guilabel>satellites</guilabel> vous permet de définir les
 #: config.docbook:178 config.docbook:1082
 #, no-c-format
 msgid "Supernovae page"
-msgstr "Page des supernovae"
+msgstr "Page des supernova"
 
 #. Tag: para
 #. +> trunk5
 #: config.docbook:178
 #, no-c-format
 msgid "The <guilabel>Supernovae</guilabel> page allows you to manage how supernovae are displayed by &kstars;."
-msgstr "L'onglet <guilabel>Supernovae</guilabel> permet de gérer la manière dont les supernovae sont affichées dans &kstars;."
+msgstr "L'onglet <guilabel>Supernova</guilabel> permet de gérer la manière dont les supernova sont affichées dans &kstars;."
 
 #. Tag: secondary
 #. +> trunk5
@@ -391,7 +391,6 @@ msgstr "Pour une explication détaillée des options sur <guilabel>INDI</guilabe
 #. +> trunk5
 #: config.docbook:240
 #, no-c-format
-#| msgid "For detailed explanation of <guilabel>Ekos</guilabel> astrophotography suite, see the <link linkend=\"tool-ekos\">Ekos section of this manual</link>."
 msgid "For detailed explanation of <guilabel>Ekos</guilabel> astrophotography suite, see the <link linkend=\"ekos\">Ekos section of this manual</link>."
 msgstr "Pour une explication détaillée des options de la suite astrophotographie <guilabel>Ekos</guilabel>, veuillez vous reporter à la section <link linkend=\"ekos\">Section Ekos</link> de ce manuel."
 
@@ -400,14 +399,14 @@ msgstr "Pour une explication détaillée des options de la suite astrophotograph
 #: config.docbook:247
 #, no-c-format
 msgid "Xplanet page"
-msgstr "Page Xplanet"
+msgstr "Page de XPlanet"
 
 #. Tag: para
 #. +> trunk5
 #: config.docbook:247
 #, no-c-format
 msgid "The <guilabel>Xplanet</guilabel> page provides fine-grained control over <ulink url=\"http://xplanet.sourceforge.net/\">Solar system planet surface renderer Xplanet</ulink> (should be installed separately)."
-msgstr "La page <guilabel>Xplanet</guilabel> fournit un contrôle détaillé du <ulink url=\"http://xplanet.sourceforge.net/\">rendu de la surface des planètes du système solaire par Xplanet</ulink> (à installer séparément)."
+msgstr "La page de <guilabel>XPlanet</guilabel> fournit un contrôle détaillé du <ulink url=\"http://xplanet.sourceforge.net/\">rendu de la surface des planètes du système solaire par XPlanet</ulink> (à installer séparément)."
 
 #. Tag: secondary
 #. +> trunk5
@@ -512,21 +511,21 @@ msgstr "Le catalogue NGC/IC de Steinicke qui est un catalogue plus complet que l
 #: config.docbook:319
 #, no-c-format
 msgid "Abell Planetary Nebulae Catalog: is a catalog of 86 planetary nebulae. The maximum magnitude is represented by Abell 47's value of 19.5."
-msgstr "Le catalogue des nébuleuses planétaires d'Abell qui contient 86 nébuleuses planétaires. La magnitude maximale est atteinte par le 47e objet dont la valeur est 19,5."
+msgstr "Le catalogue des nébuleuses planétaires de Abell contenant 86 nébuleuses planétaires. La magnitude maximale est atteinte par le 47 ième objet dont la valeur est 19,5."
 
 #. Tag: para
 #. +> trunk5
 #: config.docbook:324
 #, no-c-format
 msgid "Sharpless HII region Catalog: is the Sharpless (Sh2) catalog of HII regions (diffuse nebulae)."
-msgstr "Le catalogue Sharpless de la région HII (Sh2) contient les régions des nébuleuses diffuses."
+msgstr "Le catalogue « Sharpless » de la région « HII » (Sh2) contient les régions des nébuleuses diffuses."
 
 #. Tag: para
 #. +> trunk5
 #: config.docbook:328
 #, no-c-format
 msgid "Hickson Compact Groups: is a catalog consisting of 99 compact groups of galaxies."
-msgstr "Les groupes compacts d'Hickson forment un catalogue contenant un groupe compact de 99 galaxies."
+msgstr "Les groupes compacts de Hickson forment un catalogue contenant un groupe compact de 99 galaxies."
 
 #. Tag: para
 #. +> trunk5
@@ -867,7 +866,7 @@ msgstr "Cette section aspire à introduire la base de données de catalogues de 
 #: config.docbook:514
 #, no-c-format
 msgid "DSO catalogs in &kstars; are just SQL (sqlite3) database tables. Each catalog is represented by its own table which contains all its objects and an entry in a catalog metadata table. Additionally, catalogs may be imported or exported from and into stand-alone database files."
-msgstr "Les catalogues du ciel profond dans &kstars; sont de simples tables SQL (sqlite3) de bases de données. Chaque catalogue est représenté par sa propre table qui contient tous les objets et une entrée dans une table des métadonnées du catalogue. De plus, les catalogues peuvent être importés ou exportés dans des fichiers de base de données autonomes."
+msgstr "Les catalogues du ciel profond dans &kstars; sont de simples tables « SQL » (SQLite3) de bases de données. Chaque catalogue est représenté par sa propre table qui contient tous les objets et une entrée dans une table des métadonnées du catalogue. De plus, les catalogues peuvent être importés ou exportés dans des fichiers de base de données autonomes."
 
 #. Tag: para
 #. +> trunk5
@@ -1448,7 +1447,7 @@ msgstr "Un identifiant interne du catalogue."
 #: config.docbook:906
 #, no-c-format
 msgid "For example the screenshot above, the object originates from the OpenNGC catalog where each row is identified by <quote>NGCXXXX</quote>."
-msgstr "Par exemple dans la capture d'écran ci-dessus, l'objet vient du catalogue OpenNGC où chaque rangée est identifiée par <quote>NGCXXXX</quote>."
+msgstr "Par exemple dans la capture d'écran ci-dessus, l'objet vient du catalogue « OpenNGC » où chaque rangée est identifiée par <quote>NGCXXXX</quote>."
 
 #. Tag: guilabel
 #. +> trunk5
@@ -1602,49 +1601,49 @@ msgstr "&kstars; peut dessiner des satellites artificiels depuis de nombreux gro
 #: config.docbook:1058
 #, no-c-format
 msgid "You can add new satellites to &kstars; default satellites set by editing the <filename>kstars/data/satellites.dat</filename> file. As each line of this file is a group of satellites, you need to add a new entry for your desired satellites group. An entry should have the following format: <userinput>Group Name;local_filename;url</userinput>. For example: <userinput>Iridium;iridium.tle;https://celestrak.com/NORAD/elements/iridium.txt</userinput>."
-msgstr "Vous pouvez ajouter de nouveaux satellites à l'ensemble de satellites par défaut de &kstars; en modifiant le fichier <filename>kstars/data/satellites.dat</filename>. Comme chaque ligne de ce fichier est un groupe de satellites, vous devez saisir une ligne pour votre groupe de satellites désiré. Une entrée doit avoir le format suivant : <userinput>Nom groupe;fichier_local;URL</userinput>. Par exemple : <userinput>Iridium;iridium.tle;https://celestrak.com/NORAD/elements/iridium.txt</userinput>."
+msgstr "Vous pouvez ajouter de nouveaux satellites à l'ensemble de satellites par défaut de &kstars; en modifiant le fichier <filename>kstars/data/satellites.dat</filename>. Comme chaque ligne de ce fichier est un groupe de satellites, vous devez saisir une ligne pour votre groupe de satellites désiré. Une entrée doit avoir le format suivant : <userinput>Nom groupe;fichier-local;URL</userinput>. Par exemple : <userinput>Iridium;iridium.tle;https://celestrak.com/NORAD/elements/iridium.txt</userinput>."
 
 #. Tag: title
 #. +> trunk5
 #: config.docbook:1068
 #, no-c-format
 msgid "Supernovae"
-msgstr "Supernovae"
+msgstr "Supernova"
 
 #. Tag: screeninfo
 #. +> trunk5
 #: config.docbook:1070
 #, no-c-format
 msgid "<screeninfo>Supernovae Window</screeninfo>"
-msgstr "<screeninfo>Fenêtre des supernovae</screeninfo>"
+msgstr "<screeninfo>Fenêtre des supernova</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: config.docbook:1076
 #, no-c-format
 msgid "<phrase>Supernovae Window</phrase>"
-msgstr "<phrase>Fenêtre des supernovae</phrase>"
+msgstr "<phrase>Fenêtre des supernova</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: config.docbook:1082
 #, no-c-format
 msgid "The <guilabel>Supernovae</guilabel> page allows you to decide if the supernovae are displayed or not by checking the <guilabel>Show supernovae</guilabel> checkbox. By default, supernovae are drawn as small light orange <quote>+</quote> mark. As for satellites, the color of supernovae can be easily customized using the <guilabel>Colors</guilabel> page."
-msgstr "La page <guilabel>Supernovae</guilabel> vous permet de choisir si les supernovae sont affichées ou non en cochant la case <guilabel>Afficher les supernovae</guilabel>. Par défaut les supernovae sont dessinées comme de petit <quote>+</quote> de couleur orange clair. Comme pour les satellites, la couleur des supernovae peut facilement être modifiée sur la page des <guilabel>Couleurs</guilabel>."
+msgstr "La page <guilabel>Supernova</guilabel> vous permet de choisir si les supernova sont affichées ou non en cochant la case <guilabel>Afficher les supernova</guilabel>. Par défaut les supernova sont dessinées comme de petit <quote>+</quote> de couleur orange clair. Comme pour les satellites, la couleur des supernova peut facilement être modifiée sur la page des <guilabel>Couleurs</guilabel>."
 
 #. Tag: para
 #. +> trunk5
 #: config.docbook:1087
 #, no-c-format
 msgid "You can set the magnitude limit for showing a supernova as well as magnitude limit for supernova alerts using the spin boxes control. The limiting magnitude is the faintest apparent magnitude of an skyobject that is visible with the naked-eye or a telescope."
-msgstr "Vous pouvez régler la magnitude limite d'affichage des supernovae ainsi que la magnitude limite pour les alertes. La magnitude limite est la plus faible magnitude d'un objet du ciel visible à l'œil nu ou avec un télescope."
+msgstr "Vous pouvez régler la magnitude limite d'affichage des supernova ainsi que la magnitude limite pour les alertes. La magnitude limite est la plus faible magnitude d'un objet du ciel visible à l'œil nu ou avec un télescope."
 
 #. Tag: para
 #. +> trunk5
 #: config.docbook:1092
 #, no-c-format
 msgid "The list of recent supernovae can be updated via the <menuchoice><guimenu>Data</guimenu> <guisubmenu>Updates</guisubmenu> <guimenuitem>Update Recent Supernovae data</guimenuitem></menuchoice> menu item."
-msgstr "La liste des supernovae récentes peut être mise à jour dans le menu <menuchoice><guimenu>Données</guimenu> <guimenuitem>Mettre à jour les données des supernovae récentes</guimenuitem></menuchoice>."
+msgstr "La liste des supernova récentes peut être mise à jour dans le menu <menuchoice><guimenu>Données</guimenu> <guimenuitem>Mettre à jour les données des supernova récentes</guimenuitem></menuchoice>."
 
 #. Tag: title
 #. +> trunk5
@@ -1714,7 +1713,7 @@ msgstr "L'utilisateur a la possibilité de créer une image partiellement transp
 #: config.docbook:1146
 #, no-c-format
 msgid "Initially, the user captures a full sphere equirectangular projection image from approximately the same point-of-view as his/her telescope. This kind of image can be captured with the Google Camera App, or the Google YouTube App on iPhone, or likely many other camera apps. The user then needs to edit the resulting image so that the sky is erased/transparent, and save it as a PNG. Finally, the user needs to determine where North is in the image, so it can eventually be aligned with the skymap. Once all that is done, the sky map can simulate the local sky view including the local terrain."
-msgstr "L'utilisateur prend d'abord une image à 360° en projection équirectangulaire depuis approximativement le même point de vue que son télescope. Ce type d'image peut être prise avec l'App de l'appareil photo de Google, ou l'App Youtube de Google, avec son téléphone portable ou tout autre application de l'appareil photo. L'utilisateur doit ensuite modifier l'image pour rendre le ciel transparent et l'enregistrer dans le format PNG. Enfin, il doit déterminer où est le nord dans l'image pour l'aligner avec le nord de la carte du ciel. Une fois tout ceci terminé, la carte du ciel peut simuler la vision locale du ciel en incluant le terrain local."
+msgstr "L'utilisateur prend d'abord une image à 360° en projection équi-rectangulaire depuis approximativement le même point de vue que son télescope. Ce type d'image peut être prise avec l'application de l'appareil photo de Google, ou l'application YouTube de Google, avec son téléphone portable ou tout autre application de l'appareil photo. L'utilisateur doit ensuite modifier l'image pour rendre le ciel transparent et l'enregistrer dans le format PNG. Enfin, il doit déterminer où est le nord dans l'image pour l'aligner avec le nord de la carte du ciel. Une fois tout ceci terminé, la carte du ciel peut simuler la vision locale du ciel en incluant le terrain local."
 
 #. Tag: para
 #. +> trunk5
@@ -1798,14 +1797,14 @@ msgstr "À chaque démarrage, &kstars; recherche la présence de nouvelles image
 #: config.docbook:1209
 #, no-c-format
 msgid "Start &kstars; once you have images in the <literal>imageOverlays</literal> directory. If you then go to the <guilabel>Image Overlays</guilabel> config page, you should see the new files listed in the table. The new images will show their status as <guilabel>Unprocessed</guilabel>. Only images whose status is <guilabel>OK</guilabel> are displayed on the SkyMap. That is because &kstars; needs to know the sky location, size, and orientation for these images before it can display them. To change the status to <guilabel>OK</guilabel> you need to plate-solve the images or add the required information manually--see below."
-msgstr "Démarrez &kstars; une fois que vos images sont dans le dossier <literal>imagesOverlays</literal>. En vous rendant sur la page de configuration de la <guilabel>Superposition d'image</guilabel>, vous devriez voir les nouveaux fichiers dans la table. Leur statut sera <guilabel>Unprocessed</guilabel>. Seules les images de statut <guilabel>Ok</guilabel> sont affichées sur la carte du ciel. La raison en est que &kstars; a besoin de connaître la position du ciel, la taille et l'orientation de ces images pour pouvoir les afficher. Pour modifier le statut en <guilabel>Ok</guilabel>, il faut effectuer une résolution astrométrique ou ajouter manuellement l'information requise, voir ci-dessous."
+msgstr "Démarrez &kstars; une fois que vos images sont dans le dossier <literal>imagesOverlays</literal>. En vous rendant sur la page de configuration de la <guilabel>Superposition d'image</guilabel>, vous devriez voir les nouveaux fichiers dans la table. Leur statut sera <guilabel>Non traité</guilabel>. Seules les images de statut <guilabel>Ok</guilabel> sont affichées sur la carte du ciel. La raison en est que &kstars; a besoin de connaître la position du ciel, la taille et l'orientation de ces images pour pouvoir les afficher. Pour modifier le statut en <guilabel>Ok</guilabel>, il faut effectuer une résolution astrométrique ou ajouter manuellement l'information requise, voir ci-dessous."
 
 #. Tag: para
 #. +> trunk5
 #: config.docbook:1217
 #, no-c-format
 msgid "To prepare your images for display, you need to plate-solve the images (one time only). To do this, find an image in the table, click on its filename, and then click <guibutton>Solve</guibutton> below the table. The <guibutton>Solve</guibutton> button's label should switch to <guibutton>Cancel</guibutton> during the solve, and then when completed successfully, the solved parameters are displayed in the table and the status is changed to <guilabel>OK</guilabel>. A successful plate-solve's information is stored in the user database so that solving doesn't need to be repeated. The solved image should from then on appear in its proper position in the SkyMap. You can plate-solve multiple images in a single operation by clicking on the first image's filename, then holding down the &Shift; key and clicking on another filename. All the image files between the filenames should be selected. Then clicking <guibutton>Solve</guibutton> will attempt to solve them all. However, &kstars; will not attempt to plate-solve images whose status is <guilabel>OK</guilabel>, it will skip those images. (If you wish to re-plate-solve images with status <guilabel>OK</guilabel>, then manually change their status to <guilabel>Unprocessed</guilabel> and click <guibutton>Solve</guibutton>). It is possible that if you select several images, a few of them will not be successfully solved."
-msgstr "La préparation des images pour l'affichage implique de les résoudre (une seule fois). Pour cela, choisissez une image dans la table, cliquez sur nom et cliquez sur le bouton <guibutton>Résoudre</guibutton> sous la table. L'étiquette de ce bouton changera en <guibutton>Annuler</guibutton> durant la résolution, et en cas de succès, les paramètres de résolution seront affichées dans la table et le statut passe à <guilabel>Ok</guilabel>. Cette information est enregistrée dans la base de données de l'utilisateur afin de ne pas devoir répéter la résolution. Les images résolues apparaîtront dès lors à leur correcte position sur la carte du ciel. Vous pouvez résoudre plusieurs images en une seule opération en cliquant sur le nom de la première image puis en cliquant sur d'autres nom de fichier en maintenant la touche Maj enfoncée. Toutes les images entre ces deux devraient être sélectionnées. Puis en cliquant sur le bouton <guibutton>Résoudre</guibutton>, toutes les images tenteront d'être résolues. Toutefois &kstars; ignorera les images de statut <guilabel>Ok</guilabel>. (Si vous souhaitez les résoudre à nouveau, modifiez vous-même leur état en <guilabel>Unprocessed</guilabel>, puis cliquez sur <guibutton>Résoudre</guibutton>.) Il est possible qu'en sélectionnant plusieurs images, certaines échouent à être résolues."
+msgstr "La préparation des images pour l'affichage implique de les résoudre (une seule fois). Pour cela, choisissez une image dans la table, cliquez sur nom et cliquez sur le bouton <guibutton>Résoudre</guibutton> sous la table. L'étiquette de ce bouton changera en <guibutton>Annuler</guibutton> durant la résolution, et en cas de succès, les paramètres de résolution seront affichées dans la table et le statut passe à <guilabel>Ok</guilabel>. Cette information est enregistrée dans la base de données de l'utilisateur afin de ne pas devoir répéter la résolution. Les images résolues apparaîtront dès lors à leur correcte position sur la carte du ciel. Vous pouvez résoudre plusieurs images en une seule opération en cliquant sur le nom de la première image puis en cliquant sur d'autres nom de fichier en maintenant la touche « Maj » enfoncée. Toutes les images entre ces deux devraient être sélectionnées. Puis en cliquant sur le bouton <guibutton>Résoudre</guibutton>, toutes les images tenteront d'être résolues. Toutefois &kstars; ignorera les images de statut <guilabel>Ok</guilabel>. (Si vous souhaitez les résoudre à nouveau, modifiez vous-même leur état en <guilabel>Non traité</guilabel>, puis cliquez sur <guibutton>Résoudre</guibutton>.) Il est possible qu'en sélectionnant plusieurs images, certaines échouent à être résolues."
 
 #. Tag: para
 #. +> trunk5
@@ -1819,7 +1818,7 @@ msgstr "La résolution de ces images peut se révéler difficile. En effet, le s
 #: config.docbook:1242
 #, no-c-format
 msgid "If you have problematic images that won't solve, you can still display them by manually entering the values (that the solver didn't find) into the table. They are the RA, DEC, arcsecond-per-pixel, orientation angle, and east-to-the-right (or West-to-the-right) settings. Once you have done that, you can then change the status to <guilabel>OK</guilabel> and &kstars; will save these values to the user database as if they had been automatically solved."
-msgstr "Si vous avez quelques images problématiques que vous n'arrivez pas à résoudre, vous pouvez quand même les afficher en saisissant vous-même les valeurs dans la table. Ces valeurs sont l'AD et la DEC en secondes d'arc par pixel, l'angle d'orientation et les réglages par rapport à l'est ou à l'ouest. Une fois fait, modifiez le statut à <guilabel>Ok</guilabel> et &kstars; enregistrera ces valeurs dans la base de données de l'utilisateur comme si elles avaient été résolues automatiquement."
+msgstr "Si vous avez quelques images problématiques que vous n'arrivez pas à résoudre, vous pouvez quand même les afficher en saisissant vous-même les valeurs dans la table. Ces valeurs sont les paramètres « AD » et « DEC » en secondes d'arc par pixel, l'angle d'orientation et les réglages par rapport à l'est ou à l'ouest. Une fois fait, modifiez le statut à <guilabel>Ok</guilabel> et &kstars; enregistrera ces valeurs dans la base de données de l'utilisateur comme si elles avaient été résolues automatiquement."
 
 #. Tag: para
 #. +> trunk5
@@ -1833,14 +1832,14 @@ msgstr "Il y a quelques autres contrôles sur la page de réglages de <guilabel>
 #: config.docbook:1253
 #, no-c-format
 msgid "The <guilabel>Maximum image dimension:</guilabel> spinbox allows you to vary the maximum image dimension used for images. That is, if you place images that are, for example, 5000 pixels wide into the <literal>imageOverlays</literal> directory, but this input box's value is 1000, then the 5000-pixel-images will be read in, but then downsampled to 1000-pixels-wide before display. This is done to reduce the memory footprint and cpu usage of this feature. It would be more efficient to add image files with the desired image width."
-msgstr "La boîte <guilabel>Dimension maximale de l'image</guilabel> permet de varier la dimension maximale des images utilisée pour les images. Ainsi, si vous mettez des images, par exemple, de 5000 pixels de large dans le dossier <literal>imageOverlays</literal> mais que la valeur d'entrée de la boîte est de 1000 pixels, ces images seront lues mais réduites à la taille de 1000 pixels avant d'être affichées. Cela est effectué afin de réduire l'empreinte mémoire et la charge du cpu de cette fonctionnalité. Mais il serait plus efficace d'ajouter des images de largeur souhaitée directement."
+msgstr "La boîte <guilabel>Dimension maximale de l'image</guilabel> permet de varier la dimension maximale des images utilisée pour les images. Ainsi, si vous mettez des images, par exemple, de 5000 pixels de large dans le dossier <literal>imageOverlays</literal> mais que la valeur d'entrée de la boîte est de 1000 pixels, ces images seront lues mais réduites à la taille de 1000 pixels avant d'être affichées. Cela est effectué afin de réduire l'empreinte mémoire et la charge du processeur de cette fonctionnalité. Mais il serait plus efficace d'ajouter des images de largeur souhaitée directement."
 
 #. Tag: para
 #. +> trunk5
 #: config.docbook:1260
 #, no-c-format
 msgid "The <guilabel>Center SkyMap on selection</guilabel> checkbox allows you to easily navigate to the overlay images without directly manipulating the SkyMap. With this enabled, you select a row in the overlay table (&ie;, by clicking on the filename field) and the skymap is moved to that image if the image's status is <guilabel>OK</guilabel>. At that point you can move from one image to the next with &Up; and &Down; arrow keyboard commands."
-msgstr "La boîte à cocher <guilabel>Center la carte du ciel à la sélection</guilabel> permet de naviguer facilement vers les images de superposition sans devoir manipuler la carte du ciel. Lorsque que cette option est activée, il suffit de sélectionner une ligne dans la table de superposition (c'est à dire en cliquant sur le champ de nom de fichier) et la carte du ciel est déplacée vers cette image si son statut est <guilabel>Ok</guilabel>. Vous pouvez ensuite passer d'une image à l'autre à l'aide des flèches Up et Down du clavier."
+msgstr "La boîte à cocher <guilabel>Center la carte du ciel à la sélection</guilabel> permet de naviguer facilement vers les images de superposition sans devoir manipuler la carte du ciel. Lorsque que cette option est activée, il suffit de sélectionner une ligne dans la table de superposition (c'est à dire en cliquant sur le champ de nom de fichier) et la carte du ciel est déplacée vers cette image si son statut est <guilabel>Ok</guilabel>. Vous pouvez ensuite passer d'une image à l'autre à l'aide des flèches « Vers le haut » et « Vers le bas » du clavier."
 
 #. Tag: title
 #. +> trunk5
@@ -1917,7 +1916,7 @@ msgstr "Page FITS"
 #: config.docbook:1330
 #, no-c-format
 msgid "<abbrev>FITS</abbrev> (Flexible Image Transport System) is a popular open standard for storage, transmission and processing of digital data. For the details, one is referred to the <ulink url=\"https://en.wikipedia.org/wiki/FITS\">corresponding Wikipedia article</ulink>. This page allows you to configure presentation and processing of FITS data in &kstars;."
-msgstr "<abbrev>FITS</abbrev> (Flexible Image Transport System) est un standard ouvert pour l'enregistrement, la transmission et le traitement de données numériques. Pour les détails on peut se référer à la page correspondante sur <ulink url=\"https://fr.wikipedia.org/wiki/FITS\">Wikipedia</ulink>. Cette section vous permet de configurer la présentation et le traitement de données FITS dans &kstars;."
+msgstr "<abbrev>FITS</abbrev> (Flexible Image Transport System) est un standard ouvert pour l'enregistrement, la transmission et le traitement de données numériques. Pour les détails on peut se référer à la page correspondante sur <ulink url=\"https://fr.wikipedia.org/wiki/FITS\">Wikipedia</ulink>. Cette section vous permet de configurer la présentation et le traitement de données « FITS » dans &kstars;."
 
 #. Tag: para
 #. +> trunk5
@@ -1938,14 +1937,14 @@ msgstr "Veuillez cocher la case <guilabel>Utiliser l'afficheur FITS</guilabel> s
 #: config.docbook:1338
 #, no-c-format
 msgid "The <guilabel>Single preview tab</guilabel> item is to display all captured FITS images in a single tab instead of multiple tabs per image. The <guilabel>Single window capture</guilabel> item is to display captured FITS images from all cameras in a single FITS Viewer window instead of a dedicated window to each camera. The <guilabel>Single window open</guilabel> item is to display opened FITS images in a single FITS Viewer window instead of a dedicated window to each file and the <guilabel>Independent window</guilabel> item is to make FITS Viewer window independent from &kstars;."
-msgstr "La case <guilabel>Onglet d'affichage simple</guilabel> permet d'afficher toutes les images FITS dans un seul onglet plutôt que de multiples onglets par image. La case <guilabel>Fenêtre d'acquisition unique</guilabel> permet d'afficher toutes les images FITS de tous les appareils pjoto dans une seule fenêtre plutôt que dans une fenêtre dédiée pour chaque appareil photo. La case <guilabel>Ouverture d'une fenêtre unique</guilabel> permet d'afficher les images FITS ouvertes dans une fenêtre d'affichage FITS unique plutôt que dans une fenêtre dédiée à chaque fichier et enfin <guilabel>Fenêtre indépendante</guilabel> permet de détacher la fenêtre de l'afficheur FITS de &kstars;."
+msgstr "La case <guilabel>Onglet d'affichage simple</guilabel> permet d'afficher toutes les images FITS dans un seul onglet plutôt que de multiples onglets par image. La case <guilabel>Fenêtre d'acquisition unique</guilabel> permet d'afficher toutes les images FITS de tous les appareils photo dans une seule fenêtre plutôt que dans une fenêtre dédiée pour chaque appareil photo. La case <guilabel>Ouverture d'une fenêtre unique</guilabel> permet d'afficher les images FITS ouvertes dans une fenêtre d'affichage FITS unique plutôt que dans une fenêtre dédiée à chaque fichier et enfin <guilabel>Fenêtre indépendante</guilabel> permet de détacher la fenêtre de l'afficheur FITS de &kstars;."
 
 #. Tag: para
 #. +> trunk5
 #: config.docbook:1343
 #, no-c-format
 msgid "The right panel lists processing options. The <guilabel>Auto stretch</guilabel> item is to always apply auto stretch to images in FITS Viewer, <guilabel>Limited resources mode</guilabel> is to enable limited resource mode to turn off any resource-intensive operations, namely: <guilabel>Auto debayer</guilabel> (bayered images will not be debayered; only grayscale images are shown), <guilabel>Auto WCS</guilabel> (World Coordinate System data will not be processed; WCS maps sky coordinates to image coordinates; equatorial grid lines, object identification, and telescope slew within an image are disabled), and <guilabel>3D cube</guilabel> (RGB images will not be processed; only grayscale images are shown). You can switch off some of these resource-greedy operations separately as well."
-msgstr "Le panneau de droite liste les options de traitement. <guilabel> Étirement automatique</guilabel> permet de toujours appliquer un étirement automatique sur les images dans l'afficheur FITS, <guilabel>Mode avec resources limitées</guilabel> active le mode de resources limitées qui désactive toute opération demandant des ressources intensives : <guilabel>Filtre de Bayer automatique</guilabel> (les images brutes ne seront pas dématricées, seulement les images grises seront affichées), <guilabel>WCS automatique</guilabel> (les données WCS ne seront pas traitées) ; les coordonnées du ciel de la carte WCS vers les coordonnées de l'image ; les lignes de la grille équatoriale, les identifiants d'objet et la fonction de pivotage du télescope seront désactivées), et <guilabel>Cube 3D</guilabel> (les images RGB ne seront pas traitées, seules les images grises seront affichées). Vous pouvez également désactiver certaines de ces opérations gourmandes en puissance de calcul."
+msgstr "Le panneau de droite liste les options de traitement. <guilabel> Étirement automatique</guilabel> permet de toujours appliquer un étirement automatique sur les images dans l'afficheur FITS, <guilabel>Mode avec ressources limitées</guilabel> active le mode de ressources limitées qui désactive toute opération demandant des ressources intensives : <guilabel>Filtre de Bayer automatique</guilabel> (les images brutes ne seront pas dé-matricées, seulement les images grises seront affichées), <guilabel>WCS automatique</guilabel> (les données WCS ne seront pas traitées) ; les coordonnées du ciel de la carte WCS vers les coordonnées de l'image ; les lignes de la grille équatoriale, les identifiants d'objet et la fonction de pivotage du télescope seront désactivées), et <guilabel>Cube 3D</guilabel> (les images RGB ne seront pas traitées, seules les images grises seront affichées). Vous pouvez également désactiver certaines de ces opérations gourmandes en puissance de calcul."
 
 #. Tag: title
 #. +> trunk5
@@ -1993,7 +1992,6 @@ msgstr "<phrase>Fenêtre Ekos</phrase>"
 #. +> trunk5
 #: config.docbook:1383
 #, no-c-format
-#| msgid "Ekos is an astrophotography suite, a complete astrophotography solution that can control all INDI devices including numerous telescopes, CCDs, DSLRs, focusers, filters, and a lot more. Ekos supports highly accurate tracking using online and offline astrometry solver, autofocus and autoguiding capabilities, and capture of single or multiple images using the powerful built in sequence manager. For detailed explanation of <guilabel>Ekos</guilabel>, see the <link linkend=\"tool-ekos\">Ekos section of this manual</link>."
 msgid "Ekos is an astrophotography suite, a complete astrophotography solution that can control all INDI devices including numerous telescopes, CCDs, DSLRs, focusers, filters, and a lot more. Ekos supports highly accurate tracking using online and offline astrometry solver, autofocus and autoguiding capabilities, and capture of single or multiple images using the powerful built in sequence manager. For detailed explanation of <guilabel>Ekos</guilabel>, see the <link linkend=\"ekos\">Ekos section of this manual</link>."
 msgstr "Ekos est une suite d'astrophotographie complète qui permet de contrôler tout périphérique INDI tels que des montures, des CCD, des APN, des moteurs de mise au point, des roues à filtres et bien plus encore. Ekos gère le suivi de haute précision en utilisant des résolveurs en ligne et hors ligne, la mise au point automatique et l'autoguidage ainsi que l'acquisition d'images unique ou multiple en utilisant le puissant gestionnaire de séquences. Pour des explications détaillées d'<guilabel>Ekos</guilabel>, veuillez lire la <link linkend=\"ekos\">section Ekos de ce manuel</link>."
 
@@ -2002,28 +2000,28 @@ msgstr "Ekos est une suite d'astrophotographie complète qui permet de contrôle
 #: config.docbook:1394
 #, no-c-format
 msgid "Xplanet"
-msgstr "Xplanet"
+msgstr "XPlanet"
 
 #. Tag: screeninfo
 #. +> trunk5
 #: config.docbook:1396
 #, no-c-format
 msgid "<screeninfo>Xplanet Window</screeninfo>"
-msgstr "<screeninfo>Fenêtre Xplanet</screeninfo>"
+msgstr "<screeninfo>Fenêtre de XPlanet</screeninfo>"
 
 #. Tag: phrase
 #. +> trunk5
 #: config.docbook:1402
 #, no-c-format
 msgid "<phrase>Xplanet Window</phrase>"
-msgstr "<phrase>Fenêtre Xplanet</phrase>"
+msgstr "<phrase>Fenêtre de XPlanet</phrase>"
 
 #. Tag: para
 #. +> trunk5
 #: config.docbook:1406
 #, no-c-format
 msgid "<ulink url=\"http://xplanet.sourceforge.net/\">Xplanet</ulink> (should be installed separately) is a solar system planet surface renderer. This page allows you to configure presentation and processing of <application>Xplanet</application> data in &kstars;."
-msgstr "<ulink url=\"http://xplanet.sourceforge.net/\">Xplanet</ulink> est un programme de rendu de surfaces des planètes du système solaire (à installer séparément). Cette page vous permet de configurer la configuration et le traitement des données de <application>Xplanet</application> dans &kstars;."
+msgstr "<ulink url=\"http://xplanet.sourceforge.net/\">XPlanet</ulink> est un programme de rendu de surfaces des planètes du système solaire (à installer séparément). Cette page vous permet de configurer la configuration et le traitement des données de <application>XPlanet</application> dans &kstars;."
 
 #. Tag: title
 #. +> trunk5
@@ -2191,7 +2189,7 @@ msgstr "toutes les images qui ont échoué à la résolution."
 #: config.docbook:1516
 #, no-c-format
 msgid "The images are all saved in folders parallel to the main logging directory. They are in folders named guide, autofocus, align, and align/failed."
-msgstr "Ces images sont enregistrées dans des dossiers situés au même niveau que le dossier des fichiers journaux. Leurs noms sont guide, autofocus, align et align/failed."
+msgstr "Ces images sont enregistrées dans des dossiers situés au même niveau que le dossier des fichiers journaux. Leurs noms sont guide, autofocus, align et align / failed."
 
 #. Tag: title
 #. +> trunk5
@@ -2275,7 +2273,7 @@ msgstr "Description"
 #: config.docbook:1555
 #, no-c-format
 msgid "Choose an <quote>FOV Symbol</quote> using the <menuchoice><guimenu>Settings</guimenu><guisubmenu>FOV Symbols</guisubmenu></menuchoice> submenu. <firstterm>FOV</firstterm> is an acronym for <quote>field-of-view</quote>. An FOV symbol is drawn at the center of the window to indicate where the display is pointing. Different symbols have different angular sizes; you can use a symbol to show what the view through a particular telescope would look like. For example, if you choose the <quote>7x35 Binoculars</quote> FOV symbol, then a circle is drawn on the display that is 9.2 degrees in diameter; this is the field-of-view for 7x35 binoculars."
-msgstr "Choisissez un <quote>Indicateur de champ de vision (FOV)</quote> en utilisant le menu <menuchoice><guimenu>configuration</guimenu> <guisubmenu>Indicateurs de champ de vision</guisubmenu></menuchoice>. <firstterm>FOV</firstterm> est un acronyme pour <quote>field-of-view</quote> (champ de vision = CdV). Un indicateur de champ de vision est dessiné au centre de la fenêtre pour indiquer où l'affichage pointe. Les indicateurs correspondant à différentes tailles angulaires ; vous pouvez utiliser un indicateur pour voir à quoi la vue ressemblerait à travers un certain télescope. Par exemple, si vous choisissez l'indicateur <quote>Jumelles 7x35</quote>, un cercle de 9,2 degrés de diamètre sera dessiné sur l'écran ; c'est le champ de vision d'une paire de jumelles 7x35."
+msgstr "Choisissez un <quote>Indicateur de champ de vision (FOV)</quote> en utilisant le menu <menuchoice><guimenu>configuration</guimenu> <guisubmenu>Indicateurs de champ de vision</guisubmenu></menuchoice>. <firstterm>FOV</firstterm> est un acronyme pour <quote>Field Of View</quote> (champ de vision = CdV). Un indicateur de champ de vision est dessiné au centre de la fenêtre pour indiquer où l'affichage pointe. Les indicateurs correspondant à différentes tailles angulaires ; vous pouvez utiliser un indicateur pour voir à quoi la vue ressemblerait à travers un certain télescope. Par exemple, si vous choisissez l'indicateur <quote>Jumelles 7x35</quote>, un cercle de 9,2 degrés de diamètre sera dessiné sur l'écran ; c'est le champ de vision d'une paire de jumelles 7x35."
 
 #. Tag: para
 #. +> trunk5
@@ -2331,7 +2329,7 @@ msgstr "Définir un nouveau"
 #: config.docbook:1606
 #, no-c-format
 msgid "This window lets you modify the four properties that define a FOV symbol: name, size, shape, and color. The angular size for the symbol can either be entered directly in the <guilabel>Field of View</guilabel> edit box, or you can use the Eyepiece/Camera Tabs to calculate the field-of-view angle, given parameters of your telescope/eyepiece or telescope/camera setup. The five available shapes are: Square, Circle, Crosshairs, Bullseye and Semitransparent circle. Once you have specified all four parameters, press <guibutton>Ok</guibutton>, and the symbol will appear in the list of defined symbols. It will also be available from the <menuchoice><guimenu>Settings</guimenu><guisubmenu>FOV Symbols</guisubmenu></menuchoice> submenu."
-msgstr "Cette fenêtre vous permet de modifier les quatre propriétés qui définissent un indicateur de champ de vision : le nom, la taille, la forme et la couleur. La taille angulaire pour l'indicateur peut être soit donnée directement dans la zone de saisie <guilabel>Champ de vision</guilabel>, soit utiliser l'onglet Appareil photo pour calculer l'angle de champ de vision, étant donné les paramètres de votre réglage de télescope/Viseur ou télescope/appareil photo. Les cinq formes disponibles sont : cercle, carré, croix, cible et semitransparent. Une fois que vous avez spécifié les quatre paramètres, actionnez <guibutton>Ok</guibutton>, et l'indicateur apparaîtra dans la liste des indicateurs définis. Il sera aussi disponible dans le menu <menuchoice><guimenu>Configuration</guimenu> <guisubmenu>Indicateur de champ de vision</guisubmenu></menuchoice>."
+msgstr "Cette fenêtre vous permet de modifier les quatre propriétés qui définissent un indicateur de champ de vision : le nom, la taille, la forme et la couleur. La taille angulaire pour l'indicateur peut être soit donnée directement dans la zone de saisie <guilabel>Champ de vision</guilabel>, soit utiliser l'onglet Appareil photo pour calculer l'angle de champ de vision, étant donné les paramètres de votre réglage de télescope/Viseur ou télescope/appareil photo. Les cinq formes disponibles sont : cercle, carré, croix, cible et semi-transparent. Une fois que vous avez spécifié les quatre paramètres, actionnez <guibutton>Ok</guibutton>, et l'indicateur apparaîtra dans la liste des indicateurs définis. Il sera aussi disponible dans le menu <menuchoice><guimenu>Configuration</guimenu> <guisubmenu>Indicateur de champ de vision</guisubmenu></menuchoice>."
 
 #. Tag: title
 #. +> trunk5
@@ -2343,8 +2341,9 @@ msgstr "Ajustement de l'orientation de la carte du ciel"
 #. Tag: para
 #. +> trunk5
 #: config.docbook:1623
-#, no-c-format
-msgid "You can tweak various settings to make the orientation of the sky map match the view through your optical instrument, provided (as of this version) the instrument does not mirror the field-of-view (as is done by prisms used with SCTs and refractors)."
+#, fuzzy, no-c-format
+#| msgid "You can tweak various settings to make the orientation of the sky map match the view through your optical instrument, provided (as of this version) the instrument does not mirror the field-of-view (as is done by prisms used with SCTs and refractors)."
+msgid "You can tweak various settings to make the orientation of the sky map match the view through your optical instrument."
 msgstr "Vous pouvez ajuster différents réglages pour que l'orientation de la carte du ciel soit la même que la vue à travers votre instrument optique, à condition que l'instrument ne copie pas le champ de vision (ce que font les prismes utilisés dans les télescopes de Schmidt-Cassegrain (SCT) et les réfracteurs)."
 
 #. Tag: para
@@ -2358,68 +2357,83 @@ msgstr "Commencez par choisir le système de coordonnées qui correspond à votr
 #. +> trunk5
 #: config.docbook:1629
 #, no-c-format
-msgid "To rotate the sky map freely, you can hold down the &Shift; key and drag the mouse on the sky map. A temporary overlay will appear showing the direction of north and zenith at the point, and displaying the angle they make with the vertical in a counterclockwise sense. The orientations of zenith and north will update as you rotate the sky map. Letting go of &Shift; or the mouse button will stop the rotation operation. As you pan the sky map or focus it on different objects, the rotation you set is retained as an offset from the reference direction. The reference direction is north when using Equatorial Coordinates and zenith when using Horizontal Coordinates. As a reminder, the reference direction is solid and brighter in the temporary overlay. For the two common orientations of erect and inverted, the rotation can be set / reset using the <menuchoice><guimenu>View</guimenu><guisubmenu>Skymap Orientation</guisubmenu></menuchoice> submenu. Select \"North Down\" or \"Zenith Down\" as is applicable to set an orientation of 180 degrees."
-msgstr "Vous pouvez effectuer une rotation libre en gardant enfoncée la touche &Maj; et en glissant la souris sur la carte du ciel. Une superposition temporaire apparaîtra montrant la direction du nord et du zénith à ce point et affichera leur angle avec la verticale dans le sens antihoraire. L'orientation du zénith et du nord sera actualisée lorsque vous effectuerez une rotation de la carte du ciel. L'opération se terminera dès que vous relâcherez la touche &Maj;. La rotation fixée sera conservée en tant que décalage par rapport à la direction de référence, même lorsque vous déplacerez la carte du ciel ou zoomer sur différents objets. La direction de référence est le nord lorsque vous utilisez les coordonnées équatoriales et le zénith pour les coordonnées horizontales. Pour rappel, la direction de référence est représentée par un trait plein et de couleur vive dans la superposition temporaire. La rotation peut être réglée pour ces deux orientations communes dans les sous-menu <menuchoice><guimenu>Affichage</guimenu><guisubmenu>Orientation de la carte du ciel</guisubmenu></menuchoice>. Choisissez « Nord en bas » ou « Zénith en bas » en fonction du système de coordonnées utilisé pour régler une orientation de 180 degrés."
+msgid "If your instrument is using an erecting prism, typically used on Schmidt-Cassegrain and refracting type telescopes, the view through the eyepiece will be mirrored horizontally. You can have the sky map match this by checking the <guilabel>Mirrored View</guilabel> option under the <guimenu>View</guimenu> menu."
+msgstr ""
 
 #. Tag: para
 #. +> trunk5
 #: config.docbook:1632
+#, fuzzy, no-c-format
+#| msgid "To rotate the sky map freely, you can hold down the &Shift; key and drag the mouse on the sky map. A temporary overlay will appear showing the direction of north and zenith at the point, and displaying the angle they make with the vertical in a counterclockwise sense. The orientations of zenith and north will update as you rotate the sky map. Letting go of &Shift; or the mouse button will stop the rotation operation. As you pan the sky map or focus it on different objects, the rotation you set is retained as an offset from the reference direction. The reference direction is north when using Equatorial Coordinates and zenith when using Horizontal Coordinates. As a reminder, the reference direction is solid and brighter in the temporary overlay. For the two common orientations of erect and inverted, the rotation can be set / reset using the <menuchoice><guimenu>View</guimenu><guisubmenu>Skymap Orientation</guisubmenu></menuchoice> submenu. Select \"North Down\" or \"Zenith Down\" as is applicable to set an orientation of 180 degrees."
+msgid "Next, to rotate the sky map freely, you can hold down the &Shift; key and drag the mouse on the sky map. A temporary overlay will appear showing the direction of north and zenith at the point, and displaying the angle they make with the vertical in a counterclockwise sense. The orientations of zenith and north will update as you rotate the sky map. Letting go of &Shift; or the mouse button will stop the rotation operation. As you pan the sky map or focus it on different objects, the rotation you set is retained as an offset from the reference direction. The reference direction is north when using Equatorial Coordinates and zenith when using Horizontal Coordinates. As a reminder, the reference direction is solid and brighter in the temporary overlay. For the two common orientations of erect and inverted, the rotation can be set / reset using the <menuchoice><guimenu>View</guimenu><guisubmenu>Skymap Orientation</guisubmenu></menuchoice> submenu. Select \"North Down\" or \"Zenith Down\" as is applicable to set an orientation of 180 degrees."
+msgstr "Vous pouvez effectuer une rotation libre en gardant enfoncée la touche &Maj; et en glissant la souris sur la carte du ciel. Une superposition temporaire apparaîtra montrant la direction du nord et du zénith à ce point et affichera leur angle avec la verticale dans le sens antihoraire. L'orientation du zénith et du nord sera actualisée lorsque vous effectuerez une rotation de la carte du ciel. L'opération se terminera dès que vous relâcherez la touche &Maj;. La rotation fixée sera conservée en tant que décalage par rapport à la direction de référence, même lorsque vous déplacerez la carte du ciel ou zoomer sur différents objets. La direction de référence est le nord lorsque vous utilisez les coordonnées équatoriales et le zénith pour les coordonnées horizontales. Pour rappel, la direction de référence est représentée par un trait plein et de couleur vive dans la superposition temporaire. La rotation peut être réglée pour ces deux orientations communes dans les sous-menu <menuchoice><guimenu>Affichage</guimenu><guisubmenu>Orientation de la carte du ciel</guisubmenu></menuchoice>. Choisissez « Nord en bas » ou « Zénith en bas » en fonction du système de coordonnées utilisé pour régler une orientation de 180 degrés."
+
+#. Tag: para
+#. +> trunk5
+#: config.docbook:1635
 #, no-c-format
 msgid "If you are visually observing through an eyepiece of an instrument, you may need to do some more correction. For the common case of a large Dobsonian telescope (or more generally a Newtonian design mounted on an altazimuth mount), a systematic additional correction is of help. This correction applies because we stand erect while using the telescope irrespective of the angle the telescope tube is making with the ground. So as we move the telescope in altitude, an additional correction depending on the altitude of the object needs to be applied to make the sky map match the view through the eyepiece. This correction is enabled by checking the <guilabel>Erect observer correction</guilabel> checkbox in the <menuchoice><guimenu>View</guimenu><guisubmenu>Skymap Orientation</guisubmenu></menuchoice> submenu. This correction only makes sense in Horizontal Coordinate mode and is disabled when using equatorial coordinates."
 msgstr "Si vous observez à l'œil nu à travers un oculaire d'un instrument, il se peut que vous deviez faire quelques corrections supplémentaires. Pour le cas commun d'un télescope de Dobson (ou plus généralement un Newton monté sur une monture alt-azimutale), une correction supplémentaire systématique est nécessaire. Elle s'applique parce que l'observateur se tient debout lors de l'observation indépendamment de l'angle du tube du télescope par rapport au sol. Ainsi, à mesure que l'on bouge le télescope en élévation, il est nécessaire d'appliquer une correction dépendante de l'altitude de l'objet pour que la carte du ciel corresponde à la vue à travers l'oculaire. Cette correction est activée en cochant la case <guilabel>Correction observateur debout</guilabel> dans le sous-menu <menuchoice><guimenu>Affichage</guimenu><guisubmenu>Orientation de la carte du ciel</guisubmenu></menuchoice>. Cette correction ne fait sens que dans le mode de coordonnées horizontales et est par conséquent désactivée en coordonnées équatoriales."
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:1635
+#: config.docbook:1638
 #, no-c-format
 msgid "Finally we provide some examples of how to use these settings for various instruments:"
 msgstr "Voici quelques exemples d'utilisation de ces réglages pour différents instruments :"
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:1638
+#: config.docbook:1641
 #, no-c-format
 msgid "Naked-eye observing: Choose Horizontal Coordinates and a <guilabel>Zenith Up</guilabel> orientation under <menuchoice><guimenu>View</guimenu><guisubmenu>Skymap Orientation</guisubmenu></menuchoice>."
 msgstr "Observation à l'œil nu : choisissez les coordonnées horizontales et une orientation <guilabel>Zénith en haut</guilabel> dans le sous-menu <menuchoice><guimenu>Affichage</guimenu><guisubmenu>Orientation de la carte du ciel</guisubmenu></menuchoice>."
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:1639
+#: config.docbook:1642
 #, no-c-format
 msgid "Camera on an equatorially mounted telescope: Choose Equatorial Coordinates and adjust the orientation of the sky map so that it matches your camera. As your mount points to different regions of the sky, the orientation should be rendered correctly."
 msgstr "Appareil photo monté sur une monture équatoriale : choisissez les coordonnées équatoriales et ajustez l'orientation de la carte du ciel pour qu'elle corresponde à votre appareil photo. À mesure que votre monture point vers différentes régions du ciel, l'orientation devrait s'ajuster correctement."
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:1640
+#: config.docbook:1643
 #, no-c-format
 msgid "Using binoculars: Same settings as Naked-eye observing"
 msgstr "Utilisation de jumelles : utilisez les mêmes réglages que pour l'observation à l'œil nu."
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:1641
+#: config.docbook:1644
+#, no-c-format
+msgid "Eyepiece of an altazimuth Schmidt-Cassegrin telescope with an erecting prism: Under the <guimenu>View</guimenu> menu, choose <guilabel>Mirrored View</guilabel>, and under the <guisubmenu>Skymap Orientation</guisubmenu> sub-menu, choose <guilabel>Zenith Up</guilabel>. Finally, tweak the rotation manually to match the eyepiece view according to the angle you are using for your erecting prism."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: config.docbook:1645
 #, no-c-format
 msgid "Using a RACI finder scope on an altazimuth mounted telescope: Same settings as Naked-eye observing, except you may need to tweak the orientation manually once if you have it mounted at an angle"
 msgstr "Chercheur redresseur d'image à angle droit sur une monture alt-azimutale : utilisez les mêmes réglages que pour l'observation à l'œil nu, sauf qu'il vous faudra peut-être ajuster l'orientation une fois si elle est montée à un angle."
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:1642
+#: config.docbook:1646
 #, no-c-format
 msgid "Using a straight-through (inverted view) finder scope on an altazimuth mounted telescope: Choose Horizontal Coordinates and a sky-map orientation of <guilabel>Zenith Down</guilabel> in <menuchoice><guimenu>View</guimenu><guisubmenu>Skymap Orientation</guisubmenu></menuchoice> submenu"
 msgstr "Chercheur inversé sur une monture alt-azimutale : choisissez les coordonnées horizontales et une orientation de la carte du ciel avec <guilabel>Zénith en bas</guilabel> dans le sous-menu <menuchoice><guimenu>Affichage</guimenu><guisubmenu>Orientation de la carte du ciel</guisubmenu></menuchoice>."
 
 #. Tag: para
 #. +> trunk5
-#: config.docbook:1643
+#: config.docbook:1647
 #, no-c-format
 msgid "Eyepiece of a Dobsonian telescope: Choose Horizontal Coordinates, and in the <menuchoice><guimenu>View</guimenu><guisubmenu>Skymap Orientation</guisubmenu></menuchoice> submenu, select <guilabel>Zenith Down</guilabel> and check the <guilabel>Erect observer correction</guilabel> option. Then adjust the orientation manually once to match your telescope eyepiece view, and it should henceforth track it correctly."
 msgstr "Oculaire d'un télescope de Dobson : choisissez les coordonnées horizontales, et dans le sous-menu <menuchoice><guimenu>Affichage</guimenu><guisubmenu>Orientation de la carte du ciel</guisubmenu></menuchoice>, choisissez <guilabel>Zénith en bas</guilabel> et cochez l'option <guilabel>Correction observateur debout</guilabel>. Ensuite ajustez l'orientation manuellement une fois pour correspondre la vue de l'oculaire et le suivi devrait fonctionner."
 
 #. Tag: chapter
 #. +> trunk5
-#: config.docbook:1646
+#: config.docbook:1650
 #, no-c-format
 msgid "&hips;"
 msgstr "&hips;"

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-08 08:43+0100\n"
+"POT-Creation-Date: 2024-02-08 09:57+0100\n"
 "PO-Revision-Date: 2024-01-13 18:19+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -265,14 +265,15 @@ msgstr "&Jason.Harris; et l'équipe de &kstars;"
 #. +> trunk5
 #: index.docbook:229
 #, no-c-format
-msgid "2023-12-01"
-msgstr "01/12/2023"
+msgid "2024-02-06"
+msgstr ""
 
 #. Tag: releaseinfo
 #. +> trunk5
 #: index.docbook:230
-#, no-c-format
-msgid "3.6.8"
+#, fuzzy, no-c-format
+#| msgid "3.6.8"
+msgid "3.6.9"
 msgstr "3.6.8"
 
 #. Tag: para
@@ -294,7 +295,7 @@ msgstr "La carte du ciel de &kstars; fournit une simulation précise du ciel de 
 #: index.docbook:243
 #, no-c-format
 msgid "For students and teachers, it supports adjustable simulation speeds in order to view phenomena that happen over long timescales, the &kstars; Astrocalculator to predict conjunctions, and many common astronomical calculations. For the amateur astronomer, it provides an observation planner, a sky calendar tool, and an FOV editor to calculate field of view of equipment and display them. Find out interesting objects in the <quote>What's up Tonight</quote> tool, plot altitude vs. time graphs for any object, print high-quality sky charts, and gain access to lots of information and resources to help you explore the universe! The HiPS all-sky progressive overlay provide stunning views from numerous surveys spanning the whole electromagnetic spectrum."
-msgstr "Pour les étudiants et les professeurs, elle gère des vitesses de simulation ajustables afin de voir des phénomènes qui s'étendent sur de longues périodes ; la calculatrice astronomique de &kstars; permet de prédire les conjonctions et plein d'autres calculs astronomiques courants. Pour l'astronome amateur, elle fournit un planificateur d'observations, un outil d'agenda du ciel ainsi qu'un outil permettant de calculer le champ de vision de tout équipement et de l'afficher. L'outil <quote>Dans le ciel cette nuit</quote> présente les objets intéressants observables ; on peut également tracer la courbe du l'élévation, selon l'heure, de tout objet, imprimer des tableaux du ciel de haute qualité et avoir accès à énormément d'information et de resources pour vous aider à explorer l'univers ! La superposition progressive de tout le ciel HiPS offre une vue spectaculaire de tout le spectre électromagnétique."
+msgstr "Pour les étudiants et les professeurs, elle gère des vitesses de simulation ajustables afin de voir des phénomènes qui s'étendent sur de longues périodes ; la calculatrice astronomique de &kstars; permet de prédire les conjonctions et plein d'autres calculs astronomiques courants. Pour l'astronome amateur, elle fournit un planificateur d'observations, un outil d'agenda du ciel ainsi qu'un outil permettant de calculer le champ de vision de tout équipement et de l'afficher. L'outil <quote>Dans le ciel cette nuit</quote> présente les objets intéressants observables ; on peut également tracer la courbe du l'élévation, selon l'heure, de tout objet, imprimer des tableaux du ciel de haute qualité et avoir accès à énormément d'information et de ressources pour vous aider à explorer l'univers ! La superposition progressive de tout le ciel HiPS offre une vue spectaculaire de tout le spectre électromagnétique."
 
 #. Tag: para
 #. +> trunk5
@@ -428,6 +429,10 @@ msgstr "<para>Traduction française : l'équipe de traduction francophone de KD
 #, no-c-format
 msgid "&underFDL;"
 msgstr "&underFDL;"
+
+#, no-c-format
+#~ msgid "2023-12-01"
+#~ msgstr "01/12/2023"
 
 #~ msgid "2023-08-01"
 #~ msgstr "2023-08-01"

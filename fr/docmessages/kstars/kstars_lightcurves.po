@@ -4,7 +4,7 @@
 # Copyright (C) 2003, 2004 Free Software Foundation, Inc.
 # Delafond <gerard@delafond.org>, 2003.
 # Ludovic Grossard <grossard@kde.org>, 2003, 2004, 2012.
-# Xavier Besnard <xavier.besnard@kde.org>, 2012.
+# SPDX-FileCopyrightText: 2012, 2024 Xavier Besnard <xavier.besnard@kde.org>
 # Xavier Besnard <xavier.besnard@kde.org>, 2021.
 # steve <stax@ik.me>, 2022
 msgid ""
@@ -12,15 +12,15 @@ msgstr ""
 "Project-Id-Version: kstars_lightcurves_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-22 10:31+0200\n"
-"PO-Revision-Date: 2021-05-24 21:35+0200\n"
-"Last-Translator: steve <stax@ik.me>\n"
+"PO-Revision-Date: 2024-01-28 22:00+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 21.04.1\n"
+"X-Generator: Lokalize 23.08.4\n"
 
 #. Tag: author
 #. +> trunk5
@@ -174,7 +174,7 @@ msgstr "<firstterm>Moyenne sur</firstterm> : c'est une moyenne calculée de tou
 #: lightcurves.docbook:122
 #, no-c-format
 msgid "<firstterm>CCDV</firstterm>: These are observations reported using a <abbrev>CCD</abbrev> with a Johnson <abbrev>V</abbrev> filter. <abbrev>CCDV</abbrev> observations tend to be more accurate than visual (but not always)."
-msgstr "<firstterm>CCDV</firstterm> : ce sont les observations rapportées en utilisant un <abbrev>CCD</abbrev> avec un filtre <abbrev>V</abbrev> Jonhson. Les observations <abbrev>CCDV</abbrev> tendent à être plus précises que les visuelles (mais pas toujours)."
+msgstr "<firstterm>CCDV</firstterm> : ce sont les observations rapportées en utilisant un <abbrev>CCD</abbrev> avec un filtre <abbrev>V</abbrev> Johnson. Les observations <abbrev>CCDV</abbrev> tendent à être plus précises que les visuelles (mais pas toujours)."
 
 #. Tag: para
 #. +> trunk5
@@ -188,7 +188,7 @@ msgstr "<firstterm>CCDB</firstterm> : observations <abbrev>CCD</abbrev> avec un
 #: lightcurves.docbook:132
 #, no-c-format
 msgid "<firstterm>CCDI</firstterm>: <abbrev>CCD</abbrev> observations with a Cousins <abbrev>Ic</abbrev> filter."
-msgstr "<firstterm>CCDI</firstterm> : observations <abbrev>CCD</abbrev> avec un filtre <abbrev>Ic</abbrev> Cousins."
+msgstr "<firstterm>CCDI</firstterm> : observations <abbrev>CCD</abbrev> avec un filtre <abbrev>IC</abbrev> Cousins."
 
 #. Tag: para
 #. +> trunk5

@@ -1,18 +1,19 @@
 # Translation to French
+# SPDX-FileCopyrightText: 2024 Xavier Besnard <xavier.besnard@kde.org>
 # steve <stax@ik.me>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos_align_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-25 10:01+0200\n"
-"PO-Revision-Date: 2023-12-09 16:18+0100\n"
-"Last-Translator: steve <stax@ik.me>\n"
+"PO-Revision-Date: 2024-02-02 13:58+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Lokalize 23.08.4\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: title
@@ -107,7 +108,7 @@ msgstr "Utilisation typique"
 #: ekos-align.docbook:39
 #, no-c-format
 msgid "Using Ekos Alignment Module, aligning your mount using the controller's 1, 2, or 3 star alignment is <emphasis>not</emphasis> strictly necessary, though for some mounts it is recommended to perform a rough 1 or 2 star alignment before using Ekos alignment module. If you are using EQMod, you can start using Ekos alignment module right away. A typical workflow for GOTO alignment involves the following steps:"
-msgstr "Avec le module d'alignement d'Ekos, l'alignement de la monture sur une, deux ou trois étoiles avec la commande de la monture n'est <emphasis>pas</emphasis> strictement nécessaire, mais pour certaines montures, il peut être recommandé de réaliser un alignement sommaire sur une ou deux étoiles avant d'utiliser le module d'alignement d'Ekos. Mais si vous utiliser EQMod, vous pouvez commencer d'utiliser tout de suite le module d'alignement. Une marche à suivre typique pour les alignement GOTO implique les étapes suivantes :"
+msgstr "Avec le module d'alignement d'Ekos, l'alignement de la monture sur une, deux ou trois étoiles avec la commande de la monture n'est <emphasis>pas</emphasis> strictement nécessaire, mais pour certaines montures, il peut être recommandé de réaliser un alignement sommaire sur une ou deux étoiles avant d'utiliser le module d'alignement de Ekos. Mais si vous utiliser « EQMod », vous pouvez commencer d'utiliser tout de suite le module d'alignement. Une marche à suivre typique pour les alignement GOTO implique les étapes suivantes :"
 
 #. Tag: para
 #. +> trunk5
@@ -122,7 +123,7 @@ msgstr "Démarrez KStars et Ekos et établir la connexion avec INDI."
 #, no-c-format
 #| msgid "Set your mount to its home position (usually the NCP for equatorial mounts)."
 msgid "Unpark your mount from its home position (usually the NCP for equatorial mounts)."
-msgstr "Déparquez votre monture de sa position initiale (généralement pointée vers le pôle céleste nord pour les montures équatoriales)."
+msgstr "Dé-parquez votre monture de sa position initiale (généralement pointée vers le pôle céleste nord pour les montures équatoriales)."
 
 #. Tag: para
 #. +> trunk5
@@ -212,7 +213,7 @@ msgstr "<phrase>Options du résolveur</phrase>"
 #: ekos-align.docbook:109
 #, no-c-format
 msgid "To use the solvers, you must first configure the StellarSolver options. The above page is displayed when clicking on the <guilabel>Options</guilabel> button on the lower right of the Align page, then selecting the <guilabel>StellarSolver Options</guilabel> tab. Start with the <guilabel>Builtin method for solver</guilabel> <guilabel>Source Extraction method</guilabel> so that each solver uses its preferred star-extraction code. For <guilabel>Solving Method</guilabel> we recommend choosing <guilabel>Internal Solver</guilabel> to use StellarSolver's copy of the Astrometry.net code, or choose <guilabel>Local ASTAP</guilabel> if you prefer that. The online astrometry solver is accurate, but can take a long time to solve because of all the data transfer required. For <guilabel>Options Profile</guilabel>, start with the <guilabel>1-Default</guilabel> profile."
-msgstr "Pour utiliser les résolveurs, il faut d'abord configurer les options de StellarSolver. La page ci-dessus est affichée en cliquant sur le bouton <guilabel>Options</guilabel> situé en bas à droite du module Alignement, puis en sélectionnant l'onglet <guilabel>Options de StellarSolver</guilabel>. Commencez avec la méthode interne du résolveur nommé <guilabel>Méthode d'extraction des sources</guilabel> afin que chaque résolveur puisse utiliser son code préféré d'extraction d'étoiles. Pour <guilabel>Méthode d'extraction</guilabel>, nous recommandons de choisir <guilabel>Résolveur internet</guilabel> pour utiliser le code de Astrometry.net dédié à StellarSolver ou choisissez <guilabel>ASTAP local</guilabel> si vous préférez utiliser cela. Le résolveur en ligne est précis mais prend du temps puisqu'il faut télécharger toutes les données. Pour <guilabel>Options du profil</guilabel>, démarrez avec le profil <guilabel>1-Default</guilabel>."
+msgstr "Pour utiliser les résolveurs, il faut d'abord configurer les options de StellarSolver. La page ci-dessus est affichée en cliquant sur le bouton <guilabel>Options</guilabel> situé en bas à droite du module Alignement, puis en sélectionnant l'onglet <guilabel>Options de StellarSolver</guilabel>. Commencez avec la méthode interne du résolveur nommé <guilabel>Méthode d'extraction des sources</guilabel> afin que chaque résolveur puisse utiliser son code préféré d'extraction d'étoiles. Pour <guilabel>Méthode d'extraction</guilabel>, nous recommandons de choisir <guilabel>Résolveur internet</guilabel> pour utiliser le code de Astrometry.net dédié à StellarSolver ou choisissez <guilabel>ASTAP local</guilabel> si vous préférez utiliser cela. Le résolveur en ligne est précis mais prend du temps puisqu'il faut télécharger toutes les données. Pour <guilabel>Options du profil</guilabel>, démarrez avec le profil <guilabel>1-Défaut</guilabel>."
 
 #. Tag: para
 #. +> trunk5
@@ -338,7 +339,7 @@ msgstr "Cela s'applique si vous utilisez la <guilabel>Méthode de résolution</g
 #: ekos-align.docbook:179
 #, no-c-format
 msgid "You can choose an <guilabel>Options Profile</guilabel> on the <guilabel>StellarSolver Options</guilabel> tab. Profiles are simply collections of parameters to configure the performance of the star-extraction and plate-solving system inside of StellarSolver. The <guilabel>1-Default</guilabel> profile is the recommended one to start with. There are a few other possible profiles such as <guilabel>Large Scale Solving</guilabel>, <guilabel>Small Scale Solving</guilabel>, and <guilabel>Single Thread Solving</guilabel>."
-msgstr "Vous pouvez choisir les <guilabel>Options de profil</guilabel> dans l'onglet <guilabel>Options de StellarSolver</guilabel>. Les profils sont simplement une collection de paramètres pour la configuration de l'extraction d'étoiles et leur résolution du système StellarSolver. Le profil <guilabel>1-Default</guilabel> est celui recommandé pour démarrer. Il en existe d'autres comme <guilabel>Large Scale Solving</guilabel>, <guilabel>Small Scale Solving</guilabel> et <guilabel>Single Thread Solving</guilabel>."
+msgstr "Vous pouvez choisir les <guilabel>Options de profil</guilabel> dans l'onglet <guilabel>Options de StellarSolver</guilabel>. Les profils sont simplement une collection de paramètres pour la configuration de l'extraction d'étoiles et leur résolution du système « StellarSolver ». Le profil <guilabel>1-Défaut</guilabel> est celui recommandé pour démarrer. Il en existe d'autres comme <guilabel>Résolution à grande échelle</guilabel>, <guilabel>Résolution à échelle réduite</guilabel> et <guilabel>Résolution en mono-processus</guilabel>."
 
 #. Tag: para
 #. +> trunk5
@@ -394,7 +395,7 @@ msgstr "Paramètres de l'extraction d'étoiles"
 #: ekos-align.docbook:194
 #, no-c-format
 msgid "The column headings are links to the Sextractor manual which is the main source for these parameters. View those links to find details on all the parameters. We will touch upon some of the parameters you might consider adjusting. However, it's probably best not to get into the weeds of modifying most of these values."
-msgstr "Les intitulés des colonnes sont des liens vers le manuel de Sextractor qui est la source d'information principale pour ces paramètres. Visitez ces liens pour obtenir davantage de détails sur ces paramètres. Nous allons aborder quelqu'uns de ces paramètres qu'il pourrait être intéressant d'ajuster. Toutefois, il est probablement judicieux de garder les valeurs par défaut de la plupart de ces paramètres."
+msgstr "Les intitulés des colonnes sont des liens vers le manuel de Sextractor qui est la source d'information principale pour ces paramètres. Visitez ces liens pour obtenir davantage de détails sur ces paramètres. Nous allons aborder quelques uns de ces paramètres qu'il pourrait être intéressant d'ajuster. Toutefois, il est probablement judicieux de garder les valeurs par défaut de la plupart de ces paramètres."
 
 #. Tag: para
 #. +> trunk5
@@ -534,7 +535,7 @@ msgstr "<phrase>Téléchargement des index astrometry.net</phrase>"
 #: ekos-align.docbook:252
 #, no-c-format
 msgid "Automatic download is only available for Ekos users on &Linux; &amp; &MacOS;. For &Windows; users, please download ANSVR solver."
-msgstr "Le téléchargement automatique n'est disponible pour les utilisateurs d'Ekos utilisant &Linux; et &MacOS;. Pour &Windows;, veuillez télécharger le resolveur ANSVR."
+msgstr "Le téléchargement automatique n'est disponible pour les utilisateurs d'Ekos utilisant &Linux; et &MacOS;. Pour &Windows;, veuillez télécharger le résolveur « ANSVR »."
 
 #. Tag: para
 #. +> trunk5
@@ -583,7 +584,7 @@ msgstr "Téléchargement manuel"
 #: ekos-align.docbook:281
 #, no-c-format
 msgid "You need to <ulink url=\"http://data.astrometry.net\">download</ulink> and install the necessary index files suitable for your telescope+CCD field of view (FOV). You need to install index files covering 100% to 10% of your FOV. For example, if your FOV is 60 arcminutes, you need to install index files covering skymarks from 6 arcminutes (10%) to 60 arcminutes (100%). There are many online tools to calculate FOVs, such as <ulink url=\"http://starizona.com/acb/ccd/calc_pixel.aspx\">Starizona Field of View Calculator</ulink>."
-msgstr "Vous devez <ulink url=\"http://data.astrometry.net\">télécharger</ulink> et installer les fichiers index nécessaire qui conviennent pour votre matériel (champ de vision de l'ensemble télescope et CDD). Vous devez installer les fichiers index couvrant une plage allant de 10 % à 100 % de votre champ de vision. Par exemple si votre champ de vision fait 60 minutes d'arc, vous devez installer les fichiers couvrant la plage allant de 6 minutes d'arc (10 %) à 60 minutes d'arc (100 %). Il existe de nombreux outils en ligne permettant de calculer le champ de vision, par exemple <ulink url=\"https://astronomy.tools/calculators/field_of_view/\">Field of view calculator</ulink>."
+msgstr "Vous devez <ulink url=\"http://data.astrometry.net\">télécharger</ulink> et installer les fichiers index nécessaire qui conviennent pour votre matériel (champ de vision de l'ensemble télescope et CDD). Vous devez installer les fichiers index couvrant une plage allant de 10 % à 100 % de votre champ de vision. Par exemple si votre champ de vision fait 60 minutes d'arc, vous devez installer les fichiers couvrant la plage allant de 6 minutes d'arc (10 %) à 60 minutes d'arc (100 %). Il existe de nombreux outils en ligne permettant de calculer le champ de vision, par exemple <ulink url=\"http://starizona.com/acb/ccd/calc_pixel.aspx\">Starizona Field of View Calculator</ulink>."
 
 #. Tag: title
 #. +> trunk5
@@ -982,7 +983,7 @@ msgstr "Mais si vous avez téléchargé les fichiers index FITS directement, il 
 #: ekos-align.docbook:397
 #, no-c-format
 msgid "It is recommended to use a download manager as such <ulink url=\"https://addons.mozilla.org/en-US/firefox/addon/downthemall/\">DownThemAll!</ulink> for &firefox; to download the Debian packages as browsers' built-in download manager may have problems with download large packages."
-msgstr "Il est recommandé d'utiliser un gestionnaire de téléchargement comme <ulink url=\"https://addons.mozilla.org/fr/firefox/addon/downthemall/\">DownThemAll!</ulink> pour &firefox; pour télécharger les paquets Debian puisqu'il arrive que certains gestionnaire de téléchargement de navigateurs rencontrent parfois des problèmes à télécharger de gros fichiers."
+msgstr "Il est recommandé d'utiliser un gestionnaire de téléchargement comme <ulink url=\"https://addons.mozilla.org/fr/firefox/addon/downthemall/\">DownThemAll!</ulink> pour &firefox; pour télécharger les paquets pour Debian puisqu'il arrive que certains gestionnaire de téléchargement de navigateurs rencontrent parfois des problèmes à télécharger de gros fichiers."
 
 #. Tag: title
 #. +> trunk5
@@ -1147,7 +1148,7 @@ msgstr "<guilabel>Charger &amp; Pivoter</guilabel> : charger une image FITS ou 
 #, no-c-format
 #| msgid "<emphasis role=\"bold\">Never</emphasis> solve an image at or near the celestial pole (unless Ekos Polar Alignment Assistant Tool is used). Slew at least 20 degrees away from the celestial pole before solving the first image. Solving very close to the poles will make your mount pointing worse so avoid it."
 msgid "<emphasis role=\"bold\">Never</emphasis> solve an image at or near the celestial pole (unless Ekos Polar Alignment Assistant Tool is used). Slew at least 20 degrees away from the celestial pole before solving the first image. Solving very close to the poles will make your mount pointing worse, so avoid it."
-msgstr "Ne <emphasis role=\"bold\">Jamais</emphasis> résoudre une image proche du pôle céleste (sauf quand l'outil d'assistance à l'alignement polaire est utilisé). Pivoter à au moins 20 degrés du pôle céleste avant de commencer à résoudre la première image. Une résolution trop proche des pôles péjore le pointage de la monture, alors évitez-là."
+msgstr "Ne <emphasis role=\"bold\">Jamais</emphasis> résoudre une image proche du pôle céleste (sauf quand l'outil d'assistance à l'alignement polaire est utilisé). Pivoter à au moins 20 degrés du pôle céleste avant de commencer à résoudre la première image. Une résolution trop proche des pôles dégradera le pointage de la monture, alors évitez-là."
 
 #. Tag: title
 #. +> trunk5
@@ -1227,7 +1228,7 @@ msgstr "<title>Alignement polaire</title>"
 #: ekos-align.docbook:554
 #, no-c-format
 msgid "When setting up a German Equatorial Mount (GEM) for imaging, a critical aspect of capturing long-exposure images is to ensure proper polar alignment. A GEM mount has two axis: Right Ascension (RA) axis and Declination (DE) axis. Ideally, the RA axis should be aligned with the celestial sphere polar axis. A mount's job is to track the star's motion around the sky, from the moment they rise at the eastern horizon, all the way up across the median, and westward until they set."
-msgstr "Un des aspects critiques de l'installation d'une monture équatoriale allemande pour l'imagerie longue durée est un alignement polaire aussi précis que possible. Ces montures ont deux axes : l'ascension droite (AD) et la déclinaison (DEC). Idéalement l'axe d'AD devrait être aligné avec l'axe polaire de la sphère céleste. Le travail d'une monture est de suivre le déplacement d'une étoile dans le ciel depuis son lever à l'horizon est jusqu'au passage au méridien puis enfin jusqu'à son coucher vers l'ouest."
+msgstr "Un des aspects critiques de l'installation d'une monture équatoriale allemande pour l'imagerie longue durée est un alignement polaire aussi précis que possible. Ces montures ont deux axes : l'ascension droite (AD) et la déclinaison (DEC). Idéalement l'axe du paramètre « AD » devrait être aligné avec l'axe polaire de la sphère céleste. Le travail d'une monture est de suivre le déplacement d'une étoile dans le ciel depuis son lever à l'horizon est jusqu'au passage au méridien puis enfin jusqu'à son coucher vers l'ouest."
 
 #. Tag: phrase
 #. +> trunk5
@@ -1241,7 +1242,7 @@ msgstr "<phrase>Assistant d'alignement polaire</phrase>"
 #: ekos-align.docbook:569
 #, no-c-format
 msgid "In long exposure imaging, a camera is attached to the telescope where the image sensor captures incoming photons from a particular area in the sky. The incident photons have to strike the same photo-site over and over again if we are to gather a clear and crisp image. Of course, actual photons do not behave in this way: optics, atmosphere, seeing quality all scatter and refract photons in one way or another. Furthermore, photons do not arrive uniformly but follow a Poisson distribution. For point-like sources like stars, a point spread function describes how photons are spatially distributed across the pixels. Nevertheless, the <emphasis>overall</emphasis> idea we want to keep the source photons hitting the same pixels. Otherwise, we might end up with an image plagued with various trail artifacts."
-msgstr "Dans l'imagerie longue durée, une caméra est montée sur le télescope qui enregistre les photons qui arrivent sur son capteur depuis une région particulière du ciel. Ces photons doivent frapper le même pixel encore et encore pour obtenir une image claire et étincelante. Bien sûr, les vrais photons ne se comportent pas exactement comme cela. Les défauts d'optique, l'atmosphère turbulente, la qualité du ciel (le seeing en anglais) génèrent une légère dispersion des photons sur le capteur. De plus, ils n'arrivent pas uniformément mais suivant une distribution de Poisson. Pour des sources ponctuelles comme les étoiles, une fonction de dispersion de point (point spread function ou PSF en anglais) décrit leur distribution spatiale à travers les pixels. Cela dit, l'idée <emphasis>principale</emphasis> est de faire en sorte que les photons frappent toujours le même pixel. Sinon, l'image finale sera polluée de divers trainées et autres artéfacts."
+msgstr "Dans l'imagerie longue durée, une caméra est montée sur le télescope qui enregistre les photons qui arrivent sur son capteur depuis une région particulière du ciel. Ces photons doivent frapper le même pixel encore et encore pour obtenir une image claire et étincelante. Bien sûr, les vrais photons ne se comportent pas exactement comme cela. Les défauts d'optique, l'atmosphère turbulente, la qualité du ciel (« Seeing » en anglais) génèrent une légère dispersion des photons sur le capteur. De plus, ils n'arrivent pas uniformément mais suivant une distribution de Poisson. Pour des sources ponctuelles comme les étoiles, une fonction de dispersion de point (Point Spread Function ou PSF en anglais) décrit leur distribution spatiale à travers les pixels. Cela dit, l'idée <emphasis>principale</emphasis> est de faire en sorte que les photons frappent toujours le même pixel. Sinon, l'image finale sera polluée de diverses traînées et autres artefacts."
 
 #. Tag: screeninfo
 #. +> trunk5
