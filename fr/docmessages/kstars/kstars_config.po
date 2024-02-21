@@ -5,15 +5,15 @@
 # Ludovic Grossard <grossard@kde.org>, 2002, 2003, 2004, 2012.
 # Cyrille Bieuzent <bieuzent@gmail.com>, 2012, 2013.
 # SPDX-FileCopyrightText: 2012, 2024 Xavier Besnard <xavier.besnard@kde.org>
-# steve <stax@ik.me>, 2022, 2023.
+# steve <stax@ik.me>, 2022, 2023, 204.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_config_3.6.8\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-20 07:57+0100\n"
-"PO-Revision-Date: 2024-02-01 19:05+0100\n"
-"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"PO-Revision-Date: 2024-02-21 11:46+0100\n"
+"Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -2341,10 +2341,10 @@ msgstr "Ajustement de l'orientation de la carte du ciel"
 #. Tag: para
 #. +> trunk5
 #: config.docbook:1623
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "You can tweak various settings to make the orientation of the sky map match the view through your optical instrument, provided (as of this version) the instrument does not mirror the field-of-view (as is done by prisms used with SCTs and refractors)."
 msgid "You can tweak various settings to make the orientation of the sky map match the view through your optical instrument."
-msgstr "Vous pouvez ajuster différents réglages pour que l'orientation de la carte du ciel soit la même que la vue à travers votre instrument optique, à condition que l'instrument ne copie pas le champ de vision (ce que font les prismes utilisés dans les télescopes de Schmidt-Cassegrain (SCT) et les réfracteurs)."
+msgstr "Vous pouvez ajuster différents réglages pour que l'orientation de la carte du ciel soit la même que la vue à travers votre instrument optique."
 
 #. Tag: para
 #. +> trunk5
@@ -2358,12 +2358,12 @@ msgstr "Commencez par choisir le système de coordonnées qui correspond à votr
 #: config.docbook:1629
 #, no-c-format
 msgid "If your instrument is using an erecting prism, typically used on Schmidt-Cassegrain and refracting type telescopes, the view through the eyepiece will be mirrored horizontally. You can have the sky map match this by checking the <guilabel>Mirrored View</guilabel> option under the <guimenu>View</guimenu> menu."
-msgstr ""
+msgstr "Si votre instrument est équipé d'un redresseur terrestre à prisme, ce qui est typiquement utilisé sur un télescope Schmidt-Cassegrain ou un réfracteur, la vue à travers l'oculaire sera redressée horizontalement. La carte du ciel peut s'adapter à ce montage en cochant l'option <guilabel>Vue redressée</guilabel> dans le menu <guimenu>Affichage</menu>."
 
 #. Tag: para
 #. +> trunk5
 #: config.docbook:1632
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "To rotate the sky map freely, you can hold down the &Shift; key and drag the mouse on the sky map. A temporary overlay will appear showing the direction of north and zenith at the point, and displaying the angle they make with the vertical in a counterclockwise sense. The orientations of zenith and north will update as you rotate the sky map. Letting go of &Shift; or the mouse button will stop the rotation operation. As you pan the sky map or focus it on different objects, the rotation you set is retained as an offset from the reference direction. The reference direction is north when using Equatorial Coordinates and zenith when using Horizontal Coordinates. As a reminder, the reference direction is solid and brighter in the temporary overlay. For the two common orientations of erect and inverted, the rotation can be set / reset using the <menuchoice><guimenu>View</guimenu><guisubmenu>Skymap Orientation</guisubmenu></menuchoice> submenu. Select \"North Down\" or \"Zenith Down\" as is applicable to set an orientation of 180 degrees."
 msgid "Next, to rotate the sky map freely, you can hold down the &Shift; key and drag the mouse on the sky map. A temporary overlay will appear showing the direction of north and zenith at the point, and displaying the angle they make with the vertical in a counterclockwise sense. The orientations of zenith and north will update as you rotate the sky map. Letting go of &Shift; or the mouse button will stop the rotation operation. As you pan the sky map or focus it on different objects, the rotation you set is retained as an offset from the reference direction. The reference direction is north when using Equatorial Coordinates and zenith when using Horizontal Coordinates. As a reminder, the reference direction is solid and brighter in the temporary overlay. For the two common orientations of erect and inverted, the rotation can be set / reset using the <menuchoice><guimenu>View</guimenu><guisubmenu>Skymap Orientation</guisubmenu></menuchoice> submenu. Select \"North Down\" or \"Zenith Down\" as is applicable to set an orientation of 180 degrees."
 msgstr "Vous pouvez effectuer une rotation libre en gardant enfoncée la touche &Maj; et en glissant la souris sur la carte du ciel. Une superposition temporaire apparaîtra montrant la direction du nord et du zénith à ce point et affichera leur angle avec la verticale dans le sens antihoraire. L'orientation du zénith et du nord sera actualisée lorsque vous effectuerez une rotation de la carte du ciel. L'opération se terminera dès que vous relâcherez la touche &Maj;. La rotation fixée sera conservée en tant que décalage par rapport à la direction de référence, même lorsque vous déplacerez la carte du ciel ou zoomer sur différents objets. La direction de référence est le nord lorsque vous utilisez les coordonnées équatoriales et le zénith pour les coordonnées horizontales. Pour rappel, la direction de référence est représentée par un trait plein et de couleur vive dans la superposition temporaire. La rotation peut être réglée pour ces deux orientations communes dans les sous-menu <menuchoice><guimenu>Affichage</guimenu><guisubmenu>Orientation de la carte du ciel</guisubmenu></menuchoice>. Choisissez « Nord en bas » ou « Zénith en bas » en fonction du système de coordonnées utilisé pour régler une orientation de 180 degrés."
@@ -2408,7 +2408,7 @@ msgstr "Utilisation de jumelles : utilisez les mêmes réglages que pour l'obse
 #: config.docbook:1644
 #, no-c-format
 msgid "Eyepiece of an altazimuth Schmidt-Cassegrin telescope with an erecting prism: Under the <guimenu>View</guimenu> menu, choose <guilabel>Mirrored View</guilabel>, and under the <guisubmenu>Skymap Orientation</guisubmenu> sub-menu, choose <guilabel>Zenith Up</guilabel>. Finally, tweak the rotation manually to match the eyepiece view according to the angle you are using for your erecting prism."
-msgstr ""
+msgstr "Oculaire d'un télescope Schmidt-Cassegrain équipé d'un redresseur terrestre à prisme : dans le menu <guimenu>Affichage</guimenu>, choisissez <guilabel>Vue redressée</guilabel>, et dans le sous-menu <guisubmenu>Orientation de la carte du ciel</guisubmenu>, choisissez <guilabel>Zénith en haut</guilabel>. Enfin, réglez manuellement la rotation pour qu'elle s'accorde à la vue de l'oculaire en accord avec l'angle utilisé pour le redresseur."
 
 #. Tag: para
 #. +> trunk5
