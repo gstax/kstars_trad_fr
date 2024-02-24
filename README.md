@@ -15,6 +15,10 @@ Ce fichier contient les balises trunk5 à garder.
 
 
 ### Fichiers po de la documentation
+
+!!! Les fichiers se trouvent maintenant dans le dépôt kstars-documentation !!!
+
+
 https://websvn.kde.org/trunk/l10n-support/fr/summit/docmessages/kstars/?sortby=date#dirlist
 
 Ne pas oublier les images, sans quoi la compilation ne fonctionnera pas.
