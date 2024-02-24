@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.6.9\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-19 09:57+0100\n"
-"PO-Revision-Date: 2024-02-11 13:01+0100\n"
+"PO-Revision-Date: 2024-02-24 16:34+0100\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -6572,10 +6572,10 @@ msgstr "<p>Taille réelle du champ de vision, en minutes d'arc.</p>"
 
 #. +> trunk5
 #: ekos/align/align.cpp:1412
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Setting temperature to %1 °C..."
 msgid "Setting target to RA:%1 DEC:%2"
-msgstr "Définition de la température à %1 °C…"
+msgstr "Réglage des coordonnées de la cible à AD : %1 et DEC : %2"
 
 #. +> trunk5
 #: ekos/align/align.cpp:1431
@@ -11000,10 +11000,10 @@ msgstr "Impossible de trouver le fichier image : %1"
 
 #. +> trunk5
 #: ekos/analyze/analyze.cpp:1263
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Cannot load to memory: %1"
 msgid "Cannot display temporary image file: %1"
-msgstr "Changement en mémoire impossible : %1"
+msgstr "Impossible d'afficher le fichier image temporaire: %1"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FocusLogging)
 #. i18n: ectx: property (text), widget (QLabel, label_10)
@@ -11287,7 +11287,7 @@ msgstr "Statistiques"
 #. i18n: ectx: property (toolTip), widget (QPushButton, prevSessionB)
 #. +> trunk5
 #: ekos/analyze/analyze.ui:202
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Select the input for the plots. This can be the current Ekos session, or it can be read from a file.</p>"
@@ -11298,7 +11298,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Sélectionner l'entrée pour les tracés. Cela peut être la session courante Ekos ou être lu à partir d'un fichier.</p>"
+"<p>Se déplacer de la session sélectionnée à la session précédente(à sa gauche). Clavier : Ctrl-gauche.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, prevSessionB)
@@ -11367,7 +11367,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QPushButton, nextSessionB)
 #. +> trunk5
 #: ekos/analyze/analyze.ui:276
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Current data of the weather sensors. Click on the sensor name to display its data over time.</p>"
@@ -11378,7 +11378,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Données courantes concernant les capteurs de météo. Veuillez cliquer sur le nom d'un capteur pour l'affichage de ses données en temps réel.</p>"
+"<p>Se déplacer de la session sélectionnée vers la session suivante (à sa droite). Clavier : Ctrl-droite</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, nextSessionB)
@@ -15739,10 +15739,10 @@ msgstr "Regroupement vertical"
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel1_8)
 #. +> trunk5
 #: ekos/capture/capture.ui:315
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Delay in seconds between consecutive images"
 msgid "Delay in seconds before capturing an image"
-msgstr "Délai en secondes entre images consécutives"
+msgstr "Délai en secondes avant l'acquisition d'une image"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_8)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -16974,10 +16974,10 @@ msgstr "Acquisition CCD terminée."
 
 #. +> trunk5
 #: ekos/capture/captureprocess.cpp:331
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Until stopped"
 msgid "Framing stopped"
-msgstr "Jusqu'à l'arrêt"
+msgstr "Acquisition arrêtée"
 
 #. +> trunk5
 #: ekos/capture/captureprocess.cpp:331 ekos/capture/captureprocess.cpp:336
@@ -22294,10 +22294,10 @@ msgstr "PHD2 : étoile sélectionnée."
 
 #. +> trunk5
 #: ekos/guide/externalguide/phd2.cpp:656
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Dithering successful"
 msgid "PHD2: Dithering successful."
-msgstr "Décalage réussi"
+msgstr "PHD2 : décalage réussi."
 
 #. +> trunk5
 #: ekos/guide/externalguide/phd2.cpp:661
@@ -37422,17 +37422,17 @@ msgstr "L'angle de rotation de la carte du ciel par rapport à son orientation s
 #. i18n: ectx: label, entry (MirrorSkyMap), group (View)
 #. +> trunk5
 #: kstars.kcfg:810
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Draw Mars in the sky map?"
 msgid "Mirrors the sky map"
-msgstr "Dessiner Mars sur la carte du ciel ?"
+msgstr "Refléter la carte du ciel ?"
 
 #. i18n: ectx: whatsthis, entry (MirrorSkyMap), group (View)
 #. +> trunk5
 #: kstars.kcfg:811
 #, kde-format
 msgid "Enable this if you want the sky map to be mirrored left-right, e.g. to match the view through an erecting prism."
-msgstr ""
+msgstr "Activer cette option si vous souhaitez que la carte du ciel soit reflétée selon une symétrie verticale afin de correspondre à la vue dans un prisme redresseur."
 
 #. i18n: ectx: label, entry (ErectObserverCorrection), group (View)
 #. +> trunk5
@@ -76268,7 +76268,7 @@ msgstr "&Zoomer à la dimension angulaire…"
 #, kde-format
 msgctxt "Mirror the view of the sky map"
 msgid "Mirrored View"
-msgstr ""
+msgstr "Affichage reflété"
 
 #. +> trunk5
 #: kstarsinit.cpp:287
