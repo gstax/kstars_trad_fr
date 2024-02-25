@@ -15,7 +15,7 @@ Ce fichier contient les balises trunk5 à garder.
 
 ## Site ouebe
 
-Le lien est du [fichier po](https://websvn.kde.org/trunk/l10n-support/fr/summit/messages/websites-kstars-kde-org/kstars-kde-org.po?view=log).
+Le lien du [fichier po](https://websvn.kde.org/trunk/l10n-support/fr/summit/messages/websites-kstars-kde-org/kstars-kde-org.po?view=log).
 
 ### Fichiers po de la documentation
 
