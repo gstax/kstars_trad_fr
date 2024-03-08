@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.6.9\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-03 13:22+0100\n"
-"PO-Revision-Date: 2024-02-24 16:34+0100\n"
+"PO-Revision-Date: 2024-03-08 14:18+0100\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -14371,10 +14371,10 @@ msgstr "Mise au point par défaut pour l'extraction d'étoiles."
 
 #. +> trunk5
 #: ekos/auxiliary/stellarsolverprofile.cpp:101
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Profile optimized for source extraction of larger stars."
 msgid "Profile optimized for source extraction of stars including Donuts."
-msgstr "Profil pour l'extraction de sources de grandes étoiles."
+msgstr "Profil pour l'extraction de sources d'étoiles incluant les beignets (donut)."
 
 #. +> trunk5
 #: ekos/auxiliary/stellarsolverprofile.cpp:122
@@ -15316,15 +15316,15 @@ msgstr "Tolérance"
 #: ekos/capture/calibrationoptions.ui:226
 #, kde-format
 msgid "When shooting flats on sky that can change intensity. Will use simpler exposure calculation."
-msgstr ""
+msgstr "Pour l'acquisition de flats dans des ciels qui peuvent changer d'intensité. Utilise un calcul de durée d'exposition plus simple."
 
 #. i18n: ectx: property (text), widget (QCheckBox, skyFlats)
 #. +> trunk5
 #: ekos/capture/calibrationoptions.ui:229
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Sky Map"
 msgid "Sky flats"
-msgstr "Carte du ciel"
+msgstr "Flats du ciel"
 
 #. +> trunk5
 #: ekos/capture/capture.cpp:133
@@ -19407,7 +19407,7 @@ msgstr "Conseiller pour la mise au point"
 #. i18n: ectx: property (text), widget (QLabel, focusAdvSettingsLabel)
 #. +> trunk5
 #: ekos/focus/advisor.ui:59
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Settings Parameters"
 msgid "Settings Parameters:"
 msgstr "Paramètres de configuration"
@@ -19445,7 +19445,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, focusAdvProcessLabel)
 #. +> trunk5
 #: ekos/focus/advisor.ui:142
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Process Parameters"
 msgid "Process Parameters:"
 msgstr "Paramètres de traitement"
@@ -19467,7 +19467,7 @@ msgstr "Taille de pas"
 #. i18n: ectx: property (text), widget (QLabel, focusAdvMechanicsLabel)
 #. +> trunk5
 #: ekos/focus/advisor.ui:213
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Mechanics Parameters"
 msgid "Mechanics Parameters:"
 msgstr "Paramètres mécanique"
@@ -19495,10 +19495,10 @@ msgstr "Mettre à jour les paramètres"
 #. i18n: ectx: property (text), widget (QLabel, focusAdvCameraLabel)
 #. +> trunk5
 #: ekos/focus/advisor.ui:242
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Camera & Filter Wheel Parameters"
 msgid "Camera & Filter Wheel Parameters:"
-msgstr "Paramètres de la caméra et de la roue à filtres"
+msgstr "Paramètres de l'appareil et de la roue à filtres"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, focusAdvHelp)
 #. +> trunk5
@@ -19516,10 +19516,10 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, focusAdvSEPLabel)
 #. +> trunk5
 #: ekos/focus/advisor.ui:271
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Process Parameters"
 msgid "SEP Parameters:"
-msgstr "Paramètres de traitement"
+msgstr "Paramètres SEP"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, focusCFZDialog)
 #. +> trunk5
@@ -20028,24 +20028,24 @@ msgstr "Démarrage de l'opération de mise au point automatique"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:1292
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Autofocus failed, moving back to initial focus position %1."
 msgid "Starting scan for initial focuser position."
-msgstr "Échec de la mise au point automatique. Retour à la position initiale %1."
+msgstr "Démarrage du balayage pour déterminer la position initiale du moteur de mise au point."
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:1293
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Dome parking failed. Restarting operation..."
 msgid "Scanning for starting position..."
-msgstr "Échec de la mise en sécurité du dôme. Tentative de reprise…"
+msgstr "Balayage pour déterminer la position initiale…"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:1345
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Capturing still running, Retrying in %1 seconds..."
 msgid "Capture in progress, retrying in 1s..."
-msgstr "Acquisition encore en cours. Nouvel essai dans %1 secondes…"
+msgstr "Acquisition en cours, nouvel essai dans 1 seconde…"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:1356
@@ -20257,10 +20257,10 @@ msgstr "Aucune étoile détectée, durant le test HFR. Lancement d'une nouvelle 
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:2910
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Autofocus complete after %1 iterations."
 msgid "Autofocus failed: exceeded max iterations %1"
-msgstr "Mise au point  automatique terminé après %1 itérations."
+msgstr "Échec de la mise au point automatique : maximum d'itérations %1 atteint"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:2921 ekos/focus/focus.cpp:3155
@@ -20295,34 +20295,34 @@ msgstr "Exécution %1 de l'inspecteur d'aberration…"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:3162
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Failed to detect any stars at position %1. Continuing..."
 msgid "Failed to detect any stars. Aborting..."
-msgstr "Échec de la détection d'une étoile à la position %1. Poursuite de la détection…"
+msgstr "Échec de la détection d'étoiles. Abandon…"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:3182
 #, kde-format
 msgid "Scanning for starting position %1/%2"
-msgstr ""
+msgstr "Balayage de la position de départ %1/%2"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:3196
 #, kde-format
 msgid "No scan minimum - widening search..."
-msgstr ""
+msgstr "Aucun minimum de balayage - élargissement de la recherche…"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:3206
 #, kde-format
 msgid "Scan Start Position %1 Found"
-msgstr ""
+msgstr "Position de départ %1 trouvée"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:3207
 #, kde-format
 msgid "Scan Start Position %1 found"
-msgstr ""
+msgstr "Position de départ %1 trouvée"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:3268
@@ -20499,7 +20499,7 @@ msgstr "Profil relatif"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:6732
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Focus Advisor (FA) is designed to help you with focus parameters.\n"
 #| "It will not necessarily give you the perfect combination of parameters, you will need to experiment yourself, but it will give you a basic set of parameters to achieve focus.\n"
@@ -20529,13 +20529,12 @@ msgstr ""
 "\n"
 "La première étape est de régler le jeu. Le manuel de votre moteur de mise au point fournira probablement comment faire. Une fois que vous avez obtenu une valeur de ce paramètre pour votre système, il est temps de renseigner le champ de jeu du pilote ou celui du surbalayage de mise au point. Ne réglez qu'un seul champ et mettez zéro pour l'autre.\n"
 "\n"
-"La deuxième étape est le réglage de la taille de pas. Elle peut provenir de la zone critique de mise au point (CFZ) de votre matériel, donc n'oubliez pas de la régler dans l'onglet CFZ.\n"
+"La deuxième étape est le réglage de la taille de pas. Si vous connaissez une valeur approximative, saisissez-là ici, sinon utilisez la valeur déterminée par la CFZ de votre matériel (ainsi, configurez cela maintenant dans l'onglet CFZ et redémarrer le Conseiller de la mise au point).\n"
 "\n"
-"La troisième étape consiste à régler le multiple de pas extérieur. Commencez par utiliser la valeur par défaut suggérée."
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:6748
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "\n"
 #| "\n"
@@ -20558,13 +20557,12 @@ msgid ""
 "Now move the focuser to approximate focus and select a broadband filter, e.g. Luminance\n"
 "You are now ready to start an Autofocus run."
 msgstr ""
-"\n"
-"\n"
-"La quatrième étape consiste à régler les paramètres restants du moteur de mise au point à des valeurs raisonnables. Le conseiller suggérera des valeurs pour quatre catégories de paramètres. Vérifiez la boîte de dialogue de mise à jour associée et acceptez ces recommandations en cliquant sur Mise à jour des paramètres.\n"
+"La troisième étape consiste à régler les paramètres restants du moteur de mise au point à des valeurs raisonnables. Le conseiller suggérera des valeurs pour quatre catégories de paramètres. Vérifiez la boîte de dialogue de mise à jour associée et acceptez ces recommandations en cliquant sur Mise à jour des paramètres.\n"
 "1. Propriétés de la caméra - assurez-vous que le gain est réglé correctement, p.ex. Gain unitaire.\n"
 "2. Réglages de la mise au point : ils ont tous des recommandations.\n"
 "3. Réglage du processus de mise au point : ils ont tous des recommandations.\n"
 "4. Réglage de la mécanique de mise au point : la taille de pas et le multiple de pas extérieur sont gérés comme ci-dessus.\n"
+"5. Paramètres SEP : réglez le profil approprié à ses valeurs par défaut."
 "\n"
 "Déplacez le moteur vers une position de mise au point approximative et choisissez un filtre à large bande, p. ex. la luminance.\n"
 "Vous êtes maintenant prêt pour débuter la procédure de mise au point."
@@ -20573,7 +20571,7 @@ msgstr ""
 #: ekos/focus/focus.cpp:7170
 #, kde-format
 msgid "First use of Optical Train: %1. Would you like Focus Advisor to optimise parameters?"
-msgstr ""
+msgstr "Première utilisation du train optique : %1. Souhaitez-vous que le conseiller de la mise au point optimise les paramètres ?"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, startLoopB)
 #. +> trunk5
@@ -21717,15 +21715,15 @@ msgstr "Donut Buster (ATTENTION : fonctionnalité expériementale)"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk5
 #: ekos/focus/opsfocusprocess.ui:669
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Time Dilation Factor:"
 msgid "Time Dilation x:"
-msgstr "Facteur de dilatation du temps"
+msgstr "Facteur de dilatation du temps x"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, focusScanStartPos)
 #. +> trunk5
 #: ekos/focus/opsfocusprocess.ui:679
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Check to show the Critical Focus Zone on the graph.</p>"
@@ -21736,23 +21734,23 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Cochez pour afficher la zone critique de mise au point (CFZ) sur le graphique.</p>"
+"<p>Cochez pour lancer un balayage pour déterminer la position de départ. L'algorithme recherchera un minimum en utilisant Nombre de points.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, focusScanStartPos)
 #. +> trunk5
 #: ekos/focus/opsfocusprocess.ui:682
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Scale & Position"
 msgid "Scan for Start Position"
-msgstr "Échelle & Position"
+msgstr "Balayage pour déterminer la position de départ."
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, focusScanDatapoints)
 #. +> trunk5
 #: ekos/focus/opsfocusprocess.ui:689
 #, kde-format
 msgid "When Scan for Start Position is checked this is the number of datapoints to use."
-msgstr ""
+msgstr "Quand cette option est cochée, cela est le nombre de points à utiliser."
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, focusTimeDilation)
 #. +> trunk5
@@ -21774,15 +21772,15 @@ msgstr ""
 #: ekos/focus/opsfocusprocess.ui:736
 #, kde-format
 msgid "Num Datapoints:"
-msgstr ""
+msgstr "Nombre de points"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk5
 #: ekos/focus/opsfocusprocess.ui:749
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Direction:"
 msgid "Outlier Rejection:"
-msgstr "Direction "
+msgstr "Rejet des points aberrants"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, focusOutlierRejection)
 #. +> trunk5
@@ -21794,21 +21792,25 @@ msgid ""
 "<p>Refine Curve Fit must be set for this option to be active.</p>"
 "</body></html>"
 msgstr ""
+"<html><head/><body>"
+"<p>Agressivité du rejet des points aberrants. Les valeurs plus hautes en rejettent plus.</p>"
+"<p>L'option Affiner la courbe de régression doit être réglée pour que cette fonctionnalité soit active.</p>"
+"</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_4)
 #. +> trunk5
 #: ekos/focus/opsfocusprocess.ui:781
 #, kde-format
 msgid "When Scan for Start Position is checked, the scan uses a step size = Initial Step Size multiplier by Initial Step Size x."
-msgstr ""
+msgstr "Quand Balayage pour position de départ est cochée, le balayage utilise une taille de pas = multiplicateur de taille de pas initial fois Taille de pas initiale x."
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk5
 #: ekos/focus/opsfocusprocess.ui:784
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Initial Step Size:"
 msgid "Initial Step Size x:"
-msgstr "Taille de pas initiale"
+msgstr "Taille de pas initiale x"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, focusAutoStarEnabled)
 #. +> trunk5
@@ -24055,7 +24057,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Supprimer l'effet de xxxx DEC lors de la calibration de l'assistant de guidage.</p>"
+"<p>Supprimer l'effet de jeu en DEC lors de la calibration de l'assistant de guidage.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_GuideCalibrationBacklash)
@@ -31345,10 +31347,10 @@ msgstr "Attention : la tâche « %1 » n'a pas trouvé de repositionnement. R
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:3699
 #: ekos/scheduler/schedulerprocess.cpp:3710
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Caution: do not use Auto Park while scheduler is active."
 msgid "Warning: Mount is parked while scheduler for job '%1' is active. Aborting."
-msgstr "Attention : ne pas utiliser la mise en sécurité automatique quand l'ordonnanceur est activé."
+msgstr "Attention : la monture est parquée alors que la tâche %1 de l'ordonnanceur est active. Abandon"
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:3732
@@ -39911,17 +39913,17 @@ msgstr "Différence maximale entre les valeurs ADU mesurées et objectives pour 
 #. i18n: ectx: label, entry (CalibrationSkyFlat), group (Capture)
 #. +> trunk5
 #: kstars.kcfg:1832
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Dark Flat"
 msgid "Sky Flat"
-msgstr "Dark Flat"
+msgstr "Flat du ciel"
 
 #. i18n: ectx: whatsthis, entry (CalibrationSkyFlat), group (Capture)
 #. +> trunk5
 #: kstars.kcfg:1833
 #, kde-format
 msgid "When shooting flats on sky with changing intensity."
-msgstr ""
+msgstr "Pour l'acquisition de flats avec une intensité variable."
 
 #. i18n: ectx: label, entry (CalibrationPreActionIndex), group (Capture)
 #. +> trunk5
@@ -40501,29 +40503,29 @@ msgstr "Facteur de multiplication pour la durée d'exposition pour les trames ho
 #: kstars.kcfg:2145
 #, kde-format
 msgid "Aggressiveness factor to apply to outlier rejection when using Donut Buster."
-msgstr ""
+msgstr "Facteur d'agressivité à appliquer au rejet des valeurs aberrantes avec la méthode Donut Buster"
 
 #. i18n: ectx: whatsthis, entry (focusScanStartPos), group (Focus)
 #. +> trunk5
 #: kstars.kcfg:2149
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Whether to adapt the focuser starting position at the beginning of an Autofocus run."
 msgid "Check to force a scan for optimum start position at the start of Autofocus."
-msgstr "S'il faut adapter la position de départ du moteur de mise au point au début d'une phase de mise au point automatique."
+msgstr "Cochez pour forcer un balayage pour déterminer la position de départ optimale au lancement d'une mise au point automatique."
 
 #. i18n: ectx: whatsthis, entry (focusScanDatapoints), group (Focus)
 #. +> trunk5
 #: kstars.kcfg:2153
 #, kde-format
 msgid "Number of datapoints to use during scan when focusScanStartPos is checked."
-msgstr ""
+msgstr "Nombre de points à utiliser durant un balayage quand l'option focusScanStartPos est cochée."
 
 #. i18n: ectx: label, entry (focusScanStepSizeFactor), group (Focus)
 #. +> trunk5
 #: kstars.kcfg:2157
 #, kde-format
 msgid "Factor to apply to Initial Step Size during scan when focusScanStartPos is checked."
-msgstr ""
+msgstr "Facteur à appliquer à Taille de pas initiale durant un balayage quand l'option focusScanStartPos est cochée."
 
 #. i18n: ectx: label, entry (FocusGaussianKernelSize), group (Focus)
 #. +> trunk5
@@ -40745,10 +40747,10 @@ msgstr "Si l'on doit accepter les recommandations des paramètres de l'onglet de
 #. i18n: ectx: whatsthis, entry (focusAdvSEP), group (Focus)
 #. +> trunk5
 #: kstars.kcfg:2283
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Whether to accept Focus Advisor recommendation on Process Tab Parameters."
 msgid "Whether to accept Focus Advisor recommendation on SEP Parameters."
-msgstr "Si l'on doit accepter les recommandations des paramètres de l'onglet des processus par le conseiller de mise au point"
+msgstr "Si l'on doit accepter les recommandations des paramètres SEP par le conseiller de mise au point."
 
 #. i18n: ectx: label, entry (FocusSplitter), group (Focus)
 #. +> trunk5
