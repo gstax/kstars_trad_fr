@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.6.9\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-16 15:07+0100\n"
-"PO-Revision-Date: 2024-03-17 16:58+0100\n"
+"PO-Revision-Date: 2024-03-17 17:22+0100\n"
 "Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -16813,14 +16813,14 @@ msgstr "Échec de la mise au point automatique. Annulation de l'acquisition en c
 #: ekos/capture/capturemodulestate.cpp:688
 #, kde-format
 msgid "Limit: %1 °C"
-msgstr ""
+msgstr "Limite : %1 °C"
 
 #. +> trunk5
 #: ekos/capture/capturemodulestate.cpp:692
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Limit Settings"
 msgid "Limit: %1 mins"
-msgstr "Paramètres de limitation"
+msgstr "Limite : %1 min"
 
 #. +> trunk5
 #: ekos/capture/capturemodulestate.cpp:830
@@ -18025,7 +18025,7 @@ msgstr "trames. HFR :"
 #: ekos/capture/refocusstate.cpp:32
 #, kde-format
 msgid "User initiated ad-hoc in-sequence Autofocus..."
-msgstr ""
+msgstr "Mise au point automatique durant la séquence initiée par l'opérateur…"
 
 #. +> trunk5
 #: ekos/capture/refocusstate.cpp:45
@@ -19994,13 +19994,13 @@ msgstr "La mise au point automatique est déjà en cours. Annulation de la deman
 #: ekos/focus/focus.cpp:1048
 #, kde-format
 msgid "Build Offset is already running, Autofocus rejected."
-msgstr ""
+msgstr "Construction des décalages déjà en cours d'exécution, mise au point automatique rejetée."
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:1056
 #, kde-format
 msgid "In Focus Loop, Autofocus rejected."
-msgstr ""
+msgstr "Boucle de mise au point intérieure en cours, mise au point automatique rejetée."
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:1068
@@ -20272,10 +20272,10 @@ msgstr "Aucune étoile détectée, durant le test HFR. Lancement d'une nouvelle 
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:2859
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "HFR: %1  "
 msgid "HFR %1 > Limit %2"
-msgstr "HFR : %1"
+msgstr "HFR %1 > limite %2"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:2973
@@ -20322,16 +20322,16 @@ msgstr "Échec de la détection d'étoiles. Abandon…"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:3234
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Autofocus failed: exceeded max iterations %1"
 msgid "Scan Start Pos: exceeded max iterations %1"
-msgstr "Échec de la mise au point automatique : maximum d'itérations %1 atteint"
+msgstr "Position initiale du balayage : maximum d'itérations %1 atteint"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:3252
 #, kde-format
 msgid "Scanning for starting position %1/%2"
-msgstr "Balayage de la position de départ %1/%2"
+msgstr "Balayage pour déterminer la position initiale %1/%2"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:3266
@@ -20343,13 +20343,13 @@ msgstr "Aucun minimum de balayage - élargissement de la recherche…"
 #: ekos/focus/focus.cpp:3276
 #, kde-format
 msgid "Scan Start Position %1 Found"
-msgstr "Position de départ %1 trouvée"
+msgstr "Position de initiale %1 trouvée"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:3277
 #, kde-format
 msgid "Scan Start Position %1 found"
-msgstr "Position de départ %1 trouvée"
+msgstr "Position de initiale %1 trouvée"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:3338
@@ -20367,7 +20367,7 @@ msgstr "La régression de la courbe a échoué à nouveau R2=%1 focusR2Limit=%2,
 #: ekos/focus/focus.cpp:3356
 #, kde-format
 msgid "Linear autofocus algorithm aborted: %1"
-msgstr ""
+msgstr "Abandon de l'algorithme de mise au point automatique linéaire : %1"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:3391
@@ -20795,7 +20795,7 @@ msgstr "Conseiller"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, forceInSeqAF)
 #. +> trunk5
 #: ekos/focus/focus.ui:942
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Check to force an Autofocus after a Meridian Flip.</p>"
@@ -20806,7 +20806,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Cochez pour réaliser une mise au point automatique après un retournement au méridien.</p>"
+"<p>Cochez pour forcer une mise au point automatique à ce point dans la séquence à la fin de cette trame.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, forceInSeqAF)
@@ -20814,7 +20814,7 @@ msgstr ""
 #: ekos/focus/focus.ui:945
 #, kde-format
 msgid "Force AF"
-msgstr ""
+msgstr "Forcer la mise au point automatique"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #. +> trunk5
@@ -21333,7 +21333,7 @@ msgstr "Profil SEP"
 #. i18n: ectx: property (toolTip), widget (QSpinBox, focusFramesCount)
 #. +> trunk5
 #: ekos/focus/opsfocusprocess.ui:171
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Number of frames to capture at the current focuser position.</p>"
@@ -21344,7 +21344,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><body>"
-"<p>Nombre de trames à acquérir à la position courante du moteur de mise au point.</p>"
+"<p>Nombre de trames à acquérir pour chaque position du moteur de mise au point.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, focusFramesCount)
@@ -21652,18 +21652,18 @@ msgstr "Limite R²"
 #. i18n: ectx: property (text), widget (QLabel, focusHFRFramesCountLabel)
 #. +> trunk5
 #: ekos/focus/opsfocusprocess.ui:407
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Average (1 sec.)"
 msgid "Average HFR Check:"
-msgstr "Moyenne (1 sec.)"
+msgstr "Vérification HFR moyenne :"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, focusHFRFramesCount)
 #. +> trunk5
 #: ekos/focus/opsfocusprocess.ui:420
 #, kde-format
 msgid "Number of frames to capture when running in-sequence HFR Check. If using Linear 1 Pass, the point of optimum focus will also capture this number of frames."
-msgstr ""
+msgstr "Nombre de trames à acquérir pendant une vérification HFR. Pour l'algorithme linéaire à une passe, ce nombre de trames sera également acquis à la position optimale de mise au point."
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, focusGaussianKernelSize)
 #. +> trunk5
@@ -32144,10 +32144,10 @@ msgstr "Le fichier FITS actuel comporte des changements non enregistrés. Voulez
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:133
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Align Options Profiles Editor"
 msgid "FITS Viewer Solver Align Options Profiles Editor"
-msgstr "Éditeur de profils pour les options d'alignement"
+msgstr "Éditeur de profils pour les options d'alignement pour le résolveur de l'afficheur FITS"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, PlateSolveUI)
 #. +> trunk5
@@ -33134,10 +33134,10 @@ msgstr "Sélectionne les options du profil (depuis le module Alignement) pour ut
 #. i18n: ectx: property (toolTip), widget (QPushButton, editAlignProfile)
 #. +> trunk5
 #: fitsviewer/platesolve.ui:407 options/opsimageoverlay.ui:288
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Opens the currently selected Options Profile in the Options Profile Editor"
 msgid "Opens the currently selected Align Profile in the Options Profile Editor"
-msgstr "Ouvre les options du profil courant dans l'éditeur des options de profil"
+msgstr "Ouvre les options du profil courant d'alignement dans l'éditeur des options de profil"
 
 #. i18n: ectx: property (text), widget (QTableWidget, solutionTable)
 #. +> trunk5
@@ -40225,10 +40225,10 @@ msgstr "Largeur et hauteur du capteur enregistrées pour le modificateur esq, ai
 #. i18n: ectx: label, entry (CaptureStandAloneTemperature), group (Capture)
 #. +> trunk5
 #: kstars.kcfg:1966
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Camera frame formats when using stand-alone esq editor."
 msgid "Camera temperature properties for stand-alone esq editor."
-msgstr "Formats de trame de l'appareil lors de l'utilisation du modificateur esq."
+msgstr "Propriétés de température de l'appareil lors de l'utilisation du modificateur esq."
 
 #. i18n: ectx: label, entry (CaptureStandAloneTimestamp), group (Capture)
 #. +> trunk5
@@ -40242,61 +40242,61 @@ msgstr "Heure locale des options d'acquisition."
 #: kstars.kcfg:1972
 #, kde-format
 msgid "Go to specific coordinates on calibration."
-msgstr ""
+msgstr "Aller à ces coordonnées spécifiques durant la calibration"
 
 #. i18n: ectx: label, entry (CaptureCalibrationParkMount), group (Capture)
 #. +> trunk5
 #: kstars.kcfg:1976
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "3. Start calibration"
 msgid "Park mount on calibration."
-msgstr "3. Démarrer le calibrage"
+msgstr "Parquer la monture à la calibration"
 
 #. i18n: ectx: label, entry (CaptureCalibrationParkDome), group (Capture)
 #. +> trunk5
 #: kstars.kcfg:1980
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Park dome to home position"
 msgid "Park dome on calibration."
-msgstr "Mettre le dôme en sécurité dans sa position par défaut."
+msgstr "Parquer le dôme à la calibration"
 
 #. i18n: ectx: label, entry (CaptureCalibrationUseManual), group (Capture)
 #. +> trunk5
 #: kstars.kcfg:1984
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Capture flat frames at the same focus position of light frames."
 msgid "Capture calibration frames at the specified exposures."
-msgstr "Acquérir les flats avec la même position de mise au point que les trames lumineuses."
+msgstr "Acquérir les trames de calibration avec la durée d'exposition spécifiée.."
 
 #. i18n: ectx: label, entry (CaptureCalibrationUseADU), group (Capture)
 #. +> trunk5
 #: kstars.kcfg:1988
-#, fuzzy, kde-format
+#, kde-format
 msgid "Capture calibration frames using ADU threshold."
-msgstr "Calibrage"
+msgstr "Acquérir les trames de calibration en utilisant le seuil ADU."
 
 #. i18n: ectx: label, entry (CaptureCalibrationADUValue), group (Capture)
 #. +> trunk5
 #: kstars.kcfg:1992
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Desired flat field ADU"
 msgid "Desired flat frame ADU value."
-msgstr "Valeur ADU désirée du flat"
+msgstr "Valeur ADU désirée du flat."
 
 #. i18n: ectx: label, entry (CaptureCalibrationADUTolerance), group (Capture)
 #. +> trunk5
 #: kstars.kcfg:1996
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Desired flat field ADU"
 msgid "Desired flat frame ADU tolerance."
-msgstr "Valeur ADU désirée du flat"
+msgstr "Tolérance ADU désirée du flat."
 
 #. i18n: ectx: label, entry (CaptureCalibrationSkyFlats), group (Capture)
 #. +> trunk5
 #: kstars.kcfg:2000
-#, fuzzy, kde-format
+#, kde-format
 msgid "Capture calibration frames using Sky Flats."
-msgstr "Calibrage"
+msgstr "Acquérir les trames de calibration en utilisant les flats du ciel."
 
 #. i18n: ectx: whatsthis, entry (AbsTicksSpin), group (Focus)
 #. +> trunk5
@@ -40373,7 +40373,7 @@ msgstr "Filtre par défaut pour la roue à filtres"
 #: kstars.kcfg:2034
 #, kde-format
 msgid "When In Sequence, force an Autofocus at the end of the current subframe."
-msgstr ""
+msgstr "Pendant la séquence, forcer une mise au point automatique à la fin de l'acquisition de la trame courante."
 
 #. i18n: ectx: label, entry (UseFocusDarkFrame), group (Focus)
 #. +> trunk5
@@ -40602,10 +40602,10 @@ msgstr "Le nombre de trames à utiliser pour la moyenne dans le processus de mis
 #. i18n: ectx: whatsthis, entry (focusHFRFramesCount), group (Focus)
 #. +> trunk5
 #: kstars.kcfg:2157
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "How many frames to average over at each step in the Autofocus process."
 msgid "How many frames to average over when performing in-sequence HFR Check."
-msgstr "Le nombre de trames à utiliser pour la moyenne dans le processus de mise au point automatique."
+msgstr "Le nombre de trames à utiliser pour la moyenne dans le processus de vérification HFR."
 
 #. i18n: ectx: label, entry (FocusMultiRowAverage), group (Focus)
 #. +> trunk5
@@ -42157,10 +42157,10 @@ msgstr "L'ordonnanceur est terminé une fois que toutes les séquences sont term
 #. i18n: ectx: label, entry (SchedulerRepeatEverything), group (Scheduler)
 #. +> trunk5
 #: kstars.kcfg:3136
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Restart sequences as soon as all sequences have been completed."
 msgid "Restart all scheduler jobs when all scheduler jobs have completed."
-msgstr "Redémarrer les séquences dès que toutes les séquences sont terminées."
+msgstr "Redémarrer les tâches de l'ordonnanceur dès qu'elles sont toutes terminées."
 
 #. i18n: ectx: label, entry (SchedulerRepeatSequences), group (Scheduler)
 #. +> trunk5
@@ -42595,10 +42595,10 @@ msgstr "Bascule pour l'affichage des images de superposition."
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowImageOverlaysBelowCatalogs)
 #. +> trunk5
 #: kstars.kcfg:3361 kstars.kcfg:3362 options/opsimageoverlay.ui:81
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Display Image Overlays."
 msgid "Display Image Overlays below catalogs."
-msgstr "Afficher les superpositions d'image."
+msgstr "Afficher les superpositions d'image sous les catalogues."
 
 #. i18n: ectx: label, entry (ShowSelectedImageOverlay), group (ImageOverlay)
 #. +> trunk5
@@ -84973,10 +84973,10 @@ msgstr "Méridien local"
 
 #. +> trunk5
 #: options/opsimageoverlay.cpp:76
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Align Options Profiles Editor"
 msgid "Image Overlay Align Options Profiles Editor"
-msgstr "Éditeur de profils pour les options d'alignement"
+msgstr "Éditeur de profils pour les options d'alignement de l'image superposée."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowImageOverlays)
 #. +> trunk5
@@ -85002,10 +85002,10 @@ msgstr "Centrer la carte du ciel à la sélection"
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowImageOverlaysBelowCatalogs)
 #. +> trunk5
 #: options/opsimageoverlay.ui:84
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Display Image Overlays."
 msgid "Display Image Overlays below catalogs"
-msgstr "Afficher les superpositions d'image."
+msgstr "Afficher les superpositions d'image sous les catalogues."
 
 #. i18n: ectx: property (toolTip), widget (QLabel, imageOverlayMaxDimensionLabel)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_ImageOverlayMaxDimension)
