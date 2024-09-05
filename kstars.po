@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.7.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-07-12 09:22+0200\n"
-"PO-Revision-Date: 2024-09-04 09:43+0200\n"
+"PO-Revision-Date: 2024-09-05 07:58+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -1131,7 +1131,7 @@ msgstr "Sélecteur de vignettes"
 #: tools/eclipsetool.ui:183
 #, kde-format, no-c-format
 msgid "%p%"
-msgstr "%p&"
+msgstr "%p%"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #. +> trunk5
@@ -13767,7 +13767,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Activer les journaux pour caractériser les problèmes avec Ekos et INDI. Sur des systèmes à faibles ressources, p. ex. Rapsberry Pi avec carte SD, n'activez que les journaux nécessaires le temps de la recherche de problèmes et désactivez lorsque ce n'est plus nécessaire. Les journaux consomment des ressources et peuvent ralentir le système.</p>"
+"<p>Activer les journaux pour caractériser les problèmes avec Ekos et INDI. Sur des systèmes à faibles ressources, p. ex. Raspberry Pi avec carte SD, n'activez que les journaux nécessaires le temps de la recherche de problèmes et désactivez lorsque ce n'est plus nécessaire. Les journaux consomment des ressources et peuvent ralentir le système.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -30302,7 +30302,7 @@ msgstr "Créer des tâches planifiées pour exécuter le plan de mosaïque"
 #| msgid "%1"
 msgctxt "%1 is the value, % is the percent sign"
 msgid "%1%"
-msgstr "%1%"
+msgstr "%1 %"
 
 #. +> trunk5
 #: ekos/scheduler/framingassistantui.cpp:695 ekos/scheduler/scheduler.cpp:679
