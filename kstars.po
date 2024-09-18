@@ -24,8 +24,8 @@ msgstr ""
 "Project-Id-Version: kstars_3.7.2\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-09-15 11:09+0200\n"
-"PO-Revision-Date: 2024-09-06 15:32+0200\n"
-"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"PO-Revision-Date: 2024-09-18 17:14+0200\n"
+"Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -17354,10 +17354,10 @@ msgstr "Échec de la mise au point automatique. Annulation de l'acquisition en c
 #. i18np since guidingRate is DOUBLE value (e.g. 1.36) so we always use plural with that.
 #. +> trunk5
 #: ekos/capture/camerastate.cpp:746
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Dither complete. Resuming in %1 seconds..."
 msgid "Focus complete. Resuming in %1 seconds..."
-msgstr "Décalage terminé. Reprise dans %1 secondes…"
+msgstr "Mise au point terminée. Reprise dans %1 secondes…"
 
 #. +> trunk5
 #: ekos/capture/camerastate.cpp:769
@@ -23278,10 +23278,10 @@ msgstr "Basculement des données de calibration."
 
 #. +> trunk5
 #: ekos/guide/externalguide/phd2.cpp:403
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "PHD2: Star Selected."
 msgid "PHD2: SettleDone."
-msgstr "PHD2 : étoile sélectionnée."
+msgstr "PHD2 : stabilisation terminée."
 
 #. +> trunk5
 #: ekos/guide/externalguide/phd2.cpp:414
@@ -23345,10 +23345,10 @@ msgstr "PHD2 : étoile sélectionnée."
 
 #. +> trunk5
 #: ekos/guide/externalguide/phd2.cpp:657
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "PHD2: Waiting for guiding to settle."
 msgid "PHD2: Guiding...waiting for settle..."
-msgstr "PHD2 : en attente de fin de guidage."
+msgstr "PHD2 : guidage en cours… en attente de stabilisation… "
 
 #. +> trunk5
 #: ekos/guide/externalguide/phd2.cpp:661
@@ -30532,7 +30532,7 @@ msgstr "Suiveur"
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:147
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Job scheduler list.\n"
 #| "Click to select a job in the list.\n"
@@ -30544,8 +30544,9 @@ msgid ""
 "Shift click to view a job's altitude tonight."
 msgstr ""
 "Liste de l'ordonnanceur de tâches.\n"
-"Cliquez pour sélectionner une tâche dans la liste.\n"
-"Double cliquez pour modifier une tâche avec les champs listés sur le côté gauche."
+"Clic pour sélectionner une tâche dans la liste.\n"
+"Double-clic pour modifier une tâche avec les champs listés sur le côté gauche."
+"Maj clic pour afficher l'altitude d'une tâche cette nuit."
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:155
@@ -31623,17 +31624,17 @@ msgstr "Heure locale"
 #. i18n: ectx: property (windowTitle), widget (QDialog, SchedulerAltitudeGraph)
 #. +> trunk5
 #: ekos/scheduler/scheduleraltitudegraph.ui:14
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Altitude: "
 msgid "Altitude Graph"
-msgstr "Hauteur "
+msgstr "Graphique de la hauteur"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk5
 #: ekos/scheduler/scheduleraltitudegraph.ui:32
 #, kde-format
 msgid "Altitude Graph for ZZZZZ"
-msgstr ""
+msgstr "Graphique de la hauteur pour ZZZZZ"
 
 #. +> trunk5
 #: ekos/scheduler/schedulerjob.cpp:340
