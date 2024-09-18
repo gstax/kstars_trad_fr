@@ -1,0 +1,8 @@
+Si on a cette erreur lors d'un push :
+
+remote: Permission to gstax/kstars_trad_fr.git denied to gstax.
+fatal: unable to access 'https://github.com/gstax/kstars_trad_fr.git/': The requested URL returned error: 403
+
+On la résout avec
+
+git remote set-url origin git@github.com:gstax/kstars_trad_fr.git
