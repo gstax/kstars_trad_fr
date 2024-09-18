@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.7.2\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-09-04 11:47+0200\n"
-"PO-Revision-Date: 2024-09-06 15:32+0200\n"
+"PO-Revision-Date: 2024-09-18 15:20+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -32412,7 +32412,7 @@ msgstr "La tâche %1 effectue le guidage. La procédure de guidage sera relancé
 #, kde-format
 #| msgid "Warning: job '%1' failed to capture target."
 msgid "[%2] Warning: job '%1' failed to capture target."
-msgstr "[&2] Avertissement : la tâche d'acquisition %1 de la cible a échoué."
+msgstr "[%2] Avertissement : la tâche d'acquisition %1 de la cible a échoué."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:3702
