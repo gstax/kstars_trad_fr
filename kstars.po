@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.7.2\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-10-29 12:09+0100\n"
-"PO-Revision-Date: 2024-09-18 17:14+0200\n"
+"PO-Revision-Date: 2024-10-31 10:31+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -315,10 +315,10 @@ msgstr "Étiquette d'objet Image FITS"
 
 #. +> trunk5
 #: auxiliary/colorscheme.cpp:71
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "FITS Image Object Label"
 msgid "FITS Image Object Highlight Label"
-msgstr "Étiquette d'objet Image FITS"
+msgstr "Étiquette en surbrillance d'objet Image FITS"
 
 #. +> trunk5
 #: auxiliary/colorscheme.cpp:137 kstarsdata.cpp:1065 options/opscolors.cpp:58
@@ -6930,10 +6930,10 @@ msgstr "<p>Taille réelle du champ de vision, en minutes d'arc.</p>"
 
 #. +> trunk5
 #: ekos/align/align.cpp:1423
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Mount aborted. Reverse RA axis direction and try again."
 msgid "Mount coordinates are invalid. Check mount connection and try again."
-msgstr "Échec de la monture. Inversez la direction de l'axe AD et essayez à nouveau."
+msgstr "Les coordonnées de la monture ne sont pas valables. Vérifiez la connexion de la monture et essayez à nouveau."
 
 #. +> trunk5
 #: ekos/align/align.cpp:1424 ekos/align/align.cpp:1456
@@ -16967,7 +16967,7 @@ msgstr "La séquence sera mise en pause à la fin de l'exposition courante."
 #: ekos/capture/cameraprocess.cpp:453
 #, kde-format
 msgid "No camera detected. Check train configuration and connection settings."
-msgstr ""
+msgstr "Aucun appareil détecté. Veuillez vérifier la configuration du train et les réglages de connexion."
 
 #. +> trunk5
 #: ekos/capture/cameraprocess.cpp:478
@@ -17454,10 +17454,10 @@ msgstr ""
 # unreviewed-context
 #. +> trunk5
 #: ekos/capture/capture.cpp:106
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Captures"
 msgid "Capture Misc"
-msgstr "Images"
+msgstr "Divers acquisition"
 
 #. +> trunk5
 #: ekos/capture/capture.cpp:110
@@ -17467,10 +17467,10 @@ msgstr "Appareil photo numérique (APN)"
 
 #. +> trunk5
 #: ekos/capture/capture.cpp:110
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Capture"
 msgid "Capture DSLR"
-msgstr "Acquisition"
+msgstr "Acquisition APN"
 
 #. +> trunk5
 #: ekos/capture/capture.cpp:474 ekos/focus/focusmodule.cpp:390
@@ -21870,14 +21870,14 @@ msgstr "Ajustement grossier de l'Assistant de mise au point terminé"
 #: ekos/focus/focusadvisor.cpp:1485
 #, kde-format
 msgid "Focus Advisor Result (%1): Run: %2 startPos: %3 stepSize: %4 overscan: %5"
-msgstr ""
+msgstr "Résultats de l'assistant de mise au point (%1) : Exécution : %2 Position départ : %3 Pas : %4 overscan : %5"
 
 #. +> trunk5
 #: ekos/focus/focusadvisor.cpp:1522
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Focus Advisor Help"
 msgid "Focus Advisor Result Update: %1"
-msgstr "Aide pour l'Assistant de mise au point"
+msgstr "Mise à jour des résultats de l'assistant de mise au point : %1"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, focusAdvisorDialog)
 #. +> trunk5
@@ -28153,10 +28153,10 @@ msgstr "Définir un dossier racine alternatif pour les images du module Analyse"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #. +> trunk5
 #: ekos/opsekos.ui:44
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Load device configuration:"
 msgid "Load device Configuration"
-msgstr "Charger une configuration de périphérique"
+msgstr "Charger la configuration du périphérique"
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_neverLoadConfig)
 #. +> trunk5
@@ -30667,17 +30667,17 @@ msgstr "Avertissement : l'algorithme Classique a été retiré. Passage à l'al
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:424
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Scheduler paused."
 msgid "Scheduler Offset"
-msgstr "Mise en pause de l'ordonnanceur."
+msgstr "Décalage de l'ordonnanceur."
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:428
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Scheduled Time"
 msgid "Scheduler Alignment"
-msgstr "Heure planifiée"
+msgstr "Alignement de l'ordonnanceur"
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:433
@@ -30687,11 +30687,11 @@ msgstr "Tâches"
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:433
-#, fuzzy, kde-format
+#, kde-format
 #| msgid " Scheduler job"
 #| msgid_plural " Scheduler jobs"
 msgid "Scheduler Jobs"
-msgstr "Tâche d'ordonnanceur"
+msgstr "Tâches de l'ordonnanceur"
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:437
@@ -30701,10 +30701,10 @@ msgstr "Nettoyage"
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:437
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Scheduler paused."
 msgid "Scheduler Cleanup"
-msgstr "Mise en pause de l'ordonnanceur."
+msgstr "Nettoyage de l'ordonnanceur."
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:632
@@ -32721,7 +32721,7 @@ msgstr "En-tête FITS"
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FitsCatObjShowNames)
 #. +> trunk5
 #: fitsviewer/catalogobject.ui:44
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show names"
 msgid "Show Names"
 msgstr "Afficher les noms"
@@ -32731,60 +32731,60 @@ msgstr "Afficher les noms"
 #: fitsviewer/catalogobject.ui:60
 #, kde-format
 msgid "Launches the Catalog Object Filter dialog"
-msgstr ""
+msgstr "Lance la fenêtre de filtrage des objects du catalogue"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, CatalogObjectTypeFilterUI)
 #. +> trunk5
 #: fitsviewer/catalogobjecttypefilter.ui:14
 #, kde-format
 msgid "Catalog Object Type Filter"
-msgstr ""
+msgstr "Filtre du type d'objet du catalogue"
 
 #. i18n: ectx: property (toolTip), widget (QTreeWidget, tree)
 #. +> trunk5
 #: fitsviewer/catalogobjecttypefilter.ui:48
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Object Type"
 msgid "Object Type Code"
-msgstr "Type d'objet"
+msgstr "Code du type d'objet"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, tree)
 #. +> trunk5
 #: fitsviewer/catalogobjecttypefilter.ui:53
 #, kde-format
 msgid "Cand Code"
-msgstr ""
+msgstr "Code Cand"
 
 #. i18n: ectx: property (toolTip), widget (QTreeWidget, tree)
 #. +> trunk5
 #: fitsviewer/catalogobjecttypefilter.ui:56
 #, kde-format
 msgid "Candidate Object Type Code"
-msgstr ""
+msgstr "Code du type d'objet du catalogue"
 
 #. i18n: ectx: property (toolTip), widget (QTreeWidget, tree)
 #. +> trunk5
 #: fitsviewer/catalogobjecttypefilter.ui:64
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Object Type"
 msgid "Object Type Label"
-msgstr "Type d'objet"
+msgstr "Étiquette du type d'objet"
 
 #. i18n: ectx: property (toolTip), widget (QTreeWidget, tree)
 #. +> trunk5
 #: fitsviewer/catalogobjecttypefilter.ui:72
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Description"
 msgid "Object Type Description"
-msgstr "Description"
+msgstr "Description du type d'objet"
 
 #. i18n: ectx: property (toolTip), widget (QTreeWidget, tree)
 #. +> trunk5
 #: fitsviewer/catalogobjecttypefilter.ui:80
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Object Type"
 msgid "Object Type Comments"
-msgstr "Type d'objet"
+msgstr "Commentaire du type d'objet"
 
 #. +> trunk5
 #: fitsviewer/fitscommon.h:16
@@ -32976,17 +32976,17 @@ msgstr "Aucun système de coordonnées mondiales trouvé."
 
 #. +> trunk5
 #: fitsviewer/fitsdata.cpp:3273 fitsviewer/fitsdata.cpp:3381
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Error reading image: %1"
 msgid "Error querying Simbad"
-msgstr "Erreur de lecture de l'image : %1"
+msgstr "Erreur à l'interrogation de Simbad"
 
 #. +> trunk5
 #: fitsviewer/fitsdata.cpp:3290
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Solver timed out."
 msgid "Simbad query timed out"
-msgstr "Fin du délai imparti pour le résolveur."
+msgstr "Fin du délai imparti pour la requête à Simbad"
 
 #. +> trunk5
 #: fitsviewer/fitsdata.cpp:4267
@@ -33395,10 +33395,10 @@ msgstr "Résolution"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:178
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Catalog Details"
 msgid "Catalog Objects"
-msgstr "Détails du catalogue"
+msgstr "Objets du catalogue"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:190
@@ -33415,37 +33415,37 @@ msgstr "R"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:583
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 image files loaded."
 msgid "%1 / %2 Simbad objects loaded"
-msgstr "%1 fichiers d'images chargés."
+msgstr "%1/%2 objets Simbad chargés"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:598
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Parking mount in progress..."
 msgid "Simbad query in progress..."
-msgstr "Parcage de la monture en cours…"
+msgstr "Requête Simbad cours…"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:760
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "um"
 msgid "Num"
-msgstr "um"
+msgstr "Num"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:761
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Country name"
 #| msgid "Portugal"
 msgid "CDS Portal"
-msgstr "Portugal"
+msgstr "Portail CDS"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_FitsCatalog)
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:762 fitsviewer/opsfits.ui:435
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Advanced URLs: description or category"
 #| msgid "Simbad"
 msgid "Simbad"
@@ -33453,24 +33453,24 @@ msgstr "Simbad"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:763
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "NE"
 msgid "NED"
-msgstr "NE"
+msgstr "NED"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:765
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Type"
 msgid "Type Code"
-msgstr "Type"
+msgstr "Code du type"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:766
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "TextLabel"
 msgid "Type Label"
-msgstr "Étiquette de texte"
+msgstr "Étiquette du type"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:768 kstarslite/qml/dialogs/DetailsDialog.qml:143
@@ -33489,36 +33489,36 @@ msgstr "Taille"
 #: fitsviewer/fitstab.cpp:775
 #, kde-format
 msgid "Item reference number"
-msgstr ""
+msgstr "Numéro de référence de l'article"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:776
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Double click to load dark frame"
 msgid "Double click to launch CDS Portal browser"
-msgstr "Double clic pour charger le dark"
+msgstr "Double clic pour lancer le navigateur du portail CDS"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:778
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Double click to load dark frame"
 msgid "Double click to launch Simbad browser"
-msgstr "Double clic pour charger le dark"
+msgstr "Double clic pour lancer le navigateur Simbad"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:779
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Double click to load dark frame"
 msgid "Double click to launch NED browser"
-msgstr "Double clic pour charger le dark"
+msgstr "Double clic pour lancer le navigateur NED"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:780
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Index Catalog object"
 #| msgid "IC Object"
 msgid "Catalog Object"
-msgstr "Objet « IC »"
+msgstr "Objet du catalogue"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:782
@@ -33528,6 +33528,8 @@ msgid ""
 "\n"
 "See https://simbad.cds.unistra.fr/guide/otypes.htx for more details"
 msgstr ""
+"Code du type d'objet. Double-cliquer pour lancer le filtre du type d'objet.\n"
+"Voir https://simbad.cds.unistra.fr/guide/otypes.htx pour davantage de détails"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:785
@@ -33537,33 +33539,35 @@ msgid ""
 "\n"
 "See https://simbad.cds.unistra.fr/guide/otypes.htx for more details"
 msgstr ""
+"Étiquette du type d'objet. Double-cliquer pour lancer le filtre du type d'objet"
+"Voir https://simbad.cds.unistra.fr/guide/otypes.htx pour davantage de détails"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:787
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Mount coordinates"
 msgid "Object coordinates"
-msgstr "Coordonnées de la monture"
+msgstr "Coordonnées de l'objet"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:788
 #, kde-format
 msgid "Object distance in arcmins from the search center"
-msgstr ""
+msgstr "Distance de l'objet en minutes d'arc depuis le centre de la recherche"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:790
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Objects in Image"
 msgid "Object V magnitude"
-msgstr "Objets dans une image"
+msgstr "Magnitude V de l'objet"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:791
 #, kde-format
 msgid "Object major coordinate size in arcsmins"
-msgstr ""
+msgstr "Taille principale des coordonnées de l'objet en minutes d'arc"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:966 fitsviewer/fitstab.cpp:970
@@ -34411,14 +34415,18 @@ msgid ""
 "<p><span style=\" font-weight:600;\">Warning: Querying external catalogs can be slow on slow machines.</span></p>"
 "</body></html>"
 msgstr ""
+"<html><head/><body>"
+"<p>Sélectionnez un catalogue pour identifier les objets dans l'image. Celui par défaut est la carte du ciel interne. Les catalogues externes nécessitent WCS et une connexion Internet.</p>"
+"<p><span style=\" font-weight:600;\">Avertissement : les requêtes externes peuvent être lentes sur des machines lentes.</span></p>"
+"</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. +> trunk5
 #: fitsviewer/opsfits.ui:422
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Catalog:"
 msgid "Object Catalog:"
-msgstr "Catalogue"
+msgstr "Catalogue d'objets :"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_FitsCatalog)
 #. i18n: ectx: property (title), widget (QGroupBox, skymapGroup)
@@ -34586,15 +34594,15 @@ msgstr "Ouvre les options du profil courant d'alignement dans l'éditeur des opt
 #: fitsviewer/platesolve.ui:492
 #, kde-format
 msgid "Check for linear (unstretched) images.  This is the default setting.  Uncheck for non-linear (stretched) images which will help with the star extraction part of plate solving."
-msgstr ""
+msgstr "Vérifie les images linéaires (non étirées). C'est la valeur par défaut. Décochez pour les images non-linéaires (étirées) ce qui facilitera la partie d'extraction d'étoiles de la résolution."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FitsSolverLinear)
 #. +> trunk5
 #: fitsviewer/platesolve.ui:495
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Linear Scale"
 msgid "Linear Image"
-msgstr "Échelle linéaire"
+msgstr "Image linéaire"
 
 #. i18n: ectx: property (text), widget (QTableWidget, solutionTable)
 #. +> trunk5
@@ -38702,7 +38710,7 @@ msgstr "Indique si les étiquettes de magnitude (brillance) des étoiles doivent
 #: kstars.kcfg:720 kstars.kcfg:721
 #, kde-format
 msgid "Display catalog stars when HIPS is shown."
-msgstr ""
+msgstr "Afficher les étoiles du catalogue quand HIPS est activé."
 
 #. i18n: ectx: label, entry (ShowStarNames), group (View)
 #. +> trunk5
@@ -40841,15 +40849,15 @@ msgstr "JSON storing the assignment of profile indices to module profiles for th
 #: kstars.kcfg:1578
 #, kde-format
 msgid "Which catalog to pull display objects from."
-msgstr ""
+msgstr "Le catalogue à utiliser pour afficher les objets."
 
 #. i18n: ectx: label, entry (FitsCatObjShowNames), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1582
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Whether to display the CFZ on the v-curve after an Autofocus run."
 msgid "Whether to display object names on the Fitsviwer or not."
-msgstr "S'il faut afficher la zone CFZ sur la courbe en V lors de la procédure de mise au point automatique."
+msgstr "S'il faut afficher les noms des objets dans l'afficheur FITS."
 
 #. i18n: ectx: label, entry (FitsSolverUseScale), group (FITSViewer)
 #. +> trunk5
@@ -85557,7 +85565,7 @@ msgstr "Afficher la ma&gnitude"
 #: options/opscatalog.ui:149
 #, kde-format
 msgid "Display stars when HIPS is displayed"
-msgstr ""
+msgstr "Afficher les étoiles lorsque HIPS est activé"
 
 #. i18n: ectx: property (text), widget (QLabel, LabelDensity)
 #. i18n: ectx: property (text), widget (QLabel, DeepSkyLabelDensityLabel)
