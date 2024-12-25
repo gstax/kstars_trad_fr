@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.7.4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-28 10:24+0100\n"
-"PO-Revision-Date: 2024-12-25 12:13+0100\n"
+"PO-Revision-Date: 2024-12-25 14:18+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -24846,13 +24846,13 @@ msgstr "Étoile trouvée pour le guidage."
 #: ekos/guide/internalguide/calibrationprocess.cpp:202
 #, kde-format
 msgid "Calibrating RA Out"
-msgstr "Calibration AD extérieur en cours"
+msgstr "Calibration AD vers l'extérieur en cours"
 
 #. +> trunk5
 #: ekos/guide/internalguide/calibrationprocess.cpp:241
 #, kde-format
 msgid "RA drifting reverse..."
-msgstr "Dérive AD inversée…"
+msgstr "Dérive AD en arrière…"
 
 #. +> trunk5
 #: ekos/guide/internalguide/calibrationprocess.cpp:247
@@ -24866,13 +24866,13 @@ msgstr "Calibration rejetée. La dérive de l'étoile est trop courte. Veuillez 
 #: ekos/guide/internalguide/calibrationprocess.cpp:250
 #, kde-format
 msgid "Calibration Failed: Drift too short."
-msgstr "Échec de la calibration : décalage trop court."
+msgstr "Échec de la calibration : dérive trop courte."
 
 #. +> trunk5
 #: ekos/guide/internalguide/calibrationprocess.cpp:279
 #, kde-format
 msgid "Calibrating RA In"
-msgstr "Calibration AD Intérieur en cours"
+msgstr "Calibration AD vers l'intérieur en cours"
 
 #. +> trunk5
 #: ekos/guide/internalguide/calibrationprocess.cpp:336
@@ -24910,26 +24910,26 @@ msgstr "Dérive DEC en avant…"
 #: ekos/guide/internalguide/calibrationprocess.cpp:604
 #, kde-format
 msgid "Calibration Failed: drift too short."
-msgstr "Échec de la calibration : décalage trop court."
+msgstr "Échec de la calibration : dérive trop courte."
 
 #. +> trunk5
 #: ekos/guide/internalguide/calibrationprocess.cpp:408
 #: ekos/guide/internalguide/calibrationprocess.cpp:425
 #, kde-format
 msgid "Calibrating DEC Backlash"
-msgstr "Calibration de la réaction DEC en cours"
+msgstr "Calibration du jeu en DEC en cours"
 
 #. +> trunk5
 #: ekos/guide/internalguide/calibrationprocess.cpp:434
 #, kde-format
 msgid "Calibrating DEC Out"
-msgstr "Calibration DEC Extérieur en cours"
+msgstr "Calibration DEC vers l'extérieur en cours"
 
 #. +> trunk5
 #: ekos/guide/internalguide/calibrationprocess.cpp:470
 #, kde-format
 msgid "DEC drifting reverse..."
-msgstr "Dérive DEC inversée…"
+msgstr "Dérive DEC en arrière…"
 
 #. +> trunk5
 #: ekos/guide/internalguide/calibrationprocess.cpp:480
@@ -24959,7 +24959,7 @@ msgstr[1] ""
 #: ekos/guide/internalguide/calibrationprocess.cpp:513
 #, kde-format
 msgid "Calibrating DEC In"
-msgstr "Calibration DEC Intérieur en cours"
+msgstr "Calibration DEC vers l'intérieur en cours"
 
 #. +> trunk5
 #: ekos/guide/internalguide/calibrationprocess.cpp:586
