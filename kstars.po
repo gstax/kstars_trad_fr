@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.7.4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-28 10:24+0100\n"
-"PO-Revision-Date: 2024-12-25 14:42+0100\n"
+"PO-Revision-Date: 2024-12-25 14:51+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -15745,7 +15745,7 @@ msgstr "Erreur de la mise au point automatique."
 #: ekos/capture/camera.cpp:815
 #, kde-format
 msgid "Capturing %1-second %2 image..."
-msgstr "Acquisition d'une trame %2 de %1 secondes…"
+msgstr "Acquisition d'une pose %2 de %1 secondes…"
 
 #. +> trunk5
 #: ekos/capture/camera.cpp:886
@@ -17115,7 +17115,7 @@ msgstr "Temps de téléchargement : %1 s, nouvelle estimation du temps de tél�
 #: ekos/capture/cameraprocess.cpp:1749
 #, kde-format
 msgid "Received image %1 out of %2."
-msgstr "Trame %1 sur %2 reçue"
+msgstr "Pose %1 sur %2 reçue"
 
 #. +> trunk5
 #: ekos/capture/cameraprocess.cpp:1783
@@ -17834,7 +17834,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Supprimez la trame courante</p>"
+"<p>Supprimez la pose courante</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, geometryValue)
@@ -18050,7 +18050,7 @@ msgstr "Lire la constante de bruit"
 #: ekos/capture/exposurecalculator/exposurecalculatordialog.ui:375
 #, kde-format
 msgid "Noise in the sub-exposure from light pollution"
-msgstr "Bruit de la trame provenant de la pollution lumineuse"
+msgstr "Bruit de la pose provenant de la pollution lumineuse"
 
 #. i18n: ectx: property (text), widget (QLabel, subTotalNoiseLabel)
 #. +> trunk5
@@ -18092,7 +18092,7 @@ msgstr "Nombre estimé d'électrons de pollution des poses."
 #: ekos/capture/exposurecalculator/exposurecalculatordialog.ui:506
 #, kde-format
 msgid "Duration of Sub-exposure"
-msgstr "Durée de la trame"
+msgstr "Durée de la pose"
 
 #. i18n: ectx: property (text), widget (QLabel, subTimeLabel)
 #. +> trunk5
@@ -18276,7 +18276,7 @@ msgstr "Conditions de guidage"
 #: ekos/scheduler/opsalignmentsettings.ui:82
 #, kde-format
 msgid "frames"
-msgstr "trames"
+msgstr "Poses"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, guideDeviationReps)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enforceGuideDeviation)
@@ -20935,7 +20935,7 @@ msgstr "Échec de la détection d'une étoile à la position %1. Poursuite de la
 #: ekos/focus/focus.cpp:3187 ekos/focus/focus.cpp:4045
 #, kde-format
 msgid "Failed to detect any stars. Reset frame and try again."
-msgstr "Échec de la détection d'une étoile. Réinitialiser la trame et essayer à nouveau."
+msgstr "Échec de la détection d'une étoile. Réinitialiser la pose et essayer à nouveau."
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:3374
@@ -21193,7 +21193,7 @@ msgstr "Requête d'ajustement de la mise au point - 10 secondes d'attente pour q
 #, kde-format
 msgctxt "@title:window"
 msgid "Focus Frame"
-msgstr "Trame de mise au point"
+msgstr "Pose de mise au point"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:5611
@@ -21404,7 +21404,7 @@ msgstr "ΔT ="
 #: ekos/focus/focus.ui:870
 #, kde-format
 msgid "Reset focus subframe to full capture"
-msgstr "Réinitialiser la sous-trame de mise au point à une acquisition complète."
+msgstr "Réinitialiser la pose de mise au point à une acquisition complète."
 
 #. i18n: ectx: property (title), widget (QGroupBox, toolsGroup)
 #. +> trunk5
@@ -21447,7 +21447,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Cochez pour forcer une mise au point automatique à ce point dans la séquence à la fin de cette trame.</p>"
+"<p>Cochez pour forcer une mise au point automatique à ce point dans la séquence à la fin de cette pose.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, forceInSeqAF)
@@ -21482,7 +21482,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Valeur moyenne du HFR pour la dernière trame</p>"
+"<p>Valeur moyenne du HFR pour la dernière pose</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_39)
@@ -21502,7 +21502,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Valeur moyenne de la FWHM de la dernière trame.</p>"
+"<p>Valeur moyenne de la FWHM de la dernière pose.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
@@ -21522,7 +21522,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Nombre d'étoiles détectées dans la dernière trame.</p>"
+"<p>Nombre d'étoiles détectées dans la dernière pose.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_28)
@@ -22176,8 +22176,8 @@ msgid ""
 msgstr ""
 "<html><head/><body>"
 "<p>Choisissez le type de course pour le moteur de mise au point pour l'algorithme <span style=\"font-weight:600;\">Linéaire 1 passe</span>. Pour <span style=\"font-weight:600;\">Linéaire</span>, seul <span style=\"font-weight:600;\">Classique</span> est disponible.</p>"
-"<p><span style=\"font-weight:600;\">Classique</span> : aucun extérieur &quot; Multiple de pas extérieur &quot;, prend une trame et ensuite se déplace vers l'intérieur à un taux constant de taille de pas en prenant une trame et en l'analysant à chaque étape. Le point exact d'arrêt de la passe dépend des données, ainsi cette méthode tolère un point de départ plus éloigné de la position de mise au point, mais au prix de davantage d'étapes.</p>"
-"<p><span style=\"font-weight:600;\">Étapes fixes</span> : le moteur se déplace de la moitié de &quot;Nombre de pas &quot;, prend une trame et ensuite se déplace d'exactement &quot;Nombre de pas &quot;. Cette méthode nécessite de débuter près de la position de mise au point pour être efficace mais au bénéfice d'être prévisible en nombre d'étapes.</p>"
+"<p><span style=\"font-weight:600;\">Classique</span> : aucun extérieur &quot; Multiple de pas extérieur &quot;, prend une pose et ensuite se déplace vers l'intérieur à un taux constant de taille de pas en prenant une pose et en l'analysant à chaque étape. Le point exact d'arrêt de la passe dépend des données, ainsi cette méthode tolère un point de départ plus éloigné de la position de mise au point, mais au prix de davantage d'étapes.</p>"
+"<p><span style=\"font-weight:600;\">Étapes fixes</span> : le moteur se déplace de la moitié de &quot;Nombre de pas &quot;, prend une pose et ensuite se déplace d'exactement &quot;Nombre de pas &quot;. Cette méthode nécessite de débuter près de la position de mise au point pour être efficace mais au bénéfice d'être prévisible en nombre d'étapes.</p>"
 "<p><span style=\"font-weight:600;\">Mélange CFZ</span> : cette méthode est similaire à <span style=\"font-weight:600;\">Étapes fixes</span> sauf qu'elle prend la moitié d'étapes près de la position de mise au point pour essayer de donner plus de poids pour les points proches de la position de mise au point. Comme pour la méthode <span style=\"font-weight:600;\">Étapes Fixes</span>, il faut débuter près de la position de mise au point pour qu'elle soit efficace mais elle est également prévisible en ce qui concerne le nombre d'étapes.</p>"
 "<p><br/>"
 "</p>"
@@ -23062,7 +23062,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Cette option n'est active que quand sous-trame est sélectionnée. Cochez cette case pour permettre à Ekos de choisir une seule étoile pour la mise au point. ; décochez-là pour permettre à l'opérateur de choisir lui-même l'étoile à utiliser dans l'afficheur Fits.</p>"
+"<p>Cette option n'est active que quand Pose est sélectionnée. Cochez cette case pour permettre à Ekos de choisir une seule étoile pour la mise au point. ; décochez-là pour permettre à l'opérateur de choisir lui-même l'étoile à utiliser dans l'afficheur Fits.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, focusAutoStarEnabled)
@@ -23082,7 +23082,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Sélection de Plein champ pour permettre à la mise au point d'utiliser plusieurs étoiles (note : sous-trame n'utilise qu'une seule étoile). Dans ce mode, Ekos utilisera automatiquement plusieurs étoiles pour la mise au point et, par exemple, fera une moyenne du HFR de toutes les étoiles détectées pour réaliser la mise au point.</p>"
+"<p>Sélection de Plein champ pour permettre à la mise au point d'utiliser plusieurs étoiles (note : Pose n'utilise qu'une seule étoile). Dans ce mode, Ekos utilisera automatiquement plusieurs étoiles pour la mise au point et, par exemple, fera une moyenne du HFR de toutes les étoiles détectées pour réaliser la mise au point.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, focusUseFullField)
@@ -23123,7 +23123,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><body>"
-"<p>Taille en pixels des trames.</p>"
+"<p>Taille en pixels des poses.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, focusBoxSize)
@@ -23144,7 +23144,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Sélection de la trame de mise au point pour n'utiliser qu'une seule étoile (note : le plein champ utilise plusieurs étoiles). Dans ce mode, la case à cocher Sélection automatique devient active pour permettre à Ekos de choisir une étoile (quand cochée) ou pour permettre à l'opérateur de choisir manuellement une étoile dans l'afficheur Fits (quand décochée).</p>"
+"<p>Sélection de la pose de mise au point pour n'utiliser qu'une seule étoile (note : le plein champ utilise plusieurs étoiles). Dans ce mode, la case à cocher Sélection automatique devient active pour permettre à Ekos de choisir une étoile (quand cochée) ou pour permettre à l'opérateur de choisir manuellement une étoile dans l'afficheur Fits (quand décochée).</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, focusSubFrame)
@@ -23152,7 +23152,7 @@ msgstr ""
 #: ekos/focus/opsfocussettings.ui:164
 #, kde-format
 msgid "Sub Frame"
-msgstr "Sous-trame"
+msgstr "Pose"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, focusGuideSettleTime)
 #. +> trunk5
@@ -24061,7 +24061,7 @@ msgstr "La caméra PHD2 est indisponible pour Ekos. Ainsi, vous ne pourrez voir 
 #: ekos/guide/guide.cpp:2911 ekos/guide/guide.cpp:3037
 #, kde-format
 msgid "To receive PHD2 images other than the Guide Star Image, SubFrame must be unchecked.  Unchecking it now to enable your image captures.  You can re-enable it before Guiding"
-msgstr "Pour recevoir des images de PHD2 autre que l'image de l'étoile de guidage, le paramètre « Sous-trame » doit être désactivé. Sa désactivation vous permet maintenant de faire des acquisitions d'images. Vous pouvez le réactiver avant le guidage."
+msgstr "Pour recevoir des images de PHD2 autre que l'image de l'étoile de guidage, le paramètre Pose doit être désactivé. Sa désactivation vous permet maintenant de faire des acquisitions d'images. Vous pouvez le réactiver avant le guidage."
 
 #. +> trunk5
 #: ekos/guide/guide.cpp:3204
@@ -25380,7 +25380,7 @@ msgstr ""
 #: ekos/guide/opsdither.ui:99
 #, kde-format
 msgid "Move locked guiding square location after frame capture"
-msgstr "Déplacer le carré de guidage verrouillé après l'acquisition de la trame"
+msgstr "Déplacer le carré de guidage verrouillé après l'acquisition de la pose"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, kcfg_DitherThreshold)
 #. +> trunk5
@@ -29575,7 +29575,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p align=\"justify\">Largeur de la trame produite par la caméra, en pixels.</p>"
+"<p align=\"justify\">Largeur de la pose produite par la caméra, en pixels.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, cameraWSpin)
@@ -29597,7 +29597,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p align=\"justify\">Hauteur de la trame produite par la caméra, en pixels.</p>"
+"<p align=\"justify\">Hauteur de la pose produite par la caméra, en pixels.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_11)
@@ -30743,7 +30743,7 @@ msgid ""
 "This is a summary, additional specific frame types may be required to complete the job."
 msgstr ""
 "Nombre d'images enregistrées pour la tâche, en fonction de la séquence de la tâche.\n"
-"Il s'agit d'un résumé, d'autres types de trames spécifiques peuvent être nécessaires pour terminer le travail."
+"Il s'agit d'un résumé, d'autres types de poses spécifiques peuvent être nécessaires pour terminer le travail."
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:184
@@ -32500,7 +32500,7 @@ msgstr "Échec du résolveur : %1s %2"
 #: ekos/scheduler/schedulerprocess.cpp:3302
 #, kde-format
 msgid "Captured frame is %1 arcminutes away from target, re-aligning..."
-msgstr "Trame acquise est à %1 minutes d'arc de la cible, réalignement en cours…"
+msgstr "L'image est à %1 minutes d'arc de la cible, réalignement en cours…"
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:3370
@@ -34903,19 +34903,19 @@ msgstr "(Dés)activer la vue en tranche quand les éléments horizontaux et vert
 #: fitsviewer/starprofileviewer.cpp:150
 #, kde-format
 msgid "Shows the x, y coordinates of star centers in the frame"
-msgstr "Affiche les coordonnées en x,y des centres des étoiles dans la trame."
+msgstr "Affiche les coordonnées en x,y des centres des étoiles dans l'image."
 
 #. +> trunk5
 #: fitsviewer/starprofileviewer.cpp:154
 #, kde-format
 msgid "Shows the HFR of stars in the frame"
-msgstr "Affiche le HFR des étoiles dans la trame"
+msgstr "Affiche le HFR des étoiles dans l'image"
 
 #. +> trunk5
 #: fitsviewer/starprofileviewer.cpp:168
 #, kde-format
 msgid "Shows the peak values of star centers in the frame"
-msgstr "Affiche les valeurs de pic du centre des étoiles dans la trame."
+msgstr "Affiche les valeurs de pic du centre des étoiles dans l'image"
 
 #. +> trunk5
 #: fitsviewer/starprofileviewer.cpp:172
@@ -36432,7 +36432,7 @@ msgstr "Options d'enregistrement…"
 #: indi/streamform.ui:114
 #, kde-format
 msgid "Reset Frame"
-msgstr "Réinitialiser la trame"
+msgstr "Réinitialiser la pose"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, debayerB)
 #. +> trunk5
@@ -36496,7 +36496,7 @@ msgstr "Déplacer la zone zoomée vers la gauche ou vers la droite"
 #: indi/streamform.ui:326 indi/streamform.ui:342
 #, kde-format
 msgid "Video frame duration in seconds"
-msgstr "Durée des trames vidéo exprimée en secondes."
+msgstr "Durée des vidéo exprimée en secondes."
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk5
@@ -42129,7 +42129,7 @@ msgstr "Filtre par défaut pour la roue à filtres"
 #: kstars.kcfg:2222
 #, kde-format
 msgid "Take a dark frame and subtract it before running autofocus operation."
-msgstr "Prendre une trame sombre et la soustraire avant de lancer l'opération de mise au point automatique."
+msgstr "Prendre une pose sombre et la soustraire avant de lancer l'opération de mise au point automatique."
 
 #. i18n: ectx: label, entry (FocusSubFrame), group (Focus)
 #. +> trunk5
@@ -42157,7 +42157,7 @@ msgstr "Définir la taille de la boîte pour choisir une étoile pour la mise au
 #: kstars.kcfg:2235
 #, kde-format
 msgid "Measure average HFR from all stars combined in a full frame. This method defaults to the Centroid detection, but can use SEP detection too. Its performance decreases as the number of stars increases."
-msgstr "Mesurer la valeur moyenne du HFR de toutes les étoiles combinées dans une trame complète. Cette méthode utilise par défaut la détection centroïde, mais peut aussi utiliser la détection SEP. Sa performance diminue à mesure que le nombre d'étoiles augmente."
+msgstr "Mesurer la valeur moyenne du HFR de toutes les étoiles combinées dans une image complète. Cette méthode utilise par défaut la détection centroïde, mais peut aussi utiliser la détection SEP. Sa performance diminue à mesure que le nombre d'étoiles augmente."
 
 #. i18n: ectx: label, entry (FocusNoMaskRB), group (Focus)
 #. +> trunk5
@@ -42192,7 +42192,7 @@ msgstr "Rayon intérieur du champ complet."
 #: kstars.kcfg:2252
 #, kde-format, no-c-format
 msgid "During full field focusing, stars which are inside this percentage of the frame are filtered out of HFR calculation (default 0%). Detection algorithms may also have an inherent filter."
-msgstr "Pendant la mise au point de plein champ, les étoiles se trouvant à l'intérieur de ce pourcentage de la trame sont filtrées hors du calcul HFR (0 % par défaut). Les algorithmes de détection peuvent également avoir un filtre inhérent."
+msgstr "Pendant la mise au point de plein champ, les étoiles se trouvant à l'intérieur de ce pourcentage de l'image sont filtrées hors du calcul HFR (0 % par défaut). Les algorithmes de détection peuvent également avoir un filtre inhérent."
 
 #. i18n: ectx: label, entry (FocusFullFieldOuterRadius), group (Focus)
 #. +> trunk5
@@ -42206,7 +42206,7 @@ msgstr "Rayon extérieur du champ complet."
 #: kstars.kcfg:2257
 #, kde-format, no-c-format
 msgid "During full field focusing, stars which are outside this percentage of the frame are filtered out of HFR calculation (default 100%). Detection algorithms may also have an inherent filter."
-msgstr "Lors de la mise au point en plein champ, les étoiles étant en dehors de ce pourcentage de la trame sont filtrées en dehors du calcul HFR (100 % par défaut). Les algorithmes de détection peuvent également avoir un filtre inhérent."
+msgstr "Lors de la mise au point en plein champ, les étoiles étant en dehors de ce pourcentage de l'image sont filtrées en dehors du calcul HFR (100 % par défaut). Les algorithmes de détection peuvent également avoir un filtre inhérent."
 
 #. i18n: ectx: label, entry (FocusMosaicTileWidth), group (Focus)
 #. +> trunk5
@@ -43369,7 +43369,7 @@ msgstr "Enregistrer automatiquement les journaux utilisateurs du guidage interne
 #: kstars.kcfg:2922
 #, kde-format
 msgid "Take dark frame for autoguider images."
-msgstr "Prendre une trame sombre comme images de guidage automatique."
+msgstr "Prendre une pose sombre comme images de guidage automatique."
 
 #. i18n: ectx: label, entry (GuideSubframe), group (Guide)
 #. +> trunk5
@@ -81871,7 +81871,7 @@ msgstr "Type d'image"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Frames"
-msgstr "Trames"
+msgstr "Poses"
 
 #. +> trunk5
 #: libindi_strings.cpp:201
