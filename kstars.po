@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.7.4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-28 10:24+0100\n"
-"PO-Revision-Date: 2024-12-25 14:55+0100\n"
+"PO-Revision-Date: 2025-01-06 07:38+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -7329,7 +7329,7 @@ msgstr "Nouvel essai d'acquisition #%1"
 #, kde-format
 msgctxt "@title:window"
 msgid "Align Frame"
-msgstr "Aligner des trames"
+msgstr "Aligner les poses"
 
 #. +> trunk5
 #: ekos/align/align.cpp:3512
@@ -10837,7 +10837,7 @@ msgstr "Le traitement des données WCS est terminé."
 #: ekos/align/polaralignmentassistant.cpp:1127
 #, kde-format
 msgid "WCS info is now valid. Capturing next frame..."
-msgstr "Les informations WCS sont maintenant valables. Acquisition de la prochaine trame…"
+msgstr "Les informations WCS sont maintenant valables. Acquisition de la prochaine pose…"
 
 #. +> trunk5
 #: ekos/align/polaralignmentassistant.cpp:1169
@@ -11522,7 +11522,7 @@ msgstr "Soustraction"
 #: ekos/analyze/analyze.cpp:3480 ekos/ekos.h:27
 #, kde-format
 msgid "Subframing"
-msgstr "Sous-trame"
+msgstr "En cours de pose"
 
 #. +> trunk5
 #: ekos/analyze/analyze.cpp:3482 ekos/ekos.h:28
@@ -13001,7 +13001,7 @@ msgstr "En cours…"
 #: ekos/auxiliary/darklibrary.cpp:1368
 #, kde-format
 msgid "Failed to save master frame: %1"
-msgstr "Impossible d'enregistrer la trame maître : %1"
+msgstr "Impossible d'enregistrer la pose maître : %1"
 
 #. +> trunk5
 #: ekos/auxiliary/darklibrary.cpp:1389
@@ -15641,7 +15641,7 @@ msgstr "Durée d'exposition du flat"
 #: ekos/capture/calibrationoptions.ui:156
 #, kde-format
 msgid "Use the frame exposure value"
-msgstr "Utiliser la valeur d'exposition de trame"
+msgstr "Utiliser la valeur d'exposition de la pose"
 
 #. i18n: ectx: property (text), widget (QRadioButton, captureCalibrationDurationManual)
 #. +> trunk5
@@ -15777,7 +15777,7 @@ msgstr "Les modifications ont été appliquées pour la tâche #%1."
 #: ekos/capture/camera.cpp:982
 #, kde-format
 msgid "Framing..."
-msgstr "Mise en trame…"
+msgstr "En cours de pose…"
 
 #. +> trunk5
 #: ekos/capture/camera.cpp:993
@@ -16636,7 +16636,7 @@ msgstr ""
 "<ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\">"
 "<li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Paramètre<span style=\" font-weight:704;\"> %f</span> ou <span style=\" font-weight:704;\">%filename</span> : le nom du fichier .esq, sans extension.</li>"
 "<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Paramètre<span style=\" font-weight:704;\"> %D</span> ou <span style=\" font-weight:704;\">%Datetime</span> : l'heure et la date actuelle <span style=\" font-weight:704;\">quand le fichier est enregistré.</span></li>"
-"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Paramètre<span style=\" font-weight:704;\"> %T</span> ou <span style=\" font-weight:704;\">%Type</span> : le type de trame, par exemple : « Light », « Bias », « Dark », « Flat »…</li>"
+"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Paramètre<span style=\" font-weight:704;\"> %T</span> ou <span style=\" font-weight:704;\">%Type</span> : le type de pose, par exemple : « Light », « Bias », « Dark », « Flat »…</li>"
 "<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Paramètre<span style=\" font-weight:704;\"> %e</span> ou <span style=\" font-weight:704;\">%exposure</span> : le temps d'exposition en secondes, avec _secs comme suffixe.</li>"
 "<ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\">"
 "<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Paramètre<span style=\" font-weight:704;\"> %E</span> ou <span style=\" font-weight:704;\">%exp</span> : le temps d'exposition en secondes exprimé par un nombre, sans suffixe.</li>"
@@ -17032,7 +17032,7 @@ msgstr "Reprise du guidage automatique."
 #: ekos/capture/cameraprocess.cpp:854
 #, kde-format
 msgid "Failed to set sub frame."
-msgstr "Impossible de définir une trame."
+msgstr "Impossible de définir une pose."
 
 #. +> trunk5
 #: ekos/capture/cameraprocess.cpp:859
@@ -24123,8 +24123,8 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Utiliser des sous-trames de l'image autour de l'étoile de guidage. Ou, avec PHD2, recevez l'image de l'étoile de guidage au lieu de la trame complète de l'image. Pour l'assistant de guidage interne, avant de cocher cette option, vous devez <span style=\" font-weight:600;\">d'abord</span> acquérir une image et sélectionner une étoile de guidage. Décochez cette option pour recevoir une trame complète à nouveau.<br/>"
-"Veuillez noter que SEP Multi Star ne peut <span style=\"font-weight:600;\">pas</span> utiliser de sous-trames.</p>"
+"<p>Utiliser une partie de la pose de l'image autour de l'étoile de guidage. Ou, avec PHD2, recevez l'image de l'étoile de guidage au lieu de la pose complète de l'image. Pour l'assistant de guidage interne, avant de cocher cette option, vous devez <span style=\" font-weight:600;\">d'abord</span> acquérir une image et sélectionner une étoile de guidage. Décochez cette option pour recevoir une pose complète à nouveau.<br/>"
+"Veuillez noter que SEP Multi Star ne peut <span style=\"font-weight:600;\">pas</span> utiliser de partie de la pose.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, guideSubframe)
@@ -24132,7 +24132,7 @@ msgstr ""
 #: ekos/guide/guide.ui:279
 #, kde-format
 msgid "Subframe"
-msgstr "Sous-trame"
+msgstr "Pose"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, eastRAGuideEnabled)
 #. +> trunk5
@@ -25608,7 +25608,7 @@ msgstr "Activer les corrections prédictives durant l'acquisition des images de 
 #: ekos/guide/opsgpg.ui:169
 #, kde-format
 msgid "Intra-frame dark guiding"
-msgstr "Guidage dark intra-trame"
+msgstr "Guidage à l'aide d'une partie de la pose dark"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_gpgs1a)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_GPGEstimatePeriod)
@@ -34878,7 +34878,7 @@ msgid ""
 "Automatically scales the sliders for the subFrame.\n"
 "Uncheck to leave them unchanged when you pan around."
 msgstr ""
-"Met automatiquement à l'échelle les curseurs de la sous-trame.\n"
+"Met automatiquement à l'échelle les curseurs de la pose.\n"
 "Décochez cette case pour qu'ils restent inchangés lorsque vous effectuez un panoramique."
 
 #. +> trunk5
@@ -36503,7 +36503,7 @@ msgstr "Durée des vidéo exprimée en secondes."
 #: indi/streamform.ui:329
 #, kde-format
 msgid "Frame(s):"
-msgstr "Trame(s)"
+msgstr "Pose(s)"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, changeFPSB)
 #. +> trunk5
@@ -40354,7 +40354,7 @@ msgstr "Retard de l'animation pour XPlanet"
 #: kstars.kcfg:1349
 #, kde-format
 msgid "How long to pause between frames in the XPlanet Animation"
-msgstr "Durée de pause entre les trames dans l'animation XPlanet"
+msgstr "Durée de pause entre les poses dans l'animation XPlanet"
 
 #. i18n: ectx: label, entry (XplanetWidth), group (Xplanet)
 #. i18n: ectx: whatsthis, entry (XplanetWidth), group (Xplanet)
@@ -42136,7 +42136,7 @@ msgstr "Prendre une pose sombre et la soustraire avant de lancer l'opération de
 #: kstars.kcfg:2226
 #, kde-format
 msgid "Subframe the focus star during the autofocus procedure."
-msgstr "Sous-tramer l'étoile de mise au point durant la procédure de mise au point automatique."
+msgstr "Poser sur l'étoile de mise au point durant la procédure de mise au point automatique."
 
 #. i18n: ectx: label, entry (FocusBoxSize), group (Focus)
 #. +> trunk5
@@ -43376,7 +43376,7 @@ msgstr "Prendre une pose sombre comme images de guidage automatique."
 #: kstars.kcfg:2926
 #, kde-format
 msgid "Subframe guide image around selected region"
-msgstr "Sous-trame de l'image de guidage autour de la région sélectionnée"
+msgstr "Pose de l'image de guidage autour de la région sélectionnée"
 
 #. i18n: ectx: label, entry (DitherPixels), group (Guide)
 #. +> trunk5
@@ -83166,7 +83166,7 @@ msgstr "Enregistrement (durée)"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Record (Frames)"
-msgstr "Enregistrement (trames)"
+msgstr "Enregistrement (pose)"
 
 #. +> trunk5
 #: libindi_strings.cpp:387
@@ -97923,7 +97923,7 @@ msgstr "Retard d'animation"
 #: xplanet/opsxplanet.ui:183
 #, kde-format
 msgid "The delay between frames for the animation"
-msgstr "La durée entre deux trames d'animation"
+msgstr "La durée entre deux poses d'animation"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_XplanetUseFIFO)
 #. +> trunk5
