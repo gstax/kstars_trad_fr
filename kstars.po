@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.7.4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-01-06 11:02+0100\n"
-"PO-Revision-Date: 2025-01-06 07:38+0100\n"
+"PO-Revision-Date: 2025-01-08 15:41+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -5001,7 +5001,7 @@ msgstr "(rien)"
 
 #. +> trunk5
 #: dialogs/finddialog.cpp:491
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Search the Internet for %1"
 msgid "Searching the internet for \"%1\""
 msgstr "Chercher %1 sur Internet"
@@ -9361,10 +9361,10 @@ msgstr "Délai dépassé pour le téléchargement. Soit le réseau n'est pas ass
 
 #. +> trunk5
 #: ekos/align/opsastrometryindexfiles.cpp:447
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%s download cancelled."
 msgid "%1 download cancelled."
-msgstr "Téléchargement %s annulé."
+msgstr "Téléchargement %1 annulé."
 
 #. +> trunk5
 #: ekos/align/opsastrometryindexfiles.cpp:482
@@ -15762,10 +15762,10 @@ msgstr "Erreur de la mise au point automatique."
 
 #. +> trunk5
 #: ekos/capture/camera.cpp:828
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Capturing %1-second %2 image..."
 msgid "Capturing %1 x %2-second %3 video..."
-msgstr "Acquisition d'une pose %2 de %1 secondes…"
+msgstr "Acquisition de %1 vidéos %3 de %2 secondes…"
 
 #. +> trunk5
 #: ekos/capture/camera.cpp:834
@@ -15820,10 +15820,10 @@ msgstr "Exposition (-/-)"
 
 #. +> trunk5
 #: ekos/capture/camera.cpp:1061
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Duration of night for selected date"
 msgid "Duration of the video sequence"
-msgstr "Durée de la nuit pour la date sélectionnée"
+msgstr "Durée de la séquence vidéo"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel1_2_4)
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel1_2_5)
@@ -15844,17 +15844,17 @@ msgstr "Durée"
 
 #. +> trunk5
 #: ekos/capture/camera.cpp:1063
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Exposure time in seconds"
 msgid "Exposure time in seconds of a single video frame"
-msgstr "Durée d'exposition en secondes"
+msgstr "Durée d'exposition en secondes d'une vidéo"
 
 #. +> trunk5
 #: ekos/capture/camera.cpp:1064
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Set the exposure time in seconds for individual images, if applicable"
 msgid "Exposure time in seconds for individual images"
-msgstr "Définir le temps de pose en secondes pour les images individuelles, si applicable"
+msgstr "Durée d'exposition d'une pose en secondes"
 
 #. +> trunk5
 #: ekos/capture/camera.cpp:1079
@@ -15951,17 +15951,17 @@ msgstr "Confirmation"
 
 #. +> trunk5
 #: ekos/capture/camera.cpp:2411
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "You must set remote directory for Local & Both modes."
 msgid "You must set local or remote directory for Remotely & Both modes."
-msgstr "Vous devez définir un dossier distant pour les modes « Client et Les Deux »."
+msgstr "Vous devez définir un dossier local ou distant pour les modes « Distant et Les Deux »."
 
 #. +> trunk5
 #: ekos/capture/camera.cpp:2417
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "You must set local directory for Client & Both modes."
 msgid "You must set local directory for Locally & Both modes."
-msgstr "Vous devez définir un dossier local pour les modes « Client et Les Deux »."
+msgstr "Vous devez définir un dossier local pour les modes « Local et Les Deux »."
 
 #. +> trunk5
 #: ekos/capture/camera.cpp:3601
@@ -16504,7 +16504,7 @@ msgstr "Délai"
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, videoDurationSB)
 #. +> trunk5
 #: ekos/capture/camera.ui:1653
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Number of digits used to append the sequence number to the filename.</p>"
@@ -16515,13 +16515,13 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Nombre de chiffres utilisés dans le nom du fichier comme numéro de séquence.</p>"
+"<p>Durée de la séquence vidéo (en secondes ou nombre de trames).</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, videoDurationUnitCB)
 #. +> trunk5
 #: ekos/capture/camera.ui:1669
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Size of the separator between the tiles.</p>"
@@ -16532,7 +16532,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><body>"
-"<p>Taille de la séparation entre les tuiles.</p>"
+"<p>Unité de la durée vidéo (secondes ou trames).</p>"
 "</body></html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, fileSettingsGroup)
@@ -17099,10 +17099,10 @@ msgstr "La tâche nécessite des poses %2 de %1 secondes. Elle en a déjà %3/%4
 
 #. +> trunk5
 #: ekos/capture/cameraprocess.cpp:605
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Job requires %1-second %2 images, has %3/%4 frames captured and will be processed."
 msgid "Job requires %1 x %2-second %3 video and will be processed."
-msgstr "La tâche nécessite des poses %2 de %1 secondes. Elle en a déjà %3/%4 qui vont être traitées."
+msgstr "La tâche nécessite %1 poses de %2 secondes pour %3 vidéo et sera traitée."
 
 #. +> trunk5
 #: ekos/capture/cameraprocess.cpp:834
@@ -41249,7 +41249,7 @@ msgstr "Le catalogue duquel chercher les objets à afficher"
 #. i18n: ectx: label, entry (FitsCatObjShowNames), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1740
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Whether to display object names on the Fitsviwer or not."
 msgid "Whether to display object names on the FITS Viewer or not."
 msgstr "S'il faut afficher le nom des objets dans l'afficheur Fits."
@@ -78576,7 +78576,7 @@ msgstr "Planificateur d'observations"
 
 #. +> trunk5
 #: kstarsinit.cpp:456
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@title:window"
 #| msgid "Imaging Planner"
 msgid "Imaging Planner"
