@@ -18,13 +18,13 @@
 # MORELLI <robert.morelli@laposte.net>, 2022.
 # Thomas Vergnaud <thomas.vergnaud@mailo.eu>, 2023.
 # Johnny Jazeix <jazeix@gmail.com>, 2023.
-# Steve <stax@ik.me>, 2022, 2023, 2024.
+# Steve <stax@ik.me>, 2022, 2023, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_3.7.4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-01-30 09:11+0100\n"
-"PO-Revision-Date: 2025-01-06 07:38+0100\n"
+"PO-Revision-Date: 2025-02-02 11:07+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -309,11 +309,11 @@ msgstr "Grille HiPS"
 
 #. +> trunk5
 #: auxiliary/colorscheme.cpp:70
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Dome Simulator"
 msgid "Dome Slit"
-msgstr "Simulateur de dôme"
+msgstr "Fente du dôme"
 
 #. +> trunk5
 #: auxiliary/colorscheme.cpp:71
@@ -5009,7 +5009,7 @@ msgstr "(rien)"
 
 #. +> trunk5
 #: dialogs/finddialog.cpp:491
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Search the Internet for %1"
 msgid "Searching the internet for \"%1\""
 msgstr "Chercher %1 sur Internet"
@@ -9369,10 +9369,10 @@ msgstr "Délai dépassé pour le téléchargement. Soit le réseau n'est pas ass
 
 #. +> trunk5
 #: ekos/align/opsastrometryindexfiles.cpp:447
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%s download cancelled."
 msgid "%1 download cancelled."
-msgstr "Téléchargement %s annulé."
+msgstr "Téléchargement %1 annulé."
 
 #. +> trunk5
 #: ekos/align/opsastrometryindexfiles.cpp:482
@@ -15758,10 +15758,10 @@ msgstr "Erreur de la mise au point automatique."
 
 #. +> trunk5
 #: ekos/capture/camera.cpp:827
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Capturing %1-second %2 image..."
 msgid "Capturing %1 x %2-second %3 video..."
-msgstr "Acquisition d'une pose %2 de %1 secondes…"
+msgstr "Acquisition d'une vidéo %3 avec %1 x %2 secondes…"
 
 #. +> trunk5
 #: ekos/capture/camera.cpp:833
@@ -15816,10 +15816,10 @@ msgstr "Exposition (-/-)"
 
 #. +> trunk5
 #: ekos/capture/camera.cpp:1057
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Duration of night for selected date"
 msgid "Duration of the video sequence"
-msgstr "Durée de la nuit pour la date sélectionnée"
+msgstr "Durée de la séquence vidéo"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel1_2_4)
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel1_2_5)
@@ -15840,23 +15840,23 @@ msgstr "Durée"
 
 #. +> trunk5
 #: ekos/capture/camera.cpp:1059
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Exposure time in seconds"
 msgid "Exposure time in seconds of a single video frame"
-msgstr "Durée d'exposition en secondes"
+msgstr "Durée d'exposition en secondes d'une vidéo"
 
 #. +> trunk5
 #: ekos/capture/camera.cpp:1060
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Set the exposure time in seconds for individual images, if applicable"
 msgid "Exposure time in seconds for individual images"
-msgstr "Définir le temps de pose en secondes pour les images individuelles, si applicable"
+msgstr "Durée d'exposition en secondes des images individuelles"
 
 #. +> trunk5
 #: ekos/capture/camera.cpp:1075
 #, kde-format
 msgid "Stop Sequence"
-msgstr "Arrêter une séquence"
+msgstr "Arrêter la séquence"
 
 #. +> trunk5
 #: ekos/capture/camera.cpp:1081
@@ -15947,17 +15947,17 @@ msgstr "Confirmation"
 
 #. +> trunk5
 #: ekos/capture/camera.cpp:2395
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "You must set remote directory for Local & Both modes."
 msgid "You must set local or remote directory for Remotely & Both modes."
-msgstr "Vous devez définir un dossier distant pour les modes « Client et Les Deux »."
+msgstr "Vous devez définir un dossier distant pour les modes « À distance et Les Deux »."
 
 #. +> trunk5
 #: ekos/capture/camera.cpp:2401
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "You must set local directory for Client & Both modes."
 msgid "You must set local directory for Locally & Both modes."
-msgstr "Vous devez définir un dossier local pour les modes « Client et Les Deux »."
+msgstr "Vous devez définir un dossier local pour les modes « Local et Les Deux »."
 
 #. +> trunk5
 #: ekos/capture/camera.cpp:3583
@@ -16501,7 +16501,7 @@ msgstr "Délai"
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, videoDurationSB)
 #. +> trunk5
 #: ekos/capture/camera.ui:1653
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Number of digits used to append the sequence number to the filename.</p>"
@@ -16512,13 +16512,13 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Nombre de chiffres utilisés dans le nom du fichier comme numéro de séquence.</p>"
+"<p>Durée de la séquence vidéo (en secondes ou nombre de trames)</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, videoDurationUnitCB)
 #. +> trunk5
 #: ekos/capture/camera.ui:1669
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Size of the separator between the tiles.</p>"
@@ -16529,7 +16529,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><body>"
-"<p>Taille de la séparation entre les tuiles.</p>"
+"<p>Unité de la durée de la vidéo (soit secondes soit nombre de trames)</p>"
 "</body></html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, fileSettingsGroup)
@@ -17096,10 +17096,10 @@ msgstr "La tâche nécessite des poses %2 de %1 secondes. Elle en a déjà %3/%4
 
 #. +> trunk5
 #: ekos/capture/cameraprocess.cpp:600
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Job requires %1-second %2 images, has %3/%4 frames captured and will be processed."
 msgid "Job requires %1 x %2-second %3 video and will be processed."
-msgstr "La tâche nécessite des poses %2 de %1 secondes. Elle en a déjà %3/%4 qui vont être traitées."
+msgstr "La tâche nécessite %1 poses de %2 secondes pour la vidéo %3 et seront traitées."
 
 #. +> trunk5
 #: ekos/capture/cameraprocess.cpp:830
@@ -17344,10 +17344,10 @@ msgstr "Redémarrage du pilote"
 
 #. +> trunk5
 #: ekos/capture/cameraprocess.cpp:2996 ekos/capture/sequencejobstate.cpp:41
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Solver aborted after %1 seconds."
 msgid "Capture operations timed out after %1 seconds."
-msgstr "La résolution a été annulée après %1 secondes."
+msgstr "L'acquisition a dépassé le délai d'attente après %1 secondes."
 
 #. +> trunk5
 #: ekos/capture/camerastate.cpp:145
@@ -18746,12 +18746,12 @@ msgstr "Attendre ces quelques secondes après que le guidage ait été relancé 
 #: ekos/capture/opsmiscsettings.ui:173
 #, kde-format
 msgid "Maximum number of seconds to wait before aborting the capture if operations like filter wheel changes or meridian flips take too long"
-msgstr ""
+msgstr "Nombre maximum de secondes à attendre avant d'interrompre l'acquisition si des opérations comme le changement de filtres ou un retournement au méridien prennent trop de temps."
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk5
 #: ekos/capture/opsmiscsettings.ui:176
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Capture Timeout:"
 msgid "Capture Operations Timeout"
 msgstr "Délai d'acquisition maximal"
@@ -23937,16 +23937,16 @@ msgstr "Durée d'exposition écoulée. Trop d'essais. Redémarrage du pilote…"
 
 #. +> trunk5
 #: ekos/guide/guide.cpp:1299
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "No camera detected. Check train configuration and connection settings."
 msgid "No camera detected. Check camera in optical trains."
-msgstr "Aucun appareil détecté. Veuillez vérifier la configuration du train et les réglages de connexion."
+msgstr "Aucun appareil détecté. Veuillez vérifier la caméra du train optique."
 
 #. +> trunk5
 #: ekos/guide/guide.cpp:1305
 #, kde-format
 msgid "No guider detected. Check guide-via in optical trains."
-msgstr ""
+msgstr "Aucun guide détecté. Veuillez vérifier guide-via dans les trains optiques."
 
 #. +> trunk5
 #: ekos/guide/guide.cpp:1386
@@ -24114,17 +24114,17 @@ msgstr "Sélectionner une étoile de guidage à calibrer."
 
 #. +> trunk5
 #: ekos/guide/guide.cpp:2826
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "x (pixels)"
 msgid "dx (pixels)"
-msgstr "x (pixels)"
+msgstr "dx (pixels)"
 
 #. +> trunk5
 #: ekos/guide/guide.cpp:2827
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "y (pixels)"
 msgid "dy (pixels)"
-msgstr "y (pixels)"
+msgstr "dy (pixels)"
 
 #. +> trunk5
 #: ekos/guide/guide.cpp:2969 ekos/guide/guide.cpp:3095
@@ -25016,7 +25016,7 @@ msgstr[1] ""
 #: ekos/guide/internalguide/calibrationprocess.cpp:595
 #, kde-format
 msgid "DEC direction reversed (RA-DEC is now standard CCW-system)."
-msgstr ""
+msgstr "Direction DEC inversée (AD-DEC est maintenant un système CCW standard)."
 
 #. +> trunk5
 #: ekos/guide/internalguide/internalguider.cpp:539
@@ -25366,10 +25366,10 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ReverseDecOnPierSideChange)
 #. +> trunk5
 #: ekos/guide/opscalibration.ui:411
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Reverse DEC on pier-side change when reusing calibration."
 msgid "Reverse DEC guide pulses when changing pier-side and reusing calibration."
-msgstr "Inverser DEC si modification du côté du pied lors de la réutilisation d'une calibration"
+msgstr "Inverser les pulses en DEC du guide si modification du côté du pied lors de la réutilisation d'une calibration"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, kcfg_DitherPixels)
 #. +> trunk5
@@ -30691,16 +30691,16 @@ msgstr "Arrêter Ekos après l'arrêt"
 #: ekos/scheduler/opsscriptssettings.ui:48
 #, kde-format
 msgid "Observatory startup script is normally only executed if Ekos is offline. Enable this option to start it whenever scheduler is starting up."
-msgstr ""
+msgstr "Le script de démarrage de l'observatoire ne s'exécute normalement que lorsqu'Ekos est hors ligne. Activer cette option pour le démarrer dès que l'ordonnanceur est lancé."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AlwaysExecuteStartupScript)
 #. +> trunk5
 #: ekos/scheduler/opsscriptssettings.ui:51
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@title:window"
 #| msgid "Select Startup Script"
 msgid "Always Execute Startup Script"
-msgstr "Sélectionner le script de démarrage"
+msgstr "Toujours exécuter le script de démarrage"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShutdownScriptTerminatesINDI)
 #. +> trunk5
@@ -31994,10 +31994,10 @@ msgstr "La tâche planifiée « %1 » pour être réalisée à %2. Parcage de 
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:699
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Sleeping until observation job %1 is ready at %2..."
 msgid "Sleeping until observation job %1 is ready at %2"
-msgstr "En attente que la tâche d'observation « %1 » soit prête à %2…"
+msgstr "En attente que la tâche d'observation « %1 » soit prête à %2"
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:710
@@ -41231,7 +41231,7 @@ msgstr "Le catalogue duquel chercher les objets à afficher"
 #. i18n: ectx: label, entry (FitsCatObjShowNames), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1740
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Whether to display object names on the Fitsviwer or not."
 msgid "Whether to display object names on the FITS Viewer or not."
 msgstr "S'il faut afficher le nom des objets dans l'afficheur Fits."
@@ -41947,7 +41947,7 @@ msgstr "Couvrir ou découvrir le temps maximum pour les échanges avec le téles
 #: kstars.kcfg:2149
 #, kde-format
 msgid "Maximum number of seconds to wait before aborting the capture if operations like filter wheel changes or meridian flips take too long."
-msgstr ""
+msgstr "Nombre maximum de secondes à attendre avant l'interruption de l'acquisition si des opérations comme le changement de filtres ou un retournement au méridien prennent trop de temps."
 
 #. i18n: ectx: label, entry (MinFlipDuration), group (Capture)
 #. +> trunk5
@@ -43536,7 +43536,7 @@ msgstr "Une fois que la procédure d'arrêt a été réalisée avec succès, arr
 #: kstars.kcfg:3119
 #, kde-format
 msgid "Always execute startup script regardless of Ekos status."
-msgstr ""
+msgstr "Toujours exécuter les scripts de démarrage indépendamment de l'état d'Ekos."
 
 #. i18n: ectx: label, entry (ShutdownScriptTerminatesINDI), group (Scheduler)
 #. +> trunk5
@@ -78579,7 +78579,7 @@ msgstr "Planificateur d'observations"
 
 #. +> trunk5
 #: kstarsinit.cpp:456
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@title:window"
 #| msgid "Imaging Planner"
 msgid "Imaging Planner"
