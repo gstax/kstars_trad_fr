@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.7.4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-01-30 09:11+0100\n"
-"PO-Revision-Date: 2025-02-02 11:07+0100\n"
+"PO-Revision-Date: 2025-03-02 22:47+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -17092,7 +17092,7 @@ msgstr "La tâche nécessite des poses %2 de %1 secondes. Elle en a déjà %3/%4
 #: ekos/capture/cameraprocess.cpp:587
 #, kde-format
 msgid "Job requires %1-second %2 images, has %3/%4 frames captured and will be processed."
-msgstr "La tâche nécessite des poses %2 de %1 secondes. Elle en a déjà %3/%4 qui vont être traitées."
+msgstr "La tâche nécessite %2 poses de %1 secondes. Elle en a déjà %3/%4 qui peuvent être traitées."
 
 #. +> trunk5
 #: ekos/capture/cameraprocess.cpp:600
