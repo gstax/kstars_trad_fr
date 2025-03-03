@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.7.4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-01-30 09:11+0100\n"
-"PO-Revision-Date: 2025-03-03 06:53+0100\n"
+"PO-Revision-Date: 2025-03-03 21:16+0100\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -30429,7 +30429,7 @@ msgstr "Sélectionner le dossier des tâches"
 #: ekos/scheduler/greedyscheduler.cpp:170
 #, kde-format
 msgid "Job '%1' has no more batches remaining."
-msgstr "La tâche « %1 » a terminé son lot de travaux."
+msgstr "La tâche %1 a terminé son lot de travaux."
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_8)
 #. i18n: ectx: label, entry (AlignCheckThreshold), group (Scheduler)
@@ -31891,13 +31891,13 @@ msgstr "Reprise de l'ordonnanceur."
 #: ekos/scheduler/schedulerprocess.cpp:157
 #, kde-format
 msgid "Job '%1' is terminated due to errors."
-msgstr "La tâche « %1 » s'est terminée par suite d'erreurs."
+msgstr "La tâche %1 s'est terminée par suite d'erreurs."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:159
 #, kde-format
 msgid "Job '%1' is aborted."
-msgstr "La tâche « %1 » a été annulée."
+msgstr "La tâche %1 a été annulée."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:172
@@ -31915,15 +31915,15 @@ msgstr "L'ordonnanceur est en attente d'une reprise."
 #: ekos/scheduler/schedulerprocess.cpp:212
 #, kde-format
 msgid "Job '%1' is complete."
-msgstr "La tâche « %1 » est terminée."
+msgstr "La tâche %1 est terminée."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:256
 #, kde-format
 msgid "Job '%1' is complete after #%2 batch."
 msgid_plural "Job '%1' is complete after #%2 batches."
-msgstr[0] "La tâche « %1 » s'est terminée après %2 itération."
-msgstr[1] "La tâche « %1 » s'est terminée après %2 itérations."
+msgstr[0] "La tâche %1 s'est terminée après %2 itération."
+msgstr[1] "La tâche %1 s'est terminée après %2 itérations."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:304
@@ -31931,14 +31931,14 @@ msgstr[1] "La tâche « %1 » s'est terminée après %2 itérations."
 #, kde-format
 msgid "Job '%1' is repeating, #%2 batch remaining."
 msgid_plural "Job '%1' is repeating, #%2 batches remaining."
-msgstr[0] "La tâche « %1 » se répète, #%2 reste dans le lot de tâches."
-msgstr[1] "La tâche « %1 » se répète, #%2 reste dans les lots de tâches."
+msgstr[0] "La tâche %1 se répète, #%2 reste dans le lot de tâches."
+msgstr[1] "La tâche %1 se répète, #%2 reste dans les lots de tâches."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:350
 #, kde-format
 msgid "Job '%1' is repeating, looping indefinitely."
-msgstr "La tâche « %1 » se répète en boucle de façon infinie."
+msgstr "La tâche %1 se répète en boucle de façon infinie."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:369
@@ -31978,19 +31978,19 @@ msgstr "L'ordonnanceur est actif. Les tâches seront lancées dès que l'ordonna
 #: ekos/scheduler/schedulerprocess.cpp:541
 #, kde-format
 msgid "Job '%1' has not been processed upon scheduler stop, marking aborted."
-msgstr "La tâche « %1 » n'a pas été traitée lors de l'arrêt de l'ordonnanceur. Marquée comme annulée."
+msgstr "La tâche %1 n'a pas été traitée lors de l'arrêt de l'ordonnanceur. Marquée comme annulée."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:667
 #, kde-format
 msgid "Job '%1' scheduled for execution at %2. Observatory scheduled for shutdown until next job is ready."
-msgstr "La tâche planifiée « %1 » pour être réalisée à %2. L'observatoire a entamé un arrêt sauf si la prochaine tâche est prête."
+msgstr "La tâche planifiée %1 pour être réalisée à %2. L'observatoire a entamé un arrêt sauf si la prochaine tâche est prête."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:689
 #, kde-format
 msgid "Job '%1' scheduled for execution at %2. Parking the mount until the job is ready."
-msgstr "La tâche planifiée « %1 » pour être réalisée à %2. Parcage de la monture jusqu'à ce que la prochaine tâche soit prête."
+msgstr "La tâche planifiée %1 pour être réalisée à %2. Parcage de la monture jusqu'à ce que la prochaine tâche soit prête."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:699
@@ -32009,7 +32009,7 @@ msgstr "Attention : la tâche « %1» est à %2 de distance dans le temps par 
 #: ekos/scheduler/schedulerprocess.cpp:763
 #, kde-format
 msgid "Job '%1' is slewing to target."
-msgstr "La tâche « %1 » effectue la rotation vers la cible"
+msgstr "La tâche %1 effectue la rotation vers la cible"
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:803
@@ -32021,7 +32021,7 @@ msgstr "Alarme : le traitement pour la tâche « %1 » est impossible avec la
 #: ekos/scheduler/schedulerprocess.cpp:869
 #, kde-format
 msgid "Job '%1' is focusing."
-msgstr "La tâche « %1 » réalise la mise au point."
+msgstr "La tâche %1 réalise la mise au point."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:896
@@ -32099,13 +32099,13 @@ msgstr "Tâche Ekos (%1) - Acquisition débutée"
 #: ekos/scheduler/schedulerprocess.cpp:1091
 #, kde-format
 msgid "Job '%1' capture is in progress (batch #%2)..."
-msgstr "La tâche d'acquisition « %1 » est en cours (itération #%2)…"
+msgstr "La tâche d'acquisition %1 est en cours (itération #%2)…"
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:1094
 #, kde-format
 msgid "Job '%1' capture is in progress..."
-msgstr "La tâche d'acquisition « %1 » est en cours…"
+msgstr "La tâche d'acquisition %1 est en cours…"
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:1201
