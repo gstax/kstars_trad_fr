@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.7.7\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-17 10:42+0200\n"
-"PO-Revision-Date: 2025-06-17 07:52+0200\n"
+"PO-Revision-Date: 2025-07-20 12:18+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -20862,10 +20862,10 @@ msgstr "Détection de l'étoile en cours, nouvel essai dans 1 seconde…"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:1509
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Star detection in progress, retrying in 1s..."
 msgid "Star detection still in progress, aborting..."
-msgstr "Détection de l'étoile en cours, nouvel essai dans 1 seconde…"
+msgstr "Détection de l'étoile encore en cours, abandon…"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:1558
@@ -26729,10 +26729,10 @@ msgstr "Ekos"
 
 #. +> trunk5
 #: ekos/manager.cpp:982 ekos/manager.cpp:1007
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Ekos requires at least one CCD or Guider to operate."
 msgid "Ekos requires at least one Camera to operate."
-msgstr "Ekos requiert au moins un CCD ou un guide pour fonctionner."
+msgstr "Ekos requiert au moins un CCD pour fonctionner."
 
 #. +> trunk5
 #: ekos/manager.cpp:1070
@@ -28732,7 +28732,7 @@ msgstr "<nobr><b>Étiquette </b> : %1 &#9473; <b>Pilote</b> : %2 &#9473; <b>Ex
 
 #. +> trunk5
 #: ekos/profileeditor.cpp:344
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Drivers:"
 msgid "Drivers"
 msgstr "Pilotes"
@@ -29099,18 +29099,18 @@ msgstr "Sélection des périphériques"
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, driverSearchEdit)
 #. +> trunk5
 #: ekos/profileeditor.ui:422
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Driver Restart"
 msgid "Driver Search"
-msgstr "Redémarrage du pilote"
+msgstr "Recherche de pilote"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, profileSearchEdit)
 #. +> trunk5
 #: ekos/profileeditor.ui:546
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Profile"
 msgid "Profile Search"
-msgstr "Profil"
+msgstr "Recherche de profil"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, remoteDriversLabel)
 #. +> trunk5
@@ -33778,26 +33778,26 @@ msgstr "KStars n'a trouvé aucune monture active."
 #: fitsviewer/fitsmemmonitor.cpp:72 fitsviewer/fitsmemmonitor.cpp:202
 #, kde-format
 msgid "RAM: -- / --"
-msgstr ""
+msgstr "RAM : -- / --"
 
 #. +> trunk5
 #: fitsviewer/fitsmemmonitor.cpp:80
 #, kde-format
 msgid "Double-click to toggle text display"
-msgstr ""
+msgstr "Double-clic pour basculer vers l'affichage texte"
 
 #. +> trunk5
 #: fitsviewer/fitsstretchui.cpp:241
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Stretch preview:"
 msgid "Stretch using preset %1"
-msgstr "Aperçu de l'étirement"
+msgstr "Étirement avec le préréglage %1"
 
 #. +> trunk5
 #: fitsviewer/fitsstretchui.cpp:390
 #, kde-format
 msgid "Cycle through stretch presets. Current stretch: preset %1. Click for preset %2."
-msgstr ""
+msgstr "Parcourez les préréglages d'étirements. Étirement actuel : préréglage %1. Cliquez pour le préréglage %2."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, stretchButton)
 #. +> trunk5
@@ -33870,7 +33870,7 @@ msgstr "Trouver automatiquement les paramètres de l'étirement."
 #: fitsviewer/fitsstretchui.ui:394
 #, kde-format
 msgid "Cycle through stretch presets."
-msgstr ""
+msgstr "Parcourez les préréglages d'étirement."
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:65
@@ -33901,10 +33901,10 @@ msgstr "Objets du catalogue"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:154
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 is tracking."
 msgid "Live Stacking"
-msgstr "%1 est en cours de suivi."
+msgstr "Empilement live"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:167
@@ -34064,42 +34064,42 @@ msgstr "Taille de la coordonnée principale de l'objet en minutes d'arc"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:896
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "RA"
 msgid "RAM"
-msgstr "AD"
+msgstr "RAM"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:1015
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Directory"
 msgctxt "@title:window"
 msgid "Stack Directory"
-msgstr "Dossier"
+msgstr "Dossier d'empilement"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:1040
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Scheduler Alignment"
 msgctxt "@title:window"
 msgid "Select Alignment Sub"
-msgstr "Alignement de l'ordonnanceur"
+msgstr "Sélection de la pose d'alignement"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:1054
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Master Dark:"
 msgctxt "@title:window"
 msgid "Select Master Dark"
-msgstr "Dark maître"
+msgstr "Sélection du master dark"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:1068
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Select Baud rate"
 msgctxt "@title:window"
 msgid "Select Master Flat"
-msgstr "Sélectionner le taux de transmission"
+msgstr "Sélection du master flat"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:1170 fitsviewer/fitstab.cpp:1174
@@ -34128,23 +34128,23 @@ msgstr "Fichier enregistré dans %1"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:1303
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Loading %1"
 msgid "Watching %1"
-msgstr "Chargement de %1"
+msgstr "Suivi de %1"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:1439
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Loading %1"
 msgid "(%1) Watching %2"
-msgstr "Chargement de %1"
+msgstr "(%1) Suivi de %2"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:1441
 #, kde-format
 msgid "(%1) %2"
-msgstr ""
+msgstr "(%1) %2"
 
 #. +> trunk5
 #: fitsviewer/fitsview.cpp:654 fitsviewer/fitsview.cpp:665
@@ -34423,16 +34423,16 @@ msgstr "Afficheur FITS de KStars"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:388
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Change Date..."
 msgid "Change Tab Title"
-msgstr "Changer de date…"
+msgstr "Modification du titre de l'onglet"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:389
 #, kde-format
 msgid "New title for tab '%1':"
-msgstr ""
+msgstr "Nouveau titre pour l'onglet %1 :"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:474
@@ -34454,7 +34454,7 @@ msgstr[1] "HFR = %2 %1 étoiles"
 #: fitsviewer/fitsviewer.cpp:531
 #, kde-format
 msgid "Right click to change tab title."
-msgstr ""
+msgstr "Clic droit pour modifier le titre de l'onglet."
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:746
@@ -34520,24 +34520,24 @@ msgstr "Ouvrir une image"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:1150
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Extracting..."
 msgid "Stacking..."
-msgstr "Extraction…"
+msgstr "En cours d'empilement…"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:1158
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Syncing failed."
 msgid "Stacking Failed"
-msgstr "La synchronisation a échoué."
+msgstr "L'empilement a échoué."
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:1176
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Settling complete."
 msgid "Stacking Complete"
-msgstr "Stabilisation terminée."
+msgstr "Empilement terminé."
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:1450
@@ -34628,23 +34628,23 @@ msgstr "Traitement de %1 en cours…"
 #. i18n: ectx: property (text), widget (QLabel, masterFlatLabel)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:86
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Master Dark:"
 msgid "Master Flat:"
-msgstr "Dark maître"
+msgstr "Master flat :"
 
 #. i18n: ectx: property (title), widget (QGroupBox, StackingGroupBox)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:191
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Tracking"
 msgid "Stacking"
-msgstr "En cours de suivi"
+msgstr "En cours d'empilement"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, HighSigma)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:221
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Size of the subframe in pixels.</p>"
@@ -34655,16 +34655,16 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><body>"
-"<p>Taille en pixels des poses.</p>"
+"<p>Valeur du Sigma haut à utiliser pour le rejet de pixel.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, LowSigmaLabel)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:240
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Sigma:"
 msgid "Low Sigma:"
-msgstr "Sigma"
+msgstr "Sigma bas :"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, NumInMem)
 #. +> trunk5
@@ -34678,27 +34678,33 @@ msgid ""
 "<p>Processes such as sigma clipping will use this many subs to calculate statistics to use on all subs.</p>"
 "</body></html>"
 msgstr ""
+"<html><head/><body>"
+"<p>Le nombre maximum de poses en mémoire durant le traitement. Plus la valeur est grande et plus la qualité de l'empilement sera bonne, mais au coût de plus de traitement et de mémoire utilisée.</p>"
+"<p><br/>"
+"</p>"
+"<p>Les processus tels que la coupure sigma utilisent ce nombre de poses pour calculer les statistiques utilisées pour toutes les poses.</p>"
+"</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, InMemoryLabel)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:290
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Memory:"
 msgid "In Memory Subs:"
-msgstr "Mémoire"
+msgstr "Nombre de poses en mémoire :"
 
 #. i18n: ectx: property (text), widget (QLabel, HighSigmaLabel)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:306
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Sigma:"
 msgid "High Sigma:"
-msgstr "Sigma"
+msgstr "Sigma haut :"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, LowSigma)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:328
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Size of the subframe in pixels.</p>"
@@ -34709,16 +34715,16 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><body>"
-"<p>Taille en pixels des poses.</p>"
+"<p>Valeur basse du sigma pour le rejet de pixels.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, DownscaleLabel)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:353
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Downsample"
 msgid "Downscale:"
-msgstr "Sous-échantillonnage"
+msgstr "Réduction d'échelle :"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, LSDownscale)
 #. +> trunk5
@@ -34733,13 +34739,20 @@ msgid ""
 "<p>- 4x4. Subs and masters are downscaled 4x4.</p>"
 "</body></html>"
 msgstr ""
+"<html><head/><body>"
+"<p>Réduction des images :</p>"
+"<p>- Aucune. Pas de réduction appliquée</p>"
+"<p>- 2x2. Les poses et les masters sont réduits d'un facteur 2x2.</p>"
+"<p>- 3x3. Les poses et les masters sont réduits d'un facteur 3x3.</p>"
+"<p>- 4x4. Les poses et les masters sont réduits d'un facteur 4x4</p>"
+"</body></html>"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, LSDownscale)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:380
 #, kde-format
 msgid "3x3"
-msgstr ""
+msgstr "3x3"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, Weighting)
 #. +> trunk5
@@ -34753,30 +34766,36 @@ msgid ""
 "<p>- Num Stars. Frames are weighted by the number of stars detected in the frame.</p>"
 "</body></html>"
 msgstr ""
+"<html><head/><body>"
+"<p>Pondération des poses :</p>"
+"<p>- Égale. Toutes les poses ont le même poids.</p>"
+"<p>- HFR. Les poses sont pondérées par un facteur 1/HFR moyen.</p>"
+"<p>- Nombre d'étoiles. Les poses sont pondérées en fonction du nombre d'étoiles détectées dans l'image.</p>"
+"</body></html>"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, Weighting)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:409
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Equalize"
 msgid "Equal"
-msgstr "Égaliser"
+msgstr "Égal"
 
 #. i18n: ectx: property (text), widget (QLabel, WeightingLabel)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:433
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Image height:"
 msgid "Frame Weight:"
-msgstr "Hauteur d'image"
+msgstr "Poids de la pose :"
 
 #. i18n: ectx: property (text), widget (QLabel, pixelRejLabel)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:449
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Source Extraction Method"
 msgid "Rejection Method:"
-msgstr "Méthode d'extraction de sources"
+msgstr "Méthode de rejet :"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, Rejection)
 #. +> trunk5
@@ -34790,33 +34809,39 @@ msgid ""
 "<p>- Winsorized Sigma Clipping. Winsorized version of sigma clipping</p>"
 "</body></html>"
 msgstr ""
+"<html><head/><body>"
+"<p>Algorithm de rejet de pixel :</p>"
+"<p>- Aucun. Aucun rejet n'est appliqué.</p>"
+"<p>- Coupure Sigma. Les pixels déviants sont rejetés.</p>"
+"<p>- Coupure Sigma winsorisé. Version winsorizée de la coupure Sigma.</p>"
+"</body></html>"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, Rejection)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:486
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show Clipping"
 msgid "Sigma Clipping"
-msgstr "Afficher le découpage"
+msgstr "Coupure Sigma"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, Rejection)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:491
 #, kde-format
 msgid "Winsorized SC"
-msgstr ""
+msgstr "Coupe Sigma winsorizée"
 
 #. i18n: ectx: property (text), widget (QLabel, WinsorCutoffLabel)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:511
 #, kde-format
 msgid "Winsor Cutoff:"
-msgstr ""
+msgstr "Arrêt Winsor :"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, WinsorCutoff)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:533
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Remaining time to completion</p>"
@@ -34827,37 +34852,37 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Temps restant pour terminer</p>"
+"<p>Arrêt Winsor en unité Sigma pour le rejet de pixels.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, AlignMasterSubLabel)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:663
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Master Dark:"
 msgid "Master Sub:"
-msgstr "Dark maître"
+msgstr "Pose master :"
 
 #. i18n: ectx: property (title), widget (QGroupBox, PostProcGroupBox)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:682
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Processing"
 msgid "Post Processing"
-msgstr "Traitement"
+msgstr "Post-traitement"
 
 #. i18n: ectx: property (text), widget (QLabel, DenoiseLabel)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:718
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Denoise"
 msgid "Denoise Amount:"
-msgstr "Débruiter"
+msgstr "Quantité de débruitage :"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, SharpenKernal)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:740
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Step size:</p>"
@@ -34868,7 +34893,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Taille de pas</p>"
+"<p>Affiner la taille du noyau.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, DeconvAmt)
@@ -34881,11 +34906,15 @@ msgid ""
 "<p>Set to 0 to switch deconvolution off.</p>"
 "</body></html>"
 msgstr ""
+"<html><head/><body>"
+"<p>Quantité de déconvolution de Wiener à appliquer dans la plage 0 à 1. La fonction mélange une certaine quantité de l'image déconvoluée avec (1 - cette quantité) de l'image originale.</p>"
+"<p>0 pour désactiver cette fonctionnalité.</p>"
+"</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, DenoiseAmt)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:793
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Number of frames to capture at each focuser position.</p>"
@@ -34897,38 +34926,39 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><body>"
-"<p>Nombre de poses à acquérir pour chaque position du moteur de mise au point.</p>"
+"<p>Quantité de débruitage à appliquer. Les grandes valeurs appliquent plus de débruitage.</p>"
+"<p>0 pour désactiver cette fonctionnalité.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, SharpenKernalLabel)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:822
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "City in Utah USA"
 #| msgid "Vernal"
 msgid "Kernel:"
-msgstr "Vernal"
+msgstr "Noyau"
 
 #. i18n: ectx: property (text), widget (QLabel, SharpenSigmaLabel)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:844
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Sigma:"
 msgid "Sharpen Sigma:"
-msgstr "Sigma"
+msgstr "Sigma affiné :"
 
 #. i18n: ectx: property (text), widget (QLabel, PSFLabel)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:866
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Sigma:"
 msgid "PSF Sigma:"
-msgstr "Sigma"
+msgstr "Sigma PSF :"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, SharpenSigma)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:888
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Step size:</p>"
@@ -34939,7 +34969,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Taille de pas</p>"
+"<p>Sigma affiné.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, SharpenLabel)
@@ -34947,19 +34977,19 @@ msgstr ""
 #: fitsviewer/livestacking.ui:913
 #, kde-format
 msgid "Sharpen Amount:"
-msgstr ""
+msgstr "Quantité d'affinage :"
 
 #. i18n: ectx: property (text), widget (QLabel, DeconvLabel)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:935
 #, kde-format
 msgid "Deconv Amount:"
-msgstr ""
+msgstr "Quantité de déconvolution :"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, PSFSigma)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:957
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Remaining time to completion</p>"
@@ -34970,13 +35000,13 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Temps restant pour terminer</p>"
+"<p>Quantité de Sigma PSF à utiliser pour la déconvolution</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, SharpenAmt)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:982
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Enforce temperature value before capturing an image</p>"
@@ -34988,7 +35018,8 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Forcer la valeur de température avant l'acquisition d'une image.</p>"
+"<p>Quantité d'affinage à appliquer. Les grandes valeurs appliquent plus d'affinage.</p>"
+"<p>0 pour désactiver cette fonctionnalité.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, ReprocessB)
@@ -34996,30 +35027,30 @@ msgstr ""
 #: fitsviewer/livestacking.ui:1011
 #, kde-format
 msgid "Rerun the post processing using the selected parameters"
-msgstr ""
+msgstr "Relancer le post-traitement avec les paramètres sélectionnés."
 
 #. i18n: ectx: property (text), widget (QPushButton, ReprocessB)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:1014
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Process"
 msgid "Reprocess"
-msgstr "Traitement"
+msgstr "Retraitement"
 
 #. i18n: ectx: property (text), widget (QLabel, stackLabel)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:1082
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Directory:"
 msgid "Stack Directory:"
-msgstr "Dossier"
+msgstr "Dossier d'empilement :"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, SubsProcessed)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:1104
 #, kde-format
 msgid "Number of subs successfully processed / failed / total"
-msgstr ""
+msgstr "Nombre de poses traitées avec succès / échouées / total"
 
 #. i18n: ectx: property (text), widget (QLabel, SubsProcessed)
 #. i18n: ectx: property (text), widget (QLabel, SubsSNR)
@@ -35027,48 +35058,48 @@ msgstr ""
 #: fitsviewer/livestacking.ui:1107 fitsviewer/livestacking.ui:1148
 #, kde-format
 msgid "0 / 0 / 0"
-msgstr ""
+msgstr "0 / 0 / 0"
 
 #. i18n: ectx: property (text), widget (QLabel, NumberSubsLabel)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:1126
 #, kde-format
 msgid "Proc / Fail / Total:"
-msgstr ""
+msgstr "Traité / Échec / Total :"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, SubsSNR)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:1145
 #, kde-format
 msgid "Signal-to-noise ratio Max / Min / Mean of the processed subs"
-msgstr ""
+msgstr "Rapport signal sur bruit des poses Max / Min / Moyen"
 
 #. i18n: ectx: property (text), widget (QLabel, SubsSNRLabel)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:1186
 #, kde-format
 msgid "SNR Av / Min / Max:"
-msgstr ""
+msgstr "SNR Moyen / Min / Max :"
 
 #. i18n: ectx: property (text), widget (QLabel, ImageSNRLabel)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:1199
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Image Save"
 msgid "Image SNR:"
-msgstr "Enregistrement d'image"
+msgstr "SNR de l'image :"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, ImageSNR)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:1215
 #, kde-format
 msgid "The signal-to-noise ratio of the final image"
-msgstr ""
+msgstr "Le rapport signal sur bruit de l'image finale"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, StartB)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:1237
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Clear all the recent guide data.</p>"
@@ -35079,13 +35110,13 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Effacer toutes les données récentes de guidage.</p>"
+"<p>Débuter la surveillance du dossier d'empilement et lancer l'empilement. </p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, SaveB)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:1269
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>General Focus Settings parameters.</p>"
@@ -35096,17 +35127,17 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Paramètres généraux de réglage de la mise au point.</p>"
+"<p>Enregistrer les paramètres de l'empilement live</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, SaveB)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:1272
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Image Settings"
 msgid "Save Settings"
-msgstr "Paramètres des images"
+msgstr "Enregistrer les paramètres"
 
 #. +> trunk5
 #: fitsviewer/opsfits.cpp:111
@@ -42312,114 +42343,114 @@ msgstr "Angle (en degrés) à utiliser pour la résolution de l'afficheur Fits"
 #: kstars.kcfg:1785
 #, kde-format
 msgid "Live Stacking master dark"
-msgstr ""
+msgstr "Master dark de l'empilement live"
 
 #. i18n: ectx: whatsthis, entry (fitsLSMasterFlat), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1789
 #, kde-format
 msgid "Live Stacking master flat"
-msgstr ""
+msgstr "Master flat de l'empilement live"
 
 #. i18n: ectx: whatsthis, entry (fitsLSAlignMethod), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1793
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Restarting alignment point %1"
 msgid "Live Stacking alignment method"
-msgstr "Re-démarrage le point d'alignement %1 en cours"
+msgstr "Méthode d'alignement de l'empilement live"
 
 #. i18n: ectx: label, entry (fitsLSNumInMem), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1797
 #, kde-format
 msgid "Live Stacking max number of subs to keep in memory"
-msgstr ""
+msgstr "Nombre maximum de poses pour l'empilement live."
 
 #. i18n: ectx: whatsthis, entry (fitsLSDownscale), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1801
 #, kde-format
 msgid "Live Stacking downscale factor"
-msgstr ""
+msgstr "Facteur de réduction de l'empilement live"
 
 #. i18n: ectx: whatsthis, entry (fitsLSWeighting), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1805
 #, kde-format
 msgid "Live Stacking sub weighting"
-msgstr ""
+msgstr "Pondération des images de l'empilement live"
 
 #. i18n: ectx: whatsthis, entry (fitsLSRejection), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1809
 #, kde-format
 msgid "Live Stacking pixel rejection mechanism"
-msgstr ""
+msgstr "Mécanisme de rejet de pixel de l'empilement live"
 
 #. i18n: ectx: label, entry (fitsLSLowSigma), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1813
 #, kde-format
 msgid "Live Stacking low sigma pixel rejection criteria"
-msgstr ""
+msgstr "Critère de rejet de pixel avec Sigma bas de l'empilement live"
 
 #. i18n: ectx: label, entry (fitsLSHighSigma), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1817
 #, kde-format
 msgid "Live Stacking high sigma pixel rejection criteria"
-msgstr ""
+msgstr "Critère de rejet de pixel avec Sigma haut de l'empilement live"
 
 #. i18n: ectx: label, entry (fitsLSWinsorCutoff), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1821
 #, kde-format
 msgid "Live Stacking sigma clipping windzor cutoff"
-msgstr ""
+msgstr "Coupure Sigma windzor de l'empilement live"
 
 #. i18n: ectx: label, entry (fitsLSDeconvAmt), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1825
 #, kde-format
 msgid "Live Stacking deconvolution amount"
-msgstr ""
+msgstr "Quantité de déconvolution de l'empilement live"
 
 #. i18n: ectx: label, entry (fitsLSPSFSigma), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1829
 #, kde-format
 msgid "Live Stacking PSF sigma to apply in deconvolution"
-msgstr ""
+msgstr "Quantité de Sigma PSF de déconvolution à appliquer à l'empilement live"
 
 #. i18n: ectx: label, entry (fitsLSDenoiseAmt), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1833
 #, kde-format
 msgid "Live Stacking denoise amount"
-msgstr ""
+msgstr "Quantité de débruitage pour l'empilement live"
 
 #. i18n: ectx: label, entry (fitsLSSharpenAmt), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1837
 #, kde-format
 msgid "Live Stacking sharpen amount"
-msgstr ""
+msgstr "Quantité d'affinage pour l'empilement live"
 
 #. i18n: ectx: label, entry (fitsLSSharpenKernal), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1841
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Restarting alignment point %1"
 msgid "Live Stacking sharpening kernel size"
-msgstr "Re-démarrage le point d'alignement %1 en cours"
+msgstr "Taille de noyau pour l'affinage de l'empilement live"
 
 #. i18n: ectx: label, entry (fitsLSSharpenSigma), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1845
 #, kde-format
 msgid "Live Stacking sharpening sigma"
-msgstr ""
+msgstr "Sigma d'affinage pour l'empilement live"
 
 #. i18n: ectx: label, entry (BortleClass), group (WISettings)
 #. +> trunk5
@@ -79473,10 +79504,10 @@ msgstr "Ouvrir une(des) image(s)…"
 
 #. +> trunk5
 #: kstarsinit.cpp:164
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 is tracking."
 msgid "Live Stacking..."
-msgstr "%1 est en cours de suivi."
+msgstr "Empilement live…"
 
 #. +> trunk5
 #: kstarsinit.cpp:170
