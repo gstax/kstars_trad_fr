@@ -21,11 +21,11 @@
 # Steve <stax@ik.me>, 2022, 2023, 2024, 2025, 2026.
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_3.8.0\n"
+"Project-Id-Version: kstars_3.8.2\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-05 09:29+0200\n"
-"PO-Revision-Date: 2026-03-08 11:55+0100\n"
-"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"PO-Revision-Date: 2026-04-10 09:43+0200\n"
+"Last-Translator: Stax <stax@ik.me>\n"
 "Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -7148,7 +7148,7 @@ msgstr "Image reçue."
 
 #. +> trunk5
 #: ekos/align/align.cpp:1960
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "No index files were found on your system in the specified index file directories.  Please download some index files or add the correct directory to the list."
 msgid "No index files were found on your system in the specified index file directories.Please download some index files or add the correct directory to the list."
 msgstr "Aucun fichier d'index n'a été trouvé sur votre système dans les dossier spécifiés. Veuillez télécharger quelques fichiers d'index ou ajouter un dossier correct à la liste."
@@ -7234,10 +7234,10 @@ msgstr "La cible se trouve à %1 degrés des coordonnées de la solution."
 #. i18n("Camera offset angle is %1 degrees.", OffsetAngle));
 #. +> trunk5
 #: ekos/align/align.cpp:2342
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Camera position angle is %1 degrees."
 msgid "Camera position angle is %1 degrees."
-msgstr "L'angle de position de l'appareil est de %1 degrés…"
+msgstr "L'angle de position de l'appareil est de %1 degrés."
 
 #. +> trunk5
 #: ekos/align/align.cpp:2378 ekos/align/align.cpp:2518
@@ -7301,14 +7301,14 @@ msgstr "Veuillez vérifier que vous avez suffisamment d'étoiles dans l'image, q
 
 #. +> trunk5
 #: ekos/align/align.cpp:2619
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Setting camera position angle to %1 degrees ..."
 msgid "Setting camera position angle to %1 degrees ..."
-msgstr "Définition de l'angle de position de %1 degrés…"
+msgstr "Définition de l'angle de position à %1 degrés…"
 
 #. +> trunk5
 #: ekos/align/align.cpp:2629
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Camera position angle is within acceptable range."
 msgid "Camera position angle is within acceptable range."
 msgstr "L'angle de position de l'appareil se trouve dans une plage acceptable."
@@ -7450,17 +7450,17 @@ msgstr "Charger une image"
 
 #. +> trunk5
 #: ekos/align/align.cpp:3427
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "World Coordinate System (WCS) is enabled."
 msgid "World Coordinate System (WCS) is enabled."
 msgstr "Le système WCS est activé."
 
 #. +> trunk5
 #: ekos/align/align.cpp:3432
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "World Coordinate System (WCS) is disabled."
 msgid "%1: World Coordinate System (WCS) is disabled."
-msgstr "Le système WCS est désactivé."
+msgstr "% : le système WCS est désactivé."
 
 #. +> trunk5
 #: ekos/align/align.cpp:3451
@@ -9048,15 +9048,15 @@ msgstr "Conserver l'angle de position"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBoxAutoPAC)
 #. +> trunk5
 #: ekos/align/opsalign.ui:379
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Polar Alignment"
 msgid "Automatic Polar Alignment"
-msgstr "Alignement polaire"
+msgstr "Alignement polaire automatique"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_PAHAutoPACCorrection)
 #. +> trunk5
 #: ekos/align/opsalign.ui:397
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>When enabled and a PAC (Polar Alignment Corrector) device is connected, the system will automatically send correction commands to the PAC during the refresh phase instead of requiring manual knob adjustments.</p>"
@@ -9069,54 +9069,54 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PAHAutoPACCorrection)
 #. +> trunk5
 #: ekos/align/opsalign.ui:400
-#, fuzzy, kde-format
+#, kde-format
 msgid "Enable Automatic PAC Correction"
 msgstr "Activer la correction automatique PAC"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSuccessThreshold)
 #. +> trunk5
 #: ekos/align/opsalign.ui:407
-#, fuzzy, kde-format
+#, kde-format
 msgid "If the total polar alignment error drops to or below this threshold, the alignment is considered successful and the process stops."
 msgstr "Si l'erreur totale d'alignement polaire tombe à ce seuil ou en dessous, l'alignement est considéré comme réussi et le processus s'arrête."
 
 #. i18n: ectx: property (text), widget (QLabel, labelSuccessThreshold)
 #. +> trunk5
 #: ekos/align/opsalign.ui:410
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Threshold:"
 msgid "Success Threshold:"
-msgstr "Seuil"
+msgstr "Seuil de réussite :"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, kcfg_PAHSuccessThreshold)
 #. +> trunk5
 #: ekos/align/opsalign.ui:417
-#, fuzzy, kde-format
+#, kde-format
 msgid "Polar alignment success threshold in arcminutes. If the total error is at or below this value, alignment is considered successful."
 msgstr "Seuil de réussite de l'alignement polaire en minutes d'arc. Si l'erreur totale est égale ou inférieure à cette valeur, l'alignement est considéré comme réussi."
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelCorrectionTimeout)
 #. +> trunk5
 #: ekos/align/opsalign.ui:443
-#, fuzzy, kde-format
+#, kde-format
 msgid "If the system cannot reach the desired threshold within this period, it aborts the automatic correction."
 msgstr "Si le système ne peut pas atteindre le seuil souhaité dans ce délai, il arrête la correction automatique."
 
 #. i18n: ectx: property (text), widget (QLabel, labelCorrectionTimeout)
 #. +> trunk5
 #: ekos/align/opsalign.ui:446
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Motion Timeout:"
 msgid "Correction Timeout:"
-msgstr "Délai de déplacement dépassé"
+msgstr "Délai de correction :"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_PAHCorrectionTimeout)
 #. +> trunk5
 #: ekos/align/opsalign.ui:453
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Timeout in seconds to wait for astrometry solver to complete."
 msgid "Timeout in seconds for automatic polar alignment correction."
-msgstr "Durée maximal en secondes d'attente pour que le résolveur d'astrométrie se termine."
+msgstr "Durée maximal en secondes d'attente pour la correction de l'alignement polaire."
 
 #. i18n: ectx: property (text), widget (QLabel, labelCorrectionTimeoutUnit)
 #. i18n: ectx: property (text), widget (QLabel, secLabel)
@@ -9860,7 +9860,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, openIndexFileDirectory)
 #. +> trunk5
 #: ekos/align/opsastrometryindexfiles.ui:276
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Open"
 msgctxt "opens astrometry index file directory"
 msgid "Open"
@@ -11235,47 +11235,47 @@ msgstr "Impossible de passer à l'algorithme MoveStar une fois que l'actualisati
 
 #. +> trunk5
 #: ekos/align/polaralignmentassistant.cpp:1331
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Job '%1' alignment is complete."
 msgid "PAC: Polar Alignment Corrector connected."
-msgstr "La tâche %1 d'alignement est terminée."
+msgstr "PAC : correction de l'alignement polaire connectée."
 
 #. +> trunk5
 #: ekos/align/polaralignmentassistant.cpp:1344
-#, fuzzy, kde-format
+#, kde-format
 msgid "PAC: Correction in progress – adjusting azimuth and altitude axes..."
-msgstr "PAC : Correction en cours – ajustement des axes d'azimut et d'altitude..."
+msgstr "PAC : correction en cours – ajustement des axes d'azimut et d'altitude…"
 
 #. +> trunk5
 #: ekos/align/polaralignmentassistant.cpp:1349
-#, fuzzy, kde-format
+#, kde-format
 msgid "PAC: Correction applied. Capturing next image to verify alignment..."
-msgstr "PAC : Correction appliquée. Capturer la prochaine image pour vérifier l'alignement..."
+msgstr "PAC : correction appliquée. Capturer la prochaine image pour vérifier l'alignement…"
 
 #. +> trunk5
 #: ekos/align/polaralignmentassistant.cpp:1355
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Mount rotation direction during polar alignment."
 msgid "PAC: Correction failed. Stopping polar alignment."
-msgstr "Direction de la rotation de la monture pendant l'alignement polaire."
+msgstr "PAC : correction échouée. Arrêt de l'alignement polaire"
 
 #. +> trunk5
 #: ekos/align/polaralignmentassistant.cpp:1386
-#, fuzzy, kde-format
+#, kde-format
 msgid "PAC: Polar alignment successful! Total error %1' is within threshold %2'."
-msgstr "PAC : Alignement polaire réussi ! L'erreur totale %1' est dans le seuil %2'."
+msgstr "PAC : alignement polaire réussi ! L'erreur totale %1' est dans le seuil %2'."
 
 #. +> trunk5
 #: ekos/align/polaralignmentassistant.cpp:1397
-#, fuzzy, kde-format
+#, kde-format
 msgid "PAC: Correction timeout (%1s) reached. Total error is %2'. Stopping."
-msgstr "PAC : Délai de correction (%1s) atteint. L'erreur totale est de %2'. Arrêt."
+msgstr "PAC : délai de correction (%1s) atteint. L'erreur totale est de %2'. Arrêt."
 
 #. +> trunk5
 #: ekos/align/polaralignmentassistant.cpp:1406
-#, fuzzy, kde-format
+#, kde-format
 msgid "PAC: Commanding corrector – Az: %1'  Alt: %2'  Total: %3'"
-msgstr "PAC : Correcteur commandant – Az : %1'  Alt : %2'  Total : %3'"
+msgstr "PAC : correcteur commandant – Az : %1'  Alt : %2'  Total : %3'"
 
 #. i18n: ectx: property (toolTip), widget (QStackedWidget, PAHWidgets)
 #. +> trunk5
@@ -16253,7 +16253,7 @@ msgstr "Réinitialiser les paramètres de taille CCD à leurs valeurs par défau
 #. i18n: ectx: property (title), widget (QGroupBox, CaptureSettingsGroup)
 #. +> trunk5
 #: ekos/capture/camera.ui:258
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Capture Settings"
 msgctxt "camera capture settings section title"
 msgid "Capture Settings"
@@ -19805,31 +19805,31 @@ msgstr "Parcage du dôme avant acquisition des poses de calibration…"
 
 #. +> trunk5
 #: ekos/capture/sequencejobstate.cpp:978
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Turn light box light on..."
 msgid "Light box light turned on."
-msgstr "Allumer la boite à flat…"
+msgstr "La boite à flat est allumée."
 
 #. +> trunk5
 #: ekos/capture/sequencejobstate.cpp:981
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Turn light box light off..."
 msgid "Light box light turned off."
-msgstr "Éteindre la boite à flat…"
+msgstr "La boite à flat est éteinte."
 
 #. +> trunk5
 #: ekos/capture/sequencejobstate.cpp:984
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Light box on."
 msgid "Light box busy."
-msgstr "Boîte à flat allumée."
+msgstr "La boîte à flat est occupée."
 
 #. +> trunk5
 #: ekos/capture/sequencejobstate.cpp:987
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Light box on."
 msgid "Light box error."
-msgstr "Boîte à flat allumée."
+msgstr "La boîte à flat a échoué."
 
 #. +> trunk5
 #: ekos/capture/sequencejobstate.cpp:1011
@@ -24573,17 +24573,17 @@ msgstr "La connexion à l'appareil de guidage est perdue."
 
 #. +> trunk5
 #: ekos/guide/guide.cpp:904
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Video Recording Started"
 msgid "Guide streaming started."
-msgstr "Démarrage de l'enregistrement vidéo"
+msgstr "Démarrage de l'enregistrement du guide."
 
 #. +> trunk5
 #: ekos/guide/guide.cpp:924
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Framing stopped"
 msgid "Guide streaming stopped."
-msgstr "Acquisition arrêtée"
+msgstr "Arrêt de l'enregistrement du guide."
 
 #. +> trunk5
 #: ekos/guide/guide.cpp:1072
@@ -24882,7 +24882,7 @@ msgstr "Effacer les données de calibration."
 #. i18n: ectx: property (toolTip), widget (QCheckBox, guideStreamingEnabled)
 #. +> trunk5
 #: ekos/guide/guide.ui:239
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>Enable streaming guide mode. When checked and the camera supports video streaming, the guide module captures frames via a continuous video stream instead of individual exposures. This significantly reduces per-frame overhead and enables higher guiding frequencies (e.g. 2–5 Hz) required by harmonic drives. Not compatible with dark-frame subtraction.</p>"
@@ -24895,11 +24895,11 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, guideStreamingEnabled)
 #. +> trunk5
 #: ekos/guide/guide.ui:242
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Stream On"
 msgid "Stream"
-msgstr "Transmission connectée"
+msgstr "Stream"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, manualDitherB)
 #. +> trunk5
@@ -25755,7 +25755,7 @@ msgstr "Calibration du guidage restaurée."
 
 #. +> trunk5
 #: ekos/guide/internalguide/internalguider.cpp:757
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Lost track of the guide star. Try increasing the square size or reducing pulse duration."
 msgid "Lost track of the guide star. Try increasing binning, square size or reducing pulse duration."
 msgstr "Étoile guide perdue. Essayez d’augmenter la taille du carré ou de réduire la durée des impulsions."
@@ -26019,7 +26019,7 @@ msgstr "Suppression du jeu DEC dans la calibration du guide"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ResetGuideCalibration)
 #. +> trunk5
 #: ekos/guide/opscalibration.ui:379
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>If checked,  always re-calibrate when guiding is started. This is often not necessary when a good quality calibration has previously been done and the guide camera has not been rotated or re-installed.</p>"
@@ -26036,7 +26036,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ResetGuideCalibration)
 #. +> trunk5
 #: ekos/guide/opscalibration.ui:385
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Reset Guide Calibration After Each Mount Slew"
 msgid "Reset Guide Calibration After Each Mount Slew"
 msgstr "Réinitialiser la calibration du guide après chaque pointage"
@@ -26044,7 +26044,7 @@ msgstr "Réinitialiser la calibration du guide après chaque pointage"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ReuseGuideCalibration)
 #. +> trunk5
 #: ekos/guide/opscalibration.ui:392
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Store and attempt to reuse calibrations. This only works on opposite sides of the meridian if the pier-side can be automatically determined from your mount. The \"Reset Guide on Slew\" option above must be unchecked for this to be attempted.</p>"
@@ -26055,13 +26055,13 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Enregistrer les calibrations et tenter de les réutiliser. Cela ne fonctionne de part et d’autre du méridien que si le côté du pilier peut être déterminé automatiquement à partir de votre monture. Pour que cela soit tenté, l’option «&nbsp;Réinitialiser le guidage lors d’un déplacement&nbsp;» ci-dessus doit être décochée.</p>"
+"<p>Enregistrer les calibrations et tenter de les réutiliser. Cela ne fonctionne de part et d’autre du méridien que si le côté du pied peut être déterminé automatiquement à partir de votre monture. Pour que cela soit tenté, l’option «&nbsp;Réinitialiser le guidage lors d’un déplacement&nbsp;» ci-dessus doit être décochée.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ReuseGuideCalibration)
 #. +> trunk5
 #: ekos/guide/opscalibration.ui:398
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Store and reuse guide calibration when possible."
 msgid "Store and reuse guide calibration when possible."
 msgstr "Enregistrer et réutiliser la calibration si possible."
@@ -26082,10 +26082,10 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ReverseDecOnPierSideChange)
 #. +> trunk5
 #: ekos/guide/opscalibration.ui:411
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Reverse DEC on pier-side change when reusing calibration."
 msgid "Reverse DEC guide pulses when changing pier-side and reusing calibration."
-msgstr "Inverser DEC si modification du côté du pied lors de la réutilisation d'une calibration"
+msgstr "Inverser les pulsations de la DEC du guide lors d'un changement de côté du pied et réutilisation de la calibration."
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, kcfg_DitherPixels)
 #. +> trunk5
@@ -27243,10 +27243,10 @@ msgstr "Extension %1 : %2"
 
 #. +> trunk5
 #: ekos/manager.cpp:940
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Starting profile on remote INDI Web Manager..."
 msgid "Imported profile '%1' from INDI Web Manager."
-msgstr "Démarrage d'un profil sur le gestionnaire Internet d'un serveur distant INDI…"
+msgstr "Profil %1 importé du gestionnaire Web d'INDI."
 
 #. +> trunk5
 #: ekos/manager.cpp:1094
@@ -27520,10 +27520,10 @@ msgstr "Le module GPS du périphérique %1 est connecté."
 
 #. +> trunk5
 #: ekos/manager.cpp:2036
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 GPS is online."
 msgid "%1 PAC is online."
-msgstr "Le module GPS du périphérique %1 est connecté."
+msgstr "PAC %1 est en ligne."
 
 #. +> trunk5
 #: ekos/manager.cpp:2045
@@ -28633,7 +28633,7 @@ msgstr "L'obturateur est en cours d'ouverture…"
 
 #. +> trunk5
 #: ekos/observatory/observatory.cpp:460 ekos/observatory/observatory.cpp:464
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Open"
 msgctxt "Shutter action"
 msgid "Open"
@@ -28653,7 +28653,7 @@ msgstr "L'obturateur est en cours de fermeture…"
 
 #. +> trunk5
 #: ekos/observatory/observatory.cpp:581
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Open"
 msgctxt "Rolloff roof action"
 msgid "Open"
@@ -28874,7 +28874,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, shutterOpen)
 #. +> trunk5
 #: ekos/observatory/observatory.ui:673
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Open"
 msgctxt "opens dome shutter"
 msgid "Open"
@@ -31598,10 +31598,10 @@ msgstr "Période de sécurité météo"
 #. i18n: ectx: label, entry (SchedulerWeatherGracePeriod), group (Scheduler)
 #. +> trunk5
 #: ekos/scheduler/opsweathersettings.ui:55 kstars.kcfg:3555
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Wait this many minutes for the weather to improve before giving up."
 msgid "Wait this many minutes for the weather to improve before giving up. Set to 0 to wait indefinitely (scheduler keeps monitoring until weather improves)."
-msgstr "Attendre ce nombre de minutes que la météo ne s'améliore avant de renoncer."
+msgstr "Attendre ce nombre de minutes que la météo ne s'améliore avant de renoncer. Régler à 0 pour attendre indéfiniment (la surveillance continue jusqu'à ce que les conditions s'améliorent)."
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #. +> trunk5
@@ -32868,9 +32868,9 @@ msgstr "La météo s’est améliorée pendant la période de grâce. Reprise de
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:545
-#, fuzzy, kde-format
+#, kde-format
 msgid "Weather grace period is set to indefinite wait. Weather is still not OK, continuing to monitor..."
-msgstr "La période de grâce météorologique est définie sur attente indéfinie. La météo n'est toujours pas OK, surveillance en cours..."
+msgstr "La période de grâce météorologique est définie sur attente indéfinie. La météo n'est toujours pas OK, surveillance en cours…"
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:558
@@ -32893,10 +32893,10 @@ msgstr "L'ordonnanceur est activé."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:623
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Reset job status"
 msgid "Resetting startup state."
-msgstr "Réinitialiser l'état des tâches"
+msgstr "Réinitialisation de l'état des tâches."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:655
@@ -32906,10 +32906,10 @@ msgstr "Exécution des tâches de post-démarrage depuis %1 après rétablisseme
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:662
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Executing post-startup tasks from %1 after safety recovery..."
 msgid "Post-startup queue empty or unloadable after safety recovery."
-msgstr "Exécution des tâches de post-démarrage depuis %1 après rétablissement des conditions de sécurité…"
+msgstr "La file d'attente post-démarrage est vide ou non-déchargeable après rétablissement des conditions de sécurité."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:676
@@ -33238,10 +33238,10 @@ msgstr "Échec du chargement de la file d’attente pré-arrêt depuis %1"
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:2115
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Post-shutdown queue is empty, shutdown complete."
 msgid "No pre-shutdown tasks during weather grace period; soft shutdown complete."
-msgstr "La file d’attente de post-arrêt est vide ; arrêt terminé."
+msgstr "Pas de tâche post-arrêt durant la période de grâce de la météo ; arrêt terminé."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:2126
@@ -33421,9 +33421,9 @@ msgstr "Échec de la file d’attente post-arrêt : %1"
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:3387
-#, fuzzy, kde-format
+#, kde-format
 msgid "Warning: task failed during job '%1': %2. Marking job aborted."
-msgstr "Avertissement : la tâche a échoué pendant le travail '%1' : %2. Marquage du travail comme interrompu."
+msgstr "Avertissement : la tâche a échoué pendant le travail %1 : %2. Marquage du travail comme interrompu."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:3453
@@ -33622,10 +33622,10 @@ msgstr "Alerte de sécurité détectée. Début de la procédure d’arrêt prog
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:4133
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Observatory scheduled for soft shutdown until safety improves or until %1."
 msgid "Observatory scheduled for soft shutdown. Monitoring weather indefinitely until safety improves."
-msgstr "Observatoire programmé pour un arrêt progressif jusqu’à amélioration de la sécurité ou jusqu’à %1."
+msgstr "Observatoire programmé pour un arrêt doux. La météo est surveillée indéfiniment jusqu'à ce que la sécurité s'améliore."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:4135
@@ -33665,28 +33665,33 @@ msgstr "Surveillance de la sécurité initialisée avec la chaîne de connexion 
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:4758
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Enable startup queue execution"
 msgid "Unknown error occurred during startup queue execution."
-msgstr "Activer l’exécution de la file d’attente de démarrage"
+msgstr "Une erreur inconnue s'est produite durant l'exécution de la file d'attente de démarrage."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:4761
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Startup queue failed: %1"
 msgid "Startup Queue Failed"
-msgstr "Échec de la file d’attente de démarrage : %1"
+msgstr "Échec de la file d’attente de démarrage"
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:4762
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "The scheduler startup queue has failed:\n"
 "\n"
 "%1\n"
 "\n"
 "The scheduler has been stopped. Please check the log for details and correct the issue before restarting."
-msgstr "Le planificateur a été arrêté. Veuillez vérifier le journal pour plus de détails et corriger le problème avant de redémarrer."
+msgstr ""
+"La file d'attente de démarrage de l'ordonnanceur s'est arrêtée. Veuillez consulter les journaux pour les détails et corriger le problème avant de recommencer."
+"\n"
+"%1\n"
+"\n"
+"Le planificateur a été arrêté. Veuillez vérifier le journal pour plus de détails et corriger le problème avant de redémarrer."
 
 #. +> trunk5
 #: ekos/scheduler/schedulersafetymonitor.cpp:65
@@ -34482,10 +34487,10 @@ msgstr "Pause"
 
 #. +> trunk5
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:102
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Progress"
 msgid "Reset Progress"
-msgstr "Progression"
+msgstr "Réinitialiser la progression"
 
 #. +> trunk5
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:118
@@ -34548,7 +34553,7 @@ msgstr "Échec du démarrage de l'exécution de la file d'attente. Vérifiez que
 
 #. +> trunk5
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:341
-#, fuzzy, kde-format
+#, kde-format
 msgid "Queue reset - all tasks set to pending"
 msgstr "Réinitialisation de la file d'attente - toutes les tâches sont définies comme en attente"
 
@@ -35802,7 +35807,7 @@ msgstr ""
 
 #. +> trunk5
 #: fitsviewer/fitsstackmonitor.h:220
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Stack monitor overall status help"
 #| msgid ""
 #| "%1 \n"
@@ -35836,6 +35841,7 @@ msgstr ""
 "%7\n"
 "%8\n"
 "%9"
+"%10"
 
 #. +> trunk5
 #: fitsviewer/fitsstackmonitor.h:240
@@ -36273,66 +36279,66 @@ msgstr "Poids utilisé pour l'empilement"
 
 #. +> trunk5
 #: fitsviewer/fitsstackwebcast.cpp:34
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Live Stacker own process"
 msgid "LiveStack Webcast Controller"
-msgstr "Processus propre à l'empilement en direct"
+msgstr "Contrôleur Webcast propre à l'empilement en direct"
 
 #. +> trunk5
 #: fitsviewer/fitsstackwebcast.cpp:48
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Select Star"
 msgid "Select LHS Logo"
-msgstr "Sélectionner une étoile"
+msgstr "Sélectionner le logo LHS"
 
 #. +> trunk5
 #: fitsviewer/fitsstackwebcast.cpp:58
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Select Star"
 msgid "Select RHS Logo"
-msgstr "Sélectionner une étoile"
+msgstr "Sélectionner le logo RHS"
 
 #. +> trunk5
 #: fitsviewer/fitsstackwebcast.cpp:81
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Failed to start guider."
 msgid "Failed to start: Port %1 may be in use."
-msgstr "Impossible de démarrer le guidage."
+msgstr "Impossible de démarrer : le port %1 est peut-être utilisé."
 
 #. +> trunk5
 #: fitsviewer/fitsstackwebcast.cpp:385
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Solving..."
 msgid "Resolving..."
 msgstr "Résolution…"
 
 #. +> trunk5
 #: fitsviewer/fitsstackwebcast.cpp:389 fitsviewer/fitsstackwebcast.cpp:1294
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Unknown Type"
 msgid "Unknown Device"
-msgstr "Type inconnu"
+msgstr "Périphérique inconnu"
 
 #. +> trunk5
 #: fitsviewer/fitsstackwebcast.cpp:443
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Stopped"
 msgid "Webcast Stopped"
-msgstr "Arrêté"
+msgstr "Webcast arrêté"
 
 #. +> trunk5
 #: fitsviewer/fitsstackwebcast.cpp:508
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Unknown"
 msgid "Unknown OS"
-msgstr "Inconnu"
+msgstr "OS inconnu"
 
 #. +> trunk5
 #: fitsviewer/fitsstackwebcast.cpp:509
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Unknown error"
 msgid "Unknown Browser"
-msgstr "Erreur inconnue"
+msgstr "Navigateur inconnu"
 
 #. +> trunk5
 #: fitsviewer/fitsstretchui.cpp:242
@@ -37577,7 +37583,7 @@ msgstr "Dossier luminance"
 #. i18n: ectx: property (toolTip), widget (QToolButton, WebcastB)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:924
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Sharpen sigma.</p>"
@@ -37588,7 +37594,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Sigma affiné.</p>"
+"<p>Démarrer/Arrêter l'empilement en direct des images</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QToolButton, WebcastB)
@@ -38006,7 +38012,7 @@ msgstr "Alpha"
 #. i18n: ectx: property (toolTip), widget (QComboBox, Normalization)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:1668 fitsviewer/livestacking.ui:1693
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>Normalize images before stacking:</p>"
@@ -38015,18 +38021,18 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Normaliser les images avant l'empilement :</p>"
+"<p>Normaliser les images avant l'empilement :</p>"
 "<p>- Aucune. Pas de normalisation.</p>"
-"<p>- Linéaire. Normaliser chaque image sous-jacente à la luminosité du maître d'alignement avant l'empilement. De plus, les bords de l'image sont normalisés pour maintenir une luminosité appropriée.</p>"
+"<p>- Linéaire. Normaliser chaque pose sous-jacente à la luminosité du maître d'alignement avant l'empilement. De plus, les bords de l'image sont normalisés pour maintenir une luminosité appropriée.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, NormalizationLabel)
 #. +> trunk5
 #: fitsviewer/livestacking.ui:1671
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Information"
 msgid "Normalization:"
-msgstr "Informations"
+msgstr "Normalisation :"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, StackingMinimized)
 #. +> trunk5
@@ -38484,7 +38490,7 @@ msgstr " Highlighting"
 #. i18n: ectx: property (windowTitle), widget (QWidget, FitsStackWebcast)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:14
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "KStars Live Stacker"
 msgid "KStars Live Stacker Webcast"
 msgstr "Empilement en direct de KStars"
@@ -38492,7 +38498,7 @@ msgstr "Empilement en direct de KStars"
 #. i18n: ectx: property (toolTip), widget (QToolButton, logoRBtn)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:20
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Left-to-Right Tilt Slider</p>"
@@ -38503,13 +38509,13 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Curseur de défilement de l'inclinaison gauche-droite</p>"
+"<p>Choix du fichier logo droite</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, qrLabel)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:39
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Scale the value axis to the current value range.</p>"
@@ -38520,13 +38526,13 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Définir l'axe des valeurs comme l'intervalle courant de valeurs.</p>"
+"<p>Démarrer le Webcast pour afficher le code QR ici</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, logoLBtn)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:55
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Step size:</p>"
@@ -38537,14 +38543,14 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Taille de pas</p>"
+"<p>Choix du fichier logo gauche.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, throttle)
 #. i18n: ectx: property (toolTip), widget (QLabel, throttleLabel)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:68 fitsviewer/livestackwebcast.ui:290
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>Throttle updates to conserve CPU and network bandwidth. Set the number of seconds per update. More frequent updates are discarded. Set 0 for no throttle.</p>"
@@ -38558,7 +38564,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QSpinBox, port)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:90 fitsviewer/livestackwebcast.ui:128
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>Port to use for the webcast. Usually 8080 will be fine unless you have something else using this port in which case pick 8081, etc.</p>"
@@ -38571,7 +38577,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, logoLLabel)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:109
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Zoom out for the X-Axis.</p>"
@@ -38582,20 +38588,20 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Zoom arrière sur l'axe des X.</p>"
+"<p>Logo gauche pour l'événement Webcast.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, logoLLabel)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:112
-#, fuzzy, kde-format
+#, kde-format
 msgid "Logo L:"
-msgstr "Logo L:"
+msgstr "Logo G :"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, startBtn)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:155
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Step size:</p>"
@@ -38606,21 +38612,21 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Taille de pas</p>"
+"<p>Démarrer le Webcast</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, startBtn)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:158
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Start Scan"
 msgid "Start Webcast"
-msgstr "Démarrer le balayage"
+msgstr "Démarrer le Webcast"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, stopBtn)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:171
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Step size:</p>"
@@ -38631,21 +38637,21 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Taille de pas</p>"
+"<p>Arrêter le Webcast</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, stopBtn)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:174
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Stop capturing"
 msgid "Stop Webcast"
-msgstr "Arrêt de l'acquisition"
+msgstr "Arrêt du Webcast"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, resetBtn)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:187
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Step size:</p>"
@@ -38656,13 +38662,13 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Taille de pas</p>"
+"<p>Réinitialiser le Webcast</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, subscribersBtn)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:203
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Check to display the Petzval surface.</p>"
@@ -38673,27 +38679,27 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Cochez pour afficher la surface de Petzval.</p>"
+"<p>Afficher les abonnés au Webcast</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, subscribersBtn)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:206
-#, fuzzy, kde-format
+#, kde-format
 msgid "Subscribers"
 msgstr "Abonnés"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, logoRPathDisplay)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:222
-#, fuzzy, kde-format
+#, kde-format
 msgid "Logo (Right) for the webcast event."
 msgstr "Logo (à droite) pour l'événement webdiffusé."
 
 #. i18n: ectx: property (toolTip), widget (QLabel, titleLabel)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:235
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Zoom in for the X-Axis.</p>"
@@ -38704,7 +38710,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Zoom avant sur l'axe des X.</p>"
+"<p>Titre de l'événement Webcast</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
@@ -38717,7 +38723,7 @@ msgstr "Titre :"
 #. i18n: ectx: property (toolTip), widget (QLabel, urlLabel)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:254
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Scale the value axis to the current value range.</p>"
@@ -38728,43 +38734,43 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Définir l'axe des valeurs comme l'intervalle courant de valeurs.</p>"
+"<p>Démarrer le Webcast pour afficher l'URL et le port ici.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, logoLPathDisplay)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:273
-#, fuzzy, kde-format
+#, kde-format
 msgid "Logo (Left) for the webcast event."
 msgstr "Logo (à gauche) pour l'événement webdiffusé."
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, titleEntry)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:280
-#, fuzzy, kde-format
+#, kde-format
 msgid "Title for the webcast event."
-msgstr "Titre pour l'événement en webcast."
+msgstr "Titre pour l'événement Webcast."
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, titleEntry)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:283
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Live Stacker own process"
 msgid "My LiveStacker Webcast"
-msgstr "Processus propre à l'empilement en direct"
+msgstr "Mon Webcast pour l'empilement en direct"
 
 #. i18n: ectx: property (text), widget (QLabel, throttleLabel)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:293
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Comets Update"
 msgid "Throttle Updates:"
-msgstr "Mise à jour des comètes"
+msgstr "Mise à jour de la limitation de vitesse"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, logoRLabel)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:303
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body>"
 #| "<p>Zoom in for the X-Axis.</p>"
@@ -38775,33 +38781,33 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>Zoom avant sur l'axe des X.</p>"
+"<p>Logo (droite) de l'événement Webcast.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, logoRLabel)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:306
-#, fuzzy, kde-format
+#, kde-format
 msgid "Logo R:"
-msgstr "Logo R:"
+msgstr "Logo R :"
 
 #. i18n: ectx: property (text), widget (QTableWidget, subscribersTable)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:362
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Constellation name (optional)"
 #| msgid "WHIP"
 msgid "IP"
-msgstr "Fouet"
+msgstr "IP"
 
 #. i18n: ectx: property (text), widget (QTableWidget, subscribersTable)
 #. +> trunk5
 #: fitsviewer/livestackwebcast.ui:377
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Activate"
 msgid "Activity"
-msgstr "Activer"
+msgstr "Activité"
 
 #. +> trunk5
 #: fitsviewer/opsfits.cpp:111
@@ -40675,31 +40681,31 @@ msgstr "Mouvement du télescope"
 
 #. +> trunk5
 #: indi/indipac.cpp:17
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Connection"
 msgid "Correcting"
-msgstr "Connexion"
+msgstr "En cours de correction"
 
 #. +> trunk5
 #: indi/indipac.cpp:17
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Connected"
 msgid "Corrected"
-msgstr "Connecté"
+msgstr "Corrigé"
 
 #. +> trunk5
 #: indi/indipac.cpp:66
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Job '%1' alignment is complete."
 msgid "Polar alignment correction completed"
-msgstr "La tâche %1 d'alignement est terminée."
+msgstr "La correction de l'alignement polaire est terminée."
 
 #. +> trunk5
 #: indi/indipac.cpp:72
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Point calculation error."
 msgid "Polar alignment correction error"
-msgstr "Erreur lors du calcul sur le point."
+msgstr "Erreur de correction de l'alignement polaire."
 
 #. +> trunk5
 #: indi/indiproperty.cpp:223 tools/observinglist.cpp:101
@@ -44622,15 +44628,15 @@ msgstr "La niveau de saturation des couleurs des étoiles (seulement applicable 
 #. i18n: ectx: label, entry (DomeSlitInverted), group (Colors)
 #. +> trunk5
 #: kstars.kcfg:1170
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Mode for rendering stars"
 msgid "Mode for filling dome slit"
-msgstr "Mode de rendu des étoiles"
+msgstr "Mode de remplissage du dôme divisé"
 
 #. i18n: ectx: whatsthis, entry (DomeSlitInverted), group (Colors)
 #. +> trunk5
 #: kstars.kcfg:1171
-#, fuzzy, kde-format
+#, kde-format
 msgid "If disabled false dome slit is filled. If enabled true dome slit is open and the sky filled."
 msgstr "Si désactivé false la fente du dôme est remplie. Si activé true la fente du dôme est ouverte et le ciel rempli."
 
@@ -46267,10 +46273,10 @@ msgstr "Pondération des images de l'empilement live"
 #. i18n: ectx: whatsthis, entry (fitsLSNormalization), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1867
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Live Stacking Monitor"
 msgid "Live Stacking normalization"
-msgstr "Surveillance en direct de l'empilement"
+msgstr "Normalisation de l'empilement en direct"
 
 #. i18n: ectx: whatsthis, entry (fitsLSStackingMethod), group (FITSViewer)
 #. +> trunk5
@@ -46415,42 +46421,42 @@ msgstr "Mise en surbrillance de la surveillance de l’empilement en direct."
 #. i18n: ectx: label, entry (fitsLSWebcastTitle), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1957
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Live Stacking master flat"
 msgid "Live Stacking Webcast title"
-msgstr "Master flat de l'empilement live"
+msgstr "Titre du Webcast de l'empilement en direct"
 
 #. i18n: ectx: label, entry (fitsLSWebcastLogoL), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1961
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Live Stacking master flat"
 msgid "Live Stacking Webcast left logo pathname"
-msgstr "Master flat de l'empilement live"
+msgstr "Chemin du logo gauche du Webcast de l'empilement en direct"
 
 #. i18n: ectx: label, entry (fitsLSWebcastLogoR), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1965
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Live Stacking master flat"
 msgid "Live Stacking Webcast right logo pathname"
-msgstr "Master flat de l'empilement live"
+msgstr "Chemin du logo droite du Webcast de l'empilement en direct"
 
 #. i18n: ectx: label, entry (fitsLSWebcastPort), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1969
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Live Stacking master dark"
 msgid "Live Stacking Webcast port number"
-msgstr "Master dark de l'empilement live"
+msgstr "Numéro de port du Webcast de l'empilement en direct"
 
 #. i18n: ectx: label, entry (fitsLSWebcastThrottle), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1973
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Live Stacking sharpen amount"
 msgid "Live Stacking Webcast throttle in milliseconds"
-msgstr "Quantité d'affinage pour l'empilement live"
+msgstr "Limitation de vitesse en millisecondes du Webcast de l'empilement en direct"
 
 #. i18n: ectx: label, entry (BortleClass), group (WISettings)
 #. +> trunk5
@@ -46756,10 +46762,10 @@ msgstr "Multiplicateur pour l'angle de position"
 #. i18n: ectx: label, entry (PAOffset), group (Capture)
 #. +> trunk5
 #: kstars.kcfg:2172
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Position angle:"
 msgid "Position angle offset"
-msgstr "Angle de position :"
+msgstr "Décalage de l'angle de position"
 
 #. i18n: ectx: label, entry (PAPierSide), group (Capture)
 #. +> trunk5
@@ -48359,22 +48365,22 @@ msgstr "Durée d'exposition en secondes de l'assistant d'alignement polaire."
 #. i18n: ectx: label, entry (PAHAutoPACCorrection), group (Align)
 #. +> trunk5
 #: kstars.kcfg:3033
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Mount homing in progress"
 msgid "Enable automatic polar alignment correction using PAC device."
-msgstr "Retour à la position par défaut de la monture en cours"
+msgstr "Activer la correction automatique de l'alignement polaire en utilisation un périphérique PAC."
 
 #. i18n: ectx: label, entry (PAHSuccessThreshold), group (Align)
 #. +> trunk5
 #: kstars.kcfg:3037
-#, fuzzy, kde-format
+#, kde-format
 msgid "Polar alignment success threshold in arcminutes. If total error is at or below this value, alignment is considered successful."
 msgstr "Seuil de réussite de l'alignement polaire en minutes d'arc. Si l'erreur totale est égale ou inférieure à cette valeur, l'alignement est considéré comme réussi."
 
 #. i18n: ectx: label, entry (PAHCorrectionTimeout), group (Align)
 #. +> trunk5
 #: kstars.kcfg:3041
-#, fuzzy, kde-format
+#, kde-format
 msgid "Timeout in seconds for automatic polar alignment correction. If the system cannot reach the desired threshold within this period, it aborts."
 msgstr "Délai en secondes pour la correction automatique de l'alignement polaire. Si le système ne peut pas atteindre le seuil souhaité dans ce délai, il échoue."
 
@@ -89994,14 +90000,14 @@ msgstr "Calculatrice de la durée d'exposition des poses fondée sur le travail 
 
 #. +> trunk5
 #: main.cpp:221
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Projection"
 msgid "Project Nayuki"
-msgstr "Projection"
+msgstr "Project Nayuki"
 
 #. +> trunk5
 #: main.cpp:221
-#, fuzzy, kde-format
+#, kde-format
 msgid "QR Code generator library (MIT)"
 msgstr "Bibliothèque de générateur de code QR (MIT)"
 
@@ -91575,10 +91581,10 @@ msgstr "Lors de l'utilisation du mode de couleurs réalistes des étoiles, cette
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DomeSlitInverted)
 #. +> trunk5
 #: options/opscolors.ui:188
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Dome Slit"
 msgid "Dome Slit Inverted"
-msgstr "Fente du dôme"
+msgstr "Fente du dôme inversée"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #. +> trunk5
