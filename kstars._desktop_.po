@@ -11,14 +11,14 @@
 # Mickael Sibelle <kimael@gmail.com>, 2008.
 # Joëlle Cornavin <jcorn@free.fr>, 2012.
 # Vincent Pinon <vpinon@kde.org>, 2016.
-# Steve <stax@ik.me>, 2022
+# Steve <stax@ik.me>, 2022, 2026
 msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdeedu\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-10 02:43+0000\n"
-"PO-Revision-Date: 2024-04-29 14:37+0200\n"
-"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"PO-Revision-Date: 2026-04-13 07:09+0200\n"
+"Last-Translator: Steve <stax@ik.me>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -192,12 +192,11 @@ msgid "Scheduler Aborted"
 msgstr "Interruption de l'ordonnanceur"
 
 #: kstars/kstars.notifyrc:950
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Scheduler Aborted"
 msgctxt "Name"
 msgid "Scheduler Sleeping"
-msgstr "Interruption de l'ordonnanceur"
+msgstr "Ordonnanceur en veille"
 
 #: kstars/kstars.notifyrc:972
 msgctxt "Name"
@@ -438,23 +437,20 @@ msgid "Known Issue"
 msgstr "Problèmes connus"
 
 #: kstars/kstars.notifyrc:2138
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Mount Aborted"
 msgctxt "Name"
 msgid "Mount Homed"
-msgstr "Interruption de la monture"
+msgstr "Monture parquée"
 
 #: kstars/kstars.notifyrc:2153
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "CCD Capture completed successfully"
 msgctxt "Comment"
 msgid "Mount homed successfully"
-msgstr "Acquisition CCD terminée avec succès"
+msgstr "Monture parquée avec succès"
 
 #: kstars/kstars.notifyrc:2170
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Mount parking failed"
 msgctxt "Name"
@@ -462,7 +458,6 @@ msgid "Mount Homing Failed"
 msgstr "Échec du parcage de la monture"
 
 #: kstars/kstars.notifyrc:2185
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Mount parking failed"
 msgctxt "Comment"
@@ -470,7 +465,6 @@ msgid "Mount homing failed"
 msgstr "Échec du parcage de la monture"
 
 #: kstars/kstars.notifyrc:2202
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Mount Parking"
 msgctxt "Name"
@@ -478,7 +472,6 @@ msgid "Mount Homing"
 msgstr "Parcage de la monture"
 
 #: kstars/kstars.notifyrc:2217
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Mount parking is in progress"
 msgctxt "Comment"
