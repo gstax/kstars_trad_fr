@@ -7648,17 +7648,14 @@ msgid "The Mount Model Tool is Reset."
 msgstr "L'outil de modélisation du ciel est réinitialisé."
 
 #: ekos/align/mountmodel.cpp:1169
-#, fuzzy, kde-format
-#| msgid "Mount is parking. Aborting guide..."
+#, kde-format
 msgid "Mount unparked. Starting mount model..."
-msgstr "Parcage de la monture. Annulation du guidage en cours…"
+msgstr "Monture déparquée. Démarrage du modèle de monture…"
 
 #: ekos/align/mountmodel.cpp:1177
-#, fuzzy, kde-format
-#| msgid "Mount unpark requested but no mounts detected."
+#, kde-format
 msgid "Mount unpark failed. Cannot start mount model."
-msgstr ""
-"Le dé-parcage de la monture est demandé mais aucune monture n'est détectée."
+msgstr "Échec du déparquage de la monture. Impossible de démarrer le modèle de monture."
 
 #: ekos/align/mountmodel.cpp:1189
 #, kde-format
@@ -7666,10 +7663,9 @@ msgid "Please Check the Alignment Points."
 msgstr "Veuillez vérifier les points d'alignement."
 
 #: ekos/align/mountmodel.cpp:1197
-#, fuzzy, kde-format
-#| msgid "Dustcap is parked. Unparking before capture..."
+#, kde-format
 msgid "Mount is parked. Unparking before starting mount model..."
-msgstr "Le capuchon anti-poussière est ouvert. Déparquage avant acquisition..."
+msgstr "La monture est parquée. Déparquage avant le démarrage du modèle de monture…"
 
 #: ekos/align/mountmodel.cpp:1208
 #, kde-format
