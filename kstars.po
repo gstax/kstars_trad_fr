@@ -7899,21 +7899,15 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, artificialHorizonCheck)
 #: ekos/align/mountmodel.ui:223
-#, fuzzy, kde-format
-#| msgid ""
-#| "<html><body><p>The artificial horizon restriction constrains the altitude "
-#| "of the target to be above the artificial horizon, if any are defined and "
-#| "enabled. See the artificial horizon item in the KStars Settings menu.</"
-#| "p></body></html>"
+#, kde-format
 msgid ""
 "Skip generated points that are below the artificial horizon, if any are "
 "defined and enabled. See the artificial horizon item in the KStars Settings "
 "menu."
 msgstr ""
-"<html><body><p>La restriction à l'horizon artificiel contraint l'altitude de "
-"la cible à être supérieure à celui-ci, s'il a été défini et activé. Voir le "
-"paragraphe « Horizon artificiel » dans le menu de configuration de KStars.</"
-"p></body></html>"
+"Ignorer les points générés qui se trouvent en dessous de l'horizon "
+"artificiel, s'il en est défini et activé. Voir l'élément « Horizon "
+"artificiel » dans le menu des paramètres de KStars."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: ekos/align/mountmodel.ui:239
@@ -8464,36 +8458,29 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PAHAutoPACCorrection)
 #: ekos/align/opsalign.ui:400
-#, fuzzy, kde-format
-#| msgid "Enable Automatic PAC Correction"
+#, kde-format
 msgid "Automatic PAC Correction"
-msgstr "Activer la correction automatique PAC"
+msgstr "Correction PAC automatique"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_PAHAutoChangeDirection)
 #: ekos/align/opsalign.ui:407
-#, fuzzy, kde-format
-#| msgid ""
-#| "<html><head/><body><p>When enabled and a PAC (Polar Alignment Corrector) "
-#| "device is connected, the system will automatically send correction "
-#| "commands to the PAC during the refresh phase instead of requiring manual "
-#| "knob adjustments.</p></body></html>"
+#, kde-format
 msgid ""
 "<html><head/><body><p>When enabled, if the polar alignment error in an axis "
 "<b>increases</b> after the first PAC correction, the system will "
 "automatically reverse the correction direction for that axis on the next "
 "attempt.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Lorsqu'il est activé et qu'un appareil PAC (Correcteur "
-"d'Alignement Polaire) est connecté, le système enverra automatiquement des "
-"commandes de correction au PAC pendant la phase de rafraîchissement au lieu "
-"de nécessiter des réglages manuels du bouton.</p></body></html>"
+"<html><head/><body><p>Lorsqu'il est activé, si l'erreur d'alignement "
+"polaire sur un axe <b>augmente</b> après la première correction PAC, le "
+"système inversera automatiquement la direction de correction pour cet axe "
+"lors de la prochaine tentative.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PAHAutoChangeDirection)
 #: ekos/align/opsalign.ui:410
-#, fuzzy, kde-format
-#| msgid "Altitude Direction:"
+#, kde-format
 msgid "Auto Change Direction"
-msgstr "Altitude :"
+msgstr "Changement de direction automatique"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSuccessThreshold)
 #: ekos/align/opsalign.ui:417
@@ -25532,10 +25519,9 @@ msgid "Extension '%1': %2"
 msgstr "Extension %1 : %2"
 
 #: ekos/manager.cpp:655 ekos/opsekos.cpp:98
-#, fuzzy, kde-format
-#| msgid "Failed to start: Port %1 may be in use."
+#, kde-format
 msgid "Failed: port in use"
-msgstr "Impossible de démarrer : le port %1 est peut-être utilisé."
+msgstr "Échec : port déjà utilisé"
 
 #: ekos/manager.cpp:983
 #, kde-format
@@ -27235,25 +27221,22 @@ msgid "Set an alternate base directory for Analyze's captured images"
 msgstr "Définir un dossier racine alternatif pour les images du module Analyse"
 
 #: ekos/opsekos.cpp:123 ekos/opsekos.cpp:146
-#, fuzzy, kde-format
-#| msgid "Hide terrain"
+#, kde-format
 msgid "Hide token"
-msgstr "Masquer le terrain"
+msgstr "Masquer le jeton"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, mcpShowTokenButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, mcpShowROTokenButton)
 #: ekos/opsekos.cpp:123 ekos/opsekos.cpp:146 ekos/opsekos.ui:404
 #: ekos/opsekos.ui:480
-#, fuzzy, kde-format
-#| msgid "Show terrain"
+#, kde-format
 msgid "Show token"
-msgstr "Afficher le terrain"
+msgstr "Afficher le jeton"
 
 #: ekos/opsekos.cpp:189
-#, fuzzy, kde-format
-#| msgid "observing notes for %1:"
+#, kde-format
 msgid "Listening on port %1"
-msgstr "notes d'observation pour %1 :"
+msgstr "En écoute sur le port %1"
 
 #: ekos/opsekos.cpp:194
 #, kde-format
@@ -27366,11 +27349,9 @@ msgstr "Dossier alternatif pour les fichiers d'images"
 
 #. i18n: ectx: attribute (title), widget (QWidget, mcpTab)
 #: ekos/opsekos.ui:292
-#, fuzzy, kde-format
-#| msgctxt "North Celestial Pole"
-#| msgid "NCP"
+#, kde-format
 msgid "MCP"
-msgstr "NCP"
+msgstr "MCP"
 
 #. i18n: ectx: property (title), widget (QGroupBox, mcpGroupBox)
 #: ekos/opsekos.ui:313
@@ -27381,10 +27362,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_MCPEnabled)
 #. i18n: ectx: label, entry (MCPEnabled), group (MCP)
 #: ekos/opsekos.ui:319 kstars.kcfg:3947
-#, fuzzy, kde-format
-#| msgid "Manage Observers"
+#, kde-format
 msgid "Enable MCP server"
-msgstr "Gestion des observateurs"
+msgstr "Activer le serveur MCP"
 
 #. i18n: ectx: property (text), widget (QLabel, mcpPortLabel)
 #. i18n: ectx: property (text), widget (QLabel, INDIWebManagerPortLabel)
@@ -27404,10 +27384,9 @@ msgstr "Port"
 
 #. i18n: ectx: property (toolTip), widget (KLed, mcpStatusLed)
 #: ekos/opsekos.ui:357
-#, fuzzy, kde-format
-#| msgid "Observatory Status"
+#, kde-format
 msgid "MCP server status"
-msgstr "État de l'observatoire"
+msgstr "État du serveur MCP"
 
 #. i18n: ectx: property (text), widget (QLabel, mcpTokenLabel)
 #: ekos/opsekos.ui:381
@@ -27418,18 +27397,16 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QPushButton, mcpCopyTokenButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, mcpCopyROTokenButton)
 #: ekos/opsekos.ui:426 ekos/opsekos.ui:502
-#, fuzzy, kde-format
-#| msgid "Copy TLE to Clipboard"
+#, kde-format
 msgid "Copy token to clipboard"
-msgstr "Copier le « TLE » vers le presse-papier"
+msgstr "Copier le jeton dans le presse-papier"
 
 #. i18n: ectx: property (text), widget (QPushButton, mcpRegenTokenButton)
 #. i18n: ectx: property (text), widget (QPushButton, mcpRegenROTokenButton)
 #: ekos/opsekos.ui:439 ekos/opsekos.ui:515
-#, fuzzy, kde-format
-#| msgid "Generate"
+#, kde-format
 msgid "Regenerate"
-msgstr "Générer"
+msgstr "Régénérer"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_MCPReadOnlyMode)
 #: ekos/opsekos.ui:448
@@ -27810,16 +27787,13 @@ msgid ""
 msgstr ""
 
 #: ekos/profilescript.cpp:49
-#, fuzzy, kde-format
-#| msgid ""
-#| "Delay this many seconds after driver startup before executing post driver "
-#| "script."
+#, kde-format
 msgid ""
 "Wait this many seconds after the driver starts. The delay applies whether or "
 "not a post-startup script is set."
 msgstr ""
-"Attendre ce nombre de secondes après l'initialisation du pilote et avant "
-"l'exécution du script de post-initialisation du pilote."
+"Attendre ce nombre de secondes après le démarrage du pilote. Le délai "
+"s'applique qu'un script de post-démarrage soit défini ou non."
 
 #: ekos/profilescript.cpp:59
 #, kde-format
@@ -27829,16 +27803,13 @@ msgid ""
 msgstr ""
 
 #: ekos/profilescript.cpp:69
-#, fuzzy, kde-format
-#| msgid ""
-#| "Delay this many seconds after driver startup before executing post driver "
-#| "script."
+#, kde-format
 msgid ""
 "Wait this many seconds after the driver stops. The delay applies whether or "
 "not a post-shutdown script is set."
 msgstr ""
-"Attendre ce nombre de secondes après l'initialisation du pilote et avant "
-"l'exécution du script de post-initialisation du pilote."
+"Attendre ce nombre de secondes après l'arrêt du pilote. Le délai "
+"s'applique qu'un script de post-arrêt soit défini ou non."
 
 #: ekos/profilescript.cpp:79
 #, kde-format
@@ -31126,10 +31097,9 @@ msgid "No post-startup tasks, startup complete."
 msgstr "Aucune tâche post-démarrage, démarrage terminé."
 
 #: ekos/scheduler/schedulerprocess.cpp:2090
-#, fuzzy, kde-format
-#| msgid "Observatory is in the shutdown process"
+#, kde-format
 msgid "Observatory was not started, skipping shutdown procedure."
-msgstr "L'observatoire a lancé le processus d'arrêt"
+msgstr "L'observatoire n'a pas été démarré, la procédure d'arrêt est ignorée."
 
 #: ekos/scheduler/schedulerprocess.cpp:2103
 #, kde-format
@@ -35306,24 +35276,19 @@ msgstr " Sigma PSF"
 #. i18n: ectx: property (toolTip), widget (QSpinBox, GradientSpin)
 #: fitsviewer/livestacking.ui:1892 fitsviewer/livestacking.ui:2053
 #: fitsviewer/livestacking.ui:2187
-#, fuzzy, kde-format
-#| msgid ""
-#| "<html><head/><body><p>Amount of denoise to apply. Larger values apply "
-#| "more denoising.</p><p>Set to 0 to skip denoising</p></body></html>"
+#, kde-format
 msgid ""
 "<html><head/><body><p>Percentage of Gradient Removal to apply.</p><p>Set to "
 "0 to switch off.</p></body></html>"
 msgstr ""
-"<html><body><p>Quantité de débruitage à appliquer. Les grandes valeurs "
-"appliquent plus de débruitage.</p><p>0 pour désactiver cette fonctionnalité."
-"</p></body></html>"
+"<html><head/><body><p>Pourcentage de suppression du gradient à appliquer."
+"</p><p>Mettre à 0 pour désactiver.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, gradientLabel)
 #: fitsviewer/livestacking.ui:1895
-#, fuzzy, kde-format
-#| msgid "Gradient"
+#, kde-format
 msgid "Gradient Removal:"
-msgstr "Gradient"
+msgstr "Suppression du gradient :"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, DeconvLabel)
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, DeconvAmt)
@@ -43148,10 +43113,9 @@ msgstr "Interrupteur de post-traitement de l’empilement en direct"
 
 #. i18n: ectx: label, entry (fitsLSGradientAmt), group (FITSViewer)
 #: kstars.kcfg:1911
-#, fuzzy, kde-format
-#| msgid "Live Stacking denoise amount"
+#, kde-format
 msgid "Live Stacking gradient removal amount"
-msgstr "Quantité de débruitage pour l'empilement live"
+msgstr "Quantité de suppression du gradient pour l'empilement live"
 
 #. i18n: ectx: label, entry (fitsLSDeconvAmt), group (FITSViewer)
 #: kstars.kcfg:1915
@@ -46753,10 +46717,9 @@ msgstr "Contrôler le niveau de transparence des panneaux de mosaïque."
 
 #. i18n: ectx: label, entry (MCPPort), group (MCP)
 #: kstars.kcfg:3951
-#, fuzzy, kde-format
-#| msgid "Server Port"
+#, kde-format
 msgid "MCP server port"
-msgstr "Port du serveur"
+msgstr "Port du serveur MCP"
 
 #. i18n: ectx: label, entry (MCPReadOnlyMode), group (MCP)
 #: kstars.kcfg:3955
@@ -50281,12 +50244,10 @@ msgid "Abakan"
 msgstr "Abakan"
 
 #: kstars_i18n.cpp:707
-#, fuzzy, kde-kuit-format
-#| msgctxt "City in Illinois USA"
-#| msgid "Urbana"
+#, kde-kuit-format
 msgctxt "City in Kastamonu Türkiye"
 msgid "Abana"
-msgstr "Urbana"
+msgstr "Abana"
 
 #: kstars_i18n.cpp:708
 #, kde-kuit-format
@@ -50325,9 +50286,7 @@ msgid "Aberdeen"
 msgstr "Aberdeen"
 
 #: kstars_i18n.cpp:714
-#, fuzzy, kde-kuit-format
-#| msgctxt "City in Ivory coast"
-#| msgid "Abidjan"
+#, kde-kuit-format
 msgctxt "City in Ivory Coast"
 msgid "Abidjan"
 msgstr "Abidjan"
