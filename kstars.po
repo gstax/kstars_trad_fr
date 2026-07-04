@@ -7801,7 +7801,7 @@ msgstr "Tout objet"
 #: ekos/align/mountmodel.ui:90
 #, kde-format
 msgid "Uniform Distribution"
-msgstr ""
+msgstr "Distribution uniforme"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, alignTypeBox)
 #: ekos/align/mountmodel.ui:95
@@ -10494,55 +10494,55 @@ msgstr ""
 #: ekos/align/polaralignmentassistant.cpp:1461
 #, kde-format
 msgid "PAC: Az error increase confirmed (%1' → %2') – reversing Az direction."
-msgstr ""
+msgstr "PAC : augmentation de l'erreur en Az confirmée (%1' → %2') – inversion de la direction Az."
 
 #: ekos/align/polaralignmentassistant.cpp:1467
 #, kde-format
 msgid ""
 "PAC: Az error increase not confirmed (likely noise) – keeping original "
 "direction."
-msgstr ""
+msgstr "PAC : augmentation de l'erreur en Az non confirmée (probablement du bruit) – maintien de la direction d'origine."
 
 #: ekos/align/polaralignmentassistant.cpp:1474
 #, kde-format
 msgid ""
 "PAC: Alt error increase confirmed (%1' → %2') – reversing Alt direction."
-msgstr ""
+msgstr "PAC : augmentation de l'erreur en Alt confirmée (%1' → %2') – inversion de la direction Alt."
 
 #: ekos/align/polaralignmentassistant.cpp:1480
 #, kde-format
 msgid ""
 "PAC: Alt error increase not confirmed (likely noise) – keeping original "
 "direction."
-msgstr ""
+msgstr "PAC : augmentation de l'erreur en Alt non confirmée (probablement du bruit) – maintien de la direction d'origine."
 
 #: ekos/align/polaralignmentassistant.cpp:1505
 #, kde-format
 msgid ""
 "PAC: No improvement for %1 consecutive iteration(s) (best: %2', current: "
 "%3')."
-msgstr ""
+msgstr "PAC : aucune amélioration après %1 itération(s) consécutive(s) (meilleur : %2', actuel : %3')."
 
 #: ekos/align/polaralignmentassistant.cpp:1511
 #, kde-format
 msgid ""
 "PAC: No improvement after %1 consecutive iterations. Best error reached: "
 "%2'. Stopping polar alignment."
-msgstr ""
+msgstr "PAC : aucune amélioration après %1 itérations consécutives. Meilleure erreur atteinte : %2'. Arrêt de l'alignement polaire."
 
 #: ekos/align/polaralignmentassistant.cpp:1528
 #, kde-format
 msgid ""
 "PAC: Az error increased (%1' → %2') – re-solving to confirm before direction "
 "change."
-msgstr ""
+msgstr "PAC : l'erreur en Az a augmenté (%1' → %2') – nouvelle résolution pour confirmer avant changement de direction."
 
 #: ekos/align/polaralignmentassistant.cpp:1535
 #, kde-format
 msgid ""
 "PAC: Alt error increased (%1' → %2') – re-solving to confirm before "
 "direction change."
-msgstr ""
+msgstr "PAC : l'erreur en Alt a augmenté (%1' → %2') – nouvelle résolution pour confirmer avant changement de direction."
 
 #: ekos/align/polaralignmentassistant.cpp:1559
 #, kde-format
@@ -24247,6 +24247,12 @@ msgid ""
 "calibration datapoints. The DEC pulse rate (speed) is still measured "
 "normally.</p></body></html>"
 msgstr ""
+"<html><head/><body><p>Lorsqu'il est activé, l'angle de l'axe de déclinaison "
+"est supposé être exactement à 90° de l'angle d'ascension droite mesuré, au "
+"lieu d'être mesuré indépendamment. Ceci aide lorsque l'erreur périodique ou "
+"le jeu mécanique provoque des points de calibration DEC erratiques. La "
+"cadence d'impulsions DEC (vitesse) est toujours mesurée normalement."
+"</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AssumeDecOrthogonal)
 #: ekos/guide/opscalibration.ui:385
