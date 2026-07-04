@@ -24258,7 +24258,7 @@ msgstr ""
 #: ekos/guide/opscalibration.ui:385
 #, kde-format
 msgid "Assume DEC orthogonal to RA"
-msgstr ""
+msgstr "Supposer la DEC orthogonale à l'AD"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ResetGuideCalibration)
 #: ekos/guide/opscalibration.ui:392
@@ -27247,7 +27247,7 @@ msgstr "En écoute sur le port %1"
 #: ekos/opsekos.cpp:194
 #, kde-format
 msgid "Server is not running"
-msgstr ""
+msgstr "Le serveur n'est pas en cours d'exécution"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: ekos/opsekos.ui:44
@@ -27363,7 +27363,7 @@ msgstr "MCP"
 #: ekos/opsekos.ui:313
 #, kde-format
 msgid "AI Assistant (MCP)"
-msgstr ""
+msgstr "Assistant IA (MCP)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_MCPEnabled)
 #. i18n: ectx: label, entry (MCPEnabled), group (MCP)
@@ -27398,7 +27398,7 @@ msgstr "État du serveur MCP"
 #: ekos/opsekos.ui:381
 #, kde-format
 msgid "Token:"
-msgstr ""
+msgstr "Jeton :"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, mcpCopyTokenButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, mcpCopyROTokenButton)
@@ -27418,13 +27418,13 @@ msgstr "Régénérer"
 #: ekos/opsekos.ui:448
 #, kde-format
 msgid "Read-only mode (refuse rig control tools)"
-msgstr ""
+msgstr "Mode lecture seule (refuse les outils de contrôle du matériel)"
 
 #. i18n: ectx: property (text), widget (QLabel, mcpROTokenLabel)
 #: ekos/opsekos.ui:457
 #, kde-format
 msgid "Read-only token:"
-msgstr ""
+msgstr "Jeton en lecture seule :"
 
 #: ekos/profileeditor.cpp:51
 #, kde-format
@@ -27790,7 +27790,7 @@ msgstr "driver@host:port, driver@host, @host:port, @host,driver"
 msgid ""
 "Wait this many seconds before starting the driver. The delay applies whether "
 "or not a pre-startup script is set."
-msgstr ""
+msgstr "Attendre ce nombre de secondes avant le démarrage du pilote. Le délai s'applique qu'un script de pré-démarrage soit défini ou non."
 
 #: ekos/profilescript.cpp:49
 #, kde-format
@@ -27806,7 +27806,7 @@ msgstr ""
 msgid ""
 "Wait this many seconds before stopping the driver. The delay applies whether "
 "or not a pre-shutdown script is set."
-msgstr ""
+msgstr "Attendre ce nombre de secondes avant l'arrêt du pilote. Le délai s'applique qu'un script de pré-arrêt soit défini ou non."
 
 #: ekos/profilescript.cpp:69
 #, kde-format
@@ -29733,7 +29733,7 @@ msgstr "Attention : un nom de cible est requis."
 msgid ""
 "Warning: A job with name '%1' and the same sequence file already exists. "
 "This would cause both jobs to complete simultaneously due to shared storage."
-msgstr ""
+msgstr "Avertissement : une tâche nommée '%1' avec le même fichier de séquence existe déjà. Cela entraînerait la fin simultanée des deux tâches en raison d'un stockage partagé."
 
 #: ekos/scheduler/scheduler.cpp:1118
 #, kde-format
@@ -30564,7 +30564,7 @@ msgstr ""
 #: ekos/scheduler/scheduler.ui:2131 ekos/scheduler/scheduler.ui:2232
 #, kde-format
 msgid "Reset or Restore to Default if empty"
-msgstr ""
+msgstr "Réinitialiser ou restaurer les valeurs par défaut si vide"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, selectPostStartupQueueB)
 #: ekos/scheduler/scheduler.ui:2150
