@@ -5817,7 +5817,7 @@ msgid ""
 "SCTs / refractors, irrespective of the actual mounting."
 msgstr ""
 "Remarque : Choisissez le type « Alt-Azimut » pour l'observation visuelle à "
-"travers un SCT ou un réfracteur, quelque soit le type de monture."
+"travers un SCT ou un réfracteur, quel que soit le type de monture."
 
 #. i18n: ectx: property (text), widget (QRadioButton, correctViewType)
 #: dialogs/newview.ui:108
@@ -13154,7 +13154,7 @@ msgstr ""
 #: ekos/auxiliary/filtermanager.cpp:156
 #, kde-format
 msgid "Ticks / °Alt"
-msgstr "Pas / °d'élévation"
+msgstr "Pas / °d'élévation"
 
 #: ekos/auxiliary/filtermanager.cpp:158
 #, kde-format
@@ -15725,26 +15725,26 @@ msgid ""
 "style:italic;\">Locally</span>.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Sélectionnez la façon dont les images sont "
-"téléchargées : </p><ol style=\"margin-top : 0px ; margin-bottom : 0px ; "
-"margin-left : 0px ; margin-right : 0px ; -qt-list-indent : 1 ;\"><li "
-"style=\" margin-top:12px ; margin-bottom:0px ; margin-left:0px ; margin-"
-"right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-"
-"weight:600 ;\">Localement</span> : les images sont enregistrées localement "
+"téléchargées : </p><ol style=\"margin-top : 0px ; margin-bottom : 0px ; "
+"margin-left : 0px ; margin-right : 0px ; -qt-list-indent : 1 ;\"><li "
+"style=\" margin-top:12px ; margin-bottom:0px ; margin-left:0px ; margin-"
+"right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-"
+"weight:600 ;\">Localement</span> : les images sont enregistrées localement "
 "sur le disque dans le dossier spécifié ci-dessus.</li><li style=\" margin-"
-"top:0px ; margin-bottom:0px ; margin-left:0px ; margin-right:0px ; -qt-block-"
-"indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">À "
+"top:0px ; margin-bottom:0px ; margin-left:0px ; margin-right:0px ; -qt-block-"
+"indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">À "
 "distance</span> : lors de la connexion à un appareil distant, sélectionnez "
 "cette option pour enregistrer les images sur l'appareil distant uniquement. "
-"Aucune image n'est téléchargée sur Ekos.</li><li style=\" margin-top:0px ; "
-"margin-bottom:12px ; margin-left:0px ; margin-right:0px ; -qt-block-"
-"indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">Les deux</"
+"Aucune image n'est téléchargée sur Ekos.</li><li style=\" margin-top:0px ; "
+"margin-bottom:12px ; margin-left:0px ; margin-right:0px ; -qt-block-"
+"indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">Les deux</"
 "span> : les images sont enregistrées à la fois sur l'ordinateur distant "
-"<span style=\" font-weight:600 ;\">et</span> sur le disque local également.</"
-"li>.</ol><p>Lorsque vous sélectionnez <span style=\" font-style:italic ;\">À "
-"distance</span> ou <span style=\" font-style:italic ;\">Les deux</span>, "
+"<span style=\" font-weight:600 ;\">et</span> sur le disque local également.</"
+"li>.</ol><p>Lorsque vous sélectionnez <span style=\" font-style:italic ;\">À "
+"distance</span> ou <span style=\" font-style:italic ;\">Les deux</span>, "
 "vous devez spécifier le dossier distant dans lequel les images distantes "
 "sont enregistrées. Par défaut, toutes les images sont enregistrées <span "
-"style=\" font-style:italic ;\">localement</span>.</p></body></html>"
+"style=\" font-style:italic ;\">localement</span>.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: ekos/capture/camera.ui:1836
@@ -15925,7 +15925,7 @@ msgstr ""
 "le dernier élément du format.</span></li></ul><p>Du texte arbitraire peut "
 "aussi être inclus dans la chaîne de format, <span style=\" font-"
 "weight:704;\">à l'exception des caractères % et \\.</span> Le caractère de "
-"chemin / peut être utilisé pour définir des répertoires arbitraires.</"
+"chemin / peut être utilisé pour définir des répertoires arbitraires.</"
 "p><p>Notes&nbsp;:</p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-"
 "left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-"
 "top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
@@ -19863,7 +19863,7 @@ msgstr "Supprimer les poses de mise au point correspondantes ?"
 #: ekos/focus/focus.cpp:1125
 #, kde-format
 msgid "Delete focus frames?"
-msgstr "Supprimer les poses de la mise au point ?"
+msgstr "Supprimer les poses de la mise au point ?"
 
 #: ekos/focus/focus.cpp:1144
 #, kde-format
@@ -21863,27 +21863,27 @@ msgid ""
 "field analysis will use SEP instead of this method.</li></ul></body></html>"
 msgstr ""
 "<html><head/><body><p>Méthode de détection des étoiles : </p><ul "
-"style=\"margin-top : 0px ; margin-bottom : 0px ; margin-left : 0px ; margin-"
-"right : 0px ; -qt-list-indent : 1 ;\"><li style=\" margin-top:12px ; margin-"
-"bottom:12px ; margin-left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-"
-"indent:0px ;\"><span style=\" font-weight:600 ;\">SEP :</span> Extracteur de "
+"style=\"margin-top : 0px ; margin-bottom : 0px ; margin-left : 0px ; margin-"
+"right : 0px ; -qt-list-indent : 1 ;\"><li style=\" margin-top:12px ; margin-"
+"bottom:12px ; margin-left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-"
+"indent:0px ;\"><span style=\" font-weight:600 ;\">SEP :</span> Extracteur de "
 "Sources et Photométrie (Source Extractor and Photometry), une méthode de "
 "détection de sources efficace reposant sur l'extracteur de sources (Bertin "
 "et Arnouts 1996 ; Bertin 2016). Veuillez consulter <a href=\"https://"
 "joss.theoj.org/papers/10.21105/joss.00058.pdf\"><span style=\" text-"
-"decoration : underline ; color:#0000ff ;\">« SEP : Source Extractor as a "
+"decoration : underline ; color:#0000ff ;\">« SEP : Source Extractor as a "
 "library »</span></a> dans le Journal du logiciel libre.</li><li style=\" "
-"margin-top:12px ; margin-bottom:12px ; margin-left:0px ; margin-right:0px ; "
-"-qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;"
+"margin-top:12px ; margin-bottom:12px ; margin-left:0px ; margin-right:0px ; "
+"-qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;"
 "\">Centroïde</span> : une détection de source reposant sur l'estimation de "
 "la masse des étoiles autour des pics de signal.</li><li style=\" margin-"
-"top:12px ; margin-bottom:12px ; margin-left:0px ; margin-right:0px ; -qt-"
-"block-indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;"
+"top:12px ; margin-bottom:12px ; margin-left:0px ; margin-right:0px ; -qt-"
+"block-indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;"
 "\">Gradient</span> : une détection de source unique reposant sur le filtre "
 "de Sobel. L'analyse initiale ou plein champ utilisera la SEP à la place de "
-"cette méthode.</li><li style=\" margin-top:12px ; margin-bottom:12px ; "
-"margin-left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;"
-"\"><span style=\" font-weight:600 ;\">Seuil</span> : une détection de source "
+"cette méthode.</li><li style=\" margin-top:12px ; margin-bottom:12px ; "
+"margin-left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;"
+"\"><span style=\" font-weight:600 ;\">Seuil</span> : une détection de source "
 "unique reposant sur les valeurs des pixels. L'analyse initiale ou plein "
 "champ utilisera la SEP au lieu de cette méthode.</li></ul></body></html>"
 
@@ -21958,24 +21958,24 @@ msgid ""
 "Curve Fit of Hyperbola or Parabola.</li></ul></body></html>"
 msgstr ""
 "<html><head/><body><p>Sélectionnez l'algorithme du processus de mise au "
-"point : </p><ul style=\"margin-top : 0px ; margin-bottom : 0px ; margin-"
-"left : 0px ; margin-right : 0px ; -qt-list-indent : 1 ;\"><li style=\" "
-"margin-top:12px ; margin-bottom:0px ; margin-left:0px ; margin-right:0px ; "
-"-qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;"
+"point : </p><ul style=\"margin-top : 0px ; margin-bottom : 0px ; margin-"
+"left : 0px ; margin-right : 0px ; -qt-list-indent : 1 ;\"><li style=\" "
+"margin-top:12px ; margin-bottom:0px ; margin-left:0px ; margin-right:0px ; "
+"-qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;"
 "\">Itératif</span> : déplace le moteur de mise au point par pas discrets, "
 "selon un pas préalablement défini. Une fois que la pente de la courbe est "
 "calculée, d'autres tailles de pas sont calculées pour atteindre la solution "
 "optimale. L'algorithme s'arrête lorsque le HFR mesuré se situe dans la "
 "tolérance en pourcentage du HFR minimum enregistré dans la procédure.</"
-"li><li style=\" margin-top:0px ; margin-bottom:0px ; margin-left:0px ; "
-"margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span style=\" "
-"font-weight:600 ;\">Polynomial</span> : commence par une méthode itérative. "
+"li><li style=\" margin-top:0px ; margin-bottom:0px ; margin-left:0px ; "
+"margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span style=\" "
+"font-weight:600 ;\">Polynomial</span> : commence par une méthode itérative. "
 "En passant de l'autre côté de la courbe en V, les coefficients d'ajustement "
 "polynomiaux ainsi que la solution minimale possible sont calculés. Cet "
 "algorithme peut être plus rapide que l'approche purement itérative, "
-"moyennant un bon ensemble de données.</li><li style=\" margin-top:0px ; "
-"margin-bottom:12px ; margin-left:0px ; margin-right:0px ; -qt-block-"
-"indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">Linéaire</"
+"moyennant un bon ensemble de données.</li><li style=\" margin-top:0px ; "
+"margin-bottom:12px ; margin-left:0px ; margin-right:0px ; -qt-block-"
+"indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">Linéaire</"
 "span> : les échantillons se concentrent vers l'intérieur de façon homogène, "
 "en utilisant 2 passes. L'algorithme peut être lent, mais il est plus "
 "résistant aux contrecoups. Commencez avec le moteur de mise au point "
@@ -29779,7 +29779,7 @@ msgid ""
 "Warning: A job with name '%1' and the same sequence file already exists. "
 "This would cause both jobs to complete simultaneously due to shared storage."
 msgstr ""
-"Avertissement : une tâche nommée '%1' avec le même fichier de séquence "
+"Avertissement : une tâche nommée « %1 » avec le même fichier de séquence "
 "existe déjà. Cela entraînerait la fin simultanée des deux tâches en raison "
 "d'un stockage partagé."
 
@@ -30473,19 +30473,19 @@ msgid ""
 msgstr ""
 "<html><head/><body><p>Définissez ce qui doit se passer lorsqu'un travail se "
 "retrouve face à une erreur ou s'interrompt : </p><ul style=\"margin-top : "
-"0px ; margin-bottom : 0px ; margin-left : 0px ; margin-right : 0px ; -qt-"
-"list-indent : 1 ;\"><li style=\" margin-top:12px ; margin-bottom:0px ; "
-"margin-left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;"
-"\"><span style=\" font-weight:600 ;\">Aucun</span> : ne pas relancer le "
-"travail en cas d'erreur ou d'annulation.</li><li style=\" margin-top:0px ; "
-"margin-bottom:0px ; margin-left:0px ; margin-right:0px ; -qt-block-"
-"indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">Mettre en "
+"0px ; margin-bottom : 0px ; margin-left : 0px ; margin-right : 0px ; -qt-"
+"list-indent : 1 ;\"><li style=\" margin-top:12px ; margin-bottom:0px ; "
+"margin-left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;"
+"\"><span style=\" font-weight:600 ;\">Aucun</span> : ne pas relancer le "
+"travail en cas d'erreur ou d'annulation.</li><li style=\" margin-top:0px ; "
+"margin-bottom:0px ; margin-left:0px ; margin-right:0px ; -qt-block-"
+"indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">Mettre en "
 "file</span> : si une tâche est abandonnée, l'ordonnanceur ne la re-planifie "
 "que si toutes les tâches sont terminées ou abandonnées. Dans ce cas, "
 "l'ordonnanceur re-planifie tous les travaux annulés et s'endort pendant le "
-"délai donné.</li><li style=\" margin-top:0px ; margin-bottom:12px ; margin-"
-"left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span "
-"style=\" font-weight:600 ;\">Immédiat</span> : dès qu'une tâche est "
+"délai donné.</li><li style=\" margin-top:0px ; margin-bottom:12px ; margin-"
+"left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span "
+"style=\" font-weight:600 ;\">Immédiat</span> : dès qu'une tâche est "
 "abandonnée, l'ordonnanceur la re-planifie et attend le délai donné.</li></"
 "ul><p>Si l'option de re-planification des erreurs est sélectionnée, les "
 "erreurs sont traitées comme des annulations. Sinon, les travaux qui font "
@@ -30867,7 +30867,7 @@ msgstr ""
 #, kde-format
 msgid "Job '%1' cannot start, weather grace period is active."
 msgstr ""
-"La tâche « %1 » ne peut pas démarrer : la période de grâce météo est active."
+"La tâche « %1 » ne peut pas démarrer : la période de grâce météo est active."
 
 #: ekos/scheduler/schedulerprocess.cpp:878
 #, kde-format
@@ -30905,7 +30905,7 @@ msgstr ""
 #, kde-format
 msgid "Mount is parked, adding unpark task before slewing."
 msgstr ""
-"La monture est en position de stationnement ; ajout d'une tâche de "
+"La monture est en position de stationnement ; ajout d'une tâche de "
 "déstationnement avant le déplacement."
 
 #: ekos/scheduler/schedulerprocess.cpp:1017
@@ -30934,7 +30934,7 @@ msgstr "Attention : le fichier FITS de la cible de la tâche %1 n'existe pas."
 #, kde-format
 msgid "Warning: job '%1' loadAndSlew request received DBUS error: %2"
 msgstr ""
-"Attention : la tâche '%1' a émis une requête loadAndSlew qui a reçu l'erreur "
+"Attention : la tâche « %1 » a émis une requête loadAndSlew qui a reçu l'erreur "
 "DBus : %2."
 
 #: ekos/scheduler/schedulerprocess.cpp:1264
@@ -31092,7 +31092,7 @@ msgstr "Exécution des tâches de post-arrêt depuis %1…"
 #: ekos/scheduler/schedulerprocess.cpp:1826
 #, kde-format
 msgid "Post-shutdown queue is empty, shutdown complete."
-msgstr "La file d'attente de post-arrêt est vide ; arrêt terminé."
+msgstr "La file d'attente de post-arrêt est vide ; arrêt terminé."
 
 #: ekos/scheduler/schedulerprocess.cpp:1832
 #, kde-format
@@ -31646,7 +31646,7 @@ msgid ""
 "'host:port'"
 msgstr ""
 "Avertissement : format de chaîne de connexion de surveillance de la sécurité "
-"invalide. Format attendu : « hôte » ou « hôte:port »"
+"invalide. Format attendu : « hôte » ou « hôte:port »"
 
 #: ekos/scheduler/schedulersafetymonitor.cpp:138
 #, kde-format
@@ -32537,7 +32537,7 @@ msgstr "Effacer la file d'attente existante ?"
 msgid "Loading a queue will clear the current queue. Continue?"
 msgstr ""
 "Le chargement d'une file d'attente effacera la file d'attente actuelle. "
-"Continuer ?"
+"Continuer ?"
 
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:890
 #, kde-format
@@ -32577,7 +32577,7 @@ msgstr "Impossible de créer la tâche depuis le modèle : %1"
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:1031
 #, kde-format
 msgid "No tasks were added from collection '%1'."
-msgstr "Aucune tâche n'a été ajoutée depuis la collection « %1 »."
+msgstr "Aucune tâche n'a été ajoutée depuis la collection « %1 »."
 
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:1036
 #, kde-format
@@ -32609,14 +32609,14 @@ msgstr "Collection chargée"
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:1076
 #, kde-format
 msgid "Save Changes?"
-msgstr "Enregistrer les modifications ?"
+msgstr "Enregistrer les modifications ?"
 
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:1077
 #, kde-format
 msgid "The queue has unsaved changes. Do you want to save them?"
 msgstr ""
 "La file d'attente contient des modifications non enregistrées. Voulez-vous "
-"les enregistrer ?"
+"les enregistrer ?"
 
 #: ekos/scheduler/taskqueue/ui/templatelibrarywidget.cpp:31
 #, kde-format
@@ -33320,7 +33320,7 @@ msgstr "KStars n'a trouvé aucune monture active."
 #: fitsviewer/fitsmemmonitor.cpp:72 fitsviewer/fitsmemmonitor.cpp:202
 #, kde-format
 msgid "RAM: -- / --"
-msgstr "RAM : -- / --"
+msgstr "RAM : -- / --"
 
 #: fitsviewer/fitsmemmonitor.cpp:80
 #, kde-format
@@ -34684,14 +34684,14 @@ msgstr "Le dossier contenant les brutes rouges à empiler"
 #: fitsviewer/livestacking.ui:349 fitsviewer/livestacking.ui:614
 #, kde-format
 msgid "Number of subs successfully processed / failed / total"
-msgstr "Nombre de poses traitées avec succès / échouées / total"
+msgstr "Nombre de poses traitées avec succès / échouées / total"
 
 #. i18n: ectx: property (text), widget (QLabel, SubsProcessed)
 #. i18n: ectx: property (text), widget (QLabel, SubsSNR)
 #: fitsviewer/livestacking.ui:352 fitsviewer/livestacking.ui:592
 #, kde-format
 msgid "0 / 0 / 0"
-msgstr "0 / 0 / 0"
+msgstr "0 / 0 / 0"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, MonitorB)
 #: fitsviewer/livestacking.ui:365
@@ -34754,7 +34754,7 @@ msgid ""
 "<html><head/><body><p>Signal-to-noise ratio Average (mean) / Min / Max  of "
 "the processed subs</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Rapport signal/bruit moyen / min / max des brutes "
+"<html><head/><body><p>Rapport signal/bruit moyen / min / max des brutes "
 "traitées</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, SubsSNRLabel)
@@ -34792,14 +34792,14 @@ msgid ""
 "<html><head/><body><p>Signal-to-noise ratio Average (mean) / Min / Max of "
 "the processed subs</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Rapport signal/bruit moyen / min / max des brutes "
+"<html><head/><body><p>Rapport signal/bruit moyen / min / max des brutes "
 "traitées</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, NumberSubsLabel)
 #: fitsviewer/livestacking.ui:617
 #, kde-format
 msgid "Proc / Fail / Total:"
-msgstr "Traité / Échec / Total :"
+msgstr "Traité / Échec / Total :"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, Blue)
 #: fitsviewer/livestacking.ui:630
@@ -34975,7 +34975,7 @@ msgid ""
 msgstr ""
 "<html><head/><body><p>Kappa limite la mise à jour des pixels dans la plage 1/"
 "kappa à kappa par rapport à la valeur d'origine. Ainsi, 1 signifie aucun "
-"changement ; plus kappa est élevé, plus les mises à jour possibles sont "
+"changement ; plus kappa est élevé, plus les mises à jour possibles sont "
 "importantes.</p><p>Les valeurs usuelles se situent entre 1,5 et 2,0. "
 "Réduisez-la si les images semblent trop traitées (p.&nbsp;ex. halos autour "
 "des étoiles).</p></body></html>"
@@ -35230,7 +35230,7 @@ msgid ""
 "damping, &lt;1.0 = smoother (but slower convergence).</p><p>Usual values 0.7 "
 "- 0.9</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Relaxation / amortissement entre les itérations. 1,0 = "
+"<html><head/><body><p>Relaxation / amortissement entre les itérations. 1,0 = "
 "aucun amortissement, < 1,0 = plus lisse (mais convergence plus lente).</"
 "p><p>Valeurs usuelles : 0,7 à 0,9</p></body></html>"
 
@@ -93638,7 +93638,7 @@ msgid ""
 "See Data -> Download New Data if not..."
 msgstr ""
 "Vous devez charger un catalogue pour pouvoir utiliser cet outil.\n"
-"Utiliser le bouton Charger le Catalogue si présent.Voir Données -> "
+"Utiliser le bouton Charger le Catalogue si présent. Voir Données -> "
 "Télécharger de nouvelles données…"
 
 #: tools/imagingplanner.cpp:2399
