@@ -8579,7 +8579,7 @@ msgid ""
 "zero value will result in auto selection downsampling.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Sous-échantillonner avant la résolution, aussi appelé "
-"catégorisation. Une valeur de zéro conduira à un sous-échantillonnage en "
+"regroupement (binning). Une valeur de zéro conduira à un sous-échantillonnage en "
 "sélection automatique.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_ASTAPExecutable)
@@ -15894,7 +15894,7 @@ msgstr ""
 "style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">Balise <span style=\" font-"
 "weight:600;\">%B</span> ou <span style=\" font-weight:600;\">%bin</"
-"span>&nbsp;: binning configuré pour l'acquisition.</li><li style=\" margin-"
+"span>&nbsp;: regroupement (binning) configuré pour l'acquisition.</li><li style=\" margin-"
 "top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
 "indent:0; text-indent:0px;\">Balise <span style=\" font-weight:600;\">%G</"
 "span> ou <span style=\" font-weight:600;\">%gain</span>&nbsp;: gain "
@@ -23390,8 +23390,8 @@ msgstr "Axe de déclinaison du guidage"
 msgid ""
 "Guide camera binning. It is recommended to set binning to 2x2 or higher."
 msgstr ""
-"Regroupement de la caméra de guidage. Il est recommandé de définir le "
-"binning à 2x2 ou plus."
+"Regroupement (binning) de la caméra de guidage. Il est recommandé de définir le "
+"regroupement (binning) à 2x2 ou plus."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, externalDisconnectB)
 #: ekos/guide/guide.ui:399
@@ -24032,7 +24032,7 @@ msgid ""
 "Lost track of the guide star. Try increasing binning, square size or "
 "reducing pulse duration."
 msgstr ""
-"Étoile guide perdue. Essayez d'augmenter la taille du carré ou de réduire la "
+"Étoile guide perdue. Essayez d'augmenter le regroupement (binning), la taille du carré ou de réduire la "
 "durée des impulsions."
 
 #: ekos/guide/internalguide/internalguider.cpp:761
@@ -34645,7 +34645,7 @@ msgstr "La pose à utiliser comme référence pour aligner toutes les autres pos
 #: fitsviewer/livestacking.ui:203
 #, kde-format
 msgid "Master Sub:"
-msgstr "Pose master :"
+msgstr "Master pose :"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, AlignMasterB)
 #: fitsviewer/livestacking.ui:219
@@ -83029,7 +83029,7 @@ msgstr "Polarisation"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Binning"
-msgstr "Catégorisation"
+msgstr "Regroupement (binning)"
 
 #: libindi_strings.cpp:45
 #, kde-kuit-format
