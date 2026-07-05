@@ -1505,7 +1505,7 @@ msgstr "Réinitialiser la rotation à 0"
 #: auxiliary/xplanetimageviewer.cpp:386
 #, kde-format
 msgid "Bring up XPlanet Options"
-msgstr "Faire apparaitre les options de XPlanet"
+msgstr "Faire apparaître les options de XPlanet"
 
 #: auxiliary/xplanetimageviewer.cpp:412
 #, kde-format
@@ -2308,7 +2308,7 @@ msgstr ""
 "objets observables cette nuit. Il inclut les objets visibles à l'œil nu "
 "aussi bien que ceux nécessitant un instrument. Il s'adresse à la fois aux "
 "astronomes débutants ou expérimentés. En cliquant sur une catégorie ou un "
-"catalogue, une liste d'objets apparait. Cliquez sur un objet dans la liste, "
+"catalogue, une liste d'objets apparaît. Cliquez sur un objet dans la liste, "
 "les détails le concernant s'afficheront. Si on dispose de miniatures ou "
 "d'informations Wikipedia, elles s'afficheront également. Sinon, vous pouvez "
 "les télécharger. En élargissant la fenêtre « Digne d'intérêt », l'affichage "
@@ -5176,7 +5176,7 @@ msgid ""
 "The name of the field-of-view (FOV) symbol.  This name appears in the FOV "
 "menu and in the \"Edit FOV Symbols\" tool."
 msgstr ""
-"Le nom de l'indicateur de champ de vision (CdV). Ce nom apparait dans le "
+"Le nom de l'indicateur de champ de vision (CdV). Ce nom apparaît dans le "
 "menu Champ de vision et dans l'outil Modifier les indicateurs de champ de "
 "vision."
 
@@ -11416,7 +11416,7 @@ msgstr "<<"
 #, kde-format
 msgid "<html><head/><body><p>Display the next .analyze file.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Afficher le prochian fichier .analyze.</p></body></"
+"<html><head/><body><p>Afficher le prochain fichier .analyze.</p></body></"
 "html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, nextFileB)
@@ -22440,7 +22440,7 @@ msgstr ""
 "<html><head><body><p>Créer une &quot;zone d'optimisation&quot; pour ce "
 "nombre de secondes. Lorsqu'une mise au point automatique est déclenchée par "
 "un autre processus, p. ex. le module de séquences ou celui d'acquisition, "
-"une vérification est réalisée sur l'horodotage de la dernière mise au point "
+"une vérification est réalisée sur l'horodatage de la dernière mise au point "
 "automatique réalisée avec succès pour ce filtre. Si l'on se trouve dans la "
 "zone d'optimisation, alors aucune mise au point automatique n'est réalisée ; "
 "sinon, elle est lancée normalement.</p><p>Veuillez noter que les décalages "
@@ -27805,7 +27805,7 @@ msgid ""
 "port defaults to 7624.<br/>Remote INDI drivers must be already running for "
 "the connection to succeed.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Ajouter des pilotes INDI distants à chainer avec le "
+"<html><head/><body><p>Ajouter des pilotes INDI distants à chaîner avec le "
 "serveur INDI local configuré dans ce profil. Formatez ce champ comme une "
 "liste de noms de pilotes, de noms d'hôtes/adresses, le port facultatif, "
 "séparée par des virgules :</p><p><span style=\" font-weight:600;\">&quot;ZWO "
@@ -35082,7 +35082,7 @@ msgstr "Coupure Sigma"
 #: fitsviewer/livestacking.ui:1151
 #, kde-format
 msgid "Winsorized SC"
-msgstr "Coupe Sigma winsorizée"
+msgstr "Coupe Sigma winsorisée"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, StackingMethod)
 #: fitsviewer/livestacking.ui:1156
@@ -38809,7 +38809,7 @@ msgstr "Afficher la barre d'état ?"
 #: kstars.kcfg:82
 #, kde-format
 msgid "Toggle display of the status bar."
-msgstr "(Dés)ative l'affichage de la barre d'état."
+msgstr "(Dés)active l'affichage de la barre d'état."
 
 #. i18n: ectx: label, entry (ShowAltAzField), group (GUI)
 #: kstars.kcfg:86
@@ -41421,7 +41421,7 @@ msgstr ""
 "difficiles à observer. Puisque le suivi à cet endroit correspond à une "
 "rotation en azimut, il est à la fois contre-intuitif et nécessite que "
 "l'observateur déplace fréquemment l'échelle. La région autour du zénith où "
-"cela est particulièrement frustrant est appelée le trou dobsonnien. Cette "
+"cela est particulièrement frustrant est appelée le trou dobsonien. Cette "
 "case à cocher permet à la liste d'observation de considérer les objets "
 "présents dans le trou comme impropres à l'observation."
 
@@ -43126,7 +43126,7 @@ msgstr "Critère de rejet de pixel avec Sigma haut de l'empilement live"
 #: kstars.kcfg:1883
 #, kde-format
 msgid "Live Stacking sigma clipping windzor cutoff"
-msgstr "Coupure Sigma windzor de l'empilement live"
+msgstr "Coupure Sigma winsorisé de l'empilement live"
 
 #. i18n: ectx: label, entry (fitsLSIterations), group (FITSViewer)
 #: kstars.kcfg:1887
@@ -87952,7 +87952,7 @@ msgid ""
 msgstr ""
 "Après avoir changé les couleurs en un modèle qui vous convient, cliquez sur "
 "ce bouton pour créer un nouveau modèle utilisant ces couleurs. Votre modèle "
-"apparaitra ici dans la liste des présélections et sera également disponible "
+"apparaîtra ici dans la liste des présélections et sera également disponible "
 "dans le menu « Configuration » de la fenêtre principale."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, RemovePreset)
@@ -88068,7 +88068,7 @@ msgid ""
 msgstr ""
 "<html><head/><body><p>Ne pas synchroniser avec l'horloge système au "
 "démarrage d'Ekos. Cela pourrait causer des problèmes pour les séances "
-"réelles d'imagerie, mais peut être utile pour reproduire ou débugguer des "
+"réelles d'imagerie, mais peut être utile pour reproduire ou déboguer des "
 "problèmes.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DontSyncToRealTime)
@@ -91252,7 +91252,7 @@ msgstr ""
 "central.\n"
 "\t\t\tAppuyez sur Ctrl+M ou utilisez l'élément de menu « Pointage / Définir "
 "les coordonnées manuellement… »\n"
-"\t\t\tet saisissez les coordonnées souhaitées dans la fenêtre qui apparait.\n"
+"\t\t\tet saisissez les coordonnées souhaitées dans la fenêtre qui apparaît.\n"
 "\t\t</p>\n"
 "\t\n"
 
@@ -91387,7 +91387,7 @@ msgstr ""
 "\t\t<p>Lorsque vous maintenez immobile le pointeur de la souris pendant un "
 "certain temps, l'objet le plus\n"
 "\t\t\tproche sera identifié par une étiquette de nom temporaire qui "
-"disparaitra automatiquement\n"
+"disparaîtra automatiquement\n"
 "\t\t\tquand vous déplacerez à nouveau la souris.\n"
 "\t\t</p>\n"
 "\t\n"
@@ -91896,7 +91896,7 @@ msgstr ""
 "\t\t\tdans l'onglet « Couleurs » de la fenêtre de configuration, puis "
 "cliquez sur le\n"
 "\t\t\tle bouton « Enregistrer les couleurs actuelles ». Votre modèle de "
-"couleurs apparaitra sur\n"
+"couleurs apparaîtra sur\n"
 "\t\t\tla liste lors de toutes les sessions futures.\n"
 "\t\t</p>\n"
 "\t\n"
@@ -92539,7 +92539,7 @@ msgid ""
 msgstr ""
 "Ouvre la boîte de dialogue « Chercher un objet », qui permet de sélectionner "
 "un objet dans la liste des objets connus. Quand un objet a été sélectionné, "
-"son nom apparait dans la boîte « dos » à gauche."
+"son nom apparaît dans la boîte « dos » à gauche."
 
 #. i18n: ectx: property (text), widget (QPushButton, FindButton)
 #: tools/argfindobject.ui:47 tools/arglooktoward.ui:116
