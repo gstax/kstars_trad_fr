@@ -6860,7 +6860,7 @@ msgstr ""
 #: ekos/align/align_devices.cpp:293
 #, kde-format
 msgid "Dustcap error detected. Aborting alignment."
-msgstr "Erreur de capuchon anti-poussière détectée. Abandon de l’alignement."
+msgstr "Erreur de capuchon anti-poussière détectée. Abandon de l'alignement."
 
 #: ekos/align/align_devices.cpp:354 ekos/focus/focus.cpp:5877
 #, kde-format
@@ -6991,7 +6991,7 @@ msgstr "Échec du pointage."
 #: ekos/align/align_goto.cpp:276
 #, kde-format
 msgid "Rotator error detected. Aborting alignment."
-msgstr "Erreur du rotateur détectée. Abandon de l’alignement."
+msgstr "Erreur du rotateur détectée. Abandon de l'alignement."
 
 #: ekos/align/align_goto.cpp:295
 #, kde-format
@@ -7071,8 +7071,8 @@ msgstr ""
 #, kde-format
 msgid "Rotator timeout after %1 seconds. Aborting alignment."
 msgstr ""
-"Délai d’attente du rotateur dépassé après %1 secondes. Abandon de "
-"l’alignement."
+"Délai d'attente du rotateur dépassé après %1 secondes. Abandon de "
+"l'alignement."
 
 #: ekos/align/align_settings.cpp:79
 #, kde-format
@@ -7498,12 +7498,12 @@ msgstr "Acquisition encore en cours. Nouvel essai dans %1 secondes…"
 #: ekos/align/alignmentplot.cpp:158
 #, kde-format
 msgid "Azimuth diff (deg)"
-msgstr "Écart d’azimut (°)"
+msgstr "Écart d'azimut (°)"
 
 #: ekos/align/alignmentplot.cpp:159
 #, kde-format
 msgid "Altitude diff (deg)"
-msgstr "Écart d’altitude (°)"
+msgstr "Écart d'altitude (°)"
 
 #: ekos/align/alignview.cpp:170
 #, kde-format
@@ -8344,7 +8344,7 @@ msgid ""
 "detected stars to expedite solving."
 msgstr ""
 "Ajuster dynamiquement le seuil de StellarSolver en fonction des étoiles "
-"détectées par l’extracteur de sources afin d’accélérer la résolution."
+"détectées par l'extracteur de sources afin d'accélérer la résolution."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AstrometryDynamicThreshold)
 #: ekos/align/opsalign.ui:263
@@ -11042,7 +11042,7 @@ msgid ""
 msgstr ""
 "<html><head/><body><p><span style=\" font-weight:600;\">Description</span></"
 "p><p>Cet assistant aide les utilisateurs de montures manuelles (dobsons, "
-"etc.) à trouver leurs cibles à l’aide d’un chercheur équipé d’une caméra.</"
+"etc.) à trouver leurs cibles à l'aide d'un chercheur équipé d'une caméra.</"
 "p><p><span style=\" font-weight:600;\">Préparation</span></p><p>Ouvrez Ekos, "
 "créez un profil avec l'appareil de votre choix, le simulateur de télescope "
 "comme monture, puis ajoutez votre chercheur comme nouveau télescope.</"
@@ -11060,7 +11060,7 @@ msgstr ""
 "left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Cliquez "
 "sur le bouton «&nbsp;Résoudre la position&nbsp;». Cela pren une image via "
 "votre chercheur et effectue la résolution astrométrique par comparaison avec "
-"les catalogues d’étoiles de KStars.</li><li style=\" margin-top:0px; margin-"
+"les catalogues d'étoiles de KStars.</li><li style=\" margin-top:0px; margin-"
 "bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
 "indent:0px;\">Dès que la résolution astrométrique réussit, la distance à la "
 "cible est affichée. Des flèches indiquent dans quelle direction corriger la "
@@ -12478,7 +12478,7 @@ msgstr ""
 "padding-right: 5px;} th { text-align: left;} td { text-align: right;} "
 "caption { text-align: center; vertical-align: top; font-weight: bold; "
 "margin: 0px; padding-bottom: 5px;}</head></style><body><table><caption "
-"align=top>Explication de l’adaptation de la mise au point</caption><tr><th></"
+"align=top>Explication de l'adaptation de la mise au point</caption><tr><th></"
 "th><th>Position</th><th>Température (°C)</th><th>Altitude (°Alt)</th></"
 "tr><tr><th>Pos. mesurée</th><td>%1</td><td>%2 %3</td><td>%4 %5</td></"
 "tr><tr><th>Adaptations</th><td>%6</td><td>%7</td><td>%8</td></"
@@ -15689,7 +15689,7 @@ msgid ""
 "available to be used in the filename Format via the %t or %type placeholder "
 "tag.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>La cible est le nom de l’objet visé.</p><p>Elle peut "
+"<html><head/><body><p>La cible est le nom de l'objet visé.</p><p>Elle peut "
 "être utilisée dans le format du nom de fichier via la balise de remplacement "
 "%t ou %type.</p></body></html>"
 
@@ -15853,12 +15853,12 @@ msgid ""
 "the path definition.</li></ul></body></html>"
 msgstr ""
 "<html><head/><body><p>Le format sert à définir les noms de fichiers des "
-"images à l’aide de balises de remplacement.</p><ul style=\"margin-top: 0px; "
+"images à l'aide de balises de remplacement.</p><ul style=\"margin-top: 0px; "
 "margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: "
 "1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; "
 "margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise<span "
 "style=\" font-weight:704;\"> %f</span> ou <span style=\" font-"
-"weight:704;\">%filename</span>&nbsp;: nom du fichier .esq, sans l’extension."
+"weight:704;\">%filename</span>&nbsp;: nom du fichier .esq, sans l'extension."
 "</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">Balise<span style=\" font-"
 "weight:704;\"> %D</span> ou <span style=\" font-weight:704;\">%Datetime</"
@@ -15871,13 +15871,13 @@ msgstr ""
 "«&nbsp;Dark&nbsp;», «&nbsp;Flat&nbsp;»…</li><li style=\" margin-top:0px; "
 "margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
 "text-indent:0px;\">Balise<span style=\" font-weight:704;\"> %e</span> ou "
-"<span style=\" font-weight:704;\">%exposure</span>&nbsp;: durée d’exposition "
+"<span style=\" font-weight:704;\">%exposure</span>&nbsp;: durée d'exposition "
 "en secondes, avec le suffixe «&nbsp;_secs&nbsp;».</li><ul style=\"margin-"
 "top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-"
 "indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-"
 "left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
 "\">Balise<span style=\" font-weight:704;\"> %E</span> ou <span style=\" font-"
-"weight:704;\">%exp</span>&nbsp;: durée d’exposition en secondes sous forme "
+"weight:704;\">%exp</span>&nbsp;: durée d'exposition en secondes sous forme "
 "de nombre, sans unité ni suffixe.</li></ul><li style=\" margin-top:0px; "
 "margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
 "text-indent:0px;\">Balise<span style=\" font-weight:704;\"> %F</span> ou "
@@ -15889,20 +15889,20 @@ msgstr ""
 "bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
 "indent:0px;\">Balise <span style=\" font-weight:600;\">%C</span> ou <span "
 "style=\" font-weight:600;\">%temperature</span>&nbsp;: température de la "
-"caméra lors de l’acquisition.</li><ul style=\"margin-top: 0px; margin-"
+"caméra lors de l'acquisition.</li><ul style=\"margin-top: 0px; margin-"
 "bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li "
 "style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">Balise <span style=\" font-"
 "weight:600;\">%B</span> ou <span style=\" font-weight:600;\">%bin</"
-"span>&nbsp;: binning configuré pour l’acquisition.</li><li style=\" margin-"
+"span>&nbsp;: binning configuré pour l'acquisition.</li><li style=\" margin-"
 "top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
 "indent:0; text-indent:0px;\">Balise <span style=\" font-weight:600;\">%G</"
 "span> ou <span style=\" font-weight:600;\">%gain</span>&nbsp;: gain "
-"configuré pour l’acquisition.</li></ul><li style=\" margin-top:0px; margin-"
+"configuré pour l'acquisition.</li></ul><li style=\" margin-top:0px; margin-"
 "bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
 "indent:0px;\">Balise <span style=\" font-weight:600;\">%O</span> ou <span "
 "style=\" font-weight:600;\">%offset</span>&nbsp;: offset configuré pour "
-"l’acquisition.</li><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-"
+"l'acquisition.</li><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-"
 "left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-"
 "top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
 "indent:0; text-indent:0px;\">Balise <span style=\" font-weight:600;\">%I</"
@@ -15916,15 +15916,15 @@ msgstr ""
 "top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
 "indent:0; text-indent:0px;\">Balise <span style=\" font-weight:600;\">%H</"
 "span> ou <span style=\" font-weight:600;\">%hostname</span>&nbsp;: nom "
-"d’hôte de la machine exécutant Ekos.</li></ul><li style=\" margin-top:0px; "
+"d'hôte de la machine exécutant Ekos.</li></ul><li style=\" margin-top:0px; "
 "margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
 "text-indent:0px;\">Balise<span style=\" font-weight:704;\"> %s*</span> ou "
 "<span style=\" font-weight:704;\">%sequence</span>&nbsp;: identifiant de "
-"séquence d’images, où * correspond au nombre de chiffres utilisés (1 à 9). "
+"séquence d'images, où * correspond au nombre de chiffres utilisés (1 à 9). "
 "<span style=\" font-weight:704;\">Cette balise est obligatoire et doit être "
 "le dernier élément du format.</span></li></ul><p>Du texte arbitraire peut "
 "aussi être inclus dans la chaîne de format, <span style=\" font-"
-"weight:704;\">à l’exception des caractères % et \\.</span> Le caractère de "
+"weight:704;\">à l'exception des caractères % et \\.</span> Le caractère de "
 "chemin / peut être utilisé pour définir des répertoires arbitraires.</"
 "p><p>Notes&nbsp;:</p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-"
 "left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-"
@@ -15932,7 +15932,7 @@ msgstr ""
 "indent:0; text-indent:0px;\">Les balises sont sensibles à la casse, tant "
 "dans leur forme courte que longue.</li><li style=\" margin-top:0px; margin-"
 "bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\">N’utilisez la balise %Datetime que dans la partie nom de "
+"indent:0px;\">N'utilisez la balise %Datetime que dans la partie nom de "
 "fichier du format, pas dans la définition du chemin.</li></ul></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, remoteLabel)
@@ -19938,7 +19938,7 @@ msgstr ""
 msgid "Autofocus request [%1] optimized out."
 msgstr ""
 "La requête de mise au point automatique [%1] a été supprimée lors de "
-"l’optimisation."
+"l'optimisation."
 
 #: ekos/focus/focus.cpp:1383
 #, kde-format
@@ -19994,8 +19994,8 @@ msgstr "Le capuchon anti-poussière est ouvert. Déparquage avant acquisition...
 #, kde-format
 msgid "Dustcap is not ready (status: %1). Waiting before capture..."
 msgstr ""
-"Le capuchon anti-poussière n’est pas prêt (état : %1). Attente avant "
-"l’acquisition…"
+"Le capuchon anti-poussière n'est pas prêt (état : %1). Attente avant "
+"l'acquisition…"
 
 #: ekos/focus/focus.cpp:1934
 #, kde-format
@@ -21063,7 +21063,7 @@ msgid ""
 msgstr ""
 "Cochez cette option pour que le Conseiller de mise au point recherche des "
 "étoiles. Si vous êtes suffisamment proche de la mise au point pour voir des "
-"étoiles dans l’image de mise au point, cette étape n’est pas nécessaire."
+"étoiles dans l'image de mise au point, cette étape n'est pas nécessaire."
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, focusAdvCoarseAdj)
 #: ekos/focus/focusadvisor.ui:105
@@ -22457,7 +22457,7 @@ msgid ""
 "Upper limit how many focus frames should be kept on disk. Set to -1 to allow "
 "arbitrary many files."
 msgstr ""
-"Limite supérieure du nombre d’images de mise au point à conserver sur le "
+"Limite supérieure du nombre d'images de mise au point à conserver sur le "
 "disque. Définissez -1 pour autoriser un nombre illimité de fichiers."
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -24032,7 +24032,7 @@ msgid ""
 "Lost track of the guide star. Try increasing binning, square size or "
 "reducing pulse duration."
 msgstr ""
-"Étoile guide perdue. Essayez d’augmenter la taille du carré ou de réduire la "
+"Étoile guide perdue. Essayez d'augmenter la taille du carré ou de réduire la "
 "durée des impulsions."
 
 #: ekos/guide/internalguide/internalguider.cpp:761
@@ -24328,9 +24328,9 @@ msgid ""
 "above must be unchecked for this to be attempted.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Enregistrer les calibrations et tenter de les "
-"réutiliser. Cela ne fonctionne de part et d’autre du méridien que si le côté "
+"réutiliser. Cela ne fonctionne de part et d'autre du méridien que si le côté "
 "du pied peut être déterminé automatiquement à partir de votre monture. Pour "
-"que cela soit tenté, l’option «&nbsp;Réinitialiser le guidage lors d’un "
+"que cela soit tenté, l'option «&nbsp;Réinitialiser le guidage lors d'un "
 "déplacement&nbsp;» ci-dessus doit être décochée.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ReuseGuideCalibration)
@@ -25645,7 +25645,7 @@ msgstr ""
 #: ekos/manager.cpp:1493
 #, kde-format
 msgid "Error: INDI Web Manager is not online at %1:%2"
-msgstr "Erreur : le gestionnaire Web INDI n’est pas en ligne sur %1:%2"
+msgstr "Erreur : le gestionnaire Web INDI n'est pas en ligne sur %1:%2"
 
 #: ekos/manager.cpp:1534
 #, kde-format
@@ -29559,9 +29559,9 @@ msgid ""
 "this to continuously monitor safety conditions and evaluate whether it is "
 "safe to operate the observatory."
 msgstr ""
-"Chaîne de connexion du pilote INDI du moniteur de sécurité. L’ordonnanceur "
-"l’utilise pour surveiller en continu les conditions de sécurité et "
-"déterminer s’il est possible d’exploiter l’observatoire en toute sécurité."
+"Chaîne de connexion du pilote INDI du moniteur de sécurité. L'ordonnanceur "
+"l'utilise pour surveiller en continu les conditions de sécurité et "
+"déterminer s'il est possible d'exploiter l'observatoire en toute sécurité."
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, kcfg_SchedulerSafetyMonitorConnectionString)
 #: ekos/scheduler/opsweathersettings.ui:150
@@ -29742,7 +29742,7 @@ msgstr "Attention : la valeur DEC %1 est non valable."
 #, kde-format
 msgctxt "@title:window"
 msgid "Select Pre-Startup Queue"
-msgstr "Sélectionner la file d’attente de pré-démarrage"
+msgstr "Sélectionner la file d'attente de pré-démarrage"
 
 #: ekos/scheduler/scheduler.cpp:939 ekos/scheduler/scheduler.cpp:955
 #: ekos/scheduler/scheduler.cpp:971 ekos/scheduler/scheduler.cpp:987
@@ -29754,19 +29754,19 @@ msgstr "Fichiers de file d'attente (*.kstarsqueue *.json)"
 #, kde-format
 msgctxt "@title:window"
 msgid "Select Post-Startup Queue"
-msgstr "Sélectionner la file d’attente de post-démarrage"
+msgstr "Sélectionner la file d'attente de post-démarrage"
 
 #: ekos/scheduler/scheduler.cpp:969
 #, kde-format
 msgctxt "@title:window"
 msgid "Select Pre-Shutdown Queue"
-msgstr "Sélectionner la file d’attente de pré-arrêt"
+msgstr "Sélectionner la file d'attente de pré-arrêt"
 
 #: ekos/scheduler/scheduler.cpp:985
 #, kde-format
 msgctxt "@title:window"
 msgid "Select Post-Shutdown Queue"
-msgstr "Sélectionner la file d’attente de post-arrêt"
+msgstr "Sélectionner la file d'attente de post-arrêt"
 
 #: ekos/scheduler/scheduler.cpp:1092
 #, kde-format
@@ -29953,7 +29953,7 @@ msgstr "Les conditions de sécurité sont OK."
 #, kde-format
 msgid "Warning: safety conditions are in the WARNING zone."
 msgstr ""
-"Avertissement : les conditions de sécurité sont en zone d’AVERTISSEMENT."
+"Avertissement : les conditions de sécurité sont en zone d'AVERTISSEMENT."
 
 #: ekos/scheduler/scheduler.cpp:2546
 #, kde-format
@@ -29963,13 +29963,13 @@ msgstr "Attention : les conditions de sécurité sont en zone de DANGER !"
 #: ekos/scheduler/scheduler.cpp:2564
 #, kde-format
 msgid "Safety conditions in warning zone"
-msgstr "Conditions de sécurité en zone d’avertissement"
+msgstr "Conditions de sécurité en zone d'avertissement"
 
 #: ekos/scheduler/scheduler.cpp:2573
 #, kde-format
 msgid "Safety conditions are critical. Observatory shutdown is imminent"
 msgstr ""
-"Les conditions de sécurité sont critiques. L’arrêt de l’observatoire est "
+"Les conditions de sécurité sont critiques. L'arrêt de l'observatoire est "
 "imminent."
 
 #: ekos/scheduler/scheduler.cpp:2595
@@ -30588,7 +30588,7 @@ msgstr "Activer la file d'attente de démarrage"
 #, kde-format
 msgid "Selected pre-startup queue to run before starting Ekos profile"
 msgstr ""
-"File d’attente de pré-démarrage sélectionnée pour être exécutée avant le "
+"File d'attente de pré-démarrage sélectionnée pour être exécutée avant le "
 "démarrage du profil Ekos"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, selectPreStartupQueueB)
@@ -30596,7 +30596,7 @@ msgstr ""
 #, kde-format
 msgid "Browse for pre-startup queue/collection file"
 msgstr ""
-"Parcourir pour sélectionner le fichier de file d’attente/de collection de "
+"Parcourir pour sélectionner le fichier de file d'attente/de collection de "
 "pré-démarrage"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, schedulerPostStartupScript)
@@ -30604,7 +30604,7 @@ msgstr ""
 #, kde-format
 msgid "Selected post-startup queue to run after starting Ekos profile"
 msgstr ""
-"File d’attente de post-démarrage sélectionnée pour être exécutée après le "
+"File d'attente de post-démarrage sélectionnée pour être exécutée après le "
 "démarrage du profil Ekos"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, postStartupQueueClearB)
@@ -30619,7 +30619,7 @@ msgstr "Réinitialiser ou restaurer les valeurs par défaut si vide"
 #, kde-format
 msgid "Browse for post-startup queue/collection file"
 msgstr ""
-"Parcourir pour sélectionner le fichier de file d’attente/de collection de "
+"Parcourir pour sélectionner le fichier de file d'attente/de collection de "
 "post-démarrage"
 
 #. i18n: ectx: property (title), widget (QGroupBox, shutdownGroupBox)
@@ -30635,8 +30635,8 @@ msgid ""
 "Enable or disable execution of the shutdown queue. When disabled, no "
 "shutdown procedure will run."
 msgstr ""
-"Activer ou désactiver l’exécution de la file d’attente d’arrêt. Lorsqu’elle "
-"est désactivée, aucune procédure d’arrêt ne sera exécutée."
+"Activer ou désactiver l'exécution de la file d'attente d'arrêt. Lorsqu'elle "
+"est désactivée, aucune procédure d'arrêt ne sera exécutée."
 
 #. i18n: ectx: property (text), widget (QCheckBox, schedulerShutdownEnabled)
 #: ekos/scheduler/scheduler.ui:2198
@@ -30649,7 +30649,7 @@ msgstr "Activer la file d'attente d'arrêt"
 #, kde-format
 msgid "Selected pre-shutdown queue to run before stopping Ekos profile"
 msgstr ""
-"File d’attente de pré-arrêt sélectionnée pour être exécutée avant l’arrêt du "
+"File d'attente de pré-arrêt sélectionnée pour être exécutée avant l'arrêt du "
 "profil Ekos."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, selectPreShutdownQueueB)
@@ -30657,7 +30657,7 @@ msgstr ""
 #, kde-format
 msgid "Browse for pre-shutdown queue/collection file"
 msgstr ""
-"Parcourir pour sélectionner le fichier de file d’attente/de collection de "
+"Parcourir pour sélectionner le fichier de file d'attente/de collection de "
 "pré-arrêt."
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, schedulerPostShutdownScript)
@@ -30665,7 +30665,7 @@ msgstr ""
 #, kde-format
 msgid "Selected post-shutdown queue to run after stopping Ekos profile"
 msgstr ""
-"File d’attente de post-arrêt sélectionnée pour être exécutée après l’arrêt "
+"File d'attente de post-arrêt sélectionnée pour être exécutée après l'arrêt "
 "du profil Ekos."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, selectPostShutdownQueueB)
@@ -30673,7 +30673,7 @@ msgstr ""
 #, kde-format
 msgid "Browse for post-shutdown queue/collection file"
 msgstr ""
-"Parcourir pour sélectionner le fichier de file d’attente/de collection de "
+"Parcourir pour sélectionner le fichier de file d'attente/de collection de "
 "post-arrêt."
 
 #: ekos/scheduler/scheduleraltitudegraph.cpp:205
@@ -30794,7 +30794,7 @@ msgstr[1] ""
 #, kde-format
 msgid "Weather has improved during grace period. Resuming operations."
 msgstr ""
-"La météo s’est améliorée pendant la période de grâce. Reprise des opérations."
+"La météo s'est améliorée pendant la période de grâce. Reprise des opérations."
 
 #: ekos/scheduler/schedulerprocess.cpp:548
 #, kde-format
@@ -30811,8 +30811,8 @@ msgid ""
 "Weather grace period has expired with safety status still %1. Proceeding to "
 "complete shutdown."
 msgstr ""
-"La période de grâce météo a expiré et l’état de sécurité est toujours %1. "
-"Procédure d’arrêt complet en cours."
+"La période de grâce météo a expiré et l'état de sécurité est toujours %1. "
+"Procédure d'arrêt complet en cours."
 
 #: ekos/scheduler/schedulerprocess.cpp:562
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:1018
@@ -30905,7 +30905,7 @@ msgstr ""
 #, kde-format
 msgid "Mount is parked, adding unpark task before slewing."
 msgstr ""
-"La monture est en position de stationnement ; ajout d’une tâche de "
+"La monture est en position de stationnement ; ajout d'une tâche de "
 "déstationnement avant le déplacement."
 
 #: ekos/scheduler/schedulerprocess.cpp:1017
@@ -31092,12 +31092,12 @@ msgstr "Exécution des tâches de post-arrêt depuis %1…"
 #: ekos/scheduler/schedulerprocess.cpp:1826
 #, kde-format
 msgid "Post-shutdown queue is empty, shutdown complete."
-msgstr "La file d’attente de post-arrêt est vide ; arrêt terminé."
+msgstr "La file d'attente de post-arrêt est vide ; arrêt terminé."
 
 #: ekos/scheduler/schedulerprocess.cpp:1832
 #, kde-format
 msgid "Failed to load post-shutdown queue from %1"
-msgstr "Impossible de charger la file d’attente de post-arrêt depuis %1."
+msgstr "Impossible de charger la file d'attente de post-arrêt depuis %1."
 
 #: ekos/scheduler/schedulerprocess.cpp:1847
 #, kde-format
@@ -31112,7 +31112,7 @@ msgstr "Échec de la procédure d'arrêt. Annulation en cours…"
 #: ekos/scheduler/schedulerprocess.cpp:1854
 #, kde-format
 msgid "Entering weather monitoring mode. Waiting for weather to improve..."
-msgstr "Passage en mode de surveillance météo. En attente d’une amélioration…"
+msgstr "Passage en mode de surveillance météo. En attente d'une amélioration…"
 
 #: ekos/scheduler/schedulerprocess.cpp:1964
 #, kde-format
@@ -31127,14 +31127,14 @@ msgstr "Exécution des tâches de pré-démarrage depuis %1…"
 #: ekos/scheduler/schedulerprocess.cpp:1992
 #, kde-format
 msgid "Failed to load pre-startup queue from %1"
-msgstr "Impossible de charger la file d’attente de pré-démarrage depuis %1."
+msgstr "Impossible de charger la file d'attente de pré-démarrage depuis %1."
 
 #: ekos/scheduler/schedulerprocess.cpp:1998
 #, kde-format
 msgid "No pre-startup tasks, pre-startup phase complete. Starting Ekos..."
 msgstr ""
 "Aucune tâche de pré-démarrage, phase de pré-démarrage terminée. Démarrage "
-"d’Ekos..."
+"d'Ekos..."
 
 #: ekos/scheduler/schedulerprocess.cpp:2022
 #, kde-format
@@ -31164,7 +31164,7 @@ msgstr "Exécution des tâches pré-arrêt depuis %1..."
 #: ekos/scheduler/schedulerprocess.cpp:2111
 #, kde-format
 msgid "Failed to load pre-shutdown queue from %1"
-msgstr "Échec du chargement de la file d’attente pré-arrêt depuis %1"
+msgstr "Échec du chargement de la file d'attente pré-arrêt depuis %1"
 
 #: ekos/scheduler/schedulerprocess.cpp:2131
 #, kde-format
@@ -31177,7 +31177,7 @@ msgstr ""
 #: ekos/scheduler/schedulerprocess.cpp:2142
 #, kde-format
 msgid "No pre-shutdown tasks, proceeding to stop Ekos/INDI."
-msgstr "Aucune tâche pré-arrêt, arrêt d’Ekos/INDI en cours."
+msgstr "Aucune tâche pré-arrêt, arrêt d'Ekos/INDI en cours."
 
 #: ekos/scheduler/schedulerprocess.cpp:2185
 #, kde-format
@@ -31309,12 +31309,12 @@ msgstr "L'image est à %1 minutes d'arc de la cible, réalignement en cours…"
 #: ekos/scheduler/schedulerprocess.cpp:3308
 #, kde-format
 msgid "Pre-startup queue completed successfully. Starting Ekos..."
-msgstr "File d’attente pré-démarrage terminée avec succès. Démarrage d’Ekos..."
+msgstr "File d'attente pré-démarrage terminée avec succès. Démarrage d'Ekos..."
 
 #: ekos/scheduler/schedulerprocess.cpp:3316
 #, kde-format
 msgid "Post-startup queue completed successfully."
-msgstr "File d’attente post-démarrage terminée avec succès."
+msgstr "File d'attente post-démarrage terminée avec succès."
 
 #: ekos/scheduler/schedulerprocess.cpp:3323
 #, kde-format
@@ -31326,27 +31326,27 @@ msgstr ""
 #: ekos/scheduler/schedulerprocess.cpp:3339
 #, kde-format
 msgid "Pre-shutdown queue completed successfully."
-msgstr "File d’attente pré-arrêt terminée avec succès."
+msgstr "File d'attente pré-arrêt terminée avec succès."
 
 #: ekos/scheduler/schedulerprocess.cpp:3370
 #, kde-format
 msgid "Post-shutdown queue completed successfully."
-msgstr "File d’attente post-arrêt terminée avec succès."
+msgstr "File d'attente post-arrêt terminée avec succès."
 
 #: ekos/scheduler/schedulerprocess.cpp:3391
 #, kde-format
 msgid "Startup queue failed: %1"
-msgstr "Échec de la file d’attente de démarrage : %1"
+msgstr "Échec de la file d'attente de démarrage : %1"
 
 #: ekos/scheduler/schedulerprocess.cpp:3398
 #, kde-format
 msgid "Pre-shutdown queue failed: %1"
-msgstr "Échec de la file d’attente pré-arrêt : %1"
+msgstr "Échec de la file d'attente pré-arrêt : %1"
 
 #: ekos/scheduler/schedulerprocess.cpp:3405
 #, kde-format
 msgid "Post-shutdown queue failed: %1"
-msgstr "Échec de la file d’attente post-arrêt : %1"
+msgstr "Échec de la file d'attente post-arrêt : %1"
 
 #: ekos/scheduler/schedulerprocess.cpp:3417
 #, kde-format
@@ -31545,13 +31545,13 @@ msgstr ""
 #: ekos/scheduler/schedulerprocess.cpp:4114
 #, kde-format
 msgid "Safety has improved. Resuming operations."
-msgstr "La sécurité s’est améliorée. Reprise des opérations."
+msgstr "La sécurité s'est améliorée. Reprise des opérations."
 
 #: ekos/scheduler/schedulerprocess.cpp:4137
 #, kde-format
 msgid "Safety alert detected. Starting soft shutdown procedure in %1 seconds."
 msgstr ""
-"Alerte de sécurité détectée. Début de la procédure d’arrêt progressif dans "
+"Alerte de sécurité détectée. Début de la procédure d'arrêt progressif dans "
 "%1 secondes."
 
 #: ekos/scheduler/schedulerprocess.cpp:4165
@@ -31568,8 +31568,8 @@ msgstr ""
 msgid ""
 "Observatory scheduled for soft shutdown until safety improves or until %1."
 msgstr ""
-"Observatoire programmé pour un arrêt progressif jusqu’à amélioration de la "
-"sécurité ou jusqu’à %1."
+"Observatoire programmé pour un arrêt progressif jusqu'à amélioration de la "
+"sécurité ou jusqu'à %1."
 
 #: ekos/scheduler/schedulerprocess.cpp:4195
 #, kde-format
@@ -31613,7 +31613,7 @@ msgstr ""
 #: ekos/scheduler/schedulerprocess.cpp:4814
 #, kde-format
 msgid "Startup Queue Failed"
-msgstr "Échec de la file d’attente de démarrage"
+msgstr "Échec de la file d'attente de démarrage"
 
 #: ekos/scheduler/schedulerprocess.cpp:4815
 #, kde-format
@@ -31676,14 +31676,14 @@ msgstr "Le périphérique de surveillance autonome de la sécurité %1 est prêt
 #: ekos/scheduler/schedulersafetymonitor.cpp:219
 #, kde-format
 msgid "Warning: Device %1 is not valid"
-msgstr "Avertissement : le périphérique %1 n’est pas valide"
+msgstr "Avertissement : le périphérique %1 n'est pas valide"
 
 #: ekos/scheduler/schedulersafetymonitor.cpp:235
 #, kde-format
 msgid "Warning: Standalone safety monitor device %1 disconnected"
 msgstr ""
 "Avertissement : le périphérique de surveillance autonome de la sécurité %1 "
-"s’est déconnecté"
+"s'est déconnecté"
 
 #: ekos/scheduler/schedulersafetymonitor.cpp:249
 #: ekos/scheduler/schedulersafetymonitor.cpp:293
@@ -31825,12 +31825,12 @@ msgstr "Aucun périphérique compatible trouvé"
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:506
 #, kde-format
 msgid "Optical Train Manager not available"
-msgstr "Le gestionnaire de train optique n’est pas disponible"
+msgstr "Le gestionnaire de train optique n'est pas disponible"
 
 #: ekos/scheduler/taskqueue/ui/deviceselectiondialog.cpp:201
 #, kde-format
 msgid "Scheduler state not available"
-msgstr "L’état du planificateur n’est pas disponible"
+msgstr "L'état du planificateur n'est pas disponible"
 
 #: ekos/scheduler/taskqueue/ui/deviceselectiondialog.cpp:215
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:474
@@ -31976,7 +31976,7 @@ msgstr "Élément"
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:230
 #, kde-format
 msgid "Action Settings"
-msgstr "Paramètres d’action"
+msgstr "Paramètres d'action"
 
 #. i18n: ectx: property (text), widget (QLabel, imageOverlayTimeoutLabel)
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:237
@@ -31993,7 +31993,7 @@ msgstr "Tentatives"
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:245
 #, kde-format
 msgid "Abort Queue"
-msgstr "Abandonner la file d’attente"
+msgstr "Abandonner la file d'attente"
 
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:247
 #, kde-format
@@ -32128,7 +32128,7 @@ msgstr "%1 propriétés disponibles"
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:966
 #, kde-format
 msgid "SET Action Configuration"
-msgstr "Configuration de l’action SET"
+msgstr "Configuration de l'action SET"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:869
@@ -32144,7 +32144,7 @@ msgstr "Valeur"
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:1010
 #, kde-format
 msgid "EVALUATE Action Configuration"
-msgstr "Configuration de l’action EVALUATE"
+msgstr "Configuration de l'action EVALUATE"
 
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:876
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:978
@@ -32290,7 +32290,7 @@ msgstr "Erreur d'enregistrement"
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:1429
 #, kde-format
 msgid "Failed to open file for writing: %1"
-msgstr "Impossible d’ouvrir le fichier en écriture : %1"
+msgstr "Impossible d'ouvrir le fichier en écriture : %1"
 
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:1466
 #, kde-format
@@ -32300,7 +32300,7 @@ msgstr "Erreur de modèle"
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:1467
 #, kde-format
 msgid "Failed to create template object from JSON."
-msgstr "Impossible de créer l’objet modèle à partir du JSON."
+msgstr "Impossible de créer l'objet modèle à partir du JSON."
 
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:40
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:1061
@@ -32368,7 +32368,7 @@ msgstr "Descendre"
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:517
 #, kde-format
 msgid "Queue idle"
-msgstr "File d’attente inactive"
+msgstr "File d'attente inactive"
 
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:252
 #, kde-format
@@ -32378,7 +32378,7 @@ msgstr "Total : %1 Terminé : %2 Échoué : %3 En attente : %4"
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:296
 #, kde-format
 msgid "Queue Start Failed"
-msgstr "Échec du démarrage de la file d’attente"
+msgstr "Échec du démarrage de la file d'attente"
 
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:297
 #, kde-format
@@ -32397,14 +32397,14 @@ msgstr ""
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:393
 #, kde-format
 msgid "Queue Running"
-msgstr "File d’attente en cours d’exécution"
+msgstr "File d'attente en cours d'exécution"
 
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:394
 #, kde-format
 msgid "Cannot edit tasks while queue is running. Please stop the queue first."
 msgstr ""
-"Impossible de modifier les tâches lorsque la file d’attente est en cours "
-"d’exécution. Veuillez d’abord arrêter la file d’attente."
+"Impossible de modifier les tâches lorsque la file d'attente est en cours "
+"d'exécution. Veuillez d'abord arrêter la file d'attente."
 
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:410
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:968
@@ -32416,7 +32416,7 @@ msgstr "Gestionnaire de modèles indisponible"
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:978
 #, kde-format
 msgid "Failed to initialize template library"
-msgstr "Impossible d’initialiser la bibliothèque de modèles"
+msgstr "Impossible d'initialiser la bibliothèque de modèles"
 
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:429
 #, kde-format
@@ -32465,17 +32465,17 @@ msgstr "File d'attente terminée"
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:529
 #, kde-format
 msgid "Queue aborted"
-msgstr "File d’attente abandonnée"
+msgstr "File d'attente abandonnée"
 
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:559
 #, kde-format
 msgid "Queue completed successfully"
-msgstr "File d’attente terminée avec succès"
+msgstr "File d'attente terminée avec succès"
 
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:598
 #, kde-format
 msgid "Item failed: %1"
-msgstr "Échec de l’élément : %1"
+msgstr "Échec de l'élément : %1"
 
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:643
 #, kde-format
@@ -32577,7 +32577,7 @@ msgstr "Impossible de créer la tâche depuis le modèle : %1"
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:1031
 #, kde-format
 msgid "No tasks were added from collection '%1'."
-msgstr "Aucune tâche n’a été ajoutée depuis la collection « %1 »."
+msgstr "Aucune tâche n'a été ajoutée depuis la collection « %1 »."
 
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:1036
 #, kde-format
@@ -32588,7 +32588,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"%1 tâches n’ont pas pu être chargées."
+"%1 tâches n'ont pas pu être chargées."
 
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:1041
 #, kde-format
@@ -32615,7 +32615,7 @@ msgstr "Enregistrer les modifications ?"
 #, kde-format
 msgid "The queue has unsaved changes. Do you want to save them?"
 msgstr ""
-"La file d’attente contient des modifications non enregistrées. Voulez-vous "
+"La file d'attente contient des modifications non enregistrées. Voulez-vous "
 "les enregistrer ?"
 
 #: ekos/scheduler/taskqueue/ui/templatelibrarywidget.cpp:31
@@ -32656,7 +32656,7 @@ msgstr "Paramètres"
 #: ekos/scheduler/taskqueue/ui/templatelibrarywidget.cpp:319
 #, kde-format
 msgid "Number of actions"
-msgstr "Nombre d’actions"
+msgstr "Nombre d'actions"
 
 #: ekos/scheduler/taskqueue/ui/templatelibrarywidget.cpp:325
 #, kde-format
@@ -32709,7 +32709,7 @@ msgid ""
 "very reliable<br/><br/><b>OpenCV</b>: Experimental OpenCV-based debayer "
 "engine<br/>• Faster than libdc1394<br/>• Better edge handling"
 msgstr ""
-"<b>DC1394</b> : utilise l’ancien moteur de dématriçage de libdc1394<br/>• "
+"<b>DC1394</b> : utilise l'ancien moteur de dématriçage de libdc1394<br/>• "
 "Plus lent mais très fiable<br/><br/><b>OpenCV</b> : moteur de dématriçage "
 "expérimental basé sur OpenCV<br/>• Plus rapide que libdc1394<br/>• Meilleure "
 "gestion des contours"
@@ -33509,7 +33509,7 @@ msgctxt "Column header"
 msgid ""
 "Load Wait\n"
 "Time(s)"
-msgstr "Temps d’attente de chargement (s)"
+msgstr "Temps d'attente de chargement (s)"
 
 #: fitsviewer/fitsstackmonitor.h:267
 #, kde-format
@@ -33630,7 +33630,7 @@ msgstr ""
 msgctxt "Tooltip for Stack Wait Time column"
 msgid "Wait time for sufficient subs to start stacking"
 msgstr ""
-"Délai d’attente pour disposer d’assez de brutes afin de démarrer l’empilement"
+"Délai d'attente pour disposer d'assez de brutes afin de démarrer l'empilement"
 
 #: fitsviewer/fitsstackmonitor.h:314
 #, kde-format
@@ -33753,7 +33753,7 @@ msgstr "Δx"
 msgctxt "Tooltip for Δx column"
 msgid "X-axis shift in pixels compared to alignment master"
 msgstr ""
-"Décalage sur l’axe X en pixels par rapport à la brute d’alignement de "
+"Décalage sur l'axe X en pixels par rapport à la brute d'alignement de "
 "référence"
 
 #: fitsviewer/fitsstackmonitor.h:361
@@ -33767,7 +33767,7 @@ msgstr "Δy"
 msgctxt "Tooltip for Δy column"
 msgid "Y-axis shift in pixels compared to alignment master"
 msgstr ""
-"Décalage sur l’axe Y en pixels par rapport à la brute d’alignement de "
+"Décalage sur l'axe Y en pixels par rapport à la brute d'alignement de "
 "référence"
 
 #: fitsviewer/fitsstackmonitor.h:366
@@ -34620,10 +34620,10 @@ msgid ""
 "will be plate solved in order to align them prior to stacking.</p></body></"
 "html>"
 msgstr ""
-"<html><head/><body><p>Méthode d’alignement&nbsp;:</p><p>- Aucune. Aucun "
-"alignement n’est effectué. Utile pour empiler des darks et des flats.</"
+"<html><head/><body><p>Méthode d'alignement&nbsp;:</p><p>- Aucune. Aucun "
+"alignement n'est effectué. Utile pour empiler des darks et des flats.</"
 "p><p>- Résolution astrométrique. Les brutes seront résolues "
-"astrométriquement afin de les aligner avant l’empilement.</p></body></html>"
+"astrométriquement afin de les aligner avant l'empilement.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, AlignMaster)
 #: fitsviewer/livestacking.ui:153
@@ -34655,13 +34655,13 @@ msgid ""
 "html>"
 msgstr ""
 "<html><head/><body><p>Boîte de dialogue de sélection de fichier pour la "
-"brute d’alignement de référence</p></body></html>"
+"brute d'alignement de référence</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, AlignmentMinimized)
 #: fitsviewer/livestacking.ui:235
 #, kde-format
 msgid "Configure alignment options in this section."
-msgstr "Configurer les options d’alignement dans cette section."
+msgstr "Configurer les options d'alignement dans cette section."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, StartB)
 #: fitsviewer/livestacking.ui:314
@@ -34698,7 +34698,7 @@ msgstr "0 / 0 / 0"
 #, kde-format
 msgid "<html><head/><body><p>Launch Live Stacker Monitor</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Lancer la surveillance de l’empileur en direct</p></"
+"<html><head/><body><p>Lancer la surveillance de l'empileur en direct</p></"
 "body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, GreenDirB)
@@ -34723,7 +34723,7 @@ msgstr ""
 msgid "<html><head/><body><p>Stack directory chooser dialog</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Boîte de dialogue de sélection du dossier "
-"d’empilement</p></body></html>"
+"d'empilement</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, BlueLabel)
 #: fitsviewer/livestacking.ui:441
@@ -34739,7 +34739,7 @@ msgid ""
 "and the final image.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Cochez cette option pour activer le calcul du SNR sur "
-"chaque brute et sur l’image finale.</p></body></html>"
+"chaque brute et sur l'image finale.</p></body></html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, CalcSNR)
 #: fitsviewer/livestacking.ui:472
@@ -34974,7 +34974,7 @@ msgid ""
 "Reduce if images appear over processed, e.g. star ringing.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Kappa limite la mise à jour des pixels dans la plage 1/"
-"kappa à kappa par rapport à la valeur d’origine. Ainsi, 1 signifie aucun "
+"kappa à kappa par rapport à la valeur d'origine. Ainsi, 1 signifie aucun "
 "changement ; plus kappa est élevé, plus les mises à jour possibles sont "
 "importantes.</p><p>Les valeurs usuelles se situent entre 1,5 et 2,0. "
 "Réduisez-la si les images semblent trop traitées (p.&nbsp;ex. halos autour "
@@ -34999,7 +34999,7 @@ msgid ""
 msgstr ""
 "<html><head/><body><p>Nombre maximal de brutes conservées en mémoire pendant "
 "le traitement. Plus la valeur est élevée, meilleure est la qualité de "
-"l’empilement, au prix d’un temps de traitement plus long et d’une "
+"l'empilement, au prix d'un temps de traitement plus long et d'une "
 "consommation mémoire accrue.</p><p>Des processus comme le rejet sigma "
 "utilisent ce nombre de brutes pour calculer des statistiques appliquées à "
 "toutes les brutes.</p></body></html>"
@@ -35064,11 +35064,11 @@ msgid ""
 "https://iopscience.iop.org/article/10.3847/1538-3881/adfb72 NOTE: this "
 "method is very resource intensive</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Méthode d’empilement&nbsp;:</p><p>- Moyenne. Utilise "
-"une moyenne arithmétique simple. Aucun rejet de pixels n’est appliqué.</"
+"<html><head/><body><p>Méthode d'empilement&nbsp;:</p><p>- Moyenne. Utilise "
+"une moyenne arithmétique simple. Aucun rejet de pixels n'est appliqué.</"
 "p><p>- Rejet sigma. Les pixels aberrants sont rejetés.</p><p>- Rejet sigma "
 "winsorisé. Version winsorisée du rejet sigma.</p><p>- ImageMM. Implémente "
-"l’empilement ImageMM conformément à https://iopscience.iop.org/article/"
+"l'empilement ImageMM conformément à https://iopscience.iop.org/article/"
 "10.3847/1538-3881/adfb72 REMARQUE&nbsp;: cette méthode est très gourmande en "
 "ressources.</p></body></html>"
 
@@ -35098,7 +35098,7 @@ msgid ""
 "Update</p><p>n = update PSF every n iterations</p><p><br/></p><p>Can cause "
 "star ringing if applied too frequently.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Adapter la PSF utilisée dans l’algorithme ImageMM.</"
+"<html><head/><body><p>Adapter la PSF utilisée dans l'algorithme ImageMM.</"
 "p><p>0 = aucune mise à jour de la PSF</p><p>n = mise à jour de la PSF toutes "
 "les n itérations</p><p><br/></p><p>Peut provoquer des halos autour des "
 "étoiles si appliqué trop fréquemment.</p></body></html>"
@@ -35127,9 +35127,9 @@ msgid ""
 "intensive</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Algorithme de rejet de pixels&nbsp;:</p><p>- Aucun. "
-"Aucun rejet n’est appliqué.</p><p>- Rejet sigma. Les pixels aberrants sont "
+"Aucun rejet n'est appliqué.</p><p>- Rejet sigma. Les pixels aberrants sont "
 "rejetés.</p><p>- Rejet sigma winsorisé. Version winsorisée du rejet sigma.</"
-"p><p>- ImageMM. Implémente l’empilement ImageMM conformément à https://"
+"p><p>- ImageMM. Implémente l'empilement ImageMM conformément à https://"
 "iopscience.iop.org/article/10.3847/1538-3881/adfb72 REMARQUE&nbsp;: cette "
 "méthode est très gourmande en ressources.</p></body></html>"
 
@@ -35147,7 +35147,7 @@ msgid ""
 "<html><head/><body><p>Sigma Scale is the MAD multiplier to remove outliers "
 "(usually in the range 0.6 - 0.9)</p></body></html>"
 msgstr ""
-"<html><head/><body><p>L’échelle sigma est le multiplicateur de la MAD "
+"<html><head/><body><p>L'échelle sigma est le multiplicateur de la MAD "
 "utilisé pour supprimer les valeurs aberrantes (généralement entre 0,6 et "
 "0,9).</p></body></html>"
 
@@ -35182,7 +35182,7 @@ msgid ""
 "Update</p><p>n = update PSF every n iterations</p><p><br/></p><p>Can cause "
 "star ringing if applied too frequently.</p><p><br/></p></body></html>"
 msgstr ""
-"<html><head/><body><p>Adapter la PSF utilisée dans l’algorithme ImageMM.</"
+"<html><head/><body><p>Adapter la PSF utilisée dans l'algorithme ImageMM.</"
 "p><p>0 = aucune mise à jour de la PSF</p><p>n = mise à jour de la PSF toutes "
 "les n itérations</p><p><br/></p><p>Peut provoquer des halos autour des "
 "étoiles si appliqué trop fréquemment.</p><p><br/></p></body></html>"
@@ -35195,7 +35195,7 @@ msgid ""
 "<html><head/><body><p>Number of iterations. Keep low to minimize processing "
 "overhead</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Nombre d’itérations. Gardez-le faible pour limiter la "
+"<html><head/><body><p>Nombre d'itérations. Gardez-le faible pour limiter la "
 "surcharge de traitement.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, IterationsLabel)
@@ -35409,7 +35409,7 @@ msgstr "Retraitement"
 #, kde-format
 msgid "<html><head/><body><p>Sharpen kernal size.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Taille du noyau d’accentuation.</p></body></html>"
+"<html><head/><body><p>Taille du noyau d'accentuation.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, DenoiseLabel)
 #: fitsviewer/livestacking.ui:2090
@@ -36166,7 +36166,7 @@ msgid ""
 "image if requested to do so.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Traite les images FITS 3D (RVB). Si cette option est "
-"décochée, seul le premier canal est traité.</p><p>REMARQUE : l’empileur en "
+"décochée, seul le premier canal est traité.</p><p>REMARQUE : l'empileur en "
 "direct affichera toujours une image en couleur si cela lui est demandé.</p></"
 "body></html>"
 
@@ -42788,14 +42788,14 @@ msgstr "Algorithme de dématriçage à utiliser pour les images."
 #, kde-format
 msgid "Debayer engine to use on live stack subs."
 msgstr ""
-"Moteur de dématriçage à utiliser pour les brutes de l’empilement en direct."
+"Moteur de dématriçage à utiliser pour les brutes de l'empilement en direct."
 
 #. i18n: ectx: label, entry (StackDebayerAlgo), group (General)
 #: kstars.kcfg:1685
 #, kde-format
 msgid "Debayer algo to use on live stack subs."
 msgstr ""
-"Algorithme de dématriçage à utiliser pour les brutes de l’empilement en "
+"Algorithme de dématriçage à utiliser pour les brutes de l'empilement en "
 "direct."
 
 #. i18n: ectx: label, entry (FITSWindowGeometry), group (FITSViewer)
@@ -42968,7 +42968,7 @@ msgid ""
 "JSON storing the assignment of profile indices to module profiles for the "
 "FITS Viewer Solver"
 msgstr ""
-"Fichier JSON contenant l’association des indices de profils aux profils de "
+"Fichier JSON contenant l'association des indices de profils aux profils de "
 "module pour le résolveur de l'afficheur FITS"
 
 #. i18n: ectx: label, entry (FitsCatalog), group (FITSViewer)
@@ -43017,38 +43017,38 @@ msgstr "Angle (en degrés) à utiliser pour la résolution de l'afficheur Fits"
 #: kstars.kcfg:1811
 #, kde-format
 msgid "Live Stacking Minimise General Options Widget"
-msgstr "Réduire le widget des options générales de l’empilement en direct"
+msgstr "Réduire le widget des options générales de l'empilement en direct"
 
 #. i18n: ectx: whatsthis, entry (fitsLSHideCalibration), group (FITSViewer)
 #: kstars.kcfg:1815
 #, kde-format
 msgid "Live Stacking Minimise Calibration Options Widget"
-msgstr "Réduire le widget des options de calibration de l’empilement en direct"
+msgstr "Réduire le widget des options de calibration de l'empilement en direct"
 
 #. i18n: ectx: whatsthis, entry (fitsLSHideAlignment), group (FITSViewer)
 #: kstars.kcfg:1819
 #, kde-format
 msgid "Live Stacking Minimise Alignment Options Widget"
-msgstr "Réduire le widget des options d'alignement de l’empilement en direct"
+msgstr "Réduire le widget des options d'alignement de l'empilement en direct"
 
 #. i18n: ectx: whatsthis, entry (fitsLSHideStacking), group (FITSViewer)
 #: kstars.kcfg:1823
 #, kde-format
 msgid "Live Stacking Minimise Stacking Options Widget"
-msgstr "Réduire le widget des options d'empilement de l’empilement en direct"
+msgstr "Réduire le widget des options d'empilement de l'empilement en direct"
 
 #. i18n: ectx: whatsthis, entry (fitsLSHidePostProc), group (FITSViewer)
 #: kstars.kcfg:1827
 #, kde-format
 msgid "Live Stacking Minimise Post-Processing Options Widget"
 msgstr ""
-"Réduire le widget des options de post-traitement de l’empilement en direct"
+"Réduire le widget des options de post-traitement de l'empilement en direct"
 
 #. i18n: ectx: whatsthis, entry (fitsLSCalcSNR), group (FITSViewer)
 #: kstars.kcfg:1831
 #, kde-format
 msgid "Live Stacking calculate SNR switch"
-msgstr "Interrupteur de calcul du SRN de l’empilement en direct"
+msgstr "Interrupteur de calcul du SRN de l'empilement en direct"
 
 #. i18n: ectx: whatsthis, entry (fitsLSMasterDark), group (FITSViewer)
 #: kstars.kcfg:1835
@@ -43133,38 +43133,38 @@ msgstr "Coupure Sigma windzor de l'empilement live"
 #, kde-format
 msgid "Live Stacking Iterations to use in ImageMM stacking"
 msgstr ""
-"Empilement en direct : nombre d’itérations à utiliser pour l’empilement "
+"Empilement en direct : nombre d'itérations à utiliser pour l'empilement "
 "ImageMM"
 
 #. i18n: ectx: label, entry (fitsLSKappa), group (FITSViewer)
 #: kstars.kcfg:1891
 #, kde-format
 msgid "Live Stacking ImageMM kappa"
-msgstr "Empilement en direct : kappa d’ImageMM"
+msgstr "Empilement en direct : kappa d'ImageMM"
 
 #. i18n: ectx: label, entry (fitsLSAlpha), group (FITSViewer)
 #: kstars.kcfg:1895
 #, kde-format
 msgid "Live Stacking ImageMM alpha"
-msgstr "Empilement en direct : alpha d’ImageMM"
+msgstr "Empilement en direct : alpha d'ImageMM"
 
 #. i18n: ectx: label, entry (fitsLSSigma), group (FITSViewer)
 #: kstars.kcfg:1899
 #, kde-format
 msgid "Live Stacking ImageMM sigma"
-msgstr "Empilement en direct : sigma d’ImageMM"
+msgstr "Empilement en direct : sigma d'ImageMM"
 
 #. i18n: ectx: label, entry (fitsPSFUpdate), group (FITSViewer)
 #: kstars.kcfg:1903
 #, kde-format
 msgid "Live Stacking ImageMM PSF Update interval"
-msgstr "Empilement en direct : intervalle de mise à jour de la PSF d’ImageMM"
+msgstr "Empilement en direct : intervalle de mise à jour de la PSF d'ImageMM"
 
 #. i18n: ectx: whatsthis, entry (fitsLSPostProc), group (FITSViewer)
 #: kstars.kcfg:1907
 #, kde-format
 msgid "Live Stacking Post Processing switch"
-msgstr "Interrupteur de post-traitement de l’empilement en direct"
+msgstr "Interrupteur de post-traitement de l'empilement en direct"
 
 #. i18n: ectx: label, entry (fitsLSGradientAmt), group (FITSViewer)
 #: kstars.kcfg:1911
@@ -43212,25 +43212,25 @@ msgstr "Sigma d'affinage pour l'empilement live"
 #: kstars.kcfg:1939
 #, kde-format
 msgid "Geometry of Live Stacking Monitor window"
-msgstr "Géométrie de la fenêtre de surveillance de l’empilement en direct"
+msgstr "Géométrie de la fenêtre de surveillance de l'empilement en direct"
 
 #. i18n: ectx: label, entry (fitsLSMVisibleColumns), group (FITSViewer)
 #: kstars.kcfg:1943
 #, kde-format
 msgid "Live Stacking Monitor column visibility"
-msgstr "Visibilité des colonnes de la surveillance de l’empilement en direct"
+msgstr "Visibilité des colonnes de la surveillance de l'empilement en direct"
 
 #. i18n: ectx: label, entry (fitsLSMColumnWidths), group (FITSViewer)
 #: kstars.kcfg:1947
 #, kde-format
 msgid "Live Stacking Monitor column widths"
-msgstr "Largeur des colonnes de la surveillance de l’empilement en direct"
+msgstr "Largeur des colonnes de la surveillance de l'empilement en direct"
 
 #. i18n: ectx: label, entry (fitsLSMHighlighting), group (FITSViewer)
 #: kstars.kcfg:1957
 #, kde-format
 msgid "Live Stacking Monitor highlighting."
-msgstr "Mise en surbrillance de la surveillance de l’empilement en direct."
+msgstr "Mise en surbrillance de la surveillance de l'empilement en direct."
 
 #. i18n: ectx: label, entry (fitsLSWebcastTitle), group (FITSViewer)
 #: kstars.kcfg:1961
@@ -45935,7 +45935,7 @@ msgstr ""
 #: kstars.kcfg:3495
 #, kde-format
 msgid "Enable startup queue execution"
-msgstr "Activer l’exécution de la file d’attente de démarrage"
+msgstr "Activer l'exécution de la file d'attente de démarrage"
 
 #. i18n: ectx: whatsthis, entry (SchedulerStartupEnabled), group (Scheduler)
 #: kstars.kcfg:3496
@@ -45944,15 +45944,15 @@ msgid ""
 "If enabled, the startup queue will be executed when the scheduler starts. If "
 "disabled, no startup procedure will run."
 msgstr ""
-"Si cette option est activée, la file d’attente de démarrage sera exécutée au "
-"lancement de l’ordonnanceur. Si elle est désactivée, aucune procédure de "
+"Si cette option est activée, la file d'attente de démarrage sera exécutée au "
+"lancement de l'ordonnanceur. Si elle est désactivée, aucune procédure de "
 "démarrage ne sera exécutée."
 
 #. i18n: ectx: label, entry (SchedulerPreStartupScript), group (Scheduler)
 #: kstars.kcfg:3500
 #, kde-format
 msgid "Path to startup queue file or script."
-msgstr "Chemin vers le fichier ou script de la file d’attente de démarrage."
+msgstr "Chemin vers le fichier ou script de la file d'attente de démarrage."
 
 #. i18n: ectx: whatsthis, entry (SchedulerPreStartupScript), group (Scheduler)
 #: kstars.kcfg:3501
@@ -45961,15 +45961,15 @@ msgid ""
 "Path to the startup queue file to execute when starting the scheduler before "
 "starting the equipment profile."
 msgstr ""
-"Chemin vers le fichier de file d’attente de démarrage à exécuter lors du "
-"lancement de l’ordonnanceur, avant le démarrage du profil de l’équipement."
+"Chemin vers le fichier de file d'attente de démarrage à exécuter lors du "
+"lancement de l'ordonnanceur, avant le démarrage du profil de l'équipement."
 
 #. i18n: ectx: label, entry (SchedulerPostStartupScript), group (Scheduler)
 #: kstars.kcfg:3504
 #, kde-format
 msgid "Path to post-startup queue file or script."
 msgstr ""
-"Chemin vers le fichier ou script de la file d’attente de post-démarrage."
+"Chemin vers le fichier ou script de la file d'attente de post-démarrage."
 
 #. i18n: ectx: whatsthis, entry (SchedulerPostStartupScript), group (Scheduler)
 #: kstars.kcfg:3505
@@ -45978,8 +45978,8 @@ msgid ""
 "Path to the startup queue file to execute when starting the scheduler after "
 "starting the equipment profile."
 msgstr ""
-"Chemin vers le fichier de file d’attente de post-démarrage à exécuter lors "
-"du lancement de l’ordonnanceur, après le démarrage du profil de l’équipement."
+"Chemin vers le fichier de file d'attente de post-démarrage à exécuter lors "
+"du lancement de l'ordonnanceur, après le démarrage du profil de l'équipement."
 
 #. i18n: ectx: label, entry (SchedulerShutdownEnabled), group (Scheduler)
 #: kstars.kcfg:3509
@@ -45994,15 +45994,15 @@ msgid ""
 "If enabled, the shutdown queue will be executed when the scheduler shuts "
 "down. If disabled, no shutdown procedure will run."
 msgstr ""
-"Si cette option est activée, la file d’attente d’arrêt sera exécutée lors de "
-"l’arrêt de l’ordonnanceur. Si elle est désactivée, aucune procédure d’arrêt "
+"Si cette option est activée, la file d'attente d'arrêt sera exécutée lors de "
+"l'arrêt de l'ordonnanceur. Si elle est désactivée, aucune procédure d'arrêt "
 "ne sera exécutée."
 
 #. i18n: ectx: label, entry (SchedulerPreShutdownScript), group (Scheduler)
 #: kstars.kcfg:3514
 #, kde-format
 msgid "Path to shutdown queue file or script."
-msgstr "Chemin vers le fichier ou script de la file d’attente d’arrêt."
+msgstr "Chemin vers le fichier ou script de la file d'attente d'arrêt."
 
 #. i18n: ectx: whatsthis, entry (SchedulerPreShutdownScript), group (Scheduler)
 #: kstars.kcfg:3515
@@ -46011,14 +46011,14 @@ msgid ""
 "Path to the shutdown queue file to execute when stopping the scheduler "
 "before stopping the equipment profile."
 msgstr ""
-"Chemin vers le fichier de file d’attente de pré-arrêt à exécuter lors de "
-"l’arrêt de l’ordonnanceur, avant l’arrêt du profil de l’équipement."
+"Chemin vers le fichier de file d'attente de pré-arrêt à exécuter lors de "
+"l'arrêt de l'ordonnanceur, avant l'arrêt du profil de l'équipement."
 
 #. i18n: ectx: label, entry (SchedulerPostShutdownScript), group (Scheduler)
 #: kstars.kcfg:3519
 #, kde-format
 msgid "Path to post-shutdown queue file or script."
-msgstr "Chemin vers le fichier ou script de la file d’attente de post-arrêt."
+msgstr "Chemin vers le fichier ou script de la file d'attente de post-arrêt."
 
 #. i18n: ectx: whatsthis, entry (SchedulerPostShutdownScript), group (Scheduler)
 #: kstars.kcfg:3520
@@ -46027,8 +46027,8 @@ msgid ""
 "Path to the shutdown queue file to execute when stopping the scheduler after "
 "stopping the equipment profile."
 msgstr ""
-"Chemin vers le fichier de file d’attente de post-arrêt à exécuter lors de "
-"l’arrêt de l’ordonnanceur, après l’arrêt du profil de l’équipement."
+"Chemin vers le fichier de file d'attente de post-arrêt à exécuter lors de "
+"l'arrêt de l'ordonnanceur, après l'arrêt du profil de l'équipement."
 
 #. i18n: ectx: label, entry (SchedulerFocusStep), group (Scheduler)
 #: kstars.kcfg:3523
@@ -86461,7 +86461,7 @@ msgstr "Démarrer avec l'horloge en pause."
 #: main.cpp:238
 #, kde-format
 msgid "Run Live Stacker standalone mode"
-msgstr "Exécuter l’empileur en direct en mode autonome"
+msgstr "Exécuter l'empileur en direct en mode autonome"
 
 #: main.cpp:241
 #, kde-format
@@ -88048,8 +88048,8 @@ msgid ""
 "weight:600;\">max. focus frame</span> option in the Focus options.</p></"
 "body></html>"
 msgstr ""
-"<html><head/><body><p>Option remplacée par l’option <span style=\" font-"
-"weight:600;\">nb max d’images de mise au point</span> dans les options de "
+"<html><head/><body><p>Option remplacée par l'option <span style=\" font-"
+"weight:600;\">nb max d'images de mise au point</span> dans les options de "
 "mise au point.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SaveFocusImages)
@@ -88091,7 +88091,7 @@ msgstr ""
 #: options/opsdeveloper.ui:117
 #, kde-format
 msgid "Image Debayer:"
-msgstr "Dématriçage de l’image"
+msgstr "Dématriçage de l'image"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_2)
 #: options/opsdeveloper.ui:131
@@ -88101,7 +88101,7 @@ msgid ""
 "</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Paramètres de dématriçage à appliquer aux brutes de "
-"l’empileur en direct.</p></body></html>"
+"l'empileur en direct.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: options/opsdeveloper.ui:134
