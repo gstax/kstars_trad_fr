@@ -2309,7 +2309,7 @@ msgstr ""
 "aussi bien que ceux nécessitant un instrument. Il s'adresse à la fois aux "
 "astronomes débutants ou expérimentés. En cliquant sur une catégorie ou un "
 "catalogue, une liste d'objets apparaît. Cliquez sur un objet dans la liste, "
-"les détails le concernant s'afficheront. Si on dispose de miniatures ou "
+"les détails le concernant s'afficheront. Si on dispose de vignettes ou "
 "d'informations Wikipedia, elles s'afficheront également. Sinon, vous pouvez "
 "les télécharger. En élargissant la fenêtre « Digne d'intérêt », l'affichage "
 "se modifiera dynamiquement. Voir ci-dessous pour le descriptif de chaque "
@@ -15933,7 +15933,7 @@ msgstr ""
 "dans leur forme courte que longue.</li><li style=\" margin-top:0px; margin-"
 "bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
 "indent:0px;\">N'utilisez la balise %Datetime que dans la partie nom de "
-"fichier du format, pas dans la définition du chemin.</li></ul></body></html>"
+"fichier du format, pas dans la définition de l'emplacement.</li></ul></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, remoteLabel)
 #: ekos/capture/camera.ui:1900
@@ -32071,7 +32071,7 @@ msgstr "Fournissez un nom, une description et une catégorie pour votre modèle.
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:334
 #, kde-format
 msgid "Step 5: Preview and Save"
-msgstr "Étape 5 : prévisualiser et enregistrer"
+msgstr "Étape 5 : Aperçu et enregistrement"
 
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:335
 #, kde-format
@@ -93638,7 +93638,7 @@ msgid ""
 "See Data -> Download New Data if not..."
 msgstr ""
 "Vous devez charger un catalogue pour pouvoir utiliser cet outil.\n"
-"Utiliser le bouton Charger le Catalogue si présent. Voir Données -> "
+"Utiliser le bouton Charger le Catalogue si présent. Voir Données / "
 "Télécharger de nouvelles données…"
 
 #: tools/imagingplanner.cpp:2399
@@ -94470,7 +94470,7 @@ msgstr ""
 #: tools/imagingplanner.ui:2102
 #, kde-format
 msgid "keyword"
-msgstr "mot-clé"
+msgstr "mot clé"
 
 #. i18n: ectx: property (text), widget (QLabel, ImageFrameLabel)
 #. i18n: ectx: property (text), widget (QLabel, ImageFrameLabel2)
