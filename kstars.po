@@ -25185,7 +25185,7 @@ msgstr ""
 #: ekos/guide/opsguide.ui:153
 #, kde-format
 msgid "Integral gain (deprecated)"
-msgstr "Gain intégral (obsolète)"
+msgstr "Gain intégral (déconseillé)"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, l_11)
 #: ekos/guide/opsguide.ui:176
@@ -30935,7 +30935,7 @@ msgstr "Attention : le fichier FITS de la cible de la tâche %1 n'existe pas."
 msgid "Warning: job '%1' loadAndSlew request received DBUS error: %2"
 msgstr ""
 "Attention : la tâche « %1 » a émis une requête loadAndSlew qui a reçu l'erreur "
-"DBus : %2."
+"D-Bus : %2."
 
 #: ekos/scheduler/schedulerprocess.cpp:1264
 #, kde-format
@@ -30951,7 +30951,7 @@ msgstr "La tâche %1 est en cours de la résolution %2."
 #, kde-format
 msgid "Warning: job '%1' setTargetCoords request received DBUS error: %2"
 msgstr ""
-"Attention : la requête de la tâche setTargetCoords %1 a reçu l'erreur DBus "
+"Attention : la requête de la tâche setTargetCoords %1 a reçu l'erreur D-Bus "
 "%2."
 
 #: ekos/scheduler/schedulerprocess.cpp:1300
@@ -30960,13 +30960,13 @@ msgid ""
 "Warning: job '%1' setTargetPositionAngle request received DBUS error: %2"
 msgstr ""
 "Attention : la requête de la tâche setTargetPositionAngle %1 a reçu l'erreur "
-"DBus %2."
+"D-Bus %2."
 
 #: ekos/scheduler/schedulerprocess.cpp:1313
 #, kde-format
 msgid "Warning: job '%1' captureAndSolve request received DBUS error: %2"
 msgstr ""
-"Attention : la requête de la tâche captureAndSolve %1 a reçu l'erreur DBus "
+"Attention : la requête de la tâche captureAndSolve %1 a reçu l'erreur D-Bus "
 "%2."
 
 #: ekos/scheduler/schedulerprocess.cpp:1324
@@ -31646,13 +31646,13 @@ msgid ""
 "'host:port'"
 msgstr ""
 "Avertissement : format de chaîne de connexion de surveillance de la sécurité "
-"invalide. Format attendu : « hôte » ou « hôte:port »"
+"non valable. Format attendu : « hôte » ou « hôte:port »"
 
 #: ekos/scheduler/schedulersafetymonitor.cpp:138
 #, kde-format
 msgid "Invalid safety monitor port number, using default port 7624"
 msgstr ""
-"Numéro de port de surveillance de la sécurité invalide, utilisation du port "
+"Numéro de port de surveillance de la sécurité non valable, utilisation du port "
 "par défaut 7624"
 
 #: ekos/scheduler/schedulersafetymonitor.cpp:167
@@ -31676,7 +31676,7 @@ msgstr "Le périphérique de surveillance autonome de la sécurité %1 est prêt
 #: ekos/scheduler/schedulersafetymonitor.cpp:219
 #, kde-format
 msgid "Warning: Device %1 is not valid"
-msgstr "Avertissement : le périphérique %1 n'est pas valide"
+msgstr "Avertissement : le périphérique %1 n'est pas valable"
 
 #: ekos/scheduler/schedulersafetymonitor.cpp:235
 #, kde-format
@@ -33058,22 +33058,22 @@ msgstr "Décalage de Bayer non pris en charge %1 %2."
 #: fitsviewer/fitsdata.cpp:6725 fitsviewer/fitsdata.cpp:6778
 #, kde-format
 msgid "Invalid dc1394 debayer parameters."
-msgstr "Paramètres de dématriçage dc1394 non valides."
+msgstr "Paramètres de dématriçage dc1394 non valables."
 
 #: fitsviewer/fitsdata.cpp:6736 fitsviewer/fitsdata.cpp:6789
 #, kde-format
 msgid "Invalid OpenCV debayer parameters."
-msgstr "Paramètres de dématriçage OpenCV non valides."
+msgstr "Paramètres de dématriçage OpenCV non valables."
 
 #: fitsviewer/fitsdata.cpp:6745 fitsviewer/fitsdata.cpp:6798
 #, kde-format
 msgid "Invalid debayer engine"
-msgstr "Moteur de dématriçage non valide"
+msgstr "Moteur de dématriçage non valable"
 
 #: fitsviewer/fitsdata.cpp:7052
 #, kde-format
 msgid "debayer_8bit called with invalid debayer parameters"
-msgstr "debayer_8bit a été appelé avec des paramètres de dématriçage invalides"
+msgstr "debayer_8bit a été appelé avec des paramètres de dématriçage non valables"
 
 #: fitsviewer/fitsdata.cpp:7068 fitsviewer/fitsdata.cpp:7114
 #: fitsviewer/fitsdata.cpp:7172 fitsviewer/fitsdata.cpp:7218
@@ -33098,7 +33098,7 @@ msgstr "Échec du Debayer (%1)"
 #, kde-format
 msgid "debayer_16bit called with invalid debayer parameters"
 msgstr ""
-"debayer_16bit a été appelé avec des paramètres de dématriçage invalides"
+"debayer_16bit a été appelé avec des paramètres de dématriçage non valables"
 
 #: fitsviewer/fitsdebayer.cpp:105
 #, kde-format
@@ -33457,13 +33457,13 @@ msgstr "Identifiant unique de la brute"
 #, kde-format
 msgctxt "Column header"
 msgid "Pathname"
-msgstr "Nom du chemin"
+msgstr "Nom de l'emplacement"
 
 #: fitsviewer/fitsstackmonitor.h:246
 #, kde-format
 msgctxt "Tooltip for Pathname column"
 msgid "Full file path"
-msgstr "Chemin complet du fichier"
+msgstr "Emplacement complet du fichier"
 
 #: fitsviewer/fitsstackmonitor.h:250
 #, kde-format
@@ -43017,32 +43017,32 @@ msgstr "Angle (en degrés) à utiliser pour la résolution de l'afficheur Fits"
 #: kstars.kcfg:1811
 #, kde-format
 msgid "Live Stacking Minimise General Options Widget"
-msgstr "Réduire le widget des options générales de l'empilement en direct"
+msgstr "Réduire le composant graphique des options générales de l'empilement en direct"
 
 #. i18n: ectx: whatsthis, entry (fitsLSHideCalibration), group (FITSViewer)
 #: kstars.kcfg:1815
 #, kde-format
 msgid "Live Stacking Minimise Calibration Options Widget"
-msgstr "Réduire le widget des options de calibration de l'empilement en direct"
+msgstr "Réduire le composant graphique des options de calibration de l'empilement en direct"
 
 #. i18n: ectx: whatsthis, entry (fitsLSHideAlignment), group (FITSViewer)
 #: kstars.kcfg:1819
 #, kde-format
 msgid "Live Stacking Minimise Alignment Options Widget"
-msgstr "Réduire le widget des options d'alignement de l'empilement en direct"
+msgstr "Réduire le composant graphique des options d'alignement de l'empilement en direct"
 
 #. i18n: ectx: whatsthis, entry (fitsLSHideStacking), group (FITSViewer)
 #: kstars.kcfg:1823
 #, kde-format
 msgid "Live Stacking Minimise Stacking Options Widget"
-msgstr "Réduire le widget des options d'empilement de l'empilement en direct"
+msgstr "Réduire le composant graphique des options d'empilement de l'empilement en direct"
 
 #. i18n: ectx: whatsthis, entry (fitsLSHidePostProc), group (FITSViewer)
 #: kstars.kcfg:1827
 #, kde-format
 msgid "Live Stacking Minimise Post-Processing Options Widget"
 msgstr ""
-"Réduire le widget des options de post-traitement de l'empilement en direct"
+"Réduire le composant graphique des options de post-traitement de l'empilement en direct"
 
 #. i18n: ectx: whatsthis, entry (fitsLSCalcSNR), group (FITSViewer)
 #: kstars.kcfg:1831
@@ -43242,13 +43242,13 @@ msgstr "Titre du Webcast de l'empilement en direct"
 #: kstars.kcfg:1965
 #, kde-format
 msgid "Live Stacking Webcast left logo pathname"
-msgstr "Chemin du logo gauche du Webcast de l'empilement en direct"
+msgstr "Emplacement du logo gauche du Webcast de l'empilement en direct"
 
 #. i18n: ectx: label, entry (fitsLSWebcastLogoR), group (FITSViewer)
 #: kstars.kcfg:1969
 #, kde-format
 msgid "Live Stacking Webcast right logo pathname"
-msgstr "Chemin du logo droite du Webcast de l'empilement en direct"
+msgstr "Emplacement du logo droite du Webcast de l'empilement en direct"
 
 #. i18n: ectx: label, entry (fitsLSWebcastPort), group (FITSViewer)
 #: kstars.kcfg:1973
@@ -45952,7 +45952,7 @@ msgstr ""
 #: kstars.kcfg:3500
 #, kde-format
 msgid "Path to startup queue file or script."
-msgstr "Chemin vers le fichier ou script de la file d'attente de démarrage."
+msgstr "Emplacement du fichier ou script de la file d'attente de démarrage."
 
 #. i18n: ectx: whatsthis, entry (SchedulerPreStartupScript), group (Scheduler)
 #: kstars.kcfg:3501
@@ -45969,7 +45969,7 @@ msgstr ""
 #, kde-format
 msgid "Path to post-startup queue file or script."
 msgstr ""
-"Chemin vers le fichier ou script de la file d'attente de post-démarrage."
+"Emplacement du fichier ou script de la file d'attente de post-démarrage."
 
 #. i18n: ectx: whatsthis, entry (SchedulerPostStartupScript), group (Scheduler)
 #: kstars.kcfg:3505
@@ -46002,7 +46002,7 @@ msgstr ""
 #: kstars.kcfg:3514
 #, kde-format
 msgid "Path to shutdown queue file or script."
-msgstr "Chemin vers le fichier ou script de la file d'attente d'arrêt."
+msgstr "Emplacement du fichier ou script de la file d'attente d'arrêt."
 
 #. i18n: ectx: whatsthis, entry (SchedulerPreShutdownScript), group (Scheduler)
 #: kstars.kcfg:3515
@@ -46018,7 +46018,7 @@ msgstr ""
 #: kstars.kcfg:3519
 #, kde-format
 msgid "Path to post-shutdown queue file or script."
-msgstr "Chemin vers le fichier ou script de la file d'attente de post-arrêt."
+msgstr "Emplacement du fichier ou script de la file d'attente de post-arrêt."
 
 #. i18n: ectx: whatsthis, entry (SchedulerPostShutdownScript), group (Scheduler)
 #: kstars.kcfg:3520
