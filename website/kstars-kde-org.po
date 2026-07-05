@@ -1,20 +1,21 @@
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Xavier Besnard <xavier.besnard@kde.org>
 msgid ""
 msgstr ""
 "Project-Id-Version: websites-kstars-kde-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-24 09:48+0100\n"
-"PO-Revision-Date: 2023-04-07 08:34+0200\n"
-"Last-Translator: Steve <stax@ik.me>\n"
-"Language-Team: KDE Francophone <kde-francophone@kde.org>\n"
+"POT-Creation-Date: 2025-12-22 09:08+0100\n"
+"PO-Revision-Date: 2025-10-16 10:23+0200\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.08.1\n"
 
 #. +> trunk5
-#: config.yaml:0 content/download.md:0 content/get-involved.md:0
-#: content/users.md:0 i18n/en.yaml:0
+#: config.yaml:0 content/get-involved.md:0 content/users.md:0 i18n/en.yaml:3
 msgid "KStars"
 msgstr "KStars"
 
@@ -25,8 +26,33 @@ msgstr "L'application d'astronomie libre la plus riche en fonctionnalités"
 
 #. +> trunk5
 #: config.yaml:0
+msgid "Manual"
+msgstr "Manuel"
+
+#. +> trunk5
+#: config.yaml:0
 msgid "Resources"
 msgstr "Ressources"
+
+#. +> trunk5
+#: config.yaml:0 content/download.md:0
+msgid "Download"
+msgstr "Téléchargement"
+
+#. +> trunk5
+#: config.yaml:0
+msgid "Windows"
+msgstr "Windows"
+
+#. +> trunk5
+#: config.yaml:0
+msgid "macOS"
+msgstr "macOS"
+
+#. +> trunk5
+#: config.yaml:0
+msgid "Linux"
+msgstr "Linux"
 
 #. +> trunk5
 #: config.yaml:0
@@ -64,11 +90,6 @@ msgid "Powerful observation planner to plan your observations"
 msgstr "Planificateur d'observations puissant pour préparer vos observations"
 
 #. +> trunk5
-#: content/download.md:0
-msgid "Download"
-msgstr "Téléchargement"
-
-#. +> trunk5
 #: content/features.md:9
 msgid "Features organized by use-case"
 msgstr "Fonctionnalités organisées selon des cas d'application"
@@ -79,30 +100,9 @@ msgid "Pick your use case to see what KStars can do for you:"
 msgstr "Choisissez votre cas d'application pour voir ce que KStars peut faire pour vous :"
 
 #. +> trunk5
-#: content/features.md:11
-msgid "[Education](#features-for-educators)"
-msgstr "[Éducation](#features-for-educators)"
-
-#. +> trunk5
-#: content/features.md:12
-msgid "[Astrophotography](#features-for-imaging--astrophotography)"
-msgstr "[Astrophotographie](#features-for-imaging--astrophotography)"
-
-#. +> trunk5
-#: content/features.md:13
-msgid "[Visual Observation](#features-for-visual-observation)"
-msgstr "[Observation visuelle](#features-for-visual-observation)"
-
-#. +> trunk5
-#: content/features.md:14
-msgid "[Astronomy Enthusiasts](#features-for-any-astronomy-enthusiast)"
-msgstr "[Passionnés d'astronomie](#features-for-any-astronomy-enthusiast)"
-
-#. +> trunk5
 #: content/features.md:16
-#| msgid "[Education](#features-for-educators)"
-msgid "Features for Educators {#features-for-educators}"
-msgstr "Fonctionnalités pour enseignants {#features-for-educators}"
+msgid "Features for Educators"
+msgstr "Fonctionnalités pour les personnes enseignantes"
 
 #. +> trunk5
 #: content/features.md:17
@@ -116,31 +116,26 @@ msgstr "Voici ce que vous pouvez faire avec KStars pour explorer l'astronomie et
 
 #. +> trunk5
 #: content/features.md:21
-#| msgid "Change your geographic location to see how the view of the sky changes with latitude"
 msgid "Change your geographic location to see how the view of the sky changes with latitude."
 msgstr "Modifier votre position géographique pour voir comment le ciel change avec la latitude."
 
 #. +> trunk5
 #: content/features.md:22
-#| msgid "Understand the difference between sidereal days and solar days by changing the speed of simulation"
 msgid "Understand the difference between sidereal days and solar days by changing the speed of simulation."
 msgstr "Comprendre la différence entre les jours sidéraux et jours solaires en changeant la vitesse de la simulation."
 
 #. +> trunk5
 #: content/features.md:23
-#| msgid "Attach trails to planets and set a high simulation rate to see their trajectories as they perform retrograde motion"
 msgid "Attach trails to planets and set a high simulation rate to see their trajectories as they perform retrograde motion."
-msgstr "Attacher des trainées aux planètes et choisir un taux de simulation plus élevé pour voir leur trajectoire et leur mouvement rétrograde."
+msgstr "Attacher des traînées aux planètes et choisir un taux de simulation plus élevé pour voir leur trajectoire et leur mouvement rétrograde."
 
 #. +> trunk5
 #: content/features.md:24
-#| msgid "When technical terms are underlined in blue, click on them to bring up an explanation from the included AstroInfo project"
 msgid "When technical terms are underlined in blue, click on them to bring up an explanation from the included AstroInfo project."
 msgstr "Les termes techniques soulignés en bleu sont cliquables et affichent une explication provenant du projet AstroInfo."
 
 #. +> trunk5
 #: content/features.md:25
-#| msgid "Explore coordinate systems by switching between equatorial and horizontal coordinates, and perform coordinate conversions in the KStars Astrocalculator"
 msgid "Explore coordinate systems by switching between equatorial and horizontal coordinates, and perform coordinate conversions in the KStars Astrocalculator."
 msgstr "Explorer les systèmes de coordonnées en basculant entre les coordonnées équatoriales et horizontales, et réaliser des conversions de coordonnées dans la calculatrice de KStars."
 
@@ -151,19 +146,16 @@ msgstr "En apprendre davantage sur divers sujets d'astronomie et d'astrophysique
 
 #. +> trunk5
 #: content/features.md:27
-#| msgid "Set the time ahead by a couple 1000 years to see the effects of precession"
 msgid "Set the time ahead by a couple 1000 years to see the effects of precession."
 msgstr "Avancer l'heure de plusieurs milliers d'années pour voir les effets de la précession."
 
 #. +> trunk5
 #: content/features.md:28
-#| msgid "Switch on and switch off gravitational lensing effects around the sun to understand Eddington's experiment"
 msgid "Switch on and switch off gravitational lensing effects around the sun to understand Eddington's experiment."
-msgstr "(Dés)activer les effets de lentilles gravitationnelles autour du Soleil pour comprendre l'expérience d'Eddigton."
+msgstr "(Dés)activer les effets de lentilles gravitationnelles autour du Soleil pour comprendre l'expérience de Eddigton."
 
 #. +> trunk5
 #: content/features.md:29
-#| msgid "Switch to equatorial coordinates, set simulation rate to 1 year, double click on a star to keep it in focus, and zoom in to see the effects of aberration of light"
 msgid "Switch to equatorial coordinates, set simulation rate to 1 year, double click on a star to keep it in focus, and zoom in to see the effects of aberration of light."
 msgstr "Basculer vers les coordonnées équatoriales, fixer le taux de simulation à une année, double-cliquer sur une étoile pour la conserver en ligne de mire et zoomer pour se rendre compte des effets d'aberration de la lumière."
 
@@ -174,7 +166,6 @@ msgstr "Basculer vers les coordonnées équatoriales, fixer le taux de simulatio
 
 #. +> trunk5
 #: content/features.md:31
-#| msgid "Set the time to the distant future to see how the constellations change shape due to the proper motions of stars (prominent in Gemini, for example)"
 msgid "Set the time to the distant future to see how the constellations change shape due to the proper motions of stars (prominent in Gemini, for example)."
 msgstr "Régler l'heure dans un futur distant pour voir comment la forme des constellations change en fonction du mouvement propre des étoiles (important pour Gemini par exemple)."
 
@@ -185,7 +176,6 @@ msgstr "Un clic droit sur n'importe quel objet ouvre la vue Détails qui permet 
 
 #. +> trunk5
 #: content/features.md:33
-#| msgid "Obtain sky survey images for any location from the right-click context menu"
 msgid "Obtain sky survey images for any location from the right-click context menu."
 msgstr "Obtenir des images de relevés célestes pour n'importe quelle position à partir du menu contextuel."
 
@@ -202,23 +192,21 @@ msgstr "KStars parle votre langue - il y a de fortes chances de trouver une trad
 
 #. +> trunk5
 #: content/features.md:37
-#| msgid "[Astrophotography](#features-for-imaging--astrophotography)"
-msgid "Features for Imaging / Astrophotography {#features-for-imaging--astrophotography}"
-msgstr "Fonctionnalités pour l'astrophotographie {#features-for-imaging--astrophotography}"
+msgid "Features for Imaging / Astrophotography"
+msgstr "Fonctionnalités pour l'imagerie / l'astrophotographie "
 
 #. +> trunk5
 #: content/features.md:38
 msgid "Whether you are at a professional observatory, or an amateur astrophotographer, KStars can help you image the sky. The Ekos imaging suite provides you with a smooth hassle-free workflow, removing the need to switch between multiple software tools for each part of the workflow."
-msgstr "Que vous soyez dans un observatoire professionnel ou un astrophotographe amateur, KStars peut vous aider à prendre des images du ciel. La suite Ekos pour l'imagerie fournit un flux de travail simple, supprimant le besoin de basculer entre plusieurs programmes pour chaque partie du flux de travail. "
+msgstr "Que vous soyez dans un observatoire professionnel ou un astro-photographe amateur, KStars peut vous aider à prendre des images du ciel. La suite Ekos pour l'imagerie fournit un flux de travail simple, supprimant le besoin de basculer entre plusieurs programmes pour chaque partie du flux de travail. "
 
 #. +> trunk5
 #: content/features.md:40
 msgid "With extensive support for [INDI](/indi/), KStars can control almost any sort of astronomical equipment, including telescope mounts, motorized focusers, filter wheels and CCD and CMOS cameras."
-msgstr "La gestion complète d'[INDI](/indi/) permet à KStars de contrôler presque tous les équipements d'astronomie, ce qui inclut les montures de télescope, les moteurs de mise au point, les roues à filtres ainsi que les caméras CCD et CMOS."
+msgstr "La gestion complète [de INDI](/indi/) permet à KStars de contrôler presque tous les équipements d'astronomie, ce qui inclut les montures de télescope, les moteurs de mise au point, les roues à filtres ainsi que les caméras « CCD » et « CMOS »."
 
 #. +> trunk5
 #: content/features.md:41
-#| msgid "Use the FOV calculator to calculate the field-of-view of your imaging setup"
 msgid "Use the FOV calculator to calculate the field-of-view of your imaging setup."
 msgstr "Utilisez la calculatrice de champ de vue pour calculer le champ de vue de votre équipement d'imagerie."
 
@@ -239,9 +227,8 @@ msgstr "Calculer les conjonctions entre les objets célestes pour trouver les me
 
 #. +> trunk5
 #: content/features.md:47
-#| msgid "[Visual Observation](#features-for-visual-observation)"
-msgid "Features for Visual Observation {#features-for-visual-observation}"
-msgstr "Fonctionnalités pour l'observation visuelle {#features-for-visual-observation}"
+msgid "Features for Visual Observation"
+msgstr "Fonctionnalités pour l'observation visuelle"
 
 #. +> trunk5
 #: content/features.md:48
@@ -315,9 +302,8 @@ msgstr "L'interface avec XPlanet permet d'afficher des vue des planètes à n'im
 
 #. +> trunk5
 #: content/features.md:65
-#| msgid "[Astronomy Enthusiasts](#features-for-any-astronomy-enthusiast)"
-msgid "Features for any astronomy enthusiast! {#features-for-any-astronomy-enthusiast}"
-msgstr "Fonctionnalités pour le passionnés d'astronomie {#features-for-any-astronomy-enthusiast}"
+msgid "Features for any astronomy enthusiast!"
+msgstr "Fonctionnalités pour les personnes passionnées d'astronomie !"
 
 #. +> trunk5
 #: content/features.md:66
@@ -371,7 +357,6 @@ msgstr "Impression de haute qualité et personnalisation de graphiques d'étoile
 
 #. +> trunk5
 #: content/features.md:82
-#| msgid "Full fledged astrophotography suite [Ekos](https://indilib.org/about/ekos.html) for a smooth imaging workflow"
 msgid "Full fledged astrophotography suite [Ekos](https://indilib.org/about/ekos.html) for a smooth imaging workflow."
 msgstr "Suite complète d'astrophotographie [Ekos](https://indilib.org/about/ekos.html) pour un flux de travail d'imagerie facilité."
 
@@ -387,7 +372,6 @@ msgstr "Choix du symbole de champ de vue calculé à partie de votre oculaire et
 
 #. +> trunk5
 #: content/features.md:85
-#| msgid "Generate the locations of Jupiter's moons for the near future and near past and plot them as shown in professional astronomical ephemerides."
 msgid "Generate the positions of Jupiter's moons for the near future and near past and plot them as shown in professional astronomical ephemerides."
 msgstr "Calcul des positions des lunes de Jupiter dans un proche passé et futur et les tracer comme dans les éphémérides professionnels."
 
@@ -464,7 +448,7 @@ msgstr "Téléchargement d'un catalogue NGC/IC révisé et plus précis"
 #. +> trunk5
 #: content/features.md:101
 msgid "Downloadable catalogs including Messier Images, Abell Planetary Nebulae"
-msgstr "Plusieurs catalogues téléchargeables incluant des images des objets Messier et les nébuleuses planétaires d'Abell"
+msgstr "Plusieurs catalogues téléchargeables incluant des images des objets Messier et les nébuleuses planétaires de Abell"
 
 #. +> trunk5
 #: content/features.md:102
@@ -508,31 +492,26 @@ msgstr "Actions scriptables avec D-Bus"
 
 #. +> trunk5
 #: content/features.md:112
-msgid "Features for Educators and Students:"
-msgstr "Fonctionnalités pour enseignants et étudiants :"
-
-#. +> trunk5
-#: content/features.md:113
 msgid "Adjustable simulation speed in order to view phenomena that happen over long timescales"
 msgstr "Vitesse de simulation ajustable afin de voir des phénomènes se déroulant sur les temps longs"
 
 #. +> trunk5
-#: content/features.md:114
+#: content/features.md:113
 msgid "Astroinfo project to help facilitate learning with the aid of KStars"
 msgstr "Le projet AstroInfo pour facilité l'apprentissage à l'aide de KStars"
 
 #. +> trunk5
-#: content/features.md:115
+#: content/features.md:114
 msgid "What's up tonight tool to see what objects are visible tonight"
 msgstr "L'outil « Quoi de neuf ce soir ? » pour afficher les objets visible ce soir"
 
 #. +> trunk5
-#: content/features.md:116
+#: content/features.md:115
 msgid "Altitude vs Time tool to plot the time-variation in the altitude of an object (good to decide observation times)"
 msgstr "L'outil Élévation en fonction du temps pour tracer la variation en élévation d'un objet (utile pour décider des heures observations)"
 
 #. +> trunk5
-#: content/features.md:117
+#: content/features.md:116
 msgid "Sky Calendar tool to see how the planets move across the sky over a long duration of time"
 msgstr "L'outil de calendrier du ciel pour voir le mouvement des planètes dans le ciel sur de longues périodes de temps"
 
@@ -589,12 +568,12 @@ msgstr "Le [dépôt Git](https://invent.kde.org/education/kstars) héberge le co
 #. +> trunk5
 #: content/get-involved.md:23
 msgid "[KStars API](https://api.kde.org/kstars/html/index.html) — KStars API documentation"
-msgstr "la documentation de l'[API de KStars](https://api.kde.org/kstars/html/index.html) ;"
+msgstr "[API de KStars](https://api.kde.org/kstars/html/index.html) -- Documentation de l'API de KStars"
 
 #. +> trunk5
 #: content/get-involved.md:24
 msgid "[GSoC Guide](/gsoc) — Google Summer of Code guide for new prospective students."
-msgstr "le [guide GSoC](/gsoc) du Google Summer of Code pour les étudiants."
+msgstr "le [guide GSoC](/gsoc) du « Google Summer of Code » pour les étudiant(e)s."
 
 #. +> trunk5
 #: content/get-involved.md:0
@@ -614,7 +593,7 @@ msgstr "Fenêtre principale de KStars"
 #. +> trunk5
 #: content/screenshots.md:0
 msgid "Billions and Billions: 100 million stars using USNO Nomad Catalog"
-msgstr "Des milliards et des milliards : 100 millions d'étoiles en utilisant le catalogue USNO Nomad"
+msgstr "Des milliards et des milliards : 100 millions d'étoiles en utilisant le catalogue « USNO Nomad »"
 
 #. +> trunk5
 #: content/screenshots.md:0
@@ -639,7 +618,7 @@ msgstr "Calendrier céleste"
 #. +> trunk5
 #: content/screenshots.md:0
 msgid "Ekos Astrophotography Tool"
-msgstr "Outil d'astrophotographie d'Ekos"
+msgstr "Outil d'astrophotographie pour Ekos"
 
 #. +> trunk5
 #: content/screenshots.md:0
@@ -682,166 +661,273 @@ msgid "What is Interesting Tool"
 msgstr "Outil « Digne d'intérêt »"
 
 #. +> trunk5
-#: content/users.md:11
+#: content/users.md:12
 msgid "Other resources"
 msgstr "Autres ressources"
 
 #. +> trunk5
-#: content/users.md:12
+#: content/users.md:14
 msgid "[KStars Deep Sky Catalogs](/catalogs) — Catalogs documentation"
 msgstr "[Catalogues du ciel profond de KStars](/catalogs/) - documentation des catalogues"
 
 #. +> trunk5
-#: content/users.md:13
+#: content/users.md:15
 msgid "[Ekos](https://www.indilib.org/about/ekos.html) — Complete astrophotography and observatory control framework"
 msgstr "[Ekos](https://www.indilib.org/about/ekos.html) - Suite complète d'astrophotographie et de contrôle d'observatoire"
 
 #. +> trunk5
-#: content/users.md:14
+#: content/users.md:16
 msgid "[INDI](https://www.indilib.org/index.php?title=Main_Page) — protocol to operate astronomical instruments"
 msgstr "[INDI](https://www.indilib.org/index.php?title=Main_Page) - protocole pour contrôler les instruments astronomiques"
 
 #. +> trunk5
-#: content/users.md:16
+#: content/users.md:18
 msgid "Check out these other free and open source astronomy software"
 msgstr "Jetez un œil à ces autres programmes d'astronomie libres"
 
 #. +> trunk5
-#: content/users.md:17
+#: content/users.md:20
 msgid "[Stellarium](https://www.stellarium.org/): Stellarium has the most aesthetic rendering of the sky map. Ideal for giving public shows. Has a larger star catalog than KStars. It can distort images for projection on fish-eye planetarium projectors."
-msgstr "[Stellarium](https://www.stellarium.org/) : Stellarium offre la présentation la plus esthétique d'une carte du ciel. Idéal pour des présentations publiques. Possède un catalogue d'étoiles plus étoffé que KStars. Il peut déformer les images pour une projection sur des projecteurs de planétariums fisheye."
+msgstr "[Stellarium](https://www.stellarium.org/) : Stellarium offre la présentation la plus esthétique d'une carte du ciel. Idéal pour des présentations publiques. Possède un catalogue d'étoiles plus étoffé que KStars. Il peut déformer les images pour une projection sur des projecteurs de planétariums en panoramique (fisheye)."
 
 #. +> trunk5
-#: content/users.md:18
+#: content/users.md:21
 msgid "[SkyChart (Cartes du Ciel)](https://www.ap-i.net/skychart/): Cartes du Ciel has the largest database of astronomical objects for any free software. It has support for the very very extensive star catalog, PPMXL. Also has tons of other downloadable catalogs."
-msgstr "[SkyChart (Cartes du Ciel)](https://www.ap-i.net/skychart/) : Cartes du ciel possède la plus grande base de données d'objets astronomiques de tous les programmes libres d'astronomie. Il gère le très vaste catalogue d'étoiles PPMXL, et permet également de télécharger beaucoup d'autres catalogues."
+msgstr "[SkyChart (Cartes du Ciel)](https://www.ap-i.net/skychart/) : cartes du ciel possède la plus grande base de données d'objets astronomiques de tous les programmes libres d'astronomie. Il gère le très vaste catalogue d'étoiles PPMXL, et permet également de télécharger beaucoup d'autres catalogues."
 
 #. +> trunk5
 #: content/users.md:0
 msgid "User Support"
 msgstr "Aide aux utilisateurs"
 
+#. +> trunk5
+#: content/users.md:0
+msgid "https://kstars-docs.kde.org"
+msgstr "https://kstars-docs.kde.org"
+
+#. date-format
 #. Date format
 #. +> trunk5
-#: i18n/en.yaml:0
+#: i18n/en.yaml:6
 msgid "%d %B %Y"
 msgstr "%d %B %Y"
 
+#. release-notes
 #. +> trunk5
-#: i18n/en.yaml:0
+#: i18n/en.yaml:9
 msgid "Release Notes"
 msgstr "Notes de publication"
 
+#. kstars-copyright
 #. %1 year
 #. +> trunk5
-#: i18n/en.yaml:0
+#: i18n/en.yaml:11
 msgid "© **2001-%1 the KStars Team**"
-msgstr "© **2001-%1 the KStars Team**"
+msgstr "© **2001 - %1 L'équipe de développement de KStars**"
 
+#. home.download
 #. %1 version number, %2 date
 #. +> trunk5
-#: i18n/en.yaml:0
+#: i18n/en.yaml:15
 msgid "Version %1 (released on %2)"
 msgstr "Version %1 (publiée le %2)"
 
+#. home.download.other
 #. +> trunk5
-#: i18n/en.yaml:0
+#: i18n/en.yaml:18
 msgid "Other download options"
 msgstr "Autres options de téléchargement"
 
+#. home.features
 #. +> trunk5
-#: i18n/en.yaml:0
+#: i18n/en.yaml:20
 msgid "**KStars** caters to a wide-variety of use cases. Whether you are a student, an educator, an amateur astronomer or an astronomy enthusiast, you will find tools in KStars that are useful to you. Have a look at the [Features](/features/) page for a full listing of features, organized by use case."
 msgstr "**KStars** répond aux besoins d'une large variété de cas d'application. Que vous soyez un étudiant, un enseignant ou un amateur passionné d'astronomie, vous trouverez des outils dans KStars qui vous seront utiles. Jetez un œil à la page des [Fonctionnalités](/features/) pour une liste complète organisées par cas d'application."
 
+#. download.intro
 #. %1 version number, %2 date
 #. +> trunk5
-#: i18n/en.yaml:0
+#: i18n/en.yaml:23
 msgid "The latest version is %1, released on %2"
 msgstr "La dernière version est la %1, publiée le %2"
 
+#. download.sha256-link
 #. %1 link
 #. +> trunk5
-#: i18n/en.yaml:0
+#: i18n/en.yaml:26
 msgid "[SHA256](%1)"
 msgstr "[SHA256](%1)"
 
+#. download.windows
 #. %1 version number, %2 link
 #. +> trunk5
-#: i18n/en.yaml:0
+#: i18n/en.yaml:29
 msgid "[64bit KStars %1 Installer](%2) for Windows 10 or later"
 msgstr "[Installateur de KStars 64bit %1](%2) pour Windows 10 ou ultérieur"
 
-#. %1 link
+#. download.windows.guide
+#. %1 Quick Hash GUI link, %2 SHA256 link
 #. +> trunk5
-#: i18n/en.yaml:0
-msgid "Use [Quick Hash GUI](%1) to verify the integrity of the executable file."
-msgstr "Utilisez [l'interface graphique Quick Hash](%1) pour vérifier l'intégrité du fichier exécutable."
+#: i18n/en.yaml:32 i18n/en.yaml:38
+msgid "Use the [Quick Hash GUI](%1) to verify the integrity of the executable file by comparing it to the [SHA256 checksum](%2)."
+msgstr "Utilisez [l'interface graphique « QuickHash »](%1) pour vérifier l'intégrité du fichier exécutable par comparaison avec la [somme de contrôle « SHA256 »](%2)."
 
+#. download.macos
 #. %1 version number, %2 link, %3 macOS version, e.g. "10.15+"
 #. +> trunk5
-#: i18n/en.yaml:0
+#: i18n/en.yaml:35
 msgid "[64bit KStars %1 Installer](%2) for macOS %3"
 msgstr "[Installateur de KStars 64bit %1](%2) pour macOS %3"
 
+#. download.appstream
 #. +> trunk5
-#: i18n/en.yaml:0
-msgid "After mounting the DMG, please follow the instructions within the DMG."
-msgstr "Veuillez suivre les instructions après avoir monté le fichier DMG."
-
-#. +> trunk5
-#: i18n/en.yaml:0
+#: i18n/en.yaml:41
 msgid "Install KStars from your Linux distribution [software center](appstream://org.kde.kstars.desktop)."
 msgstr "Installer KStars depuis votre [magasin d'applications](appstream://org.kde.kstars.desktop) de votre distribution Linux."
 
+#. download.ubuntu
 #. +> trunk5
-#: i18n/en.yaml:0
+#: i18n/en.yaml:43
 msgid "Under Ubuntu/Mint, you can install the latest KStars by typing the following commands in the console:"
 msgstr "Sous Ubuntu/Mint, vous pouvez installer la dernière version de KStars en saisissant les commandes suivantes dans un terminal :"
 
+#. download.flatpak.flathub
 #. +> trunk5
-#: i18n/en.yaml:0
+#: i18n/en.yaml:45
 msgid "Add flathub repository:"
-msgstr "Ajouter le dépôt flathub :"
+msgstr "Ajouter le dépôt Flathub :"
 
+#. download.flatpak
 #. +> trunk5
-#: i18n/en.yaml:0
+#: i18n/en.yaml:47
 msgid "Install KStars:"
 msgstr "Installer KStars"
 
+#. download.flatpak.nightly.remote
+#. +> trunk5
+#: i18n/en.yaml:49
+msgid "Add KStars Nightly repository:"
+msgstr "Ajouter le dépôt de développement de KStars :"
+
+#. download.flatpak.nightly.install
+#. +> trunk5
+#: i18n/en.yaml:51
+msgid "Install KStars Nightly:"
+msgstr "Installer la version de développement de KStars :"
+
+#. download.snap
 #. %1 link
 #. +> trunk5
-#: i18n/en.yaml:0
+#: i18n/en.yaml:53
 msgid "Install the [latest and stable KStars](%1) on many linux distributions using Snap."
 msgstr "Installer la [dernière version stable de KStars](%1) sur beaucoup de distributions Linux en utilisant Snap."
 
+#. download.source.title
 #. +> trunk5
-#: i18n/en.yaml:0
+#: i18n/en.yaml:56
 msgid "Building from source"
 msgstr "Compilation depuis les sources"
 
+#. download.source.tarball
 #. +> trunk5
-#: i18n/en.yaml:0
+#: i18n/en.yaml:58
 msgid "Source tarball"
 msgstr "Archive tar des sources"
 
+#. download.source.mirror-list
 #. +> trunk5
-#: i18n/en.yaml:0
+#: i18n/en.yaml:60
 msgid "Mirror list"
 msgstr "Liste de miroirs"
 
+#. download.source.detail
 #. %1 link
 #. +> trunk5
-#: i18n/en.yaml:0
+#: i18n/en.yaml:62
 msgid "See [Building KStars from Source](%1) for details."
 msgstr "Lisez [Compiler KStars depuis les sources](%1) pour les détails."
 
+#. download.windows.link
 #. +> trunk5
-#: i18n/en.yaml:0
+#: i18n/en.yaml:65
+msgid "Download for Windows"
+msgstr "Téléchargement pour Windows"
+
+#. download.macos.link
+#. +> trunk5
+#: i18n/en.yaml:67
+msgid "Download for macOS"
+msgstr "Téléchargement pour macOS"
+
+#. download.linux.link
+#. +> trunk5
+#: i18n/en.yaml:69
+msgid "Download for Linux"
+msgstr "Téléchargement pour Linux"
+
+#. download.verification.title
+#. +> trunk5
+#: i18n/en.yaml:71
+msgid "Verification"
+msgstr "Vérification"
+
+#. users.help.description
+#. +> trunk5
+#: i18n/en.yaml:74
 msgid "You are most welcome to tell us about your problems with KStars on our [mailing list](https://mail.kde.org/mailman/listinfo/kstars-devel) or our [Web Chat channel](https://webchat.kde.org/#/room/#kstars:kde.org) where you can chat directly with developers and users. For some of these issues, there are temporary workarounds, and asking on the mailing list will help you discover these antidotes for symptomatic relief. We welcome your feedback, and discussion on both the mailing list and Web Chat channel. See the [Get Involved](/get-involved) page for more information and pointers."
 msgstr "Vous êtes encouragé à nous partager vos problèmes avec KStars sur notre [liste de diffusion](https://mail.kde.org/mailman/listinfo/kstars-devel) ou notre [canal de discussion chat](https://webchat.kde.org/#/room/#kstars:kde.org) où vous pourrez discuter en direct avec des développeurs et des utilisateurs. Certains problèmes peuvent être réglés temporairement et un appel à l'aide sur la liste de diffusion aidera à trouver des réponses claires à ces problèmes. Tout retour est le bienvenu sur la liste de discussion et le canal Web de chat. Voyez la page [Participez](/get-involved) pour davantage d'information et des liens utiles."
 
+#. users.bug.description
 #. +> trunk5
-#: i18n/en.yaml:0
+#: i18n/en.yaml:76
 msgid "KStars has a lot of known issues, and many unknown issues. In either case, reporting a bug is always helpful. To report a bug against KStars, you can use the KDE [bug reporting interface](https://bugs.kde.org/). Choose \"kstars\" as the product to file the bug against."
-msgstr "KStars a beaucoup de problèmes connus et d'autres inconnus. Dans les deux cas, rapporter un bogue est toujours utile. Pour rapporter un bogue de KStars, vous pouvez utiliser l'[interface de rapport de bogues](https://bugs.kde.org/) de KDE. Choisissez « kstars » comme produit pour enregistrer un rapport de bogue."
+msgstr "KStars a beaucoup de problèmes connus et d'autres inconnus. Dans les deux cas, rapporter un bogue est toujours utile. Pour rapporter un bogue de KStars, vous pouvez utiliser [l'interface de rapport de bogues](https://bugs.kde.org/) de KDE. Choisissez « kstars » comme produit pour enregistrer un rapport de bogue."
+
+#. features.edu
+#. %1 link
+#. +> trunk5
+#: i18n/en.yaml:79
+msgid "[Education](%1)"
+msgstr "[Éducation](%1)"
+
+#. features.img
+#. %1 link
+#. +> trunk5
+#: i18n/en.yaml:82
+msgid "[Astrophotography](%1)"
+msgstr "[Astrophotographie](%1)"
+
+#. features.visual
+#. %1 link
+#. +> trunk5
+#: i18n/en.yaml:85
+msgid "[Visual Observation](%1)"
+msgstr "[Observation visuelle](%1)"
+
+#. features.any
+#. %1 link
+#. +> trunk5
+#: i18n/en.yaml:88
+msgid "[Astronomy Enthusiasts](%1)"
+msgstr "[Passionnés d'astronomie](%1)"
+
+#~ msgid "After mounting the DMG, please follow the instructions within the DMG."
+#~ msgstr "Veuillez suivre les instructions après avoir monté le fichier DMG."
+
+#~ msgid "Features for Educators and Students:"
+#~ msgstr "Fonctionnalités pour enseignants et étudiants :"
+
+#~ msgid "[Education](#features-for-educators)"
+#~ msgstr "[Éducation](#features-for-educators)"
+
+#~ msgid "[Astrophotography](#features-for-imaging--astrophotography)"
+#~ msgstr "[Astrophotographie](#features-for-imaging--astrophotography)"
+
+#~ msgid "[Visual Observation](#features-for-visual-observation)"
+#~ msgstr "[Observation visuelle](#features-for-visual-observation)"
+
+#~ msgid "[Astronomy Enthusiasts](#features-for-any-astronomy-enthusiast)"
+#~ msgstr "[Passionnés d'astronomie](#features-for-any-astronomy-enthusiast)"
+
+#~ msgid "Features for Educators {#features-for-educators}"
+#~ msgstr "Fonctionnalités pour enseignants {#features-for-educators}"
