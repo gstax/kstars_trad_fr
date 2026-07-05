@@ -2057,7 +2057,7 @@ msgstr "Type"
 #: tools/modcalcvlsr.ui:521
 #, kde-format, kde-kuit-format
 msgid "Epoch:"
-msgstr "Date de référence (epoch)"
+msgstr "Date de référence (époque)"
 
 #. i18n: ectx: property (text), widget (QPushButton, gotoButtonObject)
 #: data/qml/mount/mountbox.qml:1006 ekos/mount/mounttargetwidget.ui:208
@@ -14721,7 +14721,7 @@ msgstr "Multiple de seuil"
 msgid ""
 "Add the multiple times the rms background level to the detection threshold."
 msgstr ""
-"Ajouter ce multiple au niveau de background rms pour le seuil de détection."
+"Ajouter ce multiple au niveau du fond du ciel RMS pour le seuil de détection."
 
 #. i18n: ectx: property (text), widget (QLineEdit, threshMultiple)
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:658
@@ -19782,7 +19782,7 @@ msgid ""
 "from the Filter Settings popup for the selected filter. </p></body></html>"
 msgstr ""
 "<html><head/><body><p>Choisir la longueur d'onde de la lumière à utiliser. "
-"La valeur par défaut provient de la fenêtre popup des réglages de filtres "
+"La valeur par défaut provient de la fenêtre contextuelle des réglages de filtres "
 "pour le filtre sélectionné.</p></body></html>"
 
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, focusCFZWavelength)
@@ -20873,7 +20873,7 @@ msgstr "Trouver des étoiles"
 #: ekos/focus/focusadvisor.cpp:697
 #, kde-format
 msgid "Find Stars: Scanning for stars..."
-msgstr "Recherche d'étoiles : scan en cours…"
+msgstr "Recherche d'étoiles : balayage en cours…"
 
 #: ekos/focus/focusadvisor.cpp:699
 #, kde-format
@@ -20909,18 +20909,18 @@ msgstr "Étoile détectée, centrage de la zone"
 #, kde-format
 msgid "Find Stars Run %1: No stars at start %2, scanning..."
 msgstr ""
-"Passe %1 de la recherche d'étoiles : pas d'étoiles au départ %2, scan en "
+"Passe %1 de la recherche d'étoiles : pas d'étoiles au départ %2, balayage en "
 "cours…"
 
 #: ekos/focus/focusadvisor.cpp:860
 #, kde-format
 msgid "Find Stars Run %1 Sector %2: Scanning %3/%4"
-msgstr "Passe %1 de la recherche d'étoiles du secteur %2 : scan %3/%4 en cours"
+msgstr "Passe %1 de la recherche d'étoiles du secteur %2 : balayage %3/%4 en cours"
 
 #: ekos/focus/focusadvisor.cpp:862
 #, kde-format
 msgid "Find Stars Run %1: Scanning Sector %2"
-msgstr "Passe %1 de la recherche d'étoiles : scan en cours du secteur %2"
+msgstr "Passe %1 de la recherche d'étoiles : balayage en cours du secteur %2"
 
 #: ekos/focus/focusadvisor.cpp:873
 #, kde-format
@@ -20935,7 +20935,7 @@ msgstr "Passe %1 de la recherche d'étoiles : échec, aucune étoile trouvée"
 #: ekos/focus/focusadvisor.cpp:946
 #, kde-format
 msgid "Find Stars Run %1 Sector %2: scanning %3/%4"
-msgstr "Passe %1 de la recherche d'étoiles du secteur %2 : scan %3/%4 en cours"
+msgstr "Passe %1 de la recherche d'étoiles du secteur %2 : balayage %3/%4 en cours"
 
 #: ekos/focus/focusadvisor.cpp:953
 #, kde-format
@@ -20954,7 +20954,7 @@ msgstr ""
 #: ekos/focus/focusadvisor.cpp:992
 #, kde-format
 msgid "Coarse Adjustment Scan..."
-msgstr "Scan pour l'ajustement grossier…"
+msgstr "Balayage pour l'ajustement grossier…"
 
 #: ekos/focus/focusadvisor.cpp:1020
 #, kde-format
@@ -20978,7 +20978,7 @@ msgstr ""
 #: ekos/focus/focusadvisor.cpp:1093
 #, kde-format
 msgid "Coarse Adjustment Run %1 scan..."
-msgstr "Scan de la passe %1 de l'ajustement grossier…"
+msgstr "Balayage de la passe %1 de l'ajustement grossier…"
 
 #: ekos/focus/focusadvisor.cpp:1101
 #, kde-format
@@ -22239,7 +22239,7 @@ msgid ""
 "Scan for Start Position uses a step size = Initial Step Size multiplied by "
 "Initial Step Size x."
 msgstr ""
-"Scan pour position de départ utilise une taille de pas = multiplicateur de "
+"Balayage pour position de départ utilise une taille de pas = multiplicateur de "
 "taille de pas initial fois Taille de pas initiale x."
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, focusScanAlwaysOn)
@@ -22270,7 +22270,7 @@ msgstr "Nombre de points"
 #, kde-format
 msgid "The number of datapoints to use during Scan for Start Position."
 msgstr ""
-"Nombre de points à utiliser durant un scan de recherche de position initiale."
+"Nombre de points à utiliser durant un balayage de recherche de position initiale."
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, focusUseFullField)
 #: ekos/focus/opsfocussettings.ui:35
@@ -23340,8 +23340,8 @@ msgid ""
 "Hz) required by harmonic drives. Not compatible with dark-frame subtraction."
 "</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Activer le mode guide en streaming. Lorsqu'il est "
-"coché et que la caméra prend en charge le streaming vidéo, le module de "
+"<html><head/><body><p>Activer le mode guide en diffusion. Lorsqu'il est "
+"coché et que la caméra prend en charge la diffusion vidéo, le module de "
 "guidage capture les images via un flux vidéo continu au lieu de prises de "
 "vue individuelles. Cela réduit considérablement la surcharge par image et "
 "permet des fréquences de guidage plus élevées (par exemple 2–5 Hz) requises "
@@ -29076,7 +29076,7 @@ msgstr ""
 "d'achèvement <span style=\"font-style:italic;\">>Répéter pour N (N=2 ou "
 "plus)</span> ou <span style=\"font-style:italic;\">Répéter jusqu'à "
 "achèvement</span>. Sinon, laissez vide. Ne s'applique que pour l'algorithme "
-"de Greedy.</p></body></html>"
+"glouton.</p></body></html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, completionGroup)
 #: ekos/scheduler/framingassistant.ui:1575
@@ -29361,7 +29361,7 @@ msgstr ""
 #: ekos/scheduler/opsjobssettings.ui:54
 #, kde-format
 msgid "Use greedy scheduling"
-msgstr "Utiliser l'ordonnanceur greedy"
+msgstr "Utiliser l'ordonnanceur glouton"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, dawnOffsetLabel)
 #: ekos/scheduler/opsoffsetsettings.ui:35
@@ -29705,7 +29705,7 @@ msgid ""
 "the Greedy algorithm."
 msgstr ""
 "Avertissement : l'algorithme Classique a été retiré. Passage à l'algorithme "
-"Greedy."
+"glouton."
 
 #: ekos/scheduler/scheduler.cpp:595
 #, kde-format
@@ -30085,7 +30085,7 @@ msgstr ""
 "ensemble. Assignez leurs un nom de groupe et donnez leurs la condition "
 "d'achèvement <i>Répéter pour N (N=2 ou plus)</i> ou <i>Répéter jusqu'à "
 "achèvement</i>. Sinon, laissez vide. Ne s'applique que pour l'algorithme "
-"Greedy.</p></body></html>"
+"glouton.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, leadFollowerSelectionCB)
 #: ekos/scheduler/scheduler.ui:361
@@ -37850,7 +37850,7 @@ msgstr ""
 "si vous êtes connecté à un serveur « INDI » distant, alors le dossier doit "
 "être un dossier valable sur le système de fichiers distant ou il sera sauvé."
 "</p>\n"
-"<p>Les dossiers d'enregistrement peuvent contenir des token pour les rendre "
+"<p>Les dossiers d'enregistrement peuvent contenir des balises pour les rendre "
 "dynamiques :</p>\n"
 "<ul>\n"
 "<li><b>_D_</b> pour la date « AAAA-MM-JJ.</li>\n"
@@ -37884,7 +37884,7 @@ msgid ""
 msgstr ""
 "<html><head/><body>\n"
 "<p>Nom des fichiers vidéos SER. Les fichiers enregistrées peuvent contenir "
-"des tokens pour les rendre dynamiques :</p>\n"
+"des balises pour les rendre dynamiques :</p>\n"
 "<ul>\n"
 "<li><b>_D_</b> pour la date « AAAA-MM-JJ ».</li>\n"
 "<li><b>_H_</b> pour l'heure « HH:MM:SS ».</li>\n"
@@ -92851,7 +92851,7 @@ msgstr ""
 "systèmes de coordonnées astronomiques<ul><li><b>Galactiques :</b> conversion "
 "de coordonnées galactiques / équatoriales</li><li><b>Apparentes :</b> calcul "
 "des coordonnées équatoriales actuelles à partir d'une date de référence "
-"(epoch) donnée</li><li><b>Écliptiques :</b> conversion de coordonnées "
+"(époque) donnée</li><li><b>Écliptiques :</b> conversion de coordonnées "
 "écliptiques / équatoriales</li><li><b>Horizontales :</b> calcul de l'azimut "
 "et de la hauteur pour une source, un moment et une position sur la Terre "
 "donnés</li><li><b>Simple :</b> conversion d'angles en heures et degrés</"
@@ -93259,7 +93259,7 @@ msgstr "DEC"
 #: tools/flagmanager.cpp:70
 #, kde-format
 msgid "Epoch"
-msgstr "Date de référence (epoch)"
+msgstr "Date de référence (époque)"
 
 #: tools/flagmanager.cpp:70
 #, kde-format
