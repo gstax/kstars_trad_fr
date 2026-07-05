@@ -7596,7 +7596,7 @@ msgid ""
 "Deprecated sequence file format version %1. Please construct a new sequence "
 "file."
 msgstr ""
-"Version %1 de format de fichier de séquence obsolète. Veuillez construire un "
+"Version %1 de format de fichier de séquence déconseillé. Veuillez construire un "
 "nouveau fichier de séquence."
 
 #: ekos/align/mountmodel.cpp:383
@@ -33501,7 +33501,7 @@ msgstr "État global"
 #, kde-format
 msgctxt "Tooltip for Overall Status column"
 msgid "Overall processing status"
-msgstr "Statut global du traitement"
+msgstr "État global du traitement"
 
 #: fitsviewer/fitsstackmonitor.h:266
 #, kde-format
@@ -45961,7 +45961,7 @@ msgid ""
 "Path to the startup queue file to execute when starting the scheduler before "
 "starting the equipment profile."
 msgstr ""
-"Chemin vers le fichier de file d'attente de démarrage à exécuter lors du "
+"Emplacement du fichier de file d'attente de démarrage à exécuter lors du "
 "lancement de l'ordonnanceur, avant le démarrage du profil de l'équipement."
 
 #. i18n: ectx: label, entry (SchedulerPostStartupScript), group (Scheduler)
@@ -45978,7 +45978,7 @@ msgid ""
 "Path to the startup queue file to execute when starting the scheduler after "
 "starting the equipment profile."
 msgstr ""
-"Chemin vers le fichier de file d'attente de post-démarrage à exécuter lors "
+"Emplacement du fichier de file d'attente de post-démarrage à exécuter lors "
 "du lancement de l'ordonnanceur, après le démarrage du profil de l'équipement."
 
 #. i18n: ectx: label, entry (SchedulerShutdownEnabled), group (Scheduler)
@@ -46011,7 +46011,7 @@ msgid ""
 "Path to the shutdown queue file to execute when stopping the scheduler "
 "before stopping the equipment profile."
 msgstr ""
-"Chemin vers le fichier de file d'attente de préarrêt à exécuter lors de "
+"Emplacement du fichier de file d'attente de préarrêt à exécuter lors de "
 "l'arrêt de l'ordonnanceur, avant l'arrêt du profil de l'équipement."
 
 #. i18n: ectx: label, entry (SchedulerPostShutdownScript), group (Scheduler)
@@ -46027,7 +46027,7 @@ msgid ""
 "Path to the shutdown queue file to execute when stopping the scheduler after "
 "stopping the equipment profile."
 msgstr ""
-"Chemin vers le fichier de file d'attente de post-arrêt à exécuter lors de "
+"Emplacement du fichier de file d'attente de post-arrêt à exécuter lors de "
 "l'arrêt de l'ordonnanceur, après l'arrêt du profil de l'équipement."
 
 #. i18n: ectx: label, entry (SchedulerFocusStep), group (Scheduler)
@@ -95278,7 +95278,7 @@ msgid ""
 "and country.  If the string contains spaces, enclose it in quotes so it gets "
 "parsed properly."
 msgstr ""
-"Les chaines de position se composent des noms - séparés par des virgules- de "
+"Les chaînes de position se composent des noms - séparés par des virgules- de "
 "la ville, de la région et du pays. Si la chaîne contient des espaces, "
 "entourez-la de guillemets pour qu'elle puisse être analysée correctement."
 
