@@ -6855,12 +6855,12 @@ msgstr "Fin du délai imparti pour le résolveur distant."
 #, kde-format
 msgid "Dustcap unparked. Resuming capture and solve."
 msgstr ""
-"Capuchon anti-poussière déparqué. Reprise de l'acquisition et la résolution."
+"Capuchon antipoussière déparqué. Reprise de l'acquisition et la résolution."
 
 #: ekos/align/align_devices.cpp:293
 #, kde-format
 msgid "Dustcap error detected. Aborting alignment."
-msgstr "Erreur de capuchon anti-poussière détectée. Abandon de l'alignement."
+msgstr "Erreur de capuchon antipoussière détectée. Abandon de l'alignement."
 
 #: ekos/align/align_devices.cpp:354 ekos/focus/focus.cpp:5877
 #, kde-format
@@ -7277,14 +7277,14 @@ msgstr ""
 #, kde-format
 msgid "Dustcap is parked. Unparking before capture and solve..."
 msgstr ""
-"Le capuchon anti-poussière est posé. Déparkage avant acquisition et "
+"Le capuchon antipoussière est posé. Déparkage avant acquisition et "
 "résolution..."
 
 #: ekos/align/align_solver.cpp:150
 #, kde-format
 msgid "Dustcap is not ready (status: %1). Waiting before capture and solve..."
 msgstr ""
-"Le capuchon anti-poussière n'est pas prêt (état : %1). En attente avant "
+"Le capuchon antipoussière n'est pas prêt (état : %1). En attente avant "
 "d'acquérir et de résoudre..."
 
 #: ekos/align/align_solver.cpp:162
@@ -19842,13 +19842,13 @@ msgstr "Mécanique de la mise au point"
 #: ekos/focus/focus.cpp:574
 #, kde-format
 msgid "Dustcap unparked. Resuming capture."
-msgstr "Capuchon anti-poussière ouvert. Reprise de l'acquisition."
+msgstr "Capuchon antipoussière ouvert. Reprise de l'acquisition."
 
 #: ekos/focus/focus.cpp:580
 #, kde-format
 msgid "Dustcap error detected. Aborting focus."
 msgstr ""
-"Erreur de capuchon anti-poussière détectée. Annulation de la mise au point."
+"Erreur de capuchon antipoussière détectée. Annulation de la mise au point."
 
 #: ekos/focus/focus.cpp:978
 #, kde-format
@@ -19988,13 +19988,13 @@ msgstr "Erreur : perte de connexion à la caméra."
 #: ekos/focus/focus.cpp:1902
 #, kde-format
 msgid "Dustcap is parked. Unparking before capture..."
-msgstr "Le capuchon anti-poussière est ouvert. Déparquage avant acquisition..."
+msgstr "Le capuchon antipoussière est ouvert. Déparquage avant acquisition..."
 
 #: ekos/focus/focus.cpp:1910
 #, kde-format
 msgid "Dustcap is not ready (status: %1). Waiting before capture..."
 msgstr ""
-"Le capuchon anti-poussière n'est pas prêt (état : %1). Attente avant "
+"Le capuchon antipoussière n'est pas prêt (état : %1). Attente avant "
 "l'acquisition…"
 
 #: ekos/focus/focus.cpp:1934
@@ -27831,7 +27831,7 @@ msgid ""
 "or not a pre-startup script is set."
 msgstr ""
 "Attendre ce nombre de secondes avant le démarrage du pilote. Le délai "
-"s'applique qu'un script de pré-démarrage soit défini ou non."
+"s'applique qu'un script de prédémarrage soit défini ou non."
 
 #: ekos/profilescript.cpp:49
 #, kde-format
@@ -27849,7 +27849,7 @@ msgid ""
 "or not a pre-shutdown script is set."
 msgstr ""
 "Attendre ce nombre de secondes avant l'arrêt du pilote. Le délai s'applique "
-"qu'un script de pré-arrêt soit défini ou non."
+"qu'un script de préarrêt soit défini ou non."
 
 #: ekos/profilescript.cpp:69
 #, kde-format
@@ -29742,7 +29742,7 @@ msgstr "Attention : la valeur DEC %1 est non valable."
 #, kde-format
 msgctxt "@title:window"
 msgid "Select Pre-Startup Queue"
-msgstr "Sélectionner la file d'attente de pré-démarrage"
+msgstr "Sélectionner la file d'attente de prédémarrage"
 
 #: ekos/scheduler/scheduler.cpp:939 ekos/scheduler/scheduler.cpp:955
 #: ekos/scheduler/scheduler.cpp:971 ekos/scheduler/scheduler.cpp:987
@@ -29760,7 +29760,7 @@ msgstr "Sélectionner la file d'attente de post-démarrage"
 #, kde-format
 msgctxt "@title:window"
 msgid "Select Pre-Shutdown Queue"
-msgstr "Sélectionner la file d'attente de pré-arrêt"
+msgstr "Sélectionner la file d'attente de préarrêt"
 
 #: ekos/scheduler/scheduler.cpp:985
 #, kde-format
@@ -30588,7 +30588,7 @@ msgstr "Activer la file d'attente de démarrage"
 #, kde-format
 msgid "Selected pre-startup queue to run before starting Ekos profile"
 msgstr ""
-"File d'attente de pré-démarrage sélectionnée pour être exécutée avant le "
+"File d'attente de prédémarrage sélectionnée pour être exécutée avant le "
 "démarrage du profil Ekos"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, selectPreStartupQueueB)
@@ -30597,7 +30597,7 @@ msgstr ""
 msgid "Browse for pre-startup queue/collection file"
 msgstr ""
 "Parcourir pour sélectionner le fichier de file d'attente/de collection de "
-"pré-démarrage"
+"prédémarrage"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, schedulerPostStartupScript)
 #: ekos/scheduler/scheduler.ui:2118
@@ -30649,7 +30649,7 @@ msgstr "Activer la file d'attente d'arrêt"
 #, kde-format
 msgid "Selected pre-shutdown queue to run before stopping Ekos profile"
 msgstr ""
-"File d'attente de pré-arrêt sélectionnée pour être exécutée avant l'arrêt du "
+"File d'attente de préarrêt sélectionnée pour être exécutée avant l'arrêt du "
 "profil Ekos."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, selectPreShutdownQueueB)
@@ -30658,7 +30658,7 @@ msgstr ""
 msgid "Browse for pre-shutdown queue/collection file"
 msgstr ""
 "Parcourir pour sélectionner le fichier de file d'attente/de collection de "
-"pré-arrêt."
+"préarrêt."
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, schedulerPostShutdownScript)
 #: ekos/scheduler/scheduler.ui:2277
@@ -31122,18 +31122,18 @@ msgstr "L'observatoire a lancé le processus de démarrage"
 #: ekos/scheduler/schedulerprocess.cpp:1984
 #, kde-format
 msgid "Executing pre-startup tasks from %1..."
-msgstr "Exécution des tâches de pré-démarrage depuis %1…"
+msgstr "Exécution des tâches de prédémarrage depuis %1…"
 
 #: ekos/scheduler/schedulerprocess.cpp:1992
 #, kde-format
 msgid "Failed to load pre-startup queue from %1"
-msgstr "Impossible de charger la file d'attente de pré-démarrage depuis %1."
+msgstr "Impossible de charger la file d'attente de prédémarrage depuis %1."
 
 #: ekos/scheduler/schedulerprocess.cpp:1998
 #, kde-format
 msgid "No pre-startup tasks, pre-startup phase complete. Starting Ekos..."
 msgstr ""
-"Aucune tâche de pré-démarrage, phase de pré-démarrage terminée. Démarrage "
+"Aucune tâche de prédémarrage, phase de prédémarrage terminée. Démarrage "
 "d'Ekos..."
 
 #: ekos/scheduler/schedulerprocess.cpp:2022
@@ -31159,12 +31159,12 @@ msgstr "L'observatoire n'a pas été démarré, la procédure d'arrêt est ignor
 #: ekos/scheduler/schedulerprocess.cpp:2103
 #, kde-format
 msgid "Executing pre-shutdown tasks from %1..."
-msgstr "Exécution des tâches pré-arrêt depuis %1..."
+msgstr "Exécution des tâches préarrêt depuis %1..."
 
 #: ekos/scheduler/schedulerprocess.cpp:2111
 #, kde-format
 msgid "Failed to load pre-shutdown queue from %1"
-msgstr "Échec du chargement de la file d'attente pré-arrêt depuis %1"
+msgstr "Échec du chargement de la file d'attente préarrêt depuis %1"
 
 #: ekos/scheduler/schedulerprocess.cpp:2131
 #, kde-format
@@ -31177,7 +31177,7 @@ msgstr ""
 #: ekos/scheduler/schedulerprocess.cpp:2142
 #, kde-format
 msgid "No pre-shutdown tasks, proceeding to stop Ekos/INDI."
-msgstr "Aucune tâche pré-arrêt, arrêt d'Ekos/INDI en cours."
+msgstr "Aucune tâche préarrêt, arrêt d'Ekos/INDI en cours."
 
 #: ekos/scheduler/schedulerprocess.cpp:2185
 #, kde-format
@@ -31309,7 +31309,7 @@ msgstr "L'image est à %1 minutes d'arc de la cible, réalignement en cours…"
 #: ekos/scheduler/schedulerprocess.cpp:3308
 #, kde-format
 msgid "Pre-startup queue completed successfully. Starting Ekos..."
-msgstr "File d'attente pré-démarrage terminée avec succès. Démarrage d'Ekos..."
+msgstr "File d'attente prédémarrage terminée avec succès. Démarrage d'Ekos..."
 
 #: ekos/scheduler/schedulerprocess.cpp:3316
 #, kde-format
@@ -31326,7 +31326,7 @@ msgstr ""
 #: ekos/scheduler/schedulerprocess.cpp:3339
 #, kde-format
 msgid "Pre-shutdown queue completed successfully."
-msgstr "File d'attente pré-arrêt terminée avec succès."
+msgstr "File d'attente préarrêt terminée avec succès."
 
 #: ekos/scheduler/schedulerprocess.cpp:3370
 #, kde-format
@@ -31341,7 +31341,7 @@ msgstr "Échec de la file d'attente de démarrage : %1"
 #: ekos/scheduler/schedulerprocess.cpp:3398
 #, kde-format
 msgid "Pre-shutdown queue failed: %1"
-msgstr "Échec de la file d'attente pré-arrêt : %1"
+msgstr "Échec de la file d'attente préarrêt : %1"
 
 #: ekos/scheduler/schedulerprocess.cpp:3405
 #, kde-format
@@ -46011,7 +46011,7 @@ msgid ""
 "Path to the shutdown queue file to execute when stopping the scheduler "
 "before stopping the equipment profile."
 msgstr ""
-"Chemin vers le fichier de file d'attente de pré-arrêt à exécuter lors de "
+"Chemin vers le fichier de file d'attente de préarrêt à exécuter lors de "
 "l'arrêt de l'ordonnanceur, avant l'arrêt du profil de l'équipement."
 
 #. i18n: ectx: label, entry (SchedulerPostShutdownScript), group (Scheduler)
@@ -95285,7 +95285,7 @@ msgstr ""
 #: tools/modcalcsidtime.cpp:139
 #, kde-format
 msgid "Hint for writing location strings"
-msgstr "Conseil pour l'écriture de chaines de positions"
+msgstr "Conseil pour l'écriture de chaînes de positions"
 
 #: tools/modcalcsidtime.cpp:148
 #, kde-format
@@ -97223,7 +97223,7 @@ msgstr "Sélectionner la couleur de l'indicateur de champ de vision"
 #: tools/scriptbuilder.cpp:649
 #, kde-format
 msgid "string"
-msgstr "chaine"
+msgstr "chaîne"
 
 #: tools/scriptbuilder.cpp:652
 #, kde-format
