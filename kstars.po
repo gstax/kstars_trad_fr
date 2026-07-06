@@ -12487,7 +12487,7 @@ msgstr "Modifier les noms des filtres"
 #: ekos/capture/camera.ui:439
 #, kde-format
 msgid "W:"
-msgstr "O"
+msgstr "L"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, coolerOnB)
 #: ekos/capture/camera.ui:513
@@ -12692,7 +12692,7 @@ msgstr "Gérer les scripts de séquences"
 #: ekos/capture/camera.ui:1369 ekos/profileeditor.ui:612 ekos/scheduler/scheduler.cpp:599
 #, kde-format
 msgid "Scripts"
-msgstr "Scripts "
+msgstr "Scripts"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, temperatureOUT)
 #: ekos/capture/camera.ui:1418
@@ -12815,7 +12815,7 @@ msgstr "/home/pi"
 #: ekos/capture/camera.ui:1833
 #, kde-format
 msgid "<html><head/><body><p>Select how captured images are uploaded:</p><ol style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Locally</span>: Captured images are saved locally on disk in the directory specified above.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Remotely</span>: When connecting to a remote device, select this option to save images on the remote device only. No images are uploaded to Ekos.</li><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Both</span>: Captured images are saved on both the remote computer <span style=\" font-weight:600;\">and</span> on the local disk as well.</li></ol><p>When selecting <span style=\" font-style:italic;\">Remotely</span> or <span style=\" font-style:italic;\">Both</span>, you must specify the remote directory where the remote images are saved to. By default, all captured images are saved <span style=\" font-style:italic;\">Locally</span>.</p></body></html>"
-msgstr "<html><head/><body><p>Sélectionnez la façon dont les images sont téléchargées : </p><ol style=\"margin-top : 0px ; margin-bottom : 0px ; margin-left : 0px ; margin-right : 0px ; -qt-list-indent : 1 ;\"><li style=\" margin-top:12px ; margin-bottom:0px ; margin-left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">Localement</span> : les images sont enregistrées localement sur le disque dans le dossier spécifié ci-dessus.</li><li style=\" margin-top:0px ; margin-bottom:0px ; margin-left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">À distance</span> : lors de la connexion à un appareil distant, sélectionnez cette option pour enregistrer les images sur l'appareil distant uniquement. Aucune image n'est téléchargée sur Ekos.</li><li style=\" margin-top:0px ; margin-bottom:12px ; margin-left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">Les deux</span> : les images sont enregistrées à la fois sur l'ordinateur distant <span style=\" font-weight:600 ;\">et</span> sur le disque local également.</li>.</ol><p>Lorsque vous sélectionnez <span style=\" font-style:italic ;\">À distance</span> ou <span style=\" font-style:italic ;\">Les deux</span>, vous devez spécifier le dossier distant dans lequel les images distantes sont enregistrées. Par défaut, toutes les images sont enregistrées <span style=\" font-style:italic ;\">localement</span>.</p></body></html>"
+msgstr "<html><head/><body><p>Sélectionnez la façon dont les images sont téléchargées : </p><ol style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Localement</span> : les images sont enregistrées localement sur le disque dans le dossier spécifié ci-dessus.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">À distance</span> : lors de la connexion à un appareil distant, sélectionnez cette option pour enregistrer les images sur l'appareil distant uniquement. Aucune image n'est téléchargée sur Ekos.</li><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Les deux</span> : les images sont enregistrées à la fois sur l'ordinateur distant <span style=\" font-weight:600;\">et</span> sur le disque local également.</li></ol><p>Lorsque vous sélectionnez <span style=\" font-style:italic;\">À distance</span> ou <span style=\" font-style:italic;\">Les deux</span>, vous devez spécifier le dossier distant dans lequel les images distantes sont enregistrées. Par défaut, toutes les images sont enregistrées <span style=\" font-style:italic;\">localement</span>.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: ekos/capture/camera.ui:1836
@@ -13147,12 +13147,12 @@ msgstr "Dossier d'enregistrement des fichiers FITS"
 #: ekos/capture/camera_config.cpp:1040
 #, kde-format
 msgid "You must set local or remote directory for Remotely & Both modes."
-msgstr "Vous devez définir un dossier distant pour les modes « À distance et Les Deux »."
+msgstr "Vous devez définir un dossier local ou distant pour les modes « Distant » et « Les deux »."
 
 #: ekos/capture/camera_config.cpp:1046
 #, kde-format
 msgid "You must set local directory for Locally & Both modes."
-msgstr "Vous devez définir un dossier local pour les modes « Local et Les Deux »."
+msgstr "Vous devez définir un dossier local pour les modes « Local » et « Les deux »."
 
 #: ekos/capture/camera_config.cpp:1172
 #, kde-format
@@ -13191,7 +13191,7 @@ msgstr "Seuil (°C)"
 #: ekos/capture/camera_device.cpp:183
 #, kde-format
 msgid "<html><body><p>Maximum difference between camera and target temperatures triggering regulation.<p>This setting is read from and stored in the INDI camera driver configuration.</body></html>"
-msgstr "<html><body<p>La différence maximale entre la température de l'appareil et la cible déclenchant la régulation.</p><p>Ce réglage est lu et enregistré dans la configuration du pilote INDI de l'appareil.</p>"
+msgstr "<html><body><p>La différence maximale entre la température de l'appareil et la cible déclenchant la régulation.</p><p>Ce réglage est lu et enregistré dans la configuration du pilote INDI de l'appareil.</p></body></html>"
 
 #: ekos/capture/camera_device.cpp:196
 #, kde-format
@@ -13723,12 +13723,12 @@ msgstr "Délai du module de guidage écoulé"
 #: ekos/capture/camerastate.cpp:1037
 #, kde-format
 msgid "Initial guiding deviation %1 below limit value of %2 arcsecs"
-msgstr "La déviation de guidage %1 est toujours supérieure à la valeur limite de %2 secondes d'arc."
+msgstr "La déviation de guidage initiale %1 est inférieure à la valeur limite de %2 secondes d'arc."
 
 #: ekos/capture/camerastate.cpp:1046
 #, kde-format
 msgid "Initial guiding deviation %1 exceeded limit value of %2 arcsecs"
-msgstr "La déviation de guidage initial %1 a dépassé la valeur limite de %2 secondes d'arc."
+msgstr "La déviation de guidage initiale %1 a dépassé la valeur limite de %2 secondes d'arc."
 
 #: ekos/capture/camerastate.cpp:1068
 #, kde-format
@@ -14129,7 +14129,7 @@ msgstr "Paramètres APN"
 #: ekos/capture/dslrinfo.ui:44
 #, kde-format
 msgid "<html><head/><body><p>Please fill the required information below. This is a one-time setup. You can obtain these values from your camera manual or from online sources such as <a href=\"https://www.digicamdb.com/\"><span style=\" text-decoration: underline; color:#007af4;\">Digital Camera Database</span></a>.</p></body></html>"
-msgstr "<html><head/><body><p>Veuillez fournir les informations requises ci-dessous. Il s'agit d'une configuration unique. Vous pouvez obtenir ces valeurs à partir du manuel de votre caméra ou de sources en ligne telles que la <a href=\"https://www.digicamdb.com/\"><span style=\" text-decoration : underline; color:#007af4;\">Base de données des appareils photo numériques</span></a>. </p></body></html>"
+msgstr "<html><head/><body><p>Veuillez fournir les informations requises ci-dessous. Il s'agit d'une configuration unique. Vous pouvez obtenir ces valeurs à partir du manuel de votre caméra ou de sources en ligne telles que la <a href=\"https://www.digicamdb.com/\"><span style=\" text-decoration: underline; color:#007af4;\">Base de données des appareils photo numériques</span></a>.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_3)
 #: ekos/capture/dslrinfo.ui:58
@@ -14274,7 +14274,7 @@ msgstr "Durée de la pose"
 #: ekos/capture/exposurecalculator/exposurecalculatordialog.ui:522
 #, kde-format
 msgid "Exposure Time (sec)"
-msgstr "Durée d'exposition (ms)"
+msgstr "Durée d'exposition (sec)"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, downloadCameraB)
 #: ekos/capture/exposurecalculator/exposurecalculatordialog.ui:562
@@ -14450,7 +14450,7 @@ msgstr "Démarrer l'acquisition uniquement si l'écart en guidage est inférieur
 #: ekos/capture/limits.ui:143
 #, kde-format
 msgid "Only start if guide deviation <:"
-msgstr "Ne démarrer que si la déviation de guidage est inférieure à "
+msgstr "Ne démarrer que si la déviation de guidage est inférieure à"
 
 #. i18n: ectx: property (text), widget (QLabel, limitGuideDeviationLabel)
 #: ekos/capture/limits.ui:163
@@ -14462,7 +14462,7 @@ msgstr "fois consécutives"
 #: ekos/capture/limits.ui:170
 #, kde-format
 msgid "Dither per job every:"
-msgstr "Décaler par tâche chaque "
+msgstr "Décaler par tâche chaque"
 
 #. i18n: ectx: property (title), widget (QGroupBox, focusGroupBox)
 #: ekos/capture/limits.ui:190
@@ -14480,13 +14480,13 @@ msgstr "<html><head/><body><p>L'algorithme de vérification HFR</p><ul style=\"m
 #: ekos/capture/limits.ui:203
 #, kde-format
 msgid "Last Autofocus"
-msgstr "Dernière au point automatique"
+msgstr "Dernière mise au point automatique"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, hFRCheckAlgorithm)
 #: ekos/capture/limits.ui:208
 #, kde-format
 msgid "Fixed"
-msgstr "Corrigée"
+msgstr "Constante"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, hFRCheckAlgorithm)
 #: ekos/capture/limits.ui:213
@@ -14516,7 +14516,7 @@ msgstr "<html><head/><body><p>Cochez pour réaliser une mise au point automatiqu
 #: ekos/capture/limits.ui:275 ekos/capture/refocusstate.cpp:68
 #, kde-format
 msgid "Refocus after meridian flip"
-msgstr "Réinitialiser la mise au point après le retournement au méridien."
+msgstr "Nouvelle mise au point après le retournement au méridien"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enforceRefocusEveryN)
 #: ekos/capture/limits.ui:285
@@ -14650,7 +14650,7 @@ msgstr "<html><head/><body><p>Durée minimale d'un retournement au méridien en 
 #: ekos/capture/opsmiscsettings.ui:60
 #, kde-format
 msgid "Minimal meridian flip duration: "
-msgstr "durée minimale du retournement au méridien"
+msgstr "Durée minimale du retournement au méridien"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_13)
 #: ekos/capture/opsmiscsettings.ui:80
@@ -14668,7 +14668,7 @@ msgstr "Réglage du guidage"
 #: ekos/capture/opsmiscsettings.ui:106
 #, kde-format
 msgid "Maximum acceptable difference between requested and measured temperature set point. When the temperature threshold is below this value, the temperature set point request is deemed successful."
-msgstr "Différence maximale acceptable entre le point d'ensemble de la température mesurée et demandée. Quand le seuil de température est inférieur à cette valeur, la requête du point d'ensemble de température est réputé réussie."
+msgstr "Différence maximale acceptable entre le point de consigne de la température mesurée et demandée. Quand le seuil de température est inférieur à cette valeur, la requête du point de consigne de température est réputée réussie."
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ekos/capture/opsmiscsettings.ui:109
@@ -14760,7 +14760,7 @@ msgstr "Nouvelle mise au point par suite d'un changement de température de %1 �
 #: ekos/capture/refocusstate.cpp:76
 #, kde-format
 msgid "In sequence HFR based refocus starting..."
-msgstr "Redémarrage de la mise au point à partir de la séquence HFR…baBarreBarresée"
+msgstr "Nouvelle mise au point en cours de séquence, basée sur le HFR…"
 
 #: ekos/capture/refocusstate.cpp:84
 #, kde-format
@@ -14983,7 +14983,7 @@ msgstr "<b><font color=\"red\">Veuillez ouvrir l'onglet d'acquisition connecté 
 #: ekos/capture/sequenceeditor.cpp:113
 #, kde-format
 msgid "<b>Using camera and filterwheel attributes from Capture session started at %1.</b><p>If you wish to use other cameras/filterbanks, please edit the sequence using the Capture tab.<br>It is not recommended to overwrite a sequence file currently running, please rename it instead.</p><p>"
-msgstr "<b>Utilisation des attributs de l'appareil et de la roue à filtres d'une session d'acquisition débutée à %1.<br><p>Si vous souhaitez utiliser d'autres appareils et banques de filtres, veuillez modifier la séquence en utilisant l'onglet d'acquisition.</br>Il n'est pas recommandé de modifier un fichier de séquences en cours d'utilisation, veuillez plutôt le renommer.<p>"
+msgstr "<b>Utilisation des attributs de l'appareil et de la roue à filtres d'une session d'acquisition débutée à %1.</b><p>Si vous souhaitez utiliser d'autres appareils et banques de filtres, veuillez modifier la séquence en utilisant l'onglet d'acquisition.<br>Il n'est pas recommandé de modifier un fichier de séquences en cours d'utilisation, veuillez plutôt le renommer.</p><p>"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, SequenceEditorUI)
 #: ekos/capture/sequenceeditorui.ui:20
