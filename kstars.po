@@ -86540,7 +86540,7 @@ msgstr "Sélectionnez les objets plus lumineux que"
 #: tools/obslistwizard.ui:991
 #, kde-format
 msgid "Include objects which have no defined magnitude"
-msgstr "Exclure les objets n'ayant pas de magnitude définie"
+msgstr "Inclure les objets n'ayant pas de magnitude définie"
 
 #. i18n: ectx: property (text), widget (QLabel, CountLabel)
 #: tools/obslistwizard.ui:1035
@@ -87519,7 +87519,7 @@ msgstr "Résultats du télescope « Star-Hopper »"
 #: tools/whatsinteresting/skyobjitem.cpp:114
 #, kde-kuit-format
 msgid "NOT VISIBLE: About %1 degrees below the %2 horizon"
-msgstr "INVISIBLE : environ %1 degrés au-dessus de l'horizon %2"
+msgstr "INVISIBLE : environ %1 degrés en dessous de l'horizon %2"
 
 #: tools/whatsinteresting/skyobjitem.cpp:119
 #, kde-kuit-format
@@ -88068,13 +88068,13 @@ msgstr "Année précédente"
 #, kde-format
 msgctxt "Local Time"
 msgid "LT: "
-msgstr "Heure locale "
+msgstr "HL "
 
 #: widgets/infoboxwidget.cpp:75
 #, kde-format
 msgctxt "Universal Time"
 msgid "UT: "
-msgstr "HU "
+msgstr "TU "
 
 #: widgets/infoboxwidget.cpp:84
 #, kde-format
