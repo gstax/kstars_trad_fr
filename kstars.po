@@ -18256,7 +18256,7 @@ msgstr "La connexion a été refusée par le pair. Veuillez vous assurer que le 
 #: ekos/guide/externalguide/phd2.cpp:327
 #, kde-format
 msgid "PHD2: invalid response received: %1"
-msgstr "PHD : réponse non valable reçue : %1"
+msgstr "PHD2 : réponse non valable reçue : %1"
 
 #: ekos/guide/externalguide/phd2.cpp:328
 #, kde-format
@@ -18341,7 +18341,7 @@ msgstr "PHD2 : guidage arrêté."
 #: ekos/guide/externalguide/phd2.cpp:723
 #, kde-format
 msgid "PHD2: Lock Position Set."
-msgstr "PHD2 : verrouillage de l'ensemble de la position."
+msgstr "PHD2 : position de verrouillage définie."
 
 #: ekos/guide/externalguide/phd2.cpp:734
 #, kde-format
@@ -18401,7 +18401,7 @@ msgstr "PHD2 : réalisation de boucles d'exposition."
 #: ekos/guide/externalguide/phd2.cpp:806
 #, kde-format
 msgid "PHD2: Dithering started."
-msgstr "PHD2: démarrage du décalage."
+msgstr "PHD2 : démarrage du décalage."
 
 #: ekos/guide/externalguide/phd2.cpp:834
 #, kde-format
@@ -18421,7 +18421,7 @@ msgstr "PHD2 : temps d'exposition défini à "
 #: ekos/guide/externalguide/phd2.cpp:948
 #, kde-format
 msgid "PHD2: Valid Exposure Times: Auto, "
-msgstr "PHD2 : temps d'exposition valable : « Auto »"
+msgstr "PHD2 : temps d'exposition valable : « Auto, "
 
 #: ekos/guide/externalguide/phd2.cpp:979
 #, kde-format
@@ -18436,7 +18436,7 @@ msgstr "PHD2 : la taille de pixel est de %1 secondes d'arc par pixel"
 #: ekos/guide/externalguide/phd2.cpp:1096
 #, kde-format
 msgid "PHD2 Error: unhandled '%1'"
-msgstr "Erreur PHD2 : « %1 » non géré "
+msgstr "Erreur PHD2 : « %1 » non géré"
 
 #: ekos/guide/externalguide/phd2.cpp:1232 ekos/guide/externalguide/phd2.cpp:1250 ekos/guide/externalguide/phd2.cpp:1403 ekos/guide/externalguide/phd2.cpp:1519 ekos/guide/externalguide/phd2.cpp:1546 ekos/guide/externalguide/phd2.cpp:1575
 #, kde-format
@@ -18618,7 +18618,7 @@ msgstr "Décalage en cours."
 #, kde-format
 msgid "Post-dither settling for %1 second..."
 msgid_plural "Post-dither settling for %1 seconds..."
-msgstr[0] "Délai après décalage %1 seconde…"
+msgstr[0] "Délai après décalage de %1 seconde…"
 msgstr[1] "Délai après décalage de %1 secondes…"
 
 #: ekos/guide/guide.cpp:1942
@@ -18649,7 +18649,7 @@ msgstr "Impossible de modifier le type de guide quand il est actif."
 #: ekos/guide/guide.cpp:2261
 #, kde-format
 msgid "Warning: Reset Guiding Calibration is enabled. It is recommended to turn this option off for PHD2."
-msgstr "Attention : la réinitialisation de la calibration du guidage est activé. Il est recommandé de désactiver cette option pour PHD2."
+msgstr "Attention : la réinitialisation de la calibration du guidage est activée. Il est recommandé de désactiver cette option pour PHD2."
 
 #: ekos/guide/guide.cpp:2701
 #, kde-format
@@ -18718,7 +18718,7 @@ msgstr "Pose"
 #: ekos/guide/guide.ui:191
 #, kde-format
 msgid "<html><head/><body><p>Automatically select the calibration star. <br/>Please note: 'SEP Multi Star' does  <span style=\" font-weight:600;\">always</span> use 'auto star' detection.</p></body></html>"
-msgstr "<html><head/><body><p>Sélectionner automatiquement l'étoile de calibration. <br/>Veuillez noter que le processus « SEP Multi Étoiles » utilise <span style=\" font-weight:600;\">toujours</span> la détection avec « étoile automatique ».</p></body></html>"
+msgstr "<html><head/><body><p>Sélectionner automatiquement l'étoile de calibration. <br/>Veuillez noter que le processus « SEP Multi Star » utilise <span style=\" font-weight:600;\">toujours</span> la détection avec « étoile automatique ».</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, guideAutoStar)
 #: ekos/guide/guide.ui:194
@@ -18958,7 +18958,7 @@ msgstr "Erreur RMS en DEC du guidage"
 #: ekos/guide/guide.ui:925
 #, kde-format
 msgid "Total RMS\":"
-msgstr "RMS total"
+msgstr "RMS total\""
 
 #. i18n: ectx: property (text), widget (QLabel, l_TotalRMS)
 #. i18n: ectx: property (text), widget (QLabel, l_SNR)
@@ -19092,7 +19092,7 @@ msgstr "Max"
 #: ekos/guide/guide.ui:1487
 #, kde-format
 msgid "<html><head/><body><p>Autoscale both Guide Graphs to their default scale. If any points are located outside this range, the view is expanded to include them (with the exception of the time axis in the drift graphics).</p></body></html>"
-msgstr "<html><head/><body><p>Définir l'échelle automatiquement à la fois pour tous les graphiques de guidage comme échelle par défaut. Si des points sont situés hors de cet intervalle, l'affichage est étendu pour les inclure (avec l'exception de l'axe des temps dans le graphique de dérive.</p></body></html>"
+msgstr "<html><head/><body><p>Définir l'échelle automatiquement à la fois pour tous les graphiques de guidage comme échelle par défaut. Si des points sont situés hors de cet intervalle, l'affichage est étendu pour les inclure (avec l'exception de l'axe des temps dans le graphique de dérive).</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, guideSaveDataB)
 #: ekos/guide/guide.ui:1509
@@ -19164,13 +19164,13 @@ msgstr "E"
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Guide Data"
-msgstr "Exporter les données de guidage."
+msgstr "Exporter les données de guidage"
 
 #. i18n: ectx: property (text), widget (QLabel, preparingStateLabel)
 #: ekos/guide/guidestatewidget.ui:51
 #, kde-format
 msgid "Prep"
-msgstr "préparation"
+msgstr "Préparation"
 
 #: ekos/guide/internalguide/calibrationprocess.cpp:178
 #, kde-format
@@ -19216,7 +19216,7 @@ msgstr[1] ""
 #: ekos/guide/internalguide/calibrationprocess.cpp:359
 #, kde-format
 msgid "DEC backlash..."
-msgstr "Correctif DEC…"
+msgstr "Jeu en DEC…"
 
 #: ekos/guide/internalguide/calibrationprocess.cpp:372 ekos/guide/internalguide/calibrationprocess.cpp:425
 #, kde-format
@@ -19400,7 +19400,7 @@ msgstr "Taille initiale de l'impulsion pour la calibration."
 #: ekos/guide/opscalibration.ui:67
 #, kde-format
 msgid "Maximum number of iterations calibration should use per phase."
-msgstr "Le nombre maximal d'itérations de calibration qui devraient être utilisé par phase."
+msgstr "Le nombre maximal d'itérations de calibration qui devraient être utilisées par phase."
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #: ekos/guide/opscalibration.ui:102
@@ -19418,7 +19418,7 @@ msgstr "Maximum d'itérations"
 #: ekos/guide/opscalibration.ui:112
 #, kde-format
 msgid "Maximum number of pixels the calibration should move. Once it exceeds this amount, it will finish the calibration phase.  It may move less if  max iterations is reached."
-msgstr "Nombre maximum de pixels que la calibration doit déplacer. Une fois cette quantité dépassée, il terminera la phase de calibration. Il peut se déplacer moins si le maximum d'itérations est atteinte."
+msgstr "Nombre maximum de pixels que la calibration doit déplacer. Une fois cette quantité dépassée, il terminera la phase de calibration. Il peut se déplacer moins si le maximum d'itérations est atteint."
 
 #. i18n: ectx: property (text), widget (QLabel, label1)
 #: ekos/guide/opscalibration.ui:115
@@ -19725,13 +19725,13 @@ msgstr "Période principale"
 #: ekos/guide/opsgpg.ui:146 ekos/guide/opsgpg.ui:264
 #, kde-format
 msgid "The fraction of its prediction the GPG uses to move the mount."
-msgstr "La fraction de sa prédiction utiliser par « PGG » pour faire déplacer la monture."
+msgstr "La fraction de sa prédiction utilisée par « PGG » pour faire déplacer la monture."
 
 #. i18n: ectx: property (text), widget (QLabel, label_gpgs2a)
 #: ekos/guide/opsgpg.ui:149
 #, kde-format
 msgid "Prediction Gain"
-msgstr "Prédiction de gain"
+msgstr "Gain de prédiction"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_gpgsDarkGuiding)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_GPGDarkGuiding)
@@ -19793,7 +19793,7 @@ msgstr "Une partie de la dérive associée à l'étoile de guidage, utilisé par
 #: ekos/guide/opsgpg.ui:257
 #, kde-format
 msgid "Control Gain"
-msgstr "Contrôler le gain"
+msgstr "Gain de contrôle"
 
 #. i18n: ectx: property (title), widget (QGroupBox, expertGroupBox)
 #: ekos/guide/opsgpg.ui:308
@@ -19991,7 +19991,7 @@ msgstr "Paramètres de contrôle"
 #: ekos/guide/opsguide.ui:70
 #, kde-format
 msgid "The algorithm that computes the guide correction pulses."
-msgstr "L'algorithme qui calcule les impulsions les corrections de guidage."
+msgstr "L'algorithme qui calcule les impulsions de correction de guidage."
 
 #. i18n: ectx: property (text), widget (QLabel, AlgLabel)
 #: ekos/guide/opsguide.ui:73
@@ -20174,7 +20174,7 @@ msgstr "HFR maximal autorisé pour le guidage SEP multi-étoiles."
 #: ekos/guide/opsguide.ui:527
 #, kde-format
 msgid "Max MultiStar HFR"
-msgstr "HFR maximale d'étoiles multiples"
+msgstr "HFR maximal d'étoiles multiples"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #: ekos/guide/opsguide.ui:554
@@ -20580,7 +20580,7 @@ msgstr "Le module rotateur du périphérique %1 est connecté."
 #: ekos/manager.cpp:2066
 #, kde-format
 msgid "%1 Weather is online."
-msgstr "Le module météo du périphérique %1 est connectée."
+msgstr "Le module météo du périphérique %1 est connecté."
 
 #: ekos/manager.cpp:2073
 #, kde-format
@@ -20600,7 +20600,7 @@ msgstr "Le module capuchon du périphérique %1 est connecté."
 #: ekos/manager.cpp:2096
 #, kde-format
 msgid "%1 Light box is online."
-msgstr "Le module boîte à lumière du périphérique %1 est connectée."
+msgstr "Le module boîte à lumière du périphérique %1 est connecté."
 
 #: ekos/manager.cpp:2241
 #, kde-format
@@ -20625,7 +20625,7 @@ msgstr "Confirmer la suppression"
 #: ekos/manager.cpp:3190
 #, kde-format
 msgid "Site location updated to %1."
-msgstr "Position du site mis à jour à %1."
+msgstr "Position du site mise à jour à %1."
 
 #: ekos/manager.cpp:3192
 #, kde-format
@@ -20660,7 +20660,7 @@ msgstr "Source de l'aperçu réglée sur externe"
 #: ekos/manager.cpp:4292
 #, kde-format
 msgid "Preview source reset to internal"
-msgstr "Source de l'aperçu réinitialisé sur interne"
+msgstr "Source de l'aperçu réinitialisée sur interne"
 
 #: ekos/manager.cpp:4299
 #, kde-format
