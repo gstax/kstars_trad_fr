@@ -9264,7 +9264,7 @@ msgstr "L'option Calcul automatique du HFR dans le menu des options FITS de KSta
 #: ekos/analyze/analyze.cpp:2646
 #, kde-format
 msgid "The \"Auto Compute HFR\" option in the KStars FITS options menu is not set. You won't get # stars in capture image values without it. Once you set it, newly captured images will have their stars detected."
-msgstr "L'option « Calcul automatique du HFR » dans le menu des options FITS de KStars n'est pas paramétrée. Vous n'obtiendrez pas # de valeur dans l'image acquise. Une fois paramétrées, les images nouvellement acquises verront leurs étoiles détectées."
+msgstr "L'option « Calcul automatique du HFR » dans le menu des options FITS de KStars n'est pas paramétrée. Vous n'obtiendrez pas de valeur pour le nombre d'étoiles dans l'image acquise sans elle. Une fois que vous la sélectionnez, les images nouvellement acquises auront leurs étoiles détectées."
 
 #: ekos/analyze/analyze.cpp:3514 ekos/auxiliary/ledstatuswidget.cpp:78 ekos/capture/sequencejob.cpp:36 ekos/ekos.h:21 ekos/ekos.h:72 ekos/ekos.h:119 ekos/ekos.h:139 ekos/ekos.h:199 ekos/scheduler/scheduler.cpp:1851
 #, kde-format
@@ -9397,7 +9397,7 @@ msgstr "<html><head/><body><p>Afficher le prochain fichier .analyze.</p></body><
 #: ekos/analyze/analyze.ui:148
 #, kde-format
 msgid ">>"
-msgstr ">"
+msgstr ">>"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, inputCombo)
 #: ekos/analyze/analyze.ui:161
@@ -9626,7 +9626,7 @@ msgstr "<html><head/><body><p>La valeur en moyenne quadratique (Root-Mean-Square
 #: ekos/analyze/analyze.ui:802
 #, kde-format
 msgid "<html><head/><body><p>Plot the sky background light (computed by SEP from the guide images).</p></body></html>"
-msgstr "<html><head/><body><p>Tracer la lumière du fond du ciel (Calculé par SEP à partir des images de guidage).</p></body></html>"
+msgstr "<html><head/><body><p>Tracer la lumière du fond du ciel (calculé par SEP à partir des images de guidage).</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, skyBgCB)
 #: ekos/analyze/analyze.ui:808
@@ -9685,7 +9685,7 @@ msgstr "<html><head/><body><p>Le rapport Signal/Bruit (SNR) de l'étoile de guid
 #: ekos/analyze/analyze.ui:937
 #, kde-format
 msgid "<html><head/><body><p>Plot the Right Ascension (RA) where the telescope is pointing.</p></body></html>"
-msgstr "<html><head/><body><p>Tracer l'erreur de dérive d'ascension droite (AD) là où le telescope pointe.</p></body></html>"
+msgstr "<html><head/><body><p>Tracer l'ascension droite (AD) là où le télescope pointe.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, mountRaOut)
 #: ekos/analyze/analyze.ui:962
@@ -9926,7 +9926,7 @@ msgstr "Outil de l'axe Y"
 #: ekos/analyze/yaxistool.ui:25
 #, kde-format
 msgid "Stat Name"
-msgstr "Nom de l'étoile"
+msgstr "Nom de la statistique"
 
 #. i18n: ectx: property (text), widget (QLabel, statShortLabel)
 #. i18n: ectx: property (text), widget (QLabel, labelDate)
@@ -9971,7 +9971,7 @@ msgstr "Couleur"
 #: ekos/analyze/yaxistool.ui:217
 #, kde-format
 msgid "Change"
-msgstr "Changement"
+msgstr "Changer"
 
 #. i18n: ectx: property (text), widget (QPushButton, defaultB)
 #: ekos/analyze/yaxistool.ui:239
