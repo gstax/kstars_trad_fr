@@ -29093,7 +29093,7 @@ msgstr "Mon Webcast pour l'empilement en direct"
 #: fitsviewer/livestackwebcast.ui:293
 #, kde-format
 msgid "Throttle Updates:"
-msgstr "Mise à jour de la limitation de vitesse"
+msgstr "Limiter les mises à jour"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, logoRLabel)
 #: fitsviewer/livestackwebcast.ui:303
@@ -29105,7 +29105,7 @@ msgstr "<html><head/><body><p>Logo (droite) de l'évènement Webcast.</p></body>
 #: fitsviewer/livestackwebcast.ui:306
 #, kde-format
 msgid "Logo R:"
-msgstr "Logo R :"
+msgstr "Logo D :"
 
 #. i18n: ectx: property (text), widget (QTableWidget, subscribersTable)
 #: fitsviewer/livestackwebcast.ui:362
@@ -29756,7 +29756,7 @@ msgstr "Zoome l'affichage sur les positions présélectionnées."
 #: fitsviewer/starprofileviewer.cpp:186
 #, kde-format
 msgid "ZoomTo"
-msgstr "Zoomer vers "
+msgstr "Zoomer vers"
 
 #: fitsviewer/starprofileviewer.cpp:187
 #, kde-format
@@ -29771,7 +29771,7 @@ msgstr "Avant droit"
 #: fitsviewer/starprofileviewer.cpp:189
 #, kde-format
 msgid "Overhead"
-msgstr "Surcharge"
+msgstr "Vue de dessus"
 
 #: fitsviewer/starprofileviewer.cpp:190
 #, kde-format
@@ -29826,7 +29826,7 @@ msgstr "Modifie le modèle de couleurs."
 #: fitsviewer/starprofileviewer.cpp:509 fitsviewer/starprofileviewer.cpp:712
 #, kde-format
 msgid "Cut: %1"
-msgstr "Effacer : %1"
+msgstr "Coupure : %1"
 
 #: fitsviewer/starprofileviewer.cpp:517 fitsviewer/starprofileviewer.cpp:524 fitsviewer/starprofileviewer.cpp:886
 #, kde-format
@@ -29846,7 +29846,7 @@ msgstr "Pixel sélectionné : (%1, %2) : %3"
 #: fitsviewer/starprofileviewer.cpp:714
 #, kde-format
 msgid "Cut Disabled"
-msgstr "Effacer celle désactivée"
+msgstr "Coupure désactivée"
 
 #: fitsviewer/starprofileviewer.cpp:913
 #, kde-format
@@ -29932,14 +29932,14 @@ msgstr "Erreur durant le téléchargement des sources HiPS : %1"
 #: hips/opships.ui:48
 #, kde-format
 msgid "Search..."
-msgstr "Recherche"
+msgstr "Recherche…"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_4)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_HIPSNetCache)
 #: hips/opshipscache.ui:42 hips/opshipscache.ui:52
 #, kde-format
 msgid "Cache space on hard disk used to store HiPS images."
-msgstr "Taille du cache sur le disque dur utiliser pour enregistrer des images HiPS."
+msgstr "Taille du cache sur le disque dur utilisé pour enregistrer des images HiPS."
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: hips/opshipscache.ui:45
@@ -30188,7 +30188,7 @@ msgstr "L'étiquette existe déjà. Elle doit être unique."
 #: indi/customdrivers.cpp:122
 #, kde-format
 msgid "Failed to add new driver. Is the label unique?"
-msgstr "Impossible d'ajouter un nouveau pilote. Est que le label est unique ?"
+msgstr "Impossible d'ajouter un nouveau pilote. Est-ce que le label est unique ?"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, CustomDrivers)
 #: indi/customdrivers.ui:14
@@ -30464,7 +30464,7 @@ msgstr "Rotation en sens antihoraire"
 #: indi/indidome.cpp:22 indi/indidustcap.cpp:17
 #, kde-format
 msgid "UnParking"
-msgstr "Déblocage en cours"
+msgstr "Déparcage en cours"
 
 #: indi/indidome.cpp:121
 #, kde-format
@@ -30479,12 +30479,12 @@ msgstr "Le déblocage du dôme est en cours"
 #: indi/indidome.cpp:147
 #, kde-format
 msgid "Dome parked"
-msgstr "Dôme bloqué"
+msgstr "Dôme parqué"
 
 #: indi/indidome.cpp:168
 #, kde-format
 msgid "Dome unparked"
-msgstr "Dôme débloqué"
+msgstr "Dôme déparqué"
 
 #: indi/indidome.cpp:246
 #, kde-format
@@ -30620,12 +30620,12 @@ msgstr "Monture dé-parquée"
 #: indi/indimount.cpp:857
 #, kde-format
 msgid "Warning! Looking at the Sun without proper protection can lead to irreversible eye damage!"
-msgstr "Attention : regarder le Soleil sans une protection adaptée peut conduite à des dommages irréversibles pour les yeux !"
+msgstr "Attention : regarder le Soleil sans une protection adaptée peut conduire à des dommages irréversibles pour les yeux !"
 
 #: indi/indimount.cpp:858
 #, kde-format
 msgid "Sun Warning"
-msgstr "Alarme pour le soleil"
+msgstr "Avertissement solaire"
 
 #: indi/indimount.cpp:876
 #, kde-format
@@ -30751,7 +30751,7 @@ msgstr "Port vidéo INDI par défaut"
 #: indi/opsindi.ui:68
 #, kde-format
 msgid "INDI server:"
-msgstr "Serveur INDI "
+msgstr "Serveur INDI"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_indiServer)
 #: indi/opsindi.ui:75
@@ -30769,7 +30769,7 @@ msgstr "Les pilotes INDI sont internes au paquet de l'application."
 #: indi/opsindi.ui:105
 #, kde-format
 msgid "INDI drivers XML directory:"
-msgstr "Dossier XML des pilotes INDI "
+msgstr "Dossier XML des pilotes INDI"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_indiDriversDir)
 #: indi/opsindi.ui:112
@@ -30787,7 +30787,7 @@ msgstr "Indiquer où sont enregistrées les nouvelles images FITS une fois acqui
 #: indi/opsindi.ui:160
 #, kde-format
 msgid "Default FITS directory:"
-msgstr "Dossier FITS par défaut "
+msgstr "Dossier FITS par défaut"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useExternalSkyMap)
 #: indi/opsindi.ui:222
@@ -30892,10 +30892,10 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>\n"
-"<p>Nom du dossier des vidéos SER <b>distante</b>. Si le serveur INDI est actif localement, alors un dossier local peut être sélectionné. Cependant, si vous êtes connecté à un serveur « INDI » distant, alors le dossier doit être un dossier valable sur le système de fichiers distant ou il sera sauvé.</p>\n"
+"<p>Nom du dossier des vidéos SER <b>distant</b>. Si le serveur INDI est actif localement, alors un dossier local peut être sélectionné. Cependant, si vous êtes connecté à un serveur « INDI » distant, alors le dossier doit être un dossier valable sur le système de fichiers distant ou il sera sauvé.</p>\n"
 "<p>Les dossiers d'enregistrement peuvent contenir des balises pour les rendre dynamiques :</p>\n"
 "<ul>\n"
-"<li><b>_D_</b> pour la date « AAAA-MM-JJ.</li>\n"
+"<li><b>_D_</b> pour la date « AAAA-MM-JJ ».</li>\n"
 "<li><b>_H_</b> pour l'heure « HH:MM:SS ».</li>\n"
 "<li><b>_T_</b> pour l'horodatage ISO8601.</li>\n"
 "<li><b>_F_</b> pour le nom du filtre, si besoin.</li>\n"
@@ -31231,7 +31231,7 @@ msgid ""
 "After a successful alignment, connect your telescope's RS232 interface to your computer's serial or USB port.\n"
 "<br><br><br>Click next to continue."
 msgstr ""
-"<h3>2 Alignez votre télescope</h3>\n"
+"<h3>2. Alignez votre télescope</h3>\n"
 "\n"
 "Vous devez aligner votre télescope avant de pouvoir le contrôler correctement depuis KStars. Veuillez consulter le manuel utilisateur de votre télescope pour obtenir les instructions d'alignement.\n"
 "<br><br>\n"
@@ -31291,7 +31291,7 @@ msgid ""
 msgstr ""
 "<h3>4. Déterminez le port de connexion</h3>\n"
 "\n"
-"Saisissez le numéro de port auquel votre télescope est connecté. Si vous n'avez qu'un seul port série sur votre ordinateur, il s'agit habituellement de <tt>/dev/ttyS0</tt>.\n"
+"Saisissez le numéro de port auquel votre télescope est connecté. Si vous n'avez qu'un seul port série sur votre ordinateur, il s'agit habituellement de <tt>/dev/ttyUSB0</tt>.\n"
 "<br><br>Si vous n'êtes pas sûr du numéro de port, vous pouvez laisser le champ vide. KStars essaiera de balayer les ports pour y rechercher les télescopes raccordés. Sachez que le processus de recherche automatique peut prendre quelques minutes pour aboutir."
 
 #. i18n: ectx: property (text), widget (QLabel, portLabel)
