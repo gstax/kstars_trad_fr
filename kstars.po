@@ -80350,7 +80350,7 @@ msgstr "Faire pivoter le terrain selon les degrés d'azimut. Ainsi, le Nord est 
 #: options/opsterrain.ui:104
 #, kde-format
 msgid "Terrain image azimuth correction degrees:"
-msgstr "Degrés de correction d'élévation pour l'image du terrain"
+msgstr "Degrés de correction d'azimut pour l'image du terrain"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, terrainSourceCorrectAltLabel)
 #: options/opsterrain.ui:159
@@ -81218,7 +81218,7 @@ msgstr "Impossible d'afficher %1. Non résolu."
 #: skycomponents/imageoverlaycomponent.cpp:714
 #, kde-format
 msgid "Can't show %1. Image not loaded."
-msgstr "Impossible d'afficher %1. Image non chargée "
+msgstr "Impossible d'afficher %1. Image non chargée"
 
 #: skycomponents/imageoverlaycomponent.cpp:747
 #, kde-format
@@ -81238,7 +81238,7 @@ msgstr "%1 déjà résolue. Omission."
 #: skycomponents/imageoverlaycomponent.cpp:819
 #, kde-format
 msgid "Reloading. Image overlays temporarily disabled."
-msgstr "Rechargement. L'image de superposition est temporairement déactivée."
+msgstr "Rechargement. L'image de superposition est temporairement désactivée."
 
 #: skycomponents/imageoverlaycomponent.cpp:838
 #, kde-format
@@ -81955,7 +81955,7 @@ msgstr ""
 "\t\t<p>Vous pouvez suivre un objet, ainsi il sera toujours centré\n"
 "\t\t\tdans l'affichage.<br/>\n"
 "\t\t\tUtilisez Ctrl+T, l'élément de menu « Pointage / Commencer le suivi » ou le\n"
-"\t\t\tbouton de barre d'outils « Arrêter le suivi ». Vous pouvez également vous\n"
+"\t\t\tbouton de barre d'outils « Verrouiller ». Vous pouvez également vous\n"
 "\t\t\tcontenter de centrer l'objet en double-cliquant dessus ou en choisissant « Centrer et suivre »\n"
 "\t\t\tdepuis le menu contextuel de l'objet.\n"
 "\t\t</p>\n"
@@ -82437,7 +82437,7 @@ msgstr ""
 "\t\t\t une liste d'objets que vous aimeriez\n"
 "\t\t\t observer. Il vous permet ensuite d'en sélectionner certains\n"
 "\t\t\t pour planifier une session d'observations.\n"
-"\t\t\t L'ordonnanceur peut alors associer des\n"
+"\t\t\t Le planificateur peut alors associer des\n"
 "\t\t\t périodes d'observation et vous présenter les objets\n"
 "\t\t\t dans un ordre chronologique pour avoir une séquence facile\n"
 "\t\t\t dans votre champ de vision.\n"
@@ -82711,7 +82711,7 @@ msgid ""
 "\t\t</p>\n"
 "\t\n"
 msgstr ""
-"\t\t<p>Si vous utilisé une caméra pour acquérir des images, vous pouvez créer un symbole de champ de vision (CdV) qui représentera le capteur à l'échelle. Vous pouvez ensuite ajuster l'orientation du symbole de CdV pour correspondre à l'orientation de votre caméra. Vous voyez ainsi ce que celle-ci enregistrera. L'éditeur de CdV est accessible à partir du menu « Configuration / Symbole CdV ».\n"
+"\t\t<p>Si vous utilisez une caméra pour acquérir des images, vous pouvez créer un symbole de champ de vision (CdV) qui représentera le capteur à l'échelle. Vous pouvez ensuite ajuster l'orientation du symbole de CdV pour correspondre à l'orientation de votre caméra. Vous voyez ainsi ce que celle-ci enregistrera. L'éditeur de CdV est accessible à partir du menu « Configuration / Symbole CdV ».\n"
 "\t\t</p>\n"
 "\t\n"
 
