@@ -83185,7 +83185,7 @@ msgstr "Sélectionner un objet dans une liste"
 #: tools/argfindobject.ui:44 tools/arglooktoward.ui:113
 #, kde-format
 msgid "Opens the Find Object dialog, which allows you to select an object from the list of known objects.  When an object has been selected, its name will appear in the \"dir\" box at left."
-msgstr "Ouvre la boîte de dialogue « Chercher un objet », qui permet de sélectionner un objet dans la liste des objets connus. Quand un objet a été sélectionné, son nom apparaît dans la boîte « dos » à gauche."
+msgstr "Ouvre la boîte de dialogue « Chercher un objet », qui permet de sélectionner un objet dans la liste des objets connus. Quand un objet a été sélectionné, son nom apparaît dans la boîte « Dir. » à gauche."
 
 #. i18n: ectx: property (text), widget (QPushButton, FindButton)
 #: tools/argfindobject.ui:47 tools/arglooktoward.ui:116
@@ -83269,7 +83269,7 @@ msgstr "Nom de la région"
 #: tools/argsetgeolocation.ui:90
 #, kde-format
 msgid "Enter the Province name for the desired location.  It might be easier to use the \"Find City...\" button to choose your location from the list of predefined cities."
-msgstr "Saisissez le nom de la ville pour la position souhaitée. Il peut s'avérer plus facile d'utiliser « Chercher une ville » pour sélectionner votre position à partir d'une liste des villes prédéfinies."
+msgstr "Saisissez le nom de la région pour la position souhaitée. Il peut s'avérer plus facile d'utiliser « Chercher une ville » pour sélectionner votre position à partir d'une liste des villes prédéfinies."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, FindCityButton)
 #: tools/argsetgeolocation.ui:123
@@ -83734,7 +83734,7 @@ msgstr "Gestionnaire d'étiquettes"
 #: tools/flagmanager.cpp:63
 #, kde-format
 msgid "To add custom icons, just add images in %1. File names must begin with flag. For example, the file <i>flagSmall_red_cross.png</i> will be shown as <b>Small red cross</b> in the combo box."
-msgstr "Pour ajouter des icônes personnalisées, il suffit d'ajouter des images dans %1. Les noms de fichiers doivent commencer par « flag ». Par exemple, le fichier « _flagPetite_croix_rouge.gif » sera affiché sous la forme « Petite croix rouge » dans la zone de liste modifiable."
+msgstr "Pour ajouter des icônes personnalisées, il suffit d'ajouter des images dans %1. Les noms de fichiers doivent commencer par « flag ». Par exemple, le fichier « flagSmall_red_cross.png » sera affiché sous la forme « Petite croix rouge » dans la zone de liste modifiable."
 
 #: tools/flagmanager.cpp:69 widgets/infoboxwidget.cpp:119
 #, kde-format
@@ -83828,7 +83828,7 @@ msgstr "Hauteur"
 #: tools/horizonmanager.cpp:198
 #, kde-format
 msgid "Region is valid"
-msgstr "La région est non valable"
+msgstr "La région est valable"
 
 #: tools/horizonmanager.cpp:296
 #, kde-format
@@ -83903,7 +83903,7 @@ msgstr "Points"
 #: tools/horizonmanager.ui:246
 #, kde-format
 msgid "Add Point"
-msgstr "Chercher un point"
+msgstr "Ajouter un point"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, removePointB)
 #: tools/horizonmanager.ui:271
@@ -84071,7 +84071,7 @@ msgstr "Recherche sur le site en ligne du professeur Seligman des images NGC."
 #: tools/imagingplanner.cpp:2584
 #, kde-format
 msgid "Search the Professor Seligman online site for information about IC objects.."
-msgstr "Recherche sur le site en ligne du professeur Seligman des images IC."
+msgstr "Recherche sur le site en ligne du professeur Seligman des informations sur les objets IC."
 
 #: tools/imagingplanner.cpp:2590
 #, kde-format
@@ -84086,7 +84086,7 @@ msgstr "Recherche sur le site en ligne de la NASA pour des informations sur les 
 #: tools/imagingplanner.cpp:2601
 #, kde-format
 msgid "Search Emil Ivanov's online site for information about VDB objects."
-msgstr "Recherche sur le site en ligne pour des informations sur les objets VDB."
+msgstr "Recherche sur le site en ligne d'Emil Ivanov pour des informations sur les objets VDB."
 
 #: tools/imagingplanner.cpp:2744
 #, kde-format
@@ -85579,7 +85579,7 @@ msgstr "Angle (dd.d)"
 #: tools/modcalcsimple.ui:189
 #, kde-format
 msgid "Angle (dd mm ss.s)"
-msgstr "Angle (jj mm ss.s)"
+msgstr "Angle (dd mm ss.s)"
 
 #: tools/modcalcvizequinox.cpp:33
 #, kde-format
