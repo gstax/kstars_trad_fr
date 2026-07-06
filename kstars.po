@@ -31724,7 +31724,7 @@ msgstr "Afficher la boîte d'informations géographiques ?"
 #: kstars.kcfg:56
 #, kde-format
 msgid "Toggles display of the Geographic Location InfoBox."
-msgstr "/Dés)active l'affichage de la boîte d'informations géographiques."
+msgstr "(Dés)active l'affichage de la boîte d'informations géographiques."
 
 #. i18n: ectx: label, entry (StickyTimeBox), group (GUI)
 #. i18n: ectx: label, entry (StickyFocusBox), group (GUI)
@@ -32131,13 +32131,13 @@ msgstr "Activer l'enregistrement de la monture INDI"
 #: kstars.kcfg:282
 #, kde-format
 msgid "Enable INDI Focuser logging"
-msgstr "Activer la connexion INDI au gestionnaire de mise au point."
+msgstr "Activer la journalisation INDI du gestionnaire de mise au point."
 
 #. i18n: ectx: label, entry (INDICCDLogging), group (indi)
 #: kstars.kcfg:286
 #, kde-format
 msgid "Enable INDI CCD logging"
-msgstr "Activer la connexion INDI au capteur CCD"
+msgstr "Activer la journalisation INDI du capteur CCD"
 
 #. i18n: ectx: label, entry (INDIFilterWheelLogging), group (indi)
 #: kstars.kcfg:290
@@ -32149,37 +32149,37 @@ msgstr "Activer la journalisation de la roue à filtre INDI"
 #: kstars.kcfg:294
 #, kde-format
 msgid "Enable INDI Dome logging"
-msgstr "Activer la connexion INDI au dôme"
+msgstr "Activer la journalisation INDI du dôme"
 
 #. i18n: ectx: label, entry (INDIDetectorLogging), group (indi)
 #: kstars.kcfg:298
 #, kde-format
 msgid "Enable INDI Detector logging"
-msgstr "Activer la connexion INDI au détecteur"
+msgstr "Activer la journalisation INDI du détecteur"
 
 #. i18n: ectx: label, entry (INDIWeatherLogging), group (indi)
 #: kstars.kcfg:302
 #, kde-format
 msgid "Enable INDI Weather logging"
-msgstr "Activer la connexion INDI à la météo"
+msgstr "Activer la journalisation INDI de la météo"
 
 #. i18n: ectx: label, entry (INDIAuxiliaryLogging), group (indi)
 #: kstars.kcfg:306
 #, kde-format
 msgid "Enable INDI Auxiliary logging"
-msgstr "Activer la connexion auxiliaire INDI"
+msgstr "Activer la journalisation auxiliaire INDI"
 
 #. i18n: ectx: label, entry (INDIRotatorLogging), group (indi)
 #: kstars.kcfg:310
 #, kde-format
 msgid "Enable INDI Rotator logging"
-msgstr "Activer la connexion INDI au rotateur"
+msgstr "Activer la journalisation INDI du rotateur"
 
 #. i18n: ectx: label, entry (INDIGPSLogging), group (indi)
 #: kstars.kcfg:314
 #, kde-format
 msgid "Enable INDI GPS logging"
-msgstr "Activer la connexion INDI au GPS"
+msgstr "Activer la journalisation INDI du GPS"
 
 #. i18n: ectx: label, entry (INDIAOLogging), group (indi)
 #: kstars.kcfg:318
@@ -33003,7 +33003,7 @@ msgstr "Dessiner Mercure sur la carte du ciel ?"
 #: kstars.kcfg:675
 #, kde-format
 msgid "Toggle whether Mercury is drawn in the sky map."
-msgstr "Indique si Mercure doit ou non être dessinée sur la carte du ciel."
+msgstr "Indique si Mercure doit ou non être dessiné sur la carte du ciel."
 
 #. i18n: ectx: label, entry (ShowVenus), group (View)
 #: kstars.kcfg:679
@@ -33027,7 +33027,7 @@ msgstr "Dessiner Mars sur la carte du ciel ?"
 #: kstars.kcfg:685
 #, kde-format
 msgid "Toggle whether Mars is drawn in the sky map."
-msgstr "Indique si Mars doit ou non être dessinée sur la carte du ciel."
+msgstr "Indique si Mars doit ou non être dessiné sur la carte du ciel."
 
 #. i18n: ectx: label, entry (ShowJupiter), group (View)
 #: kstars.kcfg:689
@@ -33039,7 +33039,7 @@ msgstr "Dessiner Jupiter sur la carte du ciel ?"
 #: kstars.kcfg:690
 #, kde-format
 msgid "Toggle whether Jupiter is drawn in the sky map."
-msgstr "Indique si Jupiter doit ou non être dessinée sur la carte du ciel."
+msgstr "Indique si Jupiter doit ou non être dessiné sur la carte du ciel."
 
 #. i18n: ectx: label, entry (ShowSaturn), group (View)
 #: kstars.kcfg:694
@@ -33051,7 +33051,7 @@ msgstr "Dessiner Saturne sur la carte du ciel ?"
 #: kstars.kcfg:695
 #, kde-format
 msgid "Toggle whether Saturn is drawn in the sky map."
-msgstr "Indique si Saturne doit ou non être dessinée sur la carte du ciel."
+msgstr "Indique si Saturne doit ou non être dessiné sur la carte du ciel."
 
 #. i18n: ectx: label, entry (ShowUranus), group (View)
 #: kstars.kcfg:699
@@ -33063,7 +33063,7 @@ msgstr "Dessiner Uranus sur la carte du ciel ?"
 #: kstars.kcfg:700
 #, kde-format
 msgid "Toggle whether Uranus is drawn in the sky map."
-msgstr "Indique si Uranus doit ou non être dessinée sur la carte du ciel."
+msgstr "Indique si Uranus doit ou non être dessiné sur la carte du ciel."
 
 #. i18n: ectx: label, entry (ShowNeptune), group (View)
 #: kstars.kcfg:704
@@ -33075,7 +33075,7 @@ msgstr "Dessiner Neptune sur la carte du ciel ?"
 #: kstars.kcfg:705
 #, kde-format
 msgid "Toggle whether Neptune is drawn in the sky map."
-msgstr "Indique si Neptune doit ou non être dessinée sur la carte du ciel."
+msgstr "Indique si Neptune doit ou non être dessiné sur la carte du ciel."
 
 #. i18n: ectx: label, entry (ShowPluto), group (View)
 #: kstars.kcfg:709
@@ -33087,7 +33087,7 @@ msgstr "Dessiner Pluton sur la carte du ciel ?"
 #: kstars.kcfg:710
 #, kde-format
 msgid "Toggle whether Pluto is drawn in the sky map."
-msgstr "Indique si Pluton doit ou non être dessinée sur la carte du ciel."
+msgstr "Indique si Pluton doit ou non être dessiné sur la carte du ciel."
 
 #. i18n: ectx: label, entry (ShowStars), group (View)
 #: kstars.kcfg:714
@@ -33130,7 +33130,7 @@ msgstr "Étiqueter les noms d'étoiles sur la carte du ciel ?"
 #: kstars.kcfg:730
 #, kde-format
 msgid "Toggle whether star name labels are shown in the sky map."
-msgstr "Indique si les noms des constellations doivent ou non être affichés sur la carte du ciel."
+msgstr "Indique si les noms des étoiles doivent ou non être affichés sur la carte du ciel."
 
 #. i18n: ectx: label, entry (ShowDeepSkyMagnitudes), group (View)
 #: kstars.kcfg:734
@@ -33358,7 +33358,7 @@ msgstr "Refléter la carte du ciel ?"
 #: kstars.kcfg:829
 #, kde-format
 msgid "Enable this if you want the sky map to be mirrored left-right, e.g. to match the view through an erecting prism."
-msgstr "Activer cette option si vous souhaitez que la carte du ciel soit reflétée selon une symétrie verticale afin de correspondre à la vue dans un prisme redresseur."
+msgstr "Activer cette option si vous souhaitez que la carte du ciel soit reflétée selon une symétrie horizontale afin de correspondre à la vue dans un prisme redresseur."
 
 #. i18n: ectx: label, entry (ErectObserverCorrection), group (View)
 #: kstars.kcfg:833
@@ -33660,7 +33660,7 @@ msgstr "Est-ce que l'outil de planification d'acquisition des images doit traite
 #: kstars.kcfg:982
 #, kde-format
 msgid "Should the imaging Planner tool process other types."
-msgstr "Est-ce que l'outil de planification d'acquisition des images soit traiter les autres types d'objets ?"
+msgstr "Est-ce que l'outil de planification d'acquisition des images doit traiter les autres types d'objets ?"
 
 #. i18n: ectx: label, entry (AstrobinAward), group (ImagingPlanner)
 #: kstars.kcfg:986
@@ -33714,13 +33714,13 @@ msgstr "Le calcul du nombre d'heures d'acquisition n'est réalisable que si la L
 #: kstars.kcfg:1018
 #, kde-format
 msgid "Show the objects that are marked picked (don't show those that are not picked)."
-msgstr "Afficher les objets qui sont marqués choisi (ne pas afficher les autres)."
+msgstr "Afficher les objets qui sont marqués choisis (ne pas afficher les autres)."
 
 #. i18n: ectx: label, entry (ImagingPlannerShowNotPicked), group (ImagingPlanner)
 #: kstars.kcfg:1022
 #, kde-format
 msgid "Show the objects that are not marked picked (don't show those that are picked)."
-msgstr "Afficher les objets qui ne sont pas marqués choisi (ne pas afficher les autres)."
+msgstr "Afficher les objets qui ne sont pas marqués choisis (ne pas afficher les autres)."
 
 #. i18n: ectx: label, entry (ImagingPlannerDontCarePicked), group (ImagingPlanner)
 #: kstars.kcfg:1026
@@ -33756,13 +33756,13 @@ msgstr "Mot-clé utilisé pour le filtrage."
 #: kstars.kcfg:1046
 #, kde-format
 msgid "Show the objects that are marked imaged (don't show those that are not marked imaged)."
-msgstr "Afficher les objets marqués imagé (ne pas afficher les autres)."
+msgstr "Afficher les objets marqués imagés (ne pas afficher les autres)."
 
 #. i18n: ectx: label, entry (ImagingPlannerShowNotImaged), group (ImagingPlanner)
 #: kstars.kcfg:1050
 #, kde-format
 msgid "Show the objects that are not marked imaged (don't show those that are marked imaged)."
-msgstr "Afficher les objets non marqués imagé (ne pas afficher les autres)."
+msgstr "Afficher les objets non marqués imagés (ne pas afficher les autres)."
 
 #. i18n: ectx: label, entry (ImagingPlannerDontCareImaged), group (ImagingPlanner)
 #: kstars.kcfg:1054
@@ -33957,7 +33957,7 @@ msgstr "Mode de rendu des étoiles"
 #: kstars.kcfg:1159
 #, kde-format
 msgid "The method for rendering stars: 0=\"realistic colors\"; 1=\"solid red\"; 2=\"solid black\"; 3=\"solid white\"; 4=\"solid real colors\""
-msgstr "La méthode de rendu des étoiles : 0 : « couleurs réalistes » ; 1 : « rouge uniforme » ; 2 : « noir uniforme » ; 3 : « blanc uniforme » ; 3 : « couleurs réalistes uniformes »"
+msgstr "La méthode de rendu des étoiles : 0 : « couleurs réalistes » ; 1 : « rouge uniforme » ; 2 : « noir uniforme » ; 3 : « blanc uniforme » ; 4 : « couleurs réalistes uniformes »"
 
 #. i18n: ectx: label, entry (StarColorIntensity), group (Colors)
 #: kstars.kcfg:1164
@@ -33969,13 +33969,13 @@ msgstr "Niveau de saturation des couleurs des étoiles"
 #: kstars.kcfg:1165
 #, kde-format
 msgid "The color saturation level of stars (only applicable when using \"realistic colors\" mode)."
-msgstr "La niveau de saturation des couleurs des étoiles (seulement applicable lorsqu'on utilise le mode « couleurs réalistes »)."
+msgstr "Le niveau de saturation des couleurs des étoiles (seulement applicable lorsqu'on utilise le mode « couleurs réalistes »)."
 
 #. i18n: ectx: label, entry (DomeSlitInverted), group (Colors)
 #: kstars.kcfg:1170
 #, kde-format
 msgid "Mode for filling dome slit"
-msgstr "Mode de remplissage du dôme divisé"
+msgstr "Mode de remplissage de la fente du dôme"
 
 #. i18n: ectx: whatsthis, entry (DomeSlitInverted), group (Colors)
 #: kstars.kcfg:1171
@@ -35166,7 +35166,7 @@ msgstr "Afficher toutes les images FITS ouvertes dans une unique fenêtre de l'a
 #: kstars.kcfg:1714
 #, kde-format
 msgid "Bring the FITSViewer window to the foreground when receiving a new image."
-msgstr "Passer la fenêtre de l'afficheur FITS en second plan lors de la réception d'une nouvelle image."
+msgstr "Mettre la fenêtre de l'afficheur FITS au premier plan lors de la réception d'une nouvelle image."
 
 #. i18n: ectx: label, entry (independentWindowFITS), group (FITSViewer)
 #: kstars.kcfg:1718
@@ -35238,7 +35238,7 @@ msgstr "Décalage horizontal de la superposition HiPS"
 #: kstars.kcfg:1766
 #, kde-format
 msgid "HiPS overlay Y Offset"
-msgstr "Décalage verticale de la superposition HiPS"
+msgstr "Décalage vertical de la superposition HiPS"
 
 #. i18n: ectx: label, entry (FitsSolverProfile), group (FITSViewer)
 #: kstars.kcfg:1770
@@ -35622,7 +35622,7 @@ msgstr "Ne jamais charger la configuration du périphérique ?"
 #: kstars.kcfg:2037
 #, kde-format
 msgid "Load device configuration upon successful connection?"
-msgstr "Ne jamais charger la configuration du périphérique lorsque la connexion a réussi ?"
+msgstr "Charger la configuration du périphérique lorsque la connexion a réussi ?"
 
 #. i18n: ectx: label, entry (loadDefaultConfig), group (Ekos)
 #: kstars.kcfg:2041
@@ -35682,7 +35682,7 @@ msgstr "Liste des capteurs CCD avec des obturateurs mécaniques ou électronique
 #: kstars.kcfg:2092
 #, kde-format
 msgid "List of CCDs without mechanical or electronic shutters."
-msgstr "Liste des capteurs CCD avec des obturateurs mécaniques ou électroniques."
+msgstr "Liste des capteurs CCD sans obturateurs mécaniques ou électroniques."
 
 #. i18n: ectx: label, entry (UseGraphicalCountsDisplay), group (Manager)
 #: kstars.kcfg:2101
@@ -35970,7 +35970,7 @@ msgstr "Différence maximale entre les valeurs ADU mesurées et objectives pour 
 #: kstars.kcfg:2259
 #, kde-format
 msgid "ORed list of calibration pre-actions."
-msgstr "Liste rouge d'actions avant la calibration.."
+msgstr "Liste combinée (OU) des actions avant calibration."
 
 #. i18n: ectx: label, entry (CalibrationFlatDurationIndex), group (Capture)
 #: kstars.kcfg:2263
@@ -35994,7 +35994,7 @@ msgstr "Hauteur de l'emplacement du mur de calibration."
 #: kstars.kcfg:2275
 #, kde-format
 msgid "Maximum acceptable difference between requested and measured temperature set point."
-msgstr "Différence maximale acceptable entre le point d'ensemble de la température mesurée et demandée."
+msgstr "Différence maximale acceptable entre le point de consigne de la température mesurée et demandée."
 
 #. i18n: ectx: label, entry (MaxStartGuiderDrift), group (Capture)
 #: kstars.kcfg:2279
@@ -36156,7 +36156,7 @@ msgstr "Parquer le dôme à la calibration"
 #: kstars.kcfg:2385
 #, kde-format
 msgid "Capture calibration frames at the specified exposures."
-msgstr "Acquérir les poses de calibration avec la durée d'exposition spécifiée.."
+msgstr "Acquérir les poses de calibration avec la durée d'exposition spécifiée."
 
 #. i18n: ectx: label, entry (CaptureCalibrationUseADU), group (Capture)
 #: kstars.kcfg:2389
@@ -36516,7 +36516,7 @@ msgstr "Taille du noyau pour le flou gaussien."
 #: kstars.kcfg:2606
 #, kde-format
 msgid "Default Focuser tolerance value"
-msgstr "Valeur de tolérance du viseur par défaut"
+msgstr "Valeur de tolérance du moteur de mise au point par défaut"
 
 #. i18n: ectx: whatsthis, entry (FocusTolerance), group (Focus)
 #: kstars.kcfg:2607
@@ -36540,7 +36540,7 @@ msgstr "Attendez ce nombre de secondes après avoir déplacé le moteur de mise 
 #: kstars.kcfg:2620
 #, kde-format
 msgid "Default Focuser step ticks"
-msgstr "Pas de mise au point du viseur par défaut"
+msgstr "Pas de mise au point du moteur de mise au point par défaut"
 
 #. i18n: ectx: whatsthis, entry (FocusTicks), group (Focus)
 #: kstars.kcfg:2621
@@ -36684,7 +36684,7 @@ msgstr "Si l'on doit lancer la fonction d'ajustement grossier par l'Assistant de
 #: kstars.kcfg:2716
 #, kde-format
 msgid "Whether to run the Focus Advisor Fine Adjustment function."
-msgstr "Si l'on doit la fonction d'ajustement fin par l'Assistant de mise au point."
+msgstr "Si l'on doit lancer la fonction d'ajustement fin par l'Assistant de mise au point."
 
 #. i18n: ectx: label, entry (FocusSplitter), group (Focus)
 #: kstars.kcfg:2721
@@ -36972,7 +36972,7 @@ msgstr "Ne pas nettoyer FITS. Cette option ne doit être sélectionnée que si l
 #: kstars.kcfg:2903
 #, kde-format
 msgid "Check this option if your image does not have much nebulosity. If it does have strong nebulosity, uncheck it."
-msgstr "Cochez cette option si l'image ne possède trop de nébulosité. S'il y a beaucoup de nébulosité, décochez là."
+msgstr "Cochez cette option si l'image ne possède pas trop de nébulosité. S'il y a beaucoup de nébulosité, décochez là."
 
 #. i18n: ectx: label, entry (AstrometryUseNoVerify), group (Align)
 #: kstars.kcfg:2907
@@ -37374,7 +37374,7 @@ msgstr "Effectuer une diffusion d'erreurs après ce nombre de poses."
 #: kstars.kcfg:3187
 #, kde-format
 msgid "Maximum distance (pixels) for guiding to be considered settled."
-msgstr "Distance maximale (pixels) pour que le guidage soit considéré stabilité."
+msgstr "Distance maximale (pixels) pour que le guidage soit considéré stabilisé."
 
 #. i18n: ectx: label, entry (DitherTimeout), group (Guide)
 #: kstars.kcfg:3191
@@ -37530,7 +37530,7 @@ msgstr "Une fois que la procédure d'arrêt a été réalisée avec succès, arr
 #: kstars.kcfg:3368
 #, kde-format
 msgid "Whether shutdown script, if exists, terminates INDI server in the process."
-msgstr "Selon le script d'arrêt, s'il existe, arrête le serveur INDI dans le processus."
+msgstr "Indique si le script d'arrêt, s'il existe, arrête le serveur INDI au passage."
 
 #. i18n: ectx: label, entry (PreemptiveShutdown), group (Scheduler)
 #: kstars.kcfg:3372
@@ -38325,7 +38325,7 @@ msgstr "Réactions potentielles sur alertes ?"
 #: kstars.kcfg:3857
 #, kde-format
 msgid "Shall the dome being closed when a weather warning occurs?"
-msgstr "L'obturateur doit-il être fermé quand une alarme météo est reçue ?"
+msgstr "Le dôme doit-il être fermé quand une alarme météo est reçue ?"
 
 #. i18n: ectx: label, entry (weatherWarningCloseShutter), group (Observatory)
 #: kstars.kcfg:3861
@@ -38339,13 +38339,13 @@ msgstr "L'obturateur doit-il être fermé quand une alarme météo est reçue ?
 #: kstars.kcfg:3865 kstars.kcfg:3877 kstars.kcfg:3881
 #, kde-format
 msgid "Shall the shutter being closed when a weather alert occurs?"
-msgstr "Le dôme doit-il être fermé quand une alerte météo est reçue ?"
+msgstr "L'obturateur doit-il être fermé quand une alerte météo est reçue ?"
 
 #. i18n: ectx: label, entry (weatherWarningDelay), group (Observatory)
 #: kstars.kcfg:3869
 #, kde-format
 msgid "Delay for reacting upon a weather warning."
-msgstr "Durée de réaction sur une alarme météo ?"
+msgstr "Délai de réaction sur une alarme météo."
 
 #. i18n: ectx: label, entry (weatherAlertCloseDome), group (Observatory)
 #: kstars.kcfg:3873
@@ -38401,7 +38401,7 @@ msgstr "Sous-échantillonnage avant sa résolution. Également appelé regroupem
 #: kstars.kcfg:3919 kstars.kcfg:3923
 #, kde-format
 msgid "The program will search in a square spiral around the start position up to this radius."
-msgstr "Le programme recherchera selon un spirale carrée autour de la position de départ, jusqu'à ce rayon."
+msgstr "Le programme recherchera selon une spirale carrée autour de la position de départ, jusqu'à ce rayon."
 
 #. i18n: ectx: label, entry (ASTAPUpdateFITS), group (ASTAP)
 #: kstars.kcfg:3927
