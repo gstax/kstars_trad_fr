@@ -2160,19 +2160,19 @@ msgstr "Époque des coordonnées du catalogue"
 #: dialogs/addcatdialog.ui:230
 #, kde-format
 msgid "Catalog name prefix:"
-msgstr "Préfixe du nom du catalogue :"
+msgstr "Préfixe du nom du catalogue"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
 #: dialogs/addcatdialog.ui:254
 #, kde-format
 msgid "Symbol color:"
-msgstr "Couleur du symbole :"
+msgstr "Couleur du symbole"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: dialogs/addcatdialog.ui:277
 #, kde-format
 msgid "Coordinate epoch:"
-msgstr "Époque des coordonnées :"
+msgstr "Époque des coordonnées"
 
 #. i18n: ectx: property (text), widget (QRadioButton, CSVButton)
 #: dialogs/addcatdialog.ui:301
@@ -2202,13 +2202,13 @@ msgstr "Saisissez le nom de fichier pour le fichier de catalogue de sortie"
 #: dialogs/addcatdialog.ui:359
 #, kde-format
 msgid "Catalog name:"
-msgstr "Nom du catalogue :"
+msgstr "Nom du catalogue"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: dialogs/addcatdialog.ui:366
 #, kde-format
 msgid "Save catalog as:"
-msgstr "Enregistrer le catalogue sous :"
+msgstr "Enregistrer le catalogue sous"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, CatalogName)
 #: dialogs/addcatdialog.ui:373
@@ -3580,7 +3580,7 @@ msgstr "DEC (J2000.0)"
 #: dialogs/details_position.ui:336 oal/execute.ui:216 printing/detailstable.cpp:542 tools/modcalcaltaz.ui:313
 #, kde-format
 msgid "Azimuth:"
-msgstr "Azimut :"
+msgstr "Azimut"
 
 #. i18n: ectx: property (text), widget (QLabel, AirmassLabel)
 #: dialogs/details_position.ui:371 printing/detailstable.cpp:560
@@ -3651,7 +3651,7 @@ msgstr "00:00"
 #: dialogs/details_position.ui:774 printing/detailstable.cpp:673
 #, kde-format
 msgid "Azimuth at set:"
-msgstr "Azimut au coucher :"
+msgstr "Azimut au coucher"
 
 #. i18n: ectx: property (text), widget (QLabel, AltTransitLabel)
 #: dialogs/details_position.ui:790 printing/detailstable.cpp:669
@@ -3663,7 +3663,7 @@ msgstr "Altitude au transit"
 #: dialogs/details_position.ui:806 printing/detailstable.cpp:665
 #, kde-format
 msgid "Azimuth at rise:"
-msgstr "Azimut au lever :"
+msgstr "Azimut au lever"
 
 #: dialogs/exportimagedialog.cpp:48
 #, kde-format
@@ -5213,7 +5213,7 @@ msgstr "Copier le dossier de données de KStars"
 #: dialogs/wizdata.ui:119
 #, kde-format
 msgid "Optional Files for the Data directory:"
-msgstr "Fichiers optionnels pour le dossier de données :"
+msgstr "Fichiers optionnels pour le dossier de données"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: dialogs/wizdata.ui:137
@@ -8365,7 +8365,7 @@ msgstr "Exécutable de WCSinfo d'astrometry.net"
 #: ekos/align/opsprograms.ui:115
 #, kde-format
 msgid "wcsinfo:"
-msgstr "WCSinfo :"
+msgstr "WCSinfo"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AstrometrySolverBinary)
 #: ekos/align/opsprograms.ui:122
@@ -8975,7 +8975,7 @@ msgstr "Erreur totale estimée sur l'alignement polaire après les derniers ajus
 #: ekos/align/polaralignmentassistant.ui:557
 #, kde-format
 msgid "Updated Err:"
-msgstr "Erreur mise à jour :"
+msgstr "Erreur mise à jour"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_PAHOrigErrorAz)
 #. i18n: ectx: property (toolTip), widget (QLabel, PAHOrigErrorAz)
@@ -14540,7 +14540,7 @@ msgstr "<html><head/><body><p>Cochez pour réaliser une vérification du HFR ent
 #: ekos/capture/limits.ui:301
 #, kde-format
 msgid "Refocus on ΔHFR.  Use:"
-msgstr "Nouvelle mise au point avec ΔHFR. Utilisez :"
+msgstr "Nouvelle mise au point avec ΔHFR. Utilisez"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_11)
 #: ekos/capture/limits.ui:308
@@ -14589,7 +14589,7 @@ msgstr "<html><head/><body><p>La valeur de vérification HFR en pixels. Cela est
 #: ekos/capture/limits.ui:416
 #, kde-format
 msgid "frames.   HFR:"
-msgstr "poses. HFR :"
+msgstr "poses. HFR"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, OpsDslrSettings)
 #. i18n: ectx: property (windowTitle), widget (QWidget, OpsMiscSettings)
@@ -17737,7 +17737,7 @@ msgstr "Limite R²"
 #: ekos/focus/opsfocusprocess.ui:432
 #, kde-format
 msgid "Average HFR Check:"
-msgstr "Vérification HFR moyenne :"
+msgstr "Vérification HFR moyenne"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, focusHFRFramesCount)
 #: ekos/focus/opsfocusprocess.ui:445
@@ -18002,7 +18002,7 @@ msgstr "Suspendre le guidage"
 #: ekos/focus/opsfocussettings.ui:248
 #, kde-format
 msgid "Optimize AF:"
-msgstr "Optimisation de la mise au point automatique :"
+msgstr "Optimisation de la mise au point automatique"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, focusAFOptimize)
 #: ekos/focus/opsfocussettings.ui:261
@@ -18020,7 +18020,7 @@ msgstr "Limite supérieure du nombre d'images de mise au point à conserver sur 
 #: ekos/focus/opsfocussettings.ui:290
 #, kde-format
 msgid "Max. Stored Frames:"
-msgstr "Max. Images enregistrées :"
+msgstr "Max. Images enregistrées"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, focusMosaicMaskRB)
 #: ekos/focus/opsfocussettings.ui:315
@@ -18068,7 +18068,7 @@ msgstr "<html><head/><body><p>Diamètre du cercle intérieur à être exclu pour
 #: ekos/focus/opsfocussettings.ui:434
 #, kde-format
 msgid "Spacer:"
-msgstr "Séparateur :"
+msgstr "Séparateur"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, focusNoMaskRB)
 #: ekos/focus/opsfocussettings.ui:450
@@ -19381,13 +19381,13 @@ msgstr " ms"
 #: ekos/guide/manualpulse.ui:112
 #, kde-format
 msgid "RA Offset\":"
-msgstr "Décalage en AD\" :"
+msgstr "Décalage en AD\""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ekos/guide/manualpulse.ui:126
 #, kde-format
 msgid "DE Offset\":"
-msgstr "Décalage en DEC\" :"
+msgstr "Décalage en DEC\""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, l_29)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_CalibrationPulseDuration)
@@ -22003,7 +22003,7 @@ msgstr "État du serveur MCP"
 #: ekos/opsekos.ui:381
 #, kde-format
 msgid "Token:"
-msgstr "Jeton :"
+msgstr "Jeton"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, mcpCopyTokenButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, mcpCopyROTokenButton)
@@ -22029,7 +22029,7 @@ msgstr "Mode lecture seule (refuse les outils de contrôle du matériel)"
 #: ekos/opsekos.ui:457
 #, kde-format
 msgid "Read-only token:"
-msgstr "Jeton en lecture seule :"
+msgstr "Jeton en lecture seule"
 
 #: ekos/profileeditor.cpp:51
 #, kde-format
@@ -23649,13 +23649,13 @@ msgstr "<html><head/><body><p>Attendre ce nombre de secondes lorsqu'une alerte m
 #: ekos/scheduler/opsweathersettings.ui:99
 #, kde-format
 msgid "Weather Alert  Shutdown Delay:"
-msgstr "Délai de fermeture dû à une alerte météo :"
+msgstr "Délai de fermeture dû à une alerte météo"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ekos/scheduler/opsweathersettings.ui:140
 #, kde-format
 msgid "Standalone Safety Monitor Driver:"
-msgstr "Pilote du moniteur de sécurité autonome :"
+msgstr "Pilote du moniteur de sécurité autonome"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_SchedulerSafetyMonitorConnectionString)
 #. i18n: ectx: label, entry (SchedulerSafetyMonitorConnectionString), group (Scheduler)
@@ -26738,7 +26738,7 @@ msgstr "openCV"
 #: fitsviewer/fitsdebayer.ui:104 fitsviewer/livestacking.ui:178 fitsviewer/livestacking.ui:1246 indi/recordingoptions.ui:282
 #, kde-format
 msgid "Method:"
-msgstr "Méthode :"
+msgstr "Méthode"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, filterCombo)
 #: fitsviewer/fitsdebayer.ui:117
@@ -28168,7 +28168,7 @@ msgstr "La pose à utiliser comme référence pour aligner toutes les autres pos
 #: fitsviewer/livestacking.ui:203
 #, kde-format
 msgid "Master Sub:"
-msgstr "Master pose :"
+msgstr "Master pose"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, AlignMasterB)
 #: fitsviewer/livestacking.ui:219
@@ -28290,7 +28290,7 @@ msgstr "<html><head/><body><p>Rapport signal/bruit moyen / min / max des bru
 #: fitsviewer/livestacking.ui:617
 #, kde-format
 msgid "Proc / Fail / Total:"
-msgstr "Traité / Échec / Total :"
+msgstr "Traité / Échec / Total"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, Blue)
 #: fitsviewer/livestacking.ui:630
@@ -28364,7 +28364,7 @@ msgstr "<html><head/><body><p>Le dossier contenant les fichiers à empiler</p></
 #: fitsviewer/livestacking.ui:825
 #, kde-format
 msgid "Stack Directory:"
-msgstr "Dossier d'empilement :"
+msgstr "Dossier d'empilement"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, StackMultiCB2)
 #: fitsviewer/livestacking.ui:835
@@ -28449,7 +28449,7 @@ msgstr "<html><head/><body><p>Nombre maximal de brutes conservées en mémoire p
 #: fitsviewer/livestacking.ui:1050
 #, kde-format
 msgid "In Memory Subs:"
-msgstr "Nombre de poses en mémoire :"
+msgstr "Nombre de poses en mémoire"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, Weighting)
 #. i18n: ectx: property (toolTip), widget (QLabel, WeightingLabel)
@@ -28549,7 +28549,7 @@ msgstr "<html><body><p>Valeur basse du sigma pour le rejet de pixels.</p></body>
 #: fitsviewer/livestacking.ui:1318
 #, kde-format
 msgid "Low Sigma:"
-msgstr "Sigma bas :"
+msgstr "Sigma bas"
 
 #. i18n: ectx: property (text), widget (QLabel, SigmaLabel)
 #: fitsviewer/livestacking.ui:1343
@@ -28607,7 +28607,7 @@ msgstr "<html><body><p>Valeur du Sigma haut à utiliser pour le rejet de pixel.<
 #: fitsviewer/livestacking.ui:1621
 #, kde-format
 msgid "High Sigma:"
-msgstr "Sigma haut :"
+msgstr "Sigma haut"
 
 #. i18n: ectx: property (text), widget (QLabel, AlphaLabel)
 #: fitsviewer/livestacking.ui:1646
@@ -28626,7 +28626,7 @@ msgstr "<html><head/><body><p>Normaliser les images avant l'empilement :</p><p>
 #: fitsviewer/livestacking.ui:1671
 #, kde-format
 msgid "Normalization:"
-msgstr "Normalisation :"
+msgstr "Normalisation"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, StackingMinimized)
 #: fitsviewer/livestacking.ui:1713
@@ -28652,7 +28652,7 @@ msgstr "<html><head/><body><p>Quantité d'affinage à appliquer. Les grandes val
 #: fitsviewer/livestacking.ui:1820
 #, kde-format
 msgid "Sharpen Amount:"
-msgstr "Quantité d'affinage :"
+msgstr "Quantité d'affinage"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, PSFSigma)
 #. i18n: ectx: property (toolTip), widget (QLabel, PSFLabel)
@@ -28679,7 +28679,7 @@ msgstr "<html><head/><body><p>Pourcentage de suppression du gradient à applique
 #: fitsviewer/livestacking.ui:1895
 #, kde-format
 msgid "Gradient Removal:"
-msgstr "Suppression du gradient :"
+msgstr "Suppression du gradient"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, DeconvLabel)
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, DeconvAmt)
@@ -28692,7 +28692,7 @@ msgstr "<html><head/><body><p>Quantité de déconvolution de Wiener à appliquer
 #: fitsviewer/livestacking.ui:1920
 #, kde-format
 msgid "Deconv Amount:"
-msgstr "Quantité de déconvolution :"
+msgstr "Quantité de déconvolution"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, DenoiseAmt)
 #. i18n: ectx: property (toolTip), widget (QLabel, DenoiseLabel)
@@ -28712,7 +28712,7 @@ msgstr "<html><head/><body><p>Sigma affiné.</p></body></html>"
 #: fitsviewer/livestacking.ui:1974
 #, kde-format
 msgid "Sharpen Sigma:"
-msgstr "Sigma affiné :"
+msgstr "Sigma affiné"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, ReprocessB)
 #: fitsviewer/livestacking.ui:1996
@@ -28737,7 +28737,7 @@ msgstr "<html><head/><body><p>Taille du noyau d'accentuation.</p></body></html>"
 #: fitsviewer/livestacking.ui:2090
 #, kde-format
 msgid "Denoise Amount:"
-msgstr "Quantité de débruitage :"
+msgstr "Quantité de débruitage"
 
 #. i18n: ectx: property (text), widget (QLabel, SharpenKernalLabel)
 #: fitsviewer/livestacking.ui:2165
@@ -29003,7 +29003,7 @@ msgstr "<html><head/><body><p>Logo gauche pour l'évènement Webcast.</p></body>
 #: fitsviewer/livestackwebcast.ui:112
 #, kde-format
 msgid "Logo L:"
-msgstr "Logo G :"
+msgstr "Logo G"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, startBtn)
 #: fitsviewer/livestackwebcast.ui:155
@@ -29063,7 +29063,7 @@ msgstr "<html><head/><body><p>Titre de l'évènement Webcast</p></body></html>"
 #: fitsviewer/livestackwebcast.ui:238 printing/pwizchartconfig.ui:141
 #, kde-format
 msgid "Title:"
-msgstr "Titre :"
+msgstr "Titre"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, urlLabel)
 #: fitsviewer/livestackwebcast.ui:254
@@ -29105,7 +29105,7 @@ msgstr "<html><head/><body><p>Logo (droite) de l'évènement Webcast.</p></body>
 #: fitsviewer/livestackwebcast.ui:306
 #, kde-format
 msgid "Logo R:"
-msgstr "Logo D :"
+msgstr "Logo D"
 
 #. i18n: ectx: property (text), widget (QTableWidget, subscribersTable)
 #: fitsviewer/livestackwebcast.ui:362
@@ -29383,7 +29383,7 @@ msgstr "<html><head/><body><p>Sélectionner un catalogue pour identifier les obj
 #: fitsviewer/opsfits.ui:432
 #, kde-format
 msgid "Object Catalog:"
-msgstr "Catalogue de l'objet :"
+msgstr "Catalogue de l'objet"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_FitsCatalog)
 #. i18n: ectx: property (title), widget (QGroupBox, skymapGroup)
@@ -79358,7 +79358,7 @@ msgstr "<html><head/><body><p>Paramètres de dématriçage à appliquer aux brut
 #: options/opsdeveloper.ui:134
 #, kde-format
 msgid "Stack Sub Debayer:"
-msgstr "Dématriçage des brutes :"
+msgstr "Dématriçage des brutes"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowCLines)
 #: options/opsguides.ui:23
@@ -80639,7 +80639,7 @@ msgstr ""
 #: printing/pwizchartconfig.ui:154
 #, kde-format
 msgid "Subtitle:"
-msgstr "Sous-titre :"
+msgstr "Sous-titre"
 
 #. i18n: ectx: property (text), widget (QLabel, stepTitle)
 #: printing/pwizchartcontents.ui:77
@@ -80764,19 +80764,19 @@ msgstr "Utiliser un arrière-plan semi-transparent"
 #: printing/pwizfovconfig.ui:188
 #, kde-format
 msgid "Chart orientation:"
-msgstr "Orientation du graphique :"
+msgstr "Orientation du graphique"
 
 #. i18n: ectx: property (text), widget (QLabel, label4)
 #: printing/pwizfovconfig.ui:198
 #, kde-format
 msgid "Chart position:"
-msgstr "Position du graphique :"
+msgstr "Position du graphique"
 
 #. i18n: ectx: property (text), widget (QLabel, label2)
 #: printing/pwizfovconfig.ui:208
 #, kde-format
 msgid "Chart type:"
-msgstr "Type de graphique :"
+msgstr "Type de graphique"
 
 #. i18n: ectx: property (text), widget (QLabel, stepTitle)
 #: printing/pwizfovmanual.ui:71
@@ -83329,7 +83329,7 @@ msgstr "Saisissez le nombre de secondes pendant lequel le script doit rester en 
 #: tools/argwaitforkey.ui:30
 #, kde-format
 msgid "Key:"
-msgstr "Touche :"
+msgstr "Touche"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, WaitKeyEdit)
 #: tools/argwaitforkey.ui:37
@@ -83353,7 +83353,7 @@ msgstr ""
 #: tools/argzoom.ui:30
 #, kde-format
 msgid "Zoom level:"
-msgstr "Niveau de zoom :"
+msgstr "Niveau de zoom"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, ZoomBox)
 #: tools/argzoom.ui:37
@@ -84891,13 +84891,13 @@ msgstr "Fichier non valable"
 #: tools/modcalcangdist.ui:306
 #, kde-format
 msgid "Angular distance:"
-msgstr "Distance angulaire :"
+msgstr "Distance angulaire"
 
 #. i18n: ectx: property (text), widget (QLabel, AngDistLabel_2)
 #: tools/modcalcangdist.ui:338
 #, kde-format
 msgid "Position angle:"
-msgstr "Angle de position :"
+msgstr "Angle de position"
 
 #. i18n: ectx: property (text), widget (QLabel, AngDistLabel_3)
 #: tools/modcalcangdist.ui:363
@@ -86401,7 +86401,7 @@ msgstr "<html><head></head><body><p>Sélectionnez par région</p><p></p><p>Ensui
 #: tools/obslistwizard.ui:303
 #, kde-format
 msgid "I wish to select objects:"
-msgstr "Je souhaite sélectionner les objets :"
+msgstr "Je souhaite sélectionner les objets"
 
 #. i18n: ectx: property (text), item, widget (QListWidget, RegionList)
 #: tools/obslistwizard.ui:335
@@ -87369,7 +87369,7 @@ msgstr "Saisissez le nom de l'auteur"
 #: tools/scriptnamedialog.ui:52
 #, kde-format
 msgid "Script name:"
-msgstr "Nom du script :"
+msgstr "Nom du script"
 
 #: tools/skycalendar.cpp:45
 #, kde-format
@@ -88699,7 +88699,7 @@ msgstr "en degrés"
 #: xplanet/opsxplanet.ui:975
 #, kde-format
 msgid "Projection:"
-msgstr "Projection :"
+msgstr "Projection"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, kcfg_XplanetProjection)
 #: xplanet/opsxplanet.ui:982
