@@ -26621,7 +26621,7 @@ msgstr "Seules des images de Bayer en 8 ou 16 bits sont prises en charge."
 #: fitsviewer/fitsdata.cpp:6656 fitsviewer/fitsdata.cpp:6767
 #, kde-format
 msgid "Unknown bayer pattern %1"
-msgstr "Unknown bayer pattern %1"
+msgstr "Motif de Bayer %1 inconnu"
 
 #: fitsviewer/fitsdata.cpp:6680 fitsviewer/fitsdata.cpp:6706
 #, kde-format
@@ -26946,7 +26946,7 @@ msgid ""
 "%6 = Blue Channel\n"
 "%7 = Lum Channel"
 msgstr ""
-"%7 = Canal Lumière%1 \n"
+"%1 \n"
 "%2 = Mono, canal unique\n"
 "%3 = Couleur, canal unique\n"
 "%4 = Canal rouge\n"
@@ -26999,7 +26999,8 @@ msgstr ""
 "%6\n"
 "%7\n"
 "%8\n"
-"%9%10"
+"%9\n"
+"%10"
 
 #: fitsviewer/fitsstackmonitor.h:240
 #, kde-format
@@ -27091,9 +27092,7 @@ msgstr ""
 #, kde-format
 msgctxt "Tooltip for Loading Status column"
 msgid "Loading status"
-msgstr ""
-"Chargement\n"
-"des états"
+msgstr "État du chargement"
 
 #: fitsviewer/fitsstackmonitor.h:276
 #, kde-format
@@ -27167,7 +27166,7 @@ msgstr "HFR moyen des étoiles"
 #, kde-format
 msgctxt "Column header"
 msgid "Num Stars"
-msgstr "Nombres d'étoiles"
+msgstr "Nombre d'étoiles"
 
 #: fitsviewer/fitsstackmonitor.h:303
 #, kde-format
@@ -27458,7 +27457,7 @@ msgstr "Ombres"
 #: fitsviewer/fitsstretchui.ui:194 fitsviewer/fitsstretchui.ui:215
 #, kde-format
 msgid "Set midtones value for the image stretch."
-msgstr "Réglez la valeur de ton moyen de l'image étirée."
+msgstr "Régler la valeur de ton moyen de l'image étirée."
 
 #. i18n: ectx: property (text), widget (QLabel, midtonesLabel)
 #: fitsviewer/fitsstretchui.ui:197
@@ -27471,7 +27470,7 @@ msgstr "Ton moyen"
 #: fitsviewer/fitsstretchui.ui:264 fitsviewer/fitsstretchui.ui:291
 #, kde-format
 msgid "Set highlights value for the image stretch."
-msgstr "Réglez la valeur du point blanc de l'image étirée"
+msgstr "Régler la valeur du point blanc de l'image étirée."
 
 #. i18n: ectx: property (text), widget (QLabel, highlightsLabel)
 #: fitsviewer/fitsstretchui.ui:267
@@ -27483,7 +27482,7 @@ msgstr "Point blanc"
 #: fitsviewer/fitsstretchui.ui:341
 #, kde-format
 msgid "Enable or disable the histogram display."
-msgstr "Activer ou désactiver l'affichage de l'histogramme"
+msgstr "Activer ou désactiver l'affichage de l'histogramme."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, autoButton)
 #: fitsviewer/fitsstretchui.ui:369
@@ -27543,7 +27542,7 @@ msgstr "R"
 #: fitsviewer/fitstab.cpp:632
 #, kde-format
 msgid "%1 / %2 Simbad objects loaded"
-msgstr "%1/%2 fichiers d'images Simbad chargés"
+msgstr "%1 / %2 objets Simbad chargés"
 
 #: fitsviewer/fitstab.cpp:647
 #, kde-format
@@ -27636,7 +27635,7 @@ msgid ""
 "\n"
 "See https://simbad.cds.unistra.fr/guide/otypes.htx for more details"
 msgstr ""
-"Étiquette du type d'objet. Douvle clic pour lancer le filtre du type d'objet.\n"
+"Étiquette du type d'objet. Double clic pour lancer le filtre du type d'objet.\n"
 "\n"
 "Voir https://simbad.cds.unistra.fr/guide/otypes.htx pour davantage de détails"
 
@@ -28187,7 +28186,7 @@ msgstr "Configurer les options d'alignement dans cette section."
 #: fitsviewer/livestacking.ui:314
 #, kde-format
 msgid "<html><head/><body><p>Starts watching the Stack Directory and runs stacking.</p></body></html>"
-msgstr "<html><head/><body><p>Débuter la surveillance du dossier d'empilement et lancer l'empilement. </p></body></html>"
+msgstr "<html><head/><body><p>Débuter la surveillance du dossier d'empilement et lancer l'empilement.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, Red)
 #: fitsviewer/livestacking.ui:330
@@ -28334,7 +28333,7 @@ msgstr "<html><head/><body><p>Boîte de dialogue de sélection du dossier des br
 #: fitsviewer/livestacking.ui:749
 #, kde-format
 msgid "The directory containing Lum files to stack"
-msgstr "Le dossier contenant les fichiers Liminance à empiler"
+msgstr "Le dossier contenant les fichiers Luminance à empiler"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, LumDirB)
 #: fitsviewer/livestacking.ui:759
@@ -28621,7 +28620,7 @@ msgstr "Alpha"
 #: fitsviewer/livestacking.ui:1668 fitsviewer/livestacking.ui:1693
 #, kde-format
 msgid "<html><head/><body><p>Normalize images before stacking:</p><p>- None. No normalization.</p><p>- Linear. Normalize each sub to the brightness of the alignment master prior to stacking. In addition, the image edges are normalized to maintain appropriate brightness.</p></body></html>"
-msgstr "<html><head/><body><p>Normaliser les images avant l'empilement :</p><p>- Aucune. Pas de normalisation.</p><p>- Linéaire. Normaliser chaque pose sous-jacente à la luminosité du maître d'alignement avant l'empilement. De plus, les bords de l'image sont normalisés pour maintenir une luminosité appropriée.</p></body></html>"
+msgstr "<html><head/><body><p>Normaliser les images avant l'empilement :</p><p>- Aucune. Pas de normalisation.</p><p>- Linéaire. Normaliser chaque pose à la luminosité du maître d'alignement avant l'empilement. De plus, les bords de l'image sont normalisés pour maintenir une luminosité appropriée.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, NormalizationLabel)
 #: fitsviewer/livestacking.ui:1671
@@ -28763,13 +28762,13 @@ msgstr "<html><head/><body><p>Le flat maître à utiliser pour calibrer les brut
 #: fitsviewer/livestacking.ui:2299
 #, kde-format
 msgid "Master Flat:"
-msgstr "Master flat :"
+msgstr "Master flat"
 
 #. i18n: ectx: property (text), widget (QLabel, MasterFlatLumLabel)
 #: fitsviewer/livestacking.ui:2321
 #, kde-format
 msgid "Master Flat (Lum):"
-msgstr "Flat maître (Lum) :"
+msgstr "Flat maître (Lum)"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, MasterDarkLumLabel)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, MasterDarkLum)
@@ -28900,13 +28899,13 @@ msgstr "Master flat (Bleu)"
 #: fitsviewer/livestacking.ui:2831
 #, kde-format
 msgid "Master Dark (Red):"
-msgstr "Dark maître (Bleu)"
+msgstr "Dark maître (Rouge)"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, MasterFlatGreenB)
 #: fitsviewer/livestacking.ui:2841
 #, kde-format
 msgid "File chooser dialog for Master Flat Green"
-msgstr "Boîte de dialogue de sélection de fichier pour le dark maître vert"
+msgstr "Boîte de dialogue de sélection de fichier pour le flat maître vert"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, HotPixels)
 #: fitsviewer/livestacking.ui:2854
@@ -28924,7 +28923,7 @@ msgstr "Supprimer les pixels chauds"
 #: fitsviewer/livestacking.ui:2867
 #, kde-format
 msgid "<html><head/><body><p>Check to remove cold pixels</p></body></html>"
-msgstr "<html><body><p>Cocher pour supprimer les pixels chauds</p></body></html>"
+msgstr "<html><body><p>Cocher pour supprimer les pixels froids</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ColdPixels)
 #: fitsviewer/livestacking.ui:2870
@@ -28954,7 +28953,7 @@ msgstr "<html><head/><body><p>Cochez cette option pour activer la mise en surbri
 #: fitsviewer/livestackmonitor.ui:63
 #, kde-format
 msgid " Highlighting"
-msgstr " Highlighting"
+msgstr " Surbrillance"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, FitsStackWebcast)
 #: fitsviewer/livestackwebcast.ui:14
