@@ -2724,7 +2724,7 @@ msgstr "Couleur"
 #: dialogs/catalogeditform.ui:86 kstarslite/qml/dialogs/menus/DetailsLinkMenu.qml:47 kstarslite/qml/dialogs/menus/LocationsGeoMenu.qml:70
 #, kde-format, kde-kuit-format
 msgid "Edit"
-msgstr "&Choisir"
+msgstr "&Modifier"
 
 #. i18n: ectx: property (text), widget (QTableWidget, solutionTable)
 #. i18n: ectx: property (text), widget (QLabel, label_14)
@@ -3841,7 +3841,7 @@ msgstr "(rien)"
 #: dialogs/finddialog.cpp:491
 #, kde-format
 msgid "Searching the internet for \"%1\""
-msgstr "Chercher %1 sur Internet"
+msgstr "Recherche de « %1 » sur Internet…"
 
 #: dialogs/finddialog.cpp:499
 #, kde-format
@@ -3863,7 +3863,7 @@ msgstr "Filtrer par nom"
 #: dialogs/finddialog.ui:75
 #, kde-format
 msgid "Find History"
-msgstr "Trouver l'historique"
+msgstr "Historique des recherches"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, clearHistoryB)
 #: dialogs/finddialog.ui:109
@@ -3907,7 +3907,7 @@ msgstr "Données de coordonnées erronées"
 #: dialogs/focusdialog.cpp:141
 #, kde-format
 msgid "Invalid Epoch format"
-msgstr "Format Époque non valable."
+msgstr "Format d'époque non valable"
 
 #: dialogs/focusdialog.cpp:186
 #, kde-format
@@ -4694,7 +4694,7 @@ msgid ""
 "\n"
 "The computed FOV angle (in arcminutes) will be displayed in the \"Field of view\" edit box."
 msgstr ""
-"Ce bouton calculera l'angle de champ de vision (CdV) pour une combinaison caméra/télescope spécifique. Vous devez d'abord préciser le longueur focale du télescope et la taille du capteur CCD.\n"
+"Ce bouton calculera l'angle de champ de vision (CdV) pour une combinaison caméra/télescope spécifique. Vous devez d'abord préciser la longueur focale du télescope et la taille du capteur CCD.\n"
 "\n"
 "L'angle du champ de vision calculé (en minutes d'arc) sera affiché dans la zone de texte Champ de vision."
 
@@ -4923,7 +4923,7 @@ msgid ""
 "\n"
 "Circle, Square, Crosshairs, Bullseye."
 msgstr ""
-"Sélectionner une forme pour l'indicateur de champ de vision (CdV). Les formes possibles sont:\n"
+"Sélectionner une forme pour l'indicateur de champ de vision (CdV). Les formes possibles sont :\n"
 "\n"
 "cercle, carré, croix, cible."
 
@@ -5018,7 +5018,7 @@ msgstr "Miroir (par exemple un Cassegrin ou un réfracteur avec un prisme droit)
 #: dialogs/newview.ui:122
 #, kde-format
 msgid "Inverted (e.g. straight through finder, Newtonian)"
-msgstr "Inversé (par exemple vue directe à travers un chercheur, Newtown)"
+msgstr "Inversé (par exemple vue directe à travers un chercheur, Newton)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: dialogs/newview.ui:129
@@ -5030,7 +5030,7 @@ msgstr "Type de vue"
 #: dialogs/newview.ui:136
 #, kde-format
 msgid "Mirrored on the vertical axis (i.e. inverted and mirrored)"
-msgstr "Miroir sur l'axe vertical (i.e inversé et miroir)"
+msgstr "Miroir sur l'axe vertical (i.e. inversé et miroir)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: dialogs/newview.ui:154
@@ -5201,7 +5201,7 @@ msgstr "~/Library/Application Support/kstars"
 #: dialogs/wizdata.ui:102
 #, kde-format
 msgid "Your data directory was not found.  You can click the button below to copy a default KStars data directory to the correct location, or if you have a KStars directory already some place else, you can exit KStars and copy it to that location yourself."
-msgstr "Votre dossier de données n'existe pas. Vous pouvez cliquez sur le bouton ci-dessous pour copier le dossier de données par défaut de KStars vers l'emplacement correct ou si vous avez déjà un dossier KStars déjà disponible quelque part ailleurs, vous pouvez quitter KStars et le copier vous même vers l'emplacement correct."
+msgstr "Votre dossier de données n'existe pas. Vous pouvez cliquer sur le bouton ci-dessous pour copier le dossier de données par défaut de KStars vers l'emplacement correct ou si vous avez déjà un dossier KStars déjà disponible quelque part ailleurs, vous pouvez quitter KStars et le copier vous-même vers l'emplacement correct."
 
 #. i18n: ectx: property (text), widget (QPushButton, copyKStarsData)
 #: dialogs/wizdata.ui:112
@@ -5219,7 +5219,7 @@ msgstr "Fichiers optionnels pour le dossier de données :"
 #: dialogs/wizdata.ui:137
 #, kde-format
 msgid "<html><head/><body><p>GSC: <a href=\"https://drive.google.com/file/d/0B_ivMJINsdQ8cDhNcU5ESkZMZ0E/view?usp=sharing\"><span style=\" text-decoration: underline; color:#0000ff;\">Guide Star Catalog</span></a> (305 MB)</p></body></html>"
-msgstr "<html><head/><body><p>GSC : <a href=\"https://drive.google.com/file/d/0B_ivMJINsdQ8cDhNcU5ESkZMZ0E/view?usp=sharing\"><span style=\" text-decoration: underline; color:#0000ff;\">Catalogue de Guidage pour les étoiles</span></a> (305 Mo)</p></body></html>"
+msgstr "<html><head/><body><p>GSC : <a href=\"https://drive.google.com/file/d/0B_ivMJINsdQ8cDhNcU5ESkZMZ0E/view?usp=sharing\"><span style=\" text-decoration: underline; color:#0000ff;\">Catalogue d'étoiles guides</span></a> (305 Mo)</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, installGSC)
 #: dialogs/wizdata.ui:150
