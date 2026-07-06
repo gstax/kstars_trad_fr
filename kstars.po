@@ -20810,7 +20810,7 @@ msgstr "Options…"
 #: ekos/manager/focusprogresswidget.ui:275
 #, kde-format
 msgid "Focus HFR profile"
-msgstr "Profil de focus HFR "
+msgstr "Profil de focus HFR"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, focusStarView)
 #. i18n: ectx: property (text), widget (QLabel, focusStarView)
@@ -20829,7 +20829,7 @@ msgstr "Guide"
 #: ekos/manager/guidemanager.ui:180
 #, kde-format
 msgid "Total RMS: "
-msgstr "RMS total "
+msgstr "RMS total"
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #: ekos/manager/guidemanager.ui:239
@@ -21057,7 +21057,7 @@ msgstr "Démarrage de la mise en sécurité automatique…"
 #: ekos/mount/mount.cpp:1866
 #, kde-format
 msgid "Updating master time source to %1."
-msgstr "Mise à jour de la source de l'heure vers %1"
+msgstr "Mise à jour de la source de l'heure vers %1."
 
 #: ekos/mount/mount.cpp:1887
 #, kde-format
@@ -21174,7 +21174,7 @@ msgstr "Activer les limites d'altitude"
 #: ekos/mount/mount.ui:354
 #, kde-format
 msgid "<html><head/><body><p>Use altitude limits only while the mount tracking. This is necessary for some mounts that intentionally pass this limit, e.g. for parking.</p><p><span style=\" font-weight:600;\">WARNING</span>: leave unchecked if unsure, use only if you know what you are doing.</p></body></html>"
-msgstr "<html><head/><body><p>N'utiliser les limites d'altitude que lors du suivi par la monture. Cela est nécessaire pour certaines montures qui dépasse intentionnellement cette limite, p. ex pour le parcage.</p><p><span style=\" font-weight:600;\">AVERTISSEMENT</span> : laissez décoché si incertain, n'utilisez que si vous savez ce que vous faites.</p></body></html>"
+msgstr "<html><head/><body><p>N'utiliser les limites d'altitude que lors du suivi par la monture. Cela est nécessaire pour certaines montures qui dépassent intentionnellement cette limite, p. ex. pour le parcage.</p><p><span style=\" font-weight:600;\">AVERTISSEMENT</span> : laissez décoché si incertain, n'utilisez que si vous savez ce que vous faites.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableAltitudeLimitsTrackingOnly)
 #: ekos/mount/mount.ui:357
@@ -21186,7 +21186,7 @@ msgstr "Seulement pour le suivi"
 #: ekos/mount/mount.ui:528
 #, kde-format
 msgid "Park at:"
-msgstr "Parquer à "
+msgstr "Parquer à"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, parkEveryDay)
 #: ekos/mount/mount.ui:546
@@ -21224,7 +21224,7 @@ msgstr "Parquer"
 #: ekos/mount/mount.ui:776 ekos/observatory/observatory.ui:498 kspopupmenu.cpp:658
 #, kde-format
 msgid "UnPark"
-msgstr "Dé-parquer"
+msgstr "Déparquer"
 
 #. i18n: ectx: property (text), widget (QLabel, trackingLabel)
 #: ekos/mount/mount.ui:783 indi/indidome.cpp:22 indi/indimount.cpp:31 indi/indimount.cpp:1625
@@ -21353,7 +21353,7 @@ msgstr "Erreur %1. Veuillez consulter le journal INDI pour plus de détails."
 #: ekos/observatory/observatory.cpp:311 ekos/observatory/observatory.cpp:322 ekos/observatory/observatory.cpp:362 ekos/observatory/observatory.cpp:377 ekos/observatory/observatory.cpp:392 ekos/observatory/observatory.cpp:399
 #, kde-format
 msgid "Rolloff roof"
-msgstr "Toit à l'arret"
+msgstr "Toit roulant"
 
 #: ekos/observatory/observatory.cpp:322
 #, kde-format
@@ -21368,7 +21368,7 @@ msgstr "Ouverture"
 #: ekos/observatory/observatory.cpp:333 ekos/observatory/observatory.cpp:381
 #, kde-format
 msgid "Unparking"
-msgstr "Dé-parcage en cours"
+msgstr "Déparcage en cours"
 
 #: ekos/observatory/observatory.cpp:334
 #, kde-format
@@ -21393,7 +21393,7 @@ msgstr "Parcage"
 #: ekos/observatory/observatory.cpp:350 ekos/observatory/observatory.cpp:366 ekos/observatory/observatory.cpp:424
 #, kde-format
 msgid "Unpark"
-msgstr "Dé-parquer"
+msgstr "Déparquer"
 
 #: ekos/observatory/observatory.cpp:351
 #, kde-format
@@ -21403,7 +21403,7 @@ msgstr "Fermeture du toit…"
 #: ekos/observatory/observatory.cpp:355
 #, kde-format
 msgid "Dome is moving counter clockwise..."
-msgstr "Le dôme est en mouvement dans le sens horaire…"
+msgstr "Le dôme est en mouvement dans le sens antihoraire…"
 
 #: ekos/observatory/observatory.cpp:362
 #, kde-format
@@ -21418,7 +21418,7 @@ msgstr "Parcage de %1 en cours…"
 #: ekos/observatory/observatory.cpp:392
 #, kde-format
 msgid "%1 is unparking..."
-msgstr "Dé-parcage de %1 en cours…"
+msgstr "Déparcage de %1 en cours…"
 
 #: ekos/observatory/observatory.cpp:399
 #, kde-format
@@ -21428,7 +21428,7 @@ msgstr "%1 est en cours de suivi."
 #: ekos/observatory/observatory.cpp:411
 #, kde-format
 msgid "Unparked"
-msgstr "Dé-parqué"
+msgstr "Déparqué"
 
 #: ekos/observatory/observatory.cpp:417
 #, kde-format
@@ -21605,7 +21605,7 @@ msgstr "<html><head/><body><p>Parquer le dôme. Pour des contrôles avancés du 
 #: ekos/observatory/observatory.ui:487
 #, kde-format
 msgid "<html><head/><body><p>Unpark the dome. For advanced control of the dome please use the INDI tab.</p></body></html>"
-msgstr "<html><head/><body><p>Dé-parquer le dôme. Pour des contrôles avancés du dôme, veuillez utiliser l'onglet INDI.</p></body></html>"
+msgstr "<html><head/><body><p>Déparquer le dôme. Pour des contrôles avancés du dôme, veuillez utiliser l'onglet INDI.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, motionAbortButton)
 #: ekos/observatory/observatory.ui:539
@@ -21655,7 +21655,7 @@ msgstr "<html><head/><body><p>Si cette option est sélectionnée, le dôme doit 
 #: ekos/observatory/observatory.ui:729
 #, kde-format
 msgid "<html><head/><body><p>If selected, the shutter needs to be open for the observatory status being &quot;READY&quot;.</p></body></html>"
-msgstr "<html><head/><body><p>Si cette option est sélectionnée, l'obturateur doit être ouvert pour que l'état d'observation soit « ; PRÊT ».</p></body></html>"
+msgstr "<html><head/><body><p>Si cette option est sélectionnée, l'obturateur doit être ouvert pour que l'état d'observation soit « PRÊT ».</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, useWeatherCB)
 #: ekos/observatory/observatory.ui:739
@@ -21959,7 +21959,7 @@ msgstr "Dossier alternatif pour les fichiers d'images"
 #: ekos/opsekos.ui:247
 #, kde-format
 msgid "Set the alternative image directory for Analyze"
-msgstr "Dossier alternatif pour les fichiers d'images"
+msgstr "Définir le dossier alternatif d'images pour Analyse"
 
 #. i18n: ectx: attribute (title), widget (QWidget, mcpTab)
 #: ekos/opsekos.ui:292
@@ -22050,7 +22050,7 @@ msgstr "Ce nom de profil existe déjà."
 #: ekos/profileeditor.cpp:342
 #, kde-format
 msgid "<nobr>Available as <b>Remote</b> Driver. To use locally, install the corresponding driver.<nobr/>"
-msgstr "<nobr>Disponible comme pilote<b>distant</b>. Pour utiliser localement, veuillez installer le pilote correspondant.<nobr/>"
+msgstr "<nobr>Disponible comme pilote <b>distant</b>. Pour utiliser localement, veuillez installer le pilote correspondant.<nobr/>"
 
 #: ekos/profileeditor.cpp:344
 #, kde-format
@@ -22146,7 +22146,7 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>\n"
-"<p>Mode connexion pour le serveur INDI</p>\n"
+"<p>Mode de connexion pour le serveur INDI</p>\n"
 "<p><span style=\"font-weight:600\">Local</span><br/>Connexion à un serveur « INDI » local, créé lors du démarrage de Ekos.</p>\n"
 "<p><span style=\"font-weight:600\">Distant</span><br/>Connexion à un serveur INDI distant déjà actif.</p>\n"
 "</body></html>"
@@ -22274,7 +22274,7 @@ msgstr "<html><head/><body><p>Hôte ou adresse de l'assistant externe de guidage
 #: ekos/profileeditor.ui:353
 #, kde-format
 msgid "localhost"
-msgstr "hôte local"
+msgstr "localhost"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, remotePort)
 #: ekos/profileeditor.ui:379
@@ -22578,7 +22578,7 @@ msgstr "Pas sûr"
 #: ekos/profilewizard.ui:604
 #, kde-format
 msgid "<html><head/><body><p><span style=\" font-weight:600;\">Tip</span>: <span style=\" font-style:italic;\">INDI Web Manager</span> is a service that runs on remote devices to help you start and stop INDI services remotely.</p></body></html>"
-msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Astuce</span>: <span style=\" font-style:italic;\">Le gestionnaire Internet de serveur INDI</span> est un service s'exécutant sur les périphériques distants et vous aidant à démarrer et arrêter à distance les services INDI.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Astuce</span> : <span style=\" font-style:italic;\">Gestionnaire Internet INDI</span> est un service s'exécutant sur les périphériques distants et vous aidant à démarrer et arrêter à distance les services INDI.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: ekos/profilewizard.ui:679
