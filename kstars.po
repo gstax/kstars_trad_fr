@@ -10006,7 +10006,7 @@ msgstr "Verrouillage"
 #: ekos/auxiliary/buildfilteroffsets.cpp:177
 #, kde-format
 msgid "# Focus Runs"
-msgstr "Nombre de passe pour la mise au point automatique"
+msgstr "Nombre de passes pour la mise au point automatique"
 
 #: ekos/auxiliary/buildfilteroffsets.cpp:183
 #, kde-format
@@ -10016,7 +10016,7 @@ msgstr "Le filtre. * indique le filtre de référence. Double-cliquer pour modif
 #: ekos/auxiliary/buildfilteroffsets.cpp:185
 #, kde-format
 msgid "# Focus Runs. Set per filter. 0 to ignore"
-msgstr "# de passe de mise au point. Régler par filtre. 0 pour ignorer"
+msgstr "# de passes de mise au point. Régler par filtre. 0 pour ignorer"
 
 #: ekos/auxiliary/buildfilteroffsets.cpp:322
 #, kde-format
@@ -10026,7 +10026,7 @@ msgstr "Passe de mise au point automatique %1"
 #: ekos/auxiliary/buildfilteroffsets.cpp:325
 #, kde-format
 msgid "AF Run %1. Calculated automatically but can be edited. Set to 0 to exclude from average."
-msgstr "Passe de mise au point automatique %1. Peut être calculer automatiquement mais peut être modifier. Régler à 0 pour l'exclure de la moyenne."
+msgstr "Passe de mise au point automatique %1. Peut être calculée automatiquement mais peut être modifiée. Régler à 0 pour l'exclure de la moyenne."
 
 #. i18n: ectx: property (text), item, widget (QComboBox, combinAlgorithmCombo)
 #. i18n: ectx: property (currentText), widget (QComboBox, StackingMethod)
@@ -10059,7 +10059,7 @@ msgstr "Enregistrer. Cochez pour enregistrer le nouveau décalage pour le filtre
 #: ekos/auxiliary/buildfilteroffsets.cpp:376
 #, kde-format
 msgid "Are you sure you want to stop Build Filter Offsets?"
-msgstr "Voulez-vous vraiment la procédure de construction des décalages de filtres ?"
+msgstr "Voulez-vous vraiment arrêter la procédure de construction des décalages de filtres ?"
 
 #: ekos/auxiliary/buildfilteroffsets.cpp:376
 #, kde-format
@@ -10073,7 +10073,7 @@ msgid ""
 "Stop Build Filter Offsets, or Cancel to retry?"
 msgstr ""
 "Un problème inattendu est arrivé.\n"
-"Arrêter la procédure de construction des décalage de filtre, ou Annuler pour réessayer ?"
+"Arrêter la procédure de construction des décalages de filtres, ou Annuler pour réessayer ?"
 
 #: ekos/auxiliary/buildfilteroffsets.cpp:408
 #, kde-format
@@ -10137,7 +10137,7 @@ msgstr "<html><head/><body><p>Cochez pour appliquer la mise au point adaptative 
 #: ekos/auxiliary/buildfilteroffsets.ui:48
 #, kde-format
 msgid "Adapt Focus"
-msgstr "Adapter la Mise au point"
+msgstr "Adapter la mise au point"
 
 #: ekos/auxiliary/darklibrary.cpp:98
 #, kde-format
@@ -10172,7 +10172,7 @@ msgstr "Impossible de charger le fichier %1 de correspondance des défauts"
 #: ekos/auxiliary/darklibrary.cpp:521
 #, kde-format
 msgid "Failed to load dark frame file %1"
-msgstr "Impossible de charger le fichier dark %1 darks"
+msgstr "Impossible de charger le fichier dark %1"
 
 #: ekos/auxiliary/darklibrary.cpp:582
 #, kde-format
@@ -10239,7 +10239,7 @@ msgstr "Bibliothèque de darks"
 #: ekos/auxiliary/darklibrary.ui:56
 #, kde-format
 msgid "Prefer:"
-msgstr "Préférer "
+msgstr "Préférer"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, preferDarksRadio)
 #: ekos/auxiliary/darklibrary.ui:115
@@ -10377,7 +10377,7 @@ msgstr "Durée d'exposition maximale en secondes."
 #: ekos/auxiliary/darklibrary.ui:464
 #, kde-format
 msgid "Total images:"
-msgstr "Total Images"
+msgstr "Total images"
 
 #. i18n: ectx: property (format), widget (QProgressBar, darkProgress)
 #: ekos/auxiliary/darklibrary.ui:550
@@ -10584,7 +10584,7 @@ msgstr "Réutiliser les darks de la bibliothèque de darks pendant ce nombre de 
 #: ekos/auxiliary/darklibrary.ui:1132
 #, kde-format
 msgid "Dark validity:"
-msgstr "Validité du dark "
+msgstr "Validité du dark"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, openDarksFolderB)
 #: ekos/auxiliary/darklibrary.ui:1168
@@ -10602,7 +10602,7 @@ msgstr "Dossier des darks"
 #: ekos/auxiliary/darklibrary.ui:1195
 #, kde-format
 msgid "Clear Expired"
-msgstr "Effacement expiré"
+msgstr "Effacer les éléments expirés"
 
 #. i18n: ectx: property (toolTip), widget (QTableView, darkTableView)
 #: ekos/auxiliary/darklibrary.ui:1211
@@ -10613,7 +10613,7 @@ msgstr "Double clic pour charger le dark"
 #: ekos/auxiliary/darkprocessor.cpp:278 ekos/auxiliary/darkprocessor.cpp:293
 #, kde-format
 msgid "No suitable dark frames or defect maps found. Please run the Dark Library wizard in Capture module."
-msgstr "Aucun dark valable ou carte de défaut trouvé. Veuillez lancer l'assistant pour Bibliothèque Dark dans le module d'acquisition."
+msgstr "Aucun dark valable ou carte des défauts trouvée. Veuillez lancer l'assistant pour Bibliothèque Dark dans le module d'acquisition."
 
 #: ekos/auxiliary/filtermanager.cpp:120
 #, kde-format
@@ -10829,7 +10829,7 @@ msgstr "Filtre sélectionné."
 #: ekos/auxiliary/ledstatuswidget.ui:14 ekos/mount/meridianflipstatuswidget.ui:14
 #, kde-format
 msgid "Form"
-msgstr "Format"
+msgstr "Formulaire"
 
 #. i18n: ectx: property (text), widget (QLabel, statusText)
 #: ekos/auxiliary/ledstatuswidget.ui:44 ekos/mount/meridianflipstatuswidget.ui:35
@@ -11162,13 +11162,13 @@ msgstr "Périphérique absent détecté (%1). Veuillez reconfigurer les trains o
 #: ekos/auxiliary/opticaltrainmanager.cpp:1308
 #, kde-format
 msgid "Missing devices detected (%1). Please reconfigure the optical trains before proceeding any further."
-msgstr "Périphérique absent détecté (%1). Veuillez reconfigurer les trains optiques avant de continuer."
+msgstr "Périphériques absents détectés (%1). Veuillez reconfigurer les trains optiques avant de continuer."
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, OpticalTrain)
 #: ekos/auxiliary/opticaltrains.ui:14
 #, kde-format
 msgid "Optical Trains"
-msgstr "Trains Optiques"
+msgstr "Trains optiques"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, addB)
 #: ekos/auxiliary/opticaltrains.ui:46
@@ -11283,7 +11283,7 @@ msgstr "<html><head/><body><p>Sélectionner le périphérique qui reçoit les im
 #: ekos/auxiliary/opticaltrains.ui:301
 #, kde-format
 msgid "Guide via:"
-msgstr "Guider via "
+msgstr "Guider via"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, focusLabel)
 #: ekos/auxiliary/opticaltrains.ui:321
@@ -11391,7 +11391,7 @@ msgstr "Déconnecter"
 #: ekos/auxiliary/portselector.cpp:368
 #, kde-format
 msgid "Connect All"
-msgstr "Tout Connecter"
+msgstr "Tout connecter"
 
 #: ekos/auxiliary/portselector.cpp:381
 #, kde-format
@@ -11615,12 +11615,12 @@ msgstr "Par défaut. Défini pour une estimation HFR classique."
 #: ekos/auxiliary/stellarsolverprofile.cpp:263
 #, kde-format
 msgid "Set for typical HFR estimation on big stars."
-msgstr "Défini une estimation classique HFR pour les étoiles massives."
+msgstr "Défini pour une estimation classique HFR pour les étoiles massives."
 
 #: ekos/auxiliary/stellarsolverprofile.cpp:282
 #, kde-format
 msgid "Set for HFR estimation on most stars."
-msgstr "Défini une estimation HFR pour la plupart des étoiles."
+msgstr "Défini pour une estimation HFR pour la plupart des étoiles."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:32
@@ -11809,7 +11809,7 @@ msgstr "magzero"
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:434
 #, kde-format
 msgid "The type of Convolution Filter that SEP will apply to the image prior to star extraction.  These filters are comparable to the included filters in a SExtractor installation, but here you have the flexibility to change the FWHM.  The Default filter is the fastest filter, but does NOT change with the FWHM setting, and so is best for small stars.  The Gaussian Filter is best for faint object detection.  The Mexican Hat filter is good in crowded star fields or in the vicinity of nebulae.  The Top Hat filter is good for extended, low brightness objects.  Note: The \"Custom\" filter selection is meant for testing purposes and should only be used by developers"
-msgstr "Le type de filtre de convolution que SEP va appliquer à l'image avant l'extraction de l'image. Ces filtres sont comparables aux filtres inclus dans un installation de SExtractor, mais ici vous avez la flexibilité de modifier le FWHM. Le filtre par défaut est le plus rapide mais ne modifie PAS le réglage de FWHM et est par conséquent le meilleur pour les petites étoiles. Le filtre gaussien est très performant pour détecter des objets très faibles. Le filtre « Mexican Hat » est bon pour les champs d'étoiles très chargés ou à proximité de nébuleuses. Le filtre Top Hat est bon pour les objets étendus et de faible luminosité. Remarque : le filtre personnalisé n'est utilisé que pour des tests et ne devrait être utilisé que par des développeurs."
+msgstr "Le type de filtre de convolution que SEP va appliquer à l'image avant l'extraction des étoiles. Ces filtres sont comparables aux filtres inclus dans une installation de SExtractor, mais ici vous avez la flexibilité de modifier le FWHM. Le filtre par défaut est le plus rapide mais ne modifie PAS le réglage de FWHM et est par conséquent le meilleur pour les petites étoiles. Le filtre gaussien est très performant pour détecter des objets très faibles. Le filtre « Mexican Hat » est bon pour les champs d'étoiles très chargés ou à proximité de nébuleuses. Le filtre Top Hat est bon pour les objets étendus et de faible luminosité. Remarque : le filtre personnalisé n'est utilisé que pour des tests et ne devrait être utilisé que par des développeurs."
 
 #. i18n: ectx: property (text), item, widget (QComboBox, convFilter)
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:446
@@ -12075,7 +12075,7 @@ msgstr "px"
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:805
 #, kde-format
 msgid "Cut Brightest"
-msgstr "Supprimer la plus brillante"
+msgstr "Supprimer les plus brillantes"
 
 #. i18n: ectx: property (text), widget (QLabel, label_53)
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:833
