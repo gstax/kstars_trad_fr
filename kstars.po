@@ -5771,7 +5771,7 @@ msgstr "Effacer toutes les solutions de la table des solutions. Veuillez être p
 #: ekos/align/align.ui:981
 #, kde-format
 msgid "Remove the selected row from the solutions table.  This can be useful for getting rid of results that did not actually solve from the table and/or results that you do not need any more.  It can clean up clutter on both the graph and table."
-msgstr "Supprimer la ligne sélectionnée de la table des solutions. Cela peut être utile pour se débarrasser de résultats ne proposant pas de solution de la table et/ou de résultats dont vous n'avez pas plus besoin. Cela peut nettoyer les données inutiles à la fois pour le graphique et la table."
+msgstr "Supprimer la ligne sélectionnée de la table des solutions. Cela peut être utile pour se débarrasser de résultats ne proposant pas de solution de la table et/ou de résultats dont vous n'avez plus besoin. Cela peut nettoyer les données inutiles à la fois pour le graphique et la table."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, exportSolutionsCSV)
 #: ekos/align/align.ui:1003
@@ -6155,7 +6155,7 @@ msgstr "Le transfert d'image est désactivé pour cette caméra. Voulez-vous l'a
 #: ekos/align/align_solver.cpp:143
 #, kde-format
 msgid "Dustcap is parked. Unparking before capture and solve..."
-msgstr "Le capuchon antipoussière est posé. Déparkage avant acquisition et résolution…"
+msgstr "Le capuchon antipoussière est posé. Déparquage avant acquisition et résolution…"
 
 #: ekos/align/align_solver.cpp:150
 #, kde-format
@@ -6464,7 +6464,7 @@ msgstr "Effacer les points d'alignement"
 #: ekos/align/mountmodel.cpp:1128
 #, kde-format
 msgid "The Mount Model Tool is Reset."
-msgstr "L'outil de modélisation du ciel est réinitialisé."
+msgstr "L'outil de modélisation de la monture est réinitialisé."
 
 #: ekos/align/mountmodel.cpp:1169
 #, kde-format
@@ -6557,14 +6557,14 @@ msgid ""
 "</ul>\n"
 "</body></html>"
 msgstr ""
-"<html><head/><body><p>Veuillez choisir comment l'assistant choisi les points d'alignement.</p>\n"
-"<p>Tous les modes sauf « DEC fixe » et «  Grille fixe » placent les points de manière égale dans le ciel en utilisant une distribution uniforme.Les modes diffèrent par la manière dont les points s'accrochent aux étoiles :</p>\n"
+"<html><head/><body><p>Veuillez choisir comment l'assistant choisit les points d'alignement.</p>\n"
+"<p>Tous les modes sauf « DEC fixe » et «  Grille fixe » placent les points de manière égale dans le ciel en utilisant une distribution uniforme. Les modes diffèrent par la manière dont les points s'accrochent aux étoiles :</p>\n"
 "<ul>\n"
 "<li><b>N'importe quelle étoile :</b> s'accroche à l'étoile visible la plus proche.</li>\n"
 "<li><b>Étoiles nommées :</b> s'accroche à une étoile connue nommée (p.ex. Vega, Arcturus).</li>\n"
 "<li><b>N'importe quel objet :</b> s'accroche à l'objet visible le plus proche de tout type.</li>\n"
 "<li><b>Distribution uniforme :</b> les points sont répartis de manière uniforme dans le ciel visible.</li>\n"
-"<li><b>DEC fixe:</b> tous les points partagent la même déclinaison (réglage plus bas).</li>\n"
+"<li><b>DEC fixe :</b> tous les points partagent la même déclinaison (réglage plus bas).</li>\n"
 "<li><b>Grille fixe :</b> les points sont placés dans une grille AD/DEC, régulièrement espacés en AD et DEC.</li>\n"
 "</ul>\n"
 "</body></html>"
@@ -6603,7 +6603,7 @@ msgstr "DEC fixée"
 #: ekos/align/mountmodel.ui:100
 #, kde-format
 msgid "Fixed Grid"
-msgstr "Quadrillage fixée"
+msgstr "Quadrillage fixé"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, wizardAlignB)
 #: ekos/align/mountmodel.ui:114
@@ -6621,7 +6621,7 @@ msgstr "Générer"
 #: ekos/align/mountmodel.ui:127
 #, kde-format
 msgid "The Declination of the points that will be generated.  This option only applies to the Fixed DEC Option."
-msgstr "La déclinaison des points qui seront générés. Cette option ne s'applique que à l'option DEC fixe."
+msgstr "La déclinaison des points qui seront générés. Cette option ne s'applique qu'à l'option DEC fixe."
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: ekos/align/mountmodel.ui:140
@@ -6659,7 +6659,7 @@ msgstr "Déclinaison"
 #: ekos/align/mountmodel.ui:200
 #, kde-format
 msgid "The Number of points the wizard should generate. If this number is less than 5, it will generate them at the same DEC. After that they will be evenly distributed over RA and DEC. Note, if Fixed DEC is selected, all of the points will be at the same DEC."
-msgstr "Le nombre de points que l'assistant devrait générer. Si ce nombre est inférieur à 5, il les généra avec le même paramètre DEC. Ensuite, ils seront répartis uniformément entre AD et DEC. Remarque : si le choix est fait d'un paramètre DEC fixée, tous les points auront la même valeur de paramètre DEC."
+msgstr "Le nombre de points que l'assistant devrait générer. Si ce nombre est inférieur à 5, il les générera avec le même paramètre DEC. Ensuite, ils seront répartis uniformément entre AD et DEC. Remarque : si le choix est fait d'un paramètre DEC fixée, tous les points auront la même valeur de paramètre DEC."
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, artificialHorizonCheck)
 #: ekos/align/mountmodel.ui:223
@@ -6701,31 +6701,31 @@ msgstr "Voici les noms grecs des étoiles les plus lumineuses et actuellement vi
 #: ekos/align/mountmodel.ui:313
 #, kde-format
 msgid "Mount Model Alignment Points"
-msgstr "Points d'alignement du modèle de ciel "
+msgstr "Points d'alignement du modèle de la monture"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, clearAllAlignB)
 #: ekos/align/mountmodel.ui:351
 #, kde-format
 msgid "Clear the entire table of alignment points below.  Note that this will not affect your mount in any way.  It will not clear your pointing model.  It just clears the list of points so that if you run the mount model routine again, these points will not be included."
-msgstr "Effacer la totalité de la table de points d'alignement ci-dessous. Veuillez remarquer que cela n'affectera pas votre monture. Votre modèle de pointage ne sera pas effacé. Cela n'effacera que la liste des points. Ainsi, si vous relancez la procédure de modélisation du ciel, ces points ne seront pas inclus."
+msgstr "Effacer la totalité de la table de points d'alignement ci-dessous. Veuillez remarquer que cela n'affectera pas votre monture. Votre modèle de pointage ne sera pas effacé. Cela n'effacera que la liste des points. Ainsi, si vous relancez la procédure de modélisation de la monture, ces points ne seront pas inclus."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, removeAlignB)
 #: ekos/align/mountmodel.ui:373
 #, kde-format
 msgid "<p>Remove the selected row from the alignment point table below. Note that it does <b>not</b> command your mount to clear that point from the model, it just means that if you run the mount model routine, that point will not be included in the list.</p>"
-msgstr "<p>Supprimer la ligne sélectionnée de la table des points d'alignement ci-dessous. Veuillez noter que cela <b>ne lance pas</b> de commande à votre monture pour effacer ce point du modèle. Cela signifie seulement que si vous lancer la procédure de modélisation du ciel, ce point ne sera pas inclus dans la liste.</p>"
+msgstr "<p>Supprimer la ligne sélectionnée de la table des points d'alignement ci-dessous. Veuillez noter que cela <b>ne lance pas</b> de commande à votre monture pour effacer ce point du modèle. Cela signifie seulement que si vous lancer la procédure de modélisation de la monture, ce point ne sera pas inclus dans la liste.</p>"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, addAlignB)
 #: ekos/align/mountmodel.ui:395
 #, kde-format
 msgid "Add an empty row to the alignment list so that you can manually add an RA and DE for a position you would like the telescope to slew to when doing the mount model routine."
-msgstr "Ajouter une ligne vide dans la liste des alignements, afin que vous puissiez ajouter manuellement des paramètres AD et DEC pour une position vers laquelle vous voudriez que le télescope se déplace durant la procédure du modélisation du ciel."
+msgstr "Ajouter une ligne vide dans la liste des alignements, afin que vous puissiez ajouter manuellement des paramètres AD et DEC pour une position vers laquelle vous voudriez que le télescope se déplace durant la procédure de modélisation de la monture."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, findAlignB)
 #: ekos/align/mountmodel.ui:417
 #, kde-format
 msgid "Open the Find Object dialog so that you can select an object to get an RA and DEC automatically that you would like the telescope to slew to when doing the mount model routine."
-msgstr "Ouvrir la boîte de dialogue Trouver un objet afin que vous puissiez trouver un objet et trouver automatiquement les paramètres AD et DEC. Ainsi, vous allez pouvoir faire tourner le télescope durant la procédure de modélisation du ciel."
+msgstr "Ouvrir la boîte de dialogue Trouver un objet afin que vous puissiez trouver un objet et trouver automatiquement les paramètres AD et DEC. Ainsi, vous allez pouvoir faire tourner le télescope durant la procédure de modélisation de la monture."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, sortAlignB)
 #: ekos/align/mountmodel.ui:439
@@ -6737,7 +6737,7 @@ msgstr "Trier les points d'alignement, en démarrant avec le point le plus près
 #: ekos/align/mountmodel.ui:464
 #, kde-format
 msgid "This is a table of alignment points that you would like the mount model routine to use in aligning your telescope.  If you would like to add or remove points, you may use the buttons above.  If you would like to run, pause, or stop the mount model routine, you may use the buttons below.  You can directly edit an RA or DE for a particular point directly in the cells.  Just be sure to follow the format hh:mm:ss. The object name is just provided for convenience and is not used.  If you want to change the order of the alignment points, you can drag the row up or down using the vertical header for that row on the left."
-msgstr "Ceci est une table de points d'alignement que vous aimeriez utiliser durant la procédure de modélisation du guidage de la monture pour l'alignement du télescope. Si vous voulez ajouter ou supprimer des points, vous devriez utiliser les boutons ci-dessus. Si vous voulez lancer l'exécution ou la mise en pause ou l'arrêt de la procédure, vous devrez utiliser les boutons ci-dessous. Vous pouvez modifier une AD ou une DEC pour un point particulier directement dans les cellules. Veuillez vous assurer d'utiliser le format hh:mm:ss. Le nom de l'objet n'est fourni que pour le confort et n'est pas utilisé. Si vous voulez modifier l'ordre des point d'alignements, vous pouvez faire glisser la colonne vers le haut ou le bas en utilisant l'en-tête verticale de cette colonne sur la gauche."
+msgstr "Ceci est une table de points d'alignement que vous aimeriez utiliser durant la procédure de modélisation de la monture pour l'alignement du télescope. Si vous voulez ajouter ou supprimer des points, vous devriez utiliser les boutons ci-dessus. Si vous voulez lancer l'exécution ou la mise en pause ou l'arrêt de la procédure, vous devrez utiliser les boutons ci-dessous. Vous pouvez modifier une AD ou une DEC pour un point particulier directement dans les cellules. Veuillez vous assurer d'utiliser le format hh:mm:ss. Le nom de l'objet n'est fourni que pour le confort et n'est pas utilisé. Si vous voulez modifier l'ordre des point d'alignements, vous pouvez faire glisser la colonne vers le haut ou le bas en utilisant l'en-tête verticale de cette colonne sur la gauche."
 
 #. i18n: ectx: property (text), widget (QTableWidget, alignTable)
 #: ekos/align/mountmodel.ui:468
@@ -6973,7 +6973,7 @@ msgstr "Politique de retournement"
 #: ekos/align/opsalign.ui:346
 #, kde-format
 msgid "<html><head/><body><p><span style=\" font-weight:600;\">Preserve rotator angle</span> will keep the rotator position. The rotator remains inactive and hence the camera is virtually rotated by 180°.</p><p>Most modern astronomic image processing applications can handle &quot;flipped&quot; images.</p></body></html>"
-msgstr "<html><head/><body><p><span style=\" font-weight:600;\">L'option Préserver l'angle de rotation</span> conserve la position du rotateur. Le rotateur reste inactif et donc l'appareil est virtuellement tourné de 180°.</p><p>La plupart des applications modernes d'astrophotographie gère les images retournées.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">L'option Préserver l'angle de rotation</span> conserve la position du rotateur. Le rotateur reste inactif et donc l'appareil est virtuellement tourné de 180°.</p><p>La plupart des applications modernes d'astrophotographie gèrent les images retournées.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_AstrometryFlipRotationAllowed)
 #: ekos/align/opsalign.ui:349
@@ -7485,7 +7485,7 @@ msgstr "Le dossier sélectionné de fichiers d'index n'existe pas. Veuillez en c
 #: ekos/align/opsastrometryindexfiles.cpp:678
 #, kde-format
 msgid "The file %1 already exists in another directory.  Are you sure you want to download it to this directory as well?"
-msgstr "Le fichier %1 existe déjà dans un autre dossier. Voulez-vous vraiment le télécharger celui-ci ?"
+msgstr "Le fichier %1 existe déjà dans un autre dossier. Voulez-vous vraiment le télécharger dans ce dossier également ?"
 
 #: ekos/align/opsastrometryindexfiles.cpp:680
 #, kde-format
@@ -7563,7 +7563,7 @@ msgstr "Détails du dossier"
 #: ekos/align/opsastrometryindexfiles.ui:253
 #, kde-format
 msgid "Add a folder where index files are stored"
-msgstr "Ajoute un dossier où seront enregistrés les fichiers d'index"
+msgstr "Ajouter un dossier où sont enregistrés les fichiers d'index"
 
 #. i18n: ectx: property (text), widget (QPushButton, addIndexFileDirectory)
 #. i18n: ectx: property (text), widget (QPushButton, zoomInB)
@@ -7615,7 +7615,7 @@ msgstr "Champ de vision actuel CCD "
 #: ekos/align/opsastrometryindexfiles.ui:302
 #, kde-format
 msgid "The URL of the server where index files live"
-msgstr "L'URL du serveur où se trouve les fichiers index"
+msgstr "L'URL du serveur où se trouvent les fichiers index"
 
 #. i18n: ectx: property (text), widget (QLabel, label_24)
 #: ekos/align/opsastrometryindexfiles.ui:305
@@ -8167,7 +8167,7 @@ msgstr "8' - 11'"
 #: ekos/align/opsastrometryindexfiles.ui:3462
 #, kde-format
 msgid "2Mass Catalog"
-msgstr "2Catalogue complet"
+msgstr "Catalogue 2MASS"
 
 #. i18n: ectx: property (text), widget (QCheckBox, index_5205)
 #: ekos/align/opsastrometryindexfiles.ui:3472
@@ -8707,12 +8707,12 @@ msgstr "<p>Résolution de la <i>troisième</i> image…</p>"
 #: ekos/align/polaralignmentassistant.cpp:1308
 #, kde-format
 msgid "<p>Choose your exposure time & select an adjustment method. Then click <i>refresh</i> to begin adjustments.</p>"
-msgstr "<p>Veuillez choisir la durée d'exposition et une méthode d'ajustement. Ensuite cliquez sur <i>Rafraîchir</i> pour lancer l'ajustement</p>."
+msgstr "<p>Veuillez choisir la durée d'exposition et une méthode d'ajustement. Ensuite cliquez sur <i>Rafraîchir</i> pour lancer l'ajustement.</p>"
 
 #: ekos/align/polaralignmentassistant.cpp:1310
 #, kde-format
 msgid "<p>Choose your exposure time & select an adjustment method. Click <i>Refresh</i> to begin.</p><p>Correction triangle is plotted above. <i>Zoom in and select a bright star</i> to reposition the correction vector. Use the <i>MoveStar & Calc Error</i> method to estimate the remaining error.</p>"
-msgstr "<p>Veuillez choisir la durée d'exposition et une méthode d'ajustement. Ensuite cliquez sur <i>Rafraîchir</i> pour commencer</p>.<p>Le triangle de correction est tracé dessus. <i>Zoomez et sélectionnez une étoile lumineuse</i> pour repositionner le vecteur de correction. Utilisez la méthode <i>MoveStar & Calc Error</i> pour estimer l'erreur résiduel</p>."
+msgstr "<p>Veuillez choisir la durée d'exposition et une méthode d'ajustement. Ensuite cliquez sur <i>Rafraîchir</i> pour commencer.</p><p>Le triangle de correction est tracé dessus. <i>Zoomez et sélectionnez une étoile lumineuse</i> pour repositionner le vecteur de correction. Utilisez la méthode <i>MoveStar & Calc Error</i> pour estimer l'erreur résiduel.</p>"
 
 #: ekos/align/polaralignmentassistant.cpp:1313
 #, kde-format
@@ -8727,7 +8727,7 @@ msgstr "<p>Ajustez le <i>bouton d'altitude</i> pour déplacer l'étoile le long 
 #: ekos/align/polaralignmentassistant.cpp:1331
 #, kde-format
 msgid "Cannot change to MoveStar algorithm once refresh has begun"
-msgstr "Impossible de passer à l'algorithme MoveStar une fois que l'actualisation a démarré. "
+msgstr "Impossible de passer à l'algorithme MoveStar une fois que l'actualisation a démarré."
 
 #: ekos/align/polaralignmentassistant.cpp:1365
 #, kde-format
@@ -8826,7 +8826,7 @@ msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Désactivé : l
 #: ekos/align/polaralignmentassistant.ui:106
 #, kde-format
 msgid "Direction:"
-msgstr "Direction "
+msgstr "Direction"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, pAHDirection)
 #: ekos/align/polaralignmentassistant.ui:116
@@ -8839,14 +8839,14 @@ msgstr "Direction de la monture"
 #: ekos/align/polaralignmentassistant.ui:120 ekos/capture/rotatorsettings.ui:261
 #, kde-format
 msgid "West"
-msgstr "ouest"
+msgstr "Ouest"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, pAHDirection)
 #. i18n: ectx: property (text), item, widget (QComboBox, MountPierside)
 #: ekos/align/polaralignmentassistant.ui:125 ekos/capture/rotatorsettings.ui:266
 #, kde-format
 msgid "East"
-msgstr "est"
+msgstr "Est"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, pAHRotation)
 #: ekos/align/polaralignmentassistant.ui:136
@@ -8858,7 +8858,7 @@ msgstr "Ampleur de la rotation en degrés"
 #: ekos/align/polaralignmentassistant.ui:155
 #, kde-format
 msgid "Speed:"
-msgstr "Vitesse "
+msgstr "Vitesse"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, pAHMountSpeed)
 #: ekos/align/polaralignmentassistant.ui:162
@@ -8888,7 +8888,7 @@ msgstr "Veuillez faire tourner votre monture selon l'axe AD"
 #: ekos/align/polaralignmentassistant.ui:341
 #, kde-format
 msgid "Start the refresh phase--where image captures loop while you adjust the altitude and azimuth knobs to correct polar alignment."
-msgstr "Démarrer la phase d'actualisation où les images sont acquises en boucle tout en ajustant les molettes d'altitude et d'azimut pour corriger l'alignement polaire. "
+msgstr "Démarrer la phase d'actualisation où les images sont acquises en boucle tout en ajustant les molettes d'altitude et d'azimut pour corriger l'alignement polaire."
 
 #. i18n: ectx: property (text), widget (QPushButton, PAHRefreshB)
 #. i18n: ectx: property (text), widget (QPushButton, refreshB)
@@ -9086,7 +9086,7 @@ msgstr "Interrompre"
 #: ekos/align/pushtoassistant.cpp:268
 #, kde-format
 msgid "Stop the current plate solving run."
-msgstr "Arrêtez l'exécution actuelle de la résolution."
+msgstr "Arrêter l'exécution actuelle de la résolution."
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, PushToAssistant)
 #: ekos/align/pushtoassistant.ui:14 kstarsinit.cpp:490
@@ -9098,7 +9098,7 @@ msgstr "Assistant Push-To"
 #: ekos/align/pushtoassistant.ui:47
 #, kde-format
 msgid "<html><head/><body><p><span style=\" font-weight:600;\">Description</span></p><p>This assistant gives users of manual mounts (dobsons etc.) support finding their targets using a finder scope equipped with a camera.</p><p><span style=\" font-weight:600;\">Preparation</span></p><p>Open EKOS, create a profile with the camera of your choice, the Telescope Simulator as mount and add your finder scope as new telescope.</p><p><span style=\" font-weight:600;\">Usage</span></p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Start EKOS</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Position your mount as close as possible to your target</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Select your target in the target finder and press the &quot;Select target&quot; button</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Press the &quot;Solve position&quot; button. This captures a frame through your finder scope and solves the image against the star catalogs of KStars.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">As soon as plate solving succeeds, the distance to the target is displayed. Arrows show the directions how to correct your mount position.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Move your mount in the indicated position and repeat solving.</li></ul><p><span style=\" font-weight:600;\">Hints</span></p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">If you press the &quot;Repeat&quot; button, capturing and plate solving will be repeated after the configured delay.</li><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">If plate solving fails, check if the focal length of your finder scope is correctly configured and your telescope is roughly pointing to the target that you have selected.</li></ul></body></html>"
-msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Description</span></p><p>Cet assistant aide les utilisateurs de montures manuelles (dobsons, etc.) à trouver leurs cibles à l'aide d'un chercheur équipé d'une caméra.</p><p><span style=\" font-weight:600;\">Préparation</span></p><p>Ouvrez Ekos, créez un profil avec l'appareil de votre choix, le simulateur de télescope comme monture, puis ajoutez votre chercheur comme nouveau télescope.</p><p><span style=\" font-weight:600;\">Utilisation</span></p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Démarrez Ekos</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Positionnez votre monture aussi près que possible de la cible</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Sélectionnez votre cible dans le sélecteur de cibles et cliquez sur le bouton «&nbsp;Sélectionner la cible&nbsp;»</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Cliquez sur le bouton «&nbsp;Résoudre la position&nbsp;». Cela pren une image via votre chercheur et effectue la résolution astrométrique par comparaison avec les catalogues d'étoiles de KStars.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Dès que la résolution astrométrique réussit, la distance à la cible est affichée. Des flèches indiquent dans quelle direction corriger la position de la monture.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Déplacez votre monture dans la direction indiquée et relancez la résolution.</li></ul><p><span style=\" font-weight:600;\">Astuces</span></p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Si vous cliquez sur le bouton «&nbsp;Répéter&nbsp;», l'acquisition et la résolution astrométrique seront répétées après le délai configuré.</li><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Si la résolution astrométrique échoue, vérifiez que la focale du chercheur est correctement configurée et que le télescope pointe approximativement vers la cible sélectionnée.</li></ul></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Description</span></p><p>Cet assistant aide les utilisateurs de montures manuelles (dobsons, etc.) à trouver leurs cibles à l'aide d'un chercheur équipé d'une caméra.</p><p><span style=\" font-weight:600;\">Préparation</span></p><p>Ouvrez Ekos, créez un profil avec l'appareil de votre choix, le simulateur de télescope comme monture, puis ajoutez votre chercheur comme nouveau télescope.</p><p><span style=\" font-weight:600;\">Utilisation</span></p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Démarrez Ekos</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Positionnez votre monture aussi près que possible de la cible</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Sélectionnez votre cible dans le sélecteur de cibles et cliquez sur le bouton «&nbsp;Sélectionner la cible&nbsp;»</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Cliquez sur le bouton «&nbsp;Résoudre la position&nbsp;». Cela prend une image via votre chercheur et effectue la résolution astrométrique par comparaison avec les catalogues d'étoiles de KStars.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Dès que la résolution astrométrique réussit, la distance à la cible est affichée. Des flèches indiquent dans quelle direction corriger la position de la monture.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Déplacez votre monture dans la direction indiquée et relancez la résolution.</li></ul><p><span style=\" font-weight:600;\">Astuces</span></p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Si vous cliquez sur le bouton «&nbsp;Répéter&nbsp;», l'acquisition et la résolution astrométrique seront répétées après le délai configuré.</li><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Si la résolution astrométrique échoue, vérifiez que la focale du chercheur est correctement configurée et que le télescope pointe approximativement vers la cible sélectionnée.</li></ul></body></html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, toggleSolvingB)
 #: ekos/align/pushtoassistant.ui:71
