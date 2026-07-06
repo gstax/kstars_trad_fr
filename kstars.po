@@ -15391,7 +15391,7 @@ msgstr "Erreur en analysant la réponse du serveur : %1"
 #: ekos/focus/aberrationinspector.cpp:60
 #, kde-format
 msgid "Aberration Inspector - Run %1"
-msgstr "Inspecteur d'aberration - exécution %1 "
+msgstr "Inspecteur d'aberration - exécution %1"
 
 #: ekos/focus/aberrationinspector.cpp:93 ekos/focus/aberrationinspector.cpp:98
 #, kde-format
@@ -15508,7 +15508,7 @@ msgstr "Tuiles"
 #: ekos/focus/aberrationinspector.ui:74
 #, kde-format
 msgid "<html><head/><body><p>Select the Mosaic tile combination to use for Analysis:</p><p>- All displays all 9 tiles.</p><p>- Centre and outer corners.</p><p>- Centre and inner diamond.<br/></p></body></html>"
-msgstr "<html><head/><body><p>Sélectionnez la tuile de mosaïque à utiliser pour l'analyse :</p><p>- Tout affiche les 9 tuiles</p><p>- Centre et coins</p><p>- Centre et losange intérieur<br/></p></body></html>"
+msgstr "<html><head/><body><p>Sélectionnez la tuile de mosaïque à utiliser pour l'analyse :</p><p>- Tout affiche les 9 tuiles</p><p>- Centre et coins extérieurs</p><p>- Centre et losange intérieur<br/></p></body></html>"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, abInsTileSelection)
 #. i18n: ectx: property (text), widget (QPushButton, AllButton)
@@ -15652,7 +15652,7 @@ msgstr "Digia"
 #: ekos/focus/aberrationinspector.ui:387
 #, kde-format
 msgid "Stone Moss"
-msgstr "Stone Mosee"
+msgstr "Stone Moss"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, abInsTheme)
 #: ekos/focus/aberrationinspector.ui:392
@@ -15736,7 +15736,7 @@ msgstr "Mode simulation"
 #: ekos/focus/aberrationinspector.ui:483
 #, kde-format
 msgid "<html><head/><body><p>Backfocus slider</p></body></html>"
-msgstr "<html><head/><body><p>Curseur de défilement du backfocus<br/></p></body></html>Barre"
+msgstr "<html><head/><body><p>Curseur de défilement du backfocus<br/></p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QSlider, abInsTiltLRSlider)
 #: ekos/focus/aberrationinspector.ui:502
@@ -16160,7 +16160,7 @@ msgstr "Construction des décalages déjà en cours d'exécution, mise au point 
 #: ekos/focus/focus.cpp:1184
 #, kde-format
 msgid "In Focus Loop, Autofocus rejected."
-msgstr "Boucle de mise au point intérieure en cours, mise au point automatique rejetée."
+msgstr "Boucle de mise au point en cours, mise au point automatique rejetée."
 
 #: ekos/focus/focus.cpp:1191 ekos/focus/focus.cpp:5460 ekos/focus/focus.cpp:5735
 #, kde-format
@@ -16556,7 +16556,7 @@ msgstr "Erreur de mise au point, vérifiez le panneau INDI."
 #: ekos/focus/focus.cpp:4624 ekos/focus/focus.cpp:4764
 #, kde-format
 msgid "Simulate focuser comms failure..."
-msgstr "Échec de la simulation de la mise au point automatique…"
+msgstr "Simuler un échec de communication du moteur de mise au point…"
 
 #: ekos/focus/focus.cpp:4725 ekos/focus/focus.cpp:4822 ekos/focus/focus.cpp:4904 ekos/focus/focus.cpp:4945
 #, kde-format
@@ -16668,7 +16668,7 @@ msgstr "Acquérir une image"
 #: ekos/focus/focus.ui:209 ekos/scheduler/framingassistant.ui:1295 ekos/scheduler/scheduler.ui:191
 #, kde-format
 msgid "Steps:"
-msgstr "Étapes"
+msgstr "Pas"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, startLoopB)
 #: ekos/focus/focus.ui:228
@@ -16680,7 +16680,7 @@ msgstr "Démarrer l'acquisition des poses en boucle"
 #: ekos/focus/focus.ui:248
 #, kde-format
 msgid "Start:"
-msgstr "Mise au point automatique"
+msgstr "Début"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, startFocusB)
 #: ekos/focus/focus.ui:273
@@ -16953,7 +16953,7 @@ msgstr "Valeur actuelle du paramètre"
 #: ekos/focus/focusadvisor.cpp:121
 #, kde-format
 msgid "Proposed Value"
-msgstr "Valeurs proposée"
+msgstr "Valeur proposée"
 
 #: ekos/focus/focusadvisor.cpp:122
 #, kde-format
@@ -17046,7 +17046,7 @@ msgstr "Étoiles détectées, centre de la zone en %1"
 #: ekos/focus/focusadvisor.cpp:776
 #, kde-format
 msgid "Focus Advisor Find Stars completed"
-msgstr "Recherche d'étoiles par l'Assistant de mise au point terminé"
+msgstr "Recherche d'étoiles par l'Assistant de mise au point terminée"
 
 #: ekos/focus/focusadvisor.cpp:824
 #, kde-format
@@ -17056,7 +17056,7 @@ msgstr "Recherche d'étoiles : maximum d'itérations %1 dépassé"
 #: ekos/focus/focusadvisor.cpp:832 ekos/focus/focusadvisor.cpp:833
 #, kde-format
 msgid "Stars detected, centering range"
-msgstr "Étoile détectée, centrage de la zone"
+msgstr "Étoiles détectées, centrage de la zone"
 
 #: ekos/focus/focusadvisor.cpp:854
 #, kde-format
@@ -17106,7 +17106,7 @@ msgstr "Balayage pour l'ajustement grossier…"
 #: ekos/focus/focusadvisor.cpp:1020
 #, kde-format
 msgid "Coarse Adjustment"
-msgstr "Ajustement grossier…"
+msgstr "Ajustement grossier"
 
 #: ekos/focus/focusadvisor.cpp:1026 ekos/focus/focusadvisor.cpp:1240
 #, kde-format
@@ -17161,7 +17161,7 @@ msgstr "Rapport Max/Min : %1, R2 : %2, Taille de pas : %3, Sur-balayage : %4
 #: ekos/focus/focusadvisor.cpp:1406
 #, kde-format
 msgid "Focus Advisor Fine Adjustment completed"
-msgstr "Ajustement grossier de l'Assistant de mise au point terminé"
+msgstr "Ajustement fin de l'Assistant de mise au point terminé"
 
 #: ekos/focus/focusadvisor.cpp:1497
 #, kde-format
@@ -17327,13 +17327,13 @@ msgstr "Pas fixes"
 #: ekos/focus/opsfocusmechanics.ui:111
 #, kde-format
 msgid "CFZ Shuffle"
-msgstr "Mélanger CFZ"
+msgstr "Mélange CFZ"
 
 #. i18n: ectx: property (text), widget (QLabel, label_27)
 #: ekos/focus/opsfocusmechanics.ui:125
 #, kde-format
 msgid "Motion Timeout:"
-msgstr "Délai de déplacement dépassé"
+msgstr "Délai de déplacement"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, focusTicks)
 #: ekos/focus/opsfocusmechanics.ui:141
@@ -17381,7 +17381,7 @@ msgstr "Taille de pas initiale"
 #: ekos/focus/opsfocusmechanics.ui:289
 #, kde-format
 msgid "Walk:"
-msgstr "Marche"
+msgstr "Parcours"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: ekos/focus/opsfocusmechanics.ui:305
@@ -17430,7 +17430,7 @@ msgstr "<html><head/><body><p>Attendre ce nombre de secondes après le déplacem
 #: ekos/focus/opsfocusmechanics.ui:453
 #, kde-format
 msgid "Number Steps:"
-msgstr "Pas numérotés"
+msgstr "Nombre de pas"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ekos/focus/opsfocusmechanics.ui:469
@@ -17642,7 +17642,7 @@ msgstr "Canny"
 #: ekos/focus/opsfocusprocess.ui:313
 #, kde-format
 msgid "<html><head/><body><p>Star detection method:</p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">SEP:</span> Source Extractor and Photometry, an efficient source detection method based on Source Extractor (Bertin and Arnouts 1996; Bertin 2016). See <a href=\"https://joss.theoj.org/papers/10.21105/joss.00058.pdf\"><span style=\" text-decoration: underline; color:#0000ff;\">SEP: Source Extractor as a library</span></a> in the Journal of Open Source Software.</li><li style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Centroid</span>: a source detection based on estimating star mass around signal peaks.</li><li style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Gradient</span>: a single source detection based on the Sobel filter. Initial or full-field analysis will use SEP instead of this method.</li><li style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Threshold</span>: a single source detection based on pixel values. Initial or full-field analysis will use SEP instead of this method.</li></ul></body></html>"
-msgstr "<html><head/><body><p>Méthode de détection des étoiles : </p><ul style=\"margin-top : 0px ; margin-bottom : 0px ; margin-left : 0px ; margin-right : 0px ; -qt-list-indent : 1 ;\"><li style=\" margin-top:12px ; margin-bottom:12px ; margin-left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">SEP :</span> Extracteur de Sources et Photométrie (Source Extractor and Photometry), une méthode de détection de sources efficace reposant sur l'extracteur de sources (Bertin et Arnouts 1996 ; Bertin 2016). Veuillez consulter <a href=\"https://joss.theoj.org/papers/10.21105/joss.00058.pdf\"><span style=\" text-decoration : underline ; color:#0000ff ;\">« SEP : Source Extractor as a library »</span></a> dans le Journal du logiciel libre.</li><li style=\" margin-top:12px ; margin-bottom:12px ; margin-left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">Centroïde</span> : une détection de source reposant sur l'estimation de la masse des étoiles autour des pics de signal.</li><li style=\" margin-top:12px ; margin-bottom:12px ; margin-left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">Gradient</span> : une détection de source unique reposant sur le filtre de Sobel. L'analyse initiale ou plein champ utilisera la SEP à la place de cette méthode.</li><li style=\" margin-top:12px ; margin-bottom:12px ; margin-left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">Seuil</span> : une détection de source unique reposant sur les valeurs des pixels. L'analyse initiale ou plein champ utilisera la SEP au lieu de cette méthode.</li></ul></body></html>"
+msgstr "<html><head/><body><p>Méthode de détection des étoiles : </p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">SEP :</span> Extracteur de Sources et Photométrie (Source Extractor and Photometry), une méthode de détection de sources efficace reposant sur l'extracteur de sources (Bertin et Arnouts 1996; Bertin 2016). Veuillez consulter <a href=\"https://joss.theoj.org/papers/10.21105/joss.00058.pdf\"><span style=\" text-decoration: underline; color:#0000ff;\">« SEP : Source Extractor as a library »</span></a> dans le Journal du logiciel libre.</li><li style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Centroïde</span> : une détection de source reposant sur l'estimation de la masse des étoiles autour des pics de signal.</li><li style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Gradient</span> : une détection de source unique reposant sur le filtre de Sobel. L'analyse initiale ou plein champ utilisera la SEP à la place de cette méthode.</li><li style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Seuil</span>: une détection de source unique reposant sur les valeurs des pixels. L'analyse initiale ou plein champ utilisera la SEP au lieu de cette méthode.</li></ul></body></html>"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, focusDetection)
 #: ekos/focus/opsfocusprocess.ui:320
@@ -17686,7 +17686,7 @@ msgstr "Courbe de régression"
 #: ekos/focus/opsfocusprocess.ui:373
 #, no-c-format, kde-format
 msgid "<html><head/><body><p>Select focus process algorithm:</p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Iterative</span>: Moves focuser by discreet steps initially decided by the step size. Once a curve slope is calculated,  further step sizes are calculated to reach optimal solution. The algorithm stops when the measured HFR is within percentage Tolerance of the minimum HFR recorded in the procedure.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Polynomial</span>: Starts with iterative method.  Upon crossing to the other side of the V-Curve,  polynomial fitting coefficients along with possible minimum solution are calculated. This algorithm can be faster than purely iterative approach given a good data set.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Linear</span>: Samples focus inward in a regular fashion, using 2 passes.  The algorithm can be slow, but it is more resilient to backlash.  Start with the focuser positioned near good focus.  Set Initial Step Size and Max Travel for the desired sampling interval and range around start focus position.  Tolerance should be around 5%.</li><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Linear 1 Pass</span>: Starts like <span style=\" font-weight:600;\">Linear</span> but after completing the 1st pass, instead of doing a 2nd pass,  moves straight to the minimum HFR value calculated.  Use Curve Fit of Hyperbola or Parabola.</li></ul></body></html>"
-msgstr "<html><head/><body><p>Sélectionnez l'algorithme du processus de mise au point : </p><ul style=\"margin-top : 0px ; margin-bottom : 0px ; margin-left : 0px ; margin-right : 0px ; -qt-list-indent : 1 ;\"><li style=\" margin-top:12px ; margin-bottom:0px ; margin-left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">Itératif</span> : déplace le moteur de mise au point par pas discrets, selon un pas préalablement défini. Une fois que la pente de la courbe est calculée, d'autres tailles de pas sont calculées pour atteindre la solution optimale. L'algorithme s'arrête lorsque le HFR mesuré se situe dans la tolérance en pourcentage du HFR minimum enregistré dans la procédure.</li><li style=\" margin-top:0px ; margin-bottom:0px ; margin-left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">Polynomial</span> : commence par une méthode itérative. En passant de l'autre côté de la courbe en V, les coefficients d'ajustement polynomiaux ainsi que la solution minimale possible sont calculés. Cet algorithme peut être plus rapide que l'approche purement itérative, moyennant un bon ensemble de données.</li><li style=\" margin-top:0px ; margin-bottom:12px ; margin-left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">Linéaire</span> : les échantillons se concentrent vers l'intérieur de façon homogène, en utilisant 2 passes. L'algorithme peut être lent, mais il est plus résistant aux contrecoups. Commencez avec le moteur de mise au point positionné près de la bonne mise au point. Définissez la taille du pas initial et le déplacement maximal pour l'intervalle d'échantillonnage souhaité et la plage autour de la position de départ de la mise au point. La tolérance devrait être d'environ 5 %.</li><li style=\"margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\"font-weight:600;\">Linéaire 1 passe</span> : commence comme <span style=\"font-weight:600;\">linéaire</span> mais après avoir terminé la première passe et plutôt que d'en faire une seconde, se déplace directement à la valeur minimale du HFR calculé. Utilise une régression hyperbolique ou parabolique.</li></ul></body></html>"
+msgstr "<html><head/><body><p>Sélectionnez l'algorithme du processus de mise au point : </p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Itératif</span> : déplace le moteur de mise au point par pas discrets, selon un pas préalablement défini. Une fois que la pente de la courbe est calculée, d'autres tailles de pas sont calculées pour atteindre la solution optimale. L'algorithme s'arrête lorsque le HFR mesuré se situe dans la tolérance en pourcentage du HFR minimum enregistré dans la procédure.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Polynomial</span> : commence par une méthode itérative. En passant de l'autre côté de la courbe en V, les coefficients d'ajustement polynomiaux ainsi que la solution minimale possible sont calculés. Cet algorithme peut être plus rapide que l'approche purement itérative, moyennant un bon ensemble de données.</li><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Linéaire</span> : les échantillons se concentrent vers l'intérieur de façon homogène, en utilisant 2 passes. L'algorithme peut être lent, mais il est plus résistant aux contrecoups. Commencez avec le moteur de mise au point positionné près de la bonne mise au point. Définissez la taille du pas initial et le déplacement maximal pour l'intervalle d'échantillonnage souhaité et la plage autour de la position de départ de la mise au point. La tolérance devrait être d'environ 5 %.</li><li style=\"margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\"font-weight:600;\">Linéaire 1 passe</span> : commence comme <span style=\"font-weight:600;\">linéaire</span> mais après avoir terminé la première passe et plutôt que d'en faire une seconde, se déplace directement à la valeur minimale du HFR calculé. Utilise une régression hyperbolique ou parabolique.</li></ul></body></html>"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, focusAlgorithm)
 #: ekos/focus/opsfocusprocess.ui:380
@@ -17935,7 +17935,7 @@ msgstr "Unités d'affichage"
 #: ekos/focus/opsfocussettings.ui:109
 #, kde-format
 msgid "<html><head/><body><p>This option is only active when Sub Frame is selected.  Check to allow Ekos to select a single star for focus; uncheck to allow the user to select the star to use in FitsViewer.</p></body></html>"
-msgstr "<html><head/><body><p>Cette option n'est active que quand Pose est sélectionnée. Cochez cette case pour permettre à Ekos de choisir une seule étoile pour la mise au point. ; décochez-là pour permettre à l'opérateur de choisir lui-même l'étoile à utiliser dans l'afficheur Fits.</p></body></html>"
+msgstr "<html><head/><body><p>Cette option n'est active que quand Pose est sélectionnée. Cochez cette case pour permettre à Ekos de choisir une seule étoile pour la mise au point ; décochez-là pour permettre à l'opérateur de choisir lui-même l'étoile à utiliser dans l'afficheur Fits.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, focusAutoStarEnabled)
 #: ekos/focus/opsfocussettings.ui:112
@@ -18008,7 +18008,7 @@ msgstr "Optimisation de la mise au point automatique :"
 #: ekos/focus/opsfocussettings.ui:261
 #, kde-format
 msgid "<html><head/><body><p>Create an &quot;optimization zone&quot; of this many seconds. When an automated Autofocus run is requested by another process, e.g. Scheduler or Capture, a check is performed on the timestamp of the last successful Autofocus for that filter. If we are within the optimization zone then no Autofocus is run; if outside the zone, Autofocus is run as normal.</p><p>Note that filter offsets and Adaptive Focus settings are always honoured.</p><p>Set to zero to disable this feature.</p><p>NOTE: manually initiated runs will always be performed.</p><p>This is currently an experimental feature enabled for Linear and Linear 1 Pass only.</p></body></html>"
-msgstr "<html><head><body><p>Créer une &quot;zone d'optimisation&quot; pour ce nombre de secondes. Lorsqu'une mise au point automatique est déclenchée par un autre processus, p. ex. le module de séquences ou celui d'acquisition, une vérification est réalisée sur l'horodatage de la dernière mise au point automatique réalisée avec succès pour ce filtre. Si l'on se trouve dans la zone d'optimisation, alors aucune mise au point automatique n'est réalisée ; sinon, elle est lancée normalement.</p><p>Veuillez noter que les décalages du filtre et la mise au point adaptative sont toujours respectées.</p><p>Mettre zéro pour désactiver cette fonctionnalité.</p><p>NOTE : les exécutions lancées manuellement sont toujours réalisées.</p><p>Cette fonctionnalité est encore expérimentale et activée seulement pour les algorithmes Linéaire et Linéaire à une passe.</p></body></html>"
+msgstr "<html><head/><body><p>Créer une &quot;zone d'optimisation&quot; pour ce nombre de secondes. Lorsqu'une mise au point automatique est déclenchée par un autre processus, p. ex. le module de séquences ou celui d'acquisition, une vérification est réalisée sur l'horodatage de la dernière mise au point automatique réalisée avec succès pour ce filtre. Si l'on se trouve dans la zone d'optimisation, alors aucune mise au point automatique n'est réalisée ; sinon, elle est lancée normalement.</p><p>Veuillez noter que les décalages du filtre et la mise au point adaptative sont toujours respectées.</p><p>Mettre zéro pour désactiver cette fonctionnalité.</p><p>NOTE : les exécutions lancées manuellement sont toujours réalisées.</p><p>Cette fonctionnalité est encore expérimentale et activée seulement pour les algorithmes Linéaire et Linéaire à une passe.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, maxFocusFrameFiles)
 #: ekos/focus/opsfocussettings.ui:277
