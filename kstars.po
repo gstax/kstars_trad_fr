@@ -393,7 +393,7 @@ msgstr "Impossible d'exporter l'image : URL %1 non valable"
 #, kde-format
 msgctxt "@title:window"
 msgid "KStars image viewer: %1"
-msgstr "Afficheur d'images de KStars :%1"
+msgstr "Afficheur d'images de KStars : %1"
 
 #: auxiliary/imageviewer.cpp:132
 #, kde-format
@@ -468,7 +468,7 @@ msgstr "Écraser le fichier ?"
 #: auxiliary/imageviewer.cpp:348
 #, kde-format
 msgid "Saving of the image %1 failed."
-msgstr "Échec enregistrement de l'image %1."
+msgstr "Échec de l'enregistrement de l'image « %1 »."
 
 #: auxiliary/ksdssdownloader.cpp:208 auxiliary/ksdssdownloader.cpp:236
 #, kde-format
@@ -516,7 +516,7 @@ msgstr "Non"
 #: auxiliary/ksmessagebox.h:37 dialogs/catalogcsvimport.cpp:120 dialogs/catalogdetails.cpp:83 dialogs/catalogdetails.cpp:136 dialogs/catalogdetails.cpp:151 dialogs/catalogdetails.cpp:170 dialogs/catalogdetails.cpp:194 dialogs/catalogdetails.cpp:200 dialogs/catalogdetails.cpp:217 dialogs/catalogsdbui.cpp:155 dialogs/catalogsdbui.cpp:191 dialogs/catalogsdbui.cpp:212 dialogs/catalogsdbui.cpp:232 dialogs/catalogsdbui.cpp:250 dialogs/catalogsdbui.cpp:285 ekos/align/polaralignmentassistant.cpp:825 ekos/scheduler/schedulerprocess.cpp:562
 #, kde-format
 msgid "Warning"
-msgstr "Alerte"
+msgstr "Avertissement"
 
 #: auxiliary/ksmessagebox.h:38 ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:246
 #, kde-format
@@ -693,7 +693,7 @@ msgstr "Impossible de trouver dcraw et cjpeg. Veuillez installer les outils de c
 #: auxiliary/ksutils.cpp:1803
 #, kde-format
 msgid "Cannot open %1: %2"
-msgstr "Impossible d'ouvrir le fichier %1: %2"
+msgstr "Impossible d'ouvrir le fichier %1 : %2"
 
 #: auxiliary/ksutils.cpp:1811
 #, kde-format
@@ -919,7 +919,7 @@ msgstr "Modifier une ima&ge…"
 #: auxiliary/thumbnailpicker.ui:188
 #, kde-format
 msgid "Unset Image"
-msgstr "Image désactivée"
+msgstr "Désactiver l'image"
 
 #: auxiliary/xplanetimageviewer.cpp:187 auxiliary/xplanetimageviewer.cpp:906
 #, kde-format
@@ -1180,7 +1180,7 @@ msgstr "CdV"
 #: auxiliary/xplanetimageviewer.cpp:311
 #, kde-format
 msgid "Sets the FOV to the Specified value.   Note: has no effect if hovering over object."
-msgstr "Définit le champ de vision (CdV) à la valeur spécifiée. Remarque: aucun effet en cas de survol"
+msgstr "Définit le champ de vision (CdV) à la valeur spécifiée. Remarque : aucun effet en cas de survol de l'objet."
 
 #: auxiliary/xplanetimageviewer.cpp:327
 #, kde-format
@@ -1195,7 +1195,7 @@ msgstr "Zoom à un champ de vision particulier. Aucun effet en cas de survol de 
 #: auxiliary/xplanetimageviewer.cpp:346
 #, kde-format
 msgid "Optimum FOV for the target, FOV parameter not specified.  Note: has no effect if hovering over object."
-msgstr "Champ de vision optimal pour la cible, Le paramètre CdV étant non spécifié. Remarque : aucun effet en cas de survol de l'objet."
+msgstr "Champ de vision optimal pour la cible, le paramètre CdV étant non spécifié. Remarque : aucun effet en cas de survol de l'objet."
 
 #. i18n: ectx: property (text), widget (QLabel, fieldoFviewLabel_4)
 #. i18n: ectx: property (text), widget (QLabel, rotationLabel)
@@ -1212,7 +1212,7 @@ msgstr "Définit la rotation de l'affichage jusqu'à l'angle désiré."
 #: auxiliary/xplanetimageviewer.cpp:368
 #, kde-format
 msgid "Rotate the view 180 degrees"
-msgstr "Pivoter l'affichage de 180° degrés"
+msgstr "Pivoter l'affichage de 180°"
 
 #: auxiliary/xplanetimageviewer.cpp:377
 #, kde-format
@@ -1348,7 +1348,7 @@ msgstr "Échec de XPlanet pour la génération de l'image de l'objet %1 avant la
 #: auxiliary/xplanetimageviewer.cpp:807 indi/servermanager.cpp:94
 #, kde-format
 msgid "Error making FIFO file %1: %2."
-msgstr "Erreur lors de la création d'un fichier FIFO %1: %2."
+msgstr "Erreur lors de la création d'un fichier FIFO %1 : %2."
 
 #: auxiliary/xplanetimageviewer.cpp:858
 #, kde-format
@@ -1368,7 +1368,7 @@ msgstr "CdV à restituer avec XPlanet"
 #: auxiliary/xplanetimageviewer.cpp:1259
 #, kde-format
 msgid "Saving of the image to %1 failed."
-msgstr "Impossible d'enregistrer l'image %1."
+msgstr "Impossible d'enregistrer l'image sous %1."
 
 #: catalogsdb/catalogsdb.cpp:325
 #, kde-format
@@ -1978,7 +1978,7 @@ msgstr "Essentiels"
 #: dialogs/addcatalogobject.ui:26 dialogs/catalogeditform.ui:39 dialogs/newview.ui:22 ekos/profileeditor.ui:55 indi/collimationOptions.ui:214 indi/customdrivers.ui:95 indi/indihostconf.ui:20 oal/observeradd.ui:53 tools/altvstime.ui:54 tools/argfindobject.ui:21
 #, kde-format
 msgid "Name:"
-msgstr "Nom "
+msgstr "Nom"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, name)
 #: dialogs/addcatalogobject.ui:33
@@ -1990,7 +1990,7 @@ msgstr "p. ex. PGC 54559"
 #: dialogs/addcatalogobject.ui:50
 #, kde-format
 msgid "RA / Dec (J2000):"
-msgstr "AD/DEC (J2000) "
+msgstr "AD/DEC (J2000)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: dialogs/addcatalogobject.ui:72
@@ -2008,7 +2008,7 @@ msgstr "Magnitude apparente"
 #: dialogs/addcatalogobject.ui:110
 #, kde-format
 msgid "Check if magnitude is unknown"
-msgstr "Veuillez vérifier si la magnitude est inconnue"
+msgstr "Cochez cette case si la magnitude est inconnue"
 
 #. i18n: ectx: property (text), widget (QCheckBox, magUnknown)
 #: dialogs/addcatalogobject.ui:113 ekos/scheduler/scheduler.cpp:1853 ekos/scheduler/scheduler.cpp:2503 ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:272 ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:655 fitsviewer/fitshistogram.cpp:781 fitsviewer/fitshistogramcommand.cpp:267 indi/indidustcap.cpp:18 indi/indigroup.cpp:30 indi/indilightbox.cpp:20 skycomponents/constellationboundarylines.cpp:294 skyobjects/skyobject.cpp:435
@@ -2064,7 +2064,7 @@ msgstr "Identifiant du catalogue"
 #: dialogs/addcatalogobject.ui:195
 #, kde-format
 msgid "e.g. 54559"
-msgstr "p. ex 54559"
+msgstr "p. ex. 54559"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: dialogs/addcatalogobject.ui:202
@@ -2106,7 +2106,7 @@ msgstr "Deviner à partir du &texte"
 #: dialogs/addcatdialog.ui:32
 #, kde-format
 msgid "Import File"
-msgstr "Importer un ficher"
+msgstr "Importer un fichier"
 
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, DataURL)
 #: dialogs/addcatdialog.ui:53
@@ -2304,7 +2304,7 @@ msgstr "URL"
 #: dialogs/addlinkdialog.ui:94
 #, kde-format
 msgid "The URL which will be displayed by this item"
-msgstr "URL affiché par cet élément"
+msgstr "URL affichée par cet élément"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, URLButton)
 #: dialogs/addlinkdialog.ui:127
@@ -2447,13 +2447,13 @@ msgstr "lignes"
 #: dialogs/catalogcsvimport.ui:77
 #, kde-format
 msgid "Skip first:"
-msgstr "Ignorer les premières "
+msgstr "Ignorer les premières"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: dialogs/catalogcsvimport.ui:84
 #, kde-format
 msgid "Separator:"
-msgstr "Séparateur "
+msgstr "Séparateur"
 
 #. i18n: ectx: property (text), widget (QLineEdit, comment_prefix)
 #: dialogs/catalogcsvimport.ui:109
