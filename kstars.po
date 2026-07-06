@@ -76725,7 +76725,7 @@ msgstr "Propriétés du télescope"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Seeing"
-msgstr "Turbulence atmosphérique"
+msgstr "Seeing (Turbulence atmosphérique)"
 
 #: libindi_strings.cpp:417
 #, kde-kuit-format
@@ -78077,7 +78077,7 @@ msgstr "Enregistrer les informations du télescope"
 #: oal/equipmentwriter.ui:320
 #, kde-format
 msgid "Clear data and add a new telescope"
-msgstr "Effacer toutes les données et ajouter une nouveau télescope"
+msgstr "Effacer toutes les données et ajouter un nouveau télescope"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, RemoveScope)
 #: oal/equipmentwriter.ui:339
@@ -78409,7 +78409,7 @@ msgstr "Objectif"
 #: oal/execute.ui:375 printing/loggingform.cpp:45
 #, kde-format
 msgid "Seeing:"
-msgstr "En cours d'observation"
+msgstr "Seeing (Turbulence atmosphérique)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: oal/execute.ui:387
@@ -79756,7 +79756,7 @@ msgstr "Ouvre les options du profil courant dans l'éditeur des options de profi
 #: options/opsimageoverlay.ui:304 options/opsimageoverlay.ui:320
 #, kde-format
 msgid "Default arcsec/px scale to use in solving. 0 is none. Would use what's in table if there."
-msgstr "Échelle par défaut en minutes d'arc par pixel à utiliser pour la résolution. 0 pour aucune, sinon utilise la valeur dans la table."
+msgstr "Échelle par défaut en secondes d'arc par pixel à utiliser pour la résolution. 0 pour aucune, sinon utilise la valeur dans la table."
 
 #. i18n: ectx: property (text), widget (QLabel, imageOverlayScaleLabel)
 #: options/opsimageoverlay.ui:307
