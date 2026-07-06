@@ -22790,7 +22790,7 @@ msgstr "Largeur et hauteur du capteur de la caméra en pixels"
 #: ekos/scheduler/framingassistant.ui:139
 #, kde-format
 msgid "Camera:"
-msgstr "Caméra "
+msgstr "Caméra"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #. i18n: ectx: property (text), widget (QLabel, label_13)
@@ -22800,7 +22800,7 @@ msgstr "Caméra "
 #: ekos/scheduler/framingassistant.ui:151 ekos/scheduler/framingassistant.ui:239 ekos/scheduler/framingassistant.ui:514 ekos/scheduler/framingassistant.ui:620 ekos/scheduler/framingassistant.ui:732 kstarslite/qml/indi/modules/MotionControl.qml:130
 #, kde-format, kde-kuit-format
 msgid "W"
-msgstr "O"
+msgstr "L"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, cameraWSpin)
 #: ekos/scheduler/framingassistant.ui:164
@@ -23097,7 +23097,7 @@ msgstr "Recentrer"
 #: ekos/scheduler/framingassistant.ui:1003
 #, kde-format
 msgid "Go to grid adjustment page"
-msgstr "Passe à la page précédente de l'assistant"
+msgstr "Aller à la page d'ajustement de la grille"
 
 #. i18n: ectx: property (text), widget (QPushButton, nextToAdjustGrid)
 #: ekos/scheduler/framingassistant.ui:1006
@@ -23201,7 +23201,7 @@ msgstr "Sélectionner quelles étapes lancer avant le démarrage de la procédur
 #: ekos/scheduler/framingassistant.ui:1308
 #, kde-format
 msgid "Align Every"
-msgstr "Aligner toutes les "
+msgstr "Aligner toutes les"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, loadSequenceB)
 #: ekos/scheduler/framingassistant.ui:1327 ekos/scheduler/scheduler.ui:78
@@ -23239,7 +23239,7 @@ msgstr "<html><head/><body><p>Cible <span style=\" color:#ff0000;\">*</span></p>
 #: ekos/scheduler/framingassistant.ui:1388
 #, kde-format
 msgid "Focus Every"
-msgstr "Mise au point toutes les "
+msgstr "Mise au point toutes les"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel1_18)
 #: ekos/scheduler/framingassistant.ui:1423
@@ -23282,7 +23282,7 @@ msgstr "Groupe"
 #: ekos/scheduler/framingassistant.ui:1546
 #, kde-format
 msgid "<html><head/><body><p align=\"justify\">Select a group name. Useful if you want the mosaic jobs to repeat together--assign them a group name, and give them <span style=\" font-style:italic;\">repeat for N (N=2 or more)</span> or <span style=\" font-style:italic;\">repeat until terminated</span> completion conditions. Otherwise leave empty.</p></body></html>"
-msgstr "<html><head/><body><p align=\"justify\">Choisissez un nom pour le groupe. Cela est utile si vous souhaitez que les tâches de mosaïque se répètent ensemble. Assignez leur un nom de groupe et donnez leur la condition d'achèvement <span style=\"font-style:italic;\">>Répéter pour N (N=2 ou plus)</span> ou <span style=\"font-style:italic;\">Répéter jusqu'à achèvement</span>. Sinon, laissez vide. Ne s'applique que pour l'algorithme glouton.</p></body></html>"
+msgstr "<html><head/><body><p align=\"justify\">Choisissez un nom pour le groupe. Cela est utile si vous souhaitez que les tâches de mosaïque se répètent ensemble. Assignez leur un nom de groupe et donnez leur la condition d'achèvement <span style=\"font-style:italic;\">Répéter pour N (N=2 ou plus)</span> ou <span style=\"font-style:italic;\">Répéter jusqu'à achèvement</span>. Sinon, laissez vide. Ne s'applique que pour l'algorithme glouton.</p></body></html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, completionGroup)
 #: ekos/scheduler/framingassistant.ui:1575
@@ -23552,7 +23552,7 @@ msgstr "<html><head/><body><p>Le délai d'activation est le temps minimal en min
 #: ekos/scheduler/opsoffsetsettings.ui:61
 #, kde-format
 msgid "Lead time:"
-msgstr "Durée totale"
+msgstr "Délai d'activation"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_PreemptiveShutdown)
 #: ekos/scheduler/opsoffsetsettings.ui:68
@@ -23649,7 +23649,7 @@ msgstr "<html><head/><body><p>Attendre ce nombre de secondes lorsqu'une alerte m
 #: ekos/scheduler/opsweathersettings.ui:99
 #, kde-format
 msgid "Weather Alert  Shutdown Delay:"
-msgstr "Délai de fermeture du à une alerte météo :"
+msgstr "Délai de fermeture dû à une alerte météo :"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ekos/scheduler/opsweathersettings.ui:140
@@ -23694,7 +23694,7 @@ msgid ""
 "If aborted, the Scheduler missed the scheduled time or encountered transitory issues and will reschedule the job.\n"
 "If complete, the Scheduler verified that all sequence captures requested were stored, including repeats."
 msgstr ""
-"État courant de la tâche, géré par le Planificateur.\n"
+"État courant de la tâche, géré par l'Ordonnanceur.\n"
 "Si non valable, l'ordonnanceur ne pourra pas trouver une heure adéquate d'observation pour la cible.\n"
 "En cas d'abandon, l'ordonnanceur a manqué l'heure prévue ou a rencontré des problèmes transitoires et il reprogrammera la tâche.\n"
 "Si complété, l'ordonnanceur vérifie que toutes les séquences ont été enregistrées, incluant les répétitions."
@@ -23872,7 +23872,7 @@ msgstr "Attention : les tâches « %1 » aux lignes %2 et %3 nécessitent pro
 #: ekos/scheduler/scheduler.cpp:1289
 #, kde-format
 msgid "Skipped checking for duplicates."
-msgstr "Recherche de de doublons ignorée."
+msgstr "Recherche de doublons ignorée."
 
 #: ekos/scheduler/scheduler.cpp:1466
 #, kde-format
@@ -24045,7 +24045,7 @@ msgstr "Choisissez les tâches à exécuter au début de chaque tâche de l'ordo
 #: ekos/scheduler/scheduler.ui:212
 #, kde-format
 msgid "Slew to the target and track. Done at the start of each scheduler job."
-msgstr "Faire tourner vers la cible et la suivre. Exécuté au début de chaque tâche de la séquence."
+msgstr "Faire tourner vers la cible et la suivre. Exécuté au début de chaque tâche de l'ordonnanceur."
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, schedulerAlignStep)
 #: ekos/scheduler/scheduler.ui:237
@@ -24095,7 +24095,7 @@ msgstr "Saisir les coordonnées avec le centre de la carte du ciel."
 #: ekos/scheduler/scheduler.ui:351 ekos/scheduler/scheduler.ui:374
 #, kde-format
 msgid "<html><head/><body><p align=\"justify\">Select a group name. Useful if you want several jobs to repeat together--assign them the same group name, and give them <i>repeat for N</i> or <i>repeat until terminated</i> completion conditions. Otherwise leave empty. Only applies to the Greedy scheduler algorithm.</p></body></html>"
-msgstr "<html><head/><body><p align=\"justify\">Choisissez un nom pour le groupe. Cela est utile si vous souhaitez que les tâches de mosaïque se répètent ensemble. Assignez leurs un nom de groupe et donnez leurs la condition d'achèvement <i>Répéter pour N (N=2 ou plus)</i> ou <i>Répéter jusqu'à achèvement</i>. Sinon, laissez vide. Ne s'applique que pour l'algorithme glouton.</p></body></html>"
+msgstr "<html><head/><body><p align=\"justify\">Choisissez un nom pour le groupe. Cela est utile si vous souhaitez que les tâches de mosaïque se répètent ensemble. Assignez-leur un nom de groupe et donnez-leur la condition d'achèvement <i>Répéter pour N (N=2 ou plus)</i> ou <i>Répéter jusqu'à achèvement</i>. Sinon, laissez vide. Ne s'applique que pour l'algorithme glouton.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, leadFollowerSelectionCB)
 #: ekos/scheduler/scheduler.ui:361
@@ -24181,7 +24181,7 @@ msgstr "Images"
 #: ekos/scheduler/scheduler.ui:1186
 #, kde-format
 msgid "Start Time"
-msgstr "début"
+msgstr "Heure de début"
 
 #. i18n: ectx: property (text), widget (QTableWidget, queueTable)
 #: ekos/scheduler/scheduler.ui:1191
@@ -24211,7 +24211,7 @@ msgstr "Répéter toutes les tâches"
 #: ekos/scheduler/scheduler.ui:1333
 #, kde-format
 msgid "<html><head/><body><p>Limit number of iterations the scheduler will execute the entire job sequence. If set to 0, the jobs are repeated until for none of the jobs its constraints are met.</p></body></html>"
-msgstr "<html><head/><body><p>Limiter le nombre d'itérations du planificateur réalisera pour l'ensemble de la séquence de tâches. Si réglé à 0, les tâches seront répétées jusqu'à ce qu'aucune des tâches ne rencontre une contrainte.</p></body></html>"
+msgstr "<html><head/><body><p>Limiter le nombre d'itérations que l'ordonnanceur réalisera pour l'ensemble de la séquence de tâches. Si réglé à 0, les tâches seront répétées jusqu'à ce qu'aucune des tâches ne rencontre une contrainte.</p></body></html>"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, executionSequenceLimit)
 #: ekos/scheduler/scheduler.ui:1336
@@ -24362,7 +24362,7 @@ msgstr "Crépuscule"
 #: ekos/scheduler/scheduler.ui:1852
 #, kde-format
 msgid "<html><head/><body><p>Astronomical dawn and dusk for the Scheduler job currently selected, or for today if no job is selected.</p><p>- The first value is <span style=\" font-weight:600;\">dusk</span>, specifically the next local time the Sun sets below an altitude of -18° after the job starts.</p><p>- The second value is <span style=\" font-weight:600;\">dawn</span>, specifically the next local time the Sun rises higher than an altitude of -18° after the job starts.</p><p>A warning symbol indicates the Sun will not travel below the astronomical dusk boundary after the job starts, and that dawn and dusk times are calculated from its minimal altitude. In that situation, the Twilight restriction prevents job execution unless the Ekos Dawn Offset and Dusk Offset options are configured appropriately.</p><p>Note that the Ekos Pre-Dawn Offset option virtually advances dawn by a default of 30 minutes and will thus prevent a job from starting just before that moment.</p></body></html>"
-msgstr "<html><head/><body><p>L'aube astronomique et le crépuscule pour la tache planifiée courante ou pour la date courante si aucune tâche n'est disponible.</p><p> - la première valeur concerne <span style=\"font-weight:600;\">le crépuscule</span>, spécifiquement la prochaine heure locale où le Soleil sera plus haut que -18° d'altitude après le démarrage de la tâche.</p><p>Un symbole d'avertissement indique que le Soleil ne descendra pas en dessous de la limite astronomique du crépuscule après le début du travail, et que les heures de l'aube et du crépuscule sont calculées à partir de son altitude minimale. Dans cette situation, la restriction crépusculaire empêche l'exécution du travail, à moins que les options Ekos Dawn Offset et Dusk Offset soient configurées de manière appropriée.</p><p>Notez que l'option de décalage de préaube avance virtuellement l'aube par défaut de 30 minutes and évitera donc qu'une tâche ne démarre juste avant ce moment.</p></body></html>"
+msgstr "<html><head/><body><p>L'aube et le crépuscule astronomiques pour la tâche de l'ordonnanceur actuellement sélectionnée, ou pour aujourd'hui si aucune tâche n'est sélectionnée.</p><p>- La première valeur est le <span style=\"font-weight:600;\">crépuscule</span>, c'est-à-dire la prochaine heure locale à laquelle le Soleil descend sous une altitude de -18° après le démarrage de la tâche.</p><p>- La seconde valeur est l'<span style=\"font-weight:600;\">aube</span>, c'est-à-dire la prochaine heure locale à laquelle le Soleil remonte au-dessus d'une altitude de -18° après le démarrage de la tâche.</p><p>Un symbole d'avertissement indique que le Soleil ne descendra pas en dessous de la limite astronomique du crépuscule après le début de la tâche, et que les heures de l'aube et du crépuscule sont calculées à partir de son altitude minimale. Dans cette situation, la restriction crépusculaire empêche l'exécution de la tâche, à moins que les options Décalage de l'aube et Décalage du crépuscule d'Ekos soient configurées de manière appropriée.</p><p>Notez que l'option Avant aube d'Ekos avance virtuellement l'aube de 30 minutes par défaut et empêchera donc une tâche de démarrer juste avant ce moment.</p></body></html>"
 
 # unreviewed-context
 #. i18n: ectx: property (toolTip), widget (QGroupBox, errorHandlingGroup)
@@ -24423,7 +24423,7 @@ msgstr "Traiter les erreurs comme des annulations."
 #: ekos/scheduler/scheduler.ui:1984
 #, kde-format
 msgid "Re-schedule errors:"
-msgstr "Erreurs de re-planification"
+msgstr "Re-planifier les erreurs"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, errorHandlingStrategyDelay)
 #: ekos/scheduler/scheduler.ui:1997
@@ -24566,7 +24566,7 @@ msgstr "Impossible de supprimer la tâche en cours d'exécution : %1."
 #: ekos/scheduler/schedulermodulestate.cpp:201
 #, kde-format
 msgid "Cannot delete job. Scheduler state: %1"
-msgstr "Impossible de supprimer la tâche. État du planificateur : %1"
+msgstr "Impossible de supprimer la tâche. État de l'ordonnanceur : %1"
 
 #: ekos/scheduler/schedulerprocess.cpp:134
 #, kde-format
@@ -24644,7 +24644,7 @@ msgstr "La météo s'est améliorée pendant la période de grâce. Reprise des 
 #: ekos/scheduler/schedulerprocess.cpp:548
 #, kde-format
 msgid "Weather grace period is set to indefinite wait. Weather is still not OK, continuing to monitor..."
-msgstr "La période de grâce météorologique est définie sur attente indéfinie. La météo n'est toujours pas Ok, surveillance en cours…"
+msgstr "La période de grâce météorologique est définie sur attente indéfinie. La météo n'est toujours pas OK, surveillance en cours…"
 
 #: ekos/scheduler/schedulerprocess.cpp:561
 #, kde-format
@@ -24654,7 +24654,7 @@ msgstr "La période de grâce météo a expiré et l'état de sécurité est tou
 #: ekos/scheduler/schedulerprocess.cpp:562 ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:1018
 #, kde-format
 msgid "Alert"
-msgstr "Alert"
+msgstr "Alerte"
 
 #: ekos/scheduler/schedulerprocess.cpp:589
 #, kde-format
@@ -24699,12 +24699,12 @@ msgstr "La tâche « %1 » ne peut pas démarrer : la période de grâce mét�
 #: ekos/scheduler/schedulerprocess.cpp:878
 #, kde-format
 msgid "Job '%1' scheduled for execution at %2. Observatory scheduled for shutdown until next job is ready."
-msgstr "La tâche planifiée %1 pour être réalisée à %2. L'observatoire a entamé un arrêt sauf si la prochaine tâche est prête."
+msgstr "La tâche %1 est planifiée pour %2. L'observatoire est programmé pour un arrêt jusqu'à ce que la prochaine tâche soit prête."
 
 #: ekos/scheduler/schedulerprocess.cpp:904
 #, kde-format
 msgid "Job '%1' scheduled for execution at %2. Parking the mount until the job is ready."
-msgstr "La tâche planifiée %1 pour être réalisée à %2. Parcage de la monture jusqu'à ce que la prochaine tâche soit prête."
+msgstr "La tâche %1 est planifiée pour %2. Parcage de la monture jusqu'à ce que la prochaine tâche soit prête."
 
 #: ekos/scheduler/schedulerprocess.cpp:936
 #, kde-format
@@ -24729,7 +24729,7 @@ msgstr "La tâche %1 effectue la rotation vers la cible"
 #: ekos/scheduler/schedulerprocess.cpp:1098
 #, kde-format
 msgid "Warning: job '%1' is unable to proceed with autofocus, not supported."
-msgstr "Alarme : le traitement pour la tâche %1 est impossible avec la mise au point automatique et non pris en charge."
+msgstr "Attention : la tâche %1 ne peut pas poursuivre avec la mise au point automatique, non prise en charge."
 
 #: ekos/scheduler/schedulerprocess.cpp:1214
 #, kde-format
@@ -24754,7 +24754,7 @@ msgstr "Attention : la requête de la tâche loadAndSlew %1 a échoué."
 #: ekos/scheduler/schedulerprocess.cpp:1270
 #, kde-format
 msgid "Job '%1' is plate solving %2."
-msgstr "La tâche %1 est en cours de la résolution %2."
+msgstr "La tâche %1 est en cours de résolution de %2."
 
 #: ekos/scheduler/schedulerprocess.cpp:1284
 #, kde-format
@@ -24809,7 +24809,7 @@ msgstr "La tâche d'acquisition %1 est en cours…"
 #: ekos/scheduler/schedulerprocess.cpp:1582
 #, kde-format
 msgid "Ekos started."
-msgstr "Démarrage de Ekos"
+msgstr "Démarrage de Ekos."
 
 # unreviewed-context
 #: ekos/scheduler/schedulerprocess.cpp:1591
@@ -24980,7 +24980,7 @@ msgstr "Aucune tâche restante dans la file d'attente de l'ordonnanceur, après 
 #: ekos/scheduler/schedulerprocess.cpp:2251
 #, kde-format
 msgid "Only aborted jobs left in the scheduler queue after evaluating, rescheduling those."
-msgstr "Il ne reste que les tâches annulées dans la queue de l'ordonnanceur. Après évaluation, ré-ordonnancement de celles-ci."
+msgstr "Il ne reste que les tâches annulées dans la file d'attente de l'ordonnanceur. Après évaluation, ré-ordonnancement de celles-ci."
 
 #: ekos/scheduler/schedulerprocess.cpp:2265
 #, kde-format
@@ -24995,7 +24995,7 @@ msgstr "Démarrage de l'itération #%1 de la séquence de tâches"
 #: ekos/scheduler/schedulerprocess.cpp:2450
 #, kde-format
 msgid "No executable jobs found. Stopping scheduler."
-msgstr "Aucun travail exécutable trouvé. Arrêt du planificateur."
+msgstr "Aucun travail exécutable trouvé. Arrêt de l'ordonnanceur."
 
 #: ekos/scheduler/schedulerprocess.cpp:2518
 #, kde-format
@@ -25030,7 +25030,7 @@ msgstr "Attention : la tâche %1 pour la procédure de guidage a échoué. Tâc
 #: ekos/scheduler/schedulerprocess.cpp:2865
 #, kde-format
 msgid "Warning: job '%1' lost connection to the mount, attempting to reconnect."
-msgstr "Attention: la tâche %1 a perdu la connexion à la monture. Tentative de reconnexion."
+msgstr "Attention : la tâche %1 a perdu la connexion à la monture. Tentative de reconnexion."
 
 #: ekos/scheduler/schedulerprocess.cpp:2882
 #, kde-format
@@ -25321,10 +25321,11 @@ msgid ""
 "\n"
 "The scheduler has been stopped. Please check the log for details and correct the issue before restarting."
 msgstr ""
-"La file d'attente de démarrage de l'ordonnanceur s'est arrêtée. Veuillez consulter les journaux pour les détails et corriger le problème avant de recommencer.\n"
+"La file d'attente de démarrage de l'ordonnanceur a échoué\xa0:\n"
+"\n"
 "%1\n"
 "\n"
-"Le planificateur a été arrêté. Veuillez vérifier le journal pour plus de détails et corriger le problème avant de redémarrer."
+"L'ordonnanceur a été arrêté. Veuillez consulter le journal pour plus de détails et corriger le problème avant de redémarrer."
 
 #: ekos/scheduler/schedulersafetymonitor.cpp:65
 #, kde-format
@@ -25494,7 +25495,7 @@ msgstr "Le gestionnaire de train optique n'est pas disponible"
 #: ekos/scheduler/taskqueue/ui/deviceselectiondialog.cpp:201
 #, kde-format
 msgid "Scheduler state not available"
-msgstr "L'état du planificateur n'est pas disponible"
+msgstr "L'état de l'ordonnanceur n'est pas disponible"
 
 #: ekos/scheduler/taskqueue/ui/deviceselectiondialog.cpp:215 ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:474
 #, kde-format
@@ -25798,12 +25799,12 @@ msgstr "Égal"
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:877
 #, kde-format
 msgid "Less Than"
-msgstr "moins que"
+msgstr "Inférieur à"
 
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:878
 #, kde-format
 msgid "Greater Than"
-msgstr "Plus que"
+msgstr "Supérieur à"
 
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:879
 #, kde-format
@@ -25858,7 +25859,7 @@ msgstr "Valeur attendue"
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:1016 skycomponents/imageoverlaycomponent.cpp:557
 #, kde-format
 msgid "OK"
-msgstr "Ok"
+msgstr "OK"
 
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:1017 indi/indilightbox.cpp:20
 #, kde-format
@@ -25913,7 +25914,7 @@ msgstr "Veuillez fournir un nom de modèle."
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:1125
 #, kde-format
 msgid "Please select or enter a category."
-msgstr "Veuillez sélectionner ou saisir une propriété."
+msgstr "Veuillez sélectionner ou saisir une catégorie."
 
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:1428
 #, kde-format
@@ -26134,7 +26135,7 @@ msgstr "Impossible d'enregistrer la file d'attente vers %1"
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:819
 #, kde-format
 msgid "Save Queue As"
-msgstr "File d'attente enregistrée sous"
+msgstr "Enregistrer la file d'attente sous"
 
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:821 ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:874
 #, kde-format
