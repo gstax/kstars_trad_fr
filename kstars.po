@@ -18537,7 +18537,7 @@ msgstr "Aucun guide détecté. Veuillez vérifier guide-via dans les trains opti
 #: ekos/guide/guide.cpp:1553
 #, kde-format
 msgid "The mount is parked. Unpark to start guiding."
-msgstr "La monture est parquée. Dé-parquer pour démarrer le guidage."
+msgstr "La monture est parquée. Déparquer pour démarrer le guidage."
 
 #: ekos/guide/guide.cpp:1662
 #, kde-format
@@ -24369,7 +24369,7 @@ msgstr "<html><head/><body><p>L'aube et le crépuscule astronomiques pour la tâ
 #: ekos/scheduler/scheduler.ui:1882
 #, kde-format
 msgid "<html><head/><body><p>Define what should happen when a job steps into an error or aborts:</p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Don't re-schedule</span>: Don't restart the job in case of an error or an abort.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Re-schedule after all terminated</span>: If a job gets aborted, the scheduler will only re-schedule it if when all jobs are finished or aborted. If this is the case, the scheduler re-schedules all aborted jobs and sleeps for the given delay.</li><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Re-schedule immediately</span>: As soon as a job gets aborted, the scheduler will re-schedule it and waits the given delay.</li></ul><p>If the option for re-scheduling errors is selected, errors are handled like aborts. Otherwise, jobs that step into an error are never re-scheduled.</p></body></html>"
-msgstr "<html><head/><body><p>Définissez ce qui doit se passer lorsqu'un travail se retrouve face à une erreur ou s'interrompt : </p><ul style=\"margin-top : 0px ; margin-bottom : 0px ; margin-left : 0px ; margin-right : 0px ; -qt-list-indent : 1 ;\"><li style=\" margin-top:12px ; margin-bottom:0px ; margin-left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">Aucun</span> : ne pas relancer le travail en cas d'erreur ou d'annulation.</li><li style=\" margin-top:0px ; margin-bottom:0px ; margin-left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">Mettre en file</span> : si une tâche est abandonnée, l'ordonnanceur ne la re-planifie que si toutes les tâches sont terminées ou abandonnées. Dans ce cas, l'ordonnanceur re-planifie tous les travaux annulés et s'endort pendant le délai donné.</li><li style=\" margin-top:0px ; margin-bottom:12px ; margin-left:0px ; margin-right:0px ; -qt-block-indent:0 ; text-indent:0px ;\"><span style=\" font-weight:600 ;\">Immédiat</span> : dès qu'une tâche est abandonnée, l'ordonnanceur la re-planifie et attend le délai donné.</li></ul><p>Si l'option de re-planification des erreurs est sélectionnée, les erreurs sont traitées comme des annulations. Sinon, les travaux qui font face à une erreur ne sont jamais réordonnancés.</p></body></html>"
+msgstr "<html><head/><body><p>Définissez ce qui doit se passer lorsqu'un travail se retrouve face à une erreur ou s'interrompt : </p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Aucun</span> : ne pas relancer le travail en cas d'erreur ou d'annulation.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Mettre en file</span> : si une tâche est abandonnée, l'ordonnanceur ne la re-planifie que si toutes les tâches sont terminées ou abandonnées. Dans ce cas, l'ordonnanceur re-planifie tous les travaux annulés et s'endort pendant le délai donné.</li><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Immédiat</span> : dès qu'une tâche est abandonnée, l'ordonnanceur la re-planifie et attend le délai donné.</li></ul><p>Si l'option de re-planification des erreurs est sélectionnée, les erreurs sont traitées comme des annulations. Sinon, les travaux qui font face à une erreur ne sont jamais réordonnancés.</p></body></html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, errorHandlingGroup)
 #: ekos/scheduler/scheduler.ui:1885
@@ -30605,7 +30605,7 @@ msgstr "Parcage monture en cours."
 #: indi/indimount.cpp:534
 #, kde-format
 msgid "Mount unparking is in progress"
-msgstr "Dé-parcage monture en cours"
+msgstr "Déparcage monture en cours"
 
 #: indi/indimount.cpp:541
 #, kde-format
