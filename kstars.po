@@ -6155,12 +6155,12 @@ msgstr "Le transfert d'image est désactivé pour cette caméra. Voulez-vous l'a
 #: ekos/align/align_solver.cpp:143
 #, kde-format
 msgid "Dustcap is parked. Unparking before capture and solve..."
-msgstr "Le capuchon antipoussière est posé. Déparkage avant acquisition et résolution..."
+msgstr "Le capuchon antipoussière est posé. Déparkage avant acquisition et résolution…"
 
 #: ekos/align/align_solver.cpp:150
 #, kde-format
 msgid "Dustcap is not ready (status: %1). Waiting before capture and solve..."
-msgstr "Le capuchon antipoussière n'est pas prêt (état : %1). En attente avant d'acquérir et de résoudre..."
+msgstr "Le capuchon antipoussière n'est pas prêt (état : %1). En attente avant d'acquérir et de résoudre…"
 
 #: ekos/align/align_solver.cpp:162
 #, kde-format
@@ -16237,7 +16237,7 @@ msgstr "Erreur : perte de connexion à la caméra."
 #: ekos/focus/focus.cpp:1902
 #, kde-format
 msgid "Dustcap is parked. Unparking before capture..."
-msgstr "Le capuchon antipoussière est ouvert. Déparquage avant acquisition..."
+msgstr "Le capuchon antipoussière est ouvert. Déparquage avant acquisition…"
 
 #: ekos/focus/focus.cpp:1910
 #, kde-format
@@ -24920,12 +24920,12 @@ msgstr "Impossible de charger la file d'attente de prédémarrage depuis %1."
 #: ekos/scheduler/schedulerprocess.cpp:1998
 #, kde-format
 msgid "No pre-startup tasks, pre-startup phase complete. Starting Ekos..."
-msgstr "Aucune tâche de prédémarrage, phase de prédémarrage terminée. Démarrage d'Ekos..."
+msgstr "Aucune tâche de prédémarrage, phase de prédémarrage terminée. Démarrage d'Ekos…"
 
 #: ekos/scheduler/schedulerprocess.cpp:2022
 #, kde-format
 msgid "Executing post-startup tasks from %1..."
-msgstr "Exécution des tâches post-démarrage depuis %1..."
+msgstr "Exécution des tâches post-démarrage depuis %1…"
 
 #: ekos/scheduler/schedulerprocess.cpp:2030
 #, kde-format
@@ -24945,7 +24945,7 @@ msgstr "L'observatoire n'a pas été démarré, la procédure d'arrêt est ignor
 #: ekos/scheduler/schedulerprocess.cpp:2103
 #, kde-format
 msgid "Executing pre-shutdown tasks from %1..."
-msgstr "Exécution des tâches préarrêt depuis %1..."
+msgstr "Exécution des tâches préarrêt depuis %1…"
 
 #: ekos/scheduler/schedulerprocess.cpp:2111
 #, kde-format
@@ -24965,7 +24965,7 @@ msgstr "Aucune tâche préarrêt, arrêt d'Ekos/INDI en cours."
 #: ekos/scheduler/schedulerprocess.cpp:2185
 #, kde-format
 msgid "Park/unpark procedure failed, aborting..."
-msgstr "Échec de la procédure de stationnement/déstationnement, abandon..."
+msgstr "Échec de la procédure de stationnement/déstationnement, abandon…"
 
 #: ekos/scheduler/schedulerprocess.cpp:2198
 #, kde-format
@@ -25065,7 +25065,7 @@ msgstr "L'image est à %1 minutes d'arc de la cible, réalignement en cours…"
 #: ekos/scheduler/schedulerprocess.cpp:3308
 #, kde-format
 msgid "Pre-startup queue completed successfully. Starting Ekos..."
-msgstr "File d'attente prédémarrage terminée avec succès. Démarrage d'Ekos..."
+msgstr "File d'attente prédémarrage terminée avec succès. Démarrage d'Ekos…"
 
 #: ekos/scheduler/schedulerprocess.cpp:3316
 #, kde-format
@@ -25075,7 +25075,7 @@ msgstr "File d'attente post-démarrage terminée avec succès."
 #: ekos/scheduler/schedulerprocess.cpp:3323
 #, kde-format
 msgid "Resuming scheduler after safety recovery startup tasks..."
-msgstr "Reprise du planificateur après les tâches de démarrage suite au rétablissement de la sécurité..."
+msgstr "Reprise du planificateur après les tâches de démarrage suite au rétablissement de la sécurité…"
 
 #: ekos/scheduler/schedulerprocess.cpp:3339
 #, kde-format
@@ -25349,7 +25349,7 @@ msgstr "Échec de la connexion à la surveillance autonome de la sécurité apr�
 #: ekos/scheduler/schedulersafetymonitor.cpp:182
 #, kde-format
 msgid "Connecting to standalone safety monitor at %1:%2..."
-msgstr "Connexion à la surveillance autonome de la sécurité sur %1:%2..."
+msgstr "Connexion à la surveillance autonome de la sécurité sur %1:%2…"
 
 #: ekos/scheduler/schedulersafetymonitor.cpp:201
 #, kde-format
@@ -25369,7 +25369,7 @@ msgstr "Avertissement : le périphérique de surveillance autonome de la sécuri
 #: ekos/scheduler/schedulersafetymonitor.cpp:249 ekos/scheduler/schedulersafetymonitor.cpp:293 ekos/scheduler/schedulersafetymonitor.cpp:319
 #, kde-format
 msgid "Will attempt to reconnect in 10 seconds (attempt %1 of %2)..."
-msgstr "Nouvelle tentative de connexion dans 10 secondes (tentative %1 sur %2)..."
+msgstr "Nouvelle tentative de connexion dans 10 secondes (tentative %1 sur %2)…"
 
 #: ekos/scheduler/schedulersafetymonitor.cpp:255 ekos/scheduler/schedulersafetymonitor.cpp:299 ekos/scheduler/schedulersafetymonitor.cpp:325
 #, kde-format
@@ -25379,7 +25379,7 @@ msgstr "Nombre maximal de tentatives de reconnexion atteint pour la surveillance
 #: ekos/scheduler/schedulersafetymonitor.cpp:263
 #, kde-format
 msgid "Attempting to reconnect to standalone safety monitor..."
-msgstr "Tentative de reconnexion à la surveillance autonome de la sécurité..."
+msgstr "Tentative de reconnexion à la surveillance autonome de la sécurité…"
 
 #: ekos/scheduler/schedulersafetymonitor.cpp:280
 #, kde-format
@@ -27499,7 +27499,7 @@ msgstr "Parcourez les préréglages d'étirement."
 #: fitsviewer/fitstab.cpp:38
 #, kde-format
 msgid "Stopping..."
-msgstr "Arrêt..."
+msgstr "Arrêt…"
 
 #: fitsviewer/fitstab.cpp:72
 #, kde-format
