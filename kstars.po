@@ -13998,24 +13998,22 @@ msgstr "actif"
 
 #. +> trunk5
 #: ekos/auxiliary/buildfilteroffsets.cpp:248
-#, fuzzy, kde-format
-#| msgid "Build Filter Offsets"
+#, kde-format
 msgid "Run Build Filter Offsets utility"
-msgstr "Construire les décalages de filtre"
+msgstr "Exécuter l'utilitaire de construction des décalages de filtres"
 
 #. +> trunk5
 #: ekos/auxiliary/buildfilteroffsets.cpp:249
-#, fuzzy, kde-format
+#, kde-format
 msgid "Interrupt processing when utility is running"
 msgstr ""
 "Interrompre le traitement lorsque l'utilitaire est en cours d'exécution"
 
 #. +> trunk5
 #: ekos/auxiliary/buildfilteroffsets.cpp:250
-#, fuzzy, kde-format
-#| msgid "New Offset"
+#, kde-format
 msgid "Save New Offsets"
-msgstr "Nouveau décalage"
+msgstr "Enregistrer les nouveaux décalages"
 
 #. i18n: ectx: property (text), widget (QTableWidget, queueTable)
 #. i18n: ectx: property (text), widget (QPushButton, filterPB)
@@ -14118,10 +14116,9 @@ msgstr ""
 
 #. +> trunk5
 #: ekos/auxiliary/buildfilteroffsets.cpp:508
-#, fuzzy, kde-format
-#| msgid "Stop Build Filter Offsets"
+#, kde-format
 msgid "Starting Build Filter Offsets..."
-msgstr "Arrêter la procédure de construction des décalages de filtres"
+msgstr "Démarrage de la procédure de construction des décalages de filtres…"
 
 #. +> trunk5
 #: ekos/auxiliary/buildfilteroffsets.cpp:522
@@ -26337,10 +26334,9 @@ msgstr "Délai d'exposition dépassé. Annulation de la calibration."
 
 #. +> trunk5
 #: ekos/guide/guide.cpp:1202
-#, fuzzy, kde-format
-#| msgid "Failed to select an auto star."
+#, kde-format
 msgid "Failed to reconnect camera after driver restart."
-msgstr "Échec de la sélection automatique d'une étoile."
+msgstr "Échec de la reconnexion de la caméra après le redémarrage du pilote."
 
 #. +> trunk5
 #: ekos/guide/guide.cpp:1500
@@ -26475,10 +26471,11 @@ msgstr "Décalage totalement réussi."
 
 #. +> trunk5
 #: ekos/guide/guide.cpp:2045
-#, fuzzy, kde-format
-#| msgid "%1x%1 guide binning is not supported."
+#, kde-format
 msgid "%1x%1 guide binning is not supported. Maximum is %2x%2."
-msgstr "Le regroupement %1 x %1 n'est pas autorisé pour le guidage."
+msgstr ""
+"Le regroupement %1 x %1 n'est pas pris en charge pour le guidage. Le "
+"maximum est %2 x %2."
 
 #. +> trunk5
 #: ekos/guide/guide.cpp:2069
@@ -99507,10 +99504,9 @@ msgstr "Eric Dejouhanet"
 
 #. +> trunk5
 #: main.cpp:162
-#, fuzzy, kde-format
-#| msgid "Ekos Scheduler Improvements"
+#, kde-format
 msgid "CI/CD pipeline & Ekos Scheduler Improvements"
-msgstr "Améliorations de l'ordonnanceur Ekos"
+msgstr "Pipeline CI/CD et améliorations de l'ordonnanceur Ekos"
 
 #. +> trunk5
 #: main.cpp:163
@@ -99532,10 +99528,11 @@ msgstr "Hy Murveit"
 
 #. +> trunk5
 #: main.cpp:167
-#, fuzzy, kde-format
-#| msgid "FITS, Focus, Guide Improvements"
+#, kde-format
 msgid "Analyze module. FITS, Focus, Guide, and Scheduler Improvements"
-msgstr "FITS, Mise au point, améliorations de guidage"
+msgstr ""
+"Module Analyse. Améliorations de FITS, de la mise au point, du guidage et "
+"de l'ordonnanceur"
 
 #. +> trunk5
 #: main.cpp:168
@@ -99545,10 +99542,9 @@ msgstr "John Evans"
 
 #. +> trunk5
 #: main.cpp:169
-#, fuzzy, kde-format
-#| msgid "Focus algorithms"
+#, kde-format
 msgid "Focus algorithms & Livestacking"
-msgstr "Algorithme de la mise au point"
+msgstr "Algorithmes de mise au point et empilement en direct"
 
 #. +> trunk5
 #: main.cpp:170
@@ -99672,44 +99668,41 @@ msgstr "Rishab Arora"
 
 #. +> trunk5
 #: main.cpp:199
-#, fuzzy, kde-format
+#, kde-format
 msgid "Andreas Ruthner"
 msgstr "Andreas Ruthner"
 
 #. +> trunk5
 #: main.cpp:199
-#, fuzzy, kde-format
+#, kde-format
 msgid "Numerous fixes in Guiding, Streaming, and Scheduler."
-msgstr "De nombreux correctifs dans Guiding, Streaming et Scheduler."
+msgstr "De nombreux correctifs pour le guidage, le flux et l'ordonnanceur."
 
 #. +> trunk5
 #: main.cpp:200
-#, fuzzy, kde-format
-#| msgctxt "City in Bornholm Denmark"
-#| msgid "Christiansoe"
+#, kde-format
 msgid "Christian Kemper"
-msgstr "Christiansoe"
+msgstr "Christian Kemper"
 
 #. +> trunk5
 #: main.cpp:200
-#, fuzzy, kde-format
+#, kde-format
 msgid "Mount Model wizard improvements. Cities database refactor."
 msgstr ""
-"Améliorations de l'assistant de montage de modèle. Refactorisation de la "
-"base de données des villes."
+"Améliorations de l'assistant de modélisation de la monture. Restructuration "
+"de la base de données des villes."
 
 #. +> trunk5
 #: main.cpp:201
-#, fuzzy, kde-format
-#| msgid "Thomas Kabelmann"
+#, kde-format
 msgid "Thomas Nemer"
-msgstr "Thomas Kabelmann"
+msgstr "Thomas Nemer"
 
 #. +> trunk5
 #: main.cpp:201
-#, fuzzy, kde-format
+#, kde-format
 msgid "Ekos MCP server and AI skills."
-msgstr "Compétences en matière de serveur Ekos MCP et d'IA."
+msgstr "Serveur MCP pour Ekos et compétences en IA."
 
 #. +> trunk5
 #: main.cpp:203
