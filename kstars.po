@@ -602,7 +602,7 @@ msgstr "Veuillez patienter pendant le téléchargement de l'image DSS…"
 #, kde-format
 msgctxt "%2 is the value, % is the percent sign"
 msgid "%1 (%2%)"
-msgstr "%1 (%2%)"
+msgstr "%1 (%2 %)"
 
 #. +> trunk5
 #: auxiliary/ksmessagebox.cpp:132
@@ -16173,13 +16173,13 @@ msgstr "Reprendre la séquence"
 #: ekos/capture/camera_actions.cpp:319
 #, kde-format
 msgid "Setting temperature to %1 °C..."
-msgstr "Définition de la température à %1 °C…"
+msgstr "Définition de la température à %1°C…"
 
 #. +> trunk5
 #: ekos/capture/camera_actions.cpp:320
 #, kde-format
 msgid "Set Temp to %1 °C..."
-msgstr "Définir la température à %1 °C…"
+msgstr "Définir la température à %1°C…"
 
 #. +> trunk5
 #: ekos/capture/camera_actions.cpp:324
@@ -16903,7 +16903,7 @@ msgstr "Mise au point terminée. Reprise dans %1 secondes…"
 #: ekos/capture/camerastate.cpp:805
 #, kde-format
 msgid "Limit: %1 °C"
-msgstr "Limite : %1 °C"
+msgstr "Limite : %1°C"
 
 #. +> trunk5
 #: ekos/capture/camerastate.cpp:809
@@ -18025,7 +18025,7 @@ msgstr "Effacer les informations du DSLR"
 #: ekos/capture/opsmiscsettings.ui:57
 #, no-c-format, kde-format
 msgid "<html><head/><body><p>Minimal duration of a meridian flip in seconds. Increase this value if Ekos reports that a meridian flip has failed because the pier side did not change. A good estimation for this value is at least 50% of the typical duration of a meridian flip.</p></body></html>"
-msgstr "<html><head/><body><p>Durée minimale d'un retournement au méridien en secondes. Augmentez cette valeur si Ekos rapporte un échec parce que le côté du pied n'a pas changé. Une bonne estimation pour cette valeur est au moins 50% de la durée typique d'un retournement au méridien.</p></body></html>"
+msgstr "<html><head/><body><p>Durée minimale d'un retournement au méridien en secondes. Augmentez cette valeur si Ekos rapporte un échec parce que le côté du pied n'a pas changé. Une bonne estimation pour cette valeur est au moins 50 % de la durée typique d'un retournement au méridien.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_17)
 #. +> trunk5
@@ -18155,7 +18155,7 @@ msgstr "Nouvelle mise au point planifiée après %1 secondes…"
 #: ekos/capture/refocusstate.cpp:59
 #, kde-format
 msgid "Refocus starting because of temperature change of %1 °C..."
-msgstr "Nouvelle mise au point par suite d'un changement de température de %1 °C…"
+msgstr "Nouvelle mise au point par suite d'un changement de température de %1°C…"
 
 #. +> trunk5
 #: ekos/capture/refocusstate.cpp:76
@@ -20228,7 +20228,7 @@ msgstr "Abandon de l'algorithme de mise au point automatique linéaire : %1"
 #: ekos/focus/focus.cpp:4036
 #, kde-format
 msgid "FITS received. HFR %1 @ %2. Delta (%3%)"
-msgstr "Image FITS reçue. HFR = %1 @ %2. Delta (%3%)"
+msgstr "Image FITS reçue. HFR = %1 @ %2. Delta (%3 %)"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:4038
@@ -20282,7 +20282,7 @@ msgstr "Limite maximale de course atteinte. Mise au point interrompue."
 #: ekos/focus/focus.cpp:4443
 #, kde-format
 msgid "FITS received. HFR %1. Delta (%2%) Min HFR (%3)"
-msgstr "Image FITS reçue. HFR = %1. Delta (%2 %) Min HFR (%3)"
+msgstr "Image FITS reçue. HFR = %1. Delta (%2 %) Min HFR (%3)"
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:4447
@@ -21630,7 +21630,7 @@ msgstr "Courbe de régression"
 #: ekos/focus/opsfocusprocess.ui:373
 #, no-c-format, kde-format
 msgid "<html><head/><body><p>Select focus process algorithm:</p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Iterative</span>: Moves focuser by discreet steps initially decided by the step size. Once a curve slope is calculated,  further step sizes are calculated to reach optimal solution. The algorithm stops when the measured HFR is within percentage Tolerance of the minimum HFR recorded in the procedure.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Polynomial</span>: Starts with iterative method.  Upon crossing to the other side of the V-Curve,  polynomial fitting coefficients along with possible minimum solution are calculated. This algorithm can be faster than purely iterative approach given a good data set.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Linear</span>: Samples focus inward in a regular fashion, using 2 passes.  The algorithm can be slow, but it is more resilient to backlash.  Start with the focuser positioned near good focus.  Set Initial Step Size and Max Travel for the desired sampling interval and range around start focus position.  Tolerance should be around 5%.</li><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Linear 1 Pass</span>: Starts like <span style=\" font-weight:600;\">Linear</span> but after completing the 1st pass, instead of doing a 2nd pass,  moves straight to the minimum HFR value calculated.  Use Curve Fit of Hyperbola or Parabola.</li></ul></body></html>"
-msgstr "<html><head/><body><p>Sélectionnez l'algorithme du processus de mise au point : </p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Itératif</span> : déplace le moteur de mise au point par pas discrets, selon un pas préalablement défini. Une fois que la pente de la courbe est calculée, d'autres tailles de pas sont calculées pour atteindre la solution optimale. L'algorithme s'arrête lorsque le HFR mesuré se situe dans la tolérance en pourcentage du HFR minimum enregistré dans la procédure.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Polynomial</span> : commence par une méthode itérative. En passant de l'autre côté de la courbe en V, les coefficients d'ajustement polynomiaux ainsi que la solution minimale possible sont calculés. Cet algorithme peut être plus rapide que l'approche purement itérative, moyennant un bon ensemble de données.</li><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Linéaire</span> : les échantillons se concentrent vers l'intérieur de façon homogène, en utilisant 2 passes. L'algorithme peut être lent, mais il est plus résistant aux contrecoups. Commencez avec le moteur de mise au point positionné près de la bonne mise au point. Définissez la taille du pas initial et le déplacement maximal pour l'intervalle d'échantillonnage souhaité et la plage autour de la position de départ de la mise au point. La tolérance devrait être d'environ 5 %.</li><li style=\"margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\"font-weight:600;\">Linéaire 1 passe</span> : commence comme <span style=\"font-weight:600;\">linéaire</span> mais après avoir terminé la première passe et plutôt que d'en faire une seconde, se déplace directement à la valeur minimale du HFR calculé. Utilise une régression hyperbolique ou parabolique.</li></ul></body></html>"
+msgstr "<html><head/><body><p>Sélectionnez l'algorithme du processus de mise au point : </p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Itératif</span> : déplace le moteur de mise au point par pas discrets, selon un pas préalablement défini. Une fois que la pente de la courbe est calculée, d'autres tailles de pas sont calculées pour atteindre la solution optimale. L'algorithme s'arrête lorsque le HFR mesuré se situe dans la tolérance en pourcentage du HFR minimum enregistré dans la procédure.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Polynomial</span> : commence par une méthode itérative. En passant de l'autre côté de la courbe en V, les coefficients d'ajustement polynomiaux ainsi que la solution minimale possible sont calculés. Cet algorithme peut être plus rapide que l'approche purement itérative, moyennant un bon ensemble de données.</li><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Linéaire</span> : les échantillons se concentrent vers l'intérieur de façon homogène, en utilisant 2 passes. L'algorithme peut être lent, mais il est plus résistant aux contrecoups. Commencez avec le moteur de mise au point positionné près de la bonne mise au point. Définissez la taille du pas initial et le déplacement maximal pour l'intervalle d'échantillonnage souhaité et la plage autour de la position de départ de la mise au point. La tolérance devrait être d'environ 5 %.</li><li style=\"margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\"font-weight:600;\">Linéaire 1 passe</span> : commence comme <span style=\"font-weight:600;\">linéaire</span> mais après avoir terminé la première passe et plutôt que d'en faire une seconde, se déplace directement à la valeur minimale du HFR calculé. Utilise une régression hyperbolique ou parabolique.</li></ul></body></html>"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, focusAlgorithm)
 #. +> trunk5
@@ -22097,7 +22097,7 @@ msgstr "Utilisez toutes les étoiles pour la mise au point"
 #: ekos/focus/opsfocussettings.ui:469
 #, no-c-format, kde-format
 msgid "<html><head/><body><p>Diameter of the outer circle to be excluded from focusing. The diameter is given as percentage of the image diagonal. Set to 100% to include the outer edges of the sensor. </p></body></html>"
-msgstr "<html><head/><body><p>Diamètre du cercle extérieur pour être exclu de la mise au point. Le diamètre est donné comme pourcentage de la diagonale de l'image. Réglez à 100% pour inclure les côtés extérieurs du capteur.</p></body></html>"
+msgstr "<html><head/><body><p>Diamètre du cercle extérieur pour être exclu de la mise au point. Le diamètre est donné comme pourcentage de la diagonale de l'image. Réglez à 100 % pour inclure les côtés extérieurs du capteur.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, focusAdaptiveMinMove)
 #. +> trunk5
@@ -23338,7 +23338,7 @@ msgstr "Dérive en AD de la monture (secondes d'arc)"
 #, kde-format
 msgctxt "Drift graphics tooltip; %1 is local time; %2 is RA deviation; %3 is DE deviation in arcseconds; %4 is the RMS error in arcseconds; %5 is the SNR"
 msgid "<table><tr><td>LT:   </td><td>%1</td></tr><tr><td>RA:   </td><td>%2 \"</td></tr><tr><td>DE:   </td><td>%3 \"</td></tr><tr><td>RMS:   </td><td>%4 \"</td></tr><tr><td>SNR:   </td><td>%5 \"</td></tr></table>"
-msgstr "<table><tr><td>LT : </td><td>%1</td></tr><tr><td>AD : </td><td>%2 \"</td></tr><tr><td>DEC : </td><td>%3 \"</td></tr><tr><td>RMS : </td><td>%4 \"</td></tr><tr><td>SNR : </td><td>%5 \"</td></tr></table>"
+msgstr "<table><tr><td>LT : </td><td>%1</td></tr><tr><td>AD : </td><td>%2\"</td></tr><tr><td>DEC : </td><td>%3\"</td></tr><tr><td>RMS : </td><td>%4\"</td></tr><tr><td>SNR : </td><td>%5\"</td></tr></table>"
 
 # unreviewed-context
 #. +> trunk5
@@ -23347,7 +23347,7 @@ msgstr "<table><tr><td>LT : </td><td>%1</td></tr><tr><td>AD : </td><td>%2 \"</
 #, kde-format
 msgctxt "Drift graphics tooltip; %1 is local time; %2 is RA deviation; %3 is DE deviation in arcseconds; %4 is the RMS error in arcseconds; %5 is the SNR; %6 is RA Pulse in ms; %7 is DE Pulse in ms"
 msgid "<table><tr><td>LT:   </td><td>%1</td></tr><tr><td>RA:   </td><td>%2 \"</td></tr><tr><td>DE:   </td><td>%3 \"</td></tr><tr><td>RMS:   </td><td>%4 \"</td></tr><tr><td>SNR:   </td><td>%5 \"</td></tr><tr><td>RA Pulse:   </td><td>%6 ms</td></tr><tr><td>DE Pulse:   </td><td>%7 ms</td></tr></table>"
-msgstr "<table><tr><td>LT : </td><td>%1</td></tr><tr><td>AD : </td><td>%2 \"</td></tr><tr><td>DEC : </td><td>%3 \"</td></tr><tr><td>RMS : </td><td>%4 \"</td></tr><tr><td>SNR : </td><td>%5 \"</td></tr><tr><td>Impulsion AD : </td><td>%6 ms</td></tr><tr><td>Impulsion DEC : </td><td>%7 ms</td></tr></table>"
+msgstr "<table><tr><td>LT : </td><td>%1</td></tr><tr><td>AD : </td><td>%2\"</td></tr><tr><td>DEC : </td><td>%3\"</td></tr><tr><td>RMS : </td><td>%4\"</td></tr><tr><td>SNR : </td><td>%5\"</td></tr><tr><td>Impulsion AD : </td><td>%6 ms</td></tr><tr><td>Impulsion DEC : </td><td>%7 ms</td></tr></table>"
 
 #. +> trunk5
 #: ekos/guide/guidedriftgraph.cpp:305 ekos/guide/guidetargetplot.cpp:203
@@ -103485,7 +103485,7 @@ msgstr "triangle équilatéral"
 #: tools/starhopper.cpp:340
 #, kde-format
 msgid " within %1% of FOV of the marked star"
-msgstr "de l'ordre de %1% du champ de vision pour l'étoile sélectionnée"
+msgstr "de l'ordre de %1 % du champ de vision pour l'étoile sélectionnée"
 
 #. +> trunk5
 #: tools/starhopperdialog.cpp:64
