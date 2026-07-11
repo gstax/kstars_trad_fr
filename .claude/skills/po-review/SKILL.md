@@ -1,7 +1,7 @@
 ---
 name: po-review
 description: Ce skill doit être utilisé quand l'utilisateur demande de continuer, démarrer ou reprendre la relecture de kstars.po (ou d'un autre fichier .po de ce dépôt), dit "lot suivant", "passe au lot", "reprends la relecture", ou fait référence au projet de relecture par lots de kstars.po. Fournit le workflow validé de relecture et correction lot par lot des fichiers de traduction française .po de KDE.
-version: 1.2.0
+version: 1.3.0
 ---
 
 # Relecture de fichiers .po (kstars.po)
@@ -68,6 +68,8 @@ Workflow validé pour relire et corriger la traduction française de `kstars.po`
   - **Full-scan scriptable directement** (motif syntaxique détectable à 100 %, ex. spécificateurs de format `%1`/`%2`/`%n`, espace insécable avant unité, virgule décimale) → script sur tout le fichier, tableau de diffs, validation, correction.
   - **Extraction de candidats par script + relecture ciblée** (motif repérable mais jugement humain nécessaire sur chaque occurrence, ex. pluriels, accélérateurs clavier, majuscules de titre) → script qui réduit ~14 900 entrées à une liste de candidats, puis relecture normale sur ce sous-ensemble seulement.
   - **Manuel / grep de motifs connus** (jugement linguistique pur, pas de motif syntaxique fiable, ex. terminologie technique, anglicismes) → grep ciblé sur des anti-patterns déjà repérés en premier lieu ; relecture manuelle intégrale seulement si le grep ne suffit pas.
+- **Catégorie m (espace insécable avant unités/symboles °, ', ", %) — piège découvert le 2026-07-11** : un script full-scan brut donne énormément de faux signaux. Dans `kstars.po`, la notation compacte d'angle (arcmin/arcsec/degré, ex. `170' - 240'`, `%1°`, DMS) a une convention dominante et cohérente de **zéro espace**, sur des dizaines d'occurrences sans exception — y insérer une espace insécable casserait cette convention établie (qui correspond à l'usage scientifique standard des DMS compacts). Ne corriger que les vraies incohérences **internes au fichier** (une entrée qui dévie de la convention majoritaire pour ce même symbole), pas toutes les occurrences détectées par le motif syntaxique. Toujours établir la convention dominante par symbole avant de proposer des corrections.
+- **Catégorie n (virgule décimale) — piège découvert le 2026-07-11** : la majorité des `\d+\.\d+` détectés dans les `msgstr` ne sont **pas** des valeurs d'exemple à localiser : désignations d'époque astronomique (`J2000.0`), tailles de fichiers techniques, numéros de version logicielle (`v4.1.0`), adresses IP, URLs/DOI, syntaxe de saisie affichée à l'identique. Ne proposer la conversion que pour des valeurs numériques citées en prose explicative (tooltip, exemple d'usage) ; se méfier aussi des valeurs seules type `msgid` = `"3.5"` qui peuvent être une valeur de champ numérique (`QDoubleSpinBox`) potentiellement reparsée par le code selon la locale, où changer le texte risquerait de casser la valeur plutôt que juste l'affichage.
 
 ## Quand ce workflow ne s'applique pas
 
