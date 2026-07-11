@@ -5407,7 +5407,7 @@ msgstr "Règle de l'heure d'été"
 #, kde-format
 msgid "One city matches search criteria"
 msgid_plural "%1 cities match search criteria"
-msgstr[0] "Une seule ville correspond aux critères de recherche"
+msgstr[0] "%1 ville correspond aux critères de recherche"
 msgstr[1] "%1 villes correspondent aux critères de recherche"
 
 #. +> trunk5
@@ -16445,7 +16445,7 @@ msgstr "Dark Flat"
 #, kde-format
 msgid "One dark flats job was created."
 msgid_plural "%1 dark flats jobs were created."
-msgstr[0] "Une tâche pour les dark-flats a été créée."
+msgstr[0] "%1 tâche pour les dark-flats a été créée."
 msgstr[1] "%1 tâches pour les dark-flats ont été créées."
 
 #. +> trunk5
@@ -29810,7 +29810,7 @@ msgstr "La tâche %1 est terminée."
 msgid "Job '%1' is complete after #%2 batch."
 msgid_plural "Job '%1' is complete after #%2 batches."
 msgstr[0] "La tâche %1 s'est terminée après #%2 itération."
-msgstr[1] "La tâche %1 s'est terminée après %2 itérations."
+msgstr[1] "La tâche %1 s'est terminée après #%2 itérations."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:337
@@ -29818,8 +29818,8 @@ msgstr[1] "La tâche %1 s'est terminée après %2 itérations."
 #, kde-format
 msgid "Job '%1' is repeating, #%2 batch remaining."
 msgid_plural "Job '%1' is repeating, #%2 batches remaining."
-msgstr[0] "La tâche %1 se répète, #%2 reste dans le lot de tâches."
-msgstr[1] "La tâche %1 se répète, #%2 reste dans les lots de tâches."
+msgstr[0] "La tâche %1 se répète, #%2 lot restant."
+msgstr[1] "La tâche %1 se répète, #%2 lots restants."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:383
@@ -102082,7 +102082,7 @@ msgstr "Cercle spécifié illégal, pas de sélection de région possible."
 #, kde-format
 msgid "Your observing list currently has 1 object"
 msgid_plural "Your observing list currently has %1 objects"
-msgstr[0] "Votre liste d'observation contient actuellement un seul objet"
+msgstr[0] "Votre liste d'observation contient actuellement %1 objet"
 msgstr[1] "Votre liste d'observation contient actuellement %1 objets"
 
 #. i18n: ectx: property (text), widget (QLabel, WelcomeText)
