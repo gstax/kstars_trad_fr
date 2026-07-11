@@ -18297,7 +18297,7 @@ msgstr "Angle du rotateur"
 #: ekos/capture/rotatorsettings.ui:397
 #, kde-format
 msgid "<html><head/><body><p>The angle of the camera upright direction (see FOV) respective to the rotator origin direction. The camera offset is determined automatically by a <span style=\" font-weight:700;\">Capture &amp; Solve</span> or a <span style=\" font-weight:700;\">Load &amp; Slew</span> in the Align module. </p><p>The camera offset is measured in position angle scope (-179.99° to 180.00°).</p></body></html>"
-msgstr "<html><head/><body><p>L'angle de l'appareil dans la direction verticale (voir CdV) par rapport à la direction d'origine du rotateur. Le décalage de l'appareil est déterminé automatiquement grâce à l'opération <span style=\" font-weight:700;\">Acquérir &amp; Résoudre</span> ou <span style=\" font-weight:700;\">Charger &amp; Pivoter</span> du module Alignement.</p><p>Le décalage de la caméra est mesuré par l'angle de position du télescope (de -179.99° à 180.00°).</p></body></html>"
+msgstr "<html><head/><body><p>L'angle de l'appareil dans la direction verticale (voir CdV) par rapport à la direction d'origine du rotateur. Le décalage de l'appareil est déterminé automatiquement grâce à l'opération <span style=\" font-weight:700;\">Acquérir &amp; Résoudre</span> ou <span style=\" font-weight:700;\">Charger &amp; Pivoter</span> du module Alignement.</p><p>Le décalage de la caméra est mesuré par l'angle de position du télescope (de -179,99° à 180,00°).</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_3)
 #. +> trunk5
@@ -24419,7 +24419,7 @@ msgstr "<html><head/><body><p>Sélection des algorithmes d'impulsions de guidage
 #: ekos/guide/opsguide.ui:283
 #, kde-format
 msgid "<html><head/><body><p>This adds a correction term based on the average of the past 50 guide deviations. For example, if the deviation is consistently negative, this will attempt to compensate. Best to start with 0.0 (no effect) and only use this if necessary. (Only applies to the standard algorithm.)</p></body></html>"
-msgstr "<html><head/><body><p>Ceci ajoute un terme de correction fondé sur la moyenne des 50 écarts de guidage passés. Ainsi, si la déviation est toujours négative, ceci déclenchera une compensation. Il vaut mieux démarrer avec les valeurs 0.0 (pas d'effet) et utiliser seulement si nécessaire. (Ne s'applique qu'à l'algorithme standard)</p></body></html>"
+msgstr "<html><head/><body><p>Ceci ajoute un terme de correction fondé sur la moyenne des 50 écarts de guidage passés. Ainsi, si la déviation est toujours négative, ceci déclenchera une compensation. Il vaut mieux démarrer avec les valeurs 0,0 (pas d'effet) et utiliser seulement si nécessaire. (Ne s'applique qu'à l'algorithme standard)</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, l_12)
 #. +> trunk5
@@ -87350,19 +87350,19 @@ msgstr "0 sec"
 #: kstarslite/qml/modules/helpers/TimeSpinBox.qml:163
 #, kde-format
 msgid "0.1 secs"
-msgstr "0.1 sec"
+msgstr "0,1 sec"
 
 #. +> trunk5
 #: kstarslite/qml/modules/helpers/TimeSpinBox.qml:164
 #, kde-format
 msgid "0.25 secs"
-msgstr "0.25 sec"
+msgstr "0,25 sec"
 
 #. +> trunk5
 #: kstarslite/qml/modules/helpers/TimeSpinBox.qml:165
 #, kde-format
 msgid "0.5 secs"
-msgstr "0.5 sec"
+msgstr "0,5 sec"
 
 #. +> trunk5
 #: kstarslite/qml/modules/helpers/TimeSpinBox.qml:166
