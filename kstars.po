@@ -18173,9 +18173,9 @@ msgstr "Attendre ces quelques secondes après que le guidage ait été relancé 
 #. i18n: ectx: label, entry (CaptureOperationsTimeout), group (Capture)
 #. +> trunk5
 #: ekos/capture/opsmiscsettings.ui:173 kstars.kcfg:2358
-#, fuzzy, kde-format
+#, kde-format
 msgid "Maximum number of seconds to wait before aborting the capture if operations like filter wheel changes or meridian flips take too long. Also bounds the time the scheduler spends establishing guiding (calibration and lock) before starting capture."
-msgstr "Nombre maximum de secondes à attendre avant l'interruption de l'acquisition si des opérations comme le changement de filtres ou un retournement au méridien prennent trop de temps."
+msgstr "Nombre maximum de secondes à attendre avant l'interruption de l'acquisition si des opérations comme le changement de filtres ou un retournement au méridien prennent trop de temps. Limite également le temps que l'ordonnanceur consacre à l'établissement du guidage (calibration et verrouillage) avant de démarrer l'acquisition."
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk5
@@ -22939,22 +22939,14 @@ msgstr "Prêt à commencer…"
 #. i18n: ectx: property (html), widget (QTextEdit, logTextEdit)
 #. +> trunk5
 #: ekos/guide/aiguidewizard.ui:242
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Waiting to start...</p></body></html>"
-msgstr ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Mode de sélection du graphique 3D :</p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">- Aucun</p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">- Élément sélectionne le point le plus proche</p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">- Tranche crée une tranche 2D à travers le graphique</p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">En attente du démarrage …</p></body></html>"
 
 #. i18n: ectx: property (title), widget (QWizardPage, wizardPage4)
 #. +> trunk5
@@ -23001,16 +22993,16 @@ msgstr "Envoie des données anonymisées vers EkosLive Cloud pour entraîner ins
 #. i18n: ectx: property (text), widget (QPushButton, offlineDocsButton)
 #. +> trunk5
 #: ekos/guide/aiguidewizard.ui:304
-#, fuzzy, kde-format
+#, kde-format
 msgid "Offline Training Guide"
-msgstr "Guide de formation hors ligne"
+msgstr "Guide d'entraînement hors ligne"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, offlineDocsButton)
 #. +> trunk5
 #: ekos/guide/aiguidewizard.ui:307
-#, fuzzy, kde-format
+#, kde-format
 msgid "Open the KStars documentation on training the model offline."
-msgstr "Ouvrez la documentation KStars sur la formation du modèle hors ligne."
+msgstr "Ouvrir la documentation KStars sur l'entraînement du modèle hors ligne."
 
 #. +> trunk5
 #: ekos/guide/externalguide/linguider.cpp:70
@@ -31545,9 +31537,9 @@ msgstr "Attention : la tâche %1 pour la procédure de mise au point a échoué
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:2841
-#, fuzzy, kde-format
+#, kde-format
 msgid "Warning: job '%1' guiding stage exceeded operations timeout (%2 seconds), marking aborted."
-msgstr "Attention : la tâche %1 pour la procédure de guidage a échoué. Tâche marquée annulée."
+msgstr "Attention : la tâche %1 a dépassé le délai d'expiration des opérations (%2 secondes) au niveau de l'étape de guidage. Tâche marquée annulée."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:2862
