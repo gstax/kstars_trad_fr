@@ -1,7 +1,7 @@
 ---
 name: po-review
 description: Ce skill doit être utilisé quand l'utilisateur demande de continuer, démarrer ou reprendre la relecture de kstars.po (ou d'un autre fichier .po de ce dépôt), dit "lot suivant", "passe au lot", "reprends la relecture", ou fait référence au projet de relecture par lots de kstars.po. Fournit le workflow validé de relecture et correction lot par lot des fichiers de traduction française .po de KDE.
-version: 1.6.0
+version: 1.6.1
 ---
 
 # Relecture de fichiers .po (kstars.po)
@@ -48,7 +48,7 @@ Workflow validé pour relire et corriger la traduction française de `kstars.po`
    - Ne jamais toucher aux entrées `kstars_i18n.cpp` ni retirer un `:` final délibéré.
 7. **Valider** avec `msgfmt --check kstars.po -o /dev/null`.
 8. **Committer séparément pour ce lot uniquement** :
-   - `git add kstars.po && git commit --author="steve <stax@ik.me>"` avec un message décrivant les catégories de corrections (pas de liste exhaustive ligne par ligne).
+   - `git add kstars.po && git commit --author="Steve Roger <stax@ik.me>"` avec un message décrivant les catégories de corrections (pas de liste exhaustive ligne par ligne). Faire correspondre exactement `git config user.name` (vérifier avec `git config user.name` si un doute — a déjà dérivé une fois, voir [[feedback_git_author_match_config]]).
    - **Jamais** de `Co-Authored-By`.
    - **Jamais** de `git push` — l'utilisateur pousse lui-même.
 9. **Vérifier l'harmonisation avec la doc** : si le lot a corrigé au moins un libellé UI court (pas une description longue type tooltip/whatsthis), lancer `python3 ~/sources/documentation-kstars-docs-kde-org/check_ui_labels.py` (nécessite `polib`, déjà installé) depuis la racine de ce dépôt doc. Ce script compare les libellés cités entre `` `` `` dans les `.po` de la doc avec leur traduction dans `kstars.po`. Corriger dans la doc toute nouvelle divergence causée par la correction du lot (commit séparé dans le dépôt doc, même règles : `--author="steve <stax@ik.me>"`, sans push). Voir [[reference_check_ui_labels]]. Ne pas toucher aux divergences préexistantes sans rapport avec le lot en cours.
