@@ -1,7 +1,7 @@
 ---
 name: po-review
 description: Ce skill doit être utilisé quand l'utilisateur demande de continuer, démarrer ou reprendre la relecture de kstars.po (ou d'un autre fichier .po de ce dépôt), dit "lot suivant", "passe au lot", "reprends la relecture", ou fait référence au projet de relecture par lots de kstars.po. Fournit le workflow validé de relecture et correction lot par lot des fichiers de traduction française .po de KDE.
-version: 1.5.0
+version: 1.6.0
 ---
 
 # Relecture de fichiers .po (kstars.po)
@@ -39,7 +39,7 @@ Workflow validé pour relire et corriger la traduction française de `kstars.po`
    - **p. Anglicismes / calques** : traductions trop littérales qui sonnent faux en français technique (ex. "réaliser" pour "realize" au sens de "se rendre compte").
    - Ne **pas** signaler l'absence de `:` final sur les libellés d'interface courts (choix délibéré de l'utilisateur, voir mémoire `feedback_no_trailing_colon_ui`).
 
-4. **Lister les problèmes** trouvés dans les catégories sélectionnées, dans un tableau `Ligne | Avant | Après proposé | Motif`, classés par gravité (contresens et bugs sérieux en premier).
+4. **Lister les problèmes** trouvés dans les catégories sélectionnées, dans un tableau `Ligne | VO (msgid) | Avant (msgstr actuel) | Après proposé | Motif`, classés par gravité (contresens et bugs sérieux en premier). **Toujours inclure la VO (msgid anglais)**, pas seulement le msgstr actuel et la proposition : l'utilisateur ne relit pas le fichier en parallèle et ne peut pas valider une correction sans pouvoir comparer au texte source (voir mémoire `feedback_review_table_include_source`).
 5. **Attendre la validation explicite** de l'utilisateur avant de corriger quoi que ce soit. Si l'utilisateur soulève un doute sur une correction proposée (ex. une espace traînante pourrait être nécessaire avant un widget numérique), vérifier le raisonnement avant d'agir — ne pas appliquer aveuglément.
 6. **Appliquer les corrections** avec un script Python plutôt qu'Edit (le fichier est trop volumineux et les entrées se répètent) :
    - Préférer un remplacement par **contenu exact** (`text.count(old) == 1` avant remplacement) pour les entrées sur une seule ligne.
