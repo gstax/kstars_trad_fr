@@ -1,29 +1,57 @@
 # KStars en français
 
-Traduction du fichier de la GUI kstars.po en français. (Et, de fil en aiguille, de la documentation...)
+Traduction du fichier de la GUI `kstars.po` en français.
 
-But: une interface professionnelle, francisée et épurée.
+But : une interface professionnelle, francisée et épurée.
 
+## État actuel
+
+Relecture complète effectuée par lots. Depuis, le fichier est maintenu au fil
+des mises à jour de KStars : à chaque nouveau `msgmerge` contre le `.pot`
+amont, les chaînes marquées « fuzzy » ou non traduites sont relues et
+corrigées.
+
+État visé en permanence : `msgfmt --statistics kstars.po` → 0 fuzzy, 0 non
+traduit, `msgfmt --check` sans erreur.
+
+## Documentation
+
+La documentation (manuel utilisateur, fichiers Sphinx) vit dans un dépôt
+séparé. Ce dépôt-ci ne concerne que `kstars.po` (l'application elle-même).
 
 ## Source
 
-Il se trouve ici : https://fr.l10n.kde.org/apps/pofiles.php#kstars
+Le fichier `kstars.po` de ce dépôt suit la branche summit/trunk5 de KDE. Il
+contient déjà les commentaires `#. +> trunk5` à conserver impérativement lors
+de toute édition (ne jamais les supprimer par erreur).
 
-Le lien direct est [https://websvn.kde.org/trunk/l10n-support/fr/summit/messages/kstars/kstars.po?view=co](https://websvn.kde.org/trunk/l10n-support/fr/summit/messages/kstars/kstars.po?view=co)
+Référence en ligne : https://fr.l10n.kde.org/apps/pofiles.php#kstars, lien
+direct
+[websvn](https://websvn.kde.org/trunk/l10n-support/fr/summit/messages/kstars/kstars.po?view=co).
+Le `Project-Id-Version` du fichier n'est pas toujours fiable pour dater une
+version : croiser plutôt `POT-Creation-Date` avec `appdata.xml` et le
+`git log` du dépôt source KStars.
 
-Ce fichier contient les balises trunk5 à garder.
+## Circuit de soumission
+
+Pas d'accès en écriture au SVN KDE, et pas de MR GitLab possible pour ce
+dépôt. Le circuit de livraison est :
+
+1. `git push` sur le fork GitHub personnel
+2. Signalement par mail au mainteneur côté KDE que le fichier à jour est disponible
+   sur le fork. 
 
 ## Site ouebe
 
 Le lien du [fichier po](https://websvn.kde.org/trunk/l10n-support/fr/summit/messages/websites-kstars-kde-org/kstars-kde-org.po?view=log).
 
-### Fichiers po de la documentation
-
-!!! Les fichiers se trouvent maintenant dans le dépôt kstars-documentation !!!
-
+Le site se trouve [ici](https://kstars.kde.org/fr/).
 
 ### KDE en français
 Un [glossaire de KDE](https://fr.l10n.kde.org/dict/).
+
+#### Doc kstars en français
+Elle se trouve [ici](https://kstars-docs.kde.org/fr/index.html).
 
 #### Doc kstars en anglais
 Elle se trouve [ici](https://docs.kde.org/trunk5/en/kstars/kstars/index.html).
@@ -36,64 +64,67 @@ Le fichier source kstars.po est compilé en kstars.mo avec la commande:
 
 Il faut que le paquet "gettext" (apt install gettext) soit installé.
 
-Reformater le fichier po :
 
-<code>msgcat kstars.po > kstars_cat.po</code>
-
-## Traduction de la documentation
-
-### Différence entre deux versions
-<code>diff -u <(msgfmt -o - kstars.po| msgunfmt ) <(msgfmt -o - kstars_3.5.9.po| msgunfmt)</code>
 
 ### Extraction chaînes non-traduite
 <code>msgattrib --untranslated source.po -o output.po</code><br/>
 Il existe une option pour les fuzzy également (--only-fuzzy).
 
 ## Vérification des po
-Plusieurs outils existent pour vérifier les fichiers.
 
-<code>pology check_rules fichier.po</code><br/>
+Vérifications systématiques après chaque modification :
 
-[Doc pology](https://community.kde.org/KDE_Localization/fr/pology)
+<code>msgfmt --check kstars.po -o /dev/null</code><br/>
+<code>msgfmt --statistics kstars.po</code>
 
-<code>i18nspector -l fr fichier.po</code> [doc](https://i18nspector.readthedocs.io/en/stable/)
+Outils complémentaires pour une passe ponctuelle plus poussée :
 
-Comme ce sont des fichiers pris dans la branche trunk, il faut rajouter ce drapeau aux fichiers po. Un script python le fait :
+* **i18nspector** (paquet système, `apt install i18nspector`) : vérifie
+  l'en-tête, l'encodage, les pluriels...
+  <code>i18nspector -l fr fichier.po</code>
+  [doc](https://i18nspector.readthedocs.io/en/stable/)
 
-<code>python3 add_trunk.py fichier.po</code>
+* **pology** (dépôt [KDE/pology](https://github.com/KDE/pology), pas de
+  paquet système — cloner puis lancer depuis le clone) : règles
+  linguistiques françaises (typographie, choix terminologiques de l'équipe,
+  fautes courantes).
+  <code>PYTHONPATH=&lt;chemin_du_clone_pology&gt; python3 &lt;chemin_du_clone_pology&gt;/bin/posieve check-rules -s lang:fr fichier.po</code>
+  [doc](https://community.kde.org/KDE_Localization/fr/pology)
 
-
-#### Remarques
-
-* \usepackage[latin1]{inputenc} plutôt que \usepackage[utf8]{inputenc}, ce qui
-  pose problème pour certains symboles comme les points de suspension …
-  (&hellip;) qui ne sont pas affichés dans le pdf.
-* \def\DBKlocale{en}. Le nom des tables, sections etc… sont en anglais. 
-* pas de Babel ?
-
-## Traduction du site ouebe
-
-Il se trouve [ici](https://kstars.kde.org/fr/).
-
-Et le po est [ici](https://websvn.kde.org/trunk/l10n-support/fr/summit/messages/websites-kstars-kde-org/).
-
+  Rendement bruité (pas mal de faux positifs sur les règles génériques) :
+  à utiliser comme passe complémentaire ponctuelle en fin de relecture,
+  pas comme vérification systématique à chaque commit.
 
 
 ## Bonnes pratiques
 
 * règle pour anti- (voir https://fr.wiktionary.org/wiki/anti-#fr)
-
-* Points cardinaux : attention aux règles (p. ex (https://www.btb.termiumplus.gc.ca/redac-chap?lang=fra&lettr=chapsect3&info0=3.3.2)
-* Enlever tous les :
+* Points cardinaux : attention aux règles (p. ex (https://www.btb.termiumplus.gc.ca/redac-chap?lang=fra&lettr=chapsect3&info0=3.3.2)
+* Enlever tous les `:` finaux sur les libellés d'interface courts (choix
+  délibéré : QLabel/QCheckBox/QPushButton/QRadioButton courts, pas les
+  phrases complètes).
+* Points de suspension : uniformisés vers `…` (unicode) en fin de `msgstr`,
+  jamais `...` (ASCII) — sauf dans les `msgid` anglais sources.
 * Pas de guillemets autour de Ekos et INDI 
-* En français l'apostrophe est le caractère U+2019 « ’ », et non U+0027 « ' » (qui correspond à celle sur mon clavier, même touche que le ?). Dans vim, on peut les trouver en faisant [\u0027], et on l'entre avec « Ctrl+K '9 ». Dans vim, on peut chercher et remplacer avec:
-  <code>:%s/[\u0027]/’/gc</code> (en entrant directement Ctrl+k '9 dans la ligne ex). Mais, car il y a toujours un mais, l'équipe de traduction de KDE a choisi l'inverse, à savoir l'apostrophe simple (U+0027). Donc, c'est <code>:%s/’/'/gc</code> qu'il faut faire.
+* En français l'apostrophe est le caractère U+2019 « ’ », et non U+0027 « ' » (qui correspond à celle sur mon clavier, même touche que le ?). Dans vim, on peut les trouver en faisant ['], et on l'entre avec « Ctrl+K '9 ». Dans vim, on peut chercher et remplacer avec:
+  <code>:%s/[']/’/gc</code> (en entrant directement Ctrl+k '9 dans la ligne ex). Mais, car il y a toujours un mais, l'équipe de traduction de KDE a choisi l'inverse, à savoir l'apostrophe simple (U+0027). Donc, c'est <code>:%s/’/'/gc</code> qu'il faut faire.
+* Jargon astrophoto délibérément gardé en anglais : Light/Dark/Bias/Flat non
+  traduits (seul Video → Vidéo l'est).
 
 ## Glossaire
 
 * Capture -> Acquisition
 * Meridian flip -> Retournement au méridien
 * Focusor -> Moteur de mise au point
-* Plate solver -> Résolveur
+* Plate solver -> Résolveur / résolution astrométrique
 * Autofocus -> Mise au point automatique
-* location -> position (en non emplacemnt)
+* location -> position (et non emplacement)
+* Backlash -> Jeu (mécanique)
+* Scheduler -> Ordonnanceur
+* Dithering / Dither -> Décalage
+* Park / Unpark -> Parquer / Déparquer
+* Polar Alignment -> Alignement polaire
+* Slew -> Pointer (télescope/monture)
+* Field rotation -> Rotation de champ
+* Tilt (plate/correction) -> Inclinaison
+* Autoguiding -> Guidage automatique
