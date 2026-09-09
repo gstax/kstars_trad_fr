@@ -34678,7 +34678,7 @@ msgstr "Objets du catalogue"
 #: fitsviewer/fitstab.cpp:166
 #, kde-format
 msgid "Live Stacking"
-msgstr "Empilement live"
+msgstr "Empilement en direct"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:179
@@ -35106,7 +35106,7 @@ msgstr "Ouvrir le dossier"
 #: fitsviewer/fitsviewer.cpp:153 kstarsinit.cpp:167
 #, kde-format
 msgid "Live Stacker..."
-msgstr "Empilement live…"
+msgstr "Empilement en direct…"
 
 #. +> trunk5
 #: fitsviewer/fitsviewer.cpp:174
@@ -35615,7 +35615,7 @@ msgstr "<html><head/><body><p>Surveillance mémoire. Double-cliquez pour affiche
 #: fitsviewer/livestacking.ui:717
 #, kde-format
 msgid "<html><head/><body><p>Save Live Stacker parameters</p></body></html>"
-msgstr "<html><head/><body><p>Enregistrer les paramètres de l'empilement live</p></body></html>"
+msgstr "<html><head/><body><p>Enregistrer les paramètres de l'empilement en direct</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, SaveB)
 #. +> trunk5
@@ -43821,14 +43821,14 @@ msgstr "Interrupteur de calcul du SRN de l'empilement en direct"
 #: kstars.kcfg:1835
 #, kde-format
 msgid "Live Stacking master dark"
-msgstr "Master dark de l'empilement live"
+msgstr "Master dark de l'empilement en direct"
 
 #. i18n: ectx: whatsthis, entry (fitsLSMasterFlat), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1839
 #, kde-format
 msgid "Live Stacking master flat"
-msgstr "Master flat de l'empilement live"
+msgstr "Master flat de l'empilement en direct"
 
 #. i18n: ectx: whatsthis, entry (fitsLSHotPixels), group (FITSViewer)
 #. +> trunk5
@@ -43849,28 +43849,28 @@ msgstr "Empilement en direct : supprimer les pixels froids"
 #: kstars.kcfg:1851
 #, kde-format
 msgid "Live Stacking alignment method"
-msgstr "Méthode d'alignement de l'empilement live"
+msgstr "Méthode d'alignement de l'empilement en direct"
 
 #. i18n: ectx: label, entry (fitsLSNumInMem), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1855
 #, kde-format
 msgid "Live Stacking max number of subs to keep in memory"
-msgstr "Nombre maximum de poses pour l'empilement live."
+msgstr "Nombre maximum de poses pour l'empilement en direct."
 
 #. i18n: ectx: whatsthis, entry (fitsLSDownscale), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1859
 #, kde-format
 msgid "Live Stacking downscale factor"
-msgstr "Facteur de réduction de l'empilement live"
+msgstr "Facteur de réduction de l'empilement en direct"
 
 #. i18n: ectx: whatsthis, entry (fitsLSWeighting), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1863
 #, kde-format
 msgid "Live Stacking sub weighting"
-msgstr "Pondération des images de l'empilement live"
+msgstr "Pondération des images de l'empilement en direct"
 
 #. i18n: ectx: whatsthis, entry (fitsLSNormalization), group (FITSViewer)
 #. +> trunk5
@@ -43891,21 +43891,21 @@ msgstr "Méthode d'alignement de l'empilement en direct"
 #: kstars.kcfg:1875
 #, kde-format
 msgid "Live Stacking low sigma pixel rejection criteria"
-msgstr "Critère de rejet de pixel avec Sigma bas de l'empilement live"
+msgstr "Critère de rejet de pixel avec Sigma bas de l'empilement en direct"
 
 #. i18n: ectx: label, entry (fitsLSHighSigma), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1879
 #, kde-format
 msgid "Live Stacking high sigma pixel rejection criteria"
-msgstr "Critère de rejet de pixel avec Sigma haut de l'empilement live"
+msgstr "Critère de rejet de pixel avec Sigma haut de l'empilement en direct"
 
 #. i18n: ectx: label, entry (fitsLSWinsorCutoff), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1883
 #, kde-format
 msgid "Live Stacking sigma clipping windzor cutoff"
-msgstr "Coupure Sigma winsorisé de l'empilement live"
+msgstr "Coupure Sigma winsorisé de l'empilement en direct"
 
 #. i18n: ectx: label, entry (fitsLSIterations), group (FITSViewer)
 #. +> trunk5
@@ -43954,49 +43954,49 @@ msgstr "Interrupteur de post-traitement de l'empilement en direct"
 #: kstars.kcfg:1911
 #, kde-format
 msgid "Live Stacking gradient removal amount"
-msgstr "Quantité de suppression du gradient pour l'empilement live"
+msgstr "Quantité de suppression du gradient pour l'empilement en direct"
 
 #. i18n: ectx: label, entry (fitsLSDeconvAmt), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1915
 #, kde-format
 msgid "Live Stacking deconvolution amount"
-msgstr "Quantité de déconvolution de l'empilement live"
+msgstr "Quantité de déconvolution de l'empilement en direct"
 
 #. i18n: ectx: label, entry (fitsLSPSFSigma), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1919
 #, kde-format
 msgid "Live Stacking PSF sigma to apply in deconvolution"
-msgstr "Quantité de Sigma PSF de déconvolution à appliquer à l'empilement live"
+msgstr "Quantité de Sigma PSF de déconvolution à appliquer à l'empilement en direct"
 
 #. i18n: ectx: label, entry (fitsLSDenoiseAmt), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1923
 #, kde-format
 msgid "Live Stacking denoise amount"
-msgstr "Quantité de débruitage pour l'empilement live"
+msgstr "Quantité de débruitage pour l'empilement en direct"
 
 #. i18n: ectx: label, entry (fitsLSSharpenAmt), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1927
 #, kde-format
 msgid "Live Stacking sharpen amount"
-msgstr "Quantité d'affinage pour l'empilement live"
+msgstr "Quantité d'affinage pour l'empilement en direct"
 
 #. i18n: ectx: label, entry (fitsLSSharpenKernal), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1931
 #, kde-format
 msgid "Live Stacking sharpening kernel size"
-msgstr "Taille de noyau pour l'affinage de l'empilement live"
+msgstr "Taille de noyau pour l'affinage de l'empilement en direct"
 
 #. i18n: ectx: label, entry (fitsLSSharpenSigma), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1935
 #, kde-format
 msgid "Live Stacking sharpening sigma"
-msgstr "Sigma d'affinage pour l'empilement live"
+msgstr "Sigma d'affinage pour l'empilement en direct"
 
 #. i18n: ectx: label, entry (fitsLSMWindowGeometry), group (FITSViewer)
 #. +> trunk5
