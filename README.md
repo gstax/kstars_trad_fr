@@ -64,7 +64,9 @@ Le fichier source kstars.po est compilé en kstars.mo avec la commande:
 
 Il faut que le paquet "gettext" (apt install gettext) soit installé.
 
-
+Pour l'utiliser avec la version Flatpak de KStars, copier le `.mo` vers
+`~/.var/app/org.kde.kstars/data/locale/fr/LC_MESSAGES/kstars.mo` (pas dans le
+checkout OSTree, qui est en lecture seule et écrasé à chaque mise à jour).
 
 ### Extraction chaînes non-traduite
 <code>msgattrib --untranslated source.po -o output.po</code><br/>
