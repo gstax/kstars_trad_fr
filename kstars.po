@@ -4985,7 +4985,7 @@ msgstr "(rien)"
 #: dialogs/finddialog.cpp:491
 #, kde-format
 msgid "Searching the internet for \"%1\""
-msgstr "Recherche de « %1 » sur Internet…"
+msgstr "Recherche de « %1 » sur Internet…"
 
 #. +> trunk5
 #: dialogs/finddialog.cpp:499
@@ -8835,7 +8835,7 @@ msgstr "Conserver l'angle de position"
 #: ekos/align/opsalign.ui:373
 #, kde-format
 msgid "<html><head/><body><p>Enable if the rotator physically turns opposite to the direction expected. Detected and set automatically the first time the wrong-direction check confirms it; can also be set manually.</p></body></html>"
-msgstr "<html><head/><body><p>À activer si le rotateur tourne physiquement dans la direction opposée à celle attendue. Détecté et réglé automatiquement la première fois que le contrôle de mauvaise direction le confirme ; peut aussi être réglé manuellement.</p></body></html>"
+msgstr "<html><head/><body><p>À activer si le rotateur tourne physiquement dans la direction opposée à celle attendue. Détecté et réglé automatiquement la première fois que le contrôle de mauvaise direction le confirme ; peut aussi être réglé manuellement.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_RotatorParityReversed)
 #. +> trunk5
@@ -18218,7 +18218,7 @@ msgstr "Nouvelle mise au point par suite d'un changement de température de %1°
 #: ekos/capture/refocusstate.cpp:76
 #, kde-format
 msgid "In sequence HFR based refocus starting..."
-msgstr "Nouvelle mise au point en cours de séquence, basée sur le HFR…"
+msgstr "Nouvelle mise au point en cours de séquence, fondée sur le HFR…"
 
 #. +> trunk5
 #: ekos/capture/refocusstate.cpp:84
@@ -22627,25 +22627,25 @@ msgstr ""
 #: ekos/focus/tiltcorrectionwidget.cpp:533
 #, kde-format
 msgid "Point 1: N/A"
-msgstr "Point 1 : N/A"
+msgstr "Point 1 : n/d"
 
 #. +> trunk5
 #: ekos/focus/tiltcorrectionwidget.cpp:534
 #, kde-format
 msgid "Point 2: N/A"
-msgstr "Point 2 : N/A"
+msgstr "Point 2 : n/d"
 
 #. +> trunk5
 #: ekos/focus/tiltcorrectionwidget.cpp:535
 #, kde-format
 msgid "Point 3: N/A"
-msgstr "Point 3 : N/A"
+msgstr "Point 3 : n/d"
 
 #. +> trunk5
 #: ekos/focus/tiltcorrectionwidget.cpp:536
 #, kde-format
 msgid "Point 4: N/A"
-msgstr "Point 4 : N/A"
+msgstr "Point 4 : n/d"
 
 #. +> trunk5
 #: ekos/focus/tiltcorrectionwidget.cpp:602
@@ -24619,7 +24619,7 @@ msgid ""
 "\n"
 "Re-run the Guide AI Assistant, load a different weights file, or switch the Guide Algorithm to a standard mode. Guiding has been aborted."
 msgstr ""
-"Échec du chargement des poids du Guide IA !\n"
+"Échec du chargement des poids du Guide IA !\n"
 "\n"
 "%1\n"
 "\n"
@@ -24635,7 +24635,7 @@ msgstr "Erreur du Guide IA"
 #: ekos/guide/internalguide/gmath.cpp:324
 #, kde-format
 msgid "AI Guiding is selected but no trained weights are loaded. Load them via the AI button > 'Load Weights...', or run the Guide AI Assistant. Guiding aborted."
-msgstr "Le guidage IA est sélectionné mais aucun poids entraîné n'est chargé. Chargez-les via le bouton IA > « Charger les poids… », ou exécutez l'Assistant de guidage IA. Guidage interrompu."
+msgstr "Le guidage IA est sélectionné mais aucun poids entraîné n'est chargé. Chargez-les via le bouton IA > « Charger les poids… », ou exécutez l'Assistant de guidage IA. Guidage interrompu."
 
 #. +> trunk5
 #: ekos/guide/internalguide/gmath.cpp:327
@@ -24898,7 +24898,7 @@ msgstr "Réglage automatique PID (étalonnage du gain étape-réponse)"
 #: ekos/guide/opsaiconfig.ui:79
 #, kde-format
 msgid "Sends known pulses at the start of the protocol and measures the mount's step response to derive a base RA/DEC guiding gain for any mount type. The measured gain is applied and locked for the rest of the session; the current gain is kept if the responses do not pass the consistency checks. Adds roughly 20 minutes to the protocol; enabled by default."
-msgstr "Envoie des impulsions connues au début du protocole et mesure la réponse échelonnée de la monture pour dériver un gain de guidage RA/DEC de base pour tout type de monture. Le gain mesuré est appliqué et verrouillé pour le reste de la session ; le gain actuel est conservé si les réponses ne passent pas les contrôles de cohérence. Ajoute environ 20 minutes au protocole ; activé par défaut."
+msgstr "Envoie des impulsions connues au début du protocole et mesure la réponse échelonnée de la monture pour dériver un gain de guidage RA/DEC de base pour tout type de monture. Le gain mesuré est appliqué et verrouillé pour le reste de la session ; le gain actuel est conservé si les réponses ne passent pas les contrôles de cohérence. Ajoute environ 20 minutes au protocole ; activé par défaut."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AIDarkGuiding)
 #. +> trunk5
@@ -28139,7 +28139,7 @@ msgstr "Ce nom de profil existe déjà."
 #: ekos/profileeditor.cpp:350
 #, kde-format
 msgid "<nobr>Available as <b>Remote</b> Driver only. It is not installed locally and cannot be used in a <b>Local</b> profile. To use it locally, install the corresponding driver.<nobr/>"
-msgstr "<nobr>Disponible uniquement comme pilote <b>distant</b>. Il n'est pas installé localement et ne peut pas être utilisé dans un profil <b>local</b>. Pour l'utiliser localement, installez le pilote correspondant.<nobr/>"
+msgstr "<nobr>Disponible uniquement comme pilote <b>distant</b>. Il n'est pas installé localement. Impossible de l'utiliser dans un profil <b>local</b>. Pour l'utiliser localement, installez le pilote correspondant.<nobr/>"
 
 #. +> trunk5
 #: ekos/profileeditor.cpp:353
@@ -28157,7 +28157,7 @@ msgstr "Pilotes"
 #: ekos/profileeditor.cpp:654
 #, kde-format
 msgid "<b>%1</b> is only available as a <b>Remote</b> driver and is not installed locally. It cannot be added to a Local profile. Switch to a Remote profile or install the driver locally."
-msgstr "<b>%1</b> est disponible uniquement comme pilote <b>distant</b> et n'est pas installé localement. Il ne peut pas être ajouté à un profil local. Passez à un profil distant ou installez le pilote localement."
+msgstr "<b>%1</b> est disponible uniquement comme pilote <b>distant</b> et n'est pas installé localement. Impossible de l'ajouter à un profil local. Passez à un profil distant ou installez le pilote localement."
 
 #. +> trunk5
 #: ekos/profileeditor.cpp:785
@@ -31211,7 +31211,7 @@ msgstr "La météo s'est améliorée pendant la période de grâce. Reprise des 
 #: ekos/scheduler/schedulerprocess.cpp:548
 #, kde-format
 msgid "Weather grace period is set to indefinite wait. Weather is still not OK, continuing to monitor..."
-msgstr "La période de grâce météorologique est définie sur attente indéfinie. La météo n'est toujours pas OK, surveillance en cours…"
+msgstr "La période de grâce météorologique est définie sur attente indéfinie. La météo n'est toujours pas Ok, surveillance en cours…"
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:561
@@ -32700,7 +32700,7 @@ msgstr "Valeur attendue"
 #: skycomponents/imageoverlaycomponent.cpp:557
 #, kde-format
 msgid "OK"
-msgstr "OK"
+msgstr "Ok"
 
 #. +> trunk5
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:1017
@@ -34697,7 +34697,7 @@ msgstr "R"
 #: fitsviewer/fitstab.cpp:642
 #, kde-format
 msgid "%1 / %2 Simbad objects loaded"
-msgstr "%1 / %2 objets Simbad chargés"
+msgstr "%1 / %2 objets Simbad chargés"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:657
@@ -46110,7 +46110,7 @@ msgstr "Exécutez le réglage automatique PID (étalonnage du gain étape-répon
 #: kstars.kcfg:3127
 #, kde-format
 msgid "Sends known pulses at the start of the protocol and measures the mount's step response to derive a base RA/DEC guiding gain for any mount type. The measured gain is applied and locked for the rest of the session, so the data that follows is collected under it; the current gain is kept unchanged if the responses do not pass the consistency checks. Adds roughly 20 minutes to the protocol. Enabled by default."
-msgstr "Envoie des impulsions connues au début du protocole et mesure la réponse échelonnée de la monture pour dériver un gain de guidage RA/DEC de base pour tout type de monture. Le gain mesuré est appliqué et verrouillé pour le reste de la session, de sorte que les données suivantes sont collectées avec ce gain ; le gain actuel reste inchangé si les réponses ne réussissent pas les contrôles de cohérence. Ajoute environ 20 minutes au protocole. Activé par défaut."
+msgstr "Envoie des impulsions connues au début du protocole et mesure la réponse échelonnée de la monture pour dériver un gain de guidage RA/DEC de base pour tout type de monture. Le gain mesuré est appliqué et verrouillé pour le reste de la session, de sorte que les données suivantes sont collectées avec ce gain ; le gain actuel reste inchangé si les réponses ne réussissent pas les contrôles de cohérence. Ajoute environ 20 minutes au protocole. Activé par défaut."
 
 #. i18n: ectx: label, entry (AIShadowMode), group (Guide)
 #. +> trunk5
@@ -46124,7 +46124,7 @@ msgstr "Exécute le modèle d'IA en parallèle du guidage standard, en enregistr
 #: kstars.kcfg:3132
 #, kde-format
 msgid "When enabled and a valid AI weights file is configured, the AI model runs silently in parallel with the selected guiding algorithm. Predictions are written to the AI debug CSV log but are never blended into guide pulses. Use this to evaluate AI model quality before enabling full AI guiding."
-msgstr "Lorsque cette option est activée et qu'un fichier de poids IA valide est configuré, le modèle d'IA s'exécute silencieusement en parallèle de l'algorithme de guidage sélectionné. Les prédictions sont écrites dans le journal CSV de débogage de l'IA mais ne sont jamais mélangées aux impulsions de guidage. Utilisez ceci pour évaluer la qualité du modèle d'IA avant d'activer le guidage IA complet."
+msgstr "Lorsque cette option est activée et qu'un fichier de poids IA valable est configuré, le modèle d'IA s'exécute silencieusement en parallèle de l'algorithme de guidage sélectionné. Les prédictions sont écrites dans le journal CSV de débogage de l'IA mais ne sont jamais mélangées aux impulsions de guidage. Utilisez ceci pour évaluer la qualité du modèle d'IA avant d'activer le guidage IA complet."
 
 #. i18n: ectx: label, entry (PHD2Host), group (Guide)
 #. +> trunk5
@@ -47573,7 +47573,7 @@ msgstr "Outils MCP désactivés par l'utilisateur"
 #: kstars.kcfg:4043
 #, kde-format
 msgid "Tool names excluded from the MCP tools/list response and rejected on tools/call. Tools not listed here are enabled."
-msgstr "Noms d'outils exclus de la réponse ``tools/list`` de MCP et rejetés lors de l'appel ``tools/call``. Les outils non répertoriés ici sont activés."
+msgstr "Noms d'outils exclus de la réponse « tools/list » de MCP et rejetés lors de l'appel « tools/call ». Les outils non répertoriés ici sont activés."
 
 #. +> trunk5
 #: kstars_i18n.cpp:2
@@ -100834,7 +100834,7 @@ msgid ""
 "See Data -> Download New Data if not..."
 msgstr ""
 "Vous devez charger un catalogue pour pouvoir utiliser cet outil.\n"
-"Utiliser le bouton Charger le Catalogue si présent. Voir Données / Télécharger de nouvelles données…"
+"Utiliser le bouton Charger le Catalogue si présent. Voir Données / Télécharger de nouvelles données…"
 
 #. +> trunk5
 #: tools/imagingplanner.cpp:2399
