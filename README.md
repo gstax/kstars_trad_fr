@@ -130,3 +130,6 @@ Outils complémentaires pour une passe ponctuelle plus poussée :
 * Field rotation -> Rotation de champ
 * Tilt (plate/correction) -> Inclinaison
 * Autoguiding -> Guidage automatique
+* Dark (frame) / Dark Library -> dark / Bibliothèque de darks
+* Binning -> Regroupement
+* Rolloff roof -> Toit roulant
