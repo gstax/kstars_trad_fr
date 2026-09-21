@@ -5902,7 +5902,7 @@ msgstr "Calcul du champ de vision"
 #: ekos/scheduler/taskqueue/ui/deviceselectiondialog.cpp:487
 #, kde-format
 msgid "Camera"
-msgstr "Appareil"
+msgstr "Caméra"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel5_2)
 #. +> trunk5
@@ -6461,7 +6461,7 @@ msgstr "(L'aperçu montre la vue à l'arrière d'un SCT)"
 #: dialogs/newview.ui:281
 #, kde-format
 msgid "Display mounted on the telescope (also check this if using a camera instead of visual observation)"
-msgstr "Affichage monté sur le télescope (vérifiez cela également si vous utilisez un appareil plutôt que l'observation visuelle)"
+msgstr "Affichage monté sur le télescope (vérifiez cela également si vous utilisez une caméra plutôt que l'observation visuelle)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, fieldOfViewCheckBox)
 #. +> trunk5
@@ -7542,7 +7542,7 @@ msgstr "Erreur du rotateur détectée. Abandon de l'alignement."
 #: ekos/align/align_goto.cpp:364
 #, kde-format
 msgid "Rotator reached camera position angle."
-msgstr "Le rotateur a atteint l'angle de position de l'appareil."
+msgstr "Le rotateur a atteint l'angle de position de la caméra."
 
 #. +> trunk5
 #: ekos/align/align_goto.cpp:399
@@ -7597,7 +7597,7 @@ msgstr "Définition de l'angle de position à %1 degrés…"
 #: ekos/align/align_goto.cpp:698
 #, kde-format
 msgid "Camera position angle is within acceptable range."
-msgstr "L'angle de position de l'appareil se trouve dans une plage acceptable."
+msgstr "L'angle de position de la caméra se trouve dans une plage acceptable."
 
 #. +> trunk5
 #: ekos/align/align_goto.cpp:710
@@ -7807,7 +7807,7 @@ msgstr "L'ouverture du télescope et la longueur focale sont absentes. Veuillez 
 #: ekos/align/align_solver.cpp:103
 #, kde-format
 msgid "Camera pixel size is missing. Please check your driver settings and try again."
-msgstr "La taille en pixels de l'appareil est manquante. Veuillez vérifier le paramétrage de votre pilote et réessayez."
+msgstr "La taille en pixels de la caméra est manquante. Veuillez vérifier le paramétrage de votre pilote et réessayez."
 
 #. +> trunk5
 #: ekos/align/align_solver.cpp:111
@@ -7844,7 +7844,7 @@ msgstr "Impossible de faire une acquisition pendant une mise au point. Nouvel es
 #: ekos/align/align_solver.cpp:177
 #, kde-format
 msgid "Cannot capture while camera exposure is in progress. Retrying in %1 seconds..."
-msgstr "Impossible de faire une acquisition pendant qu'une exposition de l'appareil est en cours. Nouvel essai dans %1 s…"
+msgstr "Impossible de faire une acquisition pendant qu'une exposition de la caméra est en cours. Nouvel essai dans %1 s…"
 
 #. +> trunk5
 #: ekos/align/align_solver.cpp:204
@@ -7862,7 +7862,7 @@ msgstr "Impossible de faire une acquisition pendant que le rotateur est occupé.
 #: ekos/align/align_solver.cpp:244
 #, kde-format
 msgid "Setting camera position angle to %1 degrees (using cached PA from previous solve)..."
-msgstr "Définition de l'angle de position de l'appareil à %1 degrés (en utilisant l'angle de position en cache de la résolution précédente)…"
+msgstr "Définition de l'angle de position de la caméra à %1 degrés (en utilisant l'angle de position en cache de la résolution précédente)…"
 
 #. +> trunk5
 #: ekos/align/align_solver.cpp:317 ekos/focus/focus.cpp:2017
@@ -7977,7 +7977,7 @@ msgstr "Le rotateur se déplace dans la mauvaise direction. L'erreur de l'angle 
 #: ekos/align/align_solver.cpp:969
 #, kde-format
 msgid "Camera position angle is %1 degrees."
-msgstr "L'angle de position de l'appareil est de %1 degrés."
+msgstr "L'angle de position de la caméra est de %1 degrés."
 
 #. +> trunk5
 #: ekos/align/align_solver.cpp:1002 ekos/align/align_solver.cpp:1129
@@ -8831,7 +8831,7 @@ msgstr "Politique de retournement"
 #: ekos/align/opsalign.ui:346
 #, kde-format
 msgid "<html><head/><body><p><span style=\" font-weight:600;\">Preserve rotator angle</span> will keep the rotator position. The rotator remains inactive and hence the camera is virtually rotated by 180°.</p><p>Most modern astronomic image processing applications can handle &quot;flipped&quot; images.</p></body></html>"
-msgstr "<html><head/><body><p><span style=\" font-weight:600;\">L'option Préserver l'angle de rotation</span> conserve la position du rotateur. Le rotateur reste inactif et donc l'appareil est virtuellement tourné de 180°.</p><p>La plupart des applications modernes d'astrophotographie gèrent les images retournées.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">L'option Préserver l'angle de rotation</span> conserve la position du rotateur. Le rotateur reste inactif et donc la caméra est virtuellement tournée de 180°.</p><p>La plupart des applications modernes d'astrophotographie gèrent les images retournées.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton,
 #. kcfg_AstrometryFlipRotationAllowed)
@@ -8847,7 +8847,7 @@ msgstr "Conserver l'angle du rotateur"
 #: ekos/align/opsalign.ui:363
 #, kde-format
 msgid "<html><head/><body><p><span style=\" font-weight:600;\">Preserve position angle</span> will keep the camera position angle. The rotator always turns the camera to the original position angle and hence the image will show exactly the original star arrangement.</p></body></html>"
-msgstr "<html><head/><body><p><span style=\"font-weight:600;\">L'option Conserver l'angle de position</span> conserve l'angle de position de l'appareil. Le rotateur tourne toujours l'appareil vers l'angle de position original de l'appareil et donc l'image affichera l'arrangement original de l'étoile.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\"font-weight:600;\">L'option Conserver l'angle de position</span> conserve l'angle de position de la caméra. Le rotateur tourne toujours la caméra vers l'angle de position original de la caméra et donc l'image affichera exactement la disposition originale des étoiles.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, FlipRotationNotAllowed)
 #. +> trunk5
@@ -8884,7 +8884,7 @@ msgstr "Alignement polaire automatique"
 #: ekos/align/opsalign.ui:407
 #, kde-format
 msgid "<html><head/><body><p>When enabled and a PAC (Polar Alignment Corrector) device is connected, the system will automatically send correction commands to the PAC during the refresh phase instead of requiring manual knob adjustments.</p></body></html>"
-msgstr "<html><head/><body><p>Lorsqu'il est activé et qu'un appareil PAC (Correcteur d'Alignement Polaire) est connecté, le système enverra automatiquement des commandes de correction au PAC pendant la phase de rafraîchissement au lieu de nécessiter des réglages manuels du bouton.</p></body></html>"
+msgstr "<html><head/><body><p>Lorsqu'il est activé et qu'un périphérique PAC (Correcteur d'Alignement Polaire) est connecté, le système enverra automatiquement des commandes de correction au PAC pendant la phase de rafraîchissement au lieu de nécessiter des réglages manuels du bouton.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PAHAutoPACCorrection)
 #. +> trunk5
@@ -11446,7 +11446,7 @@ msgstr "Assistant Push-To"
 #: ekos/align/pushtoassistant.ui:47
 #, kde-format
 msgid "<html><head/><body><p><span style=\" font-weight:600;\">Description</span></p><p>This assistant gives users of manual mounts (dobsons etc.) support finding their targets using a finder scope equipped with a camera.</p><p><span style=\" font-weight:600;\">Preparation</span></p><p>Open EKOS, create a profile with the camera of your choice, the Telescope Simulator as mount and add your finder scope as new telescope.</p><p><span style=\" font-weight:600;\">Usage</span></p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Start EKOS</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Position your mount as close as possible to your target</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Select your target in the target finder and press the &quot;Select target&quot; button</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Press the &quot;Solve position&quot; button. This captures a frame through your finder scope and solves the image against the star catalogs of KStars.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">As soon as plate solving succeeds, the distance to the target is displayed. Arrows show the directions how to correct your mount position.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Move your mount in the indicated position and repeat solving.</li></ul><p><span style=\" font-weight:600;\">Hints</span></p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">If you press the &quot;Repeat&quot; button, capturing and plate solving will be repeated after the configured delay.</li><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">If plate solving fails, check if the focal length of your finder scope is correctly configured and your telescope is roughly pointing to the target that you have selected.</li></ul></body></html>"
-msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Description</span></p><p>Cet assistant aide les utilisateurs de montures manuelles (dobsons, etc.) à trouver leurs cibles à l'aide d'un chercheur équipé d'une caméra.</p><p><span style=\" font-weight:600;\">Préparation</span></p><p>Ouvrez Ekos, créez un profil avec l'appareil de votre choix, le simulateur de télescope comme monture, puis ajoutez votre chercheur comme nouveau télescope.</p><p><span style=\" font-weight:600;\">Utilisation</span></p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Démarrez Ekos</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Positionnez votre monture aussi près que possible de la cible</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Sélectionnez votre cible dans le sélecteur de cibles et cliquez sur le bouton «&nbsp;Sélectionner la cible&nbsp;»</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Cliquez sur le bouton «&nbsp;Résoudre la position&nbsp;». Cela prend une image via votre chercheur et effectue la résolution astrométrique par comparaison avec les catalogues d'étoiles de KStars.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Dès que la résolution astrométrique réussit, la distance à la cible est affichée. Des flèches indiquent dans quelle direction corriger la position de la monture.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Déplacez votre monture dans la direction indiquée et relancez la résolution.</li></ul><p><span style=\" font-weight:600;\">Astuces</span></p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Si vous cliquez sur le bouton «&nbsp;Répéter&nbsp;», l'acquisition et la résolution astrométrique seront répétées après le délai configuré.</li><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Si la résolution astrométrique échoue, vérifiez que la focale du chercheur est correctement configurée et que le télescope pointe approximativement vers la cible sélectionnée.</li></ul></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Description</span></p><p>Cet assistant aide les utilisateurs de montures manuelles (dobsons, etc.) à trouver leurs cibles à l'aide d'un chercheur équipé d'une caméra.</p><p><span style=\" font-weight:600;\">Préparation</span></p><p>Ouvrez Ekos, créez un profil avec la caméra de votre choix, le simulateur de télescope comme monture, puis ajoutez votre chercheur comme nouveau télescope.</p><p><span style=\" font-weight:600;\">Utilisation</span></p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Démarrez Ekos</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Positionnez votre monture aussi près que possible de la cible</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Sélectionnez votre cible dans le sélecteur de cibles et cliquez sur le bouton «&nbsp;Sélectionner la cible&nbsp;»</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Cliquez sur le bouton «&nbsp;Résoudre la position&nbsp;». Cela prend une image via votre chercheur et effectue la résolution astrométrique par comparaison avec les catalogues d'étoiles de KStars.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Dès que la résolution astrométrique réussit, la distance à la cible est affichée. Des flèches indiquent dans quelle direction corriger la position de la monture.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Déplacez votre monture dans la direction indiquée et relancez la résolution.</li></ul><p><span style=\" font-weight:600;\">Astuces</span></p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Si vous cliquez sur le bouton «&nbsp;Répéter&nbsp;», l'acquisition et la résolution astrométrique seront répétées après le délai configuré.</li><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Si la résolution astrométrique échoue, vérifiez que la focale du chercheur est correctement configurée et que le télescope pointe approximativement vers la cible sélectionnée.</li></ul></body></html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, toggleSolvingB)
 #. +> trunk5
@@ -14231,7 +14231,7 @@ msgstr "<html><head/><body><p>Sélectionner la caméra principale pour ce train 
 #: ekos/auxiliary/opticaltrains.ui:186
 #, kde-format
 msgid "<html><head/><body><p>Camera: <span style=\" color:#ff0000;\">*</span></p></body></html>"
-msgstr "<html><head/><body><p>Appareil <span style=\" color:#ff0000;\">*</span></p></body></html>"
+msgstr "<html><head/><body><p>Caméra <span style=\" color:#ff0000;\">*</span></p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, dustCapLlabel)
 #. +> trunk5
@@ -16150,7 +16150,7 @@ msgstr "/home/pi"
 #: ekos/capture/camera.ui:1829
 #, kde-format
 msgid "<html><head/><body><p>Select how captured images are uploaded:</p><ol style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Locally</span>: Captured images are saved locally on disk in the directory specified above.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Remotely</span>: When connecting to a remote device, select this option to save images on the remote device only. No images are uploaded to Ekos.</li><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Both</span>: Captured images are saved on both the remote computer <span style=\" font-weight:600;\">and</span> on the local disk as well.</li></ol><p>When selecting <span style=\" font-style:italic;\">Remotely</span> or <span style=\" font-style:italic;\">Both</span>, you must specify the remote directory where the remote images are saved to. By default, all captured images are saved <span style=\" font-style:italic;\">Locally</span>.</p></body></html>"
-msgstr "<html><head/><body><p>Sélectionnez la façon dont les images sont téléchargées : </p><ol style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Localement</span> : les images sont enregistrées localement sur le disque dans le dossier spécifié ci-dessus.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">À distance</span> : lors de la connexion à un appareil distant, sélectionnez cette option pour enregistrer les images sur l'appareil distant uniquement. Aucune image n'est téléchargée sur Ekos.</li><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Les deux</span> : les images sont enregistrées à la fois sur l'ordinateur distant <span style=\" font-weight:600;\">et</span> sur le disque local également.</li></ol><p>Lorsque vous sélectionnez <span style=\" font-style:italic;\">À distance</span> ou <span style=\" font-style:italic;\">Les deux</span>, vous devez spécifier le dossier distant dans lequel les images distantes sont enregistrées. Par défaut, toutes les images sont enregistrées <span style=\" font-style:italic;\">localement</span>.</p></body></html>"
+msgstr "<html><head/><body><p>Sélectionnez la façon dont les images sont téléchargées : </p><ol style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Localement</span> : les images sont enregistrées localement sur le disque dans le dossier spécifié ci-dessus.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">À distance</span> : lors de la connexion à un périphérique distant, sélectionnez cette option pour enregistrer les images sur le périphérique distant uniquement. Aucune image n'est téléchargée sur Ekos.</li><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Les deux</span> : les images sont enregistrées à la fois sur l'ordinateur distant <span style=\" font-weight:600;\">et</span> sur le disque local également.</li></ol><p>Lorsque vous sélectionnez <span style=\" font-style:italic;\">À distance</span> ou <span style=\" font-style:italic;\">Les deux</span>, vous devez spécifier le dossier distant dans lequel les images distantes sont enregistrées. Par défaut, toutes les images sont enregistrées <span style=\" font-style:italic;\">localement</span>.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk5
@@ -16496,13 +16496,13 @@ msgstr "En attente du guidage < %1\" …"
 #: ekos/capture/camera_actions.cpp:332
 #, kde-format
 msgid "Setting camera to %1 degrees E of N..."
-msgstr "Définition de l'appareil à %1 degrés d'est du nord…"
+msgstr "Orientation de la caméra à %1 degrés d'est du nord…"
 
 #. +> trunk5
 #: ekos/capture/camera_actions.cpp:333
 #, kde-format
 msgid "Set Camera to %1 deg..."
-msgstr "Définir l'appareil à %1 degré…"
+msgstr "Orienter la caméra à %1°…"
 
 #. +> trunk5
 #: ekos/capture/camera_config.cpp:955
@@ -16589,7 +16589,7 @@ msgstr "Pente (°C/min)"
 #: ekos/capture/camera_device.cpp:172
 #, kde-format
 msgid "<html><body><p>Maximum temperature change per minute when cooling or warming the camera. Set zero to disable.<p>This setting is read from and stored in the INDI camera driver configuration.</body></html>"
-msgstr "<html><body><p>Variation maximale de température par minute lors du refroidissement ou du réchauffement de l'appareil. Mettre zéro pour désactiver.</p><p>Ce réglage et lu et enregistré dans la configuration du pilote INDI de l'appareil.</p></body></html>"
+msgstr "<html><body><p>Variation maximale de température par minute lors du refroidissement ou du réchauffement de la caméra. Mettre zéro pour désactiver.</p><p>Ce réglage est lu et enregistré dans la configuration du pilote INDI de la caméra.</p></body></html>"
 
 #. +> trunk5
 #: ekos/capture/camera_device.cpp:177
@@ -16602,7 +16602,7 @@ msgstr "Seuil (°C)"
 #: ekos/capture/camera_device.cpp:183
 #, kde-format
 msgid "<html><body><p>Maximum difference between camera and target temperatures triggering regulation.<p>This setting is read from and stored in the INDI camera driver configuration.</body></html>"
-msgstr "<html><body><p>La différence maximale entre la température de l'appareil et la cible déclenchant la régulation.</p><p>Ce réglage est lu et enregistré dans la configuration du pilote INDI de l'appareil.</p></body></html>"
+msgstr "<html><body><p>La différence maximale entre la température de la caméra et la cible déclenchant la régulation.</p><p>Ce réglage est lu et enregistré dans la configuration du pilote INDI de la caméra.</p></body></html>"
 
 #. +> trunk5
 #: ekos/capture/camera_device.cpp:196
@@ -16823,7 +16823,7 @@ msgstr "La séquence sera mise en pause à la fin de l'exposition courante."
 #: ekos/capture/cameraprocess.cpp:492
 #, kde-format
 msgid "No camera detected. Check train configuration and connection settings."
-msgstr "Aucun appareil détecté. Veuillez vérifier la configuration du train et les réglages de connexion."
+msgstr "Aucune caméra détectée. Veuillez vérifier la configuration du train et les réglages de connexion."
 
 #. +> trunk5
 #: ekos/capture/cameraprocess.cpp:517
@@ -17301,7 +17301,7 @@ msgstr "Échec de l'alignement après retournement au méridien. Nouvel essai…
 #: ekos/capture/capture.cpp:67
 #, kde-format
 msgid "<p>Add additional camera</p><p><b>WARNING</b>: This feature is experimental!</p>"
-msgstr "<p>Ajouter un appareil supplémentaire</p><p><b>ATTENTION</b> : fonctionnalité expérimentale !</p>"
+msgstr "<p>Ajouter une caméra supplémentaire</p><p><b>ATTENTION</b> : fonctionnalité expérimentale !</p>"
 
 #. +> trunk5
 #: ekos/capture/capture.cpp:111
@@ -17313,7 +17313,7 @@ msgstr "Appareil photo numérique (APN)"
 #: ekos/capture/capture.cpp:531 ekos/focus/focusmodule.cpp:718
 #, kde-format
 msgid "Camera %1 is busy. Abort to close?"
-msgstr "L'appareil %1 est occupé. Interrompre pour fermer ?"
+msgstr "La caméra %1 est occupée. Interrompre pour fermer ?"
 
 #. +> trunk5
 #: ekos/capture/capture.cpp:532 ekos/focus/focusmodule.cpp:719
@@ -17904,7 +17904,7 @@ msgstr "Durée d'exposition (sec)"
 #: ekos/capture/exposurecalculator/exposurecalculatordialog.ui:562
 #, kde-format
 msgid "Download additional camera data files"
-msgstr "Télécharger des fichiers de données d'appareil additionnels"
+msgstr "Télécharger des fichiers de données de caméra supplémentaires"
 
 #. i18n: ectx: property (toolTip), widget (QWidget, skyQualityColor)
 #. +> trunk5
@@ -17932,7 +17932,7 @@ msgstr "9"
 #: ekos/capture/exposurecalculator/exposurecalculatordialog.ui:638
 #, kde-format
 msgid "Select read mode on cameras with multiple read modes."
-msgstr "Sélectionner le mode de lecture sur les appareils possédant plusieurs modes de lecture."
+msgstr "Sélectionner le mode de lecture sur les caméras possédant plusieurs modes de lecture."
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, userSkyQuality)
 #. +> trunk5
@@ -17960,7 +17960,7 @@ msgstr "Appliquer une compensation pour un filtre optique"
 #: ekos/capture/exposurecalculator/exposurecalculatordialog.ui:715
 #, kde-format
 msgid "Camera Data Selection"
-msgstr "Sélection des données de l'appareil"
+msgstr "Sélection des données de la caméra"
 
 #. i18n: ectx: property (toolTip), widget (QCustomPlot,
 #. qCustomPlotSubExposure)
@@ -18047,14 +18047,14 @@ msgstr "Durée d'intégration en fonction du bruit (qualité potentielle)"
 #: ekos/capture/exposurecalculator/fileutilitycameradatadialog.ui:35
 #, kde-format
 msgid "Camera Data Download"
-msgstr "Téléchargement de données d'appareil"
+msgstr "Téléchargement de données de caméra"
 
 #. i18n: ectx: property (text), widget (QLabel, resultLable)
 #. +> trunk5
 #: ekos/capture/exposurecalculator/fileutilitycameradatadialog.ui:101
 #, kde-format
 msgid "Select all cameras you wish to use:"
-msgstr "Sélectionner tous les appareils que vous souhaitez utiliser"
+msgstr "Sélectionner toutes les caméras que vous souhaitez utiliser"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, Limits)
 #. +> trunk5
@@ -18532,7 +18532,7 @@ msgstr "<html><head/><body><p>La jauge du rotateur affiche l'angle de position a
 #: ekos/capture/rotatorsettings.ui:131
 #, kde-format
 msgid "<html><head/><body><p>The rotator gauge displays the actual camera position angle (yellow) and the raw rotator angle (gray). To calibrate the rotator, capture and solve an image in the Align module.</p></body></html>"
-msgstr "<html><head/><body><p>La jauge du rotateur affiche l'angle de position actuel de l'appareil (en jaune) et l'angle brut du rotateur (en gris). Pour calibrer le rotateur, prenez et résolvez une image dans le module Alignement.</p></body></html>"
+msgstr "<html><head/><body><p>La jauge du rotateur affiche l'angle de position actuel de la caméra (en jaune) et l'angle brut du rotateur (en gris). Pour calibrer le rotateur, prenez et résolvez une image dans le module Alignement.</p></body></html>"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, FlipPolicy)
 #. +> trunk5
@@ -18574,7 +18574,7 @@ msgstr "<html><head/><body><p>Côté actuel du pied de monture</p></body></html>
 #: ekos/capture/rotatorsettings.ui:289
 #, kde-format
 msgid "<html><head/><body><p>Camera offset angle</p></body></html>"
-msgstr "<html><head/><body><p>Angle de décalage de l'appareil</p></body></html>"
+msgstr "<html><head/><body><p>Angle de décalage de la caméra</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_6)
 #. +> trunk5
@@ -18616,28 +18616,28 @@ msgstr "Angle du rotateur"
 #: ekos/capture/rotatorsettings.ui:397
 #, kde-format
 msgid "<html><head/><body><p>The angle of the camera upright direction (see FOV) respective to the rotator origin direction. The camera offset is determined automatically by a <span style=\" font-weight:700;\">Capture &amp; Solve</span> or a <span style=\" font-weight:700;\">Load &amp; Slew</span> in the Align module. </p><p>The camera offset is measured in position angle scope (-179.99° to 180.00°).</p></body></html>"
-msgstr "<html><head/><body><p>L'angle de l'appareil dans la direction verticale (voir CdV) par rapport à la direction d'origine du rotateur. Le décalage de l'appareil est déterminé automatiquement grâce à l'opération <span style=\" font-weight:700;\">Acquérir &amp; Résoudre</span> ou <span style=\" font-weight:700;\">Charger &amp; Pivoter</span> du module Alignement.</p><p>Le décalage de la caméra est mesuré par l'angle de position du télescope (de -179,99° à 180,00°).</p></body></html>"
+msgstr "<html><head/><body><p>L'angle de la caméra dans la direction verticale (voir CdV) par rapport à la direction d'origine du rotateur. Le décalage de la caméra est déterminé automatiquement grâce à l'opération <span style=\" font-weight:700;\">Acquérir &amp; Résoudre</span> ou <span style=\" font-weight:700;\">Charger &amp; Pivoter</span> du module Alignement.</p><p>Le décalage de la caméra est mesuré par l'angle de position du télescope (de -179,99° à 180,00°).</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_3)
 #. +> trunk5
 #: ekos/capture/rotatorsettings.ui:449
 #, kde-format
 msgid "<html><head/><body><p>Setting the camera position angle shall move the rotator. The gauge reflects the state of the rotator. Depending on the accuracy of the rotator there can be some deviation in the ending position angle.</p><p>The position angle is measured East of North in degrees.</p></body></html>"
-msgstr "<html><head/><body><p>Le réglage de l'angle de position de l'appareil enclenche le mouvement du rotateur. La jauge reflète l'état du rotateur. Selon la précision du rotateur, il peut y avoir une déviation de l'angle de position final.</p><p>L'angle de position est mesuré à l'est du nord en degrés.</p></body></html>"
+msgstr "<html><head/><body><p>Le réglage de l'angle de position de la caméra enclenche le mouvement du rotateur. La jauge reflète l'état du rotateur. Selon la précision du rotateur, il peut y avoir une déviation de l'angle de position final.</p><p>L'angle de position est mesuré à l'est du nord en degrés.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. +> trunk5
 #: ekos/capture/rotatorsettings.ui:452
 #, kde-format
 msgid "Camera Position Angle"
-msgstr "Angle de position de l'appareil"
+msgstr "Angle de position de la caméra"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, CameraPA)
 #. +> trunk5
 #: ekos/capture/rotatorsettings.ui:471
 #, kde-format
 msgid "<html><head/><body><p>Current Camera Position Angle</p></body></html>"
-msgstr "<html><head/><body><p>Angle de position actuel de l'appareil</p></body></html>"
+msgstr "<html><head/><body><p>Angle de position actuel de la caméra</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, reverseDirection)
 #. +> trunk5
@@ -18739,13 +18739,13 @@ msgstr "Script de clôture de la tâche"
 #: ekos/capture/sequenceeditor.cpp:109
 #, kde-format
 msgid "<b><font color=\"red\">Please run the Capture tab connected to INDI with your desired camera/filterbank at least once before using the Sequence Editor. </font></b><p>"
-msgstr "<b><font color=\"red\">Veuillez ouvrir l'onglet d'acquisition connecté à INDI avec votre appareil et banque de filtres souhaités au moins une fois avant d'utiliser le Modificateur de séquences.</font></b><p>"
+msgstr "<b><font color=\"red\">Veuillez ouvrir l'onglet d'acquisition connecté à INDI avec votre caméra et banque de filtres souhaitées au moins une fois avant d'utiliser le Modificateur de séquences.</font></b><p>"
 
 #. +> trunk5
 #: ekos/capture/sequenceeditor.cpp:113
 #, kde-format
 msgid "<b>Using camera and filterwheel attributes from Capture session started at %1.</b><p>If you wish to use other cameras/filterbanks, please edit the sequence using the Capture tab.<br>It is not recommended to overwrite a sequence file currently running, please rename it instead.</p><p>"
-msgstr "<b>Utilisation des attributs de l'appareil et de la roue à filtres d'une session d'acquisition débutée à %1.</b><p>Si vous souhaitez utiliser d'autres appareils et banques de filtres, veuillez modifier la séquence en utilisant l'onglet d'acquisition.<br>Il n'est pas recommandé de modifier un fichier de séquences en cours d'utilisation, veuillez plutôt le renommer.</p><p>"
+msgstr "<b>Utilisation des attributs de la caméra et de la roue à filtres d'une session d'acquisition débutée à %1.</b><p>Si vous souhaitez utiliser d'autres caméras et banques de filtres, veuillez modifier la séquence en utilisant l'onglet d'acquisition.<br>Il n'est pas recommandé de modifier un fichier de séquences en cours d'utilisation, veuillez plutôt le renommer.</p><p>"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, SequenceEditorUI)
 #. +> trunk5
@@ -20149,7 +20149,7 @@ msgstr "Aucun dispositif de mise au point connecté."
 #: ekos/focus/focus.cpp:1151 ekos/focus/focus.cpp:5058
 #, kde-format
 msgid "No camera connected."
-msgstr "Aucun appareil connecté."
+msgstr "Aucune caméra connectée."
 
 #. +> trunk5
 #: ekos/focus/focus.cpp:1158
@@ -21153,7 +21153,7 @@ msgstr "Mettre à jour les paramètres"
 #: ekos/focus/focusadvisor.cpp:305
 #, kde-format
 msgid "Camera & Filter Wheel Parameters"
-msgstr "Paramètres de l'appareil et de la roue à filtres"
+msgstr "Paramètres de la caméra et de la roue à filtres"
 
 #. +> trunk5
 #: ekos/focus/focusadvisor.cpp:339
@@ -23734,7 +23734,7 @@ msgstr "PHD2 : temps d'exposition valable : « Auto, "
 #: ekos/guide/externalguide/phd2.cpp:979
 #, kde-format
 msgid "PHD2: Please set camera and telescope parameters in PHD2, Pixel Scale is invalid."
-msgstr "PHD2 : veuillez définir les paramètres de l'appareil et du télescope dans PHD2. La taille du pixel est non valable."
+msgstr "PHD2 : veuillez définir les paramètres de la caméra et du télescope dans PHD2. La taille du pixel est non valable."
 
 #. +> trunk5
 #: ekos/guide/externalguide/phd2.cpp:981
@@ -23823,7 +23823,7 @@ msgstr "La caméra actuelle PHD2 %1 est connectée à Ekos. Vous pouvez choisir 
 #: ekos/guide/guide.cpp:615
 #, kde-format
 msgid "Connection to the guide camera is lost."
-msgstr "La connexion à l'appareil de guidage est perdue."
+msgstr "La connexion à la caméra de guidage est perdue."
 
 #. +> trunk5
 #: ekos/guide/guide.cpp:995
@@ -23883,7 +23883,7 @@ msgstr "Dérive libre IA active. Impulsion simple supprimée (%1 ms)."
 #: ekos/guide/guide.cpp:1686
 #, kde-format
 msgid "No camera detected. Check camera in optical trains."
-msgstr "Aucun appareil détecté. Veuillez vérifier la caméra du train optique."
+msgstr "Aucune caméra détectée. Veuillez vérifier la caméra du train optique."
 
 #. +> trunk5
 #: ekos/guide/guide.cpp:1692
@@ -25398,7 +25398,7 @@ msgstr "Supposer la DEC orthogonale à l'AD"
 #: ekos/guide/opscalibration.ui:392
 #, kde-format
 msgid "<html><head/><body><p>If checked,  always re-calibrate when guiding is started. This is often not necessary when a good quality calibration has previously been done and the guide camera has not been rotated or re-installed.</p></body></html>"
-msgstr "<html><head/><body><p>Si coché, relance toujours la calibration lorsque le guidage est lancé. Cela est souvent inutile quand une bonne calibration a été effectuée et que l'appareil n'a pas subi une rotation ou un déplacement.</p></body></html>"
+msgstr "<html><head/><body><p>Si coché, relance toujours la calibration lorsque le guidage est lancé. Cela est souvent inutile quand une bonne calibration a été effectuée et que la caméra de guidage n'a pas subi de rotation ni de déplacement.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ResetGuideCalibration)
 #. +> trunk5
@@ -26412,19 +26412,19 @@ msgstr "Ekos"
 #: ekos/manager.cpp:1301 ekos/manager.cpp:1326
 #, kde-format
 msgid "Ekos requires at least one Camera to operate."
-msgstr "Ekos requiert au moins un CCD pour fonctionner."
+msgstr "Ekos requiert au moins une caméra pour fonctionner."
 
 #. +> trunk5
 #: ekos/manager.cpp:1389
 #, kde-format
 msgid "Ekos detected that PTP Camera is running and may prevent a Canon or Nikon camera from connecting to Ekos. Do you want to quit PTP Camera now?"
-msgstr "Ekos a détecté que la caméra PTP est en fonctionnement et peut empêcher une caméra Canon ou Nikon de se connecter à Ekos. Voulez-vous vraiment quitter la caméra PTP maintenant ?"
+msgstr "Ekos a détecté que PTP Camera est en fonctionnement et peut empêcher une caméra Canon ou Nikon de se connecter à Ekos. Voulez-vous vraiment quitter PTP Camera maintenant ?"
 
 #. +> trunk5
 #: ekos/manager.cpp:1390
 #, kde-format
 msgid "PTP Camera"
-msgstr "Appareil PTP"
+msgstr "PTP Camera"
 
 #. +> trunk5
 #: ekos/manager.cpp:1404
@@ -30944,7 +30944,7 @@ msgstr "<html><head/><body><p align=\"justify\">Choisissez un nom pour le groupe
 #: ekos/scheduler/scheduler.ui:361
 #, kde-format
 msgid "<html><head/><body><p>Define the job's target or select <span style=\"font-style:italic\">Follower</span> if the job should run as multi camera job in combination with the first job above having a target defined.<p><p><b>WARNING</b>: This feature is experimental!</p></body></html>"
-msgstr "<html><head/><body><p>Définissez la cible de la tâche ou choisissez <span style=\"font-style:italic\">Suiveur</span> si la tâche doit être exécutée en mode appareils multiples en combinaison avec la première tâche ci-dessus ayant une cible définie.<p><p><b>AVERTISSEMENT</b> : cette fonctionnalité est encore expérimentale !</p></body></html>"
+msgstr "<html><head/><body><p>Définissez la cible de la tâche ou choisissez <span style=\"font-style:italic\">Suiveur</span> si la tâche doit être exécutée en mode multi-caméras en combinaison avec la première tâche ci-dessus ayant une cible définie.<p><p><b>AVERTISSEMENT</b> : cette fonctionnalité est encore expérimentale !</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, positionAngleSpin)
 #. +> trunk5
@@ -88541,7 +88541,7 @@ msgstr "Pas de correction"
 #, kde-format
 msgctxt "Orientation of the sky map"
 msgid "Select this if you are using a camera on the telescope, or have the sky map display mounted on your telescope"
-msgstr "Choisissez ceci si vous utilisez un appareil sur le télescope, ou si l'affichage de la carte du ciel est montée sur votre télescope."
+msgstr "Choisissez ceci si vous utilisez une caméra sur le télescope, ou si l'affichage de la carte du ciel est montée sur votre télescope."
 
 #. +> trunk5
 #: kstarsinit.cpp:791
@@ -88555,7 +88555,7 @@ msgstr "Correction pour l'observateur debout, à gauche."
 #, kde-format
 msgctxt "Orientation of the sky map"
 msgid "Select this if you are visually observing using a Dobsonian telescope which has the focuser appearing on the left side when looking up the telescope tube. This feature will correct the orientation of the sky-map to account for the observer remaining erect as the telescope moves up and down, unlike a camera which would rotate with the telescope. Typically makes sense to combine this with Zenith Down orientation."
-msgstr "Sélectionnez cette option si vous allez observer visuellement avec un Dobson qui a le moteur de mise au point sur le côté gauche en regardant vers l'ouverture du télescope. Cette fonctionnalité permet de corriger l'orientation de la carte du ciel pour un observateur se tenant debout lorsque le télescope se déplace du haut vers le bas, au contraire d'un appareil qui tourne avec le télescope. Cela fait typiquement sens de combiner ceci avec une orientation ayant le zénith en bas."
+msgstr "Sélectionnez cette option si vous allez observer visuellement avec un Dobson qui a le moteur de mise au point sur le côté gauche en regardant vers l'ouverture du télescope. Cette fonctionnalité permet de corriger l'orientation de la carte du ciel pour un observateur se tenant debout lorsque le télescope se déplace du haut vers le bas, au contraire d'une caméra qui tourne avec le télescope. Cela fait typiquement sens de combiner ceci avec une orientation ayant le zénith en bas."
 
 #. +> trunk5
 #: kstarsinit.cpp:801
@@ -88569,7 +88569,7 @@ msgstr "Correction pour l'observateur debout, à droite"
 #, kde-format
 msgctxt "Orientation of the sky map"
 msgid "Select this if you are visually observing using a Dobsonian telescope which has the focuser appearing on the right side when looking up the telescope tube. This feature will correct the orientation of the sky-map to account for the observer remaining erect as the telescope moves up and down, unlike a camera which would rotate with the telescope. Typically makes sense to combine this with Zenith Down orientation."
-msgstr "Sélectionnez cette option si vous allez observer visuellement avec un Dobson qui a le moteur de mise au point sur le côté droite en regardant vers l'ouverture du télescope. Cette fonctionnalité permet de corriger l'orientation de la carte du ciel pour un observateur se tenant debout lorsque le télescope se déplace du haut vers le bas, au contraire d'un appareil qui tourne avec le télescope. Cela fait typiquement sens de combiner ceci avec une orientation ayant le zénith en bas."
+msgstr "Sélectionnez cette option si vous allez observer visuellement avec un Dobson qui a le moteur de mise au point sur le côté droite en regardant vers l'ouverture du télescope. Cette fonctionnalité permet de corriger l'orientation de la carte du ciel pour un observateur se tenant debout lorsque le télescope se déplace du haut vers le bas, au contraire d'une caméra qui tourne avec le télescope. Cela fait typiquement sens de combiner ceci avec une orientation ayant le zénith en bas."
 
 #. +> trunk5
 #: kstarsinit.cpp:829
