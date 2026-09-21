@@ -7609,7 +7609,7 @@ msgstr "L'angle de position actuel AP est de %1. AP cible est de %2. La différe
 #: ekos/align/align_goto.cpp:748
 #, kde-format
 msgid "Rotator timeout after %1 seconds. Aborting alignment."
-msgstr "Délai d'attente du rotateur dépassé après %1 secondes. Abandon de l'alignement."
+msgstr "Délai d'attente du rotateur dépassé après %1 s. Abandon de l'alignement."
 
 #. +> trunk5
 #: ekos/align/align_settings.cpp:81
@@ -7838,13 +7838,13 @@ msgstr "Le capuchon antipoussière n'est pas prêt (état : %1). En attente av
 #: ekos/align/align_solver.cpp:164
 #, kde-format
 msgid "Cannot capture while focus module is busy. Retrying in %1 seconds..."
-msgstr "Impossible de faire une acquisition pendant une mise au point. Nouvel essai dans %1 secondes…"
+msgstr "Impossible de faire une acquisition pendant une mise au point. Nouvel essai dans %1 s…"
 
 #. +> trunk5
 #: ekos/align/align_solver.cpp:177
 #, kde-format
 msgid "Cannot capture while camera exposure is in progress. Retrying in %1 seconds..."
-msgstr "Impossible de faire une acquisition pendant qu'une exposition de l'appareil est en cours. Nouvel essai dans %1 secondes…"
+msgstr "Impossible de faire une acquisition pendant qu'une exposition de l'appareil est en cours. Nouvel essai dans %1 s…"
 
 #. +> trunk5
 #: ekos/align/align_solver.cpp:204
@@ -7856,7 +7856,7 @@ msgstr "Impossible de faire une acquisition pendant que le rotateur est occupé.
 #: ekos/align/align_solver.cpp:219
 #, kde-format
 msgid "Cannot capture while rotator is busy: Retrying in %1 seconds..."
-msgstr "Impossible de faire une acquisition pendant que le rotateur est occupé. Nouvel essai dans %1 secondes…"
+msgstr "Impossible de faire une acquisition pendant que le rotateur est occupé. Nouvel essai dans %1 s…"
 
 #. +> trunk5
 #: ekos/align/align_solver.cpp:244
@@ -7917,25 +7917,25 @@ msgstr "L'image chargée a été prise du côté %1 du pied"
 #: ekos/align/align_solver.cpp:704
 #, kde-format
 msgid "Solver timed out after %1 seconds."
-msgstr "Le solveur a expiré après %1 secondes."
+msgstr "Le solveur a expiré après %1 s."
 
 #. +> trunk5
 #: ekos/align/align_solver.cpp:707
 #, kde-format
 msgid "Solver failed after %1 seconds."
-msgstr "Le résolveur a échoué après %1 seconde."
+msgstr "Le résolveur a échoué après %1 s."
 
 #. +> trunk5
 #: ekos/align/align_solver.cpp:729
 #, kde-format
 msgid "Solver completed after %1 seconds."
-msgstr "Résolution terminée après %1 secondes."
+msgstr "Résolution terminée après %1 s."
 
 #. +> trunk5
 #: ekos/align/align_solver.cpp:750
 #, kde-format
 msgid "Remote solver completed after %1 seconds."
-msgstr "Le résolveur distant s'est terminé après %1 secondes."
+msgstr "Le résolveur distant s'est terminé après %1 s."
 
 #. +> trunk5
 #: ekos/align/align_solver.cpp:789
@@ -12880,7 +12880,7 @@ msgstr "Aucun dark enregistré ne correspond à la durée et au regroupement act
 #: ekos/auxiliary/darklibrary.cpp:473
 #, kde-format
 msgid "Using available dark frame with %1 seconds exposure. Please take a dark frame with %2 seconds exposure for more accurate results."
-msgstr "Utilisation du dark disponible avec une exposition de %1 secondes. Veuillez prendre un dark avec une exposition de %2 secondes pour des résultats plus précis."
+msgstr "Utilisation du dark disponible avec une exposition de %1 s. Veuillez prendre un dark avec une exposition de %2 s pour des résultats plus précis."
 
 #. +> trunk5
 #: ekos/auxiliary/darklibrary.cpp:484
@@ -16448,13 +16448,13 @@ msgstr "Réception de l'image"
 #: ekos/capture/camera_actions.cpp:195
 #, kde-format
 msgid "Capturing %1 x %2-second %3 video..."
-msgstr "Acquisition d'une vidéo %3 avec %1 x %2 secondes…"
+msgstr "Acquisition d'une vidéo %3 avec %1 x %2 s…"
 
 #. +> trunk5
 #: ekos/capture/camera_actions.cpp:201
 #, kde-format
 msgid "Capturing %1-second %2 image..."
-msgstr "Acquisition d'une pose %2 de %1 secondes…"
+msgstr "Acquisition d'une pose %2 de %1 s…"
 
 #. +> trunk5
 #: ekos/capture/camera_actions.cpp:283
@@ -16841,19 +16841,19 @@ msgstr "Aperçu de l'affichage"
 #: ekos/capture/cameraprocess.cpp:602
 #, kde-format
 msgid "Job requires %1-second %2 images, has already %3/%4 captures and does not need to run."
-msgstr "La tâche nécessite des poses %2 de %1 secondes. Elle en a déjà %3/%4 et n'a pas besoin d'être lancée."
+msgstr "La tâche nécessite des poses %2 de %1 s. Elle en a déjà %3/%4 et n'a pas besoin d'être lancée."
 
 #. +> trunk5
 #: ekos/capture/cameraprocess.cpp:617
 #, kde-format
 msgid "Job requires %1-second %2 images, has %3/%4 frames captured and will be processed."
-msgstr "La tâche nécessite des poses %2 de %1 secondes. Elle en a déjà %3/%4 qui vont être traitées."
+msgstr "La tâche nécessite des poses %2 de %1 s. Elle en a déjà %3/%4 qui vont être traitées."
 
 #. +> trunk5
 #: ekos/capture/cameraprocess.cpp:630
 #, kde-format
 msgid "Job requires %1 x %2-second %3 video and will be processed."
-msgstr "La tâche nécessite %1 poses de %2 secondes pour la vidéo %3 et seront traitées."
+msgstr "La tâche nécessite %1 poses de %2 s pour la vidéo %3 et seront traitées."
 
 #. +> trunk5
 #: ekos/capture/cameraprocess.cpp:876
@@ -17019,7 +17019,7 @@ msgstr "Échec de la calibration du flat. L'image acquise n'est que de %1 bits a
 #: ekos/capture/cameraprocess.cpp:2303
 #, kde-format
 msgid "Current image is saturated (%1). Next exposure is %2 seconds."
-msgstr "L'image courante est saturée (%1). La prochaine exposition sera de %2 secondes."
+msgstr "L'image courante est saturée (%1). La prochaine exposition sera de %2 s."
 
 #. +> trunk5
 #: ekos/capture/cameraprocess.cpp:2325
@@ -17037,7 +17037,7 @@ msgstr "Impossible de calculer les paramètres optimaux d'exposition. Veuillez a
 #: ekos/capture/cameraprocess.cpp:2362
 #, kde-format
 msgid "Current ADU is %1 Next exposure is %2 seconds."
-msgstr "La valeur courante ADU est %1. La prochaine exposition sera de %2 secondes."
+msgstr "La valeur courante ADU est %1. La prochaine exposition sera de %2 s."
 
 #. +> trunk5
 #: ekos/capture/cameraprocess.cpp:2503
@@ -17085,7 +17085,7 @@ msgstr "Redémarrage du pilote"
 #: ekos/capture/cameraprocess.cpp:3168 ekos/capture/sequencejobstate.cpp:72
 #, kde-format
 msgid "Capture operations timed out after %1 seconds."
-msgstr "L'acquisition a dépassé le délai d'attente après %1 secondes."
+msgstr "L'acquisition a dépassé le délai d'attente après %1 s."
 
 #. +> trunk5
 #: ekos/capture/camerastate.cpp:145
@@ -17105,7 +17105,7 @@ msgstr "Décalage réussi."
 #: ekos/capture/camerastate.cpp:221
 #, kde-format
 msgid "Dither complete. Resuming in %1 seconds..."
-msgstr "Décalage terminé. Reprise dans %1 secondes…"
+msgstr "Décalage terminé. Reprise dans %1 s…"
 
 #. +> trunk5
 #: ekos/capture/camerastate.cpp:229
@@ -17119,7 +17119,7 @@ msgstr "Décalage terminé."
 #: ekos/capture/camerastate.cpp:243
 #, kde-format
 msgid "Warning: Dithering failed. Resuming in %1 seconds..."
-msgstr "Attention : échec du décalage. Reprise dans %1 secondes…"
+msgstr "Attention : échec du décalage. Reprise dans %1 s…"
 
 #. +> trunk5
 #: ekos/capture/camerastate.cpp:252
@@ -17199,7 +17199,7 @@ msgstr "Échec de la mise au point automatique. Annulation de l'acquisition en c
 #: ekos/capture/camerastate.cpp:782
 #, kde-format
 msgid "Focus complete. Resuming in %1 seconds..."
-msgstr "Mise au point terminée. Reprise dans %1 secondes…"
+msgstr "Mise au point terminée. Reprise dans %1 s…"
 
 #. +> trunk5
 #: ekos/capture/camerastate.cpp:805
@@ -17259,7 +17259,7 @@ msgstr "La déviation de guidage en début d'acquisition (%1) est sous la limite
 #: ekos/capture/camerastate.cpp:1123
 #, kde-format
 msgid "Guiding deviation %1 exceeded limit value of %2 arcsecs for %4 consecutive samples, suspending exposure and waiting for guider up to %3 seconds."
-msgstr "La déviation de guidage %1 a dépassé la valeur limite de %2 secondes d'arc, pendant %4 échantillons consécutifs, conduisant à suspendre l'exposition et attendre l'assistant de guidage jusqu'à %3 secondes."
+msgstr "La déviation de guidage %1 a dépassé la valeur limite de %2 secondes d'arc, pendant %4 échantillons consécutifs, conduisant à suspendre l'exposition et attendre l'assistant de guidage jusqu'à %3 s."
 
 #. +> trunk5
 #: ekos/capture/camerastate.cpp:1170
@@ -17271,7 +17271,7 @@ msgstr "La déviation de guidage %1 est maintenant inférieure à la valeur limi
 #: ekos/capture/camerastate.cpp:1174
 #, kde-format
 msgid "Guiding deviation %1 is now lower than limit value of %2 arcsecs, resuming exposure in %3 seconds."
-msgstr "La déviation de guidage %1 est maintenant inférieure à la valeur limite de %2 secondes d'arc, reprise de l'exposition dans %3 secondes."
+msgstr "La déviation de guidage %1 est maintenant inférieure à la valeur limite de %2 secondes d'arc, reprise de l'exposition dans %3 s."
 
 #. +> trunk5
 #: ekos/capture/camerastate.cpp:1189
@@ -18468,7 +18468,7 @@ msgstr "Mise au point automatique durant la séquence initiée par l'opérateur�
 #: ekos/capture/refocusstate.cpp:45
 #, kde-format
 msgid "Scheduled refocus starting after %1 seconds..."
-msgstr "Nouvelle mise au point planifiée après %1 secondes…"
+msgstr "Nouvelle mise au point planifiée après %1 s…"
 
 #. +> trunk5
 #: ekos/capture/refocusstate.cpp:59
@@ -18492,19 +18492,19 @@ msgstr "Début de la procédure de mise au point adaptative…"
 #: ekos/capture/refocusstate.cpp:103
 #, kde-format
 msgid "Ekos will refocus in %1 seconds."
-msgstr "Le module Ekos va refaire une mise au point dans %1 secondes."
+msgstr "Le module Ekos va refaire une mise au point dans %1 s."
 
 #. +> trunk5
 #: ekos/capture/refocusstate.cpp:108
 #, kde-format
 msgid "Ekos will refocus in %1 seconds, last procedure was %2 seconds ago."
-msgstr "Ekos fera une nouvelle mise au point dans %1 secondes. La dernière procédure s'est déroulée il y a %2 secondes."
+msgstr "Ekos fera une nouvelle mise au point dans %1 s. La dernière procédure s'est déroulée il y a %2 s."
 
 #. +> trunk5
 #: ekos/capture/refocusstate.cpp:113
 #, kde-format
 msgid "Ekos will refocus as soon as possible, last procedure was %1 seconds ago."
-msgstr "Ekos fera une nouvelle mise au point dès que possible. La dernière procédure s'est déroulée il y a %1 secondes."
+msgstr "Ekos fera une nouvelle mise au point dès que possible. La dernière procédure s'est déroulée il y a %1 s."
 
 #. +> trunk5
 #: ekos/capture/rotatorsettings.cpp:138
@@ -31549,7 +31549,7 @@ msgstr "La tâche %1 a été annulée."
 #: ekos/scheduler/schedulerprocess.cpp:211
 #, kde-format
 msgid "Waiting %1 seconds to restart job '%2'."
-msgstr "En attente de %1 secondes pour relancer la tâche %2."
+msgstr "En attente de %1 s pour relancer la tâche %2."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:217
@@ -32071,7 +32071,7 @@ msgstr "Attention : la tâche %1 pour la procédure de mise au point a échoué
 #: ekos/scheduler/schedulerprocess.cpp:2840
 #, kde-format
 msgid "Warning: job '%1' guiding stage exceeded operations timeout (%2 seconds), marking aborted."
-msgstr "Attention : la tâche %1 a dépassé le délai d'expiration des opérations (%2 secondes) au niveau de l'étape de guidage. Tâche marquée annulée."
+msgstr "Attention : la tâche %1 a dépassé le délai d'expiration des opérations (%2 s) au niveau de l'étape de guidage. Tâche marquée annulée."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:2861
@@ -32248,7 +32248,7 @@ msgstr "Avertissement : la tâche de calibration %1 a échoué."
 #: ekos/scheduler/schedulerprocess.cpp:3775
 #, kde-format
 msgid "Job '%1' is guiding, guiding procedure will be restarted in %2 seconds."
-msgstr "La tâche %1 effectue le guidage. La procédure de guidage sera relancée dans %2 secondes."
+msgstr "La tâche %1 effectue le guidage. La procédure de guidage sera relancée dans %2 s."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:3828
@@ -32369,7 +32369,7 @@ msgstr "La sécurité s'est améliorée. Reprise des opérations."
 #: ekos/scheduler/schedulerprocess.cpp:4169
 #, kde-format
 msgid "Safety alert detected. Starting soft shutdown procedure in %1 seconds."
-msgstr "Alerte de sécurité détectée. Début de la procédure d'arrêt progressif dans %1 secondes."
+msgstr "Alerte de sécurité détectée. Début de la procédure d'arrêt progressif dans %1 s."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:4197
