@@ -7200,7 +7200,7 @@ msgstr "Filtre"
 #: ekos/capture/camera.ui:829
 #, kde-format
 msgid "Camera ISO"
-msgstr "ISO de l'appareil photo"
+msgstr "ISO de l'APN"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. i18n: ectx: property (text), widget (QLabel, focusExposureLabel)
@@ -16178,7 +16178,7 @@ msgstr "_%s"
 #: ekos/capture/camera.ui:1861
 #, no-c-format, kde-format
 msgid "<html><head/><body><p>Format is used to define the image file names by the use of placeholder tags.</p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Placeholder<span style=\" font-weight:704;\"> %f</span> or <span style=\" font-weight:704;\">%filename</span>: The name of the .esq file, without extension.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Placeholder<span style=\" font-weight:704;\"> %D</span> or <span style=\" font-weight:704;\">%Datetime</span>: The current time and date <span style=\" font-weight:704;\">when the file is saved.</span></li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Placeholder<span style=\" font-weight:704;\"> %T</span> or <span style=\" font-weight:704;\">%Type</span>: The frame type eg: 'Light', 'Bias', 'Dark', 'Flat'...</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Placeholder<span style=\" font-weight:704;\"> %e</span> or <span style=\" font-weight:704;\">%exposure</span>: The exposure duration in seconds, with '_secs' as suffix.</li><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Placeholder<span style=\" font-weight:704;\"> %E</span> or <span style=\" font-weight:704;\">%exp</span>: The exposure duration in seconds as plain number, without any unit as suffix.</li></ul><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Placeholder<span style=\" font-weight:704;\"> %F</span> or <span style=\" font-weight:704;\">%Filter</span>: The active filter name.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Placeholder<span style=\" font-weight:704;\"> %t</span> or <span style=\" font-weight:704;\">%target</span>: The Target name.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Placeholder <span style=\" font-weight:600;\">%C</span> or <span style=\" font-weight:600;\">%temperature</span>: The camera temperature of capturing.</li><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Placeholder <span style=\" font-weight:600;\">%B</span> or <span style=\" font-weight:600;\">%bin</span>: The binning configured for capturing.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Placeholder <span style=\" font-weight:600;\">%G</span> or <span style=\" font-weight:600;\">%gain</span>: The gain configured for capturing.</li></ul><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Placeholder <span style=\" font-weight:600;\">%O</span> or <span style=\" font-weight:600;\">%offset</span>: The offset configured for capturing.</li><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Placeholder <span style=\" font-weight:600;\">%I</span> or <span style=\" font-weight:600;\">%iso</span>: The ISO value (DSLRs only).</li></ul><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Placeholder <span style=\" font-weight:600;\">%P</span> or <span style=\" font-weight:600;\">%pierside</span>: The current mount's pier side.</li><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Placeholder <span style=\" font-weight:600;\">%H</span> or <span style=\" font-weight:600;\">%hostname</span>: The hostname running EKOS.</li></ul><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Placeholder <span style=\" font-weight:600;\">%c</span> or <span style=\" font-weight:600;\">%cameraname</span>: The active camera name.</li></ul><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Placeholder <span style=\" font-weight:600;\">%o</span> or <span style=\" font-weight:600;\">%opticaltrain</span>: The active optical train name.</li></ul><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Placeholder<span style=\" font-weight:704;\"> %s*</span> or <span style=\" font-weight:704;\">%sequence</span>: The image sequence identifier where * is the number of digits used (1-9). <span style=\" font-weight:704;\">This tag is mandatory and must be the last element in the format.</span></li></ul><p>Arbitrary text may also be included within the Format string, <span style=\" font-weight:704;\">except the % and \\ characters.</span> The / path character can be used to define arbitrary directories.</p><p>Notes:</p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Tags are case sensitive in both their short and long forms.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Only use the %Datetime tag in the filename portion of the format, not in the path definition.</li></ul></body></html>"
-msgstr "<html><head/><body><p>Le format sert à définir les noms de fichiers des images à l'aide de balises de remplacement.</p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise<span style=\" font-weight:704;\"> %f</span> ou <span style=\" font-weight:704;\">%filename</span>&nbsp;: nom du fichier .esq, sans l'extension.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise<span style=\" font-weight:704;\"> %D</span> ou <span style=\" font-weight:704;\">%Datetime</span>&nbsp;: date et heure courantes <span style=\" font-weight:704;\">au moment où le fichier est enregistré.</span></li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise<span style=\" font-weight:704;\"> %T</span> ou <span style=\" font-weight:704;\">%Type</span>&nbsp;: type de trame, p.&nbsp;ex.&nbsp;: «&nbsp;Light&nbsp;», «&nbsp;Bias&nbsp;», «&nbsp;Dark&nbsp;», «&nbsp;Flat&nbsp;»…</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise<span style=\" font-weight:704;\"> %e</span> ou <span style=\" font-weight:704;\">%exposure</span>&nbsp;: durée d'exposition en secondes, avec le suffixe «&nbsp;_secs&nbsp;».</li><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise<span style=\" font-weight:704;\"> %E</span> ou <span style=\" font-weight:704;\">%exp</span>&nbsp;: durée d'exposition en secondes sous forme de nombre, sans unité ni suffixe.</li></ul><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise<span style=\" font-weight:704;\"> %F</span> ou <span style=\" font-weight:704;\">%Filter</span>&nbsp;: nom du filtre actif.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise<span style=\" font-weight:704;\"> %t</span> ou <span style=\" font-weight:704;\">%target</span>&nbsp;: nom de la cible.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise <span style=\" font-weight:600;\">%C</span> ou <span style=\" font-weight:600;\">%temperature</span>&nbsp;: température de la caméra lors de l'acquisition.</li><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise <span style=\" font-weight:600;\">%B</span> ou <span style=\" font-weight:600;\">%bin</span>&nbsp;: regroupement (binning) configuré pour l'acquisition.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise <span style=\" font-weight:600;\">%G</span> ou <span style=\" font-weight:600;\">%gain</span>&nbsp;: gain configuré pour l'acquisition.</li></ul><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise <span style=\" font-weight:600;\">%O</span> ou <span style=\" font-weight:600;\">%offset</span>&nbsp;: offset configuré pour l'acquisition.</li><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise <span style=\" font-weight:600;\">%I</span> ou <span style=\" font-weight:600;\">%iso</span>&nbsp;: valeur ISO (appareils reflex uniquement).</li></ul><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise <span style=\" font-weight:600;\">%P</span> ou <span style=\" font-weight:600;\">%pierside</span>&nbsp;: côté du pilier actuel de la monture.</li><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise <span style=\" font-weight:600;\">%H</span> ou <span style=\" font-weight:600;\">%hostname</span>&nbsp;: nom d'hôte de la machine exécutant Ekos.</li></ul><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise<span style=\" font-weight:704;\"> %s*</span> ou <span style=\" font-weight:704;\">%sequence</span>&nbsp;: identifiant de séquence d'images, où * correspond au nombre de chiffres utilisés (1 à 9). <span style=\" font-weight:704;\">Cette balise est obligatoire et doit être le dernier élément du format.</span></li></ul><p>Du texte arbitraire peut aussi être inclus dans la chaîne de format, <span style=\" font-weight:704;\">à l'exception des caractères % et \\.</span> Le caractère de chemin / peut être utilisé pour définir des répertoires arbitraires.</p><p>Notes&nbsp;:</p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Les balises sont sensibles à la casse, tant dans leur forme courte que longue.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">N'utilisez la balise %Datetime que dans la partie nom de fichier du format, pas dans la définition de l'emplacement.</li></ul></body></html>"
+msgstr "<html><head/><body><p>Le format sert à définir les noms de fichiers des images à l'aide de balises de remplacement.</p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise<span style=\" font-weight:704;\"> %f</span> ou <span style=\" font-weight:704;\">%filename</span>&nbsp;: nom du fichier .esq, sans l'extension.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise<span style=\" font-weight:704;\"> %D</span> ou <span style=\" font-weight:704;\">%Datetime</span>&nbsp;: date et heure courantes <span style=\" font-weight:704;\">au moment où le fichier est enregistré.</span></li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise<span style=\" font-weight:704;\"> %T</span> ou <span style=\" font-weight:704;\">%Type</span>&nbsp;: type de trame, p.&nbsp;ex.&nbsp;: «&nbsp;Light&nbsp;», «&nbsp;Bias&nbsp;», «&nbsp;Dark&nbsp;», «&nbsp;Flat&nbsp;»…</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise<span style=\" font-weight:704;\"> %e</span> ou <span style=\" font-weight:704;\">%exposure</span>&nbsp;: durée d'exposition en secondes, avec le suffixe «&nbsp;_secs&nbsp;».</li><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise<span style=\" font-weight:704;\"> %E</span> ou <span style=\" font-weight:704;\">%exp</span>&nbsp;: durée d'exposition en secondes sous forme de nombre, sans unité ni suffixe.</li></ul><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise<span style=\" font-weight:704;\"> %F</span> ou <span style=\" font-weight:704;\">%Filter</span>&nbsp;: nom du filtre actif.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise<span style=\" font-weight:704;\"> %t</span> ou <span style=\" font-weight:704;\">%target</span>&nbsp;: nom de la cible.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise <span style=\" font-weight:600;\">%C</span> ou <span style=\" font-weight:600;\">%temperature</span>&nbsp;: température de la caméra lors de l'acquisition.</li><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise <span style=\" font-weight:600;\">%B</span> ou <span style=\" font-weight:600;\">%bin</span>&nbsp;: regroupement (binning) configuré pour l'acquisition.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise <span style=\" font-weight:600;\">%G</span> ou <span style=\" font-weight:600;\">%gain</span>&nbsp;: gain configuré pour l'acquisition.</li></ul><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise <span style=\" font-weight:600;\">%O</span> ou <span style=\" font-weight:600;\">%offset</span>&nbsp;: offset configuré pour l'acquisition.</li><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise <span style=\" font-weight:600;\">%I</span> ou <span style=\" font-weight:600;\">%iso</span>&nbsp;: valeur ISO (APN uniquement).</li></ul><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise <span style=\" font-weight:600;\">%P</span> ou <span style=\" font-weight:600;\">%pierside</span>&nbsp;: côté du pilier actuel de la monture.</li><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise <span style=\" font-weight:600;\">%H</span> ou <span style=\" font-weight:600;\">%hostname</span>&nbsp;: nom d'hôte de la machine exécutant Ekos.</li></ul><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Balise<span style=\" font-weight:704;\"> %s*</span> ou <span style=\" font-weight:704;\">%sequence</span>&nbsp;: identifiant de séquence d'images, où * correspond au nombre de chiffres utilisés (1 à 9). <span style=\" font-weight:704;\">Cette balise est obligatoire et doit être le dernier élément du format.</span></li></ul><p>Du texte arbitraire peut aussi être inclus dans la chaîne de format, <span style=\" font-weight:704;\">à l'exception des caractères % et \\.</span> Le caractère de chemin / peut être utilisé pour définir des répertoires arbitraires.</p><p>Notes&nbsp;:</p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Les balises sont sensibles à la casse, tant dans leur forme courte que longue.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">N'utilisez la balise %Datetime que dans la partie nom de fichier du format, pas dans la définition de l'emplacement.</li></ul></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, remoteLabel)
 #. +> trunk5
@@ -17307,7 +17307,7 @@ msgstr "<p>Ajouter une caméra supplémentaire</p><p><b>ATTENTION</b> : fonctio
 #: ekos/capture/capture.cpp:111
 #, kde-format
 msgid "DSLR"
-msgstr "Appareil photo numérique (APN)"
+msgstr "APN"
 
 #. +> trunk5
 #: ekos/capture/capture.cpp:531 ekos/focus/focusmodule.cpp:718
@@ -17726,7 +17726,7 @@ msgstr "Paramètres APN"
 #: ekos/capture/dslrinfo.ui:44
 #, kde-format
 msgid "<html><head/><body><p>Please fill the required information below. This is a one-time setup. You can obtain these values from your camera manual or from online sources such as <a href=\"https://www.digicamdb.com/\"><span style=\" text-decoration: underline; color:#007af4;\">Digital Camera Database</span></a>.</p></body></html>"
-msgstr "<html><head/><body><p>Veuillez fournir les informations requises ci-dessous. Il s'agit d'une configuration unique. Vous pouvez obtenir ces valeurs à partir du manuel de votre caméra ou de sources en ligne telles que la <a href=\"https://www.digicamdb.com/\"><span style=\" text-decoration: underline; color:#007af4;\">Base de données des appareils photo numériques</span></a>.</p></body></html>"
+msgstr "<html><head/><body><p>Veuillez fournir les informations requises ci-dessous. Il s'agit d'une configuration unique. Vous pouvez obtenir ces valeurs à partir du manuel de votre APN ou de sources en ligne telles que la <a href=\"https://www.digicamdb.com/\"><span style=\" text-decoration: underline; color:#007af4;\">Base de données des appareils photo numériques</span></a>.</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_3)
 #. +> trunk5
@@ -17827,7 +17827,7 @@ msgstr "Sélectionnez le gain de la caméra"
 #: ekos/capture/exposurecalculator/exposurecalculatordialog.ui:271
 #, kde-format
 msgid "Select DSLR ISO Value"
-msgstr "Sélectionnez la valeur « ISO » du DSLR"
+msgstr "Sélectionnez la valeur « ISO » de l'APN"
 
 #. i18n: ectx: property (text), widget (QLabel, gainISOSelectorLabel)
 #. +> trunk5
@@ -18312,28 +18312,28 @@ msgstr "Forcer les préréglages APN"
 #: ekos/capture/opsdslrsettings.ui:50
 #, kde-format
 msgid "Display received DSLR images in the Image Viewer"
-msgstr "Afficher les images DSLR reçues dans l'afficheur d'images"
+msgstr "Afficher les images reçues de l'APN dans l'afficheur d'images"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useDSLRImageViewer)
 #. +> trunk5
 #: ekos/capture/opsdslrsettings.ui:53
 #, kde-format
 msgid "DSLR image viewer"
-msgstr "Afficheur d'images du DSLR"
+msgstr "Afficheur d'images de l'APN"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, clearDSLRInfoB)
 #. +> trunk5
 #: ekos/capture/opsdslrsettings.ui:60
 #, kde-format
 msgid "Clear saved DSLR sizes"
-msgstr "Effacer les tailles enregistrées du DSLR"
+msgstr "Effacer les tailles enregistrées de l'APN"
 
 #. i18n: ectx: property (text), widget (QPushButton, clearDSLRInfoB)
 #. +> trunk5
 #: ekos/capture/opsdslrsettings.ui:63
 #, kde-format
 msgid "Clear DSLR Info"
-msgstr "Effacer les informations du DSLR"
+msgstr "Effacer les informations de l'APN"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_17)
 #. +> trunk5
@@ -26418,7 +26418,7 @@ msgstr "Ekos requiert au moins une caméra pour fonctionner."
 #: ekos/manager.cpp:1389
 #, kde-format
 msgid "Ekos detected that PTP Camera is running and may prevent a Canon or Nikon camera from connecting to Ekos. Do you want to quit PTP Camera now?"
-msgstr "Ekos a détecté que PTP Camera est en fonctionnement et peut empêcher une caméra Canon ou Nikon de se connecter à Ekos. Voulez-vous vraiment quitter PTP Camera maintenant ?"
+msgstr "Ekos a détecté que PTP Camera est en fonctionnement et peut empêcher un APN Canon ou Nikon de se connecter à Ekos. Voulez-vous vraiment quitter PTP Camera maintenant ?"
 
 #. +> trunk5
 #: ekos/manager.cpp:1390
@@ -45150,7 +45150,7 @@ msgstr "Afficher chaque image de la séquence dans la fenêtre d'aperçu de l'é
 #: kstars.kcfg:2336
 #, kde-format
 msgid "Display every captured DSLR image in the Image Viewer window."
-msgstr "Afficher chaque image du DSLR dans la fenêtre d'affichage des images."
+msgstr "Afficher chaque image de l'APN dans la fenêtre d'affichage des images."
 
 #. i18n: ectx: label, entry (ForceDSLRPresets), group (Capture)
 #. +> trunk5
@@ -90352,7 +90352,7 @@ msgstr "Caldwell"
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Camera Model"
-msgstr "Modèle d'appareil photo"
+msgstr "Modèle de caméra"
 
 #. +> trunk5
 #: libindi_strings.cpp:64
@@ -94475,21 +94475,21 @@ msgstr "<html><head/><body><p>Rapport focal de l'objectif ou F/D</p></body></htm
 #: oal/equipmentwriter.ui:696
 #, kde-format
 msgid "<html><head/><body><p>Save DSLR lens information</p></body></html>"
-msgstr "<html><head/><body><p>Enregistrer les information de l'objectif du DSLR</p></body></html>"
+msgstr "<html><head/><body><p>Enregistrer les informations de l'objectif de l'APN</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, NewDSLRLens)
 #. +> trunk5
 #: oal/equipmentwriter.ui:728
 #, kde-format
 msgid "<html><head/><body><p>Clear data and add a new DSLR lens</p></body></html>"
-msgstr "<html><head/><body><p>Effacer les données et ajouter un nouvel objectif pour le DSLR</p></body></html>"
+msgstr "<html><head/><body><p>Effacer les données et ajouter un nouvel objectif pour l'APN</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, RemoveDSLRLens)
 #. +> trunk5
 #: oal/equipmentwriter.ui:747
 #, kde-format
 msgid "<html><head/><body><p>Remove current DSLR lens</p></body></html>"
-msgstr "<html><head/><body><p>Supprimez l'objectif actuel du DSLR</p></body></html>"
+msgstr "<html><head/><body><p>Supprimez l'objectif actuel de l'APN</p></body></html>"
 
 #. i18n: ectx: attribute (title), widget (QWidget, ScopeLens)
 #. +> trunk5
