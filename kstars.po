@@ -11670,7 +11670,7 @@ msgstr "Guidage"
 #: ekos/analyze/analyze.cpp:2917
 #, kde-format
 msgid "Flip"
-msgstr "Retourner"
+msgstr "Retournement"
 
 #. i18n: ectx: property (text), widget (QLabel, jobLabel)
 #. +> trunk5
@@ -17247,13 +17247,13 @@ msgstr "La calibration après le retournement au méridien s'est terminée avec 
 #: ekos/capture/camerastate.cpp:1082
 #, kde-format
 msgid "Guiding deviation at capture startup %1 exceeded limit %2 arcsecs."
-msgstr "La déviation de guidage au début de l'acquisition %1 a dépassé la valeur limite de %2 secondes d'arc."
+msgstr "La déviation de guidage en début d'acquisition (%1) dépasse la limite de %2 secondes d'arc."
 
 #. +> trunk5
 #: ekos/capture/camerastate.cpp:1096
 #, kde-format
 msgid "Guiding deviation at capture startup %1 below limit value of %2 arcsecs"
-msgstr "La déviation de guidage au début de l'acquisition %1 est sous la valeur limite de %2 secondes d'arc."
+msgstr "La déviation de guidage en début d'acquisition (%1) est sous la limite de %2 secondes d'arc."
 
 #. +> trunk5
 #: ekos/capture/camerastate.cpp:1123
@@ -27618,7 +27618,7 @@ msgstr "Déparcage en cours"
 #: ekos/observatory/observatory.cpp:334
 #, kde-format
 msgid "Rolloff roof opening..."
-msgstr "Ouverture du toit…"
+msgstr "Ouverture du toit roulant…"
 
 #. +> trunk5
 #: ekos/observatory/observatory.cpp:338
@@ -27652,7 +27652,7 @@ msgstr "Déparquer"
 #: ekos/observatory/observatory.cpp:351
 #, kde-format
 msgid "Rolloff roof is closing..."
-msgstr "Fermeture du toit…"
+msgstr "Fermeture du toit roulant…"
 
 #. +> trunk5
 #: ekos/observatory/observatory.cpp:355
@@ -27770,7 +27770,7 @@ msgstr "La météo est correcte"
 #: ekos/observatory/observatory.cpp:833
 #, kde-format
 msgid "Weather Warning"
-msgstr "Alarme météo"
+msgstr "Avertissement météo"
 
 #. +> trunk5
 #: ekos/observatory/observatory.cpp:839
