@@ -15881,7 +15881,7 @@ msgstr "Température actuelle de la caméra"
 #: ekos/capture/camera.ui:931
 #, kde-format
 msgid "Set temperature now (does not affect the job's target temperature)"
-msgstr "Réglez la température maintenant (n'affecte pas la température cible du travail)"
+msgstr "Réglez la température maintenant (n'affecte pas la température cible de la tâche)"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton,
 #. temperatureRegulationB)
@@ -16763,7 +16763,7 @@ msgstr "Reprise de la séquence"
 #: ekos/capture/cameraprocess.cpp:300
 #, kde-format
 msgid "No pending jobs found. Please add a job to the sequence queue."
-msgstr "Pas de travail en cours. Veuillez ajouter un travail à la file de séquences."
+msgstr "Aucune tâche en attente. Veuillez ajouter une tâche à la file de séquences."
 
 #. +> trunk5
 #: ekos/capture/cameraprocess.cpp:314
@@ -18419,7 +18419,7 @@ msgstr "Délai d'acquisition maximal"
 #: ekos/capture/opsmiscsettings.ui:205
 #, kde-format
 msgid "<html><head/><body><p>When starting to process a sequence list, reset all capture counts to zero. Scheduler overrides this option when Remember job progress is enabled.</p></body></html>"
-msgstr "<html><head/><body><p>Lorsque vous commencez à traiter une liste de séquences, remet à zéro tous les comptages d'acquisition. L'ordonnanceur passe outre cette option lorsque l'option « Mémoriser la progression du travail » est activée.</p></body></html>"
+msgstr "<html><head/><body><p>Lorsque vous commencez à traiter une liste de séquences, remet à zéro tous les comptages d'acquisition. L'ordonnanceur passe outre cette option lorsque l'option « Se rappeler de l'avancement des tâches » est activée.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox,
 #. kcfg_AlwaysResetSequenceWhenStarting)
@@ -30380,7 +30380,7 @@ msgstr " °C/min"
 #: ekos/scheduler/opsweathersettings.ui:43
 #, kde-format
 msgid "<html><head/><body><p><span style=\" font-weight:700;\">Enable Weather-Based Scheduling:</span> Prevents new jobs from starting during weather warnings or alerts. Existing jobs continue during warnings, but are aborted during alerts. System initiates a soft shutdown and waits for improved conditions or grace period expiration, after which the current job is terminated.</p></body></html>"
-msgstr "<html><head/><body><p><span style=\" font-weight:700;\">Activer la planification fondée sur la météo :</span> empêche le démarrage de nouvelles tâches durant des avertissements ou alertes météo. Les travaux en cours continuent lors des avertissements mais sont annulées pendant les alertes. Le système déclenche un arrêt et attend que les conditions s'améliorent ou attend une période d'expiration, après laquelle la tâche courante est terminée.</body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700;\">Activer la planification fondée sur la météo :</span> empêche le démarrage de nouvelles tâches durant des avertissements ou alertes météo. Les tâches en cours continuent lors des avertissements mais sont annulées pendant les alertes. Le système déclenche un arrêt et attend que les conditions s'améliorent ou attend une période d'expiration, après laquelle la tâche courante est terminée.</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SchedulerWeather)
 #. +> trunk5
@@ -30511,7 +30511,7 @@ msgid ""
 "This is a summary, additional specific frame types may be required to complete the job."
 msgstr ""
 "Nombre d'images enregistrées pour la tâche, en fonction de la séquence de la tâche.\n"
-"Il s'agit d'un résumé, d'autres types de poses spécifiques peuvent être nécessaires pour terminer le travail."
+"Il s'agit d'un résumé, d'autres types de poses spécifiques peuvent être nécessaires pour terminer la tâche."
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:192
@@ -31267,7 +31267,7 @@ msgstr "<html><head/><body><p>L'aube et le crépuscule astronomiques pour la tâ
 #: ekos/scheduler/scheduler.ui:1882
 #, kde-format
 msgid "<html><head/><body><p>Define what should happen when a job steps into an error or aborts:</p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Don't re-schedule</span>: Don't restart the job in case of an error or an abort.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Re-schedule after all terminated</span>: If a job gets aborted, the scheduler will only re-schedule it if when all jobs are finished or aborted. If this is the case, the scheduler re-schedules all aborted jobs and sleeps for the given delay.</li><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Re-schedule immediately</span>: As soon as a job gets aborted, the scheduler will re-schedule it and waits the given delay.</li></ul><p>If the option for re-scheduling errors is selected, errors are handled like aborts. Otherwise, jobs that step into an error are never re-scheduled.</p></body></html>"
-msgstr "<html><head/><body><p>Définissez ce qui doit se passer lorsqu'un travail se retrouve face à une erreur ou s'interrompt : </p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Aucun</span> : ne pas relancer le travail en cas d'erreur ou d'annulation.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Mettre en file</span> : si une tâche est abandonnée, l'ordonnanceur ne la re-planifie que si toutes les tâches sont terminées ou abandonnées. Dans ce cas, l'ordonnanceur re-planifie tous les travaux annulés et s'endort pendant le délai donné.</li><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Immédiat</span> : dès qu'une tâche est abandonnée, l'ordonnanceur la re-planifie et attend le délai donné.</li></ul><p>Si l'option de re-planification des erreurs est sélectionnée, les erreurs sont traitées comme des annulations. Sinon, les travaux qui font face à une erreur ne sont jamais réordonnancés.</p></body></html>"
+msgstr "<html><head/><body><p>Définissez ce qui doit se passer lorsqu'une tâche se retrouve face à une erreur ou s'interrompt : </p><ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Aucun</span> : ne pas relancer la tâche en cas d'erreur ou d'annulation.</li><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Mettre en file</span> : si une tâche est abandonnée, l'ordonnanceur ne la re-planifie que si toutes les tâches sont terminées ou abandonnées. Dans ce cas, l'ordonnanceur re-planifie toutes les tâches annulées et s'endort pendant le délai donné.</li><li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Immédiat</span> : dès qu'une tâche est abandonnée, l'ordonnanceur la re-planifie et attend le délai donné.</li></ul><p>Si l'option de re-planification des erreurs est sélectionnée, les erreurs sont traitées comme des annulations. Sinon, les tâches qui font face à une erreur ne sont jamais réordonnancées.</p></body></html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, errorHandlingGroup)
 #. +> trunk5
@@ -32034,7 +32034,7 @@ msgstr "Démarrage de l'itération #%1 de la séquence de tâches"
 #: ekos/scheduler/schedulerprocess.cpp:2456
 #, kde-format
 msgid "No executable jobs found. Stopping scheduler."
-msgstr "Aucun travail exécutable trouvé. Arrêt de l'ordonnanceur."
+msgstr "Aucune tâche exécutable trouvée. Arrêt de l'ordonnanceur."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:2524
@@ -32174,7 +32174,7 @@ msgstr "Échec de la file d'attente post-arrêt : %1"
 #: ekos/scheduler/schedulerprocess.cpp:3447
 #, kde-format
 msgid "Warning: task failed during job '%1': %2. Marking job aborted."
-msgstr "Avertissement : la tâche a échoué pendant le travail %1 : %2. Marquage du travail comme interrompu."
+msgstr "Avertissement : une opération a échoué pendant la tâche %1 : %2. Marquage de la tâche comme interrompue."
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:3513
@@ -32581,7 +32581,7 @@ msgstr "Aucun périphérique connecté ne possède les interfaces requises"
 #: ekos/scheduler/taskqueue/ui/collectionsdialog.cpp:26
 #, kde-format
 msgid "Load Task Collection"
-msgstr "Charger une collection de tâches"
+msgstr "Charger une collection d'opérations"
 
 #. +> trunk5
 #: ekos/scheduler/taskqueue/ui/collectionsdialog.cpp:42
@@ -32843,7 +32843,7 @@ msgstr "Abandonner la file d'attente"
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:247
 #, kde-format
 msgid "Skip to Next Task"
-msgstr "Passer à la tâche suivante"
+msgstr "Passer à l'opération suivante"
 
 #. +> trunk5
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:248
@@ -33199,7 +33199,7 @@ msgstr "Impossible de créer l'objet modèle à partir du JSON."
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:1061
 #, kde-format
 msgid "Task Queue Viewer"
-msgstr "Visionneuse de la file d'attente des tâches"
+msgstr "Visionneuse de la file d'attente d'opérations"
 
 #. +> trunk5
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:60
@@ -33237,7 +33237,7 @@ msgstr "Réinitialiser la progression"
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:118
 #, kde-format
 msgid "Task"
-msgstr "Tâche"
+msgstr "Opération"
 
 #. +> trunk5
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:121
@@ -33344,7 +33344,7 @@ msgstr ""
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:451
 #, kde-format
 msgid "Task Update Failed"
-msgstr "Échec de la mise à jour de la tâche"
+msgstr "Échec de la mise à jour de l'opération"
 
 #. +> trunk5
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:452
@@ -33356,7 +33356,7 @@ msgstr "Impossible de mettre à jour la tâche avec les nouveaux paramètres"
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:466
 #, kde-format
 msgid "Task updated"
-msgstr "Tâche mise à jour"
+msgstr "Opération mise à jour"
 
 #. +> trunk5
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:520
@@ -33410,7 +33410,7 @@ msgstr "Ignoré"
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:751
 #, kde-format
 msgid "Task Creation Failed"
-msgstr "Échec de la création de la tâche"
+msgstr "Échec de la création de l'opération"
 
 #. +> trunk5
 #: ekos/scheduler/taskqueue/ui/queueviewerwidget.cpp:752
@@ -33558,7 +33558,7 @@ msgstr "La file d'attente contient des modifications non enregistrées. Voulez-v
 #: ekos/scheduler/taskqueue/ui/templatelibrarywidget.cpp:31
 #, kde-format
 msgid "Task Queue Templates"
-msgstr "Modèles de file d'attente de tâches"
+msgstr "Modèles de file d'attente d'opérations"
 
 #. +> trunk5
 #: ekos/scheduler/taskqueue/ui/templatelibrarywidget.cpp:52
