@@ -41,6 +41,16 @@ dépôt. Le circuit de livraison est :
 2. Signalement par mail au mainteneur côté KDE que le fichier à jour est disponible
    sur le fork. 
 
+Même circuit pour la documentation (dépôt séparé
+`documentation-kstars-docs-kde-org`) : les `.po` modifiés sont convertis au
+format SVN (nom aplati + tags `#. +> trunk5`) dans `svn-delivery/fr/`, poussés
+sur le fork, puis signalés par mail. Toujours repartir d'`upstream/master`
+avant de traduire. Attention : dans ce dépôt, `master` suit `upstream` (KDE),
+un `git push` sans argument échoue ; pousser explicitement vers `origin`.
+
+Mail au mainteneur : court, juste le nombre de nouvelles chaînes et de fuzzy
+par livraison (application, doc) et le lien.
+
 ## Site ouebe
 
 Le lien du [fichier po](https://websvn.kde.org/trunk/l10n-support/fr/summit/messages/websites-kstars-kde-org/kstars-kde-org.po?view=log).
@@ -122,7 +132,11 @@ Outils complémentaires pour une passe ponctuelle plus poussée :
 * Autofocus -> Mise au point automatique
 * location -> position (et non emplacement)
 * Backlash -> Jeu (mécanique)
-* Scheduler -> Ordonnanceur
+* Scheduler -> Ordonnanceur (jamais « planificateur », y compris dans la doc)
+* Planner (Observation, Mosaic) -> Planificateur (d'observations, de mosaïque)
+* Job (Scheduler, Capture) -> Tâche
+* Camera -> Caméra (jamais « appareil » seul) ; DSLR -> APN
+* Dust cap -> Capuchon antipoussière (sans tiret)
 * Dithering / Dither -> Décalage
 * Park / Unpark -> Parquer / Déparquer
 * Polar Alignment -> Alignement polaire
@@ -133,3 +147,13 @@ Outils complémentaires pour une passe ponctuelle plus poussée :
 * Dark (frame) / Dark Library -> dark / Bibliothèque de darks
 * Binning -> Regroupement
 * Rolloff roof -> Toit roulant
+
+## Historique
+
+* 2026-09-21 : terminologie caméra / APN harmonisée dans kstars.po et la doc.
+* 2026-09-24 : harmonisation Job / Task → « tâche » (Scheduler, Capture, Task Queue).
+* 2026-10-03 : fusion du POT du 2026-09-28 (6 nouvelles chaînes, 2 fuzzy :
+  accès fichiers MCP, « Ouvrir une image récente », ordonnanceur). Doc
+  `ekos-scheduler` : 12 nouvelles chaînes et 7 fuzzy (files de pré/post
+  démarrage et arrêt), « Scheduler » harmonisé en « ordonnanceur » partout
+  (18 entrées). Livré et signalé par mail.
