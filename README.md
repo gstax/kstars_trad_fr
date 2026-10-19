@@ -157,3 +157,7 @@ Outils complémentaires pour une passe ponctuelle plus poussée :
   `ekos-scheduler` : 12 nouvelles chaînes et 7 fuzzy (files de pré/post
   démarrage et arrêt), « Scheduler » harmonisé en « ordonnanceur » partout
   (18 entrées). Livré et signalé par mail.
+* 2026-10-19 : fusion du POT du 2026-10-17 (3 nouvelles chaînes, 4 fuzzy :
+  alignement polaire sans monture, échec D-Bus, raisons d'ordonnancement,
+  info-bulle Subframe / SEP Multi Star). Bouton `&Queue` de gestion des
+  tâches annulées renommé « Après la file ». Non encore livré.
