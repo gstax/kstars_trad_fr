@@ -147,6 +147,8 @@ Outils complémentaires pour une passe ponctuelle plus poussée :
 * Dark (frame) / Dark Library -> dark / Bibliothèque de darks
 * Binning -> Regroupement
 * Rolloff roof -> Toit roulant
+* Stream tracking -> Suivi sur flux
+* Dome shutter -> Obturateur de la coupole (doc) / du dôme (kstars.po)
 
 ## Historique
 
@@ -161,3 +163,9 @@ Outils complémentaires pour une passe ponctuelle plus poussée :
   alignement polaire sans monture, échec D-Bus, raisons d'ordonnancement,
   info-bulle Subframe / SEP Multi Star). Bouton `&Queue` de gestion des
   tâches annulées renommé « Après la file ». Livré et signalé par mail.
+* 2026-10-27 : fusion du POT du 2026-10-26 (32 nouvelles chaînes, 12 fuzzy :
+  nouvelle fonction Stream Tracking traduite « suivi sur flux », omission de
+  tâches dans la file, info-bulle Subframe). Doc : `fits-viewer-livestacker`,
+  `ekos-scheduler-taskqueue` (obturateur de la coupole, tâches ignorées) et
+  `ekos-tilt-correction` (réglages de détection d'étoiles) : 32 nouvelles
+  chaînes, 18 fuzzy ; « Live Stacker… » aligné sur « Empilement en direct… ».
