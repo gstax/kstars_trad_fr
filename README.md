@@ -169,3 +169,4 @@ Outils complémentaires pour une passe ponctuelle plus poussée :
   `ekos-scheduler-taskqueue` (obturateur de la coupole, tâches ignorées) et
   `ekos-tilt-correction` (réglages de détection d'étoiles) : 32 nouvelles
   chaînes, 18 fuzzy ; « Live Stacker… » aligné sur « Empilement en direct… ».
+  Livré et signalé par mail.
