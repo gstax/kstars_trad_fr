@@ -5340,7 +5340,7 @@ msgstr "Diamètre d'ouverture"
 #, kde-format
 msgctxt "F-Number or F-Ratio of optical system"
 msgid "F-Number: "
-msgstr "Nombre focal"
+msgstr "Rapport F/D"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, FOVDialog)
 #. +> trunk5
@@ -17726,7 +17726,7 @@ msgstr "Qualité du ciel"
 #: ekos/guide/guide.ui:775 oal/equipmentwriter.ui:608
 #, kde-format
 msgid "Focal Ratio"
-msgstr "Ratio de focale"
+msgstr "Rapport F/D"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk5
@@ -17782,7 +17782,7 @@ msgstr "ISO"
 #: ekos/capture/exposurecalculator/exposurecalculatordialog.ui:309
 #, kde-format
 msgid "Read noise constant"
-msgstr "Lire la constante de bruit"
+msgstr "Bruit de lecture constant"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, subShotNoise)
 #. +> trunk5
@@ -17950,7 +17950,7 @@ msgstr "Expositions"
 #: ekos/capture/exposurecalculator/exposurecalculatordialog.ui:895
 #, kde-format
 msgid "Calculated exposure count for integration"
-msgstr "Durée d'exposition calculée pour l'intégration"
+msgstr "Nombre de poses calculé pour l'intégration"
 
 #. i18n: ectx: property (toolTip), widget (QCustomPlot, qCustomPlotIntegrationNoise)
 #. +> trunk5
@@ -20187,7 +20187,7 @@ msgstr "<html><head/><body><p>La FWHM de la visibilité totale (en seconde d'arc
 #: ekos/focus/cfz.ui:447
 #, kde-format
 msgid "<html><head/><body><p>Reset Wavelength,  Aperture,  Focal ratio to values from the currently selected filter and optical train</p></body></html>"
-msgstr "<html><head/><body><p>Réinitialiser les valeurs de longueur d'onde, d'ouverture et de focale à partir de celles du filtre et du train optique actuellement sélectionnés.</p></body></html>"
+msgstr "<html><head/><body><p>Réinitialiser les valeurs de longueur d'onde, d'ouverture et de rapport F/D à partir de celles du filtre et du train optique actuellement sélectionnés.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, resetToOTB)
 #. +> trunk5
@@ -20201,7 +20201,7 @@ msgstr "Réinitialiser à OT"
 #: ekos/focus/cfz.ui:463
 #, kde-format
 msgid "Focal ratio (f):"
-msgstr "Rapport de focale (f)"
+msgstr "Rapport F/D (f)"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, focusCFZAlgorithm)
 #. +> trunk5
@@ -47219,7 +47219,7 @@ msgstr "Longueur focale du télescope, en millimètres."
 #: kstars.kcfg:3576
 #, kde-format
 msgid "Focal Reducer ratio"
-msgstr "Ratio de focale du réducteur"
+msgstr "Facteur du réducteur de focale"
 
 #. i18n: ectx: label, entry (CameraPixelWidth), group (Scheduler)
 #. +> trunk5
@@ -94596,7 +94596,7 @@ msgstr "Longueur focale"
 #: oal/equipmentwriter.ui:605
 #, kde-format
 msgid "<html><head/><body><p>Lens Focal Ratio or F-Number</p></body></html>"
-msgstr "<html><head/><body><p>Rapport focal de l'objectif ou F/D</p></body></html>"
+msgstr "<html><head/><body><p>Rapport F/D de l'objectif</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, AddDSLRLens)
 #. +> trunk5
