@@ -180,4 +180,5 @@ Outils complémentaires pour une passe ponctuelle plus poussée :
   calculateur, fichiers de données caméra, détail du calcul). « Rapport F/D »
   harmonisé partout (kstars.po, ekos-capture, ekos-focus, ai-telescopes,
   index). Les en-têtes du tableau d'intégration et « Mono »/« Color » ne sont
-  pas passés par i18n() en amont et restent en anglais.
+  pas passés par i18n() en amont et restent en anglais. Livré et signalé par
+  mail.
