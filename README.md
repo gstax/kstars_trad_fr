@@ -149,6 +149,8 @@ Outils complémentaires pour une passe ponctuelle plus poussée :
 * Rolloff roof -> Toit roulant
 * Stream tracking -> Suivi sur flux
 * Dome shutter -> Obturateur de la coupole (doc) / du dôme (kstars.po)
+* Focal ratio / F-Number -> Rapport F/D (partout, app et doc)
+* Focal Reducer ratio -> Facteur du réducteur de focale
 
 ## Historique
 
@@ -170,3 +172,12 @@ Outils complémentaires pour une passe ponctuelle plus poussée :
   `ekos-tilt-correction` (réglages de détection d'étoiles) : 32 nouvelles
   chaînes, 18 fuzzy ; « Live Stacker… » aligné sur « Empilement en direct… ».
   Livré et signalé par mail.
+* 2026-10-29 : fusion du POT du 2026-10-27 (2 nouvelles chaînes, 5 fuzzy :
+  téléchargement des données caméra du calculateur d'exposition depuis
+  indilib/camera-data). Contresens corrigés : « Read noise constant » →
+  « Bruit de lecture constant », nombre de poses calculé, facteur du réducteur
+  de focale. Doc `ekos-capture` : 50 nouvelles chaînes, 13 fuzzy (ouverture du
+  calculateur, fichiers de données caméra, détail du calcul). « Rapport F/D »
+  harmonisé partout (kstars.po, ekos-capture, ekos-focus, ai-telescopes,
+  index). Les en-têtes du tableau d'intégration et « Mono »/« Color » ne sont
+  pas passés par i18n() en amont et restent en anglais.
