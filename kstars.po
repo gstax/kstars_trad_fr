@@ -23,7 +23,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars_3.8.5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-26 09:28+0100\n"
+"POT-Creation-Date: 2026-10-27 22:50+0100\n"
 "PO-Revision-Date: 2026-07-03 13:40+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: fr\n"
@@ -17980,6 +17980,49 @@ msgstr "dy ="
 msgid "Integration time to noise ratio (potential quality)"
 msgstr "Durée d'intégration en fonction du bruit (qualité potentielle)"
 
+#. +> trunk5
+#: ekos/capture/exposurecalculator/fileutilitycameradatadialog.cpp:78
+#, kde-format
+msgctxt "camera name, followed by its status"
+msgid "%1 (update available)"
+msgstr "%1 (mise à jour disponible)"
+
+#. +> trunk5
+#: ekos/capture/exposurecalculator/fileutilitycameradatadialog.cpp:80
+#, kde-format
+msgctxt "camera name, followed by its status"
+msgid "%1 (installed)"
+msgstr "%1 (installée)"
+
+#. +> trunk5
+#: ekos/capture/exposurecalculator/fileutilitycameradatadialog.cpp:100
+#, kde-format
+msgid "An update is available for 1 installed camera."
+msgid_plural "Updates are available for %1 installed cameras."
+msgstr[0] "Des données mises à jour sont disponibles pour %1 caméra installée."
+msgstr[1] "Des données mises à jour sont disponibles pour %1 caméras installées."
+
+#. +> trunk5
+#: ekos/capture/exposurecalculator/fileutilitycameradatadialog.cpp:110
+#, kde-format
+msgid "The list of cameras could not be downloaded: %1"
+msgstr "Impossible de télécharger la liste des caméras : %1"
+
+#. +> trunk5
+#: ekos/capture/exposurecalculator/fileutilitycameradatadialog.cpp:122
+#: ekos/capture/exposurecalculator/fileutilitycameradatadialog.cpp:146
+#, kde-format
+msgid "Downloading 1 camera..."
+msgid_plural "Downloading %1 cameras..."
+msgstr[0] "Téléchargement des données de %1 caméra…"
+msgstr[1] "Téléchargement des données de %1 caméras…"
+
+#. +> trunk5
+#: ekos/capture/exposurecalculator/fileutilitycameradatadialog.cpp:159
+#, kde-format
+msgid "Could not download: %1"
+msgstr "Échec du téléchargement : %1"
+
 #. i18n: ectx: property (windowTitle), widget (QDialog, FileUtilityCameraDataDialog)
 #. +> trunk5
 #: ekos/capture/exposurecalculator/fileutilitycameradatadialog.ui:35
@@ -17991,8 +18034,8 @@ msgstr "Téléchargement de données de caméra"
 #. +> trunk5
 #: ekos/capture/exposurecalculator/fileutilitycameradatadialog.ui:101
 #, kde-format
-msgid "Select all cameras you wish to use:"
-msgstr "Sélectionner toutes les caméras que vous souhaitez utiliser"
+msgid "Select the cameras to download:"
+msgstr "Sélectionner les caméras à télécharger"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, Limits)
 #. +> trunk5
