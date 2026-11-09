@@ -191,3 +191,5 @@ Outils complémentaires pour une passe ponctuelle plus poussée :
   de la boîte à flat, dérotation de champ Alt-Az, arrêt de l'observatoire dans
   l'ordonnanceur). « Target ADU » harmonisé en « ADU cible ». Aucune chaîne à
   traduire côté doc.
+* 2026-11-09 : fusion du POT du 2026-11-09 (15 nouvelles chaînes nettes : bilan
+  de configuration de l'alignement).
