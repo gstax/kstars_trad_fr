@@ -151,6 +151,10 @@ Outils complémentaires pour une passe ponctuelle plus poussée :
 * Dome shutter -> Obturateur de la coupole (doc) / du dôme (kstars.po)
 * Focal ratio / F-Number -> Rapport F/D (partout, app et doc)
 * Focal Reducer ratio -> Facteur du réducteur de focale
+* Light box -> Boîte à flat ; Brightness (boîte à flat) -> Luminosité
+* Target ADU -> ADU cible
+* Field derotation -> Dérotation de champ
+* Trail (étoiles) -> Traînée ; to trail -> filer
 
 ## Historique
 
@@ -182,3 +186,8 @@ Outils complémentaires pour une passe ponctuelle plus poussée :
   index). Les en-têtes du tableau d'intégration et « Mono »/« Color » ne sont
   pas passés par i18n() en amont et restent en anglais. Livré et signalé par
   mail.
+* 2026-11-09 : fusion du POT du 2026-11-08 (289 nouvelles chaînes, 17 fuzzy :
+  diagnostic d'échec de l'alignement, calibration des flats par la luminosité
+  de la boîte à flat, dérotation de champ Alt-Az, arrêt de l'observatoire dans
+  l'ordonnanceur). « Target ADU » harmonisé en « ADU cible ». Aucune chaîne à
+  traduire côté doc.
