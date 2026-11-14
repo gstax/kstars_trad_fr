@@ -220,3 +220,9 @@ Outils complémentaires pour une passe ponctuelle plus poussée :
   alignés sur l'appli). Ajouté à la MR !2 (premier passage de la doc par le
   nouveau circuit). Nouveau circuit signalé par mail au mainteneur (plus de
   mail à chaque livraison).
+* 2026-11-14 : lecture de la MR l10n-fr !1 (scripts summit portés sur Git, non
+  fusionnée). Un cron du coordinateur fait merge/scatter du summit vers
+  trunk5/6 et stable5/6, génère les docbooks et ouvre ses propres MR en fusion
+  automatique. Pour nous : rebaser sur `upstream/master` juste avant le push,
+  `msgfmt --check` sur le summit (un .po en échec n'est pas répercuté), valider
+  le docbook nous-mêmes. `appliquer_sur_summit.py` inchangé.
