@@ -25,31 +25,44 @@ Le fichier `kstars.po` de ce dépôt suit la branche summit/trunk5 de KDE. Il
 contient déjà les commentaires `#. +> trunk5` à conserver impérativement lors
 de toute édition (ne jamais les supprimer par erreur).
 
-Référence en ligne : https://fr.l10n.kde.org/apps/pofiles.php#kstars, lien
-direct
-[websvn](https://websvn.kde.org/trunk/l10n-support/fr/summit/messages/kstars/kstars.po?view=co).
+Référence en ligne : https://fr.l10n.kde.org/apps/pofiles.php#kstars. Depuis
+novembre 2026 (passage des traductions KDE de SVN à Git), le fichier de
+référence est
+[summit/messages/kstars/kstars.po](https://invent.kde.org/localization/l10n-fr/-/blob/master/summit/messages/kstars/kstars.po)
+dans le dépôt `localization/l10n-fr`.
 Le `Project-Id-Version` du fichier n'est pas toujours fiable pour dater une
 version : croiser plutôt `POT-Creation-Date` avec `appdata.xml` et le
 `git log` du dépôt source KStars.
 
 ## Circuit de soumission
 
-Pas d'accès en écriture au SVN KDE, et pas de MR GitLab possible pour ce
-dépôt. Le circuit de livraison est :
+Depuis novembre 2026, livraison par **merge request** sur
+`localization/l10n-fr` (invent.kde.org), depuis un fork personnel. La MR est
+fusionnée dès que la pipeline `po-lint` est verte.
 
-1. `git push` sur le fork GitHub personnel
-2. Signalement par mail au mainteneur côté KDE que le fichier à jour est disponible
-   sur le fork. 
+1. Clone partiel du fork (`--filter=blob:none` + sparse-checkout sur
+   `summit/messages/kstars` et `summit/messages/documentation-kstars-docs-kde-org`),
+   remotes `origin` = fork, `upstream` = `localization/l10n-fr`.
+2. Relecture dans le `kstars.po` de ce dépôt (format sans retour à la ligne),
+   commit ici.
+3. Nouvelle branche dans le clone depuis `upstream/master`, report des seules
+   entrées modifiées sur le fichier summit : le summit est replié à 80
+   colonnes, recopier notre fichier produirait ~18 000 lignes de diff de pure
+   mise en forme. Le script de report ne réécrit que les entrées dont la
+   traduction ou l'état fuzzy change.
+4. `msgfmt --check`, commit (auteur réel), push de la branche sur le fork,
+   MR vers `localization/l10n-fr:master` (cocher « Delete source branch » et
+   « Allow commits from members »).
 
-Même circuit pour la documentation (dépôt séparé
-`documentation-kstars-docs-kde-org`) : les `.po` modifiés sont convertis au
-format SVN (nom aplati + tags `#. +> trunk5`) dans `svn-delivery/fr/`, poussés
-sur le fork, puis signalés par mail. Toujours repartir d'`upstream/master`
-avant de traduire. Attention : dans ce dépôt, `master` suit `upstream` (KDE),
-un `git push` sans argument échoue ; pousser explicitement vers `origin`.
+Le summit est déjà fusionné avec les nouveaux modèles par scripty : il sert de
+base pour repérer les nouvelles chaînes (`git fetch upstream`), plus besoin de
+`msgmerge` local. Ses fuzzy pré-remplis automatiquement ne respectent pas nos
+conventions : toujours les relire.
 
-Mail au mainteneur : court, juste le nombre de nouvelles chaînes et de fuzzy
-par livraison (application, doc) et le lien.
+Documentation : les `.po` de la doc vivent aussi dans `l10n-fr`, sous
+`summit/messages/documentation-kstars-docs-kde-org/` (noms aplatis). Circuit à
+valider à la prochaine livraison doc. L'ancien circuit (fork GitHub du dépôt
+doc, `svn-delivery/`, mail) est caduc.
 
 ## Site ouebe
 
@@ -193,3 +206,9 @@ Outils complémentaires pour une passe ponctuelle plus poussée :
   traduire côté doc.
 * 2026-11-09 : fusion du POT du 2026-11-09 (15 nouvelles chaînes nettes : bilan
   de configuration de l'alignement). Livré et signalé par mail.
+* 2026-11-14 : passage des traductions KDE de SVN à Git. Livraison désormais
+  par MR sur `localization/l10n-fr` depuis un fork (voir « Circuit de
+  soumission »). Première MR : fusion du POT du 2026-11-11 (4 chaînes de
+  calibration des flats, fuzzy pré-remplis par l'outillage KDE réécrits :
+  « images plates », « caissons lumineux » → flats, boîte à flat), diff de
+  29 lignes sur le summit.
