@@ -212,3 +212,10 @@ Outils complémentaires pour une passe ponctuelle plus poussée :
   calibration des flats, fuzzy pré-remplis par l'outillage KDE réécrits :
   « images plates », « caissons lumineux » → flats, boîte à flat), diff de
   29 lignes sur le summit.
+* 2026-11-14 : doc comparée au summit (`scripts/compare_doc_summit.py`) :
+  117 fichiers sur 118 identiques. `ekos-capture` (POT du 2026-11-11) :
+  7 fuzzy sur la calibration des flats par la boîte à flat, pré-remplis hors
+  conventions par l'outillage KDE, retraduits (libellés contrôlés contre
+  kstars.po ; « file d'attente de séquences » et « capuchon antipoussière »
+  alignés sur l'appli). Ajouté à la MR !2 (premier passage de la doc par le
+  nouveau circuit).
