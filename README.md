@@ -218,4 +218,5 @@ Outils complémentaires pour une passe ponctuelle plus poussée :
   conventions par l'outillage KDE, retraduits (libellés contrôlés contre
   kstars.po ; « file d'attente de séquences » et « capuchon antipoussière »
   alignés sur l'appli). Ajouté à la MR !2 (premier passage de la doc par le
-  nouveau circuit).
+  nouveau circuit). Nouveau circuit signalé par mail au mainteneur (plus de
+  mail à chaque livraison).
