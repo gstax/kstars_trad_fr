@@ -18,7 +18,7 @@ traduit, `msgfmt --check` sans erreur.
 
 Chaque jour vers 5 h, le timer systemd utilisateur `kstars-veille.timer`
 (`~/.config/systemd/user/`) lance `scripts/veille_summit.py` : `git fetch` du
-summit l10n-fr, comptage des fuzzy et non traduites (appli + doc), notification
+summit l10n-fr, comptage des fuzzy et non traduites (appli, doc, site web), notification
 KDE s'il y a du travail. Une seule alerte par changement du summit (état dans
 `~/.cache/kstars_veille.json`).
 
@@ -78,7 +78,11 @@ doc, `svn-delivery/`, mail) est caduc.
 
 ## Site ouebe
 
-Le lien du [fichier po](https://websvn.kde.org/trunk/l10n-support/fr/summit/messages/websites-kstars-kde-org/kstars-kde-org.po?view=log).
+Copie de travail : `website/kstars-kde-org.po` (non repliée, comme le summit).
+Fichier KDE : `summit/messages/websites-kstars-kde-org/kstars-kde-org.po` dans
+[localization/l10n-fr](https://invent.kde.org/localization/l10n-fr), livré
+comme l'appli par MR (branche `kstars-website-<date>`, commit
+`kstars-website: …`). Compris dans la veille de 5 h.
 
 Le site se trouve [ici](https://kstars.kde.org/fr/).
 
@@ -253,3 +257,9 @@ Outils complémentaires pour une passe ponctuelle plus poussée :
   MR !7 : https://invent.kde.org/localization/l10n-fr/-/merge_requests/7
 * 2026-11-17 : veille automatique quotidienne du summit (timer systemd +
   notification KDE, voir « Veille automatique »).
+* 2026-11-17 : site kstars.kde.org remis à jour depuis le summit (POT du
+  2026-11-08) : 2 fuzzy (liens Matrix), installeurs macOS Apple Silicon/Intel,
+  « programme d'installation » harmonisé, message QuickHash corrigé. Les
+  corrections locales de 2025 (astrophotographe, d'INDI, tiret cadratin)
+  n'avaient jamais été livrées : reportées. MR !8 :
+  https://invent.kde.org/localization/l10n-fr/-/merge_requests/8
