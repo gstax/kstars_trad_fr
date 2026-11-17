@@ -153,7 +153,9 @@ Outils complémentaires pour une passe ponctuelle plus poussée :
 * Dithering / Dither -> Décalage
 * Park / Unpark -> Parquer / Déparquer
 * Polar Alignment -> Alignement polaire
-* Slew -> Pointer (télescope/monture)
+* Slew -> Pointer / pointage (télescope/monture, partout app et doc ; jamais
+  pivoter, rotation, déplacement oblique) ; Slew rate -> Vitesse de pointage.
+  Carte du ciel : « réorientation » (animated slewing)
 * Field rotation -> Rotation de champ
 * Tilt (plate/correction) -> Inclinaison
 * Autoguiding -> Guidage automatique
@@ -226,3 +228,13 @@ Outils complémentaires pour une passe ponctuelle plus poussée :
   automatique. Pour nous : rebaser sur `upstream/master` juste avant le push,
   `msgfmt --check` sur le summit (un .po en échec n'est pas répercuté), valider
   le docbook nous-mêmes. `appliquer_sur_summit.py` inchangé.
+* 2026-11-17 : fusion du POT du 2026-11-16 (20 chaînes, 15 fuzzy et 5 vides :
+  diagnostic « la monture s'est arrêtée sans suivi », PAC sous le seuil,
+  erreurs de mise à jour des groupes de satellites). Notre `kstars.po` est
+  désormais repris du summit par `msgcat --no-wrap` (même mise en forme, pas de
+  msgmerge local). « Slew » harmonisé en « pointage » : 37 entrées de kstars.po
+  (dont « tâche de rotation » de l'ordonnanceur, libellés INDI, « Charger &
+  Pointer ») et 34 entrées de doc dans 12 fichiers (ekos-align, indi-faq…).
+  L'option « Slew to selected objects on the SkyMap » du planificateur
+  d'acquisition, qui centre en fait la carte, devient « Centrer la carte du ciel
+  sur les objets sélectionnés ». Branche `kstars-2026-11-17` (2 commits).
