@@ -237,4 +237,5 @@ Outils complémentaires pour une passe ponctuelle plus poussée :
   Pointer ») et 34 entrées de doc dans 12 fichiers (ekos-align, indi-faq…).
   L'option « Slew to selected objects on the SkyMap » du planificateur
   d'acquisition, qui centre en fait la carte, devient « Centrer la carte du ciel
-  sur les objets sélectionnés ». Branche `kstars-2026-11-17` (2 commits).
+  sur les objets sélectionnés ». Branche `kstars-2026-11-17` (2 commits),
+  MR !7 : https://invent.kde.org/localization/l10n-fr/-/merge_requests/7
