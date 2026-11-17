@@ -14,6 +14,18 @@ corrigées.
 État visé en permanence : `msgfmt --statistics kstars.po` → 0 fuzzy, 0 non
 traduit, `msgfmt --check` sans erreur.
 
+## Veille automatique
+
+Chaque jour vers 9 h, le timer systemd utilisateur `kstars-veille.timer`
+(`~/.config/systemd/user/`) lance `scripts/veille_summit.py` : `git fetch` du
+summit l10n-fr, comptage des fuzzy et non traduites (appli + doc), notification
+KDE s'il y a du travail. Une seule alerte par changement du summit (état dans
+`~/.cache/kstars_veille.json`).
+
+- Tester / revoir l'état : `python3 scripts/veille_summit.py --forcer`
+- Journal : `journalctl --user -u kstars-veille.service`
+- Couper : `systemctl --user disable --now kstars-veille.timer`
+
 ## Documentation
 
 La documentation (manuel utilisateur, fichiers Sphinx) vit dans un dépôt
@@ -239,3 +251,5 @@ Outils complémentaires pour une passe ponctuelle plus poussée :
   d'acquisition, qui centre en fait la carte, devient « Centrer la carte du ciel
   sur les objets sélectionnés ». Branche `kstars-2026-11-17` (2 commits),
   MR !7 : https://invent.kde.org/localization/l10n-fr/-/merge_requests/7
+* 2026-11-17 : veille automatique quotidienne du summit (timer systemd +
+  notification KDE, voir « Veille automatique »).
