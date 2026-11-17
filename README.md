@@ -16,7 +16,7 @@ traduit, `msgfmt --check` sans erreur.
 
 ## Veille automatique
 
-Chaque jour vers 9 h, le timer systemd utilisateur `kstars-veille.timer`
+Chaque jour vers 5 h, le timer systemd utilisateur `kstars-veille.timer`
 (`~/.config/systemd/user/`) lance `scripts/veille_summit.py` : `git fetch` du
 summit l10n-fr, comptage des fuzzy et non traduites (appli + doc), notification
 KDE s'il y a du travail. Une seule alerte par changement du summit (état dans
